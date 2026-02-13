@@ -1,0 +1,13 @@
+{
+  "plant": {
+    "common_name": "Angel's Trumpets",
+    "scientific_name": null
+  },
+  "raw_responses": {
+    "basics": null,
+    "toxic_parts": "\ud83d\udcda Loaded library with 1 notebooks\n\ud83d\udcac Asking: Which parts of Angel's Trumpets are toxic to cats? (e.g. leaves, bulbs, flowers, pollen, stems, roots, seeds, bark, sap, fruit, entire plant). Cite your sources.\n\ud83d\udcda Notebook: https://notebooklm.google.com/notebook/9ef4df26-178b-446d-8e9d-e57cbe878a0d\n  \ud83c\udf10 Opening notebook...\n  \u23f3 Waiting for query input...\n  \u2713 Found input: textarea.query-box-input\n  \u23f3 Typing question...\n  \ud83d\udce4 Submitting...\n  \u23f3 Waiting for answer...\n  \u2705 Got answer!\n\n============================================================\nQuestion: Which parts of Angel's Trumpets are toxic to cats? (e.g. leaves, bulbs, flowers, pollen, stems, roots, seeds, bark, sap, fruit, entire plant). Cite your sources.\n============================================================\n\nBased on the provided sources, particularly Avonvale Veterinary Centre, here is the information regarding the toxic parts of Angel's Trumpets:\n\u2022 Entire Plant/General Ingestion: The source warns that the plant itself is harmful and advises immediate veterinary care if a pet has \"ingested this plant\"1.\n\u2022 Leaves: The source specifically mentions the leaves, noting that they have a \"strong odour\" which usually deters pets from nibbling on them, though not always1.\n\u2022 Blooms: The source mentions the plant produces \"beautiful blooms,\" contributing to its popularity, but does not explicitly isolate their toxicity separate from the general plant warning1.\nImportant Note: While the source highlights the leaves and the plant in general, Angel's Trumpets (Brugmansia spp.) are widely known in broader veterinary toxicology to be toxic in all parts (especially seeds and flowers); however, based strictly on the provided text, the leaves are the specific part mentioned in the context of consumption1.",
+    "toxins": null,
+    "symptoms": null,
+    "treatments": null
+  }
+}

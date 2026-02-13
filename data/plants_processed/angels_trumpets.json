@@ -1,0 +1,16 @@
+{
+  "plant": {
+    "common_name": "Angel's Trumpets",
+    "scientific_name": null
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant",
+    "Seed",
+    "Flower"
+  ],
+  "toxins": [],
+  "symptoms": [],
+  "treatments": []
+}

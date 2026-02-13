@@ -1,0 +1,638 @@
+[
+  {
+    "common_name": "African Blue Lily",
+    "scientific_name": "Agapanthus orientalis or Agapanthus africanus"
+  },
+  {
+    "common_name": "Allamanda",
+    "scientific_name": "Allamanda cathartica"
+  },
+  {
+    "common_name": "Aloe Vera",
+    "scientific_name": "Aloe barbadensis or Aloe spp."
+  },
+  {
+    "common_name": "Amaryllis",
+    "scientific_name": "Hippeastrum spp. or Amaryllis spp."
+  },
+  {
+    "common_name": "American Mistletoe",
+    "scientific_name": "Phoradendron flavescens"
+  },
+  {
+    "common_name": "Angel's Trumpets",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Apple",
+    "scientific_name": "Malus spp."
+  },
+  {
+    "common_name": "Apricot",
+    "scientific_name": "Prunus spp."
+  },
+  {
+    "common_name": "Arrowhead Vine",
+    "scientific_name": "Syngonium spp."
+  },
+  {
+    "common_name": "Asparagus Fern",
+    "scientific_name": "also Foxtail or Emerald Fern"
+  },
+  {
+    "common_name": "Autumn Crocus",
+    "scientific_name": "Colchicum autumnale"
+  },
+  {
+    "common_name": "Avocado",
+    "scientific_name": "Persea americana"
+  },
+  {
+    "common_name": "Azalea",
+    "scientific_name": "Rhododendron spp."
+  },
+  {
+    "common_name": "Begonia",
+    "scientific_name": "Begonia spp."
+  },
+  {
+    "common_name": "Bell Pepper / Chili Pepper / Ornamental Pepper",
+    "scientific_name": "Capsicum annuum"
+  },
+  {
+    "common_name": "Bird of Paradise",
+    "scientific_name": "Strelitzia reginae"
+  },
+  {
+    "common_name": "Bird\u2019s Nest Anthurium",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Bittersweet",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Black Velvet Alocasia",
+    "scientific_name": "Alocasia reginula"
+  },
+  {
+    "common_name": "Blood Lily",
+    "scientific_name": "Scadoxus spp."
+  },
+  {
+    "common_name": "Bluebells",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Caladium / Elephant\u2019s Ear",
+    "scientific_name": "Caladium spp. or Alocasia spp."
+  },
+  {
+    "common_name": "Calla Lily",
+    "scientific_name": "Zantedeschia aethiopica or Zantedeschia spp."
+  },
+  {
+    "common_name": "Cannabis / Marijuana",
+    "scientific_name": "Cannabis sativa"
+  },
+  {
+    "common_name": "Cardboard Palm",
+    "scientific_name": "Zamia furfuracea"
+  },
+  {
+    "common_name": "Carnation",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Castor Bean",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Century Plant",
+    "scientific_name": "Agave americana"
+  },
+  {
+    "common_name": "Chamomile",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Cherry / Black Cherry / Chokecherry",
+    "scientific_name": "Prunus spp."
+  },
+  {
+    "common_name": "Cherry Laurel",
+    "scientific_name": "Prunus spp."
+  },
+  {
+    "common_name": "Chinese Evergreen",
+    "scientific_name": "Aglaonema modestum or Aglaonema commitatum"
+  },
+  {
+    "common_name": "Chives",
+    "scientific_name": "Allium schoenoprasum"
+  },
+  {
+    "common_name": "Chocolate Mint",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Christmas Cactus",
+    "scientific_name": "Schlumbergera spp."
+  },
+  {
+    "common_name": "Christmas Rose",
+    "scientific_name": "Helleborus niger"
+  },
+  {
+    "common_name": "Chrysanthemum / Mums",
+    "scientific_name": "Chrysanthemum implied"
+  },
+  {
+    "common_name": "Cinnamon",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Citrus",
+    "scientific_name": "Lemon, Lime, Orange, Grapefruit"
+  },
+  {
+    "common_name": "Clove",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Cobra Lily",
+    "scientific_name": "Darlingtonia californica"
+  },
+  {
+    "common_name": "Common Garden Mint",
+    "scientific_name": "Mentha spp."
+  },
+  {
+    "common_name": "Coontie Palm",
+    "scientific_name": "Zamia pumila or Zamia floridana"
+  },
+  {
+    "common_name": "Corn Plant",
+    "scientific_name": "Dracaena fragrans"
+  },
+  {
+    "common_name": "Corsican Mint",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Crocus",
+    "scientific_name": "Spring"
+  },
+  {
+    "common_name": "Croton",
+    "scientific_name": "Codiaeum"
+  },
+  {
+    "common_name": "Curly Dock / Sorrel",
+    "scientific_name": "Rumex spp."
+  },
+  {
+    "common_name": "Cycad",
+    "scientific_name": "Cycas spp. or Zamia spp."
+  },
+  {
+    "common_name": "Cyclamen",
+    "scientific_name": "Cyclamen spp."
+  },
+  {
+    "common_name": "Daffodil",
+    "scientific_name": "Narcissus spp."
+  },
+  {
+    "common_name": "Dahlia",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Daylily",
+    "scientific_name": "Hemerocallis spp."
+  },
+  {
+    "common_name": "Desert Rose",
+    "scientific_name": "Adenium obesum"
+  },
+  {
+    "common_name": "Dieffenbachia / Dumb Cane",
+    "scientific_name": "Dieffenbachia spp."
+  },
+  {
+    "common_name": "Dracaena",
+    "scientific_name": "Dracaena spp."
+  },
+  {
+    "common_name": "Dragon Tree",
+    "scientific_name": "Dracaena marginata or Dracaena spp."
+  },
+  {
+    "common_name": "Eggplant",
+    "scientific_name": "Solanum melongena"
+  },
+  {
+    "common_name": "Elderberry",
+    "scientific_name": "Sambucus spp. including Sambucus nigra and Sambucus racemosa"
+  },
+  {
+    "common_name": "English Holly",
+    "scientific_name": "Ilex aquifolium"
+  },
+  {
+    "common_name": "English Ivy",
+    "scientific_name": "Hedera spp."
+  },
+  {
+    "common_name": "Eucalyptus",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Fetterbush / Staggerbush",
+    "scientific_name": "Lyonia spp."
+  },
+  {
+    "common_name": "Ficus / Weeping Fig",
+    "scientific_name": "Ficus spp."
+  },
+  {
+    "common_name": "Ficus Audrey",
+    "scientific_name": "Ficus benghalensis"
+  },
+  {
+    "common_name": "Fiddle Leaf Fig",
+    "scientific_name": "Ficus lyrata"
+  },
+  {
+    "common_name": "Fire Lily",
+    "scientific_name": "Clivia miniata"
+  },
+  {
+    "common_name": "Flamingo Flower / Anthurium",
+    "scientific_name": "Anthurium spp."
+  },
+  {
+    "common_name": "Foxglove",
+    "scientific_name": "Digitalis purpurea or Digitalis lantans"
+  },
+  {
+    "common_name": "Gardenia",
+    "scientific_name": "Gardenia"
+  },
+  {
+    "common_name": "Garlic",
+    "scientific_name": "Allium sativum"
+  },
+  {
+    "common_name": "Gladioli / Sword Lily",
+    "scientific_name": "Gladiolus spp."
+  },
+  {
+    "common_name": "Grapes / Raisins / Currants",
+    "scientific_name": "Vitis - implied"
+  },
+  {
+    "common_name": "Heavenly Bamboo",
+    "scientific_name": "Nandina spp."
+  },
+  {
+    "common_name": "Holly",
+    "scientific_name": "Ilex"
+  },
+  {
+    "common_name": "Homalomena \u2018Selby\u2019",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Honeysuckle",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Hummingbird Mint",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Hyacinth",
+    "scientific_name": "Hyacinthus spp."
+  },
+  {
+    "common_name": "Hydrangea",
+    "scientific_name": "Hydrangea spp."
+  },
+  {
+    "common_name": "Iris",
+    "scientific_name": "Iris"
+  },
+  {
+    "common_name": "Italian Arum",
+    "scientific_name": "Arum spp."
+  },
+  {
+    "common_name": "Jade Plant",
+    "scientific_name": "Crassula arborescens or Crassula"
+  },
+  {
+    "common_name": "Japanese Aucuba",
+    "scientific_name": "Aucuba japonica"
+  },
+  {
+    "common_name": "Japanese Pieris",
+    "scientific_name": "Pieris japonica"
+  },
+  {
+    "common_name": "Jerusalem Cherry",
+    "scientific_name": "Solanum pseudocapsicum"
+  },
+  {
+    "common_name": "Jimson Weed",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy",
+    "scientific_name": "Kalanchoe spp."
+  },
+  {
+    "common_name": "Lantana",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Lavender",
+    "scientific_name": "Lavandula"
+  },
+  {
+    "common_name": "Leek",
+    "scientific_name": "Allium porrum"
+  },
+  {
+    "common_name": "Lemon Mint",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Lilies",
+    "scientific_name": "True"
+  },
+  {
+    "common_name": "Lily of the Nile",
+    "scientific_name": "Agapanthus africanus or A. orientalis"
+  },
+  {
+    "common_name": "Lily of the Valley",
+    "scientific_name": "Convallaria majalis"
+  },
+  {
+    "common_name": "Lucky Bamboo",
+    "scientific_name": "Dracaena sanderiana"
+  },
+  {
+    "common_name": "Madagascar Periwinkle",
+    "scientific_name": "Catharanthus reseus"
+  },
+  {
+    "common_name": "Mexican Mint",
+    "scientific_name": "Indian borage"
+  },
+  {
+    "common_name": "Milkweed",
+    "scientific_name": "Asclepias spp."
+  },
+  {
+    "common_name": "Mint",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Mistletoe",
+    "scientific_name": "Phoradendron spp. or Viscum"
+  },
+  {
+    "common_name": "Monstera / Split-Leaf Philodendron",
+    "scientific_name": "Monstera deliciosa or Monstera adansonii"
+  },
+  {
+    "common_name": "Morning Glory",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Mountain Laurel",
+    "scientific_name": "Kalmia latifolia"
+  },
+  {
+    "common_name": "Mountain Mahogany",
+    "scientific_name": "Cercocarpus spp."
+  },
+  {
+    "common_name": "Nandina",
+    "scientific_name": "Nandina spp."
+  },
+  {
+    "common_name": "Nightshade",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Oleander",
+    "scientific_name": "Nerium oleander"
+  },
+  {
+    "common_name": "Onion",
+    "scientific_name": "Allium cepa"
+  },
+  {
+    "common_name": "Orange Mint",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Oyster Plant",
+    "scientific_name": "Tradescantia spathacea"
+  },
+  {
+    "common_name": "Peace Lily",
+    "scientific_name": "Spathiphyllum spp. or Spathiphyllum wallisii"
+  },
+  {
+    "common_name": "Peach",
+    "scientific_name": "Prunus spp."
+  },
+  {
+    "common_name": "Pennyroyal",
+    "scientific_name": "Mentha pulegium"
+  },
+  {
+    "common_name": "Peony",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Peppermint",
+    "scientific_name": "Mentha \u00d7 piperita"
+  },
+  {
+    "common_name": "Peruvian Lily",
+    "scientific_name": "Alstroemeria spp."
+  },
+  {
+    "common_name": "Philodendron",
+    "scientific_name": "Philodendron spp., including 'Birkin'"
+  },
+  {
+    "common_name": "Photina Red Leaf",
+    "scientific_name": "Nandina Photina spp."
+  },
+  {
+    "common_name": "Pine",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Plum",
+    "scientific_name": "Prunus spp."
+  },
+  {
+    "common_name": "Poinsettia",
+    "scientific_name": "Euphorbia pulcherrima"
+  },
+  {
+    "common_name": "Polka Dot Begonia",
+    "scientific_name": "Begonia maculata"
+  },
+  {
+    "common_name": "Pom Flowers",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Poppy",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Potato",
+    "scientific_name": "Solanum tuberosum"
+  },
+  {
+    "common_name": "Pothos / Devil\u2019s Ivy",
+    "scientific_name": "Epipremnum aureum or Epipremnum spp."
+  },
+  {
+    "common_name": "Prairie Lily",
+    "scientific_name": "Zephyranthes drummondii"
+  },
+  {
+    "common_name": "Ragwort / Tansy",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Rhododendron",
+    "scientific_name": "Rhododendron spp."
+  },
+  {
+    "common_name": "Rhubarb",
+    "scientific_name": "Rheum rhabarbarum"
+  },
+  {
+    "common_name": "Rosary Pea",
+    "scientific_name": "Abrus precatorius"
+  },
+  {
+    "common_name": "Rubber Plant",
+    "scientific_name": "Ficus elastica"
+  },
+  {
+    "common_name": "Sago Palm / Cycads",
+    "scientific_name": "Cycas revoluta, Cycas cirinalis, Zamia spp."
+  },
+  {
+    "common_name": "Schefflera / Umbrella Tree",
+    "scientific_name": "Schefflera spp. or Schefflera actinphylla"
+  },
+  {
+    "common_name": "Shamrock",
+    "scientific_name": "Oxalis spp."
+  },
+  {
+    "common_name": "Silver Leaf Philodendron",
+    "scientific_name": "e.g. Satin Pothos"
+  },
+  {
+    "common_name": "Snake Plant / Mother-in-Law\u2019s Tongue",
+    "scientific_name": "Sansevieria spp."
+  },
+  {
+    "common_name": "Spearmint",
+    "scientific_name": "Mentha spicata"
+  },
+  {
+    "common_name": "Spider Plant",
+    "scientific_name": "Chlorophytum spp."
+  },
+  {
+    "common_name": "Staggerbush",
+    "scientific_name": "Lyonia spp."
+  },
+  {
+    "common_name": "Star of Bethlehem",
+    "scientific_name": "Ornithogalum umbellatum"
+  },
+  {
+    "common_name": "Starfruit",
+    "scientific_name": "Averrhoa carambola"
+  },
+  {
+    "common_name": "String of Pearls",
+    "scientific_name": "Senecio"
+  },
+  {
+    "common_name": "Sweet Birch",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Sweet Pea",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Swiss Cheese Vine",
+    "scientific_name": "Monstera adansonii"
+  },
+  {
+    "common_name": "Tea Tree",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Tomato",
+    "scientific_name": "Solanum lycopersicum"
+  },
+  {
+    "common_name": "Tulip",
+    "scientific_name": "Tulipa spp."
+  },
+  {
+    "common_name": "Wandering Jew",
+    "scientific_name": "Tradescantia zebrina"
+  },
+  {
+    "common_name": "Water Lily",
+    "scientific_name": "Nymphaeaceae spp."
+  },
+  {
+    "common_name": "Wintergreen",
+    "scientific_name": null
+  },
+  {
+    "common_name": "Wisteria",
+    "scientific_name": "Wisteria spp."
+  },
+  {
+    "common_name": "Yellow Oleander",
+    "scientific_name": "Thevetia peruviana"
+  },
+  {
+    "common_name": "Yesterday-today-and-tomorrow",
+    "scientific_name": "Brunfelsia pauciflora floribunda"
+  },
+  {
+    "common_name": "Yew",
+    "scientific_name": "Taxus spp."
+  },
+  {
+    "common_name": "Ylang Ylang",
+    "scientific_name": null
+  },
+  {
+    "common_name": "ZZ Plant",
+    "scientific_name": "Zamioculcas"
+  }
+]
