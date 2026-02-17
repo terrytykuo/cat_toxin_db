@@ -1,0 +1,102 @@
+{
+  "plant": {
+    "common_name": "Autumn Crocus",
+    "scientific_name": "Colchicum autumnale",
+    "family": "Liliaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a perennial herb that grows from an ovoid underground corm (bulb-like structure) covered with brown scales1. The plant features large, smooth, lance-shaped leaves that appear in the spring and die back before the plant flowers1. The tubular flowers, which are typically pale purple or white, bloom in the fall (autumn) without the leaves present1....\n\u2022 Habitat and Location: It is commonly found as a garden plant or yard ornamental3.... It is also described as a popular house plant16. It is distinct from the spring-blooming crocus (Crocus spp.)"
+  },
+  "basics": {
+    "family": "Liliaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a perennial herb that grows from an ovoid underground corm (bulb-like structure) covered with brown scales1. The plant features large, smooth, lance-shaped leaves that appear in the spring and die back before the plant flowers1. The tubular flowers, which are typically pale purple or white, bloom in the fall (autumn) without the leaves present1....\n\u2022 Habitat and Location: It is commonly found as a garden plant or yard ornamental3.... It is also described as a popular house plant16. It is distinct from the spring-blooming crocus (Crocus spp.)"
+  },
+  "toxic_parts": [
+    "Seed",
+    "Bulb",
+    "Entire Plant",
+    "Flower"
+  ],
+  "toxins": [
+    {
+      "name": "Colchicine",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Inhibition of Cell Division: Colchicine interferes with cell division (mitosis). This mechanism leads to rapid, systemic failure, affecting rapidly dividing cells first.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Damage: The inhibition of cell division causes multi-organ failure, including liver and kidney damage, respiratory failure, and bone marrow suppression (which affects blood cell production).",
+      "concentration_notes": "\u25e6 High Potency: It is described as a \"potent toxin\" and the plant is considered \"highly toxic.\"\n\u00a0\u00a0\u00a0\u00a0\u25e6 Location: While found in all parts of the plant, the toxins are most concentrated in the corms (bulbs), making them particularly dangerous if unearthed and chewed.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Severe Outcomes: Even minimal exposure can cause severe illness, and symptoms may sometimes be delayed for days."
+    },
+    {
+      "name": "The sources refer to these collectively as \"other alkaloids",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 These compounds work in conjunction with colchicine to cause severe gastrointestinal bleeding, shock, and multi-organ damage.",
+      "concentration_notes": "\u25e6 Like colchicine, these are present throughout the plant (leaves, stems, flowers, and seeds), with the highest risk posed by the bulbs."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Severe Vomiting (often bloody), Diarrhea (often bloody), Abdominal Pain, Drooling, and Difficulty Swallowing",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Symptoms often appear immediately or within hours of ingestion,",
+      "notes": "Initial signs can be subtle, such as drooling or mild vomiting, but can rapidly progress to severe gastrointestinal bleeding (hemorrhagic gastroenteritis) and burning sensations in the mouth.Respiratory Failure"
+    },
+    {
+      "name": "Respiratory Distress (Abnormal breathing patterns, difficulty breathing)",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Can occur as the toxicity progresses, often days after exposure, or within hours in acute cases.",
+      "notes": "Respiratory failure is a common cause of death in fatal cases.Multi-Organ Failure (Liver & Kidney)"
+    },
+    {
+      "name": "Liver Damage (Hepatotoxicity) and Kidney Failure (Renal Failure)",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "Often delayed by days after the initial ingestion.",
+      "notes": "The toxin colchicine interferes with cell division, causing catastrophic damage to these organs over time. Signs may include jaundice (yellowing), increased thirst, or changes in urination (including blood in urine).Bone Marrow Suppression"
+    },
+    {
+      "name": "Bone Marrow Suppression",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Delayed (as it affects cell division and blood cell production).",
+      "notes": "This effect compromises the cat's immune system and ability to clot blood, contributing to systemic shock and bleeding.Shock and Cardiovascular Collapse"
+    },
+    {
+      "name": "Shock (Pale gums, abnormal heart rate, lethargy, weak pulse)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Can occur within hours or as the condition deteriorates.",
+      "notes": "The animal may appear weak, cold, or unresponsive as systemic failure sets in.Seizures"
+    },
+    {
+      "name": "Seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Variable; often associated with advanced toxicity.",
+      "notes": "Indicates severe systemic involvement and requires immediate emergency intervention."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Decontamination (Gastric Lavage)",
+      "description": "The veterinarian may perform a gastric lavage (pumping the stomach) to physically wash out and remove any remaining plant material and toxins from the stomach.",
+      "notes": "Because colchicine is excreted slowly by the body, removing as much of the toxin as possible early on is critical to reducing the severity of the poisoning.",
+      "priority": 1
+    },
+    {
+      "name": "Fluid Therapy (Supportive Care)",
+      "description": "Administration of intravenous (IV) fluids to correct dehydration and restore electrolyte balance.",
+      "notes": "This addresses the severe fluid losses caused by profuse vomiting and diarrhea and helps support the circulatory system against shock.",
+      "priority": 2
+    },
+    {
+      "name": "Pharmacological Management (Analgesics and Atropine)",
+      "description": "The administration of analgesics (painkillers) to manage severe abdominal pain and atropine to manage specific symptoms like diarrhea or heart rate abnormalities.",
+      "notes": "Autumn Crocus ingestion causes intense gastrointestinal distress and abdominal pain, making pain management a key component of the treatment plan.",
+      "priority": 3
+    },
+    {
+      "name": "Respiratory and Circulatory Support",
+      "description": "Monitoring and intervening to manage central nervous system (CNS), circulatory, and respiratory disturbances. This may involve oxygen therapy or medications to support blood pressure and breathing.",
+      "notes": "Since death from Autumn Crocus poisoning often results from respiratory failure, close monitoring of the cat's breathing and circulation is essential. The clinical course can be prolonged due to the slow elimination of the toxin.",
+      "priority": 4
+    }
+  ]
+}

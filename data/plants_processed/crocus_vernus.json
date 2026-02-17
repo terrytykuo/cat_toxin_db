@@ -1,0 +1,101 @@
+{
+  "plant": {
+    "common_name": "Crocus",
+    "scientific_name": "Crocus vernus",
+    "family": null,
+    "description": "Brief Description:\n    \u25e6 Appearance: These plants are characterized by their blooming period, specifically flowering in the spring.\n    \u25e6 Habitat and Location: They are commonly found in gardens and outdoor landscapes. They are also described as popular plants for the house and yard."
+  },
+  "basics": {
+    "family": null,
+    "description": "Brief Description:\n    \u25e6 Appearance: These plants are characterized by their blooming period, specifically flowering in the spring.\n    \u25e6 Habitat and Location: They are commonly found in gardens and outdoor landscapes. They are also described as popular plants for the house and yard."
+  },
+  "toxic_parts": [
+    "Flower",
+    "Leaf",
+    "Bulb"
+  ],
+  "toxins": [
+    {
+      "name": "Colchicine and other alkaloids",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cell Division Inhibition: Colchicine acts as an anti-mitotic agent, meaning it inhibits cell division.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Failure: Because it stops cells from dividing, it rapidly affects the body's critical systems, leading to bone marrow suppression, respiratory failure, and multi-organ damage (specifically liver and kidney failure).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Hemorrhage: It causes severe, often bloody, gastrointestinal bleeding.",
+      "concentration_notes": "\u25e6 High Potency: The Autumn Crocus is extremely dangerous; ingestion of even small amounts can cause severe illness or death."
+    },
+    {
+      "name": "Specific compounds are not named in the provided texts, though they are described as general irritants capable of causing toxicity",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Upset: Ingestion primarily triggers local gastrointestinal issues, such as vomiting and diarrhea.",
+      "concentration_notes": "\u25e6 Mild to Moderate: Compared to the Autumn Crocus, the Spring Crocus is less severe. It typically does not cause the systemic organ failure associated with colchicine, though veterinary attention is still recommended if ingested."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea (General gastrointestinal upset)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified, though general GI upset typically follows ingestion.\n\u00a0\u00a0\u00a0\u00a05. Additional",
+      "notes": "Ingestion of the plant material (leaves, flowers) primarily causes local irritation to the digestive tract. It does not typically cause the systemic organ failure associated with the Autumn Crocus.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u25aa Sources:1,2\n\n--------------------------------------------------------------------------------\n\n2. Autumn Crocus (Colchicum autumnale)\nThe Autumn Crocus (also known as Meadow Saffron) is highly toxic and potentially fatal. It contains colchicine, a toxin that inhibits rapid cell division, affecting multiple body systems.\nA. Severe Gastrointestinal Hemorrhage"
+    },
+    {
+      "name": "Bloody Vomiting and Diarrhea; Oral Irritation",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Immediate or delayed for days.",
+      "notes": "Early signs may include drooling (ptyalism), burning in the mouth, abdominal pain, and difficulty swallowing. The condition progresses to severe hemorrhagic gastritis (bleeding in the stomach) and bloody diarrhea.B. Organ Failure (Liver and Kidney)"
+    },
+    {
+      "name": "Liver damage (Hepatic necrosis) and Kidney failure",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "Delayed (can take days to manifest fully).",
+      "notes": "Signs of renal issues may include increased thirst, blood in the urine, or a complete failure to pass urine (anuria). Liver damage is a primary contributor to fatality.C. Bone Marrow Suppression"
+    },
+    {
+      "name": "Bone Marrow Suppression",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Delayed.",
+      "notes": "The toxin colchicine stops cells from dividing, which severely impacts the bone marrow's ability to produce blood cells.D. Respiratory Distress"
+    },
+    {
+      "name": "Respiratory Failure / Difficulty Breathing",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Delayed (associated with systemic progression).",
+      "notes": "Respiratory collapse is a cited cause of death in severe cases.E. Neurological and Systemic Signs"
+    },
+    {
+      "name": "Seizures, Tremors, Shock, and Weakness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Variable; shock signs include abnormal heart rates and pale gums.",
+      "notes": "Animals may exhibit signs of shock, such as weakness and lethargy. Seizures and ataxia (loss of balance) can occur as the toxicity progresses."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Gastric Lavage (Stomach Pumping) or Activated Charcoal",
+      "description": "Because colchicine (the toxin in Autumn Crocus) is slowly excreted and highly potent, veterinarians may perform gastric lavage to wash toxic plant material out of the stomach. This is often followed by the administration of activated charcoal, which binds to the toxin in the gut to reduce absorption.",
+      "notes": "This step is critical because colchicine inhibits cell division and causes multi-organ failure. Immediate removal of the toxin is the most effective way to prevent lethal systemic absorption.Aggressive Fluid Therapy (IV Fluids)",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Resuscitation",
+      "description": "The administration of IV fluids is used to correct dehydration and electrolyte imbalances caused by severe vomiting and diarrhea. It also helps support kidney function and maintains blood pressure (combatting shock).",
+      "notes": "Autumn Crocus toxicity leads to severe fluid loss and shock. Fluid therapy is essential to stabilize the cat\u2019s circulation and manage the \"circulatory disturbances\" associated with colchicine poisoning.Symptomatic Management (Pain and GI Control)",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Analgesics and Atropine",
+      "description": "Veterinarians may administer analgesics to relieve severe abdominal pain and atropine to manage persistent diarrhea and abdominal cramping.",
+      "notes": "Ingestion often causes severe gastrointestinal bleeding and pain. Managing these symptoms is vital for the animal's comfort and stability while the body attempts to process the toxin.Systemic Support (Respiratory and CNS)",
+      "priority": 3
+    },
+    {
+      "name": "Respiratory and Central Nervous System (CNS) Support",
+      "description": "In severe cases, the cat may require oxygen therapy or medication to manage respiratory distress and central nervous system disturbances.",
+      "notes": "Death from Autumn Crocus poisoning often results from respiratory failure. Close monitoring of breathing and heart rate is required throughout the recovery process.--------------------------------------------------------------------------------\n\nNote on Spring Crocus (Crocus spp.)\nIf the plant is identified as a Spring Crocus, the toxicity is generally limited to gastrointestinal upset.\n\u2022 Treatment: Veterinary care is usually supportive, focusing on hydration and monitoring for vomiting and diarrhea. It does not typically require the aggressive decontamination protocols used for Autumn Crocus.",
+      "priority": 4
+    }
+  ]
+}

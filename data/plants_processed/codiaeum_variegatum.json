@@ -1,0 +1,89 @@
+{
+  "plant": {
+    "common_name": "Croton",
+    "scientific_name": "Codiaeum variegatum",
+    "family": "Euphorbiaceae",
+    "description": "Description and Habitat: It is an evergreen shrub native to Southeast Asia and the Pacific Islands, commonly found in open forests and scrub. It is widely cultivated as an ornamental plant for its thick, leathery, and colorful variegated leaves."
+  },
+  "basics": {
+    "family": "Euphorbiaceae",
+    "description": "Description and Habitat: It is an evergreen shrub native to Southeast Asia and the Pacific Islands, commonly found in open forests and scrub. It is widely cultivated as an ornamental plant for its thick, leathery, and colorful variegated leaves."
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant",
+    "Sap"
+  ],
+  "toxins": [
+    {
+      "name": "The sources describe these simply as irritant oils and resins. The specific toxins are noted as \"not fully characterized\" in the provided text",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Direct Irritation: These compounds act as contact irritants to the mucous membranes and skin. When a cat chews on the plant, the release of these oils causes irritation to the mouth (oral irritation), leading to drooling and refusal to eat.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Upset: Upon ingestion, the irritation extends to the gastrointestinal tract, triggering vomiting and diarrhea.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Dermatitis: Direct contact with the sap can also cause skin irritation or rashes.",
+      "concentration_notes": "\u25e6 Location: The toxic oils and resins are found in the sap, which is present in all parts of the plant (leaves and stems).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Severity: The toxicity is classified as moderate. While it typically causes discomfort and gastrointestinal distress, it is generally not noted as fatal in the provided chart compared to high-toxicity plants like Sago Palm."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Mouth irritation (burning sensation in mouth, tongue, and lips)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (upon chewing or contact).",
+      "notes": "The sap causes direct irritation to the oral cavity, which can lead to behavioral signs of pain or distress.Excessive Drooling"
+    },
+    {
+      "name": "Drooling (Hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid (following oral irritation).",
+      "notes": "This is a secondary response to the burning sensation and irritation caused by the plant's sap in the mouth.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion.",
+      "notes": "Ingestion of the plant material irritates the stomach lining, triggering vomiting.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Delayed (as plant material moves through the GI tract).",
+      "notes": "The irritant oils affect the intestines, leading to loose stools.Skin Irritation"
+    },
+    {
+      "name": "Skin Irritation (Dermatitis/Rash)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Upon direct contact.",
+      "notes": "Contact with the sap (e.g., from a broken leaf) can cause redness or a rash on the cat's skin or fur.Loss of Appetite"
+    },
+    {
+      "name": "Anorexia (Refusal to eat)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Following oral pain or nausea.",
+      "notes": "Cats may refuse to eat due to the pain in their mouth or general nausea."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral Rinsing and Dermal Decontamination",
+      "description": "The immediate treatment involves rinsing the cat's mouth with water to remove the plant material and irritant sap. If sap is present on the fur or skin, it must be washed off using mild soap and water.",
+      "notes": "Because the sap contains irritant oils, this step is crucial to stop the burning sensation in the mouth and prevent dermatitis. Handlers should wear gloves during this process to avoid irritation to their own skin.Intravenous (IV) Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Fluid Therapy / Rehydration",
+      "description": "Veterinarians may administer fluids to the cat, typically intravenously, to maintain hydration levels and correct electrolyte imbalances.",
+      "notes": "This is necessary if the cat has experienced significant vomiting or diarrhea\u2014common symptoms of Croton ingestion\u2014which can lead to dehydration.Symptomatic Supportive Care",
+      "priority": 2
+    },
+    {
+      "name": "Symptomatic Management and Monitoring",
+      "description": "The veterinary team will monitor the cat for progression of symptoms and may administer medications to control vomiting (anti-emetics) or pain if the oral irritation is severe.",
+      "notes": "While Croton toxicity is generally moderate, veterinary attention is required if vomiting or irritation persists. The veterinarian will determine if further intervention, such as inducing vomiting, is safe or necessary based on the cat's condition.",
+      "priority": 3
+    }
+  ]
+}

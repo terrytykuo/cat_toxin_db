@@ -1,0 +1,88 @@
+{
+  "plant": {
+    "common_name": "Corsican Mint",
+    "scientific_name": "Mentha requienii",
+    "family": "Lamiaceae",
+    "description": "2. Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Unlike common garden mints that can grow quite tall, Corsican Mint is specifically described as a ground-cover plant3. General characteristics of the mint family include wrinkled, ovate leaves and flowers that range from lavender to white, though Corsican Mint's specific low-growing habit distinguishes it as a specialty variety23.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat and Location: While specific wild ranges for Corsican Mint are not detailed in the provided text, mints in general are often found growing in damp locations or near sources of water"
+  },
+  "basics": {
+    "family": "Lamiaceae",
+    "description": "2. Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Unlike common garden mints that can grow quite tall, Corsican Mint is specifically described as a ground-cover plant3. General characteristics of the mint family include wrinkled, ovate leaves and flowers that range from lavender to white, though Corsican Mint's specific low-growing habit distinguishes it as a specialty variety23.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat and Location: While specific wild ranges for Corsican Mint are not detailed in the provided text, mints in general are often found growing in damp locations or near sources of water"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Essential Oils (The sources generally attribute mint toxicity to volatile oils, specifically noting menthol in related mint species)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Enzymatic Deficiency: Cats lack specific liver enzymes required to break down and metabolize the volatile oils found in mint plants. This inability to process these compounds allows them to build up to toxic levels.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: The oils irritate the lining of the stomach and intestines.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Esophageal Relaxation: Mint oils can relax the esophageal valve, increasing the likelihood of vomiting, particularly if the cat is already feeling unwell.",
+      "concentration_notes": "\u25e6 Fresh Plant: Ingesting the ground-cover plant material typically results in mild to moderate symptoms such as vomiting and lethargy.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Concentrated Oils: Extracted essential oils are highly concentrated and dangerous. Exposure to these forms (via inhalation, ingestion, or skin contact) can lead to severe issues like liver failure and breathing difficulties.\u2022 Is Mint Safe For Cats? Hidden Toxic Types, Oils & What To Do1,2,3\n\u2022 Mint Poisoning in Cats - Symptoms, Causes, Diagnosis, Treatment, Recovery, Management, Cost - Wag!4\n\u2022 Mint and Cats: Toxicity Concerns - Puainta"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified, though gastrointestinal upset generally follows ingestion.",
+      "notes": "This is one of the primary symptoms explicitly linked to the ingestion of Corsican Mint plant material. The essential oils in the plant can relax the esophageal valve, which makes vomiting more likely.Lethargy and Weakness"
+    },
+    {
+      "name": "Lethargy (General Weakness)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Not explicitly specified.",
+      "notes": "Lethargy is specifically highlighted as a symptom of Corsican Mint ingestion. It indicates a systemic reaction to the toxins, potentially affecting the central nervous system.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified.",
+      "notes": "Like other mint varieties, the essential oils act as irritants to the intestinal lining, leading to loose stools.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling or Foaming at the mouth",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Rapid (often a response to taste or mucosal irritation).",
+      "notes": "Nausea and oral irritation from the mint oils can cause the cat to drool excessively.Respiratory Difficulty (Linked to Oils)"
+    },
+    {
+      "name": "Difficulty breathing (Dyspnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid (if oils are inhaled or aspirated).",
+      "notes": "While less common with grazing on the plant itself, severe respiratory issues can occur if the cat aspirates vomit or is exposed to concentrated mint essential oils (which are highly toxic). Strong aromas alone can sometimes irritate a cat's respiratory tract."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Vomiting or Stomach Pumping",
+      "description": "The veterinarian may administer medication to induce vomiting (emesis) to expel the plant material from the stomach. In more severe cases, or if the cat cannot vomit safely, a gastric lavage (stomach pump) may be performed to wash out the stomach contents.",
+      "notes": "This is typically the first line of defense if the ingestion was recent. While one source mentions hydrogen peroxide, other veterinary authorities warn that you should never attempt to induce vomiting in cats at home using hydrogen peroxide, as it can cause severe injury; this procedure should only be performed by a veterinarian.Toxin Adsorption (Activated Charcoal)",
+      "priority": 1
+    },
+    {
+      "name": "Administration of Activated Charcoal",
+      "description": "The veterinarian may administer a dose of activated charcoal. This substance works by binding to the toxic essential oils remaining in the gastrointestinal tract, preventing them from being absorbed into the cat's bloodstream.",
+      "notes": "This is often used following decontamination (vomiting) to neutralize any remaining toxins in the system.Intravenous (IV) Fluid Therapy",
+      "priority": 2
+    },
+    {
+      "name": "Supportive Fluid Therapy",
+      "description": "Fluids are administered directly into the vein (IV) to rehydrate the cat and balance electrolytes.",
+      "notes": "This is crucial if the cat has experienced excessive vomiting or diarrhea\u2014common symptoms of mint poisoning\u2014which can lead to dangerous dehydration. It helps stabilize the animal while they recover.Symptomatic Medication (Anti-emetics and Gastroprotectants)",
+      "priority": 3
+    },
+    {
+      "name": "Anti-nausea Medication and Stomach Protectants",
+      "description": "The vet may administer injections to stop nausea (anti-emetics) and medications (gastroprotectants) to coat and soothe the stomach lining.",
+      "notes": "Mint essential oils can relax the esophageal valve, making vomiting more likely and potentially irritating the stomach lining. These medications help stop the cycle of vomiting and reduce gastrointestinal pain.",
+      "priority": 4
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "plant": {
+    "common_name": "Azalea",
+    "scientific_name": "Rhododendron spp.",
+    "family": "Ericaceae",
+    "description": "Brief Description\n\u2022 Appearance: Azaleas are typically small shrubs or small trees that can be either evergreen or deciduous. They are characterized by their funnel-shaped flowers, which grow in clusters or solitarily and come in a variety of vibrant colors. They have simple, alternate leaves and produce fruit capsules containing many seeds13.\n\u2022 Habitat & Location: These plants are popular ornamentals commonly found in gardens, landscaping, and yards surrounding homes due to their stunning blooms and lush foliage. They are also found indoors as potted plants"
+  },
+  "basics": {
+    "family": "Ericaceae",
+    "description": "Brief Description\n\u2022 Appearance: Azaleas are typically small shrubs or small trees that can be either evergreen or deciduous. They are characterized by their funnel-shaped flowers, which grow in clusters or solitarily and come in a variety of vibrant colors. They have simple, alternate leaves and produce fruit capsules containing many seeds13.\n\u2022 Habitat & Location: These plants are popular ornamentals commonly found in gardens, landscaping, and yards surrounding homes due to their stunning blooms and lush foliage. They are also found indoors as potted plants"
+  },
+  "toxic_parts": [
+    "Pollen",
+    "Entire Plant",
+    "Stem",
+    "Flower",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Grayanotoxins (also historically referred to as Andromedotoxins). Some sources also describe these generally as \"resins",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sodium Channel Modification: Grayanotoxins bind to and modify sodium channels in cell membranes1,6.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Depolarization: By binding to these channels, the toxin prevents them from closing, leading to prolonged cellular depolarization4,6.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Effect: This disruption affects excitable cells, particularly nerve and muscle cells (both skeletal and cardiac), allowing calcium to move into cells and disrupting normal electrical conduction in the body1,4,6.\n4. Notes on",
+      "concentration_notes": "\u25e6 High Potency: Azaleas are considered highly toxic; the ingestion of even a small amount (e.g., a few leaves) can result in severe clinical signs or toxicity2,3,4. One source notes clinical signs can appear after ingestion of a toxic dose of 1 g/kg"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Hypersalivation (Drooling), and Anorexia (Refusal to eat)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within 1\u20134 hours of ingestion; occasionally up to 12 hours.",
+      "notes": "Drooling and abdominal pain are common early indicators. Even small ingestions (a few leaves) can trigger these symptoms.Cardiovascular Abnormalities"
+    },
+    {
+      "name": "Arrhythmias (irregular heart rate), Bradycardia (slow heart rate), and Hypotension (low blood pressure)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Acute (following gastrointestinal signs).",
+      "notes": "The toxins modify sodium channels, leading to prolonged depolarization. Severe cases can progress to cardiovascular collapse.Neurological Dysfunction"
+    },
+    {
+      "name": "Weakness, Tremors, Seizures, Depression, and Ataxia (loss of coordination)",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Within hours.",
+      "notes": "Central nervous system (CNS) depression can be profound, potentially leading to paralysis or coma in severe toxicosis.Transient Blindness"
+    },
+    {
+      "name": "Transient Blindness (Temporary loss of vision) or Blurred Vision",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "This is a specific, documented symptom of grayanotoxin poisoning, though less common than GI signs.Respiratory Distress"
+    },
+    {
+      "name": "Dyspnea (Trouble breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Acute.",
+      "notes": "Difficulty breathing may accompany other systemic signs like weakness and cardiovascular shock."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Gastrointestinal Decontamination (Emesis, Lavage, & Activated Charcoal)",
+      "description": "If the cat is asymptomatic and the ingestion was recent, the veterinarian may induce vomiting (emesis) using prescription medications. For large ingestions or severe cases, gastric lavage (stomach pumping) may be performed45. This is typically followed by the administration of activated charcoal with a saline cathartic to bind toxins remaining in the gut and speed their removal",
+      "notes": "Decontamination should only be performed if the patient is \"neurologically appropriate\" (alert and able to swallow safely) to prevent aspiration pneumonia6. Plant material can remain in the stomach for many hours, making emesis potentially useful even hours after ingestion",
+      "priority": 1
+    },
+    {
+      "name": "Cardiovascular Support (Fluids & Medications)",
+      "description": "Veterinarians administer intravenous (IV) fluids to combat hypotension (low blood pressure) and support circulation6. Specific medications are used to manage heart rhythm abnormalities: Atropine is used to treat bradycardia (slow heart rate), while antiarrhythmics like lidocaine or procainamide are used for other arrhythmias",
+      "notes": "Because grayanotoxins affect sodium channels, severe cardiovascular effects like heart block or collapse can occur. Continuous monitoring of heart rate and blood pressure is essential until the patient is discharged",
+      "priority": 2
+    },
+    {
+      "name": "Neurological Management (Seizure & Tremor Control)",
+      "description": "If the toxicity progresses to the central nervous system, medications such as methocarbamol are used to manage tremors, and standard anticonvulsants are administered to control seizures",
+      "notes": "Neurological signs can include depression, ataxia (loss of coordination), and paralysis7. Severe CNS depression can occur, though the toxin is not cumulative",
+      "priority": 3
+    },
+    {
+      "name": "Adjunctive Supportive Care (Calcium & Antibiotics)",
+      "description": "Sources specifically mention the use of calcium injections as part of the treatment protocol for Rhododendron toxicity5. Antibiotics may also be administered.",
+      "notes": "Antibiotics are specifically recommended to control possible aspiration pneumonia5, which is a risk if the cat vomits while neurologically impaired. Gastroprotectants and antiemetics are also used to manage severe vomiting and diarrhea",
+      "priority": 4
+    }
+  ]
+}

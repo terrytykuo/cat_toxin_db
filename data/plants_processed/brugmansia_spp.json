@@ -1,0 +1,95 @@
+{
+  "plant": {
+    "common_name": "Angel's Trumpets",
+    "scientific_name": "Brugmansia spp.",
+    "family": "Solanaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The plant is noted for producing beautiful blooms.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Characteristics: It possesses a strong odor, which often deters pets from nibbling on the leaves, though ingestion still occurs.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is a common garden plant that many people own for its aesthetic appeal.\u2022 The top 12 most poisonous plants for pets - Avonvale Veterinary Centre"
+  },
+  "basics": {
+    "family": "Solanaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The plant is noted for producing beautiful blooms.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Characteristics: It possesses a strong odor, which often deters pets from nibbling on the leaves, though ingestion still occurs.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is a common garden plant that many people own for its aesthetic appeal.\u2022 The top 12 most poisonous plants for pets - Avonvale Veterinary Centre"
+  },
+  "toxic_parts": [
+    "Seed",
+    "Leaf",
+    "Flower",
+    "Root"
+  ],
+  "toxins": [
+    {
+      "name": "\u2022 Source Information: The provided texts do not explicitly name the toxins",
+      "chemical_formula": null,
+      "description": "in Cats\n\u2022 Systemic Effects: The sources describe a toxicity that affects the central nervous system and cardiovascular system.\n\u2022 Clinical Manifestations: Ingestion leads to behavioral changes, disorientation, and dilated pupils.\n\u2022 Physiological Changes: The toxins cause hyperthermia (elevated body temperature) and alter vital signs, specifically causing changes in heart rate and respiratory rate.\n4. Concentration and Potency\n\u2022 Deterrents: The plant possesses a strong odor that naturally deters most pets from nibbling on the leaves, though ingestion still occurs.\n\u2022 Urgency: The toxicity is severe enough that immediate veterinary care is advised if ingestion is suspected.\u2022 The top 12 most poisonous plants for pets - Avonvale Veterinary Centre"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Behavioral changes and Disorientation",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "The plant affects the nervous system, leading to noticeable changes in behavior and confusion.Dilated Pupils"
+    },
+    {
+      "name": "Dilated Pupils (Mydriasis)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "This is a hallmark sign of the plant's toxicity, often associated with the alkaloids present in the plant.Hyperthermia"
+    },
+    {
+      "name": "Hyperthermia",
+      "body_system": "Metabolic",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Ingestion causes a dangerous elevation in body temperature.Cardiovascular Instability"
+    },
+    {
+      "name": "Change in heart rate",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "The toxins alter vital signs, specifically affecting cardiac rhythm and rate.Respiratory Distress"
+    },
+    {
+      "name": "Change in respiratory rate",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Alongside cardiac changes, the respiratory rate is significantly altered, necessitating immediate veterinary intervention.Gastrointestinal Upset"
+    },
+    {
+      "name": "Loss of appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
+      "notes": "While neurological and cardiac signs are prominent, the cat may also refuse food."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Emergency Veterinary Consultation/Examination",
+      "description": "Seek veterinary care immediately if ingestion is suspected. Do not wait for symptoms to appear. The plant is noted to cause severe systemic effects that can escalate quickly.",
+      "notes": "Angel's Trumpets produce beautiful blooms but are highly toxic. Although their strong odor often deters pets, ingestion still occurs and affects vital systems (heart and lungs).Management of Hyperthermia",
+      "priority": 1
+    },
+    {
+      "name": "Thermoregulation / Cooling Measures",
+      "description": "Veterinary staff will monitor and manage the cat's body temperature.",
+      "notes": "One of the distinct symptoms of Angel's Trumpet poisoning is hyperthermia (elevated body temperature), which requires stabilization to prevent organ damage.Cardiovascular and Respiratory Support",
+      "priority": 2
+    },
+    {
+      "name": "Cardiac and Respiratory Monitoring",
+      "description": "Continuous monitoring of the heart rate and respiratory rate to manage instability.",
+      "notes": "The toxins in the plant cause significant changes in heart rate and respiratory rate. Veterinary treatment will focus on stabilizing these vital signs to prevent fatal complications.Management of Neurological Symptoms",
+      "priority": 3
+    },
+    {
+      "name": "Neurological Support / Seizure Precautions",
+      "description": "Managing behavioral changes and preventing injury due to disorientation.",
+      "notes": "Cats may exhibit disorientation, dilated pupils, and behavioral changes due to the plant's effects on the central nervous system.Important Note on \"Nightshade\" Confusion: While Angel's Trumpet belongs to the Solanaceae (Nightshade) family, it should not be confused with the \"Nightshade plants\" (like tomatoes and potatoes) described in other sources as containing solanine. Angel's Trumpets contain tropane alkaloids (though not explicitly named in the provided text, the symptoms of dilated pupils and hyperthermia are consistent with this). Treatments for solanine poisoning (such as using atropine) would be inappropriate and dangerous for Angel's Trumpet ingestion, which already presents with atropine-like effects (fast heart rate, dilated pupils). Therefore, rely strictly on the specific advice for Brugmansia or Angel's Trumpets: immediate veterinary care.",
+      "priority": 4
+    }
+  ]
+}

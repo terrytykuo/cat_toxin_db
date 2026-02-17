@@ -1,0 +1,92 @@
+{
+  "plant": {
+    "common_name": "Bluebells",
+    "scientific_name": "Hyacinthoides non-scripta",
+    "family": "Liliaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The sources generally describe Bluebells as a \"spring favourite\" and a \"common flower\"23. They are noted to bloom when \"everything is in flower\" and people come out of hibernation2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Where Commonly Found: They are commonly found on woodland walks, in gardens, and even on the sides of the road"
+  },
+  "basics": {
+    "family": "Liliaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The sources generally describe Bluebells as a \"spring favourite\" and a \"common flower\"23. They are noted to bloom when \"everything is in flower\" and people come out of hibernation2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Where Commonly Found: They are commonly found on woodland walks, in gardens, and even on the sides of the road"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Bulb"
+  ],
+  "toxins": [
+    {
+      "name": "The sources describe these simply as toxins that affect the heart1. While chemically classified as cardiac glycosides",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats: These toxins disrupt the heart's internal electrical balance. Ingestion leads to a reduced heart rate (bradycardia) and can cause trembling and lethargy as the cardiovascular system is compromised",
+      "concentration_notes": "The plant is considered poisonous to pets. The presence of these toxins makes ingestion a serious matter, capable of causing significant cardiac distress"
+    },
+    {
+      "name": "Unspecified irritants (responsible for contact dermatitis and mucosal irritation)",
+      "chemical_formula": "Not provided.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Dermal: Contact with the plant can cause dermatitis and skin irritation1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal: Ingestion triggers severe irritation of the digestive tract, resulting in vomiting, diarrhea, drooling, and stomach pain",
+      "concentration_notes": "These compounds are potent enough to cause immediate physical symptoms (drooling, vomiting) and skin reactions upon contact or ingestion"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Drooling, and Stomach Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Ingestion of the plant triggers irritation of the digestive tract, leading to profuse drooling and abdominal discomfort.Cardiac Abnormalities"
+    },
+    {
+      "name": "Reduced Heart Rate (Bradycardia)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Bluebells contain toxins (glycosides) that disrupt the heart's internal electrical balance, leading to a noticeably slow heartbeat. This cardiac effect distinguishes them from simple gastrointestinal irritants.Neurological Depression"
+    },
+    {
+      "name": "Trembling and Lethargy",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
+      "notes": "The toxins can cause systemic weakness, manifesting as physical trembling and a lack of energy or responsiveness.Dermatitis"
+    },
+    {
+      "name": "Skin Irritation and Dermatitis",
+      "body_system": "Dermal",
+      "severity": "moderate",
+      "onset": "Rapid (upon contact).",
+      "notes": "Unlike many toxic plants that are only dangerous when ingested, Bluebells can cause dermatitis simply through physical contact with the plant juices or sap."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) or Gastric Lavage",
+      "description": "If the ingestion was recent and the cat is stable, the veterinarian will induce vomiting using prescription medications (such as xylazine or apomorphine) to remove the plant material from the stomach. In severe cases or if the cat cannot vomit safely, gastric lavage (pumping the stomach) may be performed under anesthesia to wash out the contents.",
+      "notes": "This is the primary defense to prevent further absorption of the toxins. It is generally unsafe to induce vomiting at home (e.g., with hydrogen peroxide) due to the risk of aspiration or worsening irritation; this should be done in a clinical setting.Toxin Adsorption",
+      "priority": 1
+    },
+    {
+      "name": "Activated Charcoal Administration",
+      "description": "The administration of medical-grade activated charcoal, often with a cathartic (to speed up elimination). This substance binds to the toxins remaining in the digestive tract, preventing them from entering the bloodstream.",
+      "notes": "Because Bluebells contain toxins that affect the heart (similar to cardiac glycosides), repeated doses of activated charcoal (without cathartic) may be recommended if the toxin undergoes enterohepatic recirculation (reabsorption from the liver/bile).Cardiovascular Monitoring and Support",
+      "priority": 2
+    },
+    {
+      "name": "Cardiac Monitoring (ECG) and Drug Therapy (Atropine)",
+      "description": "The veterinarian will monitor the cat's heart rate and rhythm using an electrocardiogram (ECG). If the Bluebell toxins cause bradycardia (dangerously slow heart rate), medications like Atropine may be administered to increase the heart rate and stabilize the cardiovascular system.",
+      "notes": "Bluebells are explicitly noted to cause a reduced heart rate and cardiac arrhythmias. Continuous monitoring is crucial until the heart rhythm normalizes.Fluid Therapy and Supportive Care",
+      "priority": 3
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "Administration of IV fluids to correct dehydration and electrolyte imbalances caused by vomiting and diarrhea.",
+      "notes": "This treatment helps maintain blood pressure, supports kidney function, and aids the body in excreting toxins. It also addresses the lethargy and weakness often seen with Bluebell poisoning.Dermal Decontamination",
+      "priority": 4
+    },
+    {
+      "name": "Bathing / Dermal Rinse",
+      "description": "Thoroughly washing the cat\u2019s fur and skin with mild liquid dish soap and lukewarm water to remove any plant sap or residue.",
+      "notes": "Bluebells are known to cause dermatitis and skin irritation. Removing traces of the plant from the coat prevents the cat from re-ingesting toxins while grooming and alleviates skin discomfort.",
+      "priority": 5
+    }
+  ]
+}

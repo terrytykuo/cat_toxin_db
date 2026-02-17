@@ -1,0 +1,89 @@
+{
+  "plant": {
+    "common_name": "Begonia",
+    "scientific_name": "Begonia spp.",
+    "family": "Begoniaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Begonias are a diverse group of plants with over 1,000 species and 10,000 hybrids1. They are flowering plants noted for their colorful blooms and foliage2. Some specific varieties, like the Polka Dot Begonia (Begonia maculata), are recognized for unique leaf patterns3.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: They are commonly found as houseplants and are frequently grown outdoors in flowerbeds and large pots for landscaping24.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Key Characteristics: These plants grow from underground tubers, rhizomes, or roots, which are significant because they contain the highest concentration of toxic oxalates compared to the leaves and flowers"
+  },
+  "basics": {
+    "family": "Begoniaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Begonias are a diverse group of plants with over 1,000 species and 10,000 hybrids1. They are flowering plants noted for their colorful blooms and foliage2. Some specific varieties, like the Polka Dot Begonia (Begonia maculata), are recognized for unique leaf patterns3.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: They are commonly found as houseplants and are frequently grown outdoors in flowerbeds and large pots for landscaping24.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Key Characteristics: These plants grow from underground tubers, rhizomes, or roots, which are significant because they contain the highest concentration of toxic oxalates compared to the leaves and flowers"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Stem",
+    "Flower",
+    "Root"
+  ],
+  "toxins": [
+    {
+      "name": "The primary toxic agents are identified as soluble calcium oxalates",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Local Irritation: Upon ingestion, the substance breaks down (often described as releasing oxalic acid), causing immediate and intense burning and irritation of the mouth, tongue, and lips4.... This irritation leads to excessive drooling and difficulty swallowing57.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Toxicity (Rare in Cats): While primarily an irritant in small amounts, if significant quantities of the toxins are absorbed into the bloodstream, they can travel to the liver or kidneys. One source notes the toxin can cause liver failure5, while another states it causes kidney failure primarily in grazing animals, though vomiting and salivation are the standard signs in cats",
+      "concentration_notes": "\u25e6 Most Toxic Parts: The highest concentration of toxins is found in the underground parts of the plant, specifically the tubers, rhizomes, and roots1....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: Begonias are generally considered mildly toxic to cats57. Because the initial taste causes immediate pain and irritation, cats typically stop eating the plant before ingesting a lethal dose4. However, ingestion of the roots can lead to more severe symptoms9.\u2022  Are Begonia Poisonous | Plant Addicts59\n\u2022  Are Begonias Poisonous to Cats? Vet-Verified Facts, Risks & Safety Guide - Catster1\n\u2022  Begonia - Toxic and Non-toxic Plants - ASPCA2\n\u2022  Clinical Perspectives on Feline Phytotoxicology36\n\u2022  What are these flowers called? Bonus points if you know if they're cat-safe : r/whatsthisplant"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning, redness, and irritation of the mouth, tongue, and lips; occasionally oral sores",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (upon biting or chewing).",
+      "notes": "The first taste often produces an unpleasant sensation and pain, which typically limits how much of the plant the cat ingests.Excessive Drooling"
+    },
+    {
+      "name": "Hypersalivation (Excessive salivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to rapid.",
+      "notes": "Drooling is a physiological response to the burning sensation and irritation caused by the oxalates in the mouth and throat.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid (shortly after ingestion).",
+      "notes": "This is a common sign of ingestion. While often self-limiting, persistent vomiting can lead to dehydration.Difficulty Swallowing (Dysphagia)"
+    },
+    {
+      "name": "Dysphagia (Difficulty swallowing)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid (associated with oral swelling/pain).",
+      "notes": "The cat may also show a disinterest in food and water due to the pain in the mouth and throat.Liver Failure (Rare)"
+    },
+    {
+      "name": "Liver Failure",
+      "body_system": "Hepatic",
+      "severity": "severe",
+      "onset": "Delayed (after toxin absorption).",
+      "notes": "While rare, if a cat consumes the roots (which contain the highest concentration of toxins) and the toxin enters the bloodstream, it can travel to the liver and cause serious organ failure. Note: Kidney failure is typically associated with grazing animals consuming begonias, not cats."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Fluid Therapy (Rehydration)",
+      "description": "The veterinarian administers fluids either intravenously (IV) or subcutaneously (under the skin) to restore hydration and electrolyte balance.",
+      "notes": "This is the primary treatment if the cat has been vomiting, refusing water, or drooling excessively. Fluid therapy ensures organs continue to function properly and helps flush toxins from the body, which is critical if the cat has ingested the more toxic roots or tubers",
+      "priority": 1
+    },
+    {
+      "name": "Dietary Management (Bland Diet)",
+      "description": "Prescribing a mild or bland diet (such as boiled chicken or prescription gastrointestinal food) for several days.",
+      "notes": "This allows the irritation and swelling in the throat and digestive system to heal. It is typically recommended once the initial vomiting has subsided to prevent further gastrointestinal distress",
+      "priority": 2
+    },
+    {
+      "name": "Diagnostic Monitoring (Blood Tests)",
+      "description": "Performing a physical examination and running blood tests (biochemistry panel) to check organ function.",
+      "notes": "Because the toxins (soluble oxalates) can potentially affect the liver or kidneys (especially if roots were consumed), vets monitor blood values to detect any signs of liver failure or systemic illness early",
+      "priority": 3
+    },
+    {
+      "name": "Oral Decontamination (Rinsing)",
+      "description": "Rinsing the mouth with water or offering a calcium-containing liquid (like milk) to bind the crystals and soothe oral irritation.",
+      "notes": "While often done as first aid at home, a vet may perform a more thorough flushing of the oral cavity if plant material remains lodged in the mouth, causing continued pain or drooling",
+      "priority": 4
+    }
+  ]
+}

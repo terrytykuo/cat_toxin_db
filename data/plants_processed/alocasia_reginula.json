@@ -1,0 +1,94 @@
+{
+  "plant": {
+    "common_name": "Black Velvet Alocasia",
+    "scientific_name": "Alocasia reginula",
+    "family": "Araceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Plants in the Alocasia genus are generally described as erect perennials that grow from running rhizomes. They typically feature single, long-stemmed, spear-headed leaves with prominent veins. The specific variety Alocasia reginula is known as \"Black Velvet.\"\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is a popular indoor houseplant.\u2022 Cat toxicity chart for 50 popular houseplants12\n\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "basics": {
+    "family": "Araceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Plants in the Alocasia genus are generally described as erect perennials that grow from running rhizomes. They typically feature single, long-stemmed, spear-headed leaves with prominent veins. The specific variety Alocasia reginula is known as \"Black Velvet.\"\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is a popular indoor houseplant.\u2022 Cat toxicity chart for 50 popular houseplants12\n\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Insoluble Calcium Oxalate Crystals",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mechanical Damage: These crystals form needle-like structures known as raphides. When a cat bites or chews into the plant tissue, specialized cells (idioblasts) forcefully eject these microscopic needles into the soft tissues of the mouth, tongue, and throat.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Inflammatory Response: This penetration causes immediate and intense physical trauma, leading to severe burning, irritation, and swelling (edema) of the oral cavity and pharynx.\n4. Notes on",
+      "concentration_notes": "\u25e6 Distribution: These crystals are found in all parts of the plant.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: The reaction is immediate and painful, often described as \"moderate\" severity because the intense pain typically prevents the cat from consuming a lethal amount. However, severe swelling can potentially obstruct the airway."
+    },
+    {
+      "name": "Proteinaceous Toxins (or proteolytic enzymes)",
+      "chemical_formula": "Not applicable (complex proteins).",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 The sources indicate that Alocasia species may contain proteinaceous toxins alongside the oxalate crystals. These toxins are released when the plant is damaged and can exacerbate the inflammatory response caused by the crystals, contributing to the intense pain and swelling.\n4. Notes on",
+      "concentration_notes": "\u25e6 Distribution: Present in leaves, stems, and tubers.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: These compounds work synergistically with the calcium oxalate crystals to increase the severity of the irritation.\u2022 Cat toxicity chart for 50 popular houseplants1\n\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Severe oral irritation; intense burning of the mouth, tongue, and throat",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (upon contact/chewing).",
+      "notes": "The plant contains microscopic crystals that act like needles, causing physical trauma to the mouth tissues.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "This is a physiological response to the acute pain and burning sensation in the oral cavity.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid (shortly after ingestion).",
+      "notes": "Swallowing the plant material or the body's reaction to the intense irritation can trigger vomiting.Difficulty Swallowing (Dysphagia)"
+    },
+    {
+      "name": "Difficulty swallowing",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to Rapid.",
+      "notes": "The cat may be unable or unwilling to swallow due to the pain and swelling in the throat.Throat Swelling (Airway Risk)"
+    },
+    {
+      "name": "Swelling of the throat (Laryngeal edema)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid.",
+      "notes": "While the overall toxicity is often rated as moderate, there is a risk that swelling in the back of the throat could obstruct breathing. Veterinary attention should be sought promptly to monitor for this specific complication."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral Decontamination (Rinsing)",
+      "description": "The cat's mouth is thoroughly rinsed or wiped out with water to remove any remaining plant material and the microscopic needle-like crystals (raphides) causing the irritation.",
+      "notes": "This is the immediate first step to stop the crystals from causing further physical trauma to the soft tissues of the mouth and throat.",
+      "priority": 1
+    },
+    {
+      "name": "Airway Management",
+      "description": "The veterinarian monitors for laryngeal edema (swelling of the throat). In severe cases, they may provide oxygen support or secure an airway (intubation) to ensure the cat can breathe.",
+      "notes": "While the overall toxicity is often rated as moderate, there is a specific risk that swelling in the back of the throat could obstruct breathing. Immediate intervention is required if the cat shows signs of respiratory distress.",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Calcium-Containing Liquids (Demulcents)",
+      "description": "Feeding the cat small amounts of milk, yogurt, or other calcium-containing dairy products.",
+      "notes": "The calcium in these products binds to the insoluble oxalate crystals, which helps precipitate them and aids in clearing them from the oral cavity and esophagus, providing soothing relief.",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Supportive Care (Analgesics & Fluids)",
+      "description": "Administering pain medication (analgesics) to control severe oral discomfort and fluid therapy if the cat is dehydrated from excessive drooling or vomiting.",
+      "notes": "Analgesics are indicated because the pain from the crystals is immediate and intense. Most cases recover without extensive intervention, but pain relief helps the cat return to eating and drinking.",
+      "priority": 4
+    }
+  ]
+}

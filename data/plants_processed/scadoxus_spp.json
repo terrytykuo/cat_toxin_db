@@ -1,0 +1,70 @@
+{
+  "plant": {
+    "common_name": "Blood Lily",
+    "scientific_name": "Scadoxus spp.",
+    "description": "Also known as Blood Lily, a bulbous plant with large spherical flower heads. Highly toxic.",
+    "family": "Amaryllidaceae"
+  },
+  "basics": {
+    "description": "Also known as Blood Lily, a bulbous plant with large spherical flower heads. Highly toxic.",
+    "family": "Amaryllidaceae"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Bulb"
+  ],
+  "toxins": [
+    {
+      "name": "Lycorine and other alkaloids",
+      "chemical_formula": "C16H17NO4",
+      "description": "Alkaloids that cause gastrointestinal irritation and systemic distress.",
+      "concentration_notes": "Found in bulbs and stems."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "severity": "moderate",
+      "body_system": "Gastrointestinal",
+      "onset": null
+    },
+    {
+      "name": "Salivation",
+      "severity": "mild",
+      "body_system": "Gastrointestinal",
+      "onset": null
+    },
+    {
+      "name": "Diarrhea",
+      "severity": "moderate",
+      "body_system": "Gastrointestinal",
+      "onset": null
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Plant Identification and Triage",
+      "description": "The veterinarian must immediately verify the specific species of the plant. This is done to confirm the plant is an \"imposter lily\" (Scadoxus spp.) and definitively rule out Lilium or Hemerocallis species.",
+      "notes": "This is the most critical first step. True lilies cause fatal kidney failure with even small ingestions (pollen, 1-2 leaves), requiring aggressive, expensive, and prolonged hospitalization (48\u201372 hours of fluids). Confirming the plant is a Blood Lily allows the vet to avoid these intense kidney-protection protocols and focus on symptomatic care.",
+      "priority": 1
+    },
+    {
+      "name": "Gastrointestinal Decontamination (Emesis)",
+      "description": "If the ingestion was recent and the cat is neurologically stable, the veterinarian may induce vomiting (emesis) using prescription medications (such as xylazine or dexmedetomidine) to remove the plant material from the stomach.",
+      "notes": "Decontamination is most effective if performed shortly after ingestion. Do not attempt to induce vomiting at home (e.g., using hydrogen peroxide), as this can cause severe irritation, aspiration, or delay proper treatment.",
+      "priority": 2
+    },
+    {
+      "name": "Toxin Adsorption (Activated Charcoal)",
+      "description": "The administration of activated charcoal with a cathartic. This substance binds to toxins remaining in the gastrointestinal tract, preventing them from being absorbed into the bloodstream.",
+      "notes": "This step is often taken following emesis to ensure any toxins that have moved past the stomach are neutralized before they can cause systemic effects.",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic and Supportive Care (Fluids & Medications)",
+      "description": "Administration of intravenous (IV) or subcutaneous fluids to maintain hydration and correct electrolyte imbalances caused by vomiting or diarrhea. Anti-nausea medications (antiemetics) and gastroprotectants may be given to soothe the stomach.",
+      "notes": "Since \"imposter lilies\" typically cause gastrointestinal upset (vomiting, diarrhea, anorexia) or oral irritation rather than organ failure, treatment is aimed at keeping the cat comfortable and hydrated until clinical signs resolve. The prognosis for imposter lily ingestion is generally excellent.",
+      "priority": 4
+    }
+  ]
+}

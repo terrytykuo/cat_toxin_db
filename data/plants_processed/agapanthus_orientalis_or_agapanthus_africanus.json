@@ -2,94 +2,94 @@
   "plant": {
     "common_name": "African Blue Lily",
     "scientific_name": "Agapanthus orientalis or Agapanthus africanus",
-    "family": "According to the Merck Veterinary Manual, the African Blue Lily belongs to the family Liliaceae1.",
+    "family": "Liliaceae",
     "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Classification: It is a perennial herb that grows from rhizomes1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is frequently referred to as the African Blue Lily, Blue African Lily1, or Lily of the Nile2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance & Habitat: It is often found as an ornamental plant and can grow to a height of approximately 2 feet in large containers1. Notably, it is categorized as an \"imposter lily\" (along with plants like the Calla lily and Peace lily), distinguishing it from \"true lilies\" (Lilium and Hemerocallis species) which cause kidney failure in cats2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Toxicity: While not causing acute renal failure like true lilies, it contains insoluble oxalate crystals (concentrated in the rhizomes) which can cause oral pain, swelling, and drooling if ingested1.\n(Note: While one source description1 mentions \"heart-shaped leaves\" and a \"yellow-green spathe\" for this entry, this description appears to be a text error in the source data duplicating the description of Caladium, as Agapanthus typically has strap-like leaves and umbels of blue or white flowers.)"
   },
   "basics": {
-    "family": "According to the Merck Veterinary Manual, the African Blue Lily belongs to the family Liliaceae1.",
+    "family": "Liliaceae",
     "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Classification: It is a perennial herb that grows from rhizomes1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is frequently referred to as the African Blue Lily, Blue African Lily1, or Lily of the Nile2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance & Habitat: It is often found as an ornamental plant and can grow to a height of approximately 2 feet in large containers1. Notably, it is categorized as an \"imposter lily\" (along with plants like the Calla lily and Peace lily), distinguishing it from \"true lilies\" (Lilium and Hemerocallis species) which cause kidney failure in cats2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Toxicity: While not causing acute renal failure like true lilies, it contains insoluble oxalate crystals (concentrated in the rhizomes) which can cause oral pain, swelling, and drooling if ingested1.\n(Note: While one source description1 mentions \"heart-shaped leaves\" and a \"yellow-green spathe\" for this entry, this description appears to be a text error in the source data duplicating the description of Caladium, as Agapanthus typically has strap-like leaves and umbels of blue or white flowers.)"
   },
   "toxic_parts": [
-    "Leaf",
-    "Root",
     "Entire Plant",
     "Stem",
-    "Latex"
+    "Root",
+    "Latex",
+    "Leaf"
   ],
   "toxins": [
     {
-      "name": "Insoluble Calcium Oxalate Crystals1.",
-      "chemical_formula": "CaC\n2\n\t\u200b\n\nO\n4\n\t\u200b\n\n (General chemical formula for calcium oxalate, though strictly referred to as \"calcium oxalate crystals\" in the text)1.\n3.",
+      "name": "Insoluble Calcium Oxalate Crystals",
+      "chemical_formula": null,
       "description": "in cats: These crystals act as mechanical irritants. Upon ingestion, they cause immediate and intense pain and local irritation to the mucous membranes of the mouth and throat. This physical trauma leads to clinical signs such as excessive salivation (drooling), swelling of the tongue and pharynx, and difficulty breathing (dyspnea)1.\n4. Notes on",
-      "concentration_notes": "These crystals are found in all parts of the plant, but they are notably concentrated in the rhizomes (the underground root-like stems)1.\n2. Irritant Latex"
+      "concentration_notes": "These crystals are found in all parts of the plant, but they are notably concentrated in the rhizomes (the underground root-like stems)"
     },
     {
-      "name": "Sticky, acrid, irritant latex (The specific toxic principle within this latex is currently unknown)1.",
-      "chemical_formula": "Not available (Unknown toxin)1.\n3.",
+      "name": "Sticky, acrid, irritant latex (The specific toxic principle within this latex is currently unknown)",
+      "chemical_formula": null,
       "description": "in cats: This substance acts as a gastrointestinal and mucosal irritant. In addition to oral pain, ingestion can lead to gastrointestinal upset, specifically diarrhea1.\n4. Notes on",
-      "concentration_notes": "While specific potency data is not listed, the latex is described as \"acrid\" and contributes to the immediate painful reaction that usually limits the amount a pet will ingest1.\nImportant Note on Toxicity Type: It is critical to distinguish the African Blue Lily from \"true lilies\" (Lilium species). While African Blue Lily causes oral irritation and gastrointestinal distress, it is classified as an \"imposter lily\" and does not contain the unknown nephrotoxins found in true lilies that cause fatal acute kidney failure in cats2...."
+      "concentration_notes": "While specific potency data is not listed, the latex is described as \"acrid\" and contributes to the immediate painful reaction that usually limits the amount a pet will ingest1.\nImportant Note on Toxicity Type: It is critical to distinguish the African Blue Lily from \"true lilies\" (Lilium species). While African Blue Lily causes oral irritation and gastrointestinal distress, it is classified as an \"imposter lily\" and does not contain the unknown nephrotoxins found in true lilies that cause fatal acute kidney failure in cats"
     }
   ],
   "symptoms": [
     {
-      "name": "Immediate intense pain and local irritation to mucous membranes.",
-      "body_system": "Gastrointestinal (Oral mucosa).",
-      "severity": "Moderate to Severe (described as \"intense\").",
+      "name": "Immediate intense pain and local irritation to mucous membranes",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
       "onset": "Immediate upon chewing or ingestion.",
       "notes": "This is caused by insoluble calcium oxalate crystals found in all parts of the plant (especially the rhizomes) and a sticky, acrid latex. The pain usually limits the amount a cat will swallow3.\n2. Excessive Drooling (Hypersalivation)"
     },
     {
-      "name": "Excess salivation.",
-      "body_system": "Gastrointestinal.",
-      "severity": "Mild to Moderate.",
+      "name": "Excess salivation",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
       "onset": "Immediate to rapid (shortly after exposure).",
       "notes": "This occurs as a physiological response to the mechanical irritation and burning sensation in the mouth3.\n3. Swelling of the Mouth and Throat"
     },
     {
-      "name": "Swollen tongue and pharynx (throat).",
-      "body_system": "Gastrointestinal / Respiratory (Upper airway).",
-      "severity": "Moderate to Severe.",
+      "name": "Swollen tongue and pharynx (throat)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
       "onset": "Rapid (following irritation).",
       "notes": "The inflammation is a direct result of the calcium oxalate crystals embedding in the soft tissues3.\n4. Difficulty Breathing (Dyspnea)"
     },
     {
-      "name": "Dyspnea.",
-      "body_system": "Respiratory.",
-      "severity": "Severe (potential medical emergency).",
+      "name": "Dyspnea",
+      "body_system": "Respiratory",
+      "severity": "severe",
       "onset": "Rapid (secondary to swelling).",
       "notes": "Breathing difficulties arise if the swelling of the tongue and pharynx becomes significant enough to obstruct the airway3.\n5. Gastrointestinal Upset"
     },
     {
-      "name": "Diarrhea.",
-      "body_system": "Gastrointestinal.",
-      "severity": "Mild to Moderate.",
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
       "onset": "Variable (typically within hours of ingestion).",
-      "notes": "The plant contains an irritant latex that disrupts the GI tract. Unlike true lilies, it does not cause acute renal failure13."
+      "notes": "The plant contains an irritant latex that disrupts the GI tract. Unlike true lilies, it does not cause acute renal failure"
     }
   ],
   "treatments": [
     {
       "name": "Airway Management and Oxygen Support",
-      "description": "The veterinarian secures the animal's airway to ensure they can breathe, potentially administering oxygen if necessary4.",
-      "notes": "This is the most urgent intervention if the cat is experiencing dyspnea (difficulty breathing) due to severe swelling of the tongue and pharynx (throat), which are documented symptoms of Agapanthus ingestion14.",
+      "description": "The veterinarian secures the animal's airway to ensure they can breathe, potentially administering oxygen if necessary",
+      "notes": "This is the most urgent intervention if the cat is experiencing dyspnea (difficulty breathing) due to severe swelling of the tongue and pharynx (throat), which are documented symptoms of Agapanthus ingestion",
       "priority": 1
     },
     {
       "name": "Oral Decontamination",
-      "description": "Physical removal of any remaining plant material from the mouth, followed by rinsing or wiping the oral cavity with water4.",
-      "notes": "This step aims to flush out the insoluble calcium oxalate crystals and the sticky, acrid irritant latex found in the plant (especially the rhizomes) that cause immediate intense pain and local irritation14.",
+      "description": "Physical removal of any remaining plant material from the mouth, followed by rinsing or wiping the oral cavity with water",
+      "notes": "This step aims to flush out the insoluble calcium oxalate crystals and the sticky, acrid irritant latex found in the plant (especially the rhizomes) that cause immediate intense pain and local irritation",
       "priority": 2
     },
     {
       "name": "Administration of Calcium-Containing Products",
-      "description": "Oral administration of milk or other calcium-containing dairy products4.",
-      "notes": "Insoluble oxalates often bind to the calcium in dairy products; feeding this to the cat can aid in clearing the crystals from the oral cavity and esophagus, helping to soothe the irritation4.",
+      "description": "Oral administration of milk or other calcium-containing dairy products",
+      "notes": "Insoluble oxalates often bind to the calcium in dairy products; feeding this to the cat can aid in clearing the crystals from the oral cavity and esophagus, helping to soothe the irritation",
       "priority": 3
     },
     {
       "name": "Symptomatic Supportive Care",
-      "description": "Administration of medications to manage specific symptoms, such as diarrhea or pain15.",
-      "notes": "Since the plant acts as a gastrointestinal irritant causing excess salivation and diarrhea, care is \"symptomatic,\" meaning it targets these specific signs as they resolve16. Unlike true lilies, aggressive fluid therapy for kidney failure is not typically required for Agapanthus unless dehydration occurs from severe gastrointestinal upset24.",
+      "description": "Administration of medications to manage specific symptoms, such as diarrhea or pain",
+      "notes": "Since the plant acts as a gastrointestinal irritant causing excess salivation and diarrhea, care is \"symptomatic,\" meaning it targets these specific signs as they resolve16. Unlike true lilies, aggressive fluid therapy for kidney failure is not typically required for Agapanthus unless dehydration occurs from severe gastrointestinal upset",
       "priority": 4
     }
   ]

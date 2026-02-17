@@ -2,74 +2,74 @@
   "plant": {
     "common_name": "Allamanda",
     "scientific_name": "Allamanda cathartica",
-    "family": "It belongs to the family Apocynaceae1.",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Allamanda is an ornamental, sprawling, woody climbing shrub1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Flowers: It is characterized by large yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is also known as Yellow allamanda1."
+    "family": "Apocynaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Allamanda is an ornamental, sprawling, woody climbing shrub1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Flowers: It is characterized by large yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is also known as Yellow allamanda"
   },
   "basics": {
-    "family": "It belongs to the family Apocynaceae1.",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Allamanda is an ornamental, sprawling, woody climbing shrub1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Flowers: It is characterized by large yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is also known as Yellow allamanda1."
+    "family": "Apocynaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Allamanda is an ornamental, sprawling, woody climbing shrub1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Flowers: It is characterized by large yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is also known as Yellow allamanda"
   },
   "toxic_parts": [
-    "Leaf",
-    "Bark",
     "Seed",
-    "Fruit"
+    "Fruit",
+    "Leaf",
+    "Bark"
   ],
   "toxins": [
     {
-      "name": "Plumericin1.",
+      "name": "Plumericin",
       "chemical_formula": "Not provided in the sources.",
       "description": "in cats: This compound acts as a gastrointestinal irritant. Ingestion leads to clinical signs such as abdominal discomfort, diarrhea, dehydration, and electrolyte imbalance1.\n4. Notes on",
-      "concentration_notes": "The toxin is found in the bark, leaves, fruit, seeds, and sap of the plant. The severity of the toxicity is based on the exposure dose1."
+      "concentration_notes": "The toxin is found in the bark, leaves, fruit, seeds, and sap of the plant. The severity of the toxicity is based on the exposure dose"
     }
   ],
   "symptoms": [
     {
-      "name": "Abdominal discomfort (pain).",
-      "body_system": "Gastrointestinal.",
-      "severity": "Mild to Moderate (Severity is explicitly noted as \"based on exposure dose\")1.",
-      "onset": "Not explicitly specified in the sources, though gastrointestinal irritants typically manifest relatively quickly after ingestion.\n5. Additional",
+      "name": "Abdominal discomfort (pain)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources,",
       "notes": "This is a direct result of the compound plumericin acting as an irritant to the lining of the digestive tract1.\n2. Diarrhea"
     },
     {
-      "name": "Diarrhea.",
-      "body_system": "Gastrointestinal.",
-      "severity": "Mild to Moderate (Dose-dependent)1.",
-      "onset": "Not explicitly specified.\n5. Additional",
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified.",
       "notes": "This is the primary sign of the plant's purgative (cathartic) effects1.\n3. Dehydration"
     },
     {
-      "name": "Dehydration.",
-      "body_system": "Systemic / Renal (Fluid balance).",
-      "severity": "Moderate to Severe (depending on the duration of gastrointestinal symptoms)1.",
-      "onset": "Secondary effect, developing after sustained fluid loss from diarrhea.\n5. Additional",
+      "name": "Dehydration",
+      "body_system": "Metabolic",
+      "severity": "severe",
+      "onset": "Secondary effect, developing after sustained fluid loss from diarrhea.",
       "notes": "Veterinary treatment may involve fluid therapy to correct this1.\n4. Electrolyte Imbalance"
     },
     {
-      "name": "Electrolyte imbalance.",
-      "body_system": "Hematological / Systemic.",
-      "severity": "Potentially Serious (requires veterinary assessment).",
-      "onset": "Secondary effect, following fluid loss.\n5. Additional",
-      "notes": "This occurs as a consequence of losing essential minerals through diarrhea and dehydration1."
+      "name": "Electrolyte imbalance",
+      "body_system": "Hematological",
+      "severity": null,
+      "onset": "Secondary effect, following fluid loss.",
+      "notes": "This occurs as a consequence of losing essential minerals through diarrhea and dehydration"
     }
   ],
   "treatments": [
     {
       "name": "Symptomatic Treatment",
       "description": "This is the primary course of action listed for Allamanda ingestion. It involves the administration of medications and supportive care specifically targeted to alleviate the clinical signs the cat is currently displaying, rather than using a specific antidote.",
-      "notes": "The severity of the treatment depends entirely on the exposure dose. Veterinary intervention addresses the immediate abdominal discomfort and gastrointestinal distress caused by the plant's toxins12.",
+      "notes": "The severity of the treatment depends entirely on the exposure dose. Veterinary intervention addresses the immediate abdominal discomfort and gastrointestinal distress caused by the plant's toxins",
       "priority": 1
     },
     {
       "name": "Fluid Therapy (Rehydration)",
       "description": "The administration of fluids (subcutaneous or intravenous) to restore hydration levels in the body.",
-      "notes": "This is necessary to treat dehydration, a documented symptom of Allamanda toxicity resulting from the fluid loss associated with diarrhea12.",
+      "notes": "This is necessary to treat dehydration, a documented symptom of Allamanda toxicity resulting from the fluid loss associated with diarrhea",
       "priority": 2
     },
     {
       "name": "Management of Electrolyte Imbalance",
       "description": "Medical monitoring and replacement of essential minerals (electrolytes) to restore the body's natural balance.",
-      "notes": "Allamanda ingestion can cause electrolyte imbalance due to gastrointestinal upset; this condition requires veterinary assessment to prevent systemic complications12.",
+      "notes": "Allamanda ingestion can cause electrolyte imbalance due to gastrointestinal upset; this condition requires veterinary assessment to prevent systemic complications",
       "priority": 3
     }
   ]

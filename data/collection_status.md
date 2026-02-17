@@ -12,51 +12,51 @@
 | 8 | Apricot | Apricot | Prunus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 9 | Arrowhead Vine | Arrowhead Vine | Syngonium spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 10 | Asparagus Fern | Asparagus Fern | also Foxtail or Emerald Fern | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 11 | Autumn Crocus | Autumn Crocus | Colchicum autumnale | | | | | | | |
-| 12 | Avocado | Avocado | Persea americana | | | | | | | |
-| 13 | Azalea | Azalea | Rhododendron spp. | | | | | | | |
-| 14 | Begonia | Begonia | Begonia spp. | | | | | | | |
-| 15 | Bell Pepper / Chili Pepper / Ornamental Pepper | Bell Pepper / Chili Pepper / Ornamental Pepper | Capsicum annuum | | | | | | | |
-| 16 | Bird of Paradise | Bird of Paradise | Strelitzia reginae | | | | | | | |
-| 17 | Bird’s Nest Anthurium | Bird’s Nest Anthurium | N/A | | | | | | | |
-| 18 | Bittersweet | Bittersweet | N/A | | | | | | | |
-| 19 | Black Velvet Alocasia | Black Velvet Alocasia | Alocasia reginula | | | | | | | |
-| 20 | Blood Lily | Blood Lily | Scadoxus spp. | | | | | | | |
-| 21 | Bluebells | Bluebells | N/A | | | | | | | |
-| 22 | Caladium / Elephant’s Ear | Caladium / Elephant’s Ear | Caladium spp. or Alocasia spp. | | | | | | | |
-| 23 | Calla Lily | Calla Lily | Zantedeschia aethiopica or Zantedeschia spp. | | | | | | | |
-| 24 | Cannabis / Marijuana | Cannabis / Marijuana | Cannabis sativa | | | | | | | |
-| 25 | Cardboard Palm | Cardboard Palm | Zamia furfuracea | | | | | | | |
-| 26 | Carnation | Carnation | N/A | | | | | | | |
-| 27 | Castor Bean | Castor Bean | N/A | | | | | | | |
-| 28 | Century Plant | Century Plant | Agave americana | | | | | | | |
-| 29 | Chamomile | Chamomile | N/A | | | | | | | |
-| 30 | Cherry / Black Cherry / Chokecherry | Cherry / Black Cherry / Chokecherry | Prunus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 31 | Cherry Laurel | Cherry Laurel | Prunus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 32 | Chinese Evergreen | Chinese Evergreen | Aglaonema modestum or Aglaonema commitatum | | | | | | | |
-| 33 | Chives | Chives | Allium schoenoprasum | | | | | | | |
-| 34 | Chocolate Mint | Chocolate Mint | N/A | | | | | | | |
-| 35 | Christmas Cactus | Christmas Cactus | Schlumbergera spp. | | | | | | | |
-| 36 | Christmas Rose | Christmas Rose | Helleborus niger | | | | | | | |
-| 37 | Chrysanthemum / Mums | Chrysanthemum / Mums | Chrysanthemum implied | | | | | | | |
-| 38 | Cinnamon | Cinnamon | N/A | | | | | | | |
-| 39 | Citrus | Citrus | Lemon, Lime, Orange, Grapefruit | | | | | | | |
-| 40 | Clove | Clove | N/A | | | | | | | |
-| 41 | Cobra Lily | Cobra Lily | Darlingtonia californica | | | | | | | |
-| 42 | Common Garden Mint | Common Garden Mint | Mentha spp. | | | | | | | |
-| 43 | Coontie Palm | Coontie Palm | Zamia pumila or Zamia floridana | | | | | | | |
-| 44 | Corn Plant | Corn Plant | Dracaena fragrans | | | | | | | |
-| 45 | Corsican Mint | Corsican Mint | N/A | | | | | | | |
-| 46 | Crocus | Crocus | Spring | | | | | | | |
-| 47 | Croton | Croton | Codiaeum | | | | | | | |
+| 11 | Autumn Crocus | Autumn Crocus | Colchicum autumnale | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 12 | Avocado | Avocado | Persea americana | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 13 | Azalea | Azalea | Rhododendron spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 14 | Begonia | Begonia | Begonia spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 15 | Bell Pepper / Chili Pepper / Ornamental Pepper | Bell Pepper / Chili Pepper / Ornamental Pepper | Capsicum annuum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 16 | Bird of Paradise | Bird of Paradise | Strelitzia reginae | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 17 | Bird’s Nest Anthurium | Bird’s Nest Anthurium | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 18 | Bittersweet | Bittersweet | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 19 | Black Velvet Alocasia | Black Velvet Alocasia | Alocasia reginula | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 20 | Blood Lily | Blood Lily | Scadoxus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 21 | Bluebells | Bluebells | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 22 | Caladium / Elephant’s Ear | Caladium / Elephant’s Ear | Caladium spp. or Alocasia spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 23 | Calla Lily | Calla Lily | Zantedeschia aethiopica or Zantedeschia spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 24 | Cannabis / Marijuana | Cannabis / Marijuana | Cannabis sativa | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 25 | Cardboard Palm | Cardboard Palm | Zamia furfuracea | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 26 | Carnation | Carnation | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 27 | Castor Bean | Castor Bean | Ricinus communis | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 28 | Century Plant | Century Plant | Agave americana | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 29 | Chamomile | Chamomile | Matricaria chamomilla | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 30 | Cherry / Black Cherry / Chokecherry | Cherry / Black Cherry / Chokecherry | Prunus serotina | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 31 | Cherry Laurel | Cherry Laurel | Prunus laurocerasus | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 32 | Chinese Evergreen | Chinese Evergreen | Aglaonema modestum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 33 | Chives | Chives | Allium schoenoprasum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 34 | Chocolate Mint | Chocolate Mint | Mentha x piperita 'Chocolate' | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 35 | Christmas Cactus | Christmas Cactus | Schlumbergera spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 36 | Christmas Rose | Christmas Rose | Helleborus niger | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 37 | Chrysanthemum / Mums | Chrysanthemum / Mums | Chrysanthemum morifolium | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 38 | Cinnamon | Cinnamon | Cinnamomum verum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 39 | Citrus | Citrus | Citrus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 40 | Clove | Clove | Syzygium aromaticum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 41 | Cobra Lily | Cobra Lily | Darlingtonia californica | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 42 | Common Garden Mint | Common Garden Mint | Mentha spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 43 | Coontie Palm | Coontie Palm | Zamia pumila | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 44 | Corn Plant | Corn Plant | Dracaena fragrans | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 45 | Corsican Mint | Corsican Mint | Mentha requienii | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 46 | Crocus | Crocus | Crocus vernus | | | | | | | |
+| 47 | Croton | Croton | Codiaeum variegatum | | | | | | | |
 | 48 | Curly Dock / Sorrel | Curly Dock / Sorrel | Rumex spp. | | | | | | | |
 | 49 | Cycad | Cycad | Cycas spp. or Zamia spp. | | | | | | | |
-| 50 | Cyclamen | Cyclamen | Cyclamen spp. | | | | | | | |
-| 51 | Daffodil | Daffodil | Narcissus spp. | | | | | | | |
-| 52 | Dahlia | Dahlia | N/A | | | | | | | |
-| 53 | Daylily | Daylily | Hemerocallis spp. | | | | | | | |
-| 54 | Desert Rose | Desert Rose | Adenium obesum | | | | | | | |
-| 55 | Dieffenbachia / Dumb Cane | Dieffenbachia / Dumb Cane | Dieffenbachia spp. | | | | | | | |
+| 50 | Cyclamen | Cyclamen | Cyclamen spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 51 | Daffodil | Daffodil | Narcissus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 52 | Dahlia | Dahlia | Dahlia pinnata | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 53 | Daylily | Daylily | Hemerocallis spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 54 | Desert Rose | Desert Rose | Adenium obesum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 55 | Dieffenbachia | Dieffenbachia | Dieffenbachia spp. | | | | | | | |
 | 56 | Dracaena | Dracaena | Dracaena spp. | | | | | | | |
 | 57 | Dragon Tree | Dragon Tree | Dracaena marginata or Dracaena spp. | | | | | | | |
 | 58 | Eggplant | Eggplant | Solanum melongena | | | | | | | |

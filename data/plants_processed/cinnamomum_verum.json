@@ -1,0 +1,87 @@
+{
+  "plant": {
+    "common_name": "Cinnamon",
+    "scientific_name": "Cinnamomum verum",
+    "description": "A small evergreen tree native to Sri Lanka, its inner bark is used to make cinnamon spice. Contains essential oils.",
+    "family": "Lauraceae"
+  },
+  "basics": {
+    "description": "A small evergreen tree native to Sri Lanka, its inner bark is used to make cinnamon spice. Contains essential oils.",
+    "family": "Lauraceae"
+  },
+  "toxic_parts": [
+    "Entire Plant",
+    "Bark"
+  ],
+  "toxins": [
+    {
+      "name": "Cinnamon Essential Oil",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Liver Damage: Cats lack specific liver enzymes required to break down and process certain compounds found in essential oils. This inability to metabolize the toxins can lead to serious organ damage, including liver failure.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Chemical Burns: If applied directly to the skin or ingested, concentrated cinnamon oil can cause severe chemical burns, redness, and soreness.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Toxicity: Ingestion or significant exposure can lead to central nervous system symptoms such as wobbliness (walking as if drunk), tremors, lethargy, and seizures.",
+      "concentration_notes": "\u25e6 Highly Toxic: The oil is dangerous even in small amounts, particularly if used \"neat\" (undiluted).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Routes of Exposure: Toxicity can occur through ingestion (licking oil off fur or diffusers), direct skin contact, or inhalation (especially from nebulizers or ultrasonic diffusers)."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Liver failure (Serious organ damage)",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Not explicitly specified, but organ damage can develop after exposure.",
+      "notes": "Essential oils can cause serious organ damage in cats, which in extreme cases leads to liver failure.Chemical Burns and Skin Irritation"
+    },
+    {
+      "name": "Soreness, redness, or chemical burns",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Rapid (upon contact).",
+      "notes": "This occurs if the cat has direct skin contact with the oil. Even if there is no visible damage to the skin, systemic toxicity may still occur from absorption.Neurological Distress"
+    },
+    {
+      "name": "Tremors, shaking, ataxia (walking as if drunk), and seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not explicitly specified.",
+      "notes": "Cats may also exhibit lethargy, depression, or dullness. In severe cases, this can progress to collapse.Respiratory Difficulties"
+    },
+    {
+      "name": "Difficulty breathing (Dyspnea) or breathing with the mouth open",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Not explicitly specified.",
+      "notes": "Toxic effects from inhalation are generally rare with diluted diffusers but are a significant risk with nebulizers, ultrasonic diffusers using neat oils, or cats with conditions like asthma.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting and excessive dribbling (hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified.",
+      "notes": "Cats may lick the oil off their fur, leading to ingestion. High fat levels in carrier oils can also contribute to tummy upsets."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral/Dermal Decontamination (without Emesis)",
+      "description": "\u25e6 Ingestion: If the oil was swallowed, the veterinarian may rinse the cat's mouth with lukewarm water or offer milk to dilute the substance and soothe mucous membranes4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Skin Contact: If the oil is on the fur (leading to ingestion via grooming), the vet will bathe the cat using lukewarm water and a mild liquid dish soap to remove the oily residue",
+      "notes": "Crucial Warning: You should NOT induce vomiting (emesis) for essential oil ingestion. Cinnamon oil can cause chemical burns, and bringing it back up can severely damage the esophagus or lead to aspiration into the lungs46. Immediate removal of the toxin from the fur or mouth is the priority to prevent further absorption45.\n2. Intravenous (IV) Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Supportive Fluid Therapy",
+      "description": "The administration of IV fluids to maintain hydration, support blood pressure, and help the body flush toxins through the kidneys",
+      "notes": "Cats ingesting essential oils often suffer from vomiting and diarrhea, leading to dehydration9. Fluids are essential to support the liver and kidneys, which are the primary organs tasked with filtering these toxins910.\n3. Pain Management and Symptomatic Medication",
+      "priority": 2
+    },
+    {
+      "name": "Analgesics, Gastroprotectants, and Anti-convulsants",
+      "description": "\u25e6 Pain Relief: Medication to manage pain from chemical burns in the mouth or stomach1112.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Anti-nausea: Drugs to stop vomiting and coat the stomach11.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Neurological Support: If the cat is experiencing tremors or seizures (common with severe essential oil toxicity), muscle relaxants or anti-seizure medications may be administered",
+      "notes": "Cinnamon oil can cause severe irritation (chemical burns) to the lips, tongue, and skin9. Neurological signs like \"walking as if drunk\" (ataxia), tremors, or collapse indicate the toxin has affected the central nervous system and require immediate stabilization9.\n4. Hepatic (Liver) Monitoring and Support",
+      "priority": 3
+    },
+    {
+      "name": "Liver Function Monitoring and Hepatoprotectants",
+      "description": "The veterinarian will perform blood tests to monitor liver enzymes. If liver damage is detected, medications to support liver function (hepatoprotectants) may be started.",
+      "notes": "Cats lack the specific liver enzyme (glucuronosyltransferase) needed to break down compounds found in essential oils effectively914. This makes them highly susceptible to liver failure, even from small amounts of oil9. Severe cases can result in liver failure, necessitating extended hospitalization",
+      "priority": 4
+    }
+  ]
+}

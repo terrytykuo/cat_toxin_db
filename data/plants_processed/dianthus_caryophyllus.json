@@ -1,0 +1,62 @@
+{
+  "plant": {
+    "common_name": "Carnation",
+    "scientific_name": "Dianthus caryophyllus",
+    "family": "Caryophyllaceae",
+    "description": "Carnations are popular herbaceous flowering plants, often used in bouquets, with ruffled petals."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Flower"
+  ],
+  "toxins": [
+    {
+      "name": "The sources do not identify the specific toxic principle. Carnations are grouped with \"pom flowers,\" which are noted to contain unidentified substance",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: Ingestion of the flowers or plant parts typically causes mild gastrointestinal upset, manifesting as vomiting and diarrhea.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Dermal Irritation: Exposure to the plant can occasionally cause dermatological symptoms, such as skin irritation or dermatitis.\n4. Notes on",
+      "concentration_notes": "\u25e6 Potency: The toxicity is classified as mild."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Carnations are often found in floral arrangements as filler flowers. Ingestion of the plant material triggers these digestive symptoms.Dermatological Irritation"
+    },
+    {
+      "name": "Dermatological symptoms (Skin irritation)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Not specified in the provided sources.",
+      "notes": "While less common than vomiting, exposure to the plant can sometimes result in skin reactions."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Veterinary Consultation and Triage",
+      "description": "Contacting a veterinarian or animal poison control center immediately to assess the severity of the situation based on the amount ingested and the cat's current symptoms.",
+      "notes": "Because Carnations are considered only \"mildly toxic,\" a vet may advise monitoring the cat at home rather than immediate hospitalization, provided the symptoms (vomiting, diarrhea) are not severe. Professional guidance prevents unnecessary stress for the cat while ensuring intervention is available if symptoms escalate.",
+      "priority": 1
+    },
+    {
+      "name": "Symptomatic Supportive Care (Fluid Therapy)",
+      "description": "The administration of fluids (subcutaneous or intravenous) to prevent dehydration and correct electrolyte imbalances resulting from vomiting or diarrhea.",
+      "notes": "This is the primary treatment for most cases of plant poisoning causing gastrointestinal distress. If the cat is vomiting frequently or refusing water, fluid therapy helps maintain hydration and flush the system.",
+      "priority": 2
+    },
+    {
+      "name": "Gastrointestinal Decontamination (Inducing Vomiting)",
+      "description": "The veterinarian may administer medication to induce emesis (vomiting) to remove the plant material from the stomach before it is fully digested.",
+      "notes": "This is generally performed only if the ingestion was very recent and significant. Sources note that inducing vomiting should not be attempted at home without professional advice, as it can risk injury or aspiration pneumonia.",
+      "priority": 3
+    },
+    {
+      "name": "Dermal Decontamination (Bathing)",
+      "description": "Washing the cat's skin or fur with mild soap and warm water to remove plant sap or residue.",
+      "notes": "Carnations are noted to potentially cause dermatological symptoms (skin irritation) in addition to gastrointestinal issues. If the cat has rolled in or rubbed against the plant, removing the irritant prevents further dermatitis and stops the cat from ingesting more toxins while grooming.",
+      "priority": 4
+    }
+  ]
+}

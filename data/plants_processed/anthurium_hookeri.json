@@ -1,0 +1,101 @@
+{
+  "plant": {
+    "common_name": "Bird\u2019s Nest Anthurium",
+    "scientific_name": "Anthurium hookeri",
+    "family": "Araceae",
+    "description": "Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Anthurium species are perennial herbs characterized by dark green, shiny, broad, heart-shaped, and leathery leaves1. They typically produce a persistent spike (spadix) surrounded by a spathe that can be white, scarlet, or green, and they may develop colorful berries1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat: They are native to tropical America1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: They are widely cultivated and commonly found as indoor houseplants"
+  },
+  "basics": {
+    "family": "Araceae",
+    "description": "Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Anthurium species are perennial herbs characterized by dark green, shiny, broad, heart-shaped, and leathery leaves1. They typically produce a persistent spike (spadix) surrounded by a spathe that can be white, scarlet, or green, and they may develop colorful berries1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat: They are native to tropical America1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: They are widely cultivated and commonly found as indoor houseplants"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Insoluble Calcium Oxalate Crystals (often referred to as raphides)",
+      "chemical_formula": null,
+      "description": "in cats: These crystals are needle-like structures bundled within specialized plant cells known as idioblasts. When a cat chews or crushes the plant tissue, these cells rupture, forcefully ejecting the sharp crystals into the soft tissues of the mouth, tongue, and throat12. This causes immediate mechanical trauma (microscopic cuts), leading to intense burning, pain, swelling, and inflammation of the oral mucosa",
+      "concentration_notes": "These crystals are found in all parts of the plant1. The pain caused by the crystals is immediate, which typically limits the amount a cat will ingest, making systemic toxicity rare but local irritation severe"
+    },
+    {
+      "name": "Proteinaceous Toxins",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: These toxins are present alongside the calcium oxalate crystals. They contribute to the inflammatory response, exacerbating the pain and causing a burning sensation in the oral cavity upon contact or ingestion",
+      "concentration_notes": "The sources note the presence of these toxins specifically in the leaves and stems3. While they enhance the painful reaction, the overall severity is generally considered moderate due to the limiting factor of mouth pain preventing large ingestions"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning sensation and irritation of the mouth, tongue, and lips",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (upon chewing or biting).",
+      "notes": "The crystals act like microscopic needles, causing immediate mechanical trauma to the tissues. This intense pain often prevents the cat from consuming a large amount of the plant.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "This is a physiological response to the acute pain and irritation in the oral cavity.Oral Swelling (Edema)"
+    },
+    {
+      "name": "Swelling of the lips, tongue, and pharynx (throat)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid (shortly after contact).",
+      "notes": "While usually limited to the mouth, significant swelling in the back of the throat can potentially lead to difficulty breathing (dyspnea), though this is rare.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid.",
+      "notes": "Swallowing plant material or the body's reaction to the intense irritation can trigger vomiting.Difficulty Swallowing (Dysphagia)"
+    },
+    {
+      "name": "Difficulty swallowing",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to Rapid.",
+      "notes": "The cat may show an inability or reluctance to swallow due to pain and swelling.Pawing at the Mouth"
+    },
+    {
+      "name": "Pawing at the mouth or face",
+      "body_system": "Neurological",
+      "severity": "mild",
+      "onset": "Immediate.",
+      "notes": "This is a distinct behavioral sign indicating the cat is trying to remove the source of the pain/crystals."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral Decontamination (Rinsing)",
+      "description": "The mouth is thoroughly rinsed or wiped out with water to remove any remaining plant material and the microscopic crystals causing the irritation.",
+      "notes": "This is the immediate first step to stop the \"needle-like\" crystals from continuing to embed in the soft tissues of the mouth and throat.",
+      "priority": 1
+    },
+    {
+      "name": "Administration of Calcium-Containing Liquids (Demulcents)",
+      "description": "Feeding the cat small amounts of milk, yogurt, or other calcium-containing dairy products.",
+      "notes": "The calcium in these products binds to the insoluble oxalate crystals, which helps precipitate them and aids in clearing them from the oral cavity and esophagus, providing soothing relief.",
+      "priority": 2
+    },
+    {
+      "name": "Airway Management",
+      "description": "Monitoring for laryngeal edema (swelling of the throat) and providing oxygen support or securing an airway (intubation) if necessary.",
+      "notes": "While rare, severe swelling of the tongue and throat can obstruct breathing. Immediate veterinary intervention is required if the cat shows signs of respiratory distress.",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Supportive Care (Analgesics & Fluids)",
+      "description": "Administering pain medication (analgesics) to control oral discomfort and fluid therapy if the cat is dehydrated from drooling or unable to drink.",
+      "notes": "Most cases recover without extensive intervention, but pain relief encourages the cat to resume eating and drinking faster.",
+      "priority": 4
+    }
+  ]
+}

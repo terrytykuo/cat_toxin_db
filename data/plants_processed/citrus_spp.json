@@ -1,0 +1,109 @@
+{
+  "plant": {
+    "common_name": "Citrus",
+    "scientific_name": "Citrus spp.",
+    "family": "Rutaceae",
+    "description": "The sources identify Citrus as a category of fruit-bearing plants that includes oranges, lemons, limes, grapefruits, and mandarins1.... While a full physical description is not provided, the text notes the presence of stems, leaves, seeds (pips), and peels (skins), all of which contain varying levels of essential oils and citric acid"
+  },
+  "basics": {
+    "family": "Rutaceae",
+    "description": "The sources identify Citrus as a category of fruit-bearing plants that includes oranges, lemons, limes, grapefruits, and mandarins1.... While a full physical description is not provided, the text notes the presence of stems, leaves, seeds (pips), and peels (skins), all of which contain varying levels of essential oils and citric acid"
+  },
+  "toxic_parts": [
+    "Seed",
+    "Fruit",
+    "Leaf",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Essential Oils (specifically identified as limonene and linalool in the sources)",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Hepatic Deficiency: Cats lack specific liver enzymes (specifically glucuronosyltransferase) required to break down and metabolize certain compounds found in essential oils effectively.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Toxicity: Because the cat's liver cannot process these oils, toxins accumulate in the body, potentially leading to liver damage or failure.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Nervous System: These oils are irritating to the nervous system and can cause central nervous system (CNS) depression, leading to symptoms like trembling and weakness.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Direct Irritation: Topical contact can cause skin irritation or chemical burns.\n4. Notes on",
+      "concentration_notes": "\u25e6 High Concentration: These toxins are highly concentrated in the stems, leaves, seeds (pips), and peels (skins) of the fruit.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Flesh vs. Peel: The edible flesh of the fruit contains significantly lower concentrations and is generally considered less toxic, though it may still cause stomach upset.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Extracts: Concentrated forms, such as liquid potpourri or insecticidal sprays containing these oils, are extremely dangerous; a single drop can be harmful."
+    },
+    {
+      "name": "Citric Acid",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: Ingestion causes direct irritation to the stomach and intestines, leading to vomiting and diarrhea.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Nervous System Irritation: In significant quantities, citric acid is irritating to a cat's nervous system and can contribute to CNS depression.\n4. Notes on",
+      "concentration_notes": "\u25e6 Dose-Dependent: Small amounts (like eating a piece of fruit) typically result in mild gastrointestinal upset.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Severe Toxicity: Ingesting large quantities (often from stems, peels, or concentrated products) can lead to more severe symptoms such as tremors, seizures, or death."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and diarrhea (Gastrointestinal irritation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified, but symptoms typically follow ingestion.",
+      "notes": "Ingesting small amounts of the fruit flesh may result in only mild stomach upset. However, the peels, seeds, and plant parts contain higher concentrations of citric acid and essential oils, leading to more significant irritation.Central Nervous System (CNS) Depression"
+    },
+    {
+      "name": "CNS Depression (Lethargy, dullness, weakness)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not explicitly specified.",
+      "notes": "The essential oils (such as limonene and linalool) found in citrus plants are irritating to the nervous system. Ingestion of large quantities can cause the system to shut down, leading to depression and weakness.Neurological Disturbances (Tremors and Ataxia)"
+    },
+    {
+      "name": "Tremors, shaking, and ataxia (walking as if drunk)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not explicitly specified.",
+      "notes": "These symptoms indicate a more serious level of toxicity, often resulting from the ingestion of significant amounts of plant material or concentrated essential oils.Dermatitis and Chemical Burns"
+    },
+    {
+      "name": "Soreness, redness, or chemical burns",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Rapid (upon contact).",
+      "notes": "Direct skin contact with citrus essential oils (often found in the peels) can cause irritation or burns. Even if there is no visible damage, the cat may still suffer systemic toxicity if they groom the oil off their fur.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Excessive dribbling or drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Rapid (often a response to taste or oral irritation).",
+      "notes": "This is a common sign of nausea or direct irritation to the mucous membranes in the mouth caused by the citric acid or oils.Seizures and Collapse"
+    },
+    {
+      "name": "Seizures and collapse",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Not explicitly specified.",
+      "notes": "Ingesting large quantities of citrus parts (stems, leaves, peels) or concentrated oils can lead to severe neurological episodes and, in extreme cases, death.Liver Damage"
+    },
+    {
+      "name": "Liver failure (Hepatic necrosis)",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Not explicitly specified (likely delayed).",
+      "notes": "Essential oils can cause serious organ damage. Because cats lack the liver enzymes necessary to break down these compounds efficiently, extreme exposure can lead to liver failure."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Warm Water Bath with Liquid Dish Soap",
+      "description": "If the cat has come into contact with citrus essential oils (often used in diffusers or sprays), the veterinarian (or owner under veterinary guidance) should bathe the cat using lukewarm water and a mild liquid dish soap (degreaser) to thoroughly remove the oily residue from the skin and fur.",
+      "notes": "This is urgent because cats groom themselves; any oil left on the fur will be ingested, leading to systemic poisoning. Additionally, citrus oils can cause direct skin irritation or chemical burns. Do not use solvents or other cleaning products to remove the oil.Oral Decontamination (Dilution) \u2014 Do NOT Induce Vomiting",
+      "priority": 1
+    },
+    {
+      "name": "Mouth Rinsing and Dilution",
+      "description": "The veterinarian may rinse the cat's mouth with lukewarm water to remove localized toxins. They may also administer a small amount of milk or water to dilute the substance in the stomach and soothe irritated mucous membranes.",
+      "notes": "Inducing vomiting (emesis) is generally contraindicated for essential oil or citrus peel ingestion. The volatile oils can be aspirated into the lungs, causing severe pneumonia, and can cause further chemical burns to the esophagus if brought back up.Intravenous (IV) Fluid Therapy",
+      "priority": 2
+    },
+    {
+      "name": "Supportive Fluid Therapy",
+      "description": "The administration of IV fluids to rehydrate the cat, maintain blood pressure, and assist the body in eliminating toxins through the kidneys.",
+      "notes": "This is critical if the cat is experiencing severe vomiting or diarrhea (common symptoms of citrus poisoning). Fluids also support the liver and kidneys, which are stressed by the processing of essential oil toxins.Symptomatic Pharmacological Support",
+      "priority": 3
+    },
+    {
+      "name": "Anti-emetics, Gastroprotectants, and Neuro-supportive Medication",
+      "description": "\u25e6 GI Support: Medications to stop vomiting (anti-emetics) and coat the stomach lining (gastroprotectants) to treat the severe irritation caused by citric acid and oils.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Neurological Support: If the cat exhibits tremors or seizures (signs of severe essential oil toxicity), muscle relaxants or anti-seizure medications may be administered.",
+      "notes": "Ingestion of large amounts of citrus plant material or oils can cause CNS depression (weakness, collapse) or excitation (tremors). Liver protectants (hepatoprotectants) may also be used if blood tests indicate liver damage, as cats lack the enzymes to metabolize these compounds efficiently.",
+      "priority": 4
+    }
+  ]
+}

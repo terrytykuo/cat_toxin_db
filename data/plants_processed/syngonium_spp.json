@@ -2,93 +2,93 @@
   "plant": {
     "common_name": "Arrowhead Vine",
     "scientific_name": "Syngonium spp.",
-    "family": "The provided sources do not explicitly state the botanical family for Syngonium spp. However, the plant is listed alongside other members of the Araceae family (such as Dieffenbachia, Philodendron, and Spathiphyllum) in groups of plants containing insoluble calcium oxalates1....",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Classification: It is classified as a common houseplant and ornamental plant3.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Characteristics: The plant contains insoluble calcium oxalates (raphides), which are needle-like crystals bundled in cells throughout the plant3. Sources specifically reference the leaves of the Arrowhead vine4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is commonly found in homes as an ornamental or houseplant3."
+    "family": "Araceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Classification: It is classified as a common houseplant and ornamental plant3.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Characteristics: The plant contains insoluble calcium oxalates (raphides), which are needle-like crystals bundled in cells throughout the plant3. Sources specifically reference the leaves of the Arrowhead vine4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is commonly found in homes as an ornamental or houseplant"
   },
   "basics": {
-    "family": "The provided sources do not explicitly state the botanical family for Syngonium spp. However, the plant is listed alongside other members of the Araceae family (such as Dieffenbachia, Philodendron, and Spathiphyllum) in groups of plants containing insoluble calcium oxalates1....",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Classification: It is classified as a common houseplant and ornamental plant3.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Characteristics: The plant contains insoluble calcium oxalates (raphides), which are needle-like crystals bundled in cells throughout the plant3. Sources specifically reference the leaves of the Arrowhead vine4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is commonly found in homes as an ornamental or houseplant3."
+    "family": "Araceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Classification: It is classified as a common houseplant and ornamental plant3.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Characteristics: The plant contains insoluble calcium oxalates (raphides), which are needle-like crystals bundled in cells throughout the plant3. Sources specifically reference the leaves of the Arrowhead vine4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is commonly found in homes as an ornamental or houseplant"
   },
   "toxic_parts": [
     "Leaf",
-    "Stem",
-    "Entire Plant"
+    "Entire Plant",
+    "Stem"
   ],
   "toxins": [
     {
-      "name": "Insoluble Calcium Oxalates, which form needle-like crystals known as raphides.",
-      "chemical_formula": "The provided sources do not explicitly list the chemical formula, describing them primarily by their physical structure as \"needle-like crystals\".",
+      "name": "Insoluble Calcium Oxalates, which form needle-like crystals known as raphides",
+      "chemical_formula": null,
       "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mechanical Irritation: The crystals are bundled inside specialized cells called idioblasts scattered throughout the plant tissues.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Ejection: When a cat chews or crushes the plant material, these idioblasts rupture, forcibly ejecting the sharp, needle-like raphides into the surrounding soft tissues of the mouth, tongue, and throat.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Trauma: This action causes immediate physical trauma and irritation to any tissue the crystals contact, leading to rapid pain, swelling (edema), redness (erythema), and hypersalivation.\n4. Notes on",
-      "concentration_notes": "\u25e6 Distribution: These crystals are \"scattered throughout the plant,\" meaning all parts chewed by the cat can cause injury.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Self-Limiting Potency: The pain is immediate (\"immediate pain\"), which often serves as a deterrent, limiting the amount of plant material the cat actually swallows. While the reaction is painful and causes significant irritation, the prognosis is generally \"good to excellent,\" and full recovery is often expected without major veterinary intervention unless airway swelling occurs.\nSources:1,2"
+      "concentration_notes": "\u25e6 Distribution: These crystals are \"scattered throughout the plant,\" meaning all parts chewed by the cat can cause injury.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Self-Limiting Potency: The pain is immediate (\"immediate pain\"), which often serves as a deterrent, limiting the amount of plant material the cat actually swallows. While the reaction is painful and causes significant irritation, the prognosis is generally \"good to excellent,\" and full recovery is often expected without major veterinary intervention unless airway swelling occurs."
     }
   ],
   "symptoms": [
     {
-      "name": "Oral Irritation (intense burning sensation, pain).",
-      "body_system": "Gastrointestinal / Dermal (Mucous Membranes).",
-      "severity": "Moderate (described as \"immediate intense pain\").",
-      "onset": "Immediate upon chewing.\n5. Additional",
-      "notes": "The cat may demonstrate this pain by pawing at the mouth or shaking its head. The crystals cause inflammation and redness (erythema) of the lips, tongue, and mouth.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sources:1,2,3\n2. Hypersalivation"
+      "name": "Oral Irritation (intense burning sensation, pain)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate upon chewing.",
+      "notes": "The cat may demonstrate this pain by pawing at the mouth or shaking its head. The crystals cause inflammation and redness (erythema) of the lips, tongue, and mouth.Hypersalivation"
     },
     {
-      "name": "Excessive Drooling (Ptyalism).",
-      "body_system": "Gastrointestinal.",
-      "severity": "Mild to Moderate.",
-      "onset": "Immediate.\n5. Additional",
-      "notes": "This is a physiological response to the intense irritation and burning in the mouth.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sources:1,3\n3. Swelling (Edema)"
+      "name": "Excessive Drooling (Ptyalism)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "This is a physiological response to the intense irritation and burning in the mouth.Swelling (Edema)"
     },
     {
-      "name": "Swelling of the tongue, lips, and pharynx.",
-      "body_system": "Gastrointestinal / Respiratory (Upper Airway).",
-      "severity": "Moderate to Severe.",
-      "onset": "Rapid.\n5. Additional",
-      "notes": "Swelling of the tongue and throat can be significant. In rare cases, severe swelling of the laryngeal region (airway) can lead to respiratory distress.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sources:1,3\n4. Difficulty Breathing (Dyspnea)"
+      "name": "Swelling of the tongue, lips, and pharynx",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid.",
+      "notes": "Swelling of the tongue and throat can be significant. In rare cases, severe swelling of the laryngeal region (airway) can lead to respiratory distress.Difficulty Breathing (Dyspnea)"
     },
     {
-      "name": "Dyspnea.",
-      "body_system": "Respiratory.",
-      "severity": "Severe.",
-      "onset": "Rapid (following swelling).\n5. Additional",
-      "notes": "This occurs if the swelling of the tongue and pharynx obstructs the airway. While the overall prognosis for this plant is generally good, airway obstruction requires immediate veterinary attention.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sources:1,3\n5. Vomiting and Diarrhea"
+      "name": "Dyspnea",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid (following swelling).",
+      "notes": "This occurs if the swelling of the tongue and pharynx obstructs the airway. While the overall prognosis for this plant is generally good, airway obstruction requires immediate veterinary attention.Vomiting and Diarrhea"
     },
     {
-      "name": "Vomiting and Diarrhea.",
-      "body_system": "Gastrointestinal.",
-      "severity": "Mild.",
-      "onset": "Not specifically stated (likely acute).\n5. Additional",
-      "notes": "These are general signs of gastrointestinal upset associated with the ingestion of the plant material.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sources:1\n6. Anorexia"
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not specifically stated (likely acute).",
+      "notes": "These are general signs of gastrointestinal upset associated with the ingestion of the plant material.Anorexia"
     },
     {
-      "name": "Refusal to eat (Inappetence).",
-      "body_system": "Gastrointestinal / Behavioral.",
-      "severity": "Mild.",
-      "onset": "Immediate to short-term.\n5. Additional",
-      "notes": "The cat often refuses to eat due to the oral pain and swelling.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sources:3"
+      "name": "Refusal to eat (Inappetence)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to short-term.",
+      "notes": "The cat often refuses to eat due to the oral pain and swelling."
     }
   ],
   "treatments": [
     {
       "name": "Oral Decontamination (Rinsing and Wiping)",
       "description": "This involves physically removing any remaining plant material from the cat's mouth and thoroughly rinsing or wiping the oral cavity with water or a wet cloth.",
-      "notes": "This is the immediate first step to help remove the needle-like crystals (raphides) that have embedded in the tissues. This relieves pain and prevents further irritation.\n\u2022 Sources:1,2",
+      "notes": "This is the immediate first step to help remove the needle-like crystals (raphides) that have embedded in the tissues. This relieves pain and prevents further irritation.",
       "priority": 1
     },
     {
       "name": "Airway Management and Oxygen Support",
       "description": "If the cat is experiencing respiratory distress, a veterinarian may provide supplemental oxygen or, in severe cases, secure the airway (intubation).",
-      "notes": "This is critical but rarely needed. It is reserved for cases where the irritation causes severe swelling (laryngeal edema) that obstructs the cat's ability to breathe.\n\u2022 Sources:1,3",
+      "notes": "This is critical but rarely needed. It is reserved for cases where the irritation causes severe swelling (laryngeal edema) that obstructs the cat's ability to breathe.",
       "priority": 2
     },
     {
       "name": "Administration of Demulcents (Calcium-Containing Products)",
       "description": "The administration of milk, yogurt, or other calcium-containing dairy products to the cat.",
-      "notes": "Insoluble oxalates often bind to the calcium in dairy products. This helps aid the clearance of crystals from the oral cavity and esophagus and acts as a soothing agent for the irritated mucous membranes.\n\u2022 Sources:1,4",
+      "notes": "Insoluble oxalates often bind to the calcium in dairy products. This helps aid the clearance of crystals from the oral cavity and esophagus and acts as a soothing agent for the irritated mucous membranes.",
       "priority": 3
     },
     {
       "name": "Fluid Therapy and Nutritional Support",
       "description": "The administration of fluids (subcutaneous or intravenous) or offering soft foods/liquids.",
-      "notes": "This is used if the cat is refusing to eat or drink (anorexia) due to significant mouth pain, which can lead to dehydration. Most cases have a good prognosis and recover without extensive intervention, but hydration support ensures the cat remains stable while the mouth heals.\n\u2022 Sources:1,4",
+      "notes": "This is used if the cat is refusing to eat or drink (anorexia) due to significant mouth pain, which can lead to dehydration. Most cases have a good prognosis and recover without extensive intervention, but hydration support ensures the cat remains stable while the mouth heals.",
       "priority": 4
     }
   ]

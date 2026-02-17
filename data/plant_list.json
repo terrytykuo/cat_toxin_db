@@ -21,7 +21,7 @@
   },
   {
     "common_name": "Angel's Trumpets",
-    "scientific_name": null
+    "scientific_name": "Brugmansia spp."
   },
   {
     "common_name": "Apple",
@@ -37,7 +37,7 @@
   },
   {
     "common_name": "Asparagus Fern",
-    "scientific_name": "also Foxtail or Emerald Fern"
+    "scientific_name": "Asparagus densiflorus"
   },
   {
     "common_name": "Autumn Crocus",
@@ -65,11 +65,11 @@
   },
   {
     "common_name": "Bird\u2019s Nest Anthurium",
-    "scientific_name": null
+    "scientific_name": "Anthurium hookeri"
   },
   {
     "common_name": "Bittersweet",
-    "scientific_name": null
+    "scientific_name": "Celastrus scandens"
   },
   {
     "common_name": "Black Velvet Alocasia",
@@ -81,7 +81,7 @@
   },
   {
     "common_name": "Bluebells",
-    "scientific_name": null
+    "scientific_name": "Hyacinthoides non-scripta"
   },
   {
     "common_name": "Caladium / Elephant\u2019s Ear",
@@ -101,11 +101,11 @@
   },
   {
     "common_name": "Carnation",
-    "scientific_name": null
+    "scientific_name": "Dianthus caryophyllus"
   },
   {
     "common_name": "Castor Bean",
-    "scientific_name": null
+    "scientific_name": "Ricinus communis"
   },
   {
     "common_name": "Century Plant",
@@ -113,19 +113,19 @@
   },
   {
     "common_name": "Chamomile",
-    "scientific_name": null
+    "scientific_name": "Matricaria chamomilla"
   },
   {
     "common_name": "Cherry / Black Cherry / Chokecherry",
-    "scientific_name": "Prunus spp."
+    "scientific_name": "Prunus serotina"
   },
   {
     "common_name": "Cherry Laurel",
-    "scientific_name": "Prunus spp."
+    "scientific_name": "Prunus laurocerasus"
   },
   {
     "common_name": "Chinese Evergreen",
-    "scientific_name": "Aglaonema modestum or Aglaonema commitatum"
+    "scientific_name": "Aglaonema modestum"
   },
   {
     "common_name": "Chives",
@@ -133,7 +133,7 @@
   },
   {
     "common_name": "Chocolate Mint",
-    "scientific_name": null
+    "scientific_name": "Mentha x piperita 'Chocolate'"
   },
   {
     "common_name": "Christmas Cactus",
@@ -145,19 +145,19 @@
   },
   {
     "common_name": "Chrysanthemum / Mums",
-    "scientific_name": "Chrysanthemum implied"
+    "scientific_name": "Chrysanthemum morifolium"
   },
   {
     "common_name": "Cinnamon",
-    "scientific_name": null
+    "scientific_name": "Cinnamomum verum"
   },
   {
     "common_name": "Citrus",
-    "scientific_name": "Lemon, Lime, Orange, Grapefruit"
+    "scientific_name": "Citrus spp."
   },
   {
     "common_name": "Clove",
-    "scientific_name": null
+    "scientific_name": "Syzygium aromaticum"
   },
   {
     "common_name": "Cobra Lily",
@@ -169,7 +169,7 @@
   },
   {
     "common_name": "Coontie Palm",
-    "scientific_name": "Zamia pumila or Zamia floridana"
+    "scientific_name": "Zamia pumila"
   },
   {
     "common_name": "Corn Plant",
@@ -177,15 +177,15 @@
   },
   {
     "common_name": "Corsican Mint",
-    "scientific_name": null
+    "scientific_name": "Mentha requienii"
   },
   {
     "common_name": "Crocus",
-    "scientific_name": "Spring"
+    "scientific_name": "Crocus vernus"
   },
   {
     "common_name": "Croton",
-    "scientific_name": "Codiaeum"
+    "scientific_name": "Codiaeum variegatum"
   },
   {
     "common_name": "Curly Dock / Sorrel",

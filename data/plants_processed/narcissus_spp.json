@@ -1,0 +1,84 @@
+{
+    "plant": {
+        "common_name": "Daffodil",
+        "scientific_name": "Narcissus spp.",
+        "family": "Amaryllidaceae",
+        "description": "Bulbous perennial with prominent trumpet-shaped flowers, often yellow or white. A common spring bloom."
+    },
+    "toxic_parts": [
+        "Bulb",
+        "Leaf",
+        "Flower",
+        "Stem"
+    ],
+    "toxins": [
+        {
+            "name": "Lycorine",
+            "chemical_formula": null,
+            "description": "A phenanthridine alkaloid with potent emetic properties causing rapid vomiting.",
+            "concentration_notes": "Highly concentrated in the bulbs."
+        },
+        {
+            "name": "Calcium Oxalate Crystals",
+            "chemical_formula": null,
+            "description": "Insoluble needle-like crystals that cause mechanical irritation to the mouth and throat.",
+            "concentration_notes": "Present throughout, concentrated in bulbs."
+        }
+    ],
+    "symptoms": [
+        {
+            "name": "Vomiting",
+            "body_system": "Gastrointestinal",
+            "severity": "severe",
+            "onset": "Rapid",
+            "notes": "Often profuse due to potent emetic effect."
+        },
+        {
+            "name": "Cardiac Arrhythmias",
+            "body_system": "Cardiac",
+            "severity": "severe",
+            "onset": "Delayed",
+            "notes": "Irregular heartbeat and hypotension; requires monitoring."
+        },
+        {
+            "name": "Respiratory Depression",
+            "body_system": "Respiratory",
+            "severity": "severe",
+            "onset": "Delayed",
+            "notes": "Can occur with massive ingestions (bulbs)."
+        }
+    ],
+    "treatments": [
+        {
+            "name": "Fluid Therapy",
+            "description": "IV or SQ fluids to correct dehydration from vomiting.",
+            "priority": 1,
+            "notes": "Critical due to fluid loss."
+        },
+        {
+            "name": "Anti-emetics",
+            "description": "Medication to stop persistent vomiting.",
+            "priority": 2,
+            "notes": "Once decontamination is complete or deemed unsafe."
+        },
+        {
+            "name": "Electrolyte Correction",
+            "description": "Supplementation if imbalances occur.",
+            "priority": 3,
+            "notes": "Address loss of potassium/chloride."
+        },
+        {
+            "name": "Monitoring",
+            "description": "Observe cardiac and respiratory function.",
+            "priority": 4,
+            "notes": "For severe cases involving bulbs."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Cat Toxin Safety Guide (NotebookLM)",
+            "url": "https://notebooklm.google.com/notebook/9ef4df26-178b-446d-8e9d-e57cbe878a0d",
+            "accessed_at": "2026-02-17"
+        }
+    ]
+}

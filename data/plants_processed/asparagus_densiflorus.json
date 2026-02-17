@@ -1,0 +1,73 @@
+{
+  "plant": {
+    "common_name": "Asparagus Fern",
+    "scientific_name": "Asparagus densiflorus",
+    "family": "Asparagaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The plant is known for its feathery leaves and hardy nature. It is also noted to produce berries (which are toxic if eaten).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is frequently referred to as the foxtail fern or emerald fern.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: Due to its appearance and resilience, it is often used in hanging pots as a decorative houseplant.\u2022 Top 10 toxic household plants for pets - VCA Animal Hospitals"
+  },
+  "basics": {
+    "family": "Asparagaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The plant is known for its feathery leaves and hardy nature. It is also noted to produce berries (which are toxic if eaten).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is frequently referred to as the foxtail fern or emerald fern.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: Due to its appearance and resilience, it is often used in hanging pots as a decorative houseplant.\u2022 Top 10 toxic household plants for pets - VCA Animal Hospitals"
+  },
+  "toxic_parts": [
+    "Fruit",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "The sources do not explicitly name the specific toxin (e.g., sapogenins) for this plant",
+      "chemical_formula": "Not provided in the sources.\n2.",
+      "description": "in Cats\n\u2022 Dermal Irritation (Contact Dermatitis): The primary mechanism described is allergic dermatitis. When a cat brushes against the feathery leaves of the plant, it causes skin irritation and inflammation.\n\u2022 Gastrointestinal Irritation: Ingestion of the plant material interferes with the gastrointestinal tract, leading to systemic upset.\n3. Notes on Concentration and Potency\n\u2022 Toxic Parts: The berries and the leaves are the specific parts identified as hazardous.\n\u2022 Potency & Symptoms:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Ingestion (Berries/Leaves): Eating the berries or foliage can cause vomiting, abdominal pain, and diarrhea.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Contact: Physical contact with the foliage often results in skin irritation.\n\u00a0\u00a0\u00a0\u00a0\u25e6 While uncomfortable, the toxicity is generally not described as fatal in the same manner as \"true lilies\" or \"sago palms,\" but rather causes significant irritation and gastrointestinal distress.\u2022 Top 10 toxic household plants for pets - VCA Animal Hospitals"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Skin Irritation (Allergic Dermatitis)",
+      "body_system": "Dermal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources (typically occurs upon contact).",
+      "notes": "This plant is distinct from other toxic plants because significant symptoms often arise simply from the cat brushing against the feathery leaves, which causes inflammation and irritation of the skin.Gastrointestinal Upset (Vomiting)"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Vomiting is specifically noted as a consequence of eating the berries of the plant.Abdominal Pain"
+    },
+    {
+      "name": "Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Ingestion of the berries can lead to palpable stomach pain.Gastrointestinal Upset (Diarrhea)"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Like vomiting, diarrhea is triggered by the ingestion of the plant's berries."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Dermal Decontamination (Bathing)",
+      "description": "Thoroughly bathing the cat using lukewarm water and a mild liquid dish soap (like Dawn) to remove plant sap or resin from the skin and fur.",
+      "notes": "This plant is well-known for causing allergic dermatitis (skin irritation) when a cat simply brushes against it. Prompt removal of the irritant prevents further discomfort, redness, and swelling. It also stops the cat from ingesting more toxins while grooming itself.",
+      "priority": 1
+    },
+    {
+      "name": "Symptomatic Supportive Care (Gastrointestinal Management)",
+      "description": "The administration of veterinary-prescribed medications such as antiemetics (to control vomiting), antidiarrheals, and potentially gastroprotectants. A bland diet may also be recommended to soothe the stomach.",
+      "notes": "Ingesting the berries or leaves of the Asparagus Fern typically causes vomiting, abdominal pain, and diarrhea. Treatment focuses on managing these symptoms until the toxins pass through the system, usually within 24 hours.",
+      "priority": 2
+    },
+    {
+      "name": "Fluid Therapy",
+      "description": "Administration of subcutaneous or intravenous fluids to restore hydration and electrolyte balance.",
+      "notes": "This is necessary if the cat experiences persistent vomiting or diarrhea leading to dehydration. Fluid support helps maintain organ function while the cat recovers from the gastrointestinal distress.",
+      "priority": 3
+    }
+  ]
+}

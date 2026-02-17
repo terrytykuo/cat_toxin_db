@@ -1,0 +1,42 @@
+{
+  "plant": {
+    "common_name": "Cobra Lily",
+    "scientific_name": "Darlingtonia californica",
+    "family": "Sarraceniaceae",
+    "description": "Carnivorous pitcher plant native to Northern California and Oregon, resembling a cobra."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Mechanical Irritant",
+      "chemical_formula": null,
+      "description": "Plant pitcher structure may cause mild mechanical irritation if ingested.",
+      "concentration_notes": "Non-toxic."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Mild Gastrointestinal Upset",
+      "severity": "mild",
+      "body_system": "Gastrointestinal",
+      "onset": null
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Confirmation of Species (Rule Out True Lily)",
+      "description": "The veterinarian or pet owner must positively identify the plant as Darlingtonia californica. This distinguishes it from True Lilies (like Tiger, Easter, or Daylilies), which cause fatal acute kidney failure.",
+      "notes": "This is the most critical step. If there is any doubt about the plant's identity, or if it could be a True Lily, the cat must be treated immediately for kidney failure (aggressive fluid therapy and decontamination). However, confirmed Cobra Lilies do not pose this risk.Clinical Monitoring (Home Observation)",
+      "priority": 1
+    },
+    {
+      "name": "Observation for Mild Gastrointestinal Upset",
+      "description": "Monitor the cat at home for minor signs of stomach upset, such as temporary vomiting or diarrhea, which can occur after eating any plant material due to indigestible fiber.",
+      "notes": "The Cobra Lily (also known as the California Pitcher Plant) appears on lists of plants non-toxic to cats. Unlike other \"imposter lilies\" (like Peace or Calla lilies) which contain irritating calcium oxalate crystals, the Cobra Lily is not listed among the oxalate-containing plants in the provided veterinary texts. Medical intervention is rarely needed unless the cat vomits persistently or shows signs of choking.",
+      "priority": 2
+    }
+  ]
+}

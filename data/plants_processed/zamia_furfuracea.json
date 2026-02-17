@@ -1,0 +1,96 @@
+{
+  "plant": {
+    "common_name": "Cardboard Palm",
+    "scientific_name": "Zamia furfuracea",
+    "family": "Zamiaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: It is a palm-like plant. While specific visual details for Zamia furfuracea are not explicitly detailed in the text, Cycads in this group are generally described as having thick, fleshy stems and pinnately compound leaves1....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: It is commonly used as an ornamental plant and is frequently found indoors as a potted houseplant or in landscaping13.\u2022 10 Garden Plants That Are Toxic to Pets | UC Davis1\n\u2022 Houseplants and Ornamentals Toxic to Animals - Merck Veterinary Manual"
+  },
+  "basics": {
+    "family": "Zamiaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: It is a palm-like plant. While specific visual details for Zamia furfuracea are not explicitly detailed in the text, Cycads in this group are generally described as having thick, fleshy stems and pinnately compound leaves1....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: It is commonly used as an ornamental plant and is frequently found indoors as a potted houseplant or in landscaping13.\u2022 10 Garden Plants That Are Toxic to Pets | UC Davis1\n\u2022 Houseplants and Ornamentals Toxic to Animals - Merck Veterinary Manual"
+  },
+  "toxic_parts": [
+    "Seed",
+    "Entire Plant",
+    "Stem",
+    "Root",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Cycasin (a glycoside of methylazoxymethanol)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Hepatic Necrosis: Cycasin itself is not the active toxin; once ingested, it is hydrolyzed (broken down) by bacteria in the cat's intestinal tract into the toxic component methylazoxymethanol. This substance causes profound hepatic necrosis (liver tissue death).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Destruction: It triggers severe hemorrhagic gastroenteritis (bloody vomiting and diarrhea), leading to the destruction of the lining of the stomach and intestines.\n4. Notes on",
+      "concentration_notes": "\u25e6 Highest Concentration: While all parts of the plant (leaves, stems, roots) are toxic, the seeds (or nuts) contain the highest concentration of cycasin.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Lethality: It is extremely potent; the ingestion of just 1\u20132 seeds can be fatal to a pet."
+    },
+    {
+      "name": "Beta-methylamino-L-alanine (often abbreviated as BMAA)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Neurotoxicity: This compound is an amino acid that acts as a neurotoxin. It specifically targets the central nervous system, contributing to neurological symptoms such as weakness, ataxia (coordination loss), tremors, seizures, and paralysis.\n4. Notes on",
+      "concentration_notes": "\u25e6 This toxin works in conjunction with cycasin to produce the plant's severe clinical profile. While liver failure (from cycasin) is often the cause of death, BMAA is responsible for the severe CNS (nervous system) effects observed during poisoning."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea (often bloody), and Hemorrhagic Gastritis",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within 15 minutes to 4 hours of ingestion.",
+      "notes": "Vomiting is typically the first clinical sign observed. The diarrhea may appear black or \"tarry\" (melena) due to digested blood, indicating severe bleeding in the digestive tract.Hepatic (Liver) Failure"
+    },
+    {
+      "name": "Icterus (Jaundice), Hepatic Necrosis, and Liver Failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Progression to liver failure typically occurs within 48\u201372 hours.",
+      "notes": "The toxin cycasin causes severe liver cell death. Clinical signs associated with this stage include yellowing of the eyes and skin (jaundice) and fluid accumulation in the abdomen (ascites).Neurological Abnormalities"
+    },
+    {
+      "name": "Ataxia (wobbly gait), Tremors, Seizures, Paralysis, and Coma",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Often follows initial GI signs; depression and paralysis may progress as liver failure worsens.",
+      "notes": "The plant contains the neurotoxin Beta-methylamino-L-alanine (BMAA), which contributes to these central nervous system effects. Depression and lethargy are common early signs that can progress to coma.Coagulopathy (Bleeding Disorders)"
+    },
+    {
+      "name": "Abnormal Bruising, Petechiae (pinpoint hemorrhages), and Nosebleeds",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "48\u201372 hours (secondary to liver failure).",
+      "notes": "As the liver fails, it cannot produce the necessary clotting factors, leading to spontaneous bleeding, blood clots, and visible bruising on the skin.Metabolic Instability"
+    },
+    {
+      "name": "Hypoglycemia (Low Blood Sugar) and Increased Thirst/Urination (Polydipsia/Polyuria)",
+      "body_system": "Hepatic",
+      "severity": "severe",
+      "onset": "48\u201372 hours (associated with liver failure).",
+      "notes": "Hypoglycemia develops secondary to hepatic necrosis and may contribute to weakness and seizures."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Decontamination (Emesis and Activated Charcoal)",
+      "description": "If the cat is neurologically stable (not having seizures or comatose), the veterinarian will induce vomiting (emesis) to remove plant material from the stomach. This is immediately followed by the administration of activated charcoal to bind the toxins in the gastrointestinal tract and prevent absorption.",
+      "notes": "Because the toxin undergoes \"enterohepatic recirculation\" (it circulates between the liver and intestine), a single dose of charcoal is insufficient. Veterinarians typically recommend two additional doses of activated charcoal administered 6\u20138 hours apart after the initial dose.",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and GI Support",
+      "description": "The administration of IV fluids to maintain hydration, correct electrolyte imbalances, and support blood flow to vital organs. This is combined with anti-emetics (to stop vomiting) and gastroprotectants (medications to protect the stomach lining).",
+      "notes": "This supportive care is critical because the plant causes severe hemorrhagic gastroenteritis (bloody vomiting and diarrhea), leading to rapid dehydration. Gastric protection is dosed based on the severity of the GI signs present.",
+      "priority": 2
+    },
+    {
+      "name": "Hepatoprotection (Liver Support)",
+      "description": "The administration of specific liver-protecting medications, most notably S-adenosylmethionine (SAMe) and N-acetylcysteine (NAC).",
+      "notes": "Since the primary cause of fatality is hepatic necrosis (liver death), these agents are \"necessary to support liver function and repair.\" Long-term monitoring of liver enzymes is often required even after the acute phase passes.",
+      "priority": 3
+    },
+    {
+      "name": "Neurological and Metabolic Management",
+      "description": "The use of methocarbamol or anticonvulsants to control tremors and seizures, and the administration of dextrose (sugar) via IV if blood sugar levels drop.",
+      "notes": "Liver failure can lead to hypoglycemia (low blood sugar) and coagulopathy (bleeding disorders). If the cat develops tremors or seizures (caused by the neurotoxin BMAA or liver failure), immediate seizure control is required.",
+      "priority": 4
+    }
+  ]
+}

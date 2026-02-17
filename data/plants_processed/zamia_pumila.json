@@ -1,0 +1,96 @@
+{
+  "plant": {
+    "common_name": "Coontie Palm",
+    "scientific_name": "Zamia pumila",
+    "family": "Zamiaceae",
+    "description": "Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: It is a palm-like plant (specifically a cycad) featuring a thick, fleshy, underground tuberous stem. From this stem grow pinnately compound leaves that are typically about 60 cm (approximately 2 feet) long. The plant produces cones containing inch-long, shiny, orange-red seeds1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat and Location: It is commonly found in and is native to Florida (where it is also known as Florida arrowroot or Seminole bread)"
+  },
+  "basics": {
+    "family": "Zamiaceae",
+    "description": "Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: It is a palm-like plant (specifically a cycad) featuring a thick, fleshy, underground tuberous stem. From this stem grow pinnately compound leaves that are typically about 60 cm (approximately 2 feet) long. The plant produces cones containing inch-long, shiny, orange-red seeds1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat and Location: It is commonly found in and is native to Florida (where it is also known as Florida arrowroot or Seminole bread)"
+  },
+  "toxic_parts": [
+    "Seed",
+    "Entire Plant",
+    "Stem",
+    "Root",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Cycasin (a glycoside)",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Hepatotoxicity: Cycasin is the primary agent responsible for severe liver damage and liver failure (hepatic necrosis).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Effects: It causes severe gastrointestinal irritation, leading to symptoms like vomiting and bloody diarrhea.\n4. Notes on",
+      "concentration_notes": "\u25e6 Highest in Seeds: While all parts of the plant are toxic (leaves, stems, roots), the seeds contain the highest concentration of cycasin.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Lethal Potential: Ingestion of just one or two seeds can be fatal to a pet. Clinical signs often appear within hours, progressing to liver failure within 1\u20133 days."
+    },
+    {
+      "name": "Beta-methylamino-L-alanine (often abbreviated as BMAA)",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Neurotoxicity: This compound is toxic to the nervous system. It contributes to the central nervous system (CNS) abnormalities observed in poisoning cases, such as weakness, ataxia (wobbly gait), tremors, and seizures.\n4. Notes on",
+      "concentration_notes": "\u25e6 Systemic Effect: Along with cycasin, BMAA makes the entire plant dangerous. The combination of liver failure and neurological damage leads to a high mortality rate if untreated."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Persistent vomiting, diarrhea (often bloody or dark/tarry), anorexia, and abdominal pain",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid; typically within 15 minutes to 4 hours of ingestion.",
+      "notes": "Gastrointestinal signs are usually the first to appear. The vomiting can be persistent, and the resulting hemorrhagic gastritis can lead to severe dehydration.Hepatic (Liver) Failure"
+    },
+    {
+      "name": "Jaundice (icterus), abdominal swelling (ascites), and liver necrosis",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Delayed; typically develops within 48\u201372 hours post-ingestion.",
+      "notes": "The toxin cycasin causes severe liver damage. Hypoglycemia (low blood sugar) may develop secondary to hepatic necrosis, requiring dextrose supplementation.Neurological Abnormalities"
+    },
+    {
+      "name": "Ataxia (wobbly gait), tremors, seizures, depression, and muscular paralysis",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Variable; can occur early or develop alongside liver failure.",
+      "notes": "The neurotoxin BMAA contributes to CNS effects. Paralysis and coma are potential outcomes in severe cases.Coagulopathy (Bleeding Disorders)"
+    },
+    {
+      "name": "Bruising (petechiae or ecchymotic hemorrhages), abnormal bleeding, and blood clots",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Delayed (associated with the progression of liver failure).",
+      "notes": "As the liver fails, it cannot produce necessary clotting factors, leading to internal and external bleeding issues.General Systemic Failure"
+    },
+    {
+      "name": "Lethargy, weakness, and increased thirst (polydipsia)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Within hours of ingestion.",
+      "notes": "Ingestion of just 1\u20132 seeds can be fatal due to the high concentration of toxins in them."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
+      "description": "If the cat is neurologically stable, the veterinarian will induce vomiting to remove plant material from the stomach. This is followed by the administration of activated charcoal with a cathartic to bind toxins. Because cycad toxins undergo \"enterohepatic recirculation\" (where toxins are reabsorbed from the intestine back into the liver), two additional doses of activated charcoal are typically given every 6\u20138 hours without a cathartic.",
+      "notes": "Decontamination is critical because even small amounts (like 1\u20132 seeds) can be fatal. Emesis should only be induced if the cat is not showing signs of aspiration risk or severe neurological impairment.Hepatoprotective Therapy (Liver Support)",
+      "priority": 1
+    },
+    {
+      "name": "Administration of S-adenosylmethionine (SAMe) and N-acetylcysteine (NAC)",
+      "description": "The veterinarian will administer these specific hepatoprotectants (liver defense drugs) to support liver function and aid in repair. SAMe serves as an antioxidant and methyl donor, while NAC replenishes glutathione reserves essential for detoxification.",
+      "notes": "This is necessary to combat hepatic necrosis (liver tissue death), which is a primary cause of fatality in cycad poisoning. Long-term care may be required depending on the severity of liver damage.Intravenous (IV) Fluid and Dextrose Therapy",
+      "priority": 2
+    },
+    {
+      "name": "IV Fluid Resuscitation and Dextrose Supplementation",
+      "description": "Continuous IV fluids are administered to maintain hydration and support organ perfusion. If blood tests reveal hypoglycemia (low blood sugar), which is common with liver failure, dextrose (sugar) is added to the fluids as a constant rate infusion.",
+      "notes": "Liver failure prevents the body from regulating blood sugar, leading to dangerous lows that can cause seizures or coma. Fluid therapy also helps manage the dehydration caused by severe vomiting and diarrhea.Symptomatic Management (Neurological and GI)",
+      "priority": 3
+    },
+    {
+      "name": "Anticonvulsants, Muscle Relaxants, and Gastroprotectants",
+      "description": "\u25e6 Neurological: Drugs like methocarbamol may be used to control tremors, and standard anticonvulsants (like diazepam) are used to manage seizures.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal: Anti-emetics (to stop vomiting) and gastroprotectants (to soothe stomach ulcers) are given to manage severe hemorrhagic gastritis.",
+      "notes": "Coontie Palm ingestion can cause coagulopathy (bleeding disorders) secondary to liver failure, so veterinarians will also monitor coagulation profiles closely to manage internal bleeding risks.",
+      "priority": 4
+    }
+  ]
+}

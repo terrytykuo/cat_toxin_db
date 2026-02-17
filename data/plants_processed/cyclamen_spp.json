@@ -1,0 +1,76 @@
+{
+    "plant": {
+        "common_name": "Cyclamen",
+        "scientific_name": "Cyclamen spp.",
+        "family": "Primulaceae",
+        "description": "A tuberous perennial with heart-shaped leaves and upswept petals. Common houseplant and garden flower."
+    },
+    "toxic_parts": [
+        "Root"
+    ],
+    "toxins": [
+        {
+            "name": "Cyclanin",
+            "chemical_formula": null,
+            "description": "A triterpenoid saponin that causes severe irritation and can destroy red blood cells (hemolysis).",
+            "concentration_notes": "Highest concentration in the tubers (roots)."
+        }
+    ],
+    "symptoms": [
+        {
+            "name": "Vomiting",
+            "body_system": "Gastrointestinal",
+            "severity": "moderate",
+            "onset": "Rapid",
+            "notes": "Often bloody; caused by saponin irritation."
+        },
+        {
+            "name": "Drooling",
+            "body_system": "Gastrointestinal",
+            "severity": "mild",
+            "onset": "Rapid",
+            "notes": "Hypersalivation due to mouth irritation."
+        },
+        {
+            "name": "Cardiac Arrhythmias",
+            "body_system": "Cardiac",
+            "severity": "severe",
+            "onset": "Delayed",
+            "notes": "Associated with tuber ingestion; can be fatal."
+        },
+        {
+            "name": "Seizures",
+            "body_system": "Neurological",
+            "severity": "severe",
+            "onset": "Delayed",
+            "notes": "Associated with severe poisoning (tubers)."
+        }
+    ],
+    "treatments": [
+        {
+            "name": "Decontamination",
+            "description": "Rinse mouth with water to remove irritants.",
+            "priority": 1,
+            "notes": "First aid for mouth irritation."
+        },
+        {
+            "name": "Gastrointestinal Support",
+            "description": "Withhold food/water (fasting) until vomiting stops, then bland diet.",
+            "priority": 2,
+            "notes": "For mild cases (leaf ingestion)."
+        },
+        {
+            "name": "Symptomatic Care",
+            "description": "Anti-seizure meds and cardiac support if severe signs develop.",
+            "priority": 3,
+            "notes": "Required for tuber ingestion."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Cat Toxin Safety Guide (NotebookLM)",
+            "url": "https://notebooklm.google.com/notebook/9ef4df26-178b-446d-8e9d-e57cbe878a0d",
+            "accessed_at": "2026-02-17"
+        }
+    ]
+}

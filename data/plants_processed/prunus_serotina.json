@@ -1,0 +1,96 @@
+{
+  "plant": {
+    "common_name": "Cherry / Black Cherry / Chokecherry",
+    "scientific_name": "Prunus serotina",
+    "family": "Rosaceae",
+    "description": "Brief Description: The provided sources do not contain a physical description of the Prunus serotina plant (appearance, habitat, or range). They focus primarily on the toxicological risks associated with the genus, noting that the seeds (pits) and leaves contain cyanogenic glycosides, which can be dangerous to pets if ingested"
+  },
+  "basics": {
+    "family": "Rosaceae",
+    "description": "Brief Description: The provided sources do not contain a physical description of the Prunus serotina plant (appearance, habitat, or range). They focus primarily on the toxicological risks associated with the genus, noting that the seeds (pits) and leaves contain cyanogenic glycosides, which can be dangerous to pets if ingested"
+  },
+  "toxic_parts": [
+    "Seed",
+    "Fruit",
+    "Leaf",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "The plants contain cyanogenic glycosides, specifically amygdalin",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cellular Asphyxiation: When the plant parts (seeds, leaves, stems) are chewed or crushed, the glycosides interact with digestive enzymes to release cyanide.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mitochondrial Inhibition: Cyanide is a potent cellular toxin that binds with ferric iron (Fe\n3+\n) in the enzyme cytochrome c oxidase within the mitochondria.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Oxygen Blockage: This binding disrupts the electron transport chain, effectively halting cellular respiration and preventing cells from using oxygen to generate energy (tissue hypoxia).\n4. Notes on",
+      "concentration_notes": "\u25e6 High Concentration: The toxins are concentrated in the seeds (pits), leaves, and stems.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Low Concentration: The fleshy fruit typically contains very low or negligible levels of cyanide and is generally considered safe if the pit is removed.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency & Onset: Toxicity is rapid; clinical signs of cyanide poisoning (such as respiratory distress, bright red gums, and collapse) can appear within 10 to 60 minutes of ingestion. Death can occur quickly due to hypoxia.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual12\n\u2022 Clinical Perspectives on Feline Phytotoxicology34\n\u2022 Are Apple Cores And Seeds Safe For Pets? Get The Facts - Beyond Pets Animal Hospital56\n\u2022 Can Cats Eat Apple Seeds? Is It Safe for Cats? | Dial A Vet"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Tachypnea (rapid breathing), dyspnea (difficulty breathing), or panting",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "10\u201360 minutes (Symptoms develop very rapidly).",
+      "notes": "Because cyanide inhibits the body's ability to use oxygen at the cellular level, the cat will gasp for air or breathe rapidly in an attempt to compensate for tissue hypoxia.Brick Red Mucous Membranes"
+    },
+    {
+      "name": "Bright red gums (mucous membranes) and cherry-red blood coloring",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "10\u201360 minutes.",
+      "notes": "Unlike many conditions that cause pale or blue gums, cyanide poisoning causes the blood to be fully oxygenated (because cells cannot extract the oxygen), leading to a characteristic bright \"brick red\" color in the gums and tissues.Neurological Collapse"
+    },
+    {
+      "name": "Seizures, tremors, dilated pupils, incoordination, and sudden collapse",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "10\u201360 minutes.",
+      "notes": "As the brain is deprived of usable oxygen, the cat may exhibit severe neurological signs progressing rapidly to coma and death.Cardiac Abnormalities"
+    },
+    {
+      "name": "Arrhythmias (irregular heartbeat) and hypotension (low blood pressure)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "10\u201360 minutes.",
+      "notes": "Cyanide toxicity can cause rapid shock and cardiac failure.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting, diarrhea, and salivation",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "10\u201360 minutes (often the first sign before progression).",
+      "notes": "You may also detect an \"almond-flavored\" odor on the cat's breath. Gastrointestinal signs can also be caused by the physical irritation of the plant material.Death"
+    },
+    {
+      "name": "Sudden death",
+      "body_system": "Metabolic",
+      "severity": "fatal",
+      "onset": "Rapid (often occurs before treatment can begin).",
+      "notes": "Due to the potency of cyanide and the speed of onset, death can occur quickly if the animal consumes a toxic dose of seeds or wilted leaves."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Cyanide Antidote Therapy (Sodium Nitrite, Sodium Thiosulfate, or Hydroxycobalamin)",
+      "description": "Veterinarians may administer sodium nitrite to convert hemoglobin into cyanomethemoglobin (which binds cyanide), followed by sodium thiosulfate to convert the cyanide into thiocyanate, which is water-soluble and can be excreted in urine. Alternatively, hydroxycobalamin may be used; it combines with cyanide to form cyanocobalamin (Vitamin B12), which is also safely excreted in urine.",
+      "notes": "Because cyanide toxicity acts rapidly (often leading to death before treatment can even begin), this specific antidote therapy is the most urgent intervention for a symptomatic cat. Sodium thiosulfate alone may be used in less severe cases.Oxygen Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Oxygen Supplementation",
+      "description": "The administration of oxygen to the cat, typically via a mask or oxygen cage, to support the animal's respiratory system.",
+      "notes": "Cyanide prevents the body's cells from utilizing oxygen (cellular hypoxia), leading to respiratory distress. While the blood may remain bright red (oxygenated), the tissues are starving, making supportive oxygen therapy vital alongside antidotes.Gastrointestinal Decontamination",
+      "priority": 2
+    },
+    {
+      "name": "Induction of Emesis and Activated Charcoal",
+      "description": "If the ingestion was recent and the cat is asymptomatic (not yet showing signs of poisoning), the vet may induce vomiting to remove the seeds or leaves. This is often followed by a dose of activated charcoal with a cathartic to bind any remaining toxins in the gut.",
+      "notes": "Decontamination is generally performed only if the animal is stable. Inducing vomiting in a cat already experiencing seizures or respiratory distress is dangerous and typically avoided.Correction of Metabolic Acidosis",
+      "priority": 3
+    },
+    {
+      "name": "Sodium Bicarbonate Administration",
+      "description": "The veterinarian will monitor venous blood gas levels to check for metabolic acidosis (high acid levels in the blood). If severe acidosis is present, they will administer sodium bicarbonate to correct the pH balance.",
+      "notes": "Severe metabolic acidosis is a common and dangerous complication of cyanide toxicity that must be managed to prevent systemic failure.",
+      "priority": 4
+    }
+  ]
+}

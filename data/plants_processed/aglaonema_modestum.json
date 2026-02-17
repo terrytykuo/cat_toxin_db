@@ -1,0 +1,95 @@
+{
+  "plant": {
+    "common_name": "Chinese Evergreen",
+    "scientific_name": "Aglaonema modestum",
+    "family": "Araceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: This plant features a central stem with solid medium green or splotched gray/green leaves. It produces small greenish flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is widely cultivated as a houseplant and ornamental23.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual12\n\u2022 Cat toxicity chart for 50 popular houseplants"
+  },
+  "basics": {
+    "family": "Araceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: This plant features a central stem with solid medium green or splotched gray/green leaves. It produces small greenish flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is widely cultivated as a houseplant and ornamental23.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual12\n\u2022 Cat toxicity chart for 50 popular houseplants"
+  },
+  "toxic_parts": [
+    "Entire Plant",
+    "Leaf",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Insoluble calcium oxalate crystals (often referred to as raphides)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mechanical Irritation: These needle-like crystals are bundled within specialized plant cells called idioblasts.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Release upon Chewing: When a cat bites or crushes the plant tissue, these cells violently eject the sharp crystals into the soft tissues of the mouth, tongue, and throat.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Immediate Trauma: This embedding of crystals causes immediate, intense physical pain, tissue trauma, and inflammation (edema), which can lead to swelling of the lips, tongue, and upper airway.\n4. Notes on",
+      "concentration_notes": "\u25e6 Distribution: These crystals are found throughout the entire plant, including the leaves and stems.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Severity: The toxicity is generally classified as moderate. While usually not fatal, the immediate pain typically prevents the cat from consuming a lethal amount, though severe swelling can occasionally compromise breathing.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual1,2,3,4\n\u2022 Cat toxicity chart for 50 popular houseplants"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning, pain, and irritation of the mouth, tongue, and lips",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (Pain occurs as soon as the plant tissue is chewed).",
+      "notes": "The plant contains insoluble calcium oxalate crystals packaged in specialized cells (idioblasts) that forcefully eject into the tissue upon biting, causing micro-trauma. You may see the cat pawing at its mouth.Hypersalivation"
+    },
+    {
+      "name": "Drooling or excessive salivation (Ptyalism)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to within minutes of ingestion.",
+      "notes": "This is a reflex response to the intense irritation and burning sensation in the oral cavity.Edema (Swelling)"
+    },
+    {
+      "name": "Swelling of the lips, tongue, and oral cavity",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid following contact.",
+      "notes": "In rare cases, swelling can extend to the pharynx (throat) or larynx (voice box). Severe swelling of the tongue or throat can potentially compromise the airway, though this is uncommon.Dysphagia"
+    },
+    {
+      "name": "Difficulty swallowing",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "The cat may show an inability to eat or drink due to the pain and swelling in the mouth and throat.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting and anorexia (refusal to eat)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion.",
+      "notes": "Vomiting may occur due to the irritation of the stomach lining or the gag reflex triggered by oral swelling. The cat may refuse food (anorexia) simply because it hurts to chew and swallow.Respiratory Distress (Rare)"
+    },
+    {
+      "name": "Dyspnea (Difficulty breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid (If laryngeal edema occurs).",
+      "notes": "While rare, if the swelling of the tongue or glottis is significant, it can obstruct the upper airway. This requires immediate veterinary intervention to secure an airway."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Airway Stabilization and Oxygen Support",
+      "description": "If the cat is experiencing respiratory distress, the veterinarian will immediately provide oxygen support. In severe cases where swelling (edema) obstructs the throat, they may need to secure an airway (intubation) to ensure the cat can breathe.",
+      "notes": "While rare, laryngeal edema (swelling of the voice box and upper airway) can occur due to the inflammatory reaction caused by the crystals. This is a life-threatening complication that requires immediate intervention before other treatments.",
+      "priority": 1
+    },
+    {
+      "name": "Oral Decontamination (Rinsing)",
+      "description": "The veterinarian will physically remove any remaining plant material from the mouth and thoroughly rinse or wipe the oral cavity with cool water.",
+      "notes": "The goal is to flush out the needle-like oxalate crystals causing the physical trauma. Rinsing helps reduce the immediate pain and prevents further embedding of the crystals in the soft tissues.",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Demulcents (Calcium-Containing Products)",
+      "description": "The administration of milk or other calcium-containing dairy products (like yogurt) to the cat.",
+      "notes": "Insoluble oxalates bind to the calcium found in dairy products. This reaction helps precipitate the crystals, aiding in their clearance from the oral cavity and esophagus while soothing the irritated mucous membranes.",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic and Supportive Care (Fluids and Analgesics)",
+      "description": "\u25e6 Fluid Therapy: Administration of subcutaneous or intravenous fluids if the cat is dehydrated or unable to drink due to mouth pain.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Medications: Analgesics (pain relievers) and anti-inflammatories to manage oral swelling and discomfort. Gastroprotectants may be used if the stomach is irritated.",
+      "notes": "Most cases of Chinese Evergreen ingestion are self-limiting and have a good to excellent prognosis. Veterinary intervention is primarily needed to manage pain and hydration until the swelling subsides and the cat can eat and drink normally again.",
+      "priority": 4
+    }
+  ]
+}

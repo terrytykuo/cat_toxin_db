@@ -1,0 +1,54 @@
+{
+  "plant": {
+    "common_name": "Christmas Cactus",
+    "scientific_name": "Schlumbergera spp.",
+    "family": "Cactaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The Christmas Cactus is described as a popular houseplant, particularly during the holiday season, known for its vibrant blooms. It is noted as a \"cactus\" but lacks the typical spines of desert cacti, featuring flattened, leaf-like stems (often called segments or pads) instead.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: While the sources focus on its presence in homes as a festive decoration, in the wild, Schlumbergera species are epiphytic cacti native to the tropical forests of Brazil, growing on trees or rocks rather than in soil. In domestic settings, they are commonly found as potted indoor plants, especially around the holidays.\u2022 Is Christmas Cactus Poisonous to Cats? - Gardenia.net\n\u2022 Holiday Toxins | Pet Poison Helpline\u00ae\n\u2022 10 Plants that are Toxic to Cats that Could Be in Your Home or Garden (Mentions \"Christmas Cactus\" in the context of safe alternatives)\n\u2022 25 Common Plants Poisonous to Cats | ASPCA Pet Health Insurance (Lists it as a non-toxic alternative)"
+  },
+  "basics": {
+    "family": "Cactaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The Christmas Cactus is described as a popular houseplant, particularly during the holiday season, known for its vibrant blooms. It is noted as a \"cactus\" but lacks the typical spines of desert cacti, featuring flattened, leaf-like stems (often called segments or pads) instead.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: While the sources focus on its presence in homes as a festive decoration, in the wild, Schlumbergera species are epiphytic cacti native to the tropical forests of Brazil, growing on trees or rocks rather than in soil. In domestic settings, they are commonly found as potted indoor plants, especially around the holidays.\u2022 Is Christmas Cactus Poisonous to Cats? - Gardenia.net\n\u2022 Holiday Toxins | Pet Poison Helpline\u00ae\n\u2022 10 Plants that are Toxic to Cats that Could Be in Your Home or Garden (Mentions \"Christmas Cactus\" in the context of safe alternatives)\n\u2022 25 Common Plants Poisonous to Cats | ASPCA Pet Health Insurance (Lists it as a non-toxic alternative)"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ],
+  "toxins": [
+    {
+      "name": "Mechanical Irritant",
+      "chemical_formula": null,
+      "description": "Fibrous plant material causing mild gastrointestinal irritation.",
+      "concentration_notes": "Non-toxic."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea (Gastrointestinal Irritation)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly stated,",
+      "notes": "While the plant is classified as non-toxic, ingestion of the leaves can cause mechanical irritation to the stomach and intestines. Veterinary intervention is rarely needed unless the irritation persists."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Fluid Therapy and Anti-emetics",
+      "description": "If the cat is experiencing persistent vomiting or diarrhea leading to dehydration, a veterinarian may administer subcutaneous or intravenous fluids to restore hydration and electrolytes. They may also administer anti-emetics (medication to stop vomiting) or antidiarrheals to control gastrointestinal upset.",
+      "notes": "While clinical signs from Christmas Cactus ingestion (such as drooling, vomiting, and diarrhea) typically resolve on their own within a few hours, veterinary intervention is recommended if the irritation is persistent or severe.Dietary Management",
+      "priority": 1
+    },
+    {
+      "name": "Administration of a Bland Diet",
+      "description": "The veterinarian may recommend withholding regular food for a short period to let the stomach settle, followed by feeding a bland diet (such as boiled chicken and rice or a prescription gastrointestinal food) to soothe the digestive tract.",
+      "notes": "This approach is standard protocol for plants classified as gastrointestinal irritants. Most animals recover within 24\u201348 hours with this supportive care.No Specific Detoxification (Monitoring Only)",
+      "priority": 2
+    },
+    {
+      "name": "Observation / No Medical Intervention",
+      "description": "Because the plant is non-toxic, aggressive decontamination methods like inducing vomiting (emesis) or gastric lavage are generally not required or recommended for Christmas Cactus ingestion. The vet will primarily monitor the cat to ensure symptoms do not escalate due to other underlying causes.",
+      "notes": "The Christmas Cactus is widely listed as a safe, non-toxic alternative to dangerous holiday plants (like lilies or holly). Veterinary involvement is usually limited to confirming the plant's identity to ensure a more toxic plant was not ingested.",
+      "priority": 3
+    }
+  ]
+}

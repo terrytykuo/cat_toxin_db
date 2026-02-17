@@ -1,0 +1,82 @@
+{
+  "plant": {
+    "common_name": "Bird of Paradise",
+    "scientific_name": "Strelitzia reginae",
+    "family": "Strelitziaceae",
+    "description": "Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: This plant is described as \"stunning and exotic-looking.\" It is well-known for its vibrant orange and blue flowers that resemble a crane or a bird in flight. It typically grows as a large, clumping evergreen perennial with large, banana-like leaves.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat and Location: It is commonly found as a garden ornamental in warmer climates and is also a popular houseplant. It is frequently used in landscaping due to its dramatic foliage and unique blooms.\u2022 10 Plants that are Toxic to Cats that Could Be in Your Home or Garden1\n\u2022 Avoid This CAT-astrophe! 10 Spring Flowers That Are Toxic to Cats"
+  },
+  "basics": {
+    "family": "Strelitziaceae",
+    "description": "Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: This plant is described as \"stunning and exotic-looking.\" It is well-known for its vibrant orange and blue flowers that resemble a crane or a bird in flight. It typically grows as a large, clumping evergreen perennial with large, banana-like leaves.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat and Location: It is commonly found as a garden ornamental in warmer climates and is also a popular houseplant. It is frequently used in landscaping due to its dramatic foliage and unique blooms.\u2022 10 Plants that are Toxic to Cats that Could Be in Your Home or Garden1\n\u2022 Avoid This CAT-astrophe! 10 Spring Flowers That Are Toxic to Cats"
+  },
+  "toxic_parts": [
+    "Seed",
+    "Fruit",
+    "Leaf",
+    "Flower"
+  ],
+  "toxins": [
+    {
+      "name": "Hydrocyanic Acid (also known as Hydrogen Cyanide or Prussic Acid)",
+      "chemical_formula": "HCN.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 This compound is a potent cellular toxin. It interferes with cellular respiration, potentially leading to labored breathing and respiratory distress.\n4. Notes on",
+      "concentration_notes": "\u25e6 The leaves are the specific part of the plant noted to contain hydrocyanic acid. While the plant is generally considered mild to moderately toxic, ingestion of the leaves can cause significant respiratory signs."
+    },
+    {
+      "name": "Tannins",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Tannins act as irritants to the gastrointestinal tract. Ingestion typically leads to digestive issues, including vomiting and diarrhea.\n4. Notes on",
+      "concentration_notes": "\u25e6 The flower seeds contain these toxic tannins. The seeds and fruits are often cited as the most toxic parts of the plant due to these compounds.Additional Clinical Note: Ingestion of the flowers or seeds can also specifically cause eye discharge in cats, alongside the gastrointestinal and respiratory symptoms mentioned above."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Nausea, Vomiting, and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly stated,",
+      "notes": "These digestive issues are primarily caused by tannins found in the flower seeds and fruits, which act as irritants.Labored Breathing"
+    },
+    {
+      "name": "Labored Breathing (Respiratory Distress)",
+      "body_system": "Respiratory",
+      "severity": "moderate",
+      "onset": "Not explicitly stated.",
+      "notes": "This symptom is linked to the ingestion of the leaves, which contain hydrocyanic acid (prussic acid).Eye Discharge"
+    },
+    {
+      "name": "Eye Discharge",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Not explicitly stated.",
+      "notes": "This is a specific clinical sign associated with Bird of Paradise toxicity noted in multiple veterinary sources.Drowsiness"
+    },
+    {
+      "name": "Drowsiness (Lethargy)",
+      "body_system": "Neurological",
+      "severity": "mild",
+      "onset": "Not explicitly stated.",
+      "notes": "This symptom is primarily associated with the ingestion of the seeds or fruit."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Decontamination (Inducing Vomiting)",
+      "description": "If the ingestion was recent, the veterinarian may administer medication to induce vomiting (emesis) to expel the plant material from the stomach before toxins are fully absorbed.",
+      "notes": "This is a general protocol for plant poisoning to prevent further absorption of toxins. Sources emphasize that pet owners should not attempt to induce vomiting at home (e.g., using hydrogen peroxide) as it can cause injury; this must be done by a veterinary professional.",
+      "priority": 1
+    },
+    {
+      "name": "Fluid Therapy",
+      "description": "The administration of intravenous (IV) fluids to maintain hydration and electrolyte balance.",
+      "notes": "This is necessary to counteract dehydration caused by the gastrointestinal symptoms associated with Bird of Paradise ingestion, specifically vomiting and diarrhea. Fluid therapy also helps flush toxins from the body and supports kidney function.",
+      "priority": 2
+    },
+    {
+      "name": "Symptomatic Management and Monitoring",
+      "description": "The use of medications to control nausea and close observation of vital signs, particularly respiratory effort.",
+      "notes": "Because the leaves contain hydrocyanic acid (prussic acid), veterinarians will monitor for and treat labored breathing. Additionally, since the plant is known to cause specific eye discharge and gastrointestinal irritation (from tannins), care may include eye treatments or gastroprotectants to soothe the stomach.",
+      "priority": 3
+    }
+  ]
+}

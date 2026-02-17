@@ -1,0 +1,55 @@
+{
+  "plant": {
+    "common_name": "Chamomile",
+    "scientific_name": "Matricaria chamomilla",
+    "family": "Asteraceae",
+    "description": "An aromatic herb in the daisy family (Asteraceae). Contains volatile oils and other compounds that can be toxic to cats."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Flower"
+  ],
+  "toxins": [
+    {
+      "name": "The sources do not identify the specific chemical toxin, but explicitly state that Chamomile flowers are the part of the plant that is unsafe for cats",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: Ingestion of the flowers affects the gastrointestinal tract. While the plant has calming effects on humans (e.g., in tea), in cats, consumption leads to vomiting and diarrhea",
+      "concentration_notes": "\u25e6 High Dose/Cumulative Risk: Toxicity is linked to quantity. Poisoning typically occurs if a cat consumes large amounts at once or ingests the plant over a long period of time1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Low Dose Nuance: There is conflicting information regarding lower concentrations. One source lists Chamomile oil as an essential oil considered \"safe\" for cats2, and another suggests that small doses of Chamomile can be a soothing, cat-safe alternative to Lavender3. However, the consumption of the flowers themselves is expressly warned against for causing illness"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
+      "notes": "While Chamomile tea is used by humans for its calming effects, the flowers are not safe for cats to consume freely. Poisoning can occur if a cat ingests the plant material in significant quantities. Conversely, some veterinary sources suggest that small doses of Chamomile can be used as a soothing, cat-safe alternative to more toxic plants like Lavender, but this should be done under veterinary guidance.Note on Essential Oils: Some sources list Chamomile oil as an essential oil that is considered \"safe\" for cats (unlike tea tree or peppermint), provided it is not ingested and is used with caution. However, direct ingestion of any essential oil is generally discouraged."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Triage and Professional Assessment",
+      "description": "Contacting a veterinarian or an animal poison control center immediately to evaluate the risk. The vet will assess the amount ingested and the cat's current status to determine if a clinic visit is necessary.",
+      "notes": "Sources emphasize that \"it\u2019s always best to consult with your veterinarian\" if a cat consumes human food or drink like Chamomile tea or flowers1. Because Chamomile toxicity is typically linked to consuming \"large amounts,\" professional guidance ensures that minor ingestions are not over-treated while significant ones are managed appropriately1.\n2. Gastrointestinal Decontamination",
+      "priority": 1
+    },
+    {
+      "name": "Induction of Emesis (Vomiting)",
+      "description": "If the ingestion was recent (typically within 1\u20132 hours), a veterinarian may administer medication (such as xylazine or apomorphine) to induce vomiting and remove the plant material from the stomach.",
+      "notes": "You should never attempt to induce vomiting at home (e.g., with hydrogen peroxide) without veterinary instruction, as this can cause severe irritation or aspiration2. This procedure is generally performed in a clinical setting to ensure safety.\n3. Symptomatic and Supportive Care",
+      "priority": 2
+    },
+    {
+      "name": "Fluid Therapy and Medications (Antiemetics/Antidiarrheals)",
+      "description": "\u25e6 Fluids: Administration of subcutaneous or intravenous fluids to correct dehydration caused by vomiting and diarrhea34.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Medications: The use of antiemetics to stop vomiting and antidiarrheals to control loose stools4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Diet: Transitioning to a bland diet (e.g., boiled chicken) to soothe the stomach as the cat recovers",
+      "notes": "For plants classified as gastrointestinal irritants, the prognosis is generally excellent with this type of care, and most animals recover within 24\u201348 hours4.\n4. Dermal Decontamination (If Essential Oil involved)",
+      "priority": 3
+    },
+    {
+      "name": "Dermal Washing / Bathing",
+      "description": "If the cat was exposed to Chamomile essential oil (which is more concentrated than the plant) on its skin or fur, the vet will recommend bathing the cat with mild liquid dish soap and lukewarm water to prevent further absorption or ingestion during grooming",
+      "notes": "While some sources list Chamomile oil as \"considered safe\" compared to other oils6, direct ingestion or skin absorption of any essential oil can be risky. Removing the source prevents the cat from licking toxic concentrations off their fur",
+      "priority": 4
+    }
+  ]
+}

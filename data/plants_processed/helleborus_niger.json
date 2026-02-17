@@ -1,0 +1,92 @@
+{
+  "plant": {
+    "common_name": "Christmas Rose",
+    "scientific_name": "Helleborus niger",
+    "family": "Ranunculaceae",
+    "description": "The sources identify it as a plant often found in homes during the holiday season (Christmas) and note that it is also known as the Easter rose or black hellebore. Detailed information regarding its physical appearance or natural habitat is not included in the provided text."
+  },
+  "basics": {
+    "family": "Ranunculaceae",
+    "description": "The sources identify it as a plant often found in homes during the holiday season (Christmas) and note that it is also known as the Easter rose or black hellebore. Detailed information regarding its physical appearance or natural habitat is not included in the provided text."
+  },
+  "toxic_parts": [
+    "Sap"
+  ],
+  "toxins": [
+    {
+      "name": "Cardiac glycosides. (Specific glycosides like hellebrin are not explicitly named in the provided text, but the class of compounds is identified)",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cardiovascular System: These toxins disrupt the heart's natural rhythm and rate. They can cause electrolyte imbalances and lead to cardiac arrhythmias (irregular heartbeat).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Neurological Effects: The sources note these compounds can also cause hallucinations.\n4. Notes on",
+      "concentration_notes": "\u25e6 Severity: The effects of cardiac glycosides can be fatal. Veterinary intervention is required to manage heart rate and electrolyte changes.\u2022 Holiday Toxins | Pet Poison Helpline\u00ae1"
+    },
+    {
+      "name": "Irritating saps (The specific chemical components, such as protoanemonin, are not explicitly named in the text",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Direct Irritation: The sap acts as a contact irritant to the mucous membranes of the mouth and gastrointestinal tract.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Clinical Effect: Ingestion leads to excessive drooling (hypersalivation) and persistent gastrointestinal distress, specifically vomiting and diarrhea.\n4. Notes on",
+      "concentration_notes": "\u25e6 Clinical Presentation: The irritation is severe enough that the vomit and diarrhea may often contain blood.\u2022 Holiday Toxins | Pet Poison Helpline\u00ae1"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Excessive drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in sources, but typically occurs rapidly upon contact with irritating sap.",
+      "notes": "The plant contains saps that cause direct irritation to the mouth and digestive tract.Gastrointestinal Distress (Vomiting and Diarrhea)"
+    },
+    {
+      "name": "Persistent vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Not specified in sources.",
+      "notes": "Unlike mild stomach upset, the vomiting and diarrhea associated with Christmas Rose are described as persistent and often contain blood, indicating severe irritation or damage to the gastrointestinal lining.Cardiac Abnormalities"
+    },
+    {
+      "name": "Changes in heart rate and rhythm (Arrhythmias)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Not specified in sources.",
+      "notes": "The plant contains cardiac glycosides, which disrupt the heart's electrical impulses. These toxins can be fatal if untreated.Hallucinations"
+    },
+    {
+      "name": "Hallucinations",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not specified in sources.",
+      "notes": "This is a distinct neurological symptom associated with the specific toxins found in the Christmas Rose.Electrolyte Imbalances"
+    },
+    {
+      "name": "Electrolyte imbalances",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Not specified in sources.",
+      "notes": "Cardiac glycosides interfere with cellular ion channels, leading to dangerous shifts in electrolytes that affect heart and nerve function."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Administration of Antiarrhythmics, Atropine, or Digoxin-Specific Antibody Fragments",
+      "description": "The veterinarian may administer Atropine to treat a dangerously slow heart rate (bradycardia) or antiarrhythmic drugs (such as Lidocaine or Procainamide) to control irregular heartbeats. In severe cases, Digoxin-specific antibody fragments (Fab) may be used as an antidote to bind and neutralize the cardiac toxins in the blood.",
+      "notes": "This is the most urgent priority because the cardiac glycosides in Christmas Rose can cause fatal arrhythmias and heart failure. The plant's toxins are structurally similar to the heart drug digoxin, allowing the specific antidote (Fab) to be effective.Correction of Electrolyte Imbalances (Hyperkalemia)",
+      "priority": 1
+    },
+    {
+      "name": "Hyperkalemia Management (Insulin/Dextrose or Sodium Bicarbonate)",
+      "description": "If blood tests reveal dangerously high potassium levels (hyperkalemia), the vet may administer insulin and dextrose (sugar) or sodium bicarbonate intravenously to drive potassium back into the cells and lower blood levels.",
+      "notes": "Cardiac glycosides inhibit the sodium-potassium cellular pumps, causing potassium to accumulate outside the cells. Severe hyperkalemia (> 7.5\u20139 mEq/L) is life-threatening and requires immediate correction.Gastrointestinal Decontamination",
+      "priority": 2
+    },
+    {
+      "name": "Induction of Emesis and Activated Charcoal",
+      "description": "If the cat is stable and ingestion was recent, the vet may induce vomiting (emesis) to remove plant material. This is followed by the administration of activated charcoal, often in repeated doses (every 6\u20138 hours), to bind the toxins in the gut and prevent them from entering the bloodstream.",
+      "notes": "Repeated doses of charcoal are recommended because cardiac glycosides undergo enterohepatic recirculation (they are recycled through the liver and bile), meaning the body can re-absorb the toxin even after it has been processed once.Fluid Therapy and Symptomatic Support",
+      "priority": 3
+    },
+    {
+      "name": "Intravenous (IV) Fluids and Gastroprotectants",
+      "description": "The administration of IV fluids to maintain hydration and blood pressure, along with medications to stop vomiting (anti-emetics) and coat the stomach (gastroprotectants).",
+      "notes": "The saps in Christmas Rose are highly irritating and cause persistent vomiting and diarrhea, which may contain blood. Aggressive fluid support is necessary to prevent dehydration and support organ function while the severe irritation heals.",
+      "priority": 4
+    }
+  ]
+}

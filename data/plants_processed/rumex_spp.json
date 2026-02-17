@@ -1,0 +1,86 @@
+{
+  "plant": {
+    "common_name": "Curly Dock / Sorrel",
+    "scientific_name": "Rumex spp.",
+    "family": null
+  },
+  "basics": {
+    "family": null,
+    "description": null
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Soluble Oxalates (specifically described as oxalic acid and oxalate salts)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Hypocalcemia: Unlike insoluble oxalates that cause immediate physical pain to the mouth, soluble oxalates are absorbed from the gastrointestinal tract into the bloodstream. Once absorbed, they bind with the body's systemic calcium, leading to a sudden, dangerous drop in calcium levels (hypocalcemia).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Renal Damage: The oxalates can precipitate (crystallize) within the kidneys, causing damage to the renal tubules. This mechanism can lead to acute renal failure.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Neurological/Muscular Effects: The rapid drop in calcium leads to \"hypocalcemic tetany,\" resulting in tremors, weakness, ataxia (loss of coordination), and seizures.\n4. Notes on",
+      "concentration_notes": "\u25e6 Quantity Dependent: Small ingestions usually result only in gastrointestinal upset (vomiting, anorexia).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Large Ingestions Required for Severe Toxicity: Life-threatening signs (such as tetany and kidney failure) typically require the ingestion of large quantities. While this poisoning is more common in livestock grazing on the plants, it can occur in small animals like cats if enough plant material is consumed.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual1...\n\u2022 Rhubarb Are Toxic To Pets | Pet Poison Helpline"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Loss of Appetite (Inappetence)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid; these are cited as \"initial clinical signs.\"",
+      "notes": "Small ingestions, such as a nibble, typically result in only these gastrointestinal signs. However, persistent vomiting can also be a sign of developing kidney failure or hypocalcemia.Hypocalcemic Tetany (Tremors and Seizures)"
+    },
+    {
+      "name": "Tremors, Twitching, and Seizures (Tetany)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Rapid following significant absorption.",
+      "notes": "This occurs because soluble oxalates absorb into the blood and bind with systemic calcium, causing a sudden, dangerous drop in calcium levels (hypocalcemia). Symptoms include weakness, ataxia (loss of coordination), and lethargy.Renal Failure"
+    },
+    {
+      "name": "Kidney Failure (Acute Renal Failure)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Delayed (as crystals precipitate in the kidneys).",
+      "notes": "The oxalate crystals can precipitate within the renal tubules, causing physical damage. Signs include increased thirst and urination (PU/PD), followed by a decrease in urine production (oliguria) or complete cessation (anuria).Excessive Drooling"
+    },
+    {
+      "name": "Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid.",
+      "notes": "This is often seen alongside other early signs of toxicity.Bloody Urine"
+    },
+    {
+      "name": "Hematuria (Bloody Urine)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Delayed (associated with renal damage).",
+      "notes": "This symptom indicates damage to the urinary tract or kidneys caused by the filtration of oxalate crystals."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis and Administration of Activated Charcoal",
+      "description": "If the ingestion was recent, the veterinarian will induce vomiting (emesis) to remove the plant material from the stomach. This is typically followed by a dose of activated charcoal mixed with a cathartic (a medication to speed up defecation) to bind any remaining toxins in the gastrointestinal tract and prevent absorption.",
+      "notes": "This protocol is recommended for exposures that involve \"more than just a small taste or nibble.\" Small ingestions may only result in mild GI upset, but larger amounts require this aggressive decontamination to prevent systemic toxicity.Intravenous (IV) Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous Fluid Diuresis",
+      "description": "The cat is placed on IV fluids for 24 to 48 hours. This helps flush the kidneys (diuresis) and maintains hydration.",
+      "notes": "This step is critical because soluble oxalates can precipitate (crystallize) in the kidneys, potentially causing renal tubular damage and kidney failure. Fluid therapy helps prevent these crystals from forming and damaging the renal tissue.Calcium Replacement (Calcium Gluconate)",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous Calcium Gluconate Administration",
+      "description": "Calcium gluconate is administered directly into the bloodstream to raise calcium levels.",
+      "notes": "Soluble oxalates bind to the body's systemic calcium, leading to hypocalcemia (low calcium). This treatment is specifically indicated if the cat shows signs of hypocalcemia, such as tremors, tetany (involuntary muscle contractions), or seizures.Clinical Monitoring (Renal Indices)",
+      "priority": 3
+    },
+    {
+      "name": "Monitoring of Kidney Function",
+      "description": "The veterinary team will perform blood tests to monitor renal indices (kidney values) throughout the hospitalization period.",
+      "notes": "Because acute renal failure is a potential outcome of soluble oxalate poisoning (though rare in small animals compared to livestock), continuous monitoring is necessary to catch and treat any developing kidney dysfunction early.",
+      "priority": 4
+    }
+  ]
+}

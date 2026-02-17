@@ -2,19 +2,100 @@
   "plant": {
     "common_name": "American Mistletoe",
     "scientific_name": "Phoradendron flavescens",
-    "family": "It belongs to the family Viscaceae1.",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The American Mistletoe is a perennial parasitic shrub characterized by round, highly branched green stems. It has evergreen, ovoid leaves that grow opposite one another and produces white berries, each containing a single seed1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat: It grows as a parasite on deciduous trees1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: While found naturally on trees, it is frequently brought into homes as a decorative plant during the Christmas season12."
+    "family": "Viscaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a perennial parasitic shrub with a round, highly branched, green stem. The plant features evergreen, ovoid leaves arranged oppositely and produces white berries, each containing a single seed1.\n\u2022 Habitat: It grows naturally as a parasite on deciduous trees1.\n\u2022 Where Commonly Found: While it grows on trees outdoors, it is most commonly encountered by pet owners when brought into homes as a traditional decoration during the Christmas season"
   },
   "basics": {
-    "family": "It belongs to the family Viscaceae1.",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The American Mistletoe is a perennial parasitic shrub characterized by round, highly branched green stems. It has evergreen, ovoid leaves that grow opposite one another and produces white berries, each containing a single seed1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat: It grows as a parasite on deciduous trees1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: While found naturally on trees, it is frequently brought into homes as a decorative plant during the Christmas season12."
+    "family": "Viscaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a perennial parasitic shrub with a round, highly branched, green stem. The plant features evergreen, ovoid leaves arranged oppositely and produces white berries, each containing a single seed1.\n\u2022 Habitat: It grows naturally as a parasite on deciduous trees1.\n\u2022 Where Commonly Found: While it grows on trees outdoors, it is most commonly encountered by pet owners when brought into homes as a traditional decoration during the Christmas season"
   },
   "toxic_parts": [
+    "Fruit",
     "Leaf",
-    "Stem",
-    "Fruit"
+    "Entire Plant",
+    "Stem"
   ],
-  "toxins": [],
-  "symptoms": [],
-  "treatments": []
+  "toxins": [
+    {
+      "name": "Lectins (Toxic Proteins)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cellular Inhibition & Cardiac Effect: Lectins are potent cytotoxins that can inhibit protein synthesis within cells. In the context of mistletoe poisoning, they act synergistically with other toxins to depress the cardiovascular system, leading to low blood pressure (hypotension) and a slowed heart rate (bradycardia).\n4. Notes on",
+      "concentration_notes": "\u25e6 Found in all parts of the plant.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Ingestion typically causes gastrointestinal upset, but large amounts are required to trigger the more severe cardiac symptoms."
+    },
+    {
+      "name": "Phoratoxins (Small, toxic proteins/peptides)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cardiovascular Depression: Phoratoxins directly affect the heart muscle and smooth muscles of the blood vessels. They cause hypotension (low blood pressure) and bradycardia (dangerously slow heart rate), which can progress to cardiovascular collapse and shock in severe cases.\n4. Notes on",
+      "concentration_notes": "\u25e6 These toxins are present throughout the plant, including the leaves, stems, and berries.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Some sources indicate the leaves may be more toxic than the berries.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Severe poisoning is uncommon and usually requires the ingestion of a large volume of plant material."
+    },
+    {
+      "name": "Viscotoxins (Toxic proteins) and Amines.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Note: While viscotoxins are classically associated with European Mistletoe",
+      "chemical_formula": "Not applicable.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal & Systemic Shock: These compounds act as severe irritants to the gastrointestinal tract, causing profuse vomiting and diarrhea. Systemically, they contribute to shock, dilated pupils, and respiratory distress leading to cardiovascular collapse.\n4. Notes on",
+      "concentration_notes": "\u25e6 Found in all parts of the plant.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Most ingestions result only in mild to moderate gastrointestinal irritation; fatal cardiovascular collapse is rare but possible with significant ingestion."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea (can be profuse), Abdominal Pain, and Drooling (Hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within hours of ingestion.",
+      "notes": "Small ingestions (a few leaves or berries) usually result in only mild irritation. Severe, profuse diarrhea is associated with larger toxic doses.Cardiovascular Disturbances"
+    },
+    {
+      "name": "Bradycardia (Slowed Heart Rate) and Hypotension (Low Blood Pressure)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within hours of ingestion.",
+      "notes": "These symptoms occur with larger ingestions. The plant contains phoratoxins and lectins that directly affect the heart, potentially leading to cardiovascular collapse and shock.Respiratory Distress"
+    },
+    {
+      "name": "Dyspnea (Rapid, labored breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Within hours of ingestion.",
+      "notes": "Breathing difficulties are often a precursor to or symptom of shock and cardiovascular collapse.Neurological Abnormalities"
+    },
+    {
+      "name": "Dilated Pupils (Mydriasis), Seizures, and Odd Behavior/Weakness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within hours of ingestion.",
+      "notes": "Weakness is often secondary to low blood pressure. Seizures are a sign of severe toxicity and require immediate intervention.Shock and Collapse"
+    },
+    {
+      "name": "Shock and Cardiovascular Collapse",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within hours of ingesting a toxic dose.",
+      "notes": "This is the terminal stage of severe poisoning, resulting from the combined effects of fluid loss (vomiting/diarrhea) and cardiac depression."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Symptomatic Supportive Care (Fluid Therapy)",
+      "description": "The veterinarian will administer intravenous (IV) or subcutaneous fluids to correct dehydration and maintain electrolyte balance.",
+      "notes": "This is the primary intervention for cases with persistent or severe clinical signs. Since the most common symptoms are vomiting and diarrhea, pets are at risk of dehydration. This treatment supports the animal while the toxins (amines and viscotoxins) clear their system.",
+      "priority": 1
+    },
+    {
+      "name": "Cardiovascular Monitoring and Support",
+      "description": "The veterinary team will monitor the cat\u2019s heart rate and blood pressure. If severe toxicity occurs (rare), they may administer medications to treat bradycardia (slow heart rate) or hypotension (low blood pressure).",
+      "notes": "Mistletoe contains lectins and phoratoxins which can depress the cardiovascular system. While severe cardiovascular collapse is rare, it is a potential outcome of large ingestions, making heart monitoring a critical precaution in serious cases.",
+      "priority": 2
+    },
+    {
+      "name": "Gastrointestinal Management (Anti-emetics)",
+      "description": "Administration of anti-emetic medications to stop vomiting and potentially gastroprotectants to soothe the stomach lining.",
+      "notes": "This is part of the \"symptomatic\" treatment approach. Since gastrointestinal irritation is the most common result of mistletoe ingestion, controlling nausea helps prevent further fluid loss and improves the cat's comfort.",
+      "priority": 3
+    },
+    {
+      "name": "Surgical Removal (For Artificial Plants)",
+      "description": "Surgical intervention or endoscopy to remove a foreign object from the digestive tract.",
+      "notes": "This applies specifically if the cat has ingested plastic berries from artificial mistletoe decorations. Unlike the real plant, plastic berries do not cause chemical poisoning but can cause a physical foreign body obstruction in the intestines.",
+      "priority": 4
+    }
+  ]
 }

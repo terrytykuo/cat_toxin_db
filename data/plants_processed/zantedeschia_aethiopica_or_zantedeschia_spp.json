@@ -1,0 +1,88 @@
+{
+  "plant": {
+    "common_name": "Calla Lily",
+    "scientific_name": "Zantedeschia aethiopica or Zantedeschia spp.",
+    "family": "Araceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Classification: Calla Lilies are considered \"imposter lilies\" because they do not cause the acute kidney failure associated with true lilies.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: They are common houseplants and garden ornamentals, and are frequently found in floral bouquets and cut flower arrangements.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Toxicity Characteristics: Unlike true lilies, Calla Lilies contain insoluble calcium oxalate crystals (raphides) bundled in specialized cells, which cause physical irritation rather than systemic organ failure.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual1...\n\u2022 Do You Know Which Flowers and Plants are Toxic to Pets? Our Experts Explain! | ASPCA6\n\u2022 Clinical Perspectives on Feline Phytotoxicology78\n\u2022 Household Hazards: Toxic Hazards for Cats"
+  },
+  "basics": {
+    "family": "Araceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Classification: Calla Lilies are considered \"imposter lilies\" because they do not cause the acute kidney failure associated with true lilies.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: They are common houseplants and garden ornamentals, and are frequently found in floral bouquets and cut flower arrangements.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Toxicity Characteristics: Unlike true lilies, Calla Lilies contain insoluble calcium oxalate crystals (raphides) bundled in specialized cells, which cause physical irritation rather than systemic organ failure.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual1...\n\u2022 Do You Know Which Flowers and Plants are Toxic to Pets? Our Experts Explain! | ASPCA6\n\u2022 Clinical Perspectives on Feline Phytotoxicology78\n\u2022 Household Hazards: Toxic Hazards for Cats"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Insoluble Calcium Oxalate (specifically appearing as needle-like crystals called raphides)",
+      "chemical_formula": "CaC\n2\n\t\u200b\n\nO\n4\n\t\u200b\n\n.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Physical Trauma: The crystals are bundled within specialized plant cells known as idioblasts. When a cat bites or chews on the plant, these cells rupture, forcefully ejecting the needle-sharp raphides into the sensitive soft tissues of the mouth, tongue, throat, and esophagus.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Immediate Irritation: This mechanical action causes immediate, intense pain, burning sensations, and inflammation (edema). It can lead to swelling of the airways in severe cases, although the primary effect is localized tissue damage rather than systemic poisoning.",
+      "concentration_notes": "\u25e6 Distribution: These crystals are found in all parts of the plant, including the leaves, stems, and flowers.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: The toxicity is generally classified as moderate. Because the pain is immediate and intense, cats usually stop eating the plant quickly, which limits the amount of toxin ingested. Systemic toxicity is rare, but severe swelling can occasionally compromise breathing."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning sensation, pain, and irritation of the mouth, tongue, and lips",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate upon chewing or biting into the plant.",
+      "notes": "The plant contains microscopic, needle-like crystals (raphides) that embed into the soft tissues of the mouth immediately upon contact. This pain typically deters the cat from consuming large amounts.Excessive Drooling"
+    },
+    {
+      "name": "Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to rapid.",
+      "notes": "Drooling is a physiological response to the immediate mechanical irritation and burning sensation in the oral cavity.Gastrointestinal Upset (Vomiting)"
+    },
+    {
+      "name": "Vomiting and Anorexia (Decreased appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid (shortly after ingestion).",
+      "notes": "While vomiting is a common sign, diarrhea is less frequent. Anorexia (refusal to eat) is often secondary to the pain in the mouth rather than systemic toxicity.Difficulty Swallowing"
+    },
+    {
+      "name": "Dysphagia (Difficulty swallowing)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to rapid.",
+      "notes": "The swelling and irritation of the tongue and pharynx make swallowing painful and difficult for the cat.Airway Obstruction / Difficulty Breathing"
+    },
+    {
+      "name": "Dyspnea (Difficulty breathing) due to laryngeal edema",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid (as swelling develops).",
+      "notes": "In rare cases, the inflammatory response can cause swelling of the upper airway (tongue, throat, larynx), which can block air passages and compromise breathing. This requires immediate veterinary attention.Important Clinical Distinction: It is critical to note that Calla Lilies are considered \"imposter lilies.\" Unlike True Lilies (Lilium and Hemerocallis species), Calla Lilies do not cause acute kidney failure (renal failure) in cats. Their toxicity is limited to the gastrointestinal tract and upper airway irritation caused by oxalate crystals."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral Decontamination (Rinsing)",
+      "description": "The immediate removal of any remaining plant material from the mouth, followed by thoroughly rinsing or wiping the oral cavity with lukewarm water or a wet cloth.",
+      "notes": "This is the most critical initial step to remove the needle-like crystals (raphides) that embed in the soft tissues. Rinsing helps stop the immediate burning sensation and prevents further injury to the mucous membranes.",
+      "priority": 1
+    },
+    {
+      "name": "Administration of Demulcents (Calcium-Containing Products)",
+      "description": "Feeding the cat small amounts of milk, yogurt, or other calcium-containing dairy products.",
+      "notes": "Insoluble oxalates bind to the calcium in dairy products, which helps precipitate the crystals and clear them from the oral cavity and esophagus. This also coats the irritated tissues, providing relief from pain.",
+      "priority": 2
+    },
+    {
+      "name": "Supportive Care (Fluids and Medications)",
+      "description": "The administration of antiemetics (to stop vomiting), analgesics (pain relief), and gastroprotectants. In cases of persistent vomiting or refusal to drink due to mouth pain, subcutaneous or intravenous fluid therapy is used to maintain hydration.",
+      "notes": "Most cases are self-limiting and resolve without aggressive intervention. However, if the cat is drooling excessively or unable to eat due to oral pain, supportive medications are necessary to maintain comfort and hydration.",
+      "priority": 3
+    },
+    {
+      "name": "Airway Monitoring and Management",
+      "description": "Close observation for signs of laryngeal edema (swelling of the throat). In rare, severe cases, veterinary intervention to secure an airway or provide oxygen support may be required.",
+      "notes": "While rare, the inflammatory response to the crystals can cause swelling in the back of the throat that obstructs breathing. This is the most dangerous potential complication of insoluble oxalate ingestion.",
+      "priority": 4
+    }
+  ]
+}

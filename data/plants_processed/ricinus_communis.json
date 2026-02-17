@@ -1,0 +1,79 @@
+{
+  "plant": {
+    "common_name": "Castor Bean",
+    "scientific_name": "Ricinus communis",
+    "family": "Euphorbiaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The plant is described as having attractive foliage1. It produces highly toxic seeds (often referred to as beans)12.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Utility: It is identified as the source of castor oil1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat: The provided sources do not list the specific habitat or common locations for this plant.\u2022 10 Plants that are Toxic to Cats that Could Be in Your Home or Garden\n\u2022 Clinical Perspectives on Feline Phytotoxicology"
+  },
+  "basics": {
+    "family": "Euphorbiaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The plant is described as having attractive foliage1. It produces highly toxic seeds (often referred to as beans)12.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Utility: It is identified as the source of castor oil1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat: The provided sources do not list the specific habitat or common locations for this plant.\u2022 10 Plants that are Toxic to Cats that Could Be in Your Home or Garden\n\u2022 Clinical Perspectives on Feline Phytotoxicology"
+  },
+  "toxic_parts": [
+    "Seed"
+  ],
+  "toxins": [
+    {
+      "name": "Ricin",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cellular Inhibition: Ricin works by inhibiting protein synthesis at the cellular level. This disruption of basic cellular function leads to widespread cell death and organ damage.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Effects: Ingestion leads to severe clinical signs starting with gastrointestinal distress (vomiting, bloody diarrhea, abdominal pain, loss of appetite). As the toxin affects the body, it progresses to dehydration, tremors, seizures, and eventually multi-organ failure.\n4. Notes on",
+      "concentration_notes": "\u25e6 Potency: It is described as \"one of the most potent toxins known\" and is highly toxic to cats."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea (often bloody), abdominal pain, and loss of appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid (symptoms often manifest quickly after ingestion).",
+      "notes": "The diarrhea may become bloody, indicating severe irritation and damage to the intestinal lining.Neurological Abnormalities"
+    },
+    {
+      "name": "Tremors and seizures",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Rapid progression following gastrointestinal signs.",
+      "notes": "These symptoms indicate that the toxin has been absorbed and is affecting the central nervous system.Dehydration"
+    },
+    {
+      "name": "Dehydration",
+      "body_system": "Metabolic",
+      "severity": "severe",
+      "onset": "Secondary to rapid fluid loss from vomiting and diarrhea.",
+      "notes": "Rapid fluid loss exacerbates the systemic shock and stress on the kidneys.Organ Failure"
+    },
+    {
+      "name": "Organ failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Progression from initial symptoms.",
+      "notes": "Ricin inhibits protein synthesis at the cellular level, leading to widespread cell death and the shutdown of vital organs. The seeds contain the highest concentration of ricin, and even small amounts can be deadly."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Immediate Veterinary Intervention",
+      "description": "The cat must be taken to a veterinarian or emergency animal hospital immediately upon suspected ingestion. Rapid professional assessment is critical because the clinical signs (vomiting, bloody diarrhea) can progress quickly to severe systemic issues.",
+      "notes": "The onset of symptoms can be rapid, and the toxin (ricin) is one of the most potent known. Immediate care is required to manage the progression to dehydration, tremors, seizures, and organ failure.",
+      "priority": 1
+    },
+    {
+      "name": "Gastrointestinal Decontamination",
+      "description": "If the ingestion is recent, the veterinarian may induce vomiting (emesis) to remove the seeds or plant material from the stomach before the toxin is fully absorbed.",
+      "notes": "General veterinary toxicology protocols advise against inducing vomiting at home (e.g., using hydrogen peroxide) as it can cause complications; this should only be done under veterinary supervision.(General toxin protocol),1 (Implied by need for immediate attention to prevent progression)",
+      "priority": 2
+    },
+    {
+      "name": "Fluid Therapy and Electrolyte Replacement",
+      "description": "Administration of intravenous (IV) fluids to correct dehydration and electrolyte imbalances resulting from severe vomiting and diarrhea.",
+      "notes": "Castor bean ingestion causes significant fluid loss through \"bloody diarrhea\" and vomiting. Aggressive fluid support is necessary to maintain blood pressure and support kidney and liver function as the body attempts to process the toxin.(Mentions dehydration/organ failure),4 (Reference to treating the related toxin abrin with electrolyte replacement)",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Supportive Care (Seizure Control & Organ Support)",
+      "description": "The use of medications to control neurological symptoms such as tremors and seizures, and monitoring for signs of liver or kidney failure.",
+      "notes": "Since ricin causes multi-system organ failure and inhibits protein synthesis, care focuses on keeping the cat stable while the body clears the toxin. Fatalities are possible, so continuous monitoring of vital signs is essential.",
+      "priority": 4
+    }
+  ]
+}

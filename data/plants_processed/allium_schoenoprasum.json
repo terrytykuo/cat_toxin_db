@@ -1,0 +1,96 @@
+{
+  "plant": {
+    "common_name": "Chives",
+    "scientific_name": "Allium schoenoprasum",
+    "family": "Amaryllidaceae",
+    "description": "The sources do not state the botanical family (e.g., Amaryllidaceae) or provide a physical description of the plant (such as its appearance, leaves, flowers, or habitat). The available information focuses entirely on its toxicity to pets."
+  },
+  "basics": {
+    "family": "Amaryllidaceae",
+    "description": "The sources do not state the botanical family (e.g., Amaryllidaceae) or provide a physical description of the plant (such as its appearance, leaves, flowers, or habitat). The available information focuses entirely on its toxicity to pets."
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant",
+    "Stem",
+    "Bulb"
+  ],
+  "toxins": [
+    {
+      "name": "The specific toxic agent identified in chives and other Allium species (like onions and garlic) is N-propyl disulfide",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Oxidative Damage: When a cat ingests chives, these sulfur compounds cause oxidative damage to the hemoglobin within red blood cells.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Heinz Body Formation: This damage causes the hemoglobin to denature and clump together, forming structures called Heinz bodies on the red blood cells.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Hemolysis: The cat's spleen identifies these cells as damaged and removes them from circulation faster than the body can replace them. This destruction of red blood cells leads to hemolytic anemia (a life-threatening reduction in oxygen-carrying capacity).\n\u00a0\u00a0\u00a0\u00a0\u25e6 GI Irritation: The plant material also causes direct irritation to the gastrointestinal mucosa, leading to vomiting and diarrhea.\n4. Notes on",
+      "concentration_notes": "\u25e6 Toxic Threshold: Ingestion of as little as 0.5% of the cat\u2019s body weight in Allium plant material can be toxic.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Concentrated Forms: Chives are toxic in all forms (raw, cooked, or dried). However, dried or powdered forms (often found in soup mixes or seasonings) are particularly dangerous because the toxins are highly concentrated.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Delayed Onset: Symptoms of red blood cell damage (such as pale gums, rapid heart rate, and dark urine) may not appear for several days after ingestion.\u2022 Clinical Perspectives on Feline Phytotoxicology1\n\u2022 Dangerous Foods for Cats2\n\u2022 What Can't Cats Eat? 8 Toxic Foods for Cats - PetMD3\n\u2022 10 Foods that are Dangerous for Cats | Anicira"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea, abdominal pain, and loss of appetite (anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Can occur early, but general signs of poisoning may not appear for several days after ingestion.",
+      "notes": "The plant material causes direct irritation to the gastrointestinal mucosa. Nausea and drooling may also occur.Hemolytic Anemia (Heinz Body Anemia)"
+    },
+    {
+      "name": "Lethargy, weakness, stumbling, and collapse",
+      "body_system": "Hematological",
+      "severity": "fatal",
+      "onset": "Delayed (Symptoms typically appear several days following ingestion).",
+      "notes": "Sulfur compounds in chives cause oxidative damage to red blood cells, leading to their destruction (hemolysis). The cat may seek out warm spaces due to poor circulation and weakness.Discolored Mucous Membranes"
+    },
+    {
+      "name": "Pale, white, or yellow (jaundiced) gums",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "Gums appear pale due to a lack of red blood cells (anemia) or yellow due to the breakdown products of those cells accumulating in the body (icterus/jaundice).Discolored Urine (Hemoglobinuria)"
+    },
+    {
+      "name": "Dark, reddish, or brown urine",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "The dark color is caused by hemoglobin being filtered into the urine from ruptured red blood cells.Respiratory Distress"
+    },
+    {
+      "name": "Tachypnea (rapid breathing), panting, or dyspnea (difficulty breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "The cat breathes rapidly in an attempt to compensate for the decreased oxygen-carrying capacity of the blood caused by anemia.Cardiac Abnormalities"
+    },
+    {
+      "name": "Tachycardia (rapid heartbeat)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "The heart must pump faster to circulate the remaining oxygenated blood to tissues."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) and Activated Charcoal",
+      "description": "If the ingestion was recent (typically within a few hours), the veterinarian may administer medication to induce vomiting to remove the plant material from the stomach. This may be followed by the administration of activated charcoal, which helps bind any remaining toxins in the gastrointestinal tract to prevent absorption.",
+      "notes": "This step is time-sensitive. Veterinarians advise against trying to induce vomiting at home (especially with hydrogen peroxide) as it can cause severe irritation or complications. Decontamination is most effective before the cat begins showing clinical signs.Supportive Care and Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "The administration of IV fluids to maintain hydration and support organ function.",
+      "notes": "Fluids are critical if the cat is experiencing vomiting or diarrhea. Furthermore, since Allium toxicity causes red blood cell destruction, hemoglobin (the oxygen-carrying protein) can be released into the bloodstream and filtered by the kidneys (hemoglobinuria), potentially causing kidney damage. Fluid therapy helps flush the kidneys and protects them from this damage.Monitoring and Observation",
+      "priority": 2
+    },
+    {
+      "name": "Hematological Monitoring (Blood Tests)",
+      "description": "The veterinarian will monitor the cat's blood values, specifically looking for signs of anemia (low red blood cell count) and the presence of Heinz bodies (damaged hemoglobin) on red blood cells.",
+      "notes": "This is a critical part of the treatment plan because symptoms of Chive poisoning\u2014such as pale gums, rapid heartbeat, and dark urine\u2014are often delayed and may not appear for several days after ingestion. A cat may appear fine initially but deteriorate later as red blood cells die off.Advanced Interventions (For Severe Cases)",
+      "priority": 3
+    },
+    {
+      "name": "Oxygen Therapy or Blood Transfusion",
+      "description": "In severe cases where the anemia is life-threatening (the cat cannot carry enough oxygen), oxygen supplementation or a blood transfusion may be required to stabilize the patient.",
+      "notes": "While not always necessary for minor ingestions, this is the intervention for severe hemolytic anemia where the cat is weak, has pale gums, or is having trouble breathing due to a lack of red blood cells.(Inferred from descriptions of severe anemia and respiratory distress management).",
+      "priority": 4
+    }
+  ]
+}

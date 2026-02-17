@@ -1,0 +1,114 @@
+{
+  "plant": {
+    "common_name": "Bell Pepper / Chili Pepper / Ornamental Pepper",
+    "scientific_name": "Capsicum annuum",
+    "family": "Solanaceae",
+    "description": "2. Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: It is an annual shrub with branched, erect stems. The leaves are dark, glossy, and ovate (egg-shaped) with smooth margins. The plant produces white flowers and fruits that are shiny berries appearing in various colors, shapes, and sizes2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: These plants are commonly found in households as both ornamental plants and food sources3.\u2022 Eggplant, Tomato, Bell Pepper, and Potato in dogs and cats - PETSVETCHECK13\n\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "basics": {
+    "family": "Solanaceae",
+    "description": "2. Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: It is an annual shrub with branched, erect stems. The leaves are dark, glossy, and ovate (egg-shaped) with smooth margins. The plant produces white flowers and fruits that are shiny berries appearing in various colors, shapes, and sizes2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: These plants are commonly found in households as both ornamental plants and food sources3.\u2022 Eggplant, Tomato, Bell Pepper, and Potato in dogs and cats - PETSVETCHECK13\n\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "toxic_parts": [
+    "Fruit",
+    "Leaf",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Solanine (specifically a glycoalkaloid)",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Acetylcholinesterase Inhibition: Solanine inhibits the enzyme acetylcholinesterase, which is responsible for breaking down acetylcholine in the nervous system. This leads to an overstimulation of the parasympathetic nervous system, potentially causing neurological symptoms like tremors, ataxia (loss of coordination), and lethargy12.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cytotoxicity: It interacts with cell membranes (phospholipids), increasing permeability and causing the destruction of cells, particularly in the intestinal lining. This results in severe gastrointestinal irritation, vomiting, and diarrhea3.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mitochondrial Impairment: It disrupts the energy balance of cells by inhibiting the respiratory chain4.\n4. Notes on",
+      "concentration_notes": "\u25e6 Concentration: The highest concentrations are found in the foliage (leaves and stems) and unripe (green) fruits5.... Ripe bell peppers contain very low levels and are generally considered less dangerous, though they can still be irritating9.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: Cats are noted to be more sensitive to solanine than dogs due to their limited liver detoxification capacity"
+    },
+    {
+      "name": "Capsaicin (or Capsaicinoids)",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mucosal Irritation: Capsaicin is a potent irritant to mucous membranes. Upon contact or ingestion, it causes an intense burning sensation, hypersalivation (drooling), coughing, and watering of the eyes911.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Distress: It irritates the gastrointestinal tract, leading to gastroenteritis, vomiting, and diarrhea512.\n4. Notes on",
+      "concentration_notes": "\u25e6 Concentration: Found primarily in the mature fruits (the peppers themselves)512.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: Toxicity varies by the \"spiciness\" of the pepper. Spicy chili and ornamental peppers are particularly dangerous due to higher capsaicin content, while mild bell peppers are considered \"rather harmless\" but still not recommended for feeding"
+    },
+    {
+      "name": "Scopoletin",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 The sources group scopoletin with solanine in the foliage, noting that it contributes to gastrointestinal irritation causing vomiting and diarrhea12.\n4. Notes on",
+      "concentration_notes": "\u25e6 Concentration: Specifically identified in the foliage (leaves and stems) of the plant512.\u2022 Eggplant, Tomato, Bell Pepper, and Potato in dogs and cats - PETSVETCHECK1...\n\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual512\n\u2022 Tomato Is Toxic To Dogs | Pet Poison Helpline\u00ae8"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, and Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "2\u201324 hours.",
+      "notes": "Solanine acts as a severe irritant to the intestinal lining, potentially causing inflammation (gastroenteritis). Capsaicin in spicy peppers causes an immediate burning sensation that can lead to drooling and vomiting.Abdominal Pain"
+    },
+    {
+      "name": "Abdominal Pain (Colic)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "2\u201324 hours.",
+      "notes": "A cat may show a tense abdominal wall or vocalize pain upon palpation. This is a common progression after the initial vomiting phase.Mucosal Irritation (Burning & Coughing)"
+    },
+    {
+      "name": "Burning sensation, Coughing, Watery Eyes",
+      "body_system": "Dermal",
+      "severity": "moderate",
+      "onset": "Immediate (upon contact or ingestion).",
+      "notes": "Specific to capsaicin found in chili and ornamental peppers. Contact can cause conjunctivitis (eye irritation), and inhalation or swallowing can trigger a cough reflex and intense burning of the mouth and throat.Neurological Effects (Apathy to Seizures)"
+    },
+    {
+      "name": "Lethargy (Apathy), Ataxia (Loss of coordination), Tremors, Seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "12\u201324 hours (often follows GI symptoms).",
+      "notes": "These symptoms are caused by solanine (found in the green parts of the plant), which inhibits the enzyme acetylcholinesterase. This disrupts nerve signal transmission, leading to drowsiness, confusion, paralysis, or convulsions in severe cases.Cardiovascular Abnormalities"
+    },
+    {
+      "name": "Bradycardia (Slow heart rate), Arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "12\u201324 hours.",
+      "notes": "In high doses (associated with eating the plant/foliage), the toxins can disrupt heart rhythm and lead to circulatory collapse.Respiratory Paralysis"
+    },
+    {
+      "name": "Difficulty breathing (Dyspnea) leading to Respiratory Paralysis",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Late-stage (usually >24 hours).",
+      "notes": "In fatal cases of nightshade/solanine poisoning, death is typically caused by respiratory failure.Hematological Changes (Hemolysis)"
+    },
+    {
+      "name": "Hemolysis (Red blood cell destruction), Hemoglobinuria (Dark urine)",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "2\u201324 hours.",
+      "notes": "Severe poisoning can cause red blood cells to break down, leading to anemia and dark red or brown urine. The released hemoglobin can subsequently damage the kidneys."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Gastrointestinal Decontamination (Emesis or Gastric Lavage)",
+      "description": "If the ingestion was recent (typically within 1\u20132 hours) and the cat is stable, the veterinarian may induce vomiting using medication (such as xylazine) to remove the plant material from the stomach. Alternatively, gastric lavage (stomach pumping) may be performed under anesthesia to wash out the stomach contents.",
+      "notes": "This is the primary defense to prevent toxin absorption. Do not attempt to induce vomiting at home, as this can cause further injury or aspiration. This step is usually skipped if the cat is already vomiting severely or is neurologically unstable.",
+      "priority": 1
+    },
+    {
+      "name": "Toxin Adsorption (Activated Charcoal)",
+      "description": "Administration of medical-grade activated charcoal (1\u20134 g/kg) into the digestive tract. This substance binds to the remaining toxins (solanine/glycoalkaloids) in the gut, preventing them from entering the bloodstream.",
+      "notes": "Because solanine can undergo \"enterohepatic recirculation\" (where it is reabsorbed by the body), multiple doses of charcoal may be given every 4\u20136 hours. A cathartic (medication to speed up bowel movements) is often given with the first dose to help expel the bound toxins.",
+      "priority": 2
+    },
+    {
+      "name": "Fluid Therapy (Intravenous Fluids)",
+      "description": "The administration of crystalloid fluids directly into the vein (IV) to rehydrate the cat and maintain electrolyte balance.",
+      "notes": "This is critical for two reasons: 1) To replace fluids lost through the severe vomiting and diarrhea caused by both solanine and capsaicin. 2) To stimulate diuresis (urination), which helps flush toxins from the body and protects the kidneys from damage, especially if hemolysis (breakdown of red blood cells) has occurred.",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Drug Therapy (Atropine & Gastroprotectants)",
+      "description": "Using specific medications to treat symptoms as they arise. Atropine may be used to treat slow heart rate (bradycardia) or other cholinergic neurological signs. Antiemetics (to stop vomiting) and gastroprotectants are used to soothe the stomach lining.",
+      "notes": "While there is no specific antidote for solanine, atropine can counteract some of its neurological effects. For Chili/Ornamental peppers specifically, which contain capsaicin, cool water irrigation or oral vegetable/mineral oil may be used to soothe the intense burning irritation of the mouth and throat.",
+      "priority": 4
+    }
+  ]
+}

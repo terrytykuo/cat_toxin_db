@@ -1,0 +1,101 @@
+{
+  "plant": {
+    "common_name": "Chocolate Mint",
+    "scientific_name": "Mentha x piperita 'Chocolate'",
+    "family": "Lamiaceae",
+    "description": "2. Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: While specific details for the 'Chocolate' cultivar's appearance are limited in the texts, mint plants in general are described as having wrinkled, oval-shaped leaves and flowers that grow in clusters on stalks, ranging in color from lavender to white2. Chocolate Mint is specifically noted for its distinct aroma that smells like chocolate1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: Mint plants are commonly found growing wild in damp locations or near water sources2. They are widely cultivated in herb gardens and kept as indoor plants for culinary and medicinal uses2.\u2022 Mint Poisoning in Cats - Symptoms, Causes, Diagnosis, Treatment, Recovery, Management, Cost - Wag!\n\u2022 Is Mint Safe for Cats? Hidden Toxic Types, Oils & What To Do\n\u2022 Mint and Cats: Toxicity Concerns - Puainta"
+  },
+  "basics": {
+    "family": "Lamiaceae",
+    "description": "2. Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: While specific details for the 'Chocolate' cultivar's appearance are limited in the texts, mint plants in general are described as having wrinkled, oval-shaped leaves and flowers that grow in clusters on stalks, ranging in color from lavender to white2. Chocolate Mint is specifically noted for its distinct aroma that smells like chocolate1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: Mint plants are commonly found growing wild in damp locations or near water sources2. They are widely cultivated in herb gardens and kept as indoor plants for culinary and medicinal uses2.\u2022 Mint Poisoning in Cats - Symptoms, Causes, Diagnosis, Treatment, Recovery, Management, Cost - Wag!\n\u2022 Is Mint Safe for Cats? Hidden Toxic Types, Oils & What To Do\n\u2022 Mint and Cats: Toxicity Concerns - Puainta"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Essential oils, specifically Menthol and Pulegone (identified in Peppermint and its varieties, including Chocolate Mint)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Enzymatic Deficiency: Cats lack specific liver enzymes necessary to break down and process certain plant oils effectively. This inability to metabolize the compounds can lead to a buildup of toxins in the body.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal & Respiratory Irritation: These oils can relax the esophageal valve (increasing the risk of vomiting) and irritate the digestive tract. If inhaled or ingested in concentrated forms, they can cause respiratory distress and aspiration pneumonia.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Organ Damage: In severe cases (particularly with concentrated oils), they can lead to liver failure and central nervous system depression.",
+      "concentration_notes": "\u25e6 Concentrated Forms: Essential oils and extracts are highly toxic; even a small amount (like drops from a diffuser or bottle) can be life-threatening or cause severe chemical burns.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Plant Material: Fresh leaves contain lower concentrations. Ingesting small amounts typically results in mild gastrointestinal upset (vomiting, diarrhea) rather than fatal poisoning, though large quantities increase the risk."
+    },
+    {
+      "name": "Theobromine and Caffeine (Methylxanthines)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 CNS and Cardiac Stimulation: These compounds act as stimulants that affect the central nervous system and cardiovascular system.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Effects: Ingestion can lead to hyperactivity, tremors, seizures, abnormal heartbeats (arrhythmias), hyperthermia (high body temperature), and death.",
+      "concentration_notes": "\u25e6 Source Discrepancy: While one source explicitly states that Chocolate Mint plants contain theobromine and caffeine, another source suggests the toxicity is primarily due to mint oils and that the \"chocolate\" label simply indicates a risky association.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: If present, these compounds are highly dangerous to cats; toxicity is quantity-dependent, but cats are highly sensitive to methylxanthines."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea, and nausea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid (Irritation can occur immediately upon ingestion; general illness follows shortly after).",
+      "notes": "Mint plants contain essential oils that irritate the stomach lining. Additionally, these oils can relax the esophageal valve, making vomiting more likely in cats that are already feeling unwell.Neurological Depression"
+    },
+    {
+      "name": "Weakness, lethargy, uncoordinated gait (stumbling), and depression",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Not explicitly specified, but follows absorption of oils.",
+      "notes": "Cats lack specific liver enzymes necessary to break down the volatile compounds in mint oils. This inability to metabolize the toxins can lead to central nervous system depression and weakness.CNS and Cardiac Stimulation (Methylxanthine Toxicity)"
+    },
+    {
+      "name": "Hyperactivity, tremors, seizures, abnormal heartbeats (arrhythmias), and hyperthermia (high body temperature)",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Quantity-dependent (Symptoms of chocolate/caffeine toxicity generally appear within a few hours).",
+      "notes": "While some sources attribute Chocolate Mint toxicity primarily to mint oils6, another explicitly states that Chocolate Mint contains theobromine and caffeine. These compounds are highly dangerous stimulants for cats, distinct from the depressant effects of standard mint oils.Respiratory Distress"
+    },
+    {
+      "name": "Difficulty breathing, coughing, or sneezing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid (Upon inhalation or aspiration).",
+      "notes": "The strong aroma of mint oils can irritate a cat's respiratory tract. If the cat vomits and aspirates, or if concentrated oils are inhaled, it can cause significant breathing difficulties.Hypersalivation"
+    },
+    {
+      "name": "Excessive drooling (Ptyalism)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate.",
+      "notes": "This is often a reaction to the bitter taste of the plant or immediate irritation of the mucous membranes in the mouth.Liver Failure"
+    },
+    {
+      "name": "Jaundice (yellowing of skin/eyes) and signs of liver failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Delayed (Occurs as toxins build up and the liver fails to process them).",
+      "notes": "Because cats cannot efficiently process the essential oils found in mint plants (particularly pulegone), large ingestions or chronic exposure can lead to liver damage and failure over time."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis, Gastric Lavage, and/or Activated Charcoal",
+      "description": "\u25e6 Emesis/Lavage: The veterinarian may induce vomiting (using medication) or perform a gastric lavage (stomach pump) to physically remove the plant material from the stomach before it is fully digested and absorbed.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Activated Charcoal: Following emptying, activated charcoal may be administered to bind any remaining toxins in the digestive tract and prevent them from entering the bloodstream.",
+      "notes": "This is the primary intervention if the ingestion was recent. Home induction of vomiting (especially with hydrogen peroxide) is generally discouraged for cats due to risks of injury or ineffective results; it should be done under veterinary supervision.Intravenous (IV) Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Fluid Resuscitation / Supportive Fluid Therapy",
+      "description": "The administration of IV fluids to stabilize the cat, correct dehydration caused by vomiting or diarrhea, and help flush toxins from the body.",
+      "notes": "Fluids are critical for stabilizing the animal, particularly if they are experiencing excessive vomiting or diarrhea. Fluid therapy also supports liver and kidney function, which can be stressed by the volatile oils found in mint plants.Symptomatic and Pharmacological Support",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Anti-emetics, Antacids, and Gastroprotectants",
+      "description": "The vet may administer anti-nausea injections (anti-emetics) to stop vomiting and antacids or gastric protectants to coat and soothe the stomach lining, reducing irritation caused by the mint oils.",
+      "notes": "Mint oils can relax the esophageal valve, making vomiting more likely and potentially causing further irritation. Medications help manage this distress and keep the cat comfortable while they recover.Monitoring and Advanced Care (Severe Cases)",
+      "priority": 3
+    },
+    {
+      "name": "Hospitalization and Monitoring (Hepatic/Cardiac)",
+      "description": "The cat may need to be hospitalized for continuous observation. This involves monitoring liver enzymes (via blood tests) and checking for neurological or cardiac abnormalities.",
+      "notes": "Because some sources suggest Chocolate Mint may contain methylxanthines (caffeine/theobromine) or highly concentrated essential oils, there is a risk of more severe symptoms like liver failure, seizures, or arrhythmias. Cats with pre-existing liver or bowel disease are at heightened risk and require closer monitoring.",
+      "priority": 4
+    }
+  ]
+}

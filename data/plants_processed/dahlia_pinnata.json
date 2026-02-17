@@ -1,0 +1,64 @@
+{
+    "plant": {
+        "common_name": "Dahlia",
+        "scientific_name": "Dahlia pinnata",
+        "family": "Asteraceae",
+        "description": "Bushy plant with beautiful, multi-layered flowers. Popular in gardens."
+    },
+    "toxic_parts": [
+        "Leaf",
+        "Flower",
+        "Stem"
+    ],
+    "toxins": [
+        {
+            "name": "Unidentified Irritants",
+            "chemical_formula": null,
+            "description": "Substances that cause gastrointestinal upset and skin irritation.",
+            "concentration_notes": "Present in flowers and foliage."
+        }
+    ],
+    "symptoms": [
+        {
+            "name": "Gastrointestinal Upset",
+            "body_system": "Gastrointestinal",
+            "severity": "mild",
+            "onset": "Unknown",
+            "notes": "Vomiting and diarrhea."
+        },
+        {
+            "name": "Dermatitis",
+            "body_system": "Dermal",
+            "severity": "mild",
+            "onset": "Unknown",
+            "notes": "Skin irritation upon contact or ingestion."
+        }
+    ],
+    "treatments": [
+        {
+            "name": "Decontamination",
+            "description": "Induce vomiting if recent ingestion.",
+            "priority": 1,
+            "notes": "Purge plant material."
+        },
+        {
+            "name": "Dermal Cleansing",
+            "description": "Bath with mild soap to remove sap/irritants.",
+            "priority": 2,
+            "notes": "Crucial for dermatitis."
+        },
+        {
+            "name": "Supportive Care",
+            "description": "Fluids and anti-emetics for GI symptoms.",
+            "priority": 3,
+            "notes": "Symptomatic relief."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Cat Toxin Safety Guide (NotebookLM)",
+            "url": "https://notebooklm.google.com/notebook/9ef4df26-178b-446d-8e9d-e57cbe878a0d",
+            "accessed_at": "2026-02-17"
+        }
+    ]
+}

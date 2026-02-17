@@ -1,0 +1,72 @@
+{
+    "plant": {
+        "common_name": "Daylily",
+        "scientific_name": "Hemerocallis spp.",
+        "family": "Hemerocallidaceae",
+        "description": "Common garden plant with trumpet-shaped flowers. Considered a 'true lily' in toxicology terms."
+    },
+    "toxic_parts": [
+        "Leaf",
+        "Flower",
+        "Stem",
+        "Pollen"
+    ],
+    "toxins": [
+        {
+            "name": "Unidentified Nephrotoxin",
+            "chemical_formula": null,
+            "description": "Water-soluble toxin that targets renal tubular epithelial cells, causing acute kidney failure.",
+            "concentration_notes": "Extremely potent; present in all parts including pollen and vase water."
+        }
+    ],
+    "symptoms": [
+        {
+            "name": "Vomiting",
+            "body_system": "Gastrointestinal",
+            "severity": "severe",
+            "onset": "Rapid",
+            "notes": "Early sign (1-3 hours); may subside temporarily."
+        },
+        {
+            "name": "Acute Kidney Failure",
+            "body_system": "Renal",
+            "severity": "fatal",
+            "onset": "12-36 hours",
+            "notes": "Oliguria/Anuria indicates irreversible damage."
+        },
+        {
+            "name": "Lethargy",
+            "body_system": "Neurological",
+            "severity": "severe",
+            "onset": "Rapid",
+            "notes": "Progressive weakness and depression."
+        }
+    ],
+    "treatments": [
+        {
+            "name": "Decontamination",
+            "description": "Aggressive emesis and activated charcoal if early.",
+            "priority": 1,
+            "notes": "Must be done within hours of ingestion."
+        },
+        {
+            "name": "IV Fluid Therapy",
+            "description": "Aggressive fluid diuresis for 48-72 hours.",
+            "priority": 2,
+            "notes": "Critical to prevent tubular necrosis."
+        },
+        {
+            "name": "Renal Monitoring",
+            "description": "Daily blood work (BUN/Creatinine) and urinalysis.",
+            "priority": 3,
+            "notes": "Assess kidney function."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Cat Toxin Safety Guide (NotebookLM)",
+            "url": "https://notebooklm.google.com/notebook/9ef4df26-178b-446d-8e9d-e57cbe878a0d",
+            "accessed_at": "2026-02-17"
+        }
+    ]
+}

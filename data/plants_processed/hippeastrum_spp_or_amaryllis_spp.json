@@ -2,115 +2,115 @@
   "plant": {
     "common_name": "Amaryllis",
     "scientific_name": "Hippeastrum spp. or Amaryllis spp.",
-    "family": "Botanical Family While the sources do not explicitly name the botanical family (Amaryllidaceae) for Hippeastrum, they clearly classify the Amaryllis as an \"imposter lily\" rather than a \"true lily\" (which would belong to the Lilium or Hemerocallis genera)1.... It is distinct from the Liliaceae family, as it does not cause the acute renal failure associated with true lilies",
-    "description": "2. Brief Description\n\u2022 Appearance: The Amaryllis grows from a large bulb that typically extends partially above the ground4. It produces striking blooms that most commonly appear in shades of red, pink, and white4.\n\u2022 Common Names: It is also known as the Aztec lily, orchid lily, and naked lily2.\n\u2022 Habitat & Location: Amaryllis plants are popularly kept as indoor holiday plants or \"forced\" to bloom indoors during the winter56. They are frequently found in homes as gifts or decorative potted plants78."
+    "family": "Liliaceae",
+    "description": "2. Brief Description\n\u2022 Appearance: The Amaryllis grows from a large bulb that typically extends partially above the ground4. It produces striking blooms that most commonly appear in shades of red, pink, and white4.\n\u2022 Common Names: It is also known as the Aztec lily, orchid lily, and naked lily2.\n\u2022 Habitat & Location: Amaryllis plants are popularly kept as indoor holiday plants or \"forced\" to bloom indoors during the winter56. They are frequently found in homes as gifts or decorative potted plants"
   },
   "basics": {
-    "family": "Botanical Family While the sources do not explicitly name the botanical family (Amaryllidaceae) for Hippeastrum, they clearly classify the Amaryllis as an \"imposter lily\" rather than a \"true lily\" (which would belong to the Lilium or Hemerocallis genera)1.... It is distinct from the Liliaceae family, as it does not cause the acute renal failure associated with true lilies",
-    "description": "2. Brief Description\n\u2022 Appearance: The Amaryllis grows from a large bulb that typically extends partially above the ground4. It produces striking blooms that most commonly appear in shades of red, pink, and white4.\n\u2022 Common Names: It is also known as the Aztec lily, orchid lily, and naked lily2.\n\u2022 Habitat & Location: Amaryllis plants are popularly kept as indoor holiday plants or \"forced\" to bloom indoors during the winter56. They are frequently found in homes as gifts or decorative potted plants78."
+    "family": "Liliaceae",
+    "description": "2. Brief Description\n\u2022 Appearance: The Amaryllis grows from a large bulb that typically extends partially above the ground4. It produces striking blooms that most commonly appear in shades of red, pink, and white4.\n\u2022 Common Names: It is also known as the Aztec lily, orchid lily, and naked lily2.\n\u2022 Habitat & Location: Amaryllis plants are popularly kept as indoor holiday plants or \"forced\" to bloom indoors during the winter56. They are frequently found in homes as gifts or decorative potted plants"
   },
   "toxic_parts": [
+    "Flower",
     "Leaf",
     "Stem",
-    "Bulb",
-    "Flower"
+    "Bulb"
   ],
   "toxins": [
     {
-      "name": "Phenanthridine alkaloids, with Lycorine being the specific alkaloid frequently identified1....",
-      "chemical_formula": "The provided sources do not list the chemical formula for these compounds.",
+      "name": "Phenanthridine alkaloids, with Lycorine being the specific alkaloid frequently identified",
+      "chemical_formula": null,
       "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal: These alkaloids have strong emetic properties, meaning they trigger vomiting and gastrointestinal upset (salivation, abdominal pain, diarrhea)45.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic: Upon significant ingestion, the toxins affect the cardiovascular and neurological systems. They can cause hypotension (low blood pressure), respiratory depression, and central nervous system excitation, resulting in tremors and seizures2....\n4. Notes on",
-      "concentration_notes": "\u25e6 These alkaloids are present in all parts of the plant, including the stalks, flowers, and leaves25.\n\u00a0\u00a0\u00a0\u00a0\u25e6 The toxins are most concentrated in the bulbs, making the bulb the most dangerous part of the plant to ingest2....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Ingesting the bulb is significantly more likely to lead to severe systemic signs (low blood pressure, tremors) compared to ingesting the leaves, which typically causes milder gastrointestinal upset35."
+      "concentration_notes": "\u25e6 These alkaloids are present in all parts of the plant, including the stalks, flowers, and leaves25.\n\u00a0\u00a0\u00a0\u00a0\u25e6 The toxins are most concentrated in the bulbs, making the bulb the most dangerous part of the plant to ingest2....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Ingesting the bulb is significantly more likely to lead to severe systemic signs (low blood pressure, tremors) compared to ingesting the leaves, which typically causes milder gastrointestinal upset"
     }
   ],
   "symptoms": [
     {
       "name": "Vomiting",
-      "body_system": "Gastrointestinal.",
-      "severity": "Mild to Moderate (can lead to dehydration).",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
       "onset": "Rapid/Soon after ingestion.",
-      "notes": "This is the most common sign of toxicity and is triggered by lycorine, an alkaloid with strong emetic (vomiting-inducing) properties found throughout the plant.\n\u2022 Sources:1,2,3,4,5,6,7"
+      "notes": "This is the most common sign of toxicity and is triggered by lycorine, an alkaloid with strong emetic (vomiting-inducing) properties found throughout the plant."
     },
     {
       "name": "Diarrhea",
-      "body_system": "Gastrointestinal.",
-      "severity": "Mild to Moderate.",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
       "onset": "Following gastrointestinal irritation.",
-      "notes": "Often accompanies vomiting as the body attempts to expel the toxins.\n\u2022 Sources:4,5,6,7"
+      "notes": "Often accompanies vomiting as the body attempts to expel the toxins."
     },
     {
       "name": "Excessive Drooling (Hypersalivation)",
-      "body_system": "Gastrointestinal.",
-      "severity": "Mild.",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
       "onset": "Immediate to rapid (upon chewing or ingestion).",
-      "notes": "This reaction is caused by irritation to the mouth and digestive tract.\n\u2022 Sources:6,8"
+      "notes": "This reaction is caused by irritation to the mouth and digestive tract."
     },
     {
       "name": "Abdominal Pain",
-      "body_system": "Gastrointestinal.",
-      "severity": "Moderate.",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
       "onset": "Following ingestion.",
-      "notes": "Cats may show signs of discomfort such as hunched posture or sensitivity to touch around the stomach area.\n\u2022 Sources:3,5,8"
+      "notes": "Cats may show signs of discomfort such as hunched posture or sensitivity to touch around the stomach area."
     },
     {
       "name": "Tremors",
-      "body_system": "Neurological.",
-      "severity": "Severe.",
+      "body_system": "Neurological",
+      "severity": "severe",
       "onset": "After absorption of toxins (delayed compared to GI signs).",
-      "notes": "This symptom indicates a large ingestion, particularly of the bulb, causing central nervous system excitation.\n\u2022 Sources:2,3,4,6,7"
+      "notes": "This symptom indicates a large ingestion, particularly of the bulb, causing central nervous system excitation."
     },
     {
       "name": "Seizures (Convulsions)",
-      "body_system": "Neurological.",
-      "severity": "Severe / Potentially Fatal.",
+      "body_system": "Neurological",
+      "severity": "fatal",
       "onset": "After absorption of toxins.",
-      "notes": "Like tremors, seizures are associated with high doses of phenanthridine alkaloids found in the bulbs.\n\u2022 Sources:2,3,4,6"
+      "notes": "Like tremors, seizures are associated with high doses of phenanthridine alkaloids found in the bulbs."
     },
     {
       "name": "Hypotension (Low Blood Pressure)",
-      "body_system": "Cardiovascular.",
-      "severity": "Severe.",
+      "body_system": "Cardiac",
+      "severity": "severe",
       "onset": "Variable (systemic effect).",
-      "notes": "This is a critical sign of severe toxicity that contributes to weakness and collapse.\n\u2022 Sources:2,3,4,6"
+      "notes": "This is a critical sign of severe toxicity that contributes to weakness and collapse."
     },
     {
       "name": "Cardiac Arrhythmias",
-      "body_system": "Cardiac.",
-      "severity": "Severe.",
+      "body_system": "Cardiac",
+      "severity": "severe",
       "onset": "Variable.",
-      "notes": "Irregular heartbeats can occur in severe cases of poisoning.\n\u2022 Sources:6"
+      "notes": "Irregular heartbeats can occur in severe cases of poisoning."
     },
     {
       "name": "Respiratory Depression",
-      "body_system": "Respiratory.",
-      "severity": "Severe.",
+      "body_system": "Respiratory",
+      "severity": "severe",
       "onset": "Variable.",
-      "notes": "Slowed or shallow breathing may occur as a systemic reaction to the alkaloids.\n\u2022 Sources:9,6"
+      "notes": "Slowed or shallow breathing may occur as a systemic reaction to the alkaloids."
     }
   ],
   "treatments": [
     {
       "name": "Fluid Therapy (Rehydration)",
       "description": "The administration of intravenous (IV) or subcutaneous fluids to the cat.",
-      "notes": "This is critical for treating dehydration caused by severe vomiting and diarrhea. Fluid therapy also helps manage hypotension (low blood pressure) and shock, which are potential severe symptoms of Amaryllis bulb ingestion.\n\u2022 Sources:1,2,3",
+      "notes": "This is critical for treating dehydration caused by severe vomiting and diarrhea. Fluid therapy also helps manage hypotension (low blood pressure) and shock, which are potential severe symptoms of Amaryllis bulb ingestion.",
       "priority": 1
     },
     {
       "name": "Antiemetics",
       "description": "The administration of medication specifically designed to stop vomiting.",
-      "notes": "Since Amaryllis contains lycorine, a potent emetic alkaloid, persistent vomiting is a primary clinical sign. Antiemetics help control this symptom to prevent further fluid loss and esophageal irritation.\n\u2022 Sources:2,3",
+      "notes": "Since Amaryllis contains lycorine, a potent emetic alkaloid, persistent vomiting is a primary clinical sign. Antiemetics help control this symptom to prevent further fluid loss and esophageal irritation.",
       "priority": 2
     },
     {
       "name": "Electrolyte Replacement",
       "description": "Supplementing essential minerals (such as potassium, sodium, and chloride) through fluid therapy or oral supplements.",
-      "notes": "This treatment addresses electrolyte imbalances resulting from profuse vomiting and diarrhea. It is particularly important in cases of \"large-dose exposure\" where systemic effects are more pronounced.\n\u2022 Sources:2,3",
+      "notes": "This treatment addresses electrolyte imbalances resulting from profuse vomiting and diarrhea. It is particularly important in cases of \"large-dose exposure\" where systemic effects are more pronounced.",
       "priority": 3
     },
     {
       "name": "Decontamination (Induced Vomiting)",
       "description": "The administration of medication (such as xylazine or apomorphine) by a veterinarian to trigger vomiting and expel remaining plant material from the stomach.",
-      "notes": "This is a general treatment option for poisoning but is situation-dependent. It is typically performed only if the ingestion was recent and the cat is not already vomiting. Since Amaryllis is a strong emetic itself, many cats may have already expelled the stomach contents before arrival.\n\u2022 Sources:1",
+      "notes": "This is a general treatment option for poisoning but is situation-dependent. It is typically performed only if the ingestion was recent and the cat is not already vomiting. Since Amaryllis is a strong emetic itself, many cats may have already expelled the stomach contents before arrival.",
       "priority": 4
     }
   ]

@@ -1,0 +1,109 @@
+{
+  "plant": {
+    "common_name": "Cannabis / Marijuana",
+    "scientific_name": "Cannabis sativa",
+    "family": "Cannabaceae",
+    "description": "Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: It is an annual herb that can grow to be 1.8 meters (approx. 6 feet) or taller. The leaves are palmately compound (shaped like a hand), typically consisting of 5\u20137 linear leaflets with coarsely toothed (dentate) edges. The plant produces small green flowers; male flowers appear at the tip, while female flowers grow along the entire length of the branch1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: While the plant has historical roots as a source for rope, textiles, and paper, it is now primarily cultivated for medicinal or recreational purposes2. In many states, it is legally cultivated under specific licenses1. In a domestic setting, it is most commonly found as dried plant material (\"marijuana\"), edibles (baked goods, candies), or oils2.\u2022 Houseplants and Ornamentals Toxic to Animals - Merck Veterinary Manual1\n\u2022 Cannabis (Marijuana) Intoxication in Cats and Dogs - VCA Animal Hospitals"
+  },
+  "basics": {
+    "family": "Cannabaceae",
+    "description": "Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: It is an annual herb that can grow to be 1.8 meters (approx. 6 feet) or taller. The leaves are palmately compound (shaped like a hand), typically consisting of 5\u20137 linear leaflets with coarsely toothed (dentate) edges. The plant produces small green flowers; male flowers appear at the tip, while female flowers grow along the entire length of the branch1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: While the plant has historical roots as a source for rope, textiles, and paper, it is now primarily cultivated for medicinal or recreational purposes2. In many states, it is legally cultivated under specific licenses1. In a domestic setting, it is most commonly found as dried plant material (\"marijuana\"), edibles (baked goods, candies), or oils2.\u2022 Houseplants and Ornamentals Toxic to Animals - Merck Veterinary Manual1\n\u2022 Cannabis (Marijuana) Intoxication in Cats and Dogs - VCA Animal Hospitals"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Stem",
+    "Flower"
+  ],
+  "toxins": [
+    {
+      "name": "Tetrahydrocannabinol (specifically delta-9-tetrahydrocannabinol, commonly abbreviated as THC)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Neurotransmitter Alteration: Upon ingestion or inhalation, THC enters the body and interacts with the brain's chemical messengers. It alters the activity of neurotransmitters such as norepinephrine, dopamine, serotonin, and acetylcholine1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Receptor Binding: THC binds to specific cannabinoid receptors in the brain. While sources note that dogs have a high density of these receptors (making them very sensitive), cats are also susceptible to these neurochemical changes, which lead to the clinical signs of intoxication12.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Lipid Solubility: THC is highly lipid-soluble (dissolves in fats), meaning it is easily stored in the fatty tissues of the liver, brain, and kidneys, which can prolong its elimination from the body3.\n4. Notes on",
+      "concentration_notes": "\u25e6 Plant Parts: THC is found in the leaves, stems, and flower buds, but the concentration varies. The female flowers typically contain the highest concentrations, while leaves and stems contain less4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Forms: \"Medical-grade\" cannabis products (such as edibles, butter, or waxes) are significantly more potent than the dried plant material. While the lethal dose for pets is generally considered high (noted as >3 g/kg for dogs), fatalities have been reported specifically after the ingestion of these highly concentrated medical-grade products45.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sensitivity: There is no official \"safe\" level of exposure; a small amount can affect one pet much more severely than another due to differences in age, health, and body size3.\u2022 Cannabis (Marijuana) Intoxication in Cats and Dogs - VCA Animal Hospitals1...\n\u2022 Houseplants and Ornamentals Toxic to Animals - Merck Veterinary Manual"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Ataxia (wobbly, uncoordinated movements) and Disorientation",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Signs manifest after the drug has been absorbed",
+      "notes": "The cat may appear \"drunk,\" wobbly, or unable to walk in a straight line. They may also be very vocal44.\n2. Altered Mental State (Sedation or Hyperactivity)"
+    },
+    {
+      "name": "Prolonged Depression (Sleepiness/Lethargy) or Hyperexcitability",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "After absorption",
+      "notes": "Reactions can range from extreme lethargy and sleepiness to hyperactivity and agitation44.\n3. Dilated Pupils (Mydriasis)"
+    },
+    {
+      "name": "Mydriasis (Dilated Pupils)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "After absorption",
+      "notes": "This gives the cat a \"wild-eyed\" appearance44.\n4. Urinary Incontinence"
+    },
+    {
+      "name": "Urinary Incontinence (Urine Leakage)",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "onset": "After absorption",
+      "notes": "The pet may dribble urine uncontrollably, a distinctive sign of cannabis intoxication4.\n5. Vomiting and Drooling"
+    },
+    {
+      "name": "Vomiting and Hypersalivation (Excessive Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "After absorption",
+      "notes": "While vomiting is a symptom, cannabis also has an anti-emetic (anti-vomiting) effect, which can make it difficult for veterinarians to induce vomiting as a treatment33.\n6. Heart Rate Abnormalities"
+    },
+    {
+      "name": "Bradycardia (Slow Heart Rate) or Tachycardia (Fast Heart Rate)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "After absorption",
+      "notes": "Altered blood pressure is also observed alongside heart rate changes55.\n7. Abnormal Body Temperature"
+    },
+    {
+      "name": "Hypothermia (Low Body Temperature) or Hyperthermia (High Body Temperature)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "After absorption",
+      "notes": "Low body temperature is explicitly noted as a sign55.\n8. Severe Neurological Signs (Tremors, Seizures, Coma)"
+    },
+    {
+      "name": "Tremors, Seizures, and Coma",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "After absorption",
+      "notes": "While death is rare (\"seldom fatal\"), it can occur if vital central nervous system regulatory centers are severely depressed. Fatalities are more commonly associated with the ingestion of highly concentrated \"medical-grade\" products (e.g., edibles, waxes) rather than plant material"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Gastrointestinal Decontamination (Emesis or Gastric Lavage)",
+      "description": "If the ingestion was recent, the veterinarian may attempt to induce vomiting (emesis) to remove the toxin from the stomach. In life-threatening cases, they may perform a gastric lavage (\"pumping the stomach\") to wash out the contents",
+      "notes": "This is the \"first line of defense,\" but it is time-sensitive. It is most effective if performed shortly after ingestion2. Two factors complicate this: clinical signs often manifest after the drug is already absorbed, and cannabis has a natural anti-emetic (anti-vomiting) effect, which can make it difficult for the vet to successfully induce vomiting",
+      "priority": 1
+    },
+    {
+      "name": "Administration of Activated Charcoal",
+      "description": "The administration of activated charcoal orally to bind to the toxin in the gastrointestinal tract, neutralizing it and preventing further absorption into the bloodstream",
+      "notes": "Charcoal may need to be administered every six to eight hours2. Oral tannic acid and saline cathartics (laxatives) are also recommended alongside charcoal to speed up the elimination of the toxin3. Enemas may also be used to reduce absorption from the intestinal tract",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "The administration of fluids directly into the vein to maintain hydration and support physiological function",
+      "notes": "This is a critical part of the \"second line of defense\" (supportive care)4. Because intoxicated cats may be extremely lethargic with no desire to drink, fluids are necessary to prevent dehydration, support blood pressure, and maintain organ function while the body metabolizes the drug",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Medication and Nursing Care",
+      "description": "The use of specific medications to manage symptoms such as heart rate abnormalities, respiratory distress, agitation, or nausea, combined with confinement in a safe environment",
+      "notes": "\u25e6 Medications: Respiratory or cardiac stimulants may be essential if the animal is severely depressed3. Anti-anxiety medications can minimize agitation, and gastrointestinal treatments can help with vomiting4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Environment: Cats should be confined in a safe, comfortable space to prevent self-trauma caused by disorientation and incoordination4. Noise should be kept to a minimum to decrease sensory stimulation4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Thermoregulation: Veterinary staff will monitor and treat irregular body temperatures (hypothermia or hyperthermia)",
+      "priority": 4
+    }
+  ]
+}

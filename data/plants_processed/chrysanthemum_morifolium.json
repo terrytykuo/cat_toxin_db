@@ -1,0 +1,108 @@
+{
+  "plant": {
+    "common_name": "Chrysanthemum / Mums",
+    "scientific_name": "Chrysanthemum morifolium",
+    "family": "Asteraceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Chrysanthemums are described as vibrant and bright flowering plants that come in a large variety of types and colors2....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Seasonality: They are specifically noted as fall flowers4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Location: They are commonly found in gardens and homes4.... One source mentions they are a flower people often see on neighborhood walks7.\u2022 10 Garden Plants That Are Toxic to Pets | UC Davis1\n\u2022 10 common plants that are toxic to cats | Petbarn Articles2\n\u2022 Avoid This CAT-astrophe! 10 Spring Flowers That Are Toxic to Cats7\n\u2022 Top 10 Toxic Household Plants For Pets4\n\u2022 Are Begonias Poisonous to Cats? Vet-Verified Facts, Risks & Safety Guide - Catster"
+  },
+  "basics": {
+    "family": "Asteraceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Chrysanthemums are described as vibrant and bright flowering plants that come in a large variety of types and colors2....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Seasonality: They are specifically noted as fall flowers4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Location: They are commonly found in gardens and homes4.... One source mentions they are a flower people often see on neighborhood walks7.\u2022 10 Garden Plants That Are Toxic to Pets | UC Davis1\n\u2022 10 common plants that are toxic to cats | Petbarn Articles2\n\u2022 Avoid This CAT-astrophe! 10 Spring Flowers That Are Toxic to Cats7\n\u2022 Top 10 Toxic Household Plants For Pets4\n\u2022 Are Begonias Poisonous to Cats? Vet-Verified Facts, Risks & Safety Guide - Catster"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant",
+    "Stem",
+    "Flower"
+  ],
+  "toxins": [
+    {
+      "name": "Pyrethrins (These are natural insecticides derived from the chrysanthemum flower)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Nervous System: Pyrethrins affect the nervous system, leading to signs such as incoordination (ataxia) and weakness.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Irritation: They cause direct irritation to the gastrointestinal tract, resulting in vomiting and diarrhea.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sensitivity: Sources note that while pyrethrins are used in some dog flea and tick medications, cats are significantly more sensitive to them than dogs, making ingestion dangerous.\n4. Notes on",
+      "concentration_notes": "\u25e6 Toxicity Level: The plant is generally considered mildly to moderately toxic.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Comparative Potency: While the natural concentration in the plant causes illness, it is the same class of compound that can be highly toxic in concentrated pesticide forms."
+    },
+    {
+      "name": "Lactones (specifically identified as sesquiterpene lactones in some contexts, or simply lactones)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Irritation: These compounds act as irritants to the gastrointestinal tract and can also affect the nervous system.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Clinical Effect: Ingestion leads to vomiting, diarrhea, and increased salivation (hypersalivation).\n4. Notes on",
+      "concentration_notes": "\u25e6 General: These contribute to the overall mild-to-moderate toxicity profile of the plant."
+    },
+    {
+      "name": "Sesquiterpenes",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Irritation: These compounds work in conjunction with lactones and pyrethrins to cause physical irritation to the mouth and digestive system.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Dermatitis: Contact with these compounds can also cause skin irritation (dermatitis) in the mouth or on the skin.\n4. Notes on",
+      "concentration_notes": "\u25e6 Potency: These are listed as one of the primary toxic components alongside pyrethrins."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources,",
+      "notes": "This is one of the most common signs of ingestion. The plant contains lactones and other irritants that inflame the stomach lining.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified.",
+      "notes": "Often accompanies vomiting as a result of the plant's irritating properties passing through the intestinal tract.Incoordination (Ataxia)"
+    },
+    {
+      "name": "Incoordination (wobbly gait or stumbling)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Not explicitly specified.",
+      "notes": "This symptom is linked to pyrethrins, a natural insecticide found in the plant. While these compounds are used in some flea medications, cats are particularly sensitive to them, and ingestion can affect the nervous system causing unsteadiness.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Increased salivation (Ptyalism)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified.",
+      "notes": "This can be a direct response to the bitter taste of the plant or a sign of nausea and oral irritation caused by the toxic compounds.Loss of Appetite (Anorexia)"
+    },
+    {
+      "name": "Inappetence (Refusal to eat)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified.",
+      "notes": "The cat may refuse food due to nausea or abdominal discomfort following ingestion.Dermatitis"
+    },
+    {
+      "name": "Dermatitis (Skin irritation)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Not explicitly specified.",
+      "notes": "While less commonly highlighted than GI symptoms for ingestion, contact with the plant can sometimes cause skin irritation or rashes due to its chemical properties.(Noted generally for \"Pom flowers,\" a category including chrysanthemums)."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) and Activated Charcoal",
+      "description": "If the ingestion was recent (typically within 1\u20132 hours), the veterinarian may administer medication (such as xylazine or apomorphine) to induce vomiting and remove the plant material from the stomach. This is often followed by the administration of activated charcoal, which binds to the remaining toxins in the gut to prevent absorption into the bloodstream.",
+      "notes": "Do not attempt to induce vomiting at home (e.g., with hydrogen peroxide) unless explicitly instructed by a professional, as it can cause severe irritation or aspiration. Decontamination is most effective when performed shortly after ingestion.Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
+      "description": "The administration of electrolyte-balanced fluids to correct dehydration and support kidney function.",
+      "notes": "This is critical if the cat has been experiencing profuse vomiting or diarrhea, which are the most common symptoms of Chrysanthemum poisoning. Fluids help flush toxins from the body and maintain blood pressure.Symptomatic Pharmacological Support",
+      "priority": 2
+    },
+    {
+      "name": "Anti-emetics and Gastroprotectants",
+      "description": "The veterinarian may administer anti-emetics (to stop vomiting) and gastroprotectants (to coat and soothe the stomach lining). In cases of incoordination or neurological distress, muscle relaxants or other medications may be used.",
+      "notes": "Because Chrysanthemums contain irritants that inflame the stomach and intestines, these medications keep the cat comfortable and prevent further fluid loss while the irritation heals.Dermal Decontamination",
+      "priority": 3
+    },
+    {
+      "name": "Bathing / Washing",
+      "description": "Washing the cat with a mild liquid dish soap (like Dawn) and lukewarm water to remove plant sap, pollen, or oils from the fur and skin.",
+      "notes": "Chrysanthemums can cause dermatitis (skin irritation) upon contact. Furthermore, cats are meticulous groomers; if pyrethrin-containing oils or sap remain on the fur, the cat may re-ingest the toxins while grooming, prolonging the symptoms.",
+      "priority": 4
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+    "plant": {
+        "common_name": "Desert Rose",
+        "scientific_name": "Adenium obesum",
+        "family": "Apocynaceae",
+        "description": "Succulent shrub with a swollen trunk (caudex) and vibrant trumpet-shaped flowers."
+    },
+    "toxic_parts": [
+        "Sap",
+        "Leaf",
+        "Flower",
+        "Stem",
+        "Entire Plant"
+    ],
+    "toxins": [
+        {
+            "name": "Cardiac Glycosides",
+            "chemical_formula": null,
+            "description": "Cardioactive steroids that inhibit the Na+/K+ ATPase pump, leading to increased intracellular calcium and severe cardiac arrhythmias.",
+            "concentration_notes": "Present in all parts including the toxic sap."
+        }
+    ],
+    "symptoms": [
+        {
+            "name": "Vomiting",
+            "body_system": "Gastrointestinal",
+            "severity": "moderate",
+            "onset": "Rapid",
+            "notes": "Early sign within 2 hours."
+        },
+        {
+            "name": "Cardiac Arrhythmias",
+            "body_system": "Cardiac",
+            "severity": "fatal",
+            "onset": "Delayed",
+            "notes": "Bradycardia, tachycardia, heart block; can result in sudden death."
+        },
+        {
+            "name": "Hyperkalemia",
+            "body_system": "Metabolic",
+            "severity": "severe",
+            "onset": "Delayed",
+            "notes": "High potassium levels due to pump inhibition."
+        }
+    ],
+    "treatments": [
+        {
+            "name": "Decontamination",
+            "description": "Induce vomiting and activated charcoal (multiple doses).",
+            "priority": 1,
+            "notes": "For asymptomatic patients; avoid if cardiac signs present."
+        },
+        {
+            "name": "Digoxin-specific Fab Fragments",
+            "description": "Specific antidote to neutralize cardiac glycosides.",
+            "priority": 2,
+            "notes": "Use if available for severe toxicity."
+        },
+        {
+            "name": "Cardiovascular Support",
+            "description": "Anti-arrhythmics (atropine, lidocaine) and monitoring.",
+            "priority": 3,
+            "notes": "Manage heart rate and rhythm."
+        },
+        {
+            "name": "Fluid Therapy",
+            "description": "IV fluids and electrolyte correction.",
+            "priority": 4,
+            "notes": "Address hyperkalemia."
+        }
+    ],
+    "sources": [
+        {
+            "title": "Cat Toxin Safety Guide (NotebookLM)",
+            "url": "https://notebooklm.google.com/notebook/9ef4df26-178b-446d-8e9d-e57cbe878a0d",
+            "accessed_at": "2026-02-17"
+        }
+    ]
+}

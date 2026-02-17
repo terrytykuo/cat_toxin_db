@@ -1,0 +1,80 @@
+{
+  "plant": {
+    "common_name": "Century Plant",
+    "scientific_name": "Agave americana",
+    "family": "Agavaceae",
+    "description": "Brief Description: The plant is characterized by clumps of thick, long, strap-shaped leaves that are blue-green in color. These leaves feature hook spines along the margins and pointed spines at the tips. When blooming, it produces a central flower stalk with clusters of small tubular flowers2.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "basics": {
+    "family": "Agavaceae",
+    "description": "Brief Description: The plant is characterized by clumps of thick, long, strap-shaped leaves that are blue-green in color. These leaves feature hook spines along the margins and pointed spines at the tips. When blooming, it produces a central flower stalk with clusters of small tubular flowers2.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "toxic_parts": [
+    "Seed",
+    "Leaf",
+    "Sap"
+  ],
+  "toxins": [
+    {
+      "name": "Calcium oxalate crystals",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: Upon ingestion or contact, these crystals cause dermal (skin) and oral mucosal irritation as well as edema (swelling).\n4. Notes on",
+      "concentration_notes": "These crystals are specifically concentrated in the sap of the plant."
+    },
+    {
+      "name": "Saponins",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: Saponins are irritants that contribute to the plant's ability to cause irritation and swelling upon ingestion.\n4. Notes on",
+      "concentration_notes": "These compounds are found in the leaves and seeds."
+    },
+    {
+      "name": "Acrid volatile oils",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: These oils act as irritants to the skin and mucous membranes.\n4. Notes on",
+      "concentration_notes": "These oils are located in the leaves and seeds.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Oral Mucosal Irritation (pain and irritation of the mouth)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (Calcium oxalate crystals typically cause immediate pain upon chewing).",
+      "notes": "The sap contains calcium oxalate crystals which cause physical irritation to the lining of the mouth and throat upon ingestion.Edema (Swelling)"
+    },
+    {
+      "name": "Edema (Swelling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid following contact or ingestion.",
+      "notes": "Swelling can occur in the mouth or on the skin where the plant sap has come into contact with the animal.Dermal Irritation"
+    },
+    {
+      "name": "Dermal Irritation (Skin irritation/Dermatitis)",
+      "body_system": "Dermal",
+      "severity": "moderate",
+      "onset": "Upon contact with the sap.",
+      "notes": "The sap of the Century Plant is an irritant. Contact with the skin can cause redness, irritation, and swelling.Note on Gastrointestinal Upset: While the sources specifically highlight irritation and edema for Agave americana, they also note the presence of saponins in the leaves and seeds1,2. In other plants listed in the same veterinary database (such as Sansevieria or Cyclamen), saponins are associated with vomiting and diarrhea3,4. However, the specific entry for Century Plant emphasizes mucosal irritation and edema."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Airway Assessment and Stabilization",
+      "description": "The veterinarian will immediately assess the cat for signs of laryngeal edema (swelling of the throat and upper airway). If the swelling is severe enough to obstruct breathing, they may need to secure an airway (intubation) or provide oxygen support.",
+      "notes": "The calcium oxalate crystals found in the sap can cause significant edema (swelling) of the oral mucosa and throat. While rare, if the swelling restricts airflow, this becomes a life-threatening emergency requiring immediate intervention before other treatments.",
+      "priority": 1
+    },
+    {
+      "name": "Decontamination (Oral and Dermal)",
+      "description": "\u25e6 Oral: Thoroughly rinsing the cat's mouth with cool water to flush out the needle-like calcium oxalate crystals and remaining plant material.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Dermal: If sap is on the fur or skin, the cat will be bathed with mild liquid dish soap and warm water to remove the irritant oils and sap.",
+      "notes": "Agave sap is specifically noted to cause dermal and oral mucosal irritation. Removing the source is critical to stop the pain and prevent the cat from ingesting more toxins while grooming.",
+      "priority": 2
+    },
+    {
+      "name": "Symptomatic and Supportive Care (Pain Management & Fluids)",
+      "description": "\u25e6 Medications: Administration of analgesics (pain relievers) to treat oral pain and anti-inflammatory medications to reduce swelling. Gastroprotectants or antiemetics may be given if vomiting occurs due to the saponins.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Demulcents: Feeding small amounts of calcium-containing products (like milk or yogurt) may be suggested to bind the oxalate crystals and soothe the mouth (if the cat is not lactose intolerant).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Fluid Therapy: Subcutaneous or intravenous fluids may be administered if the cat is dehydrated from inability to drink (due to mouth pain) or fluid loss.",
+      "notes": "Veterinary literature classifies the treatment for Agave americana specifically as \"Symptomatic.\" The goal is to manage the immediate pain and irritation until the reaction subsides. The prognosis is generally good to excellent once the irritation is managed.",
+      "priority": 3
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "plant": {
+    "common_name": "Bittersweet",
+    "scientific_name": "Celastrus scandens",
+    "family": "Celastraceae",
+    "description": "A woody vine known as American Bittersweet, producing orange-yellow berries. All parts are toxic."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Seed",
+    "Bulb"
+  ],
+  "toxins": [
+    {
+      "name": "Solanine (specifically classified as a glycoalkaloid). Related alkaloids such as solasodine or tomatine may also be present depending on the specific",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Acetylcholinesterase Inhibition: Solanine inhibits the enzyme acetylcholinesterase, which breaks down the neurotransmitter acetylcholine. This leads to an accumulation of acetylcholine and overstimulation of the parasympathetic nervous system, causing neurological symptoms like tremors, ataxia (loss of coordination), and seizures.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cytotoxicity: The compound interacts with cell membranes (phospholipids), increasing their permeability and causing cell destruction (cytolysis). This is particularly damaging to the intestinal lining, leading to severe gastrointestinal irritation, inflammation, and hemorrhage.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mitochondrial Impairment: It disrupts cellular energy balance by inhibiting the respiratory chain.",
+      "concentration_notes": "\u25e6 Potency: The sources describe Nightshade plants, including bittersweet, as \"extremely toxic\" to cats."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, and Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "2\u201324 hours (general timeframe for Nightshade/solanine toxicity).",
+      "notes": "These are often the first signs of poisoning. The plant contains solanine, which is a severe irritant to the gastrointestinal tract and mucous membranes.Neurological Depression"
+    },
+    {
+      "name": "Drowsiness, Depression, Confusion, and Weakness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "2\u201324 hours (typically follows or accompanies GI signs).",
+      "notes": "The toxins affect the central nervous system, leading to significant lethargy and behavioral changes. In severe cases, this can progress to paralysis or coma.Ocular Abnormalities"
+    },
+    {
+      "name": "Dilated Pupils (Mydriasis)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "2\u201324 hours.",
+      "notes": "Dilated pupils are a hallmark neurological sign of toxicity from plants in the Nightshade family.Bradycardia"
+    },
+    {
+      "name": "Slow Heart Rate (Bradycardia)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "12\u201324 hours (or as toxicity progresses).",
+      "notes": "The toxins can disrupt heart rhythm, leading to a dangerously slow heartbeat, which contributes to the classification of this plant as \"extremely toxic.\""
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) or Gastric Lavage",
+      "description": "If the ingestion was recent (typically within 1\u20132 hours) and the cat is not showing severe symptoms, the veterinarian may induce vomiting using medication (such as xylazine for cats) to remove the plant material from the stomach. Alternatively, gastric lavage (stomach pumping) may be performed under anesthesia to wash out the stomach contents.",
+      "notes": "This is the primary defense to prevent further toxin absorption. It is only performed if the ingestion is recent and the cat is neurologically stable. Self-medication or inducing vomiting at home is not recommended; immediate veterinary intervention is required.Toxin Adsorption",
+      "priority": 1
+    },
+    {
+      "name": "Activated Charcoal Administration",
+      "description": "The administration of medical-grade activated charcoal (1\u20134 g/kg body weight) into the digestive tract. This substance binds to the unabsorbed solanine toxins in the gut, preventing them from entering the bloodstream.",
+      "notes": "In severe poisoning cases, administration may need to be repeated multiple times at 4 to 6-hour intervals because solanine can undergo \"enterohepatic recirculation\" (reabsorption by the body).Fluid Therapy",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "The administration of crystalloid solutions directly into the vein to rehydrate the cat and maintain electrolyte balance.",
+      "notes": "This step is essential for two reasons: 1) To compensate for dehydration caused by severe vomiting and diarrhea. 2) To stimulate diuresis (urination), which promotes the excretion of toxins and protects the kidneys, especially if hemolysis (breakdown of red blood cells) has occurred.Symptomatic Supportive Care (Medication)",
+      "priority": 3
+    },
+    {
+      "name": "Drug Therapy (Atropine, Anticonvulsants)",
+      "description": "Using specific medications to treat life-threatening symptoms. Atropine may be administered to counteract cholinergic symptoms like a dangerously slow heart rate (bradycardia). Benzodiazepines or barbiturates may be used to control seizures.",
+      "notes": "There is no specific antidote for solanine poisoning. Treatment focuses on managing severe neurological signs (tremors, seizures) and respiratory distress. Oxygen supplementation or mechanical ventilation may be required in critical cases.",
+      "priority": 4
+    }
+  ]
+}

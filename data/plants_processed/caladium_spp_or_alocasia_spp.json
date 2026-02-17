@@ -1,0 +1,95 @@
+{
+  "plant": {
+    "common_name": "Caladium / Elephant\u2019s Ear",
+    "scientific_name": "Caladium spp. or Alocasia spp.",
+    "family": "Araceae",
+    "description": "2. Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Caladium (Caladium spp.): These are perennial herbs that grow from rhizomes. They are characterized by simple, heart-shaped, thin leaves that are often variegated (multicolored) with highlighted veins. They produce a yellow-green spathe (flower structure). They are commonly found as houseplants or ornamental bedding plants2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Elephant\u2019s Ear (Alocasia spp.): These are erect perennials also growing from rhizomes. They feature single, long-stemmed, spear-headed leaves with prominent veins. Like Caladiums, they are popular houseplants known for their striking foliage"
+  },
+  "basics": {
+    "family": "Araceae",
+    "description": "2. Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Caladium (Caladium spp.): These are perennial herbs that grow from rhizomes. They are characterized by simple, heart-shaped, thin leaves that are often variegated (multicolored) with highlighted veins. They produce a yellow-green spathe (flower structure). They are commonly found as houseplants or ornamental bedding plants2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Elephant\u2019s Ear (Alocasia spp.): These are erect perennials also growing from rhizomes. They feature single, long-stemmed, spear-headed leaves with prominent veins. Like Caladiums, they are popular houseplants known for their striking foliage"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Entire Plant",
+    "Stem",
+    "Root"
+  ],
+  "toxins": [
+    {
+      "name": "Insoluble Calcium Oxalate (specifically in the form of needle-like crystals known as raphides)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mechanical Trauma: These microscopic, needle-sharp crystals are bundled in specialized plant cells called idioblasts. When a cat chews or bites into the plant tissue, the crystals are forcefully ejected, penetrating the soft, sensitive tissues of the mouth, tongue, and throat1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Immediate Irritation: This physical puncture causes immediate and intense pain, burning sensations, and inflammation (edema) of the mucous membranes2,1.\n4. Notes on",
+      "concentration_notes": "\u25e6 Concentration: These crystals are found in all parts of the plant3,2. However, in Caladium species, they are noted to be especially concentrated in the rhizomes (underground stems)2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: The reaction is immediate. While the pain often limits the amount a cat will ingest, severe swelling of the tongue and pharynx (throat) can occur, potentially leading to difficulty breathing (dyspnea)"
+    },
+    {
+      "name": "Proteinaceous Toxins (or unspecified \"unknowns\")",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 These compounds are believed to act in conjunction with the calcium oxalate crystals. When the crystals puncture the tissue, they may allow these protein-based toxins to enter the wounds, exacerbating the inflammatory response and pain5,2.\n4. Notes on",
+      "concentration_notes": "\u25e6 These toxins are present alongside the oxalates in the leaves, stems, and tubers/rhizomes5.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Their presence contributes to the intense local irritation and potential for systemic gastrointestinal distress, though systemic reactions are less common than the local oral injury"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning sensation and irritation of the mouth, tongue, and lips",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Immediate (upon chewing or biting).",
+      "notes": "The plant contains needle-like crystals (raphides) that embed in the tissue causing physical trauma and immediate pain. This pain often prevents the cat from consuming a lethal amount, but the local injury is significant.Excessive Drooling"
+    },
+    {
+      "name": "Hypersalivation (Ptyalism)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate / Acute.",
+      "notes": "This is a physiological response to the intense burning and irritation in the oral cavity.Swelling of the Mouth and Throat (Edema)"
+    },
+    {
+      "name": "Edema (Swelling) of the tongue, lips, and pharynx",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Immediate to Acute (rapid progression).",
+      "notes": "In severe cases, the swelling of the tongue and throat can be significant enough to cause difficulty swallowing (dysphagia) or block the airway.Difficulty Breathing"
+    },
+    {
+      "name": "Dyspnea (Respiratory Distress)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Acute (following swelling).",
+      "notes": "This typically results from the physical obstruction of the airway due to severe swelling of the pharynx and tongue.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (following ingestion).",
+      "notes": "While the primary damage is oral, swallowing plant material or the body's reaction to the toxin can trigger vomiting and diarrhea."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral Decontamination (Rinsing and Wiping)",
+      "description": "The immediate step is to physically remove the microscopic needle-like crystals (raphides) embedded in the oral tissues. This involves thoroughly flushing the cat\u2019s mouth with water and wiping the gums, tongue, and teeth with a wet cloth to clear away remaining plant material.",
+      "notes": "This is the most critical intervention to stop the immediate burning and pain. It helps prevent further trauma to the mucous membranes.",
+      "priority": 1
+    },
+    {
+      "name": "Administration of Demulcents (Calcium-containing Dairy)",
+      "description": "Feeding the cat small amounts of milk or yogurt (calcium-containing products).",
+      "notes": "Insoluble oxalates bind to the calcium in dairy products. This reaction helps precipitate the crystals, aiding in their clearance from the oral cavity and esophagus while soothing the irritated lining of the throat.",
+      "priority": 2
+    },
+    {
+      "name": "Airway Management (Oxygen & Intubation)",
+      "description": "In severe cases where the irritation causes significant swelling (edema) of the tongue or throat (larynx), the veterinarian may provide supplemental oxygen. If the airway is obstructed, they may need to secure it by intubating the cat (inserting a breathing tube).",
+      "notes": "While rare, laryngeal edema can lead to respiratory distress or dyspnea (difficulty breathing). This intervention is lifesaving if the cat is struggling to breathe due to swelling.",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Supportive Care (Analgesics & Fluids)",
+      "description": "The administration of analgesics (pain medication) to control oral discomfort and intravenous (IV) fluids to maintain hydration.",
+      "notes": "Pain relief is often necessary due to the intense burning sensation. Fluid therapy is used if the cat is dehydrated from hypersalivation (drooling) or is unable to drink water due to mouth pain. Gastroprotectants and anti-emetics may also be used if there is vomiting.",
+      "priority": 4
+    }
+  ]
+}

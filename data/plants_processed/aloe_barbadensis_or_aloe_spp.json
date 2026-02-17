@@ -2,98 +2,98 @@
   "plant": {
     "common_name": "Aloe Vera",
     "scientific_name": "Aloe barbadensis or Aloe spp.",
-    "family": "It belongs to the family Liliaceae1.",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Aloe Vera is a succulent herb that grows in clusters of narrow, fleshy leaves1. The leaves have spinous or coarsely serrated margins featuring hook spines1. When in bloom, the plant produces a single stalk topped with dense spikes of tubular yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is a common houseplant often kept for its medicinal properties (specifically the gel), though the plant itself is toxic to pets23."
+    "family": "Liliaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Aloe Vera is a succulent herb that grows in clusters of narrow, fleshy leaves1. The leaves have spinous or coarsely serrated margins featuring hook spines1. When in bloom, the plant produces a single stalk topped with dense spikes of tubular yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is a common houseplant often kept for its medicinal properties (specifically the gel), though the plant itself is toxic to pets"
   },
   "basics": {
-    "family": "It belongs to the family Liliaceae1.",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Aloe Vera is a succulent herb that grows in clusters of narrow, fleshy leaves1. The leaves have spinous or coarsely serrated margins featuring hook spines1. When in bloom, the plant produces a single stalk topped with dense spikes of tubular yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is a common houseplant often kept for its medicinal properties (specifically the gel), though the plant itself is toxic to pets23."
+    "family": "Liliaceae",
+    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Aloe Vera is a succulent herb that grows in clusters of narrow, fleshy leaves1. The leaves have spinous or coarsely serrated margins featuring hook spines1. When in bloom, the plant produces a single stalk topped with dense spikes of tubular yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is a common houseplant often kept for its medicinal properties (specifically the gel), though the plant itself is toxic to pets"
   },
   "toxic_parts": [
     "Leaf",
-    "Sap",
-    "Latex"
+    "Latex",
+    "Sap"
   ],
   "toxins": [
     {
-      "name": "Specific glycosides identified include Barbaloin, Aloin, and Emodin. The sources also list Chrysophanic acid as a related component1.",
-      "chemical_formula": "The sources do not provide the specific chemical formulas.",
-      "description": "in cats: These compounds act as potent purgatives (laxatives). Upon ingestion, they irritate the gastrointestinal tract, leading to increased mucus production and water secretion in the colon. This results in abrupt, severe diarrhea and vomiting. Additionally, ingestion has been linked to hypoglycemia (low blood sugar) in some cases1.",
-      "concentration_notes": "These toxins are concentrated in the latex (often described as a bitter yellow sap) located just under the skin of the leaves2. The concentration of these toxins is notably higher in younger leaves1.\n2. Saponins"
+      "name": "Specific glycosides identified include Barbaloin, Aloin, and Emodin. The sources also list Chrysophanic acid as a related component",
+      "chemical_formula": null,
+      "description": "in cats: These compounds act as potent purgatives (laxatives). Upon ingestion, they irritate the gastrointestinal tract, leading to increased mucus production and water secretion in the colon. This results in abrupt, severe diarrhea and vomiting. Additionally, ingestion has been linked to hypoglycemia (low blood sugar) in some cases",
+      "concentration_notes": "These toxins are concentrated in the latex (often described as a bitter yellow sap) located just under the skin of the leaves2. The concentration of these toxins is notably higher in younger leaves"
     },
     {
-      "name": "Saponins (a class of chemical compounds).",
-      "chemical_formula": "The sources do not provide a specific formula as this is a broad group of glycosides.",
-      "description": "in cats: Saponins have detergent-like properties that cause severe irritation to the gastrointestinal lining. Ingestion typically leads to vomiting, diarrhea, and lethargy23.",
-      "concentration_notes": "Like anthraquinones, saponins are found in the leaves and latex of the plant. While the clear inner gel is often used medicinally for humans, the toxic latex layer makes chewing on the plant dangerous for cats24.\nClinical Signs Summary: Signs of toxicity include vomiting, diarrhea (which may be red-tinged due to plant pigments), lethargy, anorexia, and potentially low blood sugar1...."
+      "name": "Saponins (a class of chemical compounds)",
+      "chemical_formula": null,
+      "description": "in cats: Saponins have detergent-like properties that cause severe irritation to the gastrointestinal lining. Ingestion typically leads to vomiting, diarrhea, and lethargy",
+      "concentration_notes": "Like anthraquinones, saponins are found in the leaves and latex of the plant. While the clear inner gel is often used medicinally for humans, the toxic latex layer makes chewing on the plant dangerous for cats24.\nClinical Signs Summary: Signs of toxicity include vomiting, diarrhea (which may be red-tinged due to plant pigments), lethargy, anorexia, and potentially low blood sugar"
     }
   ],
   "symptoms": [
     {
-      "name": "Vomiting.",
-      "body_system": "Gastrointestinal.",
-      "severity": "Mild to Moderate.",
-      "onset": "Not explicitly specified, though the reaction is described as \"abrupt\" regarding gastrointestinal upset.\n5. Additional",
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified,",
       "notes": "This is caused by saponins and anthraquinone glycosides found in the plant's latex (yellow sap), which act as purgatives and irritants to the digestive tract1....\n2. Diarrhea"
     },
     {
-      "name": "Diarrhea.",
-      "body_system": "Gastrointestinal.",
-      "severity": "Moderate to Severe (described as \"abrupt, severe diarrhea\").",
-      "onset": "Abrupt.\n5. Additional",
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Abrupt.",
       "notes": "The stool may appear red-tinged; this is often due to the plant's pigments passing through the system rather than actual blood, though it can look alarming. This symptom is driven by increased mucus and water secretion in the colon caused by glycosides12.\n3. Lethargy"
     },
     {
-      "name": "Lethargy (Depression).",
-      "body_system": "Neurological / Systemic.",
-      "severity": "Mild to Moderate.",
-      "onset": "Following the onset of gastrointestinal symptoms.\n5. Additional",
+      "name": "Lethargy (Depression)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Following the onset of gastrointestinal symptoms.",
       "notes": "This is a generalized systemic reaction to the toxins and the physical toll of gastrointestinal distress1....\n4. Hypoglycemia"
     },
     {
-      "name": "Hypoglycemia (Low Blood Sugar).",
-      "body_system": "Endocrine / Metabolic.",
-      "severity": "Potentially Severe (requires veterinary monitoring).",
-      "onset": "Not explicitly specified.\n5. Additional",
+      "name": "Hypoglycemia (Low Blood Sugar)",
+      "body_system": "Endocrine",
+      "severity": "severe",
+      "onset": "Not explicitly specified.",
       "notes": "While less common than GI signs, a drop in blood sugar has been documented in cases of Aloe barbadensis ingestion2.\n5. Anorexia"
     },
     {
-      "name": "Anorexia (Loss of appetite).",
-      "body_system": "Gastrointestinal.",
-      "severity": "Mild.",
-      "onset": "Variable.\n5. Additional",
-      "notes": "Cats may refuse food due to the nausea and abdominal discomfort associated with the plant's purgative effects56."
+      "name": "Anorexia (Loss of appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Variable.",
+      "notes": "Cats may refuse food due to the nausea and abdominal discomfort associated with the plant's purgative effects"
     }
   ],
   "treatments": [
     {
       "name": "Decontamination (Oral Cleansing)",
       "description": "This involves physically removing any remaining plant material from the cat's mouth and wiping or rinsing the oral cavity with water to remove the irritating latex/sap.",
-      "notes": "This is the immediate first step to prevent further ingestion of the toxins (anthraquinone glycosides and saponins). Owners are advised not to induce vomiting at home unless specifically instructed by a veterinarian, as this can cause further complications.\n\u2022 Sources:1,2,3",
+      "notes": "This is the immediate first step to prevent further ingestion of the toxins (anthraquinone glycosides and saponins). Owners are advised not to induce vomiting at home unless specifically instructed by a veterinarian, as this can cause further complications.",
       "priority": 1
     },
     {
       "name": "Fluid Therapy",
       "description": "The administration of fluids (intravenous or subcutaneous) to restore hydration and electrolyte balance.",
-      "notes": "This is critical because Aloe Vera ingestion can cause \"abrupt, severe diarrhea\" and vomiting, leading to rapid fluid loss and dehydration. The goal is to maintain systemic hydration while the toxins pass through the system.\n\u2022 Sources:4,1,2,5",
+      "notes": "This is critical because Aloe Vera ingestion can cause \"abrupt, severe diarrhea\" and vomiting, leading to rapid fluid loss and dehydration. The goal is to maintain systemic hydration while the toxins pass through the system.",
       "priority": 2
     },
     {
       "name": "Symptomatic Drug Therapy (Antiemetics and Antidiarrheals)",
       "description": "The administration of medications to stop vomiting (antiemetics) and control diarrhea (antidiarrheals), along with gastroprotectants to coat the stomach.",
-      "notes": "Since Aloe acts as a potent purgative, controlling the severe diarrhea is a primary focus of veterinary treatment to prevent exhaustion and further fluid loss.\n\u2022 Sources:2,5",
+      "notes": "Since Aloe acts as a potent purgative, controlling the severe diarrhea is a primary focus of veterinary treatment to prevent exhaustion and further fluid loss.",
       "priority": 3
     },
     {
       "name": "Blood Glucose Monitoring",
       "description": "Measuring the cat's blood sugar levels.",
-      "notes": "Unique to Aloe barbadensis toxicity, ingestion has been linked to hypoglycemia (low blood sugar). Veterinarians may monitor this to ensure levels remain stable, treating with dextrose if necessary.\n\u2022 Sources:2",
+      "notes": "Unique to Aloe barbadensis toxicity, ingestion has been linked to hypoglycemia (low blood sugar). Veterinarians may monitor this to ensure levels remain stable, treating with dextrose if necessary.",
       "priority": 4
     },
     {
       "name": "Dietary Management (Bland Diet)",
       "description": "Feeding the cat a gentle, easily digestible diet (such as boiled chicken or prescription gastrointestinal food) once vomiting has ceased.",
-      "notes": "This helps soothe the gastrointestinal tract and allows it to recover from the irritation caused by the plant's saponins and latex.\n\u2022 Sources:5",
+      "notes": "This helps soothe the gastrointestinal tract and allows it to recover from the irritation caused by the plant's saponins and latex.",
       "priority": 5
     }
   ]
