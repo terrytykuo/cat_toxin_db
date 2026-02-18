@@ -1,0 +1,80 @@
+{
+  "plant": {
+    "common_name": "English Ivy",
+    "scientific_name": "Hedera spp.",
+    "family": "Araliaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a climbing vine often used as a wall cover. The plant exhibits two leaf forms: young or root-free stems typically have leaves with 5 lobes, while mature stems feature non-lobed leaves1. When the plant matures, it produces black berries12.\n\u2022 Where Commonly Found: It is widely cultivated as a houseplant and is also commonly found outdoors in gardens and landscaping as a climber or ground cover"
+  },
+  "basics": {
+    "family": "Araliaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a climbing vine often used as a wall cover. The plant exhibits two leaf forms: young or root-free stems typically have leaves with 5 lobes, while mature stems feature non-lobed leaves1. When the plant matures, it produces black berries12.\n\u2022 Where Commonly Found: It is widely cultivated as a houseplant and is also commonly found outdoors in gardens and landscaping as a climber or ground cover"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Fruit"
+  ],
+  "toxins": [
+    {
+      "name": "Triterpenoid Saponins (specifically identified as Hederagenin and Hederin in the sources)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: These saponins act as irritants to the gastrointestinal tract. Upon ingestion, they cause abdominal pain, excessive drooling (hypersalivation), vomiting, and diarrhea.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Absorption: One source notes that the toxin is poorly absorbed upon ingestion, which typically limits the toxic effects to gastrointestinal issues rather than systemic organ failure.\n4. Notes on",
+      "concentration_notes": "\u25e6 Foliage vs. Berries: While the plant produces black berries, the leaves (foliage) are explicitly cited as being more toxic than the berries.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Severity: Toxicity is generally considered moderate."
+    },
+    {
+      "name": "Polyacetylene compounds",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 These compounds work in conjunction with hederagenin to cause the clinical signs of toxicity, including vomiting, abdominal pain, and hypersalivation.\n4. Notes on",
+      "concentration_notes": "\u25e6 Like the saponins, these are found within the plant material, with the foliage noted as the more toxic component compared to the berries."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (Symptoms typically appear shortly after ingestion,",
+      "notes": "This is a primary sign of saponin ingestion. The foliage (leaves) contains higher concentrations of the toxin than the berries.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Resulting from the irritation of the gastrointestinal tract by the saponins.Abdominal Pain"
+    },
+    {
+      "name": "Abdominal Pain (Stomach Discomfort)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "The cat may show signs of discomfort or sensitivity when the abdomen is touched due to the irritating nature of the plant compounds.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling / Hypersalivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to Acute (Upon chewing).",
+      "notes": "Caused by the immediate irritation of the mouth and mucous membranes by the plant's sap and saponins."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral Decontamination / Irrigation",
+      "description": "The immediate step is to prevent further ingestion and remove any remaining plant material from the cat's mouth. The mouth is then thoroughly rinsed with water to wash away the irritating sap and crystals that cause drooling and pain.",
+      "notes": "Because the toxins are poorly absorbed, systemic decontamination (like inducing vomiting) is not always necessary unless a large amount was ingested. Rinsing helps soothe the immediate burning sensation and oral irritation.Fluid Therapy and Electrolyte Correction",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) or Subcutaneous Fluid Therapy",
+      "description": "If the cat has experienced significant vomiting or diarrhea, the veterinarian will administer fluids to correct dehydration and restore electrolyte balance.",
+      "notes": "This is the primary treatment for cases showing clinical signs. Since the toxin primarily causes gastrointestinal upset (vomiting, diarrhea, abdominal pain), maintaining hydration is critical for recovery.Symptomatic Medication (Anti-emetics)",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Anti-emetics",
+      "description": "Veterinarians may administer medications to stop persistent vomiting (anti-emetics) and soothe the gastrointestinal tract (gastroprotectants).",
+      "notes": "English Ivy toxicity is generally considered moderate and often self-limiting. Medication is typically reserved for cats causing significant distress or those at risk of severe dehydration from prolonged vomiting.",
+      "priority": 3
+    }
+  ]
+}

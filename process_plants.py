@@ -76,7 +76,8 @@ MANUAL_FAMILIES = {
     "Cinnamomum verum": "Lauraceae",
     "Citrus spp.": "Rutaceae",
     "Syzygium aromaticum": "Myrtaceae",
-    "Darlingtonia californica": "Sarraceniaceae"
+    "Darlingtonia californica": "Sarraceniaceae",
+    "Eucalyptus spp.": "Myrtaceae",
 }
 
 MANUAL_DESCRIPTIONS = {
@@ -87,7 +88,8 @@ MANUAL_DESCRIPTIONS = {
     "Scadoxus spp.": "Also known as Blood Lily, a bulbous plant with large spherical flower heads. Highly toxic.",
     "Matricaria chamomilla": "An aromatic herb in the daisy family (Asteraceae). Contains volatile oils and other compounds that can be toxic to cats.",
     "Cinnamomum verum": "A small evergreen tree native to Sri Lanka, its inner bark is used to make cinnamon spice. Contains essential oils.",
-    "Darlingtonia californica": "Carnivorous pitcher plant native to Northern California and Oregon, resembling a cobra."
+    "Darlingtonia californica": "Carnivorous pitcher plant native to Northern California and Oregon, resembling a cobra.",
+    "Eucalyptus spp.": "Fast-growing evergreen trees and shrubs native to Australia, known for their aromatic leaves containing essential oils."
 }
 
 MANUAL_TOXIC_PARTS = {
@@ -322,6 +324,11 @@ def postprocess(processed):
     """Apply all cleanup transformations to a processed plant dict."""
     # --- Plant-level fields ---
     plant = processed.get("plant", {})
+    
+    # Fix missing scientific name for Eucalyptus
+    if plant.get("common_name") == "Eucalyptus" and not plant.get("scientific_name"):
+        plant["scientific_name"] = "Eucalyptus spp."
+        
     plant["family"] = clean_family(plant.get("family"))
     
     # --- Description Cleaning ---
@@ -460,7 +467,7 @@ def parse_basics(text):
     
     # Family
     # Match various forms: "1. Botanical Family:", "Botanical Family:", "1. Family:"
-    fam_pat = r"(?:1\.\s*Botanical Family:|Botanical Family:|1\.\s*Family:|1\.)\s*(.*?)(?:\n|2\.|Brief Description:|Description:)"
+    fam_pat = r"(?:1\.\s*Botanical Family:|Botanical Family:|1\.\s*Family:|1\.)\s*(.*?)(?:2\.|Brief Description:|Description:|$)"
     fam_match = re.search(fam_pat, text, re.IGNORECASE | re.DOTALL)
     if fam_match:
         val = clean_text(fam_match.group(1))

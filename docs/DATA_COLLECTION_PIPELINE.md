@@ -190,6 +190,25 @@ Respect foreign key constraints — insert in this order:
 
 ---
 
+## Verification
+
+Before inserting data into the database, run the verification workflow (`/verify-data`) to catch issues:
+
+```bash
+python3 verify_raw.py       # flags incomplete raw collection
+python3 process_plants.py   # re-parse raw → processed
+python3 verify_plants.py    # 3-tier audit: completeness, schema, cleanliness
+```
+
+The audit checks for:
+- **Completeness** — all required fields and arrays are non-empty
+- **Schema** — values match DB constraints (severity enum, field lengths, valid toxic parts)
+- **Cleanliness** — no parsing artifacts, trailing source refs, header labels as values, or chatbot text
+
+A plant should not be marked as "Done" in `collection_status.md` until it passes all checks.
+
+---
+
 ## Example: Full Loop for One Plant
 
 ```

@@ -1,0 +1,89 @@
+{
+  "plant": {
+    "common_name": "Eggplant",
+    "scientific_name": "Solanum melongena",
+    "family": "Solanaceae",
+    "description": "2. Brief Description\n\u2022 Classification: It is categorized as a vegetable and a nightshade plant, closely related to tomatoes, potatoes, and bell peppers1,2.\n\u2022 Where Commonly Found: It is frequently found in households as a food source or kept as an ornamental plant2. It is also commonly cultivated in gardens3.\n\u2022 Plant Parts: The plant consists of green parts (leaves and stems), roots, and fruit. The unripe fruit and peels, along with the green parts, contain defensive compounds typical of the nightshade family"
+  },
+  "basics": {
+    "family": "Solanaceae",
+    "description": "2. Brief Description\n\u2022 Classification: It is categorized as a vegetable and a nightshade plant, closely related to tomatoes, potatoes, and bell peppers1,2.\n\u2022 Where Commonly Found: It is frequently found in households as a food source or kept as an ornamental plant2. It is also commonly cultivated in gardens3.\n\u2022 Plant Parts: The plant consists of green parts (leaves and stems), roots, and fruit. The unripe fruit and peels, along with the green parts, contain defensive compounds typical of the nightshade family"
+  },
+  "toxic_parts": [
+    "Root",
+    "Leaf",
+    "Fruit",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Solanine. (Sources also mention related alkaloids like \u03b1-chaconine and solasodine may be present in nightshade plants",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Acetylcholinesterase Inhibition: Solanine inhibits the enzyme acetylcholinesterase, which is responsible for breaking down the neurotransmitter acetylcholine. This leads to an accumulation of acetylcholine, causing overstimulation of the parasympathetic nervous system. Clinical signs include excessive drooling (hypersalivation), slow heart rate (bradycardia), muscle tremors, and neurological disturbances34.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cell Membrane Disruption (Cytotoxicity): The toxin interacts with cell membranes, increasing their permeability and leading to cell destruction. This is particularly damaging to the cells lining the digestive tract (intestinal epithelial cells), resulting in severe irritation, inflammation, vomiting, and diarrhea5.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mitochondrial Impairment: Glycoalkaloids can disrupt energy production within cells, contributing to lethargy and weakness",
+      "concentration_notes": "\u25e6 Green Parts are Most Toxic: The highest concentrations of solanine are found in the green parts of the plant (leaves, stems) and unripe (green) fruit2....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Peels: The skin or peel of the fruit generally contains higher levels of the toxin than the flesh2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Feline Sensitivity: Cats are often more sensitive to solanine than dogs because they lack specific liver enzymes (glucuronidation pathways) needed to effectively detoxify these compounds89.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Ripe vs. Cooked: Ripe eggplants contain significantly lower amounts of solanine. Cooking can further reduce the danger, though raw ingestion remains a risk for gastrointestinal and neurological symptoms2.\u2022 Eggplant, Tomato, Bell Pepper, and Potato in dogs and cats - PETSVETCHECK1...\n\u2022 Clinical Perspectives on Feline Phytotoxicology"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea (sometimes bloody), Hypersalivation (Drooling), and Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "2 to 24 hours after ingestion.",
+      "notes": "Solanine has a strong irritating effect on the mucous membranes of the digestive tract, leading to inflammation (gastroenteritis). This is typically the first stage of poisoning.Neurological Disturbances"
+    },
+    {
+      "name": "Lethargy (Apathy/Drowsiness), Ataxia (Incoordination), Tremors, Seizures, and Dilated Pupils",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "After 2 hours, often following GI symptoms as the toxin is absorbed.",
+      "notes": "The toxin inhibits the enzyme acetylcholinesterase, causing an accumulation of the neurotransmitter acetylcholine. This leads to overstimulation of the nervous system, resulting in confusion, weakness, paralysis, and potentially respiratory paralysis in fatal cases.Cardiac Abnormalities"
+    },
+    {
+      "name": "Bradycardia (Slow Heart Rate) and Cardiac Arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Associated with systemic absorption (hours after ingestion).",
+      "notes": "High doses disrupt the electrical impulses in the heart. Severe cases can lead to circulatory collapse or cardiac standstill.Respiratory Distress"
+    },
+    {
+      "name": "Difficulty Breathing (Dyspnea) or Respiratory Paralysis",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Late stage of severe poisoning.",
+      "notes": "Respiratory failure is often the cause of death in fatal cases of nightshade alkaloid poisoning.Hematological and Renal Damage"
+    },
+    {
+      "name": "Hemolytic Anemia, Hemoglobinuria (Dark Urine), and Jaundice (Icterus)",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "May develop over 24\u201372 hours.",
+      "notes": "In severe cases, solanine causes the breakdown of red blood cells (hemolysis). The release of free hemoglobin can damage the kidneys (nephrotoxicity), potentially leading to renal failure."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis, Gastric Lavage, and Activated Charcoal",
+      "description": "If ingestion was recent (typically within 1\u20132 hours), the veterinarian may induce vomiting using medication (such as xylazine for cats) to empty the stomach. Alternatively, gastric lavage (stomach pumping) may be performed under anesthesia. This is followed by the administration of activated charcoal (1\u20134 g/kg) to bind any remaining unabsorbed toxins in the gastrointestinal tract.",
+      "notes": "Decontamination is most effective if performed before clinical signs become severe. Activated charcoal may need to be repeated every 4\u20136 hours in severe cases due to the nature of the toxin.Intravenous (IV) Fluid Therapy (Diuresis)",
+      "priority": 1
+    },
+    {
+      "name": "Fluid Replacement and Electrolyte Correction",
+      "description": "The vet administers crystalloid fluids intravenously. This serves two purposes: it corrects dehydration caused by vomiting and diarrhea, and it stimulates diuresis (urination) to help excrete the toxin.",
+      "notes": "If hemolysis (breakdown of red blood cells) is present\u2014a severe complication of solanine poisoning\u2014the infusion rate is increased to ensure the kidneys are well-flushed (renal perfusion) to prevent kidney damage from free hemoglobin.Management of Cholinergic Symptoms (Atropine)",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Atropine",
+      "description": "Solanine inhibits the enzyme acetylcholinesterase, leading to an overstimulation of the nervous system (cholinergic effects). Atropine may be administered to counteract specific symptoms such as excessive drooling (hypersalivation), slow heart rate (bradycardia), and bronchial secretions.",
+      "notes": "There is no specific antidote for solanine poisoning itself; Atropine is used solely to manage these specific cholinergic symptoms.Seizure Control and Respiratory Support",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Support (Anticonvulsants and Oxygen Therapy)",
+      "description": "If the cat experiences tremors or seizures, medications like benzodiazepines or barbiturates are administered. In cases of severe respiratory depression or paralysis, the vet will provide supplemental oxygen or mechanical ventilation.",
+      "notes": "Neurological signs and respiratory failure are risks in severe poisoning cases. Close monitoring of vital signs is essential throughout treatment.",
+      "priority": 4
+    }
+  ]
+}

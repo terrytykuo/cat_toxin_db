@@ -10,9 +10,9 @@
     "description": "Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: It is an annual herb that can grow to be 1.8 meters (approx. 6 feet) or taller. The leaves are palmately compound (shaped like a hand), typically consisting of 5\u20137 linear leaflets with coarsely toothed (dentate) edges. The plant produces small green flowers; male flowers appear at the tip, while female flowers grow along the entire length of the branch1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: While the plant has historical roots as a source for rope, textiles, and paper, it is now primarily cultivated for medicinal or recreational purposes2. In many states, it is legally cultivated under specific licenses1. In a domestic setting, it is most commonly found as dried plant material (\"marijuana\"), edibles (baked goods, candies), or oils2.\u2022 Houseplants and Ornamentals Toxic to Animals - Merck Veterinary Manual1\n\u2022 Cannabis (Marijuana) Intoxication in Cats and Dogs - VCA Animal Hospitals"
   },
   "toxic_parts": [
+    "Flower",
     "Leaf",
-    "Stem",
-    "Flower"
+    "Stem"
   ],
   "toxins": [
     {

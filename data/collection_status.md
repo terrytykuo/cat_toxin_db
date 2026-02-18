@@ -56,14 +56,14 @@
 | 52 | Dahlia | Dahlia | Dahlia pinnata | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 53 | Daylily | Daylily | Hemerocallis spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 54 | Desert Rose | Desert Rose | Adenium obesum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 55 | Dieffenbachia | Dieffenbachia | Dieffenbachia spp. | | | | | | | |
-| 56 | Dracaena | Dracaena | Dracaena spp. | | | | | | | |
-| 57 | Dragon Tree | Dragon Tree | Dracaena marginata or Dracaena spp. | | | | | | | |
-| 58 | Eggplant | Eggplant | Solanum melongena | | | | | | | |
-| 59 | Elderberry | Elderberry | Sambucus spp. including Sambucus nigra and Sambucus racemosa | | | | | | | |
-| 60 | English Holly | English Holly | Ilex aquifolium | | | | | | | |
-| 61 | English Ivy | English Ivy | Hedera spp. | | | | | | | |
-| 62 | Eucalyptus | Eucalyptus | N/A | | | | | | | |
+| 55 | Dieffenbachia | Dieffenbachia | Dieffenbachia spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 56 | Dracaena | Dracaena | Dracaena spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 57 | Dragon Tree | Dragon Tree | Dracaena marginata or Dracaena spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 58 | Eggplant | Eggplant | Solanum melongena | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 59 | Elderberry | Elderberry | Sambucus spp. including Sambucus nigra and Sambucus racemosa | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 60 | English Holly | English Holly | Ilex aquifolium | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 61 | English Ivy | English Ivy | Hedera spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 62 | Eucalyptus | Eucalyptus | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 63 | Fetterbush / Staggerbush | Fetterbush / Staggerbush | Lyonia spp. | | | | | | | |
 | 64 | Ficus / Weeping Fig | Ficus / Weeping Fig | Ficus spp. | | | | | | | |
 | 65 | Ficus Audrey | Ficus Audrey | Ficus benghalensis | | | | | | | |

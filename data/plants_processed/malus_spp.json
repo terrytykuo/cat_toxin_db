@@ -10,9 +10,9 @@
     "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The plant grows as a tree2,3. It produces fruit characterized by an outer skin, edible flesh, and a central core that contains seeds (also referred to as pips)4,5,1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: While the sources focus on toxicology, they indicate that apple trees are grown in gardens or orchards2,6. The fruit is commonly found in homes as a food source"
   },
   "toxic_parts": [
+    "Leaf",
     "Seed",
-    "Fruit",
-    "Leaf"
+    "Fruit"
   ],
   "toxins": [
     {

@@ -1,0 +1,90 @@
+{
+  "plant": {
+    "common_name": "Elderberry",
+    "scientific_name": "Sambucus spp. including Sambucus nigra and Sambucus racemosa",
+    "family": "Adoxaceae",
+    "description": "Brief Description\n\u2022 Appearance: Elderberry plants are described as deciduous shrubs or small trees that can grow up to 10 feet (American varieties) or 20 feet (European varieties) in height1,2,3. They feature oblong leaves and berries that grow in clusters1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Berries: The appearance of the fruit varies by species. Blue elderberries (S. nigra ssp. cerulea) are dusky blue with a distinctive powdery, waxy coating4,5. American elderberries (S. nigra ssp. canadensis) and European elderberries (S. nigra ssp. nigra) are dark purple and lack this powdery coating2,3. Red elderberries (S. racemosa) are distinguished by their bright red color6.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Flowers: The plants produce clusters (cymes) of white, open flowers7.\n\u2022 Habitat and Location: Elderberry bushes are native to North America and are commonly found in the wild as well as in home gardens as popular landscaping shrubs8,4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Blue Elderberry: Native to the western United States4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 American Elderberry: Native to the eastern United States2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 European Elderberry: Native to Europe but also domesticated and available in the United States"
+  },
+  "basics": {
+    "family": "Adoxaceae",
+    "description": "Brief Description\n\u2022 Appearance: Elderberry plants are described as deciduous shrubs or small trees that can grow up to 10 feet (American varieties) or 20 feet (European varieties) in height1,2,3. They feature oblong leaves and berries that grow in clusters1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Berries: The appearance of the fruit varies by species. Blue elderberries (S. nigra ssp. cerulea) are dusky blue with a distinctive powdery, waxy coating4,5. American elderberries (S. nigra ssp. canadensis) and European elderberries (S. nigra ssp. nigra) are dark purple and lack this powdery coating2,3. Red elderberries (S. racemosa) are distinguished by their bright red color6.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Flowers: The plants produce clusters (cymes) of white, open flowers7.\n\u2022 Habitat and Location: Elderberry bushes are native to North America and are commonly found in the wild as well as in home gardens as popular landscaping shrubs8,4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Blue Elderberry: Native to the western United States4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 American Elderberry: Native to the eastern United States2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 European Elderberry: Native to Europe but also domesticated and available in the United States"
+  },
+  "toxic_parts": [
+    "Bark",
+    "Fruit",
+    "Stem",
+    "Leaf",
+    "Seed"
+  ],
+  "toxins": [
+    {
+      "name": "Cyanogenic Glycosides (These compounds naturally occur in the plant as a defense mechanism)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Metabolic Conversion: When a cat chews or digests the plant material, enzymes hydrolyze the glycosides, releasing free cyanide into the bloodstream.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cellular Asphyxiation: The cyanide inhibits the enzyme cytochrome c oxidase within the mitochondria. This blocks the electron transport chain, effectively preventing cells from utilizing oxygen (cellular hypoxia), even though the blood is oxygenated. This leads to rapid respiratory distress and potential system failure.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: Ingestion also causes immediate nausea, vomiting, and diarrhea.\n4. Notes on",
+      "concentration_notes": "\u25e6 High-Risk Parts: The highest concentrations of toxins are found in the stems, leaves, twigs, roots, and raw/unripe berries.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cooking: While cooking destroys the cyanide-producing compounds making them safer for humans, sources warn that even cooked elderberries may still contain trace toxins harmful to cats due to their smaller size and metabolic sensitivity.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sensitivity: Cats generally lack certain enzymes needed to properly metabolize plant compounds, making them more susceptible to toxicity than humans.\u2022 Can Cats Eat Elderberries? Risks and Safety Tips1,2,3\n\u2022 Can cats have elderberry? - Dial A Vet4\n\u2022 Clinical Perspectives on Feline Phytotoxicology5,6\n\u2022 Elderberry - the BC Drug and Poison Information Centre7\n\u2022 Play it safe when preserving elderberries"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Nausea, and Drooling (Hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Quickly after ingestion.",
+      "notes": "This is often the first sign of toxicity. The unripe/raw berries and vegetative parts (stems/leaves) are the most potent irritants.Neurological Impairment"
+    },
+    {
+      "name": "Lethargy, Weakness, Dizziness, Drowsiness, and Seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Rapid (Cyanide toxicity typically manifests within minutes to an hour).",
+      "notes": "Severe cases involving large ingestions can progress to seizures, tremors, and unresponsiveness (coma). This occurs because cyanide prevents cells from utilizing oxygen (cellular hypoxia).Respiratory Distress"
+    },
+    {
+      "name": "Rapid Breathing (Tachypnea) or Difficulty Breathing (Dyspnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid.",
+      "notes": "Respiratory distress is a hallmark of cyanide poisoning. The cat may pant or gasp for air because, despite the blood being oxygenated, the cells cannot absorb the oxygen.Systemic Collapse and Death"
+    },
+    {
+      "name": "Collapse, Shock, and Death",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Rapid.",
+      "notes": "While death is less common if only a few berries are eaten, ingestion of high-risk parts (roots, stems) or large amounts of raw berries can result in fatal cardiovascular collapse or respiratory failure.Cyanide-Specific Signs (Mucous Membranes)"
+    },
+    {
+      "name": "Bright Red Gums (Brick Red Mucous Membranes) and Dilated Pupils",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "10\u201360 minutes (General timeline for cyanogenic glycosides).",
+      "notes": "Unlike other toxicities that cause pale gums, cyanide poisoning can cause gums to appear bright red because the oxygen in the blood is not being used by the tissues (venous blood remains oxygenated)."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) and Activated Charcoal",
+      "description": "If the ingestion is recent and the cat is neurologically stable (not having seizures or comatose), the veterinarian will administer medication to induce vomiting to remove the plant material from the stomach. This is typically followed by the administration of activated charcoal with a cathartic to bind any remaining toxins in the gastrointestinal tract and speed their transit out of the body.",
+      "notes": "Decontamination is most effective when performed promptly. Owners should not try to induce vomiting at home without specific veterinary instructions, as it can cause further harm.Administration of Cyanide Antidotes",
+      "priority": 1
+    },
+    {
+      "name": "Cyanide Antidote Therapy (Sodium Nitrite, Sodium Thiosulfate, or Hydroxycobalamin)",
+      "description": "In cases of severe poisoning where cyanide has been released into the bloodstream, specific antidotes are administered. Sodium nitrite helps convert hemoglobin to cyanomethemoglobin (which binds cyanide), followed by sodium thiosulfate, which converts cyanide into thiocyanate (a less toxic substance excreted in urine). Alternatively, hydroxycobalamin may be used to bind cyanide to form Vitamin B12 (cyanocobalamin), which is then excreted.",
+      "notes": "This step is critical for life-threatening cases where the cat is showing signs of hypoxia (lack of oxygen) or severe distress. Clinical signs of cyanide toxicity can develop rapidly (within 15\u201360 minutes).Oxygen Therapy and Respiratory Support",
+      "priority": 2
+    },
+    {
+      "name": "Oxygen Supplementation or Mechanical Ventilation",
+      "description": "Because cyanide prevents the body's cells from using oxygen, the cat may experience severe respiratory distress. The vet will provide supplemental oxygen via a mask or cage. In critical cases where the cat cannot breathe adequately on its own, mechanical ventilation may be required.",
+      "notes": "This treatment addresses the \"tissue hypoxia\" caused by the toxin. Even if the blood is fully oxygenated, the cells cannot use it, so high-flow oxygen support is often necessary alongside antidotes.Metabolic Correction and Fluid Therapy",
+      "priority": 3
+    },
+    {
+      "name": "Intravenous (IV) Fluids and Sodium Bicarbonate",
+      "description": "IV fluids are administered to maintain blood pressure, support kidney function, and help excrete the detoxified cyanide compounds (thiocyanate). If the cat is suffering from metabolic acidosis (acidic blood pH due to the toxin), sodium bicarbonate is administered to correct the pH balance.",
+      "notes": "Fluid replacement is also essential to treat dehydration resulting from the vomiting and diarrhea commonly caused by elderberry ingestion.",
+      "priority": 4
+    }
+  ]
+}

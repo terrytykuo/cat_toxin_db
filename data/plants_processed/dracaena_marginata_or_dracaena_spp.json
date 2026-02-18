@@ -1,0 +1,94 @@
+{
+  "plant": {
+    "common_name": "Dragon Tree",
+    "scientific_name": "Dracaena marginata or Dracaena spp.",
+    "family": "Agavaceae",
+    "description": "Brief Description\n\u2022 Appearance: The Dragon Tree is described as a robust, palm-like houseplant. It features thin, lance-shaped leaves that are alternate and non-petioled (no leaf stalk). These leaves are often variegated with green, red, or yellow stripes along the margins. As the plant matures, it loses its lower leaves, leaving behind clearly demarcated leaf scars on the stem, while the terminal leaves remain at the top1.\n\u2022 Habitat and Location: It is commonly found as a decorative houseplant12.\n\u2022 Other Names: These plants are sometimes referred to as \"female dragons\""
+  },
+  "basics": {
+    "family": "Agavaceae",
+    "description": "Brief Description\n\u2022 Appearance: The Dragon Tree is described as a robust, palm-like houseplant. It features thin, lance-shaped leaves that are alternate and non-petioled (no leaf stalk). These leaves are often variegated with green, red, or yellow stripes along the margins. As the plant matures, it loses its lower leaves, leaving behind clearly demarcated leaf scars on the stem, while the terminal leaves remain at the top1.\n\u2022 Habitat and Location: It is commonly found as a decorative houseplant12.\n\u2022 Other Names: These plants are sometimes referred to as \"female dragons\""
+  },
+  "toxic_parts": [
+    "Entire Plant",
+    "Leaf",
+    "Bark"
+  ],
+  "toxins": [
+    {
+      "name": "Steroidal Saponins (often referred to as steroidal glycosides)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: These compounds irritate the mucous membranes of the gastrointestinal tract, leading to drooling, vomiting (occasionally with blood), and diarrhea.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Neurological/Ocular Effect: In cats specifically, these toxins cause dilated pupils (mydriasis), a distinctive clinical sign that helps distinguish Dracaena poisoning from other plant ingestions. They also cause central nervous system depression, leading to weakness and lethargy.\n4. Notes on",
+      "concentration_notes": "\u25e6 Severity: The toxicity is generally classified as moderate."
+    },
+    {
+      "name": "Alkaloids (specific types are not named in the provided text)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 These compounds work in conjunction with saponins to cause significant gastrointestinal irritation and systemic upset.\n4. Notes on",
+      "concentration_notes": "\u25e6 Distribution: Specifically noted to be found in the leaves."
+    },
+    {
+      "name": "Resin",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Resins contribute to the overall irritant properties of the plant, exacerbating gastrointestinal distress.\n4. Notes on",
+      "concentration_notes": "\u25e6 Distribution: Found in the leaves."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting (often with blood/hematemesis) and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Acute (typically shortly after ingestion, though specific hours are not listed in the text).",
+      "notes": "The plant's saponins cause significant irritation to the mucosal lining. In cats specifically, the vomiting is frequently noted to contain blood, which is a distinguishing feature of this toxicity compared to other mild plant irritants.Dilated Pupils (Mydriasis)"
+    },
+    {
+      "name": "Dilated Pupils",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Associated with the acute phase of toxicity.",
+      "notes": "This is a distinctive clinical sign of Dracaena poisoning in cats. It often helps veterinarians identify this specific plant as the culprit when accompanied by gastrointestinal signs.Depression and Weakness"
+    },
+    {
+      "name": "Depression, Lethargy, Weakness, or Incoordination (Ataxia)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Affected cats may appear \"drunk,\" wobbly, or simply inactive due to the central nervous system depression caused by the saponins and alkaloids.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling / Ptyalism",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to Acute (upon chewing/ingesting).",
+      "notes": "Saponins and resins in the leaves cause oral and mucosal irritation, stimulating increased saliva production.Anorexia"
+    },
+    {
+      "name": "Loss of Appetite (Anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "The cat may refuse food due to nausea, oral pain, or general systemic malaise."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Removal of Plant Material and Oral Dilution",
+      "description": "The immediate step is to carefully remove any remaining plant fragments from the cat's mouth. Following this, the cat may be offered a small amount of water or milk to help dilute the stomach contents and soothe the irritation caused by the plant's sap.",
+      "notes": "This initial step is crucial to reduce the concentration of toxins in the stomach. Owners are generally advised not to induce vomiting at home without veterinary supervision, as this can cause further injury; safe induction of vomiting (emesis) is best performed in a clinic if necessary.Fluid Therapy and Electrolyte Correction",
+      "priority": 1
+    },
+    {
+      "name": "Symptomatic Supportive Care (Fluid Therapy)",
+      "description": "If the cat has been vomiting or has diarrhea, the veterinarian will administer fluids (subcutaneous or intravenous) to correct dehydration and restore electrolyte balance.",
+      "notes": "This is the primary veterinary intervention cited for Dracaena toxicity. Because the plant causes gastrointestinal irritation leading to vomiting (sometimes with blood) and diarrhea, maintaining hydration is essential for recovery.Clinical Monitoring and Symptomatic Relief",
+      "priority": 2
+    },
+    {
+      "name": "Observation and Anti-emetics",
+      "description": "The veterinary team will monitor the cat for ongoing symptoms, specifically watching for the resolution of dilated pupils (a hallmark sign of this toxicity in cats), weakness, and depression. Medications to stop vomiting (anti-emetics) or protect the stomach lining may be administered if gastrointestinal signs are severe.",
+      "notes": "Dracaena toxicity is generally considered \"moderate\" and is often self-limiting (resolves on its own). However, close monitoring is required because severe cases can lead to significant weakness, incoordination, and depression that require sustained supportive care.",
+      "priority": 3
+    }
+  ]
+}

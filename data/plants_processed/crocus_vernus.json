@@ -2,17 +2,17 @@
   "plant": {
     "common_name": "Crocus",
     "scientific_name": "Crocus vernus",
-    "family": null,
+    "family": "Iridaceae",
     "description": "Brief Description:\n    \u25e6 Appearance: These plants are characterized by their blooming period, specifically flowering in the spring.\n    \u25e6 Habitat and Location: They are commonly found in gardens and outdoor landscapes. They are also described as popular plants for the house and yard."
   },
   "basics": {
-    "family": null,
+    "family": "Iridaceae",
     "description": "Brief Description:\n    \u25e6 Appearance: These plants are characterized by their blooming period, specifically flowering in the spring.\n    \u25e6 Habitat and Location: They are commonly found in gardens and outdoor landscapes. They are also described as popular plants for the house and yard."
   },
   "toxic_parts": [
+    "Bulb",
     "Flower",
-    "Leaf",
-    "Bulb"
+    "Leaf"
   ],
   "toxins": [
     {
