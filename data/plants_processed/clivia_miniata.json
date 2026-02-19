@@ -1,0 +1,78 @@
+{
+  "plant": {
+    "common_name": "Fire Lily",
+    "scientific_name": "Clivia miniata",
+    "family": "Amaryllidaceae",
+    "description": "A flowering plant native to South Africa, popular as a houseplant for its vibrant orange or yellow flowers."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Flower",
+    "Pollen",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Not explicitly identified in the provided text.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Note: The plant is categorized as an \"imposter lily\" alongside plants like the Peruvian lily",
+      "chemical_formula": null,
+      "description": "in Cats\n\u2022 Non-Nephrotoxic: Unlike \"true lilies\" (e.g., Tiger, Easter, or Daylilies), which cause fatal acute kidney failure in cats upon ingestion of even small amounts, Fire Lilies do not cause kidney failure3.\n\u2022 Irritant (Inferred): While the text does not detail the Fire Lily's specific mechanism, other \"imposter lilies\" listed alongside it (such as Peace and Calla lilies) typically contain insoluble oxalate crystals that cause oral irritation, or result in mild, self-limiting stomach upset (like the Peruvian lily)2.... However, the sources do not confirm if Clivia miniata shares this specific oxalate mechanism.",
+      "concentration_notes": "\u2022 Lower Risk: The toxicity of imposter lilies is generally considered less severe than that of true lilies. True lilies are life-threatening emergencies where even pollen or vase water can be fatal35. By contrast, imposter lilies are distinguished by their lack of nephrotoxicity (kidney damage)3.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual1...\n\u2022 Household Hazards: Toxic Hazards for Cats | VCA Animal Hospitals"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Acute Tubular Necrosis / Renal Failure",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "36\u201372 hours (Progression to failure).",
+      "notes": "According to one clinical analysis, the Fire Lily is categorized alongside true lilies (Lilium spp.) as causing damage to the renal parenchyma. If untreated, this can progress to anuria (cessation of urine production) and irreversible kidney damage.Gastrointestinal Distress (Initial Signs)"
+    },
+    {
+      "name": "Vomiting and Anorexia (Loss of Appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within hours (Early stage).",
+      "notes": "Vomiting is often the first sign of toxicity. While vomiting may temporarily cease, it does not indicate recovery; rather, it may be followed by the progression of systemic signs.Dehydration and Polydipsia"
+    },
+    {
+      "name": "Dehydration and Increased Thirst (Polydipsia)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "12\u201330 hours.",
+      "notes": "As kidney function is compromised, the cat may show signs of significant dehydration and increased thirst before progressing to the anuric (no urine) phase.Lethargy"
+    },
+    {
+      "name": "Lethargy / Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within hours.",
+      "notes": "The cat may appear weak or depressed shortly after ingestion, often accompanying the initial gastrointestinal signs.--------------------------------------------------------------------------------\n\nImportant Note on Source Discrepancy: While the Clinical Perspectives on Feline Phytotoxicology source explicitly lists the Fire Lily (Clivia miniata) as affecting the Renal system1, other sources, including the Pet Poison Helpline and ASPCA lists, categorize Clivia miniata as an \"imposter lily\"23. These sources state that imposter lilies (unlike true lilies) do not cause kidney failure in cats, though they may cause other types of irritation4. Due to this conflict in the provided texts, immediate veterinary consultation is recommended to confirm the specific risk if ingestion occurs."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Gastrointestinal Decontamination",
+      "description": "If the ingestion was recent (typically within a few hours), the veterinarian may administer medication to induce vomiting (emesis) to remove the plant material from the stomach. This may be followed by the administration of activated charcoal, which binds to any remaining toxins in the gastrointestinal tract to prevent absorption into the bloodstream",
+      "notes": "Inducing vomiting should never be attempted at home using hydrogen peroxide or salt, as this can cause severe complications like aspiration pneumonia or salt poisoning. It must be performed by a veterinary professional3. This step is most effective when performed shortly after ingestion.\n2. Fluid Therapy (Supportive Care)",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
+      "description": "Fluids are administered to correct dehydration resulting from vomiting or diarrhea. This therapy also helps maintain blood pressure and supports general organ function while the cat recovers",
+      "notes": "While Fire Lilies do not cause the specific renal failure seen with true lilies, vomiting and diarrhea can lead to significant dehydration in cats, making fluid support a vital part of recovery1.\n3. Symptomatic Medical Management",
+      "priority": 2
+    },
+    {
+      "name": "Anti-emetics and Gastroprotectants",
+      "description": "If the cat is experiencing persistent vomiting or gastrointestinal pain, the vet may administer anti-emetics (to stop vomiting) and gastroprotectants (to coat and protect the stomach lining)",
+      "notes": "Since the primary toxicity of imposter lilies often involves gastrointestinal upset, these medications provide relief and prevent further fluid loss. Unlike true lily ingestion, where dialysis might be considered, care for Fire Lily ingestion is primarily supportive14.\n4. Clinical Monitoring",
+      "priority": 3
+    },
+    {
+      "name": "Observation and Monitoring",
+      "description": "The cat may be kept in the clinic or monitored at home for 24 hours to ensure symptoms resolve and no secondary complications develop",
+      "notes": "Veterinarians must confirm the plant identification to ensure it is indeed an \"imposter\" (Clivia) and not a \"true\" lily. If there is any ambiguity, the cat might be treated more aggressively as a precaution",
+      "priority": 4
+    }
+  ]
+}

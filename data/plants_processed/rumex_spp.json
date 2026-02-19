@@ -2,15 +2,16 @@
   "plant": {
     "common_name": "Curly Dock / Sorrel",
     "scientific_name": "Rumex spp.",
-    "family": null
+    "family": "Polygonaceae",
+    "description": "Perennial flowering plant in the family Polygonaceae, commonly known as curly dock or yellow dock."
   },
   "basics": {
-    "family": null,
-    "description": null
+    "family": "Polygonaceae",
+    "description": "Perennial flowering plant in the family Polygonaceae, commonly known as curly dock or yellow dock."
   },
   "toxic_parts": [
-    "Entire Plant",
-    "Leaf"
+    "Leaf",
+    "Entire Plant"
   ],
   "toxins": [
     {

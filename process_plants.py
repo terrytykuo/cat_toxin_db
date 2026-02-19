@@ -78,6 +78,17 @@ MANUAL_FAMILIES = {
     "Syzygium aromaticum": "Myrtaceae",
     "Darlingtonia californica": "Sarraceniaceae",
     "Eucalyptus spp.": "Myrtaceae",
+    "Rumex spp.": "Polygonaceae",
+    "Clivia miniata": "Amaryllidaceae",
+    "Allium sativum": "Amaryllidaceae",
+    "Digitalis purpurea": "Plantaginaceae",
+    "Gardenia jasminoides": "Rubiaceae",
+    "Lyonia spp.": "Ericaceae",
+    "Gladiolus spp.": "Iridaceae",
+    "Lonicera spp.": "Caprifoliaceae",
+    "Agastache spp.": "Lamiaceae",
+    "Hydrangea spp.": "Hydrangeaceae",
+    "Nandina spp.": "Berberidaceae"
 }
 
 MANUAL_DESCRIPTIONS = {
@@ -89,7 +100,17 @@ MANUAL_DESCRIPTIONS = {
     "Matricaria chamomilla": "An aromatic herb in the daisy family (Asteraceae). Contains volatile oils and other compounds that can be toxic to cats.",
     "Cinnamomum verum": "A small evergreen tree native to Sri Lanka, its inner bark is used to make cinnamon spice. Contains essential oils.",
     "Darlingtonia californica": "Carnivorous pitcher plant native to Northern California and Oregon, resembling a cobra.",
-    "Eucalyptus spp.": "Fast-growing evergreen trees and shrubs native to Australia, known for their aromatic leaves containing essential oils."
+    "Eucalyptus spp.": "Fast-growing evergreen trees and shrubs native to Australia, known for their aromatic leaves containing essential oils.",
+    "Rumex spp.": "Perennial flowering plant in the family Polygonaceae, commonly known as curly dock or yellow dock.",
+    "Clivia miniata": "A flowering plant native to South Africa, popular as a houseplant for its vibrant orange or yellow flowers.",
+    "Allium sativum": "Bulbous flowering plant in the onion genus. Highly toxic to cats due to N-propyl disulfide.",
+    "Digitalis purpurea": "Common biennial plant known as Foxglove, containing cardiac glycosides.",
+    "Gardenia jasminoides": "Evergreen flowering plant of the coffee family, known for its fragrant white flowers.",
+    "Lyonia spp.": "Woody shrubs in the heath family, containing gryanotoxins.",
+    "Gladiolus spp.": "Perennial cormous flowering plants in the iris family, known for tall flower spikes.",
+    "Lonicera spp.": "Arching shrubs or twining vines with fragrant, tubular flowers and red or black berries.",
+    "Agastache spp.": "Aromatic herbaceous perennials in the mint family, known for spikes of tubular flowers.",
+    "Hydrangea spp.": "Deciduous shrubs known for large flower heads in shades of pink, blue, or white."
 }
 
 MANUAL_TOXIC_PARTS = {
@@ -105,17 +126,19 @@ def strip_source_refs(text):
     if not text:
         return text
     # Remove patterns like: \n  • Source:1,2,3  or  Sources:1,2  or  ◦ Source:1...
-    text = re.sub(r'[\n\r]\s*[•◦\u2022\u25e6\-\*]?\s*Sources?\s*:\s*[\d,\s\.]+\s*$', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'[\n\r]\s*[•◦\u2022\u25e6\-\*\u25aa]?\s*Sources?\s*:\s*[\d,\s\.]+\s*$', '', text, flags=re.IGNORECASE)
     # Also inline at end: "...some text. Sources:1,2,3" or "Source:1,2"
     text = re.sub(r'\s*Sources?\s*:\s*[\d,\s\.]+\s*$', '', text, flags=re.IGNORECASE)
     # Remove trailing citation numbers (e.g. "...text1,2,3" or "...text1")
     text = re.sub(r'(?<=[a-zA-Z\)\]])[\d,]+\s*$', '', text)
     # Remove lines that are just citation refs: "\n  ◦ Sources:1,2,3"
-    text = re.sub(r'[\n\r]\s*[•◦\u2022\u25e6]?\s*Sources?\s*:\s*[\d,\s\.]+', '', text, flags=re.IGNORECASE)
+    text = re.sub(r'[\n\r]\s*[•◦\u2022\u25e6\u25aa\-\*]?\s*Sources?\s*:\s*[\d,\s\.]+', '', text, flags=re.IGNORECASE)
     # Remove "Would you like me to..." chatbot questions
     text = re.sub(r"Would you like me to.*", "", text, flags=re.IGNORECASE)
     # Remove ◦-prefixed continuation lines (source artifacts in concentration_notes)
     text = re.sub(r'[\n\r]\s*◦\s*(?:Highest |Distribution|Concentration).*$', '', text, flags=re.DOTALL)
+    # Remove horizontal rules and everything after
+    text = re.sub(r'\n\s*-{3,}.*$', '', text, flags=re.DOTALL)
     # Remove trailing citation+period combos like "identified1." or "text1,2...."
     text = re.sub(r'[\d,]+\.+\s*$', '', text.rstrip())
     text = re.sub(r'The provided text does not contain.*$', '', text, flags=re.IGNORECASE | re.DOTALL)
@@ -325,7 +348,15 @@ def postprocess(processed):
     # --- Plant-level fields ---
     plant = processed.get("plant", {})
     
-    # Fix missing scientific name for Eucalyptus
+    # Fix Honeysuckle scientific name (Must be before manual family check)
+    if plant.get("common_name") == "Honeysuckle" and not plant.get("scientific_name"):
+        plant["scientific_name"] = "Lonicera spp."
+    
+    # Fix Hummingbird Mint scientific name (Must be before manual family check)
+    if plant.get("common_name") == "Hummingbird Mint" and not plant.get("scientific_name"):
+        plant["scientific_name"] = "Agastache spp."
+
+    # Fix Eucalyptus scientific name
     if plant.get("common_name") == "Eucalyptus" and not plant.get("scientific_name"):
         plant["scientific_name"] = "Eucalyptus spp."
         
@@ -381,6 +412,21 @@ def postprocess(processed):
              processed["symptoms"] = [
                 {"name": "Mild Gastrointestinal Upset", "severity": "mild", "body_system": "Gastrointestinal"}
             ]
+
+    if sci_name == "Ficus benghalensis" and not processed.get("treatments"):
+        processed["treatments"] = [{
+            "name": "Decontamination and Supportive Care",
+            "description": "Rinse mouth and skin to remove sap. If vomiting is severe, withhold food and water for a few hours, then introduce bland diet. Veterinary care if signs persist.",
+            "priority": 1
+        }]
+
+    if sci_name == "Lonicera spp." and not processed.get("toxins"):
+        processed["toxins"] = [{
+            "name": "Saponins and Cyanogenic Glycosides",
+            "chemical_formula": None,
+            "description": "Can cause vomiting, diarrhea, and in rare cases, cardiovascular issues.",
+            "concentration_notes": "Berries and sap are most toxic."
+        }]
 
     # Force Scadoxus data if empty
     

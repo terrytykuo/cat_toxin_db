@@ -1,0 +1,76 @@
+{
+  "plant": {
+    "common_name": "Italian Arum",
+    "scientific_name": "Arum spp.",
+    "family": "Araceae",
+    "description": "Brief Description\n\u2022 Appearance: It is described as a stemless plant growing from tuberous roots. It features large ovate leaves and a \"showy flower\" consisting of a purple structure enclosing a spike, which produces red fruits1.\n\u2022 Where Commonly Found: Originating from Europe and the Near East, it is often kept as a common houseplant1.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "basics": {
+    "family": "Araceae",
+    "description": "Brief Description\n\u2022 Appearance: It is described as a stemless plant growing from tuberous roots. It features large ovate leaves and a \"showy flower\" consisting of a purple structure enclosing a spike, which produces red fruits1.\n\u2022 Where Commonly Found: Originating from Europe and the Near East, it is often kept as a common houseplant1.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "toxic_parts": [
+    "Root",
+    "Flower",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "The specific toxic compound has yet to be identified in veterinary literature, though it is classified as a gastrointestinal toxin",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mucosal Irritation: The toxin acts as a potent irritant to mucous membranes upon contact or ingestion.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Tissue Damage: This irritation can progress to ulcerations within the mouth and gastrointestinal tract.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Effects: The irritation leads to abdominal discomfort, vomiting, and diarrhea, which can subsequently cause significant fluid loss and dehydration1.\n4. Notes on",
+      "concentration_notes": "\u25e6 Distribution: The toxin is found in the entire plant1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: The severity of the symptoms is dose-dependent, meaning larger ingestions result in more severe irritation and clinical signs"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Mucous Membrane Irritation and Ulcerations",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Acute (The irritation is a direct contact effect).",
+      "notes": "The toxin causes direct irritation to the tissues it touches. In severe cases or large ingestions, this irritation progresses to the formation of actual ulcers within the mouth and digestive tract.Vomiting and Diarrhea"
+    },
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (Following the irritation of the gastric lining).",
+      "notes": "These are the primary systemic signs of ingestion. The"
+    },
+    {
+      "name": "Abdominal Pain / Discomfort",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "This pain results from the inflammation and irritation of the gastrointestinal tract lining caused by the plant's toxins.Dehydration"
+    },
+    {
+      "name": "Dehydration",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": "Delayed (Occurs as a result of persistent vomiting and diarrhea).",
+      "notes": "Dehydration is a significant concern following the fluid loss from vomiting and diarrhea. Rehydration and electrolyte replacement are key components of the recommended veterinary treatment."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Administration of Analgesics",
+      "description": "The veterinarian administers pain relief medication to manage the discomfort caused by the toxin.",
+      "notes": "This is necessary to treat the specific \"oral mucosal irritation and pain\" caused by the plant's toxins1.\n2. Rehydration Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Rehydration and Electrolyte Replacement",
+      "description": "Fluids are administered (often intravenously) to restore hydration levels and balance electrolytes in the body.",
+      "notes": "This treatment is required to address dehydration resulting from the severe vomiting and diarrhea associated with Italian Arum ingestion1.\n3. Gastrointestinal Support",
+      "priority": 2
+    },
+    {
+      "name": "Antiemetics",
+      "description": "Medication is given to suppress nausea and stop persistent vomiting.",
+      "notes": "This is used \"as needed\" to control the gastrointestinal distress and prevent further fluid loss",
+      "priority": 3
+    }
+  ]
+}

@@ -10,8 +10,8 @@
     "description": "Fast-growing evergreen trees and shrubs native to Australia, known for their aromatic leaves containing essential oils."
   },
   "toxic_parts": [
-    "Flower",
     "Root",
+    "Flower",
     "Bark"
   ],
   "toxins": [

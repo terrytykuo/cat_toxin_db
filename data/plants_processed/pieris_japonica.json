@@ -1,0 +1,86 @@
+{
+  "plant": {
+    "common_name": "Japanese Pieris",
+    "scientific_name": "Pieris japonica",
+    "family": "Ericaceae",
+    "description": "Broadleaf evergreen shrub, urn-shaped flowers, native to mountain thickets."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Flower",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Grayanotoxins (historically referred to as andromedotoxins)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sodium Channel Modification: Grayanotoxins bind to sodium channels in cell membranes and prevent them from closing23.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cellular Depolarization: This modification causes \"prolonged depolarization\" of excitable cells. This primarily affects nerve cells, skeletal muscle, and cardiac muscle, leading to disruption in the electrical conduction of the heart and nervous system23.\n4. Notes on",
+      "concentration_notes": "\u25e6 Distribution: The toxin is found in all parts of the plant, with the nectar, flowers, leaves, and stems being of greatest concern12.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: The plant is potent; ingesting only a few leaves or petals is sufficient to cause clinical signs (usually gastrointestinal issues and central nervous system depression)4. Larger ingestions result in more severe toxicity, including cardiovascular collapse"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Hypersalivation (Drooling), and Anorexia (Refusal to eat)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "1\u20134 hours (occasionally up to 12 hours).",
+      "notes": "With small ingestions (a few leaves or petals), clinical signs are often limited to these gastrointestinal effects. The toxin can also cause abdominal pain.Cardiovascular Abnormalities"
+    },
+    {
+      "name": "Cardiac Arrhythmias, Bradycardia (slow heart rate), Tachycardia (fast heart rate), and Hypotension (low blood pressure)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "1\u20134 hours.",
+      "notes": "Grayanotoxins modify sodium channels in cardiac muscle cells, leading to prolonged depolarization. Hypotension may require intravenous fluid support.Central Nervous System (CNS) Dysfunction"
+    },
+    {
+      "name": "Weakness, Tremors, Seizures (Convulsions), Ataxia (loss of coordination), Depression, and Coma",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "1\u20134 hours.",
+      "notes": "The toxins affect nerve cells, causing prolonged excitation followed by depression. Severe CNS signs usually indicate a larger ingestion.Respiratory Distress"
+    },
+    {
+      "name": "Dyspnea (Difficulty breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "1\u20134 hours.",
+      "notes": "Trouble breathing is a common sign of significant grayanotoxin poisoning and often accompanies muscle weakness and cardiac issues.Transient Blindness"
+    },
+    {
+      "name": "Transient Blindness / Blurred Vision",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "1\u20134 hours.",
+      "notes": "This is a specific, though less common, symptom associated with grayanotoxin ingestion (plants like Pieris and Rhododendron)."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis and Activated Charcoal",
+      "description": "If the cat is asymptomatic, the veterinarian will induce vomiting (emesis) to remove the plant material from the stomach. This is followed by the administration of an antiemetic (to stop vomiting) and a dose of activated charcoal with a cathartic to bind any remaining toxins in the digestive tract.",
+      "notes": "Decontamination should only be performed if the patient is \"neurologically appropriate\" (alert and able to swallow safely). However, because plant material can remain in the stomach for many hours, emesis may still be successful several hours after ingestion1.\n2. Cardiovascular Stabilization",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and Cardiac Medications",
+      "description": "IV fluids are administered to support blood pressure, particularly in cases of hypotension (low blood pressure). Specific medications are used to correct heart rhythm abnormalities: Atropine is used for bradycardia (slow heart rate), while antiarrhythmics like lidocaine or procainamide are used for arrhythmias.",
+      "notes": "Continuous monitoring of heart rate and blood pressure is required until the animal is ready for discharge. Cardiovascular collapse is a primary risk of grayanotoxin poisoning12.\n3. Neurological Management",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Methocarbamol or Anticonvulsants",
+      "description": "Veterinarians administer methocarbamol to manage muscle tremors. Standard anticonvulsant medications are used if the cat experiences seizures.",
+      "notes": "Grayanotoxins cause prolonged depolarization of nerve cells, leading to these neurological signs. Seizures and tremors indicate more severe toxicity12.\n4. Symptomatic Supportive Care",
+      "priority": 3
+    },
+    {
+      "name": "Gastrointestinal Support",
+      "description": "The use of antiemetics, antidiarrheals, and gastroprotectants (stomach coating medication) to manage persistent vomiting and diarrhea.",
+      "notes": "If clinical signs are limited to gastrointestinal issues (common with small ingestions), the prognosis is generally excellent with this supportive care",
+      "priority": 4
+    }
+  ]
+}

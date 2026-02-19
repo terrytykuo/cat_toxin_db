@@ -11,9 +11,9 @@
   },
   "toxic_parts": [
     "Bulb",
-    "Entire Plant",
+    "Stem",
     "Leaf",
-    "Stem"
+    "Entire Plant"
   ],
   "toxins": [
     {

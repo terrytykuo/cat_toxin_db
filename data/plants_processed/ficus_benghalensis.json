@@ -1,0 +1,81 @@
+{
+  "plant": {
+    "common_name": "Ficus Audrey",
+    "scientific_name": "Ficus benghalensis",
+    "family": "Moraceae",
+    "description": "Brief Description\n\u2022 Appearance: While the sources do not provide a specific physical description of Ficus benghalensis leaves or bark, they note that Ficus species in general are trees, shrubs, or vines characterized by the presence of a milky sap within their leaves and stems12.\n\u2022 Where Commonly Found: It is commonly kept as an indoor houseplant12. The sources do not contain information regarding its natural habitat or geographic origin."
+  },
+  "basics": {
+    "family": "Moraceae",
+    "description": "Brief Description\n\u2022 Appearance: While the sources do not provide a specific physical description of Ficus benghalensis leaves or bark, they note that Ficus species in general are trees, shrubs, or vines characterized by the presence of a milky sap within their leaves and stems12.\n\u2022 Where Commonly Found: It is commonly kept as an indoor houseplant12. The sources do not contain information regarding its natural habitat or geographic origin."
+  },
+  "toxic_parts": [
+    "Stem",
+    "Sap",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Proteolytic enzymes, specifically identified as ficin in Ficus species",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 These enzymes break down proteins and act as an irritant. When the cat chews the plant, the release of these enzymes causes mild oral irritation, drooling, and vomiting.",
+      "concentration_notes": "\u25e6 Found in the sap present in the leaves and stems. The overall severity of toxicity is considered mild."
+    },
+    {
+      "name": "Psoralens (specifically ficusin) or furocoumarins",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 These compounds contribute to the irritant nature of the plant. Contact with the sap can lead to dermatitis (skin irritation/redness) if it touches the skin, alongside gastrointestinal upset (vomiting) if ingested.",
+      "concentration_notes": "\u25e6 These toxins are concentrated in the sap found throughout the leaves and stems."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Mild Oral Irritation (burning sensation in mouth/tongue)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate (Upon chewing or contact with sap).",
+      "notes": "The sap contains irritant enzymes that cause immediate discomfort to the mucous membranes of the mouth.Excessive Drooling"
+    },
+    {
+      "name": "Drooling / Hypersalivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Acute (Shortly after exposure).",
+      "notes": "This is a secondary response to the oral irritation and burning sensation caused by the plant's sap.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Acute.",
+      "notes": "Ingestion of the sap can upset the stomach. Symptoms are usually self-limiting, but persistent vomiting may require veterinary attention.Dermatitis"
+    },
+    {
+      "name": "Contact Dermatitis (Skin redness or irritation)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Acute (Upon contact).",
+      "notes": "If the milky sap touches the cat's skin, it can cause local irritation or redness. It is recommended to wipe away any sap immediately."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Decontamination (Oral and Dermal)",
+      "description": "This involves immediately wiping away any visible sap from the cat's mouth or fur. If the sap is on the skin or fur, the cat should be bathed or rinsed using liquid dish soap and lukewarm water to prevent the cat from grooming it off and re-ingesting it. The mouth should be rinsed with water to dilute the irritants.",
+      "notes": "Ficus Audrey sap can cause dermatitis (skin irritation) upon contact, so wearing gloves while cleaning the cat is advisable. Do not attempt to induce vomiting at home, as this can cause further injury; specific decontamination usually stops at rinsing unless a massive amount was ingested.",
+      "priority": 1
+    },
+    {
+      "name": "Dilution and Soothing",
+      "description": "Offer the cat water, or occasionally a small amount of milk or yogurt, to help soothe the oral cavity and dilute any remaining sap in the mouth and throat.",
+      "notes": "This step helps alleviate the immediate burning sensation or oral irritation caused by the enzymes in the sap. It is noted specifically for plants causing oral pain that something cool like yogurt can help soothe the mouth.",
+      "priority": 2
+    },
+    {
+      "name": "Symptomatic Supportive Care",
+      "description": "If symptoms such as vomiting or diarrhea persist, a veterinarian may administer anti-emetics (to stop vomiting), gastroprotectants, and fluid therapy to maintain hydration.",
+      "notes": "Ficus Audrey toxicity is generally considered mild, and symptoms often resolve after the initial irritation subsides. Veterinary intervention with medication is usually reserved for cases where the cat appears very uncomfortable, or if vomiting does not resolve on its own.",
+      "priority": 3
+    }
+  ]
+}

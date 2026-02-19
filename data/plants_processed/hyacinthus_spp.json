@@ -1,0 +1,103 @@
+{
+  "plant": {
+    "common_name": "Hyacinth",
+    "scientific_name": "Hyacinthus spp.",
+    "family": "Liliaceae",
+    "description": "2. Brief Description\n\u2022 Appearance: Hyacinths are spring-blooming perennials that grow from bulbs3,4. They are recognized for their dense, tall flowers which are notably fragrant5,6. These blooms appear in a wide variety of colors, including deep purple, pink, white, yellow, blue, red, apricot, and lavender5,6.\n\u2022 Where Commonly Found: They are widely kept as garden ornamentals and indoor potted plants6,3. They are also popular as cut flowers or gifts, particularly around spring holidays like Mother's Day"
+  },
+  "basics": {
+    "family": "Liliaceae",
+    "description": "2. Brief Description\n\u2022 Appearance: Hyacinths are spring-blooming perennials that grow from bulbs3,4. They are recognized for their dense, tall flowers which are notably fragrant5,6. These blooms appear in a wide variety of colors, including deep purple, pink, white, yellow, blue, red, apricot, and lavender5,6.\n\u2022 Where Commonly Found: They are widely kept as garden ornamentals and indoor potted plants6,3. They are also popular as cut flowers or gifts, particularly around spring holidays like Mother's Day"
+  },
+  "toxic_parts": [
+    "Stem",
+    "Leaf",
+    "Flower",
+    "Pollen",
+    "Bulb",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Allergenic Lactones (specifically Tulipalin A and B)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 These compounds act as severe irritants. When ingested, they trigger tissue irritation leading to profuse drooling, vomiting, and diarrhea.\n\u00a0\u00a0\u00a0\u00a0\u25e6 They contribute to the gastrointestinal distress and potential depression seen in poisoned animals.\n4. Notes on",
+      "concentration_notes": "\u25e6 These toxins are heavily concentrated in the bulbs of the plant.\n\u00a0\u00a0\u00a0\u00a0\u25e6 While the entire plant is hazardous, the bulbs pose the highest risk for severe symptoms."
+    },
+    {
+      "name": "Alkaloids (specific alkaloids are often described as \"similar\" to those found in other Liliaceae plants, or simply as phenanthridine alkaloids)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 These compounds can cause systemic toxicity. While smaller ingestions result in gastrointestinal upset (vomiting, diarrhea), larger ingestions can lead to more severe systemic signs including increased heart rate, tremors, and respiratory distress.\n4. Notes on",
+      "concentration_notes": "\u25e6 Like lactones, these alkaloids are most concentrated in the bulbs.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Inhalation of the plant's strong fragrance or pollen has also been noted to potentially cause toxicity symptoms in cats, such as breathing difficulties, though ingestion remains the primary route of poisoning."
+    },
+    {
+      "name": "Calcium Oxalate Crystals (insoluble)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mechanical Irritation: These needle-like crystals (raphides) physically irritate and damage the mucous membranes of the mouth, esophagus, and stomach upon chewing or ingestion.\n\u00a0\u00a0\u00a0\u00a0\u25e6 This irritation contributes to the symptoms of profuse drooling and oral pain.\n4. Notes on",
+      "concentration_notes": "\u25e6 Veterinary sources explicitly list calcium oxalate crystals as a toxic component found in Hyacinth bulbs."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Profuse Drooling, Vomiting, and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Acute (Clinical signs typically appear quickly after ingestion).",
+      "notes": "Vomiting and diarrhea may sometimes contain blood. The bulbs contain the highest concentration of toxins, making them significantly more dangerous than the leaves or flowers.Oral Irritation"
+    },
+    {
+      "name": "Mouth and Throat Irritation (Burns)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (upon chewing).",
+      "notes": "Hyacinths contain calcium oxalate crystals (raphides) in addition to alkaloids. Chewing on the plant, especially the bulb, can cause mechanical irritation and burns to the oral mucosa.Respiratory Distress"
+    },
+    {
+      "name": "Difficulty Breathing (Dyspnea) or Respiratory Depression",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Variable (Associated with large ingestions or heavy exposure).",
+      "notes": "Severe cases, particularly those involving bulb ingestion, can lead to changes in respiration. Some veterinary sources also note that inhalation of the plant's strong fragrance or pollen can potentially trigger breathing difficulties in cats.Cardiac Abnormalities"
+    },
+    {
+      "name": "Increased Heart Rate (Tachycardia) or Arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Delayed (Associated with systemic absorption after large ingestions).",
+      "notes": "These systemic signs are less common with minor leaf nibbling but are a significant risk if the cat digs up and chews on the bulbs.Neurological Signs"
+    },
+    {
+      "name": "Tremors or Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Variable.",
+      "notes": "The cat may exhibit tremors or convulsions in severe toxicity cases. Depression (lethargy) is also a common systemic sign of poisoning."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting)",
+      "description": "If the ingestion was recent, the veterinarian will administer medication to induce vomiting. This physically removes the plant material (especially the dense bulb tissue) from the stomach before the toxins can be fully absorbed.",
+      "notes": "This is a critical first step because the bulbs contain the highest concentration of toxins. Prompt removal can prevent the progression to more severe systemic signs.Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Administration",
+      "description": "The veterinarian administers fluids directly into the cat's bloodstream. This therapy corrects dehydration and electrolyte imbalances caused by the \"profuse drooling, vomiting, and diarrhea\" associated with hyacinth poisoning.",
+      "notes": "Hyacinth ingestion can lead to significant fluid loss. Fluid support helps maintain blood pressure and assists the organs in filtering out circulating toxins.Toxin Binding",
+      "priority": 2
+    },
+    {
+      "name": "Activated Charcoal Administration",
+      "description": "After vomiting has been induced, the vet may administer activated charcoal. This substance binds to any remaining toxins in the gastrointestinal tract, preventing them from entering the bloodstream.",
+      "notes": "This is often used in conjunction with decontamination to minimize the absorption of alkaloids and lactones found in the plant.Symptomatic Care and Monitoring",
+      "priority": 3
+    },
+    {
+      "name": "Cardiovascular and Respiratory Monitoring / Supportive Medication",
+      "description": "The veterinary team will closely monitor the cat's heart rate and breathing while administering medications to control persistent vomiting (anti-emetics) or gastrointestinal pain.",
+      "notes": "Severe hyacinth poisoning, particularly from bulbs, can cause \"increased heart rate,\" \"tremors,\" and \"changes in respiration.\" Continuous monitoring is necessary to detect and treat these potentially dangerous systemic effects immediately.",
+      "priority": 4
+    }
+  ]
+}

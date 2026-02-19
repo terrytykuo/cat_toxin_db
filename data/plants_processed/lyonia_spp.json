@@ -1,0 +1,89 @@
+{
+  "plant": {
+    "common_name": "Fetterbush / Staggerbush",
+    "scientific_name": "Lyonia spp.",
+    "description": "The sources generally categorize plants containing the toxin found in Lyonia spp. (grayanotoxins) as ornamental plants, shrubs, and small trees that can be found both indoors and outdoors12.\n\u2022 Family: The sources do not explicitly state the botanical family for Lyonia spp., though they group it with other grayanotoxin-containing plants like Rhododendron (Azaleas) and Pieris japonica",
+    "family": "Ericaceae"
+  },
+  "basics": {
+    "description": "The sources generally categorize plants containing the toxin found in Lyonia spp. (grayanotoxins) as ornamental plants, shrubs, and small trees that can be found both indoors and outdoors12.\n\u2022 Family: The sources do not explicitly state the botanical family for Lyonia spp., though they group it with other grayanotoxin-containing plants like Rhododendron (Azaleas) and Pieris japonica",
+    "family": "Ericaceae"
+  },
+  "toxic_parts": [
+    "Flower",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Grayanotoxins (sometimes referred to as andromedotoxins in related species)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Sodium Channel Binding: These toxins bind to sodium channels in cell membranes, preventing them from closing. This leads to prolonged depolarization of excitable cells, particularly affecting nerve and muscle cells (including cardiac muscle).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Physiological Effects: This disruption causes a range of symptoms starting with gastrointestinal upset (vomiting, diarrhea) and progressing to cardiovascular issues (low blood pressure, slow heart rate, arrhythmias) and central nervous system depression (weakness, tremors, seizures).\n4. Notes on",
+      "concentration_notes": "\u25e6 All parts of the plant are considered toxic.\n\u00a0\u00a0\u00a0\u00a0\u25e6 The nectar, flowers, leaves, and stems contain the highest concentrations of the toxin.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Ingestion of even a small amount (a few leaves or petals) can cause clinical signs, while larger ingestions can lead to life-threatening cardiovascular collapse.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, and Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "1\u20134 hours (occasionally up to 12 hours).",
+      "notes": "These are typically the first signs to appear. Even ingesting a few leaves can trigger these symptoms. Abdominal pain may also be present.Cardiovascular Dysfunction"
+    },
+    {
+      "name": "Bradycardia (Slow Heart Rate), Hypotension (Low Blood Pressure), and Arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "1\u20134 hours.",
+      "notes": "Grayanotoxins cause prolonged depolarization of cardiac muscle cells. This can lead to irregular heartbeats and cardiovascular collapse, which is a primary cause of death in severe cases.Central Nervous System Depression"
+    },
+    {
+      "name": "Weakness, Lethargy, and Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "1\u20134 hours.",
+      "notes": "The cat may appear uncoordinated or unusually quiet. In smaller ingestions, symptoms may be limited to this depression and GI upset.Neurological Excitation"
+    },
+    {
+      "name": "Tremors and Seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "1\u20134 hours.",
+      "notes": "As toxicity progresses, the disruption of nerve cells can lead to tremors and, in severe cases, convulsions or coma.Transient Blindness"
+    },
+    {
+      "name": "Transient Blindness",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute (During the course of toxicity).",
+      "notes": "While less common, temporary blindness has been reported as a specific symptom of grayanotoxin poisoning."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Gastrointestinal Decontamination",
+      "description": "If the cat is neurologically stable (alert and not seizing), the veterinarian will induce vomiting (emesis) to remove the plant material from the stomach. This is followed by the administration of activated charcoal with a cathartic to bind any remaining toxins in the gastrointestinal tract and speed their removal.",
+      "notes": "Sources note that grayanotoxin-containing plant material often remains in the stomach for many hours, meaning inducing vomiting can be successful even several hours after ingestion. However, this should only be done if the cat is not showing severe neurological signs like seizures or coma to prevent aspiration.Cardiovascular Support (Fluids and Atropine)",
+      "priority": 1
+    },
+    {
+      "name": "Fluid Therapy and Cardiac Medications",
+      "description": "Intravenous (IV) fluids are administered to support blood pressure, as hypotension (low blood pressure) is a common symptom. If the cat is experiencing severe bradycardia (slow heart rate), the veterinarian will administer atropine.",
+      "notes": "Grayanotoxins can cause significant cardiovascular collapse. While atropine addresses the slow heart rate, other anti-arrhythmic drugs like lidocaine or procainamide may be required if the cat develops irregular heart rhythms (arrhythmias). Continuous heart rate and blood pressure monitoring is essential until the patient is discharged.Neurological Management",
+      "priority": 2
+    },
+    {
+      "name": "Seizure and Tremor Control",
+      "description": "If the cat exhibits tremors or seizures due to the toxin's effect on nerve cells, veterinarians use specific medications to control them. Methocarbamol is recommended for tremors, while standard anticonvulsants are used for seizures.",
+      "notes": "The toxin prevents sodium channels in cells from closing, leading to prolonged excitation of nerve and muscle cells. This can manifest as weakness, tremors, or convulsions, which must be controlled to prevent secondary damage (like hyperthermia).Symptomatic Supportive Care",
+      "priority": 3
+    },
+    {
+      "name": "Gastrointestinal and Respiratory Support",
+      "description": "This includes the administration of anti-emetics to stop persistent vomiting and gastroprotectants to soothe the stomach. If the cat has inhaled vomit, antibiotics may be prescribed to treat or prevent aspiration pneumonia.",
+      "notes": "Mild cases may only result in GI upset (vomiting/diarrhea) and CNS depression. These cases generally have an excellent prognosis with supportive care. However, because vomiting is a prominent symptom, the risk of aspiration pneumonia is noted as a specific concern for grayanotoxin poisoning.",
+      "priority": 4
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-02-18T12:12:18.309825",
-  "total_files": 62,
-  "passed": 60,
-  "failed": 2,
+  "generated_at": "2026-02-19T12:29:12.680995",
+  "total_files": 88,
+  "passed": 88,
+  "failed": 0,
   "results": [
     {
       "file": "adenium_obesum.json",
@@ -35,6 +35,12 @@
       "issues": []
     },
     {
+      "file": "allium_sativum.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "allium_schoenoprasum.json",
       "status": "PASS",
       "issue_count": 0,
@@ -59,7 +65,25 @@
       "issues": []
     },
     {
+      "file": "anthurium_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "arum_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "asparagus_densiflorus.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "aucuba_japonica.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -119,6 +143,12 @@
       "issues": []
     },
     {
+      "file": "clivia_miniata.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "codiaeum_variegatum.json",
       "status": "PASS",
       "issue_count": 0,
@@ -131,12 +161,16 @@
       "issues": []
     },
     {
+      "file": "crassula_arborescens_or_crassula.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "crocus_vernus.json",
-      "status": "FAIL",
-      "issue_count": 1,
-      "issues": [
-        "[CLEANLINESS] symptoms[0].notes contains trailing source references: \"Ingestion of the plant material (leaves, flowers) primarily ...\""
-      ]
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
     },
     {
       "file": "cycas_spp_or_zamia_spp.json",
@@ -175,6 +209,12 @@
       "issues": []
     },
     {
+      "file": "digitalis_purpurea.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "dracaena_fragrans.json",
       "status": "PASS",
       "issue_count": 0,
@@ -194,6 +234,36 @@
     },
     {
       "file": "eucalyptus.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "ficus_benghalensis.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "ficus_lyrata.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "ficus_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "gardenia_jasminoides.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "gladiolus_spp.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -223,13 +293,73 @@
       "issues": []
     },
     {
+      "file": "homalomena_selby.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "honeysuckle.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "hummingbird_mint.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "hyacinthoides_nonscripta.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
     },
     {
+      "file": "hyacinthus_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "hydrangea_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "ilex.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "ilex_aquifolium.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "iris.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "jimson_weed.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "kalanchoe_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "lyonia_spp.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -265,6 +395,12 @@
       "issues": []
     },
     {
+      "file": "nandina_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "narcissus_spp.json",
       "status": "PASS",
       "issue_count": 0,
@@ -278,6 +414,12 @@
     },
     {
       "file": "phoradendron_flavescens.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "pieris_japonica.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -314,12 +456,9 @@
     },
     {
       "file": "rumex_spp.json",
-      "status": "FAIL",
-      "issue_count": 2,
-      "issues": [
-        "[COMPLETENESS] family is missing",
-        "[COMPLETENESS] description is missing or too short (< 20 chars)"
-      ]
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
     },
     {
       "file": "sambucus_spp_including_sambucus_nigra_and_sambucus_racemosa.json",
@@ -346,6 +485,12 @@
       "issues": []
     },
     {
+      "file": "solanum_pseudocapsicum.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "strelitzia_reginae.json",
       "status": "PASS",
       "issue_count": 0,
@@ -359,6 +504,12 @@
     },
     {
       "file": "syzygium_aromaticum.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "vitis__implied.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

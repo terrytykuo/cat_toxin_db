@@ -1,0 +1,81 @@
+{
+  "plant": {
+    "common_name": "Ficus / Weeping Fig",
+    "scientific_name": "Ficus spp.",
+    "family": "Moraceae",
+    "description": "Brief Description\n\u2022 Appearance: The genus includes numerous species that can grow as trees, shrubs, or vines1. A defining characteristic of these plants is the presence of milky sap found in their leaves and stems1.... Common varieties include the Weeping Fig, Rubber Tree (Ficus elastica), Fiddle Leaf Fig (Ficus lyrata), and Climbing Fig1....\n\u2022 Where Commonly Found: They are widely cultivated and commonly found as potted plants or used in indoor landscaping as houseplants"
+  },
+  "basics": {
+    "family": "Moraceae",
+    "description": "Brief Description\n\u2022 Appearance: The genus includes numerous species that can grow as trees, shrubs, or vines1. A defining characteristic of these plants is the presence of milky sap found in their leaves and stems1.... Common varieties include the Weeping Fig, Rubber Tree (Ficus elastica), Fiddle Leaf Fig (Ficus lyrata), and Climbing Fig1....\n\u2022 Where Commonly Found: They are widely cultivated and commonly found as potted plants or used in indoor landscaping as houseplants"
+  },
+  "toxic_parts": [
+    "Stem",
+    "Sap",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Proteolytic Enzymes (specifically identified as Ficin in related Ficus species)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Irritation: These enzymes break down proteins. When the sap contacts the cat's skin or mucous membranes (mouth), it causes significant irritation and inflammation. This leads to contact dermatitis on the skin and gastrointestinal signs like vomiting and drooling if ingested.\n4. Notes on",
+      "concentration_notes": "\u25e6 Found within the milky sap present in the leaves and stems."
+    },
+    {
+      "name": "Psoralens (also referred to as Ficusin) and Furocoumarins",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Dermal and GI Toxicity: These compounds are implicated in causing contact dermatitis (skin irritation). Upon ingestion, they irritate the gastrointestinal tract, resulting in vomiting and diarrhea.\n4. Notes on",
+      "concentration_notes": "\u25e6 Present in the sap of the plant."
+    },
+    {
+      "name": "Triterpenes and Sesquiterpenoid Glycosides",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Irritation: These compounds work in conjunction with the other toxins in the sap to cause contact dermatitis and gastrointestinal upset.\n4. Notes on",
+      "concentration_notes": "\u25e6 Found throughout the plant's vascular system in the sap."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Contact Dermatitis (Skin redness, irritation, or swelling)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Acute (Upon contact with the sap).",
+      "notes": "The milky sap found throughout the plant can cause redness, itchiness, and irritation if it touches the cat's skin. This is a distinguishing feature of Ficus toxicity compared to many other houseplants.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Acute (Shortly after ingestion).",
+      "notes": "Ingestion of the leaves or stems introduces the irritating sap to the stomach, leading to vomiting and loose stools. While uncomfortable, these symptoms are generally self-limiting.Oral Irritation and Hypersalivation"
+    },
+    {
+      "name": "Excessive Drooling (Hypersalivation) and Oral Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate (Upon chewing).",
+      "notes": "The proteolytic enzymes (ficin) in the sap break down proteins and irritate the mucous membranes of the mouth, causing the cat to drool excessively or paw at its mouth due to the burning sensation."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Physical Decontamination (Rinsing and Washing)",
+      "description": "Immediate removal of the plant's irritating milky sap is the first step. This involves rinsing the cat's mouth with water to dilute the sap and wiping away any sap present on the lips or tongue. If sap has gotten onto the cat's fur or skin, it must be washed off (often with mild soap) to prevent contact dermatitis and further ingestion through grooming.",
+      "notes": "The sap contains proteolytic enzymes (ficin) and psoralens which cause immediate burning, irritation, and potentially dermatitis upon contact. Quick removal helps minimize this pain and skin redness.Home Monitoring and Hydration",
+      "priority": 1
+    },
+    {
+      "name": "Observation and Fluid Support",
+      "description": "After decontamination, the cat is offered water to help soothe the mouth and maintain hydration. Owners are instructed to monitor the cat closely for signs of escalating distress, such as persistent vomiting or refusal to eat.",
+      "notes": "Because Ficus toxicity is often mild, many cases resolve with simple home care. This step effectively manages the minor gastrointestinal upset (nausea) that follows ingestion.Symptomatic Medical Management",
+      "priority": 2
+    },
+    {
+      "name": "Supportive Care (Anti-emetics and Fluid Therapy)",
+      "description": "If symptoms such as vomiting or diarrhea are severe or persistent, a veterinarian will administer medications to stop the vomiting (anti-emetics), protect the stomach lining (gastroprotectants), and provide subcutaneous or intravenous fluids to correct electrolyte imbalances.",
+      "notes": "This treatment is reserved for cats showing significant discomfort, dehydration, or symptoms that do not resolve on their own after the initial exposure.",
+      "priority": 3
+    }
+  ]
+}

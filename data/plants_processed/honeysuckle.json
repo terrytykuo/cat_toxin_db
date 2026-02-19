@@ -1,0 +1,72 @@
+{
+  "plant": {
+    "common_name": "Honeysuckle",
+    "scientific_name": "Lonicera spp.",
+    "family": "Caprifoliaceae",
+    "description": "Arching shrubs or twining vines with fragrant, tubular flowers and red or black berries."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Flower",
+    "Leaf",
+    "Fruit"
+  ],
+  "toxins": [
+    {
+      "name": "Saponins and Cyanogenic Glycosides",
+      "chemical_formula": null,
+      "description": "Can cause vomiting, diarrhea, and in rare cases, cardiovascular issues.",
+      "concentration_notes": "Berries and sap are most toxic."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided text (typically acute).",
+      "notes": "The ASPCA Pet Health Insurance guide lists Honeysuckle as a common plant poisonous to cats and notes that general signs of plant poisoning include vomiting and diarrhea. The flowers are noted to have a \"sweet smell that can be tempting for cats.\"Oral and Skin Irritation"
+    },
+    {
+      "name": "Inflammation around the mouth, Drooling, or Itchiness",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Not specified.",
+      "notes": "Toxic plants can cause inflammation around the mouth and skin irritation, leading to the cat pawing at their mouth or face.Respiratory and Cardiac Distress (General Potential)"
+    },
+    {
+      "name": "Difficulty Breathing (Dyspnea), Panting, or Rapid Heart Rate",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Not specified.",
+      "notes": "These are listed as potential symptoms for cats that have ingested poisonous plants found on the common toxicity list, which includes Honeysuckle.Euphoria (Specific to Tatarian Honeysuckle)"
+    },
+    {
+      "name": "Behavioral Reaction (Euphoria)",
+      "body_system": "Neurological",
+      "severity": null,
+      "onset": "Immediate.",
+      "notes": "Tatarian honeysuckle (Lonicera tatarica) is considered safe and is used as an alternative to catnip. It produces a similar euphoric behavioral reaction in cats and is often found in cat toys or wood products.Important Note on Varieties: Certain species, such as Honeysuckle Fuchsia, are explicitly listed as non-toxic to cats4. However, because \"Honeysuckle\" appears on general toxic plant lists1, cat owners should exercise caution and ensure they have identified the specific species before allowing their cat access."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting)",
+      "description": "If the ingestion was recent, the veterinarian may administer medication to induce vomiting. This removes the plant material from the stomach before the toxins can be fully absorbed into the system",
+      "notes": "This is time-sensitive and generally most effective if performed shortly after ingestion. Owners should not attempt to induce vomiting at home without professional instruction, as it can risk injury to the cat4.\n2. Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
+      "description": "The veterinarian administers fluids directly into the bloodstream or under the skin. This therapy helps to correct dehydration caused by vomiting or diarrhea and assists the body in flushing toxins out through the kidneys",
+      "notes": "This is a standard supportive treatment for cats showing signs of poisoning to maintain blood pressure and organ function while the body processes the toxin3.\n3. Symptomatic Care and Monitoring",
+      "priority": 2
+    },
+    {
+      "name": "Supportive Medical Management",
+      "description": "The veterinary team monitors the cat\u2019s vital signs, including heart rate and hydration levels. They may administer medications to control specific symptoms, such as anti-emetics to stop vomiting or gastroprotectants to soothe the stomach",
+      "notes": "Because symptoms of plant poisoning can range from a \"minor tummy ache\" to more severe reactions, the vet will tailor care to the specific signs the cat is exhibiting (e.g., inflammation around the mouth, dilated pupils, or difficulty breathing)3....\nImportant Note on Species: It is worth verifying the specific type of Honeysuckle. Tatarian honeysuckle (Lonicera tatarica) is listed as a safe alternative to catnip and produces a similar euphoric behavioral reaction, often found in cat toys2. However, general garden Honeysuckle appears on toxic plant lists, so treating ingestion as a potential poisoning until confirmed otherwise is the safest course of action",
+      "priority": 3
+    }
+  ]
+}

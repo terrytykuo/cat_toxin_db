@@ -1,0 +1,82 @@
+{
+  "plant": {
+    "common_name": "Hydrangea",
+    "scientific_name": "Hydrangea spp.",
+    "description": "\u2022 Appearance: Hydrangeas are described as popular garden bushes or shrubs known for their \"large, pretty flowers\" that bloom in a \"variety of colors,\" including gorgeous and vibrant hues.\n\u2022 Where Commonly Found: They are widely found in outdoor gardens and are a staple in floral arrangements sold at grocery stores and flower shops.\u2022 Avoid This CAT-astrophe! 10 Spring Flowers That Are Toxic to Cats1\n\u2022 Are Begonias Poisonous to Cats? Vet-Verified Facts, Risks & Safety Guide2\n\u2022 The Top 13 Plants + Flowers Toxic and Poisonous to Cats",
+    "family": "Hydrangeaceae"
+  },
+  "basics": {
+    "description": "\u2022 Appearance: Hydrangeas are described as popular garden bushes or shrubs known for their \"large, pretty flowers\" that bloom in a \"variety of colors,\" including gorgeous and vibrant hues.\n\u2022 Where Commonly Found: They are widely found in outdoor gardens and are a staple in floral arrangements sold at grocery stores and flower shops.\u2022 Avoid This CAT-astrophe! 10 Spring Flowers That Are Toxic to Cats1\n\u2022 Are Begonias Poisonous to Cats? Vet-Verified Facts, Risks & Safety Guide2\n\u2022 The Top 13 Plants + Flowers Toxic and Poisonous to Cats",
+    "family": "Hydrangeaceae"
+  },
+  "toxic_parts": [
+    "Flower",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Cyanogenic Glycosides (specifically, the plant contains compounds that can metabolize into cyanide)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cellular Hypoxia: When the plant parts (leaves, flowers, or buds) are chewed or digested, the cyanogenic glycosides are broken down by enzymes to release cyanide. Cyanide binds to ferric iron (Fe\n3+\n) in the enzyme cytochrome c oxidase within the mitochondria35.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Inhibition of Respiration: This binding blocks the electron transport chain, effectively preventing cells from using oxygen for energy production, leading to cellular hypoxia (oxygen starvation) despite the presence of oxygen in the blood34.\n4. Notes on",
+      "concentration_notes": "\u25e6 Concentration: The toxins are found in all parts of the plant, but the flowers and leaves contain the highest concentrations and pose the greatest risk6.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: While the mechanism is potentially lethal (cyanide poisoning), severe cyanide toxicity in small animals like cats is uncommon and typically requires the ingestion of large amounts37. In most household cases, ingestion results in gastrointestinal distress (vomiting, diarrhea) rather than fatal systemic hypoxia26. However, because the potential for severe toxicity exists, veterinary attention is recommended for any ingestion"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (Clinical signs typically appear quickly, potentially within hours).",
+      "notes": "This is one of the most frequently reported symptoms. It occurs as the body attempts to expel the irritating plant material and toxins.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Often accompanies vomiting. The toxins irritate the lining of the gastrointestinal tract.Lethargy and Depression"
+    },
+    {
+      "name": "Lethargy / Depression / Exhaustion",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Cats may appear unusually tired, weak, or unresponsive. General \"depression\" is a common clinical sign noted by veterinary sources.Abdominal Pain"
+    },
+    {
+      "name": "Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "The cat may show signs of discomfort when the belly is touched or may hunch over due to gastrointestinal cramping.Cyanide Toxicosis Signs (Rare but Possible)"
+    },
+    {
+      "name": "Respiratory Distress (Dyspnea), Rapid Breathing (Tachypnea), or Seizures",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Very Rapid (10\u201360 minutes after ingestion).",
+      "notes": "Because Hydrangeas contain cyanogenic glycosides, large ingestions can theoretically lead to cyanide poisoning. Symptoms of this include almond-flavored breath, brick-red mucous membranes (gums), tremors, and collapse. However, severe cyanide toxicity from Hydrangea is uncommon in small animals compared to the mild GI symptoms."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) and Activated Charcoal",
+      "description": "If the ingestion was recent (typically within 1\u20132 hours), the veterinarian will administer medication to induce vomiting to expel the plant material. This is often followed by the administration of activated charcoal, which helps bind any remaining toxins in the stomach to prevent absorption into the bloodstream.",
+      "notes": "Early intervention is crucial for the best chance of a full recovery. You should not attempt to induce vomiting at home without veterinary guidance, as improper methods can cause further injury.Symptomatic and Supportive Care",
+      "priority": 1
+    },
+    {
+      "name": "Fluid Therapy and Gastrointestinal Support",
+      "description": "The veterinarian provides intravenous (IV) fluids to prevent or treat dehydration caused by vomiting and diarrhea. They may also administer anti-emetics (to stop vomiting) and gastroprotectants to soothe the stomach lining.",
+      "notes": "Because the most common symptoms of Hydrangea poisoning are lethargy, vomiting, and diarrhea, supportive care is often the primary treatment needed to manage the animal's condition while the toxins clear their system.Monitoring for Cyanide Toxicity (Rare)",
+      "priority": 2
+    },
+    {
+      "name": "Oxygen Support and Specific Antidotes (if severe)",
+      "description": "Although rare with Hydrangea ingestion, the plant contains cyanogenic glycosides which can theoretically lead to cyanide poisoning. If severe signs such as rapid breathing (tachypnea) or bright red gums appear, the vet may administer oxygen and specific antidotes (such as sodium nitrite or sodium thiosulfate) to neutralize the cyanide.",
+      "notes": "Hydrangeas are generally considered to have a low likelihood of causing severe cyanide toxicity in small animals compared to other cyanogenic plants; most cases result only in gastrointestinal distress. However, veterinarians will monitor for these severe systemic signs as a precaution.",
+      "priority": 3
+    }
+  ]
+}

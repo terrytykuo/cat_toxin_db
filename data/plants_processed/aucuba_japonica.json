@@ -1,0 +1,59 @@
+{
+  "plant": {
+    "common_name": "Japanese Aucuba",
+    "scientific_name": "Aucuba japonica",
+    "family": "Cornaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a large bush featuring large, opposite, coarsely toothed leaves. It produces purple flowers arranged in a panicle at the ends of branches. In early winter, it matures to produce a scarlet berry fruit containing a single seed.\n\u2022 Habitat & Common Locations: It is commonly cultivated as an ornamental plant and is also kept as a houseplant. It is also known by the common names Japanese laurel or Spotted laurel.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "basics": {
+    "family": "Cornaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a large bush featuring large, opposite, coarsely toothed leaves. It produces purple flowers arranged in a panicle at the ends of branches. In early winter, it matures to produce a scarlet berry fruit containing a single seed.\n\u2022 Habitat & Common Locations: It is commonly cultivated as an ornamental plant and is also kept as a houseplant. It is also known by the common names Japanese laurel or Spotted laurel.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "toxic_parts": [
+    "Entire Plant",
+    "Fruit"
+  ],
+  "toxins": [
+    {
+      "name": "Aucubin (classified as an acid-labile glycoside)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: The compound acts primarily as a mild irritant to the gastrointestinal tract. Ingestion generally leads to gastrointestinal discomfort rather than systemic organ failure.\n4. Notes on",
+      "concentration_notes": "\u25e6 Concentration: The toxin is found in the entire plant, but it is specifically concentrated in the fruit (the scarlet berries), which may be attractive to pets.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: The plant is considered to have low toxicity. Veterinary sources note that a \"large exposure dose\" is typically required to cause toxicity. Small ingestions often result in no clinical signs, while severe cases (rare) may require treatment for dehydration and vomiting.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal Discomfort (Vomiting, Diarrhea)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the provided text.",
+      "notes": "\u25e6 The toxic compound, aucubin, is found throughout the plant but is concentrated in the fruit (scarlet berries).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Treatment usually involves antiemetics (to stop vomiting) and fluid therapy for rehydration if the case is severe, but often no treatment is needed for small ingestions."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Clinical Monitoring / No Medical Intervention",
+      "description": "For known small ingestions, the veterinarian may recommend monitoring the cat at home or in the clinic without administering medication or decontamination procedures.",
+      "notes": "Veterinary literature states that for \"small dose exposure cases,\" the recommended treatment is \"None.\" Toxicity usually requires a large exposure, and the plant primarily causes mild gastrointestinal discomfort.Rehydration Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Fluid Therapy / Rehydration",
+      "description": "The administration of fluids (typically subcutaneous or intravenous) to restore hydration levels in the cat.",
+      "notes": "This is necessary in \"severely affected cases\" where the cat has experienced significant fluid loss due to vomiting or diarrhea caused by the plant's glycoside, aucubin.Gastrointestinal Support",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Antiemetics",
+      "description": "The veterinarian administers medication to suppress nausea and stop vomiting.",
+      "notes": "Used in severe cases to manage the primary symptom of gastrointestinal discomfort.Electrolyte Management",
+      "priority": 3
+    },
+    {
+      "name": "Electrolyte Replacement",
+      "description": "Supplements are administered to restore the balance of essential minerals lost through persistent vomiting or diarrhea.",
+      "notes": "This is listed as a necessary step for \"severely affected cases\" alongside rehydration.",
+      "priority": 4
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "plant": {
+    "common_name": "Garlic",
+    "scientific_name": "Allium sativum",
+    "family": "Amaryllidaceae",
+    "description": "Bulbous flowering plant in the onion genus. Highly toxic to cats due to N-propyl disulfide."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Bulb",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "N-propyl disulfide (part of a group of sulfur compounds found in Allium species)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Oxidative Damage: These sulfur compounds cause oxidative damage to the hemoglobin within red blood cells.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Heinz Body Formation: This damage leads to the formation of Heinz bodies (clumps of denatured hemoglobin) on the red blood cells.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Hemolysis: The spleen removes these damaged cells prematurely, leading to their destruction (hemolysis). This results in hemolytic anemia, where the blood can no longer effectively transport oxygen.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: The plant compounds also directly irritate the gastrointestinal mucosa, causing vomiting and diarrhea.",
+      "concentration_notes": "\u25e6 High Potency: Garlic is considered to be approximately five times more toxic than onions.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Toxic Dose: Ingestion of garlic weighing as little as 0.5% of the cat's body weight can be toxic.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Concentrated Forms: Garlic powder and dried garlic are particularly dangerous because they are potent, concentrated forms of the toxin. All forms (raw, cooked, dried) remain toxic.\u2022 Clinical Perspectives on Feline Phytotoxicology1\n\u2022 Dangerous Foods for Cats - FOUR PAWS2\n\u2022 What Can't Cats Eat? 8 Toxic Foods for Cats - PetMD3\n\u2022 10 Foods that are Dangerous for Cats | Anicira"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Hemolytic Anemia (Heinz Body Anemia)",
+      "body_system": "Hematological",
+      "severity": "fatal",
+      "onset": "Delayed (Signs may not appear for several days after ingestion).",
+      "notes": "Garlic contains sulfur compounds that cause oxidative damage to red blood cells, leading to their destruction (hemolysis). This results in a dangerously low red blood cell count, preventing adequate oxygen transport throughout the body.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting, Diarrhea, and Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Delayed (Can appear several days later along with other symptoms,",
+      "notes": "The plant compounds irritate the gastrointestinal mucosa. While vomiting can be an early sign of irritation, it is often listed alongside the delayed systemic effects of poisoning.Discolored Mucous Membranes"
+    },
+    {
+      "name": "Pale, White, or Yellow (Jaundiced) Gums/Skin",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "Pale or white gums indicate severe anemia and blood loss. Yellow mucous membranes (jaundice) occur due to the breakdown of red blood cells releasing bilirubin into the system.Dark or Discolored Urine"
+    },
+    {
+      "name": "Hemoglobinuria (Red to Brown Urine)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Delayed.",
+      "notes": "The urine turns dark red or brown due to the presence of hemoglobin filtered from the destroyed red blood cells.General Weakness and Collapse"
+    },
+    {
+      "name": "Lethargy, Weakness, Stumbling (Ataxia), and Collapse",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "The cat may appear uncoordinated, tired, or unable to stand due to the lack of oxygen reaching the muscles and brain. Cats may also seek out warm spaces.Respiratory Distress"
+    },
+    {
+      "name": "Tachypnea (Rapid Breathing) or Difficulty Breathing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "The cat breathes rapidly in an attempt to compensate for the decreased oxygen-carrying capacity of the blood.Tachycardia"
+    },
+    {
+      "name": "Rapid Heartbeat (Tachycardia)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "The heart beats faster to try to pump the remaining oxygenated blood to vital organs more efficiently."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
+      "description": "If the ingestion is recent, the veterinarian will administer medication to induce vomiting and remove the garlic from the stomach. This is typically followed by activated charcoal to bind any remaining toxins in the gastrointestinal tract and prevent them from entering the bloodstream.",
+      "notes": "Owners should not attempt to induce vomiting at home (e.g., using hydrogen peroxide), as this can cause severe injury to the cat's stomach and throat. Professional induction is safer and more effective.Supportive Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "IV fluids are administered to maintain hydration and support organ function. This is particularly important to flush the kidneys, as the destruction of red blood cells releases hemoglobin (hemoglobinuria), which can darken the urine and potentially damage the kidneys.",
+      "notes": "Fluids also help manage the immediate gastrointestinal symptoms like vomiting and diarrhea often associated with plant poisoning.Hematological Monitoring and Oxygen Support",
+      "priority": 2
+    },
+    {
+      "name": "Blood Count Monitoring and Oxygen Therapy",
+      "description": "The veterinarian will monitor the cat's blood work (specifically packed cell volume and red blood cell count) to track the severity of the anemia. If the anemia becomes severe and limits oxygen delivery to tissues, oxygen therapy or a blood transfusion may be required to stabilize the patient.",
+      "notes": "Garlic toxicity is characterized by a delayed onset; symptoms like pale gums, rapid breathing, and lethargy may not appear for several days after ingestion. Therefore, observation and follow-up blood work are crucial even if the cat initially seems fine.",
+      "priority": 3
+    }
+  ]
+}

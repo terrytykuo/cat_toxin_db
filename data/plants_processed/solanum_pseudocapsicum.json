@@ -1,0 +1,80 @@
+{
+  "plant": {
+    "common_name": "Jerusalem Cherry",
+    "scientific_name": "Solanum pseudocapsicum",
+    "family": "Solanaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is described as a shrub with simple, lanceolate (lance-shaped) leaves that have entire or slightly serrated margins. It features small, star-shaped white flowers. The plant produces red, shiny berries (ripe fruits) that contain many white seeds.\n\u2022 Common Locations: It is commonly kept as a houseplant or ornamental shrub.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "basics": {
+    "family": "Solanaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is described as a shrub with simple, lanceolate (lance-shaped) leaves that have entire or slightly serrated margins. It features small, star-shaped white flowers. The plant produces red, shiny berries (ripe fruits) that contain many white seeds.\n\u2022 Common Locations: It is commonly kept as a houseplant or ornamental shrub.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Fruit"
+  ],
+  "toxins": [
+    {
+      "name": "Solanocapsine (and related alkaloids)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: The alkaloids act as potent irritants to the gastrointestinal tract, capable of causing severe inflammation and hemorrhagic diarrhea (bloody stool).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Neurological and Cardiac Effects: The toxins affect the central nervous system and heart, leading to progressive weakness, paralysis, and bradycardia (dangerously slow heart rate). In severe cases, this can escalate to circulatory collapse and convulsions.\n4. Notes on",
+      "concentration_notes": "\u25e6 Distribution: The toxic alkaloids are found in the leaves and the fruits (berries).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: Ingestion can cause a wide range of severe clinical signs, from gastrointestinal distress to fatal circulatory collapse.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea (often Hemorrhagic), Abdominal Pain, Anorexia",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "2\u201324 hours (General onset for Solanaceae/Nightshade alkaloid toxicity).",
+      "notes": "The diarrhea is specifically noted to be hemorrhagic (containing blood) in some cases. The irritation can also cause hypersalivation (drooling).Neurological Dysfunction (Seizures and Paralysis)"
+    },
+    {
+      "name": "Convulsions (Seizures), Progressive Weakness, Paralysis, Dilated Pupils",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Delayed (Neurological signs often follow gastrointestinal distress as the toxin is absorbed).",
+      "notes": "The clinical picture includes progressive weakness that can escalate to paralysis and convulsions. The alkaloids affect the central nervous system significantly.Cardiovascular Collapse"
+    },
+    {
+      "name": "Bradycardia (Slow Heart Rate), Circulatory Collapse",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Acute (Following absorption).",
+      "notes": "The alkaloids can cause a dangerous slowing of the heart rate (bradycardia) leading to total circulatory collapse (shock).Respiratory Distress"
+    },
+    {
+      "name": "Dyspnea (Difficulty Breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Acute.",
+      "notes": "Respiratory paralysis or distress is a potential complication of the severe neurological depression caused by the toxin."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Gastric Lavage (Stomach Pumping)",
+      "description": "The veterinarian inserts a tube into the cat's stomach to wash out contents and remove unabsorbed plant material.",
+      "notes": "This is explicitly suggested to remove the toxic alkaloids from the system before they can be fully absorbed.Toxin Adsorption",
+      "priority": 1
+    },
+    {
+      "name": "Administration of Activated Charcoal",
+      "description": "A substance is administered orally to bind with the remaining toxins in the gastrointestinal tract, preventing them from entering the bloodstream.",
+      "notes": "This step typically follows decontamination to minimize the bioavailability of the ingested alkaloids.Supportive Therapy",
+      "priority": 2
+    },
+    {
+      "name": "Fluid and Electrolyte Therapy",
+      "description": "Intravenous (IV) fluids and electrolytes are administered to correct dehydration and imbalances caused by severe vomiting and diarrhea.",
+      "notes": "This treatment is crucial for managing circulatory collapse (shock) and hemorrhagic diarrhea, both of which are potential severe symptoms of Jerusalem Cherry poisoning.Neurological Management",
+      "priority": 3
+    },
+    {
+      "name": "Administration of Anticonvulsants",
+      "description": "Medications are given to control or prevent seizures and convulsions.",
+      "notes": "This is necessary if the cat exhibits severe neurological signs, such as convulsions, which are documented effects of the plant's toxins.",
+      "priority": 4
+    }
+  ]
+}

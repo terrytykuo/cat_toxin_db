@@ -1,0 +1,89 @@
+{
+  "plant": {
+    "common_name": "Hummingbird Mint",
+    "scientific_name": "Agastache spp.",
+    "family": "Lamiaceae (Mint family)1,",
+    "description": "\u2022 Description: The provided sources do not contain information regarding the physical appearance, habitat, or specific regions where Hummingbird Mint is commonly found. They only note that it is less common than other mints and is considered unsafe for cats due to its essential oil content"
+  },
+  "basics": {
+    "family": "Lamiaceae (Mint family)1,",
+    "description": "\u2022 Description: The provided sources do not contain information regarding the physical appearance, habitat, or specific regions where Hummingbird Mint is commonly found. They only note that it is less common than other mints and is considered unsafe for cats due to its essential oil content"
+  },
+  "toxic_parts": [
+    "Root",
+    "Flower",
+    "Stem",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Essential Oils (The sources do not isolate specific terpenes or ketones for Hummingbird Mint specifically",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Enzymatic Deficiency: Cats lack specific liver enzymes (glucuronosyltransferase) required to break down and metabolize certain plant oils effectively.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Effects: Ingesting or inhaling these oils can cause gastrointestinal irritation, affect respiratory function, and stress the liver.\n4. Notes on",
+      "concentration_notes": "\u25e6 Status: Hummingbird Mint is explicitly listed as unsafe for cats due to its essential oil content.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: While a tiny taste of a fresh plant might only cause mild stomach upset (vomiting, drooling), concentrated forms (such as oils or extracts) are far more dangerous and can lead to serious respiratory distress, liver damage, or neurological issues.\u2022 Is Mint Safe For Cats? Hidden Toxic Types, Oils & What To Do"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (shortly after ingestion).",
+      "notes": "This is the most common reaction to mint plants. The essential oils can irritate the stomach lining. In cats with pre-existing bowel issues, the oils may relax the esophageal valve, increasing the risk of vomiting.Hypersalivation"
+    },
+    {
+      "name": "Drooling or Foaming at the Mouth",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate (upon tasting or chewing).",
+      "notes": "Often a reaction to the strong, unappealing taste or direct mucosal irritation from the essential oils.Weakness and Lethargy"
+    },
+    {
+      "name": "Lethargy or General Weakness",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Variable.",
+      "notes": "The cat may appear tired, unresponsive, or have an uncoordinated gait (ataxia), particularly if a significant amount of the plant\u2019s oils has been absorbed.Respiratory Distress"
+    },
+    {
+      "name": "Difficulty Breathing (Dyspnea), Coughing, or Sneezing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Acute.",
+      "notes": "Cats are extremely sensitive to essential oils. Inhaling strong aromas or ingesting the oils can irritate the respiratory tract, leading to labored breathing. This is more common with concentrated oils but can occur with potent plants.Liver Damage (Rare/Severe)"
+    },
+    {
+      "name": "Hepatic Dysfunction / Liver Failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Delayed (symptoms may develop over hours or days).",
+      "notes": "Cats lack specific liver enzymes (glucuronosyltransferase) needed to break down certain plant compounds. While liver failure is more commonly associated with Pennyroyal or concentrated essential oils, it is listed as a potential risk for \"unsafe\" mints like Hummingbird Mint if consumed in large quantities."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) or Gastric Lavage",
+      "description": "\u25e6 Emesis: If the ingestion was recent (typically within 1\u20132 hours), a veterinarian may administer prescription medication (such as xylazine or dexmedetomidine) to induce vomiting and remove the plant material from the stomach24.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastric Lavage: In more extreme cases where a large amount was consumed, the vet may perform a \"stomach pump\" procedure to wash out the stomach contents23.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Activated Charcoal: Following emesis or lavage, activated charcoal may be administered to bind any remaining toxins in the gastrointestinal tract and prevent further absorption",
+      "notes": "Critical Warning: You should never attempt to induce vomiting at home using hydrogen peroxide. While some older sources might suggest it, current veterinary guidelines state it can cause severe injury to a cat's mouth, throat, and stomach4. Decontamination should only be performed by a veterinary professional4.\n2. Supportive Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluids",
+      "description": "The veterinarian administers fluids directly into the bloodstream to correct dehydration caused by persistent vomiting or diarrhea. This also helps to flush toxins from the body and support liver and kidney function",
+      "notes": "This is particularly important if the cat has become dehydrated or is showing signs of shock or weakness2.\n3. Symptomatic Medication",
+      "priority": 2
+    },
+    {
+      "name": "Anti-emetics and Gastroprotectants",
+      "description": "\u25e6 Anti-emetics: Medications are given to stop severe or prolonged vomiting2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastroprotectants/Antacids: Medication is administered to coat the stomach lining and reduce acid, soothing the gastrointestinal irritation caused by the mint oils",
+      "notes": "Cats with pre-existing liver or bowel disease are at higher risk for complications and may require more aggressive symptomatic support5.\n4. Liver Monitoring and Observation",
+      "priority": 3
+    },
+    {
+      "name": "Hepatic Monitoring / Hospitalization",
+      "description": "Because essential oils can potentially cause liver damage (liver failure is a risk with certain mints like Pennyroyal, and a potential risk with high-concentration oil ingestion), the vet may perform blood tests to monitor liver enzymes. In severe cases, the cat may need to be hospitalized for continuous observation",
+      "notes": "While Hummingbird Mint is generally less toxic than Pennyroyal, the essential oil content makes liver stress a potential concern if a large quantity is ingested",
+      "priority": 4
+    }
+  ]
+}

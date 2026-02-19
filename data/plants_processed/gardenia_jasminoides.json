@@ -1,0 +1,57 @@
+{
+  "plant": {
+    "common_name": "Gardenia",
+    "scientific_name": "Gardenia jasminoides",
+    "family": "Rubiaceae",
+    "description": "Evergreen flowering plant of the coffee family, known for its fragrant white flowers."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Flower",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "s: Genioposide and gardenoside",
+      "chemical_formula": null,
+      "description": "in Cats\n\u2022 Gastrointestinal Irritation: These compounds act as irritants to the feline system, primarily causing mild gastrointestinal upset. Symptoms include vomiting and diarrhea1.\n\u2022 Dermatological Reaction: In some cases, ingestion or contact can lead to hives or a skin rash1.\n3. Concentration and Potency\n\u2022 Severity: The toxicity is classified as mild1.\n\u2022 Location: The toxins are found in all parts of the plant, with the flowers and leaves specifically noted1.\n\u2022 Prognosis: The reaction is generally mild and self-limiting; usually, offering water and monitoring the cat is sufficient, though veterinary advice should be sought if vomiting persists1.\u2022 Cat toxicity chart for 50 popular houseplants"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the source,",
+      "notes": "This is a common sign of gastrointestinal upset caused by the plant's toxic compounds (genioposide and gardenoside). The reaction is generally self-limiting.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the source.",
+      "notes": "Like vomiting, diarrhea is a result of the iridoid glycosides irritating the digestive tract. It usually resolves on its own but should be monitored.Hives and Skin Rash"
+    },
+    {
+      "name": "Hives (Urticaria) or Skin Rash",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the source.",
+      "notes": "Some cats may develop a dermatological reaction such as a rash or hives upon contact with the plant or after ingestion.General Clinical Note: The toxicity of Gardenia is classified as mild. Most cases do not require aggressive veterinary intervention. Offering water and monitoring the cat is often sufficient, but if vomiting, diarrhea, or skin irritation persists or the cat appears very uncomfortable, veterinary advice should be sought"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Supportive Care (Hydration and Observation)",
+      "description": "The primary recommendation is to offer the cat water to ensure they stay hydrated, especially if they have vomited. Owners should closely monitor the cat for signs of continued distress, persistent vomiting, or worsening skin irritation.",
+      "notes": "Because Gardenia toxicity is typically mild, most cats recover without the need for medical procedures. This step is often sufficient to manage the immediate after-effects of ingestion.Veterinary Symptomatic Management",
+      "priority": 1
+    },
+    {
+      "name": "Symptomatic Relief (Consultation)",
+      "description": "If the cat displays persistent vomiting, diarrhea, or develops a skin rash (hives) that does not resolve, a veterinarian should be contacted for advice. While specific drugs are not listed in the source for Gardenia, standard veterinary care for these persistent symptoms typically involves medications to stop vomiting (anti-emetics) or soothe skin irritation.",
+      "notes": "Veterinary care is secondary and conditional; it is recommended specifically if \"vomiting or rash persists or the cat seems uncomfortable.\"",
+      "priority": 2
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "plant": {
+    "common_name": "Gladioli / Sword Lily",
+    "scientific_name": "Gladiolus spp.",
+    "family": "Iridaceae",
+    "description": "Brief Description\n\u2022 Appearance: While the sources do not provide a detailed physical description of the leaves or blooms, they note that the plant grows from a bulb (corm), which is the most toxic part12. They are often referred to by the common name Sword Lily3.\n\u2022 Habitat and Where Commonly Found: They are widely used as ornamental garden plants and are a popular choice for cut flower arrangements and bouquets, particularly in the spring14.\nNote: The provided sources focus primarily on the toxicity of the plant rather than its botanical characteristics. If you need more specific details on its physical traits (such as leaf shape or flower colors) or native habitat, I can perform a search to find that information."
+  },
+  "basics": {
+    "family": "Iridaceae",
+    "description": "Brief Description\n\u2022 Appearance: While the sources do not provide a detailed physical description of the leaves or blooms, they note that the plant grows from a bulb (corm), which is the most toxic part12. They are often referred to by the common name Sword Lily3.\n\u2022 Habitat and Where Commonly Found: They are widely used as ornamental garden plants and are a popular choice for cut flower arrangements and bouquets, particularly in the spring14.\nNote: The provided sources focus primarily on the toxicity of the plant rather than its botanical characteristics. If you need more specific details on its physical traits (such as leaf shape or flower colors) or native habitat, I can perform a search to find that information."
+  },
+  "toxic_parts": [
+    "Bulb",
+    "Leaf",
+    "Flower"
+  ],
+  "toxins": [
+    {
+      "name": "The sources do not specify the exact bioactive compound",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: Unlike true lilies (Lilium spp.) that cause kidney failure, Gladioli primarily cause severe irritation to the digestive tract. This leads to symptoms such as salivation (drooling), vomiting, and diarrhea.\n4. Notes on",
+      "concentration_notes": "\u25e6 Highest Concentration in Bulbs: The bulb (also known as the corm) is the most toxic part of the plant.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Severity: While considered generally less dangerous than true lilies, ingestion can still cause significant discomfort and severe gastrointestinal upset.\u2022 11 popular plants and flowers poisonous to cats - Vets Now1\n\u2022 Outdoor Plants That Are Toxic to Cats: 10 to Avoid (Vet-Reviewed) - Catster2\n\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea (Gastrointestinal Upset)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (Typically within a few hours of ingestion).",
+      "notes": "Ingestion of any part of the plant can cause these symptoms, but the bulb (corm) is the most toxic part and causes the most severe reactions.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling / Salivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Acute (Immediate to shortly after chewing/ingestion).",
+      "notes": "This occurs due to the plant's irritant properties on the mouth and digestive tract. Gladioli belong to the Iridaceae (Iris) family, which are known to cause oral and mucosal irritation when eaten.Lethargy"
+    },
+    {
+      "name": "Lethargy",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute (Accompanying gastrointestinal symptoms).",
+      "notes": "The cat may appear tired or disinterested in food due to the abdominal discomfort and nausea associated with the poisoning.Abdominal Pain"
+    },
+    {
+      "name": "Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Often described as \"stomach upset\" or discomfort. Because Gladioli are in the same family as Irises, symptoms can overlap, including general abdominal tenderness."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Pharmacological Symptom Management (Anti-emetics and Antidiarrheals)",
+      "description": "Veterinarians administer medications to control the primary symptoms of poisoning. Anti-emetics are given to stop vomiting, and antidiarrheals are used to manage diarrhea. A bland diet may be prescribed for several days to soothe the digestive tract during recovery.",
+      "notes": "Because Gladioli act primarily as gastrointestinal irritants, the goal is to stabilize the cat and prevent further fluid loss. Most animals recover within 24\u201348 hours with this support.Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
+      "description": "If the cat has experienced significant vomiting or diarrhea, the veterinarian will administer fluids to correct dehydration and restore electrolyte balance.",
+      "notes": "This is particularly important if the cat is lethargic or has been unable to keep water down. Maintaining hydration helps flush toxins and supports general organ function.Gastrointestinal Decontamination (Emesis)",
+      "priority": 2
+    },
+    {
+      "name": "Induction of Emesis (Vomiting)",
+      "description": "If the ingestion was very recent (typically within 1\u20132 hours) and the cat is asymptomatic, the veterinarian may induce vomiting to remove the plant material (especially the toxic bulbs) from the stomach before the toxins are fully absorbed.",
+      "notes": "This should never be attempted at home using hydrogen peroxide, as it can cause severe irritation and injury to cats. It must be performed by a veterinary professional.Oral Decontamination and Soothing",
+      "priority": 3
+    },
+    {
+      "name": "Oral Rinsing and Demulcents",
+      "description": "If the cat is drooling excessively or showing signs of oral irritation (common with plants in the Iridaceae family), the vet may rinse the mouth to remove plant residue. They may also administer demulcents (soothing agents) or dairy products (like milk) to bind crystals and soothe the mucous membranes.",
+      "notes": "While less common for Gladioli than for plants with insoluble oxalates (like Dieffenbachia), oral irritation can occur.",
+      "priority": 4
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "plant": {
+    "common_name": "Foxglove",
+    "scientific_name": "Digitalis purpurea",
+    "family": "Plantaginaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is typically an erect biennial plant (producing a low cluster of leaves in its first year and flowering in the second). It features simple, hairy, alternate leaves that are ovate to lanceolate with toothed margins12. The plant is known for its trumpet-like or tubular flowers, which grow in terminal racemes and can be purple, pink, red, white, or yellow, often with spots inside13. The fruit is a capsule containing many seeds\u2014a single plant can produce over a million seeds12.\n\u2022 Habitat and Where Commonly Found: Originally introduced to America from Europe as an ornamental garden plant, it has escaped cultivation in some areas to become a weed2. It is commonly found in the northern half of the United States and Canada, specifically noted in parts of Oregon, Washington, and West Virginia24. In the wild, it grows along roads, fence rows, in small clearings, and on the borders of timberland"
+  },
+  "basics": {
+    "family": "Plantaginaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is typically an erect biennial plant (producing a low cluster of leaves in its first year and flowering in the second). It features simple, hairy, alternate leaves that are ovate to lanceolate with toothed margins12. The plant is known for its trumpet-like or tubular flowers, which grow in terminal racemes and can be purple, pink, red, white, or yellow, often with spots inside13. The fruit is a capsule containing many seeds\u2014a single plant can produce over a million seeds12.\n\u2022 Habitat and Where Commonly Found: Originally introduced to America from Europe as an ornamental garden plant, it has escaped cultivation in some areas to become a weed2. It is commonly found in the northern half of the United States and Canada, specifically noted in parts of Oregon, Washington, and West Virginia24. In the wild, it grows along roads, fence rows, in small clearings, and on the borders of timberland"
+  },
+  "toxic_parts": [
+    "Stem",
+    "Leaf",
+    "Flower",
+    "Pollen",
+    "Seed",
+    "Root",
+    "Sap",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Cardiac Glycosides (specifically classified as Cardenolides). Specific compounds identified include Digitalis, Digoxin, Digitoxin, Gitoxin",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Inhibition of ATPase Pump: These toxins inhibit the sodium-potassium ATPase pump (Na+-K+-ATPase) in cell membranes.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Electrolyte Imbalance: This inhibition increases intracellular sodium, which in turn alters the sodium-calcium exchanger, leading to a dangerous rise in intracellular calcium.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cardiac Effect: The excess calcium increases the contractility of the heart muscle (myocardial contractility) but disrupts the heart's electrical conduction, leading to severe arrhythmias (irregular heartbeats) and potential heart failure.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Extracardiac Effects: The toxins also directly irritate the gastrointestinal tract and stimulate the chemoreceptor trigger zone in the brain, causing vomiting.",
+      "concentration_notes": "\u25e6 High Potency: The plant is extremely toxic; ingestion of even a minute amount of the plant material (fresh or dried) or seeds can be fatal.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Vase Water: The water in a vase containing Foxglove is also toxic.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Variation in Toxicity: The upper leaves of the stem are noted to be more potent than the lower leaves. The plant retains its toxicity even when dried.\u2022 Clinical Perspectives on Feline Phytotoxicology\n\u2022 Foxglove - American College of Veterinary Pharmacists\n\u2022 Foxglove Flower Alert - What's Cooking America\n\u2022 11 popular plants and flowers poisonous to cats - Vets Now"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Bloody Diarrhea, and Nausea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within 2 hours (Acute).",
+      "notes": "Vomiting and abdominal pain are typically the first signs of toxicity. The plant acts as a direct irritant to the gut, but the toxins also stimulate the chemoreceptor trigger zone in the brain.Cardiac Arrhythmias"
+    },
+    {
+      "name": "Bradycardia (Slow Heart Rate), Tachycardia (Fast Heart Rate), or Irregular Pulse",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within 2 hours (and can persist for days).",
+      "notes": "The toxins inhibit the sodium-potassium pump in heart cells, causing a rise in intracellular calcium. This leads to forceful but irregular heart contractions, heart block, and potential cardiac collapse.Neurological Abnormalities"
+    },
+    {
+      "name": "Weakness, Tremors, and Convulsions (Seizures)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Acute (following or accompanying cardiac signs).",
+      "notes": "Cats may appear uncoordinated (ataxia) or profoundly weak due to the cardiovascular compromise and direct neurotoxic effects. Dilated pupils (mydriasis) may also be observed.Hyperkalemia"
+    },
+    {
+      "name": "Hyperkalemia (High Potassium Levels)",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Acute (detectable via blood tests shortly after ingestion).",
+      "notes": "The inhibition of the cellular pump causes extracellular potassium to accumulate. Severe hyperkalemia (> 7.5\u20139 mEq/L) is life-threatening and complicates the heart rhythm issues.Frequent Urination"
+    },
+    {
+      "name": "Frequent Urination",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "This symptom is specifically noted in veterinary toxicology reports for Foxglove ingestion, potentially linked to the body's attempt to excrete the toxins or cardiovascular shifts."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis and Administration of Activated Charcoal",
+      "description": "If the ingestion is recent and the cat is neurologically stable (not seizing), the veterinarian will induce vomiting to remove plant material from the stomach. This is followed by the administration of activated charcoal with a cathartic to bind the toxins.",
+      "notes": "Because cardiac glycosides undergo \"enterohepatic recirculation\" (the body reabsorbs the toxin), veterinarians recommend repeating the activated charcoal dose (without cathartic) every 6\u20138 hours for a total of three doses2. Decontamination should not be attempted at home with hydrogen peroxide, as this can cause further injury3.Administration of Specific Antidote (Digoxin Immune Fab)",
+      "priority": 1
+    },
+    {
+      "name": "Digoxin-specific Antibody Fragments (Fab)",
+      "description": "This is an immunotherapy treatment where specific antibody fragments bind to the cardiac glycoside toxins in the blood, neutralizing them and allowing the body to excrete them safely.",
+      "notes": "Because the toxins in Foxglove are structurally similar to the heart medication digoxin, this specific antidote works well for Foxglove poisoning2. It is generally reserved for life-threatening cases due to cost and availability, but patients treated with this antidote have a guarded to good prognosis2.Cardiac Support Medications (Atropine and Anti-arrhythmics)",
+      "priority": 2
+    },
+    {
+      "name": "Pharmacological Heart Rate and Rhythm Management",
+      "description": "The veterinarian will administer atropine or glycopyrrolate to treat severe bradycardia (dangerously slow heart rate). If the cat is experiencing irregular heart rhythms (arrhythmias), anti-arrhythmic drugs such as lidocaine, procainamide, or phenytoin may be used",
+      "notes": "Continuous electrocardiogram (ECG) monitoring is required to detect heart blocks or arrhythmias early5. The toxins cause the heart to contract more forcefully but slower; managing this balance is critical to survival7.Fluid Therapy and Electrolyte Correction",
+      "priority": 3
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and Management of Hyperkalemia",
+      "description": "IV fluids are administered to maintain blood pressure and support kidney function. Crucially, the vet will monitor for hyperkalemia (high potassium levels), a common and fatal result of Foxglove poisoning. Severe hyperkalemia (> 7.5\u20139 mEq/L) is treated with sodium bicarbonate or a dextrose and insulin therapy to lower potassium levels",
+      "notes": "Calcium should not be administered, as intracellular calcium is already dangerously high due to the toxin's mechanism of action7. Mild hyperkalemia may be managed with fluids alone, but severe cases require aggressive intervention to prevent cardiac standstill",
+      "priority": 4
+    }
+  ]
+}

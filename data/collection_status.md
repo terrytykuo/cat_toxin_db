@@ -64,32 +64,32 @@
 | 60 | English Holly | English Holly | Ilex aquifolium | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 61 | English Ivy | English Ivy | Hedera spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 62 | Eucalyptus | Eucalyptus | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 63 | Fetterbush / Staggerbush | Fetterbush / Staggerbush | Lyonia spp. | | | | | | | |
-| 64 | Ficus / Weeping Fig | Ficus / Weeping Fig | Ficus spp. | | | | | | | |
-| 65 | Ficus Audrey | Ficus Audrey | Ficus benghalensis | | | | | | | |
-| 66 | Fiddle Leaf Fig | Fiddle Leaf Fig | Ficus lyrata | | | | | | | |
-| 67 | Fire Lily | Fire Lily | Clivia miniata | | | | | | | |
-| 68 | Flamingo Flower / Anthurium | Flamingo Flower / Anthurium | Anthurium spp. | | | | | | | |
-| 69 | Foxglove | Foxglove | Digitalis purpurea or Digitalis lantans | | | | | | | |
-| 70 | Gardenia | Gardenia | Gardenia | | | | | | | |
-| 71 | Garlic | Garlic | Allium sativum | | | | | | | |
-| 72 | Gladioli / Sword Lily | Gladioli / Sword Lily | Gladiolus spp. | | | | | | | |
-| 73 | Grapes / Raisins / Currants | Grapes / Raisins / Currants | Vitis - implied | | | | | | | |
-| 74 | Heavenly Bamboo | Heavenly Bamboo | Nandina spp. | | | | | | | |
-| 75 | Holly | Holly | Ilex | | | | | | | |
-| 76 | Homalomena ‘Selby’ | Homalomena ‘Selby’ | N/A | | | | | | | |
-| 77 | Honeysuckle | Honeysuckle | N/A | | | | | | | |
-| 78 | Hummingbird Mint | Hummingbird Mint | N/A | | | | | | | |
-| 79 | Hyacinth | Hyacinth | Hyacinthus spp. | | | | | | | |
-| 80 | Hydrangea | Hydrangea | Hydrangea spp. | | | | | | | |
-| 81 | Iris | Iris | Iris | | | | | | | |
-| 82 | Italian Arum | Italian Arum | Arum spp. | | | | | | | |
-| 83 | Jade Plant | Jade Plant | Crassula arborescens or Crassula | | | | | | | |
-| 84 | Japanese Aucuba | Japanese Aucuba | Aucuba japonica | | | | | | | |
-| 85 | Japanese Pieris | Japanese Pieris | Pieris japonica | | | | | | | |
-| 86 | Jerusalem Cherry | Jerusalem Cherry | Solanum pseudocapsicum | | | | | | | |
-| 87 | Jimson Weed | Jimson Weed | N/A | | | | | | | |
-| 88 | Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy | Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy | Kalanchoe spp. | | | | | | | |
+| 63 | Fetterbush / Staggerbush | Fetterbush / Staggerbush | Lyonia spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 64 | Ficus / Weeping Fig | Ficus / Weeping Fig | Ficus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 65 | Ficus Audrey | Ficus Audrey | Ficus benghalensis | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 66 | Fiddle Leaf Fig | Fiddle Leaf Fig | Ficus lyrata | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 67 | Fire Lily | Fire Lily | Clivia miniata | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 68 | Flamingo Flower / Anthurium | Flamingo Flower / Anthurium | Anthurium spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 69 | Foxglove | Foxglove | Digitalis purpurea | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 70 | Gardenia | Gardenia | Gardenia jasminoides | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 71 | Garlic | Garlic | Allium sativum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 72 | Gladioli / Sword Lily | Gladioli / Sword Lily | Gladiolus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 73 | Grapes / Raisins / Currants | Grapes / Raisins / Currants | Vitis - implied | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 74 | Heavenly Bamboo | Heavenly Bamboo | Nandina spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 75 | Holly | Holly | Ilex | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 76 | Homalomena ‘Selby’ | Homalomena ‘Selby’ | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 77 | Honeysuckle | Honeysuckle | Lonicera spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 78 | Hummingbird Mint | Hummingbird Mint | Agastache spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 79 | Hyacinth | Hyacinth | Hyacinthus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 80 | Hydrangea | Hydrangea | Hydrangea spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 81 | Iris | Iris | Iris | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 82 | Italian Arum | Italian Arum | Arum spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 83 | Jade Plant | Jade Plant | Crassula arborescens or Crassula | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 84 | Japanese Aucuba | Japanese Aucuba | Aucuba japonica | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 85 | Japanese Pieris | Japanese Pieris | Pieris japonica | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 86 | Jerusalem Cherry | Jerusalem Cherry | Solanum pseudocapsicum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 87 | Jimson Weed | Jimson Weed | Datura stramonium | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 88 | Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy | Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy | Kalanchoe spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 89 | Lantana | Lantana | N/A | | | | | | | |
 | 90 | Lavender | Lavender | Lavandula | | | | | | | |
 | 91 | Leek | Leek | Allium porrum | | | | | | | |

@@ -1,0 +1,94 @@
+{
+  "plant": {
+    "common_name": "Iris",
+    "scientific_name": "Iris spp.",
+    "family": "Iridaceae",
+    "description": "Brief Description\n\u2022 Appearance: Irises are described as \"stunning\" plants known for producing \"lovely, ruffled flowers\"2. They bloom in a \"plethora of colors\"3. Structurally, many popular varieties grow from bulbs, which are noted to be the most toxic part of the plant12.\n\u2022 Where Commonly Found: They are widely kept as garden plants3 and are very popular as fresh cut flowers in vases2. They are specifically noted as popular spring flowers",
+    "toxins": [
+      "Iridin",
+      "Glycosides",
+      "Resinoids"
+    ]
+  },
+  "basics": {
+    "family": "Iridaceae",
+    "description": "Brief Description\n\u2022 Appearance: Irises are described as \"stunning\" plants known for producing \"lovely, ruffled flowers\"2. They bloom in a \"plethora of colors\"3. Structurally, many popular varieties grow from bulbs, which are noted to be the most toxic part of the plant12.\n\u2022 Where Commonly Found: They are widely kept as garden plants3 and are very popular as fresh cut flowers in vases2. They are specifically noted as popular spring flowers"
+  },
+  "toxic_parts": [
+    "Stem",
+    "Leaf",
+    "Flower",
+    "Bulb",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Iridin",
+      "chemical_formula": "C24H26O13",
+      "description": "Glycoside causing gastrointestinal irritation.",
+      "concentration_notes": "Highest concentration in rhizomes."
+    },
+    {
+      "name": "Pentacyclic terpenoids",
+      "chemical_formula": null,
+      "description": "Irritating compounds found in sap.",
+      "concentration_notes": "Cause dermatitis and oral irritation."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Nausea, and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the provided text (though general plant toxicity symptoms often appear a",
+      "notes": "These are the most common signs of ingestion. The toxicity is highest in the bulbs, so cats digging up or chewing on rhizomes are at greater risk than those nibbling leaves.Oral Ulceration and Irritation"
+    },
+    {
+      "name": "Mouth Ulcers and Oral Irritation",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (upon contact/ingestion).",
+      "notes": "Ingestion can cause physical damage and chemical irritation to the mouth, leading to visible sores or ulcers. Drooling (hypersalivation) may occur as a reaction to this irritation.Dermatitis"
+    },
+    {
+      "name": "Skin Irritation (Dermatitis)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Not explicitly specified.",
+      "notes": "Contact with the plant sap or parts can cause irritation to the skin, which is a distinct symptom noted for Irises compared to many other toxic plants.Abdominal Pain"
+    },
+    {
+      "name": "Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified.",
+      "notes": "This pain is likely secondary to the severe gastrointestinal irritation caused by the plant's compounds.Important Distinction: It is crucial to distinguish Iris from True Lilies (Lilium or Hemerocallis species). While Irises cause \"extreme discomfort\" and gastrointestinal/dermal irritation, they are not noted in the sources to cause the fatal acute renal failure associated with true lilies5,2. However, veterinary attention is still recommended to manage dehydration and pain"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting)",
+      "description": "If the cat is brought in shortly after ingestion, the veterinarian may administer medication to induce vomiting. This expels the plant material from the stomach before the toxins (irritating resinoids and glycosides) are fully absorbed or pass into the intestines",
+      "notes": "This is particularly urgent if the cat has ingested the bulb, which contains the highest concentration of toxins and causes the most severe symptoms25. Owners should not attempt to induce vomiting at home, as this can cause injury or aspiration6.\n2. Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
+      "description": "The veterinary team administers fluids directly into the bloodstream or under the skin to correct electrolyte imbalances and hydration levels",
+      "notes": "This treatment is critical because Iris ingestion causes symptoms that lead to rapid fluid loss, including nausea, vomiting, and diarrhea2.... Fluid therapy helps maintain blood pressure and supports the body in clearing the toxins9.\n3. Symptomatic and Oral Care",
+      "priority": 2
+    },
+    {
+      "name": "Gastroprotectants and Pain Management",
+      "description": "Veterinarians may administer anti-emetics (to stop vomiting), medications to coat the stomach, and analgesics for pain",
+      "notes": "Iris toxicity is distinct for causing mouth ulcers and oral irritation78. Supportive care is necessary to soothe the chemical burns in the mouth and throat that may prevent the cat from eating or drinking comfortably7.\n4. Dermal Decontamination",
+      "priority": 3
+    },
+    {
+      "name": "Dermal Washing / Bathing",
+      "description": "If the cat has plant sap on its fur or skin, the vet may wash the area with mild soap and water to prevent further absorption or ingestion during grooming",
+      "notes": "Unlike many other toxic plants, the Iris is specifically noted for causing dermatitis (skin irritation) upon contact78. Removing traces of the plant from the coat prevents the cat from re-infecting itself by licking the irritated skin",
+      "priority": 4
+    }
+  ]
+}

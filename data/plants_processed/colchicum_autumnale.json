@@ -11,9 +11,9 @@
   },
   "toxic_parts": [
     "Bulb",
-    "Entire Plant",
+    "Seed",
     "Flower",
-    "Seed"
+    "Entire Plant"
   ],
   "toxins": [
     {

@@ -11,8 +11,8 @@
   },
   "toxic_parts": [
     "Bulb",
-    "Flower",
-    "Leaf"
+    "Leaf",
+    "Flower"
   ],
   "toxins": [
     {
@@ -34,7 +34,7 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Not explicitly specified, though general GI upset typically follows ingestion.\n\u00a0\u00a0\u00a0\u00a05. Additional",
-      "notes": "Ingestion of the plant material (leaves, flowers) primarily causes local irritation to the digestive tract. It does not typically cause the systemic organ failure associated with the Autumn Crocus.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u25aa Sources:1,2\n\n--------------------------------------------------------------------------------\n\n2. Autumn Crocus (Colchicum autumnale)\nThe Autumn Crocus (also known as Meadow Saffron) is highly toxic and potentially fatal. It contains colchicine, a toxin that inhibits rapid cell division, affecting multiple body systems.\nA. Severe Gastrointestinal Hemorrhage"
+      "notes": "Ingestion of the plant material (leaves, flowers) primarily causes local irritation to the digestive tract. It does not typically cause the systemic organ failure associated with the Autumn Crocus.--------------------------------------------------------------------------------\n\n2. Autumn Crocus (Colchicum autumnale)\nThe Autumn Crocus (also known as Meadow Saffron) is highly toxic and potentially fatal. It contains colchicine, a toxin that inhibits rapid cell division, affecting multiple body systems.\nA. Severe Gastrointestinal Hemorrhage"
     },
     {
       "name": "Bloody Vomiting and Diarrhea; Oral Irritation",

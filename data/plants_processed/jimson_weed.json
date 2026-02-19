@@ -1,0 +1,79 @@
+{
+  "plant": {
+    "common_name": "Jimson Weed",
+    "scientific_name": "Datura stramonium",
+    "family": "Solanaceae",
+    "description": "Annual herb in the nightshade family, foul-smelling, trumpet-shaped flowers."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Toxic Compounds",
+      "chemical_formula": "s of the toxins in Jimson Weed.",
+      "description": "(Inferred from Symptoms): While the specific physiological mechanism is not described in detail, the clinical signs reported\u2014such as dilated pupils, rapid pulse, and convulsions\u2014indicate that the toxin significantly affects the cardiovascular and central nervous systems, likely causing overstimulation or disruption of normal neurological and cardiac function."
+    },
+    {
+      "name": "Clinical Signs and Toxicity"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Rapid Breathing (Tachypnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the provided sources.",
+      "notes": "This is often one of the immediate physiological responses to the toxicity listed alongside cardiac issues.Dilated Pupils"
+    },
+    {
+      "name": "Dilated Pupils (Mydriasis)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the provided sources.",
+      "notes": "This sign indicates the toxin's effect on the nervous system, typically associated with the plant's alkaloid properties (though the specific alkaloids are not named in this source text).Rapid Pulse"
+    },
+    {
+      "name": "Rapid Pulse (Tachycardia)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the provided sources.",
+      "notes": "The plant causes significant cardiovascular stimulation.Neurological Dysfunction (Twitching and Convulsions)"
+    },
+    {
+      "name": "Twitching and Convulsions",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Not explicitly specified in the provided sources.",
+      "notes": "Neurological signs can escalate from muscle twitching to full convulsions. Without intervention, this can progress to coma and death.Gastrointestinal Upset"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the provided sources.",
+      "notes": "While gastrointestinal distress is present, the neurological and cardiac signs are generally the primary cause for concern regarding mortality."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
+      "description": "Upon arrival at the clinic, if the ingestion is recent, the veterinarian may administer medication to make the cat vomit, removing the plant material from the stomach. This is often followed by the administration of activated charcoal, which binds to the toxins in the digestive tract to prevent them from being absorbed into the bloodstream.",
+      "notes": "\u25e6 Do not attempt to induce vomiting at home without specific instructions from a veterinarian, as this can cause complications.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Ingesting any part of the Jimson Weed plant is considered toxic.Symptomatic Care and Monitoring",
+      "priority": 1
+    },
+    {
+      "name": "Vital Sign Monitoring and Supportive Care",
+      "description": "The veterinary team will monitor the cat's heart rate, respiratory rate, and neurological status. Supportive care may include intravenous (IV) fluids to maintain hydration, support blood pressure, and help flush toxins from the body.",
+      "notes": "Jimson Weed ingestion causes specific symptoms that require close observation, including rapid pulse (tachycardia), rapid breathing, dilated pupils, and diarrhea.Management of Neurological and Respiratory Signs",
+      "priority": 2
+    },
+    {
+      "name": "Seizure Control and Respiratory Support",
+      "description": "If the cat exhibits severe neurological signs such as twitching or convulsions (seizures), the veterinarian may administer anticonvulsant medications. Oxygen therapy or other respiratory support may be provided if the cat is experiencing difficulty breathing.",
+      "notes": "Severe cases of Jimson Weed poisoning can lead to coma and death if left untreated. The plant causes significant central nervous system stimulation followed by depression.",
+      "priority": 3
+    }
+  ]
+}
