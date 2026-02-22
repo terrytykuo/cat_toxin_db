@@ -108,7 +108,9 @@ MANUAL_FAMILIES = {
     "Nandina Photina spp.": "Rosaceae",
     "Pinus spp.": "Pinaceae",
     "Papaver spp.": "Papaveraceae",
-    "Chrysanthemum morifolium": "Asteraceae"
+    "Chrysanthemum morifolium": "Asteraceae",
+    "Solanum tuberosum": "Solanaceae",
+    "Zephyranthes drummondii": "Amaryllidaceae"
 }
 
 MANUAL_DESCRIPTIONS = {
@@ -147,7 +149,8 @@ MANUAL_TOXIC_PARTS = {
     "Prunus laurocerasus": ["Leaf", "Seed", "Berry"],
     "Cinnamomum verum": ["Sap", "Bark"],
     "Darlingtonia californica": ["Leaf"],
-    "Paeonia spp.": ["Root", "Bark", "Flower", "Seed"]
+    "Paeonia spp.": ["Root", "Bark", "Flower", "Seed"],
+    "Zephyranthes drummondii": ["Bulb", "Leaf", "Stem", "Flower"]
 }
 
 def strip_source_refs(text):
@@ -596,6 +599,28 @@ def postprocess(processed):
                 {"name": "Hypersalivation", "severity": "mild", "body_system": "Gastrointestinal"},
                 {"name": "Incoordination", "severity": "moderate", "body_system": "Neurological"}
             ]
+
+    # Force Zephyranthes drummondii data if empty
+    if sci_name == "Zephyranthes drummondii":
+        if not processed.get("toxins"):
+            processed["toxins"] = [{
+                "name": "Lycorine",
+                "chemical_formula": "C16H17NO4",
+                "description": "An alkaloid that causes gastrointestinal irritation and distress.",
+                "concentration_notes": "Concentrated mostly in the bulbs."
+            }]
+        if not processed.get("symptoms") or any("not a recognized system" in str(s.get("body_system", "")) for s in processed.get("symptoms", [])) or "report1" in str(processed.get("symptoms", [])):
+            processed["symptoms"] = [
+                {"name": "Vomiting", "severity": "mild", "body_system": "Gastrointestinal"},
+                {"name": "Diarrhea", "severity": "moderate", "body_system": "Gastrointestinal"},
+                {"name": "Hypersalivation", "severity": "mild", "body_system": "Gastrointestinal"}
+            ]
+        if not processed.get("treatments"):
+            processed["treatments"] = [{
+                "name": "Decontamination and Supportive Care",
+                "description": "Provide supportive care for gastrointestinal upset. Rinse mouth, provide fluids if vomiting is severe.",
+                "priority": 1
+            }]
 
     # Force Scadoxus data if empty
     if sci_name == "Scadoxus spp." and not processed.get("toxins"):

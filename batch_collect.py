@@ -147,12 +147,12 @@ def main():
     # Process next 6 plants (total 7 for today including the test run)
     # Indices 0 to 6 (plants #1 to #7)
     
-    # Process Phase: Indices 115, 122, 123, 124
+    # Process Phase: Indices 115, 125, 126, 127
     # 116: Peppermint
-    # 123: Polka Dot Begonia
-    # 124: Pom Flowers
-    # 125: Poppy
-    target_indices = [115, 122, 123, 124]
+    # 126: Potato
+    # 127: Pothos / Devil’s Ivy
+    # 128: Prairie Lily
+    target_indices = [115, 125, 126, 127]
     
     print(f"🎯 Targeting {len(target_indices)} plants for collection: {target_indices}")
 

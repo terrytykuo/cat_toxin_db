@@ -127,9 +127,9 @@
 | 123 | Polka Dot Begonia | Polka Dot Begonia | Begonia maculata | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 124 | Pom Flowers | Pom Flowers | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 125 | Poppy | Poppy | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 126 | Potato | Potato | Solanum tuberosum | | | | | | | |
-| 127 | Pothos / Devil’s Ivy | Pothos / Devil’s Ivy | Epipremnum aureum or Epipremnum spp. | | | | | | | |
-| 128 | Prairie Lily | Prairie Lily | Zephyranthes drummondii | | | | | | | |
+| 126 | Potato | Potato | Solanum tuberosum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 127 | Pothos / Devil’s Ivy | Pothos / Devil’s Ivy | Epipremnum aureum or Epipremnum spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 128 | Prairie Lily | Prairie Lily | Zephyranthes drummondii | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 129 | Ragwort / Tansy | Ragwort / Tansy | N/A | | | | | | | |
 | 130 | Rhododendron | Rhododendron | Rhododendron spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 131 | Rhubarb | Rhubarb | Rheum rhabarbarum | | | | | | | |

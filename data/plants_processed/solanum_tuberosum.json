@@ -1,0 +1,100 @@
+{
+  "plant": {
+    "common_name": "Potato",
+    "scientific_name": "Solanum tuberosum",
+    "family": "Solanaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: While the provided sources focus primarily on the plant's toxicity rather than a detailed botanical description, they note that the plant consists of above-ground foliage\u2014including leaves and stems\u2014and underground structures that produce fleshy tubers24. These tubers have a peel or skin and can develop sprouts, which are also referred to as \"eyes\"14.\n\u2022 Habitat and Where Commonly Found: Potatoes are a widely cultivated agricultural crop. Consequently, they are extremely common in everyday households, where they are primarily kept and prepared as a staple food source"
+  },
+  "basics": {
+    "family": "Solanaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: While the provided sources focus primarily on the plant's toxicity rather than a detailed botanical description, they note that the plant consists of above-ground foliage\u2014including leaves and stems\u2014and underground structures that produce fleshy tubers24. These tubers have a peel or skin and can develop sprouts, which are also referred to as \"eyes\"14.\n\u2022 Habitat and Where Commonly Found: Potatoes are a widely cultivated agricultural crop. Consequently, they are extremely common in everyday households, where they are primarily kept and prepared as a staple food source"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Stem",
+    "Root"
+  ],
+  "toxins": [
+    {
+      "name": "s: Solanine and \u03b1-chaconine",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: These glycoalkaloids act as both cytotoxins and neurotoxins, affecting the cat's body through three primary mechanisms:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cytotoxic effect on cell membranes: The toxins interact with the phospholipids of cell membranes, increasing their permeability and causing the cells to be destroyed2. This particularly damages the epithelial cells of the intestines, leading to severe gastrointestinal irritation and inflammation2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Inhibition of Acetylcholinesterase: Solanine inhibits acetylcholinesterase, the enzyme responsible for breaking down the neurotransmitter acetylcholine3. This causes an overstimulation of the parasympathetic nervous system, leading to neurological symptoms, muscle tremors, excessive salivation, and a abnormally slow heart rate (bradycardia)3.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Impairment of Mitochondrial Function: These toxins disrupt the energy balance of the cells by inhibiting the respiratory chain, which results in weakness, lethargy, and central nervous system (CNS) depression",
+      "concentration_notes": "\u25e6 Concentration: The toxins are highly concentrated in the green tubers, the sprouts (eyes), and the peels of the potato5. Conversely, cooked, peeled potatoes contain only trace amounts of the toxins and are considered tolerable for pets in moderation5.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Feline Sensitivity: Cats are notably more sensitive to solanine than dogs67. Because cats lack a specific liver detoxification process called glucuronidation, their bodies break down the toxin much slower, meaning even small amounts of raw or green potatoes can cause severe and prolonged illness"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Hypersalivation (drooling), vomiting, diarrhea (which may be bloody), and severe abdominal pain",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Initial symptoms typically appear as early as 2 to 6 hours after ingestion",
+      "notes": "Solanine acts as a strong mucous membrane irritant; it interacts with the cell membranes' phospholipids, destroying the intestinal epithelial cells35. Cats are exceptionally sensitive to these toxins due to their limited liver detoxification capacity (lack of glucuronidation), meaning even small amounts of raw or green potatoes can cause severe and prolonged gastrointestinal distress1.\n2. Neurological Abnormalities"
+    },
+    {
+      "name": "Lethargy, apathy, muscle tremors, ataxia (loss of coordination), stupor, paralysis, and seizures",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Usually develops after the initial gastrointestinal symptoms, within 2 to 24 hours post-ingestion",
+      "notes": "These neurological symptoms occur because solanine inhibits acetylcholinesterase in the brain, leading to a dangerous overstimulation of the parasympathetic nervous system36. The toxins also disrupt the cells' energy balance and mitochondrial function, contributing to profound weakness and lethargy7.\n3. Cardiovascular Disruption"
+    },
+    {
+      "name": "Bradycardia (abnormally slow heart rate) and circulatory failure",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Develops progressively as the toxin is absorbed,",
+      "notes": "Cardiovascular symptoms generally manifest when the cat has been exposed to high doses of the toxin2.\n4. Red Blood Cell Destruction and Kidney Damage"
+    },
+    {
+      "name": "Hemolysis (destruction of red blood cells) leading to anemia, hemoglobinuria (dark red to brown urine), icterus",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Delayed; the full extent of these signs often develops 12 to 24 hours after ingestion",
+      "notes": "In severe poisoning cases, the destruction of red blood cells releases hemoglobin into the bloodstream. This free hemoglobin has a nephrotoxic effect, meaning it damages the kidneys and directly contributes to acute kidney failure38.\n5. Respiratory Depression"
+    },
+    {
+      "name": "Difficulty breathing and respiratory paralysis",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Develops in the later, critical stages of poisoning, typically 12 to 24 hours post-exposure",
+      "notes": "In the most severe cases of nightshade (potato) poisoning, death ultimately occurs due to a combination of respiratory paralysis and circulatory failure"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Emesis Induction or Gastric Lavage",
+      "description": "The veterinarian will medically induce vomiting (using medications like xylazine for cats) to empty the stomach of the plant material. Alternatively, they may perform a gastric lavage (stomach pump) while the cat is under anesthesia",
+      "notes": "This is the most urgent step to prevent the toxins from being absorbed into the bloodstream, but it is primarily indicated if the ingestion was recent (within 1 to 2 hours) and the cat is currently asymptomatic or showing only mild symptoms1.\n2. Toxin Binding",
+      "priority": 1
+    },
+    {
+      "name": "Activated Charcoal Administration",
+      "description": "The vet will administer a dose of activated charcoal (1\u20134 g/kg of body weight) to bind to any unabsorbed solanine remaining in the cat's gastrointestinal tract",
+      "notes": "In cases of severe poisoning, this administration may need to be repeated multiple times at 4 to 6-hour intervals1.\n3. Intravenous (IV) Fluid Therapy",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy (Crystalloid Solutions)",
+      "description": "Administering fluids directly into the bloodstream to stimulate urine production (diuresis), promote the excretion of toxins, and treat dehydration caused by severe vomiting and diarrhea",
+      "notes": "If the cat is exhibiting signs of red blood cell destruction (hemolysis), the IV infusion rate must be actively increased to ensure adequate blood flow to the kidneys and prevent acute kidney damage2.\n4. Respiratory and Cardiovascular Emergency Support",
+      "priority": 3
+    },
+    {
+      "name": "Oxygen Supplementation, Mechanical Ventilation, and Defibrillation",
+      "description": "Providing the cat with oxygen-enriched air, using a mechanical ventilator to assist with breathing, or using a defibrillator to correct life-threatening heart rhythms",
+      "notes": "This level of intensive care is required in critical cases where the plant's toxins have caused severe respiratory depression, respiratory paralysis, or ventricular fibrillation of the heart23.\n5. Neurological and Seizure Management",
+      "priority": 4
+    },
+    {
+      "name": "Anticonvulsant Therapy",
+      "description": "Administering medications such as benzodiazepines or barbiturates to control active muscle tremors and seizures",
+      "notes": "Indicated if the solanine toxin has advanced to cause severe central nervous system (CNS) overstimulation2.\n6. Specific Symptomatic Medication",
+      "priority": 5
+    },
+    {
+      "name": "Atropine Administration",
+      "description": "Administering the medication atropine to block specific nerve receptors",
+      "notes": "While there is no direct, specific antidote for solanine poisoning, atropine is recommended to help partially compensate for and treat cholinergic symptoms (such as a dangerously slow heart rate or excessive salivation) caused by the toxin's effect on the brain",
+      "priority": 6
+    }
+  ]
+}

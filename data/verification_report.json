@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-22T21:07:15.848234",
-  "total_files": 122,
-  "passed": 122,
+  "generated_at": "2026-02-23T00:13:43.998034",
+  "total_files": 125,
+  "passed": 125,
   "failed": 0,
   "results": [
     {
@@ -288,6 +288,12 @@
     },
     {
       "file": "dracaena_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "epipremnum_aureum_or_epipremnum_spp.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -683,6 +689,12 @@
       "issues": []
     },
     {
+      "file": "solanum_tuberosum.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "spathiphyllum_spp_or_spathiphyllum_wallisii.json",
       "status": "PASS",
       "issue_count": 0,
@@ -732,6 +744,12 @@
     },
     {
       "file": "zantedeschia_aethiopica_or_zantedeschia_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "zephyranthes_drummondii.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

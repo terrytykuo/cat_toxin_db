@@ -1,0 +1,81 @@
+{
+  "plant": {
+    "common_name": "Pothos / Devil\u2019s Ivy",
+    "scientific_name": "Epipremnum aureum or Epipremnum spp.",
+    "family": "Araceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Pothos is a green, leafy climbing vine or trailing plant1.... It is characterized by heart-shaped leaves that often have yellow streaks1. When grown outdoors in tropical environments, the leaves can grow quite large, but they remain much smaller when grown as a potted plant indoors1.\n\u2022 Habitat and Where Commonly Found: While it naturally grows outdoors in the tropics, it is most frequently found in homes as a highly popular indoor houseplant1. Because it is a resilient and exceptionally easy-to-care-for plant, it is often recommended for beginner plant owners"
+  },
+  "basics": {
+    "family": "Araceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Pothos is a green, leafy climbing vine or trailing plant1.... It is characterized by heart-shaped leaves that often have yellow streaks1. When grown outdoors in tropical environments, the leaves can grow quite large, but they remain much smaller when grown as a potted plant indoors1.\n\u2022 Habitat and Where Commonly Found: While it naturally grows outdoors in the tropics, it is most frequently found in homes as a highly popular indoor houseplant1. Because it is a resilient and exceptionally easy-to-care-for plant, it is often recommended for beginner plant owners"
+  },
+  "toxic_parts": [
+    "Entire Plant",
+    "Leaf",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Insoluble calcium oxalate crystals (often referred to as raphides)",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: The mechanism of action is primarily physical trauma. These microscopic, needle-like crystals are bundled together inside specialized plant cells known as idioblasts3. When a cat bites, chews, or crushes the leaves or stems of the Pothos plant, these cells forcefully eject the sharp crystals directly into the cat's oral mucosa and surrounding tissues23. This microscopic piercing causes immediate, intense burning pain and inflammation in the mouth, lips, and tongue1.... The body's inflammatory response leads to excessive drooling and swelling, which in severe cases can cause laryngeal edema (swelling of the throat) that may potentially obstruct the cat's airway",
+      "concentration_notes": "Pothos toxicity is generally classified as moderate1. The insoluble oxalate crystals are scattered throughout the entire plant45. However, because the crystals cause such immediate and intense pain the second the cat bites into the plant, the animal is usually deterred from eating large quantities24. As a result, Pothos poisonings are rarely fatal, and full recovery is typically expected"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning, irritation, and pain of the mouth, lips, and tongue",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate",
+      "notes": "This immediate and intense pain occurs because Pothos contains microscopic, needle-like insoluble calcium oxalate crystals (raphides)12. When a cat bites or chews the leaves or stems, these crystals are forcefully ejected directly into the oral mucosa2. Because the pain is instantaneous, cats are usually deterred from consuming a large amount of the plant, meaning fatalities are extremely rare23.\n2. Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Excessive drooling or hypersalivation",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate",
+      "notes": "This is a direct physical and inflammatory response to the microscopic trauma and irritation caused by the oxalate crystals piercing the cat's mouth12.\n3. Oral Swelling and Difficulty Swallowing"
+    },
+    {
+      "name": "Swelling of the mouth and tongue, accompanied by difficulty swallowing (dysphagia)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Immediate to shortly after exposure",
+      "notes": "The localized inflammatory response can cause the cat's mouth and tongue to become significantly swollen23. In severe cases, this swelling can progress to the throat and potentially obstruct the cat's airway, which requires immediate veterinary attention12.\n4. Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion",
+      "notes": "While the systemic toxicity of Pothos is relatively low and not typically life-threatening, the ingestion of the plant material and the resulting irritation cause extreme gastrointestinal discomfort and stomach upset"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Airway Management and Oxygen Supplementation",
+      "description": "If the severe inflammatory response causes laryngeal edema (swelling of the throat and airway), the veterinarian will immediately intervene to secure the cat's airway and provide oxygen support",
+      "notes": "This is the most critical, life-threatening emergency associated with Pothos ingestion. If you notice your cat having any difficulty breathing or significant swelling of the mouth or throat, they must be taken to a veterinary emergency clinic immediately12.\n2. Oral Decontamination",
+      "priority": 1
+    },
+    {
+      "name": "Oral Decontamination (Removal and Rinsing)",
+      "description": "Gently removing any remaining plant pieces from the cat's mouth and thoroughly rinsing or wiping out the oral cavity with cool water to flush away the sharp, embedded calcium oxalate crystals",
+      "notes": "This is an immediate first-aid step to stop the ongoing microscopic trauma to the cat's tissues. You should never induce vomiting for Pothos ingestion unless specifically instructed by a vet, as bringing the sharp crystals back up can cause further severe pain and damage to the esophagus3.\n3. Calcium-Binding Liquid Therapy",
+      "priority": 2
+    },
+    {
+      "name": "Oral Calcium Administration",
+      "description": "Offering the cat a small amount of a calcium-containing dairy product, such as milk or yogurt",
+      "notes": "The insoluble oxalate crystals will actively bind to the calcium in the dairy product. This helps comfortably clear the remaining crystals from the oral cavity and esophagus, significantly reducing the intense burning sensation1.\n4. Symptomatic and Supportive Care",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Pain and Gastrointestinal Management",
+      "description": "The veterinarian may administer medications such as analgesics (pain relievers) to soothe the severe mouth pain, or demulcents to coat and protect the irritated mucous membranes4. Anti-nausea medications may also be given if the cat is experiencing secondary vomiting.",
+      "notes": "Because the intense pain usually deters the cat from eating a large amount of the plant, full systemic poisoning is highly unlikely. Most cases of Pothos exposure have a good to excellent prognosis and the cat is expected to make a full recovery, often needing only at-home monitoring after the initial decontamination1. Always consult a veterinarian or pet poison hotline to determine exactly how much monitoring or medical support your specific cat needs",
+      "priority": 4
+    }
+  ]
+}

@@ -10,9 +10,9 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found) The provided sources do not offer a botanical description of the plant's physical appearance or its natural wild habitat. They only describe onions as extremely common \"Allium vegetables\" that are frequently found in households as human food, culinary ingredients, and concentrated seasonings (like onion powder)"
   },
   "toxic_parts": [
+    "Bulb",
     "Leaf",
     "Stem",
-    "Bulb",
     "Root"
   ],
   "toxins": [
