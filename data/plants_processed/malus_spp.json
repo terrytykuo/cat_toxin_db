@@ -11,8 +11,8 @@
   },
   "toxic_parts": [
     "Seed",
-    "Fruit",
-    "Leaf"
+    "Leaf",
+    "Fruit"
   ],
   "toxins": [
     {

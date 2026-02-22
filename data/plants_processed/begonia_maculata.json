@@ -1,0 +1,87 @@
+{
+  "plant": {
+    "common_name": "Polka Dot Begonia",
+    "scientific_name": "Begonia maculata",
+    "family": "Begoniaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The provided sources do not offer a detailed physical description specifically for the \"Polka Dot\" variety beyond its name. However, they note that begonias in general are flowering plants cultivated for their colorful blooms2. The plant consists of leaves and flowers above ground, and an underground system made up of roots, rhizomes, and tubers34.\n\u2022 Habitat and Where Commonly Found: The Polka Dot Begonia is a very popular indoor houseplant5. In general, begonias are widely cultivated by homeowners and are frequently found growing in large pots or outdoor flowerbeds"
+  },
+  "basics": {
+    "family": "Begoniaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The provided sources do not offer a detailed physical description specifically for the \"Polka Dot\" variety beyond its name. However, they note that begonias in general are flowering plants cultivated for their colorful blooms2. The plant consists of leaves and flowers above ground, and an underground system made up of roots, rhizomes, and tubers34.\n\u2022 Habitat and Where Commonly Found: The Polka Dot Begonia is a very popular indoor houseplant5. In general, begonias are widely cultivated by homeowners and are frequently found growing in large pots or outdoor flowerbeds"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Stem",
+    "Root"
+  ],
+  "toxins": [
+    {
+      "name": "Calcium oxalates. (Note: The provided sources have slightly conflicting classifications",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: The oxalates act as an immediate and intense physical and chemical irritant5. When a cat bites or chews the plant, it causes an unpleasant burning sensation and irritation in the mouth and throat, leading to excessive drooling, difficulty swallowing, and vomiting3.... If a large enough amount of the toxin is digested and makes its way into the cat's bloodstream, it can travel to the liver and cause severe illness, including liver failure4. (Note: In large grazing animals, soluble oxalates are noted to cause kidney failure16.)",
+      "concentration_notes": "The overall toxicity of the plant is generally classified as mild to moderate for cats36. The toxins are present throughout the entire plant, but they are most highly concentrated in the underground structures\u2014specifically the roots, tubers, and rhizomes1.... Fortunately, because the very first bite produces such an immediate and painful burning sensation in the mouth, cats are usually deterred from eating large quantities, making fatal or severe poisonings rare"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Excessive drooling (hypersalivation), redness around the mouth, oral sores, excessive licking of the lips, and an unpleasant burning sensation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate.",
+      "notes": "This immediate irritation is caused by the calcium oxalates within the plant. Because the very first bite produces such an unpleasant and painful sensation in the mouth and throat, cats are usually deterred from taking more than one bite1.\n2. Difficulty Swallowing"
+    },
+    {
+      "name": "Difficulty swallowing (dysphagia)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to shortly after chewing.",
+      "notes": "This is a direct physical response to the intense irritation, pain, and potential swelling in the mouth and throat caused by the plant's toxins12.\n3. Gastrointestinal Distress and Anorexia"
+    },
+    {
+      "name": "Vomiting, disinterest in food and water (anorexia), and difficulty eating",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion.",
+      "notes": "The cat will often vomit to rid its stomach of the irritating plant material6. In most cases, these symptoms are relatively mild and naturally clear up within about two days5. However, if the cat persistently refuses water, a veterinarian may need to administer intravenous (IV) fluids to treat dehydration5.\n4. Systemic Illness and Liver Failure"
+    },
+    {
+      "name": "Serious illness and liver failure",
+      "body_system": "Hepatic",
+      "severity": "severe",
+      "onset": "Delayed (occurs after the toxins are digested and absorbed into the bloodstream).",
+      "notes": "While the leaves and flowers usually only cause mild stomach upset, the roots and tubers contain the highest concentration of oxalates2. If a cat manages to ingest a large amount of these highly toxic underground parts, the substance breaks down into oxalic acid, makes its way into the bloodstream, and travels to the liver where it can cause severe, life-threatening damage"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral Rinsing and Dilution",
+      "description": "Providing the cat with water or milk to help rinse out the mouth and wash away the irritating plant material.",
+      "notes": "This is an immediate, first-line step to help relieve the intense burning sensation, oral pain, and drooling caused by the oxalates in the plant1.\n2. Gastrointestinal Decontamination",
+      "priority": 1
+    },
+    {
+      "name": "Emesis Induction and Activated Charcoal",
+      "description": "The veterinarian may medically induce vomiting to empty the stomach, followed by administering a dose of activated charcoal with a cathartic to bind unabsorbed toxins in the digestive tract.",
+      "notes": "Because begonias contain soluble oxalates, this procedure is indicated if the cat has ingested more than just a small taste or nibble (especially the highly toxic roots or tubers) to prevent the toxins from being absorbed into the bloodstream23.\n3. Intravenous (IV) Fluid Therapy and Calcium Correction",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "Injecting fluids directly into the cat's veins for 24 to 48 hours to rehydrate the body, flush the system, and support organ function.",
+      "notes": "This is critical if the cat is refusing water due to throat pain or is suffering from dehydration due to vomiting4. Furthermore, if a large amount of soluble oxalates was ingested, the toxins can bind to the body's calcium and cause a dangerous drop in calcium levels (hypocalcemia); in these severe cases, the vet will also administer intravenous calcium gluconate3.\n4. Systemic Diagnostics and Monitoring",
+      "priority": 3
+    },
+    {
+      "name": "Physical Examination and Blood Tests",
+      "description": "The veterinarian will perform a full physical examination and run blood work to assess and monitor the cat's internal organ health.",
+      "notes": "While begonia poisoning from leaves is typically mild, if the cat ingested the highly concentrated roots or tubers, the oxalates can break down into oxalic acid, enter the bloodstream, and cause severe systemic illness, including liver failure and kidney damage3....\n5. Gastrointestinal Rest and Dietary Management",
+      "priority": 4
+    },
+    {
+      "name": "Mild Diet Therapy",
+      "description": "Feeding the cat a bland, mild diet for several days following the exposure.",
+      "notes": "This allows any irritation and swelling in the cat's throat and digestive system to heal4. Most mild cases of begonia poisoning clear up within about two days",
+      "priority": 5
+    }
+  ]
+}

@@ -10,8 +10,8 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Poinsettia is a perennial shrub easily recognized by its large, striking leaves. The upper (terminal) leaves are conspicuously colored and can be bright red, pink, white, or mottled, while the lower leaves remain green12. The leaves are alternate, distinctly veined, and can be entire or lobed1. Additionally, the entire plant contains a thick, milky-white sap12.\n\u2022 Habitat and Where Commonly Found: Poinsettias are widely cultivated as ornamental houseplants3. They are recognized as the most popular holiday plant (often referred to as the \"Christmas flower\" or \"Christmas star\") and are extremely common in homes as festive decorations during the winter holiday season"
   },
   "toxic_parts": [
-    "Sap",
     "Leaf",
+    "Sap",
     "Entire Plant"
   ],
   "toxins": [

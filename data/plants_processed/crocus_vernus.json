@@ -10,8 +10,8 @@
     "description": "Brief Description:\n    \u25e6 Appearance: These plants are characterized by their blooming period, specifically flowering in the spring.\n    \u25e6 Habitat and Location: They are commonly found in gardens and outdoor landscapes. They are also described as popular plants for the house and yard."
   },
   "toxic_parts": [
-    "Leaf",
     "Flower",
+    "Leaf",
     "Bulb"
   ],
   "toxins": [

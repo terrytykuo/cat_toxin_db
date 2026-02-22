@@ -10,10 +10,10 @@
     "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Allamanda is an ornamental, sprawling, woody climbing shrub1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Flowers: It is characterized by large yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is also known as Yellow allamanda"
   },
   "toxic_parts": [
+    "Bark",
     "Seed",
-    "Fruit",
     "Leaf",
-    "Bark"
+    "Fruit"
   ],
   "toxins": [
     {

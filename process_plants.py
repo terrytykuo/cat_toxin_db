@@ -106,7 +106,9 @@ MANUAL_FAMILIES = {
     "Alstroemeria spp.": "Alstroemeriaceae",
     "Paeonia spp.": "Paeoniaceae",
     "Nandina Photina spp.": "Rosaceae",
-    "Pinus spp.": "Pinaceae"
+    "Pinus spp.": "Pinaceae",
+    "Papaver spp.": "Papaveraceae",
+    "Chrysanthemum morifolium": "Asteraceae"
 }
 
 MANUAL_DESCRIPTIONS = {
@@ -423,6 +425,14 @@ def postprocess(processed):
     if plant.get("common_name") == "Pine" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
         plant["scientific_name"] = "Pinus spp."
 
+    # Fix Pom Flowers scientific name
+    if plant.get("common_name") == "Pom Flowers" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
+        plant["scientific_name"] = "Chrysanthemum morifolium"
+
+    # Fix Poppy scientific name
+    if plant.get("common_name") == "Poppy" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
+        plant["scientific_name"] = "Papaver spp."
+
     plant["family"] = clean_family(plant.get("family"))
     
     # --- Description Cleaning ---
@@ -560,8 +570,33 @@ def postprocess(processed):
                 "priority": 1
             }]
 
-    # Force Scadoxus data if empty
-    
+    if sci_name == "Papaver spp.":
+        if not processed.get("toxic_parts"):
+            processed["toxic_parts"] = ["Entire Plant"]
+        if not processed.get("toxins"):
+            processed["toxins"] = [{
+                "name": "Alkaloids (including opiates)",
+                "chemical_formula": None,
+                "description": "Various alkaloids that depress the central nervous system.",
+                "concentration_notes": "Found in all parts of the plant."
+            }]
+
+    if sci_name == "Chrysanthemum morifolium":
+        if not processed.get("toxins"):
+            processed["toxins"] = [{
+                "name": "Sesquiterpene lactones, Pyrethrins",
+                "chemical_formula": None,
+                "description": "Natural insecticides that cause gastrointestinal and neurological signs.",
+                "concentration_notes": "Concentrated in the flower heads."
+            }]
+        if not processed.get("symptoms"):
+            processed["symptoms"] = [
+                {"name": "Vomiting", "severity": "mild", "body_system": "Gastrointestinal"},
+                {"name": "Diarrhea", "severity": "mild", "body_system": "Gastrointestinal"},
+                {"name": "Hypersalivation", "severity": "mild", "body_system": "Gastrointestinal"},
+                {"name": "Incoordination", "severity": "moderate", "body_system": "Neurological"}
+            ]
+
     # Force Scadoxus data if empty
     if sci_name == "Scadoxus spp." and not processed.get("toxins"):
         processed["toxins"] = [{

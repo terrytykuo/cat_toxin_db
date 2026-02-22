@@ -10,9 +10,9 @@
     "description": "Brief Description\n\u2022 Appearance: While the sources do not provide a specific physical description of Ficus benghalensis leaves or bark, they note that Ficus species in general are trees, shrubs, or vines characterized by the presence of a milky sap within their leaves and stems12.\n\u2022 Where Commonly Found: It is commonly kept as an indoor houseplant12. The sources do not contain information regarding its natural habitat or geographic origin."
   },
   "toxic_parts": [
-    "Stem",
     "Sap",
-    "Leaf"
+    "Leaf",
+    "Stem"
   ],
   "toxins": [
     {

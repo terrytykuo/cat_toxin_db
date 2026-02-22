@@ -124,9 +124,9 @@
 | 120 | Pine | Pine | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 121 | Plum | Plum | Prunus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 122 | Poinsettia | Poinsettia | Euphorbia pulcherrima | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 123 | Polka Dot Begonia | Polka Dot Begonia | Begonia maculata | | | | | | | |
-| 124 | Pom Flowers | Pom Flowers | N/A | | | | | | | |
-| 125 | Poppy | Poppy | N/A | | | | | | | |
+| 123 | Polka Dot Begonia | Polka Dot Begonia | Begonia maculata | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 124 | Pom Flowers | Pom Flowers | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 125 | Poppy | Poppy | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 126 | Potato | Potato | Solanum tuberosum | | | | | | | |
 | 127 | Pothos / Devil’s Ivy | Pothos / Devil’s Ivy | Epipremnum aureum or Epipremnum spp. | | | | | | | |
 | 128 | Prairie Lily | Prairie Lily | Zephyranthes drummondii | | | | | | | |

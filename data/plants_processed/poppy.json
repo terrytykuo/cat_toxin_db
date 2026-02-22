@@ -1,0 +1,73 @@
+{
+  "plant": {
+    "common_name": "Poppy",
+    "scientific_name": "Papaver spp.",
+    "family": "Papaveraceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The provided sources do not contain a physical description of the poppy plant.\n\u2022 Habitat and Where Commonly Found: Poppies are described as much-loved flowers that are commonly found growing in the wild, as well as cultivated in wildflower gardens"
+  },
+  "basics": {
+    "family": "Papaveraceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The provided sources do not contain a physical description of the poppy plant.\n\u2022 Habitat and Where Commonly Found: Poppies are described as much-loved flowers that are commonly found growing in the wild, as well as cultivated in wildflower gardens"
+  },
+  "toxic_parts": [
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Alkaloids (including opiates)",
+      "chemical_formula": null,
+      "description": "Various alkaloids that depress the central nervous system.",
+      "concentration_notes": "Found in all parts of the plant."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Dilated pupils",
+      "body_system": "Gastrointestinal",
+      "severity": null,
+      "onset": "Not specified in the sources.",
+      "notes": "This is a direct result of the plant's toxins affecting the central nervous system, assumed based on data from other mammals1.\n2. Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": null,
+      "onset": "Not specified in the sources.",
+      "notes": "Extrapolated from symptoms seen in dogs and other mammals1.\n3. Lack of Coordination"
+    },
+    {
+      "name": "Lack of coordination",
+      "body_system": "Gastrointestinal",
+      "severity": null,
+      "onset": "Not specified in the sources.",
+      "notes": "Caused by the plant's impact on the nervous system; assumed to occur in cats based on mammalian data1.\n4. Collapse"
+    },
+    {
+      "name": "Collapse",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Not specified in the sources.",
+      "notes": "This represents a significant disruption of the nervous system and is extrapolated from reports in dogs and other mammals"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Veterinary Consultation and Triage",
+      "description": "Contact your veterinarian or an animal poison control center immediately for tailored guidance, letting them know exactly what type of plant the cat was exposed to",
+      "notes": "You should act quickly and not wait for clinical signs of poisoning (such as vomiting or lack of coordination) to appear before seeking professional help4.\n2. Gastrointestinal Decontamination",
+      "priority": 1
+    },
+    {
+      "name": "Emesis Induction, Gastric Lavage, and Activated Charcoal",
+      "description": "To prevent the plant material from being fully digested and absorbed into the bloodstream, a veterinarian may medically induce vomiting or perform a gastric lavage (stomach pump)3. This is often followed by administering doses of activated charcoal to bind and neutralize any remaining toxins in the gastrointestinal tract",
+      "notes": "You should never attempt to induce vomiting at home unless specifically instructed to do so by a veterinary professional, as doing it incorrectly can cause severe harm56. Furthermore, if the cat is already showing severe neurological signs like collapse1, the vet may need to bypass inducing vomiting and go straight to a stomach pump to prevent the cat from accidentally inhaling its vomit2.\n3. Systemic and Supportive Care",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and Symptomatic Medication",
+      "description": "The cat will likely need to be hospitalized so the veterinary team can administer IV fluids to treat dehydration from vomiting, stabilize the animal, and help flush the toxins from the system37. The vet may also administer anti-nausea injections (antiemetics) and stomach-protecting medications",
+      "notes": "Because poppy toxicity targets the nervous system and causes incoordination and collapse1, the cat will need to be kept as comfortable as possible in a safe, confined space at the clinic to prevent self-injury while the neurological effects of the toxin slowly wear off",
+      "priority": 3
+    }
+  ]
+}

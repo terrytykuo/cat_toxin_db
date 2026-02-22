@@ -1,0 +1,79 @@
+{
+  "plant": {
+    "common_name": "Pom Flowers",
+    "scientific_name": "Chrysanthemum morifolium",
+    "family": "Asteraceae",
+    "description": "2. Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance and Habitat: The provided sources do not contain a physical description or details about the natural habitat of pom flowers.\n\u2022 Where Commonly Found: The sources note that pom flowers are among the most popular flowers used in indoor floral arrangements"
+  },
+  "basics": {
+    "family": "Asteraceae",
+    "description": "2. Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance and Habitat: The provided sources do not contain a physical description or details about the natural habitat of pom flowers.\n\u2022 Where Commonly Found: The sources note that pom flowers are among the most popular flowers used in indoor floral arrangements"
+  },
+  "toxic_parts": [
+    "Flower",
+    "Leaf",
+    "Root",
+    "Bulb",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Sesquiterpene lactones, Pyrethrins",
+      "chemical_formula": null,
+      "description": "Natural insecticides that cause gastrointestinal and neurological signs.",
+      "concentration_notes": "Concentrated in the flower heads."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "severity": "mild",
+      "body_system": "Gastrointestinal",
+      "onset": null
+    },
+    {
+      "name": "Diarrhea",
+      "severity": "mild",
+      "body_system": "Gastrointestinal",
+      "onset": null
+    },
+    {
+      "name": "Hypersalivation",
+      "severity": "mild",
+      "body_system": "Gastrointestinal",
+      "onset": null
+    },
+    {
+      "name": "Incoordination",
+      "severity": "moderate",
+      "body_system": "Neurological",
+      "onset": null
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Veterinary Assessment and Poison Control Guidance",
+      "description": "Contact your veterinarian or an animal poison control center immediately for tailored advice based on the amount ingested3. The vet will assess the cat's symptoms and determine if an in-clinic visit is necessary.",
+      "notes": "You should call the vet right away and not wait for clinical signs of poisoning (like throwing up or diarrhea) to develop3.\n2. Symptomatic and Supportive Care for Gastrointestinal Upset",
+      "priority": 1
+    },
+    {
+      "name": "Antiemetic and Antidiarrheal Therapy",
+      "description": "To manage the gastrointestinal distress caused by the flowers, the veterinarian may administer antiemetics to stop the vomiting and antidiarrheals to resolve the diarrhea. They will also typically recommend feeding the cat a bland diet while the stomach heals",
+      "notes": "Because the toxicity of Pom Flowers is considered mild1, most cats will recover fully within 24 to 48 hours with basic supportive care. However, cats with underlying or pre-existing gastrointestinal diseases may require a longer course of treatment2.\n3. Dermatological Care",
+      "priority": 2
+    },
+    {
+      "name": "Symptomatic Skin Treatment",
+      "description": "If the cat develops skin irritation from contact with the plant, the vet may recommend wiping, washing, or treating the affected skin to soothe the irritation.",
+      "notes": "Ingestion or exposure to Pom Flowers can sometimes cause dermatological symptoms alongside stomach upset, so the vet will need to monitor and treat the skin if an allergic or irritant reaction appears1.\n4. Environmental Decontamination",
+      "priority": 3
+    },
+    {
+      "name": "Removal of the Plant Source",
+      "description": "Completely removing the Pom Flowers from the home or moving them to a location the cat absolutely cannot access",
+      "notes": "While this is an at-home step rather than a clinical medical procedure, veterinarians emphasize that removing the plant source is a necessary part of the treatment plan to prevent the cat from re-ingesting the flowers and prolonging the illness",
+      "priority": 4
+    }
+  ]
+}

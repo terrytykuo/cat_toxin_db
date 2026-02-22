@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-22T20:36:26.860710",
-  "total_files": 119,
-  "passed": 119,
+  "generated_at": "2026-02-22T21:07:15.848234",
+  "total_files": 122,
+  "passed": 122,
   "failed": 0,
   "results": [
     {
@@ -114,6 +114,12 @@
     },
     {
       "file": "aucuba_japonica.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "begonia_maculata.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -594,6 +600,18 @@
     },
     {
       "file": "pine.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "pom_flowers.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "poppy.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

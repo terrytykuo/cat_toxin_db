@@ -10,9 +10,9 @@
     "description": "Not mentioned in the provided text.\n\u2022 Toxicity Context: The sources list Clove specifically as an essential oil that is toxic to cats"
   },
   "toxic_parts": [
-    "Stem",
+    "Flower",
     "Leaf",
-    "Flower"
+    "Stem"
   ],
   "toxins": [
     {

@@ -10,9 +10,9 @@
     "description": "The sources do not state the botanical family (e.g., Amaryllidaceae) or provide a physical description of the plant (such as its appearance, leaves, flowers, or habitat). The available information focuses entirely on its toxicity to pets."
   },
   "toxic_parts": [
-    "Stem",
-    "Leaf",
     "Entire Plant",
+    "Leaf",
+    "Stem",
     "Bulb"
   ],
   "toxins": [
