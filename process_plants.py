@@ -95,7 +95,11 @@ MANUAL_FAMILIES = {
     "Kalmia latifolia": "Ericaceae",
     "Monstera deliciosa or Monstera adansonii": "Araceae",
     "Ipomoea spp.": "Convolvulaceae",
-    "Phoradendron spp. or Viscum": "Santalaceae"
+    "Phoradendron spp. or Viscum": "Santalaceae",
+    "Allium cepa": "Amaryllidaceae",
+    "Cercocarpus spp.": "Rosaceae",
+    "Nerium oleander": "Apocynaceae",
+    "Solanum spp.": "Solanaceae"
 }
 
 MANUAL_DESCRIPTIONS = {
@@ -119,7 +123,8 @@ MANUAL_DESCRIPTIONS = {
     "Agastache spp.": "Aromatic herbaceous perennials in the mint family, known for spikes of tubular flowers.",
     "Hydrangea spp.": "Deciduous shrubs known for large flower heads in shades of pink, blue, or white.",
     "Kalmia latifolia": "A broadleaved evergreen shrub in the heath family, native to the eastern United States. Contains grayanotoxins.",
-    "Ipomoea spp.": "Fast-growing climbing vines with trumpet-shaped flowers. Seeds contain lysergic acid amides."
+    "Ipomoea spp.": "Fast-growing climbing vines with trumpet-shaped flowers. Seeds contain lysergic acid amides.",
+    "Cercocarpus spp.": "Mountain mahogany; a genus of shrubs and small trees in the rose family, native to the western United States and northern Mexico."
 }
 
 MANUAL_TOXIC_PARTS = {
@@ -388,6 +393,10 @@ def postprocess(processed):
     # Fix Morning Glory scientific name
     if plant.get("common_name") == "Morning Glory" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a"]):
         plant["scientific_name"] = "Ipomoea spp."
+
+    # Fix Nightshade scientific name
+    if plant.get("common_name") == "Nightshade" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
+        plant["scientific_name"] = "Solanum spp."
         
     plant["family"] = clean_family(plant.get("family"))
     
@@ -483,6 +492,20 @@ def postprocess(processed):
                 "description": "Induce vomiting if recent, administer activated charcoal, and provide cardiovascular support.",
                 "priority": 1
             }]
+
+    if sci_name == "Allium cepa" and not processed.get("treatments"):
+        processed["treatments"] = [{
+            "name": "Decontamination and Supportive Care",
+            "description": "Induce vomiting if recent ingestion, administer activated charcoal. Provide IV fluids and monitor for hemolytic anemia; blood transfusion if severe.",
+            "priority": 1
+        }]
+
+    if sci_name == "Cercocarpus spp." and not processed.get("treatments"):
+        processed["treatments"] = [{
+            "name": "Supportive Care",
+            "description": "Provide supportive care for gastrointestinal upset and monitor. Consult a veterinarian.",
+            "priority": 1
+        }]
 
     # Force Scadoxus data if empty
     
