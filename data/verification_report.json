@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-22T20:12:48.204847",
-  "total_files": 116,
-  "passed": 116,
+  "generated_at": "2026-02-22T20:36:26.860710",
+  "total_files": 119,
+  "passed": 119,
   "failed": 0,
   "results": [
     {
@@ -293,6 +293,12 @@
       "issues": []
     },
     {
+      "file": "euphorbia_pulcherrima.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "ficus_benghalensis.json",
       "status": "PASS",
       "issue_count": 0,
@@ -515,6 +521,12 @@
       "issues": []
     },
     {
+      "file": "nandina_photina_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "nandina_spp.json",
       "status": "PASS",
       "issue_count": 0,
@@ -576,6 +588,12 @@
     },
     {
       "file": "pieris_japonica.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "pine.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

@@ -10,8 +10,8 @@
     "description": "2. Brief Description\n\u2022 Classification: It is categorized as a vegetable and a nightshade plant, closely related to tomatoes, potatoes, and bell peppers1,2.\n\u2022 Where Commonly Found: It is frequently found in households as a food source or kept as an ornamental plant2. It is also commonly cultivated in gardens3.\n\u2022 Plant Parts: The plant consists of green parts (leaves and stems), roots, and fruit. The unripe fruit and peels, along with the green parts, contain defensive compounds typical of the nightshade family"
   },
   "toxic_parts": [
-    "Root",
     "Stem",
+    "Root",
     "Fruit",
     "Leaf"
   ],

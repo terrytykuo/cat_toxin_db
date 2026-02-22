@@ -102,7 +102,11 @@ MANUAL_FAMILIES = {
     "Solanum spp.": "Solanaceae",
     "Mentha citrata": "Lamiaceae",
     "Spathiphyllum spp. or Spathiphyllum wallisii": "Araceae",
-    "Tradescantia spathacea": "Commelinaceae"
+    "Tradescantia spathacea": "Commelinaceae",
+    "Alstroemeria spp.": "Alstroemeriaceae",
+    "Paeonia spp.": "Paeoniaceae",
+    "Nandina Photina spp.": "Rosaceae",
+    "Pinus spp.": "Pinaceae"
 }
 
 MANUAL_DESCRIPTIONS = {
@@ -129,7 +133,10 @@ MANUAL_DESCRIPTIONS = {
     "Ipomoea spp.": "Fast-growing climbing vines with trumpet-shaped flowers. Seeds contain lysergic acid amides.",
     "Cercocarpus spp.": "Mountain mahogany; a genus of shrubs and small trees in the rose family, native to the western United States and northern Mexico.",
     "Spathiphyllum spp. or Spathiphyllum wallisii": "Evergreen herbaceous perennial plant with large leaves and white spathe flowers, commonly grown as a houseplant.",
-    "Tradescantia spathacea": "A herbaceous perennial plant with dark green leaves that are purple underneath, commonly known as Oyster Plant."
+    "Tradescantia spathacea": "A herbaceous perennial plant with dark green leaves that are purple underneath, commonly known as Oyster Plant.",
+    "Paeonia spp.": "Herbaceous perennial plants and woody shrubs known for large, showy, often fragrant flowers. Commonly grown in gardens.",
+    "Nandina Photina spp.": "Evergreen shrubs known for their bright red new foliage and clusters of small white flowers.",
+    "Pinus spp.": "Evergreen coniferous resinous trees growing across the Northern Hemisphere. Toxic to cats."
 }
 
 MANUAL_TOXIC_PARTS = {
@@ -137,7 +144,8 @@ MANUAL_TOXIC_PARTS = {
     "Prunus serotina": ["Stem", "Leaf", "Seed"],
     "Prunus laurocerasus": ["Leaf", "Seed", "Berry"],
     "Cinnamomum verum": ["Sap", "Bark"],
-    "Darlingtonia californica": ["Leaf"]
+    "Darlingtonia californica": ["Leaf"],
+    "Paeonia spp.": ["Root", "Bark", "Flower", "Seed"]
 }
 
 def strip_source_refs(text):
@@ -403,9 +411,17 @@ def postprocess(processed):
     if plant.get("common_name") == "Nightshade" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
         plant["scientific_name"] = "Solanum spp."
         
+    # Fix Peony scientific name
+    if plant.get("common_name") == "Peony" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
+        plant["scientific_name"] = "Paeonia spp."
+        
     # Fix Orange Mint scientific name
     if plant.get("common_name") == "Orange Mint" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
         plant["scientific_name"] = "Mentha citrata"
+
+    # Fix Pine scientific name
+    if plant.get("common_name") == "Pine" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
+        plant["scientific_name"] = "Pinus spp."
 
     plant["family"] = clean_family(plant.get("family"))
     
@@ -522,6 +538,27 @@ def postprocess(processed):
             "description": "Rinse mouth to remove irritating plant material. Monitor for gastrointestinal upset and provide supportive care.",
             "priority": 1
         }]
+
+    if sci_name == "Paeonia spp.":
+        if not processed.get("toxins"):
+            processed["toxins"] = [{
+                "name": "Paeonol",
+                "chemical_formula": "C9H10O3",
+                "description": "A phenolic compound that causes gastrointestinal irritation.",
+                "concentration_notes": "Concentrated mainly in the roots and bark."
+            }]
+        if not processed.get("symptoms"):
+            processed["symptoms"] = [
+                {"name": "Vomiting", "severity": "mild", "body_system": "Gastrointestinal"},
+                {"name": "Diarrhea", "severity": "mild", "body_system": "Gastrointestinal"},
+                {"name": "Depression", "severity": "mild", "body_system": "Neurological"}
+            ]
+        if not processed.get("treatments"):
+            processed["treatments"] = [{
+                "name": "Supportive Care",
+                "description": "Provide supportive care for gastrointestinal upset and monitor recovery.",
+                "priority": 1
+            }]
 
     # Force Scadoxus data if empty
     

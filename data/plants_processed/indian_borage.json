@@ -11,10 +11,10 @@
   },
   "toxic_parts": [
     "Stem",
-    "Entire Plant",
     "Root",
-    "Leaf",
-    "Flower"
+    "Entire Plant",
+    "Flower",
+    "Leaf"
   ],
   "toxins": [
     {

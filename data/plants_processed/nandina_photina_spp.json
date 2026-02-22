@@ -1,0 +1,75 @@
+{
+  "plant": {
+    "common_name": "Photina Red Leaf",
+    "scientific_name": "Nandina Photina spp.",
+    "family": "Rosaceae",
+    "description": "Evergreen shrubs known for their bright red new foliage and clusters of small white flowers."
+  },
+  "basics": {
+    "family": "Rosaceae",
+    "description": "Evergreen shrubs known for their bright red new foliage and clusters of small white flowers."
+  },
+  "toxic_parts": [
+    "Seed",
+    "Fruit",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Cyanogenic glycosides, which break down to release hydrogen cyanide when the plant material is chewed or digested",
+      "chemical_formula": "Hydrogen cyanide is HCN1.",
+      "description": "in cats: When a cat chews or grinds the plant's seeds or leaves, it compromises the plant tissue and triggers the conversion of cyanogenic glycosides into cyanide2. Once in the body, the cyanide binds to ferric (Fe3+) iron, specifically targeting an enzyme in the mitochondria called cytochrome c oxidase24. This disrupts the electron transport chain and completely prevents the cat's cells from utilizing oxygen to generate energy24. This halt in cellular respiration rapidly leads to severe tissue hypoxia (oxygen starvation) and cell death",
+      "concentration_notes": "The toxins are primarily housed within the leaves and the seeds (within the fruit) of the plant2. The physical integrity of the seed is critical to its potency: if a cat swallows a seed completely whole without crushing or chewing it, the cyanide is not released, and toxicity is not expected2. While severe toxicity is uncommon unless large amounts are ingested, cyanide is incredibly potent and fast-acting; if a toxic dose is chewed and absorbed, the onset of life-threatening clinical signs develops very rapidly, often within 10 to 60 minutes"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea, excessive drooling, and almond-flavored breath",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapidly, often within 10 to 60 minutes",
+      "notes": "While vomiting and drooling are common early signs of many plant poisonings, the presence of an almond-like odor on the breath is a specific and classic indicator of cyanide gas release2.\n2. Respiratory Distress"
+    },
+    {
+      "name": "Tachypnea (rapid breathing), severe respiratory distress, panting, and gasping for breath",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapidly, often within 10 to 60 minutes",
+      "notes": "This is a direct result of tissue hypoxia. The cyanide prevents the cat's cells from utilizing oxygen, causing the respiratory system to go into overdrive in a futile attempt to oxygenate the body23.\n3. Mucous Membrane Discoloration and Cardiovascular Shock"
+    },
+    {
+      "name": "Unusually bright red or pink gums (brick red mucous membranes), hypotension (low blood pressure), and cardiac arrhythmias",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapidly, often within 10 to 60 minutes",
+      "notes": "A classic sign of cyanide toxicosis is cherry-red blood coloring2. Because the cells cannot absorb oxygen from the blood, the oxygen remains trapped in the bloodstream, turning the cat's gums an unusual, bright cherry or brick red23. In some cases, cyanosis (blue discoloration) may also occur as shock sets in2.\n4. Severe Neurological Impairment"
+    },
+    {
+      "name": "Dilated pupils, sudden collapse, muscle seizures, convulsions, coma, and death",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Rapidly, often within 10 to 60 minutes",
+      "notes": "The brain is highly sensitive to oxygen deprivation. As cellular energy production completely halts, profound neurological collapse occurs. Cyanide toxicity is incredibly fast-acting, and sudden death frequently occurs before veterinary treatment can even be initiated"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Antidote Therapy (Sodium Nitrite and Sodium Thiosulfate, OR Hydroxycobalamin)",
+      "description": "To counteract the cyanide released by the plant, the veterinarian may administer specific antidotes. One method uses sodium nitrite to combine with cyanide and form cyanomethemoglobin, followed by sodium thiosulfate to convert it into water-soluble thiocyanate, which the cat can safely excrete in its urine1. Alternatively, the vet may use hydroxycobalamin, which binds with cyanide to form cyanocobalamin (vitamin B12) that is also excreted in the urine",
+      "notes": "This is the most critical and urgent intervention for severe poisoning, as cyanide toxicity causes rapid cellular hypoxia (oxygen starvation) and death can often occur before treatment even begins12. In less severe cases, the veterinarian may opt to treat the cat using only sodium thiosulfate1.\n2. Gastrointestinal Decontamination",
+      "priority": 1
+    },
+    {
+      "name": "Emesis Induction (Inducing Vomiting) and Activated Charcoal",
+      "description": "To prevent the plant material from further breaking down and releasing cyanide into the bloodstream, the veterinarian will medically induce vomiting to empty the stomach. This is followed by administering a dose of activated charcoal combined with a cathartic to bind and pass any remaining toxins out of the gastrointestinal tract",
+      "notes": "This procedure is strictly indicated for asymptomatic cats following a known or suspected large ingestion of the plant1.\n3. Acidosis Correction and Supportive Care",
+      "priority": 2
+    },
+    {
+      "name": "Venous Blood Gas Monitoring and Sodium Bicarbonate",
+      "description": "The veterinary team will routinely monitor the cat's metabolic state using venous blood gas testing. If severe metabolic acidosis is detected, the veterinarian will correct it by administering sodium bicarbonate",
+      "notes": "While large ingestions require intensive emergency intervention, most minor exposures to cyanogenic plants in small animals only require minimal gastrointestinal supportive care if managed promptly1. Obtaining a whole blood cyanide level can also be helpful for the veterinarian to confirm the diagnosis and guide ongoing care",
+      "priority": 3
+    }
+  ]
+}

@@ -10,9 +10,9 @@
     "description": "2. Brief Description\n\u2022 Appearance: Lily of the Valley is a dainty, petite herbaceous perennial that grows from a slender running rhizome (underground root system)1.... The plant typically features two or three basal leaves that grow up to 30 cm long1. It produces a leafless stem bearing a one-sided cluster (raceme) of nodding, white, bell-shaped flowers that are highly aromatic1. Though it seldom forms, the plant can also produce a red berry as fruit1.\n\u2022 Habitat and Common Locations: It is a popular ornamental perennial grown in gardens and yards35. Because of its beautiful and fragrant blooms, it is also very commonly brought indoors in cut flower arrangements and bouquets"
   },
   "toxic_parts": [
-    "Flower",
     "Root",
-    "Entire Plant"
+    "Entire Plant",
+    "Flower"
   ],
   "toxins": [
     {

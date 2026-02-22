@@ -1,0 +1,82 @@
+{
+  "plant": {
+    "common_name": "Poinsettia",
+    "scientific_name": "Euphorbia pulcherrima",
+    "family": "Euphorbiaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Poinsettia is a perennial shrub easily recognized by its large, striking leaves. The upper (terminal) leaves are conspicuously colored and can be bright red, pink, white, or mottled, while the lower leaves remain green12. The leaves are alternate, distinctly veined, and can be entire or lobed1. Additionally, the entire plant contains a thick, milky-white sap12.\n\u2022 Habitat and Where Commonly Found: Poinsettias are widely cultivated as ornamental houseplants3. They are recognized as the most popular holiday plant (often referred to as the \"Christmas flower\" or \"Christmas star\") and are extremely common in homes as festive decorations during the winter holiday season"
+  },
+  "basics": {
+    "family": "Euphorbiaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Poinsettia is a perennial shrub easily recognized by its large, striking leaves. The upper (terminal) leaves are conspicuously colored and can be bright red, pink, white, or mottled, while the lower leaves remain green12. The leaves are alternate, distinctly veined, and can be entire or lobed1. Additionally, the entire plant contains a thick, milky-white sap12.\n\u2022 Habitat and Where Commonly Found: Poinsettias are widely cultivated as ornamental houseplants3. They are recognized as the most popular holiday plant (often referred to as the \"Christmas flower\" or \"Christmas star\") and are extremely common in homes as festive decorations during the winter holiday season"
+  },
+  "toxic_parts": [
+    "Sap",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "The sources identify the toxic substance simply as a \"thick, milky, irritant sap",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: The milky sap acts as a direct irritant to the mucous membranes2. When a cat bites into the leaves or stems, the sap irritates the mouth, esophagus, and gastrointestinal tract, which can lead to excessive drooling, nausea, vomiting, and diarrhea",
+      "concentration_notes": "The toxicity of the Poinsettia is considered very mild, and actual poisoning is quite rare35. A cat would generally need to ingest a large amount of the plant to develop clinical signs1. When symptoms do occur, they are typically self-limiting and rarely require veterinary treatment1. However, one source notes that if a cat manages to eat a significantly large amount, it may suffer more serious symptoms, potentially including cardiovascular issues"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Oral irritation, excessive drooling (hypersalivation), and discomfort of the mouth and esophagus",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources,",
+      "notes": "This is caused by the thick, milky-white, latex sap found throughout the plant acting as a direct irritant to the mucous membranes1....\n2. Gastrointestinal Distress"
+    },
+    {
+      "name": "Vomiting, diarrhea, and nausea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources, but generally develops shortly after ingestion,",
+      "notes": "Actual poisoning from a Poinsettia is considered rare; a cat generally needs to ingest a large amount of the plant to exhibit clinical signs56. The gastrointestinal symptoms are typically self-limiting and rarely require veterinary treatment6.\n3. Anorexia"
+    },
+    {
+      "name": "Anorexia (loss of appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "This is usually secondary to the gastrointestinal irritation and nausea caused by the plant's sap2....\n4. Depression"
+    },
+    {
+      "name": "Depression or lethargy",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "This can present alongside the vomiting and anorexia if a significant amount of the plant is ingested6.\n5. Cardiovascular Issues"
+    },
+    {
+      "name": "Cardiovascular issues",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "While Poinsettia toxicity is generally mild and limited to stomach upset, if a cat consumes a significantly large amount of the plant, it may suffer from more serious symptoms, including potential cardiovascular issues"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Gastric Lavage, Activated Charcoal, and Saline Cathartics",
+      "description": "For significant exposures, the veterinarian may pump or flush the stomach (gastric lavage) to remove the plant material. This can be followed by administering activated charcoal and a saline cathartic to bind the remaining toxins in the gastrointestinal tract and help them pass safely through the stool",
+      "notes": "This is the most urgent medical intervention but should only be considered in specific cases, as a cat would generally need to ingest a significantly large amount of the plant to warrant this level of treatment23.\n2. Resting the Gastrointestinal Tract",
+      "priority": 1
+    },
+    {
+      "name": "Temporary Fasting (Withholding Food and Water)",
+      "description": "The veterinarian may recommend limiting the cat's food and water intake for a short period, typically one or two hours",
+      "notes": "This is recommended if the cat is suspected of becoming sick or is actively vomiting after ingestion, as it gives the irritated gastrointestinal tract time to settle and recover2.\n3. Symptomatic Care and Observation",
+      "priority": 2
+    },
+    {
+      "name": "Observation and Symptomatic Support",
+      "description": "The cat is simply monitored while the mild symptoms (such as drooling, vomiting, or diarrhea) naturally subside on their own",
+      "notes": "Because Poinsettia ingestion is generally self-limiting and not fatal, active treatment is rarely needed23. Most of the time, the irritation resolves completely on its own without requiring a clinic visit",
+      "priority": 3
+    }
+  ]
+}

@@ -120,10 +120,10 @@
 | 116 | Peppermint | Peppermint | Mentha × piperita | | | | | | | |
 | 117 | Peruvian Lily | Peruvian Lily | Alstroemeria spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 118 | Philodendron | Philodendron | Philodendron spp., including 'Birkin' | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 119 | Photina Red Leaf | Photina Red Leaf | Nandina Photina spp. | | | | | | | |
-| 120 | Pine | Pine | N/A | | | | | | | |
+| 119 | Photina Red Leaf | Photina Red Leaf | Nandina Photina spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 120 | Pine | Pine | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 121 | Plum | Plum | Prunus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 122 | Poinsettia | Poinsettia | Euphorbia pulcherrima | | | | | | | |
+| 122 | Poinsettia | Poinsettia | Euphorbia pulcherrima | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 123 | Polka Dot Begonia | Polka Dot Begonia | Begonia maculata | | | | | | | |
 | 124 | Pom Flowers | Pom Flowers | N/A | | | | | | | |
 | 125 | Poppy | Poppy | N/A | | | | | | | |
