@@ -10,8 +10,8 @@
     "description": "A broadleaved evergreen shrub in the heath family, native to the eastern United States. Contains grayanotoxins."
   },
   "toxic_parts": [
-    "Leaf",
-    "Flower"
+    "Flower",
+    "Leaf"
   ],
   "toxins": [
     {

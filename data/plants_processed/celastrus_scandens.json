@@ -10,8 +10,8 @@
     "description": "A woody vine known as American Bittersweet, producing orange-yellow berries. All parts are toxic."
   },
   "toxic_parts": [
-    "Seed",
-    "Bulb"
+    "Bulb",
+    "Seed"
   ],
   "toxins": [
     {

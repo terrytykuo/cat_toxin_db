@@ -10,9 +10,9 @@
     "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Classification: It is classified as a common houseplant and ornamental plant3.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Characteristics: The plant contains insoluble calcium oxalates (raphides), which are needle-like crystals bundled in cells throughout the plant3. Sources specifically reference the leaves of the Arrowhead vine4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is commonly found in homes as an ornamental or houseplant"
   },
   "toxic_parts": [
-    "Leaf",
     "Entire Plant",
-    "Stem"
+    "Stem",
+    "Leaf"
   ],
   "toxins": [
     {

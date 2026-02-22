@@ -1,0 +1,63 @@
+{
+  "plant": {
+    "common_name": "Onion",
+    "scientific_name": "Allium cepa",
+    "family": "Amaryllidaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found) The provided sources do not offer a botanical description of the plant's physical appearance or its natural wild habitat. They only describe onions as extremely common \"Allium vegetables\" that are frequently found in households as human food, culinary ingredients, and concentrated seasonings (like onion powder)"
+  },
+  "basics": {
+    "family": "Amaryllidaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found) The provided sources do not offer a botanical description of the plant's physical appearance or its natural wild habitat. They only describe onions as extremely common \"Allium vegetables\" that are frequently found in households as human food, culinary ingredients, and concentrated seasonings (like onion powder)"
+  },
+  "toxic_parts": [
+    "Bulb",
+    "Root",
+    "Stem",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Sulfur compounds, most notably N-propyl disulfide",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: These sulfur compounds cause severe oxidative damage to a cat's red blood cells12. This oxidative stress leads to the formation of \"Heinz bodies,\" which are clumps of denatured hemoglobin inside the cells1. Because of this damage, the red blood cells die off much more rapidly than normal and are prematurely removed and destroyed by the cat's spleen12. This widespread destruction of red blood cells results in a life-threatening condition known as hemolytic anemia, meaning the blood can no longer effectively transport oxygen12. Cats are far more susceptible to this toxicity than dogs because of their unique feline hemoglobin structure",
+      "concentration_notes": "The toxic threshold for a cat is generally reached when they ingest an amount equal to 0.5% of their body weight3. The potency of these toxins is incredibly resilient; the plant remains highly toxic regardless of whether it is raw, cooked, processed, or dried13. Because the water is removed, highly concentrated forms like onion powder or seasoning mixes are exceptionally dangerous and can cause severe toxicity even in very small quantities14. (Note: While onions are highly toxic, the sources mention that garlic, which contains the same compounds, is approximately five times more toxic than onions1)."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Hemolytic anemia, pale, white, or yellow (jaundiced) mucous membranes/gums, and dark urine",
+      "body_system": "Hematological",
+      "severity": "fatal",
+      "onset": "May not appear for several days following ingestion",
+      "notes": "This is the primary and most dangerous hallmark of onion toxicity14. The toxins destroy the red blood cells, severely impairing the blood's ability to carry oxygen1. The destroyed red blood cells are processed and excreted by the body, which causes the cat's urine to become abnormally dark4.\n2. Lethargy, Weakness, and Collapse"
+    },
+    {
+      "name": "Lethargy, profound weakness, stumbling (ataxia), collapse, and seeking out warm spaces",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "May not appear for several days following ingestion",
+      "notes": "Because the damaged red blood cells can no longer transport oxygen effectively, the cat will experience significant energy loss, depression, lack of coordination when walking, and an urge to seek out warm areas3....\n3. Cardiopulmonary Distress"
+    },
+    {
+      "name": "Rapid heartbeat (tachycardia), rapid breathing, and breathing difficulties",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "May not appear for several days following ingestion",
+      "notes": "As the red blood cell count drops and the body becomes starved of oxygen, the cat's heart and lungs are forced to work much harder and faster to compensate, leading to cardiovascular and respiratory distress2....\n4. Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting, diarrhea, lack of appetite, and abdominal pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "May not appear for several days following ingestion",
+      "notes": "The compounds in Allium plants are irritating to the gastrointestinal mucosa, which can trigger stomach pain, vomiting, and diarrhea alongside the systemic red blood cell destruction"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Decontamination and Supportive Care",
+      "description": "Induce vomiting if recent ingestion, administer activated charcoal. Provide IV fluids and monitor for hemolytic anemia; blood transfusion if severe.",
+      "priority": 1
+    }
+  ]
+}

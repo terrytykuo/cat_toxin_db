@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-22T12:50:39.159887",
-  "total_files": 104,
-  "passed": 104,
+  "generated_at": "2026-02-22T13:21:21.532135",
+  "total_files": 108,
+  "passed": 108,
   "failed": 0,
   "results": [
     {
@@ -36,6 +36,12 @@
     },
     {
       "file": "allamanda_cathartica.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "allium_cepa.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -144,6 +150,12 @@
     },
     {
       "file": "celastrus_scandens.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "cercocarpus_spp.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -492,6 +504,18 @@
     },
     {
       "file": "narcissus_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "nerium_oleander.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "nightshade.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

@@ -10,9 +10,9 @@
     "family": "Hydrangeaceae"
   },
   "toxic_parts": [
-    "Leaf",
     "Entire Plant",
-    "Flower"
+    "Flower",
+    "Leaf"
   ],
   "toxins": [
     {

@@ -106,11 +106,11 @@
 | 102 | Monstera / Split-Leaf Philodendron | Monstera / Split-Leaf Philodendron | Monstera deliciosa or Monstera adansonii | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 103 | Morning Glory | Morning Glory | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 104 | Mountain Laurel | Mountain Laurel | Kalmia latifolia | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 105 | Mountain Mahogany | Mountain Mahogany | Cercocarpus spp. | | | | | | | |
+| 105 | Mountain Mahogany | Mountain Mahogany | Cercocarpus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 106 | Nandina | Nandina | Nandina spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 107 | Nightshade | Nightshade | N/A | | | | | | | |
-| 108 | Oleander | Oleander | Nerium oleander | | | | | | | |
-| 109 | Onion | Onion | Allium cepa | | | | | | | |
+| 107 | Nightshade | Nightshade | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 108 | Oleander | Oleander | Nerium oleander | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 109 | Onion | Onion | Allium cepa | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 110 | Orange Mint | Orange Mint | N/A | | | | | | | |
 | 111 | Oyster Plant | Oyster Plant | Tradescantia spathacea | | | | | | | |
 | 112 | Peace Lily | Peace Lily | Spathiphyllum spp. or Spathiphyllum wallisii | | | | | | | |

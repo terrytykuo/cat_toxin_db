@@ -10,9 +10,9 @@
     "description": "2. Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: It is an annual shrub with branched, erect stems. The leaves are dark, glossy, and ovate (egg-shaped) with smooth margins. The plant produces white flowers and fruits that are shiny berries appearing in various colors, shapes, and sizes2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: These plants are commonly found in households as both ornamental plants and food sources3.\u2022 Eggplant, Tomato, Bell Pepper, and Potato in dogs and cats - PETSVETCHECK13\n\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
   },
   "toxic_parts": [
-    "Leaf",
     "Fruit",
-    "Stem"
+    "Stem",
+    "Leaf"
   ],
   "toxins": [
     {

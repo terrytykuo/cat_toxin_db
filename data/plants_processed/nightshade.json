@@ -1,0 +1,112 @@
+{
+  "plant": {
+    "common_name": "Nightshade",
+    "scientific_name": "Solanum spp.",
+    "family": "Solanaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found): The provided sources do not offer a detailed physical description or specific natural wild habitat for wild nightshade plants (such as Deadly Nightshade/Belladonna or Bittersweet Nightshade).\nHowever, the sources do note that the Nightshade (Solanaceae) family encompasses a wide variety of extremely common agricultural, garden, and household plants1.... Plants in this family include tomatoes, potatoes, eggplants, bell peppers, chili peppers, petunias, bittersweet, and deadly belladonna1.... As a defense mechanism against pests and herbivores, these plants generally feature green portions (such as leaves, stems, and sprouts) that contain toxic glycoalkaloids like solanine13.\nBecause the provided texts lack a specific physical botanical description and the natural habitat for wild Nightshade,"
+  },
+  "basics": {
+    "family": "Solanaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found): The provided sources do not offer a detailed physical description or specific natural wild habitat for wild nightshade plants (such as Deadly Nightshade/Belladonna or Bittersweet Nightshade).\nHowever, the sources do note that the Nightshade (Solanaceae) family encompasses a wide variety of extremely common agricultural, garden, and household plants1.... Plants in this family include tomatoes, potatoes, eggplants, bell peppers, chili peppers, petunias, bittersweet, and deadly belladonna1.... As a defense mechanism against pests and herbivores, these plants generally feature green portions (such as leaves, stems, and sprouts) that contain toxic glycoalkaloids like solanine13.\nBecause the provided texts lack a specific physical botanical description and the natural habitat for wild Nightshade,"
+  },
+  "toxic_parts": [
+    "Fruit",
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Solanine and \u03b1-chaconine, which are glycoalkaloid neurotoxins",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: These toxins harm cats through several severe systemic mechanisms:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cytotoxic effect: Solanine interacts with the phospholipids in cell membranes, increasing permeability and causing cell destruction. This particularly damages the intestinal epithelial cells, causing severe gastrointestinal irritation, inflammation, vomiting, and diarrhea3.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Neurological disruption: It inhibits acetylcholinesterase, the enzyme responsible for breaking down acetylcholine. This causes an overstimulation of the parasympathetic nervous system, leading to salivation, an abnormally slow heart rate (bradycardia), muscle tremors, and seizures45.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mitochondrial impairment: It disrupts the energy balance of cells by inhibiting the respiratory chain, leading to lethargy and weakness6.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Red blood cell destruction: In severe cases, it can cause hemolysis (the destruction of red blood cells), leading to anemia and subsequent kidney damage57.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Feline-specific vulnerability: Cats are particularly sensitive to these toxins because their livers lack the glucuronidation pathways needed to efficiently detoxify and process them, resulting in prolonged and more severe illness",
+      "concentration_notes": "Solanine is heavily concentrated in the green parts of nightshade plants, such as unripe fruits, green potato skins, potato sprouts (eyes), leaves, and stems1.... Ripe fruits and cooked/peeled potatoes contain only trace amounts and are generally tolerable"
+    },
+    {
+      "name": "Tomatine, a glycoalkaloid closely related to solanine",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Tomatine acts as a natural defense mechanism against pests913. Similar to solanine, cats lack the specific enzymes required to efficiently break this compound down13. Ingestion leads to gastrointestinal distress, lethargy, and in extreme cases, heart rate irregularities",
+      "concentration_notes": "Tomatine is highest in concentration in the leaves, stems, and unripe (green) tomatoes912. Fully ripe red tomatoes contain negligible levels of tomatine and pose no meaningful threat9.... It is generally considered slightly less toxic than solanine, requiring very large doses to cause severe systemic illness"
+    },
+    {
+      "name": "Capsaicin",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Capsaicin is highly irritating to the mucous membranes. If ingested, it can lead to gastroenteritis, coughing, hypersalivation, and watery eyes",
+      "concentration_notes": "While mild bell peppers contain only small amounts and are relatively harmless, capsaicin is heavily concentrated in spicy pepper varieties, making them particularly dangerous and irritating to pets"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea (sometimes bloody), and significant abdominal pain",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "2\u201324 hours (typically the initial sign)",
+      "notes": "Solanine interacts directly with the cell membranes, specifically causing destruction, irritation, and inflammation to the intestinal epithelial cells7. This leads to violent lower gastrointestinal problems and tense abdominal walls46.\n2. Hypersalivation and Mucous Membrane Irritation"
+    },
+    {
+      "name": "Excessive drooling (hypersalivation), burning sensation, and coughing",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "2\u201324 hours",
+      "notes": "This is caused by the direct irritating effect of the plant material on the mucous membranes, as well as the overstimulation of the parasympathetic nervous system4....\n3. Neurological Abnormalities (Lethargy, Tremors, Seizures, and Ataxia)"
+    },
+    {
+      "name": "Lethargy, depression, confusion, dilated pupils, ataxia (loss of coordination), muscle tremors, stupor, and seizures",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "2\u201324 hours (typically follows gastrointestinal symptoms as the toxin is absorbed into the bloodstrea",
+      "notes": "Solanine inhibits the enzyme acetylcholinesterase in the brain and impairs mitochondrial function, severely disrupting the central nervous system3.... Cats are exceptionally sensitive to these toxins because their specific liver metabolism (lack of glucuronidation) slows detoxification, resulting in more severe and prolonged neurological effects than in dogs48.\n4. Cardiac and Circulatory Disorders"
+    },
+    {
+      "name": "Abnormally slow heart rate (bradycardia) and circulatory failure",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "2\u201324 hours",
+      "notes": "This occurs at higher toxic doses due to the severe overstimulation of the parasympathetic nervous system59. If left untreated, circulatory failure can lead to death4.\n5. Hemolysis, Anemia, and Kidney Damage"
+    },
+    {
+      "name": "Hemolysis (destruction of red blood cells), resulting in anemia, jaundice (icterus), and hemoglobinuria (dark red or brown urine)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "2\u201324 hours (progressing as the toxins circulate)",
+      "notes": "In severe cases, the toxins destroy the red blood cells4. The released hemoglobin from this destruction is nephrotoxic and can subsequently damage the kidneys, contributing to acute kidney failure3....\n6. Respiratory Paralysis"
+    },
+    {
+      "name": "Difficulty breathing progressing to respiratory paralysis",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "2\u201324 hours (usually in the terminal stages of severe poisoning)",
+      "notes": "In particularly severe, untreated cases of nightshade poisoning, the ultimate cause of death is often respiratory paralysis and cardiovascular collapse"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oxygen Therapy, Mechanical Ventilation, and Anticonvulsant Medications",
+      "description": "The veterinarian will provide supplemental oxygen or utilize mechanical ventilation to support breathing. Seizures are actively controlled using anticonvulsant medications such as benzodiazepines or barbiturates",
+      "notes": "This is the most critical, life-saving intervention if the cat presents in the severe, terminal stages of poisoning, which can cause severe respiratory depression, respiratory paralysis, and active seizures12.\n2. Gastrointestinal Decontamination",
+      "priority": 1
+    },
+    {
+      "name": "Induction of Emesis (Vomiting), Gastric Lavage, and Activated Charcoal",
+      "description": "The veterinarian will remove the toxin from the stomach by medically inducing vomiting (typically using xylazine in cats) or by performing a gastric lavage (stomach pumping) under anesthesia3. Following this, activated charcoal (1\u20134 g/kg body weight) is administered to bind to any unabsorbed solanine in the gastrointestinal tract and pass it safely",
+      "notes": "Inducing vomiting should only be performed if the ingestion was very recent (within 1 to 2 hours) and the cat has absent or only mild symptoms3. In cases of severe poisoning, the activated charcoal administration may need to be repeated multiple times at 4- to 6-hour intervals1.\n3. Fluid Therapy and Renal Protection",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy with Crystalloid Solutions",
+      "description": "IV fluids are administered to correct dehydration caused by severe vomiting and diarrhea, stimulate diuresis (urine production), and promote the excretion of the toxins",
+      "notes": "If the cat's blood work or urine shows signs of hemolysis (destruction of red blood cells), the veterinarian must increase the IV infusion rate. This is critical to ensure adequate blood flow (perfusion) to the kidneys and prevent the released hemoglobin from causing acute kidney failure1.\n4. Targeted Symptomatic Therapy",
+      "priority": 3
+    },
+    {
+      "name": "Atropine Administration",
+      "description": "The veterinarian will administer atropine to partially compensate for the effects of the toxin on the brain and nervous system",
+      "notes": "There is no direct, specific antidote for solanine poisoning; however, atropine is highly effective at treating the specific cholinergic symptoms of the poisoning, such as an abnormally slow heart rate (bradycardia) and excessive drooling14.\n5. Ongoing Monitoring and Dietary Aftercare",
+      "priority": 4
+    },
+    {
+      "name": "Organ Monitoring and Bland Diet",
+      "description": "The cat's vital parameters, blood counts, and kidney functions will be continuously monitored throughout the hospital stay1. Upon returning home, the cat is fed a gentle, easily digestible diet for 3 to 5 days",
+      "notes": "Because kidney and liver damage can occur with a delay following nightshade poisoning, aftercare requires regular veterinary monitoring of liver and kidney functions for several weeks after the acute phase has passed",
+      "priority": 5
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "plant": {
+    "common_name": "Mountain Mahogany",
+    "scientific_name": "Cercocarpus spp.",
+    "family": "Rosaceae",
+    "description": "Mountain mahogany; a genus of shrubs and small trees in the rose family, native to the western United States and northern Mexico."
+  },
+  "basics": {
+    "family": "Rosaceae",
+    "description": "Mountain mahogany; a genus of shrubs and small trees in the rose family, native to the western United States and northern Mexico."
+  },
+  "toxic_parts": [
+    "Seed",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Cyanogenic glycosides, which metabolize and break down to release cyanide (specifically hydrogen cyanide)",
+      "chemical_formula": "HCN (for Hydrogen Cyanide)1.",
+      "description": "in cats: When a cat chews, grinds, or crushes the plant material, the cyanogenic glycosides are altered and release toxic cyanide into the body2. Once absorbed, the cyanide binds to ferric iron (Fe\n3+\n), specifically inhibiting the mitochondrial enzyme cytochrome c oxidase24. This interference halts cellular respiration, completely preventing the cells from utilizing oxygen and resulting in rapid, life-threatening tissue hypoxia (oxygen deprivation)",
+      "concentration_notes": "The toxic cyanogenic glycosides are generally concentrated within the leaves of the plant and the seeds of its fruit2. Severe toxicity is relatively uncommon unless a large amount of the plant is ingested2. Furthermore, the seeds must be physically compromised to pose a danger; if a cat swallows a seed completely whole without chewing it, the cyanide is not released and toxicity is not expected"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Respiratory distress (panting, gasping for breath, or labored breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Within minutes to hours",
+      "notes": "This is typically one of the most prominent signs of cyanide poisoning, occurring because the toxin severely hampers the body's ability to utilize oxygen at the cellular level45.\n2. Unusual Gum Color (Bright Red Gums)"
+    },
+    {
+      "name": "Unusually red or pink gums (bright red mucous membranes)",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Within minutes to hours",
+      "notes": "This distinct symptom happens because the cells are unable to extract oxygen from the blood. The blood remains fully oxygenated, causing the gums and mucous membranes to appear bright red while the body's tissues are essentially suffocating35.\n3. Dilated Pupils"
+    },
+    {
+      "name": "Dilated pupils",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within minutes to hours",
+      "notes": "Abnormally large pupils act as an indicator of severe systemic stress and neurological impairment from the rapid lack of usable oxygen3....\n4. Excessive Drooling"
+    },
+    {
+      "name": "Excessive drooling (hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within minutes to hours",
+      "notes": "Salivating much more than usual can be one of the earlier, acute signs of toxic exposure before severe neurological decline sets in5.\n5. Shock, Seizures, and Coma"
+    },
+    {
+      "name": "Shock, seizures (convulsions), loss of consciousness, and coma",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Within minutes to hours",
+      "notes": "These extreme neurological and cardiovascular symptoms manifest as the oxygen deprivation peaks. Cyanide poisoning acts very quickly; if prompt veterinary attention (which may include oxygen therapy and specific antidotes) is not provided, it rapidly progresses to death"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Supportive Care",
+      "description": "Provide supportive care for gastrointestinal upset and monitor. Consult a veterinarian.",
+      "priority": 1
+    }
+  ]
+}
