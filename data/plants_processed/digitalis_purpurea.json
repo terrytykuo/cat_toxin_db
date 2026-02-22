@@ -10,14 +10,14 @@
     "description": "Brief Description\n\u2022 Appearance: It is typically an erect biennial plant (producing a low cluster of leaves in its first year and flowering in the second). It features simple, hairy, alternate leaves that are ovate to lanceolate with toothed margins12. The plant is known for its trumpet-like or tubular flowers, which grow in terminal racemes and can be purple, pink, red, white, or yellow, often with spots inside13. The fruit is a capsule containing many seeds\u2014a single plant can produce over a million seeds12.\n\u2022 Habitat and Where Commonly Found: Originally introduced to America from Europe as an ornamental garden plant, it has escaped cultivation in some areas to become a weed2. It is commonly found in the northern half of the United States and Canada, specifically noted in parts of Oregon, Washington, and West Virginia24. In the wild, it grows along roads, fence rows, in small clearings, and on the borders of timberland"
   },
   "toxic_parts": [
-    "Flower",
-    "Entire Plant",
-    "Leaf",
     "Pollen",
-    "Sap",
     "Seed",
     "Stem",
-    "Root"
+    "Entire Plant",
+    "Root",
+    "Leaf",
+    "Sap",
+    "Flower"
   ],
   "toxins": [
     {

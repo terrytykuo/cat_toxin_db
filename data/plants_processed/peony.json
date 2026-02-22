@@ -1,0 +1,60 @@
+{
+  "plant": {
+    "common_name": "Peony",
+    "scientific_name": "Paeonia spp.",
+    "description": "Herbaceous perennial plants and woody shrubs known for large, showy, often fragrant flowers. Commonly grown in gardens.",
+    "family": "Paeoniaceae"
+  },
+  "basics": {
+    "description": "Herbaceous perennial plants and woody shrubs known for large, showy, often fragrant flowers. Commonly grown in gardens.",
+    "family": "Paeoniaceae"
+  },
+  "toxic_parts": [
+    "Root",
+    "Bark",
+    "Flower",
+    "Seed"
+  ],
+  "toxins": [
+    {
+      "name": "Paeonol",
+      "chemical_formula": "C9H10O3",
+      "description": "A phenolic compound that causes gastrointestinal irritation.",
+      "concentration_notes": "Concentrated mainly in the roots and bark."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "severity": "mild",
+      "body_system": "Gastrointestinal",
+      "onset": null
+    },
+    {
+      "name": "Diarrhea",
+      "severity": "mild",
+      "body_system": "Gastrointestinal",
+      "onset": null
+    },
+    {
+      "name": "Depression",
+      "severity": "mild",
+      "body_system": "Neurological",
+      "onset": null
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Remove the Hazard and Contact the Vet: Immediately take the cat away from the plant and call your veterinarian for advice. Do not wait for severe symptoms to develop",
+      "priority": 1
+    },
+    {
+      "name": "Do Not Induce Vomiting: Do not attempt to make your cat sick at home unless explicitly instructed to do so by a professional, as it may not be helpful and can sometimes cause further harm",
+      "priority": 2
+    },
+    {
+      "name": "Collect Samples: If possible, take a sample of the plant\u2014and a sample of the cat's vomit, if they have thrown up\u2014to the veterinary clinic to help with the diagnosis",
+      "priority": 3
+    }
+  ]
+}

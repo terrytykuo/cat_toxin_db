@@ -116,10 +116,10 @@
 | 112 | Peace Lily | Peace Lily | Spathiphyllum spp. or Spathiphyllum wallisii | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 113 | Peach | Peach | Prunus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 114 | Pennyroyal | Pennyroyal | Mentha pulegium | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 115 | Peony | Peony | N/A | | | | | | | |
+| 115 | Peony | Peony | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 116 | Peppermint | Peppermint | Mentha × piperita | | | | | | | |
-| 117 | Peruvian Lily | Peruvian Lily | Alstroemeria spp. | | | | | | | |
-| 118 | Philodendron | Philodendron | Philodendron spp., including 'Birkin' | | | | | | | |
+| 117 | Peruvian Lily | Peruvian Lily | Alstroemeria spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 118 | Philodendron | Philodendron | Philodendron spp., including 'Birkin' | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 119 | Photina Red Leaf | Photina Red Leaf | Nandina Photina spp. | | | | | | | |
 | 120 | Pine | Pine | N/A | | | | | | | |
 | 121 | Plum | Plum | Prunus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |

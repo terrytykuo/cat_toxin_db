@@ -10,12 +10,12 @@
     "description": "Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Cycads are palm-like plants that often resemble small, bush-sized trees14.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u25aa Zamia pumila is described as having a thick, fleshy, tuberous stem (often underground) from which pinnately compound, palm-like leaves grow (approximately 60 cm long). It produces cones containing shiny, orange-red seeds1.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u25aa Cycas revoluta (Sago Palm) is noted for looking like a small palm tree4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat and Location:\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u25aa They are naturally found in tropical areas3.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u25aa Specific varieties like Zamia floridana (Coontie) are noted as native to Florida3.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u25aa Commonly Found: They are widely used as ornamental plants in both indoor and outdoor landscapes and gardens3.... They are increasingly popular in home decorations"
   },
   "toxic_parts": [
-    "Entire Plant",
-    "Leaf",
-    "Bark",
     "Seed",
     "Stem",
-    "Root"
+    "Entire Plant",
+    "Root",
+    "Bark",
+    "Leaf"
   ],
   "toxins": [
     {

@@ -1,0 +1,59 @@
+{
+  "plant": {
+    "common_name": "Peruvian Lily",
+    "scientific_name": "Alstroemeria spp.",
+    "description": "However, the provided texts do not contain its specific botanical family, nor do they provide a physical description of its appearance or natural habitat.",
+    "family": "Alstroemeriaceae"
+  },
+  "basics": {
+    "description": "However, the provided texts do not contain its specific botanical family, nor do they provide a physical description of its appearance or natural habitat.",
+    "family": "Alstroemeriaceae"
+  },
+  "toxic_parts": [
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Oxalate crystals",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: The oxalate crystals act as direct physical irritants1. When a cat chews or swallows the plant material, the crystals irritate the gastrointestinal tract, resulting in minor signs of toxicity such as mild, self-limiting stomach upset12. Because the Peruvian Lily (Alstroemeria spp.) is considered an \"imposter lily\" and not a true lily, these crystals do not cause the acute, fatal kidney failure associated with true lily ingestions",
+      "concentration_notes": "The overall toxicity and potency of the Peruvian Lily are considered very mild12. Interestingly, the Peruvian Lily was listed among the top 10 cat exposure calls to the Pet Poison Helpline in 2023; this is largely because it is incredibly common in floral bouquets and the name \"lily\" causes immediate panic for cat owners24. However, actual poisoning is minor, and the resulting stomach upset generally resolves on its own"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Stomach upset (vomiting and/or diarrhea)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources, but generally occurs shortly after ingestion.",
+      "notes": "The stomach upset caused by Peruvian lilies is considered minor and self-limiting13. Because Peruvian lilies are not \"true\" lilies, they do not cause acute kidney failure, and actual poisoning is rare despite the plant's frequent appearance in floral bouquets1.\n2. Minor Oral Irritation"
+    },
+    {
+      "name": "Minor signs of oral toxicity or irritation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to shortly after chewing the plant.",
+      "notes": "This minor irritation is caused by the oxalate crystals present in the plant, which act as a physical irritant when the cat chews on the plant material"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Securing an Airway and Oxygen Support",
+      "description": "The veterinarian will monitor the cat for severe tissue swelling in the throat (laryngeal edema) caused by the irritation of the crystals. If the swelling obstructs breathing, the vet will secure the airway and provide supplemental oxygen",
+      "notes": "This is an emergency measure that is rarely necessary, but it is the most critical priority if severe swelling occurs4.\n2. Oral Decontamination and Crystal Binding",
+      "priority": 1
+    },
+    {
+      "name": "Removal of Plant Material and Oral Rinsing",
+      "description": "The mouth is wiped out to physically remove any remaining plant material4. The oral cavity is then rinsed with water to help clear away the sharp oxalate crystals (raphides)",
+      "notes": "Veterinarians may utilize milk or other calcium-containing dairy products, as the calcium binds directly to the insoluble oxalates, which helps clear them from the mouth and esophagus and eases the cat's pain4.\n3. Symptomatic and Supportive Care",
+      "priority": 2
+    },
+    {
+      "name": "General Supportive Care and Monitoring",
+      "description": "The cat is observed for mild, self-limiting stomach upset, excessive drooling, or oral pain24. Basic supportive care is provided until the irritation naturally subsides",
+      "notes": "Because Peruvian lilies only cause mild, localized irritation, there is no concern for systemic organ injury or renal failure24. Full recovery is expected, and many cats recover completely at home without requiring a clinic visit",
+      "priority": 3
+    }
+  ]
+}

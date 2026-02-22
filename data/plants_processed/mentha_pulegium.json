@@ -10,9 +10,9 @@
     "description": "2. Brief Description (Appearance, Habitat, and Where Commonly Found) The provided sources do not contain a physical botanical description or specific details about the natural habitat of Pennyroyal. They only note that it is a specific type of mint that is exceptionally toxic to cats"
   },
   "toxic_parts": [
+    "Root",
     "Flower",
-    "Stem",
-    "Root"
+    "Stem"
   ],
   "toxins": [
     {

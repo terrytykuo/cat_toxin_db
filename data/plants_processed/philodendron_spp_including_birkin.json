@@ -1,0 +1,80 @@
+{
+  "plant": {
+    "common_name": "Philodendron",
+    "scientific_name": "Philodendron spp., including 'Birkin'",
+    "family": "Araceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Philodendrons are climbing vines that develop aerial roots1. They are primarily cultivated for their foliage rather than their blooms, as they rarely flower1. Their large, attractive leaves can grow in various shapes, including unlobed, pinnately lobed, or heart-shaped (such as the Heartleaf Philodendron)12.\n\u2022 Habitat and Where Commonly Found: Because they are resilient and very easy to grow, Philodendrons (including specific varieties like the 'Birkin') are extremely common indoor houseplants"
+  },
+  "basics": {
+    "family": "Araceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Philodendrons are climbing vines that develop aerial roots1. They are primarily cultivated for their foliage rather than their blooms, as they rarely flower1. Their large, attractive leaves can grow in various shapes, including unlobed, pinnately lobed, or heart-shaped (such as the Heartleaf Philodendron)12.\n\u2022 Habitat and Where Commonly Found: Because they are resilient and very easy to grow, Philodendrons (including specific varieties like the 'Birkin') are extremely common indoor houseplants"
+  },
+  "toxic_parts": [
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Insoluble calcium oxalate crystals, which are shaped like needles and often referred to as raphides",
+      "chemical_formula": "Not provided in the given sources12.",
+      "description": "in cats: These needle-like crystals are stored within specialized plant cells called idioblasts12. When a cat bites or chews the plant, the mechanical action ruptures these cells, forcefully ejecting the sharp crystals into the cat's oral mucosa and surrounding tissues12. This physical trauma causes immediate and intense pain, burning, and inflammation of the mouth, lips, and tongue13. While the primary mechanism is physical irritation, the sources note that in cats, ingestion can occasionally lead to systemic issues like renal failure, excitability, nervous spasms, convulsions, and encephalitis",
+      "concentration_notes": "Philodendrons contain high levels of these crystals throughout the entire plant34. The overall severity of the toxicity is generally classified as moderate56. While exposure is rarely fatal, a severe inflammatory response can cause the tissues in the throat to swell, which carries the dangerous potential to obstruct the cat's airway"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Immediate oral pain, intense burning sensation, erythema",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate",
+      "notes": "This is caused by the mechanical action of chewing the plant, which ruptures specialized cells and forcefully ejects needle-like insoluble calcium oxalate crystals (raphides) into the cat's tissues. The immediate and intense pain often limits the amount of the plant the cat is willing to consume37.\n2. Hypersalivation"
+    },
+    {
+      "name": "Excessive drooling (hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate",
+      "notes": "This is a direct physiological response to the sharp calcium oxalate crystals piercing and irritating the mucous membranes of the mouth and throat17.\n3. Gastrointestinal Distress and Anorexia"
+    },
+    {
+      "name": "Vomiting, diarrhea, difficulty swallowing (dysphagia), and loss of appetite (anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion.",
+      "notes": "The reluctance to eat and difficulty swallowing are primarily secondary to the extreme discomfort, pain, and swelling in the gastrointestinal tract rather than systemic nausea1....\n4. Airway Swelling and Respiratory Distress"
+    },
+    {
+      "name": "Edema (swelling) of the mouth, tongue, pharynx, and upper airways, leading to difficulty breathing (dyspnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapidly following ingestion",
+      "notes": "While Philodendron ingestion is rarely fatal, a severe inflammatory response to the crystals can cause the tissues in the throat to swell significantly. This carries the dangerous potential to obstruct the cat's airway, which is a medical emergency requiring the vet to secure an airway and provide oxygen support1....\n5. Systemic Neurological and Renal Complications"
+    },
+    {
+      "name": "Renal failure, lethargy, excitability, nervous spasms, convulsions, and encephalitis",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources,",
+      "notes": "While insoluble calcium oxalates usually cause localized physical irritation, ingestion of Philodendron has occasionally been reported to cause these rare but severe systemic issues in cats, including kidney failure and brain inflammation (encephalitis)"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Securing an Airway and Oxygen Support",
+      "description": "The veterinarian will immediately assess the cat for severe swelling of the tongue, mouth, and pharynx (laryngeal edema). If the swelling is obstructing the cat's breathing, the vet will secure the airway and provide supplemental oxygen",
+      "notes": "While Philodendron ingestions are rarely fatal, a severe inflammatory response to the calcium oxalate crystals can cause the tissues in the throat to swell to the point of airway obstruction, making this the most critical and urgent emergency intervention12.\n2. Oral Decontamination and Crystal Binding",
+      "priority": 1
+    },
+    {
+      "name": "Oral Rinsing and Removal of Plant Material",
+      "description": "The oral cavity is thoroughly inspected, and any remaining plant material is gently removed2. The mouth is then wiped out or rinsed with cool water to help clear away the sharp, needle-like calcium oxalate crystals (raphides)",
+      "notes": "Veterinarians may also utilize milk, yogurt, or other calcium-containing dairy products to flush the mouth23. The calcium directly binds to the insoluble oxalates, which helps clear them from the oral cavity and esophagus while soothing the cat's intense pain and burning sensation23.\n3. Symptomatic and Supportive Care (Pain Relief, Anti-Nausea, and Fluids)",
+      "priority": 2
+    },
+    {
+      "name": "Symptomatic Medication and Fluid Therapy",
+      "description": "The veterinarian will administer targeted medications, such as pain relief for the severe oral discomfort and anti-nausea treatments to control vomiting4. If the cat is dehydrated from vomiting or drooling, intravenous (IV) fluid therapy may also be administered",
+      "notes": "Most cases of insoluble calcium oxalate poisoning have an excellent prognosis and resolve with basic supportive care2. However, close veterinary monitoring is highly recommended because Philodendron ingestion in cats has occasionally been linked to rare but severe systemic complications, including renal failure, nervous spasms, and encephalitis (brain inflammation)",
+      "priority": 3
+    }
+  ]
+}

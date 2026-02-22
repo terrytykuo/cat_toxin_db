@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-22T13:49:38.812358",
-  "total_files": 112,
-  "passed": 112,
+  "generated_at": "2026-02-22T20:12:48.204847",
+  "total_files": 116,
+  "passed": 116,
   "failed": 0,
   "results": [
     {
@@ -72,6 +72,12 @@
     },
     {
       "file": "aloe_barbadensis_or_aloe_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "alstroemeria_spp.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -461,6 +467,12 @@
       "issues": []
     },
     {
+      "file": "mentha__piperita.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "mentha_pulegium.json",
       "status": "PASS",
       "issue_count": 0,
@@ -533,7 +545,19 @@
       "issues": []
     },
     {
+      "file": "peony.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "persea_americana.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "philodendron_spp_including_birkin.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

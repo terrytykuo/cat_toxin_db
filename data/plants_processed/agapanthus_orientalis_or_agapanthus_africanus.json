@@ -10,11 +10,11 @@
     "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Classification: It is a perennial herb that grows from rhizomes1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is frequently referred to as the African Blue Lily, Blue African Lily1, or Lily of the Nile2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance & Habitat: It is often found as an ornamental plant and can grow to a height of approximately 2 feet in large containers1. Notably, it is categorized as an \"imposter lily\" (along with plants like the Calla lily and Peace lily), distinguishing it from \"true lilies\" (Lilium and Hemerocallis species) which cause kidney failure in cats2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Toxicity: While not causing acute renal failure like true lilies, it contains insoluble oxalate crystals (concentrated in the rhizomes) which can cause oral pain, swelling, and drooling if ingested1.\n(Note: While one source description1 mentions \"heart-shaped leaves\" and a \"yellow-green spathe\" for this entry, this description appears to be a text error in the source data duplicating the description of Caladium, as Agapanthus typically has strap-like leaves and umbels of blue or white flowers.)"
   },
   "toxic_parts": [
-    "Entire Plant",
-    "Leaf",
-    "Stem",
     "Latex",
-    "Root"
+    "Stem",
+    "Entire Plant",
+    "Root",
+    "Leaf"
   ],
   "toxins": [
     {

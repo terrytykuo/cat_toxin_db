@@ -7,10 +7,10 @@
   },
   "basics": {},
   "toxic_parts": [
-    "Stem",
-    "Entire Plant",
     "Root",
-    "Leaf"
+    "Stem",
+    "Leaf",
+    "Entire Plant"
   ],
   "toxins": [
     {
