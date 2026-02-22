@@ -1,0 +1,45 @@
+{
+  "plant": {
+    "common_name": "Oyster Plant",
+    "scientific_name": "Tradescantia spathacea",
+    "family": "Commelinaceae",
+    "description": "A herbaceous perennial plant with dark green leaves that are purple underneath, commonly known as Oyster Plant."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Stem",
+    "Sap",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "The plant's sap contains irritating compounds, specifically oxalates (calcium oxalate crystals) along with other unspecified irritants",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: The sap acts as a direct physical and chemical irritant. When a cat bites or chews the plant, the sap is released, causing immediate irritation to the oral mucous membranes and gastrointestinal tract, which leads to drooling and vomiting1. Additionally, it acts as a contact irritant; if the sap gets onto the cat's fur or skin, it can occasionally cause localized skin irritation or rash",
+      "concentration_notes": "The overall toxicity level of the Oyster Plant is considered mild1. The irritant sap is distributed throughout all parts of the plant, but is specifically noted as being contained within the leaves"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Drooling (hypersalivation) and vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "The sources do not specify an exact timeframe, but because it is an immediate physical irritant,",
+      "notes": "If your cat ingests this plant, you should gently wipe out their mouth to remove any residual irritant sap and offer water1. You should monitor them for persistent vomiting and consult a veterinarian if symptoms worsen or do not resolve1.\n2. Skin Irritation"
+    },
+    {
+      "name": "Skin irritation or rash",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "The sources do not specify an exact timeframe,",
+      "notes": "This is an occasional symptom that happens when the cat's skin or fur comes into contact with the sap1. It is recommended to wipe the cat's paws to remove the sap, and to consult a vet if the rash persists"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Decontamination and Supportive Care",
+      "description": "Rinse mouth to remove irritating plant material. Monitor for gastrointestinal upset and provide supportive care.",
+      "priority": 1
+    }
+  ]
+}

@@ -7,9 +7,9 @@
   },
   "basics": {},
   "toxic_parts": [
+    "Stem",
     "Fruit",
     "Root",
-    "Stem",
     "Leaf"
   ],
   "toxins": [

@@ -10,11 +10,11 @@
     "description": "Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: It is a palm-like plant (specifically a cycad) featuring a thick, fleshy, underground tuberous stem. From this stem grow pinnately compound leaves that are typically about 60 cm (approximately 2 feet) long. The plant produces cones containing inch-long, shiny, orange-red seeds1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat and Location: It is commonly found in and is native to Florida (where it is also known as Florida arrowroot or Seminole bread)"
   },
   "toxic_parts": [
-    "Seed",
-    "Root",
     "Entire Plant",
+    "Leaf",
+    "Seed",
     "Stem",
-    "Leaf"
+    "Root"
   ],
   "toxins": [
     {

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-22T13:21:21.532135",
-  "total_files": 108,
-  "passed": 108,
+  "generated_at": "2026-02-22T13:49:38.812358",
+  "total_files": 112,
+  "passed": 112,
   "failed": 0,
   "results": [
     {
@@ -461,6 +461,12 @@
       "issues": []
     },
     {
+      "file": "mentha_pulegium.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "mentha_requienii.json",
       "status": "PASS",
       "issue_count": 0,
@@ -516,6 +522,12 @@
     },
     {
       "file": "nightshade.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "orange_mint.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -611,6 +623,12 @@
       "issues": []
     },
     {
+      "file": "spathiphyllum_spp_or_spathiphyllum_wallisii.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "strelitzia_reginae.json",
       "status": "PASS",
       "issue_count": 0,
@@ -624,6 +642,12 @@
     },
     {
       "file": "syzygium_aromaticum.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "tradescantia_spathacea.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

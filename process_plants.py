@@ -99,7 +99,10 @@ MANUAL_FAMILIES = {
     "Allium cepa": "Amaryllidaceae",
     "Cercocarpus spp.": "Rosaceae",
     "Nerium oleander": "Apocynaceae",
-    "Solanum spp.": "Solanaceae"
+    "Solanum spp.": "Solanaceae",
+    "Mentha citrata": "Lamiaceae",
+    "Spathiphyllum spp. or Spathiphyllum wallisii": "Araceae",
+    "Tradescantia spathacea": "Commelinaceae"
 }
 
 MANUAL_DESCRIPTIONS = {
@@ -124,7 +127,9 @@ MANUAL_DESCRIPTIONS = {
     "Hydrangea spp.": "Deciduous shrubs known for large flower heads in shades of pink, blue, or white.",
     "Kalmia latifolia": "A broadleaved evergreen shrub in the heath family, native to the eastern United States. Contains grayanotoxins.",
     "Ipomoea spp.": "Fast-growing climbing vines with trumpet-shaped flowers. Seeds contain lysergic acid amides.",
-    "Cercocarpus spp.": "Mountain mahogany; a genus of shrubs and small trees in the rose family, native to the western United States and northern Mexico."
+    "Cercocarpus spp.": "Mountain mahogany; a genus of shrubs and small trees in the rose family, native to the western United States and northern Mexico.",
+    "Spathiphyllum spp. or Spathiphyllum wallisii": "Evergreen herbaceous perennial plant with large leaves and white spathe flowers, commonly grown as a houseplant.",
+    "Tradescantia spathacea": "A herbaceous perennial plant with dark green leaves that are purple underneath, commonly known as Oyster Plant."
 }
 
 MANUAL_TOXIC_PARTS = {
@@ -398,6 +403,10 @@ def postprocess(processed):
     if plant.get("common_name") == "Nightshade" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
         plant["scientific_name"] = "Solanum spp."
         
+    # Fix Orange Mint scientific name
+    if plant.get("common_name") == "Orange Mint" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
+        plant["scientific_name"] = "Mentha citrata"
+
     plant["family"] = clean_family(plant.get("family"))
     
     # --- Description Cleaning ---
@@ -504,6 +513,13 @@ def postprocess(processed):
         processed["treatments"] = [{
             "name": "Supportive Care",
             "description": "Provide supportive care for gastrointestinal upset and monitor. Consult a veterinarian.",
+            "priority": 1
+        }]
+
+    if sci_name == "Tradescantia spathacea" and not processed.get("treatments"):
+        processed["treatments"] = [{
+            "name": "Decontamination and Supportive Care",
+            "description": "Rinse mouth to remove irritating plant material. Monitor for gastrointestinal upset and provide supportive care.",
             "priority": 1
         }]
 

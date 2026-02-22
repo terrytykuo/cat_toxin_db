@@ -10,10 +10,10 @@
     "description": "Brief Description\n\u2022 Appearance: The apricot grows as a tree2. It produces fruit classified as a \"stone fruit\" or \"pitted fruit,\" characterized by a fleshy exterior surrounding a large, hard seed or pit in the center3,1,4.\n\u2022 Habitat & Location: While the sources focus on toxicology rather than botany, they indicate that apricots are commonly found in homes as a food source5. The sources do not provide specific details regarding the plant's natural habitat or physical characteristics (such as leaf shape or flower color) beyond its classification as a fruit-bearing tree containing pits."
   },
   "toxic_parts": [
-    "Fruit",
-    "Seed",
     "Stem",
-    "Leaf"
+    "Fruit",
+    "Leaf",
+    "Seed"
   ],
   "toxins": [
     {

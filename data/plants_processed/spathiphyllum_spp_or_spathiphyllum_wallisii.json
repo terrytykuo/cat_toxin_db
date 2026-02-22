@@ -1,0 +1,77 @@
+{
+  "plant": {
+    "common_name": "Peace Lily",
+    "scientific_name": "Spathiphyllum spp. or Spathiphyllum wallisii",
+    "family": "Araceae",
+    "description": "Evergreen herbaceous perennial plant with large leaves and white spathe flowers, commonly grown as a houseplant."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Insoluble calcium oxalate crystals, specifically in a needle-like form known as raphides",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: The needle-like oxalate crystals are bundled and stored inside specialized plant cells called idioblasts4. When a cat bites, chews, or crushes the plant material, these idioblasts rupture and shoot the sharp raphides into the surrounding tissues4. The crystals act as tiny needles that physically pierce and traumatize the oral cavity and gastrointestinal mucous membranes34. This mechanical irritation causes immediate, intense burning and pain in the mouth and throat, leading to excessive drooling, pawing at the mouth, tissue swelling (edema), and vomiting2.... Importantly, because the Peace Lily is an \"imposter lily,\" this mechanism only causes localized oral and gastrointestinal distress, rather than the systemic, fatal kidney failure caused by true lilies",
+      "concentration_notes": "The overall toxicity of the Peace Lily is considered mild to moderate12. The insoluble calcium oxalate crystals are found throughout all parts of the plant, with raphides notably present within the foliage26. Because chewing the plant causes immediate and intense pain, cats usually stop eating it right away; this naturally limits the amount of the plant they consume, making severe poisoning rare and the prognosis for a full recovery excellent"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning, pain, irritation, erythema (redness), and pawing at the mouth",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "This immediate pain is caused by the needle-like insoluble calcium oxalate crystals (raphides) physically piercing the mucous membranes as the cat bites into the plant14. This intense, sudden pain usually limits the amount of the plant the cat actually consumes5.\n2. Excessive Drooling and Difficulty Swallowing"
+    },
+    {
+      "name": "Hypersalivation (excessive drooling) and difficulty swallowing (dysphagia)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "This is a direct response to the oral trauma and tissue swelling (edema) in the tongue and pharynx46. Rinsing the cat's mouth out with water or offering a calcium-containing dairy product (like milk) can help bind the crystals and soothe the irritation46.\n3. Stomach Upset (Vomiting and Diarrhea)"
+    },
+    {
+      "name": "Vomiting, stomach upset, and occasionally diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to shortly after ingestion.",
+      "notes": "If the cat manages to swallow the plant material, the crystals will continue to irritate the gastrointestinal tract, causing vomiting and diarrhea2.... However, this irritation remains localized and does not cause systemic organ failure1.\n4. Lethargy and Loss of Appetite"
+    },
+    {
+      "name": "Lethargy and anorexia (refusal to eat)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion.",
+      "notes": "Because the cat's mouth and throat are inflamed and in pain, they will often refuse food and appear lethargic or depressed47.\n5. Respiratory Distress (Rare)"
+    },
+    {
+      "name": "Difficulty breathing (dyspnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Immediate to shortly after exposure, as swelling progresses.",
+      "notes": "While generally rare and usually easily treatable, if the edema (swelling) spreads to the laryngeal region (the throat/airway), it can obstruct the airway and cause potentially life-threatening respiratory distress46. You should monitor the cat closely for throat swelling and seek veterinary care to secure an airway if breathing issues arise"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Securing an Airway and Oxygen Support",
+      "description": "The veterinarian will closely monitor the cat's throat for severe tissue swelling (laryngeal edema) caused by the irritating crystals. If the swelling threatens to block the airway, the vet will immediately secure the airway (intubation) and provide supplemental oxygen",
+      "notes": "This is an emergency measure that is only necessary in severe but rare cases where the inflammatory response in the throat causes respiratory distress34.\n2. Oral Decontamination and Crystal Binding",
+      "priority": 1
+    },
+    {
+      "name": "Removal of Plant Material and Oral Rinsing",
+      "description": "The mouth is gently wiped out to physically remove any remaining plant material3. The oral cavity is then thoroughly rinsed with water to dilute and clear away the sharp, needle-like oxalate crystals",
+      "notes": "Veterinarians (or owners at home, if instructed) may offer the cat milk or other calcium-containing dairy products. The insoluble oxalates bind directly to the calcium in the dairy, which helps clear the crystals from the mouth and esophagus and soothes the intense burning sensation3.\n3. Symptomatic and Supportive Care",
+      "priority": 2
+    },
+    {
+      "name": "General Supportive Care and Monitoring",
+      "description": "The cat is observed for ongoing oral pain, drooling, or mild stomach upset, and given basic supportive care until the localized irritation naturally subsides",
+      "notes": "Because the Peace Lily is an \"imposter lily\" containing only insoluble oxalates, there is no risk of systemic kidney injury3. Therefore, aggressive systemic treatments like intensive IV fluid flushing or dialysis\u2014which are required for true lily ingestions\u2014are completely unnecessary13. Full recovery is expected",
+      "priority": 3
+    }
+  ]
+}

@@ -10,8 +10,8 @@
     "description": "2. Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The plant typically features wrinkled leaves that grow in an ovular shape. It produces flowers that grow in clusters on stalks, ranging in color from lavender to white. While the plant can reach over 3 feet in height, it frequently grows long and low to the ground2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat: In the wild, mint is often found growing near sources of water or in other damp locations2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It grows wild all over the United States and is commonly cultivated in herb gardens or kept indoors in kitchens for culinary and medicinal uses"
   },
   "toxic_parts": [
-    "Stem",
     "Flower",
+    "Stem",
     "Leaf"
   ],
   "toxins": [

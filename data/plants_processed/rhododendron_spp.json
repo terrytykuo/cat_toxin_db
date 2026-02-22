@@ -10,11 +10,11 @@
     "description": "Brief Description\n\u2022 Appearance: Azaleas are typically small shrubs or small trees that can be either evergreen or deciduous. They are characterized by their funnel-shaped flowers, which grow in clusters or solitarily and come in a variety of vibrant colors. They have simple, alternate leaves and produce fruit capsules containing many seeds13.\n\u2022 Habitat & Location: These plants are popular ornamentals commonly found in gardens, landscaping, and yards surrounding homes due to their stunning blooms and lush foliage. They are also found indoors as potted plants"
   },
   "toxic_parts": [
-    "Pollen",
-    "Entire Plant",
-    "Stem",
     "Flower",
-    "Leaf"
+    "Entire Plant",
+    "Leaf",
+    "Pollen",
+    "Stem"
   ],
   "toxins": [
     {

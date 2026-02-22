@@ -111,11 +111,11 @@
 | 107 | Nightshade | Nightshade | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 108 | Oleander | Oleander | Nerium oleander | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 109 | Onion | Onion | Allium cepa | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 110 | Orange Mint | Orange Mint | N/A | | | | | | | |
-| 111 | Oyster Plant | Oyster Plant | Tradescantia spathacea | | | | | | | |
-| 112 | Peace Lily | Peace Lily | Spathiphyllum spp. or Spathiphyllum wallisii | | | | | | | |
+| 110 | Orange Mint | Orange Mint | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 111 | Oyster Plant | Oyster Plant | Tradescantia spathacea | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 112 | Peace Lily | Peace Lily | Spathiphyllum spp. or Spathiphyllum wallisii | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 113 | Peach | Peach | Prunus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 114 | Pennyroyal | Pennyroyal | Mentha pulegium | | | | | | | |
+| 114 | Pennyroyal | Pennyroyal | Mentha pulegium | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 115 | Peony | Peony | N/A | | | | | | | |
 | 116 | Peppermint | Peppermint | Mentha × piperita | | | | | | | |
 | 117 | Peruvian Lily | Peruvian Lily | Alstroemeria spp. | | | | | | | |

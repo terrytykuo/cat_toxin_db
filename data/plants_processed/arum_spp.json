@@ -10,9 +10,9 @@
     "description": "Brief Description\n\u2022 Appearance: It is described as a stemless plant growing from tuberous roots. It features large ovate leaves and a \"showy flower\" consisting of a purple structure enclosing a spike, which produces red fruits1.\n\u2022 Where Commonly Found: Originating from Europe and the Near East, it is often kept as a common houseplant1.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
   },
   "toxic_parts": [
-    "Root",
-    "Entire Plant",
     "Flower",
+    "Entire Plant",
+    "Root",
     "Leaf"
   ],
   "toxins": [
