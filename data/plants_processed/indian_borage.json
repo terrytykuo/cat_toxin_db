@@ -1,0 +1,91 @@
+{
+  "plant": {
+    "common_name": "Mexican Mint",
+    "scientific_name": "Indian borage",
+    "family": "Lamiaceae",
+    "description": "2. Brief Description: The sources note that Mexican Mint is used as an herbal medicine for humans (though it acts as a gastro-irritant if ingested by cats)2. However, the provided sources do not contain details about the plant's physical appearance, habitat, or where it is commonly found."
+  },
+  "basics": {
+    "family": "Lamiaceae",
+    "description": "2. Brief Description: The sources note that Mexican Mint is used as an herbal medicine for humans (though it acts as a gastro-irritant if ingested by cats)2. However, the provided sources do not contain details about the plant's physical appearance, habitat, or where it is commonly found."
+  },
+  "toxic_parts": [
+    "Root",
+    "Stem",
+    "Entire Plant",
+    "Leaf",
+    "Flower"
+  ],
+  "toxins": [
+    {
+      "name": "Essential oils (The sources do not specify the exact essential oil profile for Mexican Mint",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: These plant oils act as direct gastro-irritants to the feline digestive tract15. Furthermore, cats lack the specific liver enzymes required to safely process and break down these essential oils6. Because their bodies cannot metabolize the oils, ingestion leads to gastrointestinal upset, resulting in symptoms like vomiting, drooling, and diarrhea24.\n4. Notes on",
+      "concentration_notes": "The sources do not provide the exact concentration of these oils in Mexican Mint1. However, they note a general rule for mint plants: a tiny taste or nibble of fresh leaves typically only causes mild stomach upset, whereas concentrated forms (like extracted essential oils) are highly toxic and can cause severe respiratory distress, liver damage, or neurological issues"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the sources.",
+      "notes": "Because Mexican Mint acts directly as a gastro-irritant, vomiting is one of the primary and most common signs of stomach upset after a cat nibbles on the plant1....\n2. Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the sources.",
+      "notes": "This symptom is a direct result of the plant's essential oils irritating the feline digestive tract as the body attempts to process compounds it cannot properly break down2....\n3. Drooling or Foaming at the Mouth"
+    },
+    {
+      "name": "Drooling (excessive salivation) or foaming at the mouth",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not specified in the sources.",
+      "notes": "This is a localized reaction to the strong taste and irritating nature of the essential oils present in the mint plant34.\n4. Loss of Appetite"
+    },
+    {
+      "name": "Loss of appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the sources.",
+      "notes": "The gastrointestinal irritation, discomfort, and nausea caused by the plant will frequently lead the cat to refuse food45.\n5. Lethargy or Weakness"
+    },
+    {
+      "name": "Lethargy or weakness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not specified in the sources.",
+      "notes": "While a small nibble usually results in mild discomfort, ingesting larger quantities of the plant can cause systemic weakness and lethargy34.\n6. Difficulty Breathing (Associated with Concentrated Exposure)"
+    },
+    {
+      "name": "Difficulty breathing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Not specified in the sources.",
+      "notes": "While fresh Mexican Mint leaves generally cause mild gastrointestinal signs, if a cat is exposed to or inhales highly concentrated forms of the plant (such as extracted mint essential oils), it can trigger severe respiratory distress, neurological symptoms, and even liver failure"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting), Gastric Lavage, and Activated Charcoal",
+      "description": "To prevent the plant material from being fully digested and absorbed, the veterinarian may medically induce vomiting or perform a gastric lavage (pump the stomach)23. Following this, they may administer activated charcoal to bind to and absorb any remaining toxins in the digestive tract",
+      "notes": "You should never attempt to induce vomiting at home unless explicitly instructed to do so by a veterinary professional, as doing it incorrectly can cause more harm to the cat3. Gastric lavage is generally reserved for more extreme cases of ingestion2.\n2. Fluid Replacement",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "The veterinarian will administer IV fluids to rehydrate and stabilize the animal",
+      "notes": "Because Mexican Mint is a gastro-irritant, it frequently causes vomiting and diarrhea1. This treatment is specifically necessary if these gastrointestinal symptoms have caused the cat to become dehydrated2.\n3. Symptomatic Gastrointestinal Support",
+      "priority": 2
+    },
+    {
+      "name": "Antiemetics and Gastric Protectants",
+      "description": "The vet will administer an anti-nausea injection (antiemetic) to stop the vomiting, as well as gastric protectants or antacids to soothe the irritated stomach lining",
+      "notes": "The primary goal of this supportive care is to keep the cat as comfortable as possible as the irritants pass through its system2. In severe cases, the cat may need to be hospitalized while receiving these supportive treatments",
+      "priority": 3
+    }
+  ]
+}

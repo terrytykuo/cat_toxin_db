@@ -1,0 +1,86 @@
+{
+  "plant": {
+    "common_name": "Leek",
+    "scientific_name": "Allium porrum",
+    "family": "Amaryllidaceae",
+    "description": "Brief Description: Leek (Allium porrum) is a vegetable in the onion family. It is a bulbous plant with broad, flat leaves."
+  },
+  "basics": {
+    "family": "Amaryllidaceae",
+    "description": "Brief Description: Leek (Allium porrum) is a vegetable in the onion family. It is a bulbous plant with broad, flat leaves."
+  },
+  "toxic_parts": [
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "N-propyl disulfide (also referred to generally as organosulfur compounds or sulfur compounds)",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Oxidative Damage: These compounds cause oxidative damage to the cat's red blood cells.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Heinz Body Formation: This damage leads to the formation of Heinz bodies (clumps of denatured hemoglobin) within the red blood cells.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Hemolysis: The damaged cells are prematurely removed and destroyed by the spleen (a process called hemolysis). This results in hemolytic anemia, a condition where the blood can no longer effectively transport oxygen.\n4. Notes on",
+      "concentration_notes": "\u25e6 Risk Level: Leeks are classified as having a \"Moderate to High\" potential risk for toxicity.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Preparation: The plants remain toxic regardless of preparation; leeks are dangerous whether they are raw, cooked, dehydrated, or powdered.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Susceptibility: Cats are noted to be more susceptible to Allium toxicity than dogs due to their unique hemoglobin structure.\u2022 Clinical Perspectives on Feline Phytotoxicology: A Comprehensive Analysis of Botanical Hazards in Domestic and Horticultural Environments12\n\u2022 What Can\u2019t Cats Eat? 8 Toxic Foods for Cats3\n\u2022 10 Foods that are Dangerous for Cats"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Abdominal Pain, and Inappetence (Loss of Appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Can occur early, but general poisoning signs may not appear for several days after ingestion.",
+      "notes": "Gastrointestinal irritation is often the first sign of toxicity. Drooling and nausea may also be present.Hemolytic Anemia (Pale Gums & Dark Urine)"
+    },
+    {
+      "name": "Pale or White Gums (Mucous Membranes), Dark/Reddish Urine (Hemoglobinuria), and Jaundice (Yellowing of skin/gums)",
+      "body_system": "Hematological",
+      "severity": "fatal",
+      "onset": "Delayed; symptoms typically manifest several days following ingestion.",
+      "notes": "Leek toxins cause oxidative damage resulting in \"Heinz bodies\" on red blood cells, leading to their destruction (hemolysis). Dark urine is caused by hemoglobin being filtered through the kidneys, which can lead to renal damage.Respiratory Distress"
+    },
+    {
+      "name": "Rapid Breathing (Tachypnea), Difficulty Breathing (Dyspnea), or Panting",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Delayed; appears as anemia progresses (typically days after exposure).",
+      "notes": "This is a compensatory mechanism; the cat breathes rapidly to compensate for the decreased oxygen-carrying capacity of their damaged red blood cells.Cardiac Stress"
+    },
+    {
+      "name": "Rapid Heartbeat (Tachycardia)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Delayed; appears as anemia progresses.",
+      "notes": "Similar to respiratory distress, the heart beats faster to try to circulate oxygenated blood more efficiently despite the anemia.Generalized Weakness"
+    },
+    {
+      "name": "Lethargy, Weakness, Stumbling (Ataxia), and Collapse",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Delayed; often several days after ingestion.",
+      "notes": "Affected cats may seek out warm spaces due to poor circulation and metabolism. Severe weakness can progress to collapse."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
+      "description": "If the ingestion was recent (typically within a few hours), the veterinarian will administer medication to induce vomiting, removing the leeks from the stomach before the toxins are fully absorbed. This is often followed by activated charcoal, which binds to remaining toxins in the gastrointestinal tract to prevent them from entering the bloodstream.",
+      "notes": "You should never attempt to induce vomiting at home (e.g., using hydrogen peroxide) without veterinary supervision, as this can cause severe irritation or aspiration pneumonia. Decontamination is most effective when performed early.Intravenous (IV) Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Fluid Support / Diuresis",
+      "description": "The administration of IV fluids helps maintain hydration, correct electrolyte imbalances caused by vomiting or diarrhea, and supports kidney function.",
+      "notes": "This step is critical because hemolytic anemia releases free hemoglobin into the bloodstream, which is filtered by the kidneys. High levels of hemoglobin can damage the kidneys (hemoglobinuria), and fluid therapy helps flush these breakdown products out of the system safely.Oxygen Therapy",
+      "priority": 2
+    },
+    {
+      "name": "Supplemental Oxygen",
+      "description": "If the cat is experiencing difficulty breathing or low oxygen levels due to the destruction of red blood cells, they may be placed in an oxygen cage or given oxygen via a mask.",
+      "notes": "Leek toxicity destroys red blood cells, reducing the blood's ability to carry oxygen. Affected cats often exhibit rapid breathing (tachypnea) or panting as they struggle to get enough oxygen to their tissues.Blood Transfusion",
+      "priority": 3
+    },
+    {
+      "name": "Whole Blood or Packed Red Blood Cell Transfusion",
+      "description": "In severe cases where the red blood cell count (hematocrit) drops to critically low levels, a blood transfusion may be required to replace the destroyed cells and restore the cat's ability to transport oxygen.",
+      "notes": "This intervention is reserved for life-threatening cases of anemia. Symptoms of severe anemia include pale or white gums, extreme lethargy, and collapse.",
+      "priority": 4
+    }
+  ]
+}

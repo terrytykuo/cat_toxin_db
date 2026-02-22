@@ -1,0 +1,113 @@
+{
+  "plant": {
+    "common_name": "Mint",
+    "scientific_name": "Mentha spp.",
+    "family": "Lamiaceae",
+    "description": "2. Brief Description\n\u2022 Appearance: Mint plants generally feature wrinkled, oval-shaped leaves2. They produce flowers that grow in clusters on stalks and range in color from lavender to white2. While some mint plants can reach over 3 feet in height, they often grow long and low to the ground2.\n\u2022 Habitat and Common Locations: In the wild, mint grows abundantly all over the United States, particularly thriving in damp locations and near sources of water23. Additionally, it is a very popular cultivated plant, commonly found in outdoor herb gardens or grown indoors in kitchens for its culinary and medicinal uses"
+  },
+  "basics": {
+    "family": "Lamiaceae",
+    "description": "2. Brief Description\n\u2022 Appearance: Mint plants generally feature wrinkled, oval-shaped leaves2. They produce flowers that grow in clusters on stalks and range in color from lavender to white2. While some mint plants can reach over 3 feet in height, they often grow long and low to the ground2.\n\u2022 Habitat and Common Locations: In the wild, mint grows abundantly all over the United States, particularly thriving in damp locations and near sources of water23. Additionally, it is a very popular cultivated plant, commonly found in outdoor herb gardens or grown indoors in kitchens for its culinary and medicinal uses"
+  },
+  "toxic_parts": [
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Menthol",
+      "chemical_formula": "Not provided in the provided sources.",
+      "description": "in cats: Menthol stimulates a cat's olfactory receptors, which can mimic the behavioral effects of nepetalactone (the safe compound found in catnip)12. However, cats lack the necessary liver enzymes to safely process and metabolize mint plant oils like menthol4. Because it cannot be broken down, it acts as an irritant to the cat's gastrointestinal tract and respiratory system",
+      "concentration_notes": "A tiny taste of fresh leaves containing menthol typically only causes mild stomach upset7. However, highly concentrated forms\u2014such as extracted peppermint essential oil\u2014are extremely dangerous and can lead to severe respiratory distress, neurological issues, and liver damage"
+    },
+    {
+      "name": "Pulegone",
+      "chemical_formula": "Not provided in the provided sources.",
+      "description": "in cats: Pulegone is an essential oil compound that cats cannot properly metabolize due to their deficient liver enzymes4. When ingested, it acts as a severe systemic toxin that targets the liver and nervous system, leading to liver failure, seizures, and potentially death",
+      "concentration_notes": "Pulegone is highly toxic3. It is noted as an active component in peppermint, and it is the reason why specific mint varieties like Pennyroyal (Mentha pulegium) are considered exceptionally deadly to cats"
+    },
+    {
+      "name": "Unspecified essential oils",
+      "chemical_formula": "Not applicable.",
+      "description": "in cats: The volatile oils in garden mints act as direct irritants to the feline digestive and respiratory systems412. In the digestive tract, these specific oils have been known to relax the esophageal valve, making vomiting much more likely12. Systemically, the accumulation of these unprocessed oils stresses the liver and can cause central nervous system issues like lethargy, weakness, and uncoordinated gait",
+      "concentration_notes": "The risk level is highly dependent on concentration7. While sniffing a mint plant or eating a small leaf might just cause coughing, sneezing, or mild drooling, exposure to concentrated essential oils (whether ingested, applied to the skin, or inhaled from a diffuser) is highly toxic and can trigger liver failure and severe neurological symptoms"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Nausea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
+      "notes": "This is one of the most common signs of mint ingestion1.... Interestingly, the essential oils specific to garden mint are known to relax the esophageal valve, which makes vomiting much more likely, especially in a cat that may already be feeling ill5.\n2. Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Diarrhea is a frequent reaction as the cat's digestive system attempts to process the irritating plant oils3....\n3. Drooling or Foaming at the Mouth"
+    },
+    {
+      "name": "Excessive drooling (hypersalivation) or foaming at the mouth",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
+      "notes": "This is a localized reaction that can occur from the strong taste, gastrointestinal irritation, or difficulty swallowing caused by the mint3....\n4. Lethargy and Weakness"
+    },
+    {
+      "name": "Lethargy, weakness, and loss of appetite",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "While mild weakness can accompany a general stomach upset, profound lethargy is a warning sign of a more severe systemic reaction, particularly if essential oils were involved4....\n5. Respiratory Distress"
+    },
+    {
+      "name": "Difficulty breathing, coughing, and sneezing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "The strong smell of mint alone can irritate a cat's respiratory tract, leading to coughing or sneezing if they are exposed to large amounts9. However, inhaling or ingesting concentrated mint essential oils can trigger severe difficulty breathing and respiratory distress78.\n6. Severe Neurological Signs"
+    },
+    {
+      "name": "Seizures, tremors, and uncoordinated gait (ataxia)",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Not specified in the provided sources.",
+      "notes": "These severe central nervous system symptoms generally occur after exposure to highly concentrated mint essential oils or exceptionally dangerous mint varieties, such as Pennyroyal (Mentha pulegium)2....\n7. Liver Damage or Failure"
+    },
+    {
+      "name": "Liver (hepatic) damage or failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Because cats lack certain liver enzymes needed to process mint plant oils, systemic accumulation can stress the liver710. Liver failure is highly associated with the ingestion of Pennyroyal mint or concentrated mint essential oils2.... Cats with pre-existing liver, intestine, or bowel diseases are at a heightened risk5.\n8. Skin and Oral Irritation"
+    },
+    {
+      "name": "Skin irritation, redness, or chemical burns",
+      "body_system": "Dermal",
+      "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Direct physical contact with mint can cause skin irritation in hypersensitive cats5. Exposure to concentrated mint oils can result in visible redness or burns on the skin, lips, gums, and tongue"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) or Gastric Lavage",
+      "description": "To prevent the plant material and essential oils from being fully digested and absorbed into the bloodstream, the veterinarian may medically induce vomiting1. In more extreme cases, the vet may perform a gastric lavage (stomach pump) to physically clear the stomach of the plant matter1.",
+      "notes": "While a veterinarian has access to medications to safely induce vomiting in a clinic, you should never attempt to induce vomiting at home (such as by giving hydrogen peroxide or salt), as this can cause significant injury to your cat's mouth, throat, and stomach, and complicate their treatment12. Gastric lavage is typically reserved for the most severe cases of ingestion1.\n2. Fluid Replacement",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "The veterinarian will administer IV fluids to effectively rehydrate and stabilize the cat's bodily systems1.",
+      "notes": "This treatment is critically necessary if the cat has suffered from excessive vomiting and diarrhea, which quickly leads to dangerous dehydration1. The cat will generally need to be hospitalized during this time to receive the fluids and be monitored1.\n3. Symptomatic Gastrointestinal Support",
+      "priority": 2
+    },
+    {
+      "name": "Antiemetics and Antacids",
+      "description": "The veterinarian will administer anti-nausea injections (antiemetics) to stop further vomiting, as well as antacids to soothe the irritated stomach and digestive tract1.",
+      "notes": "The primary goal of this supportive care is to keep the cat as comfortable as possible as the toxins pass through their system and they recover from the illness",
+      "priority": 3
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "plant": {
+    "common_name": "Lilies",
+    "scientific_name": "Lilium spp.",
+    "family": "Liliaceae",
+    "description": "Brief Description\n\u2022 Appearance: True lilies are perennial plants that grow from bulbs1. They feature leaves that are alternate or whorled, with linear or lanceolate (long and narrow) blades1. They are best known for their large, fragrant, showy, and funnel-shaped (or trumpet-shaped) flowers13. The flowers contain prominent stamens covered in pollen, and the plant produces fruit capsules filled with numerous flat seeds14.\n\u2022 Habitat and Common Locations: Because of their beauty and fragrance, true lilies are widely cultivated as ornamental garden plants and indoor potted plants3.... They are extremely common in cut floral arrangements and bouquets, and are especially popular as household decorations or gifts around holidays like Easter"
+  },
+  "basics": {
+    "family": "Liliaceae",
+    "description": "Brief Description\n\u2022 Appearance: True lilies are perennial plants that grow from bulbs1. They feature leaves that are alternate or whorled, with linear or lanceolate (long and narrow) blades1. They are best known for their large, fragrant, showy, and funnel-shaped (or trumpet-shaped) flowers13. The flowers contain prominent stamens covered in pollen, and the plant produces fruit capsules filled with numerous flat seeds14.\n\u2022 Habitat and Common Locations: Because of their beauty and fragrance, true lilies are widely cultivated as ornamental garden plants and indoor potted plants3.... They are extremely common in cut floral arrangements and bouquets, and are especially popular as household decorations or gifts around holidays like Easter"
+  },
+  "toxic_parts": [
+    "Entire Plant",
+    "Flower",
+    "Pollen",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Unknown / Unidentified toxic principle",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Renal Destruction: The unknown toxin specifically targets the cat's kidneys, concentrating in the proximal convoluted tubule2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cellular Necrosis: It causes acute tubular necrosis (the premature death of cells in the kidneys), which rapidly progresses to severe and irreversible acute kidney failure23.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Cascade: The initial mechanism triggers vomiting, lethargy, and loss of appetite within hours, eventually leading to a complete cessation of urine production (anuria) as the kidneys shut down14.\n4. Notes on",
+      "concentration_notes": "\u25e6 Extreme Potency: The unidentified toxin is exceptionally potent and heavily concentrated throughout the entire plant (leaves, stems, petals, buds, and pollen)2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Lethal in Minuscule Doses: A toxic, potentially fatal dose can be reached simply by a cat ingesting 1 to 3 petals or leaves, grooming a few grains of pollen off their fur, or even taking a few sips of water from a vase that held the cut flowers23. Without immediate, aggressive veterinary intervention, this unknown toxin typically causes complete kidney failure within 36 to 72 hours12.\n(Note: \"Imposter\" lilies, such as the Peace Lily or Calla Lily, contain a different compound\u2014insoluble calcium oxalate crystals\u2014which causes mild oral and gastrointestinal irritation but does not cause the fatal kidney failure associated with true lilies3....)"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Drooling (Salivation), Abdominal Pain, and Inappetence (Anorexia or Loss of Appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid; typically within 1 to 4 hours of ingestion",
+      "notes": "These are usually the first warning signs to appear3. The initial vomiting may temporarily cease after a few hours, but it will frequently return as the pet becomes dehydrated and renal failure begins to set in24.\n2. Generalized Lethargy and Weakness"
+    },
+    {
+      "name": "Lethargy, Depression, Generalized Weakness, and Recumbency (inability to rise)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Initial lethargy and depression appear within a few hours (1 to 12 hours)35.",
+      "notes": "A cat will quickly stop eating and appear noticeably sluggish5. As the condition worsens, the cat will become progressively weaker leading up to death2.\n3. Acute Kidney Failure"
+    },
+    {
+      "name": "Acute Kidney Failure (characterized by Increased Thirst, Dehydration, Polyuria, and Anuria)",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "Delayed; kidney failure typically occurs within 36 to 72 hours (1 to 3 days)",
+      "notes": "The toxin causes acute tubular necrosis in the kidneys6. Between 12 and 30 hours, the cat may exhibit increased thirst and excessive urination (polyuria)12. As the kidneys fail, this progresses to a complete cessation of urine production (anuria)24. Bloodwork will show toxic indications through elevated creatinine, BUN, phosphorus, and potassium levels5.\n4. Uremic Seizures"
+    },
+    {
+      "name": "Seizures / Tremors",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Delayed; typically occurs in the late stages of toxicity as kidney failure progresses",
+      "notes": "While generally considered an uncommon sign of lily toxicity, seizures can occur in very severe cases as a secondary complication2. They are triggered by substantial uremia, which is the dangerous buildup of waste products in the blood due to the kidneys shutting down"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Vomiting (Emesis) and Activated Charcoal Administration",
+      "description": "If the ingestion was recent, the veterinarian will administer medication to induce vomiting to expel any remaining plant material from the stomach. This is followed by administering a dose of activated charcoal, often along with a saline cathartic, to bind to the toxins in the gastrointestinal tract and prevent them from being absorbed into the bloodstream1....",
+      "notes": "This must be performed as soon as possible (within hours of ingestion) and only if the cat is neurologically stable. Delayed treatment is associated with a very poor prognosis23. After decontamination, the vet may give an antiemetic to stop further vomiting3.\n2. Aggressive Intravenous (IV) Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "IV Fluid Diuresis (Renoprotection)",
+      "description": "The cat is hospitalized and given intravenous fluids at an aggressive rate\u2014typically 2 to 3 times their normal daily maintenance requirement\u2014for 48 to 72 hours3.",
+      "notes": "This is widely considered the most critical, viable treatment to protect the kidneys (renoprotection) and flush the toxins out of the system34. During this time, the veterinarian will perform baseline bloodwork (CBC, chemistry, and urinalysis) and monitor the cat's renal values every 24 hours to evaluate disease progression23.\n3. Pharmacological and Symptomatic Support",
+      "priority": 2
+    },
+    {
+      "name": "Gastroprotectants and Diuretics",
+      "description": "The vet may administer gastroprotectants to soothe the stomach lining. If the cat begins to experience oliguria (a dangerous decrease in urine output), the vet may administer aggressive medications like mannitol or furosemide to stimulate the kidneys and force urine production3.",
+      "notes": "Gastroprotectants are specifically used if the cat develops secondary gastritis due to azotemia (a toxic buildup of waste products in the blood from failing kidneys)3.\n4. Dialysis",
+      "priority": 3
+    },
+    {
+      "name": "Peritoneal Dialysis or Hemodialysis",
+      "description": "A medical procedure that artificially filters waste products and toxins from the blood when the kidneys can no longer do so themselves3.",
+      "notes": "This is a drastic, last-resort intervention considered only if the cat develops anuria (a complete cessation of urine production), indicating that the kidneys have fully shut down",
+      "priority": 4
+    }
+  ]
+}

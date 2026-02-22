@@ -1,0 +1,81 @@
+{
+  "plant": {
+    "common_name": "Lantana",
+    "scientific_name": "Lantana camara",
+    "family": "Verbenaceae",
+    "description": "Brief Description\n\u2022 Appearance: Lantana is described as a colourful, flowering shrub1.\n\u2022 Habitat/Common Locations: It is often found in gardens, but in some regions, such as Australia, it is considered a weed1.\u2022 10 common plants that are toxic to cats | Petbarn Articles"
+  },
+  "basics": {
+    "family": "Verbenaceae",
+    "description": "Brief Description\n\u2022 Appearance: Lantana is described as a colourful, flowering shrub1.\n\u2022 Habitat/Common Locations: It is often found in gardens, but in some regions, such as Australia, it is considered a weed1.\u2022 10 common plants that are toxic to cats | Petbarn Articles"
+  },
+  "toxic_parts": [
+    "Flower",
+    "Leaf",
+    "Fruit"
+  ],
+  "toxins": [
+    {
+      "name": "Pentacyclic triterpenoids",
+      "chemical_formula": null,
+      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Hepatic Damage: These compounds target the liver. Toxicity can lead to liver failure in cats, though the sources note that liver failure is historically more common in livestock than in companion animals like dogs and cats1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal and Systemic Effects: Ingestion leads to vomiting, diarrhea, weakness, and labored breathing1.\n4. Notes on",
+      "concentration_notes": "\u25e6 High Toxicity: The plant is considered extremely toxic to cats and dogs1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Weed Status: In some regions, such as Australia, Lantana is considered a weed, yet it remains a common garden risk due to its colorful flowers"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "These are typically the initial clinical signs of poisoning.common plants that are toxic to cats | Petbarn Articles (Conversation History)\n2. Respiratory Distress"
+    },
+    {
+      "name": "Labored Breathing (Dyspnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Difficulty breathing is a sign of advanced toxicity and requires immediate veterinary attention.common plants that are toxic to cats | Petbarn Articles (Conversation History)\n3. General Weakness"
+    },
+    {
+      "name": "Weakness / Lethargy",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "The cat may appear depressed or unable to stand normally.common plants that are toxic to cats | Petbarn Articles (Conversation History)\n4. Hepatic Failure"
+    },
+    {
+      "name": "Liver Failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Delayed (typically occurs after the initial gastrointestinal signs).",
+      "notes": "While the sources note that liver failure from Lantana is more commonly documented in livestock (cattle/sheep), it remains a potential risk for companion animals like cats and dogs.common plants that are toxic to cats | Petbarn Articles (Conversation History)"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) and Gastric Lavage",
+      "description": "If the ingestion is recent (typically within 1\u20132 hours) and the cat is neurologically stable, the veterinarian will administer medication (such as xylazine) to induce vomiting and remove the plant material from the stomach. In life-threatening cases or if vomiting cannot be induced safely, the stomach may be pumped (gastric lavage) to wash out contents.",
+      "notes": "Decontamination is most effective when performed early. Owners should not attempt to induce vomiting at home with hydrogen peroxide or salt, as this can cause severe injury; this procedure requires veterinary supervision.Toxin Adsorption",
+      "priority": 1
+    },
+    {
+      "name": "Administration of Activated Charcoal",
+      "description": "Following emesis, the veterinarian administers activated charcoal, often with a cathartic. This substance binds to the remaining toxins in the gastrointestinal tract, preventing them from being absorbed into the bloodstream.",
+      "notes": "Because some plant toxins undergo \"enterohepatic recirculation\" (recycling through the liver), multiple doses of activated charcoal every 6\u20138 hours may be necessary to minimize ongoing liver damage.Hepatic and Systemic Support",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "IV fluids are administered to maintain hydration, correct electrolyte imbalances caused by vomiting and diarrhea, and support organ function by flushing toxins from the body.",
+      "notes": "Since Lantana toxicity can lead to liver failure, maintaining adequate perfusion to the liver and kidneys is critical. Fluid therapy helps manage the hypotension (low blood pressure) and dehydration often associated with severe plant poisoning.Symptomatic Care and Monitoring",
+      "priority": 3
+    },
+    {
+      "name": "Hepatoprotectants and Anti-emetics",
+      "description": "Veterinarians may administer liver-protecting medications (such as SAMe or N-acetylcysteine) to support liver repair. Medications to stop vomiting (anti-emetics) and protect the stomach lining (gastroprotectants) are used to treat severe gastrointestinal upset.",
+      "notes": "Lantana ingestion can cause labored breathing and weakness; therefore, continuous monitoring of vital signs and liver enzymes is essential to assess the progression of toxicity.",
+      "priority": 4
+    }
+  ]
+}

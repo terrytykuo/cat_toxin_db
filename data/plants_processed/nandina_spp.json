@@ -10,8 +10,8 @@
     "description": "Evergreen shrub with lace-like foliage and red berries, widely grown as an ornamental."
   },
   "toxic_parts": [
-    "Leaf",
     "Seed",
+    "Leaf",
     "Fruit"
   ],
   "toxins": [

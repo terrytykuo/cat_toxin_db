@@ -1,0 +1,93 @@
+{
+  "plant": {
+    "common_name": "Lily of the Nile",
+    "scientific_name": "Agapanthus africanus or A. orientalis",
+    "family": "Liliaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a perennial herb that grows from rhizomes and typically reaches a height of about 2 feet1. The provided source describes it as having simple, heart-shaped, variegated leaves with thin, highlighted veins and a yellow-green spathe1.\n\u2022 Habitat and Common Locations: The Lily of the Nile is an ornamental plant that is commonly grown in large containers"
+  },
+  "basics": {
+    "family": "Liliaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a perennial herb that grows from rhizomes and typically reaches a height of about 2 feet1. The provided source describes it as having simple, heart-shaped, variegated leaves with thin, highlighted veins and a yellow-green spathe1.\n\u2022 Habitat and Common Locations: The Lily of the Nile is an ornamental plant that is commonly grown in large containers"
+  },
+  "toxic_parts": [
+    "Entire Plant",
+    "Root"
+  ],
+  "toxins": [
+    {
+      "name": "Calcium oxalate crystals",
+      "chemical_formula": null,
+      "description": "in cats: When a cat chews or ingests the plant, the crystals act as severe physical irritants. They cause immediate, intense pain and local irritation to the mucous membranes, leading to excessive salivation (drooling), a swollen tongue and pharynx, diarrhea, and potentially difficulty breathing (dyspnea)2.\n4. Notes on",
+      "concentration_notes": "These crystals are distributed throughout all parts of the plant, but they are especially concentrated in the rhizomes (the underground rootstalks)"
+    },
+    {
+      "name": "Unknown toxin(s), described as a \"sticky, acrid, irritant latex",
+      "chemical_formula": null,
+      "description": "in cats: Working alongside the calcium oxalate crystals, this toxic latex contributes to the intense burning, immediate pain, and severe irritation of the mouth and digestive tract when the plant tissue is damaged through chewing2.\n4. Notes on",
+      "concentration_notes": "The sources do not provide specific data on the concentration of this latex, other than noting its general presence in the plant"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Intense pain and local irritation of the mucous membranes",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Immediate.",
+      "notes": "This is triggered the exact moment a cat bites or chews the plant (especially the rhizomes), which releases sharp, needle-like calcium oxalate crystals and a sticky, acrid latex into the oral tissues1.\n2. Excessive Salivation"
+    },
+    {
+      "name": "Excessive salivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "Drooling is a direct physiological response as the cat's body attempts to soothe and flush out the painful, burning irritants from its mouth1.\n3. Swelling of the Mouth and Throat"
+    },
+    {
+      "name": "Swollen tongue and pharynx",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Immediate to rapid.",
+      "notes": "The intense trauma from the crystals and latex causes localized edema (swelling) of the delicate tissues inside the mouth and the back of the throat1.\n4. Difficulty Breathing"
+    },
+    {
+      "name": "Difficulty breathing (Dyspnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid.",
+      "notes": "This is a dangerous secondary complication that can occur if the swelling of the tongue and pharynx becomes prominent enough to partially or fully obstruct the cat's airway1.\n5. Lower Gastrointestinal Distress"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Variable (typically within a few hours if swallowed).",
+      "notes": "The intense initial pain usually limits the amount of the plant a cat will consume; however, if any of the plant material is swallowed, the toxins will continue to irritate the gastrointestinal tract as they pass through the system"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Airway Management and Oxygen Support",
+      "description": "The veterinarian will closely monitor the cat's breathing. If the trauma from the plant causes severe swelling (edema) of the tongue, pharynx, or laryngeal region, the vet will secure the cat's airway (potentially via intubation) and provide supplemental oxygen12.",
+      "notes": "This is the most urgent potential intervention but is only required in severe cases where the swelling is prominent enough to cause respiratory distress (dyspnea) or threaten airway obstruction12.\n2. Oral Decontamination",
+      "priority": 1
+    },
+    {
+      "name": "Oral Rinsing and Wiping",
+      "description": "The veterinarian (or the owner, if instructed) will manually remove any remaining plant material from the cat's mouth and gently wipe or flush the oral cavity with water2.",
+      "notes": "This step physically removes the needle-like calcium oxalate crystals (raphides) and the acrid latex that are continuously causing the intense burning, pain, and excessive salivation12.\n3. Calcium-Binding / Soothing Therapy",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Calcium-Containing Dairy Products",
+      "description": "The cat is offered or administered a small amount of milk or a similar calcium-rich dairy product2.",
+      "notes": "The insoluble oxalate crystals bind to the calcium in the dairy products, which soothes the intense oral pain and aids in safely clearing the irritating crystals from the oral cavity and esophagus2.\n4. General Symptomatic Support",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Gastrointestinal Care",
+      "description": "The vet provides supportive care to manage any ongoing symptoms, such as medications to alleviate diarrhea or general gastrointestinal discomfort1.",
+      "notes": "Because insoluble oxalates do not pose a risk for acute kidney injury, the aggressive intravenous fluid diuresis required for \"true\" lily poisoning is not needed here. The prognosis is generally good to excellent, and full recovery is expected (often without the need for extensive veterinary intervention if the exposure was mild)",
+      "priority": 4
+    }
+  ]
+}

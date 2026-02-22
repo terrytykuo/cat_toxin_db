@@ -1,0 +1,81 @@
+{
+  "plant": {
+    "common_name": "Lucky Bamboo",
+    "scientific_name": "Dracaena sanderiana",
+    "family": "Agavaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a robust, decorative, palm-like plant (sometimes referred to as a \"female dragon\")12. The plant features thin, lance-shaped, variegated, alternate, non-petioled leaves that may have green, yellow, or red stripes along their margins1. As the plant matures, it loses its lower leaves\u2014leaving behind clearly demarcated leaf scars on the stem\u2014while retaining a cluster of terminal leaves at the top1.\n\u2022 Habitat and Common Locations: It is widely cultivated and most commonly found indoors as a decorative houseplant"
+  },
+  "basics": {
+    "family": "Agavaceae",
+    "description": "Brief Description\n\u2022 Appearance: It is a robust, decorative, palm-like plant (sometimes referred to as a \"female dragon\")12. The plant features thin, lance-shaped, variegated, alternate, non-petioled leaves that may have green, yellow, or red stripes along their margins1. As the plant matures, it loses its lower leaves\u2014leaving behind clearly demarcated leaf scars on the stem\u2014while retaining a cluster of terminal leaves at the top1.\n\u2022 Habitat and Common Locations: It is widely cultivated and most commonly found indoors as a decorative houseplant"
+  },
+  "toxic_parts": [
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Steroidal saponins (noted as \"unknown specific types\" in the sources)",
+      "chemical_formula": null,
+      "description": "in cats: These compounds act primarily as gastrointestinal irritants. Upon ingestion, they cause significant irritation to the digestive tract, which triggers drooling, vomiting (which can occasionally contain blood), severe diarrhea, abdominal pain, and a loss of appetite1.... Additionally, in larger ingestions, these toxins can cause systemic or neurological signs, including depression, weakness, incoordination, and noticeably dilated pupils",
+      "concentration_notes": "The steroidal saponins are found throughout all parts of the plant, but they are specifically noted to be present in the leaves and stalks (stems)13. The overall toxicity of the plant is generally classified as mild to moderate, and it is generally self-limiting unless a very large amount is consumed or the cat refuses to eat and becomes very weak"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid / immediate upon chewing (specific time not provided in sources).",
+      "notes": "This is an initial reaction to the irritation of the mouth and gastrointestinal tract caused by the plant's saponins13.\n2. Vomiting"
+    },
+    {
+      "name": "Vomiting (which can occasionally contain blood)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid.",
+      "notes": "Vomiting is one of the most common signs of Dracaena ingestion1.... If vomiting becomes severe or persistent, the cat must be monitored closely for dehydration1.\n3. Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Variable (typically occurs as the toxins move through the digestive tract).",
+      "notes": "Veterinary sources note that the diarrhea can be severe, reflecting significant gastrointestinal irritation from the plant's compounds12.\n4. Abdominal Pain and Loss of Appetite"
+    },
+    {
+      "name": "Abdominal pain and inappetence (anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid to delayed.",
+      "notes": "Due to the severe stomach upset and irritation, cats will often experience stomach discomfort and a subsequent refusal to eat1....\n5. Dilated Pupils"
+    },
+    {
+      "name": "Dilated pupils (mydriasis)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Variable.",
+      "notes": "The presence of noticeably wide or dilated pupils is a unique clinical sign specifically highlighted in cats that have ingested Dracaena species1....\n6. Depression, Weakness, and Incoordination"
+    },
+    {
+      "name": "Depression (lethargy), generalized weakness, and incoordination (ataxia)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Delayed (usually follows the initial GI distress).",
+      "notes": "While small ingestions are generally self-limiting, these systemic and neurological symptoms are known to manifest if a cat consumes a large amount of the plant or becomes severely weakened from refusing to eat"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral Decontamination and Hydration",
+      "description": "Any remaining chewed plant pieces or fragments should be immediately removed from the cat's mouth12. Afterward, offer the cat water (or a small amount of milk) to drink in order to dilute the stomach contents and rinse the mouth1....",
+      "notes": "This is the most urgent first-aid step to take at home. After removing the plant material, you should contact a veterinarian or a pet poison helpline for further guidance12.\n2. Symptomatic Veterinary Care and Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Fluid and Electrolyte Replacement Therapy",
+      "description": "A veterinarian will provide symptomatic treatment focused on correcting any fluid and electrolyte imbalances caused by the gastrointestinal irritation4.",
+      "notes": "This veterinary intervention is specifically necessary if the cat develops severe or persistent vomiting and diarrhea (which leads to dehydration), if the cat refuses to eat, or if a very large amount of the plant was consumed resulting in pronounced weakness and incoordination",
+      "priority": 2
+    }
+  ]
+}

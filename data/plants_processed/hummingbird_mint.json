@@ -10,9 +10,9 @@
     "description": "\u2022 Description: The provided sources do not contain information regarding the physical appearance, habitat, or specific regions where Hummingbird Mint is commonly found. They only note that it is less common than other mints and is considered unsafe for cats due to its essential oil content"
   },
   "toxic_parts": [
-    "Root",
-    "Flower",
     "Stem",
+    "Flower",
+    "Root",
     "Leaf"
   ],
   "toxins": [

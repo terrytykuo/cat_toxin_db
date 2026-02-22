@@ -1,0 +1,67 @@
+{
+  "plant": {
+    "common_name": "Madagascar Periwinkle",
+    "scientific_name": "Catharanthus reseus",
+    "family": "Apocynaceae",
+    "description": "Brief Description\n\u2022 Appearance: This plant is a perennial herb that contains a milky sap1. It features erect stems with glossy green, opposite leaves and produces solitary flowers that are typically rose-pink to white in color1.\n\u2022 Habitat and Common Locations: Because of its attractive flowers and foliage, it is widely cultivated and most commonly found as an ornamental plant"
+  },
+  "basics": {
+    "family": "Apocynaceae",
+    "description": "Brief Description\n\u2022 Appearance: This plant is a perennial herb that contains a milky sap1. It features erect stems with glossy green, opposite leaves and produces solitary flowers that are typically rose-pink to white in color1.\n\u2022 Habitat and Common Locations: Because of its attractive flowers and foliage, it is widely cultivated and most commonly found as an ornamental plant"
+  },
+  "toxic_parts": [
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Vinca alkaloids (which include vincristine and vinblastine)",
+      "chemical_formula": null,
+      "description": "in cats: When ingested, these toxins cause severe systemic and localized damage. They lead to peripheral nerve damage, bone marrow suppression (depression), and cardiovascular damage1. Additionally, they act as severe irritants to the digestive tract, causing pharyngeal (throat) pain, significant abdominal pain, severe diarrhea, and subsequent dehydration1.\n4. Notes on",
+      "concentration_notes": "These highly dangerous alkaloids are distributed throughout the entire plant1. Due to the severity of the effects on the nerves, bone marrow, and cardiovascular system, aggressive supportive and symptomatic veterinary treatment, along with extended monitoring, is essential"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Pharyngeal (throat) pain, abdominal pain, severe diarrhea, and dehydration",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "These symptoms occur because the Vinca alkaloids (vincristine and vinblastine) found throughout the plant act as severe irritants to the mouth, throat, and digestive tract12.\n2. Peripheral Nerve Damage"
+    },
+    {
+      "name": "Peripheral nerve damage",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "This is a serious systemic reaction to the absorption of the plant's toxic alkaloids, requiring aggressive supportive veterinary care and extended monitoring2.\n3. Bone Marrow Suppression"
+    },
+    {
+      "name": "Bone marrow suppression (depression)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "The plant's toxins severely depress the bone marrow's ability to function, making immediate and aggressive veterinary treatment essential2.\n4. Cardiovascular Damage"
+    },
+    {
+      "name": "Cardiovascular damage",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "The Vinca alkaloids in the plant are capable of causing profound, systemic damage to the cardiovascular system alongside the nerve and bone marrow effects"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Aggressive Supportive and Symptomatic Care",
+      "description": "The veterinarian will provide intensive, targeted therapies to manage the cat's specific clinical signs as they develop. Based on the symptoms caused by the plant, this involves treating severe dehydration (likely via fluid therapy) and managing significant pharyngeal (throat) and abdominal pain",
+      "notes": "This aggressive intervention is considered absolutely essential because the toxins act as severe gastrointestinal irritants and cause life-threatening systemic damage1.\n2. Extended Medical Monitoring",
+      "priority": 1
+    },
+    {
+      "name": "Extended Monitoring",
+      "description": "The cat will require prolonged veterinary observation and testing to continuously evaluate its vitals and internal systems over time",
+      "notes": "This extended monitoring is critical because the toxins in Madagascar Periwinkle cause complex, deep-tissue complications, including cardiovascular damage, peripheral nerve damage, and bone marrow suppression (depression)",
+      "priority": 2
+    }
+  ]
+}

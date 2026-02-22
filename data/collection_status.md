@@ -47,10 +47,10 @@
 | 43 | Coontie Palm | Coontie Palm | Zamia pumila | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 44 | Corn Plant | Corn Plant | Dracaena fragrans | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 45 | Corsican Mint | Corsican Mint | Mentha requienii | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 46 | Crocus | Crocus | Crocus vernus | | | | | | | |
-| 47 | Croton | Croton | Codiaeum variegatum | | | | | | | |
-| 48 | Curly Dock / Sorrel | Curly Dock / Sorrel | Rumex spp. | | | | | | | |
-| 49 | Cycad | Cycad | Cycas spp. or Zamia spp. | | | | | | | |
+| 46 | Crocus | Crocus | Crocus vernus | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 47 | Croton | Croton | Codiaeum variegatum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 48 | Curly Dock / Sorrel | Curly Dock / Sorrel | Rumex spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 49 | Cycad | Cycad | Cycas spp. or Zamia spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 50 | Cyclamen | Cyclamen | Cyclamen spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 51 | Daffodil | Daffodil | Narcissus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 52 | Dahlia | Dahlia | Dahlia pinnata | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
@@ -90,24 +90,24 @@
 | 86 | Jerusalem Cherry | Jerusalem Cherry | Solanum pseudocapsicum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 87 | Jimson Weed | Jimson Weed | Datura stramonium | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 88 | Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy | Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy | Kalanchoe spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 89 | Lantana | Lantana | N/A | | | | | | | |
-| 90 | Lavender | Lavender | Lavandula | | | | | | | |
-| 91 | Leek | Leek | Allium porrum | | | | | | | |
-| 92 | Lemon Mint | Lemon Mint | N/A | | | | | | | |
-| 93 | Lilies | Lilies | True | | | | | | | |
-| 94 | Lily of the Nile | Lily of the Nile | Agapanthus africanus or A. orientalis | | | | | | | |
-| 95 | Lily of the Valley | Lily of the Valley | Convallaria majalis | | | | | | | |
-| 96 | Lucky Bamboo | Lucky Bamboo | Dracaena sanderiana | | | | | | | |
-| 97 | Madagascar Periwinkle | Madagascar Periwinkle | Catharanthus reseus | | | | | | | |
-| 98 | Mexican Mint | Mexican Mint | Indian borage | | | | | | | |
-| 99 | Milkweed | Milkweed | Asclepias spp. | | | | | | | |
-| 100 | Mint | Mint | N/A | | | | | | | |
+| 89 | Lantana | Lantana | Lantana camara | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 90 | Lavender | Lavender | Lavandula spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 91 | Leek | Leek | Allium porrum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 92 | Lemon Mint | Lemon Mint | Monarda citriodora | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 93 | Lilies | Lilies | True | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 94 | Lily of the Nile | Lily of the Nile | Agapanthus africanus or A. orientalis | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 95 | Lily of the Valley | Lily of the Valley | Convallaria majalis | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 96 | Lucky Bamboo | Lucky Bamboo | Dracaena sanderiana | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 97 | Madagascar Periwinkle | Madagascar Periwinkle | Catharanthus reseus | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 98 | Mexican Mint | Mexican Mint | Indian borage | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 99 | Milkweed | Milkweed | Asclepias spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 100 | Mint | Mint | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 101 | Mistletoe | Mistletoe | Phoradendron spp. or Viscum | | | | | | | |
 | 102 | Monstera / Split-Leaf Philodendron | Monstera / Split-Leaf Philodendron | Monstera deliciosa or Monstera adansonii | | | | | | | |
 | 103 | Morning Glory | Morning Glory | N/A | | | | | | | |
 | 104 | Mountain Laurel | Mountain Laurel | Kalmia latifolia | | | | | | | |
 | 105 | Mountain Mahogany | Mountain Mahogany | Cercocarpus spp. | | | | | | | |
-| 106 | Nandina | Nandina | Nandina spp. | | | | | | | |
+| 106 | Nandina | Nandina | Nandina spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 107 | Nightshade | Nightshade | N/A | | | | | | | |
 | 108 | Oleander | Oleander | Nerium oleander | | | | | | | |
 | 109 | Onion | Onion | Allium cepa | | | | | | | |
@@ -131,7 +131,7 @@
 | 127 | Pothos / Devil’s Ivy | Pothos / Devil’s Ivy | Epipremnum aureum or Epipremnum spp. | | | | | | | |
 | 128 | Prairie Lily | Prairie Lily | Zephyranthes drummondii | | | | | | | |
 | 129 | Ragwort / Tansy | Ragwort / Tansy | N/A | | | | | | | |
-| 130 | Rhododendron | Rhododendron | Rhododendron spp. | | | | | | | |
+| 130 | Rhododendron | Rhododendron | Rhododendron spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 131 | Rhubarb | Rhubarb | Rheum rhabarbarum | | | | | | | |
 | 132 | Rosary Pea | Rosary Pea | Abrus precatorius | | | | | | | |
 | 133 | Rubber Plant | Rubber Plant | Ficus elastica | | | | | | | |
@@ -142,7 +142,7 @@
 | 138 | Snake Plant / Mother-in-Law’s Tongue | Snake Plant / Mother-in-Law’s Tongue | Sansevieria spp. | | | | | | | |
 | 139 | Spearmint | Spearmint | Mentha spicata | | | | | | | |
 | 140 | Spider Plant | Spider Plant | Chlorophytum spp. | | | | | | | |
-| 141 | Staggerbush | Staggerbush | Lyonia spp. | | | | | | | |
+| 141 | Staggerbush | Staggerbush | Lyonia spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 142 | Star of Bethlehem | Star of Bethlehem | Ornithogalum umbellatum | | | | | | | |
 | 143 | Starfruit | Starfruit | Averrhoa carambola | | | | | | | |
 | 144 | String of Pearls | String of Pearls | Senecio | | | | | | | |

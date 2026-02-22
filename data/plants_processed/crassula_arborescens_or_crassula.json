@@ -6,14 +6,14 @@
     "description": "2. Brief Description\n\u2022 Appearance: The Jade Plant is a succulent34 characterized by its fleshy leaves and stems1.\n\u2022 Habitat & Common Locations: It is a popular indoor houseplant or pot plant45. It is commonly known by the aliases money plant or lucky plant"
   },
   "basics": {
-    "family": null,
+    "family": "Crassulaceae",
     "description": "2. Brief Description\n\u2022 Appearance: The Jade Plant is a succulent34 characterized by its fleshy leaves and stems1.\n\u2022 Habitat & Common Locations: It is a popular indoor houseplant or pot plant45. It is commonly known by the aliases money plant or lucky plant"
   },
   "toxic_parts": [
-    "Flower",
     "Stem",
-    "Leaf",
-    "Entire Plant"
+    "Entire Plant",
+    "Flower",
+    "Leaf"
   ],
   "toxins": [
     {
