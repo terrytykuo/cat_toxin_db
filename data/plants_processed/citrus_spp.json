@@ -10,10 +10,10 @@
     "description": "The sources identify Citrus as a category of fruit-bearing plants that includes oranges, lemons, limes, grapefruits, and mandarins1.... While a full physical description is not provided, the text notes the presence of stems, leaves, seeds (pips), and peels (skins), all of which contain varying levels of essential oils and citric acid"
   },
   "toxic_parts": [
-    "Stem",
-    "Seed",
     "Leaf",
-    "Fruit"
+    "Seed",
+    "Fruit",
+    "Stem"
   ],
   "toxins": [
     {

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-22T12:19:55.765349",
-  "total_files": 100,
-  "passed": 100,
+  "generated_at": "2026-02-22T12:50:39.159887",
+  "total_files": 104,
+  "passed": 104,
   "failed": 0,
   "results": [
     {
@@ -401,6 +401,12 @@
       "issues": []
     },
     {
+      "file": "kalmia_latifolia.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "lantana.json",
       "status": "PASS",
       "issue_count": 0,
@@ -467,6 +473,18 @@
       "issues": []
     },
     {
+      "file": "monstera_deliciosa_or_monstera_adansonii.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "morning_glory.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "nandina_spp.json",
       "status": "PASS",
       "issue_count": 0,
@@ -486,6 +504,12 @@
     },
     {
       "file": "phoradendron_flavescens.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "phoradendron_spp_or_viscum.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

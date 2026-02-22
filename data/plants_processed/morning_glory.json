@@ -1,0 +1,50 @@
+{
+  "plant": {
+    "common_name": "Morning Glory",
+    "scientific_name": "Ipomoea spp.",
+    "family": "Convolvulaceae",
+    "description": "Fast-growing climbing vines with trumpet-shaped flowers. Seeds contain lysergic acid amides."
+  },
+  "basics": {},
+  "toxic_parts": [
+    "Leaf",
+    "Seed",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Lysergic acid amides",
+      "chemical_formula": null,
+      "description": "Causes gastrointestinal upset and neurological signs.",
+      "concentration_notes": "Mainly found in the seeds."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea",
+      "severity": "mild",
+      "body_system": "Gastrointestinal",
+      "onset": null
+    },
+    {
+      "name": "Agitation and Tremors",
+      "severity": "moderate",
+      "body_system": "Neurological",
+      "onset": null
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Inducing Vomiting: A veterinarian may medically induce vomiting to remove the toxic substance from the cat's stomach2. Situation-specific note: You should never attempt to induce vomiting at home",
+      "priority": 1
+    },
+    {
+      "name": "Fluid Therapy: The veterinarian may administer fluid therapy to support the cat's system",
+      "priority": 2
+    },
+    {
+      "name": "Monitoring and Preventative Care: In some instances",
+      "priority": 3
+    }
+  ]
+}

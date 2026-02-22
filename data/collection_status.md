@@ -102,10 +102,10 @@
 | 98 | Mexican Mint | Mexican Mint | Indian borage | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 99 | Milkweed | Milkweed | Asclepias spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 100 | Mint | Mint | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 101 | Mistletoe | Mistletoe | Phoradendron spp. or Viscum | | | | | | | |
-| 102 | Monstera / Split-Leaf Philodendron | Monstera / Split-Leaf Philodendron | Monstera deliciosa or Monstera adansonii | | | | | | | |
-| 103 | Morning Glory | Morning Glory | N/A | | | | | | | |
-| 104 | Mountain Laurel | Mountain Laurel | Kalmia latifolia | | | | | | | |
+| 101 | Mistletoe | Mistletoe | Phoradendron spp. or Viscum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 102 | Monstera / Split-Leaf Philodendron | Monstera / Split-Leaf Philodendron | Monstera deliciosa or Monstera adansonii | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 103 | Morning Glory | Morning Glory | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 104 | Mountain Laurel | Mountain Laurel | Kalmia latifolia | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 105 | Mountain Mahogany | Mountain Mahogany | Cercocarpus spp. | | | | | | | |
 | 106 | Nandina | Nandina | Nandina spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 107 | Nightshade | Nightshade | N/A | | | | | | | |

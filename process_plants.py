@@ -62,6 +62,8 @@ BODY_SYSTEM_MAP = {
 
 # Manual overrides for plants where source data is consistently missing or poor
 MANUAL_FAMILIES = {
+    "Crassula arborescens": "Crassulaceae",
+    "Crassula arborescens or Crassula": "Crassulaceae",
     "Asparagus densiflorus": "Asparagaceae",
     "Celastrus scandens": "Celastraceae",
     "Dianthus caryophyllus": "Caryophyllaceae",
@@ -88,7 +90,12 @@ MANUAL_FAMILIES = {
     "Lonicera spp.": "Caprifoliaceae",
     "Agastache spp.": "Lamiaceae",
     "Hydrangea spp.": "Hydrangeaceae",
-    "Nandina spp.": "Berberidaceae"
+    "Nandina spp.": "Berberidaceae",
+    "Asclepias spp.": "Apocynaceae",
+    "Kalmia latifolia": "Ericaceae",
+    "Monstera deliciosa or Monstera adansonii": "Araceae",
+    "Ipomoea spp.": "Convolvulaceae",
+    "Phoradendron spp. or Viscum": "Santalaceae"
 }
 
 MANUAL_DESCRIPTIONS = {
@@ -110,7 +117,9 @@ MANUAL_DESCRIPTIONS = {
     "Gladiolus spp.": "Perennial cormous flowering plants in the iris family, known for tall flower spikes.",
     "Lonicera spp.": "Arching shrubs or twining vines with fragrant, tubular flowers and red or black berries.",
     "Agastache spp.": "Aromatic herbaceous perennials in the mint family, known for spikes of tubular flowers.",
-    "Hydrangea spp.": "Deciduous shrubs known for large flower heads in shades of pink, blue, or white."
+    "Hydrangea spp.": "Deciduous shrubs known for large flower heads in shades of pink, blue, or white.",
+    "Kalmia latifolia": "A broadleaved evergreen shrub in the heath family, native to the eastern United States. Contains grayanotoxins.",
+    "Ipomoea spp.": "Fast-growing climbing vines with trumpet-shaped flowers. Seeds contain lysergic acid amides."
 }
 
 MANUAL_TOXIC_PARTS = {
@@ -359,6 +368,26 @@ def postprocess(processed):
     # Fix Eucalyptus scientific name
     if plant.get("common_name") == "Eucalyptus" and not plant.get("scientific_name"):
         plant["scientific_name"] = "Eucalyptus spp."
+
+    # Fix Lantana scientific name
+    if plant.get("common_name") == "Lantana" and not plant.get("scientific_name"):
+        plant["scientific_name"] = "Lantana camara"
+
+    # Fix Lemon Mint scientific name
+    if plant.get("common_name") == "Lemon Mint" and not plant.get("scientific_name"):
+        plant["scientific_name"] = "Monarda citriodora"
+
+    # Fix Lavender scientific name
+    if plant.get("common_name") == "Lavender" and (not plant.get("scientific_name") or plant.get("scientific_name") == "Lavandula"):
+        plant["scientific_name"] = "Lavandula spp."
+
+    # Fix Mint scientific name
+    if plant.get("common_name") == "Mint" and not plant.get("scientific_name"):
+        plant["scientific_name"] = "Mentha spp."
+        
+    # Fix Morning Glory scientific name
+    if plant.get("common_name") == "Morning Glory" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a"]):
+        plant["scientific_name"] = "Ipomoea spp."
         
     plant["family"] = clean_family(plant.get("family"))
     
@@ -427,6 +456,33 @@ def postprocess(processed):
             "description": "Can cause vomiting, diarrhea, and in rare cases, cardiovascular issues.",
             "concentration_notes": "Berries and sap are most toxic."
         }]
+
+    if sci_name == "Ipomoea spp.":
+        if not processed.get("toxins"):
+            processed["toxins"] = [{
+                "name": "Lysergic acid amides",
+                "chemical_formula": None,
+                "description": "Causes gastrointestinal upset and neurological signs.",
+                "concentration_notes": "Mainly found in the seeds."
+            }]
+        if not processed.get("symptoms"):
+            processed["symptoms"] = [
+                {"name": "Vomiting and Diarrhea", "severity": "mild", "body_system": "Gastrointestinal"},
+                {"name": "Agitation and Tremors", "severity": "moderate", "body_system": "Neurological"}
+            ]
+
+    if sci_name == "Phoradendron spp. or Viscum":
+        if not processed.get("symptoms"):
+            processed["symptoms"] = [
+                {"name": "Vomiting and Diarrhea", "severity": "mild", "body_system": "Gastrointestinal"},
+                {"name": "Cardiovascular Collapse", "severity": "severe", "body_system": "Cardiac"}
+            ]
+        if not processed.get("treatments"):
+            processed["treatments"] = [{
+                "name": "Decontamination and IV Fluids",
+                "description": "Induce vomiting if recent, administer activated charcoal, and provide cardiovascular support.",
+                "priority": 1
+            }]
 
     # Force Scadoxus data if empty
     

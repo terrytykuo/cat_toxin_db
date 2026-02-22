@@ -147,20 +147,21 @@ def main():
     # Process next 6 plants (total 7 for today including the test run)
     # Indices 0 to 6 (plants #1 to #7)
     
-    # Process range 6 to 10 (Plants 7 to 10)
-    # Apple is #7 (index 6).
-    start_index = 10
-    end_index = 15
+    # Process Phase: Indices 100-103
+    # 101: Mistletoe
+    # 102: Monstera
+    # 103: Morning Glory
+    # 104: Mountain Laurel
+    target_indices = [100, 101, 102, 103]
     
-    for i in range(start_index, end_index):
+    print(f"🎯 Targeting {len(target_indices)} plants for re-collection: {target_indices}")
+
+    for i in target_indices:
         plant_num = i + 1
-        # Disabled simple "already done" check to allow resume of partials
-        # if plant_num in completed:
-        #     print(f"⏭️ Skipping #{plant_num} (already done)")
-        #     continue
-            
+        
         if i >= len(plants):
-            break
+            print(f"⚠️ Index {i} out of range (max {len(plants)-1})")
+            continue
             
         try:
             collect_plant(plants[i], plant_num)

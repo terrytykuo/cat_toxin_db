@@ -15,11 +15,11 @@
     "description": "Brief Description\n\u2022 Appearance: Irises are described as \"stunning\" plants known for producing \"lovely, ruffled flowers\"2. They bloom in a \"plethora of colors\"3. Structurally, many popular varieties grow from bulbs, which are noted to be the most toxic part of the plant12.\n\u2022 Where Commonly Found: They are widely kept as garden plants3 and are very popular as fresh cut flowers in vases2. They are specifically noted as popular spring flowers"
   },
   "toxic_parts": [
-    "Bulb",
-    "Stem",
-    "Entire Plant",
     "Leaf",
-    "Flower"
+    "Stem",
+    "Flower",
+    "Entire Plant",
+    "Bulb"
   ],
   "toxins": [
     {

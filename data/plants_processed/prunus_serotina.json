@@ -10,10 +10,10 @@
     "description": "Brief Description: The provided sources do not contain a physical description of the Prunus serotina plant (appearance, habitat, or range). They focus primarily on the toxicological risks associated with the genus, noting that the seeds (pits) and leaves contain cyanogenic glycosides, which can be dangerous to pets if ingested"
   },
   "toxic_parts": [
-    "Stem",
-    "Seed",
     "Leaf",
-    "Fruit"
+    "Seed",
+    "Fruit",
+    "Stem"
   ],
   "toxins": [
     {

@@ -1,0 +1,87 @@
+{
+  "plant": {
+    "common_name": "Mountain Laurel",
+    "scientific_name": "Kalmia latifolia",
+    "family": "Ericaceae",
+    "description": "A broadleaved evergreen shrub in the heath family, native to the eastern United States. Contains grayanotoxins."
+  },
+  "basics": {
+    "family": "Ericaceae",
+    "description": "A broadleaved evergreen shrub in the heath family, native to the eastern United States. Contains grayanotoxins."
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Flower"
+  ],
+  "toxins": [
+    {
+      "name": "Grayanotoxins12. (Note: In related plants from the same family, these are also sometimes referred to as andromedotoxins3)",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Grayanotoxins bind to and modify the sodium channels in cell membranes, preventing them from closing14. This allows continuous calcium movement into the cells, resulting in a prolonged depolarization of excitable cells15. This severely disrupts normal electrical signaling, particularly affecting the cat's nerve, skeletal muscle, and cardiac muscle cells",
+      "concentration_notes": "While all parts of the Mountain Laurel plant contain grayanotoxins and are considered toxic, the toxins are most heavily concentrated in the nectar, flowers, leaves, and stems"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea, inappetence (loss of appetite), abdominal pain, and hypersalivation (drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within 1 to 4 hours (and occasionally up to 12 hours) after ingestion",
+      "notes": "These are generally the most common and earliest signs of grayanotoxin poisoning14. If a cat only ingests a small amount of the plant (a few leaves or petals), the clinical signs are typically limited to these gastrointestinal effects and mild central nervous system depression3.\n2. Central Nervous System Depression and Weakness"
+    },
+    {
+      "name": "CNS depression, lethargy, and profound muscle weakness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "notes": "Weakness and depression can occur even with smaller ingestions, but larger amounts will cause a progression to much more severe neurological and cardiovascular issues35.\n3. Cardiac Abnormalities and Hypotension"
+    },
+    {
+      "name": "Abnormally slow heart rate (bradycardia), irregular heart rhythms (arrhythmias), and low blood pressure (hypotension)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "notes": "This is a life-threatening manifestation of grayanotoxin poisoning that occurs with larger ingestions5. The toxins bind to sodium channels, primarily affecting cardiac muscle, which can rapidly lead to cardiovascular collapse13. Continuous monitoring of the cat's heart rate and blood pressure is required6.\n4. Seizures and Tremors"
+    },
+    {
+      "name": "Muscle tremors and seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "notes": "These severe neurological symptoms manifest when a larger, highly toxic dose of the plant is consumed5. Veterinarians typically use methocarbamol to manage the tremors and standard anticonvulsants for seizure control6.\n5. Transient Blindness"
+    },
+    {
+      "name": "Transient (temporary) blindness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "notes": "While it is a known symptom of grayanotoxin poisoning, transient blindness is reported less commonly than the associated gastrointestinal, cardiovascular, and general central nervous system abnormalities"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis (Vomiting) and Activated Charcoal, or Gastric Lavage",
+      "description": "To prevent the toxins from being absorbed into the bloodstream, the veterinarian may induce vomiting, followed by an antiemetic (anti-nausea medication) and a dose of activated charcoal with a cathartic to bind and pass any remaining toxins in the digestive tract3. In some cases, a gastric lavage (stomach pump) and saline cathartics may be utilized",
+      "notes": "Inducing vomiting should only be performed if the cat is asymptomatic or neurologically appropriate (to prevent accidental aspiration into the lungs). Because this specific plant material can sit in the stomach for many hours, inducing vomiting can still be highly successful even several hours after ingestion3.\n2. Cardiovascular Support and Monitoring",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and Cardiac Medications",
+      "description": "The veterinarian will administer IV fluids to support blood pressure while continuously monitoring the cat's heart rate and blood pressure until discharge. Specific medications are used to correct heart abnormalities, such as atropine for an abnormally slow heart rate (bradycardia), or antiarrhythmics (like lidocaine and procainamide) for irregular heart rhythms. Calcium injections may also be used",
+      "notes": "This is a critical, life-saving intervention if the cat has ingested enough of the plant to cause severe hypotension (low blood pressure) or dangerous cardiac arrhythmias3.\n3. Neurological Management (Tremor and Seizure Control)",
+      "priority": 2
+    },
+    {
+      "name": "Muscle Relaxants and Anticonvulsants",
+      "description": "The veterinarian will administer specific medications, such as methocarbamol, to manage muscle tremors. Standard anticonvulsant drugs will be used to control seizures",
+      "notes": "This targeted treatment is required if the cat has consumed a larger, highly toxic dose of the plant and is exhibiting severe central nervous system disruptions3.\n4. Symptomatic Gastrointestinal and Supportive Care",
+      "priority": 3
+    },
+    {
+      "name": "Gastrointestinal Protectants and Antibiotics",
+      "description": "The vet will manage ongoing stomach upset using typical treatments like antiemetics, antidiarrheals, gastroprotectants, and a bland diet. Antibiotics may also be prescribed to control or prevent potential pneumonia (which can happen if the cat accidentally inhales vomit)",
+      "notes": "Cats that only ingest a small amount of the plant usually only develop mild gastrointestinal signs. In these cases, the prognosis is excellent with just this standard supportive care",
+      "priority": 4
+    }
+  ]
+}

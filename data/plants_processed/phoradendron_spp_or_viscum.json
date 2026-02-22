@@ -1,0 +1,57 @@
+{
+  "plant": {
+    "common_name": "Mistletoe",
+    "scientific_name": "Phoradendron spp. or Viscum",
+    "family": "Viscaceae",
+    "description": "Brief Description\n\u2022 Appearance: Mistletoe is an evergreen shrub featuring a round, highly branched green stem with ovoid, opposite-facing leaves1. The plant produces distinct white berries that each contain a single seed1.\n\u2022 Habitat and Common Locations: In its natural habitat, mistletoe grows as a perennial parasitic plant that attaches itself to deciduous trees1. It is most commonly found inside homes during the winter months, as it is a very popular festive decoration brought indoors for the Christmas holiday season"
+  },
+  "basics": {
+    "family": "Viscaceae",
+    "description": "Brief Description\n\u2022 Appearance: Mistletoe is an evergreen shrub featuring a round, highly branched green stem with ovoid, opposite-facing leaves1. The plant produces distinct white berries that each contain a single seed1.\n\u2022 Habitat and Common Locations: In its natural habitat, mistletoe grows as a perennial parasitic plant that attaches itself to deciduous trees1. It is most commonly found inside homes during the winter months, as it is a very popular festive decoration brought indoors for the Christmas holiday season"
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Fruit"
+  ],
+  "toxins": [
+    {
+      "name": "Lectins and viscotoxins (which are toxic proteins)",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: These toxic proteins act as severe gastrointestinal irritants and cardiovascular depressants1.... When ingested, they can cause profuse vomiting and diarrhea, dilated pupils, and rapid, labored breathing2. Systemically, they affect the heart, causing a slowed heart rate and low blood pressure, which can ultimately lead to shock and death from cardiovascular collapse",
+      "concentration_notes": "These toxins are found in all parts of the plant, though the leaves are considered to be more toxic than the berries14. While severe mistletoe toxicity is uncommon and usually requires a cat to eat a large amount of the plant, small ingestions are still potent enough to cause mild to severe stomach upset"
+    },
+    {
+      "name": "Phoratoxins",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: Working alongside the lectins, phoratoxins specifically target the heart muscle and cardiovascular system13. They are responsible for inducing dangerous drops in blood pressure (hypotension) and abnormally slow heart rates (bradycardia), which can lead to profound weakness and odd behavior",
+      "concentration_notes": "Phoratoxins are distributed throughout the plant1. Fortunately, a cat must typically consume a large amount of the plant for these chemicals to reach a severely toxic, life-threatening threshold"
+    },
+    {
+      "name": "Amines",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: Amines are present alongside the toxic proteins and contribute to the rapid onset of both gastrointestinal distress and cardiovascular shock2. They play a role in symptoms such as vomiting, diarrhea, dilated pupils, and labored breathing",
+      "concentration_notes": "Amines are found in all parts of the mistletoe plant2. Like the other compounds, a large toxic dose is generally required to trigger fatal cardiovascular collapse"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea",
+      "severity": "mild",
+      "body_system": "Gastrointestinal",
+      "onset": null
+    },
+    {
+      "name": "Cardiovascular Collapse",
+      "severity": "severe",
+      "body_system": "Cardiac",
+      "onset": null
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Decontamination and IV Fluids",
+      "description": "Induce vomiting if recent, administer activated charcoal, and provide cardiovascular support.",
+      "priority": 1
+    }
+  ]
+}
