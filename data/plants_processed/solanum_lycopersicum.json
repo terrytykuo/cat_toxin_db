@@ -1,0 +1,100 @@
+{
+  "plant": {
+    "common_name": "Tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Tomato plants feature green foliage (leaves and stems) that emit a distinct, pungent aroma and are covered with prickly hairs4. The plant produces fruit that begins as green and unripe, eventually maturing into the popular fleshy, red tomatoes56.\n\u2022 Habitat and Where Commonly Found: As a widely accepted and cultivated food crop, tomato plants are most commonly found growing in agricultural settings, household gardens, and in pots on patios or balconies"
+  },
+  "basics": {
+    "family": "Solanaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Tomato plants feature green foliage (leaves and stems) that emit a distinct, pungent aroma and are covered with prickly hairs4. The plant produces fruit that begins as green and unripe, eventually maturing into the popular fleshy, red tomatoes56.\n\u2022 Habitat and Where Commonly Found: As a widely accepted and cultivated food crop, tomato plants are most commonly found growing in agricultural settings, household gardens, and in pots on patios or balconies"
+  },
+  "toxic_parts": [
+    "Stem",
+    "Fruit",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Glycoalkaloids, specifically tomatine and solanine",
+      "chemical_formula": null,
+      "description": "in cats: These compounds act as cytotoxins and neurotoxins that disrupt a cat's body in three primary ways25:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cytotoxic Cell Destruction: The toxins interact with the phospholipids of the cell membranes, increasing their permeability and causing the cells to be destroyed5. This causes significant damage to the intestinal epithelial cells, resulting in severe gastrointestinal inflammation and irritation5.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Neurological Overstimulation: The toxins inhibit acetylcholinesterase, a crucial enzyme in the brain responsible for breaking down acetylcholine6. This inhibition leads to a dangerous overstimulation of the parasympathetic nervous system6.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Mitochondrial Impairment: The glycoalkaloids disrupt the energy balance of the cells by inhibiting the cellular respiratory chain",
+      "concentration_notes": "The concentration of these toxins is exceptionally high in the green, vegetative parts of the plant (leaves and stems) as well as in the unripe, green fruit1.... As the tomato ripens and turns red, the toxin levels drop significantly to negligible amounts; ripe red tomatoes are largely harmless to cats, though consuming them in large quantities may still cause mild irritation1.... Furthermore, cats are much more sensitive to these toxins than dogs because feline livers lack the specific glucuronidation pathways needed to efficiently detoxify them, leading to prolonged and more severe poisoning"
+    },
+    {
+      "name": "Atropine",
+      "chemical_formula": null,
+      "description": "in cats: The provided sources do not detail the specific biological mechanism of action for the atropine found in tomato plants",
+      "concentration_notes": "Atropine is noted to be present in tomatoes, but it is considered a \"lesser toxin\" compared to the highly concentrated tomatine"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Within a few hours of ingestion.",
+      "notes": "This is typically one of the first signs of oral and gastrointestinal irritation caused by the plant's glycoalkaloid toxins.\n2. Vomiting and Diarrhea"
+    },
+    {
+      "name": "Vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within a few hours of ingestion.",
+      "notes": "Solanine and tomatine act as direct gastrointestinal irritants. If the vomiting or diarrhea is severe, it can lead to dehydration.\n3. Lethargy and Weakness"
+    },
+    {
+      "name": "Lethargy, weakness, and confusion",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Progresses after gastrointestinal signs (usually within a few to several hours).",
+      "notes": "This is caused by the systemic absorption of solanine, which acts as a cholinesterase inhibitor and depresses the central nervous system.\n4. Dilated Pupils (Mydriasis)"
+    },
+    {
+      "name": "Dilated pupils (mydriasis)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "A few hours after ingestion.",
+      "notes": "This is an additional neurological effect stemming from the disruption of the nervous system by the glycoalkaloid toxins.\n5. Slowed Heart Rate (Bradycardia)"
+    },
+    {
+      "name": "Slowed heart rate (bradycardia)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Occurs after the systemic absorption of a large toxic dose.",
+      "notes": "Severe cardiovascular and neurological effects are rare in cats. Felines typically do not consume enough of the unpalatable green plant material to trigger life-threatening symptoms, but it remains a risk in cases of severe poisoning."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oxygen Therapy, Defibrillation, and Anticonvulsant Therapy",
+      "description": "The veterinary team will secure the airway to provide oxygen supplementation or mechanical ventilation, administer anticonvulsants (like benzodiazepines or barbiturates) to stop seizures, and use defibrillation if the heart experiences ventricular fibrillation",
+      "notes": "This is the most urgent, life-saving intervention but is only required in the most severe, critical poisoning cases where the glycoalkaloids have progressed to cause respiratory depression, circulatory failure, or severe neurological impairment23.\n2. Gastrointestinal Decontamination",
+      "priority": 1
+    },
+    {
+      "name": "Emesis Induction or Gastric Lavage",
+      "description": "The veterinarian will medically induce vomiting (often using xylazine for cats) to empty the stomach. Alternatively, they may perform a gastric lavage (pumping the stomach) under anesthesia",
+      "notes": "This step is crucial for eliminating the toxic green plant parts or unripe fruit before the toxins can be absorbed, but it is typically only performed if the ingestion was recent (within 1 to 2 hours) and the cat is not yet showing severe symptoms4.\n3. Toxin Binding",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Activated Charcoal",
+      "description": "The cat is given a dose of activated charcoal (1\u20134 g/kg body weight) to bind to any unabsorbed solanine and tomatine remaining in the gastrointestinal tract, preventing the toxins from entering the bloodstream",
+      "notes": "In cases of severe poisoning, the veterinarian may repeat the administration of activated charcoal multiple times at 4- to 6-hour intervals2.\n4. Systemic Support and Excretion",
+      "priority": 3
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "Crystalloid IV fluids are administered to rehydrate the cat from fluid loss (due to vomiting and diarrhea), stimulate urine production (diuresis), and promote the excretion of the toxins",
+      "notes": "In advanced poisoning cases where the toxins have caused the destruction of red blood cells (hemolysis), the IV infusion rate must be aggressively increased. This ensures adequate blood flow to the kidneys and prevents secondary kidney damage caused by the release of hemoglobin2.\n5. Pharmacological Symptom Management",
+      "priority": 4
+    },
+    {
+      "name": "Atropine Administration",
+      "description": "The veterinarian administers the medication atropine to help counteract the specific effects of the toxins on the nervous system",
+      "notes": "While there is no direct antidote for solanine or tomatine poisoning, atropine is specifically utilized to treat \"cholinergic symptoms\" caused by the toxins, such as a dangerously slow heart rate (bradycardia) or excessive salivation",
+      "priority": 5
+    }
+  ]
+}

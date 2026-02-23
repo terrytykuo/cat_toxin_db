@@ -1,0 +1,96 @@
+{
+  "plant": {
+    "common_name": "Wisteria",
+    "scientific_name": "Wisteria spp.",
+    "family": "Fabaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Wisteria is a vigorous climbing plant (vine) that requires physical support to grow1. It is most famous for its stunning, pendant (hanging) flower blooms that are often sweetly scented and can range in color from purple to white and pink2. After the flowers bloom, the plant produces seeds enclosed in pods34.\n\u2022 Habitat and Where Commonly Found: Wisteria is originally native to parts of Asia and the United States2. Today, it is highly prized for its aesthetic appeal and is cultivated in gardens around the globe as a decorative ornamental plant"
+  },
+  "basics": {
+    "family": "Fabaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Wisteria is a vigorous climbing plant (vine) that requires physical support to grow1. It is most famous for its stunning, pendant (hanging) flower blooms that are often sweetly scented and can range in color from purple to white and pink2. After the flowers bloom, the plant produces seeds enclosed in pods34.\n\u2022 Habitat and Where Commonly Found: Wisteria is originally native to parts of Asia and the United States2. Today, it is highly prized for its aesthetic appeal and is cultivated in gardens around the globe as a decorative ornamental plant"
+  },
+  "toxic_parts": [
+    "Stem",
+    "Seed",
+    "Flower",
+    "Leaf",
+    "Bark"
+  ],
+  "toxins": [
+    {
+      "name": "Lectins (specifically noted as irritant lectins)",
+      "chemical_formula": null,
+      "description": "in cats: Lectins act as severe gastrointestinal irritants. When ingested by a cat, they trigger intense stomach pain, nausea, profuse vomiting (which may contain blood), and diarrhea2.... This massive gastrointestinal distress can subsequently lead to severe dehydration, central nervous system damage, and collapse",
+      "concentration_notes": "While lectins are present in all parts of the wisteria plant, they have the highest toxic concentration in the seeds and seed pods, making those parts by far the most dangerous"
+    },
+    {
+      "name": "Wisterin (identified as a toxic glycoside)",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: Working alongside the plant's lectins, wisterin is a poisonous compound that contributes to severe systemic illness. It causes drastic gastrointestinal upset, including abdominal pain, bloody vomiting, and diarrhea14. If a cat ingests a large amount, the toxicity can escalate to fatal dehydration, central nervous system damage, and physical collapse",
+      "concentration_notes": "Like lectins, wisterin is found throughout the entire plant\u2014including the leaves, bark, and flowers\u2014but it is most potently concentrated in the plant's seeds and pods1.... Ingesting the seeds and pods can be fatal to small animals like cats"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Drooling and nausea [770, 849, Conversation History",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Typically appears within a few hours of ingestion",
+      "notes": "These are often the initial, outward signs of gastrointestinal irritation caused by the plant's toxic lectins and glycosides [770, 849, Conversation History].\n2. Vomiting (potentially bloody)"
+    },
+    {
+      "name": "Severe vomiting, which may contain blood",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Typically appears within a few hours of ingestion",
+      "notes": "This profuse vomiting is a direct reaction to the highly irritating compounds (lectins and wisterin) and rapidly leads to severe dehydration [395, 849, Conversation History].\n3. Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Typically appears within a few hours of ingestion",
+      "notes": "Combined with severe vomiting, profuse diarrhea causes massive gastrointestinal distress and life-threatening fluid loss [395, 849, Conversation History].\n4. Abdominal Pain"
+    },
+    {
+      "name": "Abdominal pain and stomach cramps [770, 800, 849, Conversation History",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Typically appears within a few hours of ingestion",
+      "notes": "Arises from the intense irritation of the mucosal lining of the digestive tract [395, 800, Conversation History].\n5. Lethargy, Central Nervous System Damage, and Collapse"
+    },
+    {
+      "name": "Lethargy, central nervous system (CNS) damage, and physical collapse [395, 770, 849, Conversation History",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Usually progresses following the initial severe gastrointestinal distress that begins within a few h",
+      "notes": "These systemic and neurological symptoms manifest primarily when a cat ingests larger amounts of the plant, particularly the highly concentrated and deadly seeds and seed pods [395, 770, 849, Conversation History]. If left untreated, the severe dehydration and toxicity can be fatal to cats [395, 800, Conversation History]."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral Decontamination and Plant Removal",
+      "description": "Gently remove any remaining plant material (especially the highly toxic seeds or pods) from the cat's mouth. Rinse the mouth and offer small sips of water",
+      "notes": "It is highly advised not to induce vomiting at home unless specifically directed to do so by a veterinary professional. Do not give the cat any food or medications without veterinary instruction. If possible, bring a sample of the wisteria plant to the clinic to help the vet confirm the poisoning1.\n2. Gastrointestinal Decontamination (Veterinary)",
+      "priority": 1
+    },
+    {
+      "name": "Medically Induced Emesis (Vomiting)",
+      "description": "Once at the clinic, the veterinarian may administer medication to safely induce vomiting, emptying the stomach of the toxic plant material",
+      "notes": "This intervention is critical for preventing the absorption of the dangerous lectins and wisterin glycosides. It is most effective when performed as soon as possible after the cat has ingested the plant2.\n3. Fluid Therapy",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "The veterinary team administers fluids to help flush the wisteria toxins out of the cat's body",
+      "notes": "Because wisteria poisoning triggers severe, potentially bloody vomiting and profuse diarrhea, cats are at a high risk of life-threatening fluid loss [800, Conversation History]. Aggressive fluid therapy is essential to combat this severe dehydration and stabilize the animal [Conversation History].\n4. Symptomatic and Supportive Care",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Medical Management and Monitoring",
+      "description": "The veterinarian will continuously monitor the cat and provide specific medications to manage the intense gastrointestinal and systemic symptoms [800, Conversation History].",
+      "notes": "Because wisteria ingestion can escalate to severe stomach cramps, central nervous system (CNS) damage, and physical collapse, the cat may require targeted pharmacological support to ease abdominal pain, stop nausea, and manage any neurological distress until the toxins clear its system [800, Conversation History].",
+      "priority": 4
+    }
+  ]
+}

@@ -3,12 +3,15 @@
     "common_name": "Oyster Plant",
     "scientific_name": "Tradescantia spathacea",
     "family": "Commelinaceae",
-    "description": "A herbaceous perennial plant with dark green leaves that are purple underneath, commonly known as Oyster Plant."
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Oyster Plant is a low-growing, clump-forming evergreen perennial. It is highly prized for its striking, sword-shaped leaves that grow in a dense rosette pattern. The leaves are typically a glossy dark green on the top and a vibrant, deep purple on the underside. It produces small, three-petaled white flowers that bloom tucked inside distinctive, boat-shaped purple bracts (which gives the plant its other popular nickname, \"Moses-in-the-Cradle\").\n\u2022 Habitat and Where Commonly Found: Native to southern Mexico, Belize, and Guatemala, the Oyster Plant thrives in warm, tropical, and subtropical climates. It prefers bright, indirect light and well-draining soil. Today, it is widely cultivated globally and is very commonly found indoors as a decorative houseplant, or planted outdoors as a colorful ground cover or border plant in frost-free regions."
   },
-  "basics": {},
+  "basics": {
+    "family": "Commelinaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Oyster Plant is a low-growing, clump-forming evergreen perennial. It is highly prized for its striking, sword-shaped leaves that grow in a dense rosette pattern. The leaves are typically a glossy dark green on the top and a vibrant, deep purple on the underside. It produces small, three-petaled white flowers that bloom tucked inside distinctive, boat-shaped purple bracts (which gives the plant its other popular nickname, \"Moses-in-the-Cradle\").\n\u2022 Habitat and Where Commonly Found: Native to southern Mexico, Belize, and Guatemala, the Oyster Plant thrives in warm, tropical, and subtropical climates. It prefers bright, indirect light and well-draining soil. Today, it is widely cultivated globally and is very commonly found indoors as a decorative houseplant, or planted outdoors as a colorful ground cover or border plant in frost-free regions."
+  },
   "toxic_parts": [
-    "Sap",
     "Stem",
+    "Sap",
     "Leaf"
   ],
   "toxins": [
@@ -37,9 +40,22 @@
   ],
   "treatments": [
     {
-      "name": "Decontamination and Supportive Care",
-      "description": "Rinse mouth to remove irritating plant material. Monitor for gastrointestinal upset and provide supportive care.",
+      "name": "Oral and Paw Decontamination",
+      "description": "Gently wipe out the cat's mouth and thoroughly clean its paws to remove any remaining toxic, irritant sap",
+      "notes": "This is an urgent at-home first aid step to stop the sap from causing further irritation to the skin or gastrointestinal tract1. Because the plant's toxicity is mild, this is often the only intervention required.\n2. Observation and Monitoring",
       "priority": 1
+    },
+    {
+      "name": "Symptomatic Monitoring",
+      "description": "Keep a close eye on the cat for a period of time after exposure, watching for signs of mild gastrointestinal upset (drooling or vomiting) or skin redness/rash",
+      "notes": "If the vomiting is persistent, or if the skin rash worsens and does not resolve on its own, it is time to consult a veterinarian for professional guidance1.\n3. Veterinary Symptomatic Support (If Symptoms Worsen)",
+      "priority": 2
+    },
+    {
+      "name": "Veterinary Symptomatic Care",
+      "description": "If the cat's symptoms escalate, a veterinarian will assess the animal and provide targeted medical relief, which may include anti-emetic medications to stop persistent vomiting or treatments to soothe severe skin irritation.",
+      "notes": "Because Oyster Plant ingestion typically only results in mild, self-limiting symptoms, this step is only necessary for cats that have an unusually severe reaction or do not recover quickly",
+      "priority": 3
     }
   ]
 }

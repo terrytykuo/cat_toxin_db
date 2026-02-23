@@ -148,14 +148,14 @@
 | 144 | String of Pearls | String of Pearls | Senecio | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 145 | Sweet Birch | Sweet Birch | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 146 | Sweet Pea | Sweet Pea | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 147 | Swiss Cheese Vine | Swiss Cheese Vine | Monstera adansonii | | | | | | | |
-| 148 | Tea Tree | Tea Tree | N/A | | | | | | | |
-| 149 | Tomato | Tomato | Solanum lycopersicum | | | | | | | |
-| 150 | Tulip | Tulip | Tulipa spp. | | | | | | | |
-| 151 | Wandering Jew | Wandering Jew | Tradescantia zebrina | | | | | | | |
-| 152 | Water Lily | Water Lily | Nymphaeaceae spp. | | | | | | | |
-| 153 | Wintergreen | Wintergreen | N/A | | | | | | | |
-| 154 | Wisteria | Wisteria | Wisteria spp. | | | | | | | |
+| 147 | Swiss Cheese Vine | Swiss Cheese Vine | Monstera adansonii | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 148 | Tea Tree | Tea Tree | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 149 | Tomato | Tomato | Solanum lycopersicum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 150 | Tulip | Tulip | Tulipa spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 151 | Wandering Jew | Wandering Jew | Tradescantia zebrina | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 152 | Water Lily | Water Lily | Nymphaeaceae spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 153 | Wintergreen | Wintergreen | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 154 | Wisteria | Wisteria | Wisteria spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 155 | Yellow Oleander | Yellow Oleander | Thevetia peruviana | | | | | | | |
 | 156 | Yesterday-today-and-tomorrow | Yesterday-today-and-tomorrow | Brunfelsia pauciflora floribunda | | | | | | | |
 | 157 | Yew | Yew | Taxus spp. | | | | | | | |

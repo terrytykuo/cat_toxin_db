@@ -10,9 +10,9 @@
     "description": "Brief Description\n\u2022 Appearance: It is a perennial parasitic shrub with a round, highly branched, green stem. The plant features evergreen, ovoid leaves arranged oppositely and produces white berries, each containing a single seed1.\n\u2022 Habitat: It grows naturally as a parasite on deciduous trees1.\n\u2022 Where Commonly Found: While it grows on trees outdoors, it is most commonly encountered by pet owners when brought into homes as a traditional decoration during the Christmas season"
   },
   "toxic_parts": [
-    "Entire Plant",
-    "Fruit",
     "Stem",
+    "Fruit",
+    "Entire Plant",
     "Leaf"
   ],
   "toxins": [

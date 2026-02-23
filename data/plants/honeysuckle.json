@@ -1,7 +1,7 @@
 {
   "plant": {
     "common_name": "Honeysuckle",
-    "scientific_name": null
+    "scientific_name": "Lonicera spp."
   },
   "raw_responses": {
     "basics": "\ud83d\udcda Loaded library with 1 notebooks\n\ud83d\udcac Asking: For the plant Honeysuckle (None): 1. What botanical family does it belong to? 2. Give a brief description of the plant (appearance, habitat, where commonly found). Cite your sources.\n\ud83d\udcda Notebook: https://notebooklm.google.com/notebook/9ef4df26-178b-446d-8e9d-e57cbe878a0d\n  \ud83c\udf10 Opening notebook...\n  \u23f3 Waiting for query input...\n  \u2713 Found input: textarea.query-box-input\n  \u23f3 Typing question...\n  \ud83d\udce4 Submitting...\n  \u23f3 Waiting for answer...\n  \u2705 Got answer!\n\n============================================================\nQuestion: For the plant Honeysuckle (None): 1. What botanical family does it belong to? 2. Give a brief description of the plant (appearance, habitat, where commonly found). Cite your sources.\n============================================================\n\nBased on the provided sources, there is no information regarding the botanical family, physical appearance, or specific habitat of Honeysuckle (Lonicera species). The sources currently available only briefly mention that the flowers have a sweet smell and that the plant can be toxic to cats.\nWould you like me to search for the botanical family and a physical description of Honeysuckle for you?",

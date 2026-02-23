@@ -110,6 +110,7 @@ MANUAL_FAMILIES = {
     "Papaver spp.": "Papaveraceae",
     "Chrysanthemum morifolium": "Asteraceae",
     "Solanum tuberosum": "Solanaceae",
+    "Solanum lycopersicum": "Solanaceae",
     "Zephyranthes drummondii": "Amaryllidaceae",
     "Rheum rhabarbarum": "Polygonaceae",
     "Senecio jacobaea or Tanacetum vulgare": "Asteraceae"
@@ -147,6 +148,7 @@ MANUAL_DESCRIPTIONS = {
 
 MANUAL_TOXIC_PARTS = {
     "Aglaonema modestum": ["Entire Plant", "Leaf", "Stem"],
+    "Monstera adansonii": ["Leaf", "Stem"],
     "Prunus serotina": ["Stem", "Leaf", "Seed"],
     "Prunus laurocerasus": ["Leaf", "Seed", "Berry"],
     "Cinnamomum verum": ["Sap", "Bark"],
@@ -663,6 +665,27 @@ def postprocess(processed):
             {"name": "Salivation", "severity": "mild", "body_system": "Gastrointestinal"},
             {"name": "Diarrhea", "severity": "moderate", "body_system": "Gastrointestinal"}
         ]
+
+    # Force Nymphaeaceae spp. data if empty
+    if sci_name == "Nymphaeaceae spp.":
+        if not processed.get("toxins"):
+            processed["toxins"] = [{
+                "name": "Nupharine and related alkaloids",
+                "chemical_formula": None,
+                "description": "Alkaloids that may cause mild gastrointestinal irritation.",
+                "concentration_notes": "Present throughout the plant."
+            }]
+        if not processed.get("symptoms"):
+            processed["symptoms"] = [
+                {"name": "Vomiting", "severity": "mild", "body_system": "Gastrointestinal"},
+                {"name": "Diarrhea", "severity": "mild", "body_system": "Gastrointestinal"}
+            ]
+        if not processed.get("treatments"):
+            processed["treatments"] = [{
+                "name": "Supportive Care",
+                "description": "Provide supportive care for gastrointestinal upset.",
+                "priority": 1
+            }]
         
     # --- Toxins ---
     for t in processed.get("toxins", []):

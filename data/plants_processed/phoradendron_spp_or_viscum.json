@@ -35,23 +35,58 @@
   ],
   "symptoms": [
     {
-      "name": "Vomiting and Diarrhea",
-      "severity": "mild",
+      "name": "Gastrointestinal upset, including vomiting and diarrhea (which can be profuse)",
       "body_system": "Gastrointestinal",
-      "onset": null
+      "severity": "severe",
+      "onset": "Within hours of ingestion",
+      "notes": "If a cat only eats a small amount (like a few leaves or berries), the symptoms are typically limited to mild gastrointestinal irritation14. However, ingesting larger amounts leads to severe gastrointestinal distress56. Additionally, many store-bought mistletoe decorations use plastic berries; if a cat ingests a large amount of these fake berries, it can cause a physical gastrointestinal obstruction4.\n2. Cardiovascular Depression (Slowed Heart Rate and Low Blood Pressure)"
     },
     {
-      "name": "Cardiovascular Collapse",
-      "severity": "severe",
+      "name": "Slowed heart rate (bradycardia), low blood pressure (hypotension), and potential cardiovascular collapse",
       "body_system": "Cardiac",
-      "onset": null
+      "severity": "fatal",
+      "onset": "Within hours of ingesting a toxic dose",
+      "notes": "These life-threatening cardiovascular effects are caused by the plant's lectins and phoratoxins3. Fortunately, severe heart toxicity is relatively uncommon and usually only occurs if the cat consumes a large amount of the plant34. If left untreated after a large ingestion, it can lead to shock and death from cardiovascular collapse2.\n3. Respiratory Distress"
+    },
+    {
+      "name": "Difficulty breathing or rapid, labored breathing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Within hours of ingesting a toxic dose",
+      "notes": "This symptom is typically seen in severe cases of toxicity alongside cardiovascular collapse and shock23.\n4. Weakness, Odd Behavior, and Dilated Pupils"
+    },
+    {
+      "name": "Weakness, odd behavior, and dilated pupils",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within hours of ingestion",
+      "notes": "The profound weakness and lethargy a cat experiences are usually secondary effects caused by the significant drop in blood pressure and the slowed heart rate"
     }
   ],
   "treatments": [
     {
-      "name": "Decontamination and IV Fluids",
-      "description": "Induce vomiting if recent, administer activated charcoal, and provide cardiovascular support.",
+      "name": "Medically Induced Emesis and Activated Charcoal",
+      "description": "If the mistletoe was ingested recently, the veterinarian will administer medication to induce vomiting and clear the highly toxic leaves or berries from the stomach. After vomiting, they will administer activated charcoal to bind to any remaining toxins in the digestive tract and prevent them from being absorbed into the bloodstream.",
+      "notes": "This is the most urgent step to prevent the toxins from triggering severe cardiovascular and neurological symptoms. You should never attempt to induce vomiting at home without direct veterinary supervision.\n2. Intravenous (IV) Fluid Therapy",
       "priority": 1
+    },
+    {
+      "name": "IV Fluid Therapy and Blood Pressure Support",
+      "description": "The cat is placed on IV fluids to maintain hydration, support kidney function, and help flush the absorbed toxins out of the body.",
+      "notes": "Because mistletoe poisoning can cause profuse vomiting and diarrhea\u2014as well as a dangerous drop in blood pressure (hypotension)\u2014aggressive fluid therapy is critical to prevent severe dehydration and cardiovascular collapse.\n3. Cardiovascular Monitoring and Pharmacological Support",
+      "priority": 2
+    },
+    {
+      "name": "ECG Monitoring and Heart Medications (e.g., Atropine)",
+      "description": "The veterinary team will continuously monitor the cat's heart rhythm and blood pressure using an electrocardiogram (ECG). If the cat's heart rate drops dangerously low (bradycardia), the vet will administer specific cardiovascular drugs, such as atropine, to stabilize the heart rate.",
+      "notes": "This targeted treatment is necessary because the phoratoxins in mistletoe directly depress the cardiovascular system. Cats that have ingested a large amount of the plant are at the highest risk for requiring emergency heart stabilization.\n4. Symptomatic and Supportive Care",
+      "priority": 3
+    },
+    {
+      "name": "Anti-emetics and Oxygen Therapy",
+      "description": "The veterinarian will administer anti-emetic medications to stop severe nausea and vomiting. If the cat is experiencing respiratory distress, supplemental oxygen will be provided.",
+      "notes": "Even after the plant is removed from the stomach, the severe irritation to the mucosal lining of the gastrointestinal tract requires medical management to keep the cat comfortable and prevent further fluid loss.",
+      "priority": 4
     }
   ]
 }

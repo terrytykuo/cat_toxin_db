@@ -1,0 +1,60 @@
+{
+  "plant": {
+    "common_name": "Wandering Jew",
+    "scientific_name": "Tradescantia zebrina",
+    "family": "Commelinaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Tradescantia zebrina is a fast-growing, creeping evergreen vine with fleshy stems. It is highly prized for its striking, colorful foliage. The leaves are lance-shaped or ovate, featuring distinctive zebra-like longitudinal stripes of silvery-white and green on the upper surface, with a vibrant, deep magenta or solid purple underside. It occasionally produces small, three-petaled pink or purplish flowers.\n\u2022 Habitat and Where Commonly Found: Native to the wetlands and rainforests of Mexico, Central America, and Colombia, it thrives in warm, humid, and tropical environments with bright, indirect light. Today, it is extremely common worldwide as a decorative indoor houseplant (often grown in hanging baskets so its vines can trail). In frost-free, warm climates, it is also widely planted outdoors as an aggressive, colorful ground cover."
+  },
+  "basics": {
+    "family": "Commelinaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Tradescantia zebrina is a fast-growing, creeping evergreen vine with fleshy stems. It is highly prized for its striking, colorful foliage. The leaves are lance-shaped or ovate, featuring distinctive zebra-like longitudinal stripes of silvery-white and green on the upper surface, with a vibrant, deep magenta or solid purple underside. It occasionally produces small, three-petaled pink or purplish flowers.\n\u2022 Habitat and Where Commonly Found: Native to the wetlands and rainforests of Mexico, Central America, and Colombia, it thrives in warm, humid, and tropical environments with bright, indirect light. Today, it is extremely common worldwide as a decorative indoor houseplant (often grown in hanging baskets so its vines can trail). In frost-free, warm climates, it is also widely planted outdoors as an aggressive, colorful ground cover."
+  },
+  "toxic_parts": [
+    "Stem",
+    "Sap"
+  ],
+  "toxins": [
+    {
+      "name": "Irritant compounds, specifically identified as oxalates and other unspecified irritants found within the plant's sap",
+      "chemical_formula": null,
+      "description": "in cats: When a cat bites, chews, or brushes against the plant, the sap is released and directly irritates the contacted tissues1. If ingested, the sap causes mild gastrointestinal distress, leading to symptoms like drooling, vomiting, and diarrhea1. If the sap gets on the cat's fur and makes prolonged contact with the skin, it acts as a dermal irritant, causing redness and itching",
+      "concentration_notes": "The overall toxicity level of these compounds in the Wandering Jew is considered mild1. The toxic compounds are concentrated specifically within the plant's sap, which is found in the leaves and stems1. The severity of the dermal reaction is dependent on the duration of exposure; prolonged contact with the sap increases the likelihood of skin redness or itchiness"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Mild vomiting, drooling, and/or diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources,",
+      "notes": "This is generally a minor gastrointestinal upset that usually resolves on its own1. You can help by cleaning the cat's mouth with water, but you should consult a veterinarian if the vomiting becomes frequent1.\n2. Skin Redness and Itching"
+    },
+    {
+      "name": "Skin redness or itch",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Occurs after prolonged physical contact with the plant's sap",
+      "notes": "If the sap gets on your cat, you should clean it off their fur and skin with water1. While usually a minor irritation, you should consult a veterinarian if the skin reaction appears severe"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral and Dermal Rinsing",
+      "description": "Thoroughly clean the cat\u2019s mouth with water and wash off any of the plant's sap that has gotten onto the cat's fur or skin",
+      "notes": "This is the most immediate priority. It physically removes the irritant compounds (oxalates) found in the sap, which are responsible for causing drooling, mouth pain, and skin redness1.\n2. Observation and Monitoring",
+      "priority": 1
+    },
+    {
+      "name": "At-Home Monitoring",
+      "description": "Keep a close eye on the cat to monitor the progression of any mild gastrointestinal upset (such as vomiting or diarrhea) or localized skin itchiness",
+      "notes": "Because the toxicity of the Wandering Jew is mild, these symptoms are usually self-limiting and will typically resolve on their own without the need for medications1.\n3. Veterinary Consultation for Symptomatic Care",
+      "priority": 2
+    },
+    {
+      "name": "Veterinary Consultation and Symptomatic Treatment",
+      "description": "The cat is taken to a veterinarian for professional assessment, where the vet can provide specific treatments to ease persistent gastrointestinal distress or skin inflammation.",
+      "notes": "Professional veterinary care is generally only required if the cat's vomiting becomes frequent or if the skin reaction appears severe",
+      "priority": 3
+    }
+  ]
+}

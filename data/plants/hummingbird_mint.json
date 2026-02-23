@@ -1,7 +1,7 @@
 {
   "plant": {
     "common_name": "Hummingbird Mint",
-    "scientific_name": null
+    "scientific_name": "Agastache spp."
   },
   "raw_responses": {
     "basics": "\ud83d\udcda Loaded library with 1 notebooks\n\ud83d\udcac Asking: For the plant Hummingbird Mint (None): 1. What botanical family does it belong to? 2. Give a brief description of the plant (appearance, habitat, where commonly found). Cite your sources.\n\ud83d\udcda Notebook: https://notebooklm.google.com/notebook/9ef4df26-178b-446d-8e9d-e57cbe878a0d\n  \ud83c\udf10 Opening notebook...\n  \u23f3 Waiting for query input...\n  \u2713 Found input: textarea.query-box-input\n  \u23f3 Typing question...\n  \ud83d\udce4 Submitting...\n  \u23f3 Waiting for answer...\n  \u2705 Got answer!\n\n============================================================\nQuestion: For the plant Hummingbird Mint (None): 1. What botanical family does it belong to? 2. Give a brief description of the plant (appearance, habitat, where commonly found). Cite your sources.\n============================================================\n\nBased on the provided sources, Hummingbird Mint is identified as a specialty variety of Mint, which generally belongs to the Lamiaceae (mint) family.\n\u2022 Botanical Family: Lamiaceae (Mint family)1,2.\n\u2022 Description: The provided sources do not contain information regarding the physical appearance, habitat, or specific regions where Hummingbird Mint is commonly found. They only note that it is less common than other mints and is considered unsafe for cats due to its essential oil content2.\nWould you like me to search for a physical description and habitat information for Hummingbird Mint?",

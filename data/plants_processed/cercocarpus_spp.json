@@ -60,9 +60,22 @@
   ],
   "treatments": [
     {
-      "name": "Supportive Care",
-      "description": "Provide supportive care for gastrointestinal upset and monitor. Consult a veterinarian.",
+      "name": "Antidote Administration (Sodium Nitrite, Sodium Thiosulfate, or Hydroxycobalamin)",
+      "description": "The veterinarian administers specific antidotes to neutralize the cyanide in the bloodstream. This typically involves using sodium nitrite (which binds with cyanide to form cyanomethemoglobin) followed by sodium thiosulfate (which converts the toxin into water-soluble thiocyanate that is safely excreted in the urine)4. Alternatively, the vet may use hydroxycobalamin, which combines with cyanide to form vitamin B",
+      "notes": "This is the most urgent life-saving intervention for a cat showing clinical signs of large-dose poisoning (such as respiratory distress, cherry-red blood/gums, seizures, or collapse)3. Less severe cases might be successfully treated using sodium thiosulfate alone4.\n2. Immediate Gastrointestinal Decontamination (For Asymptomatic Cats)",
       "priority": 1
+    },
+    {
+      "name": "Emesis Induction and Activated Charcoal",
+      "description": "If the cat was exposed recently and is not yet showing neurological or respiratory symptoms, the vet will induce vomiting to clear the stomach of the plant material. This is followed by administering a single dose of activated charcoal alongside a cathartic to bind to any unabsorbed toxins in the digestive tract",
+      "notes": "Decontamination should only be performed on asymptomatic patients. If the cat only ingested a very small amount of the plant, severe toxicity is less likely, and the cat might ultimately only require minimal gastrointestinal support4.\n3. Systemic Metabolic Support and Monitoring",
+      "priority": 2
+    },
+    {
+      "name": "Blood Gas Monitoring and Sodium Bicarbonate Therapy",
+      "description": "The veterinary team will routinely monitor the cat's venous blood gas levels to check for severe metabolic acidosis, which is a dangerous secondary effect of cyanide halting cellular respiration. If acidosis is present, it is corrected by intravenously administering sodium bicarbonate",
+      "notes": "Alongside blood gas monitoring, the veterinarian may also draw a whole blood cyanide level to definitively confirm the diagnosis",
+      "priority": 3
     }
   ]
 }

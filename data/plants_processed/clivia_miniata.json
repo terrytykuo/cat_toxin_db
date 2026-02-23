@@ -7,8 +7,8 @@
   },
   "basics": {},
   "toxic_parts": [
-    "Pollen",
     "Flower",
+    "Pollen",
     "Leaf"
   ],
   "toxins": [

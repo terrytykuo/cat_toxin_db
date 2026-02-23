@@ -148,8 +148,8 @@ def main():
     # Indices 0 to 6 (plants #1 to #7)
     
     # Process Phase: Next 8 plants
-    # 116: Peppermint, 129: Ragwort, 140: Spider Plant, 142-146
-    target_indices = [115, 128, 139, 141, 142, 143, 144, 145]
+    # 147 to 154
+    target_indices = [123]
     
     print(f"🎯 Targeting {len(target_indices)} plants for collection: {target_indices}")
 

@@ -10,10 +10,10 @@
     "description": "2. Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance and Habitat: The provided sources do not contain a physical description or details about the natural habitat of pom flowers.\n\u2022 Where Commonly Found: The sources note that pom flowers are among the most popular flowers used in indoor floral arrangements"
   },
   "toxic_parts": [
+    "Stem",
     "Root",
     "Flower",
     "Leaf",
-    "Stem",
     "Bulb"
   ],
   "toxins": [
@@ -27,27 +27,24 @@
   "symptoms": [
     {
       "name": "Vomiting",
-      "severity": "mild",
       "body_system": "Gastrointestinal",
-      "onset": null
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "Pom flowers are very popular in indoor floral arrangements, making accidental ingestion common. Carnations are a specific type of pom flower known to cause these symptoms12.\n2. Diarrhea"
     },
     {
       "name": "Diarrhea",
-      "severity": "mild",
       "body_system": "Gastrointestinal",
-      "onset": null
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "This occurs alongside vomiting as part of a general, mild gastrointestinal upset caused by ingesting the flowers1.\n3. Dermatological Symptoms"
     },
     {
-      "name": "Hypersalivation",
+      "name": "Dermatological symptoms (such as skin irritation)",
+      "body_system": "Dermal",
       "severity": "mild",
-      "body_system": "Gastrointestinal",
-      "onset": null
-    },
-    {
-      "name": "Incoordination",
-      "severity": "moderate",
-      "body_system": "Neurological",
-      "onset": null
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "While gastrointestinal symptoms are the primary reaction to ingestion, dermatological symptoms will sometimes appear upon exposure"
     }
   ],
   "treatments": [

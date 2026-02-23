@@ -1,0 +1,102 @@
+{
+  "plant": {
+    "common_name": "Wintergreen",
+    "scientific_name": "Gaultheria procumbens",
+    "family": "Ericaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Wintergreen is a low-growing, creeping evergreen shrub that acts as a ground cover. It has tough, glossy, leathery, dark green oval leaves that emit a strong, minty scent when crushed or broken. During the summer, it blooms with small, bell-shaped white to pale pink flowers. These flowers later give way to bright, fleshy red berries that can persist through the winter.\n\u2022 Habitat and Where Commonly Found: Wintergreen is native to the woodlands of eastern North America. It thrives in cool, temperate climates and prefers shady environments with well-draining, acidic, peaty, or sandy soils. It is most commonly found carpeting the forest floor in pine barrens and mixed hardwood forests."
+  },
+  "basics": {
+    "family": "Ericaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Wintergreen is a low-growing, creeping evergreen shrub that acts as a ground cover. It has tough, glossy, leathery, dark green oval leaves that emit a strong, minty scent when crushed or broken. During the summer, it blooms with small, bell-shaped white to pale pink flowers. These flowers later give way to bright, fleshy red berries that can persist through the winter.\n\u2022 Habitat and Where Commonly Found: Wintergreen is native to the woodlands of eastern North America. It thrives in cool, temperate climates and prefers shady environments with well-draining, acidic, peaty, or sandy soils. It is most commonly found carpeting the forest floor in pine barrens and mixed hardwood forests."
+  },
+  "toxic_parts": [
+    "Stem",
+    "Fruit",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Methyl salicylate (a compound very similar to aspirin) [Conversation History]. Broadly, it falls under the category of volatile essential oils",
+      "chemical_formula": null,
+      "description": "in cats: As established in our conversation history, cats lack the specific liver enzymes required to safely metabolize salicylates [Conversation History]. Because their bodies cannot efficiently process or eliminate the toxin, it builds up and leads to severe salicylate poisoning. The provided sources note that, in general, exposure to toxic essential oils can cause serious internal organ damage, which can progress to liver failure, seizures, and even death",
+      "concentration_notes": "The toxin is naturally concentrated in the plant's leaves and berries [Conversation History]. It becomes exceptionally potent and hazardous when processed into its highly concentrated essential oil form, especially if the oil is used \"neat\" (undiluted) [191, Conversation History]."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Excessive dribbling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "This often occurs after oral exposure, such as when a cat gets the essential oil on its fur and licks it off during grooming, or if it directly drinks liquid from a reed diffuser12.\n2. Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "Vomiting can be caused directly by the toxic compounds in Wintergreen or by the high fat levels present in carrier oils used to dilute the essential oil13.\n3. Shaking, Tremoring, and Ataxia"
+    },
+    {
+      "name": "Shaking, tremoring, and walking as if they are drunk (ataxia)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "These neurological symptoms indicate that the central nervous system is being affected by the absorbed toxins12.\n4. Lethargy and Depression"
+    },
+    {
+      "name": "Lethargy, depression, or dullness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "This is a generalized systemic sign of toxicity as the cat's body struggles to handle the poison, specifically because felines lack the liver enzymes to process salicylates effectively [193, Conversation History].\n5. Respiratory Distress"
+    },
+    {
+      "name": "Difficulty breathing or breathing with the mouth open",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "This can occur if neat (undiluted) essential oils are nebulized or ultrasonically diffused into the air, especially in cats that already have underlying respiratory conditions like asthma2.\n6. Skin Irritation and Chemical Burns"
+    },
+    {
+      "name": "Sore or red skin, and chemical burns",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "This is caused by direct skin contact with the essential oil. However, even if there is no visible damage to the skin, owners should not assume the cat is safe, as the oil can be absorbed transdermally or ingested when the cat grooms itself12.\n7. Liver Failure, Seizures, and Collapse"
+    },
+    {
+      "name": "Liver failure, seizures, collapse, and death",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "Essential oils like Wintergreen can cause serious internal organ damage2. Because cats cannot efficiently metabolize the methyl salicylate in Wintergreen, the toxin builds up in their system, which can progress to life-threatening organ failure and terminal neurological events [192, Conversation History]."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Skin Bathing, Oral Dilution, and Emesis Avoidance",
+      "description": "If the essential oil is on the cat's fur, the veterinary team will bathe the cat using liquid dish soap and lukewarm water to stop further absorption through the skin or ingestion via grooming3. The mouth may be rinsed with lukewarm water, or the cat may be offered milk to help dilute the oil",
+      "notes": "It is highly advised not to induce vomiting. Essential oils act like corrosive agents; if the cat is forced to vomit, the volatile oils can cause severe secondary chemical burns to the esophagus, throat, and mouth as they are brought back up14.\n2. Systemic Organ Support and Toxin Elimination",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "The veterinarian administers IV fluids to rehydrate the cat, accelerate the flushing and elimination of toxins from the bloodstream, and support the function of the internal organs",
+      "notes": "Because Wintergreen essential oil can cause serious internal organ damage, aggressive fluid support is vital for protecting the liver and kidneys as the cat's body struggles to process the toxins15.\n3. Gastrointestinal Protection and Nutritional Support",
+      "priority": 2
+    },
+    {
+      "name": "Gastric Protectants, Anti-emetics, and Feeding Tube Placement",
+      "description": "The vet will administer anti-emetic medications to stop nausea and vomiting, alongside specific medications that coat and protect the stomach lining1. If the cat has suffered severe chemical burns to its mouth, the vet may surgically insert a feeding tube directly into the stomach to provide essential nutrition while the burns heal",
+      "notes": "Even a few licks of concentrated essential oils can cause severe oral chemical burns, making normal eating and swallowing impossibly painful for the cat12.\n4. Hepatic (Liver) Support and Symptom Management",
+      "priority": 3
+    },
+    {
+      "name": "Hepatoprotectant Administration and Pharmacological Care",
+      "description": "The veterinarian administers specific medications designed to protect the liver from failing. Additionally, they will prescribe feline-safe pain medications for the chemical burns, as well as antibiotics to prevent secondary bacterial infections in the damaged tissues",
+      "notes": "Because cats lack the specific liver enzymes required to safely break down the volatile compounds in essential oils, targeted liver protection is a critical step to prevent the poisoning from progressing to terminal liver failure",
+      "priority": 4
+    }
+  ]
+}

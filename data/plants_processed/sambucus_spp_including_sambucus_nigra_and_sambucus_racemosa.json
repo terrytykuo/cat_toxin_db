@@ -10,10 +10,10 @@
     "description": "Brief Description\n\u2022 Appearance: Elderberry plants are described as deciduous shrubs or small trees that can grow up to 10 feet (American varieties) or 20 feet (European varieties) in height1,2,3. They feature oblong leaves and berries that grow in clusters1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Berries: The appearance of the fruit varies by species. Blue elderberries (S. nigra ssp. cerulea) are dusky blue with a distinctive powdery, waxy coating4,5. American elderberries (S. nigra ssp. canadensis) and European elderberries (S. nigra ssp. nigra) are dark purple and lack this powdery coating2,3. Red elderberries (S. racemosa) are distinguished by their bright red color6.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Flowers: The plants produce clusters (cymes) of white, open flowers7.\n\u2022 Habitat and Location: Elderberry bushes are native to North America and are commonly found in the wild as well as in home gardens as popular landscaping shrubs8,4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Blue Elderberry: Native to the western United States4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 American Elderberry: Native to the eastern United States2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 European Elderberry: Native to Europe but also domesticated and available in the United States"
   },
   "toxic_parts": [
-    "Seed",
     "Fruit",
-    "Leaf",
     "Stem",
+    "Seed",
+    "Leaf",
     "Bark"
   ],
   "toxins": [

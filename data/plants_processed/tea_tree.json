@@ -1,0 +1,106 @@
+{
+  "plant": {
+    "common_name": "Tea Tree",
+    "scientific_name": "Melaleuca alternifolia",
+    "family": "Myrtaceae",
+    "description": "The sources do not contain information regarding its botanical family, physical appearance, or natural habitat.\nI can provide the answers to your questions using information from outside of the given sources (please note that this information is not from your sources and you may want to independently verify it):\n1. Botanical Family Tea Tree (Melaleuca alternifolia) belongs to the Myrtaceae (Myrtle) family.\n2. Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Tea Tree is a small evergreen tree or tall shrub that typically reaches heights of up to 20 feet (6 meters). It is easily identified by its whitish, papery bark that peels off in layers. The plant features narrow, soft, needle-like leaves that are highly aromatic when crushed, and it blooms with fluffy, white, bottlebrush-like flower spikes.\n\u2022 Habitat and Where Commonly Found: Native exclusively to Australia, the Tea Tree naturally thrives in swampy, poorly drained, and low-lying coastal areas, primarily along streams in New South Wales and Queensland. Today, it is widely cultivated in commercial plantations specifically for the extraction of tea tree essential oil from its leaves."
+  },
+  "basics": {
+    "family": "Myrtaceae",
+    "description": "The sources do not contain information regarding its botanical family, physical appearance, or natural habitat.\nI can provide the answers to your questions using information from outside of the given sources (please note that this information is not from your sources and you may want to independently verify it):\n1. Botanical Family Tea Tree (Melaleuca alternifolia) belongs to the Myrtaceae (Myrtle) family.\n2. Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Tea Tree is a small evergreen tree or tall shrub that typically reaches heights of up to 20 feet (6 meters). It is easily identified by its whitish, papery bark that peels off in layers. The plant features narrow, soft, needle-like leaves that are highly aromatic when crushed, and it blooms with fluffy, white, bottlebrush-like flower spikes.\n\u2022 Habitat and Where Commonly Found: Native exclusively to Australia, the Tea Tree naturally thrives in swampy, poorly drained, and low-lying coastal areas, primarily along streams in New South Wales and Queensland. Today, it is widely cultivated in commercial plantations specifically for the extraction of tea tree essential oil from its leaves."
+  },
+  "toxic_parts": [
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Tea Tree Essential Oil",
+      "chemical_formula": null,
+      "description": "in cats: As noted in our previous discussions regarding essential oil toxicity, cats lack the specific liver enzymes required to safely metabolize and break down these volatile compounds. When a cat is exposed to tea tree oil\u2014whether through ingestion from grooming, direct skin absorption, or inhalation\u2014the compounds quickly enter the bloodstream. Because the cat's liver cannot efficiently process them, the toxins accumulate in the body. This accumulation causes central nervous system depression, hypothermia, and potential liver injury.",
+      "concentration_notes": "Essential oils are highly potent, concentrated plant extracts. As previously established, using essential oils \"neat\" (undiluted) on or around a cat is extremely dangerous. Because cats are uniquely sensitive to these specific compounds, even minor or indirect exposure can be hazardous and lead to rapid toxicity."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Depression, lethargy, or dullness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "This is a primary, highlighted symptom specifically associated with tea tree oil poisoning in cats1.\n2. Hypothermia"
+    },
+    {
+      "name": "Hypothermia (abnormally low body temperature)",
+      "body_system": "Metabolic",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "Alongside depression, hypothermia is explicitly noted as a direct consequence of tea tree oil exposure in felines1.\n3. Liver Injury and Failure"
+    },
+    {
+      "name": "Liver injury progressing to potential liver failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "Because cats lack the specific enzymes to metabolize essential oils, the toxins accumulate and cause serious organ damage. Extreme cases of toxicity can cause complete liver failure and death12.\n4. Excessive Drooling and Vomiting"
+    },
+    {
+      "name": "Excessive dribbling (drooling) and vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "These are common signs of general essential oil poisoning, often occurring if a cat ingests the liquid directly or licks it off its fur during grooming23.\n5. Neurological Impairment (Ataxia, Tremors, and Seizures)"
+    },
+    {
+      "name": "Shaking, tremoring, \"walking as if they're drunk\" (ataxia), collapse, and seizures",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "Essential oils heavily impact the central nervous system. If the toxicity progresses to collapse or seizures, it is a life-threatening emergency2.\n6. Skin Irritation and Chemical Burns"
+    },
+    {
+      "name": "Sore skin, redness, or chemical burns",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "Direct skin contact with undiluted essential oils causes localized damage. However, the sources warn that even if there is no visible damage to the skin, you should not assume the cat is safe from systemic poisoning2.\n7. Respiratory Distress"
+    },
+    {
+      "name": "Difficulty breathing or breathing with their mouth open",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "While toxic effects from simply inhaling oils from standard reed diffusers or plugins are rare due to dilution, the risk of severe respiratory distress increases if you use nebulized or ultrasonically diffused neat (undiluted) essential oils, or if the cat has pre-existing medical conditions like asthma"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral Rinsing and Dilution",
+      "description": "The cat's mouth is rinsed with lukewarm water, or the cat is offered milk to help dilute the ingested essential oils",
+      "notes": "Do NOT induce vomiting2. Because essential oils can cause chemical burns to the digestive tract, making the cat vomit can cause further severe injury as the corrosive ingredients are brought back up23.\n2. Dermal Decontamination (If ingested via grooming)",
+      "priority": 1
+    },
+    {
+      "name": "Topical Washing / Decontamination",
+      "description": "The affected areas of the cat's fur and skin are washed thoroughly with soap and water to remove any remaining essential oil",
+      "notes": "Cats are meticulous groomers and will lick oils off their fur5. If the ingestion occurred because the Tea Tree oil was applied to or spilled on the skin, it is critical to completely wash the residue off to prevent the cat from continuing to ingest the toxins45.\n3. Diagnostics and Systemic Organ Support",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and Blood Work",
+      "description": "The veterinarian will run blood work and a urinalysis to assess the extent of the poisoning, followed by administering IV fluids to rehydrate the cat, help eliminate the toxins from the body, and support vital organ function",
+      "notes": "This is a highly critical step for Tea Tree poisoning, as the oil is specifically known to cause liver injury1. The IV fluids are necessary to actively support and protect the liver and kidneys from failing while the toxins are processed2.\n4. Gastrointestinal and Hepatic Medication",
+      "priority": 3
+    },
+    {
+      "name": "Pharmacological Support",
+      "description": "The veterinarian will administer a combination of anti-emetic (anti-vomiting) medications, drugs that coat and protect the stomach lining, and specific liver-protectant medications",
+      "notes": "If the Tea Tree oil has caused chemical burns to the mouth or digestive tract, the vet will also prescribe appropriate pain medications and antibiotics2.\n5. Nutritional Support (If severe burns are present)",
+      "priority": 4
+    },
+    {
+      "name": "Feeding Tube Insertion",
+      "description": "A feeding tube is placed directly into the cat's stomach to bypass the mouth and throat, allowing the cat to receive necessary nutrition",
+      "notes": "This intervention is utilized only in severe cases where the essential oil has caused significant chemical burns, leaving the cat in too much pain to eat normally while its injuries heal",
+      "priority": 5
+    }
+  ]
+}

@@ -3,9 +3,12 @@
     "common_name": "Jimson Weed",
     "scientific_name": "Datura stramonium",
     "family": "Solanaceae",
-    "description": "Annual herb in the nightshade family, foul-smelling, trumpet-shaped flowers."
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Jimson Weed is a fast-growing, foul-smelling annual herb that typically reaches 3 to 5 feet in height. It features large, dark green leaves with irregular, jagged, and toothed margins. The plant produces striking, large, trumpet-shaped flowers that are white to pale purple and open in the evening. After flowering, it develops characteristic walnut-sized, spiky seed pods (which gives it the nickname \"thorn apple\") that eventually split open to release numerous small black seeds.\n\u2022 Habitat and Where Commonly Found: Believed to be native to the Americas, it is now widely naturalized across warm and temperate regions globally. It thrives in rich, disturbed soils and is very commonly found growing aggressively as a weed in agricultural fields, pastures, barnyards, vacant lots, waste areas, and along roadsides."
   },
-  "basics": {},
+  "basics": {
+    "family": "Solanaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Jimson Weed is a fast-growing, foul-smelling annual herb that typically reaches 3 to 5 feet in height. It features large, dark green leaves with irregular, jagged, and toothed margins. The plant produces striking, large, trumpet-shaped flowers that are white to pale purple and open in the evening. After flowering, it develops characteristic walnut-sized, spiky seed pods (which gives it the nickname \"thorn apple\") that eventually split open to release numerous small black seeds.\n\u2022 Habitat and Where Commonly Found: Believed to be native to the Americas, it is now widely naturalized across warm and temperate regions globally. It thrives in rich, disturbed soils and is very commonly found growing aggressively as a weed in agricultural fields, pastures, barnyards, vacant lots, waste areas, and along roadsides."
+  },
   "toxic_parts": [
     "Entire Plant"
   ],
