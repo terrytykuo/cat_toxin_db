@@ -1,0 +1,46 @@
+{
+  "plant": {
+    "common_name": "Spider Plant",
+    "scientific_name": "Chlorophytum spp.",
+    "family": "Asparagaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Spider Plant is a grass-like, clump-forming perennial characterized by its long, narrow, and gracefully arching leaves. The foliage is typically green and often features striking white or pale yellow stripes running down the center or along the margins. It gets its common name from the small, spider-like baby plantlets (spiderettes) that dangle down from long, wiry stems (runners) after the plant produces tiny, star-shaped white flowers.\n\u2022 Habitat and Where Commonly Found: While it is native to the tropical and southern regions of Africa, this plant is incredibly adaptable. Today, it is most commonly found worldwide as a highly popular, low-maintenance indoor houseplant, frequently displayed in hanging baskets or on high shelves where its cascading plantlets can be showcased."
+  },
+  "basics": {
+    "family": "Asparagaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Spider Plant is a grass-like, clump-forming perennial characterized by its long, narrow, and gracefully arching leaves. The foliage is typically green and often features striking white or pale yellow stripes running down the center or along the margins. It gets its common name from the small, spider-like baby plantlets (spiderettes) that dangle down from long, wiry stems (runners) after the plant produces tiny, star-shaped white flowers.\n\u2022 Habitat and Where Commonly Found: While it is native to the tropical and southern regions of Africa, this plant is incredibly adaptable. Today, it is most commonly found worldwide as a highly popular, low-maintenance indoor houseplant, frequently displayed in hanging baskets or on high shelves where its cascading plantlets can be showcased."
+  },
+  "toxic_parts": [
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Non-toxic / Mild Irritant",
+      "chemical_formula": null,
+      "description": "Considered non-toxic, but ingestion of leaves may cause mild gastrointestinal upset.",
+      "concentration_notes": "Non-toxic."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Mild nausea or digestive upset (which may include vomiting)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources,",
+      "notes": "This is a rare and mild physical reaction to consuming heavy amounts of fibrous plant material, not a toxicological reaction6. No veterinary action is needed unless the digestive upset is prolonged or the cat begins to show other unusual behaviors"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "At-Home Observation",
+      "description": "The owner simply monitors the cat for minor digestive upset or mild nausea after the cat consumes the plant material",
+      "notes": "Because there are no poisonous compounds in the plant, no medical action is needed unless the cat exhibits unusual behavior or the mild digestive upset becomes prolonged2.\n2. Symptomatic Veterinary Care (Only if Upset is Prolonged)",
+      "priority": 1
+    },
+    {
+      "name": "Symptomatic Gastrointestinal Support",
+      "description": "If the cat's digestive upset does not resolve on its own, a veterinarian may examine the cat and provide basic supportive care for an upset stomach.",
+      "notes": "This is very rarely necessary. It would only be indicated if the cat ate such a massive amount of the non-toxic plant material that it caused an unusual or persistent physical stomach ache, rather than a toxicological reaction",
+      "priority": 2
+    }
+  ]
+}

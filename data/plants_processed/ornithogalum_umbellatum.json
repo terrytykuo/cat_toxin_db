@@ -1,0 +1,83 @@
+{
+  "plant": {
+    "common_name": "Star of Bethlehem",
+    "scientific_name": "Ornithogalum umbellatum",
+    "family": "Asparagaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: This is a bulbous perennial plant characterized by narrow, grass-like green leaves. It is best known for producing clusters (umbels) of bright, star-shaped white flowers that bloom in the spring. A distinguishing feature of this plant is the prominent green stripe running down the outside (back) of each of its six white petals.\n\u2022 Habitat and Where Commonly Found: Native to Europe, the Middle East, and North Africa, the Star of Bethlehem is highly adaptable and has naturalized across much of North America. It is commonly found growing in meadows, woodland edges, lawns, pastures, and along roadsides, and it is frequently cultivated in home gardens as an ornamental spring-blooming flower."
+  },
+  "basics": {
+    "family": "Asparagaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: This is a bulbous perennial plant characterized by narrow, grass-like green leaves. It is best known for producing clusters (umbels) of bright, star-shaped white flowers that bloom in the spring. A distinguishing feature of this plant is the prominent green stripe running down the outside (back) of each of its six white petals.\n\u2022 Habitat and Where Commonly Found: Native to Europe, the Middle East, and North Africa, the Star of Bethlehem is highly adaptable and has naturalized across much of North America. It is commonly found growing in meadows, woodland edges, lawns, pastures, and along roadsides, and it is frequently cultivated in home gardens as an ornamental spring-blooming flower."
+  },
+  "toxic_parts": [
+    "Entire Plant",
+    "Flower",
+    "Leaf",
+    "Stem",
+    "Bulb"
+  ],
+  "toxins": [
+    {
+      "name": "Cardiac glycosides",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Cardiac glycosides interfere with the heart's electrical system by inhibiting the Na+/K+ ATPase pump, which is necessary for normal cardiac function23. This inhibition causes intracellular sodium and extracellular potassium to accumulate, which subsequently leads to a rise in intracellular calcium23. These changes severely alter cardiac muscle contractions and electrical conduction, causing the heart to beat more forcefully but at a slower rate, and frequently resulting in life-threatening arrhythmias and hyperkalemia",
+      "concentration_notes": "Plants containing cardiac glycosides are among the most toxic to pets and have a very narrow margin of safety, meaning there is no safe level of ingestion12. Furthermore, cats are believed to be more sensitive to cardiac glycoside toxicity than dogs3. While the sources note that oleander and foxglove are considered the most toxic plants in this specific category, the cardiac glycosides found in the Star of Bethlehem are still highly dangerous and can be fatal"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within the first 2 hours after exposure",
+      "notes": "These are typical early signs of toxicosis from cardiac glycosides, and the clinical symptoms can persist for up to 4 to 5 days4.\n2. Abnormal Heart Rate and Arrhythmias"
+    },
+    {
+      "name": "Bradycardia (abnormally slow heart rate), tachycardia (abnormally fast heart rate), and cardiac arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within the first 2 hours after exposure",
+      "notes": "The plant's toxins inhibit the Na+/K+ ATPase pump, which leads to an accumulation of intracellular sodium and calcium. This disrupts the heart's electrical system, forcing the cardiac muscles to produce more powerful but slower contractions3.\n3. Hyperkalemia"
+    },
+    {
+      "name": "Hyperkalemia (dangerously elevated potassium levels in the blood)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Within the first 2 hours after exposure",
+      "notes": "This life-threatening electrolyte imbalance occurs because the toxin blocks the cellular pumps, leading to a build-up of extracellular potassium3. Severe hyperkalemia requires emergency intravenous treatments, such as a dextrose/insulin combination or sodium bicarbonate4.\n4. Weakness"
+    },
+    {
+      "name": "Weakness",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within the first 2 hours after exposure",
+      "notes": "Generalized weakness is a clinical manifestation of the profound cardiovascular depression, heart rhythm abnormalities, and electrolyte imbalances caused by the poisoning"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Emesis Induction and Activated Charcoal",
+      "description": "The veterinarian will medically induce vomiting (emesis) to empty the stomach, followed by administering a dose of activated charcoal with a cathartic to bind the toxins and prevent them from being absorbed into the bloodstream",
+      "notes": "This intervention is ideally performed while the patient is still asymptomatic2. Because cardiac glycosides undergo enterohepatic recirculation (recirculating between the liver and intestines), the veterinarian will likely repeat the activated charcoal administration (without a cathartic) every 6\u20138 hours for a total of three doses2.\n2. Specific Antidote Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Digoxin-Specific Antibody Fragments (Fab)",
+      "description": "The veterinary team administers an antidote originally designed for digoxin toxicity, which contains specific antibody fragments (Fab) that bind to and neutralize the cardiac glycoside toxins in the blood",
+      "notes": "This specific antidote works very well for plant-induced cardiac glycoside toxicosis2. Patients who have access to and receive this antidote generally have a guarded to good prognosis2.\n3. Cardiovascular and Arrhythmia Support",
+      "priority": 2
+    },
+    {
+      "name": "Hemodynamic Support and Antiarrhythmic Medications",
+      "description": "Intravenous (IV) fluids are administered to provide hemodynamic support2. Depending on how the toxins are affecting the heart, specific medications will be used to correct the heart rate.",
+      "notes": "If the specific Fab antidote is not available, antiarrhythmic drugs such as lidocaine can be administered2. If the cat develops bradycardia (an abnormally slow heart rate), medications such as atropine or glycopyrrolate have been used successfully2.\n4. Electrolyte Management",
+      "priority": 3
+    },
+    {
+      "name": "Hyperkalemia Correction",
+      "description": "The veterinary team will closely monitor the cat's electrolyte levels, specifically looking for dangerous spikes in potassium (hyperkalemia), and administer targeted therapies to reduce potassium levels in the blood",
+      "notes": "If the cat develops mild hyperkalemia, it can often be treated with IV fluid therapy alone2. However, if severe hyperkalemia develops (potassium levels > 7.5\u20139 mEq/L), emergency treatments such as sodium bicarbonate or a dextrose and insulin combination must be utilized",
+      "priority": 4
+    }
+  ]
+}

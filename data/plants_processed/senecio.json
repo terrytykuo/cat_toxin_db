@@ -1,0 +1,74 @@
+{
+  "plant": {
+    "common_name": "String of Pearls",
+    "scientific_name": "Senecio rowleyanus",
+    "family": "Asteraceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The String of Pearls is a unique, trailing succulent. It is easily recognizable by its long, cascading, thin stems adorned with small, spherical, fleshy green leaves that resemble peas or small pearls. The plant occasionally blooms with small, white, brush-like flowers that are known to smell faintly of cinnamon.\n\u2022 Habitat and Where Commonly Found: Native to the dry, arid, and semi-desert regions of southwestern Africa (primarily South Africa and Namibia), its trailing stems typically grow low along the ground in the wild, taking root where they touch the soil and forming dense, creeping mats to avoid direct, harsh sunlight. Today, it is most commonly found worldwide as a highly popular ornamental indoor houseplant, frequently displayed in hanging baskets so its string-like stems can dramatically cascade over the edges."
+  },
+  "basics": {
+    "family": "Asteraceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The String of Pearls is a unique, trailing succulent. It is easily recognizable by its long, cascading, thin stems adorned with small, spherical, fleshy green leaves that resemble peas or small pearls. The plant occasionally blooms with small, white, brush-like flowers that are known to smell faintly of cinnamon.\n\u2022 Habitat and Where Commonly Found: Native to the dry, arid, and semi-desert regions of southwestern Africa (primarily South Africa and Namibia), its trailing stems typically grow low along the ground in the wild, taking root where they touch the soil and forming dense, creeping mats to avoid direct, harsh sunlight. Today, it is most commonly found worldwide as a highly popular ornamental indoor houseplant, frequently displayed in hanging baskets so its string-like stems can dramatically cascade over the edges."
+  },
+  "toxic_parts": [
+    "Sap",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "The exact toxin is listed as \"Unknown,\" but it is suspected to be pyrrolizidine alkaloids1. The plant also contains an unidentified irritant in its sa",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: The sources do not detail the specific internal biological mechanism of the suspected alkaloids. However, they note that the plant's sap acts as a direct topical irritant that can inflame a cat's skin and eyes upon contact1. Internally, ingestion disrupts the gastrointestinal system and causes systemic depression, resulting in drooling, vomiting, diarrhea, and lethargy",
+      "concentration_notes": "The toxicity of the String of Pearls plant is considered to be of \"moderate\" severity1. While a small exposure may cause mild upset, ingesting a large amount of the plant is more potent and can cause the cat to become significantly lethargic, which requires veterinary attention"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "If plant pieces are found in the cat's mouth, they should be removed and the mouth should be rinsed with water. Veterinary attention is recommended, especially if a large amount was eaten1.\n2. Drooling"
+    },
+    {
+      "name": "Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "Drooling typically occurs as a direct response to oral irritation from chewing the plant parts or sap1.\n3. Lethargy"
+    },
+    {
+      "name": "Lethargy",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "Lethargy indicates a systemic reaction to the plant's toxins. If a cat becomes noticeably lethargic after eating the plant, the sources strongly advise contacting a veterinarian1.\n4. Skin and Eye Irritation"
+    },
+    {
+      "name": "Irritation of the skin and eyes",
+      "body_system": "Dermal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified (likely immediate or shortly after contact).",
+      "notes": "This localized irritation is specifically caused by direct physical contact with the plant's sap. Rinsing the cat's paws (and mouth) with water is recommended to remove the irritant sap"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Oral Decontamination (Removal of Plant Material)",
+      "description": "Promptly and gently remove any remaining plant pieces from the cat's mouth",
+      "notes": "This is the most immediate step required to stop the cat from swallowing any more of the toxic leaves or sap1.\n2. Rinsing Mouth and Paws",
+      "priority": 1
+    },
+    {
+      "name": "Topical and Oral Rinsing",
+      "description": "Rinse the cat's mouth and paws thoroughly with water",
+      "notes": "Because the sap from the String of Pearls is a known irritant to the skin and eyes, rinsing the paws is highly recommended to prevent the cat from rubbing the sap into its eyes or experiencing localized skin irritation1.\n3. Veterinary Consultation and Supportive Care",
+      "priority": 2
+    },
+    {
+      "name": "Veterinary Consultation and Monitoring",
+      "description": "Contact your veterinarian to inform them of the exposure and follow their guidance for further monitoring or supportive care",
+      "notes": "Seeking professional veterinary advice is especially critical if the cat ingested a large amount of the plant or if it is exhibiting lethargy",
+      "priority": 3
+    }
+  ]
+}

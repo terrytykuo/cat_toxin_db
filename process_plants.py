@@ -110,7 +110,9 @@ MANUAL_FAMILIES = {
     "Papaver spp.": "Papaveraceae",
     "Chrysanthemum morifolium": "Asteraceae",
     "Solanum tuberosum": "Solanaceae",
-    "Zephyranthes drummondii": "Amaryllidaceae"
+    "Zephyranthes drummondii": "Amaryllidaceae",
+    "Rheum rhabarbarum": "Polygonaceae",
+    "Senecio jacobaea or Tanacetum vulgare": "Asteraceae"
 }
 
 MANUAL_DESCRIPTIONS = {
@@ -436,6 +438,22 @@ def postprocess(processed):
     if plant.get("common_name") == "Poppy" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
         plant["scientific_name"] = "Papaver spp."
 
+    # Fix Ragwort / Tansy scientific name
+    if plant.get("common_name") == "Ragwort / Tansy" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
+        plant["scientific_name"] = "Senecio jacobaea or Tanacetum vulgare"
+
+    # Fix Sweet Birch scientific name
+    if plant.get("common_name") == "Sweet Birch" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
+        plant["scientific_name"] = "Betula lenta"
+
+    # Fix Sweet Pea scientific name
+    if plant.get("common_name") == "Sweet Pea" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
+        plant["scientific_name"] = "Lathyrus odoratus"
+
+    # Fix String of Pearls scientific name
+    if plant.get("common_name") == "String of Pearls" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown", "senecio"]):
+        plant["scientific_name"] = "Senecio rowleyanus"
+
     plant["family"] = clean_family(plant.get("family"))
     
     # --- Description Cleaning ---
@@ -473,6 +491,15 @@ def postprocess(processed):
                 "name": "Mechanical Irritant",
                 "chemical_formula": None,
                 "description": "Fibrous plant material causing mild gastrointestinal irritation.",
+                "concentration_notes": "Non-toxic."
+            }]
+
+    if sci_name == "Chlorophytum spp.":
+        if not processed.get("toxins"):
+            processed["toxins"] = [{
+                "name": "Non-toxic / Mild Irritant",
+                "chemical_formula": None,
+                "description": "Considered non-toxic, but ingestion of leaves may cause mild gastrointestinal upset.",
                 "concentration_notes": "Non-toxic."
             }]
 

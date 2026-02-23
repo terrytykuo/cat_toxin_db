@@ -10,11 +10,11 @@
     "description": "2. Brief Description: The sources note that Mexican Mint is used as an herbal medicine for humans (though it acts as a gastro-irritant if ingested by cats)2. However, the provided sources do not contain details about the plant's physical appearance, habitat, or where it is commonly found."
   },
   "toxic_parts": [
-    "Stem",
     "Root",
-    "Leaf",
     "Entire Plant",
-    "Flower"
+    "Flower",
+    "Leaf",
+    "Stem"
   ],
   "toxins": [
     {

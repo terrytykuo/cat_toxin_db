@@ -10,10 +10,10 @@
     "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Begonias are a diverse group of plants with over 1,000 species and 10,000 hybrids1. They are flowering plants noted for their colorful blooms and foliage2. Some specific varieties, like the Polka Dot Begonia (Begonia maculata), are recognized for unique leaf patterns3.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: They are commonly found as houseplants and are frequently grown outdoors in flowerbeds and large pots for landscaping24.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Key Characteristics: These plants grow from underground tubers, rhizomes, or roots, which are significant because they contain the highest concentration of toxic oxalates compared to the leaves and flowers"
   },
   "toxic_parts": [
-    "Leaf",
     "Stem",
     "Root",
-    "Flower"
+    "Flower",
+    "Leaf"
   ],
   "toxins": [
     {

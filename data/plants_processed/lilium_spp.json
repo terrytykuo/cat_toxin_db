@@ -10,10 +10,10 @@
     "description": "Brief Description\n\u2022 Appearance: True lilies are perennial plants that grow from bulbs1. They feature leaves that are alternate or whorled, with linear or lanceolate (long and narrow) blades1. They are best known for their large, fragrant, showy, and funnel-shaped (or trumpet-shaped) flowers13. The flowers contain prominent stamens covered in pollen, and the plant produces fruit capsules filled with numerous flat seeds14.\n\u2022 Habitat and Common Locations: Because of their beauty and fragrance, true lilies are widely cultivated as ornamental garden plants and indoor potted plants3.... They are extremely common in cut floral arrangements and bouquets, and are especially popular as household decorations or gifts around holidays like Easter"
   },
   "toxic_parts": [
-    "Leaf",
-    "Pollen",
     "Entire Plant",
-    "Flower"
+    "Pollen",
+    "Flower",
+    "Leaf"
   ],
   "toxins": [
     {

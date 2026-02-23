@@ -11,10 +11,10 @@
   },
   "toxic_parts": [
     "Seed",
-    "Bark",
-    "Stem",
     "Fruit",
-    "Leaf"
+    "Leaf",
+    "Stem",
+    "Bark"
   ],
   "toxins": [
     {

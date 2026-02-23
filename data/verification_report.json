@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-23T02:17:39.301684",
-  "total_files": 135,
-  "passed": 135,
+  "generated_at": "2026-02-23T11:11:32.722390",
+  "total_files": 141,
+  "passed": 141,
   "failed": 0,
   "results": [
     {
@@ -125,6 +125,12 @@
       "issues": []
     },
     {
+      "file": "averrhoa_carambola.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "begonia_maculata.json",
       "status": "PASS",
       "issue_count": 0,
@@ -174,6 +180,12 @@
     },
     {
       "file": "cercocarpus_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "chlorophytum_spp.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -599,6 +611,12 @@
       "issues": []
     },
     {
+      "file": "ornithogalum_umbellatum.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "oxalis_spp.json",
       "status": "PASS",
       "issue_count": 0,
@@ -737,6 +755,12 @@
       "issues": []
     },
     {
+      "file": "senecio.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "solanum_melongena.json",
       "status": "PASS",
       "issue_count": 0,
@@ -762,6 +786,18 @@
     },
     {
       "file": "strelitzia_reginae.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "sweet_birch.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "sweet_pea.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

@@ -141,13 +141,13 @@
 | 137 | Silver Leaf Philodendron | Silver Leaf Philodendron | e.g. Satin Pothos | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 138 | Snake Plant / Mother-in-Law’s Tongue | Snake Plant / Mother-in-Law’s Tongue | Sansevieria spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 139 | Spearmint | Spearmint | Mentha spicata | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 140 | Spider Plant | Spider Plant | Chlorophytum spp. | | | | | | | |
+| 140 | Spider Plant | Spider Plant | Chlorophytum spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 141 | Staggerbush | Staggerbush | Lyonia spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 142 | Star of Bethlehem | Star of Bethlehem | Ornithogalum umbellatum | | | | | | | |
-| 143 | Starfruit | Starfruit | Averrhoa carambola | | | | | | | |
-| 144 | String of Pearls | String of Pearls | Senecio | | | | | | | |
-| 145 | Sweet Birch | Sweet Birch | N/A | | | | | | | |
-| 146 | Sweet Pea | Sweet Pea | N/A | | | | | | | |
+| 142 | Star of Bethlehem | Star of Bethlehem | Ornithogalum umbellatum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 143 | Starfruit | Starfruit | Averrhoa carambola | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 144 | String of Pearls | String of Pearls | Senecio | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 145 | Sweet Birch | Sweet Birch | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 146 | Sweet Pea | Sweet Pea | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 147 | Swiss Cheese Vine | Swiss Cheese Vine | Monstera adansonii | | | | | | | |
 | 148 | Tea Tree | Tea Tree | N/A | | | | | | | |
 | 149 | Tomato | Tomato | Solanum lycopersicum | | | | | | | |

@@ -1,0 +1,74 @@
+{
+  "plant": {
+    "common_name": "Starfruit",
+    "scientific_name": "Averrhoa carambola",
+    "family": "Oxalidaceae",
+    "description": "However, the sources do not provide details regarding its botanical family, the physical appearance of the plant itself, or its natural habitat.\nI can provide the answers to your questions using information from outside of the given sources (please note that this information is not from your sources and you may want to independently verify it):\n1. Botanical Family Starfruit (Averrhoa carambola) belongs to the Oxalidaceae (wood sorrel) family.\n2. Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The starfruit plant grows as a small, bushy, multi-trunked evergreen tree that typically reaches 15 to 30 feet in height. It has a rounded canopy with drooping branches and bushy, compound (pinnate) green leaves that fold up at night or when touched. The tree blooms with clusters of small, bell-shaped, pink to lavender flowers. The waxy, yellow-to-orange fruit has five or six prominent longitudinal ridges, which gives the fruit its distinct star shape when cut crosswise.\n\u2022 Habitat and Where Commonly Found: Native to tropical Southeast Asia, the starfruit tree thrives in warm, humid, tropical, and subtropical climates. Today, it is widely cultivated and commonly found growing around the world in regions such as India, southern China, the Philippines, Australia, and in warmer U.S. climates like Florida and Hawaii."
+  },
+  "basics": {
+    "family": "Oxalidaceae",
+    "description": "However, the sources do not provide details regarding its botanical family, the physical appearance of the plant itself, or its natural habitat.\nI can provide the answers to your questions using information from outside of the given sources (please note that this information is not from your sources and you may want to independently verify it):\n1. Botanical Family Starfruit (Averrhoa carambola) belongs to the Oxalidaceae (wood sorrel) family.\n2. Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The starfruit plant grows as a small, bushy, multi-trunked evergreen tree that typically reaches 15 to 30 feet in height. It has a rounded canopy with drooping branches and bushy, compound (pinnate) green leaves that fold up at night or when touched. The tree blooms with clusters of small, bell-shaped, pink to lavender flowers. The waxy, yellow-to-orange fruit has five or six prominent longitudinal ridges, which gives the fruit its distinct star shape when cut crosswise.\n\u2022 Habitat and Where Commonly Found: Native to tropical Southeast Asia, the starfruit tree thrives in warm, humid, tropical, and subtropical climates. Today, it is widely cultivated and commonly found growing around the world in regions such as India, southern China, the Philippines, Australia, and in warmer U.S. climates like Florida and Hawaii."
+  },
+  "toxic_parts": [
+    "Entire Plant",
+    "Fruit"
+  ],
+  "toxins": [
+    {
+      "name": "Soluble calcium oxalates",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Unlike insoluble oxalates that primarily cause localized oral irritation, the soluble calcium oxalates found in starfruit are absorbed directly into the cat's bloodstream2. Once in the blood, these compounds bind to systemic calcium, causing a sudden and dangerous drop in calcium levels (hypocalcemia)2. This process severely interferes with kidney function and can rapidly lead to acute kidney injury or fatal renal failure",
+      "concentration_notes": "Starfruit is highly toxic to cats; even a very small amount or a single bite can cause poisoning34. Kittens (due to their smaller, developing bodies) and adult cats with pre-existing kidney issues are exceptionally vulnerable to the potency of this fruit"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, drooling, and loss of appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within a few hours",
+      "notes": "These are typical early signs of starfruit poisoning that alert an owner to toxicity before more severe systemic issues become obvious1.\n2. Increased Thirst, Dehydration, Bloody Urine, and Kidney Failure"
+    },
+    {
+      "name": "Increased thirst and urination, dehydration, bloody urine, and eventually reduced urine output or a complete inability to urinate",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "Within a few hours",
+      "notes": "The soluble calcium oxalates in starfruit are absorbed into the bloodstream and severely interfere with kidney function, rapidly leading to acute kidney injury or fatal renal failure if not treated promptly1.... Extreme lethargy and an inability to urinate are signs of late-stage kidney failure1.\n3. Lethargy and Weakness"
+    },
+    {
+      "name": "Lethargy and weakness",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within a few hours",
+      "notes": "Lethargy can present as an early symptom of toxicosis and will progress to extreme lethargy as the cat experiences severe kidney failure1.\n4. Seizures"
+    },
+    {
+      "name": "Seizures",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within a few hours",
+      "notes": "Seizures can occur as a severe systemic reaction to the toxicity, driven by hypocalcemia (a dangerous drop in blood calcium levels) which happens when the soluble oxalates bind to calcium in the cat's bloodstream"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Emesis Induction",
+      "description": "The veterinarian will medically induce vomiting to empty the cat's stomach and remove the starfruit before the toxins can be fully digested and absorbed into the body",
+      "notes": "This treatment is highly time-sensitive and is typically only performed if the ingestion was recent2. You should never attempt to induce vomiting at home unless explicitly instructed to do so by a vet.\n2. Toxin Binding",
+      "priority": 1
+    },
+    {
+      "name": "Activated Charcoal Administration",
+      "description": "Following emesis, the veterinarian will administer a dose of activated charcoal to bind to and absorb any remaining toxins left in the gastrointestinal tract",
+      "notes": "This step is crucial for preventing the highly toxic soluble calcium oxalates from crossing the intestinal lining and entering the cat's bloodstream2.\n3. Renal Protection and Stabilization",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and Supportive Care",
+      "description": "The veterinary team will admit the cat to administer IV fluids, which helps protect the kidneys by flushing the system, while also monitoring and stabilizing the cat's overall condition",
+      "notes": "This ongoing supportive care is essential because the soluble oxalates in starfruit bind to systemic calcium, causing a sudden and dangerous drop in blood calcium levels (hypocalcemia)13. If not aggressively managed with fluid therapy and supportive care, this process can quickly lead to irreversible kidney damage or death",
+      "priority": 3
+    }
+  ]
+}
