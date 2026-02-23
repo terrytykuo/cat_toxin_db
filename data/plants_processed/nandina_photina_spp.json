@@ -10,8 +10,8 @@
     "description": "Evergreen shrubs known for their bright red new foliage and clusters of small white flowers."
   },
   "toxic_parts": [
-    "Seed",
     "Leaf",
+    "Seed",
     "Fruit"
   ],
   "toxins": [

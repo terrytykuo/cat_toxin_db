@@ -10,10 +10,10 @@
     "description": "2. Brief Description\n\u00a0\u00a0\u00a0\u00a0\u25e6 Caladium (Caladium spp.): These are perennial herbs that grow from rhizomes. They are characterized by simple, heart-shaped, thin leaves that are often variegated (multicolored) with highlighted veins. They produce a yellow-green spathe (flower structure). They are commonly found as houseplants or ornamental bedding plants2.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Elephant\u2019s Ear (Alocasia spp.): These are erect perennials also growing from rhizomes. They feature single, long-stemmed, spear-headed leaves with prominent veins. Like Caladiums, they are popular houseplants known for their striking foliage"
   },
   "toxic_parts": [
+    "Root",
     "Stem",
-    "Entire Plant",
     "Leaf",
-    "Root"
+    "Entire Plant"
   ],
   "toxins": [
     {

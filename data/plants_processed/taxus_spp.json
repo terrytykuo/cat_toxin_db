@@ -10,12 +10,12 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Yews are slow-growing, highly adaptable evergreen coniferous shrubs or small to medium-sized trees. They feature flat, soft, dark green, needle-like leaves that remain green year-round. The bark is typically thin, scaly, and reddish-brown. Unlike most conifers, yews do not produce typical woody cones. Instead, female plants produce a highly distinctive, bright red, fleshy, berry-like cup called an \"aril,\" which partially encases a single, hard seed.\n\u2022 Habitat and Where Commonly Found: Native to temperate regions of the Northern Hemisphere (spanning parts of North America, Europe, and Asia), wild yews naturally grow in the understory of forests because they are highly tolerant of deep shade. In modern settings, they are extremely common in residential and commercial landscaping. Because they respond exceptionally well to pruning, they are frequently found planted as decorative hedges, foundation plantings, privacy screens, and ornamental topiaries."
   },
   "toxic_parts": [
+    "Stem",
+    "Bark",
+    "Seed",
     "Entire Plant",
     "Leaf",
-    "Stem",
-    "Seed",
-    "Fruit",
-    "Bark"
+    "Fruit"
   ],
   "toxins": [
     {

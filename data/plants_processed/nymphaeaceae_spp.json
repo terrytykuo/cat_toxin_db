@@ -10,10 +10,10 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Water lilies are aquatic perennial plants. They are characterized by their large, flat, rounded leaves (commonly known as lily pads) that float on the surface of the water, often featuring a prominent radial notch or slit. The plant is anchored in the muddy bottom of the water body by thick, fleshy rhizomes (roots), with long stems connecting the roots to the floating leaves. During their blooming season, they produce showy, star- or cup-shaped, multi-petaled flowers that either float directly on the water or are held just above the surface. These fragrant blooms can be found in various colors, including white, pink, red, yellow, and blue.\n\u2022 Habitat and Where Commonly Found: Water lilies thrive in still or very slow-moving freshwater environments. They naturally inhabit ponds, lakes, marshes, and the quiet edges of streams and rivers. Because of their striking beauty, they have a global distribution across both temperate and tropical climates and are extremely common in cultivated ornamental water gardens, koi ponds, and public botanical parks."
   },
   "toxic_parts": [
+    "Root",
     "Stem",
-    "Flower",
     "Leaf",
-    "Root"
+    "Flower"
   ],
   "toxins": [
     {

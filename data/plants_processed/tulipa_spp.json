@@ -10,9 +10,9 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found) According to the sources, tulips are spring-blooming perennial plants that grow from an underground bulb23. They are incredibly common worldwide; they are a staple in spring gardens around Easter time and are widely sold in floral arrangements, noted as being the country's second most popular cut flower behind the rose2....\n(Please note that the following specific details regarding appearance and natural habitat are not from your sources and you may want to independently verify them):\n\u2022 Appearance: The plant features a single, thick, fleshy stem with a few broad, waxy, lance-shaped green leaves. It produces large, showy, and often perfectly symmetrical cup- or bell-shaped flowers that bloom in virtually every color of the spectrum (except true blue).\n\u2022 Habitat and Where Commonly Found: Tulips are naturally native to the temperate, mountainous, and semi-arid regions of Central Asia and the Middle East. Today, they are massively cultivated across the globe in well-draining soils with full sun. They are most famously associated with the Netherlands, which produces billions of tulip bulbs commercially each year."
   },
   "toxic_parts": [
-    "Flower",
+    "Bulb",
     "Entire Plant",
-    "Bulb"
+    "Flower"
   ],
   "toxins": [
     {

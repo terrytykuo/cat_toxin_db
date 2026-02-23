@@ -10,9 +10,9 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: While the provided sources focus primarily on the plant's toxicity rather than a detailed botanical description, they note that the plant consists of above-ground foliage\u2014including leaves and stems\u2014and underground structures that produce fleshy tubers24. These tubers have a peel or skin and can develop sprouts, which are also referred to as \"eyes\"14.\n\u2022 Habitat and Where Commonly Found: Potatoes are a widely cultivated agricultural crop. Consequently, they are extremely common in everyday households, where they are primarily kept and prepared as a staple food source"
   },
   "toxic_parts": [
+    "Root",
     "Stem",
-    "Leaf",
-    "Root"
+    "Leaf"
   ],
   "toxins": [
     {

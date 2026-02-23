@@ -10,8 +10,8 @@
     "description": "Mountain mahogany; a genus of shrubs and small trees in the rose family, native to the western United States and northern Mexico."
   },
   "toxic_parts": [
-    "Seed",
-    "Leaf"
+    "Leaf",
+    "Seed"
   ],
   "toxins": [
     {

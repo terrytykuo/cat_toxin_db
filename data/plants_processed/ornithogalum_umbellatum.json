@@ -10,11 +10,11 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: This is a bulbous perennial plant characterized by narrow, grass-like green leaves. It is best known for producing clusters (umbels) of bright, star-shaped white flowers that bloom in the spring. A distinguishing feature of this plant is the prominent green stripe running down the outside (back) of each of its six white petals.\n\u2022 Habitat and Where Commonly Found: Native to Europe, the Middle East, and North Africa, the Star of Bethlehem is highly adaptable and has naturalized across much of North America. It is commonly found growing in meadows, woodland edges, lawns, pastures, and along roadsides, and it is frequently cultivated in home gardens as an ornamental spring-blooming flower."
   },
   "toxic_parts": [
-    "Entire Plant",
-    "Bulb",
-    "Leaf",
     "Stem",
-    "Flower"
+    "Entire Plant",
+    "Leaf",
+    "Flower",
+    "Bulb"
   ],
   "toxins": [
     {

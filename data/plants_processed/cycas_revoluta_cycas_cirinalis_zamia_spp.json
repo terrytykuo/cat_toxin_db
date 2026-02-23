@@ -10,10 +10,10 @@
     "description": "(Note: The sources do not explicitly name the botanical family for the Cycas genus).\n2. Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: These plants resemble small, bush-sized palm trees3. They feature a thick, fleshy, tuberous underground stem from which pinnately compound, palm-like leaves grow (reaching around 60 cm long)2. They reproduce using cones that contain large, shiny, orange-red seeds or \"nuts\"12.\n\u2022 Habitat and Where Commonly Found: While some species like the coontie (Zamia floridana) are native to Florida, cycads are incredibly popular across the country as ornamental plants4. They are commonly found in gardens, outdoor landscaping, and as potted indoor houseplants or decorations"
   },
   "toxic_parts": [
-    "Entire Plant",
     "Stem",
+    "Leaf",
     "Seed",
-    "Leaf"
+    "Entire Plant"
   ],
   "toxins": [
     {

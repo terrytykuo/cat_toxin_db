@@ -11,8 +11,8 @@
   },
   "toxic_parts": [
     "Stem",
-    "Seed",
-    "Leaf"
+    "Leaf",
+    "Seed"
   ],
   "toxins": [
     {
