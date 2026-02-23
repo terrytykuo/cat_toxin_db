@@ -36,6 +36,33 @@
 
 ---
 
+## 2026-02-23 — OpenAPI 文件實作
+
+### 完成項目
+
+#### Task 1：安裝依賴
+- `@hono/zod-openapi@0.19.10`（最後一個支援 zod@3 的版本，1.x 需要 zod@4 會衝突）
+- `@hono/swagger-ui`（獨立套件，`hono/swagger-ui` 子路徑不存在）
+- `zod@^3.25`
+
+#### Task 2：共用 Schema
+- 建立 `api/src/schemas.ts`，定義 12 個 OpenAPI 標註的 Zod schema
+- 涵蓋 PlantSummary、PlantDetail、Symptom、Toxin 等所有回應型別
+
+#### Task 3：路由重構
+- `plants.ts`、`symptoms.ts`、`toxins.ts` 全部改用 `OpenAPIHono` + `createRoute`
+- 每個 endpoint 加上 summary、description、request/response schema
+
+#### Task 4：OpenAPI + Swagger UI
+- `index.ts` 改用 `OpenAPIHono`，新增 `GET /openapi.json` 和 `GET /docs`
+- 部署後驗證：全部 4 個測試通過，線上端點正常
+
+#### Task 5：暫時下架文件頁面
+- 應使用者要求，移除 `/docs` 和 `/openapi.json`（等前端完成後再開放）
+- Schema 與路由定義保留，重新開啟只需在 `index.ts` 加回兩行並部署
+
+---
+
 ### 線上資源
 
 | 項目 | 資訊 |
