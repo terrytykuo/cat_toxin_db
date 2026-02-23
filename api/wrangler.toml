@@ -1,0 +1,9 @@
+name = "cat-toxin-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[[d1_databases]]
+binding         = "DB"
+database_name   = "cat-toxin-db"
+database_id     = "77bfb6f0-1786-47bf-b609-ae7326a1d2e6"
+migrations_dir  = "drizzle/migrations"
