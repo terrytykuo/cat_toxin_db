@@ -232,6 +232,68 @@ Cloudflare CDN / DDoS protection
 
 ---
 
+## Data Import Pipeline
+
+### Execution Strategy
+
+Generate a SQL file from cleaned JSON, then execute via Wrangler CLI:
+
+```
+import_d1.py
+    ↓ generates
+import.sql        (reviewable, committable, re-runnable)
+    ↓ executes
+wrangler d1 execute cat-toxin-db --file=import.sql --remote
+```
+
+### Script: `import_d1.py`
+
+| Flag | Behaviour |
+|---|---|
+| *(none)* | Generate `import.sql` |
+| `--execute` | Generate then immediately run via `wrangler` |
+| `--stats` | Show entity counts only (no file written) |
+
+### Two-Phase Logic
+
+**Phase 1 — Full scan, build dedup dictionaries:**
+```python
+unique_toxic_parts = {}   # name → id
+unique_toxins      = {}   # name → {id, formula, description}
+unique_symptoms    = {}   # name → {id, body_system}
+unique_treatments  = {}   # name → {id, description}
+```
+On duplicate names, first occurrence wins. Later occurrences may fill in missing fields (e.g. chemical formula present in one plant record but null in another).
+
+**Phase 2 — Generate SQL in dependency order:**
+```sql
+-- 1. Lookup tables (INSERT OR IGNORE prevents duplicates)
+INSERT OR IGNORE INTO toxic_parts (id, name) VALUES ...;
+INSERT OR IGNORE INTO toxins (id, name, chemical_formula, description) VALUES ...;
+INSERT OR IGNORE INTO symptoms (id, name, body_system) VALUES ...;
+INSERT OR IGNORE INTO treatments (id, name, description) VALUES ...;
+
+-- 2. Plants
+INSERT INTO plants (id, common_name, scientific_name, family, description) VALUES ...;
+
+-- 3. Junction tables
+INSERT INTO plant_toxic_parts (plant_id, toxic_part_id) VALUES ...;
+INSERT INTO plant_toxins (plant_id, toxin_id, concentration_notes) VALUES ...;
+INSERT INTO plant_symptoms (plant_id, symptom_id, severity, onset, notes) VALUES ...;
+INSERT INTO plant_treatments (plant_id, treatment_id, priority, notes) VALUES ...;
+```
+
+### Normalisation Rules
+
+| Issue | Example | Fix |
+|---|---|---|
+| Case inconsistency | `"vomiting"` vs `"Vomiting"` | Title-case all entity names |
+| Trailing whitespace | `"Seed "` | `.strip()` all strings |
+| Null chemical formulas | already `null` after cleaning | Skip field in INSERT |
+| Same toxin, different descriptions | Abrin varies per plant | First occurrence wins |
+
+---
+
 ## Remaining Work
 
 - [ ] Run `clean_plants.py` across all 154 files
