@@ -147,9 +147,8 @@ def main():
     # Process next 6 plants (total 7 for today including the test run)
     # Indices 0 to 6 (plants #1 to #7)
     
-    # Process Phase: Next 8 plants
-    # 147 to 154
-    target_indices = [123]
+    # Process Phase: Next 4 plants
+    target_indices = [115, 128, 156, 157]
     
     print(f"🎯 Targeting {len(target_indices)} plants for collection: {target_indices}")
 

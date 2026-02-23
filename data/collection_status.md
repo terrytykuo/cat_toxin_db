@@ -158,6 +158,6 @@
 | 154 | Wisteria | Wisteria | Wisteria spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 155 | Yellow Oleander | Yellow Oleander | Thevetia peruviana | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 156 | Yesterday-today-and-tomorrow | Yesterday-today-and-tomorrow | Brunfelsia pauciflora floribunda | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 157 | Yew | Yew | Taxus spp. | | | | | | | |
-| 158 | Ylang Ylang | Ylang Ylang | N/A | | | | | | | |
+| 157 | Yew | Yew | Taxus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 158 | Ylang Ylang | Ylang Ylang | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 159 | ZZ Plant | ZZ Plant | Zamioculcas | | | | | | | |

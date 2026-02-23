@@ -10,10 +10,10 @@
     "description": "Brief Description\n\u2022 Appearance: The genus includes numerous species that can grow as trees, shrubs, or vines1. A defining characteristic of these plants is the presence of milky sap found in their leaves and stems1.... Common varieties include the Weeping Fig, Rubber Tree (Ficus elastica), Fiddle Leaf Fig (Ficus lyrata), and Climbing Fig1....\n\u2022 Where Commonly Found: They are widely cultivated and commonly found as potted plants or used in indoor landscaping as houseplants"
   },
   "toxic_parts": [
-    "Stem",
     "Sap",
-    "Leaf",
-    "Entire Plant"
+    "Entire Plant",
+    "Stem",
+    "Leaf"
   ],
   "toxins": [
     {

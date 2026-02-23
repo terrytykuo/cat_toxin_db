@@ -10,9 +10,9 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: It grows as an evergreen shrub or small tree1. Its leaves are alternate, thick, somewhat leathery, lustrous, and have smooth (toothless) edges1. It is a winter-blooming plant that produces large, showy, and sometimes fragrant funnel-shaped flowers with five petals and a 5-lobed tubular calyx1. After flowering, it produces berry-like capsules1.\n\u2022 Habitat and Where Commonly Found: The provided sources do not detail its specific geographic habitat, but they note that it is commonly found in domestic settings cultivated as a poisonous houseplant or ornamental shrub12.\n(Please note that the following information regarding its habitat is not from your sources, and you may want to independently verify it: The plant is originally native to the woodlands of Brazil. It thrives in warm, subtropical, and tropical climates, and it is widely cultivated globally in gardens and greenhouses. It gets its unique common name because its blooms open as a deep purple, fade to a pale lavender the next day, and turn white on the third day)."
   },
   "toxic_parts": [
-    "Bark",
     "Flower",
-    "Leaf"
+    "Leaf",
+    "Bark"
   ],
   "toxins": [
     {

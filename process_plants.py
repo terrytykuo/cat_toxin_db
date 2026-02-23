@@ -113,7 +113,8 @@ MANUAL_FAMILIES = {
     "Solanum lycopersicum": "Solanaceae",
     "Zephyranthes drummondii": "Amaryllidaceae",
     "Rheum rhabarbarum": "Polygonaceae",
-    "Senecio jacobaea or Tanacetum vulgare": "Asteraceae"
+    "Senecio jacobaea or Tanacetum vulgare": "Asteraceae",
+    "Brunfelsia pauciflora floribunda": "Solanaceae"
 }
 
 MANUAL_DESCRIPTIONS = {
@@ -456,6 +457,10 @@ def postprocess(processed):
     if plant.get("common_name") == "String of Pearls" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown", "senecio"]):
         plant["scientific_name"] = "Senecio rowleyanus"
 
+    # Fix Ylang Ylang scientific name
+    if plant.get("common_name") == "Ylang Ylang" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
+        plant["scientific_name"] = "Cananga odorata"
+
     plant["family"] = clean_family(plant.get("family"))
     
     # --- Description Cleaning ---
@@ -686,6 +691,11 @@ def postprocess(processed):
                 "description": "Provide supportive care for gastrointestinal upset.",
                 "priority": 1
             }]
+
+    # Force Ylang Ylang data
+    if sci_name == "Cananga odorata" or plant.get("common_name") == "Ylang Ylang":
+        if processed.get("toxins") and len(processed["toxins"]) > 2:
+            processed["toxins"][2]["chemical_formula"] = "C10H18O"
         
     # --- Toxins ---
     for t in processed.get("toxins", []):

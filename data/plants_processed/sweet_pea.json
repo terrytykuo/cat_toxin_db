@@ -10,11 +10,11 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Sweet Pea is a climbing annual vine that uses thin, curling tendrils to wrap around supports and climb. It is characterized by its winged stems, paired oval leaflets, and highly fragrant, butterfly-shaped flowers that bloom in a wide variety of colors, including shades of pink, purple, red, white, and blue.\n\u2022 Habitat and Where Commonly Found: Native to the Mediterranean region\u2014specifically Sicily, southern Italy, and the Aegean Islands\u2014it naturally thrives in cool, mild climates with well-draining soil and full sun. Today, it is widely cultivated across the globe and is most commonly found in home gardens, where it is frequently grown on trellises, fences, and arches as a popular ornamental and cut flower."
   },
   "toxic_parts": [
-    "Stem",
     "Seed",
-    "Entire Plant",
+    "Leaf",
     "Flower",
-    "Leaf"
+    "Entire Plant",
+    "Stem"
   ],
   "toxins": [
     {

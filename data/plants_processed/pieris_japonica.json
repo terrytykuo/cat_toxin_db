@@ -11,9 +11,9 @@
   },
   "toxic_parts": [
     "Flower",
+    "Entire Plant",
     "Stem",
-    "Leaf",
-    "Entire Plant"
+    "Leaf"
   ],
   "toxins": [
     {

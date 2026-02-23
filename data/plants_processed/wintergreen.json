@@ -10,8 +10,8 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Wintergreen is a low-growing, creeping evergreen shrub that acts as a ground cover. It has tough, glossy, leathery, dark green oval leaves that emit a strong, minty scent when crushed or broken. During the summer, it blooms with small, bell-shaped white to pale pink flowers. These flowers later give way to bright, fleshy red berries that can persist through the winter.\n\u2022 Habitat and Where Commonly Found: Wintergreen is native to the woodlands of eastern North America. It thrives in cool, temperate climates and prefers shady environments with well-draining, acidic, peaty, or sandy soils. It is most commonly found carpeting the forest floor in pine barrens and mixed hardwood forests."
   },
   "toxic_parts": [
-    "Stem",
     "Fruit",
+    "Stem",
     "Leaf"
   ],
   "toxins": [

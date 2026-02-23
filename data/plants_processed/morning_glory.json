@@ -10,8 +10,8 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Morning Glories are fast-growing, twining vines with heart-shaped or deeply lobed leaves. They are most famous for their vibrant, trumpet- or funnel-shaped flowers that characteristically unfurl in the early morning sunlight and curl closed by the afternoon. These blooms can be found in a wide array of striking colors, including blue, purple, pink, magenta, and white. After blooming, the plant produces round seed pods.\n\u2022 Habitat and Where Commonly Found: Native to tropical and subtropical regions of the Americas, Morning Glories thrive in full, direct sun and well-draining soil. Today, they are widely cultivated around the world as ornamental plants. They are very commonly found in residential gardens climbing up fences, trellises, and walls, but they also readily naturalize and can be found growing wild in disturbed areas, agricultural fields, and along roadsides."
   },
   "toxic_parts": [
-    "Stem",
     "Seed",
+    "Stem",
     "Leaf"
   ],
   "toxins": [

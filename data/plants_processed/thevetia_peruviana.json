@@ -10,14 +10,14 @@
     "description": "The sources do not contain information about the plant's botanical family, detailed physical appearance, or habitat.\n(Please note that the following information is not from your sources and you may want to independently verify it):\n1. Botanical Family The Yellow Oleander belongs to the dogbane family, Apocynaceae (the same family as the common pink/white oleander, Nerium oleander).\n2. Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Yellow Oleander is a fast-growing, evergreen shrub or small tree that can reach up to 10 to 20 feet in height. It features spirally arranged, narrow, willow-like, glossy green leaves. It is heavily prized for its fragrant, funnel- or trumpet-shaped flowers that are typically bright yellow (but can also be pale orange or peach). After flowering, it produces distinctively shaped, fleshy, somewhat triangular or globular seed pods that start green and turn black as they ripen.\n\u2022 Habitat and Where Commonly Found: Native to tropical regions of the Americas (ranging from Mexico into Central and South America), it thrives in full sun and well-draining soils. Because it is highly drought-tolerant and features striking flowers, it is widely cultivated globally and is very commonly found planted as an ornamental shrub, hedge, or street tree in warm, tropical, and subtropical climates."
   },
   "toxic_parts": [
-    "Stem",
     "Seed",
     "Sap",
-    "Entire Plant",
+    "Leaf",
     "Flower",
     "Bark",
     "Fruit",
-    "Leaf",
+    "Entire Plant",
+    "Stem",
     "Root"
   ],
   "toxins": [

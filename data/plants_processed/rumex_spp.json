@@ -10,8 +10,8 @@
     "description": "Perennial flowering plant in the family Polygonaceae, commonly known as curly dock or yellow dock."
   },
   "toxic_parts": [
-    "Leaf",
-    "Entire Plant"
+    "Entire Plant",
+    "Leaf"
   ],
   "toxins": [
     {
