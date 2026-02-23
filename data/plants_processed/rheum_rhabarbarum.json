@@ -1,0 +1,73 @@
+{
+  "plant": {
+    "common_name": "Rhubarb",
+    "scientific_name": "Rheum rhabarbarum",
+    "family": "Polygonaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found) The sources do not provide a detailed physical description or specific natural habitat for Rhubarb. However, they do note the following:\n\u2022 Appearance/Characteristics: Rhubarb is a plant made up of stalks (or stems) and leaves1....\n\u2022 Habitat/Where Commonly Found: It is a common plant that is grown for edible consumption and is often referred to as the \"pie plant\"3. Because of this, it is commonly found in gardens or agricultural settings where crops are grown. The stalks of the plant are edible for humans, but the leaves are not"
+  },
+  "basics": {
+    "family": "Polygonaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found) The sources do not provide a detailed physical description or specific natural habitat for Rhubarb. However, they do note the following:\n\u2022 Appearance/Characteristics: Rhubarb is a plant made up of stalks (or stems) and leaves1....\n\u2022 Habitat/Where Commonly Found: It is a common plant that is grown for edible consumption and is often referred to as the \"pie plant\"3. Because of this, it is commonly found in gardens or agricultural settings where crops are grown. The stalks of the plant are edible for humans, but the leaves are not"
+  },
+  "toxic_parts": [
+    "Stem",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Soluble oxalates (specifically, oxalic acid and soluble oxalate salts)",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Unlike insoluble oxalates (which primarily cause localized mouth pain), soluble oxalates are absorbed directly from the gastrointestinal tract into the cat's bloodstream12. Once in the blood, these oxalate salts bind aggressively with the body's systemic calcium, resulting in a sudden and dangerous drop in blood calcium levels (hypocalcemia)23. The crystals formed by this binding process can also lodge in the kidneys, which can rarely lead to acute renal (kidney) failure",
+      "concentration_notes": "Soluble oxalates are present in varying degrees throughout all parts of the rhubarb plant2. However, the toxins are most highly concentrated in the leaves14. While the stalks (stems) contain a significantly lower concentration of oxalates\u2014which is why humans can safely eat them\u2014they are still considered risky for cats14. Small animals like cats can suffer severe poisoning if they ingest these compounds in large enough quantities"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Drooling, inappetence (loss of appetite), vomiting, and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Initial signs typically appear shortly after ingestion",
+      "notes": "Small ingestions, such as a mere taste or nibble of the plant, often result only in mild gastrointestinal upset1. However, with larger ingestions, these initial GI symptoms act as a precursor to much more serious systemic poisoning1.\n2. Hypocalcemic Tetany and Weakness"
+    },
+    {
+      "name": "Lethargy, extreme weakness, ataxia (loss of coordination), tremors, and seizures",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Develops progressively as the toxins are absorbed from the gastrointestinal tract into the bloodstre",
+      "notes": "These severe neurological signs occur because the soluble oxalates in rhubarb absorb into the blood and aggressively bind to the cat's systemic calcium12. This results in a sudden and dangerous drop in blood calcium levels (hypocalcemia), which directly leads to hypocalcemic tetany, characterized by muscle tremors and seizures1.\n3. Urinary Abnormalities and Acute Kidney Damage"
+    },
+    {
+      "name": "Bloody urine, changes in thirst and urination (polyuria/polydipsia), oliguria (abnormally low urine production), anuria",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "Delayed; develops secondary to the absorption of the toxin and subsequent crystal formation",
+      "notes": "As the soluble oxalates bind with the body's calcium, the resulting calcium oxalate crystals can precipitate and become lodged within the renal tubules1. This physically damages the kidneys and can rarely lead to life-threatening acute renal failure"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Emesis Induction and Activated Charcoal",
+      "description": "The veterinarian will medically induce vomiting to empty the stomach of the plant material. This is followed by administering a dose of activated charcoal along with a cathartic to bind to any remaining toxins in the gastrointestinal tract and speed up their elimination",
+      "notes": "This decontamination step is recommended for exposures consisting of more than just a small taste or nibble1.\n2. Intravenous (IV) Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "The cat is hospitalized and administered continuous IV fluids for 24 to 48 hours",
+      "notes": "This is a critical step to flush the toxins from the system and protect the kidneys from damage, as the calcium oxalate crystals can precipitate and lodge within the renal tubules, leading to acute renal failure12.\n3. Calcium Replacement",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous Calcium Gluconate",
+      "description": "The veterinary team will administer calcium gluconate directly into the cat's bloodstream",
+      "notes": "This specific treatment is indicated to directly counteract hypocalcemia (dangerously low blood calcium levels) caused by the soluble oxalates binding with the body's natural calcium12.\n4. Systemic Monitoring",
+      "priority": 3
+    },
+    {
+      "name": "Hospitalization and Renal Indices Monitoring",
+      "description": "While the cat is hospitalized, the veterinary team will conduct ongoing bloodwork and tests to monitor the cat's renal (kidney) indices",
+      "notes": "Close monitoring is necessary to evaluate if the cat is developing clinical signs of acute kidney damage, such as bloody urine, changes in thirst, or lack of urine production (oliguria/anuria)",
+      "priority": 4
+    }
+  ]
+}

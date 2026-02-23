@@ -10,11 +10,11 @@
     "description": "2. Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance and Habitat: The provided sources do not contain a physical description or details about the natural habitat of pom flowers.\n\u2022 Where Commonly Found: The sources note that pom flowers are among the most popular flowers used in indoor floral arrangements"
   },
   "toxic_parts": [
-    "Leaf",
     "Bulb",
-    "Stem",
     "Root",
-    "Flower"
+    "Flower",
+    "Stem",
+    "Leaf"
   ],
   "toxins": [
     {

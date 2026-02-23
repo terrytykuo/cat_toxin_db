@@ -10,9 +10,9 @@
     "description": "Description and Habitat: It is an evergreen shrub native to Southeast Asia and the Pacific Islands, commonly found in open forests and scrub. It is widely cultivated as an ornamental plant for its thick, leathery, and colorful variegated leaves."
   },
   "toxic_parts": [
+    "Sap",
     "Entire Plant",
-    "Leaf",
-    "Sap"
+    "Leaf"
   ],
   "toxins": [
     {

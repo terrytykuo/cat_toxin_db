@@ -10,9 +10,9 @@
     "description": "Brief Description\n\u2022 Appearance: It is a perennial herb that grows from an ovoid underground corm (bulb-like structure) covered with brown scales1. The plant features large, smooth, lance-shaped leaves that appear in the spring and die back before the plant flowers1. The tubular flowers, which are typically pale purple or white, bloom in the fall (autumn) without the leaves present1....\n\u2022 Habitat and Location: It is commonly found as a garden plant or yard ornamental3.... It is also described as a popular house plant16. It is distinct from the spring-blooming crocus (Crocus spp.)"
   },
   "toxic_parts": [
-    "Bulb",
-    "Flower",
     "Entire Plant",
+    "Flower",
+    "Bulb",
     "Seed"
   ],
   "toxins": [

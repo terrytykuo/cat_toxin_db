@@ -1,0 +1,73 @@
+{
+  "plant": {
+    "common_name": "Rubber Plant",
+    "scientific_name": "Ficus elastica",
+    "family": "Moraceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Depending on the specific variety and environment, Ficus plants can grow as trees, shrubs, or climbing vines. A defining characteristic of the plant is that it contains a milky sap within its leaves and stems1.\n\u2022 Habitat and Where Commonly Found: The provided sources do not detail its native outdoor habitat, but they note that the Rubber Plant is commonly cultivated as a potted houseplant and is frequently found in indoor landscaping"
+  },
+  "basics": {
+    "family": "Moraceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Depending on the specific variety and environment, Ficus plants can grow as trees, shrubs, or climbing vines. A defining characteristic of the plant is that it contains a milky sap within its leaves and stems1.\n\u2022 Habitat and Where Commonly Found: The provided sources do not detail its native outdoor habitat, but they note that the Rubber Plant is commonly cultivated as a potted houseplant and is frequently found in indoor landscaping"
+  },
+  "toxic_parts": [
+    "Sap",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Ficin",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Ficin is a proteolytic (protein-breaking) enzyme that acts as a physical irritant. Upon contact or ingestion, it causes irritation to the mucous membranes of the mouth and the gastrointestinal tract, leading to drooling, vomiting, and diarrhea1. It is also implicated in causing contact dermatitis (redness and irritation) if the sap gets on the cat's skin",
+      "concentration_notes": "The overall toxicity is considered mild1. The toxin is primarily concentrated within the plant's milky sap"
+    },
+    {
+      "name": "Psoralen (also referred to as ficusin), along with other furocoumarins, sesquiterpenoid glycosides, and triterpenes",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Similar to ficin, these compounds are irritants. If ingested or touched, they contribute to the oral irritation, gastrointestinal distress, and contact dermatitis experienced by the cat",
+      "concentration_notes": "These compounds are localized in the plant's sap23. The overall potency is mild, though the sap can cause notable discomfort to the skin and digestive system"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Irritation of the mouth and drooling (hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources, but typically occurs upon chewing the plant",
+      "notes": "This is caused by the physical and chemical irritation from the proteolytic enzymes (ficin) and psoralen (ficusin) within the plant's sap12.\n2. Gastrointestinal Upset (Vomiting and Diarrhea)"
+    },
+    {
+      "name": "Vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources",
+      "notes": "If the cat swallows the irritating sap, it leads to mild stomach and intestinal upset1.\n3. Contact Dermatitis (Skin Irritation)"
+    },
+    {
+      "name": "Skin redness and contact dermatitis",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources",
+      "notes": "Contact dermatitis occurs if the plant's milky sap gets on the cat's skin or fur1. The sap contains multiple irritants, including furocoumarins, psoralens, ficin, sesquiterpenoid glycosides, and triterpenes, which are directly implicated in causing this skin reaction"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Rinsing and Sap Removal",
+      "description": "Rinse out the cat's mouth with water and thoroughly wipe off any milky sap from the cat's fur and skin",
+      "notes": "This is the most urgent first step. The plant's sap contains irritating proteolytic enzymes (ficin) and psoralens. Removing the sap immediately stops the localized burning in the mouth, prevents the cat from ingesting more sap while grooming, and helps prevent contact dermatitis on the skin12.\n2. Hydration and Monitoring",
+      "priority": 1
+    },
+    {
+      "name": "Hydration and At-Home Monitoring",
+      "description": "Offer the cat water to drink and monitor them for any ongoing clinical signs, such as continued vomiting, drooling, or skin redness",
+      "notes": "Because Rubber Plant toxicity is considered mild, many cases resolve on their own once the irritant is removed. Drinking water helps soothe the irritated mucous membranes in the mouth and throat1.\n3. Veterinary Intervention",
+      "priority": 2
+    },
+    {
+      "name": "Symptomatic and Supportive Care",
+      "description": "If the cat experiences persistent vomiting, diarrhea, or severe skin irritation that does not resolve, they should be taken to a veterinarian for professional symptomatic care",
+      "notes": "While not explicitly detailed for the Rubber Plant in the sources, standard veterinary symptomatic care for persistent GI upset or contact dermatitis typically involves administering anti-nausea medications, fluid therapy for dehydration, or skin-soothing topical treatments",
+      "priority": 3
+    }
+  ]
+}

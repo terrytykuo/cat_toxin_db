@@ -1,0 +1,46 @@
+{
+  "plant": {
+    "common_name": "Rosary Pea",
+    "scientific_name": "Abrus precatorius",
+    "family": "Fabaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: It is a climbing or twining vine that features light-sensitive, compound leaves and pale reddish-purple flowers2. It produces distinctive pea-shaped pods that contain three to five red seeds with black spots2.\n\u2022 Habitat and Where Commonly Found: The provided sources do not detail the plant's specific natural outdoor habitat. However, they note that the seeds of the Rosary Pea are commonly found inside homes because they are frequently used in jewelry handicrafts and souvenir gifts"
+  },
+  "basics": {
+    "family": "Fabaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: It is a climbing or twining vine that features light-sensitive, compound leaves and pale reddish-purple flowers2. It produces distinctive pea-shaped pods that contain three to five red seeds with black spots2.\n\u2022 Habitat and Where Commonly Found: The provided sources do not detail the plant's specific natural outdoor habitat. However, they note that the seeds of the Rosary Pea are commonly found inside homes because they are frequently used in jewelry handicrafts and souvenir gifts"
+  },
+  "toxic_parts": [
+    "Seed"
+  ],
+  "toxins": [
+    {
+      "name": "Abrin (a plant lectin or toxalbumin related to ricin)",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Abrin is a highly dangerous toxin that works by inhibiting cellular protein synthesis1. When absorbed, it leads to severe gastrointestinal signs, which can cause significant dehydration and dangerous electrolyte imbalances",
+      "concentration_notes": "The toxin is only released if the hard seed coat of the Rosary Pea is chewed, crushed, or otherwise broken1. Because the seed coat is so hard, if a cat swallows the seed whole and it remains intact, it is generally considered non-toxic1. If the seed is chewed and the toxin is released, severe cases require veterinary treatment for electrolyte replacement"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal signs (which typically lead to significant dehydration and electrolyte imbalances)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Abrin is a plant lectin (toxalbumin) that works by inhibiting cellular protein synthesis1. When absorbed, the resulting gastrointestinal distress can cause severe dehydration and dangerous electrolyte imbalances1. In these severe cases, the cat will require veterinary treatment for fluid and electrolyte replacement"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Assessment of Dehydration and Electrolyte Status",
+      "description": "The veterinarian will examine the cat to evaluate the severity of the gastrointestinal signs and determine the extent of any dehydration and electrolyte imbalances",
+      "notes": "This initial assessment is critical because if the cat swallowed the seeds whole without chewing them, it is usually non-toxic and may not require further medical intervention1.\n2. Systemic Supportive Care",
+      "priority": 1
+    },
+    {
+      "name": "Electrolyte Replacement Treatment",
+      "description": "The veterinary team will administer fluids and electrolytes to restore the cat's normal physiological balance and counteract the fluid loss caused by the gastrointestinal symptoms",
+      "notes": "This therapy is specifically indicated and necessary for severe cases where the seed coat was broken, releasing the toxin (abrin) and causing significant illness",
+      "priority": 2
+    }
+  ]
+}

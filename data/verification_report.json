@@ -1,9 +1,15 @@
 {
-  "generated_at": "2026-02-23T00:13:43.998034",
-  "total_files": 125,
-  "passed": 125,
+  "generated_at": "2026-02-23T01:48:01.918425",
+  "total_files": 129,
+  "passed": 129,
   "failed": 0,
   "results": [
+    {
+      "file": "abrus_precatorius.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
     {
       "file": "adenium_obesum.json",
       "status": "PASS",
@@ -312,6 +318,12 @@
     },
     {
       "file": "ficus_benghalensis.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "ficus_elastica.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -636,6 +648,18 @@
     },
     {
       "file": "prunus_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "ragwort__tansy.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "rheum_rhabarbarum.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

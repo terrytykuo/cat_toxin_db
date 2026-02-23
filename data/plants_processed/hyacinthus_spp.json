@@ -10,12 +10,12 @@
     "description": "2. Brief Description\n\u2022 Appearance: Hyacinths are spring-blooming perennials that grow from bulbs3,4. They are recognized for their dense, tall flowers which are notably fragrant5,6. These blooms appear in a wide variety of colors, including deep purple, pink, white, yellow, blue, red, apricot, and lavender5,6.\n\u2022 Where Commonly Found: They are widely kept as garden ornamentals and indoor potted plants6,3. They are also popular as cut flowers or gifts, particularly around spring holidays like Mother's Day"
   },
   "toxic_parts": [
-    "Leaf",
     "Bulb",
     "Entire Plant",
+    "Flower",
     "Pollen",
     "Stem",
-    "Flower"
+    "Leaf"
   ],
   "toxins": [
     {

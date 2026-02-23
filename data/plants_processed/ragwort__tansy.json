@@ -1,0 +1,66 @@
+{
+  "plant": {
+    "common_name": "Ragwort / Tansy",
+    "scientific_name": "Senecio jacobaea or Tanacetum vulgare",
+    "family": "Asteraceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found) The sources do not contain a physical description or specific natural habitat details for this plant. The only context provided is that it is an herb that might be found growing at home, on a windowsill, or in a garden"
+  },
+  "basics": {
+    "family": "Asteraceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found) The sources do not contain a physical description or specific natural habitat details for this plant. The only context provided is that it is an herb that might be found growing at home, on a windowsill, or in a garden"
+  },
+  "toxic_parts": [
+    "Flower",
+    "Stem",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Alkaloids",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Ingesting the alkaloids present in the plant can cause liver damage",
+      "concentration_notes": "The plant must be ingested in large quantities to cause liver damage1. Fortunately, the plant is quite unpleasant to eat, which naturally deters most cats from consuming enough to be harmed"
+    },
+    {
+      "name": "Thujone (contained within a volatile oil)",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Similar to the plant's alkaloids, this volatile oil can cause liver damage if ingested",
+      "concentration_notes": "It is toxic when ingested in large quantities, but the unpalatable nature of the plant typically prevents cats from eating dangerous amounts"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Liver damage",
+      "body_system": "Hepatic",
+      "severity": "severe",
+      "onset": "Not specified in the provided sources.",
+      "notes": "Liver damage occurs due to the plant's alkaloid content and a volatile oil containing thujone1. The cat must ingest the plant in large quantities to suffer this damage1. Fortunately, Ragwort is quite unpleasant to eat, which usually acts as a natural deterrent and stops most cats from consuming it"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Veterinary Consultation and Triage",
+      "description": "Contact your veterinarian or a pet poison helpline immediately for professional advice2. If you have evidence of what the cat ate, take a sample of the plant (or a sample of the cat's vomit, especially if it contains plant matter) to the vet to aid in diagnosis",
+      "notes": "You should not attempt to make the cat sick at home, as this may not be helpful and can cause further harm2. Fortunately, Ragwort is quite unpleasant to eat, which usually acts as a natural deterrent and stops most cats from consuming the large quantities necessary to cause severe liver damage1.\n2. Gastrointestinal Decontamination",
+      "priority": 1
+    },
+    {
+      "name": "Emesis Induction and Activated Charcoal",
+      "description": "To prevent the plant's toxins from being fully absorbed into the bloodstream, a veterinarian may medically induce vomiting (emesis)3. This is typically followed by an antiemetic (anti-nausea medication) and doses of activated charcoal to bind to any remaining toxins in the gastrointestinal tract",
+      "notes": "This decontamination step is most appropriate for a neurologically stable patient shortly after the plant has been ingested3. Due to enterohepatic recirculation (toxins cycling through the liver and intestines), multiple doses of activated charcoal may be recommended3.\n3. Liver Support and Protection",
+      "priority": 2
+    },
+    {
+      "name": "Hepatoprotective Therapy",
+      "description": "Because Ragwort targets the liver1, the veterinary team will likely administer hepatoprotectants (liver-protecting medications) such as S-adenosylmethionine (SAMe) and N-acetylcysteine (NAC)",
+      "notes": "These specific medications are necessary to support liver function and aid in tissue repair if hepatic necrosis (liver cell death) is occurring or suspected4.\n4. Systemic Supportive Care and Monitoring",
+      "priority": 3
+    },
+    {
+      "name": "In-Hospital Monitoring and Symptomatic Support",
+      "description": "The cat will likely require hospitalization for close monitoring, which includes evaluating liver enzymes daily for a period of time (e.g., 72 hours)3. The vet may also administer gastroprotectants to soothe the stomach and intestines",
+      "notes": "If severe liver damage develops, secondary complications like hypoglycemia (low blood sugar) and bleeding disorders (coagulopathy) can occur4. The veterinary team will monitor blood glucose and coagulation profiles, and if hypoglycemia is present, they will administer a continuous intravenous infusion of dextrose",
+      "priority": 4
+    }
+  ]
+}

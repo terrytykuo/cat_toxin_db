@@ -132,9 +132,9 @@
 | 128 | Prairie Lily | Prairie Lily | Zephyranthes drummondii | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 129 | Ragwort / Tansy | Ragwort / Tansy | N/A | | | | | | | |
 | 130 | Rhododendron | Rhododendron | Rhododendron spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 131 | Rhubarb | Rhubarb | Rheum rhabarbarum | | | | | | | |
-| 132 | Rosary Pea | Rosary Pea | Abrus precatorius | | | | | | | |
-| 133 | Rubber Plant | Rubber Plant | Ficus elastica | | | | | | | |
+| 131 | Rhubarb | Rhubarb | Rheum rhabarbarum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 132 | Rosary Pea | Rosary Pea | Abrus precatorius | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 133 | Rubber Plant | Rubber Plant | Ficus elastica | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 134 | Sago Palm / Cycads | Sago Palm / Cycads | Cycas revoluta, Cycas cirinalis, Zamia spp. | | | | | | | |
 | 135 | Schefflera / Umbrella Tree | Schefflera / Umbrella Tree | Schefflera spp. or Schefflera actinphylla | | | | | | | |
 | 136 | Shamrock | Shamrock | Oxalis spp. | | | | | | | |

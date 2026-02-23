@@ -10,10 +10,10 @@
     "description": "Brief Description\n\u2022 Appearance: Lavender is described as a fragrant, evergreen shrub known for its showy, vibrant purple flowers and calming scent1....\n\u2022 Habitat: It thrives in full sun and requires well-drained soil (such as chalk, loam, or sand)1. It is noted for being drought-tolerant and capable of growing in rocky soil1.\n\u2022 Common Locations: It is commonly found in gardens as borders or in patio containers, kept as a houseplant, or used in dried flower arrangements"
   },
   "toxic_parts": [
+    "Entire Plant",
     "Flower",
-    "Leaf",
     "Stem",
-    "Entire Plant"
+    "Leaf"
   ],
   "toxins": [
     {
