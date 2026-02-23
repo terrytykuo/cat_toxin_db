@@ -108,7 +108,7 @@ def clean_batch(client: OpenAI, files: list[Path]) -> list[dict]:
     records = [json.loads(f.read_text()) for f in files]
 
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         max_tokens=16000,
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
@@ -193,6 +193,7 @@ def main():
             out_path = CLEANED_DIR / f.name
             out_path.write_text(json.dumps(record, indent=2, ensure_ascii=False))
             progress["completed"].append(f.name)
+            progress["failed"] = [n for n in progress["failed"] if n != f.name]
             print(f"  ✓  {f.name}")
         except Exception as e:
             errors.append(f.name)
