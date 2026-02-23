@@ -10,8 +10,8 @@
     "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Aloe Vera is a succulent herb that grows in clusters of narrow, fleshy leaves1. The leaves have spinous or coarsely serrated margins featuring hook spines1. When in bloom, the plant produces a single stalk topped with dense spikes of tubular yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Where Commonly Found: It is a common houseplant often kept for its medicinal properties (specifically the gel), though the plant itself is toxic to pets"
   },
   "toxic_parts": [
-    "Latex",
     "Sap",
+    "Latex",
     "Leaf"
   ],
   "toxins": [

@@ -1,0 +1,83 @@
+{
+  "plant": {
+    "common_name": "Yesterday-today-and-tomorrow",
+    "scientific_name": "Brunfelsia pauciflora floribunda",
+    "family": "Solanaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: It grows as an evergreen shrub or small tree1. Its leaves are alternate, thick, somewhat leathery, lustrous, and have smooth (toothless) edges1. It is a winter-blooming plant that produces large, showy, and sometimes fragrant funnel-shaped flowers with five petals and a 5-lobed tubular calyx1. After flowering, it produces berry-like capsules1.\n\u2022 Habitat and Where Commonly Found: The provided sources do not detail its specific geographic habitat, but they note that it is commonly found in domestic settings cultivated as a poisonous houseplant or ornamental shrub12.\n(Please note that the following information regarding its habitat is not from your sources, and you may want to independently verify it: The plant is originally native to the woodlands of Brazil. It thrives in warm, subtropical, and tropical climates, and it is widely cultivated globally in gardens and greenhouses. It gets its unique common name because its blooms open as a deep purple, fade to a pale lavender the next day, and turn white on the third day)."
+  },
+  "basics": {
+    "family": "Solanaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: It grows as an evergreen shrub or small tree1. Its leaves are alternate, thick, somewhat leathery, lustrous, and have smooth (toothless) edges1. It is a winter-blooming plant that produces large, showy, and sometimes fragrant funnel-shaped flowers with five petals and a 5-lobed tubular calyx1. After flowering, it produces berry-like capsules1.\n\u2022 Habitat and Where Commonly Found: The provided sources do not detail its specific geographic habitat, but they note that it is commonly found in domestic settings cultivated as a poisonous houseplant or ornamental shrub12.\n(Please note that the following information regarding its habitat is not from your sources, and you may want to independently verify it: The plant is originally native to the woodlands of Brazil. It thrives in warm, subtropical, and tropical climates, and it is widely cultivated globally in gardens and greenhouses. It gets its unique common name because its blooms open as a deep purple, fade to a pale lavender the next day, and turn white on the third day)."
+  },
+  "toxic_parts": [
+    "Bark",
+    "Flower",
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Atropine, scopolamine, and hyoscyamine",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: The sources do not detail the exact cellular mechanism of action for these specific toxins. However, they act systemically to cause severe physiological and neurological disruption. Once ingested, they trigger an abnormally fast heart rate (tachycardia), dry mouth, dilated pupils, loss of coordination (ataxia), tremors, urinary retention, depression, and sometimes deep sedation or coma",
+      "concentration_notes": "These toxic alkaloids are found throughout the plant, specifically located within the flowers, leaves, bark, and roots1. While they are potent enough to cause severe clinical depression requiring respiratory and cardiac stimulants to treat, poisoning from this plant is notably not reported to be fatal"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Tachycardia (rapid heart rate)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources, but occurs upon ingestion.",
+      "notes": "This is caused by the plant's toxic alkaloids (atropine, scopolamine, and hyoscyamine)1. In cases where the cardiovascular system becomes severely depressed, the veterinarian may need to administer cardiac stimulants1.\n2. Dry Mouth"
+    },
+    {
+      "name": "Dry mouth",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "Caused by the ingestion of the flowers, leaves, bark, or roots1.\n3. Dilated Pupils"
+    },
+    {
+      "name": "Dilated pupils",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "A direct systemic response to the alkaloid toxins1.\n4. Loss of Coordination and Tremors"
+    },
+    {
+      "name": "Ataxia (loss of coordination) and tremors",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "These symptoms highlight the severe neurological disruption caused by the plant's toxic compounds1.\n5. Urinary Retention"
+    },
+    {
+      "name": "Urinary retention",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "Occurs alongside other systemic signs of poisoning after the animal consumes the plant material1.\n6. Depression, Deep Sedation, or Coma"
+    },
+    {
+      "name": "Depression, deep sedation, and sometimes coma",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "While poisoning from this plant can lead to a profound comatose state requiring respiratory stimulants and supportive treatment, it is notably not reported to cause death"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Administration of Respiratory and Cardiac Stimulants",
+      "description": "The veterinarian administers specific stimulant medications to support and revive the cat's cardiovascular and respiratory systems",
+      "notes": "This is the most urgent intervention and is specifically recommended if the cat has become severely depressed, heavily sedated, or has slipped into a coma as a result of the poisoning12.\n2. Supportive Treatment",
+      "priority": 1
+    },
+    {
+      "name": "General Supportive Care",
+      "description": "The veterinary team provides ongoing symptom management and monitoring to stabilize the cat until the toxins clear its system",
+      "notes": "Because the plant can cause a wide variety of systemic issues\u2014such as an abnormally fast heart rate (tachycardia), urinary retention, tremors, and loss of coordination (ataxia)\u2014supportive care is essential and will be tailored to the specific symptoms the cat is actively experiencing12. Fortunately, the sources note that poisoning from this plant is not reported to cause death",
+      "priority": 2
+    }
+  ]
+}

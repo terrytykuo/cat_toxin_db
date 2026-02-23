@@ -175,3 +175,26 @@
 144. String of Pearls - DONE
 145. Sweet Birch - DONE
 146. Sweet Pea - DONE
+147. Swiss Cheese Vine - DONE
+148. Tea Tree - DONE
+149. Tomato - DONE
+150. Tulip - DONE
+151. Wandering Jew - DONE
+152. Water Lily - DONE
+153. Wintergreen - DONE
+154. Wisteria - DONE
+85. Japanese Pieris - DONE
+87. Jimson Weed - DONE
+101. Mistletoe - DONE
+103. Morning Glory - DONE
+105. Mountain Mahogany - DONE
+111. Oyster Plant - DONE
+124. Pom Flowers - DONE
+149. Tomato - DONE
+151. Wandering Jew - DONE
+152. Water Lily - DONE
+124. Pom Flowers - DONE
+116. Peppermint - DONE
+129. Ragwort / Tansy - DONE
+155. Yellow Oleander - DONE
+156. Yesterday-today-and-tomorrow - DONE

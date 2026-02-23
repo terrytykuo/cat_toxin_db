@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-23T14:09:22.615934",
-  "total_files": 149,
-  "passed": 149,
+  "generated_at": "2026-02-23T14:27:47.199297",
+  "total_files": 151,
+  "passed": 151,
   "failed": 0,
   "results": [
     {
@@ -144,6 +144,12 @@
     },
     {
       "file": "brugmansia_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "brunfelsia_pauciflora_floribunda.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -834,6 +840,12 @@
     },
     {
       "file": "tea_tree.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "thevetia_peruviana.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

@@ -10,9 +10,9 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Sweet Birch is a medium-to-large deciduous tree that typically grows 50 to 80 feet tall. Unlike the peeling, papery white bark associated with many other birch trees, the Sweet Birch has dark, shiny, reddish-brown to almost black bark that closely resembles the bark of a cherry tree. Its leaves are simple, alternate, and ovate with serrated edges. Its most distinguishing feature is its scent; the twigs and inner bark emit a very strong wintergreen aroma when scraped or crushed (which is why it is historically used to extract wintergreen oil).\n\u2022 Habitat and Where Commonly Found: Native to eastern North America, it thrives in cool, moist, and well-drained soils. It is most commonly found growing in the rich, deep forest soils of the Appalachian Mountains, ranging from southern Maine down to northern Georgia."
   },
   "toxic_parts": [
-    "Root",
     "Bark",
-    "Leaf"
+    "Leaf",
+    "Root"
   ],
   "toxins": [
     {
