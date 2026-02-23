@@ -135,12 +135,12 @@
 | 131 | Rhubarb | Rhubarb | Rheum rhabarbarum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 132 | Rosary Pea | Rosary Pea | Abrus precatorius | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 133 | Rubber Plant | Rubber Plant | Ficus elastica | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 134 | Sago Palm / Cycads | Sago Palm / Cycads | Cycas revoluta, Cycas cirinalis, Zamia spp. | | | | | | | |
-| 135 | Schefflera / Umbrella Tree | Schefflera / Umbrella Tree | Schefflera spp. or Schefflera actinphylla | | | | | | | |
-| 136 | Shamrock | Shamrock | Oxalis spp. | | | | | | | |
-| 137 | Silver Leaf Philodendron | Silver Leaf Philodendron | e.g. Satin Pothos | | | | | | | |
-| 138 | Snake Plant / Mother-in-Law’s Tongue | Snake Plant / Mother-in-Law’s Tongue | Sansevieria spp. | | | | | | | |
-| 139 | Spearmint | Spearmint | Mentha spicata | | | | | | | |
+| 134 | Sago Palm / Cycads | Sago Palm / Cycads | Cycas revoluta, Cycas cirinalis, Zamia spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 135 | Schefflera / Umbrella Tree | Schefflera / Umbrella Tree | Schefflera spp. or Schefflera actinphylla | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 136 | Shamrock | Shamrock | Oxalis spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 137 | Silver Leaf Philodendron | Silver Leaf Philodendron | e.g. Satin Pothos | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 138 | Snake Plant / Mother-in-Law’s Tongue | Snake Plant / Mother-in-Law’s Tongue | Sansevieria spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 139 | Spearmint | Spearmint | Mentha spicata | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 140 | Spider Plant | Spider Plant | Chlorophytum spp. | | | | | | | |
 | 141 | Staggerbush | Staggerbush | Lyonia spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 142 | Star of Bethlehem | Star of Bethlehem | Ornithogalum umbellatum | | | | | | | |

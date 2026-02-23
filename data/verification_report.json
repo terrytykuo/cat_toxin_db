@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-23T01:48:01.918425",
-  "total_files": 129,
-  "passed": 129,
+  "generated_at": "2026-02-23T02:17:39.301684",
+  "total_files": 135,
+  "passed": 135,
   "failed": 0,
   "results": [
     {
@@ -233,6 +233,12 @@
       "issues": []
     },
     {
+      "file": "cycas_revoluta_cycas_cirinalis_zamia_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "cycas_spp_or_zamia_spp.json",
       "status": "PASS",
       "issue_count": 0,
@@ -294,6 +300,12 @@
     },
     {
       "file": "dracaena_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "eg_satin_pothos.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -515,6 +527,12 @@
       "issues": []
     },
     {
+      "file": "mentha_spicata.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "mentha_spp.json",
       "status": "PASS",
       "issue_count": 0,
@@ -576,6 +594,12 @@
     },
     {
       "file": "orange_mint.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "oxalis_spp.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -689,7 +713,19 @@
       "issues": []
     },
     {
+      "file": "sansevieria_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "scadoxus_spp.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "schefflera_spp_or_schefflera_actinphylla.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

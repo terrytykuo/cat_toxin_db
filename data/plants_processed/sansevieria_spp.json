@@ -1,0 +1,54 @@
+{
+  "plant": {
+    "common_name": "Snake Plant / Mother-in-Law\u2019s Tongue",
+    "scientific_name": "Sansevieria spp.",
+    "family": "Agavaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: This is a hardy, succulent plant characterized by its erect, elongated, lanceolate (spear-shaped) leaves, which can be flat or cylindrical1. The leaves are dark green, patterned with horizontal gray bands throughout, and may feature a yellow stripe along the margins1. When the plant blooms, it produces many yellow, star-like flowers that grow on a tall central spike or raceme1.\n\u2022 Habitat and Where Commonly Found: It is very commonly kept indoors as a houseplant1. (Note: The provided sources do not detail its natural outdoor habitat)."
+  },
+  "basics": {
+    "family": "Agavaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: This is a hardy, succulent plant characterized by its erect, elongated, lanceolate (spear-shaped) leaves, which can be flat or cylindrical1. The leaves are dark green, patterned with horizontal gray bands throughout, and may feature a yellow stripe along the margins1. When the plant blooms, it produces many yellow, star-like flowers that grow on a tall central spike or raceme1.\n\u2022 Habitat and Where Commonly Found: It is very commonly kept indoors as a houseplant1. (Note: The provided sources do not detail its natural outdoor habitat)."
+  },
+  "toxic_parts": [
+    "Leaf",
+    "Flower"
+  ],
+  "toxins": [
+    {
+      "name": "Hemolytic saponins and organic acids",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: These compounds act as gastrointestinal irritants. When a cat ingests them, they trigger gastrointestinal distress, resulting in nausea, excessive salivation, vomiting, and diarrhea12. Additionally, the hemolytic nature of the saponins can lead to hemolysis (the rupture or destruction of red blood cells) related to this gastrointestinal activity",
+      "concentration_notes": "These toxic compounds are present in the leaves and flowers of the plant, with the leaves being particularly noted as a primary source12. Despite the potential for hemolysis, the overall severity of the toxicity for this plant is generally considered mild"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Nausea, vomiting, diarrhea, and excessive salivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the provided sources.",
+      "notes": "These signs are the primary reaction to the irritating saponins and organic acids in the plant2. You can offer the cat water, monitor their condition, and ensure they cannot eat any more of the plant1. You should contact a veterinarian if the vomiting becomes severe or persistent1.\n2. Hemolysis"
+    },
+    {
+      "name": "Hemolysis (the rupture or destruction of red blood cells)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the provided sources.",
+      "notes": "This blood-related symptom is directly related to the gastrointestinal activity of the hemolytic saponins found in the leaves and flowers of the plant"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Exposure Prevention and Monitoring",
+      "description": "The immediate first step is to prevent the cat from eating any more of the plant. Offer the cat water to drink and closely monitor their condition for gastrointestinal upset",
+      "notes": "Because this plant usually causes only mild irritation, removing access to the plant and ensuring the cat stays hydrated is often the only action required. You should contact a veterinarian if the vomiting or diarrhea becomes severe or persistent1.\n2. Symptomatic Veterinary Care",
+      "priority": 1
+    },
+    {
+      "name": "Fluid and Electrolyte Therapy",
+      "description": "If the cat's symptoms warrant a veterinary visit, the vet will provide symptomatic and supportive care. This primarily involves administering fluids and electrolytes to restore hydration and correct any imbalances",
+      "notes": "This veterinary treatment becomes necessary if the cat is experiencing significant fluid loss from prolonged vomiting and diarrhea, or to provide systemic support if the cat is experiencing internal complications like hemolysis (the destruction of red blood cells) caused by the plant's saponins and organic acids",
+      "priority": 2
+    }
+  ]
+}

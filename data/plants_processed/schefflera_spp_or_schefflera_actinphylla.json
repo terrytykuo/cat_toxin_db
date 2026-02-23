@@ -1,0 +1,66 @@
+{
+  "plant": {
+    "common_name": "Schefflera / Umbrella Tree",
+    "scientific_name": "Schefflera spp. or Schefflera actinphylla",
+    "family": "Araliaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Umbrella Tree is a fast-growing evergreen1. It is named for its glossy, palmately compound leaves that hang and spread outward, giving it the appearance of an umbrella1. As the plant matures, the number of leaflets increases and they become more compact1. The leaves feature pronounced veins and have edges that are smooth (entire) to slightly scalloped (crenate)1.\n\u2022 Habitat and Where Commonly Found: While its natural outdoor habitat is not detailed in the text, it is very commonly found indoors cultivated as an ornamental houseplant"
+  },
+  "basics": {
+    "family": "Araliaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Umbrella Tree is a fast-growing evergreen1. It is named for its glossy, palmately compound leaves that hang and spread outward, giving it the appearance of an umbrella1. As the plant matures, the number of leaflets increases and they become more compact1. The leaves feature pronounced veins and have edges that are smooth (entire) to slightly scalloped (crenate)1.\n\u2022 Habitat and Where Commonly Found: While its natural outdoor habitat is not detailed in the text, it is very commonly found indoors cultivated as an ornamental houseplant"
+  },
+  "toxic_parts": [
+    "Leaf"
+  ],
+  "toxins": [
+    {
+      "name": "Insoluble calcium oxalates (specifically in the form of needle-like crystals known as raphides)",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: These insoluble oxalate crystals are bundled tightly inside specialized plant cells called idioblasts3. When a cat chews or crushes the plant material, these cells are mechanically ruptured, forcefully ejecting the sharp, needle-like crystals into the cat's tissues3. This acts as a physical irritant rather than a chemical poison, penetrating the delicate mucous membranes of the mouth, throat, and gastrointestinal tract13. This immediate physical trauma causes intense localized pain, swelling (edema), excessive drooling, and vomiting",
+      "concentration_notes": "The oxalate crystals are found in the leaves of the plant1. Because chewing the plant causes immediate and intense oral pain, cats typically stop eating it very quickly, which naturally limits the amount consumed and keeps the overall toxicity relatively mild3. Unlike soluble oxalates, the insoluble oxalates found in the Umbrella Tree do not absorb into the bloodstream and therefore do not pose a risk of systemic organ damage or acute renal (kidney) injury"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Mucous membrane irritation, intense oral pain, and excessive salivation (drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate (upon chewing the plant material).",
+      "notes": "This is caused by the mechanical rupture of plant cells that forcefully eject sharp, needle-like insoluble calcium oxalate crystals into the cat's oral tissues. The immediate physical trauma and intense pain usually deter the cat from eating more of the plant, which helps keep the overall toxicity mild1.\n2. Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion (within a few hours).",
+      "notes": "If the cat manages to swallow the chewed plant material, the insoluble oxalate crystals act as physical irritants as they pass through the digestive tract, triggering vomiting. Diarrhea may also develop if the exposure is severe enough1.\n3. Anorexia (Loss of Appetite)"
+    },
+    {
+      "name": "Anorexia",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to within a few hours following exposure.",
+      "notes": "The cat's refusal to eat is typically a direct consequence of the localized pain, swelling, and irritation in the mouth and throat caused by the oxalate crystals"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Airway Security and Oxygen Support",
+      "description": "The veterinary team will monitor the cat's breathing, secure an open airway, and provide oxygen support",
+      "notes": "This is the most urgent treatment but is only necessary in severe cases if the localized swelling (edema) reaches the laryngeal region (throat) and causes respiratory distress1.\n2. Oral Decontamination",
+      "priority": 1
+    },
+    {
+      "name": "Oral Rinsing and Clearance",
+      "description": "Any remaining plant material is removed from the mouth, and the oral cavity is rinsed or wiped out to remove the sharp, needle-like oxalate crystals. The administration of milk or other calcium-containing dairy products may also be used, as the calcium binds to the insoluble oxalates and helps clear them from the mouth and esophagus",
+      "notes": "The intense immediate pain usually limits the amount of plant material the cat consumes, making simple decontamination sufficient for most exposures to resolve1.\n3. Symptomatic and Supportive Care",
+      "priority": 2
+    },
+    {
+      "name": "Symptomatic Gastrointestinal Care",
+      "description": "The veterinarian will treat the cat based on the specific clinical signs they develop, which may include managing excessive drooling, anorexia, vomiting, or diarrhea",
+      "notes": "Because the insoluble oxalates act as physical irritants rather than systemic chemical poisons, treatments are focused entirely on soothing the mucous membrane irritation and managing stomach upset",
+      "priority": 3
+    }
+  ]
+}

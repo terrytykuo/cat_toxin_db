@@ -1,0 +1,72 @@
+{
+  "plant": {
+    "common_name": "Shamrock",
+    "scientific_name": "Oxalis spp.",
+    "family": "Oxalidaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: These are small, herbaceous plants best known for their distinctive, clover-like leaves. The leaves are typically divided into three triangular or heart-shaped leaflets (trifoliate) that exhibit \"sleep movements,\" folding down at night or during harsh light. They produce delicate, five-petaled flowers that are commonly white, pink, or yellow.\n\u2022 Habitat and Where Commonly Found: Oxalis species are highly adaptable and grow in a variety of natural habitats worldwide, including woodlands, meadows, and grassy clearings. They are very commonly cultivated and sold as decorative indoor potted houseplants (especially around St. Patrick's Day) and are also frequently found growing wild as common weeds in outdoor gardens and lawns."
+  },
+  "basics": {
+    "family": "Oxalidaceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: These are small, herbaceous plants best known for their distinctive, clover-like leaves. The leaves are typically divided into three triangular or heart-shaped leaflets (trifoliate) that exhibit \"sleep movements,\" folding down at night or during harsh light. They produce delicate, five-petaled flowers that are commonly white, pink, or yellow.\n\u2022 Habitat and Where Commonly Found: Oxalis species are highly adaptable and grow in a variety of natural habitats worldwide, including woodlands, meadows, and grassy clearings. They are very commonly cultivated and sold as decorative indoor potted houseplants (especially around St. Patrick's Day) and are also frequently found growing wild as common weeds in outdoor gardens and lawns."
+  },
+  "toxic_parts": [
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Soluble oxalates (specifically referring to oxalic acid and soluble oxalate salts)",
+      "chemical_formula": "Not provided in the given sources.",
+      "description": "in cats: Unlike insoluble oxalates that act as physical irritants in the mouth, soluble oxalates are absorbed from the gastrointestinal tract into the bloodstream23. Once in the blood, they bind with the body's systemic calcium, resulting in a sudden and dangerous drop in blood calcium levels (hypocalcemia)23. Furthermore, there is a risk that these calcium oxalates will precipitate (form solid crystals) within the kidneys, causing damage to the renal tubules and potentially leading to acute renal failure",
+      "concentration_notes": "Soluble oxalates are present in varying degrees in all parts of the Shamrock plant3. The toxicity is highly dependent on the amount consumed; a small taste or nibble typically only results in mild gastrointestinal upset (such as vomiting or inappetence)2. A cat must consume a large quantity of the plant to experience the severe systemic effects of hypocalcemia or renal failure"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal distress (including drooling, vomiting, diarrhea, and inappetence/anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "This is the most common presentation when a cat only takes a small taste or nibble of the plant. More serious signs are not expected unless larger quantities are consumed3.\n2. Hypocalcemic Tetany (Neurological/Muscular Signs)"
+    },
+    {
+      "name": "Hypocalcemic tetany (manifesting as lethargy, extreme weakness, ataxia/incoordination, tremors, and seizures)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "This occurs following a large ingestion. The soluble oxalates absorb from the gastrointestinal tract into the bloodstream, where they bind to the body's calcium. This causes a sudden, dangerous drop in systemic blood calcium levels (hypocalcemia), triggering these severe neurological and muscular symptoms34.\n3. Acute Renal Failure"
+    },
+    {
+      "name": "Acute renal failure (manifesting as changes in thirst and urination, PU/PD [polyuria/polydipsia], bloody urine",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "While rarely seen, this occurs if the calcium oxalates precipitate (form crystals) within the kidneys, causing direct damage to the renal tubules"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Emesis Induction and Activated Charcoal",
+      "description": "If the ingestion is recent, the veterinarian will medically induce vomiting (emesis) to remove the plant material from the stomach. This is followed by administering a single dose of activated charcoal with a cathartic to bind any remaining toxins in the gastrointestinal tract and speed their transit out of the body",
+      "notes": "This is an urgent first step for large ingestions to prevent the soluble oxalates from absorbing into the bloodstream13. If the cat only took a tiny taste, this step may not be deemed necessary, as small exposures typically only cause mild stomach upset1.\n2. Systemic Support and Kidney Protection",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and Renal Monitoring",
+      "description": "The cat is hospitalized and administered IV fluids for 24 to 48 hours. During this time, the veterinary team will monitor the cat's renal indices (blood tests evaluating kidney function) to check for developing kidney damage",
+      "notes": "This is crucial because soluble oxalates can precipitate into crystals within the kidneys, directly damaging the renal tubules23. IV fluids help flush the kidneys, support blood pressure, and maintain hydration.\n3. Electrolyte Correction (If Hypocalcemia Occurs)",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous Calcium Gluconate",
+      "description": "The veterinarian will administer IV calcium gluconate to directly replace the calcium in the cat's bloodstream",
+      "notes": "This specific treatment is indicated only in severe cases where a large ingestion has caused the soluble oxalates to bind with the body's systemic calcium1.... It reverses life-threatening hypocalcemia and resolves symptoms of hypocalcemic tetany, such as tremors, extreme weakness, ataxia, and seizures13.\n4. Mild Symptomatic Management",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Gastrointestinal Care",
+      "description": "The veterinarian will manage general digestive upset (such as vomiting or loss of appetite) with standard supportive treatments, which may include anti-nausea medications",
+      "notes": "If the cat only ingested a very small amount of the Shamrock plant, serious systemic signs are not expected, and managing the mild GI upset may be the only treatment required",
+      "priority": 4
+    }
+  ]
+}

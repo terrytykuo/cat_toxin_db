@@ -11,11 +11,11 @@
   },
   "toxic_parts": [
     "Bulb",
-    "Entire Plant",
-    "Flower",
     "Pollen",
     "Stem",
-    "Leaf"
+    "Leaf",
+    "Entire Plant",
+    "Flower"
   ],
   "toxins": [
     {

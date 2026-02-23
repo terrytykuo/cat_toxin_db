@@ -10,8 +10,8 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found): The provided sources do not offer a detailed physical description or specific natural wild habitat for wild nightshade plants (such as Deadly Nightshade/Belladonna or Bittersweet Nightshade).\nHowever, the sources do note that the Nightshade (Solanaceae) family encompasses a wide variety of extremely common agricultural, garden, and household plants1.... Plants in this family include tomatoes, potatoes, eggplants, bell peppers, chili peppers, petunias, bittersweet, and deadly belladonna1.... As a defense mechanism against pests and herbivores, these plants generally feature green portions (such as leaves, stems, and sprouts) that contain toxic glycoalkaloids like solanine13.\nBecause the provided texts lack a specific physical botanical description and the natural habitat for wild Nightshade,"
   },
   "toxic_parts": [
-    "Fruit",
-    "Entire Plant"
+    "Entire Plant",
+    "Fruit"
   ],
   "toxins": [
     {
