@@ -34,7 +34,18 @@ def load_all() -> list[dict]:
     files = sorted(CLEANED_DIR.glob("*.json"))
     if not files:
         raise FileNotFoundError(f"No files found in {CLEANED_DIR}. Run clean_plants.py first.")
-    return [json.loads(f.read_text()) for f in files]
+    records = [json.loads(f.read_text()) for f in files]
+    # Deduplicate by scientific_name (keep first occurrence)
+    seen_sci = set()
+    deduped = []
+    for r in records:
+        sci = r.get("plant", {}).get("scientific_name", "")
+        if sci not in seen_sci:
+            seen_sci.add(sci)
+            deduped.append(r)
+        else:
+            print(f"  [skip duplicate] {sci}")
+    return deduped
 
 
 def build_lookup_tables(records: list[dict]) -> tuple[dict, dict, dict, dict]:
