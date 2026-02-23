@@ -1,5 +1,5 @@
-import { Hono } from 'hono';
-import { eq, like, sql } from 'drizzle-orm';
+import { OpenAPIHono, createRoute, z } from '@hono/zod-openapi';
+import { eq, sql } from 'drizzle-orm';
 import { createDb, Env } from '../db/client';
 import {
   plants, plantToxicParts, toxicParts,
@@ -7,19 +7,44 @@ import {
   plantSymptoms, symptoms,
   plantTreatments, treatments,
 } from '../db/schema';
+import {
+  PlantsListResponseSchema,
+  PlantDetailSchema,
+  ErrorSchema,
+} from '../schemas';
 
-const router = new Hono<{ Bindings: Env }>();
+const router = new OpenAPIHono<{ Bindings: Env }>();
 
-// GET /plants
-router.get('/', async (c) => {
+const listPlantsRoute = createRoute({
+  method: 'get',
+  path: '/',
+  summary: 'List plants',
+  description: 'Returns a paginated list of plants toxic to cats. Supports filtering by name, severity level, and affected body system.',
+  request: {
+    query: z.object({
+      q:           z.string().optional().openapi({ description: 'Search by common or scientific name' }),
+      severity:    z.enum(['mild', 'moderate', 'severe', 'fatal']).optional().openapi({ description: 'Minimum severity filter' }),
+      body_system: z.string().optional().openapi({ description: 'Filter by affected body system (e.g. gastrointestinal, cardiac)' }),
+      page:        z.string().optional().openapi({ description: 'Page number (default: 1)' }),
+      per_page:    z.string().optional().openapi({ description: 'Results per page (default: 20, max: 100)' }),
+    }),
+  },
+  responses: {
+    200: {
+      content: { 'application/json': { schema: PlantsListResponseSchema } },
+      description: 'Paginated list of plants',
+    },
+  },
+});
+
+router.openapi(listPlantsRoute, async (c) => {
   const db = createDb(c.env);
-  const { q, severity, body_system, page = '1', per_page = '20' } = c.req.query();
+  const { q, severity, body_system, page = '1', per_page = '20' } = c.req.valid('query');
 
   const pageNum    = Math.max(1, parseInt(page));
   const perPageNum = Math.min(100, Math.max(1, parseInt(per_page)));
   const offset     = (pageNum - 1) * perPageNum;
 
-  // Build base query with max severity per plant
   let rows = await db
     .select({
       id:             plants.id,
@@ -38,7 +63,6 @@ router.get('/', async (c) => {
     .groupBy(plants.id)
     .all();
 
-  // Filters
   if (q) {
     const lower = q.toLowerCase();
     rows = rows.filter(r =>
@@ -58,7 +82,7 @@ router.get('/', async (c) => {
       .selectDistinct({ plantId: plantSymptoms.plantId })
       .from(plantSymptoms)
       .leftJoin(symptoms, eq(symptoms.id, plantSymptoms.symptomId))
-      .where(like(symptoms.bodySystem, `%${body_system}%`))
+      .where(sql`${symptoms.bodySystem} LIKE ${'%' + body_system + '%'}`)
       .all();
     const ids = new Set(plantsWithSystem.map(r => r.plantId));
     rows = rows.filter(r => ids.has(r.id));
@@ -80,10 +104,35 @@ function severityLabel(n: number): string | null {
   return ['mild', 'moderate', 'severe', 'fatal'][n - 1] ?? null;
 }
 
-// GET /plants/:id
-router.get('/:id', async (c) => {
+const getPlantRoute = createRoute({
+  method: 'get',
+  path: '/:id',
+  summary: 'Get plant detail',
+  description: 'Returns full detail for a single plant including toxins, symptoms, treatments, and toxic parts.',
+  request: {
+    params: z.object({
+      id: z.string().openapi({ description: 'Plant ID' }),
+    }),
+  },
+  responses: {
+    200: {
+      content: { 'application/json': { schema: PlantDetailSchema } },
+      description: 'Plant detail',
+    },
+    400: {
+      content: { 'application/json': { schema: ErrorSchema } },
+      description: 'Invalid ID',
+    },
+    404: {
+      content: { 'application/json': { schema: ErrorSchema } },
+      description: 'Plant not found',
+    },
+  },
+});
+
+router.openapi(getPlantRoute, async (c) => {
   const db = createDb(c.env);
-  const id = parseInt(c.req.param('id'));
+  const id = parseInt(c.req.valid('param').id);
   if (isNaN(id)) return c.json({ error: 'Invalid id' }, 400);
 
   const [plant] = await db.select().from(plants).where(eq(plants.id, id)).limit(1);

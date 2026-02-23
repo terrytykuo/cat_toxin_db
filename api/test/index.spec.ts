@@ -22,4 +22,19 @@ describe('Cat Toxin API', () => {
 		const body = await response.json() as { status: string };
 		expect(body.status).toBe('ok');
 	});
+
+	it('GET /docs returns Swagger UI HTML', async () => {
+		const response = await SELF.fetch('https://example.com/docs');
+		expect(response.status).toBe(200);
+		const text = await response.text();
+		expect(text.toLowerCase()).toContain('swagger');
+	});
+
+	it('GET /openapi.json returns OpenAPI 3.0 spec', async () => {
+		const response = await SELF.fetch('https://example.com/openapi.json');
+		expect(response.status).toBe(200);
+		const body = await response.json() as { openapi: string; info: { title: string } };
+		expect(body.openapi).toBe('3.0.0');
+		expect(body.info.title).toBe('Cat Toxin Database API');
+	});
 });
