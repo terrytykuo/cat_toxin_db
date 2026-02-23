@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-02-23T14:51:18.348930",
-  "total_files": 153,
-  "passed": 153,
+  "generated_at": "2026-02-23T20:17:03.653823",
+  "total_files": 154,
+  "passed": 154,
   "failed": 0,
   "results": [
     {
@@ -906,6 +906,12 @@
     },
     {
       "file": "zamia_pumila.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "zamioculcas.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

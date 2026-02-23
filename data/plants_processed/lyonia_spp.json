@@ -10,9 +10,9 @@
     "family": "Ericaceae"
   },
   "toxic_parts": [
+    "Stem",
     "Flower",
     "Entire Plant",
-    "Stem",
     "Leaf"
   ],
   "toxins": [

@@ -10,8 +10,8 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Ylang Ylang is a fast-growing, medium-to-large evergreen tropical tree. It features gracefully drooping branches with long, smooth, glossy green leaves. The tree is heavily prized for its intensely fragrant, drooping flowers, which feature long, narrow, slightly twisted petals. These star-shaped flowers start out light green and turn a deep, vibrant yellow as they mature. After flowering, it produces clusters of small, dark, berry-like fruits.\n\u2022 Habitat and Where Commonly Found: Native to the tropical rainforests of Southeast Asia, the Philippines, Indonesia, and parts of Australia, it thrives in warm, humid, tropical climates with full sun and well-draining, acidic soils. Today, it is cultivated globally in tropical and subtropical regions (such as Madagascar and the Comoros Islands). It is most commonly found in commercial agricultural plantations where its flowers are harvested and distilled into essential oils for the perfume and aromatherapy industries, though it is also planted as a fragrant ornamental shade tree in tropical landscaping."
   },
   "toxic_parts": [
-    "Flower",
     "Stem",
+    "Flower",
     "Leaf",
     "Root"
   ],

@@ -10,9 +10,9 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Tomato plants feature green foliage (leaves and stems) that emit a distinct, pungent aroma and are covered with prickly hairs4. The plant produces fruit that begins as green and unripe, eventually maturing into the popular fleshy, red tomatoes56.\n\u2022 Habitat and Where Commonly Found: As a widely accepted and cultivated food crop, tomato plants are most commonly found growing in agricultural settings, household gardens, and in pots on patios or balconies"
   },
   "toxic_parts": [
-    "Fruit",
     "Stem",
-    "Leaf"
+    "Leaf",
+    "Fruit"
   ],
   "toxins": [
     {

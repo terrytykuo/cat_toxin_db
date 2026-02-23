@@ -8,8 +8,8 @@
   "basics": {},
   "toxic_parts": [
     "Flower",
-    "Fruit",
-    "Leaf"
+    "Leaf",
+    "Fruit"
   ],
   "toxins": [
     {

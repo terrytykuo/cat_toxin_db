@@ -1,0 +1,73 @@
+{
+  "plant": {
+    "common_name": "ZZ Plant",
+    "scientific_name": "Zamioculcas zamiifolia",
+    "family": "Araceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The ZZ Plant is a tropical evergreen subshrub known for its thick, fleshy, upright stems and incredibly glossy, dark green, oval-shaped leaflets arranged in a feather-like pattern. It grows from stout, potato-like underground rhizomes that store water, which makes the plant highly resilient.\n\u2022 Habitat and Where Commonly Found: It is originally native to the dry grasslands, rocky areas, and forests of Eastern and Southern Africa (stretching from Kenya down to South Africa), where it is adapted to survive long periods of drought. Today, it is most commonly found worldwide as a highly popular indoor houseplant because it is exceptionally low-maintenance, requiring very little water and tolerating low-light indoor environments very well."
+  },
+  "basics": {
+    "family": "Araceae",
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The ZZ Plant is a tropical evergreen subshrub known for its thick, fleshy, upright stems and incredibly glossy, dark green, oval-shaped leaflets arranged in a feather-like pattern. It grows from stout, potato-like underground rhizomes that store water, which makes the plant highly resilient.\n\u2022 Habitat and Where Commonly Found: It is originally native to the dry grasslands, rocky areas, and forests of Eastern and Southern Africa (stretching from Kenya down to South Africa), where it is adapted to survive long periods of drought. Today, it is most commonly found worldwide as a highly popular indoor houseplant because it is exceptionally low-maintenance, requiring very little water and tolerating low-light indoor environments very well."
+  },
+  "toxic_parts": [
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Insoluble calcium oxalate crystals (often referred to as raphides)",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: Rather than acting as a systemic chemical poison, these toxins act as mechanical irritants. The microscopic, needle-like crystals are bundled and stored inside specialized plant cells called idioblasts23. When a cat bites or chews on the plant material, the cells break and forcefully eject the sharp crystals into the cat's oral mucosa and surrounding tissues23. This causes immediate, intense tissue trauma, burning, and inflammation in the mouth, tongue, and throat",
+      "concentration_notes": "The crystals are distributed throughout all parts of the ZZ Plant1. The plant's overall toxicity level is considered mild [369, Conversation History]. Because the sharp crystals cause immediate and intense pain upon chewing, cats are usually deterred from eating large quantities of the plant4. Therefore, the toxic effects are typically limited to excessive drooling, mouth irritation, reluctance to eat, and possible vomiting"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Mouth irritation (intense pain and burning sensation in the mouth)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate (upon chewing) [Conversation History].",
+      "notes": "This irritation is caused by the mechanical trauma of insoluble calcium oxalate crystals (raphides) piercing the oral tissues when the plant is chewed [369, Conversation History]. The immediate and intense pain usually deters the cat from swallowing or eating large quantities of the plant [Conversation History].\n2. Excessive Drooling"
+    },
+    {
+      "name": "Excessive drooling (hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate [Conversation History].",
+      "notes": "This is a direct physiological response to the sharp crystals irritating the delicate mucous membranes in the cat's mouth and throat [369, Conversation History].\n3. Reluctance to Eat"
+    },
+    {
+      "name": "Reluctance to eat (anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to shortly after exposure [Conversation History].",
+      "notes": "Cats will often refuse food due to the lingering pain and inflammation in their oral cavity [369, Conversation History]. Rinsing the cat's mouth with water can help soothe the irritation, but if the refusal to eat persists, veterinary consultation is recommended1.\n4. Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion [Conversation History].",
+      "notes": "Vomiting can occur if the cat manages to swallow the plant material [369, Conversation History]. While typically a mild and self-limiting symptom for this plant, a veterinarian should be consulted if the vomiting becomes continuous"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Airway Management and Oxygen Support",
+      "description": "The veterinary team secures the cat's airway and administers supplemental oxygen.",
+      "notes": "While rare for mild plants like the ZZ plant, this is the most urgent intervention if the irritation from the crystals causes severe swelling in the throat (laryngeal edema) that leads to respiratory distress2.\n2. Oral Decontamination",
+      "priority": 1
+    },
+    {
+      "name": "Oral Decontamination (Rinsing and Calcium Binding)",
+      "description": "Any remaining plant material is removed from the cat's mouth, and the oral cavity is rinsed or wiped out with water. Additionally, milk or other calcium-containing dairy products may be administered.",
+      "notes": "This is used to soothe the immediate irritation. The calcium in dairy products binds to the insoluble oxalate crystals (raphides), which helps clear them from the mouth and esophagus12.\n3. General Monitoring and Symptomatic Support",
+      "priority": 2
+    },
+    {
+      "name": "Monitoring and Symptomatic Care",
+      "description": "The cat is observed to ensure symptoms like drooling and mouth irritation subside, with supportive care provided as needed.",
+      "notes": "Because the ZZ Plant's toxicity is mild, cats usually recover without issue. However, a veterinarian should be consulted if the cat experiences continuous vomiting or is reluctant to eat due to lingering oral pain",
+      "priority": 3
+    }
+  ]
+}

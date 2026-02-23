@@ -10,8 +10,8 @@
     "description": "Brief Description: The sources do not provide a detailed physical description, habitat, or common locations for Milkweed. The limited information available notes that it is an outdoor plant that contains a toxic sap1. The sources also highlight its unique ecological role: the monarch butterfly ingests milkweed and stores the plant's toxic cardiac glycosides in its wings as a defense mechanism to protect itself from predators"
   },
   "toxic_parts": [
-    "Sap",
-    "Entire Plant"
+    "Entire Plant",
+    "Sap"
   ],
   "toxins": [
     {

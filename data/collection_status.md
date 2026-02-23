@@ -160,4 +160,4 @@
 | 156 | Yesterday-today-and-tomorrow | Yesterday-today-and-tomorrow | Brunfelsia pauciflora floribunda | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 157 | Yew | Yew | Taxus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 158 | Ylang Ylang | Ylang Ylang | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 159 | ZZ Plant | ZZ Plant | Zamioculcas | | | | | | | |
+| 159 | ZZ Plant | ZZ Plant | Zamioculcas | [x] | [x] | [x] | [x] | [x] | [x] | [x] |

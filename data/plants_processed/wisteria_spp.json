@@ -10,11 +10,11 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: Wisteria is a vigorous climbing plant (vine) that requires physical support to grow1. It is most famous for its stunning, pendant (hanging) flower blooms that are often sweetly scented and can range in color from purple to white and pink2. After the flowers bloom, the plant produces seeds enclosed in pods34.\n\u2022 Habitat and Where Commonly Found: Wisteria is originally native to parts of Asia and the United States2. Today, it is highly prized for its aesthetic appeal and is cultivated in gardens around the globe as a decorative ornamental plant"
   },
   "toxic_parts": [
-    "Seed",
     "Leaf",
+    "Stem",
+    "Seed",
     "Flower",
-    "Bark",
-    "Stem"
+    "Bark"
   ],
   "toxins": [
     {

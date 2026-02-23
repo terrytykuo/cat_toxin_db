@@ -10,8 +10,8 @@
     "description": "Brief Description\n\u2022 Appearance: Mistletoe is an evergreen shrub featuring a round, highly branched green stem with ovoid, opposite-facing leaves1. The plant produces distinct white berries that each contain a single seed1.\n\u2022 Habitat and Common Locations: In its natural habitat, mistletoe grows as a perennial parasitic plant that attaches itself to deciduous trees1. It is most commonly found inside homes during the winter months, as it is a very popular festive decoration brought indoors for the Christmas holiday season"
   },
   "toxic_parts": [
-    "Fruit",
-    "Leaf"
+    "Leaf",
+    "Fruit"
   ],
   "toxins": [
     {

@@ -10,11 +10,11 @@
     "description": "Brief Description\n\u2022 Appearance: It grows as a tree or shrub with long branches originating from terminal buds. The leaves are ovate-elliptical, alternate, and veined, appearing dark green on the top and paler underneath with a \"papery\" feel. The plant produces inconspicuous yellow-green flowers arranged in panicles. The fruit is a berry that is ovoid or pear-shaped (pyriform), featuring a thick, leathery, glossy dark green skin, lime-green to yellow flesh, and a single, smooth, ovoid seed1.\n\u2022 Habitat and Location: There are three commonly cultivated races of avocado: Mexican, Guatemalan, and West Indies1. It is widely cultivated for its fruit1 and is commonly found in households as a food item"
   },
   "toxic_parts": [
-    "Seed",
     "Leaf",
-    "Bark",
+    "Stem",
+    "Seed",
     "Fruit",
-    "Stem"
+    "Bark"
   ],
   "toxins": [
     {

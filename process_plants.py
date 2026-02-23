@@ -114,7 +114,8 @@ MANUAL_FAMILIES = {
     "Zephyranthes drummondii": "Amaryllidaceae",
     "Rheum rhabarbarum": "Polygonaceae",
     "Senecio jacobaea or Tanacetum vulgare": "Asteraceae",
-    "Brunfelsia pauciflora floribunda": "Solanaceae"
+    "Brunfelsia pauciflora floribunda": "Solanaceae",
+    "Zamioculcas zamiifolia": "Araceae"
 }
 
 MANUAL_DESCRIPTIONS = {
@@ -155,7 +156,8 @@ MANUAL_TOXIC_PARTS = {
     "Cinnamomum verum": ["Sap", "Bark"],
     "Darlingtonia californica": ["Leaf"],
     "Paeonia spp.": ["Root", "Bark", "Flower", "Seed"],
-    "Zephyranthes drummondii": ["Bulb", "Leaf", "Stem", "Flower"]
+    "Zephyranthes drummondii": ["Bulb", "Leaf", "Stem", "Flower"],
+    "Zamioculcas zamiifolia": ["Entire Plant"]
 }
 
 def strip_source_refs(text):
@@ -460,6 +462,10 @@ def postprocess(processed):
     # Fix Ylang Ylang scientific name
     if plant.get("common_name") == "Ylang Ylang" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown"]):
         plant["scientific_name"] = "Cananga odorata"
+
+    # Fix ZZ Plant scientific name
+    if plant.get("common_name") == "ZZ Plant" and (not plant.get("scientific_name") or str(plant.get("scientific_name")).lower() in ["none", "n/a", "unknown", "zamioculcas"]):
+        plant["scientific_name"] = "Zamioculcas zamiifolia"
 
     plant["family"] = clean_family(plant.get("family"))
     

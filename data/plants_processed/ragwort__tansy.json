@@ -10,8 +10,8 @@
     "description": "Brief Description (Appearance, Habitat, and Where Commonly Found) The sources do not contain a physical description or specific natural habitat details for this plant. The only context provided is that it is an herb that might be found growing at home, on a windowsill, or in a garden"
   },
   "toxic_parts": [
-    "Flower",
     "Stem",
+    "Flower",
     "Leaf"
   ],
   "toxins": [
