@@ -1,9 +1,21 @@
 {
-  "generated_at": "2026-03-01T13:03:36.754492",
-  "total_files": 7,
-  "passed": 7,
+  "generated_at": "2026-03-01T13:26:22.302558",
+  "total_files": 11,
+  "passed": 11,
   "failed": 0,
   "results": [
+    {
+      "file": "apples__apple_seeds.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "cherries.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
     {
       "file": "garlic.json",
       "status": "PASS",
@@ -23,7 +35,19 @@
       "issues": []
     },
     {
+      "file": "macadamia_nuts.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "onions.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "peaches.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
