@@ -8,10 +8,10 @@
   "sources": [],
   "toxic_parts": [
     "Entire food",
-    "Flesh",
-    "Fruit",
     "Skin",
-    "Seed"
+    "Flesh",
+    "Seed",
+    "Fruit"
   ],
   "toxins": [
     {

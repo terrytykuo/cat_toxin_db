@@ -1,0 +1,101 @@
+{
+  "plant": {
+    "common_name": "Bones",
+    "scientific_name": "Bones",
+    "family": "Various",
+    "description": "Brief Description and Common Forms\nDescription: Bones are the hard, rigid organs that make up the skeletal system of vertebrate animals. In the context of pet diets and household hazards, they are typically the remnants of meat and poultry.\nCommon Forms: Bones are most commonly encountered in households as leftover human food scraps, such as cooked bones (especially chicken/poultry bones), fish bones, or raw bones from meat trimmings1.... All forms of bones pose a severe physical hazard to cats: cooked bones become brittle and easily splinter into sharp shards, while raw bones are hard enough to cause dental fractures and can carry dangerous foodborne pathogens2.... Feeding either form can lead to choking, life-threatening gastrointestinal obstructions, or internal lacerations2...."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Based on the provided sources",
+      "chemical_formula": null,
+      "description": "to cause harm, there are no chemical formulas or specific toxic concentrations to report.\nInstead, the danger bones pose to cats is entirely due to severe physical and biological hazards14.\nHere is a breakdown of the actual harmful mechanisms associated with bones:",
+      "concentration_notes": null
+    },
+    {
+      "name": "Sharp Bone Splinters (Physical Hazard)",
+      "chemical_formula": null,
+      "description": "in cats: The cooking process dries out bones and makes them extremely brittle35. When a cat chews them, they easily splinter into sharp, needle-like shards13. These splinters can cause severe choking or lead to life-threatening internal lacerations and perforations of the cat's mouth, throat, stomach, and intestines",
+      "concentration_notes": null
+    },
+    {
+      "name": "Whole or Large Bone Fragments (Physical Hazard)",
+      "chemical_formula": null,
+      "description": "in cats: Swallowing intact bones or large fragments presents a massive choking hazard and can physically lodge in the digestive system, causing a complete gastrointestinal obstruction1.... Furthermore, gnawing on items that are as hard as or harder than the cat's own teeth can cause painful dental fractures",
+      "concentration_notes": null
+    },
+    {
+      "name": "Foodborne Pathogens (Biological Hazard)",
+      "chemical_formula": null,
+      "description": "in cats: If a cat is given raw bones, they face the same biological hazards as eating raw meat4. Raw bones frequently harbor live bacterial pathogens and parasites that can infect the gastrointestinal tract, leading to severe vomiting, diarrhea, and systemic illness",
+      "concentration_notes": null
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Based on the provided sources and our conversation history, ingesting bones",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": null,
+      "notes": null
+    },
+    {
+      "name": "Choking",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Immediate (during or right after ingestion).",
+      "notes": "Bones, particularly cooked poultry or fish bones, can easily splinter or lodge in the cat's throat, presenting an immediate and life-threatening choking hazard"
+    },
+    {
+      "name": "Gastrointestinal Obstruction, Laceration, or Perforation",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Immediate to acute (within hours of ingestion).",
+      "notes": "Cooked bones become extremely brittle and splinter into sharp shards when chewed2.... These shards can cause severe damage to the mouth and digestive system, leading to internal lacerations, perforations of the intestines, or complete blockages of the gastrointestinal tract2.... Raw bones can also cause obstructions"
+    },
+    {
+      "name": "Dental Fractures",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Immediate (while chewing).",
+      "notes": "Gnawing on objects that are as hard as or harder than the cat's own teeth, such as dense bones, can cause painful dental fractures"
+    },
+    {
+      "name": "Vomiting and Diarrhea (Foodborne Pathogen Infection)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Variable/Acute (typically within hours to a few days,",
+      "notes": "This symptom is specifically associated with the ingestion of raw bones, which frequently harbor dangerous foodborne bacteria such as Salmonella and E. coli16. Ingesting these pathogens leads to gastrointestinal infection and systemic illness"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "1. Emergency Airway Clearance",
+      "description": "of the procedure: Immediate veterinary intervention to safely dislodge and remove a bone fragment stuck in the cat's mouth, throat, or airway to restore normal breathing.\nAny situation-specific",
+      "notes": "This is the most critical, life-saving priority if a bone splinters and lodges in the throat. Cooked bones (especially poultry and fish bones) are extremely brittle and pose an immediate, severe choking hazard",
+      "priority": 1
+    },
+    {
+      "name": "Emergency Surgery or Endoscopic Retrieval",
+      "description": "of the procedure: A veterinarian uses an endoscope (a flexible tube with a camera) to retrieve the bone from the upper digestive tract, or performs abdominal surgery to safely extract bone fragments from the stomach or intestines and repair damaged tissue4.\nAny situation-specific",
+      "notes": "This is highly urgent if the swallowed bone causes a physical blockage (gastrointestinal obstruction) or if sharp, splintered shards cause life-threatening internal lacerations and perforations of the stomach or intestinal walls",
+      "priority": 2
+    },
+    {
+      "name": "Veterinary Dental Intervention",
+      "description": "of the procedure: The cat is placed under general anesthesia so the veterinarian can safely extract the remaining roots of a shattered tooth or repair the dental damage.\nAny situation-specific",
+      "notes": "Chewing on bones that are as hard as or harder than the cat's own teeth can cause painful dental fractures36. This requires professional dental care to alleviate the pain and prevent deep root infections.",
+      "priority": 3
+    },
+    {
+      "name": "Antimicrobial Therapy and Supportive Care",
+      "description": "of the procedure: Administering targeted veterinary antibiotics to combat bacterial infections, often alongside intravenous (IV) fluids to maintain hydration and support organ function.\nAny situation-specific",
+      "notes": "This treatment is necessary if the cat ingested raw bones, which frequently harbor dangerous foodborne pathogens like Salmonella and E. coli28. Antibiotics are also critical to prevent or treat severe secondary infections (like peritonitis) if a splintered bone has lacerated the cat's internal organs",
+      "priority": 4
+    }
+  ]
+}

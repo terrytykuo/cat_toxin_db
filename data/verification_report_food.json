@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-01T14:02:34.013965",
-  "total_files": 17,
-  "passed": 17,
+  "generated_at": "2026-03-01T15:18:08.036365",
+  "total_files": 23,
+  "passed": 23,
   "failed": 0,
   "results": [
     {
@@ -23,7 +23,19 @@
       "issues": []
     },
     {
+      "file": "bones.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "cherries.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "chocolate.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -83,6 +95,24 @@
       "issues": []
     },
     {
+      "file": "raw_eggs__raw_egg_whites.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "raw_fish.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "raw_meat.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "scallions__green_onions.json",
       "status": "PASS",
       "issue_count": 0,
@@ -96,6 +126,12 @@
     },
     {
       "file": "starfruit.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "tuna.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
