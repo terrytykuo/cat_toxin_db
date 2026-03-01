@@ -4,11 +4,11 @@
 |---|---|---|---|---|---|---|---|---|
 | 1 | Onions | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 2 | Garlic | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 3 | Scallions / Green onions | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 3 | Scallions / Green onions | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 4 | Leeks | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 5 | Shallots | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 6 | Grapes | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 7 | Raisins | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 5 | Shallots | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 6 | Grapes | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 7 | Raisins | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 8 | Macadamia nuts | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 9 | Cherries | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 10 | Apples / Apple seeds | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
