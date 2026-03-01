@@ -9,10 +9,10 @@
 | 5 | Shallots | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 6 | Grapes | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 7 | Raisins | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 8 | Macadamia nuts | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 9 | Cherries | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 10 | Apples / Apple seeds | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 11 | Peaches | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 8 | Macadamia nuts | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 9 | Cherries | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 10 | Apples / Apple seeds | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 11 | Peaches | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 12 | Plums | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 13 | Apricots | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 14 | Starfruit | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
