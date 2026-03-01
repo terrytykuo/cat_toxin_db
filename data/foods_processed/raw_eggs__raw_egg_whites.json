@@ -1,0 +1,77 @@
+{
+  "plant": {
+    "common_name": "Raw eggs / Raw egg whites",
+    "scientific_name": "Raw eggs / Raw egg whites",
+    "family": "Various",
+    "description": "Brief Description and Common Forms\nDescription: Raw eggs are the unheated, uncooked ova of poultry. The anatomy of the egg consists of the nutrient-dense yolk and the surrounding clear liquid known as the egg white (albumen)12. The raw egg white naturally contains a specific glycoprotein called avidin12. They also carry a high risk of harboring harmful bacteria such as Salmonella and E. coli before they are cooked3.\nCommon Forms: In household and culinary environments, they are encountered as whole, uncooked eggs, or as separated raw egg whites. They are frequently consumed by humans in lightly cooked or entirely raw forms through items such as smoothies, homemade mayonnaise, aioli, and traditional nutritional tonics4."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Skin",
+    "Raw form"
+  ],
+  "toxins": [
+    {
+      "name": "Avidin",
+      "chemical_formula": null,
+      "description": "in cats: Avidin functions as an anti-nutritional factor rather than a traditional chemical poison. When a cat consumes raw egg whites, the avidin binds extremely tightly to biotin (Vitamin B7) in the digestive tract, forming an insoluble complex that completely prevents the cat's intestines from absorbing this essential nutrient1.... Because biotin is a critical coenzyme for fatty acid synthesis and energy metabolism, this blockage leads to a functional biotin deficiency46. In cats, this manifests as severe dermatological and coat issues, including scaly dermatitis, dandruff, severe itching, eczema, poor coat quality, and \"spectacle eye\" (hair loss around the eyes)45.\nAny notes on concentration or potency: Avidin's binding to biotin is exceptionally potent; it is one of the strongest non-covalent interactions known in nature, featuring a dissociation constant (K\nd\n\t\u200b\n\n) of 10\n\u221215\n\u00a0M4. A single molecule of avidin is capable of binding four molecules of biotin, effectively locking the vitamin away from the body's use14. The health risks arise from chronic consumption or eating substantial quantities of raw eggs over time45. The application of heat during cooking denatures the avidin protein, rendering it completely inactive and safe",
+      "concentration_notes": "or potency: Avidin's binding to biotin is exceptionally potent; it is one of the strongest non-covalent interactions known in nature, featuring a dissociation constant (K\nd\n\t\u200b\n\n) of 10\n\u221215\n\u00a0M4. A single molecule of avidin is capable of binding four molecules of biotin, effectively locking the vitamin away from the body's use14. The health risks arise from chronic consumption or eating substantial quantities of raw eggs over time45. The application of heat during cooking denatures the avidin protein, rendering it completely inactive and safe"
+    },
+    {
+      "name": "Foodborne Pathogens (Salmonella, E. coli, Campylobacter) (Note",
+      "chemical_formula": null,
+      "description": "in cats: Ingesting raw eggs exposes the cat to these live pathogens, which infect and severely irritate the gastrointestinal tract89. This biological infection causes severe gastrointestinal distress, including vomiting, diarrhea, lethargy, and can potentially trigger painful conditions like pancreatitis810.\nAny notes on concentration or potency: The pathogenic risk is strictly associated with the uncooked nature of the eggs; thoroughly cooking the eggs kills these harmful bacteria, neutralizing the threat",
+      "concentration_notes": "or potency: The pathogenic risk is strictly associated with the uncooked nature of the eggs; thoroughly cooking the eggs kills these harmful bacteria, neutralizing the threat"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Based on the provided sources, a cat exposed to or ingesting raw eggs",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": null,
+      "notes": null
+    },
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Short-term (typically within hours to a few days,",
+      "notes": "These symptoms are primarily caused by foodborne bacteria, such as Salmonella and E. coli, which frequently contaminate raw eggs1.... Additionally, the high fat content in raw eggs can severely irritate the digestive system and potentially trigger a painful inflammation of the pancreas (pancreatitis)"
+    },
+    {
+      "name": "Dermatological Lesions and Coat Degradation",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Chronic / Delayed (develops over time with repeated, chronic consumption).",
+      "notes": "This is the direct result of the protein avidin, which is found in raw egg whites. Avidin binds tightly to biotin (Vitamin B7) in the cat's digestive tract, preventing absorption and causing a functional vitamin deficiency that severely impacts the skin, hair, and coat3.... It can also result in brittle, splitting nails"
+    },
+    {
+      "name": "Lethargy and Fatigue",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Variable (can present acutely alongside gastrointestinal symptoms, or chronically).",
+      "notes": "Lethargy and drowsiness are commonly observed as an acute systemic response to the foodborne pathogens (Salmonella or E. coli)34. Additionally, chronic biotin deficiency caused by avidin can manifest as prolonged low mood and fatigue over time, since biotin is critical for energy metabolism"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "1. Induction of Emesis (Early Gastrointestinal Decontamination)",
+      "description": "of the procedure: If the ingestion of raw eggs is caught very early (typically within 1 to 2 hours) and the cat is still asymptomatic, a veterinarian may administer a feline-specific \u03b1\n2\n\t\u200b\n\n-adrenergic agonist, such as dexmedetomidine, to safely induce vomiting and expel the raw egg material from the stomach1.\nAny situation-specific",
+      "notes": "This is the primary goal for early intervention of feline dietary toxicoses1. Pet owners must never attempt to use hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated in cats and can cause fatal hemorrhagic gastritis",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and Supportive Care",
+      "description": "of the procedure: The cat may be hospitalized to receive continuous intravenous fluids (a drip) and undergo blood tests to closely monitor organ function while symptoms resolve2.\nAny situation-specific",
+      "notes": "This supportive treatment is generally required if the cat develops severe gastrointestinal distress (vomiting and diarrhea) or acute pancreatitis triggered by the high fat content or foodborne pathogens, such as Salmonella or E. coli, commonly associated with raw eggs",
+      "priority": 2
+    },
+    {
+      "name": "Dietary Correction and Monitoring (For Chronic Ingestion)",
+      "description": "of the procedure: Completely removing raw eggs from the cat's diet and conducting a comprehensive dietary analysis to ensure micronutrient sufficiency5.\nAny situation-specific",
+      "notes": "This is a critical step if the cat has chronically consumed raw egg whites, as the glycoprotein avidin tightly binds to biotin (Vitamin B7) and prevents its absorption67. The veterinarian will monitor for signs of functional biotin deficiency, which include scaly dermatitis, poor coat quality, and hair loss around the eyes78. Thoroughly cooking eggs neutralizes the avidin, rendering them safe",
+      "priority": 3
+    }
+  ]
+}

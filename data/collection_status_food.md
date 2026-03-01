@@ -19,12 +19,12 @@
 | 15 | Avocado | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 16 | Citrus fruits (oranges, tangerines, lemons, pomelos) | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 17 | Unripened pineapples | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 18 | Raw eggs / Raw egg whites | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 19 | Raw fish | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 20 | Raw meat | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 21 | Bones | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 22 | Tuna | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 23 | Chocolate | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 18 | Raw eggs / Raw egg whites | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 19 | Raw fish | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 20 | Raw meat | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 21 | Bones | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 22 | Tuna | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 23 | Chocolate | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 24 | Cocoa | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 25 | Coffee | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 26 | Tea | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
