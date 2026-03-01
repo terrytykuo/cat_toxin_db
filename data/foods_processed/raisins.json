@@ -1,0 +1,92 @@
+{
+  "plant": {
+    "common_name": "Raisins",
+    "scientific_name": "Raisins",
+    "family": "Various",
+    "description": "Food Category: They are categorized as a fruit (specifically, a dehydrated fruit)1.\n2. Brief Description and Common Forms\nDescription: Raisins are produced by drying raw grapes13. Because the dehydration process removes the water content of the fruit, the naturally occurring compounds within the grape\u2014most notably tartaric acid and its salt, potassium bitartrate\u2014become highly concentrated in raisins45.\nCommon Forms: Raisins are widely consumed as a standalone human snack and are frequently incorporated into a variety of foods, including trail mixes, cereals, cookies, baked goods, and holiday breads6.... Other common dried forms of Vitis vinifera grapes include sultanas and currants (such as Zante currants)1...."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Fruit",
+    "Entire food",
+    "Flesh",
+    "Seed",
+    "Skin"
+  ],
+  "toxins": [
+    {
+      "name": "Because raisins are the dehydrated form of grapes, their toxic principles are the exact same. Recently",
+      "chemical_formula": null,
+      "description": null,
+      "concentration_notes": null
+    },
+    {
+      "name": "Tartaric Acid and Potassium Bitartrate",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: In humans, the renal Organic Anion Transporter 4 (OAT-4) actively secretes tartaric acid into the urine for safe excretion4. However, dogs\u2014and by extension, cats\u2014lack this specific OAT-4 transporter45. Because they cannot efficiently pump the tartaric acid out of their renal tubular epithelial cells, the acid accumulates to dangerous levels within the proximal tubules of the kidneys45. This intracellular accumulation triggers oxidative stress and mitochondrial dysfunction, which ultimately causes massive cellular necrosis, leading to acute kidney injury (AKI) and potentially fatal renal failure4.\nAny notes on concentration or potency: Fresh grapes naturally contain a tartaric acid concentration ranging from 0.35% to 2.0%16. Because raisins are dehydrated, the water loss causes the tartaric acid inside to become significantly more concentrated, making them even more potent and dangerous on a per-weight basis than fresh grapes6. While individual sensitivity and the exact tartaric acid content of the specific fruit can vary, the ingestion of more than one grape or raisin per 4.5 kg (10 pounds) of body weight is generally considered enough to contain sufficient tartaric acid to pose a serious risk of kidney injury",
+      "concentration_notes": "or potency: Fresh grapes naturally contain a tartaric acid concentration ranging from 0.35% to 2.0%16. Because raisins are dehydrated, the water loss causes the tartaric acid inside to become significantly more concentrated, making them even more potent and dangerous on a per-weight basis than fresh grapes6. While individual sensitivity and the exact tartaric acid content of the specific fruit can vary, the ingestion of more than one grape or raisin per 4.5 kg (10 pounds) of body weight is generally considered enough to contain sufficient tartaric acid to pose a serious risk of kidney injury"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "1. Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid onset, typically within 6 to 12 hours",
+      "notes": "This is usually the first clinical sign of raisin and grape toxicosis to appear2. Repeated vomiting is considered a primary early warning sign of the illness"
+    },
+    {
+      "name": "Lethargy, Weakness, and Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within 6 to 24 hours",
+      "notes": "These symptoms generally develop and worsen as the initial gastrointestinal upset progresses and the cat becomes increasingly dehydrated"
+    },
+    {
+      "name": "Hyperactivity and Tremors",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Early stage (shortly after ingestion)",
+      "notes": "Affected cats may become noticeably hyperactive or exhibit muscle tremors in conjunction with the initial bouts of sickness and vomiting"
+    },
+    {
+      "name": "Oliguria, Anuria, and Acute Kidney Injury (AKI)",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "Within 24 to 72 hours (1 to 3 days)",
+      "notes": "This is the life-threatening hallmark of raisin toxicosis, caused by the accumulation of tartaric acid in the kidneys which triggers massive cellular necrosis1. Cats with pre-existing chronic kidney disease are at an even greater risk for this complication4. Bloodwork typically shows a disproportionate rise in serum creatinine compared to blood urea nitrogen (BUN)1. Once a cat reaches the anuric stage (stops producing urine altogether), the mortality rate exceeds 50%, and those that do survive the acute injury often suffer from permanent chronic kidney disease"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "1. Early Gastrointestinal Decontamination (Induction of Emesis and Activated Charcoal)",
+      "description": "of the procedure: Promptly inducing vomiting under veterinary supervision to expel the ingested raisins from the stomach, followed by the administration of oral activated charcoal to bind any remaining toxins in the gastrointestinal tract1....\nAny situation-specific",
+      "notes": "This is the most urgent first step and is highly effective if performed within the first 15 to 20 minutes to 2 hours of ingestion12. However, because the digestion of raisins and grapes can be unusually slow, decontamination may still be worthwhile several hours after ingestion4. For cats, veterinarians typically use an \u03b1\n2\n\t\u200b\n\n-adrenergic agonist like dexmedetomidine to safely induce vomiting, as 3% hydrogen peroxide is strictly contraindicated and can cause fatal hemorrhagic gastritis1. It should be noted that the true efficacy of activated charcoal in binding tartaric acid (the toxic principle) is currently unknown",
+      "priority": 1
+    },
+    {
+      "name": "Aggressive Intravenous (IV) Fluid Therapy (Diuresis)",
+      "description": "of the procedure: Hospitalizing the cat to administer continuous, aggressive IV fluids for a minimum of 48 hours to maintain renal perfusion and support kidney function2....\nAny situation-specific",
+      "notes": "This step is essential if the cat has eaten a large quantity of raisins, or if clinical signs like vomiting and diarrhea have already developed25. Throughout fluid therapy, renal function parameters (such as serum creatinine) and fluid balance must be closely monitored for at least 72 hours",
+      "priority": 2
+    },
+    {
+      "name": "Anti-emetic Medications (Symptomatic Relief)",
+      "description": "of the procedure: Administering anti-sickness medications to control nausea and stop vomiting4.\nAny situation-specific",
+      "notes": "This treatment is indicated if the cat has developed protracted, spontaneous vomiting as a clinical sign of the toxicosis",
+      "priority": 3
+    },
+    {
+      "name": "Diuretic Medications (Urine Stimulation)",
+      "description": "of the procedure: Administering specific medications intravenously to force the kidneys to produce more urine45.\nAny situation-specific",
+      "notes": "This targeted intervention is indicated if the cat progresses to an oliguric state (producing an abnormally small amount of urine) despite receiving aggressive IV fluid therapy",
+      "priority": 4
+    },
+    {
+      "name": "Renal Replacement Therapy (Dialysis)",
+      "description": "of the procedure: Utilizing mechanical filtration (hemodialysis) or abdominal fluid exchanges (peritoneal dialysis) to artificially remove waste products and toxins from the bloodstream47.\nAny situation-specific",
+      "notes": "This is a drastic, last-resort intervention indicated if the cat's kidneys fail entirely and it reaches an anuric stage (complete cessation of urine production)2.... Once a patient is anuric, survival is highly unlikely without dialysis, and even with this advanced therapy, the prognosis remains guarded",
+      "priority": 5
+    }
+  ]
+}

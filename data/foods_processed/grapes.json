@@ -1,0 +1,75 @@
+{
+  "plant": {
+    "common_name": "Grapes",
+    "scientific_name": "Grapes",
+    "family": "Various",
+    "description": "Food Category: They are categorized as a fruit13.\n2. Brief Description and Common Forms\nDescription: Grapes are a type of fruit known to naturally contain various sugars and organic acids, most notably accumulating high concentrations of tartaric acid (and its salts, like potassium bitartrate) during the ripening process4.\nCommon Forms: They are widely consumed in several forms, most commonly as fresh (raw) grapes or in dehydrated forms such as raisins, sultanas, and Zante currants1.... Additionally, they are frequently processed into commercial products like grape juice, jams, and wine7."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Peel",
+    "Juice",
+    "Entire food",
+    "Flesh",
+    "Seed",
+    "Skin",
+    "Powder"
+  ],
+  "toxins": [
+    {
+      "name": "Tartaric Acid and Potassium Bitartrate",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: In humans, the renal Organic Anion Transporter 4 (OAT-4) actively secretes tartaric acid into the urine for safe excretion3. However, dogs\u2014and by extension, felines\u2014lack this OAT-4 transporter34. Because cats cannot efficiently pump the tartaric acid out of their renal tubular epithelial cells, the acid accumulates to dangerous levels within the proximal tubules of the kidneys34. This intracellular accumulation triggers oxidative stress and mitochondrial dysfunction, which ultimately causes massive cellular necrosis and leads to acute kidney injury (AKI) and renal failure3....\nAny notes on concentration or potency: Fresh grapes naturally contain a tartaric acid concentration ranging from 0.35% to 2.0%67. In dried forms like raisins, this concentration becomes significantly higher6. Predicting exact toxicity can be difficult due to varying concentrations of the acid in different grapes, but generally, the ingestion of more than one grape or raisin per 4.5 kg (10 pounds) of body weight is considered enough to pose a serious risk of acute kidney injury",
+      "concentration_notes": "or potency: Fresh grapes naturally contain a tartaric acid concentration ranging from 0.35% to 2.0%67. In dried forms like raisins, this concentration becomes significantly higher6. Predicting exact toxicity can be difficult due to varying concentrations of the acid in different grapes, but generally, the ingestion of more than one grape or raisin per 4.5 kg (10 pounds) of body weight is considered enough to pose a serious risk of acute kidney injury"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "1. Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid onset, typically within 6 to 12 hours.",
+      "notes": "This is usually the first clinical sign of grape, raisin, or currant toxicosis12. Even small amounts of grapes can cause a cat to repeatedly vomit"
+    },
+    {
+      "name": "Hyperactivity",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion (early stage).",
+      "notes": "Cats may become noticeably hyperactive in conjunction with the initial bouts of sickness and vomiting"
+    },
+    {
+      "name": "Oliguria, Anuria, and Acute Kidney Injury (AKI)",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "Within 24 to 72 hours (1 to 3 days).",
+      "notes": "This is the life-threatening hallmark of the toxicosis, caused by the accumulation of tartaric acid in the kidneys which triggers massive cellular necrosis2. Bloodwork typically shows a disproportionate rise in serum creatinine compared to blood urea nitrogen (BUN)2. Once a cat reaches the anuric stage (stops producing urine), the mortality rate exceeds 50%2. Cats that do survive the acute injury often suffer from permanent chronic kidney disease"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "1. Early Gastrointestinal Decontamination (Induction of Emesis and Activated Charcoal)",
+      "description": "of the procedure: Promptly inducing vomiting to expel the ingested grapes from the stomach, often followed by administering oral activated charcoal in an attempt to bind any remaining toxins1....\nAny situation-specific",
+      "notes": "This is the most urgent first step but is most effective if performed within the first 15 to 20 minutes of ingestion, before the tartaric acid can be fully absorbed1. While aggressive decontamination is widely recommended for any quantity of grape ingestion, the actual efficacy of activated charcoal in binding tartaric acid is currently unknown34. For felines, veterinarians will use specific emetics (like dexmedetomidine), as canine emetic agents like 3% hydrogen peroxide are strictly contraindicated and can cause fatal hemorrhagic gastritis in cats",
+      "priority": 1
+    },
+    {
+      "name": "Aggressive Intravenous (IV) Fluid Therapy (Diuresis)",
+      "description": "of the procedure: Hospitalizing the patient to administer continuous, aggressive IV fluids for a minimum of 48 hours to maintain renal perfusion, increase urine output, and help clear the tartaric acid from the kidneys1....\nAny situation-specific",
+      "notes": "This is an absolute necessity if the cat has eaten a very large amount of grapes, or if early clinical signs like spontaneous vomiting or diarrhea have already developed14. Renal function parameters (such as serum creatinine) and overall fluid balance must be closely monitored throughout the fluid therapy for at least 72 hours to watch for acute kidney injury",
+      "priority": 2
+    },
+    {
+      "name": "Diuretic Medications (Urine Stimulation)",
+      "description": "of the procedure: Administering specific medications intravenously to forcefully stimulate the kidneys to produce more urine14.\nAny situation-specific",
+      "notes": "This targeted treatment is indicated if the cat progresses to an oliguric state (producing an abnormally small amount of urine) despite already receiving aggressive IV fluids",
+      "priority": 3
+    },
+    {
+      "name": "Renal Replacement Therapy (Dialysis)",
+      "description": "of the procedure: Utilizing mechanical filtration (hemodialysis) or abdominal fluid exchanges (peritoneal dialysis) to artificially remove waste products and toxins from the bloodstream when the kidneys have failed7.\nAny situation-specific",
+      "notes": "This is a drastic, last-resort intervention indicated if the cat reaches an anuric stage (completely stops producing urine)7. Once a patient is anuric, survival is considered highly unlikely without dialysis, and even with advanced renal replacement therapy, the prognosis remains heavily guarded",
+      "priority": 4
+    }
+  ]
+}

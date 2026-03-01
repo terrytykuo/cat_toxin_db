@@ -1,11 +1,17 @@
 {
-  "generated_at": "2026-03-01T12:21:16.856934",
-  "total_files": 4,
-  "passed": 4,
+  "generated_at": "2026-03-01T13:03:36.754492",
+  "total_files": 7,
+  "passed": 7,
   "failed": 0,
   "results": [
     {
       "file": "garlic.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "grapes.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -23,7 +29,19 @@
       "issues": []
     },
     {
+      "file": "raisins.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "scallions__green_onions.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "shallots.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
