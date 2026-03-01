@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-03-01T11:46:51.690890",
+  "total_files": 4,
+  "passed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "file": "garlic.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "leeks.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "onions.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "scallions__green_onions.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    }
+  ]
+}

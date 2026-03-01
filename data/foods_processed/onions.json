@@ -1,0 +1,136 @@
+{
+  "plant": {
+    "common_name": "Onions",
+    "scientific_name": "Onions",
+    "family": "Various",
+    "description": "Under current botanical classification, they are part of the subfamily Allioideae within the family Amaryllidaceae2.... In older taxonomies, they were classified under the family Alliaceae or the lily family (Liliaceae)2....\nFood Category: They are categorized as a vegetable and are considered one of the oldest and most important horticultural crops in the world5.\n2. Brief Description and Common Forms\nDescription: Onions are biannual bulbous plants that grow primarily in the Northern Hemisphere and form either solitary or clustered bulbs26. They are strongly aromatic vegetables known for releasing a distinctive, characteristic odor when cut or crushed67. This unique aroma and flavor come from a complex mixture of sulfur-containing organic compounds (organosulfoxides) inside the plant cells6.... Because of their durability for storage and shipping, onions are widely used as a foundational ingredient in many dishes, cuisines, and ethnomedical practices worldwide5....\nCommon Forms: Onions are highly versatile and are consumed or utilized in various forms. The most common forms include fresh (raw), cooked (such as boiled or grilled), and dehydrated (such as flakes or granules)6.... They are also heavily processed into juice or onion powder, which is frequently used as a seasoning in broths, sauces, dry soup mixes, and even human baby food12...."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Juice",
+    "Powder"
+  ],
+  "toxins": [
+    {
+      "name": "N-propyl disulfide (also referred to as Di-propyl-disulfide)",
+      "chemical_formula": "H7C3S2C3H714.",
+      "description": "It acts as a potent oxidant that causes a marked decrease in the activity of glucose-6-phosphate dehydrogenase (G6PD) in feline red blood cells2.... G6PD is essential for producing NADPH, which maintains glutathione in a reduced state67. Without it, glutathione levels drop, leading to an accumulation of hydrogen peroxide and lipid peroxidation56. This oxidative stress denatures the hemoglobin, forming clumps called Heinz bodies, which increase red blood cell rigidity and fragility, ultimately causing hemolytic anemia6....\nConcentration/Potency Notes: It is widely considered the principal toxin in onions7 and is described as a \"very poisonous\" organosulfur compound that easily overwhelms a cat's antioxidant defenses",
+      "concentration_notes": "It is widely considered the principal toxin in onions7 and is described as a \"very poisonous\" organosulfur compound that easily overwhelms a cat's antioxidant defenses"
+    },
+    {
+      "name": "Sodium n-propylthiosulfate",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "Similar to N-propyl disulfide, it reduces glutathione concentrations in erythrocytes25. It specifically increases methemoglobin concentrations and Heinz body counts in the blood, leading to subsequent oxidative cell damage and hemolytic anemia25.\nConcentration/Potency Notes: This is a highly active oxidizing compound that has been isolated specifically from boiled onions, proving that the toxic principles survive cooking14. It is also classified as \"very poisonous\"",
+      "concentration_notes": "This is a highly active oxidizing compound that has been isolated specifically from boiled onions, proving that the toxic principles survive cooking14. It is also classified as \"very poisonous\""
+    },
+    {
+      "name": "Allyl propylisulfide",
+      "chemical_formula": "H5C3S2C3H714.",
+      "description": "Like other organosulfur compounds in onions, it is readily absorbed through the gastrointestinal tract and metabolized into highly reactive oxidants that trigger oxidative hemolysis1....\nConcentration/Potency Notes: It has historically been implicated as a primary cause of onion-induced hemolytic anemia, though more recent research has proposed that sodium n-propylthiosulfate and other newly discovered sulfur compounds are even more active oxidizers",
+      "concentration_notes": "It has historically been implicated as a primary cause of onion-induced hemolytic anemia, though more recent research has proposed that sodium n-propylthiosulfate and other newly discovered sulfur compounds are even more active oxidizers"
+    },
+    {
+      "name": "Alk(en)yl cysteine sulfoxides (Precursors)",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "These are the parent compounds sequestered inside the plant's cells. When the onion experiences mechanical trauma (such as being chewed, chopped, or cut), these non-toxic precursors instantly convert into the complex mixture of highly toxic sulfur-containing organic compounds (like the ones listed above)3....\nConcentration/Potency Notes: These compounds are responsible for the characteristic odor and flavor of onions910. Because they are present throughout the plant and survive processing, drying, and cooking, they make all forms of onions highly dangerous to cats",
+      "concentration_notes": "These compounds are responsible for the characteristic odor and flavor of onions910. Because they are present throughout the plant and survive processing, drying, and cooking, they make all forms of onions highly dangerous to cats"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "1. Vomiting, Diarrhea, Abdominal Pain, and Loss of Appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within 1 day (or delayed up to 2\u20134 days)",
+      "notes": "These are usually the first clinical signs of toxicosis to appear, frequently resulting in dehydration"
+    },
+    {
+      "name": "Lethargy, Weakness, and Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "After a lag of several days (typically 3\u20135 days)",
+      "notes": "These symptoms emerge as a secondary response to systemic hypoxia caused by the profound loss of oxygen-carrying red blood cells"
+    },
+    {
+      "name": "Pale or Icteric Mucous Membranes (Jaundice)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "After a lag of several days (typically 3\u20135 days)",
+      "notes": "Pale gums indicate a lack of oxygenated blood (anemia), while jaundice (yellowing of the skin/mucosa) indicates severe red blood cell destruction leading to hyperbilirubinemia"
+    },
+    {
+      "name": "Tachypnea, Dyspnea, and Cyanosis",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Several days after ingestion",
+      "notes": "This is a compensatory response to systemic tissue hypoxia and methemoglobinemia, with cyanosis indicating a life-threatening lack of oxygen in the blood"
+    },
+    {
+      "name": "Tachycardia and Heart Murmur",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Several days after ingestion",
+      "notes": "Tachycardia develops as the heart pumps faster to compensate for impaired oxygen transportation45. In one documented feline case, a grade IV heart murmur was also observed upon physical examination"
+    },
+    {
+      "name": "Hemoglobinuria (Dark Urine)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Several days after ingestion (typically 3\u20135 days)",
+      "notes": "This is a hallmark sign of severe poisoning caused by damaged red blood cells rupturing and releasing hemoglobin, which is then excreted through the kidneys3.... This process can lead to secondary acute kidney injury known as hemoglobinuric nephrosis"
+    },
+    {
+      "name": "Hypothermia and Cold Sensitivity",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Several days after ingestion",
+      "notes": "Affected cats may present with an abnormally low body temperature, measured as low as 36.6 \u00b0C in one clinical case"
+    },
+    {
+      "name": "Onion Breath",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion",
+      "notes": "This symptom is specifically associated with recent ingestion and can be a helpful diagnostic clue for veterinarians trying to identify the toxin"
+    },
+    {
+      "name": "Collapse and Death",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within 24 hours (with massive doses) or several days after ingestion",
+      "notes": "Death occurs when oxidative damage to the blood, severe hemolytic anemia, and resulting tissue hypoxia are extensive and overwhelm the animal's bodily systems"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "1. Oxygen Therapy and Blood Transfusions (Life-Saving Stabilization)",
+      "description": "of the procedure: Providing the cat with supplemental oxygen and transfusing whole blood to restore the body's depleted oxygen-carrying capacity",
+      "notes": "This is the most urgent priority for severely affected cats presenting with life-threatening signs such as respiratory distress, systemic hypoxia (from methemoglobinemia), or profound hemolytic anemia (where the hematocrit drops below 15\u201320%)2.... Because there is no specific antidote for onion toxicosis, stabilizing the respiratory and circulatory systems is critical to prevent fatal collapse",
+      "priority": 1
+    },
+    {
+      "name": "Induction of Emesis (Early Gastrointestinal Decontamination)",
+      "description": "of the procedure: Administering an emetic drug, typically an \u03b1\n2\n\t\u200b\n\n-adrenergic agonist like dexmedetomidine (via intramuscular or intravenous injection), to force the cat to expel the ingested plant material before toxins are absorbed",
+      "notes": "This is highly valuable but only indicated if the ingestion was very recent (usually caught within 1 to 3 hours) and the cat is currently asymptomatic1.... Crucially, 3% hydrogen peroxide must never be used to induce vomiting in cats, as it is strictly contraindicated and can cause fatal hemorrhagic gastritis",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Activated Charcoal (Secondary Decontamination)",
+      "description": "of the procedure: Administering oral activated charcoal (typically 1 to 4 g/kg) to bind to and adsorb any residual toxins remaining in the stomach and intestines",
+      "notes": "This is typically administered directly after emesis to trap toxins before they enter the bloodstream1.... However, it should be noted that its actual efficacy in binding to and preventing the production of Allium-derived sulfides is still unknown",
+      "priority": 3
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy (Systemic Supportive Care)",
+      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to rehydrate the animal, support blood pressure, and maintain proper renal perfusion",
+      "notes": "This treatment is indicated if the cat has suffered extensive fluid loss from severe vomiting and diarrhea, or presents with hypotension1. Furthermore, it is an essential protective measure if the cat develops hemoglobinuria (dark urine caused by ruptured red blood cells clearing through the urinary tract), as IV diuresis helps protect the kidneys against secondary damage known as hemoglobinuric nephrosis",
+      "priority": 4
+    },
+    {
+      "name": "Gastrointestinal and Antioxidant Medications (Symptomatic Relief)",
+      "description": "of the procedure: Administering anti-sickness/anti-nausea medications, stomach protectants, and sometimes antioxidant vitamins (C and E) or N-acetyl-cysteine",
+      "notes": "GI protectants and anti-sickness medications are used to manage mild-to-moderate abdominal pain, vomiting, and diarrhea4. While antioxidants are sometimes administered in an attempt to combat the oxidative damage to red blood cells, they have shown minimal proven protective effects against onion toxicity in cats",
+      "priority": 5
+    }
+  ]
+}
