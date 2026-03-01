@@ -1,0 +1,85 @@
+{
+  "plant": {
+    "common_name": "Milk and dairy products",
+    "scientific_name": "Milk and dairy products",
+    "family": "Various",
+    "description": "Botanical Family: Because milk is an animal byproduct (a nutrient-rich secretion from the mammary glands of mammals) rather than a plant, it does not belong to a botanical family.\n2. Brief Description and Common Forms\nDescription: Milk and dairy products are widely consumed human foods, but despite the popular image of a cat lapping up a saucer of milk, they are problematic for felines. While nursing kittens naturally produce high levels of the enzyme lactase to digest their mother's milk, these enzyme levels drop significantly after weaning23. As a result, the vast majority of adult cats are lactose intolerant4.... When an adult cat consumes dairy, the undigested lactose travels to the colon where bacteria ferment it, resulting in gastrointestinal upset such as gas, bloating, abdominal pain, and diarrhea2.... Furthermore, dairy products are often dense in calories and fat, which can unbalance a cat's diet, contribute to obesity, or even trigger a painful condition called pancreatitis7....\nCommon Forms: In the household, pets most commonly encounter this hazard as liquid cow's milk, cheese, yogurt, cream, sour cream, and ice cream1.... (Note: While some owners may consider plant-based milk substitutes like almond or oat milk, or lactose-free cheeses, these are also not recommended as they lack appropriate feline nutrition and may contain other toxic ingredients)711."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Entire food",
+    "Seed",
+    "Skin",
+    "Pit"
+  ],
+  "toxins": [
+    {
+      "name": "Lactose (Milk Sugar)",
+      "chemical_formula": "C",
+      "description": "in cats: While nursing kittens naturally produce high levels of the enzyme lactase to digest their mother's milk, these enzyme levels plummet after weaning12. Because most adult cats lack sufficient lactase, they cannot properly digest the lactose found in dairy13. When the undigested lactose reaches the colon, gastrointestinal bacteria ferment it1. This fermentation process causes gastrointestinal irritation, leading to painful gas, abdominal bloating, flatulence, vomiting, and watery diarrhea1.... If lactose-intolerant cats repeatedly consume dairy, the ongoing irritation can damage the gut lining and potentially lead to chronic inflammatory bowel disease (IBD)6.\nAny notes on concentration or potency: Cow's milk contains the highest concentration of lactose and is the most likely to cause severe symptoms5. Fermented dairy products like hard cheeses (e.g., cheddar) and plain yogurt contain lower amounts of lactose due to the fermentation process and might be tolerated in very small amounts (e.g., a teaspoon), but they can still easily upset the stomachs of sensitive cats",
+      "concentration_notes": "or potency: Cow's milk contains the highest concentration of lactose and is the most likely to cause severe symptoms5. Fermented dairy products like hard cheeses (e.g., cheddar) and plain yogurt contain lower amounts of lactose due to the fermentation process and might be tolerated in very small amounts (e.g., a teaspoon), but they can still easily upset the stomachs of sensitive cats"
+    },
+    {
+      "name": "High Dietary Fat",
+      "chemical_formula": null,
+      "description": "in cats: While cats require some fat in their diet, excessive amounts of rich, high-fat human foods can overload their digestive system8. Consuming high-fat dairy products can trigger pancreatitis, a painful and potentially life-threatening inflammation of the pancreas5.... Additionally, these calorie-dense foods can unbalance a cat's diet and contribute to obesity6.\nAny notes on concentration or potency: Products such as cream, sour cream, and ice cream contain exceptionally high levels of fat and pose the greatest risk for inducing pancreatitis or severe diarrhea57.\n(Note: While not a dairy compound itself, human dairy products like yogurt or ice cream that are labeled \"sugar-free\" or \"low-calorie\" may be sweetened with xylitol79. Xylitol is a highly toxic artificial sweetener that can cause a rapid drop in blood sugar and liver failure in pets, making these specific dairy products exceptionally dangerous79.)",
+      "concentration_notes": "or potency: Products such as cream, sour cream, and ice cream contain exceptionally high levels of fat and pose the greatest risk for inducing pancreatitis or severe diarrhea57.\n(Note: While not a dairy compound itself, human dairy products like yogurt or ice cream that are labeled \"sugar-free\" or \"low-calorie\" may be sweetened with xylitol79. Xylitol is a highly toxic artificial sweetener that can cause a rapid drop in blood sugar and liver failure in pets, making these specific dairy products exceptionally dangerous79.)"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "1. Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within hours (typically 8 to 12 hours after ingestion)",
+      "notes": "Most adult cats lack the enzyme lactase, which is required to digest the lactose found in milk2.... When the undigested lactose reaches the colon, bacteria ferment it, drawing in water and causing loose stools3. If lactose-intolerant cats repeatedly consume dairy, the ongoing irritation can damage the gut lining and potentially lead to chronic inflammatory bowel disease (IBD)"
+    },
+    {
+      "name": "Flatulence, Bloating, and Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within hours",
+      "notes": "This discomfort is a direct result of the gastrointestinal bacteria fermenting the undigested lactose sugars in the colon, which produces excess gas"
+    },
+    {
+      "name": "Vomiting, Nausea, and Decreased Appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within hours",
+      "notes": "These symptoms often accompany the lower gastrointestinal distress, particularly with ongoing ingestion of dairy3. If vomiting persists, the cat's dairy intake must be stopped immediately, and veterinary consultation is advised to help rehydrate the pet safely"
+    },
+    {
+      "name": "Pancreatitis",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Progressive (can develop after consuming high-fat meals)",
+      "notes": "While lactose causes the primary digestive upset in milk, the exceptionally high fat content found in certain dairy products\u2014specifically cream and ice cream\u2014can trigger pancreatitis in susceptible cats68. Frequent feeding of calorie-dense dairy can also unbalance a cat's diet and contribute to obesity"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "1. Fluid Therapy and Rehydration",
+      "description": "of the procedure: The veterinarian administers fluids directly into the bloodstream (IV) or under the skin (subcutaneous) to correct dehydration and electrolyte abnormalities caused by severe fluid loss12.\nAny situation-specific",
+      "notes": "This is the most urgent priority if the cat develops pancreatitis from consuming high-fat dairy (such as heavy cream or ice cream) or if the cat is experiencing persistent vomiting and watery diarrhea due to lactose intolerance",
+      "priority": 1
+    },
+    {
+      "name": "Symptomatic Relief (Anti-emetics and Analgesics)",
+      "description": "of the procedure: To manage severe gastrointestinal distress or pancreatitis, the veterinary team will administer anti-nausea drugs (such as maropitant) to stop vomiting, alongside pain medications (such as buprenorphine) to alleviate abdominal discomfort12.\nAny situation-specific",
+      "notes": "Anti-nausea medications are strongly recommended even if the cat is not actively vomiting. Reducing nausea is a critical step because it helps restore the cat's appetite, which is necessary for recovery",
+      "priority": 2
+    },
+    {
+      "name": "Intensive Nutritional Support",
+      "description": "of the procedure: If the dairy ingestion triggers pancreatitis and the cat refuses to eat, the veterinarian may prescribe appetite stimulants (like mirtazapine)2. If the cat still will not eat, a temporary feeding tube (such as a nasoesophageal or esophagostomy tube) is placed to deliver highly digestible, liquid nutrition directly into the gastrointestinal tract12.\nAny situation-specific",
+      "notes": "Cats are uniquely susceptible to a life-threatening liver condition called hepatic lipidosis (fatty liver disease) if they stop eating due to gastrointestinal pain or nausea. Early and aggressive nutritional support is vital to prevent this secondary complication",
+      "priority": 3
+    },
+    {
+      "name": "At-Home Dietary Management (For Mild Cases)",
+      "description": "of the procedure: For mild cases of lactose intolerance (where the unabsorbed lactose ferments in the colon and causes gas or loose stools), the primary treatment is to immediately withhold all dairy products for at least 48 hours. The cat should be offered fresh water to rehydrate and a bland, easily digestible meal, such as boiled chicken and rice46.\nAny situation-specific",
+      "notes": "Because most adult cats lack the lactase enzyme required to process dairy, mild digestive upset is the most common reaction67. If the cat only experiences mild diarrhea without persistent vomiting, this supportive dietary adjustment at home is often sufficient. However, if vomiting persists, veterinary consultation is required",
+      "priority": 4
+    }
+  ]
+}
