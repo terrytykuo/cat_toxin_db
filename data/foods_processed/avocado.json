@@ -1,0 +1,72 @@
+{
+  "plant": {
+    "common_name": "Avocado",
+    "scientific_name": "Avocado",
+    "family": "Various",
+    "description": "Brief Description and Common Forms\nDescription: The avocado is a fleshy fruit known for its unusually high fat content2.... The anatomy of the plant includes the fruit, a large central seed (or pit), leaves, stems, and bark5.... As a natural defense mechanism, the avocado plant produces a fungicidal toxin called persin, which is highly toxic to many animals23.\nCommon Forms: Avocados are most frequently consumed by humans as fresh, raw fruit flesh, mashed into dishes such as guacamole, or extracted into pure avocado oil6...."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Bark",
+    "Leave",
+    "Flesh",
+    "Fruit",
+    "Skin",
+    "Pit",
+    "Seed",
+    "Stem",
+    "Peel"
+  ],
+  "toxins": [
+    {
+      "name": "Persin",
+      "chemical_formula": "Not provided in the sources.",
+      "description": "in cats: Cats are particularly sensitive to persin because their livers are less efficient at breaking the compound down3. When ingested, the toxin acts as a severe gastrointestinal irritant, causing abdominal pain, vomiting, and diarrhea13. If ingested in large quantities, persin has the potential to cause systemic fluid accumulation, respiratory distress, and myocardial damage (necrosis of the heart muscle)2.... In lactating animals, persin can also cause sterile mastitis, which involves the necrosis and hemorrhage of the mammary gland epithelium24.\nAny notes on concentration or potency: The highest and most toxic concentrations of persin are located in the leaves, bark, stems, skin (peel), and pits (seeds) of the avocado plant1.... The edible green flesh contains only trace amounts of persin38. While cats are at risk of persin poisoning, their overall susceptibility to lethal cardiac complications is considered lower than that of highly vulnerable species like birds, rodents, and livestock",
+      "concentration_notes": "or potency: The highest and most toxic concentrations of persin are located in the leaves, bark, stems, skin (peel), and pits (seeds) of the avocado plant1.... The edible green flesh contains only trace amounts of persin38. While cats are at risk of persin poisoning, their overall susceptibility to lethal cardiac complications is considered lower than that of highly vulnerable species like birds, rodents, and livestock"
+    },
+    {
+      "name": "High Fat Content (Dietary Lipids) (Note",
+      "chemical_formula": null,
+      "description": "in cats: Feline digestive systems are delicate and not adapted to digest large amounts of plant-based fats16. Ingesting avocado flesh or pure avocado oil can severely irritate the gastrointestinal tract and trigger an inflammatory cascade in the pancreas, leading to a painful and potentially life-threatening condition called acute pancreatitis1.... Furthermore, if a cat develops gastrointestinal upset from the fat and stops eating (anorexia), their body will rapidly mobilize peripheral fat stores to the liver for energy10. Because the feline liver is inefficient at processing these fats without adequate dietary protein, the fats accumulate in the liver cells, causing a secondary, life-threatening crisis known as hepatic lipidosis (fatty liver disease)210.\nAny notes on concentration or potency: Avocado flesh and extracted avocado oils are exceptionally dense in fat and calories911. Due to this concentration, even the flesh\u2014which is largely free of the persin toxin\u2014poses a high risk of pancreatitis and severe gastrointestinal distress, particularly for senior cats or those with a history of digestive issues212. Veterinarians recommend limiting any accidental exposure to a tiny fraction (no more than 10\u201315 grams) to prevent these metabolic consequences",
+      "concentration_notes": "or potency: Avocado flesh and extracted avocado oils are exceptionally dense in fat and calories911. Due to this concentration, even the flesh\u2014which is largely free of the persin toxin\u2014poses a high risk of pancreatitis and severe gastrointestinal distress, particularly for senior cats or those with a history of digestive issues212. Veterinarians recommend limiting any accidental exposure to a tiny fraction (no more than 10\u201315 grams) to prevent these metabolic consequences"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Question",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": null,
+      "notes": null
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "within 2 to 6 hours",
+      "notes": "Cats may vomit due to the high fat content or persin"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "within 6 to 12 hours",
+      "notes": "Secondary to gastrointestinal irritation"
+    },
+    {
+      "name": "Pancreatitis",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "12-48 hours",
+      "notes": "Caused by the very high fat content in avocado flesh"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "\ud83d\udcac Asking",
+      "priority": 1,
+      "description": null,
+      "notes": null
+    }
+  ]
+}

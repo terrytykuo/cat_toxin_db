@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-01T13:26:22.302558",
-  "total_files": 11,
-  "passed": 11,
+  "generated_at": "2026-03-01T14:02:34.013965",
+  "total_files": 17,
+  "passed": 17,
   "failed": 0,
   "results": [
     {
@@ -11,7 +11,25 @@
       "issues": []
     },
     {
+      "file": "apricots.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "avocado.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "cherries.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "citrus_fruits_oranges_tangerines_lemons_pomelos.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -53,6 +71,12 @@
       "issues": []
     },
     {
+      "file": "plums.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "raisins.json",
       "status": "PASS",
       "issue_count": 0,
@@ -66,6 +90,18 @@
     },
     {
       "file": "shallots.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "starfruit.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "unripened_pineapples.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

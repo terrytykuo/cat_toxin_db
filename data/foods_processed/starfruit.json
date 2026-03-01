@@ -1,0 +1,65 @@
+{
+  "plant": {
+    "common_name": "Starfruit",
+    "scientific_name": "Starfruit",
+    "family": "What food category or botanical family does it belong to?",
+    "description": "Give a brief description of the food (what it is, common forms).\n\n1. Food Category and Botanical Family\nBotanical Family: Starfruit belongs to the Oxalidaceae family1.\n2. Brief Description and Common Forms\nDescription: Starfruit, also known as carambola, is a tropical fruit with a distinctive star shape when cut in cross-section. It is commonly eaten raw or juiced1."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Fruit",
+    "Skin",
+    "Cooked form",
+    "Pit",
+    "Seed"
+  ],
+  "toxins": [
+    {
+      "name": "Based on the provided sources, there are no complex chemical poisons or unique toxic compounds listed for starfruit",
+      "chemical_formula": null,
+      "description": null,
+      "concentration_notes": null
+    },
+    {
+      "name": "Sodium",
+      "chemical_formula": "Na (Note",
+      "description": "in cats: Because cats are strictly carnivorous, their kidneys already undergo significant strain simply to break down and process dietary proteins. Ingesting sodium from starfruit places an excessive and unnecessary metabolic burden on the cat's kidneys12. This metabolic overload is particularly dangerous for senior cats and cats with pre-existing kidney diseases12.\nAny notes on concentration or potency: The sources do not provide exact numerical concentrations, but specifically categorize starfruit as a fruit that is inherently \"high in sodium\"",
+      "concentration_notes": "or potency: The sources do not provide exact numerical concentrations, but specifically categorize starfruit as a fruit that is inherently \"high in sodium\""
+    },
+    {
+      "name": "Potassium",
+      "chemical_formula": "K (Note",
+      "description": "in cats: Similar to sodium, the ingestion of potassium from starfruit creates a heavy metabolic workload on the cat's kidneys12. This unnecessarily increases the physical burden on organs that are already working hard to process a meat-based diet, threatening the health of older felines and those with renal conditions12.\nAny notes on concentration or potency: The sources do not provide an exact numerical value, but warn that starfruit is \"high in potassium\" and that excessive intake is what triggers the kidney burden12.\n(Note: While outside scientific literature notes that starfruit contains a specific neurotoxin called caramboxin and high levels of oxalates that damage kidneys, the provided sources only attribute the danger of starfruit to its high sodium and potassium content).",
+      "concentration_notes": "or potency: The sources do not provide an exact numerical value, but warn that starfruit is \"high in potassium\" and that excessive intake is what triggers the kidney burden12.\n(Note: While outside scientific literature notes that starfruit contains a specific neurotoxin called caramboxin and high levels of oxalates that damage kidneys, the provided sources only attribute the danger of starfruit to its high sodium and potassium content)."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Based on the provided sources and our conversation history, there is no specific information detailing the exact symptoms, severity",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": "times a cat will show after ingesting starfruit (\u694a\u6843)",
+      "notes": null
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Based on the provided sources, there is no specific, prioritized list of veterinary medical procedures",
+      "priority": 1,
+      "description": null,
+      "notes": null
+    },
+    {
+      "name": "Immediate Veterinary Examination",
+      "description": "of the procedure: Promptly bringing the cat to a veterinary hospital for a professional check-up, diagnosis, and treatment2.\nAny situation-specific",
+      "notes": "Pet parents are strictly warned not to arbitrarily administer any medications to the cat themselves at home",
+      "priority": 2
+    },
+    {
+      "name": "Clinical Observation and History Gathering",
+      "description": "of the procedure: The owner must stay calm and carefully document exactly what the cat ate, the quantity ingested, and whether the cat is showing any signs of toxicity, such as vomiting or diarrhea2.\nAny situation-specific",
+      "notes": "Providing this detailed exposure history directly to the veterinarian is crucial to assist them in accurately diagnosing and treating the cat's condition",
+      "priority": 3
+    }
+  ]
+}

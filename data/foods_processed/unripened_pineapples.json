@@ -1,0 +1,97 @@
+{
+  "plant": {
+    "common_name": "Unripened pineapples",
+    "scientific_name": "Unripened pineapples",
+    "family": "Bromeliaceae",
+    "description": "Brief Description and Common Forms\nDescription and Forms: The provided sources do not offer a physical description of unripened pineapples, other than grouping them with fruits that contain compounds toxic to pets1.\nPlease note that the following is general outside information that you may want to independently verify: A pineapple is a tropical plant with a large, edible multiple fruit consisting of coalesced berries. An unripened pineapple is one that has been harvested or encountered before reaching full maturity. In this raw form, the fruit is typically hard, green, exceptionally acidic, and not yet sweet. It is most commonly encountered as a whole fresh fruit."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Seed",
+    "Skin",
+    "Peel",
+    "Fruit"
+  ],
+  "toxins": [
+    {
+      "name": "Based on the provided sources",
+      "chemical_formula": null,
+      "description": null,
+      "concentration_notes": null
+    },
+    {
+      "name": "Alkaloids (General Class)",
+      "chemical_formula": "Not provided in the sources12.",
+      "description": "in cats: The sources do not detail the exact cellular mechanism for the specific alkaloids in pineapples, but broadly note that a feline's body simply lacks the ability to safely metabolize these toxic components, leading to a dangerous systemic burden12. (Note: In other plants, the sources note that certain alkaloids act as neurotoxins or severe gastrointestinal irritants34, but the texts do not explicitly link these specific mechanisms to pineapples).\nAny notes on concentration or potency: The exact concentration is not provided, though the sources warn that even aside from the flesh, the peels and seeds of fruits often harbor these compounds and must be avoided",
+      "concentration_notes": "or potency: The exact concentration is not provided, though the sources warn that even aside from the flesh, the peels and seeds of fruits often harbor these compounds and must be avoided"
+    },
+    {
+      "name": "Cyanides (General Class)",
+      "chemical_formula": null,
+      "description": "in cats: Cats cannot safely metabolize cyanides12. When cyanide enters the system, it acts as a potent inhibitor of cytochrome c oxidase, a critical enzyme containing ferric ions located in the mitochondrial electron transport chain56. By binding to this enzyme, cyanide completely halts cellular oxygen metabolism and stops ATP (energy) production, leading to rapid cellular death, which catastrophically strikes high-oxygen-demand organs like the brain and heart first56.\nAny notes on concentration or potency: The sources do not provide the specific cyanogenic concentration or potency for unripened pineapples",
+      "concentration_notes": "or potency: The sources do not provide the specific cyanogenic concentration or potency for unripened pineapples"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "The provided sources do not detail a specific, isolated symptom profile exclusively for unripened pineapples1. Instead",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": null,
+      "notes": null
+    },
+    {
+      "name": "Difficulty Breathing and Hyperventilation",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Rapid onset (exact timeframe is not specified in the sources,",
+      "notes": "cyanide halts cellular oxygen metabolism rapidly).\nAny additional clinical notes: The cyanides present in these fruits disrupt normal oxygen utilization, leading to profound respiratory distress and hyperventilation as the body struggles to breathe"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Shortly after ingestion.",
+      "notes": "Vomiting is triggered as a severe poisoning symptom and systemic reaction when the cat is unable to metabolize the toxic alkaloids and cyanides ingested from the fruit"
+    },
+    {
+      "name": "Coma",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Follows initial respiratory distress and systemic poisoning.",
+      "notes": "If the cat ingests a highly toxic dose of cyanides and alkaloids from these fruits, it can catastrophically impact the central nervous system, leading to loss of consciousness and a potentially fatal coma"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Based on the provided sources, there is no specific, isolated treatment protocol detailed exclusively for unripened pineapples. However",
+      "priority": 1,
+      "description": null,
+      "notes": null
+    },
+    {
+      "name": "Supplemental Oxygen Therapy",
+      "description": "of the procedure: Providing the cat with supplemental oxygen to support respiration and cellular function.\nAny situation-specific",
+      "notes": "This is a critical supportive measure required for cats suffering from cyanide poisoning, as the cyanogenic toxins found in these fruits compromise the body's oxygen-carrying capacity and completely halt cellular ATP (energy) production",
+      "priority": 2
+    },
+    {
+      "name": "Induction of Emesis (Early Gastrointestinal Decontamination)",
+      "description": "of the procedure: A veterinarian administers a feline-specific medication (such as an \u03b1\n2\n\t\u200b\n\n-adrenergic agonist like dexmedetomidine) to safely induce vomiting and expel the unripened pineapple material from the stomach2.\nAny situation-specific",
+      "notes": "This is the primary goal if the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic. Pet owners must never attempt to use hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated in cats and can cause fatal hemorrhagic gastritis",
+      "priority": 3
+    },
+    {
+      "name": "Administration of Activated Charcoal (Secondary Decontamination)",
+      "description": "of the procedure: Administering oral activated charcoal to bind to and adsorb any residual toxins remaining in the gastrointestinal tract2.\nAny situation-specific",
+      "notes": "This step typically follows successful emesis to trap any remaining alkaloids and cyanides in the gut, preventing them from being fully absorbed into the cat's bloodstream",
+      "priority": 4
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and Supportive Care",
+      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to maintain organ perfusion, hydration, and electrolyte balance3.\nAny situation-specific",
+      "notes": "Because there is no specific antidote for most feline dietary toxins (including these plant alkaloids and cyanides), treatment relies heavily on intensive supportive care and IV fluids to sustain the cat's vital organs through the systemic poisoning",
+      "priority": 5
+    }
+  ]
+}
