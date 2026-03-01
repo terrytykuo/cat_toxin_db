@@ -1,0 +1,110 @@
+{
+  "plant": {
+    "common_name": "Caffeinated drinks / Soda",
+    "scientific_name": "Caffeinated drinks / Soda",
+    "family": "Various",
+    "description": "Botanical Family: While commercial sodas and energy drinks are manufactured products rather than whole plants, their primary toxic component\u2014caffeine\u2014is a methylxanthine alkaloid naturally derived from plants such as coffee, tea, and cacao (Theobroma cacao)13.\n2. Brief Description and Common Forms\nDescription: Caffeinated drinks and sodas are popular human beverages known for their stimulant effects. They contain caffeine, which acts as a powerful stimulant on the central nervous system2.... While safe for humans, these beverages are highly toxic to cats because felines are much more sensitive to caffeine4. Ingesting even small amounts can cause severe restlessness, rapid breathing, heart palpitations, muscle tremors, and potentially fatal damage to the heart and nervous system1....\nCommon Forms: In the household, these are most commonly found as cola beverages (sodas), energy drinks, and various other caffeinated soft drinks1...."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Seed",
+    "Powder",
+    "Skin"
+  ],
+  "toxins": [
+    {
+      "name": "Based on the provided sources and our conversation history, caffeinated drinks, sodas",
+      "chemical_formula": null,
+      "description": null,
+      "concentration_notes": null
+    },
+    {
+      "name": "Caffeine (1,3,7-trimethylxanthine)",
+      "chemical_formula": "C",
+      "description": "in cats: Caffeine acts as a powerful stimulant on the central nervous system and heart through three primary molecular mechanisms. First, it competitively antagonizes (blocks) A\n1\n\t\u200b\n\n and A\n2\n\t\u200b\n\n cellular adenosine receptors, which normally have an inhibitory effect on the nervous system and heart; blocking them leads to severe central nervous system stimulation and a rapid heart rate1. Second, it inhibits the enzyme phosphodiesterase, leading to a dangerous accumulation of intracellular cyclic AMP1. Third, it modulates calcium fluxes by increasing the entry of extracellular calcium and inhibiting the sarcoplasmic reticulum from sequestering it, which abnormally amplifies the contractility and strength of skeletal and cardiac muscles1.\nAny notes on concentration or potency: Caffeine is found in coffee, black and green teas, energy drinks, and various soft drinks2. Cats are highly sensitive to caffeine because they metabolize it much more slowly than humans do13. The toxic dose of caffeine for cats is between 80 to 150 mg per kilogram of body weight2. Ingesting even small amounts can cause restlessness, rapid breathing, heart palpitations, muscle tremors, and potentially fatal cardiac or respiratory arrest",
+      "concentration_notes": "or potency: Caffeine is found in coffee, black and green teas, energy drinks, and various soft drinks2. Cats are highly sensitive to caffeine because they metabolize it much more slowly than humans do13. The toxic dose of caffeine for cats is between 80 to 150 mg per kilogram of body weight2. Ingesting even small amounts can cause restlessness, rapid breathing, heart palpitations, muscle tremors, and potentially fatal cardiac or respiratory arrest"
+    },
+    {
+      "name": "Xylitol (Birch Sugar / Wood Sugar)",
+      "chemical_formula": "C",
+      "description": "in cats: In many species (most notably dogs), xylitol causes the pancreas to rapidly release an exaggerated amount of insulin (3 to 7 times the normal amount), leading to a severe and life-threatening drop in blood sugar (hypoglycemia) and potential liver failure5.... However, cats process xylitol differently. Current research indicates that cats do not exhibit this same severe insulinogenic response because their pancreas lacks the specific receptor-mediated pathway that triggers insulin release in response to sugar alcohols89.\nAny notes on concentration or potency: Xylitol is frequently found in \"diet\", \"sugar-free\", and \"low-calorie\" drinks, syrups, and drink powders1011. While cats appear to be highly resistant to xylitol toxicity compared to dogs, veterinary toxicologists still strictly recommend avoiding it12. Very high doses (exceeding 1.0 g/kg) may still cause some drop in feline blood sugar, and the long-term hepatic effects of chronic exposure in cats remain understudied912. Additionally, diet drinks containing xylitol often co-contain caffeine, making the overall beverage highly dangerous",
+      "concentration_notes": "or potency: Xylitol is frequently found in \"diet\", \"sugar-free\", and \"low-calorie\" drinks, syrups, and drink powders1011. While cats appear to be highly resistant to xylitol toxicity compared to dogs, veterinary toxicologists still strictly recommend avoiding it12. Very high doses (exceeding 1.0 g/kg) may still cause some drop in feline blood sugar, and the long-term hepatic effects of chronic exposure in cats remain understudied912. Additionally, diet drinks containing xylitol often co-contain caffeine, making the overall beverage highly dangerous"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "1. Gastrointestinal Upset (Vomiting and Diarrhea)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "2 to 4 hours (can be delayed up to 6\u201312 hours)",
+      "notes": "These are typically the initial symptoms after a cat ingests caffeinated drinks or sodas1. Early vomiting can actually be beneficial, as it helps remove some of the unabsorbed toxic caffeine from the cat's body before it fully enters the bloodstream"
+    },
+    {
+      "name": "Increased Thirst and Urination",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "onset": "2 to 4 hours",
+      "notes": "Caffeine acts as a mild diuretic, which increases fluid loss and causes the cat to pass abnormally large amounts of urine, subsequently driving excessive thirst"
+    },
+    {
+      "name": "Severe Neurological Overstimulation",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "2 to 12 hours (progresses as the caffeine is fully absorbed)",
+      "notes": "Caffeine blocks cellular adenosine receptors, leading to severe central nervous system overstimulation4. The cat will become extremely agitated, which can rapidly progress to severe muscle tremors, grand mal seizures, and potentially a coma"
+    },
+    {
+      "name": "Cardiovascular Dysfunction",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "2 to 12 hours",
+      "notes": "Caffeine increases intracellular calcium levels, which abnormally enhances the strength and frequency of cardiac muscle contractions4. This results in very rapid, irregular heartbeats and ultimately cardiac arrest in the terminal phase of poisoning"
+    },
+    {
+      "name": "Respiratory Distress",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Mid to terminal phases (progressing from 2 to 12 hours)",
+      "notes": "As the central nervous and cardiovascular systems become overwhelmed by the stimulant, the cat will pant and breathe very rapidly1.... In the most extreme cases, this culminates in complete respiratory failure and arrest"
+    },
+    {
+      "name": "Hyperthermia",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "6 to 12 hours",
+      "notes": "The extreme overstimulation of the nervous system, combined with continuous hyperactivity and severe muscle tremors, generates excessive internal heat, causing the cat's core body temperature to spike to dangerous levels12.\n(Note: If the caffeinated drink or soda is a \"diet\" or \"sugar-free\" variety sweetened with xylitol, there is a theoretical risk of a rapid drop in blood sugar (hypoglycemia) and liver injury, though cats appear to be much more resistant to xylitol toxicity than dogs7. Nonetheless, xylitol combined with caffeine makes these beverages strictly contraindicated8.)"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "1. Emergency Stabilization (Seizure Control and Cardiovascular Support)",
+      "description": "of the procedure: If the cat is presenting with severe clinical signs from caffeine toxicity, the veterinarian will immediately administer medications such as diazepam or barbiturates to control severe seizures and muscle tremors1. For cardiovascular abnormalities, beta-blockers such as metoprolol or propranolol may be given to treat rapid heart rates (tachycardia), or atropine for an abnormally slow heart rate (bradycardia), alongside artificial respiration if needed1.\nAny situation-specific",
+      "notes": "This is the most urgent priority to prevent death in a highly symptomatic cat. Crucially, lidocaine cannot be used in cats to treat ventricular arrhythmias, as it is contraindicated and toxic to them",
+      "priority": 1
+    },
+    {
+      "name": "Early Gastrointestinal Decontamination",
+      "description": "of the procedure: If the caffeinated drink was ingested recently (within 1 to 2 hours) and the cat is still asymptomatic, the veterinarian will safely induce vomiting to expel the liquid12. For cats, an \u03b1\n2\n\t\u200b\n\n-adrenergic agonist like dexmedetomidine is the preferred medication for this2. If the cat is already seizing or heavily sedated from anticonvulsants, inducing vomiting is dangerous, and a gastric lavage (stomach pumping) should be considered instead1.\nAny situation-specific",
+      "notes": "Hydrogen peroxide is strictly contraindicated in cats for inducing vomiting because it can cause fatal hemorrhagic gastritis",
+      "priority": 2
+    },
+    {
+      "name": "Toxin Adsorption",
+      "description": "of the procedure: Following emesis or lavage, the cat is given oral doses of activated charcoal (typically 1\u20134 g/kg) to adsorb any remaining caffeine (methylxanthines) in the gastrointestinal tract, preventing it from crossing into the bloodstream12.\nAny situation-specific",
+      "notes": "Because caffeine undergoes enterohepatic recirculation (meaning it is processed by the liver, secreted back into the intestines, and reabsorbed), repeated doses of activated charcoal should be administered every 3 hours for up to 72 hours1. Antiemetic medications like metoclopramide may be given to control vomiting so the cat can keep the charcoal down",
+      "priority": 3
+    },
+    {
+      "name": "Fluid Diuresis and Urinary Excretion Support",
+      "description": "of the procedure: The cat is placed on continuous IV fluids to assist in stabilizing cardiovascular function and to hasten the renal excretion of caffeine1. A urinary catheter is also placed to keep the bladder continuously empty1.\nAny situation-specific",
+      "notes": "Placing a urinary catheter is a critical step because caffeine and its toxic metabolites can be reabsorbed directly across the bladder wall back into the bloodstream if urine is allowed to pool1. Note: If the soda was a \"diet\" or \"sugar-free\" variety containing xylitol, IV fluids might be supplemented with dextrose to manage blood sugar drops, though cats appear to be highly resistant to xylitol's hypoglycemic effects compared to dogs",
+      "priority": 4
+    },
+    {
+      "name": "Ongoing Symptomatic and Supportive Care",
+      "description": "of the procedure: The veterinary team continuously monitors the cat's cardiac status via electrocardiography (ECG), actively manages the cat's body temperature (thermoregulation) to treat hyperthermia, and corrects any acid/base or electrolyte abnormalities1.\nAny situation-specific",
+      "notes": "Clinical signs of methylxanthine (caffeine) poisoning can persist for up to 72 hours in severe cases1. Medications such as erythromycin and corticosteroids must be strictly avoided during treatment, as they actively interfere with the body's ability to excrete methylxanthines",
+      "priority": 5
+    }
+  ]
+}

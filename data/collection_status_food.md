@@ -25,10 +25,10 @@
 | 21 | Bones | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 22 | Tuna | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 23 | Chocolate | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 24 | Cocoa | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 25 | Coffee | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 26 | Tea | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 27 | Caffeinated drinks / Soda | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 24 | Cocoa | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 25 | Coffee | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 26 | Tea | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 27 | Caffeinated drinks / Soda | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 28 | Alcohol | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 29 | Raw dough | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 30 | Milk and dairy products | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
