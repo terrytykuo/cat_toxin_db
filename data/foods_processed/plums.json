@@ -1,0 +1,122 @@
+{
+  "plant": {
+    "common_name": "Plums",
+    "scientific_name": "Plums",
+    "family": "Rosaceae",
+    "description": "2. Brief Description and Common Forms\nDescription: Plums are fleshy fruits that contain a hard central stone, pit, or seed (often referred to as a kernel)23. Like other stone fruits in the Rosaceae family, their pits naturally contain cyanogenic glycosides, most notably a compound called amygdalin13.\nCommon Forms: They are commonly consumed as whole fresh fruits. The pits found inside the fruit are generally discarded, as plum kernels can contain anywhere from 4 to 17.5 g/kg of amygdalin depending on the specific variety23."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Leave",
+    "Flesh",
+    "Fruit",
+    "Skin",
+    "Pit",
+    "Seed",
+    "Stem",
+    "Peel"
+  ],
+  "toxins": [
+    {
+      "name": "Amygdalin (and its toxic metabolite, Hydrogen Cyanide)",
+      "chemical_formula": "The chemical formula for amygdalin is C",
+      "description": null,
+      "concentration_notes": null
+    },
+    {
+      "name": "The formula for hydrogen cyanide is HCN",
+      "chemical_formula": "for hydrogen cyanide is HCN13.",
+      "description": "in cats: Amygdalin itself is not directly toxic; rather, it acts as a precursor to a deadly poison14. When a cat chews or crushes a plum pit (seed), the physical damage to the plant tissue allows amygdalin to mix with \u03b2-glucosidase enzymes, which are also present in the cat's intestinal tract4.... These enzymes hydrolyze the amygdalin, ultimately decomposing it to rapidly release hydrogen cyanide (HCN) into the cat's bloodstream56. Cyanide is a highly lethal toxin that binds to the active site of cytochrome c oxidase, a vital enzyme containing ferric ions in the mitochondrial electron transport chain78. This binding completely inhibits cellular oxygen metabolism and halts cellular ATP (energy) production78. This systemic suffocation leads to rapid cellular death, primarily striking vital, high-oxygen-demand organs like the brain and the heart78.\nAny notes on concentration or potency: Plum pits (kernels) naturally contain very high concentrations of amygdalin, ranging from 4 to 17.5 g/kg depending on the specific plum variety9. This gives plum kernels an exceptionally high cyanogenic potential, capable of yielding roughly 696 mg of hydrogen cyanide per kilogram of seed material10. The hydrogen cyanide released from this compound is extremely potent; the fatal oral dose is estimated to be between 0.6 and 1.5 mg/kg of body weight",
+      "concentration_notes": "or potency: Plum pits (kernels) naturally contain very high concentrations of amygdalin, ranging from 4 to 17.5 g/kg depending on the specific plum variety9. This gives plum kernels an exceptionally high cyanogenic potential, capable of yielding roughly 696 mg of hydrogen cyanide per kilogram of seed material10. The hydrogen cyanide released from this compound is extremely potent; the fatal oral dose is estimated to be between 0.6 and 1.5 mg/kg of body weight"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "The symptoms a cat shows after ingesting or being exposed to plums, particularly the toxic pits",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": null,
+      "notes": null
+    },
+    {
+      "name": "Difficulty Breathing and Hyperventilation",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Rapid onset (often within minutes to a few hours).",
+      "notes": "If a cat chews or crushes a plum pit, it releases hydrogen cyanide, which inhibits the cells' ability to utilize oxygen12. This systemic suffocation forces the cat to hyperventilate as the body struggles to compensate"
+    },
+    {
+      "name": "Vomiting, Diarrhea, and Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Shortly after ingestion (often within a few hours).",
+      "notes": "These gastrointestinal signs can occur as an initial reaction to cyanide toxicity or from the physical irritation of the plant material and fruit passing through the digestive tract"
+    },
+    {
+      "name": "Trouble Walking and Mental Confusion",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Rapid onset.",
+      "notes": "The sudden lack of cellular energy (ATP) production caused by cyanide quickly impairs the central nervous system, leading to profound dizziness, nerve damage, and an inability to walk properly"
+    },
+    {
+      "name": "Systemic Shock and Coma",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Rapidly following initial respiratory distress.",
+      "notes": "Because the brain and heart have the highest oxygen demands in the body, the cyanide-induced halt in cellular respiration rapidly starves these vital organs of power, resulting in abnormally low blood pressure, shock, loss of consciousness, and death if left untreated"
+    },
+    {
+      "name": "Cherry-Red Skin or Mucous Membranes",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Rapid onset.",
+      "notes": "Because cyanide blocks the cells from extracting oxygen from the bloodstream, the venous blood remains fully oxygenated4. This causes the cat's skin, gums, and mucous membranes to turn an abnormally bright, cherry-red color"
+    },
+    {
+      "name": "Gastrointestinal or Throat Obstruction",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Immediate (if causing choking) or variable (can take hours to days if lodged further down in the int",
+      "notes": "Aside from the chemical dangers of a crushed seed, swallowing an intact, hard plum pit poses a major mechanical hazard26. The seed can easily become lodged in the cat's throat or block the intestinal tract, requiring emergency surgical removal"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "The toxic components of plums are found in the pits (seeds), stems, and leaves, which contain cyanogenic glycosides",
+      "priority": 1,
+      "description": null,
+      "notes": null
+    },
+    {
+      "name": "Supplemental Oxygen Therapy (Life-Saving Stabilization)",
+      "description": "of the procedure: Placing the cat in an oxygen cage or providing flow-by oxygen to maximize the amount of oxygen available in the bloodstream3.\nAny situation-specific",
+      "notes": "This is an absolute critical priority for a symptomatic cat. The cyanide released by crushed plum seeds is a potent inhibitor of cytochrome c oxidase, which completely halts cellular ATP (energy) production and causes rapid cell death1. Because the toxin prevents cells from utilizing oxygen, aggressive oxygen therapy is strictly required to combat this systemic suffocation",
+      "priority": 2
+    },
+    {
+      "name": "Induction of Emesis (Early Gastrointestinal Decontamination)",
+      "description": "of the procedure: A veterinarian administers an \u03b1\n2\n\t\u200b\n\n-adrenergic agonist, such as dexmedetomidine, to safely force the cat to vomit and expel the plum pit or plant material from the stomach before more cyanide can be released and absorbed4.\nAny situation-specific",
+      "notes": "This intervention is the primary goal if the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic4. Pet owners must never attempt to use hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated for cats and can cause fatal hemorrhagic gastritis",
+      "priority": 3
+    },
+    {
+      "name": "Administration of Activated Charcoal (Secondary Decontamination)",
+      "description": "of the procedure: Administering oral activated charcoal to bind to and adsorb any residual toxins remaining in the stomach and gastrointestinal tract4.\nAny situation-specific",
+      "notes": "This is typically administered immediately following successful emesis to trap any remaining cyanogenic compounds in the gut and prevent them from entering the bloodstream",
+      "priority": 4
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and Supportive Care",
+      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to maintain perfusion, hydration, and support failing organ systems3.\nAny situation-specific",
+      "notes": "Because there is no specific antidote available for cyanide toxicity in felines, aggressive IV fluid therapy and intensive supportive care are essential to sustain the cat's cardiovascular system through the resulting metabolic shock",
+      "priority": 5
+    },
+    {
+      "name": "Mechanical Extraction (Obstruction Management)",
+      "description": "of the procedure: Utilizing an endoscope or performing abdominal surgery to physically extract an intact plum pit from the digestive tract.\nAny situation-specific",
+      "notes": "While crushed plum pits release deadly cyanide, swallowing a hard, intact pit presents a different but equally dangerous physical hazard. Fruit seeds are hard and difficult to digest, and swallowing them can easily cause a dangerous mechanical obstruction in the cat's esophagus, stomach, or intestinal tract that requires physical removal",
+      "priority": 6
+    }
+  ]
+}

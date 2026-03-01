@@ -140,7 +140,7 @@ def main():
                 if parts[1].isdigit() and parts[9] == "[ ]":
                     idx = int(parts[1]) - 1
                     target_indices.append(idx)
-                    if len(target_indices) == 4:
+                    if len(target_indices) == 6:
                         break
     
     print(f"🎯 Targeting {len(target_indices)} foods for collection: {target_indices}")

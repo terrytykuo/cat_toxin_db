@@ -13,12 +13,12 @@
 | 9 | Cherries | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 10 | Apples / Apple seeds | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 11 | Peaches | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 12 | Plums | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 13 | Apricots | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 14 | Starfruit | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 15 | Avocado | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 16 | Citrus fruits (oranges, tangerines, lemons, pomelos) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 17 | Unripened pineapples | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 12 | Plums | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 13 | Apricots | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 14 | Starfruit | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 15 | Avocado | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 16 | Citrus fruits (oranges, tangerines, lemons, pomelos) | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 17 | Unripened pineapples | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 18 | Raw eggs / Raw egg whites | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 19 | Raw fish | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 20 | Raw meat | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
