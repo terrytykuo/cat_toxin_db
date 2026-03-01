@@ -1,9 +1,15 @@
 {
-  "generated_at": "2026-03-01T16:20:24.459291",
-  "total_files": 27,
-  "passed": 27,
+  "generated_at": "2026-03-01T23:20:29.872202",
+  "total_files": 33,
+  "passed": 33,
   "failed": 0,
   "results": [
+    {
+      "file": "alcohol.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
     {
       "file": "apples__apple_seeds.json",
       "status": "PASS",
@@ -30,6 +36,12 @@
     },
     {
       "file": "caffeinated_drinks__soda.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "candies.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -77,6 +89,18 @@
       "issues": []
     },
     {
+      "file": "gum.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "jelly.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "leeks.json",
       "status": "PASS",
       "issue_count": 0,
@@ -84,6 +108,12 @@
     },
     {
       "file": "macadamia_nuts.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "milk_and_dairy_products.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -108,6 +138,12 @@
     },
     {
       "file": "raisins.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "raw_dough.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

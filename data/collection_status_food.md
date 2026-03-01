@@ -29,12 +29,12 @@
 | 25 | Coffee | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 26 | Tea | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 27 | Caffeinated drinks / Soda | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 28 | Alcohol | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 29 | Raw dough | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 30 | Milk and dairy products | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 31 | Gum | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 32 | Candies | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 33 | Jelly | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 28 | Alcohol | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 29 | Raw dough | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 30 | Milk and dairy products | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 31 | Gum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 32 | Candies | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 33 | Jelly | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 34 | Pudding | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 35 | Green tomatoes | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 36 | Unripe or sprouted potatoes | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |

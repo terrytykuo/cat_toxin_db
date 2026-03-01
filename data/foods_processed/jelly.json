@@ -1,0 +1,101 @@
+{
+  "plant": {
+    "common_name": "Jelly",
+    "scientific_name": "Jelly",
+    "family": "Various",
+    "description": "Botanical Family: Because jelly is a manufactured culinary product rather than a raw plant, it does not belong to a single botanical family. Its ingredients depend entirely on the fruits and sweeteners used in its production.\n2. Brief Description and Common Forms\nDescription: Jellies and jams are sweet spreads typically made from fruit juice or fruit pulp and sugar. In the context of pet safety, the primary toxicological concern comes from sugar-free or reduced-sugar jellies and jams, which are frequently sweetened with xylitol12. While xylitol causes severe and life-threatening drops in blood sugar in dogs, cats appear to be naturally resistant to xylitol toxicity (except possibly at massive doses), though veterinarians still advise keeping such products away from them as a precaution3. Another theoretical concern is jelly made from grapes, as grapes contain tartaric acid which causes acute kidney injury in dogs and potentially cats; however, processed grape products like grape juice and jam are often \"detartrated\" (the tartrates are removed during processing), which likely explains why there is a lack of reported toxicosis from pets eating grape jam45.\nCommon Forms: In the household, pets may encounter this food as standard fruit jellies and jams, sugar-free or reduced-sugar jellies, and grape jam1...."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Berrie",
+    "Cooked form",
+    "Seed",
+    "Skin",
+    "Juice",
+    "Pit",
+    "Fruit"
+  ],
+  "toxins": [
+    {
+      "name": "Xylitol (Artificial Sweetener)",
+      "chemical_formula": "C",
+      "description": "in cats: In dogs, xylitol tricks the pancreas into releasing a massive, rapid surge of insulin, which causes severe hypoglycemia (life-threatening low blood sugar) and can lead to acute liver failure23. In cats, however, this mechanism does not appear to occur. Experimental studies have shown that cats lack this severe insulinogenic response; when administered high oral doses of xylitol, cats showed no significant alterations in blood glucose or liver enzyme parameters4.... Despite this apparent natural resistance, some veterinary sources still advise caution, warning that individual feline metabolisms could vary and theoretically suffer from liver damage or drops in blood sugar, making it advisable to treat xylitol ingestion as a potential emergency7....\nAny notes on concentration or potency: Xylitol is exquisitely toxic to dogs at doses as low as 0.1 grams per kilogram of body weight10. By contrast, in an experimental study, cats were given massive doses up to 1,000 mg/kg (1 gram per kilogram) without suffering any toxic effects or significant biochemical changes4.... Nevertheless, products containing xylitol should still be kept away from cats as a strict safety precaution",
+      "concentration_notes": "or potency: Xylitol is exquisitely toxic to dogs at doses as low as 0.1 grams per kilogram of body weight10. By contrast, in an experimental study, cats were given massive doses up to 1,000 mg/kg (1 gram per kilogram) without suffering any toxic effects or significant biochemical changes4.... Nevertheless, products containing xylitol should still be kept away from cats as a strict safety precaution"
+    },
+    {
+      "name": "Tartaric Acid / Potassium Bitartrate (Found in Grape Jelly)",
+      "chemical_formula": "C",
+      "description": "in cats: Tartaric acid is the recently identified toxic principle in grapes and raisins that causes acute kidney injury1415. The mechanism of toxicity revolves around the Organic Anion Transporter 4 (OAT-4). Dogs (and anecdotally cats) lack the OAT-4 transporter in their kidneys, which normally secretes tartaric acid into the urine for safe excretion1617. Without this transporter, the tartaric acid accumulates in the proximal renal tubular cells, leading to severe oxidative stress, cellular necrosis, and ultimately anuric renal failure (an inability to produce urine)1618.\nAny notes on concentration or potency: The concentration of tartaric acid varies widely depending on the grape variety1920. While fresh grapes and raisins are highly toxic to pets, commercial processing of grape products (such as grape juice, wine, and jam/jelly) typically involves a step called \"detartration\"2021. The removal and thermal decomposition of these tartrates during commercial manufacturing likely explains why commercial grape jelly is rarely implicated in actual pet poisonings2021. Still, any grape-based product should be strictly avoided due to the potential for fatal kidney damage",
+      "concentration_notes": "or potency: The concentration of tartaric acid varies widely depending on the grape variety1920. While fresh grapes and raisins are highly toxic to pets, commercial processing of grape products (such as grape juice, wine, and jam/jelly) typically involves a step called \"detartration\"2021. The removal and thermal decomposition of these tartrates during commercial manufacturing likely explains why commercial grape jelly is rarely implicated in actual pet poisonings2021. Still, any grape-based product should be strictly avoided due to the potential for fatal kidney damage"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "The symptoms a cat exhibits after ingesting jelly depend entirely on the ingredients used to make it, specifically whether it contains xylitol",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": null,
+      "notes": null
+    },
+    {
+      "name": "Gastrointestinal Upset (From High Sugar/Carbohydrates)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within a few hours.",
+      "notes": "Cats are obligate carnivores and their digestive systems are not designed to process high amounts of sugar or human foods. Consuming standard sugary jelly can easily cause general stomach upset, vomiting, and loose stools12. Very high consumption of certain safe artificial sweeteners can also trigger tummy upsets"
+    },
+    {
+      "name": "Transient Salivation (From Xylitol in Sugar-Free Jelly)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion.",
+      "notes": "Xylitol is a highly toxic artificial sweetener used in many sugar-free products. While it causes severe poisoning in dogs, cats appear to be naturally resistant to xylitol toxicity45. In experimental studies where cats were given massive oral doses of xylitol (up to 1,000 mg/kg), the cats remained completely well and showed no significant changes in blood parameters, with transient salivation being the only reported clinical sign"
+    },
+    {
+      "name": "Hypoglycemia and Liver Failure (Theoretical / Rare from Xylitol)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "15 to 30 minutes for a drop in blood sugar (though it can be delayed if the product digests slowly);",
+      "notes": "In dogs, xylitol tricks the pancreas into releasing a massive surge of insulin, driving down blood sugar and destroying the liver511. Cats lack this specific receptor-mediated pathway and do not typically suffer this reaction45. However, because individual metabolisms vary, some veterinary sources still advise extreme caution, warning that an atypical reaction could theoretically cause these severe symptoms in highly susceptible felines"
+    },
+    {
+      "name": "Acute Kidney Injury (Theoretical / Highly Unlikely from Grape Jelly)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Vomiting usually occurs within 6 to 12 hours of ingestion;",
+      "notes": "Grapes contain tartaric acid, a nephrotoxin that accumulates in the kidneys of dogs and cats, causing severe cellular necrosis and acute kidney injury1516. However, the commercial manufacturing of grape products (like grape juice, wine, and jelly) typically involves a thermal decomposition step called \"detartration\" which removes the tartrates1718. This processing likely explains why commercial grape jelly is rarely, if ever, implicated in actual pet poisonings18. Nevertheless, any grape-based product should be kept away from cats as a strict safety precaution"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Because the toxicity of jelly depends heavily on its ingredients\u2014most notably if it is made from grapes (which contain the nephrotoxin tartaric acid) or sweetened with xylitol",
+      "priority": 1,
+      "description": null,
+      "notes": null
+    },
+    {
+      "name": "Early Gastrointestinal Decontamination",
+      "description": "of the procedure: If the jelly was ingested very recently, the veterinarian will administer a specific medication (such as the \u03b1\n2\n\t\u200b\n\n-adrenergic agonist dexmedetomidine) to induce vomiting and empty the stomach12. If grape jelly is suspected, this may be followed by administering activated charcoal by mouth to bind any remaining toxins in the gastrointestinal tract and prevent them from entering the bloodstream13.\nAny situation-specific",
+      "notes": "Decontamination is highly time-sensitive and must be done before the toxins are absorbed. While activated charcoal is utilized for grape toxicosis, it is not recommended if the jelly was sugar-free, as charcoal does not effectively bind to xylitol45. Additionally, pet owners must never attempt to induce vomiting at home; administering hydrogen peroxide (a common at-home emetic for dogs) is strictly contraindicated in cats and can cause fatal hemorrhagic gastritis",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Diuresis (For Grape Jelly)",
+      "description": "of the procedure: The cat is hospitalized and placed on continuous IV fluids for a minimum of 48 hours36. This aggressive fluid diuresis is designed to stimulate urine production and protect the kidneys, while the veterinary team closely monitors the cat's renal function (e.g., serum creatinine) and fluid balance37.\nAny situation-specific",
+      "notes": "This treatment is implemented to prevent anuric renal failure (acute kidney injury), which is associated with the tartaric acid found in grapes and raisins89. While commercial processing typically removes tartrates from grape jelly (\"detartration\"), making actual poisonings from commercial jelly highly unlikely, aggressive fluid therapy is still the standard precautionary response for any grape-based ingestion",
+      "priority": 3
+    },
+    {
+      "name": "Hypoglycemia and Liver Management (For Sugar-Free Jelly)",
+      "description": "of the procedure: If the cat ingested sugar-free jelly containing xylitol, they may be admitted for monitoring. If the cat's blood sugar begins to drop, the veterinarian will administer IV fluids containing sugar (dextrose) to stabilize blood glucose levels, potentially alongside liver protectants to manage any hepatic injury411.\nAny situation-specific",
+      "notes": "While xylitol is a deadly toxin to dogs (causing a massive insulin surge, severe hypoglycemia, and liver failure), cats appear to be naturally resistant to xylitol1213. Experimental studies administering massive doses to cats (up to 1,000 mg/kg) showed no significant changes in blood glucose or liver enzymes12. Therefore, this treatment is largely precautionary in the event an individual cat exhibits a rare or atypical metabolic reaction",
+      "priority": 4
+    },
+    {
+      "name": "Symptomatic Care for Gastrointestinal Upset (For Sugary Jelly)",
+      "description": "of the procedure: If the cat consumes standard, safe-fruit jelly (like strawberry or apple), the primary issue is a carbohydrate/sugar overload. The veterinarian will treat resulting tummy upset with anti-nausea medications and recommend a temporary bland diet while the digestive tract recovers1617.\nAny situation-specific",
+      "notes": "Cats are obligate carnivores and cannot properly process high amounts of dietary sugar1819. This results in mild to moderate gastrointestinal irritation, vomiting, and diarrhea, which typically resolves quickly with basic supportive care",
+      "priority": 5
+    }
+  ]
+}

@@ -7,11 +7,11 @@
   },
   "sources": [],
   "toxic_parts": [
-    "Flesh",
-    "Fruit",
     "Entire food",
+    "Flesh",
+    "Seed",
     "Skin",
-    "Seed"
+    "Fruit"
   ],
   "toxins": [
     {

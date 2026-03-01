@@ -1,0 +1,111 @@
+{
+  "plant": {
+    "common_name": "Alcohol",
+    "scientific_name": "Alcohol",
+    "family": "Various",
+    "description": "Brief Description and Common Forms\nDescription: Alcohol (primarily ethanol) is an intoxicating liquid commonly consumed by humans5. It is highly toxic to cats and dogs6. Ingesting even a tiny amount\u2014as little as a tablespoon\u2014can cause severe liver and brain injury, or put a cat into a coma57.\nCommon Forms: In the household, alcohol is most commonly found as liquid alcoholic beverages and human foods prepared with alcohol1.... It is also dangerously present in raw yeast dough (like unbaked bread or pizza dough), where the yeast ferments in the stomach to produce ethanol and carbon dioxide gas4.... Other unexpected food sources include rotting fruit, such as apples45. Additionally, toxic alcohols (including ethanol, methanol, and isopropanol) are found in non-food household items that pets might access, such as hand sanitizers, surgical spirits, mouthwashes, and perfumes1...."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Seed",
+    "Skin",
+    "Pit",
+    "Fruit"
+  ],
+  "toxins": [
+    {
+      "name": "Based on the provided sources, alcohol contains specific chemical compounds that are highly dangerous to cats",
+      "chemical_formula": null,
+      "description": null,
+      "concentration_notes": null
+    },
+    {
+      "name": "Ethanol (Ethyl Alcohol)",
+      "chemical_formula": "C",
+      "description": "in cats: Ethanol is a small, polar molecule that is quickly absorbed through the gastrointestinal tract and easily crosses the blood-brain barrier34. Cats lack robust activity of the enzyme alcohol dehydrogenase, meaning their bodies cannot efficiently metabolize and clear the ethanol4. This inability to process the chemical leads to profound central nervous system (CNS) depression34. Additionally, the partial metabolism of ethanol produces acetic acid, which, combined with lactic acid accumulation due to poor systemic perfusion, causes a dangerous drop in blood pH known as metabolic acidosis34.\nAny notes on concentration or potency: Cats are exceptionally sensitive to ethanol. Even a tiny amount\u2014as little as a single tablespoon or teaspoon\u2014is enough to put a cat into a coma or cause severe, irreversible liver and brain damage35. The higher the proof (concentration) of the alcohol, the more severe the toxic effects will be",
+      "concentration_notes": "or potency: Cats are exceptionally sensitive to ethanol. Even a tiny amount\u2014as little as a single tablespoon or teaspoon\u2014is enough to put a cat into a coma or cause severe, irreversible liver and brain damage35. The higher the proof (concentration) of the alcohol, the more severe the toxic effects will be"
+    },
+    {
+      "name": "Methanol and Isopropanol",
+      "chemical_formula": "CH",
+      "description": "in cats: Similar to ethanol, these compounds are rapidly absorbed into the bloodstream and act as powerful central nervous system depressants, overwhelming the cat's limited metabolic detoxification pathways and causing systemic cellular toxicity36.\nAny notes on concentration or potency: Just like ethanol, even a tiny amount of exposure to methanol or isopropanol is extremely toxic to cats and can easily be fatal",
+      "concentration_notes": "or potency: Just like ethanol, even a tiny amount of exposure to methanol or isopropanol is extremely toxic to cats and can easily be fatal"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "1. Gastrointestinal Upset",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within 30 to 60 minutes",
+      "notes": "Alcohol directly irritates the gastrointestinal tract34. If the source of the alcohol is raw yeast dough, the cat may also suffer from severe gastric distension (bloating) and abdominal pain as the fermenting yeast produces carbon dioxide gas in the warm environment of the stomach"
+    },
+    {
+      "name": "Neurological Impairment",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Within 30 to 60 minutes",
+      "notes": "Ethanol is rapidly absorbed into the bloodstream and easily crosses the blood-brain barrier1. Because cats lack robust alcohol dehydrogenase enzyme activity to metabolize the chemical efficiently, this leads to profound CNS depression, resulting in \"drunk-like\" stumbling, extreme tiredness, tremors, and potentially a coma"
+    },
+    {
+      "name": "Hypothermia",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Within 30 to 60 minutes",
+      "notes": "Alcohol induces peripheral vasodilation, which widens the blood vessels near the surface of the skin1. This causes the cat's body to rapidly lose heat, dropping its core temperature to dangerous levels"
+    },
+    {
+      "name": "Metabolic Acidosis",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Within 1 hour (progressing as the alcohol is metabolized)",
+      "notes": "The liver's attempt to process the ethanol produces acetic acid1. This, combined with an accumulation of lactic acid due to poor systemic perfusion, dangerously lowers the pH of the cat's blood"
+    },
+    {
+      "name": "Respiratory Depression",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Within 1 hour to progressive stages",
+      "notes": "As CNS depression worsens, the cat's normal respiratory drive is suppressed1. This leads to shallow, labored breathing that can culminate in complete respiratory failure and death"
+    },
+    {
+      "name": "Acute Organ Damage",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Progressive (can occur rapidly after absorption)",
+      "notes": "Because a cat's liver cannot efficiently clear alcohol, just a tiny amount\u2014as little as a single teaspoon or tablespoon\u2014can quickly overwhelm the liver and brain, leading to irreversible organ failure and death"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "If a cat ingests alcohol",
+      "priority": 1,
+      "description": null,
+      "notes": null
+    },
+    {
+      "name": "Emergency Stabilization (Respiratory and Cardiovascular Support)",
+      "description": "of the procedure: Severe ethanol intoxication depresses the central nervous system, which can lead to poor breathing, respiratory depression, and respiratory failure12. The veterinary team will provide mechanical ventilation (artificial respiration) if the cat is struggling to breathe, and administer medications to address any life-threatening cardiac arrhythmias23.\nAny situation-specific",
+      "notes": "This is the absolute highest priority. Patients with clinical signs of ethanol toxicosis must be stabilized, and life-threatening conditions must be corrected before any attempts are made to decontaminate the stomach",
+      "priority": 2
+    },
+    {
+      "name": "Metabolic Correction and Excretion Support",
+      "description": "of the procedure: The cat is placed on continuous IV fluids to aggressively correct electrolyte imbalances and the abnormal blood acidity (metabolic acidosis) caused by the alcohol1.... Dextrose (sugar) is often supplemented in the fluids to correct severe hypoglycemia (low blood sugar), and the fluid therapy promotes diuresis (increased urine output) to hasten the elimination of ethanol from the bloodstream34.\nAny situation-specific",
+      "notes": "Death from alcohol or raw dough toxicosis is typically due to the systemic metabolic effects of the ethanol, making this metabolic correction crucial to survival",
+      "priority": 3
+    },
+    {
+      "name": "Thermoregulation",
+      "description": "of the procedure: Alcohol induces peripheral vasodilation, leading to rapid heat loss and dangerous hypothermia1. The veterinary team will use active warming measures to restore and maintain the cat's normal core body temperature3.\nAny situation-specific",
+      "notes": "Careful monitoring for hypothermia is especially critical if cold water treatments (see below) are used for raw dough ingestion, as the cold water can further drop the cat's body temperature",
+      "priority": 4
+    },
+    {
+      "name": "Early Gastrointestinal Decontamination (If Applicable)",
+      "description": "of the procedure: If the alcohol or raw yeast dough was ingested very recently (e.g., within 1 to 2 hours) and the cat is completely asymptomatic, the veterinarian may induce vomiting to expel the substance67. If raw bread dough is the culprit and vomiting is unsuccessful due to its sticky, glutinous nature, the veterinarian may flush the stomach with cold water to temporarily slow the yeast's fermentation, or in rare cases, surgically remove the dough mass from the stomach36.\nAny situation-specific",
+      "notes": "Hydrogen peroxide is strictly contraindicated for inducing vomiting in cats because it can cause fatal hemorrhagic gastritis; veterinarians will typically use safe \u03b1\n2\n\t\u200b\n\n-adrenergic agonists like dexmedetomidine instead7. Furthermore, decontamination should never be attempted if the cat is already showing neurological signs due to the risk of aspirating vomit.",
+      "priority": 5
+    }
+  ]
+}
