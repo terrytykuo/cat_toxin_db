@@ -1,0 +1,93 @@
+{
+  "plant": {
+    "common_name": "Corn on the cob",
+    "scientific_name": "Corn on the cob",
+    "family": "Various",
+    "description": "Botanical Family: The provided sources do not explicitly state the botanical family for corn. (Note: From outside scientific knowledge, corn, or maize, belongs to the grass family, Poaceae, and you may want to independently verify this information).\n2. Brief Description and Common Forms\nDescription: Corn is a widely consumed cereal grain and vegetable. While the provided sources do not contain a dedicated profile for \"corn on the cob\" as a specific household pet hazard, they do note that plain corn is one of the few vegetables that is safe to feed to cats if they happen to like it1. Interestingly, the sources highlight that the \"corncob biomass\" itself is industrially hydrolyzed and processed to produce xylitol\u2014an artificial sweetener that is highly toxic to dogs3.... Additionally, agricultural corn (maize) is highly susceptible to mold; Fusarium fungi growing on moldy corn produce mycotoxins that cause severe neurological and reproductive diseases in livestock, poultry, and horses67.\nCommon Forms: Based on the sources, animals may encounter corn as a safe vegetable treat1, a plant component in commercial cat and dog foods2, or as moldy corn/maize in livestock feed67. Industrial corncob biomass is also used in manufacturing34.\n(Note: While the provided sources do not mention this, it is general veterinary knowledge that the intact \"cob\" from corn on the cob poses a severe physical choking hazard and is a very common cause of gastrointestinal obstruction in pets. You may want to independently verify this risk before allowing pets access to a cob)."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Entire Plant"
+  ],
+  "toxins": [
+    {
+      "name": "Based on the provided sources, fresh, plain corn kernels do not contain chemical compounds that are toxic to cats. In fact",
+      "chemical_formula": null,
+      "description": null,
+      "concentration_notes": null
+    },
+    {
+      "name": "The Cob (Physical Hazard)",
+      "chemical_formula": null,
+      "description": "The cob cannot be digested by a pet's gastrointestinal tract. If a pet swallows a piece of the cob, it acts as a physical obstruction, lodging in the stomach or intestines and causing a life-threatening blockage that often requires emergency surgery2.\nAny notes on concentration or potency: Even small, chewed-off pieces of the cob can cause an obstruction; pets should never be allowed to chew on the cob",
+      "concentration_notes": "or potency: Even small, chewed-off pieces of the cob can cause an obstruction; pets should never be allowed to chew on the cob"
+    },
+    {
+      "name": "Aflatoxins",
+      "chemical_formula": "C",
+      "description": "Aflatoxins are potent hepatotoxins (liver toxins). While the sources do not detail the exact mechanism specifically in cats, in mammals (including dogs), high doses cause severe liver damage, rupture of blood vessels, internal bleeding, jaundice, and sudden death46. Prolonged exposure to lower doses causes reduced growth and liver enlargement6.\nAny notes on concentration or potency: The toxins are produced when day and night temperatures are consistently higher than 70\u00b0F (21\u00b0C) alongside high moisture",
+      "concentration_notes": "or potency: The toxins are produced when day and night temperatures are consistently higher than 70\u00b0F (21\u00b0C) alongside high moisture"
+    },
+    {
+      "name": "Fumonisins",
+      "chemical_formula": "C",
+      "description": "Fumonisins target the central nervous system and the liver78. The sources primarily detail its effects in horses (causing \"equine leukoencephalomalacia\"\u2014brain damage, blindness, staggering, and paralysis), noting that cattle, sheep, and poultry are considerably less susceptible78. Specific feline susceptibility is not detailed in the sources, but moldy corn should be strictly avoided.\nAny notes on concentration or potency: Most of the toxin tends to be concentrated in broken, small, or poorly formed corn kernels",
+      "concentration_notes": "or potency: Most of the toxin tends to be concentrated in broken, small, or poorly formed corn kernels"
+    },
+    {
+      "name": "Nonsteroidal Estrogens (Zearalenone)",
+      "chemical_formula": "C",
+      "description": "This fungal toxin acts as an endocrine disruptor. It mimics the action of the hormone estrogen in the body, leading to a condition called estrogenism and vulvovaginitis, which causes reproductive difficulties9.\nAny notes on concentration or potency: This condition is most commonly observed in livestock and poultry (chickens and turkeys) consuming contaminated pelleted cereal feeds or corn59.\n(Note on Xylitol: As discussed in our previous conversation, industrial corncob biomass is actively used in factories to synthesize and manufacture the artificial sweetener xylitol through microbial fermentation1011. However, raw corn on the cob itself does not naturally contain xylitol in toxic concentrations).",
+      "concentration_notes": "or potency: This condition is most commonly observed in livestock and poultry (chickens and turkeys) consuming contaminated pelleted cereal feeds or corn59.\n(Note on Xylitol: As discussed in our previous conversation, industrial corncob biomass is actively used in factories to synthesize and manufacture the artificial sweetener xylitol through microbial fermentation1011. However, raw corn on the cob itself does not naturally contain xylitol in toxic concentrations)."
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Based on the provided sources and our conversation history, the corn kernels themselves are actually safe for cats to eat in small amounts1. However",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": null,
+      "notes": null
+    },
+    {
+      "name": "Gastrointestinal Obstruction (From Swallowing the Cob)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Varies (typically hours to a few days,",
+      "notes": "While plain corn kernels are safe for cats1, the intact corn cob is highly dangerous. The cob cannot be digested and acts as a physical obstruction in the intestines, which can be fatal2. Pets scavenging in the garbage for discarded cobs are at a high risk for developing intestinal blockages, which typically present with vomiting and diarrhea"
+    },
+    {
+      "name": "Aflatoxicosis (From Moldy Corn)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Acute (short-term) after ingestion of high doses,",
+      "notes": "If raw or stored corn is exposed to high moisture and temperatures, it can grow Aspergillus fungi (A. flavus and A. parasiticus)45. These molds produce aflatoxins, which cause severe liver damage and the rupture of blood vessels46. While cats are less likely to scavenge moldy agricultural corn than livestock or dogs, the toxins are universally dangerous and response to treatment is usually poor"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "If a cat ingests \"corn on the cob,\" the veterinary response focuses primarily on the severe physical hazard posed by the indigestible cob, rather than chemical toxicity",
+      "priority": 1,
+      "description": null,
+      "notes": null
+    },
+    {
+      "name": "Emergency Surgical Removal or Endoscopy (For Cob Ingestion)",
+      "description": "of the procedure: Because the corn cob cannot be digested, it acts as a dangerous physical obstruction in the gastrointestinal tract1. After locating the cob via diagnostic imaging, the veterinarian will physically remove it. If the cob is still in the stomach, it may be retrieved non-invasively using an endoscope. If it has lodged in the intestines, emergency surgery is required to open the digestive tract and extract the blockage3.\nAny situation-specific",
+      "notes": "The intact cob is highly dangerous and intestinal blockages can be fatal1. Pet owners must never attempt to induce vomiting at home (such as by administering hydrogen peroxide) if a cob is swallowed, as the rigid object could cause fatal choking or esophageal tearing on the way back up; emergency veterinary processing is required immediately",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy and Stabilization",
+      "description": "of the procedure: The cat is hospitalized and placed on continuous intravenous fluids to correct severe dehydration and electrolyte imbalances caused by the vomiting and gastrointestinal distress associated with a blockage.\nAny situation-specific",
+      "notes": "Stabilizing the cat with fluids is a critical preparatory step to ensure their cardiovascular system is strong enough to survive the anesthesia required for the surgical removal of the cob.",
+      "priority": 3
+    },
+    {
+      "name": "Administration of Toxin Binders (If Moldy Corn was Ingested)",
+      "description": "of the procedure: If the cat scavenged improperly stored, moldy corn, they are at risk for mycotoxicosis (such as aflatoxin poisoning)2. The veterinarian may administer a targeted binding agent, such as aluminosilicate, to bind the fungal mycotoxins in the gastrointestinal tract and prevent them from being absorbed into the bloodstream5.\nAny situation-specific",
+      "notes": "There are no specific antidotes for fungal mycotoxins5. Treatment relies heavily on removing the contaminated food source immediately, using binders to limit absorption, and providing aggressive symptomatic support while the body attempts to clear the toxins",
+      "priority": 4
+    }
+  ]
+}

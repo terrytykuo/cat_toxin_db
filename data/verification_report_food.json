@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-01T23:20:29.872202",
-  "total_files": 33,
-  "passed": 33,
+  "generated_at": "2026-03-02T01:02:31.847205",
+  "total_files": 39,
+  "passed": 39,
   "failed": 0,
   "results": [
     {
@@ -77,6 +77,12 @@
       "issues": []
     },
     {
+      "file": "corn_on_the_cob.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "garlic.json",
       "status": "PASS",
       "issue_count": 0,
@@ -84,6 +90,12 @@
     },
     {
       "file": "grapes.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "green_tomatoes.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -102,6 +114,12 @@
     },
     {
       "file": "leeks.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "liver.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -137,6 +155,12 @@
       "issues": []
     },
     {
+      "file": "pudding.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "raisins.json",
       "status": "PASS",
       "issue_count": 0,
@@ -167,6 +191,12 @@
       "issues": []
     },
     {
+      "file": "salt.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "scallions__green_onions.json",
       "status": "PASS",
       "issue_count": 0,
@@ -192,6 +222,12 @@
     },
     {
       "file": "tuna.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "unripe_or_sprouted_potatoes.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
