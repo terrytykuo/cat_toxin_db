@@ -1,0 +1,100 @@
+{
+  "plant": {
+    "common_name": "Unripe or sprouted potatoes",
+    "scientific_name": "Unripe or sprouted potatoes",
+    "family": "Various",
+    "description": "Brief Description and Common Forms\nDescription: Unripe or sprouted potatoes are potatoes that have turned green, begun to sprout (developed \"eyes\"), or sustained physical damage, often due to improper storage or exposure to light5. While cooked, peeled, and fully ripe potatoes contain only trace amounts of toxins and are generally tolerable for pets in moderation, the green parts, sprouts, and peels contain dangerous concentrations of toxic glycoalkaloids, primarily solanine and \u03b1-chaconine4,5. These compounds serve as a natural defense mechanism for the plant against fungi, insects, and herbivores2,6,7. Consuming these green or sprouted parts can lead to severe gastrointestinal and neurological toxicity in cats4,8.\nCommon Forms: In domestic environments, pets most commonly encounter these hazards in the form of green potato tubers, sprouted potatoes, raw potato peels (often accessed through kitchen food scraps or organic compost waste), and the leaves and stems of the growing potato plant2,9,4."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Stem",
+    "Peel",
+    "Cooked form",
+    "Leave",
+    "Skin",
+    "Root"
+  ],
+  "toxins": [
+    {
+      "name": "Based on the sources, the primary toxic compounds in unripe, green",
+      "chemical_formula": null,
+      "description": null,
+      "concentration_notes": null
+    },
+    {
+      "name": "Solanine (specifically \u03b1-Solanine)",
+      "chemical_formula": "C",
+      "description": "in cats: Solanine is a potent cytotoxin and neurotoxin that harms cats through three main pathways:\nMembrane Destruction (Cytotoxicity): It interacts directly with the phospholipids of cell membranes, increasing cell permeability and causing rapid cell destruction (lysis). This is especially damaging to intestinal epithelial cells, causing severe gastrointestinal irritation and inflammation45.\nNeurological Impairment: It inhibits the enzyme acetylcholinesterase in the central nervous system, which prevents the breakdown of acetylcholine. This causes a severe overstimulation of the parasympathetic nervous system67.\nMitochondrial Disruption: It disrupts cellular energy metabolism by impairing the respiratory chain. It also facilitates the opening of potassium channels in the mitochondria, releasing calcium into the cell and triggering apoptosis (programmed cell death)58.\nAny notes on concentration or potency: Together with \u03b1-chaconine, \u03b1-solanine makes up about 95% of the glycoalkaloid content in potato tubers3. The concentration of solanine is dangerously elevated in the green parts of the potato, the sprouts (eyes), and the peels9. Peeling the potato by 3 to 4 mm can remove the majority of the toxic content, and cooking breaks down a large portion of the remaining traces, making fully ripe, peeled, and cooked potatoes generally tolerable in moderation",
+      "concentration_notes": "or potency: Together with \u03b1-chaconine, \u03b1-solanine makes up about 95% of the glycoalkaloid content in potato tubers3. The concentration of solanine is dangerously elevated in the green parts of the potato, the sprouts (eyes), and the peels9. Peeling the potato by 3 to 4 mm can remove the majority of the toxic content, and cooking breaks down a large portion of the remaining traces, making fully ripe, peeled, and cooked potatoes generally tolerable in moderation"
+    },
+    {
+      "name": "\u03b1-Chaconine",
+      "chemical_formula": "C",
+      "description": "in cats: Similar to solanine, \u03b1-chaconine acts as a potent cytotoxin that targets and disrupts cell membrane integrity, rapidly inducing cell lysis and causing severe gastrointestinal and systemic tissue damage25.\nAny notes on concentration or potency: \u03b1-Chaconine works synergistically with \u03b1-solanine. When both of these glycoalkaloids are present together\u2014as they naturally are in sprouted, green, or raw potatoes\u2014their combined cytotoxic potency and destructive effect on cell membranes is significantly increased5. Like solanine, its highest concentrations are located in the sprouts, skin, and green-discolored flesh of the potato",
+      "concentration_notes": "or potency: \u03b1-Chaconine works synergistically with \u03b1-solanine. When both of these glycoalkaloids are present together\u2014as they naturally are in sprouted, green, or raw potatoes\u2014their combined cytotoxic potency and destructive effect on cell membranes is significantly increased5. Like solanine, its highest concentrations are located in the sprouts, skin, and green-discolored flesh of the potato"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Unripe or sprouted potatoes",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": null,
+      "notes": null
+    },
+    {
+      "name": "Severe Gastrointestinal Upset",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Usually within 2 to 24 hours of ingestion,",
+      "notes": "This is typically the first clinical sign of nightshade poisoning6. Solanine is a potent cytotoxin that interacts with the phospholipids in cell membranes, causing direct cell destruction and violent irritation and inflammation of the intestinal epithelial cells35. A tense abdominal wall and pain upon being touched are common"
+    },
+    {
+      "name": "Neurological Deficits and Paralysis",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Usually develops within 2 to 24 hours,",
+      "notes": "Solanine acts as a neurotoxin by inhibiting the enzyme acetylcholinesterase, which leads to massive acetylcholine accumulation and severe overstimulation of the parasympathetic nervous system89. Additionally, the toxins disrupt mitochondrial energy metabolism, which contributes to extreme lethargy, convulsions, and potentially fatal respiratory paralysis"
+    },
+    {
+      "name": "Cardiovascular Disturbances",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "2 to 24 hours",
+      "notes": "The severe parasympathetic overstimulation caused by the accumulation of acetylcholine forces the heart rate to slow dangerously9. In critical cases, this progresses to complete circulatory failure, which can be fatal"
+    },
+    {
+      "name": "Hemolysis and Acute Kidney Injury",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Progressive; typically occurs in the later stages of a severe poisoning episode",
+      "notes": "In highly severe cases, solanine toxicity causes the cat's red blood cells to be destroyed (hemolysis)68. The release of free hemoglobin into the bloodstream from the ruptured cells is highly nephrotoxic (toxic to the kidneys) and can secondarily damage the kidneys, leading to acute renal failure"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "1. Emergency Stabilization (Neurological, Respiratory, and Cardiovascular Support)",
+      "description": "of the procedure: If the cat presents with advanced or life-threatening symptoms, the veterinary team immediately provides oxygen supplementation or mechanical ventilation to manage respiratory depression12. Seizures and convulsions are controlled using anticonvulsants such as benzodiazepines or barbiturates2. In cases of severe cardiac arrhythmias or ventricular fibrillation, defibrillation may be required1.\nAny situation-specific",
+      "notes": "This step takes absolute priority if the cat arrives already exhibiting severe neurological or cardiac signs, as the solanine and \u03b1-chaconine in unripe/sprouted potatoes can cause potentially fatal respiratory paralysis and circulatory failure",
+      "priority": 1
+    },
+    {
+      "name": "Early Gastrointestinal Decontamination",
+      "description": "of the procedure: If the potato was ingested very recently (within 1 to 2 hours) and the cat is asymptomatic or has very mild symptoms, the veterinarian will administer a medication to induce vomiting and empty the stomach45. This is followed by administering activated charcoal (1\u20134 g/kg of body weight) orally to bind unabsorbed glycoalkaloids in the GI tract; this can be repeated at 4- to 6-hour intervals in severe poisonings2.\nAny situation-specific",
+      "notes": "Pet owners must never use hydrogen peroxide at home to induce vomiting, as it is strictly contraindicated in cats and can cause fatal hemorrhagic gastritis; veterinarians use specific \u03b1\n2\n\t\u200b\n\n-adrenergic agonists like dexmedetomidine or xylazine45. If the cat is already showing advanced neurological symptoms, inducing vomiting is dangerous, and the veterinarian will perform a gastric lavage (stomach pumping) under anesthesia instead",
+      "priority": 2
+    },
+    {
+      "name": "Parasympathetic Tone Management",
+      "description": "of the procedure: The veterinarian administers atropine to help counteract the specific neurological effects of the potato's toxins26.\nAny situation-specific",
+      "notes": "There is no true, direct antidote for solanine poisoning26. Because solanine inhibits the enzyme acetylcholinesterase, it leads to an overwhelming accumulation of acetylcholine and severe parasympathetic overstimulation (cholinergic symptoms)3. Atropine is utilized specifically to help block and compensate for this dangerous overstimulation",
+      "priority": 3
+    },
+    {
+      "name": "Intravenous (IV) Fluid Diuresis and Renal Protection",
+      "description": "of the procedure: The cat is hospitalized and placed on continuous IV crystalloid fluids to correct severe dehydration caused by violent vomiting and diarrhea, and to stimulate diuresis (urine production) to help flush the toxins from the body2. The veterinary team will closely monitor the cat's blood count, vital parameters, and kidney function12.\nAny situation-specific",
+      "notes": "In severe nightshade poisonings, the toxins can cause hemolysis (the destruction of red blood cells)23. The free hemoglobin released from these ruptured cells is highly toxic to the kidneys and can cause acute renal failure3. If hemolysis is detected, the veterinarian must significantly increase the IV fluid infusion rate to ensure adequate renal perfusion and protect the kidneys from sustaining secondary damage",
+      "priority": 4
+    }
+  ]
+}

@@ -35,12 +35,12 @@
 | 31 | Gum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 32 | Candies | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 33 | Jelly | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 34 | Pudding | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 35 | Green tomatoes | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 36 | Unripe or sprouted potatoes | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 37 | Corn on the cob | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 38 | Liver | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 39 | Salt | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 34 | Pudding | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 35 | Green tomatoes | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 36 | Unripe or sprouted potatoes | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 37 | Corn on the cob | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 38 | Liver | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 39 | Salt | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 40 | Sugar | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 41 | Persimmons | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 42 | Walnuts | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |

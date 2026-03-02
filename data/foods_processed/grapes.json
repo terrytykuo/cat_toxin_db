@@ -8,12 +8,12 @@
   "sources": [],
   "toxic_parts": [
     "Powder",
-    "Entire food",
-    "Flesh",
     "Peel",
+    "Juice",
     "Seed",
+    "Entire food",
     "Skin",
-    "Juice"
+    "Flesh"
   ],
   "toxins": [
     {
