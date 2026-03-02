@@ -7,11 +7,11 @@
   },
   "sources": [],
   "toxic_parts": [
+    "Pit",
+    "Entire food",
     "Peel",
     "Seed",
-    "Entire food",
-    "Skin",
-    "Pit"
+    "Skin"
   ],
   "toxins": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "name": "Fetal Deformities (in pregnant cats)",
-      "body_system": "metabolic",
+      "body_system": "endocrine",
       "severity": "fatal",
       "onset": "Progressive (during gestation)",
       "notes": "If a pregnant cat is fed a liver-heavy diet and consumes too much Vitamin A, it will cross the placenta and have severe, harmful developmental effects on the unborn kittens"

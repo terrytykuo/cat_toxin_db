@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-02T01:02:31.847205",
-  "total_files": 39,
-  "passed": 39,
+  "generated_at": "2026-03-02T09:22:38.348887",
+  "total_files": 45,
+  "passed": 45,
   "failed": 0,
   "results": [
     {
@@ -149,6 +149,24 @@
       "issues": []
     },
     {
+      "file": "peanuts.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "persimmons.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "pistachios.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "plums.json",
       "status": "PASS",
       "issue_count": 0,
@@ -215,6 +233,18 @@
       "issues": []
     },
     {
+      "file": "sugar.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "sunflower_seeds.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "tea.json",
       "status": "PASS",
       "issue_count": 0,
@@ -234,6 +264,12 @@
     },
     {
       "file": "unripened_pineapples.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "walnuts.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []

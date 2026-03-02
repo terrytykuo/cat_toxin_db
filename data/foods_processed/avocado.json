@@ -7,15 +7,15 @@
   },
   "sources": [],
   "toxic_parts": [
+    "Bark",
+    "Pit",
     "Stem",
     "Peel",
     "Seed",
-    "Fruit",
-    "Bark",
-    "Leave",
     "Skin",
-    "Pit",
-    "Flesh"
+    "Leave",
+    "Flesh",
+    "Fruit"
   ],
   "toxins": [
     {

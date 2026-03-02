@@ -7,13 +7,13 @@
   },
   "sources": [],
   "toxic_parts": [
-    "Berrie",
-    "Juice",
-    "Seed",
-    "Fruit",
-    "Skin",
     "Pit",
-    "Cooked form"
+    "Berrie",
+    "Cooked form",
+    "Seed",
+    "Skin",
+    "Juice",
+    "Fruit"
   ],
   "toxins": [
     {
