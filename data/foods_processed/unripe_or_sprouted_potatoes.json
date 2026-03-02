@@ -7,12 +7,12 @@
   },
   "sources": [],
   "toxic_parts": [
-    "Stem",
-    "Peel",
     "Cooked form",
-    "Leave",
+    "Peel",
     "Skin",
-    "Root"
+    "Root",
+    "Leave",
+    "Stem"
   ],
   "toxins": [
     {

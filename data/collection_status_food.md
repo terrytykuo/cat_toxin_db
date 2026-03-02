@@ -41,12 +41,12 @@
 | 37 | Corn on the cob | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 38 | Liver | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 39 | Salt | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 40 | Sugar | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 41 | Persimmons | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 42 | Walnuts | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 43 | Pistachios | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 44 | Peanuts | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 45 | Sunflower seeds | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 40 | Sugar | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 41 | Persimmons | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 42 | Walnuts | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 43 | Pistachios | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 44 | Peanuts | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 45 | Sunflower seeds | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 46 | Candied fruits | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 47 | Meat jerky, dried squid, and dried fish | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
 | 48 | Pastries (radish cake, rice cake, pineapple cake, mochi) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |

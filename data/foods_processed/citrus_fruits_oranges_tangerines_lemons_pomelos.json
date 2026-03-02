@@ -10,9 +10,9 @@
     "Stem",
     "Peel",
     "Juice",
-    "Fruit",
     "Skin",
-    "Flesh"
+    "Flesh",
+    "Fruit"
   ],
   "toxins": [
     {

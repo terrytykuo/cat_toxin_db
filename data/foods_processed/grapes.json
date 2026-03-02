@@ -7,12 +7,12 @@
   },
   "sources": [],
   "toxic_parts": [
-    "Powder",
-    "Peel",
-    "Juice",
-    "Seed",
     "Entire food",
+    "Peel",
+    "Powder",
+    "Seed",
     "Skin",
+    "Juice",
     "Flesh"
   ],
   "toxins": [

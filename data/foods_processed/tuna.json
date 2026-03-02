@@ -7,10 +7,10 @@
   },
   "sources": [],
   "toxic_parts": [
-    "Juice",
-    "Entire food",
     "Cooked form",
-    "Raw form"
+    "Raw form",
+    "Entire food",
+    "Juice"
   ],
   "toxins": [
     {

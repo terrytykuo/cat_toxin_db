@@ -1,0 +1,62 @@
+{
+  "plant": {
+    "common_name": "Persimmons",
+    "scientific_name": "Persimmons",
+    "family": "Various",
+    "description": "Botanical Family: The provided sources do not specify the botanical plant family for persimmons. (Note: Based on general botanical knowledge outside the provided sources, persimmons belong to the ebony family, Ebenaceae, and you may want to independently verify this information).\n2. Brief Description and Common Forms\nDescription: Persimmons are a type of fruit consumed by humans1. While the provided sources do not offer a detailed culinary or physical description of the fruit itself, they highlight persimmons primarily for the danger their pits (seeds) pose to pets. If ingested by dogs or cats, persimmon pits can easily cause dangerous gastrointestinal blockages2.\nCommon Forms: In a household setting, pets are most likely to encounter this food as whole fresh fruit or as discarded fruit pits/seeds2."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Pit",
+    "Cooked form",
+    "Seed",
+    "Skin",
+    "Powder",
+    "Flesh",
+    "Fruit"
+  ],
+  "toxins": [
+    {
+      "name": "Based on the provided sources, there are no specific chemical toxic compounds or substances identified in persimmons that harm cats. Therefore",
+      "chemical_formula": null,
+      "description": "of action, or concentration cannot be provided.\nWhile one source briefly lists \"persimmons\" among human foods that may generally cause \"intoxications\" in pets1, the sources do not detail any specific chemical poison associated with the fruit.\nInstead of a chemical toxin, the sources emphasize that persimmons pose a severe physical hazard:\nPersimmon Pits (Seeds)\nName of the hazard: Intact Persimmon Pits (Physical Obstruction).\nChemical formula: N/A (Physical object).\nBrief description of its mechanism of action: If a cat or dog swallows a persimmon pit, it cannot be easily digested or passed, and it is highly prone to causing a dangerous physical blockage in the animal's intestinal tract23.\nAny notes on concentration or potency: Even a single pit can be large enough to cause a gastrointestinal obstruction in a small animal like a cat23.\n(Note: The sources group persimmons in the same warning category as apples, cherries, peaches, and plums. However, while the sources explicitly note that the pits/seeds of those other fruits contain the chemical toxin cyanide, they only specifically warn about the intestinal blockage risk for persimmons23.)",
+      "concentration_notes": "or potency: Even a single pit can be large enough to cause a gastrointestinal obstruction in a small animal like a cat23.\n(Note: The sources group persimmons in the same warning category as apples, cherries, peaches, and plums. However, while the sources explicitly note that the pits/seeds of those other fruits contain the chemical toxin cyanide, they only specifically warn about the intestinal blockage risk for persimmons23.)"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Persimmons do not contain a specific chemical toxin that causes acute systemic poisoning in cats. Instead",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": null,
+      "notes": null
+    },
+    {
+      "name": "Intestinal Obstruction",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Varies (typically develops over hours to a few days,",
+      "notes": "The pits of persimmons are hard, not easily digested, and are highly prone to causing dangerous physical blockages in the intestinal tracts of cats and dogs12. While persimmons are sometimes grouped in broad warnings with other fruits (like apples, cherries, peaches, and plums) whose pits contain toxic cyanide, the specific highlighted risk for persimmon pits is gastrointestinal obstruction12. (Note: The provided sources do not detail the secondary clinical signs of this specific obstruction, but as noted in our conversation history regarding other physical blockages, they typically manifest as severe vomiting, abdominal pain, and loss of appetite)."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Based on the provided sources, there are no specific veterinary medical procedures",
+      "priority": 1,
+      "description": null,
+      "notes": null
+    },
+    {
+      "name": "Emergency Veterinary Consultation and Professional Care",
+      "description": "of the procedure: Contact an animal hospital immediately to inform them of the situation and transport the cat for professional emergency care. You should collect any remaining pieces of the ingested item (such as the persimmon or its pits) in a bag and bring it with you, as this gives the veterinarian a clear basis for making a diagnostic and treatment judgment34.\nAny situation-specific",
+      "notes": "It is highly emphasized that you must not attempt to induce vomiting at home (such as by administering hydrogen peroxide) before speaking with a veterinarian, as this can be extremely dangerous with obstructive objects. Additionally, do not give the cat milk, food, salt, oil, or any other substances",
+      "priority": 2
+    },
+    {
+      "name": "Immediate At-Home Triage (Prior to Transport)",
+      "description": "of the procedure: Before heading to the vet, immediately move the cat away from the location of the food and clean up any remaining pieces to prevent further ingestion. Carefully check the cat's breathing and behavior to see if they are functioning normally34.\nAny situation-specific",
+      "notes": "Ensure that children and any other pets in the household are kept away from the scene to prevent them from also ingesting the dangerous item",
+      "priority": 3
+    }
+  ]
+}
