@@ -8,9 +8,9 @@
   "sources": [],
   "toxic_parts": [
     "Fruit",
-    "Seed",
     "Skin",
-    "Pit"
+    "Pit",
+    "Seed"
   ],
   "toxins": [
     {

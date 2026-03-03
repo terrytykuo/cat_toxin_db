@@ -8,8 +8,8 @@
   "sources": [],
   "toxic_parts": [
     "Skin",
-    "Seed",
-    "Pit"
+    "Pit",
+    "Seed"
   ],
   "toxins": [
     {
@@ -42,7 +42,7 @@
       "notes": "The excess salt creates an osmotic gradient that draws fluid out of the body's cells, leading to profound water-seeking behavior and electrolyte derangements14. If left untreated, this severe dehydration can progress to kidney failure"
     },
     {
-      "name": "Neuromuscular and Central Nervous System Dysfunction",
+      "name": "Neuromuscular and Central Nervous Dysfunction",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Within minutes to several hours (often progressing after initial gastrointestinal signs)",
