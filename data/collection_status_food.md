@@ -47,8 +47,8 @@
 | 43 | Pistachios | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 44 | Peanuts | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 45 | Sunflower seeds | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 46 | Candied fruits | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 47 | Meat jerky, dried squid, and dried fish | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 48 | Pastries (radish cake, rice cake, pineapple cake, mochi) | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 49 | Potato chips | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| 50 | Pretzels | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| 46 | Candied fruits | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 47 | Meat jerky, dried squid, and dried fish | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 48 | Pastries (radish cake, rice cake, pineapple cake, mochi) | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 49 | Potato chips | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
+| 50 | Pretzels | [x] | [x] | [x] | [x] | [x] | [x] | [x] |

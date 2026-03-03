@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-02T09:22:38.348887",
-  "total_files": 45,
-  "passed": 45,
+  "generated_at": "2026-03-03T09:24:40.956834",
+  "total_files": 50,
+  "passed": 50,
   "failed": 0,
   "results": [
     {
@@ -36,6 +36,12 @@
     },
     {
       "file": "caffeinated_drinks__soda.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "candied_fruits.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -131,6 +137,12 @@
       "issues": []
     },
     {
+      "file": "meat_jerky_dried_squid_and_dried_fish.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "milk_and_dairy_products.json",
       "status": "PASS",
       "issue_count": 0,
@@ -138,6 +150,12 @@
     },
     {
       "file": "onions.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "pastries_radish_cake_rice_cake_pineapple_cake_mochi.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -168,6 +186,18 @@
     },
     {
       "file": "plums.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "potato_chips.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "pretzels.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
