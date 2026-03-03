@@ -7,10 +7,10 @@
   },
   "sources": [],
   "toxic_parts": [
-    "Cooked form",
-    "Raw form",
     "Flesh",
-    "Powder"
+    "Powder",
+    "Raw form",
+    "Cooked form"
   ],
   "toxins": [
     {

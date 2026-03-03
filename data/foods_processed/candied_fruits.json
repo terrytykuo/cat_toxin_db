@@ -1,0 +1,143 @@
+{
+  "plant": {
+    "common_name": "Candied fruits",
+    "scientific_name": "Candied fruits",
+    "family": "Various",
+    "description": "Botanical Family: Because \"candied fruits\" refers to a method of food preparation rather than a single plant, it does not belong to a specific botanical family. It can include a wide variety of plant species depending on the specific fruit or nut being processed.\n2. Brief Description and Common Forms\nDescription: Candied fruits are processed human snacks made by preserving fruits, nuts, or seeds. The sources strongly advise against feeding them to pets because human candied and dried fruits are typically heavily seasoned with high amounts of sugar and salt12. Consuming these provides no nutritional benefits to cats and unnecessarily increases the metabolic burden on their kidneys12. Furthermore, specific types of dried fruits often found in these mixes (such as raisins, sultanas, and currants) are highly toxic to cats and can cause acute kidney failure34. Other components often grouped in this category, such as nuts and seeds, are hard to digest and can cause severe stomach upset or diarrhea12.\nCommon Forms: In households, pets may encounter this food category as dried vine fruits (raisins, sultanas, currants)3, sugar-preserved fruit pieces (\u871c\u991e), or mixed into candied nut and seed snacks (like sweetened macadamia nuts, walnuts, pistachios, peanuts, and melon seeds)12."
+  },
+  "sources": [],
+  "toxic_parts": [
+    "Pit",
+    "Entire food",
+    "Leave",
+    "Fruit",
+    "Seed",
+    "Stem"
+  ],
+  "toxins": [
+    {
+      "name": "Because \"candied fruits",
+      "chemical_formula": null,
+      "description": null,
+      "concentration_notes": null
+    },
+    {
+      "name": "Tartaric Acid (Found in Raisins, Sultanas, Currants, and Tamarinds)",
+      "chemical_formula": null,
+      "description": "in cats: Cats and dogs lack the renal Organic Anion Transporter 4 (OAT-4) that is responsible for actively secreting tartaric acid into the urine23. Because they cannot efficiently excrete it, tartaric acid accumulates in the proximal renal tubular cells, triggering oxidative stress, mitochondrial dysfunction, and massive cellular necrosis, which leads to acute kidney injury (AKI) and anuric renal failure2....\nAny notes on concentration or potency: The concentration of tartaric acid in fresh grapes varies from 0.35% to 2.0% but is highly concentrated in dried forms like raisins5. The proposed toxic threshold is extremely low; ingesting more than 1 grape or raisin per 4.5 kg of body weight poses a risk for kidney injury",
+      "concentration_notes": "or potency: The concentration of tartaric acid in fresh grapes varies from 0.35% to 2.0% but is highly concentrated in dried forms like raisins5. The proposed toxic threshold is extremely low; ingesting more than 1 grape or raisin per 4.5 kg of body weight poses a risk for kidney injury"
+    },
+    {
+      "name": "Cyanogenic Glycosides (Found in the seeds/pits of Apples, Cherries, Apricots, Peaches, and Plums)",
+      "chemical_formula": "C",
+      "description": null,
+      "concentration_notes": null
+    },
+    {
+      "name": "Brief description of its mechanism of action in cats",
+      "chemical_formula": null,
+      "description": "in cats: When the seeds or pits of these fruits are crushed, chewed, or digested, \u03b2-glucosidase enzymes hydrolyze the amygdalin, releasing highly toxic hydrogen cyanide (HCN) into the body8.... The cyanide binds to cytochrome c oxidase (an enzyme containing ferric ions) and inhibits oxygen metabolism in the mitochondrial electron transport chain1314. This halts cellular ATP production, leading to rapid cellular death, particularly in the brain and heart14.\nAny notes on concentration or potency: The adult lethal dose of amygdalin is estimated to be 0.5\u20133.5 mg/kg of body weight1516. The cyanogenic potential of various pits is very high: apricot kernels contain about 785 mg HCN/kg, peach kernels 710 mg HCN/kg, plum kernels 696 mg HCN/kg, and apple seeds 690 mg HCN/kg",
+      "concentration_notes": "or potency: The adult lethal dose of amygdalin is estimated to be 0.5\u20133.5 mg/kg of body weight1516. The cyanogenic potential of various pits is very high: apricot kernels contain about 785 mg HCN/kg, peach kernels 710 mg HCN/kg, plum kernels 696 mg HCN/kg, and apple seeds 690 mg HCN/kg"
+    },
+    {
+      "name": "Sodium Chloride / Salt (Used as a heavy seasoning)",
+      "chemical_formula": "NaCl (Note",
+      "description": "in cats: Human candied snacks are often heavily salted. An overdose of sodium draws fluid out of the body's intracellular and interstitial compartments and into the extracellular fluid1920. This rapid osmotic shift causes severe dehydration and cerebral dehydration; as brain cells shrink, the brain mass can pull away from the skull, potentially tearing meningeal vessels and causing intracranial hemorrhage, tremors, and seizures1921.\nAny notes on concentration or potency: The acute oral lethal dose of salt in dogs is approximately 4 g/kg, though severe clinical signs of toxicosis can appear after ingesting just 2\u20133 g/kg",
+      "concentration_notes": "or potency: The acute oral lethal dose of salt in dogs is approximately 4 g/kg, though severe clinical signs of toxicosis can appear after ingesting just 2\u20133 g/kg"
+    },
+    {
+      "name": "Xylitol (Used as an artificial sweetener in \"sugar-free\" candied snacks)",
+      "chemical_formula": null,
+      "description": "in cats: Xylitol tricks the body into releasing a massive amount of insulin, which can cause a rapid, life-threatening drop in blood sugar (hypoglycemia) and potentially acute hepatic necrosis (liver failure)25.... While studies suggest cats may lack the specific receptor-mediated pathway that makes dogs exquisitely sensitive to xylitol, veterinary toxicologists still advise treating it as a dangerous toxin for cats due to the potential for liver damage28....\nAny notes on concentration or potency: In dogs, doses greater than 100 mg/kg cause severe hypoglycemia, and doses exceeding 500 mg/kg can result in severe hepatic failure",
+      "concentration_notes": "or potency: In dogs, doses greater than 100 mg/kg cause severe hypoglycemia, and doses exceeding 500 mg/kg can result in severe hepatic failure"
+    },
+    {
+      "name": "Unknown Macadamia Toxin (If mixed with nuts)",
+      "chemical_formula": null,
+      "description": "in cats: Candied fruit snacks frequently include nuts. Macadamia nuts contain an unidentified toxic principle that affects the muscles, digestive system, and central nervous system34. It leads to weakness (especially in the hind limbs), ataxia, tremors, and hyperthermia3335. Furthermore, the high fat content can independently trigger pancreatitis34.\nAny notes on concentration or potency: The toxic dose in dogs ranges widely from 2.4 to 62.4 g/kg of body weight35. While cats' specific toxic threshold is less documented, macadamia nuts are strictly advised against for felines",
+      "concentration_notes": "or potency: The toxic dose in dogs ranges widely from 2.4 to 62.4 g/kg of body weight35. While cats' specific toxic threshold is less documented, macadamia nuts are strictly advised against for felines"
+    }
+  ],
+  "symptoms": [
+    {
+      "name": "Because \"candied fruits\" is a broad category of processed human snacks that can include dried vine fruits, preserved stone fruits",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": null,
+      "notes": null
+    },
+    {
+      "name": "Acute Kidney Failure (From dried grapes, raisins, sultanas, and currants)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Gastrointestinal signs (vomiting/diarrhea) begin within 6 to 12 hours;",
+      "notes": "These fruits contain tartaric acid, which cats cannot efficiently excrete, leading to massive cellular necrosis in the kidneys7. If the cat stops producing urine (anuric renal failure), survival is highly unlikely"
+    },
+    {
+      "name": "Cyanide Poisoning (From candied stone fruits containing pits/seeds)",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Rapid (within minutes to a few hours after the seeds/pits are chewed or digested)",
+      "notes": "The pits and seeds of apples, cherries, peaches, plums, and apricots contain amygdalin, a cyanogenic glycoside1012. When digested, this releases hydrogen cyanide, which halts cellular oxygen metabolism and causes rapid cellular death, particularly in the heart and brain"
+    },
+    {
+      "name": "Sodium Ion Poisoning (From heavily salted candied fruit/nut mixes)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Within minutes to several hours",
+      "notes": "An overdose of sodium draws fluid out of the body's cells15. This causes severe dehydration and cerebral dehydration; as the brain cells shrink, it can cause intracranial micro-hemorrhages, tremors, and seizures"
+    },
+    {
+      "name": "Neuromuscular Toxicity (From macadamia nuts in candied mixes)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Within 12 hours",
+      "notes": "While the exact toxic principle is unknown, the clinical signs usually resolve within 12 to 48 hours without lasting damage"
+    },
+    {
+      "name": "Hypoglycemia and Hepatic Injury (From xylitol in \"sugar-free\" candied fruits)",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "15 to 30 minutes, or delayed up to 12 hours (depending on absorption);",
+      "notes": "Xylitol tricks the body into releasing a massive amount of insulin, causing a life-threatening drop in blood sugar2527. While clinical studies suggest cats are more resistant to xylitol than dogs, veterinary toxicologists strongly advise treating any exposure as an emergency due to the potential for fatal liver damage"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Because \"candied fruits\"",
+      "priority": 1,
+      "description": null,
+      "notes": null
+    },
+    {
+      "name": "Early Gastrointestinal Decontamination (General First Step)",
+      "description": "of the procedure: If the ingestion is caught very early (within 1 to 2 hours) and the cat is asymptomatic, the veterinarian will administer a feline-specific injection (such as dexmedetomidine) to induce vomiting and empty the stomach34. This may be followed by oral activated charcoal to bind remaining toxins in the gastrointestinal tract and prevent their absorption3.\nAny situation-specific",
+      "notes": "This is a critical first step for almost all toxic ingestions (like raisins, xylitol, or intact fruit pits). However, emesis should not be attempted if the cat is already showing severe neurological signs, such as seizures or xylitol-induced hypoglycemia5. Pet owners must never attempt to induce vomiting in cats at home using hydrogen peroxide, as it can cause fatal hemorrhagic gastritis",
+      "priority": 2
+    },
+    {
+      "name": "Emergency Oxygen and Respiratory Support (If cyanide-containing pits/seeds were ingested)",
+      "description": "of the procedure: The veterinarian will provide immediate supplemental oxygen to combat systemic hypoxia (oxygen deprivation) and provide critical life support6.\nAny situation-specific",
+      "notes": "If the candied fruit contained crushed pits or seeds from cherries, peaches, plums, or apples, they release highly toxic hydrogen cyanide7. Cyanide rapidly halts cellular oxygen metabolism, making this a hyper-acute, life-threatening emergency if respiratory signs develop",
+      "priority": 3
+    },
+    {
+      "name": "Rapid Hypoglycemia Management (If xylitol-sweetened snacks were ingested)",
+      "description": "of the procedure: The cat is hospitalized, and IV fluids containing sugar (dextrose) are administered continuously to correct and maintain blood sugar levels89. The veterinarian may also administer liver protectants and will monitor liver enzyme activity for at least 72 hours8.\nAny situation-specific",
+      "notes": "Xylitol (often used in \"sugar-free\" snacks) tricks the pancreas into releasing a massive amount of insulin, which can cause a life-threatening drop in blood sugar within 30 to 60 minutes1011. While cats appear to be more resistant to xylitol than dogs, emergency treatment is still heavily advised as a precaution against potentially fatal liver damage",
+      "priority": 4
+    },
+    {
+      "name": "Aggressive Diuresis for Acute Kidney Injury (If raisins, sultanas, or currants were ingested)",
+      "description": "of the procedure: The cat will be hospitalized and placed on aggressive IV fluids for a minimum of 48 hours to promote constant urine production and flush the kidneys14.... The vet will monitor kidney values (such as BUN and creatinine) closely1617.\nAny situation-specific",
+      "notes": "Dried grapes (raisins and currants) contain highly concentrated tartaric acid, which causes massive cellular necrosis in the kidney tubules1819. If the cat becomes anuric (stops producing urine), the vet may attempt to stimulate urine flow with medications like dopamine or furosemide, though survival at that stage is highly unlikely",
+      "priority": 5
+    },
+    {
+      "name": "Controlled Sodium Correction (If heavily salted candied fruits/nuts were ingested)",
+      "description": "of the procedure: The veterinarian will measure the cat's serum sodium levels and administer specific IV fluids to slowly dilute the excess sodium in the bloodstream. The goal is to return the animal to a normal water and electrolyte balance gradually over a period of 2 to 3 days2122.\nAny situation-specific",
+      "notes": "Dropping the blood sodium concentration too quickly is incredibly dangerous. If fluids are administered too rapidly, the osmotic shift causes water to rush into the brain cells, resulting in severe cerebral edema (brain swelling) and potential brain herniation",
+      "priority": 6
+    }
+  ]
+}
