@@ -7,9 +7,9 @@
   },
   "sources": [],
   "toxic_parts": [
+    "Bulb",
     "Juice",
-    "Powder",
-    "Bulb"
+    "Powder"
   ],
   "toxins": [
     {

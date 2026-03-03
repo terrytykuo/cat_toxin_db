@@ -8,12 +8,12 @@
   "sources": [],
   "toxic_parts": [
     "Powder",
-    "Skin",
-    "Flesh",
     "Pit",
-    "Cooked form",
     "Fruit",
-    "Seed"
+    "Cooked form",
+    "Skin",
+    "Seed",
+    "Flesh"
   ],
   "toxins": [
     {
