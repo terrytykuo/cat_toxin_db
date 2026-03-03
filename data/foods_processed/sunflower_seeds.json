@@ -8,11 +8,11 @@
   "sources": [],
   "toxic_parts": [
     "Powder",
-    "Flower",
-    "Entire food",
     "Fruit",
+    "Flower",
     "Seed",
-    "Stem"
+    "Stem",
+    "Entire food"
   ],
   "toxins": [
     {

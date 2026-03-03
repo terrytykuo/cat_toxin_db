@@ -7,11 +7,11 @@
   },
   "sources": [],
   "toxic_parts": [
-    "Skin",
-    "Entire food",
-    "Raw form",
     "Cooked form",
-    "Peel"
+    "Peel",
+    "Raw form",
+    "Skin",
+    "Entire food"
   ],
   "toxins": [
     {
