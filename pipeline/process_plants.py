@@ -2,9 +2,35 @@ import json
 import os
 import re
 import glob
+from pathlib import Path
 
-INPUT_DIR = "data/plants"
-OUTPUT_DIR = "data/plants_processed"
+from jsonschema import Draft7Validator
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+INPUT_DIR = str(PROJECT_ROOT / "data" / "plants")
+OUTPUT_DIR = str(PROJECT_ROOT / "data" / "plants_processed")
+SCHEMA_PATH = PROJECT_ROOT / "schemas" / "toxin.schema.json"
+_SCHEMA_VALIDATOR = None
+
+
+def get_schema_validator():
+    global _SCHEMA_VALIDATOR
+    if _SCHEMA_VALIDATOR is not None:
+        return _SCHEMA_VALIDATOR
+
+    if not SCHEMA_PATH.exists():
+        raise FileNotFoundError(f"Schema file not found: {SCHEMA_PATH}")
+
+    with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
+        schema = json.load(f)
+
+    _SCHEMA_VALIDATOR = Draft7Validator(schema)
+    return _SCHEMA_VALIDATOR
+
+
+def format_validation_error(error):
+    path = ".".join([str(part) for part in error.path]) if error.path else "<root>"
+    return f"{path}: {error.message}"
 
 # Known toxic parts keys to search for if extraction fails
 KNOWN_PARTS = [
@@ -976,20 +1002,41 @@ def process_file(filepath):
     # Post-process: clean all fields
     processed = postprocess(processed)
         
+    validator = get_schema_validator()
+    errors = sorted(validator.iter_errors(processed), key=lambda e: list(e.path))
+    if errors:
+        out_name = os.path.basename(filepath)
+        print(f"Validation failed for {out_name}:")
+        for error in errors:
+            print(f"  - {format_validation_error(error)}")
+        return False
+
     # Save
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     out_name = os.path.basename(filepath)
     out_path = os.path.join(OUTPUT_DIR, out_name)
+    tmp_path = f"{out_path}.tmp"
     
-    with open(out_path, "w") as f:
+    with open(tmp_path, "w", encoding="utf-8") as f:
         json.dump(processed, f, indent=2)
+        f.write("\n")
+    os.replace(tmp_path, out_path)
         
     print(f"Processed {out_name}")
+    return True
 
 def main():
     files = glob.glob(os.path.join(INPUT_DIR, "*.json"))
+    passed = 0
+    failed = 0
+
     for f in files:
-        process_file(f)
+        if process_file(f):
+            passed += 1
+        else:
+            failed += 1
+
+    print(f"Summary: {passed} passed, {failed} failed")
 
 if __name__ == "__main__":
     main()
