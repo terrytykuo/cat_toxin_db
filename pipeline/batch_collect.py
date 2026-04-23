@@ -4,10 +4,11 @@ import subprocess
 import time
 import re
 
-# Ref
-PLANT_LIST = "data/plant_list.json"
-OUTPUT_DIR = "data/plants"
-STATUS_FILE = "data/collection_status.md"
+from paths import PLANT_LIST, RAW_PLANTS_DIR, STATUS_FILE
+
+PLANT_LIST = str(PLANT_LIST)
+OUTPUT_DIR = str(RAW_PLANTS_DIR)
+STATUS_FILE = str(STATUS_FILE)
 NOTEBOOK_ID = "cat-toxin-safety-guide"
 
 def snake_case(s):

@@ -19,8 +19,10 @@ import glob
 import sys
 from datetime import datetime
 
-PROCESSED_DIR = "data/plants_processed"
-REPORT_PATH = "data/verification_report.json"
+from paths import PROCESSED_PLANTS_DIR, DATA_DIR
+
+PROCESSED_DIR = str(PROCESSED_PLANTS_DIR)
+REPORT_PATH = str(DATA_DIR / "verification_report.json")
 
 # --- Valid values ---
 VALID_SEVERITIES = {"mild", "moderate", "severe", "fatal"}
