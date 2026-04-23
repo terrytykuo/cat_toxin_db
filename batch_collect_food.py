@@ -129,7 +129,7 @@ def main():
                     idx = int(line.split(".")[0])
                     completed.add(idx)
     
-    # target workflow: auto-detect next 4 foods
+    # target workflow: auto-detect next 6 foods
     target_indices = []
     if os.path.exists(STATUS_FILE):
         with open(STATUS_FILE, "r") as f:

@@ -6,10 +6,11 @@ FOOD_LIST_FILE = "data/food_list.json"
 STATUS_FILE = "data/collection_status_food.md"
 FOODS_DIR = "data/foods"
 
-def to_snake_case(text):
-    text = re.sub(r'[^\w\s-]', '', text.lower())
-    text = re.sub(r'[\s-]+', '_', text).strip('_')
-    return text
+def to_snake_case(s):
+    if not s:
+        return "unknown_food"
+    s = re.sub(r'[^a-zA-Z0-9_\s]', '', s)
+    return s.lower().replace(" ", "_")
 
 def main():
     if not os.path.exists(FOOD_LIST_FILE) or not os.path.exists(STATUS_FILE) or not os.path.exists(FOODS_DIR):
