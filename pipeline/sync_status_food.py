@@ -2,9 +2,11 @@ import json
 import os
 import re
 
-FOOD_LIST_FILE = "data/food_list.json"
-STATUS_FILE = "data/collection_status_food.md"
-FOODS_DIR = "data/foods"
+from paths import FOOD_LIST, FOODS_STATUS_FILE, RAW_FOODS_DIR
+
+FOOD_LIST_FILE = str(FOOD_LIST)
+STATUS_FILE = str(FOODS_STATUS_FILE)
+FOODS_DIR = str(RAW_FOODS_DIR)
 
 def to_snake_case(text):
     text = re.sub(r'[^\w\s-]', '', text.lower())

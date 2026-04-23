@@ -4,10 +4,17 @@ import subprocess
 import time
 import re
 
-# Ref
-FOOD_LIST = "data/food_list.json"
-OUTPUT_DIR = "data/foods"
-STATUS_FILE = "data/collection_status_food.md"
+from paths import (
+    FOOD_LIST as FOOD_LIST_PATH,
+    FOODS_COMPLETED_LOG,
+    FOODS_STATUS_FILE,
+    RAW_FOODS_DIR,
+)
+
+FOOD_LIST = str(FOOD_LIST_PATH)
+OUTPUT_DIR = str(RAW_FOODS_DIR)
+STATUS_FILE = str(FOODS_STATUS_FILE)
+COMPLETED_LOG = str(FOODS_COMPLETED_LOG)
 NOTEBOOK_URL = "https://notebooklm.google.com/notebook/9f5c9066-16f6-496f-b9b4-7830854bbaf2"
 
 def snake_case(s):
@@ -111,7 +118,7 @@ def collect_food(food, index):
     update_status(index, food_name)
     
 def update_status(index, name):
-    with open("data/completed_log_food.txt", "a") as f:
+    with open(COMPLETED_LOG, "a") as f:
         f.write(f"{index}. {name} - DONE\n")
 
 def main():
@@ -122,8 +129,8 @@ def main():
         foods = json.load(f)
         
     completed = set()
-    if os.path.exists("data/completed_log_food.txt"):
-        with open("data/completed_log_food.txt", "r") as f:
+    if os.path.exists(COMPLETED_LOG):
+        with open(COMPLETED_LOG, "r") as f:
             for line in f:
                 if "." in line:
                     idx = int(line.split(".")[0])
