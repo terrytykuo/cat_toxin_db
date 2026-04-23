@@ -13,7 +13,9 @@ import os
 import glob
 import sys
 
-RAW_DIR = "data/plants"
+from paths import RAW_PLANTS_DIR
+
+RAW_DIR = str(RAW_PLANTS_DIR)
 REQUIRED_KEYS = ["basics", "toxic_parts", "toxins", "symptoms", "treatments"]
 MIN_RESPONSE_LENGTH = 50  # responses shorter than this are likely errors
 

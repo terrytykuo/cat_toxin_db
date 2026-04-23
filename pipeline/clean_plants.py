@@ -25,9 +25,11 @@ load_dotenv()
 
 from openai import OpenAI
 
-PROCESSED_DIR = Path("data/plants_processed")
-CLEANED_DIR = Path("data/plants_cleaned")
-PROGRESS_FILE = Path("data/clean_progress.json")
+from paths import PROCESSED_PLANTS_DIR, CLEANED_PLANTS_DIR, DATA_DIR
+
+PROCESSED_DIR = PROCESSED_PLANTS_DIR
+CLEANED_DIR = CLEANED_PLANTS_DIR
+PROGRESS_FILE = DATA_DIR / "clean_progress.json"
 DEFAULT_BATCH = 10
 
 SYSTEM_PROMPT = """\

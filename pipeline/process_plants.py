@@ -2,9 +2,41 @@ import json
 import os
 import re
 import glob
+import sys
 
-INPUT_DIR = "data/plants"
-OUTPUT_DIR = "data/plants_processed"
+try:
+    from jsonschema import Draft7Validator
+except ImportError:
+    Draft7Validator = None
+
+from paths import RAW_PLANTS_DIR, PROCESSED_PLANTS_DIR, TOXIN_DISK_SCHEMA
+
+INPUT_DIR = str(RAW_PLANTS_DIR)
+OUTPUT_DIR = str(PROCESSED_PLANTS_DIR)
+
+_schema_validator = None
+
+
+def _get_validator():
+    global _schema_validator
+    if _schema_validator is not None:
+        return _schema_validator
+    if Draft7Validator is None:
+        print("jsonschema not installed; validation disabled. pip install jsonschema", file=sys.stderr)
+        return None
+    if not TOXIN_DISK_SCHEMA.exists():
+        print(f"schema not found at {TOXIN_DISK_SCHEMA}; validation disabled", file=sys.stderr)
+        return None
+    with open(TOXIN_DISK_SCHEMA, "r") as fh:
+        _schema_validator = Draft7Validator(json.load(fh))
+    return _schema_validator
+
+
+def _atomic_write_json(target_path: str, payload: dict) -> None:
+    tmp_path = target_path + ".tmp"
+    with open(tmp_path, "w") as fh:
+        json.dump(payload, fh, indent=2)
+    os.replace(tmp_path, target_path)
 
 # Known toxic parts keys to search for if extraction fails
 KNOWN_PARTS = [
@@ -976,20 +1008,38 @@ def process_file(filepath):
     # Post-process: clean all fields
     processed = postprocess(processed)
         
-    # Save
+    # Save + validate (validation is advisory; legacy output pre-dates the
+    # Firestore-shaped schema, so failures are expected until PR 6 aligns).
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     out_name = os.path.basename(filepath)
     out_path = os.path.join(OUTPUT_DIR, out_name)
-    
-    with open(out_path, "w") as f:
-        json.dump(processed, f, indent=2)
-        
+
+    _atomic_write_json(out_path, processed)
     print(f"Processed {out_name}")
+
+    validator = _get_validator()
+    if validator is None:
+        return True
+    errors = sorted(validator.iter_errors(processed), key=lambda e: list(e.absolute_path))
+    if errors:
+        first = errors[0]
+        loc = "/".join(str(p) for p in first.absolute_path) or "<root>"
+        print(f"  WARN {out_name}: {loc}: {first.message}")
+        return False
+    return True
+
 
 def main():
     files = glob.glob(os.path.join(INPUT_DIR, "*.json"))
+    passed = 0
+    failed = 0
     for f in files:
-        process_file(f)
+        if process_file(f):
+            passed += 1
+        else:
+            failed += 1
+    print(f"\nSummary: {passed} passed validation, {failed} failed")
+
 
 if __name__ == "__main__":
     main()

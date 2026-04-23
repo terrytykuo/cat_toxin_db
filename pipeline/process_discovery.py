@@ -2,9 +2,11 @@ import re
 import json
 import os
 
-RAW_FILE = "data/discovery_raw.txt"
-JSON_FILE = "data/plant_list.json"
-STATUS_FILE = "data/collection_status.md"
+from paths import DATA_DIR, PLANT_LIST, STATUS_FILE as STATUS_PATH
+
+RAW_FILE = str(DATA_DIR / "discovery_raw.txt")
+JSON_FILE = str(PLANT_LIST)
+STATUS_FILE = str(STATUS_PATH)
 
 def parse_discovery():
     plants = []
