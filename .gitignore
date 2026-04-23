@@ -21,3 +21,4 @@ data/clean_progress.json
 # Misc
 .DS_Store
 firebase-debug.log
+.wrangler/
