@@ -1,8 +1,8 @@
 ---
-description: Automated workflow to collect, process, and verify data for a batch of 4 foods
+description: Automated workflow to collect, process, and verify data for a batch of 6 foods
 ---
 
-1. Run the collection script. The script automatically identifies the next 4 unchecked foods in `data/collection_status_food.md`.
+1. Run the collection script. The script automatically identifies the next 6 unchecked foods in `data/collection_status_food.md`.
 // turbo
 python3 batch_collect_food.py
 2. Process the collected data into JSON.
