@@ -173,6 +173,18 @@
         },
         "hidden": {
           "type": "boolean"
+        },
+        "isToxic": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "toxicityLevel": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       },
       "required": [

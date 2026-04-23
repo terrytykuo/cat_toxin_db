@@ -45,6 +45,8 @@ export const ToxinSchema = z.object({
   safetyNotes: z.array(z.string()).optional(),
   emergencyNote: z.string().optional(),
   hidden: z.boolean().optional(),
+  isToxic: z.boolean().nullable().optional(),
+  toxicityLevel: z.string().nullable().optional(),
 })
 
 export const FIRESTORE_ONLY_FIELDS = [

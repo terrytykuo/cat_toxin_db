@@ -150,6 +150,18 @@
         },
         "emergencyNote": {
           "type": "string"
+        },
+        "isToxic": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "toxicityLevel": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       },
       "required": [
