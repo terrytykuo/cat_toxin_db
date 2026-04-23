@@ -155,7 +155,7 @@ After completing all 5 queries for a food, save the collected data as a JSON fil
 
 ## Step 3.5 — Verify
 
-After processing raw data with `process_foods.py` (or similar script), run the verification workflow.
+After processing raw data with `pipeline/process_foods.py` (or similar script), run the verification workflow.
 If any food FAILs, fix the underlying issue before marking it complete.
 
 ## Step 4 — Update Progress

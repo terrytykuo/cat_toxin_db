@@ -17,6 +17,10 @@ COMPLETED_LOG = DATA_DIR / "completed_log.txt"
 
 RAW_FOODS_DIR = DATA_DIR / "foods"
 PROCESSED_FOODS_DIR = DATA_DIR / "foods_processed"
+FOOD_LIST = DATA_DIR / "food_list.json"
+STATUS_FILE_FOOD = DATA_DIR / "collection_status_food.md"
+COMPLETED_LOG_FOOD = DATA_DIR / "completed_log_food.txt"
+VERIFICATION_REPORT_FOOD = DATA_DIR / "verification_report_food.json"
 
 SCHEMAS_DIR = REPO_ROOT / "schemas"
 TOXIN_DISK_SCHEMA = SCHEMAS_DIR / "toxin.disk.schema.json"

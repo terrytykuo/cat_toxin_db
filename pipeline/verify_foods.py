@@ -6,8 +6,10 @@ import glob
 import sys
 from datetime import datetime
 
-PROCESSED_DIR = "data/foods_processed"
-REPORT_PATH = "data/verification_report_food.json"
+from paths import PROCESSED_FOODS_DIR, VERIFICATION_REPORT_FOOD
+
+PROCESSED_DIR = str(PROCESSED_FOODS_DIR)
+REPORT_PATH = str(VERIFICATION_REPORT_FOOD)
 
 VALID_SEVERITIES = {"mild", "moderate", "severe", "fatal"}
 VALID_BODY_SYSTEMS = {

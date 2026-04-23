@@ -2,9 +2,11 @@ import json
 import os
 import re
 
-FOOD_LIST_FILE = "data/food_list.json"
-STATUS_FILE = "data/collection_status_food.md"
-FOODS_DIR = "data/foods"
+from paths import FOOD_LIST, STATUS_FILE_FOOD, RAW_FOODS_DIR
+
+FOOD_LIST_FILE = str(FOOD_LIST)
+STATUS_FILE = str(STATUS_FILE_FOOD)
+FOODS_DIR = str(RAW_FOODS_DIR)
 
 def to_snake_case(s):
     if not s:

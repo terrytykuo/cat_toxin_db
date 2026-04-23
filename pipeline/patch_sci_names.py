@@ -1,5 +1,8 @@
 import json
 import glob
+import os
+
+from paths import RAW_PLANTS_DIR
 
 fixes = {
     "Honeysuckle": "Lonicera spp.",
@@ -24,7 +27,7 @@ fixes = {
     "Wintergreen": "Gaultheria procumbens"
 }
 
-for f in glob.glob("data/plants/*.json"):
+for f in glob.glob(os.path.join(str(RAW_PLANTS_DIR), "*.json")):
     with open(f, "r") as file:
         data = json.load(file)
     if "plant" in data and not data["plant"].get("scientific_name"):

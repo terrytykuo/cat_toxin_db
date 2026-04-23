@@ -3,8 +3,10 @@ import os
 import re
 import glob
 
-INPUT_DIR = "data/foods"
-OUTPUT_DIR = "data/foods_processed"
+from paths import RAW_FOODS_DIR, PROCESSED_FOODS_DIR
+
+INPUT_DIR = str(RAW_FOODS_DIR)
+OUTPUT_DIR = str(PROCESSED_FOODS_DIR)
 
 KNOWN_PARTS = [
     "leaf", "leaves", "bulb", "bulbs", "flower", "flowers", "pollen", 
@@ -285,38 +287,37 @@ def main():
     for fp in files:
         with open(fp, "r") as f:
             data = json.load(f)
-            
+
         raw = data.get("raw_responses", {})
         processed = {
             "plant": data.get("plant", {}),
-            "sources": [] # Will need to extract these reliably if needed
+            "sources": []
         }
-        
+
         processed.update(parse_basics(raw.get("basics", "")))
         processed["toxic_parts"] = parse_toxic_parts(raw.get("toxic_parts", ""))
         processed["toxins"] = parse_toxins(raw.get("toxins", ""))
         processed["symptoms"] = parse_symptoms(raw.get("symptoms", ""))
         processed["treatments"] = parse_treatments(raw.get("treatments", ""))
-        
+
         processed["plant"]["family"] = clean_family(processed.get("family", data["plant"].get("family")))
         if "family" in processed: del processed["family"]
         processed["plant"]["description"] = processed.get("description", strip_source_refs(processed.get("plant", {}).get("description")))
         if "description" in processed: del processed["description"]
 
-        # General cleaning loop
         for t in processed["toxins"]:
             t["name"] = strip_trailing_period(clean_name(clean_toxin_name(t.get("name")), 150))
             t["chemical_formula"] = clean_chemical_formula(t.get("chemical_formula"))
             t["description"] = strip_source_refs(t.get("description"))
             t["concentration_notes"] = clean_concentration_notes(t.get("concentration_notes"))
-            
+
         for s in processed["symptoms"]:
             s["name"] = clean_name(strip_trailing_period(strip_source_refs(s.get("name"))), 150)
             s["severity"] = normalize_severity(s.get("severity")) or "moderate"
             s["body_system"] = s.get("body_system", "Metabolic")
             s["onset"] = clean_onset(s.get("onset"))
             s["notes"] = strip_source_refs(s.get("notes"))
-            
+
         for t in processed["treatments"]:
             t["name"] = clean_name(strip_trailing_period(strip_source_refs(t.get("name"))), 200)
             t["description"] = strip_source_refs(t.get("description"))
