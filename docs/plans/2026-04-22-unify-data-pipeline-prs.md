@@ -6,6 +6,14 @@
 
 ---
 
+## Status log
+
+- **2026-04-23 — PR 6 landed directly on `main`** (not as a reviewed PR). Baseline dump wrote 211 files; 2 Firestore docs (`mint`, `pom_flowers`) were skipped due to scientific_name slug collision with existing docs and remain known duplicates. 0 validation failures after the schema augmentation below.
+- **2026-04-23 — Schema augmentation outside PR 2's original spec.** PR 6 uncovered that 194/213 Firestore docs carry `isToxic` (bool) and `toxicityLevel` (string, nullable) fields that were never in `cat_toxin_app/admin/src/types.ts` (PR 2's stated source of truth) because they were added to Firestore by the app-side `scripts/patch-descriptions.js` ingestion path without touching `types.ts`. Resolved by adding both as optional/nullable to `ToxinSchema` (commit `2ed86c1`). Implication: **PR 8's schema-sync step must push this back into `cat_toxin_app/types/toxin.ts`** — the app-side types file is currently behind db-side reality.
+- **Known divergence from plan:** commits `4763420` (gitignore), `7bdb913` (misc pipeline scripts), `10d322e` (workflow + plan docs), `d65adb8` (data lists + verification report) were bundled into the same push as PR 6 instead of being scoped separately. Violates the "Scope discipline" rule; preserved here for audit.
+
+---
+
 ## Conventions for every PR
 
 - **Scope discipline:** do only what the PR describes. No drive-by refactors, no unrelated cleanup.
