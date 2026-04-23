@@ -2,11 +2,41 @@ import json
 import os
 import re
 import glob
+import sys
 
-from paths import RAW_FOODS_DIR, PROCESSED_FOODS_DIR
+try:
+    from jsonschema import Draft7Validator
+except ImportError:
+    Draft7Validator = None
+
+from paths import RAW_FOODS_DIR, PROCESSED_FOODS_DIR, TOXIN_DISK_SCHEMA
 
 INPUT_DIR = str(RAW_FOODS_DIR)
 OUTPUT_DIR = str(PROCESSED_FOODS_DIR)
+
+_schema_validator = None
+
+
+def _get_validator():
+    global _schema_validator
+    if _schema_validator is not None:
+        return _schema_validator
+    if Draft7Validator is None:
+        print("jsonschema not installed; validation disabled. pip install jsonschema", file=sys.stderr)
+        return None
+    if not TOXIN_DISK_SCHEMA.exists():
+        print(f"schema not found at {TOXIN_DISK_SCHEMA}; validation disabled", file=sys.stderr)
+        return None
+    with open(TOXIN_DISK_SCHEMA, "r") as fh:
+        _schema_validator = Draft7Validator(json.load(fh))
+    return _schema_validator
+
+
+def _atomic_write_json(target_path: str, payload: dict) -> None:
+    tmp_path = target_path + ".tmp"
+    with open(tmp_path, "w") as fh:
+        json.dump(payload, fh, indent=2)
+    os.replace(tmp_path, target_path)
 
 KNOWN_PARTS = [
     "leaf", "leaves", "bulb", "bulbs", "flower", "flowers", "pollen", 
@@ -284,6 +314,10 @@ def main():
     files = glob.glob(os.path.join(INPUT_DIR, "*.json"))
     print(f"🔄 Processing {len(files)} generated responses...")
 
+    validator = _get_validator()
+    passed = 0
+    failed = 0
+
     for fp in files:
         with open(fp, "r") as f:
             data = json.load(f)
@@ -324,9 +358,21 @@ def main():
             t["notes"] = strip_source_refs(t.get("notes"))
 
         out_fp = os.path.join(OUTPUT_DIR, os.path.basename(fp))
-        with open(out_fp, "w") as f:
-            json.dump(processed, f, indent=2)
+        _atomic_write_json(out_fp, processed)
 
+        if validator is None:
+            passed += 1
+            continue
+        errors = sorted(validator.iter_errors(processed), key=lambda e: list(e.absolute_path))
+        if errors:
+            first = errors[0]
+            loc = "/".join(str(p) for p in first.absolute_path) or "<root>"
+            print(f"  WARN {os.path.basename(fp)}: {loc}: {first.message}")
+            failed += 1
+        else:
+            passed += 1
+
+    print(f"\nSummary: {passed} passed validation, {failed} failed")
     print(f"✅ Processed output written to {OUTPUT_DIR}/")
 
 if __name__ == "__main__":
