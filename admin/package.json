@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@types/multer": "^2.1.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
     "concurrently": "^9.2.1",
     "cors": "^2.8.6",
     "express": "^5.2.1",

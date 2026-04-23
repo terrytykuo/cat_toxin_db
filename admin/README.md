@@ -43,7 +43,20 @@ Vite proxies `/api/*` to the Express server and injects the `x-admin-secret` hea
 
 ## Field policy
 
-The server delegates field validation to `schemas/toxin.zod.ts` at the repo root. `FIRESTORE_ONLY_FIELDS` (`id`, `imageUrls`, `imageUrl`, `hidden`, `curatedList`) live only in Firestore, never in processed JSON on disk. That split is enforced by the double-write pipeline (see PR 7).
+The server delegates field validation to `schemas/toxin.zod.ts` at the repo root. `FIRESTORE_ONLY_FIELDS` (`id`, `imageUrls`, `imageUrl`, `hidden`, `curatedList`) live only in Firestore, never in processed JSON on disk. That split is enforced by the double-write pipeline.
+
+## Double-write
+
+`PATCH /api/toxins/:id`:
+
+1. Reads the current Firestore doc.
+2. Applies the patch in memory, strips `FIRESTORE_ONLY_FIELDS`.
+3. Validates the stripped payload against `schemas/toxin.disk.schema.json`.
+4. If validation fails → responds 422, writes **nothing** (Firestore untouched).
+5. If valid → Firestore `update(patch)`, then atomic write (tmp + rename) of the full disk payload to `data/plants_processed/<slug>.json` (or `foods_processed/` for `category === 'food'`).
+6. If the slug changed (scientific_name or category edited), the old file is removed.
+
+If the Firestore update succeeds but the disk write fails, the server logs loudly and returns 500 — the operator needs to reconcile. The reverse (disk → Firestore) never happens by design.
 
 ## Files not committed
 

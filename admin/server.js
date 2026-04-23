@@ -1,11 +1,14 @@
 import { createRequire } from 'node:module'
-import { readFileSync, existsSync } from 'node:fs'
+import { readFileSync, existsSync, unlinkSync } from 'node:fs'
 import { resolve, dirname, isAbsolute } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import express from 'express'
 import cors from 'cors'
 import multer from 'multer'
 import sharp from 'sharp'
+
+import { stripFirestoreOnly } from './lib/field-policy.js'
+import { atomicWriteJson, resolveDiskPath, validateDiskPayload } from './lib/disk-writer.js'
 
 async function compressImage(buffer) {
   return sharp(buffer)
@@ -148,8 +151,55 @@ app.patch('/api/toxins/:id', async (req, res) => {
   try {
     const { id } = req.params
     if (!isValidDocId(id)) return res.status(400).json({ error: 'Invalid id' })
-    await db.collection('toxins').doc(id).update(sanitizeToxin(req.body))
-    res.json({ ok: true })
+
+    const patch = sanitizeToxin(req.body)
+    const docRef = db.collection('toxins').doc(id)
+    const prevSnap = await docRef.get()
+    if (!prevSnap.exists) return res.status(404).json({ error: 'Not found' })
+
+    const prev = prevSnap.data() || {}
+    const merged = { id, ...prev, ...patch }
+    const diskPayload = stripFirestoreOnly(merged)
+
+    const { ok, errors } = validateDiskPayload(diskPayload)
+    if (!ok) {
+      return res.status(422).json({ error: 'Disk payload failed validation', errors })
+    }
+
+    const newDiskPath = resolveDiskPath(id, diskPayload)
+
+    let prevDiskPath = null
+    try {
+      prevDiskPath = resolveDiskPath(id, stripFirestoreOnly({ id, ...prev }))
+    } catch {
+      prevDiskPath = null
+    }
+
+    await docRef.update(patch)
+
+    try {
+      atomicWriteJson(newDiskPath, diskPayload)
+    } catch (diskErr) {
+      console.error(
+        `DISK WRITE FAILED for ${id} at ${newDiskPath} — Firestore already updated. Manual reconciliation required.`,
+        diskErr,
+      )
+      return res.status(500).json({
+        error: 'Firestore updated but disk write failed',
+        detail: diskErr.message,
+        path: newDiskPath,
+      })
+    }
+
+    if (prevDiskPath && prevDiskPath !== newDiskPath && existsSync(prevDiskPath)) {
+      try {
+        unlinkSync(prevDiskPath)
+      } catch (err) {
+        console.warn(`Failed to remove old disk file ${prevDiskPath}:`, err.message)
+      }
+    }
+
+    res.json({ ok: true, path: newDiskPath })
   } catch (e) {
     res.status(500).json({ error: e.message })
   }
