@@ -1,3 +1,5 @@
 openai>=1.0.0
 python-dotenv>=1.0.0
 jsonschema==4.25.1
+# Needed only for pipeline/dump_firestore.py
+firebase-admin>=6.5.0
