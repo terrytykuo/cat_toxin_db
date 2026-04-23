@@ -46,3 +46,19 @@ export const ToxinSchema = z.object({
   emergencyNote: z.string().optional(),
   hidden: z.boolean().optional(),
 })
+
+export const FIRESTORE_ONLY_FIELDS = [
+  'id',
+  'imageUrls',
+  'imageUrl',
+  'hidden',
+  'curatedList',
+] as const
+
+export const ToxinDiskSchema = ToxinSchema.omit({
+  id: true,
+  imageUrls: true,
+  imageUrl: true,
+  hidden: true,
+  curatedList: true,
+})

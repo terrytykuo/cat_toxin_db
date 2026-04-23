@@ -5,6 +5,7 @@ import {
   SeveritySchema,
   SymptomSeveritySchema,
   ToxinChemicalSchema,
+  ToxinDiskSchema,
   ToxinSchema,
   ToxinSymptomSchema,
   ToxinTreatmentSchema,
@@ -19,3 +20,4 @@ export type ToxinChemical = z.infer<typeof ToxinChemicalSchema>
 export type ToxinTreatment = z.infer<typeof ToxinTreatmentSchema>
 
 export type Toxin = z.infer<typeof ToxinSchema>
+export type ToxinDisk = z.infer<typeof ToxinDiskSchema>
