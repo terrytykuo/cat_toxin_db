@@ -1,0 +1,9 @@
+{
+  "name": "cat-toxin-db",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build:schemas": "npm --prefix schemas run build",
+    "check:schemas": "npm --prefix schemas run check"
+  }
+}

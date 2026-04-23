@@ -1,0 +1,192 @@
+{
+  "$ref": "#/definitions/Toxin",
+  "definitions": {
+    "Toxin": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "scientific_name": {
+          "type": "string"
+        },
+        "family": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "plant",
+            "food"
+          ]
+        },
+        "imageUrls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "imageUrl": {
+          "type": "string"
+        },
+        "toxicParts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "symptoms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "body_system": {
+                "type": "string"
+              },
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "mild",
+                  "moderate",
+                  "severe",
+                  "fatal"
+                ]
+              },
+              "onset": {
+                "type": "string"
+              },
+              "notes": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "body_system",
+              "severity"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "chemicals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "chemical_formula": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "description": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "concentration_notes": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "name"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "treatments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "description": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "notes": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "priority": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "name",
+              "priority"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "severity": {
+          "type": "string",
+          "enum": [
+            "safe",
+            "cautious",
+            "toxic"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "curatedList": {
+          "type": "string",
+          "enum": [
+            "foliage",
+            "kitchen",
+            "blooms"
+          ]
+        },
+        "safetyNotes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "emergencyNote": {
+          "type": "string"
+        },
+        "hidden": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "aliases",
+        "category",
+        "toxicParts",
+        "symptoms",
+        "severity",
+        "description"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
