@@ -1,0 +1,77 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": "Not provided in the given sources.",
+      "concentration_notes": "The toxicity of the String of Pearls plant is considered to be of \"moderate\" severity1. While a small exposure may cause mild upset, ingesting a large amount of the plant is more potent and can cause the cat to become significantly lethargic, which requires veterinary attention",
+      "description": "in cats: The sources do not detail the specific internal biological mechanism of the suspected alkaloids. However, they note that the plant's sap acts as a direct topical irritant that can inflame a cat's skin and eyes upon contact1. Internally, ingestion disrupts the gastrointestinal system and causes systemic depression, resulting in drooling, vomiting, diarrhea, and lethargy",
+      "name": "The exact toxin is listed as \"Unknown,\" but it is suspected to be pyrrolizidine alkaloids1. The plant also contains an unidentified irritant in its sa"
+    }
+  ],
+  "description": "String of Pearls (Senecio rowleyanus and related Senecio spp.) is a distinctive succulent houseplant with bead-like leaves that is moderately toxic to cats. It contains pyrrolizidine alkaloids (PAs) — the same liver-damaging compounds found in Ragwort — along with other irritant compounds. All parts of the plant are toxic.",
+  "emergencyNote": "Oral Decontamination (Removal of Plant Material)",
+  "family": "Asteraceae",
+  "isToxic": true,
+  "name": "String of Pearls",
+  "safetyNotes": [
+    "Toxic compounds: pyrrolizidine alkaloids and irritant compounds throughout the plant; the round bead-like leaves may attract cats",
+    "Mechanism: PAs are metabolised to reactive pyrroles in the liver, causing hepatocellular necrosis; cumulative damage can lead to liver failure",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy; chronic exposure may cause weight loss and jaundice as liver damage accumulates",
+    "The dangling bead-like appearance is particularly appealing to cats — relocate to spaces cats cannot access",
+    "Seek veterinary care if significant ingestion occurs"
+  ],
+  "scientific_name": "Senecio rowleyanus",
+  "severity": "cautious",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and diarrhea",
+      "notes": "If plant pieces are found in the cat's mouth, they should be removed and the mouth should be rinsed with water. Veterinary attention is recommended, especially if a large amount was eaten1. 2. Drooling",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling",
+      "notes": "Drooling typically occurs as a direct response to oral irritation from chewing the plant parts or sap1. 3. Lethargy",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy",
+      "notes": "Lethargy indicates a systemic reaction to the plant's toxins. If a cat becomes noticeably lethargic after eating the plant, the sources strongly advise contacting a veterinarian1. 4. Skin and Eye Irritation",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Irritation of the skin and eyes",
+      "notes": "This localized irritation is specifically caused by direct physical contact with the plant's sap. Rinsing the cat's paws (and mouth) with water is recommended to remove the irritant sap",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf"
+  ],
+  "toxicityLevel": "mild",
+  "treatments": [
+    {
+      "description": "Promptly and gently remove any remaining plant pieces from the cat's mouth",
+      "name": "Oral Decontamination (Removal of Plant Material)",
+      "notes": "This is the most immediate step required to stop the cat from swallowing any more of the toxic leaves or sap1. 2. Rinsing Mouth and Paws",
+      "priority": 1
+    },
+    {
+      "description": "Rinse the cat's mouth and paws thoroughly with water",
+      "name": "Topical and Oral Rinsing",
+      "notes": "Because the sap from the String of Pearls is a known irritant to the skin and eyes, rinsing the paws is highly recommended to prevent the cat from rubbing the sap into its eyes or experiencing localized skin irritation1. 3. Veterinary Consultation and Supportive Care",
+      "priority": 2
+    },
+    {
+      "description": "Contact your veterinarian to inform them of the exposure and follow their guidance for further monitoring or supportive care",
+      "name": "Veterinary Consultation and Monitoring",
+      "notes": "Seeking professional veterinary advice is especially critical if the cat ingested a large amount of the plant or if it is exhibiting lethargy",
+      "priority": 3
+    }
+  ]
+}

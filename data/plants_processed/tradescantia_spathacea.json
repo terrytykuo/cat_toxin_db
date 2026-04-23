@@ -1,59 +1,66 @@
 {
-  "plant": {
-    "common_name": "Oyster Plant",
-    "scientific_name": "Tradescantia spathacea",
-    "family": "Commelinaceae",
-    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Oyster Plant is a low-growing, clump-forming evergreen perennial. It is highly prized for its striking, sword-shaped leaves that grow in a dense rosette pattern. The leaves are typically a glossy dark green on the top and a vibrant, deep purple on the underside. It produces small, three-petaled white flowers that bloom tucked inside distinctive, boat-shaped purple bracts (which gives the plant its other popular nickname, \"Moses-in-the-Cradle\").\n\u2022 Habitat and Where Commonly Found: Native to southern Mexico, Belize, and Guatemala, the Oyster Plant thrives in warm, tropical, and subtropical climates. It prefers bright, indirect light and well-draining soil. Today, it is widely cultivated globally and is very commonly found indoors as a decorative houseplant, or planted outdoors as a colorful ground cover or border plant in frost-free regions."
-  },
-  "basics": {
-    "family": "Commelinaceae",
-    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Oyster Plant is a low-growing, clump-forming evergreen perennial. It is highly prized for its striking, sword-shaped leaves that grow in a dense rosette pattern. The leaves are typically a glossy dark green on the top and a vibrant, deep purple on the underside. It produces small, three-petaled white flowers that bloom tucked inside distinctive, boat-shaped purple bracts (which gives the plant its other popular nickname, \"Moses-in-the-Cradle\").\n\u2022 Habitat and Where Commonly Found: Native to southern Mexico, Belize, and Guatemala, the Oyster Plant thrives in warm, tropical, and subtropical climates. It prefers bright, indirect light and well-draining soil. Today, it is widely cultivated globally and is very commonly found indoors as a decorative houseplant, or planted outdoors as a colorful ground cover or border plant in frost-free regions."
-  },
-  "toxic_parts": [
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": "Not provided in the given sources.",
+      "concentration_notes": "The overall toxicity level of the Oyster Plant is considered mild1. The irritant sap is distributed throughout all parts of the plant, but is specifically noted as being contained within the leaves",
+      "description": "in cats: The sap acts as a direct physical and chemical irritant. When a cat bites or chews the plant, the sap is released, causing immediate irritation to the oral mucous membranes and gastrointestinal tract, which leads to drooling and vomiting1. Additionally, it acts as a contact irritant; if the sap gets onto the cat's fur or skin, it can occasionally cause localized skin irritation or rash",
+      "name": "The plant's sap contains irritating compounds, specifically oxalates (calcium oxalate crystals) along with other unspecified irritants"
+    }
+  ],
+  "description": "Oyster Plant (Tradescantia spathacea), also known as Moses-in-the-Cradle or Boat Lily, is a common houseplant and garden ornamental that is mildly toxic to cats. It contains calcium oxalate crystals and dermatitis-causing compounds in its sap. Skin contact with the plant or ingestion can both cause reactions.",
+  "emergencyNote": "Oral and Paw Decontamination",
+  "family": "Commelinaceae",
+  "isToxic": true,
+  "name": "Oyster Plant",
+  "safetyNotes": [
+    "Toxic compounds: calcium oxalate crystals and irritant compounds in the sap; the vivid purple undersides of leaves contain higher concentrations",
+    "Mechanism: calcium oxalate crystals cause mechanical irritation to the oral and GI mucosa; sap contact causes contact dermatitis",
+    "Symptoms: drooling, vomiting, diarrhea; skin or eye contact with sap may cause redness, irritation, or rash",
+    "The ornamental purple-and-green leaves make this a popular houseplant — keep it out of cat reach",
+    "Symptoms are usually mild; rinse any sap off skin with water and consult your vet if GI symptoms persist"
+  ],
+  "scientific_name": "Tradescantia spathacea",
+  "severity": "safe",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling (hypersalivation) and vomiting",
+      "notes": "If your cat ingests this plant, you should gently wipe out their mouth to remove any residual irritant sap and offer water1. You should monitor them for persistent vomiting and consult a veterinarian if symptoms worsen or do not resolve1. 2. Skin Irritation",
+      "onset": "The sources do not specify an exact timeframe, but because it is an immediate physical irritant,",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Skin irritation or rash",
+      "notes": "This is an occasional symptom that happens when the cat's skin or fur comes into contact with the sap1. It is recommended to wipe the cat's paws to remove the sap, and to consult a vet if the rash persists",
+      "onset": "The sources do not specify an exact timeframe,",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
     "Sap",
     "Stem",
     "Leaf"
   ],
-  "toxins": [
-    {
-      "name": "The plant's sap contains irritating compounds, specifically oxalates (calcium oxalate crystals) along with other unspecified irritants",
-      "chemical_formula": "Not provided in the given sources.",
-      "description": "in cats: The sap acts as a direct physical and chemical irritant. When a cat bites or chews the plant, the sap is released, causing immediate irritation to the oral mucous membranes and gastrointestinal tract, which leads to drooling and vomiting1. Additionally, it acts as a contact irritant; if the sap gets onto the cat's fur or skin, it can occasionally cause localized skin irritation or rash",
-      "concentration_notes": "The overall toxicity level of the Oyster Plant is considered mild1. The irritant sap is distributed throughout all parts of the plant, but is specifically noted as being contained within the leaves"
-    }
-  ],
-  "symptoms": [
-    {
-      "name": "Drooling (hypersalivation) and vomiting",
-      "body_system": "Gastrointestinal",
-      "severity": "mild",
-      "onset": "The sources do not specify an exact timeframe, but because it is an immediate physical irritant,",
-      "notes": "If your cat ingests this plant, you should gently wipe out their mouth to remove any residual irritant sap and offer water1. You should monitor them for persistent vomiting and consult a veterinarian if symptoms worsen or do not resolve1.\n2. Skin Irritation"
-    },
-    {
-      "name": "Skin irritation or rash",
-      "body_system": "Dermal",
-      "severity": "mild",
-      "onset": "The sources do not specify an exact timeframe,",
-      "notes": "This is an occasional symptom that happens when the cat's skin or fur comes into contact with the sap1. It is recommended to wipe the cat's paws to remove the sap, and to consult a vet if the rash persists"
-    }
-  ],
+  "toxicityLevel": "mild",
   "treatments": [
     {
-      "name": "Oral and Paw Decontamination",
       "description": "Gently wipe out the cat's mouth and thoroughly clean its paws to remove any remaining toxic, irritant sap",
-      "notes": "This is an urgent at-home first aid step to stop the sap from causing further irritation to the skin or gastrointestinal tract1. Because the plant's toxicity is mild, this is often the only intervention required.\n2. Observation and Monitoring",
+      "name": "Oral and Paw Decontamination",
+      "notes": "This is an urgent at-home first aid step to stop the sap from causing further irritation to the skin or gastrointestinal tract1. Because the plant's toxicity is mild, this is often the only intervention required. 2. Observation and Monitoring",
       "priority": 1
     },
     {
-      "name": "Symptomatic Monitoring",
       "description": "Keep a close eye on the cat for a period of time after exposure, watching for signs of mild gastrointestinal upset (drooling or vomiting) or skin redness/rash",
-      "notes": "If the vomiting is persistent, or if the skin rash worsens and does not resolve on its own, it is time to consult a veterinarian for professional guidance1.\n3. Veterinary Symptomatic Support (If Symptoms Worsen)",
+      "name": "Symptomatic Monitoring",
+      "notes": "If the vomiting is persistent, or if the skin rash worsens and does not resolve on its own, it is time to consult a veterinarian for professional guidance1. 3. Veterinary Symptomatic Support (If Symptoms Worsen)",
       "priority": 2
     },
     {
-      "name": "Veterinary Symptomatic Care",
       "description": "If the cat's symptoms escalate, a veterinarian will assess the animal and provide targeted medical relief, which may include anti-emetic medications to stop persistent vomiting or treatments to soothe severe skin irritation.",
+      "name": "Veterinary Symptomatic Care",
       "notes": "Because Oyster Plant ingestion typically only results in mild, self-limiting symptoms, this step is only necessary for cats that have an unusually severe reaction or do not recover quickly",
       "priority": 3
     }

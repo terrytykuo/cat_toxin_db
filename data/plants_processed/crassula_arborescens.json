@@ -1,0 +1,89 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": null,
+      "concentration_notes": "◦ Distribution: The toxic principle is found in all parts of the plant, including the fleshy leaves and stems. ◦ Potency: The toxicity is generally classified as mild to moderate. While it can cause significant distress and coordination issues, it is rarely fatal if treated.• Cat toxicity chart for 50 popular houseplants1 • Clinical Perspectives on Feline Phytotoxicology2 • The Top 13 Plants + Flo",
+      "description": "in cats: ◦ Gastrointestinal Irritation: While the exact chemical mechanism is unknown, ingestion triggers the body's emetic center, leading to vomiting. ◦ Central Nervous System (CNS) Depression: The toxin affects the neurological system, resulting in depression (lethargy) and incoordination (ataxia) (loss of balance). ◦ Cardiovascular Effects: In rare cases, it can cause bradycardia (a slowed hea",
+      "name": "The specific toxic principle remains unknown or unidentified in current veterinary literature"
+    }
+  ],
+  "description": "Jade Plant (Crassula spp.), also known as Money Plant or Lucky Plant, is a popular succulent houseplant that is mildly toxic to cats. The exact toxic principle has not been fully identified, but ingestion consistently causes gastrointestinal upset and neurological symptoms in cats. All parts of the plant are considered hazardous.",
+  "emergencyNote": "Removal of Plant Material / Induction of Emesis",
+  "family": "Crassulaceae",
+  "isToxic": true,
+  "name": "Jade Plant",
+  "safetyNotes": [
+    "Toxic compounds: unidentified toxic principle; the plant's fleshy leaves and stems are the primary exposure source",
+    "Mechanism: unknown; likely involves direct GI irritation combined with a mild neurological component",
+    "Symptoms: vomiting, depression, unsteady gait (ataxia), slow heart rate; symptoms are usually mild",
+    "All parts of the plant are toxic — leaves, stems, and roots",
+    "Seek veterinary advice if your cat shows signs of unsteadiness or lethargy after contact with the plant"
+  ],
+  "scientific_name": "Crassula arborescens",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "notes": "This is the most consistent symptom reported. The plant is considered an irritant to the stomach lining.Incoordination (Ataxia)",
+      "onset": "Acute (Clinical signs typically appear shortly after ingestion).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Loss of Balance / Incoordination / Ataxia",
+      "notes": "Cats may appear \"drunk,\" wobbly, or unable to walk in a straight line. This neurological presentation distinguishes Jade Plant toxicity from simple gastrointestinal irritants.Depression (Lethargy)",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Depression / Lethargy",
+      "notes": "Affected cats may become unusually inactive, hide, or be slow to respond to stimuli.Bradycardia (Rare)",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Slow Heart Rate (Bradycardia)",
+      "notes": "While less common than vomiting or ataxia, a slowed heart rate has been noted as a potential rare side effect of ingestion.Diarrhea",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "notes": "This symptom may accompany vomiting, though it is cited less frequently than the neurological signs (depression/ataxia) associated with this specific plant.",
+      "onset": "Acute.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ],
+  "toxicityLevel": "mild",
+  "treatments": [
+    {
+      "description": "The immediate step is to remove any remaining plant material from the cat's mouth. If the ingestion is recent (typically within a few hours), a veterinarian may administer medication to induce vomiting (emesis) to expel the plant material from the stomach before further absorption occurs.",
+      "name": "Removal of Plant Material / Induction of Emesis",
+      "notes": "Do not try to induce vomiting at home without specific veterinary instruction, as this can cause complications. This step is most effective if performed shortly after the cat has eaten the plant.Clinical Monitoring (Neurological and Cardiac)",
+      "priority": 1
+    },
+    {
+      "description": "The veterinary team will monitor the cat's vital signs, specifically looking for a slowed heart rate (bradycardia) and neurological signs such as lethargy (depression) or loss of coordination (ataxia).",
+      "name": "Observation for CNS Depression and Bradycardia",
+      "notes": "Jade Plant toxicity is distinct from many other plant poisonings because it causes incoordination and depression in addition to standard stomach upset. While rare, a slowed heart rate is a specific risk factor associated with this plant that requires professional monitoring.Supportive Fluid Therapy",
+      "priority": 2
+    },
+    {
+      "description": "Fluids are administered to maintain hydration and electrolyte balance, which helps the body flush out toxins and recover from fluid loss due to vomiting.",
+      "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
+      "notes": "Since vomiting is a primary symptom of Jade Plant ingestion, preventing dehydration is a key component of the recovery process.",
+      "priority": 3
+    }
+  ]
+}

@@ -1,112 +1,120 @@
 {
-  "plant": {
-    "common_name": "Meat jerky, dried squid, and dried fish",
-    "scientific_name": "Meat jerky, dried squid, and dried fish",
-    "family": "Various",
-    "description": "Brief Description and Common Forms\nDescription: These items are highly processed human snacks that are especially popular during holidays and festivals1. They are characterized by being heavily seasoned, high in calories, high in fat/oil, and extremely high in sodium (salt)1. The sources strongly warn against sharing these with pets, as a cat's metabolic capacity is far inferior to a human's1. Ingesting these high-oil and high-sodium foods places a massive burden on a cat's body and significantly increases the risk of developing life-threatening conditions such as acute pancreatitis, kidney disease, gastrointestinal issues, and cardiovascular diseases1.\nCommon Forms: In households, pets may encounter these as holiday snacks or table foods. Common forms specifically listed include dried shredded squid (\u9b77\u9b5a\u7d72), dried shredded cod (\u9c48\u9b5a\u7d72), dried small fish (\u5c0f\u9b5a\u4e7e), and various types of meat jerky (\u5404\u5f0f\u8089\u4e7e)1."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Entire food"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "Based on the provided sources, meat jerky, dried squid, and dried fish",
       "chemical_formula": null,
+      "concentration_notes": null,
       "description": null,
-      "concentration_notes": null
+      "name": "Based on the provided sources, meat jerky, dried squid, and dried fish"
     },
     {
-      "name": "Sodium Chloride (Salt)",
       "chemical_formula": "NaCl (Note",
-      "description": "in cats: Human jerky and dried seafood snacks are extremely high in salt2. An overdose of sodium draws fluid out of the body's intracellular and interstitial compartments, causing severe systemic and cerebral dehydration3. This places a massive burden on the cat's kidneys and cardiovascular system2. In severe cases, it causes sodium ion poisoning (hypernatremia), which leads to brain cell shrinkage, intracranial hemorrhage, tremors, seizures, and death34.\nAny notes on concentration or potency: A cat's metabolic capacity is far inferior to a human's; the high sodium concentrations routinely used to cure and flavor human jerky snacks easily exceed a cat's safe limits and greatly increase the risk of chronic kidney and cardiovascular diseases",
-      "concentration_notes": "or potency: A cat's metabolic capacity is far inferior to a human's; the high sodium concentrations routinely used to cure and flavor human jerky snacks easily exceed a cat's safe limits and greatly increase the risk of chronic kidney and cardiovascular diseases"
+      "concentration_notes": "or potency: A cat's metabolic capacity is far inferior to a human's; the high sodium concentrations routinely used to cure and flavor human jerky snacks easily exceed a cat's safe limits and greatly increase the risk of chronic kidney and cardiovascular diseases",
+      "description": "in cats: Human jerky and dried seafood snacks are extremely high in salt2. An overdose of sodium draws fluid out of the body's intracellular and interstitial compartments, causing severe systemic and cerebral dehydration3. This places a massive burden on the cat's kidneys and cardiovascular system2. In severe cases, it causes sodium ion poisoning (hypernatremia), which leads to brain cell shrinkag",
+      "name": "Sodium Chloride (Salt)"
     },
     {
-      "name": "Lipids (High Fats and Oils)",
       "chemical_formula": null,
-      "description": "in cats: Jerky and processed meat/seafood snacks contain high amounts of oil and fat2. Ingesting sudden, heavy loads of fat severely burdens a cat's digestive system2. This not only causes severe gastrointestinal upset (vomiting and diarrhea) but can also trigger acute pancreatitis, which is a painful, life-threatening inflammation of the pancreas2....\nAny notes on concentration or potency: The sources note that holiday and snack meats are notoriously high-fat, and even small amounts can induce fatal pancreatitis",
-      "concentration_notes": "or potency: The sources note that holiday and snack meats are notoriously high-fat, and even small amounts can induce fatal pancreatitis"
+      "concentration_notes": "or potency: The sources note that holiday and snack meats are notoriously high-fat, and even small amounts can induce fatal pancreatitis",
+      "description": "in cats: Jerky and processed meat/seafood snacks contain high amounts of oil and fat2. Ingesting sudden, heavy loads of fat severely burdens a cat's digestive system2. This not only causes severe gastrointestinal upset (vomiting and diarrhea) but can also trigger acute pancreatitis, which is a painful, life-threatening inflammation of the pancreas2.... Any notes on concentration or potency: The so",
+      "name": "Lipids (High Fats and Oils)"
     },
     {
-      "name": "Nitrates and Nitrites (Preservatives)",
       "chemical_formula": "NO",
-      "description": "in cats: Cured meats, such as jerky, contain added nitrates and nitrites used for preservation and coloring1. While the exact mechanism is not detailed in the provided text, the sources explicitly list the addition of nitrates and nitrites as a primary reason why cured meats are a dangerous and poor dietary choice for cats, contributing to the toxic load on their organs1.\nAny notes on concentration or potency: The sources do not specify exact toxic doses but strictly advise against feeding cured meats to cats due to these additives",
-      "concentration_notes": "or potency: The sources do not specify exact toxic doses but strictly advise against feeding cured meats to cats due to these additives"
+      "concentration_notes": "or potency: The sources do not specify exact toxic doses but strictly advise against feeding cured meats to cats due to these additives",
+      "description": "in cats: Cured meats, such as jerky, contain added nitrates and nitrites used for preservation and coloring1. While the exact mechanism is not detailed in the provided text, the sources explicitly list the addition of nitrates and nitrites as a primary reason why cured meats are a dangerous and poor dietary choice for cats, contributing to the toxic load on their organs1. Any notes on concentratio",
+      "name": "Nitrates and Nitrites (Preservatives)"
     },
     {
-      "name": "Organosulfur Compounds (From added spice blends)",
       "chemical_formula": null,
-      "description": "in cats: Meat jerky and dried snacks are heavily processed with concentrated flavorings and spices2. These spice blends frequently contain onion or garlic powder78. When ingested, these compounds cause oxidative damage to feline red blood cells, causing the hemoglobin to denature and form Heinz bodies910. This destroys the red blood cells faster than the body can replace them, resulting in life-threatening hemolytic anemia and potential secondary kidney damage1011.\nAny notes on concentration or potency: Cats are exquisitely sensitive to these compounds810. Because garlic and onion powders are highly concentrated, even a small sprinkle or trace amount used to season a piece of jerky can accumulate over time and cause severe, delayed anemia8.... Garlic is noted to be five times more toxic than onions",
-      "concentration_notes": "or potency: Cats are exquisitely sensitive to these compounds810. Because garlic and onion powders are highly concentrated, even a small sprinkle or trace amount used to season a piece of jerky can accumulate over time and cause severe, delayed anemia8.... Garlic is noted to be five times more toxic than onions"
+      "concentration_notes": "or potency: Cats are exquisitely sensitive to these compounds810. Because garlic and onion powders are highly concentrated, even a small sprinkle or trace amount used to season a piece of jerky can accumulate over time and cause severe, delayed anemia8.... Garlic is noted to be five times more toxic than onions",
+      "description": "in cats: Meat jerky and dried snacks are heavily processed with concentrated flavorings and spices2. These spice blends frequently contain onion or garlic powder78. When ingested, these compounds cause oxidative damage to feline red blood cells, causing the hemoglobin to denature and form Heinz bodies910. This destroys the red blood cells faster than the body can replace them, resulting in life-th",
+      "name": "Organosulfur Compounds (From added spice blends)"
     }
   ],
+  "description": "Meat jerky, dried squid, and dried fish are not acutely toxic to cats, but these heavily processed human snack foods pose significant health risks due to their extreme sodium content and seasonings. Regular feeding causes salt toxicity, kidney damage, and nutritional imbalances over time. Some products also contain garlic or onion powder — both toxic to cats.",
+  "emergencyNote": "Because meat jerky, dried squid, and dried fish are highly processed human snacks that do not contain a single inherent poison",
+  "family": "Various",
+  "isToxic": false,
+  "name": "Meat jerky, dried squid, and dried fish",
+  "safetyNotes": [
+    "Sodium hazard: sodium content in these snacks is 5–20x safe levels for cats; repeated feeding causes hypertension and kidney damage",
+    "Seasonings risk: many products contain garlic powder or onion powder — both severely toxic to cats (Heinz body anaemia)",
+    "Dried squid risk: very high thiaminase activity destroys vitamin B1 (thiamine), causing neurological damage with regular feeding",
+    "Dried fish (especially tuna jerky): high mercury and excessive phosphorus can worsen kidney disease",
+    "A tiny accidental taste is not an emergency; regular feeding or large amounts warrant a vet call"
+  ],
+  "scientific_name": "Meat jerky, dried squid, and dried fish",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "Because meat jerky, dried squid, and dried fish",
       "body_system": "Metabolic",
-      "severity": "moderate",
-      "onset": null,
-      "notes": null
+      "name": "Because meat jerky, dried squid, and dried fish",
+      "severity": "moderate"
     },
     {
-      "name": "Salt Toxicity (Sodium Ion Poisoning)",
       "body_system": "Neurological",
-      "severity": "fatal",
+      "name": "Salt Toxicity (Sodium Ion Poisoning)",
+      "notes": "Human jerky and dried seafood snacks are heavily cured with salt2. An overdose of sodium draws fluid out of the body's cells, resulting in severe systemic dehydration and electrolyte derangements3. In severe cases, the osmotic shift causes brain cells to shrink, leading to seizures, kidney failure,",
       "onset": "Within minutes to several hours of ingestion",
-      "notes": "Human jerky and dried seafood snacks are heavily cured with salt2. An overdose of sodium draws fluid out of the body's cells, resulting in severe systemic dehydration and electrolyte derangements3. In severe cases, the osmotic shift causes brain cells to shrink, leading to seizures, kidney failure, and death"
+      "severity": "fatal"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Acute Pancreatitis and Gastrointestinal Upset",
-      "body_system": "Gastrointestinal",
-      "severity": "fatal",
+      "notes": "These holiday and human snacks are extremely high in calories, fats, and oils2. A cat's metabolic capacity cannot handle this massive fat load, which places an extreme burden on their digestive system and can induce acute pancreatitis, a painful and highly fatal inflammation of the pancreas",
       "onset": "Vomiting/diarrhea can occur within hours;",
-      "notes": "These holiday and human snacks are extremely high in calories, fats, and oils2. A cat's metabolic capacity cannot handle this massive fat load, which places an extreme burden on their digestive system and can induce acute pancreatitis, a painful and highly fatal inflammation of the pancreas"
+      "severity": "fatal"
     },
     {
-      "name": "Hemolytic Anemia (If seasoned with onion or garlic powder)",
       "body_system": "Gastrointestinal",
-      "severity": "fatal",
-      "onset": "Early gastrointestinal signs (nausea/drooling) occur within 0\u201324 hours;",
-      "notes": "Cured meats and jerky are frequently seasoned with spice blends containing concentrated onion or garlic powder1. These compounds cause oxidative damage to a cat's red blood cells, destroying them faster than the body can replace them12. Even tiny, repeated amounts of garlic powder licked off a piece of jerky can accumulate and cause delayed, life-threatening anemia"
+      "name": "Hemolytic Anemia (If seasoned with onion or garlic powder)",
+      "notes": "Cured meats and jerky are frequently seasoned with spice blends containing concentrated onion or garlic powder1. These compounds cause oxidative damage to a cat's red blood cells, destroying them faster than the body can replace them12. Even tiny, repeated amounts of garlic powder licked off a piece",
+      "onset": "Early gastrointestinal signs (nausea/drooling) occur within 0–24 hours;",
+      "severity": "fatal"
     },
     {
-      "name": "Chronic Renal and Cardiovascular Strain",
       "body_system": "Renal",
-      "severity": "severe",
+      "name": "Chronic Renal and Cardiovascular Strain",
+      "notes": "Even if a cat does not suffer an acute toxic crisis from a single piece of jerky, routinely feeding them these high-sodium and high-oil processed snacks significantly increases their long-term risk of developing chronic kidney disease and cardiovascular diseases",
       "onset": "Chronic (developing progressively over time with repeated exposure).",
-      "notes": "Even if a cat does not suffer an acute toxic crisis from a single piece of jerky, routinely feeding them these high-sodium and high-oil processed snacks significantly increases their long-term risk of developing chronic kidney disease and cardiovascular diseases"
+      "severity": "severe"
     }
   ],
+  "toxicParts": [
+    "Entire food"
+  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
-      "name": "Because meat jerky, dried squid, and dried fish are highly processed human snacks that do not contain a single inherent poison",
-      "priority": 1,
       "description": null,
-      "notes": null
+      "name": "Because meat jerky, dried squid, and dried fish are highly processed human snacks that do not contain a single inherent poison",
+      "notes": null,
+      "priority": 1
     },
     {
+      "description": "of the procedure: If the ingestion is caught very early (within 1 to 2 hours) and the cat is asymptomatic, the veterinarian may administer a specific feline-safe injection (such as dexmedetomidine) to induce vomiting and empty the stomach12. This may be followed by oral activated charcoal to bind any remaining toxins (such as garlic/onion spices) in the gastrointestinal tract and prevent their abs",
       "name": "Early Gastrointestinal Decontamination (If caught immediately)",
-      "description": "of the procedure: If the ingestion is caught very early (within 1 to 2 hours) and the cat is asymptomatic, the veterinarian may administer a specific feline-safe injection (such as dexmedetomidine) to induce vomiting and empty the stomach12. This may be followed by oral activated charcoal to bind any remaining toxins (such as garlic/onion spices) in the gastrointestinal tract and prevent their absorption1....\nAny situation-specific",
       "notes": "Pet owners must never attempt to induce vomiting in cats at home using hydrogen peroxide, as it is highly irritating and can cause fatal hemorrhagic gastritis in felines",
       "priority": 2
     },
     {
+      "description": "of the procedure: To combat the extreme sodium levels found in cured snacks, the veterinarian will hospitalize the cat, measure serum sodium levels, and administer specific IV fluids to dilute the sodium in the blood and restore electrolyte balance45. The goal is to slowly return the animal to a normal water and electrolyte balance over a period of 2 to 3 days6. Any situation-specific",
       "name": "Controlled Sodium Correction (For Salt Toxicity)",
-      "description": "of the procedure: To combat the extreme sodium levels found in cured snacks, the veterinarian will hospitalize the cat, measure serum sodium levels, and administer specific IV fluids to dilute the sodium in the blood and restore electrolyte balance45. The goal is to slowly return the animal to a normal water and electrolyte balance over a period of 2 to 3 days6.\nAny situation-specific",
-      "notes": "It is critical that the veterinarian lowers the serum sodium concentration slowly (at a rate of 0.5 to 1.0 mEq/L per hour)78. If fluids are given too rapidly, it reverses the osmotic gradient, drawing water into the brain cells and causing massive, potentially fatal cerebral edema (brain swelling) and herniation",
+      "notes": "It is critical that the veterinarian lowers the serum sodium concentration slowly (at a rate of 0.5 to 1.0 mEq/L per hour)78. If fluids are given too rapidly, it reverses the osmotic gradient, drawing water into the brain cells and causing massive, potentially fatal cerebral edema (brain swelling) a",
       "priority": 3
     },
     {
+      "description": "of the procedure: If the snacks were seasoned with onion or garlic powder and the cat develops severe hemolytic anemia, the veterinarian will provide immediate supplemental oxygen to combat systemic hypoxia and may administer whole blood transfusions if the red blood cell count drops dangerously low3.... Any situation-specific",
       "name": "Emergency Oxygen and Blood Transfusions (If spiced with Allium/onion/garlic)",
-      "description": "of the procedure: If the snacks were seasoned with onion or garlic powder and the cat develops severe hemolytic anemia, the veterinarian will provide immediate supplemental oxygen to combat systemic hypoxia and may administer whole blood transfusions if the red blood cell count drops dangerously low3....\nAny situation-specific",
       "notes": "The clinical signs of Heinz body hemolytic anemia caused by onion or garlic spices are often delayed, typically manifesting 3 to 5 days after the initial ingestion12.... Therefore, the cat's erythron (red blood cells) must be carefully monitored for several days following exposure",
       "priority": 4
     },
     {
+      "description": "of the procedure: If the heavy fat load triggers acute pancreatitis, the cat will require hospitalization and intravenous fluids to combat dehydration and flush inflammatory biochemicals from the pancreas1718. The vet will administer anti-nausea medications (such as maropitant) and pain relief (such as buprenorphine)17.... Any situation-specific",
       "name": "Intensive Medical Management for Pancreatitis (For high fat/oil overload)",
-      "description": "of the procedure: If the heavy fat load triggers acute pancreatitis, the cat will require hospitalization and intravenous fluids to combat dehydration and flush inflammatory biochemicals from the pancreas1718. The vet will administer anti-nausea medications (such as maropitant) and pain relief (such as buprenorphine)17....\nAny situation-specific",
-      "notes": "Because anorexic cats are at a high risk of developing a secondary, life-threatening liver condition known as hepatic lipidosis (fatty liver), early nutritional support is critical21.... If the cat refuses to eat, the veterinarian may prescribe appetite stimulants (like mirtazapine) or surgically place a feeding tube to ensure the delivery of vital nutrients",
+      "notes": "Because anorexic cats are at a high risk of developing a secondary, life-threatening liver condition known as hepatic lipidosis (fatty liver), early nutritional support is critical21.... If the cat refuses to eat, the veterinarian may prescribe appetite stimulants (like mirtazapine) or surgically pl",
       "priority": 5
     }
   ]

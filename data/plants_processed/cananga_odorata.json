@@ -1,0 +1,121 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": "C\n10\n\t​\n\nH\n18\n\t​\n\nO",
+      "concentration_notes": "Linalool is a major volatile component in Ylang Ylang essential oil. Because essential oils are heavily concentrated plant extracts, even a few drops inhaled, absorbed, or ingested can reach toxic thresholds in a cat.",
+      "description": "in cats: Because cats are deficient in the liver enzyme glucuronosyltransferase, they cannot properly bind (conjugate) and excrete terpene compounds like linalool. The compound rapidly absorbs through the skin, gastrointestinal tract, or lungs, accumulating in the bloodstream and tissues. It acts as a central nervous system depressant and causes acute hepatotoxicity (liver damage).",
+      "name": "Linalool (a terpene alcohol)"
+    },
+    {
+      "chemical_formula": "C\n9\n\t​\n\nH\n10\n\t​\n\nO\n2\n\t​",
+      "concentration_notes": "It is one of the primary components that give Ylang Ylang its signature sweet, floral scent. In the concentrated form of an essential oil, it is highly potent and dangerous to felines.",
+      "description": "in cats: Similar to terpenes, cats struggle to metabolize esters efficiently due to their unique hepatic limitations. Benzyl acetate is readily absorbed and can cause severe gastrointestinal irritation, respiratory distress, and central nervous system depression, contributing to the overall toxic burden on the liver and kidneys.",
+      "name": "Benzyl acetate (an ester)"
+    },
+    {
+      "chemical_formula": "C10H18O",
+      "concentration_notes": "Ylang Ylang essential oil is a complex mixture of these highly concentrated volatile organics. The cumulative effect of these compounds in 100% \"neat\" essential oil makes it exceptionally dangerous to cats, even via passive inhalation from a room diffuser.",
+      "description": "in cats: These compounds further overwhelm the cat's deficient glucuronidation pathways. They induce oxidative stress and directly damage hepatocytes (liver cells), which can result in rapid liver failure, vomiting, ataxia (loss of coordination), and seizures.",
+      "name": "Geraniol and various volatile sesquiterpenes (e.g., germacrene D, farnesene)"
+    }
+  ],
+  "description": "Ylang Ylang (Cananga odorata) essential oil is toxic to cats. The fragrant essential oil — widely used in perfumes, diffusers, and aromatherapy — contains germacrene and related sesquiterpene compounds that cats cannot safely metabolise. Both inhalation of diffused oil and topical application cause toxicity.",
+  "emergencyNote": "Supportive IV Fluids",
+  "family": "Annonaceae",
+  "isToxic": true,
+  "name": "Ylang Ylang",
+  "safetyNotes": [
+    "Toxic compounds: germacrene, benzyl acetate, methyl benzoate, and other volatile sesquiterpene and ester compounds in the essential oil",
+    "Mechanism: cats lack the hepatic glucuronidase needed to metabolise these compounds efficiently; accumulation causes GI and CNS effects",
+    "Symptoms: vomiting, drooling, weakness, unsteady gait (ataxia), difficulty breathing; inhalation may cause respiratory irritation",
+    "Essential oil diffusers in closed rooms are a significant risk even without direct contact",
+    "Do not apply ylang ylang oil to or near cats; use diffusers only in well-ventilated areas the cat cannot access"
+  ],
+  "scientific_name": "Cananga odorata",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive dribbling (drooling) and vomiting",
+      "notes": "Because cats are highly cleanly animals, they will often ingest toxic oils by licking them off their fur if they accidentally brush against them. They may also be poisoned by directly drinking the liquid out of reed diffusers3. 2. Walking as if \"Drunk",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Walking as if they are drunk (ataxia)",
+      "notes": "A clear indicator of systemic neurological disruption caused by the essential oil4. 3. Shaking, Tremoring, and Seizures",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Shaking, tremoring, seizures, and collapse",
+      "notes": "These represent extreme, life-threatening stages of essential oil poisoning3. 4. Lethargy and Depression",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy, depression, or dullness",
+      "notes": "If a cat exhibits these signs after potential exposure, a vet should be contacted immediately, even if no other severe symptoms have appeared yet45. 5. Difficulty Breathing",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty breathing or breathing with the mouth open",
+      "notes": "While toxic effects from passive inhalation are generally rare if the oils are heavily diluted, the risk of severe respiratory distress increases significantly if the cat is exposed to nebulized or ultrasonically diffused \"neat\" (undiluted) essential oils, or if the cat has pre-existing conditions l",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Sore, red skin, and chemical burns",
+      "notes": "Caused by direct skin contact. Importantly, even if there is no visible damage to the skin, owners should not assume the cat is safe, as the toxic oil can still be absorbed transdermally34. 7. Liver Failure",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Liver failure and serious organ damage",
+      "notes": "Because cats lack the ability to safely process the volatile compounds in essential oils, severe systemic accumulation can ultimately lead to liver failure and death [192, Conversation History].",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Flower"
+  ],
+  "toxicityLevel": "mild",
+  "treatments": [
+    {
+      "description": "The veterinarian administers fluids intravenously to rapidly rehydrate the cat, help eliminate the toxins from the bloodstream, and provide essential support to the liver and kidneys",
+      "name": "Supportive IV Fluids",
+      "notes": "This is a critical first-line defense to prevent severe dehydration from vomiting and to protect the internal organs from the systemic buildup of the oil's toxins4. 2. Liver Protection",
+      "priority": 1
+    },
+    {
+      "description": "The vet administers specific medications designed to shield the liver from sustaining acute damage.",
+      "name": "Hepatoprotective Medications",
+      "notes": "This is highly urgent because a cat's liver cannot naturally break down essential oils like Ylang Ylang; without intervention, the accumulation of these toxins can quickly lead to life-threatening liver failure3.... 3. Gastrointestinal Support and Symptom Management",
+      "priority": 2
+    },
+    {
+      "description": "The veterinary team provides anti-vomiting medications (anti-emetics) to stop fluid loss, alongside specialized medications that coat and protect the stomach lining",
+      "name": "Anti-emetics and Stomach Protectants",
+      "notes": "Notably, the vet will not induce vomiting for essential oil ingestion. Essential oils can cause chemical burns, and forcing the cat to throw them back up can severely burn the esophagus and digestive tract4. 4. Burn Management and Nutritional Support",
+      "priority": 3
+    },
+    {
+      "description": "If the cat has suffered chemical burns in its mouth or digestive tract, the vet will provide feline-safe pain medications and antibiotics. In severe cases where the cat cannot eat normally, a feeding tube will be temporarily inserted directly into the stomach",
+      "name": "Pain Medication, Antibiotics, and Feeding Tube Insertion",
+      "notes": "This allows the cat to receive necessary nutrition while bypassing the burned tissues in the mouth and throat until they are fully healed4. 5. Dermal Decontamination (If applicable)",
+      "priority": 4
+    },
+    {
+      "description": "If the essential oil is also on the cat's fur or skin, the veterinary team will bathe the cat using liquid dish soap and lukewarm water to strip the oils. If the cat is anxious or aggressive, the vet may use mild sedation to handle them safely",
+      "name": "Medicated Bathing / Fur Cleansing",
+      "notes": "This step is vital even if the cat has already ingested some oil, because cats will continue to groom themselves and ingest more of the toxic oil if it is not completely removed from their coat",
+      "priority": 5
+    }
+  ]
+}

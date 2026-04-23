@@ -1,76 +1,80 @@
 {
-  "plant": {
-    "common_name": "Liver",
-    "scientific_name": "Liver",
-    "family": "Various",
-    "description": "Botanical Family: Because liver is an animal organ, it does not belong to a botanical plant family.\n2. Brief Description and Common Forms\nDescription: Liver is a highly nutrient-dense organ meat that is particularly rich in vitamins A and B12. Truthfully, liver is not inherently toxic to cats; eating small amounts can actually be quite healthy and provide beneficial nutrients12. The danger arises from overconsumption. If a cat is fed large amounts of liver over a period of several weeks to months, it leads to vitamin A toxicity (hypervitaminosis A)12. This overdose causes a variety of severe health problems, including extreme skin sensitivity, peeling skin, vomiting, and painful, excessive bone development12.\nCommon Forms: In domestic settings, cats most commonly encounter this food as raw liver or cooked liver given as a treat or meal supplement1. Beef liver is specifically noted as a common form that is particularly high in vitamin A and prone to causing toxicity if overfed2."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Seed",
-    "Pit",
-    "Skin",
-    "Peel",
-    "Entire food"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "Vitamin A",
       "chemical_formula": "C",
-      "description": "in cats: While Vitamin A is an essential nutrient for cats, ingesting excessive amounts causes a toxicosis known as Vitamin A poisoning (hypervitaminosis A).12 Because Vitamin A is fat-soluble, the body cannot easily excrete the excess, leading it to accumulate over time.1 This accumulation severely disrupts normal cellular functions, most notably causing abnormal and excessive bone development, which leads to bone deformation, painful or restricted movements, and constipation.12 It also damages the skin and coat (causing peeling, rough, or dry skin), induces extreme weakness and weight loss, and can cause severe developmental harm to fetuses if consumed by a pregnant cat.1 In severe cases, this toxicity can be fatal.2\nAny notes on concentration or potency: Liver contains massive concentrations of Vitamin A.12 Eating small amounts of liver is completely safe and healthy for cats; the toxicity is a cumulative issue.1 Poisoning occurs when a cat is fed large amounts of liver (or other Vitamin A-rich foods) continuously over a period of several weeks to months.1",
-      "concentration_notes": "or potency: Liver contains massive concentrations of Vitamin A.12 Eating small amounts of liver is completely safe and healthy for cats; the toxicity is a cumulative issue.1 Poisoning occurs when a cat is fed large amounts of liver (or other Vitamin A-rich foods) continuously over a period of several weeks to months.1"
+      "concentration_notes": "or potency: Liver contains massive concentrations of Vitamin A.12 Eating small amounts of liver is completely safe and healthy for cats; the toxicity is a cumulative issue.1 Poisoning occurs when a cat is fed large amounts of liver (or other Vitamin A-rich foods) continuously over a period of several weeks to months.1",
+      "description": "in cats: While Vitamin A is an essential nutrient for cats, ingesting excessive amounts causes a toxicosis known as Vitamin A poisoning (hypervitaminosis A).12 Because Vitamin A is fat-soluble, the body cannot easily excrete the excess, leading it to accumulate over time.1 This accumulation severely disrupts normal cellular functions, most notably causing abnormal and excessive bone development, w",
+      "name": "Vitamin A"
     }
   ],
+  "description": "Liver (from chicken, beef, or pork) is safe for cats in small, occasional amounts and is actually a nutrient-dense food cats naturally consume as obligate carnivores. However, it becomes dangerous when fed in excess due to its extremely high vitamin A content. Overconsumption causes vitamin A toxicity (hypervitaminosis A), a serious condition that damages bones and the nervous system.",
+  "emergencyNote": "Unlike most of the other toxic foods we have discussed",
+  "family": "Various",
+  "isToxic": false,
+  "name": "Liver",
+  "safetyNotes": [
+    "Safe amount: up to 5% of total diet occasionally; more than this risks vitamin A toxicity over time",
+    "Excess risk: hypervitaminosis A — causes painful bone deformations (especially neck and spine), joint stiffness, neurological issues",
+    "Raw liver risk: may carry Salmonella, Listeria, or other pathogens; lightly cooking reduces bacterial risk",
+    "Avoid seasoned or marinated liver — garlic, onion, and salt used in cooking are toxic to cats",
+    "Liver as an occasional treat is fine; never make it a daily food source"
+  ],
+  "scientific_name": "Liver",
+  "severity": "toxic",
   "symptoms": [
     {
+      "body_system": "Metabolic",
       "name": "While liver is not inherently toxic in small amounts",
-      "body_system": "Metabolic",
-      "severity": "moderate",
-      "onset": null,
-      "notes": null
+      "severity": "moderate"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Abnormal Bone Development and Joint Pain",
-      "body_system": "Gastrointestinal",
-      "severity": "fatal",
+      "notes": "The excess Vitamin A triggers abnormal bony growths, particularly along the spine and joints, making it incredibly painful for the cat to move, groom, or even assume the posture to use the litter box",
       "onset": "Progressive (develops over several weeks to months of a liver-heavy diet)",
-      "notes": "The excess Vitamin A triggers abnormal bony growths, particularly along the spine and joints, making it incredibly painful for the cat to move, groom, or even assume the posture to use the litter box"
+      "severity": "fatal"
     },
     {
-      "name": "Dermatological Abnormalities",
       "body_system": "Dermal",
-      "severity": "moderate",
+      "name": "Dermatological Abnormalities",
+      "notes": "Extreme skin sensitivity and peeling skin are hallmark superficial signs of Vitamin A building up to toxic levels in the cat's tissues",
       "onset": "Progressive (weeks to months)",
-      "notes": "Extreme skin sensitivity and peeling skin are hallmark superficial signs of Vitamin A building up to toxic levels in the cat's tissues"
+      "severity": "moderate"
     },
     {
-      "name": "Gastrointestinal Upset",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "name": "Gastrointestinal Upset",
+      "notes": "Constipation often occurs secondary to the bone deformations; the cat experiences so much pain when trying to posture to defecate that they hold their stool in1. Severe weight loss also occurs as the cat becomes too weak or pained to eat normally",
       "onset": "Progressive (weeks to months),",
-      "notes": "Constipation often occurs secondary to the bone deformations; the cat experiences so much pain when trying to posture to defecate that they hold their stool in1. Severe weight loss also occurs as the cat becomes too weak or pained to eat normally"
+      "severity": "severe"
     },
     {
-      "name": "Behavioral and Systemic Changes",
       "body_system": "Neurological",
-      "severity": "severe",
+      "name": "Behavioral and Systemic Changes",
+      "notes": "As the toxicity affects the entire body and causes constant physical pain, the cat will become highly irritable, weak, and reluctant to be touched",
       "onset": "Progressive (weeks to months)",
-      "notes": "As the toxicity affects the entire body and causes constant physical pain, the cat will become highly irritable, weak, and reluctant to be touched"
+      "severity": "severe"
     },
     {
+      "body_system": "endocrine",
       "name": "Fetal Deformities (in pregnant cats)",
-      "body_system": "Metabolic",
-      "severity": "fatal",
+      "notes": "If a pregnant cat is fed a liver-heavy diet and consumes too much Vitamin A, it will cross the placenta and have severe, harmful developmental effects on the unborn kittens",
       "onset": "Progressive (during gestation)",
-      "notes": "If a pregnant cat is fed a liver-heavy diet and consumes too much Vitamin A, it will cross the placenta and have severe, harmful developmental effects on the unborn kittens"
+      "severity": "fatal"
     }
   ],
+  "toxicParts": [
+    "Whole"
+  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
-      "name": "Unlike most of the other toxic foods we have discussed",
-      "priority": 1,
       "description": null,
-      "notes": null
+      "name": "Unlike most of the other toxic foods we have discussed",
+      "notes": null,
+      "priority": 1
     }
   ]
 }

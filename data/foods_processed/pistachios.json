@@ -1,94 +1,102 @@
 {
-  "plant": {
-    "common_name": "Pistachios",
-    "scientific_name": "Pistachios",
-    "family": "Various",
-    "description": "Brief Description and Common Forms\nDescription: Pistachios are a type of nut that is a popular human snack. While the sources do not identify a specific chemical toxin in pistachios (unlike macadamia nuts or walnuts, which are explicitly toxic), they strongly advise against feeding them to cats and dogs1. Pistachios are rich in fats and oils, have a hard texture that makes them difficult for pets to digest, and are highly susceptible to dampness and mold1. If a cat eats them, it can easily lead to indigestion and diarrhea1.\nCommon Forms: In a household, pets are most likely to encounter pistachios as processed human snacks (often mixed with seeds or dried fruits). These forms are highly inappropriate for pets because they are typically seasoned with high amounts of sugar and salt1. Consuming these seasoned nuts provides no health benefits to cats and unnecessarily increases the burden on their kidneys1."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Entire food",
-    "Stem",
-    "Powder",
-    "Skin"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "Based on the provided sources, pistachios do not contain a specific inherent chemical toxin or poison. Instead",
       "chemical_formula": null,
+      "concentration_notes": null,
       "description": null,
-      "concentration_notes": null
+      "name": "Based on the provided sources, pistachios do not contain a specific inherent chemical toxin or poison. Instead"
     },
     {
-      "name": "Oils and Fats (Lipids)",
       "chemical_formula": null,
-      "description": "in cats: Cats' digestive systems struggle to process the dense fat content found in nuts. Ingesting these fats leads to indigestion and diarrhea12.\nAny notes on concentration or potency: The sources do not specify an exact toxic dose but note that nuts like pistachios are \"rich in oils\"",
-      "concentration_notes": "or potency: The sources do not specify an exact toxic dose but note that nuts like pistachios are \"rich in oils\""
+      "concentration_notes": "or potency: The sources do not specify an exact toxic dose but note that nuts like pistachios are \"rich in oils\"",
+      "description": "in cats: Cats' digestive systems struggle to process the dense fat content found in nuts. Ingesting these fats leads to indigestion and diarrhea12. Any notes on concentration or potency: The sources do not specify an exact toxic dose but note that nuts like pistachios are \"rich in oils\"",
+      "name": "Oils and Fats (Lipids)"
     },
     {
-      "name": "Added Salt and Sugar (Processing Seasonings)",
       "chemical_formula": "NaCl (Salt) and C",
-      "description": "in cats: Pistachios are most often encountered by pets as processed, candied, or roasted human snacks. Ingesting these added seasonings provides no nutritional benefit to cats and unnecessarily increases the metabolic burden on their kidneys12.\nAny notes on concentration or potency: The sources warn that human nut snacks are typically processed with \"high sweetness and high salt\"",
-      "concentration_notes": "or potency: The sources warn that human nut snacks are typically processed with \"high sweetness and high salt\""
+      "concentration_notes": "or potency: The sources warn that human nut snacks are typically processed with \"high sweetness and high salt\"",
+      "description": "in cats: Pistachios are most often encountered by pets as processed, candied, or roasted human snacks. Ingesting these added seasonings provides no nutritional benefit to cats and unnecessarily increases the metabolic burden on their kidneys12. Any notes on concentration or potency: The sources warn that human nut snacks are typically processed with \"high sweetness and high salt\"",
+      "name": "Added Salt and Sugar (Processing Seasonings)"
     },
     {
-      "name": "Mold (Potential Mycotoxins)",
       "chemical_formula": null,
-      "description": "in cats: The sources warn that nuts like pistachios are highly susceptible to becoming damp and developing mold12. Consuming moldy nuts can easily lead to indigestion and diarrhea in cats12.\nAny notes on concentration or potency: The sources do not specify concentrations, but simply highlight mold as a persistent risk when storing and feeding nuts",
-      "concentration_notes": "or potency: The sources do not specify concentrations, but simply highlight mold as a persistent risk when storing and feeding nuts"
+      "concentration_notes": "or potency: The sources do not specify concentrations, but simply highlight mold as a persistent risk when storing and feeding nuts",
+      "description": "in cats: The sources warn that nuts like pistachios are highly susceptible to becoming damp and developing mold12. Consuming moldy nuts can easily lead to indigestion and diarrhea in cats12. Any notes on concentration or potency: The sources do not specify concentrations, but simply highlight mold as a persistent risk when storing and feeding nuts",
+      "name": "Mold (Potential Mycotoxins)"
     }
   ],
+  "description": "Pistachios are not considered directly toxic to cats, but they are an unsuitable snack that carries several indirect health risks. Their high fat content poses a pancreatitis risk, and commercially sold pistachios are almost always salted. Mouldy pistachios may contain tremorgenic mycotoxins — fungal toxins that cause severe neurological symptoms.",
+  "emergencyNote": "Based on the provided sources, there is no specific veterinary treatment protocol explicitly designated just for pistachio ingestion. However",
+  "family": "Various",
+  "isToxic": false,
+  "name": "Pistachios",
+  "safetyNotes": [
+    "Not acutely toxic: no known cat-specific toxic compound in plain pistachios",
+    "Fat risk: high fat content can cause pancreatitis, especially with regular feeding",
+    "Sodium risk: salted pistachios contain harmful amounts of sodium for cats",
+    "Mould risk: green-tinged or improperly stored pistachios may contain tremorgenic mycotoxins — these cause tremors and seizures",
+    "A single pistachio nut (plain, unsalted) is unlikely to cause harm; regular feeding or large amounts warrant vet contact"
+  ],
+  "scientific_name": "Pistachios",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "While pistachios do not contain an acute chemical poison specific to cats",
       "body_system": "Metabolic",
-      "severity": "moderate",
-      "onset": null,
-      "notes": null
+      "name": "While pistachios do not contain an acute chemical poison specific to cats",
+      "severity": "moderate"
     },
     {
-      "name": "Indigestion and Diarrhea",
       "body_system": "Gastrointestinal",
-      "severity": "moderate",
+      "name": "Indigestion and Diarrhea",
+      "notes": "Cats are obligate carnivores, and their digestive systems struggle to break down the dense oils and high fat content found in nuts1. Furthermore, the hard texture of pistachios makes them physically difficult to digest, and the nuts are highly susceptible to becoming damp and growing mold, all of wh",
       "onset": "Within a few hours of ingestion.",
-      "notes": "Cats are obligate carnivores, and their digestive systems struggle to break down the dense oils and high fat content found in nuts1. Furthermore, the hard texture of pistachios makes them physically difficult to digest, and the nuts are highly susceptible to becoming damp and growing mold, all of which contribute to acute gastrointestinal distress"
+      "severity": "moderate"
     },
     {
-      "name": "Renal Stress / Increased Kidney Burden",
       "body_system": "Renal",
-      "severity": "severe",
+      "name": "Renal Stress / Increased Kidney Burden",
+      "notes": "In a household setting, pistachios are usually encountered as candied, dried, or roasted human snacks that are heavily seasoned with high amounts of salt and sugar1. Feeding these seasoned nuts to a cat provides no nutritional benefit and unnecessarily increases the metabolic burden on their kidneys",
       "onset": "Chronic (effects compound over time with repeated ingestions).",
-      "notes": "In a household setting, pistachios are usually encountered as candied, dried, or roasted human snacks that are heavily seasoned with high amounts of salt and sugar1. Feeding these seasoned nuts to a cat provides no nutritional benefit and unnecessarily increases the metabolic burden on their kidneys, which can exacerbate or lead to renal issues"
+      "severity": "severe"
     }
   ],
+  "toxicParts": [
+    "Skin",
+    "Entire food",
+    "Stem",
+    "Powder"
+  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
-      "name": "Based on the provided sources, there is no specific veterinary treatment protocol explicitly designated just for pistachio ingestion. However",
-      "priority": 1,
       "description": null,
-      "notes": null
+      "name": "Based on the provided sources, there is no specific veterinary treatment protocol explicitly designated just for pistachio ingestion. However",
+      "notes": null,
+      "priority": 1
     },
     {
+      "description": "of the procedure: If an intact pistachio or a large piece becomes lodged in the cat's throat or digestive tract, the veterinarian will need to physically remove the blockage using endoscopy or abdominal surgery. Any situation-specific",
       "name": "Relief of Choking or Intestinal Obstruction",
-      "description": "of the procedure: If an intact pistachio or a large piece becomes lodged in the cat's throat or digestive tract, the veterinarian will need to physically remove the blockage using endoscopy or abdominal surgery.\nAny situation-specific",
       "notes": "Pistachios have a hard physical texture that is very difficult for cats to properly digest, making them an immediate choking and obstruction hazard",
       "priority": 2
     },
     {
+      "description": "of the procedure: The veterinarian will hospitalize the cat, monitor serum sodium levels, and administer specific IV fluids to slowly return the animal to a normal water and electrolyte balance over a period of 2 to 3 days3. Any situation-specific",
       "name": "Correction of Salt Toxicity (If salted nuts were ingested)",
-      "description": "of the procedure: The veterinarian will hospitalize the cat, monitor serum sodium levels, and administer specific IV fluids to slowly return the animal to a normal water and electrolyte balance over a period of 2 to 3 days3.\nAny situation-specific",
-      "notes": "Pistachios are typically encountered as human snacks heavily seasoned with salt, which unnecessarily increases the burden on a cat's kidneys and can lead to sodium poisoning12. The veterinarian must lower the sodium concentration very slowly; if fluids are given too rapidly, it can cause fatal cerebral edema (brain swelling)",
+      "notes": "Pistachios are typically encountered as human snacks heavily seasoned with salt, which unnecessarily increases the burden on a cat's kidneys and can lead to sodium poisoning12. The veterinarian must lower the sodium concentration very slowly; if fluids are given too rapidly, it can cause fatal cereb",
       "priority": 3
     },
     {
+      "description": "of the procedure: If the cat develops acute pancreatitis, it will require hospitalization. The vet will use intravenous (IV) fluids to support the pancreatic vasculature and combat dehydration from vomiting or diarrhea, alongside administering medications to control pain and nausea56. Any situation-specific",
       "name": "Intensive Medical Management for Pancreatitis (If triggered by high fat)",
-      "description": "of the procedure: If the cat develops acute pancreatitis, it will require hospitalization. The vet will use intravenous (IV) fluids to support the pancreatic vasculature and combat dehydration from vomiting or diarrhea, alongside administering medications to control pain and nausea56.\nAny situation-specific",
-      "notes": "The dense oils and high fat content found in nuts like pistachios can trigger pancreatitis (a severe inflammation of the pancreas)17. Because anorexic cats are at high risk of developing a secondary fatal liver condition called hepatic lipidosis, the vet may also use appetite stimulants or place a feeding tube to ensure the cat receives early nutritional support",
+      "notes": "The dense oils and high fat content found in nuts like pistachios can trigger pancreatitis (a severe inflammation of the pancreas)17. Because anorexic cats are at high risk of developing a secondary fatal liver condition called hepatic lipidosis, the vet may also use appetite stimulants or place a f",
       "priority": 4
     },
     {
+      "description": "of the procedure: For milder cases, the veterinarian may administer basic hydration (such as subcutaneous fluids) and prescribe anti-emetics or a bland diet until the gastrointestinal inflammation subsides. Any situation-specific",
       "name": "Symptomatic Gastrointestinal Support",
-      "description": "of the procedure: For milder cases, the veterinarian may administer basic hydration (such as subcutaneous fluids) and prescribe anti-emetics or a bland diet until the gastrointestinal inflammation subsides.\nAny situation-specific",
       "notes": "Even if severe complications like pancreatitis or salt poisoning do not occur, the high fat content, hard texture, and potential for mold growth in pistachios easily lead to standard indigestion and diarrhea that require basic symptomatic relief",
       "priority": 5
     }

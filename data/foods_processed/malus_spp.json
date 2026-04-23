@@ -1,0 +1,90 @@
+{
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
+    {
+      "chemical_formula": "Amygdalin is C",
+      "concentration_notes": null,
+      "description": null,
+      "name": "Amygdalin (and its toxic metabolite, Hydrogen Cyanide)"
+    },
+    {
+      "chemical_formula": null,
+      "concentration_notes": "or potency: Apple seeds naturally contain an amygdalin concentration of about 3 g/kg6. The overall cyanogenic potential of apple seeds is roughly 690 mg of hydrogen cyanide per kilogram of seed material7. The hydrogen cyanide released from this compound is extremely potent; the fatal oral dose is generally estimated to be between 0.6 and 1.5 mg/kg of body weight",
+      "description": "in cats: Amygdalin itself is not directly toxic; however, when a cat chews or crushes apple seeds, the compound mixes with β-glucosidase enzymes (present in the plant tissue and the intestinal microbiota)24. These enzymes hydrolyze the amygdalin, releasing hydrogen cyanide into the cat's system24. Cyanide is a highly lethal neurotoxin that binds to the active site of cytochrome c oxidase, a key en",
+      "name": "Hydrogen Cyanide is HCN"
+    }
+  ],
+  "description": "Apples are widely consumed fleshy fruits that contain a central core housing several seeds (often referred to as pips or kernels). \n\nLike other plants in the Rosaceae family, the seeds of the apple naturally contain cyanogenic glycosides, specifically a compound known as amygdalin (HCN).",
+  "emergencyNote": "1. Supplemental Oxygen Therapy",
+  "family": "Rosaceae",
+  "name": "Apple (seeds)",
+  "scientific_name": "Malus spp.",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty Breathing and Hyperventilation",
+      "notes": "The hydrogen cyanide released from crushed apple seeds binds to enzymes in the cells, completely halting cellular oxygen metabolism12. This tissue suffocation forces the cat to hyperventilate and gasp for air as the body attempts to compensate",
+      "onset": "Rapid onset (often within minutes to a few hours).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea",
+      "notes": "These gastrointestinal signs are frequently the first early symptoms of acute cyanide toxicity after a cat ingests and metabolizes toxic seeds",
+      "onset": "Shortly after ingestion (often within 30 minutes to a few hours).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Muscle Tremors, Incoordination, and Seizures",
+      "notes": "Because the brain has incredibly high oxygen and energy demands, the sudden halt in cellular ATP (energy) production caused by the cyanide rapidly deprives the brain of power, leading to profound neurological distress",
+      "onset": "Rapid onset.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Coma and Cardiac Arrest",
+      "notes": "As the cyanide completely halts cellular respiration, the resulting rapid cellular death in the vital high-oxygen-demand organs (the brain and heart) leads to cardiovascular collapse, loss of consciousness, and ultimately death if untreated",
+      "onset": "Rapidly following respiratory distress and seizures.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Cherry-Red Mucous Membranes",
+      "notes": "Because cyanide blocks the body's cells from extracting and taking up oxygen from the bloodstream, venous blood remains fully saturated with oxygen. This causes a distinct, abnormally bright red coloration of the cat's skin, gums, and mucous membranes",
+      "onset": "Rapid onset.",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Seed"
+  ],
+  "treatments": [
+    {
+      "description": "of the procedure: Providing the cat with oxygen therapy to maximize the amount of oxygen available in the bloodstream1. Any situation-specific",
+      "name": "1. Supplemental Oxygen Therapy",
+      "notes": "This is a critical priority for symptomatic cats. Apple seeds contain cyanogenic glycosides that release hydrogen cyanide when crushed or chewed2. Because cyanide completely halts cellular ATP (energy) production and rapidly deprives the brain and heart of oxygen, oxygen therapy is strictly required",
+      "priority": 1
+    },
+    {
+      "description": "of the procedure: A veterinarian administers a specific medication (such as an α 2 ​ -adrenergic agonist like dexmedetomidine) to safely force the cat to vomit, expelling the toxic apple seeds from the stomach before further cyanide can be released and absorbed23. Any situation-specific",
+      "name": "Early Gastrointestinal Decontamination (Induction of Emesis)",
+      "notes": "This intervention is the primary goal if the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic3. Under no circumstances should pet owners attempt to use 3% hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated for cats and can cause fata",
+      "priority": 2
+    },
+    {
+      "description": "of the procedure: Administering oral activated charcoal to bind to and adsorb any residual toxins remaining in the cat's gastrointestinal tract3. Any situation-specific",
+      "name": "Administration of Activated Charcoal",
+      "notes": "This secondary decontamination step is typically administered immediately following successful emesis to trap any remaining cyanogenic compounds in the gut and prevent them from entering the bloodstream",
+      "priority": 3
+    },
+    {
+      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to maintain perfusion and support failing organ systems1. Any situation-specific",
+      "name": "Intravenous (IV) Fluid Therapy and Supportive Care",
+      "notes": "Because there is no specific antidote available for cyanide toxicity in felines, aggressive IV fluid therapy and intensive supportive care are essential to sustain the cat's cardiovascular system through the resulting metabolic shock",
+      "priority": 4
+    }
+  ]
+}

@@ -1,68 +1,70 @@
 {
-  "plant": {
-    "common_name": "Blood Lily",
-    "scientific_name": "Scadoxus spp.",
-    "description": "Also known as Blood Lily, a bulbous plant with large spherical flower heads. Highly toxic.",
-    "family": "Amaryllidaceae"
-  },
-  "basics": {
-    "description": "Also known as Blood Lily, a bulbous plant with large spherical flower heads. Highly toxic.",
-    "family": "Amaryllidaceae"
-  },
-  "toxic_parts": [
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": "C16H17NO4",
+      "concentration_notes": "Found in bulbs and stems.",
+      "description": "Alkaloids that cause gastrointestinal irritation and systemic distress.",
+      "name": "Lycorine and other alkaloids"
+    }
+  ],
+  "description": "Blood Lily (Scadoxus multiflorus, also known as Haemanthus) is a striking bulbous plant with large, spherical flower heads in vivid red. Like Amaryllis — a close relative in the Amaryllidaceae family — it contains lycorine and other phenanthridine alkaloids concentrated throughout the plant, with the highest levels in the bulb. Lycorine inhibits protein synthesis at the cellular level and triggers strong gastrointestinal reactions. All parts of the plant are toxic, and the showy flowers may attract cats' curiosity.",
+  "emergencyNote": "Plant Identification and Triage",
+  "family": "Amaryllidaceae",
+  "isToxic": true,
+  "name": "Blood Lily",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, abdominal pain, low blood pressure, and lethargy; tremors in more severe cases.",
+    "Bulb is most toxic: The underground bulb contains the greatest alkaloid concentration. Cats that dig in pots or garden beds face the highest exposure risk.",
+    "Action: Contact a vet promptly — even small amounts from the bulb can cause significant symptoms."
+  ],
+  "scientific_name": "Scadoxus spp.",
+  "severity": "cautious",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Salivation",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
     "Leaf",
     "Bulb"
   ],
-  "toxins": [
-    {
-      "name": "Lycorine and other alkaloids",
-      "chemical_formula": "C16H17NO4",
-      "description": "Alkaloids that cause gastrointestinal irritation and systemic distress.",
-      "concentration_notes": "Found in bulbs and stems."
-    }
-  ],
-  "symptoms": [
-    {
-      "name": "Vomiting",
-      "severity": "moderate",
-      "body_system": "Gastrointestinal",
-      "onset": null
-    },
-    {
-      "name": "Salivation",
-      "severity": "mild",
-      "body_system": "Gastrointestinal",
-      "onset": null
-    },
-    {
-      "name": "Diarrhea",
-      "severity": "moderate",
-      "body_system": "Gastrointestinal",
-      "onset": null
-    }
-  ],
+  "toxicityLevel": "mild",
   "treatments": [
     {
-      "name": "Plant Identification and Triage",
       "description": "The veterinarian must immediately verify the specific species of the plant. This is done to confirm the plant is an \"imposter lily\" (Scadoxus spp.) and definitively rule out Lilium or Hemerocallis species.",
-      "notes": "This is the most critical first step. True lilies cause fatal kidney failure with even small ingestions (pollen, 1-2 leaves), requiring aggressive, expensive, and prolonged hospitalization (48\u201372 hours of fluids). Confirming the plant is a Blood Lily allows the vet to avoid these intense kidney-protection protocols and focus on symptomatic care.",
+      "name": "Plant Identification and Triage",
+      "notes": "This is the most critical first step. True lilies cause fatal kidney failure with even small ingestions (pollen, 1-2 leaves), requiring aggressive, expensive, and prolonged hospitalization (48–72 hours of fluids). Confirming the plant is a Blood Lily allows the vet to avoid these intense kidney-prot",
       "priority": 1
     },
     {
-      "name": "Gastrointestinal Decontamination (Emesis)",
       "description": "If the ingestion was recent and the cat is neurologically stable, the veterinarian may induce vomiting (emesis) using prescription medications (such as xylazine or dexmedetomidine) to remove the plant material from the stomach.",
+      "name": "Gastrointestinal Decontamination (Emesis)",
       "notes": "Decontamination is most effective if performed shortly after ingestion. Do not attempt to induce vomiting at home (e.g., using hydrogen peroxide), as this can cause severe irritation, aspiration, or delay proper treatment.",
       "priority": 2
     },
     {
-      "name": "Toxin Adsorption (Activated Charcoal)",
       "description": "The administration of activated charcoal with a cathartic. This substance binds to toxins remaining in the gastrointestinal tract, preventing them from being absorbed into the bloodstream.",
+      "name": "Toxin Adsorption (Activated Charcoal)",
       "notes": "This step is often taken following emesis to ensure any toxins that have moved past the stomach are neutralized before they can cause systemic effects.",
       "priority": 3
     },
     {
-      "name": "Symptomatic and Supportive Care (Fluids & Medications)",
       "description": "Administration of intravenous (IV) or subcutaneous fluids to maintain hydration and correct electrolyte imbalances caused by vomiting or diarrhea. Anti-nausea medications (antiemetics) and gastroprotectants may be given to soothe the stomach.",
+      "name": "Symptomatic and Supportive Care (Fluids & Medications)",
       "notes": "Since \"imposter lilies\" typically cause gastrointestinal upset (vomiting, diarrhea, anorexia) or oral irritation rather than organ failure, treatment is aimed at keeping the cat comfortable and hydrated until clinical signs resolve. The prognosis for imposter lily ingestion is generally excellent.",
       "priority": 4
     }

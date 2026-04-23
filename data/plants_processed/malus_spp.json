@@ -1,99 +1,104 @@
 {
-  "plant": {
-    "common_name": "Apple",
-    "scientific_name": "Malus spp.",
-    "family": "Rosaceae",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The plant grows as a tree2,3. It produces fruit characterized by an outer skin, edible flesh, and a central core that contains seeds (also referred to as pips)4,5,1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: While the sources focus on toxicology, they indicate that apple trees are grown in gardens or orchards2,6. The fruit is commonly found in homes as a food source"
-  },
-  "basics": {
-    "family": "Rosaceae",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: The plant grows as a tree2,3. It produces fruit characterized by an outer skin, edible flesh, and a central core that contains seeds (also referred to as pips)4,5,1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Habitat & Location: While the sources focus on toxicology, they indicate that apple trees are grown in gardens or orchards2,6. The fruit is commonly found in homes as a food source"
-  },
-  "toxic_parts": [
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": null,
+      "concentration_notes": "◦ Location: The toxin is concentrated in the seeds (pips), leaves, and stems; the flesh of the apple is considered safe and non-toxic2.... ◦ Bioavailability: Apple seeds have a hard outer shell that often allows them to pass through the digestive tract intact without releasing the toxin. The seed must be crushed or chewed to pose a significant threat3.... ◦ Potency: While the amount of cyanide in ",
+      "description": "in cats: ◦ Activation: Amygdalin is relatively harmless in its intact form. However, when the apple seed is chewed, crushed, or digested, the compound interacts with digestive enzymes to undergo hydrolysis, releasing hydrogen cyanide into the bloodstream1.... ◦ Cellular Disruption: Once absorbed, the cyanide interferes with cellular respiration. It tightly binds to ferric (Fe3+) iron within cytoch",
+      "name": "The specific compound found in apple seeds is Amygdalin, which is a type of Cyanogenic Glycoside. When metabolized by the cat's body"
+    }
+  ],
+  "description": "The fleshy part of an apple is not toxic to cats and can be offered in very small amounts as an occasional treat. However, the seeds (pips), core, stems, and leaves contain cyanogenic glycosides — specifically amygdalin — which are converted by digestive enzymes into highly toxic hydrogen cyanide (HCN). The same mechanism applies to other members of the Rosaceae family such as apricot pits and cherry stones. A few seeds are unlikely to cause acute poisoning, but the risk scales with the amount ingested, and the seeds should always be removed.",
+  "emergencyNote": "Decontamination (Emesis & Activated Charcoal)",
+  "family": "Rosaceae",
+  "isToxic": false,
+  "name": "Apple",
+  "safetyNotes": [
+    "Symptoms (if seeds ingested): Vomiting, rapid breathing or difficulty breathing, lethargy, muscle weakness, and in severe cases, shock or collapse from cyanide toxicity.",
+    "Safe part: The flesh only — thoroughly remove seeds, core, stem, and any leaves before offering a small piece.",
+    "Physical hazard: Apple cores and seeds also pose a choking risk."
+  ],
+  "scientific_name": "Malus spp.",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Respiratory",
+      "name": "Respiratory Distress (Difficulty Breathing, Panting, Tachypnea)",
+      "notes": "Signs include panting, gasping for breath, or rapid breathing. This occurs because the cyanide toxin prevents cells from utilizing oxygen (cellular hypoxia), effectively suffocating cells even though the blood is oxygenated.Brick Red Mucous Membranes",
+      "onset": "Rapid; often within 10–60 minutes to a few hours after ingestion.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Bright Red Gums/Tongue (Mucous Membrane Discoloration)",
+      "notes": "The gums and tongue may appear unusually bright red or pink. This \"cherry red\" blood coloring is a classic sign of cyanide toxicity, resulting from the abundance of oxygen in the blood that tissues are unable to absorb.Dilated Pupils",
+      "onset": "Rapid (minutes to hours).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Dilated Pupils (Mydriasis)",
+      "notes": "Enlarged pupils are a frequent sign of cyanide poisoning listed alongside respiratory distress and shock.Seizures and Tremors",
+      "onset": "Rapid (minutes to hours).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Seizures, Convulsions, and Tremors",
+      "notes": "As the brain is deprived of usable oxygen, the cat may experience muscle tremors, convulsions, and eventually lapse into a coma.Shock and Collapse",
+      "onset": "Rapid (often within an hour).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Shock / Sudden Collapse / Weakness",
+      "notes": "Hypotension (low blood pressure) and arrhythmias (irregular heartbeats) can lead to sudden collapse and death if untreated.Gastrointestinal Upset",
+      "onset": "Rapid (10–60 minutes).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, and Salivation (Drooling)",
+      "notes": "Cats may also exhibit excessive drooling. In cases of cyanide ingestion, the breath may sometimes have a distinct almond-like odor.",
+      "onset": "Minutes to hours.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
     "Leaf",
     "Seed",
     "Fruit"
   ],
-  "toxins": [
-    {
-      "name": "The specific compound found in apple seeds is Amygdalin, which is a type of Cyanogenic Glycoside. When metabolized by the cat's body",
-      "chemical_formula": null,
-      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Activation: Amygdalin is relatively harmless in its intact form. However, when the apple seed is chewed, crushed, or digested, the compound interacts with digestive enzymes to undergo hydrolysis, releasing hydrogen cyanide into the bloodstream1....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cellular Disruption: Once absorbed, the cyanide interferes with cellular respiration. It tightly binds to ferric (Fe3+) iron within cytochrome c oxidase, an enzyme in the mitochondria1....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Oxygen Starvation: This binding disrupts the final step of the electron transport chain, preventing cells from utilizing oxygen to generate energy (ATP). This leads to tissue hypoxia (oxygen deprivation) and cellular death, even though the blood is fully oxygenated1....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Feline Susceptibility: Cats are noted to lack certain enzymes required to break down such toxins effectively, making them particularly susceptible to toxicity due to their metabolic limitations and small body size78.\n4. Notes on",
-      "concentration_notes": "\u25e6 Location: The toxin is concentrated in the seeds (pips), leaves, and stems; the flesh of the apple is considered safe and non-toxic2....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Bioavailability: Apple seeds have a hard outer shell that often allows them to pass through the digestive tract intact without releasing the toxin. The seed must be crushed or chewed to pose a significant threat3....\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: While the amount of cyanide in a single seed is described as \"trace\" or \"minuscule\"1213, the toxin itself is \"highly toxic\" and potent214. Because cats are small, even small amounts of toxin can have a significant impact, though a single seed is unlikely to cause immediate harm415. Estimates for \"small pets\" suggest symptoms might appear after ingesting around 200 seeds, but any exposure is discouraged due to the rapid onset of severe symptoms like respiratory distress and shock"
-    }
-  ],
-  "symptoms": [
-    {
-      "name": "Respiratory Distress (Difficulty Breathing, Panting, Tachypnea)",
-      "body_system": "Respiratory",
-      "severity": "severe",
-      "onset": "Rapid; often within 10\u201360 minutes to a few hours after ingestion.",
-      "notes": "Signs include panting, gasping for breath, or rapid breathing. This occurs because the cyanide toxin prevents cells from utilizing oxygen (cellular hypoxia), effectively suffocating cells even though the blood is oxygenated.Brick Red Mucous Membranes"
-    },
-    {
-      "name": "Bright Red Gums/Tongue (Mucous Membrane Discoloration)",
-      "body_system": "Hematological",
-      "severity": "severe",
-      "onset": "Rapid (minutes to hours).",
-      "notes": "The gums and tongue may appear unusually bright red or pink. This \"cherry red\" blood coloring is a classic sign of cyanide toxicity, resulting from the abundance of oxygen in the blood that tissues are unable to absorb.Dilated Pupils"
-    },
-    {
-      "name": "Dilated Pupils (Mydriasis)",
-      "body_system": "Neurological",
-      "severity": "severe",
-      "onset": "Rapid (minutes to hours).",
-      "notes": "Enlarged pupils are a frequent sign of cyanide poisoning listed alongside respiratory distress and shock.Seizures and Tremors"
-    },
-    {
-      "name": "Seizures, Convulsions, and Tremors",
-      "body_system": "Neurological",
-      "severity": "fatal",
-      "onset": "Rapid (often within an hour).",
-      "notes": "As the brain is deprived of usable oxygen, the cat may experience muscle tremors, convulsions, and eventually lapse into a coma.Shock and Collapse"
-    },
-    {
-      "name": "Shock / Sudden Collapse / Weakness",
-      "body_system": "Cardiac",
-      "severity": "fatal",
-      "onset": "Rapid (10\u201360 minutes).",
-      "notes": "Hypotension (low blood pressure) and arrhythmias (irregular heartbeats) can lead to sudden collapse and death if untreated.Gastrointestinal Upset"
-    },
-    {
-      "name": "Vomiting, Diarrhea, and Salivation (Drooling)",
-      "body_system": "Gastrointestinal",
-      "severity": "moderate",
-      "onset": "Minutes to hours.",
-      "notes": "Cats may also exhibit excessive drooling. In cases of cyanide ingestion, the breath may sometimes have a distinct almond-like odor."
-    }
-  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
-      "name": "Decontamination (Emesis & Activated Charcoal)",
       "description": "If the ingestion was recent and the cat is asymptomatic, the veterinarian may induce vomiting (emesis) to expel the seeds or core from the stomach. This is often followed by the administration of activated charcoal with a cathartic to bind toxins in the digestive tract and speed up their removal.",
+      "name": "Decontamination (Emesis & Activated Charcoal)",
       "notes": "This is the standard protocol for asymptomatic patients who have ingested a large number of seeds. Owners are advised not to induce vomiting at home unless specifically directed by a veterinarian, as it can be dangerous.",
       "priority": 1
     },
     {
-      "name": "Specific Antidote Administration",
       "description": "In cases of severe cyanide poisoning (from crushed/chewed seeds), veterinarians may administer specific antidotes. These include sodium nitrite (to form cyanomethemoglobin) followed by sodium thiosulfate (to form thiocyanate), or hydroxycobalamin (which binds with cyanide to form Vitamin B12).",
+      "name": "Specific Antidote Administration",
       "notes": "This treatment is critical if the cat shows signs of hypoxia (oxygen starvation) such as bright red gums, seizures, or respiratory distress. Hydroxycobalamin is noted as an available option in the US and Europe.",
       "priority": 2
     },
     {
-      "name": "Oxygen Therapy",
       "description": "The administration of supplemental oxygen to the cat.",
+      "name": "Oxygen Therapy",
       "notes": "Because cyanide prevents the body's cells from utilizing oxygen (cellular hypoxia), oxygen therapy is a vital supportive measure to help the cat recover, particularly if respiratory distress is present.",
       "priority": 3
     },
     {
-      "name": "Correction of Metabolic Acidosis",
       "description": "The administration of sodium bicarbonate to correct the pH balance of the cat's blood.",
+      "name": "Correction of Metabolic Acidosis",
       "notes": "Cyanide toxicity can cause severe metabolic acidosis. Veterinarians will monitor this via venous blood gas analysis and treat it if present to stabilize the cat's condition.",
       "priority": 4
     },
     {
-      "name": "Surgical Intervention or Endoscopy",
       "description": "The physical removal of the apple core from the esophagus, stomach, or intestines using a flexible camera with tools (endoscope) or via surgical incision.",
+      "name": "Surgical Intervention or Endoscopy",
       "notes": "This treatment is reserved for cases where the apple core has been swallowed whole or in large pieces, causing a physical obstruction or blockage in the digestive tract, which can be life-threatening.",
       "priority": 5
     }

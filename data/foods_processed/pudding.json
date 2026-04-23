@@ -1,127 +1,131 @@
 {
-  "plant": {
-    "common_name": "Pudding",
-    "scientific_name": "Pudding",
-    "family": "Various",
-    "description": "Botanical Family: Because pudding is a manufactured culinary dessert rather than a raw plant, it does not belong to a single botanical family. Its ingredients depend entirely on the specific formulation used in its production.\n2. Brief Description and Common Forms\nDescription: Pudding is a soft, sweet dessert designed for human consumption. Standard puddings made with regular sugar are not acutely poisonous, but they are completely inappropriate for a feline diet and can cause gastrointestinal upset. In the context of pet safety, the primary, life-threatening toxicological concern comes from sugar-free puddings, which are frequently sweetened with xylitol12. Xylitol is a highly toxic artificial sweetener for some animals. While it causes a severe and rapid drop in blood sugar (hypoglycemia) and liver failure in dogs, cats appear to be naturally resistant to xylitol toxicity (except possibly at massive doses). Nevertheless, because individual metabolisms can vary, veterinarians still advise keeping all xylitol-sweetened products strictly out of a cat's reach3.\nCommon Forms: In the household, pets most commonly encounter this hazard as standard sweet puddings and sugar-free puddings12."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Seed",
-    "Pit",
-    "Skin"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "Based on the provided sources and our conversation history",
       "chemical_formula": null,
+      "concentration_notes": null,
       "description": null,
-      "concentration_notes": null
+      "name": "Based on the provided sources and our conversation history"
     },
     {
-      "name": "Methylxanthines (Theobromine and Caffeine)",
       "chemical_formula": "C",
-      "description": "in cats: Methylxanthines competitively antagonize (block) cellular adenosine receptors, which normally inhibit the central nervous system and heart14. They also inhibit the enzyme phosphodiesterase (causing an accumulation of cyclic AMP) and increase the entry of calcium into muscle cells14. This combined action severely overstimulates the central nervous system and cardiovascular system, leading to vomiting, diarrhea, hyperactivity, muscle tremors, cardiac arrhythmias, seizures, and potentially death1....\nAny notes on concentration or potency: The toxicity is highly dependent on the type of chocolate used in the pudding; darker chocolates and baking cocoa contain the highest amounts of theobromine and are the most dangerous, while white chocolate contains insignificant amounts2.... Cats are exquisitely sensitive to these compounds, with the lethal dose (LD\n50\n\t\u200b\n\n) for theobromine in cats being approximately 200 mg per kilogram of body weight",
-      "concentration_notes": "or potency: The toxicity is highly dependent on the type of chocolate used in the pudding; darker chocolates and baking cocoa contain the highest amounts of theobromine and are the most dangerous, while white chocolate contains insignificant amounts2.... Cats are exquisitely sensitive to these compounds, with the lethal dose (LD\n50\n\t\u200b\n\n) for theobromine in cats being approximately 200 mg per kilogram of body weight"
+      "concentration_notes": "or potency: The toxicity is highly dependent on the type of chocolate used in the pudding; darker chocolates and baking cocoa contain the highest amounts of theobromine and are the most dangerous, while white chocolate contains insignificant amounts2.... Cats are exquisitely sensitive to these compounds, with the lethal dose (LD 50 ​ ) for theobromine in cats being approximately 200 mg per kilogra",
+      "description": "in cats: Methylxanthines competitively antagonize (block) cellular adenosine receptors, which normally inhibit the central nervous system and heart14. They also inhibit the enzyme phosphodiesterase (causing an accumulation of cyclic AMP) and increase the entry of calcium into muscle cells14. This combined action severely overstimulates the central nervous system and cardiovascular system, leading ",
+      "name": "Methylxanthines (Theobromine and Caffeine)"
     },
     {
-      "name": "Xylitol (Artificial Sweetener)",
       "chemical_formula": "C",
-      "description": "in cats: In dogs, xylitol tricks the pancreas into releasing a massive surge of insulin, which causes severe, life-threatening hypoglycemia (low blood sugar) and acute liver failure1011. However, current research indicates that cats appear to be naturally resistant to xylitol toxicity1213. Studies show that the feline pancreas does not mount this dangerous insulin response, and cats do not typically suffer from hypoglycemia or liver failure when exposed to it1314. Despite this documented resistance, some veterinary sources still caution against allowing cats to consume xylitol as a strict preventative measure1516.\nAny notes on concentration or potency: Xylitol is exquisitely toxic to dogs at doses as low as 0.1 grams per kilogram of body weight17. Conversely, in experimental studies, cats administered massive oral doses of up to 1,000 mg/kg (1 gram per kilogram) exhibited no significant changes in blood glucose, hematological, or biochemical parameters",
-      "concentration_notes": "or potency: Xylitol is exquisitely toxic to dogs at doses as low as 0.1 grams per kilogram of body weight17. Conversely, in experimental studies, cats administered massive oral doses of up to 1,000 mg/kg (1 gram per kilogram) exhibited no significant changes in blood glucose, hematological, or biochemical parameters"
+      "concentration_notes": "or potency: Xylitol is exquisitely toxic to dogs at doses as low as 0.1 grams per kilogram of body weight17. Conversely, in experimental studies, cats administered massive oral doses of up to 1,000 mg/kg (1 gram per kilogram) exhibited no significant changes in blood glucose, hematological, or biochemical parameters",
+      "description": "in cats: In dogs, xylitol tricks the pancreas into releasing a massive surge of insulin, which causes severe, life-threatening hypoglycemia (low blood sugar) and acute liver failure1011. However, current research indicates that cats appear to be naturally resistant to xylitol toxicity1213. Studies show that the feline pancreas does not mount this dangerous insulin response, and cats do not typical",
+      "name": "Xylitol (Artificial Sweetener)"
     },
     {
-      "name": "Lactose (Milk Sugar)",
       "chemical_formula": "C",
-      "description": "in cats: While kittens produce the enzyme lactase to digest their mother's milk, these enzyme levels plummet after weaning19. Most adult cats are lactose intolerant and cannot digest the lactose found in dairy-based puddings1921. When the undigested lactose reaches the colon, gastrointestinal bacteria ferment it, drawing in water and producing gas. This causes gastrointestinal irritation, painful abdominal bloating, flatulence, vomiting, and diarrhea1922.\nAny notes on concentration or potency: Cow's milk and cream, which are heavily utilized in traditional pudding recipes, contain high amounts of lactose and are highly likely to cause digestive upset in cats",
-      "concentration_notes": "or potency: Cow's milk and cream, which are heavily utilized in traditional pudding recipes, contain high amounts of lactose and are highly likely to cause digestive upset in cats"
+      "concentration_notes": "or potency: Cow's milk and cream, which are heavily utilized in traditional pudding recipes, contain high amounts of lactose and are highly likely to cause digestive upset in cats",
+      "description": "in cats: While kittens produce the enzyme lactase to digest their mother's milk, these enzyme levels plummet after weaning19. Most adult cats are lactose intolerant and cannot digest the lactose found in dairy-based puddings1921. When the undigested lactose reaches the colon, gastrointestinal bacteria ferment it, drawing in water and producing gas. This causes gastrointestinal irritation, painful ",
+      "name": "Lactose (Milk Sugar)"
     },
     {
-      "name": "High Dietary Fat",
       "chemical_formula": null,
-      "description": "in cats: While cats require fat in their regular meat-based diet, consuming sudden amounts of rich, high-fat human foods like dairy-heavy pudding can overload their digestive system2324. This can trigger pancreatitis, a painful and potentially life-threatening inflammation of the pancreas, and cause severe vomiting and diarrhea2023.\nAny notes on concentration or potency: Puddings made with high-fat ingredients like heavy cream pose a much greater risk for inducing pancreatitis than low-fat varieties",
-      "concentration_notes": "or potency: Puddings made with high-fat ingredients like heavy cream pose a much greater risk for inducing pancreatitis than low-fat varieties"
+      "concentration_notes": "or potency: Puddings made with high-fat ingredients like heavy cream pose a much greater risk for inducing pancreatitis than low-fat varieties",
+      "description": "in cats: While cats require fat in their regular meat-based diet, consuming sudden amounts of rich, high-fat human foods like dairy-heavy pudding can overload their digestive system2324. This can trigger pancreatitis, a painful and potentially life-threatening inflammation of the pancreas, and cause severe vomiting and diarrhea2023. Any notes on concentration or potency: Puddings made with high-fa",
+      "name": "High Dietary Fat"
     }
   ],
+  "description": "Pudding is not acutely toxic to cats in its plain forms, but many pudding varieties contain ingredients that are dangerous: chocolate pudding contains theobromine, sugar-free puddings may contain xylitol, and dairy-based puddings cause lactose-related GI upset in most adult cats. The plain starchy base is safe but provides no nutritional value.",
+  "emergencyNote": "1. Emergency Stabilization (Neurological, Cardiac, or Hypoglycemia Control)",
+  "family": "Various",
+  "isToxic": false,
+  "name": "Pudding",
+  "safetyNotes": [
+    "Chocolate pudding: TOXIC — contains theobromine; even small amounts can cause vomiting, tremors, and cardiac effects",
+    "Sugar-free pudding: check for xylitol — highly toxic to cats, causing dangerous hypoglycaemia",
+    "Dairy-based pudding: causes lactose-related vomiting and diarrhea in most adult cats",
+    "Plain starch-based pudding without toxic additives: not toxic, but very high in sugar and provides no nutritional value",
+    "Check the ingredient list before assuming a pudding is safe; chocolate and xylitol exposures require immediate vet contact"
+  ],
+  "scientific_name": "Pudding",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "Because pudding is a manufactured dessert",
       "body_system": "Metabolic",
-      "severity": "moderate",
-      "onset": null,
-      "notes": null
+      "name": "Because pudding is a manufactured dessert",
+      "severity": "moderate"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Gastrointestinal Upset (Diarrhea and Vomiting)",
-      "body_system": "Gastrointestinal",
-      "severity": "moderate",
+      "notes": "Most adult cats are lactose intolerant because their bodies no longer produce sufficient amounts of the enzyme lactase after weaning1.... When the undigested lactose from the milk or cream in the pudding reaches the colon, it ferments and draws in water, causing stomach upset and loose stools",
       "onset": "Within a few hours (typically 8 to 12 hours for diarrhea to peak).",
-      "notes": "Most adult cats are lactose intolerant because their bodies no longer produce sufficient amounts of the enzyme lactase after weaning1.... When the undigested lactose from the milk or cream in the pudding reaches the colon, it ferments and draws in water, causing stomach upset and loose stools"
+      "severity": "moderate"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Pancreatitis",
-      "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "notes": "Standard puddings are often made with heavy cream, butter, or whole milk. Ingesting rich, high-fat human foods can overload a cat's digestive system and trigger pancreatitis, a painful and potentially life-threatening inflammation56. Symptoms from Chocolate Pudding (Methylxanthine Toxicity)",
       "onset": "Progressive (can develop hours to days after consuming a high-fat meal).",
-      "notes": "Standard puddings are often made with heavy cream, butter, or whole milk. Ingesting rich, high-fat human foods can overload a cat's digestive system and trigger pancreatitis, a painful and potentially life-threatening inflammation56.\nSymptoms from Chocolate Pudding (Methylxanthine Toxicity)"
+      "severity": "severe"
     },
     {
-      "name": "Restlessness, Muscle Tremors, and Seizures",
       "body_system": "Neurological",
-      "severity": "fatal",
+      "name": "Restlessness, Muscle Tremors, and Seizures",
+      "notes": "Chocolate pudding contains theobromine and caffeine, which are toxic methylxanthines78. These compounds severely overstimulate the central nervous system, causing the cat to become restless and potentially progress to muscle tremors, seizures, and coma79. Darker chocolate puddings are significantly",
       "onset": "2 to 12 hours.",
-      "notes": "Chocolate pudding contains theobromine and caffeine, which are toxic methylxanthines78. These compounds severely overstimulate the central nervous system, causing the cat to become restless and potentially progress to muscle tremors, seizures, and coma79. Darker chocolate puddings are significantly more dangerous than milk chocolate varieties"
+      "severity": "fatal"
     },
     {
-      "name": "Tachycardia and Cardiac Arrhythmias",
       "body_system": "Cardiac",
-      "severity": "fatal",
+      "name": "Tachycardia and Cardiac Arrhythmias",
+      "notes": "The methylxanthines in chocolate also overstimulate the cardiovascular system, leading to dangerous, irregular heart rhythms that can ultimately result in cardiac arrest",
       "onset": "2 to 12 hours.",
-      "notes": "The methylxanthines in chocolate also overstimulate the cardiovascular system, leading to dangerous, irregular heart rhythms that can ultimately result in cardiac arrest"
+      "severity": "fatal"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Vomiting, Diarrhea, and Increased Thirst",
-      "body_system": "Gastrointestinal",
-      "severity": "moderate",
+      "notes": "Often the earliest signs of chocolate poisoning, theobromine and caffeine act as GI irritants and mild diuretics, causing the cat to lose bodily fluids rapidly79. Symptoms from Sugar-Free Pudding (Xylitol Exposure)",
       "onset": "2 to 12 hours.",
-      "notes": "Often the earliest signs of chocolate poisoning, theobromine and caffeine act as GI irritants and mild diuretics, causing the cat to lose bodily fluids rapidly79.\nSymptoms from Sugar-Free Pudding (Xylitol Exposure)"
+      "severity": "moderate"
     },
     {
-      "name": "Hypoglycemia and Liver Failure (Theoretical / Rare in Cats)",
       "body_system": "Gastrointestinal",
-      "severity": "fatal",
+      "name": "Hypoglycemia and Liver Failure (Theoretical / Rare in Cats)",
+      "notes": "Xylitol is an artificial sweetener commonly used in sugar-free puddings. While it causes a massive, life-threatening release of insulin and acute liver failure in dogs, cats appear to be naturally resistant to xylitol toxicity11.... Experimental studies have shown cats do not suffer this dangerous h",
       "onset": "15 to 30 minutes for a drop in blood sugar; 1 to 3 days for signs of liver injury",
-      "notes": "Xylitol is an artificial sweetener commonly used in sugar-free puddings. While it causes a massive, life-threatening release of insulin and acute liver failure in dogs, cats appear to be naturally resistant to xylitol toxicity11.... Experimental studies have shown cats do not suffer this dangerous hypoglycemic reaction even at massive doses1315. However, because individual feline metabolisms can vary, veterinarians still advise keeping xylitol strictly away from cats as a precaution"
+      "severity": "fatal"
     }
   ],
+  "toxicParts": [],
+  "toxicityLevel": "low",
   "treatments": [
     {
+      "description": "of the procedure: If the cat ingested chocolate pudding and is already showing severe signs (muscle tremors, seizures, or irregular heartbeats), the veterinary team will immediately administer medications to control seizures and stabilize the heart rhythm1. If sugar-free pudding was ingested and the cat exhibits an atypical drop in blood sugar (hypoglycemia), IV fluids containing sugar (dextrose) ",
       "name": "1. Emergency Stabilization (Neurological, Cardiac, or Hypoglycemia Control)",
-      "description": "of the procedure: If the cat ingested chocolate pudding and is already showing severe signs (muscle tremors, seizures, or irregular heartbeats), the veterinary team will immediately administer medications to control seizures and stabilize the heart rhythm1. If sugar-free pudding was ingested and the cat exhibits an atypical drop in blood sugar (hypoglycemia), IV fluids containing sugar (dextrose) will be administered2.\nAny situation-specific",
       "notes": "While cats are generally resistant to the xylitol found in sugar-free puddings3, they are exquisitely sensitive to the methylxanthines in chocolate4. Immediate stabilization is the highest priority if life-threatening clinical signs have already begun",
       "priority": 1
     },
     {
+      "description": "of the procedure: If the toxic pudding was ingested very recently (before symptoms develop), the veterinarian will administer a specific injection to induce vomiting to empty the stomach5. For chocolate pudding ingestion, this is followed by administering repeated doses of activated charcoal by mouth to bind the remaining toxins in the GI tract and prevent them from entering the bloodstream1. Any ",
       "name": "Early Gastrointestinal Decontamination",
-      "description": "of the procedure: If the toxic pudding was ingested very recently (before symptoms develop), the veterinarian will administer a specific injection to induce vomiting to empty the stomach5. For chocolate pudding ingestion, this is followed by administering repeated doses of activated charcoal by mouth to bind the remaining toxins in the GI tract and prevent them from entering the bloodstream1.\nAny situation-specific",
       "notes": "Pet owners must never attempt to induce vomiting in cats at home, as there are no safe at-home methods6. Additionally, while activated charcoal is highly effective for chocolate toxicity1, it does not effectively bind to xylitol and is not recommended if the ingested pudding was sugar-free",
       "priority": 2
     },
     {
+      "description": "of the procedure: The cat is hospitalized and placed on continuous IV fluids to correct dehydration, stabilize cardiovascular function, and promote diuresis (hastening the excretion of chocolate toxins through the urine)18. Any situation-specific",
       "name": "Intravenous (IV) Fluid Therapy and Diuresis",
-      "description": "of the procedure: The cat is hospitalized and placed on continuous IV fluids to correct dehydration, stabilize cardiovascular function, and promote diuresis (hastening the excretion of chocolate toxins through the urine)18.\nAny situation-specific",
       "notes": "Standard puddings are typically high in fat and dairy, which can trigger severe pancreatitis in cats. In these cases, IV fluid therapy is crucial to perfuse the pancreas and flush away damaging inflammatory biochemicals so healing can begin",
       "priority": 3
     },
     {
+      "description": "of the procedure: To manage the gastrointestinal upset or painful pancreatitis caused by high-fat, dairy-heavy pudding, the veterinarian will administer anti-nausea medications (such as maropitant) to stop vomiting, alongside pain medications (such as buprenorphine) to alleviate abdominal discomfort1011. Any situation-specific",
       "name": "Symptomatic Relief for Gastrointestinal Distress and Pancreatitis",
-      "description": "of the procedure: To manage the gastrointestinal upset or painful pancreatitis caused by high-fat, dairy-heavy pudding, the veterinarian will administer anti-nausea medications (such as maropitant) to stop vomiting, alongside pain medications (such as buprenorphine) to alleviate abdominal discomfort1011.\nAny situation-specific",
       "notes": "Anti-nausea medications are strongly recommended even if the cat is not actively vomiting10. Reducing nausea and pain is a critical step because it helps restore the cat's appetite, which is necessary for their recovery",
       "priority": 4
     },
     {
+      "description": "of the procedure: If the pudding ingestion triggers pancreatitis and the cat refuses to eat, the veterinarian may prescribe appetite stimulants (like mirtazapine)12. If the cat still will not eat, a temporary feeding tube (such as a nasoesophageal tube) is placed to deliver highly digestible nutrition directly into the gastrointestinal tract13. Any situation-specific",
       "name": "Intensive Nutritional Support",
-      "description": "of the procedure: If the pudding ingestion triggers pancreatitis and the cat refuses to eat, the veterinarian may prescribe appetite stimulants (like mirtazapine)12. If the cat still will not eat, a temporary feeding tube (such as a nasoesophageal tube) is placed to deliver highly digestible nutrition directly into the gastrointestinal tract13.\nAny situation-specific",
       "notes": "Cats are uniquely susceptible to a life-threatening secondary liver condition called hepatic lipidosis (fatty liver disease) if they stop eating1112. Early and aggressive nutritional support is vital to prevent this complication while the pancreas recovers",
       "priority": 5
     }

@@ -1,74 +1,77 @@
 {
-  "plant": {
-    "common_name": "Allamanda",
-    "scientific_name": "Allamanda cathartica",
-    "family": "Apocynaceae",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Allamanda is an ornamental, sprawling, woody climbing shrub1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Flowers: It is characterized by large yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is also known as Yellow allamanda"
-  },
-  "basics": {
-    "family": "Apocynaceae",
-    "description": "Brief Description:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Appearance: Allamanda is an ornamental, sprawling, woody climbing shrub1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Flowers: It is characterized by large yellow flowers1.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Common Names: It is also known as Yellow allamanda"
-  },
-  "toxic_parts": [
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": "Not provided in the sources.",
+      "concentration_notes": "The toxin is found in the bark, leaves, fruit, seeds, and sap of the plant. The severity of the toxicity is based on the exposure dose",
+      "description": "in cats: This compound acts as a gastrointestinal irritant. Ingestion leads to clinical signs such as abdominal discomfort, diarrhea, dehydration, and electrolyte imbalance1. 4. Notes on",
+      "name": "Plumericin"
+    }
+  ],
+  "description": "Allamanda is a tropical ornamental shrub prized for its vivid yellow trumpet-shaped flowers, but every part of the plant — leaves, stems, flowers, seeds, and its milky white sap — is toxic to cats. The plant contains iridoid compounds (including allamandin) that act as powerful cathartics and severe gastrointestinal irritants. The milky sap poses an additional hazard as a direct irritant to skin, eyes, and mucous membranes.",
+  "emergencyNote": "Symptomatic Treatment",
+  "family": "Apocynaceae",
+  "isToxic": true,
+  "name": "Allamanda",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea (which may be bloody), abdominal pain, and drooling from ingestion; redness, swelling, and pain if sap contacts the skin or eyes.",
+    "All parts toxic: Flowers, leaves, stems, seeds, and sap all contain toxic compounds.",
+    "Action: Seek immediate veterinary care if a cat ingests any part of the plant or shows signs of distress."
+  ],
+  "scientific_name": "Allamanda cathartica",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal discomfort (pain)",
+      "notes": "This is a direct result of the compound plumericin acting as an irritant to the lining of the digestive tract1. 2. Diarrhea",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "notes": "This is the primary sign of the plant's purgative (cathartic) effects1. 3. Dehydration",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Metabolic",
+      "name": "Dehydration",
+      "notes": "Veterinary treatment may involve fluid therapy to correct this1. 4. Electrolyte Imbalance",
+      "onset": "Secondary effect, developing after sustained fluid loss from diarrhea.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Electrolyte imbalance",
+      "notes": "This occurs as a consequence of losing essential minerals through diarrhea and dehydration",
+      "onset": "Secondary effect, following fluid loss.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
     "Bark",
     "Leaf",
     "Seed",
     "Fruit"
   ],
-  "toxins": [
-    {
-      "name": "Plumericin",
-      "chemical_formula": "Not provided in the sources.",
-      "description": "in cats: This compound acts as a gastrointestinal irritant. Ingestion leads to clinical signs such as abdominal discomfort, diarrhea, dehydration, and electrolyte imbalance1.\n4. Notes on",
-      "concentration_notes": "The toxin is found in the bark, leaves, fruit, seeds, and sap of the plant. The severity of the toxicity is based on the exposure dose"
-    }
-  ],
-  "symptoms": [
-    {
-      "name": "Abdominal discomfort (pain)",
-      "body_system": "Gastrointestinal",
-      "severity": "moderate",
-      "onset": "Not explicitly specified in the sources,",
-      "notes": "This is a direct result of the compound plumericin acting as an irritant to the lining of the digestive tract1.\n2. Diarrhea"
-    },
-    {
-      "name": "Diarrhea",
-      "body_system": "Gastrointestinal",
-      "severity": "moderate",
-      "onset": "Not explicitly specified.",
-      "notes": "This is the primary sign of the plant's purgative (cathartic) effects1.\n3. Dehydration"
-    },
-    {
-      "name": "Dehydration",
-      "body_system": "Metabolic",
-      "severity": "severe",
-      "onset": "Secondary effect, developing after sustained fluid loss from diarrhea.",
-      "notes": "Veterinary treatment may involve fluid therapy to correct this1.\n4. Electrolyte Imbalance"
-    },
-    {
-      "name": "Electrolyte imbalance",
-      "body_system": "Hematological",
-      "severity": null,
-      "onset": "Secondary effect, following fluid loss.",
-      "notes": "This occurs as a consequence of losing essential minerals through diarrhea and dehydration"
-    }
-  ],
+  "toxicityLevel": "mild",
   "treatments": [
     {
-      "name": "Symptomatic Treatment",
       "description": "This is the primary course of action listed for Allamanda ingestion. It involves the administration of medications and supportive care specifically targeted to alleviate the clinical signs the cat is currently displaying, rather than using a specific antidote.",
+      "name": "Symptomatic Treatment",
       "notes": "The severity of the treatment depends entirely on the exposure dose. Veterinary intervention addresses the immediate abdominal discomfort and gastrointestinal distress caused by the plant's toxins",
       "priority": 1
     },
     {
-      "name": "Fluid Therapy (Rehydration)",
       "description": "The administration of fluids (subcutaneous or intravenous) to restore hydration levels in the body.",
+      "name": "Fluid Therapy (Rehydration)",
       "notes": "This is necessary to treat dehydration, a documented symptom of Allamanda toxicity resulting from the fluid loss associated with diarrhea",
       "priority": 2
     },
     {
-      "name": "Management of Electrolyte Imbalance",
       "description": "Medical monitoring and replacement of essential minerals (electrolytes) to restore the body's natural balance.",
+      "name": "Management of Electrolyte Imbalance",
       "notes": "Allamanda ingestion can cause electrolyte imbalance due to gastrointestinal upset; this condition requires veterinary assessment to prevent systemic complications",
       "priority": 3
     }

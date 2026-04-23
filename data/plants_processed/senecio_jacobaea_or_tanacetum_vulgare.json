@@ -1,0 +1,73 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": "Not provided in the given sources.",
+      "concentration_notes": "The plant must be ingested in large quantities to cause liver damage1. Fortunately, the plant is quite unpleasant to eat, which naturally deters most cats from consuming enough to be harmed",
+      "description": "in cats: Ingesting the alkaloids present in the plant can cause liver damage",
+      "name": "Alkaloids"
+    },
+    {
+      "chemical_formula": "Not provided in the given sources.",
+      "concentration_notes": "It is toxic when ingested in large quantities, but the unpalatable nature of the plant typically prevents cats from eating dangerous amounts",
+      "description": "in cats: Similar to the plant's alkaloids, this volatile oil can cause liver damage if ingested",
+      "name": "Thujone (contained within a volatile oil)"
+    }
+  ],
+  "description": "Ragwort (Senecio jacobaea) and Tansy Ragwort are highly toxic plants for cats due to pyrrolizidine alkaloids (PAs) — compounds that cause severe, often irreversible liver damage. The toxicity is cumulative; even small repeated exposures cause progressive hepatic necrosis that may not become apparent until liver failure is advanced.",
+  "emergencyNote": "Veterinary Consultation and Triage",
+  "family": "Asteraceae",
+  "isToxic": true,
+  "name": "Ragwort / Tansy",
+  "safetyNotes": [
+    "Toxic compounds: pyrrolizidine alkaloids (jacobine, senecioline, retrorsine); all parts toxic; hay containing ragwort retains toxicity when dried",
+    "Mechanism: PAs are metabolised to reactive pyrroles in the liver, forming DNA cross-links and destroying hepatocytes; damage is cumulative and irreversible",
+    "Symptoms: weight loss, lethargy, jaundice, neurological signs (head-pressing, blindness, circling); acute liver failure may occur with large single exposures",
+    "Dried ragwort in hay is a particular risk — it loses bitterness but retains full toxicity",
+    "Seek veterinary care promptly; early intervention before liver failure occurs greatly improves prognosis"
+  ],
+  "scientific_name": "Senecio jacobaea or Tanacetum vulgare",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Hepatic",
+      "name": "Liver damage",
+      "notes": "Liver damage occurs due to the plant's alkaloid content and a volatile oil containing thujone1. The cat must ingest the plant in large quantities to suffer this damage1. Fortunately, Ragwort is quite unpleasant to eat, which usually acts as a natural deterrent and stops most cats from consuming it",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Flower",
+    "Seeds"
+  ],
+  "toxicityLevel": "severe",
+  "treatments": [
+    {
+      "description": "Contact your veterinarian or a pet poison helpline immediately for professional advice2. If you have evidence of what the cat ate, take a sample of the plant (or a sample of the cat's vomit, especially if it contains plant matter) to the vet to aid in diagnosis",
+      "name": "Veterinary Consultation and Triage",
+      "notes": "You should not attempt to make the cat sick at home, as this may not be helpful and can cause further harm2. Fortunately, Ragwort is quite unpleasant to eat, which usually acts as a natural deterrent and stops most cats from consuming the large quantities necessary to cause severe liver damage1. 2. ",
+      "priority": 1
+    },
+    {
+      "description": "To prevent the plant's toxins from being fully absorbed into the bloodstream, a veterinarian may medically induce vomiting (emesis)3. This is typically followed by an antiemetic (anti-nausea medication) and doses of activated charcoal to bind to any remaining toxins in the gastrointestinal tract",
+      "name": "Emesis Induction and Activated Charcoal",
+      "notes": "This decontamination step is most appropriate for a neurologically stable patient shortly after the plant has been ingested3. Due to enterohepatic recirculation (toxins cycling through the liver and intestines), multiple doses of activated charcoal may be recommended3. 3. Liver Support and Protectio",
+      "priority": 2
+    },
+    {
+      "description": "Because Ragwort targets the liver1, the veterinary team will likely administer hepatoprotectants (liver-protecting medications) such as S-adenosylmethionine (SAMe) and N-acetylcysteine (NAC)",
+      "name": "Hepatoprotective Therapy",
+      "notes": "These specific medications are necessary to support liver function and aid in tissue repair if hepatic necrosis (liver cell death) is occurring or suspected4. 4. Systemic Supportive Care and Monitoring",
+      "priority": 3
+    },
+    {
+      "description": "The cat will likely require hospitalization for close monitoring, which includes evaluating liver enzymes daily for a period of time (e.g., 72 hours)3. The vet may also administer gastroprotectants to soothe the stomach and intestines",
+      "name": "In-Hospital Monitoring and Symptomatic Support",
+      "notes": "If severe liver damage develops, secondary complications like hypoglycemia (low blood sugar) and bleeding disorders (coagulopathy) can occur4. The veterinary team will monitor blood glucose and coagulation profiles, and if hypoglycemia is present, they will administer a continuous intravenous infusi",
+      "priority": 4
+    }
+  ]
+}

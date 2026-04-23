@@ -1,96 +1,104 @@
 {
-  "plant": {
-    "common_name": "Potato chips",
-    "scientific_name": "Potato chips",
-    "family": "Various",
-    "description": "Brief Description and Common Forms\nDescription: Potato chips are a cooked, highly processed human snack food made from the tubers of the potato plant. While the raw, green, or sprouted parts of potatoes naturally contain a toxic glycoalkaloid called solanine to deter predators4..., the cooking process breaks down a large portion of this toxin9. Therefore, the primary characteristic and danger of potato chips for pets is not the plant toxin, but rather the massive amounts of salt (sodium) and fat added during commercial processing23.\nCommon Forms: In households, they are most frequently encountered as bagged salted chips3. The provided sources strongly advise against feeding chips and heavily brined foods to cats2. Consuming these snacks provides no nutritional benefit and introduces excess sodium that can severely disrupt a cat's electrolyte balance, potentially leading to vomiting, diarrhea, tremors, and life-threatening sodium ion poisoning23."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Cooked form",
-    "Raw form",
-    "Skin",
-    "Peel",
-    "Entire food"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "Sodium Chloride (Salt)",
       "chemical_formula": "NaCl (Note",
-      "description": "in cats: Excess sodium disrupts a cat's normal water and electrolyte balance12. It creates a strong osmotic gradient that draws water out of the body's intracellular and interstitial compartments into the extracellular fluid13. This fluid shift causes severe systemic dehydration3. In the brain, this rapid water loss (cerebral dehydration) causes brain cells to shrink and pull away from the skull, which can tear delicate meningeal vessels and trigger intracranial hemorrhage, muscle tremors, and seizures14.\nAny notes on concentration or potency: Potato chips (and similar snacks like pretzels) are heavily salted during commercial manufacturing2. Cats acquire all the necessary sodium they need from their regular formulated cat food; the excess salt in human snack foods easily exceeds their safe metabolic capacity and can lead to fatal sodium ion poisoning",
-      "concentration_notes": "or potency: Potato chips (and similar snacks like pretzels) are heavily salted during commercial manufacturing2. Cats acquire all the necessary sodium they need from their regular formulated cat food; the excess salt in human snack foods easily exceeds their safe metabolic capacity and can lead to fatal sodium ion poisoning"
+      "concentration_notes": "or potency: Potato chips (and similar snacks like pretzels) are heavily salted during commercial manufacturing2. Cats acquire all the necessary sodium they need from their regular formulated cat food; the excess salt in human snack foods easily exceeds their safe metabolic capacity and can lead to fatal sodium ion poisoning",
+      "description": "in cats: Excess sodium disrupts a cat's normal water and electrolyte balance12. It creates a strong osmotic gradient that draws water out of the body's intracellular and interstitial compartments into the extracellular fluid13. This fluid shift causes severe systemic dehydration3. In the brain, this rapid water loss (cerebral dehydration) causes brain cells to shrink and pull away from the skull, ",
+      "name": "Sodium Chloride (Salt)"
     },
     {
-      "name": "Solanine and \u03b1-Chaconine (Glycoalkaloids)",
       "chemical_formula": null,
-      "description": "in cats: These are naturally occurring neurotoxins and cytotoxins produced by plants in the nightshade family to deter predators67. They act on cats through three primary mechanisms: 1) they interact with cell membrane phospholipids, increasing cell permeability and causing cellular destruction (especially in the intestinal lining, leading to severe gastrointestinal irritation); 2) they inhibit acetylcholinesterase in the brain, causing an accumulation of acetylcholine that leads to parasympathetic overstimulation (muscle tremors, bradycardia); and 3) they impair mitochondrial function, disrupting cellular energy metabolism7....\nAny notes on concentration or potency: These toxins are highly concentrated in the green parts, sprouts, and skins/peels of raw potatoes8.... While the cooking process (such as frying potatoes to make chips) breaks down a large portion of solanine into trace, tolerable amounts, chips made from unpeeled, green, or improperly stored potatoes can still carry residual glycoalkaloids that cause gastrointestinal or neurological distress",
-      "concentration_notes": "or potency: These toxins are highly concentrated in the green parts, sprouts, and skins/peels of raw potatoes8.... While the cooking process (such as frying potatoes to make chips) breaks down a large portion of solanine into trace, tolerable amounts, chips made from unpeeled, green, or improperly stored potatoes can still carry residual glycoalkaloids that cause gastrointestinal or neurological distress"
+      "concentration_notes": "or potency: These toxins are highly concentrated in the green parts, sprouts, and skins/peels of raw potatoes8.... While the cooking process (such as frying potatoes to make chips) breaks down a large portion of solanine into trace, tolerable amounts, chips made from unpeeled, green, or improperly stored potatoes can still carry residual glycoalkaloids that cause gastrointestinal or neurological d",
+      "description": "in cats: These are naturally occurring neurotoxins and cytotoxins produced by plants in the nightshade family to deter predators67. They act on cats through three primary mechanisms: 1) they interact with cell membrane phospholipids, increasing cell permeability and causing cellular destruction (especially in the intestinal lining, leading to severe gastrointestinal irritation); 2) they inhibit ac",
+      "name": "Solanine and α-Chaconine (Glycoalkaloids)"
     }
   ],
+  "description": "Potato chips are not acutely toxic to cats, but they are a harmful snack due to their extremely high sodium content, artificial flavourings, and unhealthy fat profile. Regular feeding or large amounts can cause sodium toxicity, dehydration, and kidney damage. Some flavoured varieties contain onion or garlic powder, which are genuinely toxic to cats.",
+  "emergencyNote": "Because potato chips are heavily processed human snacks, the primary dangers they pose to cats come from their extreme salt",
+  "family": "Various",
+  "isToxic": false,
+  "name": "Potato chips",
+  "safetyNotes": [
+    "Sodium hazard: potato chips contain 100–200mg of sodium per serving — far exceeding the safe daily sodium intake for cats",
+    "Hidden toxins: onion-flavoured, BBQ, and sour cream chips often contain onion or garlic powder — both toxic to cats",
+    "Fat and calorie hazard: regular feeding contributes to obesity and can trigger pancreatitis",
+    "A single chip licked by a cat is unlikely to cause harm; a significant amount or flavoured chips warrants attention",
+    "Contact your vet if your cat eats onion- or garlic-flavoured chips in any quantity"
+  ],
+  "scientific_name": "Potato chips",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "While the base ingredient of potato chips",
       "body_system": "Metabolic",
-      "severity": "moderate",
-      "onset": null,
-      "notes": null
+      "name": "While the base ingredient of potato chips",
+      "severity": "moderate"
     },
     {
-      "name": "Salt Toxicity (Hypernatremia)",
       "body_system": "Neurological",
-      "severity": "fatal",
+      "name": "Salt Toxicity (Hypernatremia)",
+      "notes": "Because potato chips are heavily salted, they expose cats to dangerous levels of sodium. An overdose of sodium draws fluid out of the body's cells, leading to severe systemic dehydration and electrolyte derangements34. In the brain, this rapid water loss causes cells to shrink and pull away from the",
       "onset": "Within minutes to several hours of ingestion",
-      "notes": "Because potato chips are heavily salted, they expose cats to dangerous levels of sodium. An overdose of sodium draws fluid out of the body's cells, leading to severe systemic dehydration and electrolyte derangements34. In the brain, this rapid water loss causes cells to shrink and pull away from the skull, which can tear delicate meningeal vessels and trigger intracranial hemorrhage, seizures, and potentially kidney failure"
+      "severity": "fatal"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Acute Pancreatitis and Gastrointestinal Upset",
-      "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "notes": "Potato chips are fried and incredibly high in fats and oils6. A cat's digestive system is not equipped to handle this sudden, heavy fat load7. Ingesting highly fatty human foods can trigger a painful inflammatory cascade in the pancreas known as pancreatitis, where the organ's digestive enzymes acti",
       "onset": "Gastrointestinal upset can occur within a few hours;",
-      "notes": "Potato chips are fried and incredibly high in fats and oils6. A cat's digestive system is not equipped to handle this sudden, heavy fat load7. Ingesting highly fatty human foods can trigger a painful inflammatory cascade in the pancreas known as pancreatitis, where the organ's digestive enzymes activate prematurely and begin digesting the pancreatic tissue itself"
+      "severity": "severe"
     },
     {
-      "name": "Solanine Toxicosis (If chips were made from green/unpeeled potatoes)",
       "body_system": "Gastrointestinal",
-      "severity": "fatal",
+      "name": "Solanine Toxicosis (If chips were made from green/unpeeled potatoes)",
+      "notes": "The raw potato contains the neurotoxin solanine to deter predators13. While cooking and peeling potatoes to make chips removes the vast majority of this toxin, chips inadvertently made from green tubers or unpeeled potatoes may still contain residual glycoalkaloids12. These trace toxins disrupt cell",
       "onset": "2 to 24 hours",
-      "notes": "The raw potato contains the neurotoxin solanine to deter predators13. While cooking and peeling potatoes to make chips removes the vast majority of this toxin, chips inadvertently made from green tubers or unpeeled potatoes may still contain residual glycoalkaloids12. These trace toxins disrupt cell membranes (causing severe GI irritation) and inhibit acetylcholinesterase in the brain, leading to parasympathetic overstimulation"
+      "severity": "fatal"
     }
   ],
+  "toxicParts": [
+    "Skin",
+    "Peel",
+    "Entire food",
+    "Cooked form",
+    "Raw form"
+  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
-      "name": "Because potato chips are heavily processed human snacks, the primary dangers they pose to cats come from their extreme salt",
-      "priority": 1,
       "description": null,
-      "notes": null
+      "name": "Because potato chips are heavily processed human snacks, the primary dangers they pose to cats come from their extreme salt",
+      "notes": null,
+      "priority": 1
     },
     {
+      "description": "of the procedure: The veterinarian will measure the cat's serum sodium concentration and administer specific IV fluids to slowly restore the animal's normal water and electrolyte balance over a period of 2 to 3 days12. Any situation-specific",
       "name": "Controlled Sodium Correction (For severe Salt Toxicity)",
-      "description": "of the procedure: The veterinarian will measure the cat's serum sodium concentration and administer specific IV fluids to slowly restore the animal's normal water and electrolyte balance over a period of 2 to 3 days12.\nAny situation-specific",
-      "notes": "It is critical that the veterinarian lowers the serum sodium concentration slowly (at a recommended rate of 0.5 to 1.0 mEq/L per hour)2. If fluids are given too rapidly and the sodium drops too fast, it reverses the osmotic gradient, drawing water into the brain cells and causing massive, potentially fatal cerebral edema (brain swelling)",
+      "notes": "It is critical that the veterinarian lowers the serum sodium concentration slowly (at a recommended rate of 0.5 to 1.0 mEq/L per hour)2. If fluids are given too rapidly and the sodium drops too fast, it reverses the osmotic gradient, drawing water into the brain cells and causing massive, potentiall",
       "priority": 2
     },
     {
+      "description": "of the procedure: If the cat is exhibiting severe neurological distress, the veterinarian will administer anti-seizure medications (such as diazepam) to control convulsions. If brain edema is suspected, medications like mannitol or dexamethasone may be administered to reduce the swelling3. Any situation-specific",
       "name": "Neurological Emergency Management (If Salt Toxicity causes brain swelling)",
-      "description": "of the procedure: If the cat is exhibiting severe neurological distress, the veterinarian will administer anti-seizure medications (such as diazepam) to control convulsions. If brain edema is suspected, medications like mannitol or dexamethasone may be administered to reduce the swelling3.\nAny situation-specific",
       "notes": "This is an urgent, life-saving intervention required if the rapid fluid shift from sodium ion poisoning has already caused the brain cells to shrink and trigger intracranial micro-hemorrhages or seizures",
       "priority": 3
     },
     {
+      "description": "of the procedure: If the ingestion is caught very early (within 1 to 2 hours) and the cat is asymptomatic, the veterinarian may induce vomiting to empty the stomach56. For acute salt ingestion before clinical signs appear, the vet may also ensure the cat has access to fresh water in small, frequent amounts to begin safe, natural hydration6. Activated charcoal may be administered if there is concer",
       "name": "Early Gastrointestinal Decontamination (If caught immediately)",
-      "description": "of the procedure: If the ingestion is caught very early (within 1 to 2 hours) and the cat is asymptomatic, the veterinarian may induce vomiting to empty the stomach56. For acute salt ingestion before clinical signs appear, the vet may also ensure the cat has access to fresh water in small, frequent amounts to begin safe, natural hydration6. Activated charcoal may be administered if there is concern about residual plant toxins57.\nAny situation-specific",
       "notes": "Pet owners must never attempt to induce vomiting at home. Furthermore, activated charcoal does not effectively bind to salt, so its use would primarily be a precaution against other potential toxins (like trace solanine or onion/garlic powder flavorings)",
       "priority": 4
     },
     {
+      "description": "of the procedure: If the heavy fat load of the fried chips triggers acute pancreatitis, the cat will require IV fluids to combat dehydration and flush inflammatory biochemicals from the pancreas1011. The vet will also administer anti-nausea medications (such as maropitant) and appropriate pain relief1012. Any situation-specific",
       "name": "Intensive Medical Management for Pancreatitis (For high fat/oil overload)",
-      "description": "of the procedure: If the heavy fat load of the fried chips triggers acute pancreatitis, the cat will require IV fluids to combat dehydration and flush inflammatory biochemicals from the pancreas1011. The vet will also administer anti-nausea medications (such as maropitant) and appropriate pain relief1012.\nAny situation-specific",
-      "notes": "A cat that stops eating due to the severe abdominal pain and nausea of pancreatitis is at high risk of developing a secondary, life-threatening liver condition called hepatic lipidosis (fatty liver)1314. Therefore, early nutritional support\u2014sometimes requiring a temporary feeding tube or appetite stimulants\u2014is a critical part of the recovery process",
+      "notes": "A cat that stops eating due to the severe abdominal pain and nausea of pancreatitis is at high risk of developing a secondary, life-threatening liver condition called hepatic lipidosis (fatty liver)1314. Therefore, early nutritional support—sometimes requiring a temporary feeding tube or appetite st",
       "priority": 5
     },
     {
+      "description": "of the procedure: If the chips were made from green or unpeeled potatoes and the cat shows signs of solanine toxicosis (such as a slow heart rate or severe hypersalivation), the veterinarian may administer atropine to partially compensate for the toxin's effect on the nervous system716. Any situation-specific",
       "name": "Cholinergic Symptom Management (If trace solanine is present)",
-      "description": "of the procedure: If the chips were made from green or unpeeled potatoes and the cat shows signs of solanine toxicosis (such as a slow heart rate or severe hypersalivation), the veterinarian may administer atropine to partially compensate for the toxin's effect on the nervous system716.\nAny situation-specific",
       "notes": "Because the cooking process breaks down the vast majority of solanine, this specific treatment is rarely needed for commercial potato chips unless they were severely undercooked or made from highly sprouted potatoes",
       "priority": 6
     }

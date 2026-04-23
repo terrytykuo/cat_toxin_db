@@ -1,0 +1,101 @@
+{
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
+    {
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "concentration_notes": "◦ Concentration: The toxin is present in all parts of the plant but is most concentrated in the leaves, bark, skin (peel), and pit (seed). The edible flesh contains low levels of persin. ◦ Potency: Cats are considered less sensitive to persin than other species (like birds, for whom it is deadly). Small amounts of flesh usually cause only mild upset, but ingestion of the skin or leaves poses a hig",
+      "description": "in cats: ◦ Gastrointestinal Irritation: Persin acts as an irritant to the cat's gastrointestinal tract, commonly causing vomiting and diarrhea. ◦ Systemic Effects: While cats are more resistant to persin than birds or ruminants, significant ingestion can potentially lead to more severe signs, including damage to the heart muscle, respiratory distress (labored breathing), and fluid accumulation (co",
+      "name": "Persin (a fungicidal toxin)"
+    },
+    {
+      "chemical_formula": null,
+      "concentration_notes": "◦ Concentration: The flesh and oil of the avocado are very high in fat. ◦ Potency: Even if the persin content in the flesh is low, the high fat content alone makes the fruit and oil unsafe for cats, capable of causing severe gastrointestinal distress and inflammation.",
+      "description": "in cats: ◦ Pancreatic Inflammation: The feline digestive system is not designed to handle the extremely high fat content found in avocados. Ingesting large amounts can trigger pancreatitis (inflammation of the pancreas), a painful and potentially life-threatening condition that interferes with digestion and blood sugar regulation. 4. Notes on",
+      "name": "Lipids (Fatty Acids)"
+    }
+  ],
+  "description": "Avocado is toxic to cats primarily because of persin, a fungicidal compound the avocado tree produces as a natural defense. While humans metabolise persin safely, cats lack this ability. Persin triggers dangerous fluid accumulation (edema) in the lungs, chest cavity, abdomen, and around the heart, causing respiratory distress and, at high doses, myocardial necrosis (death of heart muscle tissue). The plant's extremely high fat content creates an additional hazard by triggering acute pancreatitis even when persin levels are low.",
+  "emergencyNote": "Surgical Removal or Endoscopy",
+  "family": "Lauraceae",
+  "isToxic": true,
+  "name": "Avocado",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, abdominal pain; difficulty breathing and respiratory distress from lung fluid; lethargy, weakness, and abdominal swelling.",
+    "All parts are dangerous: Leaves carry the highest persin concentration and are considered most toxic; skin, bark, and pit also contain high levels. The fruit flesh contains only trace amounts of persin but is still risky due to its high fat content — keep portions extremely small if offered at all.",
+    "Physical hazard: The pit is a severe choking and obstruction risk if swallowed."
+  ],
+  "scientific_name": "Persea americana",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, and Abdominal Discomfort",
+      "notes": "Persin acts as a gastrointestinal irritant. Even small amounts of the fruit flesh can cause stomach upset, but the leaves, bark, skin, and pit contain higher concentrations of the toxin.Pancreatitis",
+      "onset": "Clinical signs may be evident within 24 hours (usually after 12 hours).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Pancreatitis (Inflammation of the Pancreas)",
+      "notes": "This is triggered by the high dietary fat content in the avocado flesh and oil rather than the persin toxin itself. It can lead to dehydration, abdominal swelling, and organ damage.Respiratory and Cardiac Distress",
+      "onset": "Variable; symptoms like abdominal pain and vomiting often appear within 24–72 hours after ingesting",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Labored Breathing (Dyspnea), Coughing, and Fluid Accumulation (Edema/Congestion)",
+      "notes": "In severe cases, persin toxicity can cause damage to heart muscle fibers, leading to fluid accumulation around the heart (hydropericardium) and in the lungs (pulmonary congestion). While cats are less sensitive to this than birds, it is a documented risk for dogs and cats in high doses.Foreign Body",
+      "onset": "12–24 hours after ingestion.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Choking or Intestinal Blockage",
+      "notes": "The large pit (seed) and thick skin pose a physical danger. If swallowed, the pit can block the esophagus, stomach, or intestines, requiring surgical removal.Lethargy and Weakness",
+      "onset": "Immediate (if choking) to days (if intestinal blockage occurs).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy and Depression",
+      "notes": "The cat may appear tired, inactive, or \"dull\" as a general systemic reaction to the toxin or dehydration from vomiting.",
+      "onset": "Within 24 hours.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Bark",
+    "Seed",
+    "Leaf",
+    "Fruit"
+  ],
+  "toxicityLevel": "mild",
+  "treatments": [
+    {
+      "description": "If the cat has swallowed the large avocado pit or thick pieces of skin, the veterinarian may need to perform endoscopy (using a camera and tool down the throat) or abdominal surgery to physically remove the object from the esophagus, stomach, or intestines.",
+      "name": "Surgical Removal or Endoscopy",
+      "notes": "This is the most urgent intervention if a foreign body obstruction is suspected. The pit and skin are indigestible and can block the digestive tract, which is a life-threatening emergency requiring immediate action to prevent rupture or severe infection.",
+      "priority": 1
+    },
+    {
+      "description": "The veterinarian may induce vomiting (emesis) using prescription medications (like xylazine or apomorphine) to expel the plant material. This is often followed by the administration of activated charcoal to bind any remaining toxins in the gut and prevent absorption.",
+      "name": "Decontamination (Emesis and Activated Charcoal)",
+      "notes": "This is typically performed if the ingestion was recent (within a few hours) and the cat is not showing symptoms that make vomiting dangerous (like respiratory distress). It is crucial for removing the toxin persin and high-fat content before they are fully absorbed. Note: Owners should never induce",
+      "priority": 2
+    },
+    {
+      "description": "Administration of intravenous (IV) fluids to correct dehydration, maintain blood pressure, and restore electrolyte balance.",
+      "name": "Fluid Therapy (IV Fluids)",
+      "notes": "This is a cornerstone of supportive care for avocado toxicity. It addresses the dehydration caused by profuse vomiting and diarrhea and supports the pancreas if the high fat content has triggered pancreatitis. It also helps flush toxins from the body.",
+      "priority": 3
+    },
+    {
+      "description": "The use of specific medications such as antiemetics (to stop vomiting), antidiarrheals, gastroprotectants (to soothe the stomach lining), and analgesics (pain relief).",
+      "name": "Symptomatic Management (Medications)",
+      "notes": "Since persin acts as a gastrointestinal irritant and the high fat content can cause painful pancreatitis, controlling nausea and pain is vital for recovery. In rare severe cases involving respiratory distress or cardiac issues (associated with persin), oxygen therapy or cardiac monitoring may also b",
+      "priority": 4
+    }
+  ]
+}

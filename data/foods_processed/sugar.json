@@ -1,91 +1,99 @@
 {
-  "plant": {
-    "common_name": "Sugar",
-    "scientific_name": "Sugar",
-    "family": "Poaceae",
-    "description": "Brief Description and Common Forms\nDescription: Sugar is a carbohydrate that comes in a granular form and is used to sweeten foods12. While sugar is not acutely poisonous to cats in the way that artificial sweeteners like xylitol are, it is not an appropriate or healthy part of their diet. Because sugars are easily digested, they can cause a rapid spike in a cat's blood glucose levels1. Consuming sugary foods over time is harmful to cats and can lead to weight gain, obesity, dental problems, and the development of diabetes34.\nCommon Forms: Sugar is frequently encountered as a granular additive2, naturally occurring in fruits3, or as an ingredient in sweet \"people foods\" such as honey, syrups, candies, white chocolate, and baked goods1...."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Seed",
-    "Pit",
-    "Skin",
-    "Entire food",
-    "Stem"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "Regular refined sugar",
       "chemical_formula": null,
+      "concentration_notes": null,
       "description": null,
-      "concentration_notes": null
+      "name": "Regular refined sugar"
     },
     {
-      "name": "Xylitol (Sugar Substitute)",
       "chemical_formula": "C",
-      "description": "in cats: Xylitol is infamous for being exquisitely toxic to dogs. In canine systems, it tricks the body into producing a massive, rapid surge of insulin, which causes a life-threatening drop in blood sugar (hypoglycemia) and acute liver failure5.... However, cats appear to be naturally resistant to xylitol toxicity8. Scientific studies examining cats administered high doses of xylitol found that they do not exhibit the same dangerous insulinogenic response as dogs910. The cats maintained normal hematological and biochemical parameters without experiencing hypoglycemia or liver damage910. Despite this resistance, veterinary toxicologists still strongly advise keeping all xylitol-sweetened products completely away from cats as a strict precaution11....\nAny notes on concentration or potency: Xylitol is highly potent in dogs, causing toxicity at doses as low as 100 mg/kg14. By contrast, experimental studies in cats using large oral doses of 100, 500, and 1,000 mg/kg resulted in no toxic effects or clinical signs other than transient salivation910. At extremely high levels (over 1.0 g/kg), cats may experience a slight drop or fluctuation in blood sugar, but it is unlikely to cause symptoms89.\n(Note: Other common artificial sugar substitutes, such as stevia, maltitol, sorbitol, sucralose, and saccharin, are also not chemically poisonous to cats, though consuming very high amounts can trigger mild gastrointestinal upset15. Furthermore, it is important to remember that human sugary foods often contain actual toxic ingredients mixed in, such as chocolate/theobromine, raisins, or macadamia nuts, which are highly lethal1...).",
-      "concentration_notes": "or potency: Xylitol is highly potent in dogs, causing toxicity at doses as low as 100 mg/kg14. By contrast, experimental studies in cats using large oral doses of 100, 500, and 1,000 mg/kg resulted in no toxic effects or clinical signs other than transient salivation910. At extremely high levels (over 1.0 g/kg), cats may experience a slight drop or fluctuation in blood sugar, but it is unlikely to cause symptoms89.\n(Note: Other common artificial sugar substitutes, such as stevia, maltitol, sorbitol, sucralose, and saccharin, are also not chemically poisonous to cats, though consuming very high amounts can trigger mild gastrointestinal upset15. Furthermore, it is important to remember that human sugary foods often contain actual toxic ingredients mixed in, such as chocolate/theobromine, raisins, or macadamia nuts, which are highly lethal1...)."
+      "concentration_notes": "or potency: Xylitol is highly potent in dogs, causing toxicity at doses as low as 100 mg/kg14. By contrast, experimental studies in cats using large oral doses of 100, 500, and 1,000 mg/kg resulted in no toxic effects or clinical signs other than transient salivation910. At extremely high levels (over 1.0 g/kg), cats may experience a slight drop or fluctuation in blood sugar, but it is unlikely to",
+      "description": "in cats: Xylitol is infamous for being exquisitely toxic to dogs. In canine systems, it tricks the body into producing a massive, rapid surge of insulin, which causes a life-threatening drop in blood sugar (hypoglycemia) and acute liver failure5.... However, cats appear to be naturally resistant to xylitol toxicity8. Scientific studies examining cats administered high doses of xylitol found that t",
+      "name": "Xylitol (Sugar Substitute)"
     }
   ],
+  "description": "Plain refined sugar (sucrose) is not acutely toxic to cats in small amounts, but cats have no nutritional need for sugar and are physiologically indifferent to sweet tastes (they lack functional sweet taste receptors). Regular consumption causes metabolic problems, dental decay, and obesity — not direct chemical toxicity.",
+  "emergencyNote": "While ingesting regular refined sugar does not cause acute poisoning and does not require emergency veterinary treatment",
+  "family": "Poaceae",
+  "isToxic": false,
+  "name": "Sugar",
+  "safetyNotes": [
+    "Not toxic in small amounts: cats cannot taste sweetness and rarely seek out sugar voluntarily",
+    "Metabolic risk: regular sugar intake causes blood sugar dysregulation, obesity, and diabetes in cats",
+    "Dental risk: sugar promotes dental plaque and periodontal disease",
+    "Xylitol warning: sugar-free products use xylitol instead of sugar — xylitol IS severely toxic to cats; always check labels",
+    "A tiny accidental taste of plain sugar is not an emergency; keep sugary foods away as a general practice"
+  ],
+  "scientific_name": "Sugar",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "Regular refined sugar is not acutely poisonous to cats, but it is an inappropriate food that causes long-term health issues. However",
       "body_system": "Metabolic",
-      "severity": "moderate",
-      "onset": null,
-      "notes": null
+      "name": "Regular refined sugar is not acutely poisonous to cats, but it is an inappropriate food that causes long-term health issues. However",
+      "severity": "moderate"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Mild Gastrointestinal Upset (From Artificial Sweeteners)",
-      "body_system": "Gastrointestinal",
-      "severity": "mild",
+      "notes": "While artificial sweeteners like stevia, maltitol, sorbitol, sucralose, and saccharin are not chemically dangerous or poisonous to cats, consuming them in very high amounts can trigger mild gastrointestinal distress and tummy upsets",
       "onset": "Varies (typically within a few hours).",
-      "notes": "While artificial sweeteners like stevia, maltitol, sorbitol, sucralose, and saccharin are not chemically dangerous or poisonous to cats, consuming them in very high amounts can trigger mild gastrointestinal distress and tummy upsets"
+      "severity": "mild"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Transient Salivation (From Xylitol Exposure)",
-      "body_system": "Gastrointestinal",
-      "severity": "mild",
+      "notes": "In dogs, xylitol causes a massive release of insulin leading to fatal hypoglycemia and liver failure25. However, when cats were experimentally given massive doses of xylitol (up to 1,000 mg/kg), they did not experience a dangerous insulin surge, hypoglycemia, or liver damage; the only clinical sign",
       "onset": "Shortly after ingestion.",
-      "notes": "In dogs, xylitol causes a massive release of insulin leading to fatal hypoglycemia and liver failure25. However, when cats were experimentally given massive doses of xylitol (up to 1,000 mg/kg), they did not experience a dangerous insulin surge, hypoglycemia, or liver damage; the only clinical sign observed was transient salivation"
+      "severity": "mild"
     },
     {
-      "name": "Hypoglycemia and Liver Damage (Theoretical/Precautionary for Xylitol)",
       "body_system": "Gastrointestinal",
-      "severity": "fatal",
+      "name": "Hypoglycemia and Liver Damage (Theoretical/Precautionary for Xylitol)",
+      "notes": "Although clinical studies have demonstrated that cats are naturally resistant to xylitol toxicity1..., some veterinary sources warn that it is not impossible for an individual cat to be unusually susceptible to the toxin8. As a strict precaution, some vets warn that xylitol could potentially cause a",
       "onset": "15 to 30 minutes for hypoglycemia (or up to 12 hours if released slowly from gum);",
-      "notes": "Although clinical studies have demonstrated that cats are naturally resistant to xylitol toxicity1..., some veterinary sources warn that it is not impossible for an individual cat to be unusually susceptible to the toxin8. As a strict precaution, some vets warn that xylitol could potentially cause a rapid drop in blood sugar and liver damage in cats, and advise treating any ingestion as a medical emergency"
+      "severity": "fatal"
     },
     {
-      "name": "Chronic Metabolic Issues (From Regular Sugar)",
       "body_system": "Endocrine",
-      "severity": "severe",
+      "name": "Chronic Metabolic Issues (From Regular Sugar)",
+      "notes": "Regular sugar (sucrose) does not cause acute poisoning symptoms. However, if a cat is regularly fed sugary foods or candies, it will lead to unhealthy weight gain, tooth decay, and the eventual development of feline diabetes",
       "onset": "Chronic (develops progressively over months or years).",
-      "notes": "Regular sugar (sucrose) does not cause acute poisoning symptoms. However, if a cat is regularly fed sugary foods or candies, it will lead to unhealthy weight gain, tooth decay, and the eventual development of feline diabetes"
+      "severity": "severe"
     }
   ],
+  "toxicParts": [
+    "Pit",
+    "Entire food",
+    "Seed",
+    "Skin",
+    "Stem"
+  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
-      "name": "While ingesting regular refined sugar does not cause acute poisoning and does not require emergency veterinary treatment",
-      "priority": 1,
       "description": null,
-      "notes": null
+      "name": "While ingesting regular refined sugar does not cause acute poisoning and does not require emergency veterinary treatment",
+      "notes": null,
+      "priority": 1
     },
     {
+      "description": "of the procedure: If the cat is already showing symptoms of low blood sugar (hypoglycemia)—such as unsteadiness, sleepiness, or tremors—and can safely swallow, the owner should immediately offer honey, jam, or sugary water. If the cat is having seizures or swallowing is risky, the owner should smear jam or honey directly onto the cat's gums45. Any situation-specific",
       "name": "Immediate At-Home Hypoglycemia Management (If symptomatic)",
-      "description": "of the procedure: If the cat is already showing symptoms of low blood sugar (hypoglycemia)\u2014such as unsteadiness, sleepiness, or tremors\u2014and can safely swallow, the owner should immediately offer honey, jam, or sugary water. If the cat is having seizures or swallowing is risky, the owner should smear jam or honey directly onto the cat's gums45.\nAny situation-specific",
       "notes": "This is an immediate first-aid measure to raise blood sugar levels while urgently contacting or transporting the cat to a veterinary clinic",
       "priority": 2
     },
     {
+      "description": "of the procedure: If the cat has ingested the xylitol very recently and has not yet developed any symptoms, the veterinarian will administer a specific injection to induce vomiting. This empties the stomach to minimize the absorption of the substance into the body6. Any situation-specific",
       "name": "Early Gastrointestinal Decontamination",
-      "description": "of the procedure: If the cat has ingested the xylitol very recently and has not yet developed any symptoms, the veterinarian will administer a specific injection to induce vomiting. This empties the stomach to minimize the absorption of the substance into the body6.\nAny situation-specific",
-      "notes": "This treatment is only helpful if performed very quickly after ingestion; it is too late to induce vomiting if symptoms of low blood sugar have already begun6. Furthermore, pet owners must never attempt to induce vomiting at home, as there are no safe methods to do so for cats without veterinary supervision",
+      "notes": "This treatment is only helpful if performed very quickly after ingestion; it is too late to induce vomiting if symptoms of low blood sugar have already begun6. Furthermore, pet owners must never attempt to induce vomiting at home, as there are no safe methods to do so for cats without veterinary sup",
       "priority": 3
     },
     {
+      "description": "of the procedure: The cat is admitted to the veterinary clinic for intensive in-patient monitoring. The veterinary team administers IV fluids containing sugar (dextrose) directly into the cat's veins to combat the low blood sugar6. The vet will also perform blood work and urinalysis to track blood glucose levels and check for signs of organ damage7. Any situation-specific",
       "name": "Systemic Stabilization and Organ Monitoring",
-      "description": "of the procedure: The cat is admitted to the veterinary clinic for intensive in-patient monitoring. The veterinary team administers IV fluids containing sugar (dextrose) directly into the cat's veins to combat the low blood sugar6. The vet will also perform blood work and urinalysis to track blood glucose levels and check for signs of organ damage7.\nAny situation-specific",
       "notes": "Because xylitol can cause severe acute liver failure in dogs, veterinarians may use blood work to look for similar liver damage in cats27. The specific treatment strategy and duration of hospitalization will be guided by these diagnostic findings",
       "priority": 4
     }

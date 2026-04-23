@@ -1,102 +1,111 @@
 {
-  "plant": {
-    "common_name": "Coffee",
-    "scientific_name": "Coffee",
-    "family": "Various",
-    "description": "Botanical Family: The provided sources do not specify the botanical family for coffee. (Note: General scientific knowledge outside the provided sources places coffee in the Rubiaceae family, which you may want to independently verify).\n2. Brief Description and Common Forms\nDescription: Coffee is a widely consumed human beverage known for its stimulant properties. It contains caffeine, which is a methylxanthine alkaloid2. While safe for humans, caffeine is highly toxic to cats and dogs because they metabolize these compounds much more slowly, leading to severe nervous system overstimulation and cardiovascular issues23.\nCommon Forms: In the household, coffee is most frequently encountered as a brewed liquid beverage or as dry coffee grounds45. It can also be found integrated into other products like energy drinks, dietary supplements, or various sweet human foods and desserts24."
-  },
-  "sources": [],
-  "toxic_parts": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
+    {
+      "chemical_formula": null,
+      "concentration_notes": null,
+      "description": null,
+      "name": "Based on the provided sources, the primary toxic compound in coffee that harms cats is caffeine"
+    },
+    {
+      "chemical_formula": "C",
+      "concentration_notes": "or potency: Cats are highly sensitive to caffeine and it affects them much more strongly than it does humans7. The toxic dose of caffeine for cats is generally between 80 to 150 mg per kilogram of body weight2, with the minimum lethal dose estimated at 100 to 150 mg/kg3. Cats metabolize caffeine very slowly (it has a half-life of about 4.5 hours in dogs/cats), meaning even a small amount of spille",
+      "description": "in cats: Caffeine exerts its toxicity through three primary molecular pathways. First, it causes competitive antagonism (blocking) of cellular adenosine receptors4. Because these receptors normally inhibit the central nervous system (CNS) and heart, blocking them causes severe CNS overstimulation, diuresis (increased urination), and tachycardia (rapid heart rate)4. Second, it inhibits the enzyme p",
+      "name": "Caffeine (Methylxanthine Alkaloid)"
+    }
+  ],
+  "description": "Coffee contains caffeine, a methylxanthine stimulant that is highly toxic to cats. Cats metabolise caffeine far more slowly than humans, making even small exposures dangerous. Caffeine works by blocking adenosine receptors in the brain and heart — receptors that normally slow neural activity and heart rate — causing uncontrolled CNS stimulation and rapid, potentially arrhythmic heart contractions. All coffee products are hazardous: brewed coffee, espresso, coffee grounds, instant coffee powder, and coffee-flavoured products all contain significant caffeine levels.",
+  "emergencyNote": "1. Emergency Stabilization (Seizure Control and Cardiovascular Support)",
+  "family": "Various",
+  "isToxic": true,
+  "name": "Coffee",
+  "safetyNotes": [
+    "Symptoms: Vomiting and restlessness initially; rapidly progressing to rapid heart rate, hypertension, muscle tremors, hyperthermia, and in severe cases seizures and cardiac arrhythmia.",
+    "Coffee grounds are particularly dangerous: Dry grounds are highly concentrated and appealing to cats that investigate compost or kitchen waste.",
+    "Onset is fast: Symptoms can begin within 30–60 minutes of ingestion.",
+    "Action: Seek veterinary care immediately for any coffee ingestion — even a few licks of strong coffee warrants a call to a vet."
+  ],
+  "scientific_name": "Coffee",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Gastrointestinal Upset",
+      "notes": "These are typically the initial clinical signs of caffeine (methylxanthine) poisoning1. While gastrointestinal distress is uncomfortable, early vomiting can actually be beneficial as it helps remove some of the unabsorbed, toxic caffeine from the cat's body before it enters the bloodstream",
+      "onset": "2 to 4 hours",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Increased Thirst and Urination",
+      "notes": "Caffeine acts as a diuretic, increasing fluid loss and causing the cat to pass large amounts of urine, which drives excessive thirst and can rapidly lead to dehydration",
+      "onset": "2 to 4 hours (often following the initial gastrointestinal signs)",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Severe Neurological Overstimulation",
+      "notes": "Caffeine acts as a powerful stimulant that blocks cellular adenosine receptors, leading to severe central nervous system overstimulation1. The cat will become extremely agitated, which can rapidly progress to lack of coordination (ataxia), severe muscle tremors, grand mal seizures, and potentially a",
+      "onset": "2 to 12 hours (progresses as the caffeine is fully absorbed into the bloodstream)",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Cardiovascular Dysfunction",
+      "notes": "Caffeine increases intracellular calcium levels, abnormally enhancing the strength and frequency of cardiac muscle contractions1. This results in very rapid, irregular heartbeats, high blood pressure, and ultimately cardiac arrest in the terminal phase of poisoning",
+      "onset": "2 to 12 hours",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Respiratory Distress",
+      "notes": "As the central nervous and cardiovascular systems become overwhelmed, the cat will pant and breathe very rapidly1.... In the most extreme and terminal cases, this culminates in complete respiratory failure and arrest",
+      "onset": "6 to 12 hours (progressing in the mid to late stages of toxicosis)",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Hyperthermia",
+      "notes": "The extreme overstimulation of the nervous system, combined with continuous hyperactivity and severe muscle tremors, generates excessive internal heat13. This causes the cat's core body temperature to spike to dangerously high levels",
+      "onset": "6 to 12 hours",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
     "Entire food",
     "Stem",
     "Powder"
   ],
-  "toxins": [
-    {
-      "name": "Based on the provided sources, the primary toxic compound in coffee that harms cats is caffeine",
-      "chemical_formula": null,
-      "description": null,
-      "concentration_notes": null
-    },
-    {
-      "name": "Caffeine (Methylxanthine Alkaloid)",
-      "chemical_formula": "C",
-      "description": "in cats: Caffeine exerts its toxicity through three primary molecular pathways. First, it causes competitive antagonism (blocking) of cellular adenosine receptors4. Because these receptors normally inhibit the central nervous system (CNS) and heart, blocking them causes severe CNS overstimulation, diuresis (increased urination), and tachycardia (rapid heart rate)4. Second, it inhibits the enzyme phosphodiesterase, leading to a dangerous accumulation of intracellular cyclic AMP4. Third, it increases intracellular calcium levels by promoting cellular entry and inhibiting the sarcoplasmic reticulum from sequestering calcium4. This abnormally amplifies the contractility and strength of skeletal and cardiac muscles, which clinically manifests as extreme restlessness, rapid breathing, muscle tremors, heart palpitations, and potentially fatal cardiac arrhythmias or seizures2....\nAny notes on concentration or potency: Cats are highly sensitive to caffeine and it affects them much more strongly than it does humans7. The toxic dose of caffeine for cats is generally between 80 to 150 mg per kilogram of body weight2, with the minimum lethal dose estimated at 100 to 150 mg/kg3. Cats metabolize caffeine very slowly (it has a half-life of about 4.5 hours in dogs/cats), meaning even a small amount of spilled coffee, coffee grounds, or energy drinks can quickly reach dangerous, life-threatening levels in their bloodstream",
-      "concentration_notes": "or potency: Cats are highly sensitive to caffeine and it affects them much more strongly than it does humans7. The toxic dose of caffeine for cats is generally between 80 to 150 mg per kilogram of body weight2, with the minimum lethal dose estimated at 100 to 150 mg/kg3. Cats metabolize caffeine very slowly (it has a half-life of about 4.5 hours in dogs/cats), meaning even a small amount of spilled coffee, coffee grounds, or energy drinks can quickly reach dangerous, life-threatening levels in their bloodstream"
-    }
-  ],
-  "symptoms": [
-    {
-      "name": "1. Gastrointestinal Upset",
-      "body_system": "Gastrointestinal",
-      "severity": "moderate",
-      "onset": "2 to 4 hours",
-      "notes": "These are typically the initial clinical signs of caffeine (methylxanthine) poisoning1. While gastrointestinal distress is uncomfortable, early vomiting can actually be beneficial as it helps remove some of the unabsorbed, toxic caffeine from the cat's body before it enters the bloodstream"
-    },
-    {
-      "name": "Increased Thirst and Urination",
-      "body_system": "Renal",
-      "severity": "moderate",
-      "onset": "2 to 4 hours (often following the initial gastrointestinal signs)",
-      "notes": "Caffeine acts as a diuretic, increasing fluid loss and causing the cat to pass large amounts of urine, which drives excessive thirst and can rapidly lead to dehydration"
-    },
-    {
-      "name": "Severe Neurological Overstimulation",
-      "body_system": "Neurological",
-      "severity": "fatal",
-      "onset": "2 to 12 hours (progresses as the caffeine is fully absorbed into the bloodstream)",
-      "notes": "Caffeine acts as a powerful stimulant that blocks cellular adenosine receptors, leading to severe central nervous system overstimulation1. The cat will become extremely agitated, which can rapidly progress to lack of coordination (ataxia), severe muscle tremors, grand mal seizures, and potentially a coma"
-    },
-    {
-      "name": "Cardiovascular Dysfunction",
-      "body_system": "Cardiac",
-      "severity": "fatal",
-      "onset": "2 to 12 hours",
-      "notes": "Caffeine increases intracellular calcium levels, abnormally enhancing the strength and frequency of cardiac muscle contractions1. This results in very rapid, irregular heartbeats, high blood pressure, and ultimately cardiac arrest in the terminal phase of poisoning"
-    },
-    {
-      "name": "Respiratory Distress",
-      "body_system": "Respiratory",
-      "severity": "fatal",
-      "onset": "6 to 12 hours (progressing in the mid to late stages of toxicosis)",
-      "notes": "As the central nervous and cardiovascular systems become overwhelmed, the cat will pant and breathe very rapidly1.... In the most extreme and terminal cases, this culminates in complete respiratory failure and arrest"
-    },
-    {
-      "name": "Hyperthermia",
-      "body_system": "Neurological",
-      "severity": "severe",
-      "onset": "6 to 12 hours",
-      "notes": "The extreme overstimulation of the nervous system, combined with continuous hyperactivity and severe muscle tremors, generates excessive internal heat13. This causes the cat's core body temperature to spike to dangerously high levels"
-    }
-  ],
+  "toxicityLevel": "mild",
   "treatments": [
     {
+      "description": "of the procedure: If the cat is already presenting with severe clinical signs, the veterinarian will immediately administer medications such as diazepam or barbiturates to control severe seizures and tremors1. Beta-blockers, such as metoprolol, may be given to treat rapid heart rates (tachycardia) and cardiac arrhythmias1. Artificial respiration is provided if needed1. Any situation-specific",
       "name": "1. Emergency Stabilization (Seizure Control and Cardiovascular Support)",
-      "description": "of the procedure: If the cat is already presenting with severe clinical signs, the veterinarian will immediately administer medications such as diazepam or barbiturates to control severe seizures and tremors1. Beta-blockers, such as metoprolol, may be given to treat rapid heart rates (tachycardia) and cardiac arrhythmias1. Artificial respiration is provided if needed1.\nAny situation-specific",
       "notes": "This is the most urgent priority for symptomatic cats to prevent immediate death1. Crucially, lidocaine cannot be used in cats to treat ventricular arrhythmias, as it is toxic to them",
       "priority": 1
     },
     {
+      "description": "of the procedure: If the coffee (caffeine) ingestion occurred within the last 1 to 2 hours and the cat is still asymptomatic, the veterinarian will administer a feline-specific medication (such as the α 2 ​ -adrenergic agonist dexmedetomidine) to safely induce vomiting and expel the coffee grounds or liquid2. If the cat is already seizing or heavily sedated, inducing vomiting is unsafe, and a gast",
       "name": "Early Gastrointestinal Decontamination",
-      "description": "of the procedure: If the coffee (caffeine) ingestion occurred within the last 1 to 2 hours and the cat is still asymptomatic, the veterinarian will administer a feline-specific medication (such as the \u03b1\n2\n\t\u200b\n\n-adrenergic agonist dexmedetomidine) to safely induce vomiting and expel the coffee grounds or liquid2. If the cat is already seizing or heavily sedated, inducing vomiting is unsafe, and a gastric lavage (stomach pumping) may be considered instead1.\nAny situation-specific",
       "notes": "Hydrogen peroxide is strictly contraindicated in cats for inducing vomiting because it can cause fatal hemorrhagic gastritis",
       "priority": 2
     },
     {
+      "description": "of the procedure: Following emesis or gastric lavage, the cat is given oral doses of activated charcoal (typically 1–4 g/kg) to bind any remaining caffeine (methylxanthines) in the gastrointestinal tract, preventing it from being absorbed into the bloodstream12. Any situation-specific",
       "name": "Toxin Adsorption",
-      "description": "of the procedure: Following emesis or gastric lavage, the cat is given oral doses of activated charcoal (typically 1\u20134 g/kg) to bind any remaining caffeine (methylxanthines) in the gastrointestinal tract, preventing it from being absorbed into the bloodstream12.\nAny situation-specific",
-      "notes": "Because caffeine undergoes enterohepatic recirculation (it is processed by the liver, secreted back into the intestines, and reabsorbed), repeated doses of activated charcoal should be administered every 3 hours for up to 72 hours1. Antiemetic medications (like metoclopramide) may be given to control vomiting so the cat can keep the charcoal down",
+      "notes": "Because caffeine undergoes enterohepatic recirculation (it is processed by the liver, secreted back into the intestines, and reabsorbed), repeated doses of activated charcoal should be administered every 3 hours for up to 72 hours1. Antiemetic medications (like metoclopramide) may be given to contro",
       "priority": 3
     },
     {
+      "description": "of the procedure: The cat is hospitalized and placed on continuous IV fluids to stabilize cardiovascular function and force the kidneys to rapidly excrete the caffeine1. A urinary catheter is also placed to keep the bladder continuously empty1. Any situation-specific",
       "name": "Fluid Diuresis and Urinary Excretion Support",
-      "description": "of the procedure: The cat is hospitalized and placed on continuous IV fluids to stabilize cardiovascular function and force the kidneys to rapidly excrete the caffeine1. A urinary catheter is also placed to keep the bladder continuously empty1.\nAny situation-specific",
       "notes": "Placing a urinary catheter is a critical step because caffeine and its toxic metabolites can be reabsorbed directly back into the bloodstream across the bladder wall if urine is allowed to pool",
       "priority": 4
     },
     {
+      "description": "of the procedure: The veterinary team will continuously monitor the cat's cardiac status via electrocardiography (ECG), correct any acid/base or electrolyte abnormalities, and actively manage the cat's body temperature to treat hyperthermia caused by hyperactivity and muscle tremors1. Any situation-specific",
       "name": "Ongoing Symptomatic and Supportive Care",
-      "description": "of the procedure: The veterinary team will continuously monitor the cat's cardiac status via electrocardiography (ECG), correct any acid/base or electrolyte abnormalities, and actively manage the cat's body temperature to treat hyperthermia caused by hyperactivity and muscle tremors1.\nAny situation-specific",
       "notes": "Clinical signs of caffeine poisoning can persist for up to 72 hours in severe cases1. Medications such as erythromycin and corticosteroids must be explicitly avoided during treatment, as they actively interfere with the body's ability to excrete methylxanthines",
       "priority": 5
     }

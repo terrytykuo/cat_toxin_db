@@ -1,97 +1,100 @@
 {
-  "plant": {
-    "common_name": "Salt",
-    "scientific_name": "Salt",
-    "family": "Various",
-    "description": "Food Category: In a dietary context, it is categorized as an essential dietary macro-mineral, electrolyte, and food seasoning or additive1....\n2. Brief Description and Common Forms\nDescription: Salt (sodium chloride) is a naturally occurring mineral. In small amounts, it is an essential nutrient required for proper bodily function, helping to regulate your cat's hydration and electrolyte balance35. However, if consumed in excessive amounts without adequate access to fresh drinking water, it becomes highly toxic and leads to a life-threatening condition known as salt toxicosis, hypernatremia, or sodium ion poisoning2.... The excess sodium draws fluid out of the body's cells, leading to severe dehydration, electrolyte derangements, and cellular shrinkage (particularly in the brain)1....\nCommon Forms: Cats and other pets most commonly encounter dangerous levels of salt through heavily salted human snacks (like potato chips and pretzels), cured meats, and bouillon cubes6.... They may also be exposed to environmental or household hazards such as Himalayan salt lamps (which curious cats may lick), dough-salt mixtures (like homemade playdough), rock salt, ocean water, or improperly mixed oral electrolyte solutions5...."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Seed",
-    "Pit",
-    "Stem",
-    "Skin"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "Sodium Chloride (Sodium Ion)",
       "chemical_formula": "NaCl (Note",
-      "description": "in cats: Ingesting excessive salt leads to a condition known as salt toxicosis, hypernatremia, or sodium ion poisoning1. As the concentration of sodium in the blood serum increases, it creates a powerful osmotic gradient that rapidly draws water out of the body's cells (the intracellular and interstitial compartments) and into the extracellular fluid23. This causes severe systemic dehydration and dangerous electrolyte derangements, which can ultimately lead to kidney failure45. The brain is especially vulnerable to this rapid fluid shift; the loss of water causes brain cells to physically shrink (cerebral dehydration)23. As the brain mass shrinks, it can pull away from the skull, potentially tearing delicate meningeal blood vessels and causing intracranial hemorrhage (bleeding in the brain)23. To adapt and survive, the brain cells eventually produce \"idiogenic osmoles\" (like taurine) to maintain their volume; this complicates veterinary treatment, because rehydrating the cat too rapidly can reverse the osmotic gradient, drawing water back into the brain too fast and causing fatal brain swelling (cerebral edema)3....\nAny notes on concentration or potency: In small, controlled amounts, salt is an essential nutrient required for a cat's body to properly regulate hydration and electrolytes4. Toxicity is heavily dependent on water consumption; it occurs when a cat ingests an excessive amount of salt without having continuous access to fresh drinking water to balance it out89. While the provided sources note that the acute oral lethal dose of salt in dogs is approximately 4 g/kg (with clinical signs appearing at 2\u20133 g/kg)10, they do not specify the exact toxic dose threshold specifically for cats. They simply emphasize that large amounts or concentrated household sources (such as salt lamps, bouillon cubes, or heavily salted human snacks) can quickly lead to fatal sodium ion poisoning",
-      "concentration_notes": "or potency: In small, controlled amounts, salt is an essential nutrient required for a cat's body to properly regulate hydration and electrolytes4. Toxicity is heavily dependent on water consumption; it occurs when a cat ingests an excessive amount of salt without having continuous access to fresh drinking water to balance it out89. While the provided sources note that the acute oral lethal dose of salt in dogs is approximately 4 g/kg (with clinical signs appearing at 2\u20133 g/kg)10, they do not specify the exact toxic dose threshold specifically for cats. They simply emphasize that large amounts or concentrated household sources (such as salt lamps, bouillon cubes, or heavily salted human snacks) can quickly lead to fatal sodium ion poisoning"
+      "concentration_notes": "or potency: In small, controlled amounts, salt is an essential nutrient required for a cat's body to properly regulate hydration and electrolytes4. Toxicity is heavily dependent on water consumption; it occurs when a cat ingests an excessive amount of salt without having continuous access to fresh drinking water to balance it out89. While the provided sources note that the acute oral lethal dose o",
+      "description": "in cats: Ingesting excessive salt leads to a condition known as salt toxicosis, hypernatremia, or sodium ion poisoning1. As the concentration of sodium in the blood serum increases, it creates a powerful osmotic gradient that rapidly draws water out of the body's cells (the intracellular and interstitial compartments) and into the extracellular fluid23. This causes severe systemic dehydration and ",
+      "name": "Sodium Chloride (Sodium Ion)"
     }
   ],
+  "description": "Salt (sodium chloride) is toxic to cats at elevated doses. Cats have a very low sodium tolerance compared to humans, and their kidneys are highly efficient at regulating sodium under normal dietary conditions. Excessive sodium intake overwhelms this system, causing severe neurological and cardiovascular effects.",
+  "emergencyNote": "If a cat ingests a toxic amount of salt",
+  "family": "Various",
+  "isToxic": true,
+  "name": "Salt",
+  "safetyNotes": [
+    "Toxic dose: approximately 4g/kg body weight is lethal; smaller amounts cause significant symptoms; even salty snacks fed regularly cause cumulative harm",
+    "Mechanism: high serum sodium causes cell dehydration and cerebral oedema; severe disruption of neurological and cardiac function",
+    "Symptoms: excessive thirst, frequent urination, vomiting, diarrhea, weakness, tremors, seizures; severe cases cause kidney failure and death",
+    "Salty human foods (chips, cured meats, soy sauce) are the most common accidental exposure route",
+    "If your cat ingests a large amount of salt or salty food, contact your vet immediately"
+  ],
+  "scientific_name": "Salt",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "If a cat ingests or is exposed to excessive amounts of salt without adequate access to fresh water",
       "body_system": "Metabolic",
-      "severity": "moderate",
-      "onset": null,
-      "notes": null
+      "name": "If a cat ingests or is exposed to excessive amounts of salt without adequate access to fresh water",
+      "severity": "moderate"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Severe Gastrointestinal Upset",
-      "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "notes": "The influx of excessive salt causes direct osmotic irritation and inflammation of the gastrointestinal mucosa, triggering vomiting and diarrhea",
       "onset": "Within minutes to a few hours of ingestion",
-      "notes": "The influx of excessive salt causes direct osmotic irritation and inflammation of the gastrointestinal mucosa, triggering vomiting and diarrhea"
+      "severity": "severe"
     },
     {
+      "body_system": "Renal",
       "name": "Excessive Thirst and Urination",
-      "body_system": "Renal",
-      "severity": "moderate",
+      "notes": "The extreme thirst is the cat's biological attempt to restore osmotic balance4. The excess sodium circulating in the blood draws fluid out of the body's cells, leading to severe cellular dehydration, which the body frantically tries to correct by seeking water",
       "onset": "Within minutes",
-      "notes": "The extreme thirst is the cat's biological attempt to restore osmotic balance4. The excess sodium circulating in the blood draws fluid out of the body's cells, leading to severe cellular dehydration, which the body frantically tries to correct by seeking water"
+      "severity": "moderate"
     },
     {
-      "name": "Neurological Deficits and Brain Damage",
       "body_system": "Gastrointestinal",
-      "severity": "fatal",
+      "name": "Neurological Deficits and Brain Damage",
+      "notes": "The brain is uniquely vulnerable to rapid hypernatremia. As the sodium pulls water out of the brain's cells, it causes cerebral dehydration and physical cell shrinkage89. As the brain mass shrinks, it can pull away from the skull, potentially tearing delicate meningeal blood vessels and causing fata",
       "onset": "Progressive (develops within minutes to hours as the sodium alters cell osmolarity)",
-      "notes": "The brain is uniquely vulnerable to rapid hypernatremia. As the sodium pulls water out of the brain's cells, it causes cerebral dehydration and physical cell shrinkage89. As the brain mass shrinks, it can pull away from the skull, potentially tearing delicate meningeal blood vessels and causing fatal intracranial hemorrhage (bleeding in the brain)89. Muscle tremors and cramping occur due to the sodium altering the resting membrane potentials in the neurons"
+      "severity": "fatal"
     },
     {
-      "name": "Cardiovascular and Respiratory Distress",
       "body_system": "Cardiac",
-      "severity": "severe",
+      "name": "Cardiovascular and Respiratory Distress",
+      "notes": "These symptoms are often accompanied by an elevated body temperature and are secondary to the massive fluid shifts, electrolyte derangements, and systemic shock the body is experiencing",
       "onset": "Within minutes to hours",
-      "notes": "These symptoms are often accompanied by an elevated body temperature and are secondary to the massive fluid shifts, electrolyte derangements, and systemic shock the body is experiencing"
+      "severity": "severe"
     },
     {
-      "name": "Acute Kidney Failure",
       "body_system": "Renal",
-      "severity": "fatal",
+      "name": "Acute Kidney Failure",
+      "notes": "The severe, rapid systemic dehydration caused by the sodium drawing fluid out of the cells can overwhelm and destroy the kidneys, leading to acute kidney failure and death",
       "onset": "Progressive (hours to days as the toxicosis advances)",
-      "notes": "The severe, rapid systemic dehydration caused by the sodium drawing fluid out of the cells can overwhelm and destroy the kidneys, leading to acute kidney failure and death"
+      "severity": "fatal"
     }
   ],
+  "toxicParts": [],
+  "toxicityLevel": "mild",
   "treatments": [
     {
-      "name": "If a cat ingests a toxic amount of salt",
-      "priority": 1,
       "description": null,
-      "notes": null
+      "name": "If a cat ingests a toxic amount of salt",
+      "notes": null,
+      "priority": 1
     },
     {
+      "description": "of the procedure: If the cat arrives at the clinic already experiencing severe neurological distress, the veterinarian will administer seizure-control agents (such as diazepam) to stop the convulsions. If severe brain swelling (cerebral edema) is suspected, medications like mannitol, dexamethasone, or dimethyl sulfoxide (DMSO) may be administered to help reduce the pressure in the brain1. Any situ",
       "name": "Emergency Neurological Stabilization (Seizure Control)",
-      "description": "of the procedure: If the cat arrives at the clinic already experiencing severe neurological distress, the veterinarian will administer seizure-control agents (such as diazepam) to stop the convulsions. If severe brain swelling (cerebral edema) is suspected, medications like mannitol, dexamethasone, or dimethyl sulfoxide (DMSO) may be administered to help reduce the pressure in the brain1.\nAny situation-specific",
       "notes": "This takes absolute priority if the cat is actively having seizures or is in a coma, as the severe cellular dehydration caused by hypernatremia directly damages the brain and can cause intracranial hemorrhage",
       "priority": 2
     },
     {
+      "description": "of the procedure: For mild cases, or if the cat was caught ingesting salt before severe clinical signs have started, the offending food or salt source is immediately removed. The cat is then offered fresh water, but strictly in small amounts at frequent intervals while being closely observed4.... Any situation-specific",
       "name": "Immediate Source Removal and Controlled Oral Hydration",
-      "description": "of the procedure: For mild cases, or if the cat was caught ingesting salt before severe clinical signs have started, the offending food or salt source is immediately removed. The cat is then offered fresh water, but strictly in small amounts at frequent intervals while being closely observed4....\nAny situation-specific",
-      "notes": "It is highly dangerous to let a salt-poisoned cat drink a massive amount of pure water all at once. A sudden influx of fresh water can cause fluid to rapidly build up in the brain, drastically worsening neurological signs and causing fatal brain swelling56. Pet owners are also advised never to induce vomiting at home unless explicitly instructed by a veterinarian",
+      "notes": "It is highly dangerous to let a salt-poisoned cat drink a massive amount of pure water all at once. A sudden influx of fresh water can cause fluid to rapidly build up in the brain, drastically worsening neurological signs and causing fatal brain swelling56. Pet owners are also advised never to induc",
       "priority": 3
     },
     {
+      "description": "of the procedure: The cat is hospitalized, and blood serum sodium levels are closely monitored. The veterinarian administers specific IV fluids (sometimes slightly hypertonic fluids) to correct the cat's free water deficit, dilute the sodium in the blood, and restore electrolyte balance over a period of 2 to 3 days1.... Any situation-specific",
       "name": "Judicious Intravenous (IV) Fluid Therapy and Electrolyte Monitoring",
-      "description": "of the procedure: The cat is hospitalized, and blood serum sodium levels are closely monitored. The veterinarian administers specific IV fluids (sometimes slightly hypertonic fluids) to correct the cat's free water deficit, dilute the sodium in the blood, and restore electrolyte balance over a period of 2 to 3 days1....\nAny situation-specific",
-      "notes": "This is the most complex and critical part of treating salt toxicosis. To survive the extreme salt levels, the cat's brain cells produce \"idiogenic osmoles\" to maintain their volume. Therefore, the veterinarian must lower the serum sodium concentration very slowly, at a strictly controlled rate of no more than 0.5 to 1.0 mEq/L per hour1011. If IV fluids are administered too rapidly, the osmotic gradient reverses, drawing water into the brain cells too fast and causing massive, fatal cerebral edema (brain herniation)",
+      "notes": "This is the most complex and critical part of treating salt toxicosis. To survive the extreme salt levels, the cat's brain cells produce \"idiogenic osmoles\" to maintain their volume. Therefore, the veterinarian must lower the serum sodium concentration very slowly, at a strictly controlled rate of n",
       "priority": 4
     },
     {
+      "description": "of the procedure: The veterinarian may administer antacids and/or antibiotics to alleviate the severe gastrointestinal irritation and inflammation caused by the heavy influx of salt7. Any situation-specific",
       "name": "Symptomatic Gastrointestinal Support",
-      "description": "of the procedure: The veterinarian may administer antacids and/or antibiotics to alleviate the severe gastrointestinal irritation and inflammation caused by the heavy influx of salt7.\nAny situation-specific",
       "notes": "This is used as an adjunctive treatment to help manage the vomiting, diarrhea, and abdominal distress that frequently accompany an acute salt poisoning episode",
       "priority": 5
     }

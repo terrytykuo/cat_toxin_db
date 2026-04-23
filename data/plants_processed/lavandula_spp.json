@@ -1,0 +1,108 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": null,
+      "concentration_notes": "◦ Essential Oils vs. Plant: While present in the fresh or dried plant, linalool is found in highly concentrated amounts in lavender essential oils. Consequently, essential oils pose a much higher risk of severe toxicity, including liver failure, compared to the mild gastrointestinal upset typically caused by nibbling the plant. Even passive inhalation from a diffuser can cause respiratory symptoms",
+      "description": "in cats: ◦ Metabolic Inability: Cats lack the specific liver enzymes (specifically glucuronosyltransferase) necessary to effectively break down and metabolize linalool. This deficiency prevents the cat's body from processing the compound, leading to a buildup of toxins in their system. ◦ Systemic Absorption: Linalool can be rapidly absorbed through the skin, by inhalation, or via ingestion. Once i",
+      "name": "Linalool"
+    },
+    {
+      "chemical_formula": null,
+      "concentration_notes": "◦ High Potency in Extracts: Like linalool, linalyl acetate is significantly more potent in essential oil form than in the plant material. The concentrated nature of the oils means that even small exposures (oral, dermal, or respiratory) can lead to serious health issues, whereas the plant itself generally causes milder symptoms like vomiting or diarrhea.",
+      "description": "in cats: ◦ Enzymatic Deficiency: Similar to linalool, cats are unable to produce the necessary enzymes to break down linalyl acetate. This metabolic limitation allows the compound to reach toxic levels within the cat's body causing systemic toxicity and central nervous system depression. 4. Notes on",
+      "name": "Linalyl Acetate"
+    }
+  ],
+  "description": "Lavender (Lavandula spp.) is mildly toxic to cats due to the essential oils concentrated in its flowers and foliage — primarily linalool and linalyl acetate. Cats lack the liver enzyme glucuronyl transferase needed to metabolise these terpenoid compounds effectively, so even small exposures from chewing flowers or inhaling concentrated diffuser oil can cause upset.",
+  "emergencyNote": "Decontamination (Emesis or Activated Charcoal)",
+  "family": "Lamiaceae",
+  "isToxic": true,
+  "name": "Lavender",
+  "safetyNotes": [
+    "Toxic compounds: linalool and linalyl acetate (monoterpenoid compounds); concentrated in flowers and essential oil",
+    "Mechanism: cats cannot adequately glucuronidate terpenoids, allowing accumulation that irritates the GI tract and mildly stresses the liver",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy; essential oil diffusers can cause respiratory irritation and systemic exposure via inhalation",
+    "A few leaves are unlikely to cause serious harm; essential oil products are far more concentrated and should be kept away from cats",
+    "Contact your vet if your cat ingests lavender oil or essential oil products"
+  ],
+  "scientific_name": "Lavandula spp.",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, Nausea, Drooling (Hypersalivation), Inappetence (Loss of Appetite)",
+      "notes": "Drooling and \"pawing at the mouth\" are common early signs, especially if the cat has licked essential oil or liquid potpourri, which can cause chemical burns to the mouth, tongue, and lips.Neurological Dysfunction",
+      "onset": "Symptoms can be noticeable immediately or develop shortly after ingestion.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy, Weakness, Ataxia (Uncoordinated/Wobbly Gait), Muscle Tremors, Seizures, Disorientation",
+      "notes": "Neurological signs like wobbliness and tremors are frequently associated with essential oil exposure (inhalation or absorption) rather than just eating the plant. Severe cases can lead to central nervous system depression.Respiratory Distress",
+      "onset": "Immediate to Delayed (symptoms may progress over days).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty Breathing (Dyspnea), Coughing, Sneezing, Wheezing",
+      "notes": "Inhalation of essential oils from diffusers can irritate the respiratory tract, causing aspiration pneumonia risks if the cat vomits.Hepatic Failure",
+      "onset": "Immediate (often triggered by inhalation of diffused oils).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Liver Failure / Liver Damage",
+      "notes": "Because cats cannot metabolize the compounds in lavender effectively, they can accumulate in the liver, leading to failure. This is a primary risk with concentrated essential oils.Cardiac Abnormalities",
+      "onset": "Delayed (may take days to manifest as toxins build up).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Changes in Heart Rate (Bradycardia or Tachycardia)",
+      "notes": "While less common than GI or neurological signs, abnormal heart rhythms and collapse are documented severe reactions.Dermal Irritation",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Redness, Erosions (Chemical Burns), Contact Dermatitis",
+      "notes": "Direct contact with concentrated oils can burn the skin, lips, and gums.",
+      "onset": "Variable (upon contact).",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ],
+  "toxicityLevel": "mild",
+  "treatments": [
+    {
+      "description": "The veterinarian may administer activated charcoal to bind to the toxins in the stomach and prevent further absorption into the bloodstream12. In some cases, they may induce vomiting, but this decision depends heavily on what form of lavender was ingested",
+      "name": "Decontamination (Emesis or Activated Charcoal)",
+      "notes": "If the cat ingested lavender essential oil or liquid potpourri, veterinarians generally do not induce vomiting because these substances can cause severe chemical burns to the esophagus and mouth if brought back up3. Owners are explicitly warned not to induce vomiting at home for this reason",
+      "priority": 1
+    },
+    {
+      "description": "The administration of fluids directly into the vein to rehydrate the cat and help the body flush the toxins out of the system",
+      "name": "Intravenous (IV) Fluid Therapy",
+      "notes": "This is critical for eliminating toxins from the bloodstream and providing support to the liver and kidneys, which are the organs most at risk from lavender compounds3. It also corrects dehydration caused by vomiting and diarrhea",
+      "priority": 2
+    },
+    {
+      "description": "The veterinarian may administer anti-emetics to stop vomiting and gastroprotectants to coat and soothe the stomach lining3. Additionally, medications specifically designed to protect the liver may be given to prevent organ damage",
+      "name": "Pharmacological Symptom Management",
+      "notes": "Because lavender essential oils are absorbed into the bloodstream and travel to the liver, preventing liver damage is a primary concern3. If the cat is in pain from chemical burns (from oils), antibiotics and pain medications may also be prescribed",
+      "priority": 3
+    },
+    {
+      "description": "In severe cases, the veterinarian may insert a feeding tube directly into the stomach to provide nutrition",
+      "name": "Nutritional Support (Feeding Tube)",
+      "notes": "This intervention is typically reserved for cases where the cat has suffered chemical burns to the mouth or esophagus from ingesting essential oils or potpourri, making it too painful for them to eat normally while healing",
+      "priority": 4
+    }
+  ]
+}

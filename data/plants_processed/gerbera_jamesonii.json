@@ -1,0 +1,16 @@
+{
+  "aliases": [
+    "Transvaal Daisy",
+    "African Daisy"
+  ],
+  "category": "plant",
+  "description": "Gerbera daisies are safe for cats and come in vibrant, neon-like colors. Unlike many other \"daisies\" (like Mums or Chamomile) which are toxic, Gerbera daisies are a cheerful, pet-safe choice.",
+  "name": "Gerbera Daisy",
+  "safetyNotes": [
+    "⚠️ Note: Many other \"daisies\" (Chrysanthemums, Chamomile) ARE toxic to cats. Make sure you're getting true Gerbera daisies."
+  ],
+  "scientific_name": "Gerbera jamesonii",
+  "severity": "safe",
+  "symptoms": [],
+  "toxicParts": []
+}

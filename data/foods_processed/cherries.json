@@ -1,118 +1,127 @@
 {
-  "plant": {
-    "common_name": "Cherries",
-    "scientific_name": "Cherries",
-    "family": "Rosaceae",
-    "description": "Food Category: They are categorized as a fruit, and are more specifically classified as a \"stone fruit\"13.\n2. Brief Description and Common Forms\nDescription: Cherries are a type of fleshy fruit that contain a hard central stone, pit, or seed (often referred to as a kernel)34. Like other fruits in the Rosaceae family, their seeds or pits naturally contain cyanogenic glycosides like amygdalin2.\nCommon Forms: They are commonly consumed as fresh whole fruits, with specific varieties noted in the sources including red cherries and black cherries13."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Seed",
-    "Pit",
-    "Fruit",
-    "Leave",
-    "Stem",
-    "Flesh"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "The primary toxic substance in cherries",
       "chemical_formula": null,
+      "concentration_notes": null,
       "description": null,
-      "concentration_notes": null
+      "name": "The primary toxic substance in cherries"
     },
     {
-      "name": "Amygdalin (and its toxic metabolite, Hydrogen Cyanide)",
       "chemical_formula": "Amygdalin is C",
+      "concentration_notes": null,
       "description": null,
-      "concentration_notes": null
+      "name": "Amygdalin (and its toxic metabolite, Hydrogen Cyanide)"
     },
     {
-      "name": "Hydrogen Cyanide is HCN",
       "chemical_formula": null,
-      "description": "in cats: Amygdalin is not directly toxic on its own; however, when a cat chews or crushes the cherry pit, stem, or leaves, the compound mixes with \u03b2-glucosidase enzymes (present in the plant tissue or the cat's own intestinal microbiota)24. These enzymes hydrolyze the amygdalin, ultimately decomposing it to instantly release hydrogen cyanide (HCN)25. Cyanide is a potent and lethal toxin that binds to the active site of cytochrome c oxidase\u2014a key enzyme in the mitochondrial electron transport chain26. This binding completely halts cellular oxygen metabolism and cellular ATP (energy) production, leading to rapid cellular death that primarily strikes high-oxygen-demand organs like the brain and heart26.\nAny notes on concentration or potency: Amygdalin naturally accumulates in high concentrations within the pits (kernels) of the fruit. Specifically, red cherry kernels contain about 3.9 g/kg of amygdalin, while black cherry kernels contain roughly 2.7 g/kg7. The hydrogen cyanide released from this compound is extremely potent; the fatal oral dose of cyanide is generally estimated to be between 0.6 and 1.5 mg/kg of body weight",
-      "concentration_notes": "or potency: Amygdalin naturally accumulates in high concentrations within the pits (kernels) of the fruit. Specifically, red cherry kernels contain about 3.9 g/kg of amygdalin, while black cherry kernels contain roughly 2.7 g/kg7. The hydrogen cyanide released from this compound is extremely potent; the fatal oral dose of cyanide is generally estimated to be between 0.6 and 1.5 mg/kg of body weight"
+      "concentration_notes": "or potency: Amygdalin naturally accumulates in high concentrations within the pits (kernels) of the fruit. Specifically, red cherry kernels contain about 3.9 g/kg of amygdalin, while black cherry kernels contain roughly 2.7 g/kg7. The hydrogen cyanide released from this compound is extremely potent; the fatal oral dose of cyanide is generally estimated to be between 0.6 and 1.5 mg/kg of body weigh",
+      "description": "in cats: Amygdalin is not directly toxic on its own; however, when a cat chews or crushes the cherry pit, stem, or leaves, the compound mixes with β-glucosidase enzymes (present in the plant tissue or the cat's own intestinal microbiota)24. These enzymes hydrolyze the amygdalin, ultimately decomposing it to instantly release hydrogen cyanide (HCN)25. Cyanide is a potent and lethal toxin that binds",
+      "name": "Hydrogen Cyanide is HCN"
     }
   ],
+  "description": "Cherries present a split safety profile for cats. The ripe, pitted fruit flesh is not toxic and is safe in very small amounts. The danger lies in the pits, stems, leaves, and bark, which all contain amygdalin — a cyanogenic glycoside that digestive enzymes convert into hydrogen cyanide (HCN). Cyanide blocks cytochrome c oxidase, the enzyme that enables cells to use oxygen for energy, causing rapid cellular asphyxiation. The heart and brain, with their high oxygen demands, are the first to fail.",
+  "emergencyNote": "The seeds (pits), stems, and leaves of cherries contain amygdalin",
+  "family": "Rosaceae",
+  "isToxic": false,
+  "name": "Cherries",
+  "safetyNotes": [
+    "Symptoms (if pits or leaves ingested): Vomiting, rapid or laboured breathing, lethargy, low blood pressure, shock, seizures, and potentially fatal cardiac and respiratory failure.",
+    "Safe part: Pitted ripe flesh only — fully remove pit, stem, and any leaves before offering a small piece as a treat.",
+    "Physical hazard: Pits pose a choking and intestinal obstruction risk even before releasing cyanide.",
+    "Action: Emergency veterinary care if pit, bark, or leaves have been chewed."
+  ],
+  "scientific_name": "Cherries",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "1. Difficulty Breathing and Hyperventilation",
       "body_system": "Respiratory",
-      "severity": "fatal",
+      "name": "Difficulty Breathing and Hyperventilation",
+      "notes": "The hydrogen cyanide released from crushed cherry pits, stems, or leaves acts directly to inhibit cellular oxygen metabolism1. This forces the cat to hyperventilate and gasp for air as its body attempts to compensate for the sudden inability of its cells to extract and utilize oxygen",
       "onset": "Rapid onset (often within minutes to a few hours).",
-      "notes": "The hydrogen cyanide released from crushed cherry pits, stems, or leaves acts directly to inhibit cellular oxygen metabolism1. This forces the cat to hyperventilate and gasp for air as its body attempts to compensate for the sudden inability of its cells to extract and utilize oxygen"
+      "severity": "fatal"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Vomiting and Diarrhea",
-      "body_system": "Gastrointestinal",
-      "severity": "moderate",
+      "notes": "This can occur as an initial reaction to the cyanide toxicity or due to the physical irritation of the plant material and seeds passing through the digestive tract",
       "onset": "Shortly after ingestion (often within 30 minutes to a few hours).",
-      "notes": "This can occur as an initial reaction to the cyanide toxicity or due to the physical irritation of the plant material and seeds passing through the digestive tract"
+      "severity": "moderate"
     },
     {
-      "name": "Convulsions, Seizures, and Twitching",
       "body_system": "Neurological",
-      "severity": "fatal",
+      "name": "Convulsions, Seizures, and Twitching",
+      "notes": "Because the brain is a high-oxygen-demand organ, the sudden halt in ATP (energy) production caused by cyanide poisoning quickly deprives the brain of energy, leading to profound neurological distress and involuntary motor dysfunction",
       "onset": "Rapid onset.",
-      "notes": "Because the brain is a high-oxygen-demand organ, the sudden halt in ATP (energy) production caused by cyanide poisoning quickly deprives the brain of energy, leading to profound neurological distress and involuntary motor dysfunction"
+      "severity": "fatal"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Coma and Shock",
-      "body_system": "Gastrointestinal",
-      "severity": "fatal",
+      "notes": "As the cyanide completely halts cellular respiration in vital organs, the resulting rapid cellular death in the brain and heart leads to cardiovascular collapse, loss of consciousness, coma, and ultimately death if untreated",
       "onset": "Rapidly following respiratory distress and seizures.",
-      "notes": "As the cyanide completely halts cellular respiration in vital organs, the resulting rapid cellular death in the brain and heart leads to cardiovascular collapse, loss of consciousness, coma, and ultimately death if untreated"
+      "severity": "fatal"
     },
     {
-      "name": "Cherry-Red Mucous Membranes",
       "body_system": "Hematological",
-      "severity": "severe",
+      "name": "Cherry-Red Mucous Membranes",
+      "notes": "Because cyanide blocks the cells from taking up oxygen from the bloodstream, venous blood remains fully saturated with oxygen. This causes a distinct, abnormally bright red coloration of the cat's skin, gums, and mucous membranes",
       "onset": "Rapid onset.",
-      "notes": "Because cyanide blocks the cells from taking up oxygen from the bloodstream, venous blood remains fully saturated with oxygen. This causes a distinct, abnormally bright red coloration of the cat's skin, gums, and mucous membranes"
+      "severity": "severe"
     },
     {
-      "name": "Gastrointestinal Obstruction (Physical Hazard)",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "name": "Gastrointestinal Obstruction (Physical Hazard)",
+      "notes": "Aside from chemical toxicity, swallowing an intact, hard cherry pit presents a major physical hazard. The undigested pit can become lodged in the cat's digestive tract, causing a dangerous mechanical obstruction",
       "onset": "Variable (can take hours to days for symptoms like persistent vomiting and severe abdominal pain to",
-      "notes": "Aside from chemical toxicity, swallowing an intact, hard cherry pit presents a major physical hazard. The undigested pit can become lodged in the cat's digestive tract, causing a dangerous mechanical obstruction"
+      "severity": "severe"
     }
   ],
+  "toxicParts": [
+    "Pit",
+    "Fruit",
+    "Seed",
+    "Leave",
+    "Flesh",
+    "Stem"
+  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
-      "name": "The seeds (pits), stems, and leaves of cherries contain amygdalin",
-      "priority": 1,
       "description": null,
-      "notes": null
+      "name": "The seeds (pits), stems, and leaves of cherries contain amygdalin",
+      "notes": null,
+      "priority": 1
     },
     {
+      "description": "of the procedure: Placing the cat in an oxygen cage or providing flow-by oxygen to maximize the amount of oxygen available in the bloodstream. Any situation-specific",
       "name": "Oxygen Therapy (Life-Saving Stabilization)",
-      "description": "of the procedure: Placing the cat in an oxygen cage or providing flow-by oxygen to maximize the amount of oxygen available in the bloodstream.\nAny situation-specific",
       "notes": "This is the absolute highest priority for a symptomatic cat. It is strictly required for cats suffering from cyanide poisoning because the toxin compromises the cells' ability to extract and utilize oxygen, rapidly suffocating high-oxygen-demand organs like the brain and heart",
       "priority": 2
     },
     {
+      "description": "of the procedure: A veterinarian administers an α 2 ​ -adrenergic agonist, such as dexmedetomidine, to safely force the cat to vomit and expel the cherry parts before the plant material can release more cyanide into the system4. Any situation-specific",
       "name": "Induction of Emesis (Early Gastrointestinal Decontamination)",
-      "description": "of the procedure: A veterinarian administers an \u03b1\n2\n\t\u200b\n\n-adrenergic agonist, such as dexmedetomidine, to safely force the cat to vomit and expel the cherry parts before the plant material can release more cyanide into the system4.\nAny situation-specific",
-      "notes": "This intervention is the primary goal if the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic4. Pet owners must never attempt to use 3% hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated for cats and can cause fatal hemorrhagic gastritis",
+      "notes": "This intervention is the primary goal if the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic4. Pet owners must never attempt to use 3% hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated for cats and can cause fatal hemorrhagic gastr",
       "priority": 3
     },
     {
+      "description": "of the procedure: Administering oral activated charcoal to bind to and adsorb any residual toxins remaining in the stomach and gastrointestinal tract4. Any situation-specific",
       "name": "Administration of Activated Charcoal (Secondary Decontamination)",
-      "description": "of the procedure: Administering oral activated charcoal to bind to and adsorb any residual toxins remaining in the stomach and gastrointestinal tract4.\nAny situation-specific",
       "notes": "This is typically administered immediately following successful emesis to trap any remaining cyanogenic compounds in the gut and prevent them from being absorbed into the bloodstream",
       "priority": 4
     },
     {
+      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids and other medications to support failing organ systems3. Any situation-specific",
       "name": "Intravenous (IV) Fluid Therapy and Supportive Care",
-      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids and other medications to support failing organ systems3.\nAny situation-specific",
       "notes": "Because cyanide poisoning strikes the cardiovascular and central nervous systems so violently, aggressive fluid therapy is needed to maintain blood pressure, ensure tissue perfusion, and support the cat through systemic shock",
       "priority": 5
     },
     {
+      "description": "of the procedure: Utilizing an endoscope or performing abdominal surgery to physically extract intact cherry pits from the digestive tract. Any situation-specific",
       "name": "Mechanical Extraction (Obstruction Management)",
-      "description": "of the procedure: Utilizing an endoscope or performing abdominal surgery to physically extract intact cherry pits from the digestive tract.\nAny situation-specific",
-      "notes": "While crushed cherry pits release deadly cyanide, swallowing a hard, intact fruit pit presents a different but equally dangerous physical hazard25. Like the seeds of other stone fruits, whole cherry pits can easily become lodged in the throat or intestinal tract, causing a dangerous mechanical obstruction that requires physical removal",
+      "notes": "While crushed cherry pits release deadly cyanide, swallowing a hard, intact fruit pit presents a different but equally dangerous physical hazard25. Like the seeds of other stone fruits, whole cherry pits can easily become lodged in the throat or intestinal tract, causing a dangerous mechanical obstr",
       "priority": 6
     }
   ]

@@ -1,104 +1,112 @@
 {
-  "plant": {
-    "common_name": "Green tomatoes",
-    "scientific_name": "Green tomatoes",
-    "family": "Solanaceae",
-    "description": "...\n2. Brief Description and Common Forms\nDescription: Green tomatoes are simply tomatoes that have not yet ripened45. While fully ripe red tomatoes contain only trace amounts of toxins and are generally harmless to pets in small quantities, green tomatoes are highly problematic45. The unripe green fruits, as well as the leaves and stems of the tomato plant, contain high concentrations of toxic glycoalkaloids\u2014specifically tomatine and solanine1.... These compounds are produced by the plant as a natural defense mechanism against insects, fungi, and herbivores26.\nCommon Forms: In household and domestic environments, pets most commonly encounter these toxins by accessing unripe fruits on garden vines, harvested green tomatoes in the kitchen, or discarded tomato leaves, stems, and plant clippings in organic garden waste2...."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Fruit",
-    "Leave",
-    "Stem"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "Green tomatoes belong to the nightshade (Solanaceae) plant family and contain potent defensive compounds that are highly toxic to cats",
       "chemical_formula": null,
+      "concentration_notes": null,
       "description": null,
-      "concentration_notes": null
+      "name": "Green tomatoes belong to the nightshade (Solanaceae) plant family and contain potent defensive compounds that are highly toxic to cats"
     },
     {
-      "name": "Glycoalkaloids (Solanine and Tomatine)",
       "chemical_formula": "C",
-      "description": "in cats: These glycoalkaloid neurotoxins harm cats through three primary mechanisms:\nGastrointestinal Irritation (Cytotoxicity): The toxins interact directly with the phospholipids of the cell membranes, increasing cell permeability and causing cell destruction5. Intestinal epithelial cells are particularly vulnerable, resulting in severe mucosal irritation, inflammation, and violent lower gastrointestinal distress (vomiting, abdominal pain, and diarrhea)1....\nNeurological Overstimulation: They inhibit the enzyme acetylcholinesterase, which is normally responsible for breaking down the neurotransmitter acetylcholine16. The resulting accumulation of acetylcholine at the synaptic cleft causes severe overstimulation of the parasympathetic nervous system, leading to hypersalivation, slowed heart rate (bradycardia), pupil dilation, muscle tremors, and in severe cases, paralysis16.\nMitochondrial Impairment: The toxins disrupt cellular energy metabolism by inhibiting the respiratory chain, which contributes to extreme lethargy, weakness, and central nervous system (CNS) depression67.\nAny notes on concentration or potency: The concentration of these toxic alkaloids is dangerously high in unripe green tomatoes, as well as in the leaves, stems, and vines of the tomato plant1.... Cats are extraordinarily sensitive to these plant toxins compared to dogs because they lack specific hepatic detoxification pathways (glucuronidation); this slows down their ability to process the toxins, meaning even very small amounts of green tomatoes can lead to severe and prolonged poisoning8. As the tomato ripens to red, the levels of these alkaloids drop to trace amounts, making fully ripe tomatoes generally harmless to pets in small quantities",
-      "concentration_notes": "or potency: The concentration of these toxic alkaloids is dangerously high in unripe green tomatoes, as well as in the leaves, stems, and vines of the tomato plant1.... Cats are extraordinarily sensitive to these plant toxins compared to dogs because they lack specific hepatic detoxification pathways (glucuronidation); this slows down their ability to process the toxins, meaning even very small amounts of green tomatoes can lead to severe and prolonged poisoning8. As the tomato ripens to red, the levels of these alkaloids drop to trace amounts, making fully ripe tomatoes generally harmless to pets in small quantities"
+      "concentration_notes": "or potency: The concentration of these toxic alkaloids is dangerously high in unripe green tomatoes, as well as in the leaves, stems, and vines of the tomato plant1.... Cats are extraordinarily sensitive to these plant toxins compared to dogs because they lack specific hepatic detoxification pathways (glucuronidation); this slows down their ability to process the toxins, meaning even very small am",
+      "description": "in cats: These glycoalkaloid neurotoxins harm cats through three primary mechanisms: Gastrointestinal Irritation (Cytotoxicity): The toxins interact directly with the phospholipids of the cell membranes, increasing cell permeability and causing cell destruction5. Intestinal epithelial cells are particularly vulnerable, resulting in severe mucosal irritation, inflammation, and violent lower gastroi",
+      "name": "Glycoalkaloids (Solanine and Tomatine)"
     }
   ],
+  "description": "Ripe red tomatoes (Solanum lycopersicum) are not significantly toxic to cats, but green (unripe) tomatoes contain solanine and tomatine — glycoalkaloids found throughout the nightshade family. These compounds decrease as the fruit ripens, which is why ripe tomatoes are generally considered safe in small amounts while all green parts of the tomato plant remain hazardous.",
+  "emergencyNote": "1. Emergency Stabilization (Neurological, Respiratory, and Cardiovascular Support)",
+  "family": "Solanaceae",
+  "isToxic": false,
+  "name": "Green tomatoes",
+  "safetyNotes": [
+    "Avoid: green (unripe) tomatoes and all green parts of the plant — leaves, stems, and vines contain solanine and tomatine",
+    "Ripe red tomato flesh: safe in very small amounts but offers no nutritional benefit to cats",
+    "Symptoms if green parts ingested: drooling, vomiting, diarrhea, lethargy, weakness; severe exposure may cause bradycardia or CNS depression",
+    "Never feed seasoned tomato products — garlic, onion, and salt in sauces or ketchup are toxic to cats",
+    "If your cat chews tomato plant leaves or eats a green tomato, contact your vet"
+  ],
+  "scientific_name": "Green tomatoes",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "Green tomatoes, as well as the leaves and stems of the tomato plant",
       "body_system": "Metabolic",
-      "severity": "moderate",
-      "onset": null,
-      "notes": null
+      "name": "Green tomatoes, as well as the leaves and stems of the tomato plant",
+      "severity": "moderate"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Severe Gastrointestinal Upset",
-      "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "notes": "This is typically the first sign of nightshade poisoning. Solanine is a potent cytotoxin that interacts with the phospholipids in cell membranes, causing direct cell destruction and violent irritation and inflammation of the intestinal epithelial cells1.... A tense abdominal wall and pain upon being",
       "onset": "Usually within 2 to 24 hours of ingestion,",
-      "notes": "This is typically the first sign of nightshade poisoning. Solanine is a potent cytotoxin that interacts with the phospholipids in cell membranes, causing direct cell destruction and violent irritation and inflammation of the intestinal epithelial cells1.... A tense abdominal wall and pain upon being touched are common"
+      "severity": "severe"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Hypersalivation",
-      "body_system": "Gastrointestinal",
-      "severity": "moderate",
+      "notes": "While it can be a reaction to the severe mucosal irritation in the mouth and throat, drooling is primarily driven by the neurotoxic properties of the glycoalkaloids, which overstimulate the parasympathetic nervous system",
       "onset": "2 to 24 hours",
-      "notes": "While it can be a reaction to the severe mucosal irritation in the mouth and throat, drooling is primarily driven by the neurotoxic properties of the glycoalkaloids, which overstimulate the parasympathetic nervous system"
+      "severity": "moderate"
     },
     {
+      "body_system": "Neurological",
       "name": "Neurological Deficits and Paralysis",
-      "body_system": "Neurological",
-      "severity": "fatal",
+      "notes": "Solanine acts as a neurotoxin by inhibiting acetylcholinesterase, an enzyme responsible for breaking down the neurotransmitter acetylcholine. This leads to massive acetylcholine accumulation at the synaptic cleft and parasympathetic overstimulation1.... Additionally, the toxins disrupt mitochondrial",
       "onset": "Usually follows gastrointestinal symptoms,",
-      "notes": "Solanine acts as a neurotoxin by inhibiting acetylcholinesterase, an enzyme responsible for breaking down the neurotransmitter acetylcholine. This leads to massive acetylcholine accumulation at the synaptic cleft and parasympathetic overstimulation1.... Additionally, the toxins disrupt mitochondrial energy metabolism, leading to extreme lethargy, convulsions, and potentially fatal respiratory paralysis"
+      "severity": "fatal"
     },
     {
-      "name": "Cardiovascular Disturbances",
       "body_system": "Cardiac",
-      "severity": "fatal",
+      "name": "Cardiovascular Disturbances",
+      "notes": "The severe parasympathetic overstimulation caused by the accumulation of acetylcholine forces the heart rate to slow dangerously. In critical cases, this progresses to complete circulatory failure and cardiovascular collapse, which can be fatal",
       "onset": "Progressive (2 to 24 hours)",
-      "notes": "The severe parasympathetic overstimulation caused by the accumulation of acetylcholine forces the heart rate to slow dangerously. In critical cases, this progresses to complete circulatory failure and cardiovascular collapse, which can be fatal"
+      "severity": "fatal"
     },
     {
-      "name": "Ocular Changes",
       "body_system": "Neurological",
-      "severity": "severe",
+      "name": "Ocular Changes",
+      "notes": "Dilated pupils are another direct clinical manifestation of the neurotoxicity and autonomic nervous system overstimulation caused by the glycoalkaloids",
       "onset": "2 to 24 hours",
-      "notes": "Dilated pupils are another direct clinical manifestation of the neurotoxicity and autonomic nervous system overstimulation caused by the glycoalkaloids"
+      "severity": "severe"
     },
     {
-      "name": "Hemolysis and Acute Kidney Injury",
       "body_system": "Gastrointestinal",
-      "severity": "fatal",
+      "name": "Hemolysis and Acute Kidney Injury",
+      "notes": "In highly severe cases, solanine toxicity causes the cat's red blood cells to be destroyed (hemolysis)67. The release of free hemoglobin into the bloodstream from the ruptured cells is highly nephrotoxic (toxic to the kidneys) and can secondarily destroy the kidneys, leading to acute renal failure",
       "onset": "Progressive; typically occurs in the later stages of a severe poisoning episode",
-      "notes": "In highly severe cases, solanine toxicity causes the cat's red blood cells to be destroyed (hemolysis)67. The release of free hemoglobin into the bloodstream from the ruptured cells is highly nephrotoxic (toxic to the kidneys) and can secondarily destroy the kidneys, leading to acute renal failure"
+      "severity": "fatal"
     }
   ],
+  "toxicParts": [
+    "Fruit",
+    "Stem",
+    "Leave"
+  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
+      "description": "of the procedure: If the cat presents with advanced symptoms, the veterinary team will immediately administer oxygen supplementation or provide mechanical ventilation to address respiratory depression12. Seizures and convulsions are controlled using anticonvulsant medications such as benzodiazepines or barbiturates13. In critical cases presenting with severe heart rhythm abnormalities or low blood",
       "name": "1. Emergency Stabilization (Neurological, Respiratory, and Cardiovascular Support)",
-      "description": "of the procedure: If the cat presents with advanced symptoms, the veterinary team will immediately administer oxygen supplementation or provide mechanical ventilation to address respiratory depression12. Seizures and convulsions are controlled using anticonvulsant medications such as benzodiazepines or barbiturates13. In critical cases presenting with severe heart rhythm abnormalities or low blood pressure, vasopressors or even defibrillation may be required24.\nAny situation-specific",
       "notes": "This is the absolute highest priority if the cat arrives already exhibiting severe neurological or cardiac signs, because the primary cause of death in fatal solanine poisoning is respiratory paralysis and circulatory failure",
       "priority": 1
     },
     {
+      "description": "of the procedure: If the green tomatoes were ingested very recently (within 1 to 2 hours) and the cat is not yet showing severe symptoms, the veterinarian will administer a specific medication to empty the stomach37. Following emesis, activated charcoal is administered orally (and potentially repeated at 4- to 6-hour intervals) to bind any unabsorbed glycoalkaloids in the gastrointestinal tract an",
       "name": "Early Gastrointestinal Decontamination",
-      "description": "of the procedure: If the green tomatoes were ingested very recently (within 1 to 2 hours) and the cat is not yet showing severe symptoms, the veterinarian will administer a specific medication to empty the stomach37. Following emesis, activated charcoal is administered orally (and potentially repeated at 4- to 6-hour intervals) to bind any unabsorbed glycoalkaloids in the gastrointestinal tract and prevent them from entering the bloodstream1....\nAny situation-specific",
-      "notes": "To induce vomiting safely in cats, veterinarians use specific \u03b1\n2\n\t\u200b\n\n-adrenergic agonists, such as dexmedetomidine or xylazine78. If the cat is already heavily sedated or showing advanced neurological symptoms, inducing vomiting is unsafe; in these cases, the veterinarian will place the cat under anesthesia to perform a gastric lavage (stomach pumping) instead",
+      "notes": "To induce vomiting safely in cats, veterinarians use specific α 2 ​ -adrenergic agonists, such as dexmedetomidine or xylazine78. If the cat is already heavily sedated or showing advanced neurological symptoms, inducing vomiting is unsafe; in these cases, the veterinarian will place the cat under ane",
       "priority": 2
     },
     {
+      "description": "of the procedure: The veterinarian administers the medication atropine to help counteract the specific neurotoxic effects of the glycoalkaloids19. Any situation-specific",
       "name": "Parasympathetic Tone Management",
-      "description": "of the procedure: The veterinarian administers the medication atropine to help counteract the specific neurotoxic effects of the glycoalkaloids19.\nAny situation-specific",
-      "notes": "While there is no true, direct antidote for solanine or tomatine poisoning, these toxins inhibit the enzyme acetylcholinesterase, leading to an overwhelming accumulation of acetylcholine and severe parasympathetic overstimulation5.... Atropine is used specifically to help compensate for and block these dangerous cholinergic symptoms",
+      "notes": "While there is no true, direct antidote for solanine or tomatine poisoning, these toxins inhibit the enzyme acetylcholinesterase, leading to an overwhelming accumulation of acetylcholine and severe parasympathetic overstimulation5.... Atropine is used specifically to help compensate for and block th",
       "priority": 3
     },
     {
+      "description": "of the procedure: The cat is hospitalized and placed on continuous IV fluids to correct the severe dehydration caused by violent vomiting and diarrhea, and to stimulate diuresis (urine production) to flush the toxins from the body13. The veterinary team will closely monitor the cat's blood counts, vital parameters, and kidney function14. Any situation-specific",
       "name": "Intravenous (IV) Fluid Diuresis and Renal Protection",
-      "description": "of the procedure: The cat is hospitalized and placed on continuous IV fluids to correct the severe dehydration caused by violent vomiting and diarrhea, and to stimulate diuresis (urine production) to flush the toxins from the body13. The veterinary team will closely monitor the cat's blood counts, vital parameters, and kidney function14.\nAny situation-specific",
-      "notes": "In severe nightshade poisonings, the solanine toxins can destroy the cat's red blood cells (hemolysis)5. The free hemoglobin released from ruptured cells is highly toxic to the kidneys and can cause acute renal failure511. If hemolysis is detected, the veterinarian must significantly increase the IV fluid infusion rate to ensure adequate renal perfusion and protect the kidneys from sustaining secondary damage",
+      "notes": "In severe nightshade poisonings, the solanine toxins can destroy the cat's red blood cells (hemolysis)5. The free hemoglobin released from ruptured cells is highly toxic to the kidneys and can cause acute renal failure511. If hemolysis is detected, the veterinarian must significantly increase the IV",
       "priority": 4
     }
   ]

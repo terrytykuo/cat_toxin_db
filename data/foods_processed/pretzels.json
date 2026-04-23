@@ -1,89 +1,97 @@
 {
-  "plant": {
-    "common_name": "Pretzels",
-    "scientific_name": "Pretzels",
-    "family": "Various",
-    "description": "Brief Description and Common Forms\nDescription: Pretzels are heavily salted human snack foods1. The sources strongly advise against feeding them to cats, as felines receive all the sodium they need from a balanced commercial cat diet. A cat's body cannot safely handle the massive amounts of salt added to pretzels during manufacturing. Ingesting these snacks can severely disrupt a cat's electrolyte balance and lead to sodium ion poisoning, which causes vomiting, diarrhea, muscle twitching, excessive thirst, and in severe cases, fatal consequences1.\nCommon Forms: In households, pets are most likely to encounter these as bagged salted pretzels (often grouped with salted chips and other processed savory snacks)1."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Seed",
-    "Pit",
-    "Skin"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "Sodium Chloride (Salt)",
       "chemical_formula": "NaCl (Note",
-      "description": "in cats: Pretzels are human snack foods that are heavily coated in salt12. When a cat ingests excess sodium, it severely disrupts their normal water and electrolyte balance1. The excess salt creates a strong osmotic gradient that draws fluid out of the body's cells, leading to severe systemic dehydration and electrolyte derangements13. In the central nervous system, this rapid osmotic shift causes cerebral dehydration; as the brain cells shrink, the brain mass can pull away from the skull, potentially tearing delicate meningeal vessels and triggering intracranial hemorrhages, muscle tremors, seizures, and coma14.\nAny notes on concentration or potency: Cats receive all the sodium they need from a balanced commercial cat diet, and their bodies cannot safely handle the high sodium concentrations found in heavily salted human snacks like pretzels1. The acute oral lethal dose of salt in companion animals (such as dogs) is approximately 4 g/kg, though severe clinical signs of toxicosis can appear after ingesting just 2\u20133 g/kg5. Ingesting these salty snacks can quickly lead to sodium ion poisoning, which can be fatal",
-      "concentration_notes": "or potency: Cats receive all the sodium they need from a balanced commercial cat diet, and their bodies cannot safely handle the high sodium concentrations found in heavily salted human snacks like pretzels1. The acute oral lethal dose of salt in companion animals (such as dogs) is approximately 4 g/kg, though severe clinical signs of toxicosis can appear after ingesting just 2\u20133 g/kg5. Ingesting these salty snacks can quickly lead to sodium ion poisoning, which can be fatal"
+      "concentration_notes": "or potency: Cats receive all the sodium they need from a balanced commercial cat diet, and their bodies cannot safely handle the high sodium concentrations found in heavily salted human snacks like pretzels1. The acute oral lethal dose of salt in companion animals (such as dogs) is approximately 4 g/kg, though severe clinical signs of toxicosis can appear after ingesting just 2–3 g/kg5. Ingesting ",
+      "description": "in cats: Pretzels are human snack foods that are heavily coated in salt12. When a cat ingests excess sodium, it severely disrupts their normal water and electrolyte balance1. The excess salt creates a strong osmotic gradient that draws fluid out of the body's cells, leading to severe systemic dehydration and electrolyte derangements13. In the central nervous system, this rapid osmotic shift causes",
+      "name": "Sodium Chloride (Salt)"
     }
   ],
+  "description": "Pretzels are not acutely toxic to cats but are an inappropriate snack due to their very high sodium content. Even a small amount of salted pretzel contributes a disproportionate sodium load to a cat's diet. High sodium intake causes excessive thirst, increased urination, and with large amounts, salt toxicity affecting the kidneys and nervous system.",
+  "emergencyNote": "Because the primary danger of pretzels for cats is their extremely high salt",
+  "family": "Various",
+  "isToxic": false,
+  "name": "Pretzels",
+  "safetyNotes": [
+    "Sodium hazard: traditional salted pretzels are heavily salted — even a few pieces significantly exceed a cat's safe daily sodium intake",
+    "Symptoms of salt excess: excessive thirst and urination; large amounts cause vomiting, diarrhea, tremors, seizures, kidney damage",
+    "Flavoured pretzels: some contain onion or garlic powder — toxic to cats; always check ingredients",
+    "Plain, unsalted pretzel bread: not toxic but offers no nutritional benefit to cats",
+    "A tiny accidental taste of salted pretzel is not an emergency; keep all salty snacks away from cats"
+  ],
+  "scientific_name": "Pretzels",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "Because pretzels are heavily salted human snacks",
       "body_system": "Metabolic",
-      "severity": "moderate",
-      "onset": null,
-      "notes": null
+      "name": "Because pretzels are heavily salted human snacks",
+      "severity": "moderate"
     },
     {
-      "name": "Gastrointestinal Distress (Vomiting and Diarrhea)",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "name": "Gastrointestinal Distress (Vomiting and Diarrhea)",
+      "notes": "Vomiting is often one of the earliest clinical signs of excess salt intake2. The heavy sodium load severely irritates the gastrointestinal tract and contributes to rapid, severe systemic dehydration",
       "onset": "Within minutes to several hours of ingestion",
-      "notes": "Vomiting is often one of the earliest clinical signs of excess salt intake2. The heavy sodium load severely irritates the gastrointestinal tract and contributes to rapid, severe systemic dehydration"
+      "severity": "severe"
     },
     {
-      "name": "Polydipsia and Polyuria (Excessive Thirst and Urination)",
       "body_system": "Renal",
-      "severity": "severe",
+      "name": "Polydipsia and Polyuria (Excessive Thirst and Urination)",
+      "notes": "The excess salt creates an osmotic gradient that draws fluid out of the body's cells, leading to profound water-seeking behavior and electrolyte derangements14. If left untreated, this severe dehydration can progress to kidney failure",
       "onset": "Within minutes of ingestion",
-      "notes": "The excess salt creates an osmotic gradient that draws fluid out of the body's cells, leading to profound water-seeking behavior and electrolyte derangements14. If left untreated, this severe dehydration can progress to kidney failure"
+      "severity": "severe"
     },
     {
-      "name": "Neuromuscular and Central Nervous Dysfunction",
       "body_system": "Neurological",
-      "severity": "fatal",
+      "name": "Neuromuscular and Central Nervous Dysfunction",
+      "notes": "The rapid shift of fluids out of the cells causes cerebral dehydration (fluid loss in the brain)46. This leads to progressive neurological deterioration, starting with depression and ataxia (weakness), and escalating to muscle tremors, severe seizures, coma, and potentially death",
       "onset": "Within minutes to several hours (often progressing after initial gastrointestinal signs)",
-      "notes": "The rapid shift of fluids out of the cells causes cerebral dehydration (fluid loss in the brain)46. This leads to progressive neurological deterioration, starting with depression and ataxia (weakness), and escalating to muscle tremors, severe seizures, coma, and potentially death"
+      "severity": "fatal"
     },
     {
-      "name": "Cardiopulmonary Distress",
       "body_system": "Cardiac",
-      "severity": "severe",
+      "name": "Cardiopulmonary Distress",
+      "notes": "The massive electrolyte imbalance and systemic stress caused by sodium ion poisoning force the heart and lungs to work harder1. Affected cats may also develop an elevated body temperature (hyperthermia)",
       "onset": "Within minutes to several hours",
-      "notes": "The massive electrolyte imbalance and systemic stress caused by sodium ion poisoning force the heart and lungs to work harder1. Affected cats may also develop an elevated body temperature (hyperthermia)"
+      "severity": "severe"
     }
   ],
+  "toxicParts": [
+    "Seed",
+    "Skin",
+    "Pit"
+  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
-      "name": "Because the primary danger of pretzels for cats is their extremely high salt",
-      "priority": 1,
       "description": null,
-      "notes": null
+      "name": "Because the primary danger of pretzels for cats is their extremely high salt",
+      "notes": null,
+      "priority": 1
     },
     {
+      "description": "of the procedure: If the cat is experiencing seizures, the veterinarian will administer seizure-control agents, such as diazepam5. If cerebral edema (swelling of the brain) is suspected, medications like mannitol, dexamethasone, or dimethyl sulfoxide (DMSO) may be administered to reduce the swelling5. Any situation-specific",
       "name": "Emergency Neurological Management (If the cat presents in a crisis)",
-      "description": "of the procedure: If the cat is experiencing seizures, the veterinarian will administer seizure-control agents, such as diazepam5. If cerebral edema (swelling of the brain) is suspected, medications like mannitol, dexamethasone, or dimethyl sulfoxide (DMSO) may be administered to reduce the swelling5.\nAny situation-specific",
       "notes": "This is an urgent, life-saving intervention. Excess sodium causes rapid fluid shifts that lead to cerebral dehydration and shrinking of the brain cells; treating the resulting severe central nervous system dysfunction (like seizures and coma) is the highest immediate priority",
       "priority": 2
     },
     {
+      "description": "of the procedure: The veterinarian will hospitalize the cat, measure serum sodium concentrations, and administer specific IV fluids (such as a 5% dextrose solution) to gradually dilute the sodium in the blood and restore normal water and electrolyte balance over a period of 2 to 3 days7.... Loop diuretics, such as furosemide, may also be administered to help excrete sodium and prevent fluid from b",
       "name": "Controlled IV Fluid Therapy and Sodium Correction (Primary Medical Treatment)",
-      "description": "of the procedure: The veterinarian will hospitalize the cat, measure serum sodium concentrations, and administer specific IV fluids (such as a 5% dextrose solution) to gradually dilute the sodium in the blood and restore normal water and electrolyte balance over a period of 2 to 3 days7.... Loop diuretics, such as furosemide, may also be administered to help excrete sodium and prevent fluid from backing up into the lungs (pulmonary edema)9.\nAny situation-specific",
       "notes": "It is critical that the serum sodium concentration is lowered slowly, at a recommended rate of 0.5 to 1.0 mEq/L per hour9. If the sodium levels are dropped too quickly, the osmotic gradient reverses, rapidly drawing water into the brain cells and causing severe, potentially fatal cerebral edema",
       "priority": 3
     },
     {
+      "description": "of the procedure: If the ingestion is caught acutely before any clinical signs develop, the immediate removal of the remaining salty food is imperative4. The cat should be allowed access to fresh water in small, frequent amounts and observed closely for several hours34. Any situation-specific",
       "name": "Early Hydration Management and Decontamination (If caught immediately)",
-      "description": "of the procedure: If the ingestion is caught acutely before any clinical signs develop, the immediate removal of the remaining salty food is imperative4. The cat should be allowed access to fresh water in small, frequent amounts and observed closely for several hours34.\nAny situation-specific",
       "notes": "Allowing the cat to drink large, unrestricted amounts of water all at once must be avoided, as rapidly drinking massive amounts of water can actually worsen neurological signs by causing fluid to quickly build up in the brain",
       "priority": 4
     },
     {
+      "description": "of the procedure: The veterinarian may administer antacids and other medications (such as antibiotics) to alleviate gastrointestinal issues7. Any situation-specific",
       "name": "Gastrointestinal Supportive Care",
-      "description": "of the procedure: The veterinarian may administer antacids and other medications (such as antibiotics) to alleviate gastrointestinal issues7.\nAny situation-specific",
       "notes": "Massive amounts of salt act as a direct and severe irritant to the mucosal lining of the stomach and intestines10. Soothing the digestive tract and addressing vomiting and diarrhea is an important supportive measure once the cat's life-threatening systemic imbalances are stabilized",
       "priority": 5
     }

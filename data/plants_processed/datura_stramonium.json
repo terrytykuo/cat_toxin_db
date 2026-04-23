@@ -1,0 +1,88 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": "s of the toxins in Jimson Weed.",
+      "concentration_notes": null,
+      "description": "(Inferred from Symptoms): While the specific physiological mechanism is not described in detail, the clinical signs reported—such as dilated pupils, rapid pulse, and convulsions—indicate that the toxin significantly affects the cardiovascular and central nervous systems, likely causing overstimulation or disruption of normal neurological and cardiac function.",
+      "name": "Toxic Compounds"
+    },
+    {
+      "chemical_formula": null,
+      "concentration_notes": null,
+      "description": null,
+      "name": "Clinical Signs and Toxicity"
+    }
+  ],
+  "description": "Jimson Weed (Datura stramonium), also called Thorn Apple or Devil's Trumpet, is an extremely toxic plant for cats. Every part — leaves, seeds, flowers, and stems — contains potent tropane alkaloids: atropine, scopolamine, and hyoscyamine. These anticholinergic compounds block the parasympathetic nervous system, causing life-threatening systemic effects even from small exposures.",
+  "emergencyNote": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
+  "family": "Solanaceae",
+  "isToxic": true,
+  "name": "Jimson Weed",
+  "safetyNotes": [
+    "Toxic compounds: tropane alkaloids — atropine, scopolamine, hyoscyamine; all parts toxic; spiky seed pods most concentrated",
+    "Mechanism: competitive antagonism of muscarinic acetylcholine receptors, causing full anticholinergic syndrome (dry, fast, hot, blind, mad)",
+    "Symptoms: dilated pupils (mydriasis), dry mouth, rapid heart rate (tachycardia), elevated body temperature, disorientation, agitation, hallucination-like behaviour, seizures, coma",
+    "The seed pods are the most concentrated source and can persist on the ground for months",
+    "Any suspected ingestion is a veterinary emergency — tropane alkaloid poisoning can be rapidly fatal"
+  ],
+  "scientific_name": "Datura stramonium",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Respiratory",
+      "name": "Rapid Breathing (Tachypnea)",
+      "notes": "This is often one of the immediate physiological responses to the toxicity listed alongside cardiac issues.Dilated Pupils",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Dilated Pupils (Mydriasis)",
+      "notes": "This sign indicates the toxin's effect on the nervous system, typically associated with the plant's alkaloid properties (though the specific alkaloids are not named in this source text).Rapid Pulse",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Rapid Pulse (Tachycardia)",
+      "notes": "The plant causes significant cardiovascular stimulation.Neurological Dysfunction (Twitching and Convulsions)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Twitching and Convulsions",
+      "notes": "Neurological signs can escalate from muscle twitching to full convulsions. Without intervention, this can progress to coma and death.Gastrointestinal Upset",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "notes": "While gastrointestinal distress is present, the neurological and cardiac signs are generally the primary cause for concern regarding mortality.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Entire Plant"
+  ],
+  "toxicityLevel": "severe",
+  "treatments": [
+    {
+      "description": "Upon arrival at the clinic, if the ingestion is recent, the veterinarian may administer medication to make the cat vomit, removing the plant material from the stomach. This is often followed by the administration of activated charcoal, which binds to the toxins in the digestive tract to prevent them from being absorbed into the bloodstream.",
+      "name": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
+      "notes": "◦ Do not attempt to induce vomiting at home without specific instructions from a veterinarian, as this can cause complications. ◦ Ingesting any part of the Jimson Weed plant is considered toxic.Symptomatic Care and Monitoring",
+      "priority": 1
+    },
+    {
+      "description": "The veterinary team will monitor the cat's heart rate, respiratory rate, and neurological status. Supportive care may include intravenous (IV) fluids to maintain hydration, support blood pressure, and help flush toxins from the body.",
+      "name": "Vital Sign Monitoring and Supportive Care",
+      "notes": "Jimson Weed ingestion causes specific symptoms that require close observation, including rapid pulse (tachycardia), rapid breathing, dilated pupils, and diarrhea.Management of Neurological and Respiratory Signs",
+      "priority": 2
+    },
+    {
+      "description": "If the cat exhibits severe neurological signs such as twitching or convulsions (seizures), the veterinarian may administer anticonvulsant medications. Oxygen therapy or other respiratory support may be provided if the cat is experiencing difficulty breathing.",
+      "name": "Seizure Control and Respiratory Support",
+      "notes": "Severe cases of Jimson Weed poisoning can lead to coma and death if left untreated. The plant causes significant central nervous system stimulation followed by depression.",
+      "priority": 3
+    }
+  ]
+}

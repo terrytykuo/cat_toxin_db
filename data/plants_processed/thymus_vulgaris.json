@@ -1,0 +1,13 @@
+{
+  "aliases": [
+    "Common Thyme",
+    "Garden Thyme"
+  ],
+  "category": "plant",
+  "description": "Thyme is a low-growing, aromatic herb that is non-toxic to cats. It's hardy, easy to grow, and adds wonderful flavor to your cooking — all while being completely safe if your cat decides to investigate.",
+  "name": "Thyme",
+  "scientific_name": "Thymus vulgaris",
+  "severity": "safe",
+  "symptoms": [],
+  "toxicParts": []
+}

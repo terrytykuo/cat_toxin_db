@@ -1,44 +1,50 @@
 {
-  "plant": {
-    "common_name": "Rosary Pea",
-    "scientific_name": "Abrus precatorius",
-    "family": "Fabaceae",
-    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: It is a climbing or twining vine that features light-sensitive, compound leaves and pale reddish-purple flowers2. It produces distinctive pea-shaped pods that contain three to five red seeds with black spots2.\n\u2022 Habitat and Where Commonly Found: The provided sources do not detail the plant's specific natural outdoor habitat. However, they note that the seeds of the Rosary Pea are commonly found inside homes because they are frequently used in jewelry handicrafts and souvenir gifts"
-  },
-  "basics": {
-    "family": "Fabaceae",
-    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: It is a climbing or twining vine that features light-sensitive, compound leaves and pale reddish-purple flowers2. It produces distinctive pea-shaped pods that contain three to five red seeds with black spots2.\n\u2022 Habitat and Where Commonly Found: The provided sources do not detail the plant's specific natural outdoor habitat. However, they note that the seeds of the Rosary Pea are commonly found inside homes because they are frequently used in jewelry handicrafts and souvenir gifts"
-  },
-  "toxic_parts": [
-    "Seed"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
     {
-      "name": "Abrin (a plant lectin or toxalbumin related to ricin)",
       "chemical_formula": "Not provided in the given sources.",
+      "concentration_notes": "The toxin is only released if the hard seed coat of the Rosary Pea is chewed, crushed, or otherwise broken1. Because the seed coat is so hard, if a cat swallows the seed whole and it remains intact, it is generally considered non-toxic1. If the seed is chewed and the toxin is released, severe cases require veterinary treatment for electrolyte replacement",
       "description": "in cats: Abrin is a highly dangerous toxin that works by inhibiting cellular protein synthesis1. When absorbed, it leads to severe gastrointestinal signs, which can cause significant dehydration and dangerous electrolyte imbalances",
-      "concentration_notes": "The toxin is only released if the hard seed coat of the Rosary Pea is chewed, crushed, or otherwise broken1. Because the seed coat is so hard, if a cat swallows the seed whole and it remains intact, it is generally considered non-toxic1. If the seed is chewed and the toxin is released, severe cases require veterinary treatment for electrolyte replacement"
+      "name": "Abrin (a plant lectin or toxalbumin related to ricin)"
     }
   ],
+  "description": "Rosary Pea (Abrus precatorius), also known as Jequirity Bean, is one of the most acutely toxic plants on earth. Its seeds contain abrin — a ribosome-inactivating protein (RIP) closely related to ricin — that is lethal in nanogram quantities. The hard seed coat usually prevents toxicity if seeds are swallowed whole, but chewed or cracked seeds are life-threatening.",
+  "emergencyNote": "Assessment of Dehydration and Electrolyte Status",
+  "family": "Fabaceae",
+  "isToxic": true,
+  "name": "Rosary Pea",
+  "safetyNotes": [
+    "Toxic compounds: abrin (ribosome-inactivating protein) in seeds; leaves contain abrine alkaloid",
+    "Mechanism: abrin halts protein synthesis in cells by inactivating ribosomes; affected cells die; organs fail progressively",
+    "Symptoms (delayed 2–6h): vomiting, diarrhea, weakness, abdominal pain; severe cases cause multi-organ failure, seizures, and death",
+    "Intact swallowed seeds may pass without harm; cracked or chewed seeds are a medical emergency",
+    "Any suspected abrin exposure is a veterinary emergency — do not wait for symptoms"
+  ],
+  "scientific_name": "Abrus precatorius",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "Gastrointestinal signs (which typically lead to significant dehydration and electrolyte imbalances)",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
-      "onset": "Not specified in the provided sources.",
-      "notes": "Abrin is a plant lectin (toxalbumin) that works by inhibiting cellular protein synthesis1. When absorbed, the resulting gastrointestinal distress can cause severe dehydration and dangerous electrolyte imbalances1. In these severe cases, the cat will require veterinary treatment for fluid and electrolyte replacement"
+      "name": "Gastrointestinal signs (which typically lead to significant dehydration and electrolyte imbalances)",
+      "notes": "Abrin is a plant lectin (toxalbumin) that works by inhibiting cellular protein synthesis1. When absorbed, the resulting gastrointestinal distress can cause severe dehydration and dangerous electrolyte imbalances1. In these severe cases, the cat will require veterinary treatment for fluid and electro",
+      "severity": "severe"
     }
   ],
+  "toxicParts": [
+    "Seed"
+  ],
+  "toxicityLevel": "severe",
   "treatments": [
     {
-      "name": "Assessment of Dehydration and Electrolyte Status",
       "description": "The veterinarian will examine the cat to evaluate the severity of the gastrointestinal signs and determine the extent of any dehydration and electrolyte imbalances",
-      "notes": "This initial assessment is critical because if the cat swallowed the seeds whole without chewing them, it is usually non-toxic and may not require further medical intervention1.\n2. Systemic Supportive Care",
+      "name": "Assessment of Dehydration and Electrolyte Status",
+      "notes": "This initial assessment is critical because if the cat swallowed the seeds whole without chewing them, it is usually non-toxic and may not require further medical intervention1. 2. Systemic Supportive Care",
       "priority": 1
     },
     {
-      "name": "Electrolyte Replacement Treatment",
       "description": "The veterinary team will administer fluids and electrolytes to restore the cat's normal physiological balance and counteract the fluid loss caused by the gastrointestinal symptoms",
+      "name": "Electrolyte Replacement Treatment",
       "notes": "This therapy is specifically indicated and necessary for severe cases where the seed coat was broken, releasing the toxin (abrin) and causing significant illness",
       "priority": 2
     }

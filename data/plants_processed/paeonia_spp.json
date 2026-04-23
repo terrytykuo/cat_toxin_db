@@ -1,0 +1,70 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": "C9H10O3",
+      "concentration_notes": "Concentrated mainly in the roots and bark.",
+      "description": "A phenolic compound that causes gastrointestinal irritation.",
+      "name": "Paeonol"
+    }
+  ],
+  "description": "Peony (Paeonia spp.) is a popular garden perennial and cut flower that is mildly toxic to cats. It contains paeonol, paeoniflorin, and related phenolic compounds throughout its roots, bark, flowers, and leaves. These compounds cause gastrointestinal upset when ingested.",
+  "emergencyNote": "Remove the Hazard and Contact the Vet: Immediately take the cat away from the plant and call your veterinarian for advice. Do not wait for severe symptoms to develop",
+  "family": "Paeoniaceae",
+  "isToxic": true,
+  "name": "Peony",
+  "safetyNotes": [
+    "Toxic compounds: paeonol and paeoniflorin (phenolic compounds); roots contain the highest concentration",
+    "Mechanism: paeonol and paeoniflorin irritate the GI mucosa; high doses may have mild CNS effects",
+    "Symptoms: vomiting, diarrhea, drooling; typically mild and self-limiting",
+    "All parts are mildly toxic, though the root is most concentrated; cut peony flowers in a vase are also a risk",
+    "Symptoms are usually mild; consult your vet if symptoms are severe or persistent"
+  ],
+  "scientific_name": "Paeonia spp.",
+  "severity": "safe",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Depression",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Bark",
+    "Flower",
+    "Seed"
+  ],
+  "toxicityLevel": "mild",
+  "treatments": [
+    {
+      "description": null,
+      "name": "Remove the Hazard and Contact the Vet: Immediately take the cat away from the plant and call your veterinarian for advice. Do not wait for severe symptoms to develop",
+      "notes": null,
+      "priority": 1
+    },
+    {
+      "description": null,
+      "name": "Do Not Induce Vomiting: Do not attempt to make your cat sick at home unless explicitly instructed to do so by a professional, as it may not be helpful and can sometimes cause further harm",
+      "notes": null,
+      "priority": 2
+    },
+    {
+      "description": null,
+      "name": "Collect Samples: If possible, take a sample of the plant—and a sample of the cat's vomit, if they have thrown up—to the veterinary clinic to help with the diagnosis",
+      "notes": null,
+      "priority": 3
+    }
+  ]
+}

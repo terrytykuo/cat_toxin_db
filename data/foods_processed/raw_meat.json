@@ -1,108 +1,117 @@
 {
-  "plant": {
-    "common_name": "Raw meat",
-    "scientific_name": "Raw meat",
-    "family": "Various",
-    "description": "Botanical Family: Because it is an animal product, it does not belong to a botanical family.\n2. Brief Description and Common Forms\nDescription: Raw meat consists of the uncooked flesh, muscles, and internal organs of animals1.... While it is a primary source of protein for obligate carnivores, in its uncooked state it poses significant biological hazards. Raw meat carries a high risk of contamination with live foodborne pathogens, including Salmonella, E. coli, Campylobacter, and Listeria, as well as dangerous parasites like Toxoplasma gondii2.... Additionally, recent microbiological studies highlight that raw meat diets act as a major reservoir for bacteria harboring antimicrobial resistance genes (ARGs), posing a severe cross-contamination risk78.\nCommon Forms: In both human culinary and pet-feeding environments, raw meat is commonly encountered as fresh, uncooked poultry (such as chicken, turkey, and duck)15 or fresh mammalian meat (such as beef, pork, lamb, rabbit, and deer)1. In commercial pet food spaces, it is frequently prepared and sold as frozen raw diets, refrigerated raw p\u00e2t\u00e9s, or shelf-stable freeze-dried raw treats and raw-coated kibbles3...."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Cooked form",
-    "Raw form",
-    "Powder",
-    "Flesh"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "Foodborne Pathogenic Bacteria",
       "chemical_formula": null,
-      "description": "in cats: Ingesting raw meat exposes the cat directly to live bacterial pathogens. These organisms infect and severely irritate the gastrointestinal tract, causing severe gastrointestinal distress, vomiting, diarrhea, abdominal pain, and lethargy1.... Furthermore, specific pathogens like Mycobacterium bovis (a member of the tuberculosis complex) can cause severe systemic and highly communicable infections in cats consuming contaminated raw diets24.\nAny notes on concentration or potency: The risk of live bacterial contamination is extremely high in raw, uncooked meats, as well as commercial frozen or freeze-dried raw pet foods2.... Thoroughly cooking the meat kills these harmful bacteria, neutralizing the biological threat",
-      "concentration_notes": "or potency: The risk of live bacterial contamination is extremely high in raw, uncooked meats, as well as commercial frozen or freeze-dried raw pet foods2.... Thoroughly cooking the meat kills these harmful bacteria, neutralizing the biological threat"
+      "concentration_notes": "or potency: The risk of live bacterial contamination is extremely high in raw, uncooked meats, as well as commercial frozen or freeze-dried raw pet foods2.... Thoroughly cooking the meat kills these harmful bacteria, neutralizing the biological threat",
+      "description": "in cats: Ingesting raw meat exposes the cat directly to live bacterial pathogens. These organisms infect and severely irritate the gastrointestinal tract, causing severe gastrointestinal distress, vomiting, diarrhea, abdominal pain, and lethargy1.... Furthermore, specific pathogens like Mycobacterium bovis (a member of the tuberculosis complex) can cause severe systemic and highly communicable inf",
+      "name": "Foodborne Pathogenic Bacteria"
     },
     {
-      "name": "Dangerous Parasites and Protozoa",
       "chemical_formula": null,
-      "description": "in cats: Many of these parasites rely on predator-prey interactions to persist8. When a cat consumes raw meat, it ingests the cysts or larvae present in the animal tissue. The parasites then colonize the cat's digestive tract and systemic tissues, leading to parasitic infection28. This not only causes disease in the feline but also makes the cat a vector for shedding the parasites into the environment, presenting a major zoonotic hazard to humans89.\nAny notes on concentration or potency: Pet animals encounter these parasitic species much more frequently in raw feed than in conventionally processed feed89. Cooking meat thoroughly destroys the viability of these organisms.",
-      "concentration_notes": "or potency: Pet animals encounter these parasitic species much more frequently in raw feed than in conventionally processed feed89. Cooking meat thoroughly destroys the viability of these organisms."
+      "concentration_notes": "or potency: Pet animals encounter these parasitic species much more frequently in raw feed than in conventionally processed feed89. Cooking meat thoroughly destroys the viability of these organisms.",
+      "description": "in cats: Many of these parasites rely on predator-prey interactions to persist8. When a cat consumes raw meat, it ingests the cysts or larvae present in the animal tissue. The parasites then colonize the cat's digestive tract and systemic tissues, leading to parasitic infection28. This not only causes disease in the feline but also makes the cat a vector for shedding the parasites into the environ",
+      "name": "Dangerous Parasites and Protozoa"
     },
     {
-      "name": "Antimicrobial Resistance Genes (ARGs) and Superbugs",
       "chemical_formula": null,
-      "description": "in cats: While not acting as direct chemical poisons, ARGs pose a severe biological threat. When a cat consumes raw meat carrying these resistant bacteria, the ARGs can be transferred to the cat's normal gut microbiota via horizontal gene transfer9.... This transforms the cat's digestive tract into a reservoir for multidrug-resistant bacteria, severely compromising the ability to treat future infections in the cat and posing a major health risk to human household members1112.\nAny notes on concentration or potency: High loads of ARGs and multidrug efflux pumps are detected in frozen and freeze-dried raw commercial pet foods",
-      "concentration_notes": "or potency: High loads of ARGs and multidrug efflux pumps are detected in frozen and freeze-dried raw commercial pet foods"
+      "concentration_notes": "or potency: High loads of ARGs and multidrug efflux pumps are detected in frozen and freeze-dried raw commercial pet foods",
+      "description": "in cats: While not acting as direct chemical poisons, ARGs pose a severe biological threat. When a cat consumes raw meat carrying these resistant bacteria, the ARGs can be transferred to the cat's normal gut microbiota via horizontal gene transfer9.... This transforms the cat's digestive tract into a reservoir for multidrug-resistant bacteria, severely compromising the ability to treat future infe",
+      "name": "Antimicrobial Resistance Genes (ARGs) and Superbugs"
     },
     {
-      "name": "Animal Fat / Fat Trimmings",
       "chemical_formula": null,
-      "description": "in cats: While cats efficiently process fat for energy, eating raw fatty meat trimmings can overwhelm their digestive system. The sudden influx of excessive fat severely irritates the digestive tract and can trigger an inflammatory cascade that results in acute pancreatitis (a painful, potentially life-threatening inflammation of the pancreas) alongside vomiting and diarrhea1....\nAny notes on concentration or potency: The toxicity here is strictly dependent on the concentration of the fat in the specific meat cut; heavy fat trimmings are highly dangerous and should be completely avoided",
-      "concentration_notes": "or potency: The toxicity here is strictly dependent on the concentration of the fat in the specific meat cut; heavy fat trimmings are highly dangerous and should be completely avoided"
+      "concentration_notes": "or potency: The toxicity here is strictly dependent on the concentration of the fat in the specific meat cut; heavy fat trimmings are highly dangerous and should be completely avoided",
+      "description": "in cats: While cats efficiently process fat for energy, eating raw fatty meat trimmings can overwhelm their digestive system. The sudden influx of excessive fat severely irritates the digestive tract and can trigger an inflammatory cascade that results in acute pancreatitis (a painful, potentially life-threatening inflammation of the pancreas) alongside vomiting and diarrhea1.... Any notes on conc",
+      "name": "Animal Fat / Fat Trimmings"
     }
   ],
+  "description": "Raw meat is not toxic to cats per se — cats are obligate carnivores and their digestive systems evolved to handle raw protein. However, commercially available raw meat carries risks from bacterial contamination and, depending on the source, potential parasites. The safety concern is primarily hygiene and contamination, not inherent chemical toxicity.",
+  "emergencyNote": "Because raw meat poses a combination of biological and physical hazards—rather than a single chemical toxin—there is no specific antidote. Veterinary treatment focuses on addressing the specific compl",
+  "family": "Various",
+  "isToxic": false,
+  "name": "Raw meat",
+  "safetyNotes": [
+    "Bacterial risk: raw meat (especially chicken, pork, and ground beef) frequently contains Salmonella, Campylobacter, E. coli, or Listeria — can cause vomiting, diarrhea, and systemic illness",
+    "Parasitic risk: raw pork and wild game may contain Toxoplasma or Trichinella; raw salmon may carry salmon poisoning disease (Neorickettsia)",
+    "Bone risk: cooked bones are dangerous (brittle, splintering); raw bones are generally safer but large fragments can still cause intestinal injury",
+    "Seasoned raw meat: any marinade with garlic, onion, salt, or spices is toxic to cats",
+    "If feeding raw meat, use commercial raw diets formulated for cats to minimise contamination risk"
+  ],
+  "scientific_name": "Raw meat",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "1. Vomiting, Diarrhea, and Abdominal Pain",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "name": "Vomiting, Diarrhea, and Abdominal Pain",
+      "notes": "These symptoms are primarily caused by foodborne pathogens such as Salmonella, E. coli, and Campylobacter, which frequently contaminate raw meat1.... Additionally, if the raw meat includes heavy fat trimmings, the excessive fat can severely irritate the digestive tract and trigger acute pancreatitis",
       "onset": "Variable/Acute (typically within hours to a few days depending on the pathogen's incubation period)",
-      "notes": "These symptoms are primarily caused by foodborne pathogens such as Salmonella, E. coli, and Campylobacter, which frequently contaminate raw meat1.... Additionally, if the raw meat includes heavy fat trimmings, the excessive fat can severely irritate the digestive tract and trigger acute pancreatitis, a painful and potentially life-threatening inflammation of the pancreas"
+      "severity": "severe"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Gastrointestinal Obstruction or Laceration",
-      "body_system": "Gastrointestinal",
-      "severity": "fatal",
+      "notes": "Raw meat diets often include whole or chopped bones. Ingesting bones poses a significant choking hazard, and the bones can splinter to either block the intestinal tract or cause severe lacerations and perforations of the gastrointestinal tissues",
       "onset": "Immediate to acute (within hours of ingestion).",
-      "notes": "Raw meat diets often include whole or chopped bones. Ingesting bones poses a significant choking hazard, and the bones can splinter to either block the intestinal tract or cause severe lacerations and perforations of the gastrointestinal tissues"
+      "severity": "fatal"
     },
     {
-      "name": "Vitamin A Toxicity (Hypervitaminosis A)",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "name": "Vitamin A Toxicity (Hypervitaminosis A)",
+      "notes": "This specific toxicity occurs if a cat is fed a diet rich in raw liver. Chronic consumption of raw liver leads to an overdose of Vitamin A, resulting in a poor coat, constipation, weight loss, painful movements, and excessive/abnormal bone development. If fed to a pregnant cat, it can also harm the",
       "onset": "Chronic (develops over several weeks to months of repeated consumption)",
-      "notes": "This specific toxicity occurs if a cat is fed a diet rich in raw liver. Chronic consumption of raw liver leads to an overdose of Vitamin A, resulting in a poor coat, constipation, weight loss, painful movements, and excessive/abnormal bone development. If fed to a pregnant cat, it can also harm the fetuses"
+      "severity": "severe"
     },
     {
-      "name": "Severe Systemic and Zoonotic Infections",
       "body_system": "Respiratory",
-      "severity": "fatal",
+      "name": "Severe Systemic and Zoonotic Infections",
+      "notes": "Beyond standard food poisoning bacteria, raw meat can harbor dangerous parasites like Toxoplasma gondii and severe bacterial infections like Mycobacterium bovis (a member of the tuberculosis complex)89. A cluster of M. bovis cases in the UK was directly linked to indoor cats consuming commercial fro",
       "onset": "Delayed (days to weeks as the infection incubates and spreads systemically).",
-      "notes": "Beyond standard food poisoning bacteria, raw meat can harbor dangerous parasites like Toxoplasma gondii and severe bacterial infections like Mycobacterium bovis (a member of the tuberculosis complex)89. A cluster of M. bovis cases in the UK was directly linked to indoor cats consuming commercial frozen raw pet food8. These infections can be highly communicable and pose a severe zoonotic health risk to human household members"
+      "severity": "fatal"
     }
   ],
+  "toxicParts": [
+    "Raw form",
+    "Flesh",
+    "Powder"
+  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
-      "name": "Because raw meat poses a combination of biological and physical hazards\u2014rather than a single chemical toxin\u2014there is no specific antidote. Veterinary treatment focuses on addressing the specific compl",
-      "priority": 1,
       "description": null,
-      "notes": null
+      "name": "Because raw meat poses a combination of biological and physical hazards—rather than a single chemical toxin—there is no specific antidote. Veterinary treatment focuses on addressing the specific compl",
+      "notes": null,
+      "priority": 1
     },
     {
+      "description": "of the procedure: A veterinarian uses an endoscope or performs abdominal surgery to locate and safely remove obstructing or perforating materials from the cat's digestive tract. Any situation-specific",
       "name": "Emergency Surgical Intervention or Endoscopy",
-      "description": "of the procedure: A veterinarian uses an endoscope or performs abdominal surgery to locate and safely remove obstructing or perforating materials from the cat's digestive tract.\nAny situation-specific",
       "notes": "This is the most urgent priority if the raw meat contained bones. Bones pose a severe risk of choking, and can easily splinter to cause life-threatening blockages or internal lacerations in the stomach and intestines",
       "priority": 2
     },
     {
+      "description": "of the procedure: The cat is hospitalized and placed on a continuous intravenous drip to restore systemic hydration, correct electrolyte imbalances, and maintain blood pressure and organ perfusion45. Any situation-specific",
       "name": "Intravenous (IV) Fluid Therapy and Monitoring",
-      "description": "of the procedure: The cat is hospitalized and placed on a continuous intravenous drip to restore systemic hydration, correct electrolyte imbalances, and maintain blood pressure and organ perfusion45.\nAny situation-specific",
       "notes": "This is a critical supportive measure if the cat develops severe vomiting and diarrhea from foodborne pathogens (like Salmonella or E. coli) or acute pancreatitis triggered by heavy animal fat trimmings",
       "priority": 3
     },
     {
+      "description": "of the procedure: The veterinarian administers prescription medications to halt vomiting and nausea (such as maropitant) alongside targeted pain relief (such as opioid medications like buprenorphine)5. Any situation-specific",
       "name": "Anti-Nausea and Pain Management",
-      "description": "of the procedure: The veterinarian administers prescription medications to halt vomiting and nausea (such as maropitant) alongside targeted pain relief (such as opioid medications like buprenorphine)5.\nAny situation-specific",
       "notes": "Raw meat and its associated fat trimmings can trigger pancreatitis, which is highly painful and causes severe nausea. Controlling the cat's pain and nausea is essential not only for comfort but to encourage the cat to start eating again",
       "priority": 4
     },
     {
+      "description": "of the procedure: Reintroducing a highly digestible, fully cooked diet as soon as possible. If the cat refuses to eat despite anti-nausea medications, the veterinarian may use appetite stimulants or surgically place a temporary feeding tube to deliver nutrients directly into the stomach89. Any situation-specific",
       "name": "Early Nutritional Support",
-      "description": "of the procedure: Reintroducing a highly digestible, fully cooked diet as soon as possible. If the cat refuses to eat despite anti-nausea medications, the veterinarian may use appetite stimulants or surgically place a temporary feeding tube to deliver nutrients directly into the stomach89.\nAny situation-specific",
       "notes": "Cats are not biologically adapted to use fat as an energy source during periods of starvation. If a cat stops eating due to gastrointestinal illness from raw meat, they can rapidly develop a secondary, life-threatening liver condition called hepatic lipidosis (fatty liver disease)",
       "priority": 5
     },
     {
+      "description": "of the procedure: Administering specific veterinary antibiotics to combat bacterial infections11. Any situation-specific",
       "name": "Antimicrobial Therapy",
-      "description": "of the procedure: Administering specific veterinary antibiotics to combat bacterial infections11.\nAny situation-specific",
-      "notes": "Raw meat is frequently contaminated with dangerous, live bacterial pathogens (such as Salmonella, E. coli, Campylobacter, and Listeria) and parasites17. While mild gastrointestinal upset may resolve with basic supportive care, severe or systemic bacterial infections caused by raw meat require targeted antibiotic therapy",
+      "notes": "Raw meat is frequently contaminated with dangerous, live bacterial pathogens (such as Salmonella, E. coli, Campylobacter, and Listeria) and parasites17. While mild gastrointestinal upset may resolve with basic supportive care, severe or systemic bacterial infections caused by raw meat require target",
       "priority": 6
     }
   ]

@@ -1,41 +1,48 @@
 {
-  "plant": {
-    "common_name": "Cobra Lily",
-    "scientific_name": "Darlingtonia californica",
-    "family": "Sarraceniaceae",
-    "description": "Carnivorous pitcher plant native to Northern California and Oregon, resembling a cobra."
-  },
-  "basics": {},
-  "toxic_parts": [
-    "Leaf"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
     {
-      "name": "Mechanical Irritant",
       "chemical_formula": null,
+      "concentration_notes": "Non-toxic.",
       "description": "Plant pitcher structure may cause mild mechanical irritation if ingested.",
-      "concentration_notes": "Non-toxic."
+      "name": "Mechanical Irritant"
     }
   ],
+  "description": "Cobra Lily (Darlingtonia californica) is a carnivorous pitcher plant native to boggy areas of Northern California and Oregon. Named for its hooded, cobra-like appearance, it traps insects in fluid-filled pitchers. Cobra Lily is not significantly toxic to cats — the digestive enzymes inside the pitchers are not harmful if a cat touches or licks the plant. The main concern is physical: the pitcher liquid is stagnant and bacteria-laden, and cats curious enough to drink from the pitchers may experience mild stomach upset.",
+  "emergencyNote": "Confirmation of Species (Rule Out True Lily)",
+  "family": "Sarraceniaceae",
+  "isToxic": false,
+  "name": "Cobra Lily",
+  "safetyNotes": [
+    "Risk level: Low. Not documented as causing significant toxicity in cats.",
+    "Physical concern: The trapped insect liquid inside pitchers may cause mild GI upset if ingested; the pointed hood tip can cause minor scratches.",
+    "Action: Monitor for vomiting or diarrhea if the cat has interacted closely with the plant. Veterinary attention is rarely needed."
+  ],
+  "scientific_name": "Darlingtonia californica",
+  "severity": "safe",
   "symptoms": [
     {
-      "name": "Mild Gastrointestinal Upset",
-      "severity": "mild",
       "body_system": "Gastrointestinal",
-      "onset": null
+      "name": "Mild Gastrointestinal Upset",
+      "severity": "mild"
     }
   ],
+  "toxicParts": [
+    "Leaf"
+  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
-      "name": "Confirmation of Species (Rule Out True Lily)",
       "description": "The veterinarian or pet owner must positively identify the plant as Darlingtonia californica. This distinguishes it from True Lilies (like Tiger, Easter, or Daylilies), which cause fatal acute kidney failure.",
-      "notes": "This is the most critical step. If there is any doubt about the plant's identity, or if it could be a True Lily, the cat must be treated immediately for kidney failure (aggressive fluid therapy and decontamination). However, confirmed Cobra Lilies do not pose this risk.Clinical Monitoring (Home Observation)",
+      "name": "Confirmation of Species (Rule Out True Lily)",
+      "notes": "This is the most critical step. If there is any doubt about the plant's identity, or if it could be a True Lily, the cat must be treated immediately for kidney failure (aggressive fluid therapy and decontamination). However, confirmed Cobra Lilies do not pose this risk.Clinical Monitoring (Home Obse",
       "priority": 1
     },
     {
-      "name": "Observation for Mild Gastrointestinal Upset",
       "description": "Monitor the cat at home for minor signs of stomach upset, such as temporary vomiting or diarrhea, which can occur after eating any plant material due to indigestible fiber.",
-      "notes": "The Cobra Lily (also known as the California Pitcher Plant) appears on lists of plants non-toxic to cats. Unlike other \"imposter lilies\" (like Peace or Calla lilies) which contain irritating calcium oxalate crystals, the Cobra Lily is not listed among the oxalate-containing plants in the provided veterinary texts. Medical intervention is rarely needed unless the cat vomits persistently or shows signs of choking.",
+      "name": "Observation for Mild Gastrointestinal Upset",
+      "notes": "The Cobra Lily (also known as the California Pitcher Plant) appears on lists of plants non-toxic to cats. Unlike other \"imposter lilies\" (like Peace or Calla lilies) which contain irritating calcium oxalate crystals, the Cobra Lily is not listed among the oxalate-containing plants in the provided ve",
       "priority": 2
     }
   ]

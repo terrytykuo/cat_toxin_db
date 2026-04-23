@@ -1,117 +1,116 @@
 {
-  "plant": {
-    "common_name": "Apricots",
-    "scientific_name": "Apricots",
-    "family": "Rosaceae",
-    "description": "Brief Description and Common Forms\nDescription: Apricots are fleshy fruits that contain a hard central stone, pit, or seed (often referred to as a kernel)56. While the fleshy part of the apricot is entirely safe for normal consumption, the seed found inside the hard stone naturally contains high concentrations of a cyanogenic glycoside called amygdalin36. This compound acts as a natural defense system for the plant and releases toxic cyanide when digested1.\nCommon Forms: Apricots are commonly consumed as fresh whole fruits6. Additionally, raw apricot kernels (the seeds obtained by cracking open the hard stone shell) are commercially sold, frequently marketed over the internet as alternative health supplements or \"cancer-fighting\" foods, despite posing a severe risk of cyanide poisoning6...."
-  },
-  "sources": [],
-  "toxic_parts": [
-    "Seed",
-    "Pit",
-    "Fruit",
-    "Flesh"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
     {
-      "name": "Amygdalin (and its toxic metabolite, Hydrogen Cyanide)",
       "chemical_formula": "The chemical formula for amygdalin is C",
+      "concentration_notes": null,
       "description": null,
-      "concentration_notes": null
+      "name": "Amygdalin (and its toxic metabolite, Hydrogen Cyanide)"
     },
     {
-      "name": "The chemical formula for hydrogen cyanide is HCN",
       "chemical_formula": "for hydrogen cyanide is HCN45.",
-      "description": "in cats: Amygdalin acts as a precursor to a deadly poison1. When a cat chews or crushes the seed (kernel) found inside an apricot pit, the damaged plant tissue mixes the amygdalin with \u03b2-glucosidase enzymes, which are also present in the cat's intestinal microbiota2. These enzymes hydrolyze the amygdalin, rapidly releasing highly toxic hydrogen cyanide (HCN) into the cat's bloodstream2. Cyanide is a potent inhibitor that binds to the active site of cytochrome c oxidase, a vital enzyme containing ferric ions located in the mitochondrial electron transport chain26. This binding completely halts cellular oxygen metabolism and stops cellular ATP (energy) production2. This systemic suffocation leads to rapid cellular death, catastrophically striking vital, high-oxygen-demand organs like the brain and the heart first2.\nAny notes on concentration or potency: Apricot kernels (seeds) naturally contain exceptionally high concentrations of amygdalin, measuring roughly 14 g/kg7. This gives apricot kernels a remarkably high cyanogenic potential, capable of yielding about 785 mg of hydrogen cyanide per kilogram of plant material5. The hydrogen cyanide released from this compound is extremely potent and lethal; the fatal oral dose is generally estimated to be between 0.5 and 3.5 mg/kg of body weight",
-      "concentration_notes": "or potency: Apricot kernels (seeds) naturally contain exceptionally high concentrations of amygdalin, measuring roughly 14 g/kg7. This gives apricot kernels a remarkably high cyanogenic potential, capable of yielding about 785 mg of hydrogen cyanide per kilogram of plant material5. The hydrogen cyanide released from this compound is extremely potent and lethal; the fatal oral dose is generally estimated to be between 0.5 and 3.5 mg/kg of body weight"
+      "concentration_notes": "or potency: Apricot kernels (seeds) naturally contain exceptionally high concentrations of amygdalin, measuring roughly 14 g/kg7. This gives apricot kernels a remarkably high cyanogenic potential, capable of yielding about 785 mg of hydrogen cyanide per kilogram of plant material5. The hydrogen cyanide released from this compound is extremely potent and lethal; the fatal oral dose is generally est",
+      "description": "in cats: Amygdalin acts as a precursor to a deadly poison1. When a cat chews or crushes the seed (kernel) found inside an apricot pit, the damaged plant tissue mixes the amygdalin with β-glucosidase enzymes, which are also present in the cat's intestinal microbiota2. These enzymes hydrolyze the amygdalin, rapidly releasing highly toxic hydrogen cyanide (HCN) into the cat's bloodstream2. Cyanide is",
+      "name": "The chemical formula for hydrogen cyanide is HCN"
     }
   ],
+  "description": "Apricots are fleshy fruits that contain a hard central stone, pit, or seed (often referred to as a kernel). While the fleshy part of the apricot is entirely safe for normal consumption, the seed found inside the hard stone naturally contains high concentrations of a cyanogenic glycoside called amygdalin. This compound acts as a natural defense system for the plant and releases toxic cyanide when digested.\n• Common Forms: Apricots are commonly consumed as fresh whole fruits.",
+  "emergencyNote": "While the fleshy part of an apricot is safe for cats, the pits",
+  "family": "Rosaceae",
+  "name": "Apricots",
+  "scientific_name": "Apricots",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "The symptoms a cat shows after ingesting or being exposed to apricots depend heavily on the part of the fruit consumed. While the fleshy part is gener",
       "body_system": "Metabolic",
-      "severity": "moderate",
-      "onset": null,
-      "notes": null
+      "name": "The symptoms a cat shows after ingesting or being exposed to apricots depend heavily on the part of the fruit consumed. While the fleshy part is gener",
+      "severity": "moderate"
     },
     {
-      "name": "Difficulty Breathing and Hyperventilation",
       "body_system": "Respiratory",
-      "severity": "fatal",
+      "name": "Difficulty Breathing and Hyperventilation",
+      "notes": "The hydrogen cyanide released from a crushed apricot pit binds to cellular enzymes and completely halts cellular oxygen metabolism2. This tissue suffocation forces the cat to hyperventilate as the body struggles to utilize oxygen",
       "onset": "Rapid onset (often within minutes to a few hours).",
-      "notes": "The hydrogen cyanide released from a crushed apricot pit binds to cellular enzymes and completely halts cellular oxygen metabolism2. This tissue suffocation forces the cat to hyperventilate as the body struggles to utilize oxygen"
+      "severity": "fatal"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Vomiting, Diarrhea, and Abdominal Pain",
-      "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "notes": "These gastrointestinal signs can occur as an initial systemic reaction to cyanide toxicity, or from the physical irritation of the plant material passing through the digestive tract",
       "onset": "Shortly after ingestion (often within 30 minutes to a few hours).",
-      "notes": "These gastrointestinal signs can occur as an initial systemic reaction to cyanide toxicity, or from the physical irritation of the plant material passing through the digestive tract"
+      "severity": "severe"
     },
     {
-      "name": "Trouble Walking, Dizziness, and Seizures",
       "body_system": "Neurological",
-      "severity": "fatal",
+      "name": "Trouble Walking, Dizziness, and Seizures",
+      "notes": "The brain is a high-oxygen-demand organ2. The sudden halt in cellular ATP (energy) production caused by cyanide poisoning quickly damages nerves, leading to profound neurological distress, dizziness, an inability to walk properly, and seizures",
       "onset": "Rapid onset.",
-      "notes": "The brain is a high-oxygen-demand organ2. The sudden halt in cellular ATP (energy) production caused by cyanide poisoning quickly damages nerves, leading to profound neurological distress, dizziness, an inability to walk properly, and seizures"
+      "severity": "fatal"
     },
     {
+      "body_system": "Gastrointestinal",
       "name": "Systemic Shock and Coma",
-      "body_system": "Gastrointestinal",
-      "severity": "fatal",
+      "notes": "Because cyanide rapidly starves vital organs like the heart and brain of energy, it results in falling blood pressure, loss of consciousness, coma, and ultimately death if left untreated",
       "onset": "Rapidly following initial respiratory distress and neurological signs.",
-      "notes": "Because cyanide rapidly starves vital organs like the heart and brain of energy, it results in falling blood pressure, loss of consciousness, coma, and ultimately death if left untreated"
+      "severity": "fatal"
     },
     {
-      "name": "Cherry-Red Skin or Mucous Membranes",
       "body_system": "Hematological",
-      "severity": "severe",
+      "name": "Cherry-Red Skin or Mucous Membranes",
+      "notes": "A clinical hallmark of cyanide poisoning is that it blocks the body's cells from extracting and utilizing oxygen from the bloodstream2. Because the venous blood remains fully oxygenated, the cat's skin, gums, and mucous membranes can turn an abnormally bright, cherry-red color",
       "onset": "Rapid onset.",
-      "notes": "A clinical hallmark of cyanide poisoning is that it blocks the body's cells from extracting and utilizing oxygen from the bloodstream2. Because the venous blood remains fully oxygenated, the cat's skin, gums, and mucous membranes can turn an abnormally bright, cherry-red color"
+      "severity": "severe"
     },
     {
-      "name": "Gastrointestinal Obstruction (Physical Hazard)",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "name": "Gastrointestinal Obstruction (Physical Hazard)",
+      "notes": "While crushed apricot seeds release chemical cyanide, swallowing the hard, intact apricot pit presents a major mechanical hazard. The stone is difficult to digest and can easily become lodged in the cat's intestinal tract, causing a dangerous obstruction that requires physical or surgical removal. (",
       "onset": "Variable (can take hours to days for severe abdominal pain, lethargy,",
-      "notes": "While crushed apricot seeds release chemical cyanide, swallowing the hard, intact apricot pit presents a major mechanical hazard. The stone is difficult to digest and can easily become lodged in the cat's intestinal tract, causing a dangerous obstruction that requires physical or surgical removal. (Note: This specific physical obstruction mechanism is derived from our established conversation history regarding stone fruits)."
+      "severity": "severe"
     }
+  ],
+  "toxicParts": [
+    "Flesh",
+    "Fruit",
+    "Pit",
+    "Seed"
   ],
   "treatments": [
     {
-      "name": "While the fleshy part of an apricot is safe for cats, the pits",
-      "priority": 1,
       "description": null,
-      "notes": null
+      "name": "While the fleshy part of an apricot is safe for cats, the pits",
+      "notes": null,
+      "priority": 1
     },
     {
+      "description": "of the procedure: Placing the cat in an oxygen cage or providing flow-by oxygen to maximize the amount of oxygen available in the bloodstream2. Any situation-specific",
       "name": "Supplemental Oxygen Therapy (Life-Saving Stabilization)",
-      "description": "of the procedure: Placing the cat in an oxygen cage or providing flow-by oxygen to maximize the amount of oxygen available in the bloodstream2.\nAny situation-specific",
-      "notes": "This is an absolute critical priority for a symptomatic cat. The cyanide released by crushed apricot seeds is a potent inhibitor of cytochrome c oxidase, which completely halts cellular ATP (energy) production and causes rapid cell death1. Because the toxin prevents cells from utilizing oxygen, aggressive oxygen therapy is strictly required to combat this systemic suffocation",
+      "notes": "This is an absolute critical priority for a symptomatic cat. The cyanide released by crushed apricot seeds is a potent inhibitor of cytochrome c oxidase, which completely halts cellular ATP (energy) production and causes rapid cell death1. Because the toxin prevents cells from utilizing oxygen, aggr",
       "priority": 2
     },
     {
+      "description": "of the procedure: A veterinarian administers an α 2 ​ -adrenergic agonist, such as dexmedetomidine, to safely force the cat to vomit and expel the apricot pit or plant material from the stomach3. Any situation-specific",
       "name": "Induction of Emesis (Early Gastrointestinal Decontamination)",
-      "description": "of the procedure: A veterinarian administers an \u03b1\n2\n\t\u200b\n\n-adrenergic agonist, such as dexmedetomidine, to safely force the cat to vomit and expel the apricot pit or plant material from the stomach3.\nAny situation-specific",
-      "notes": "This intervention is the primary goal if the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic3. Pet owners must never attempt to use hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated for cats and can cause fatal hemorrhagic gastritis",
+      "notes": "This intervention is the primary goal if the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic3. Pet owners must never attempt to use hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated for cats and can cause fatal hemorrhagic gastriti",
       "priority": 3
     },
     {
+      "description": "of the procedure: Administering oral activated charcoal to bind to and adsorb any residual toxins remaining in the stomach and gastrointestinal tract3. Any situation-specific",
       "name": "Administration of Activated Charcoal (Secondary Decontamination)",
-      "description": "of the procedure: Administering oral activated charcoal to bind to and adsorb any residual toxins remaining in the stomach and gastrointestinal tract3.\nAny situation-specific",
       "notes": "This secondary decontamination step is typically administered immediately following successful emesis to trap any remaining cyanogenic compounds in the gut and prevent them from entering the bloodstream",
       "priority": 4
     },
     {
+      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to maintain perfusion, hydration, and support failing organ systems2. Any situation-specific",
       "name": "Intravenous (IV) Fluid Therapy and Supportive Care",
-      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to maintain perfusion, hydration, and support failing organ systems2.\nAny situation-specific",
       "notes": "Because there is no specific antidote available for cyanide toxicity in felines, aggressive IV fluid therapy and intensive supportive care are essential to sustain the cat's cardiovascular system through the resulting metabolic shock and cardiovascular collapse",
       "priority": 5
     },
     {
+      "description": "of the procedure: Utilizing an endoscope or performing abdominal surgery to physically extract an intact apricot pit from the digestive tract. Any situation-specific",
       "name": "Mechanical Extraction (Obstruction Management)",
-      "description": "of the procedure: Utilizing an endoscope or performing abdominal surgery to physically extract an intact apricot pit from the digestive tract.\nAny situation-specific",
-      "notes": "While crushed apricot pits release deadly chemical cyanide1, swallowing a hard, intact pit presents a different but equally dangerous physical hazard. Fruit seeds are hard and difficult to digest, and swallowing them can easily cause a dangerous mechanical obstruction in the cat's esophagus, stomach, or intestinal tract that requires physical or surgical removal. (Note: The specific physical obstruction mechanism is derived from our established conversation history regarding stone fruits).",
+      "notes": "While crushed apricot pits release deadly chemical cyanide1, swallowing a hard, intact pit presents a different but equally dangerous physical hazard. Fruit seeds are hard and difficult to digest, and swallowing them can easily cause a dangerous mechanical obstruction in the cat's esophagus, stomach",
       "priority": 6
     }
   ]

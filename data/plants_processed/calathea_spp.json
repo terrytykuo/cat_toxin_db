@@ -1,0 +1,14 @@
+{
+  "aliases": [
+    "Prayer Plant",
+    "Zebra Plant",
+    "Rattlesnake Plant"
+  ],
+  "category": "plant",
+  "description": "Calatheas are stunning tropical plants known for their intricately patterned leaves that fold up at night like praying hands. They are completely non-toxic to cats and thrive in indirect light with regular watering.",
+  "name": "Calathea",
+  "scientific_name": "Calathea spp.",
+  "severity": "safe",
+  "symptoms": [],
+  "toxicParts": []
+}

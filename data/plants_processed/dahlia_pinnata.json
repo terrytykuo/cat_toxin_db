@@ -1,64 +1,68 @@
 {
-    "plant": {
-        "common_name": "Dahlia",
-        "scientific_name": "Dahlia pinnata",
-        "family": "Asteraceae",
-        "description": "Bushy plant with beautiful, multi-layered flowers. Popular in gardens."
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": null,
+      "concentration_notes": "Present in flowers and foliage.",
+      "description": "Substances that cause gastrointestinal upset and skin irritation.",
+      "name": "Unidentified Irritants"
+    }
+  ],
+  "description": "Dahlia (Dahlia spp.) is a common garden flowering plant that is mildly toxic to cats. The plant contains irritant compounds — including sesquiterpene lactones — primarily in the leaves and stem. These substances cause gastrointestinal irritation and, with skin contact, mild dermatitis.",
+  "emergencyNote": "Decontamination",
+  "family": "Asteraceae",
+  "isToxic": true,
+  "name": "Dahlia",
+  "safetyNotes": [
+    "Toxic compounds: sesquiterpene lactones and unidentified irritant components",
+    "Mechanism: direct mucosal and GI irritation",
+    "Symptoms: vomiting, diarrhea, mild drooling; skin contact may cause localised redness or itching",
+    "All above-ground parts carry some irritant potential; flower petals are least concentrated",
+    "Symptoms are usually mild and self-limiting, but contact your vet if your cat ingests a large quantity"
+  ],
+  "scientific_name": "Dahlia pinnata",
+  "severity": "safe",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Gastrointestinal Upset",
+      "notes": "Vomiting and diarrhea.",
+      "onset": "Unknown",
+      "severity": "mild"
     },
-    "toxic_parts": [
-        "Leaf",
-        "Flower",
-        "Stem"
-    ],
-    "toxins": [
-        {
-            "name": "Unidentified Irritants",
-            "chemical_formula": null,
-            "description": "Substances that cause gastrointestinal upset and skin irritation.",
-            "concentration_notes": "Present in flowers and foliage."
-        }
-    ],
-    "symptoms": [
-        {
-            "name": "Gastrointestinal Upset",
-            "body_system": "Gastrointestinal",
-            "severity": "mild",
-            "onset": "Unknown",
-            "notes": "Vomiting and diarrhea."
-        },
-        {
-            "name": "Dermatitis",
-            "body_system": "Dermal",
-            "severity": "mild",
-            "onset": "Unknown",
-            "notes": "Skin irritation upon contact or ingestion."
-        }
-    ],
-    "treatments": [
-        {
-            "name": "Decontamination",
-            "description": "Induce vomiting if recent ingestion.",
-            "priority": 1,
-            "notes": "Purge plant material."
-        },
-        {
-            "name": "Dermal Cleansing",
-            "description": "Bath with mild soap to remove sap/irritants.",
-            "priority": 2,
-            "notes": "Crucial for dermatitis."
-        },
-        {
-            "name": "Supportive Care",
-            "description": "Fluids and anti-emetics for GI symptoms.",
-            "priority": 3,
-            "notes": "Symptomatic relief."
-        }
-    ],
-    "sources": [
-        {
-            "title": "Cat Toxin Safety Guide (NotebookLM)",
-            "url": "https://notebooklm.google.com/notebook/9ef4df26-178b-446d-8e9d-e57cbe878a0d",
-            "accessed_at": "2026-02-17"
-        }
-    ]
+    {
+      "body_system": "Dermal",
+      "name": "Dermatitis",
+      "notes": "Skin irritation upon contact or ingestion.",
+      "onset": "Unknown",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower",
+    "Stem"
+  ],
+  "toxicityLevel": "mild",
+  "treatments": [
+    {
+      "description": "Induce vomiting if recent ingestion.",
+      "name": "Decontamination",
+      "notes": "Purge plant material.",
+      "priority": 1
+    },
+    {
+      "description": "Bath with mild soap to remove sap/irritants.",
+      "name": "Dermal Cleansing",
+      "notes": "Crucial for dermatitis.",
+      "priority": 2
+    },
+    {
+      "description": "Fluids and anti-emetics for GI symptoms.",
+      "name": "Supportive Care",
+      "notes": "Symptomatic relief.",
+      "priority": 3
+    }
+  ]
 }

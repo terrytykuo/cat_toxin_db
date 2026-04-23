@@ -1,0 +1,83 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": "Not provided in the given sources.",
+      "concentration_notes": "The danger level is heavily dependent on the concentration of the oils. Live pine trees (such as those used for Christmas trees) contain very low concentrations of these essential oils and are typically not expected to result in major or life-threatening toxicity1. However, highly concentrated liquid forms, such as extracted pine essential oil, are extremely toxic and potentially fatal",
+      "description": "in cats: Cats are highly sensitive to essential oils because their livers lack the specific enzymes required to safely break down and metabolize these volatile compounds. When ingested, inhaled, or absorbed through the skin, pine essential oils can act as a direct irritant to the gastrointestinal tract, causing drooling and vomiting1. If absorbed systemically, the oils can cause severe organ damag",
+      "name": "Essential oils (specifically pine oil)"
+    },
+    {
+      "chemical_formula": "Not provided in the given sources.",
+      "concentration_notes": "Toxicity from tree sap is generally considered mild1. (Note: While not a chemical compound, the sharp pine needles and cones also act as physical irritants that can cause gastrointestinal upset or dangerous blockages if swallowed1.)",
+      "description": "in cats: Tree sap acts as a mild localized irritant. If a cat licks or ingests the sap from the tree, it irritates the mucous membranes and gastrointestinal tract, leading to self-limiting drooling and vomiting",
+      "name": "Tree sap"
+    }
+  ],
+  "description": "Most pine trees (Pinus spp.) are not severely toxic to cats, but they pose several practical risks. Pine needles can cause physical injury to the GI tract if swallowed, and the sap contains terpene compounds that cause GI irritation. Water from a Christmas tree stand (which may contain fertilisers, preservatives, or high terpene runoff) can cause vomiting if a cat drinks it.",
+  "emergencyNote": "Veterinary-Induced Vomiting",
+  "family": "Pinaceae",
+  "isToxic": false,
+  "name": "Pine",
+  "safetyNotes": [
+    "Physical hazard: pine needles are sharp and can puncture or irritate the mouth, stomach, and intestines",
+    "Terpene irritants: pine sap and essential oil contain alpha-pinene and other terpenoids that cause mild GI upset",
+    "Christmas tree water risk: often contains bacteria, fertilisers, or tree preservatives — keep cats from drinking it",
+    "Norfolk Island Pine (Araucaria) is a distinct species in a different family and is considered more toxic to cats",
+    "Contact your vet if your cat ingests many needles or large amounts of sap"
+  ],
+  "scientific_name": "Pinus spp.",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling and vomiting",
+      "notes": "This minor irritation is typically caused by the cat chewing on or ingesting the tree's sap, sharp needles, or cones1. 2. Digestive Blockages",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Digestive blockages",
+      "notes": "Pine needles are very sharp and irritating; if swallowed, they pose a physical hazard that can potentially lead to dangerous blockages within the digestive tract2. 3. Liver Damage",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Liver damage",
+      "notes": "This toxicity is caused by the essential oils found in pine trees3. Pine essential oil is explicitly listed as toxic to cats4. However, the sources note that the natural essential oils present within a live indoor Christmas tree are usually in low concentrations and are not generally expected to res",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf"
+  ],
+  "toxicityLevel": "low",
+  "treatments": [
+    {
+      "description": "If a cat swallows a toxic substance (such as concentrated essential oils), a veterinarian may administer approved prescription medications in the clinic to safely induce vomiting and remove the toxin from the stomach",
+      "name": "Veterinary-Induced Vomiting",
+      "notes": "You should never attempt to induce vomiting at home (such as by using hydrogen peroxide or salt). There are no safe over-the-counter emetics for cats, and attempting to do so can cause severe injury to the mouth, throat, and stomach, which will only complicate professional treatments1. 2. Oral Rinsi",
+      "priority": 1
+    },
+    {
+      "description": "The veterinarian may recommend rinsing the cat's mouth with lukewarm water or offering milk to help dilute and clear the irritating chemicals or oils from the oral cavity",
+      "name": "Oral Rinsing and Dilution",
+      "notes": "This is a common recommendation for swallowed chemicals or essential oils1. If the cat only chewed on the sap or needles of a live pine tree, the resulting drooling and vomiting are usually mild and self-limiting, and may not require major medical intervention2. 3. Intervention for Digestive Blockag",
+      "priority": 2
+    },
+    {
+      "description": "Because pine needles are sharp, they act as physical irritants. If swallowed, they pose a serious physical hazard, and veterinary intervention (such as imaging or surgery) may be required to locate and clear an obstruction in the gastrointestinal tract",
+      "name": "Treatment for Digestive Blockages",
+      "notes": "This addresses the physical dangers of the plant rather than its chemical toxicity23. 4. Systemic and Supportive Care for Liver Toxicity",
+      "priority": 3
+    },
+    {
+      "description": "The veterinary team will provide intensive care and monitoring to support the cat's organs if toxic oils have been absorbed into the bloodstream.",
+      "name": "Supportive Care for Liver Damage",
+      "notes": "The need for this treatment depends heavily on the form of pine the cat was exposed to. The natural essential oils present in a live indoor pine tree are typically in low concentrations and are not generally expected to cause major toxicity2. However, concentrated pine essential oils are explicitly ",
+      "priority": 4
+    }
+  ]
+}

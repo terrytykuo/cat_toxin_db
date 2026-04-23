@@ -1,57 +1,63 @@
 {
-  "plant": {
-    "common_name": "Japanese Aucuba",
-    "scientific_name": "Aucuba japonica",
-    "family": "Cornaceae",
-    "description": "Brief Description\n\u2022 Appearance: It is a large bush featuring large, opposite, coarsely toothed leaves. It produces purple flowers arranged in a panicle at the ends of branches. In early winter, it matures to produce a scarlet berry fruit containing a single seed.\n\u2022 Habitat & Common Locations: It is commonly cultivated as an ornamental plant and is also kept as a houseplant. It is also known by the common names Japanese laurel or Spotted laurel.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
-  },
-  "basics": {
-    "family": "Cornaceae",
-    "description": "Brief Description\n\u2022 Appearance: It is a large bush featuring large, opposite, coarsely toothed leaves. It produces purple flowers arranged in a panicle at the ends of branches. In early winter, it matures to produce a scarlet berry fruit containing a single seed.\n\u2022 Habitat & Common Locations: It is commonly cultivated as an ornamental plant and is also kept as a houseplant. It is also known by the common names Japanese laurel or Spotted laurel.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
-  },
-  "toxic_parts": [
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": null,
+      "concentration_notes": "◦ Concentration: The toxin is found in the entire plant, but it is specifically concentrated in the fruit (the scarlet berries), which may be attractive to pets. ◦ Potency: The plant is considered to have low toxicity. Veterinary sources note that a \"large exposure dose\" is typically required to cause toxicity. Small ingestions often result in no clinical signs, while severe cases (rare) may requi",
+      "description": "in cats: ◦ Gastrointestinal Irritation: The compound acts primarily as a mild irritant to the gastrointestinal tract. Ingestion generally leads to gastrointestinal discomfort rather than systemic organ failure. 4. Notes on",
+      "name": "Aucubin (classified as an acid-labile glycoside)"
+    }
+  ],
+  "description": "Japanese Aucuba (Aucuba japonica), also called Japanese Laurel or Spotted Laurel, is a common garden and houseplant shrub that is mildly toxic to cats. It contains aucubin, an iridoid glycoside found throughout the plant, along with irritant saponins. The bright scarlet berries may attract curious cats and represent the most accessible toxic source.",
+  "emergencyNote": "Clinical Monitoring / No Medical Intervention",
+  "family": "Cornaceae",
+  "isToxic": true,
+  "name": "Japanese Aucuba",
+  "safetyNotes": [
+    "Toxic compounds: aucubin (iridoid glycoside) and irritant saponins; berries and leaves are the main exposure route",
+    "Mechanism: aucubin causes GI irritation; large doses may produce mild hepatotoxicity in cats",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy; typically mild and self-limiting with small ingestions",
+    "Berries are visually appealing to cats — restrict access during berry season",
+    "Contact your vet if your cat ingests berries or shows more than mild GI symptoms"
+  ],
+  "scientific_name": "Aucuba japonica",
+  "severity": "safe",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Gastrointestinal Discomfort (Vomiting, Diarrhea)",
+      "notes": "◦ The toxic compound, aucubin, is found throughout the plant but is concentrated in the fruit (scarlet berries). ◦ Treatment usually involves antiemetics (to stop vomiting) and fluid therapy for rehydration if the case is severe, but often no treatment is needed for small ingestions.",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
     "Entire Plant",
     "Fruit"
   ],
-  "toxins": [
-    {
-      "name": "Aucubin (classified as an acid-labile glycoside)",
-      "chemical_formula": null,
-      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: The compound acts primarily as a mild irritant to the gastrointestinal tract. Ingestion generally leads to gastrointestinal discomfort rather than systemic organ failure.\n4. Notes on",
-      "concentration_notes": "\u25e6 Concentration: The toxin is found in the entire plant, but it is specifically concentrated in the fruit (the scarlet berries), which may be attractive to pets.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: The plant is considered to have low toxicity. Veterinary sources note that a \"large exposure dose\" is typically required to cause toxicity. Small ingestions often result in no clinical signs, while severe cases (rare) may require treatment for dehydration and vomiting.\u2022 Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
-    }
-  ],
-  "symptoms": [
-    {
-      "name": "Gastrointestinal Discomfort (Vomiting, Diarrhea)",
-      "body_system": "Gastrointestinal",
-      "severity": "mild",
-      "onset": "Not explicitly specified in the provided text.",
-      "notes": "\u25e6 The toxic compound, aucubin, is found throughout the plant but is concentrated in the fruit (scarlet berries).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Treatment usually involves antiemetics (to stop vomiting) and fluid therapy for rehydration if the case is severe, but often no treatment is needed for small ingestions."
-    }
-  ],
+  "toxicityLevel": "mild",
   "treatments": [
     {
-      "name": "Clinical Monitoring / No Medical Intervention",
       "description": "For known small ingestions, the veterinarian may recommend monitoring the cat at home or in the clinic without administering medication or decontamination procedures.",
+      "name": "Clinical Monitoring / No Medical Intervention",
       "notes": "Veterinary literature states that for \"small dose exposure cases,\" the recommended treatment is \"None.\" Toxicity usually requires a large exposure, and the plant primarily causes mild gastrointestinal discomfort.Rehydration Therapy",
       "priority": 1
     },
     {
-      "name": "Fluid Therapy / Rehydration",
       "description": "The administration of fluids (typically subcutaneous or intravenous) to restore hydration levels in the cat.",
+      "name": "Fluid Therapy / Rehydration",
       "notes": "This is necessary in \"severely affected cases\" where the cat has experienced significant fluid loss due to vomiting or diarrhea caused by the plant's glycoside, aucubin.Gastrointestinal Support",
       "priority": 2
     },
     {
-      "name": "Administration of Antiemetics",
       "description": "The veterinarian administers medication to suppress nausea and stop vomiting.",
+      "name": "Administration of Antiemetics",
       "notes": "Used in severe cases to manage the primary symptom of gastrointestinal discomfort.Electrolyte Management",
       "priority": 3
     },
     {
-      "name": "Electrolyte Replacement",
       "description": "Supplements are administered to restore the balance of essential minerals lost through persistent vomiting or diarrhea.",
+      "name": "Electrolyte Replacement",
       "notes": "This is listed as a necessary step for \"severely affected cases\" alongside rehydration.",
       "priority": 4
     }

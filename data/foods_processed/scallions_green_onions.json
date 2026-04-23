@@ -1,0 +1,168 @@
+{
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
+    {
+      "chemical_formula": null,
+      "concentration_notes": null,
+      "description": null,
+      "name": "Because scallions (green onions) belong to the Allium genus"
+    },
+    {
+      "chemical_formula": "H",
+      "concentration_notes": null,
+      "description": null,
+      "name": "N-propyl disulfide (Di-propyl-disulfide)"
+    },
+    {
+      "chemical_formula": null,
+      "concentration_notes": "or potency: It is described as a \"very poisonous\" organosulfur compound and is considered the principal toxin in Allium species5.... Cats are exceptionally vulnerable to this toxin because feline hemoglobin contains eight reactive sulfhydryl groups, making their red blood cells two to three times more susceptible to oxidative damage than those of other species",
+      "description": "It acts as a highly reactive oxidant that causes a marked decrease in the activity of the enzyme glucose-6-phosphate dehydrogenase (G6PD) in feline red blood cells57. This decreases the concentration of glutathione, which is necessary to prevent oxidative damage58. As a result, hydrogen peroxide oxidizes the hemoglobin, causing it to denature, precipitate, and form clumps known as Heinz bodies on ",
+      "name": "Brief description of its mechanism of action"
+    },
+    {
+      "chemical_formula": "Not provided in the sources.",
+      "concentration_notes": "or potency: This is also a \"very poisonous\" compound57. Notably, it has been isolated specifically from boiled Allium materials, demonstrating that these toxins survive high temperatures and cooking processes",
+      "description": "Similar to N-propyl disulfide, it reduces glutathione concentrations in erythrocytes and significantly increases methemoglobin concentrations and Heinz body counts57. This oxidative damage ultimately leads to cell lysis and hemolytic anemia712. Any notes on concentration or potency: This is also a \"very poisonous\" compound57. Notably, it has been isolated specifically from boiled Allium materials,",
+      "name": "Sodium n-propylthiosulfate"
+    },
+    {
+      "chemical_formula": "H",
+      "concentration_notes": null,
+      "description": null,
+      "name": "Allyl propylisulfide"
+    },
+    {
+      "chemical_formula": null,
+      "concentration_notes": "or potency: It is another primary causative agent implicated in Allium-induced hemolytic anemia",
+      "description": "It is readily absorbed through the cat's gastrointestinal tract and metabolized into highly reactive oxidants that trigger oxidative hemolysis34. Any notes on concentration or potency: It is another primary causative agent implicated in Allium-induced hemolytic anemia",
+      "name": "Brief description of its mechanism of action"
+    },
+    {
+      "chemical_formula": "Not provided in the sources.",
+      "concentration_notes": "or potency: These compounds are responsible for the characteristic flavor and odor of scallions413. Because they are present throughout the plant tissue and convert to toxins instantly upon damage, no part of the scallion is safe for a cat",
+      "description": "These are the non-toxic parent compounds sequestered inside the plant's cells213. When the plant experiences mechanical trauma—such as a cat chewing the scallion or a human chopping it—these precursors instantly convert into the highly reactive, cell-damaging sulfur-containing organic compounds listed above2.... Any notes on concentration or potency: These compounds are responsible for the charact",
+      "name": "Alk(en)yl cysteine sulfoxides (Precursors)"
+    }
+  ],
+  "description": "Scallions and green onions (Allium fistulosum and Allium cepa) are members of the Allium family and are severely toxic to cats — sharing the same mechanism as garlic, onions, chives, and leeks. They contain organosulfur compounds that oxidise feline haemoglobin, forming Heinz bodies and triggering haemolytic anaemia. All parts and all preparation forms are dangerous.",
+  "emergencyNote": "Because scallions and green onions belong to the Allium genus, they cause the exact same oxidative damage and toxicosis as onions and garlic. Since there is no specific antidote for Allium poisoning",
+  "family": "Allioideae",
+  "isToxic": true,
+  "name": "Scallions / Green onions",
+  "safetyNotes": [
+    "Toxic compounds: N-propyl disulfide and organosulfur compounds (alk(en)yl cysteine sulfoxides); all parts toxic including white bulb, green tops, and cooked forms",
+    "Mechanism: oxidative damage to haemoglobin creates Heinz bodies; the spleen destroys affected red blood cells, causing haemolytic anaemia",
+    "Symptoms: lethargy, weakness, pale or yellowish gums, rapid breathing, loss of appetite, reddish-brown urine; onset often delayed 3–5 days",
+    "Scallions are commonly used in Asian cooking — stir-fries, soups, dumplings — keep cats away from these foods",
+    "Contact your vet immediately if ingestion is suspected"
+  ],
+  "scientific_name": "Scallions / Green onions",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Metabolic",
+      "name": "Because scallions (green onions) are members of the Allium genus",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, Abdominal Pain, and Drooling",
+      "notes": "These are usually the first clinical signs of toxicosis to appear4.... They are caused by direct irritation to the mouth and stomach, frequently resulting in dehydration",
+      "onset": "Within 1 day of ingestion.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy, Weakness, and Depression",
+      "notes": "These signs emerge as a secondary response to systemic hypoxia caused by the profound loss of oxygen-carrying red blood cells",
+      "onset": "After a lag of several days (typically 2 to 4 days).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Pale Mucous Membranes and Jaundice (Icterus)",
+      "notes": "Pale gums indicate a lack of oxygenated blood (anemia)5.... Jaundice (yellowing of the skin or mucosa) occurs due to severe red blood cell destruction leading to hyperbilirubinemia",
+      "onset": "After a lag of several days.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Tachypnea and Dyspnea (Breathing Difficulties)",
+      "notes": "This is a compensatory response as the cat's body attempts to offset the decreased blood oxygen transportation capacity and resulting tissue hypoxia",
+      "onset": "After a lag of several days.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Tachycardia (Rapid Heart Rate)",
+      "notes": "Tachycardia develops as the heart pumps much faster to compensate for the impaired oxygen transportation caused by the ruptured red blood cells",
+      "onset": "After a lag of several days.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Hemoglobinuria (Dark Urine)",
+      "notes": "This is a hallmark sign of severe oxidative hemolysis5.... Damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract59. This can lead to secondary acute kidney injury (hemoglobinuric nephrosis)",
+      "onset": "After a lag of several days.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Cold Sensitivity",
+      "notes": "Affected cats may have difficulty regulating body temperature as a systemic effect of the progressive anemia",
+      "onset": "Several days after ingestion.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Allium Breath Odor",
+      "notes": "While not harmful itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians",
+      "onset": "Shortly after ingestion.",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Powder",
+    "Juice"
+  ],
+  "toxicityLevel": "severe",
+  "treatments": [
+    {
+      "description": null,
+      "name": "Because scallions and green onions belong to the Allium genus, they cause the exact same oxidative damage and toxicosis as onions and garlic. Since there is no specific antidote for Allium poisoning",
+      "notes": null,
+      "priority": 1
+    },
+    {
+      "description": "of the procedure: Providing the cat with supplemental oxygen and transfusing whole blood to restore the body's depleted oxygen-carrying capacity1.... Any situation-specific",
+      "name": "Oxygen Therapy and Blood Transfusions (Life-Saving Stabilization)",
+      "notes": "This is the most urgent priority for severely affected cats presenting with life-threatening signs such as respiratory distress, systemic hypoxia, or profound hemolytic anemia (specifically when the hematocrit drops below 15–20%)",
+      "priority": 2
+    },
+    {
+      "description": "of the procedure: Administering an emetic drug, such as dexmedetomidine (an α 2 ​ -adrenergic agonist), via intramuscular or intravenous injection to force the cat to expel the ingested plant material before the toxins are absorbed78. Any situation-specific",
+      "name": "Induction of Emesis (Early Gastrointestinal Decontamination)",
+      "notes": "This is highly valuable but only indicated if the ingestion was very recent (typically caught within 1 to 3 hours) and the cat is currently asymptomatic1.... Crucially, 3% hydrogen peroxide must never be used to induce vomiting in cats, as it is strictly contraindicated and can cause fatal hemorrhag",
+      "priority": 3
+    },
+    {
+      "description": "of the procedure: Administering oral activated charcoal (typically 1 to 4 g/kg) to bind to and adsorb any residual toxins remaining in the stomach and intestines1.... Any situation-specific",
+      "name": "Administration of Activated Charcoal (Secondary Decontamination)",
+      "notes": "This is typically administered directly after emesis to trap toxins before they can enter the bloodstream1.... However, it should be noted that its actual efficacy in binding to or preventing the production of Allium-derived sulfides is currently unknown",
+      "priority": 4
+    },
+    {
+      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to rehydrate the animal, support blood pressure, and maintain proper renal perfusion1.... Any situation-specific",
+      "name": "Intravenous (IV) Fluid Therapy (Systemic Supportive Care)",
+      "notes": "This treatment is indicated if the cat has suffered extensive fluid loss from severe vomiting and diarrhea, or presents with hypotension1.... Furthermore, it is an essential protective measure if the cat develops hemoglobinuria (dark urine caused by ruptured red blood cells clearing through the urin",
+      "priority": 5
+    },
+    {
+      "description": "of the procedure: Administering anti-sickness/anti-nausea medications, stomach protectants, and sometimes antioxidant vitamins (C and E) or N-acetyl-cysteine1.... Any situation-specific",
+      "name": "Gastrointestinal and Antioxidant Medications (Symptomatic Relief)",
+      "notes": "GI protectants and anti-sickness medications are used to manage mild-to-moderate abdominal pain, vomiting, and diarrhea9. While antioxidants are sometimes administered in an attempt to combat the oxidative damage to red blood cells, they have shown minimal proven protective effects against Allium po",
+      "priority": 6
+    }
+  ]
+}

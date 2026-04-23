@@ -1,100 +1,104 @@
 {
-  "plant": {
-    "common_name": "Apricot",
-    "scientific_name": "Prunus spp.",
-    "family": "Rosaceae",
-    "description": "Brief Description\n\u2022 Appearance: The apricot grows as a tree2. It produces fruit classified as a \"stone fruit\" or \"pitted fruit,\" characterized by a fleshy exterior surrounding a large, hard seed or pit in the center3,1,4.\n\u2022 Habitat & Location: While the sources focus on toxicology rather than botany, they indicate that apricots are commonly found in homes as a food source5. The sources do not provide specific details regarding the plant's natural habitat or physical characteristics (such as leaf shape or flower color) beyond its classification as a fruit-bearing tree containing pits."
-  },
-  "basics": {
-    "family": "Rosaceae",
-    "description": "Brief Description\n\u2022 Appearance: The apricot grows as a tree2. It produces fruit classified as a \"stone fruit\" or \"pitted fruit,\" characterized by a fleshy exterior surrounding a large, hard seed or pit in the center3,1,4.\n\u2022 Habitat & Location: While the sources focus on toxicology rather than botany, they indicate that apricots are commonly found in homes as a food source5. The sources do not provide specific details regarding the plant's natural habitat or physical characteristics (such as leaf shape or flower color) beyond its classification as a fruit-bearing tree containing pits."
-  },
-  "toxic_parts": [
-    "Stem",
-    "Leaf",
-    "Seed",
-    "Fruit"
-  ],
-  "toxins": [
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
     {
-      "name": "Amygdalin (a cyanogenic glycoside). When metabolized, it releases Hydrogen Cyanide (Cyanide)",
       "chemical_formula": null,
-      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Activation: The compound is relatively harmless in its intact form. However, when the apricot pit (seed) is chewed, crushed, or digested, amygdalin interacts with digestive enzymes and undergoes hydrolysis, releasing hydrogen cyanide into the bloodstream12.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cellular Asphyxiation: Once released, cyanide acts as a potent cellular toxin. It binds tightly to ferric (Fe3+) iron within cytochrome c oxidase, an enzyme in the mitochondria34.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Respiratory Arrest: This binding disrupts the electron transport chain and halts cellular respiration. Consequently, the cat's cells are unable to utilize oxygen to generate energy (ATP), leading to tissue hypoxia (oxygen starvation) and rapid systemic failure, even though the blood is fully oxygenated35.\n4. Notes on",
-      "concentration_notes": "\u25e6 Location: The toxin is concentrated in the seeds/pits, stems, and leaves46. The flesh of the fruit contains only trace or negligible amounts and is generally considered safe17.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Bioavailability: The hard outer pit must be broken (chewed or crushed) to release the toxin. Swallowing a seed whole often prevents the release of cyanide4.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: While the seeds contain \"trace amounts\" of cyanide compounds that may not be harmful in small normal quantities, ingesting large quantities can be dangerous7. However, cyanide is described as a \"potent cellular toxin,\" and clinical signs can develop rapidly (within 10\u201360 minutes) leading to shock and death if untreated"
+      "concentration_notes": "◦ Location: The toxin is concentrated in the seeds/pits, stems, and leaves46. The flesh of the fruit contains only trace or negligible amounts and is generally considered safe17. ◦ Bioavailability: The hard outer pit must be broken (chewed or crushed) to release the toxin. Swallowing a seed whole often prevents the release of cyanide4. ◦ Potency: While the seeds contain \"trace amounts\" of cyanide ",
+      "description": "in cats: ◦ Activation: The compound is relatively harmless in its intact form. However, when the apricot pit (seed) is chewed, crushed, or digested, amygdalin interacts with digestive enzymes and undergoes hydrolysis, releasing hydrogen cyanide into the bloodstream12. ◦ Cellular Asphyxiation: Once released, cyanide acts as a potent cellular toxin. It binds tightly to ferric (Fe3+) iron within cyto",
+      "name": "Amygdalin (a cyanogenic glycoside). When metabolized, it releases Hydrogen Cyanide (Cyanide)"
     }
   ],
+  "description": "The fleshy part of an apricot is entirely safe for cats and does not contain toxic compounds. The danger lies in the pit (stone): when a cat chews or crushes it, enzymes break down amygdalin — a cyanogenic glycoside — releasing highly toxic hydrogen cyanide (HCN). Cyanide binds to cytochrome c oxidase, a critical enzyme in the mitochondrial electron transport chain, halting cellular respiration at the level of every cell. Because the heart and brain have the highest energy demands, they are the first organs to fail. Swallowed whole, the pit also presents a severe choking and intestinal obstruction hazard.",
+  "emergencyNote": "Specific Antidote Administration",
+  "family": "Rosaceae",
+  "isToxic": false,
+  "name": "Apricot",
+  "safetyNotes": [
+    "Symptoms: Vomiting, rapid or laboured breathing, low blood pressure and shock, lethargy, muscle weakness, seizures, coma, and potentially fatal cardiac and respiratory failure — symptoms can appear rapidly.",
+    "Safe part: Fruit flesh only — remove the pit, stem, and leaves entirely before offering a small piece as a treat.",
+    "Physical hazard: Swallowing a whole pit can cause throat or intestinal obstruction requiring surgery."
+  ],
+  "scientific_name": "Prunus spp.",
+  "severity": "toxic",
   "symptoms": [
     {
-      "name": "Respiratory Distress (Difficulty Breathing, Panting, Tachypnea, Hyperventilation)",
       "body_system": "Respiratory",
-      "severity": "severe",
-      "onset": "Rapid; typically within 10\u201360 minutes to a few hours after ingestion.",
-      "notes": "Signs include panting, gasping for breath, or rapid breathing. This occurs because the cyanide toxin prevents cells from utilizing oxygen (cellular hypoxia), even though the blood is fully oxygenated.Brick Red Mucous Membranes"
+      "name": "Respiratory Distress (Difficulty Breathing, Panting, Tachypnea, Hyperventilation)",
+      "notes": "Signs include panting, gasping for breath, or rapid breathing. This occurs because the cyanide toxin prevents cells from utilizing oxygen (cellular hypoxia), even though the blood is fully oxygenated.Brick Red Mucous Membranes",
+      "onset": "Rapid; typically within 10–60 minutes to a few hours after ingestion.",
+      "severity": "severe"
     },
     {
-      "name": "Bright Red Gums/Mucous Membranes",
       "body_system": "Hematological",
-      "severity": "severe",
+      "name": "Bright Red Gums/Mucous Membranes",
+      "notes": "The gums and tongue may appear unusually bright red or pink (often described as \"cherry red\"). This coloration results from an abundance of oxygen in the blood that the tissues are unable to absorb due to the toxin blocking cellular respiration.Dilated Pupils",
       "onset": "Rapid (minutes to hours).",
-      "notes": "The gums and tongue may appear unusually bright red or pink (often described as \"cherry red\"). This coloration results from an abundance of oxygen in the blood that the tissues are unable to absorb due to the toxin blocking cellular respiration.Dilated Pupils"
+      "severity": "severe"
     },
     {
+      "body_system": "Neurological",
       "name": "Dilated Pupils (Mydriasis)",
-      "body_system": "Neurological",
-      "severity": "severe",
+      "notes": "Enlarged pupils are a classic sign of cyanide poisoning often appearing alongside respiratory and cardiovascular distress.Shock and Sudden Collapse",
       "onset": "Rapid (minutes to hours).",
-      "notes": "Enlarged pupils are a classic sign of cyanide poisoning often appearing alongside respiratory and cardiovascular distress.Shock and Sudden Collapse"
+      "severity": "severe"
     },
     {
-      "name": "Shock / Collapse / Weakness",
       "body_system": "Cardiac",
-      "severity": "fatal",
-      "onset": "Rapid (10\u201360 minutes).",
-      "notes": "Hypotension (low blood pressure) and arrhythmias (irregular heartbeats) can lead to sudden weakness, staggering, and collapse. Death can occur quickly if untreated.Seizures and Tremors"
+      "name": "Shock / Collapse / Weakness",
+      "notes": "Hypotension (low blood pressure) and arrhythmias (irregular heartbeats) can lead to sudden weakness, staggering, and collapse. Death can occur quickly if untreated.Seizures and Tremors",
+      "onset": "Rapid (10–60 minutes).",
+      "severity": "fatal"
     },
     {
-      "name": "Seizures (Convulsions) and Muscle Tremors",
       "body_system": "Neurological",
-      "severity": "fatal",
+      "name": "Seizures (Convulsions) and Muscle Tremors",
+      "notes": "As the brain is deprived of usable oxygen, the cat may experience tremors and violent convulsions, eventually lapsing into a coma.Gastrointestinal Upset",
       "onset": "Rapid.",
-      "notes": "As the brain is deprived of usable oxygen, the cat may experience tremors and violent convulsions, eventually lapsing into a coma.Gastrointestinal Upset"
+      "severity": "fatal"
     },
     {
-      "name": "Vomiting, Salivation (Excessive Drooling), and Diarrhea",
       "body_system": "Gastrointestinal",
-      "severity": "moderate",
+      "name": "Vomiting, Salivation (Excessive Drooling), and Diarrhea",
+      "notes": "Salivation is frequently noted as an early sign. While GI obstruction is a risk if a whole pit is swallowed, chemical toxicity causes these symptoms due to systemic poisoning.",
       "onset": "Minutes to hours.",
-      "notes": "Salivation is frequently noted as an early sign. While GI obstruction is a risk if a whole pit is swallowed, chemical toxicity causes these symptoms due to systemic poisoning."
+      "severity": "moderate"
     }
   ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Seed"
+  ],
+  "toxicityLevel": "low",
   "treatments": [
     {
-      "name": "Specific Antidote Administration",
       "description": "The administration of specific antidotes to bind and neutralize the cyanide toxin. This typically involves using sodium nitrite (to form cyanomethemoglobin) followed by sodium thiosulfate (to form thiocyanate, which is excreted in urine). Alternatively, hydroxycobalamin (Vitamin B12a) may be used to bind with cyanide to form cyanocobalamin (Vitamin B12).",
-      "notes": "This is critical for life-threatening cases where the cat has ingested a large amount of crushed seeds and is showing severe signs like seizures or respiratory distress. Cyanide acts rapidly (within 10\u201360 minutes), and death can occur before treatment begins, making the antidote vital if the animal survives transport.",
+      "name": "Specific Antidote Administration",
+      "notes": "This is critical for life-threatening cases where the cat has ingested a large amount of crushed seeds and is showing severe signs like seizures or respiratory distress. Cyanide acts rapidly (within 10–60 minutes), and death can occur before treatment begins, making the antidote vital if the animal ",
       "priority": 1
     },
     {
-      "name": "Oxygen Therapy",
       "description": "Providing supplemental oxygen to the cat, often via a mask, cage, or flow-by method.",
+      "name": "Oxygen Therapy",
       "notes": "Since cyanide prevents cells from utilizing oxygen (tissue hypoxia), oxygen therapy is a primary supportive measure to help maintain cellular function and aid recovery while the toxin is cleared or neutralized.",
       "priority": 2
     },
     {
-      "name": "Decontamination (Emesis & Activated Charcoal)",
       "description": "Inducing vomiting (emesis) to remove the plant material from the stomach, followed by the administration of activated charcoal with a cathartic to bind any remaining toxins in the gastrointestinal tract.",
+      "name": "Decontamination (Emesis & Activated Charcoal)",
       "notes": "This is the standard protocol for asymptomatic patients who have recently ingested the seeds or plant parts. Emesis is generally not induced if the cat is already showing severe neurological signs (like seizures) due to the risk of aspiration.",
       "priority": 3
     },
     {
-      "name": "Correction of Metabolic Acidosis",
       "description": "The administration of sodium bicarbonate to balance the pH level of the cat's blood.",
+      "name": "Correction of Metabolic Acidosis",
       "notes": "Severe cyanide toxicity often causes severe metabolic acidosis (too much acid in the body fluids). Veterinarians monitor this via venous blood gas analysis and treat it to stabilize the cat's systemic condition.",
       "priority": 4
     },
     {
-      "name": "Surgical Intervention (For Pit Obstruction)",
       "description": "Surgical removal or endoscopic retrieval of the apricot pit from the throat, stomach, or intestines.",
+      "name": "Surgical Intervention (For Pit Obstruction)",
       "notes": "While the chemical toxin is the immediate threat, the hard pit (stone) presents a significant physical risk of choking or causing an intestinal blockage (obstruction). Surgery is required if the pit becomes lodged in the digestive tract.",
       "priority": 5
     }

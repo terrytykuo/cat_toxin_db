@@ -1,0 +1,89 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "concentration_notes": "◦ Highly Concentrated: Essential oils are highly potent. Toxicity can occur from ingestion (licking oil off fur), direct skin contact (even a single drop of concentrated oil can be problematic), or inhalation. ◦ Neat vs. Diluted: The oils are especially dangerous if used \"neat\" (undiluted). However, even diluted oils or ambient exposure from reed diffusers and nebulizers can pose a risk. ◦ Dried P",
+      "description": "in cats: ◦ Hepatic Enzyme Deficiency: Cats lack specific liver enzymes (glucuronyl transferase) required to break down and eliminate the volatile compounds found in essential oils. This inability to process the toxins leads to a buildup in the body, which can cause serious organ damage, specifically liver failure. ◦ Central Nervous System (CNS) Depression: The oils can affect the nervous system, l",
+      "name": "Eucalyptus Essential Oil"
+    }
+  ],
+  "description": "Eucalyptus is toxic to cats due to its high concentration of essential oils — primarily eucalyptol (1,8-cineole) and other terpene compounds — found throughout the leaves, bark, and stems. Cats lack the hepatic enzymes needed to metabolize these oils efficiently, allowing toxic levels to accumulate and cause systemic effects.",
+  "emergencyNote": "Surface Decontamination and Oral Rinsing",
+  "family": "Myrtaceae",
+  "isToxic": true,
+  "name": "Eucalyptus",
+  "safetyNotes": [
+    "Toxic compounds: eucalyptol (1,8-cineole), terpenes; present in fresh leaves, dried leaves, and all essential oil products",
+    "Mechanism: impaired hepatic metabolism in cats allows eucalyptol to accumulate, causing CNS depression, GI irritation, and liver stress",
+    "Symptoms: drooling, vomiting, diarrhea, lethargy, weakness, unsteady gait (ataxia); severe cases may include respiratory depression",
+    "Eucalyptus essential oil diffusers are also a risk — airborne oil particles can cause respiratory irritation and systemic exposure",
+    "Seek veterinary care promptly; eucalyptus oil ingestion can progress to serious toxicity quickly in cats"
+  ],
+  "scientific_name": "Eucalyptus spp.",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, and Excessive Drooling (Hypersalivation)",
+      "notes": "Drooling is often the first sign, caused by the burning sensation of the oil in the mouth or nausea. Vomiting helps expel the toxin but can lead to dehydration.Neurological Depression and Disturbances",
+      "onset": "Rapid (Clinical signs often appear quickly after ingestion or contact).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy, Depression, Ataxia (walking as if drunk/uncoordinated), Tremors, and Seizures",
+      "notes": "Essential oils are rapidly absorbed. Because cats lack the liver enzyme (glucuronyl transferase) needed to break down these compounds, toxins build up, depressing the central nervous system. Severe cases can lead to collapse or coma.Respiratory Distress",
+      "onset": "Acute (Shortly after exposure).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty Breathing (Dyspnea), Wheezing, or Coughing",
+      "notes": "Inhalation of strong vapors from diffusers can irritate the airways, causing an inflammatory response. This is particularly dangerous for cats with pre-existing conditions like feline asthma.Dermal Irritation",
+      "onset": "Rapid (Especially if the oil is inhaled via a diffuser or aspirated during vomiting).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Chemical Burns, Redness, and Soreness",
+      "notes": "Essential oils are highly potent and can burn the skin upon direct contact. Cats may also ingest the oil while grooming the irritated area, leading to systemic poisoning.Hepatic (Liver) Failure",
+      "onset": "Immediate upon contact.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Liver Damage / Failure",
+      "notes": "This is the most serious long-term risk of essential oil exposure. Signs may include jaundice (yellowing of eyes/gums) and progressive weakness.",
+      "onset": "Delayed (May develop over days as the body fails to metabolize the toxins).",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Bark",
+    "Flower"
+  ],
+  "toxicityLevel": "mild",
+  "treatments": [
+    {
+      "description": "◦ Dermal: If the cat has essential oil on its skin or fur, the veterinarian (or owner under instruction) will bathe the cat using liquid dish soap and lukewarm water to remove the oil before it is absorbed through the skin or ingested during grooming. ◦ Oral: If ingested, the vet may rinse the cat's mouth with water to remove residues.",
+      "name": "Surface Decontamination and Oral Rinsing",
+      "notes": "Inducing vomiting (emesis) at home is not recommended for cats as it can cause further injury or aspiration. The veterinarian will determine if inducing vomiting at the clinic is safe based on the cat's neurological status and the time since ingestion.Intravenous (IV) Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "description": "The administration of IV fluids is used to correct dehydration caused by vomiting and diarrhea. Crucially, it also helps support kidney and liver function by flushing toxins from the bloodstream and maintaining organ perfusion.",
+      "name": "Aggressive Fluid Therapy",
+      "notes": "Since essential oils like Eucalyptus can cause serious organ damage (specifically liver failure), fluid support is vital to help the body eliminate the toxins and support the liver.Respiratory Support and Symptomatic Care",
+      "priority": 2
+    },
+    {
+      "description": "◦ Respiratory: If the cat has inhaled Eucalyptus vapors (e.g., from a diffuser) and is showing signs of respiratory distress (coughing, wheezing), the vet will administer oxygen. ◦ Neurological/GI: Medications such as anti-emetics (to stop vomiting) and anticonvulsants (if seizures or tremors occur) are administered to stabilize the patient.",
+      "name": "Oxygen Therapy and Symptomatic Medication",
+      "notes": "Eucalyptus toxicity can manifest as central nervous system depression (lethargy, \"drunk\" walking) or overexcitement (tremors, seizures). Monitoring liver enzymes is also critical as liver damage is a known risk of essential oil poisoning.",
+      "priority": 3
+    }
+  ]
+}

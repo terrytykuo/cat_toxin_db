@@ -1,0 +1,79 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": null,
+      "concentration_notes": "Berries and sap are most toxic.",
+      "description": "Can cause vomiting, diarrhea, and in rare cases, cardiovascular issues.",
+      "name": "Saponins and Cyanogenic Glycosides"
+    }
+  ],
+  "description": "Honeysuckle (Lonicera spp.) is a common garden vine or shrub whose berries and, to a lesser extent, leaves contain mildly toxic compounds including saponins and, in some species, cyanogenic glycosides. Cats are unlikely to consume large amounts, but berry ingestion can cause noticeable gastrointestinal upset.",
+  "emergencyNote": "Induction of Emesis (Vomiting)",
+  "family": "Caprifoliaceae",
+  "isToxic": true,
+  "name": "Honeysuckle",
+  "safetyNotes": [
+    "Toxic compounds: saponins and trace cyanogenic glycosides in berries; leaves carry lower concentrations",
+    "Mechanism: saponins disrupt the GI lining; cyanogenic compounds may contribute mild systemic effects at higher doses",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy; typically mild and self-limiting",
+    "Berries are the highest-risk part — the attractive red or black berries may appeal to curious cats",
+    "Symptoms are usually mild; contact your vet if your cat ingests a significant number of berries"
+  ],
+  "scientific_name": "Lonicera spp.",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea",
+      "notes": "The ASPCA Pet Health Insurance guide lists Honeysuckle as a common plant poisonous to cats and notes that general signs of plant poisoning include vomiting and diarrhea. The flowers are noted to have a \"sweet smell that can be tempting for cats.\"Oral and Skin Irritation",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Inflammation around the mouth, Drooling, or Itchiness",
+      "notes": "Toxic plants can cause inflammation around the mouth and skin irritation, leading to the cat pawing at their mouth or face.Respiratory and Cardiac Distress (General Potential)",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty Breathing (Dyspnea), Panting, or Rapid Heart Rate",
+      "notes": "These are listed as potential symptoms for cats that have ingested poisonous plants found on the common toxicity list, which includes Honeysuckle.Euphoria (Specific to Tatarian Honeysuckle)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Behavioral Reaction (Euphoria)",
+      "notes": "Tatarian honeysuckle (Lonicera tatarica) is considered safe and is used as an alternative to catnip. It produces a similar euphoric behavioral reaction in cats and is often found in cat toys or wood products.Important Note on Varieties: Certain species, such as Honeysuckle Fuchsia, are explicitly li",
+      "onset": "Immediate.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower",
+    "Fruit"
+  ],
+  "toxicityLevel": "mild",
+  "treatments": [
+    {
+      "description": "If the ingestion was recent, the veterinarian may administer medication to induce vomiting. This removes the plant material from the stomach before the toxins can be fully absorbed into the system",
+      "name": "Induction of Emesis (Vomiting)",
+      "notes": "This is time-sensitive and generally most effective if performed shortly after ingestion. Owners should not attempt to induce vomiting at home without professional instruction, as it can risk injury to the cat4. 2. Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "description": "The veterinarian administers fluids directly into the bloodstream or under the skin. This therapy helps to correct dehydration caused by vomiting or diarrhea and assists the body in flushing toxins out through the kidneys",
+      "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
+      "notes": "This is a standard supportive treatment for cats showing signs of poisoning to maintain blood pressure and organ function while the body processes the toxin3. 3. Symptomatic Care and Monitoring",
+      "priority": 2
+    },
+    {
+      "description": "The veterinary team monitors the cat’s vital signs, including heart rate and hydration levels. They may administer medications to control specific symptoms, such as anti-emetics to stop vomiting or gastroprotectants to soothe the stomach",
+      "name": "Supportive Medical Management",
+      "notes": "Because symptoms of plant poisoning can range from a \"minor tummy ache\" to more severe reactions, the vet will tailor care to the specific signs the cat is exhibiting (e.g., inflammation around the mouth, dilated pupils, or difficulty breathing)3.... Important Note on Species: It is worth verifying ",
+      "priority": 3
+    }
+  ]
+}

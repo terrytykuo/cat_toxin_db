@@ -1,107 +1,116 @@
 {
-  "plant": {
-    "common_name": "Cocoa",
-    "scientific_name": "Cocoa",
-    "family": "Various",
-    "description": "Brief Description and Common Forms\nDescription: Cocoa is the core ingredient used to make chocolate products, produced by processing and roasting cacao seeds. It is notable in veterinary toxicology because it contains high concentrations of methylxanthine alkaloids\u2014specifically theobromine and caffeine\u2014which act as dangerous stimulants and are highly toxic to cats and dogs12.\nCommon Forms: In households, cocoa is most commonly found as dry cocoa powder, whole cocoa beans, or integrated into various grades of chocolate (such as unsweetened baker's chocolate, semisweet chocolate, and milk chocolate)1.... Outside of the kitchen, it can also be encountered in the form of cocoa bean hulls, which are sometimes used as landscaping mulch or animal bedding and remain highly toxic to pets12."
-  },
-  "sources": [],
-  "toxic_parts": [
+  "aliases": [],
+  "category": "food",
+  "chemicals": [
+    {
+      "chemical_formula": "C",
+      "concentration_notes": "or potency: Theobromine is the primary toxic component in cocoa products4. Its concentration is extraordinarily high in unrefined and dry forms; dry cocoa powder contains approximately 28.5 mg/g of theobromine45. Raw cocoa beans consist of 1% to 2% theobromine, and cocoa bean hulls (often used as mulch) contain about 9.1 mg/g4. The median lethal dose (LD 50 ​ ) of theobromine for cats is 200 mg/kg",
+      "description": "in cats: Theobromine exerts its toxicity through three primary molecular pathways. First, it causes competitive antagonism of cellular adenosine receptors; because these receptors normally inhibit the central nervous system (CNS) and heart, blocking them causes severe CNS stimulation, diuresis (increased urination), and tachycardia (rapid heart rate)13. Second, it inhibits the enzyme phosphodieste",
+      "name": "Theobromine (3,7-dimethylxanthine)"
+    },
+    {
+      "chemical_formula": "C",
+      "concentration_notes": "or potency: While caffeine is present in dry cocoa powder at much lower concentrations than theobromine (typically 0.8 to 2.1 mg/g), both methylxanthines act synergistically to cause the clinical symptoms seen in toxicosis",
+      "description": "in cats: Caffeine shares the exact same toxicological mechanisms as theobromine. It blocks cellular adenosine receptors, inhibits phosphodiesterase, and alters calcium fluxes within the muscles13. This leads to severe overstimulation of the cardiovascular and nervous systems, resulting in hyperactivity, muscle tremors, and irregular heart rhythms13. Any notes on concentration or potency: While caf",
+      "name": "Caffeine (1,3,7-trimethylxanthine)"
+    }
+  ],
+  "description": "Cocoa is the concentrated base ingredient of all chocolate products, produced by processing cacao seeds. It is the most potent source of methylxanthines — theobromine and caffeine — of any common household food product. Dry cocoa powder contains approximately 30 mg of methylxanthines per gram, making it significantly more dangerous weight-for-weight than finished chocolate. Cats metabolise methylxanthines far more slowly than humans: these compounds block adenosine receptors, inhibit phosphodiesterase, and disrupt calcium signalling in cardiac and skeletal muscles, causing a cascade of CNS and cardiovascular effects.",
+  "emergencyNote": "Because cocoa contains highly concentrated levels of methylxanthines",
+  "family": "Various",
+  "isToxic": true,
+  "name": "Cocoa",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, excessive thirst and urination; rapidly progressing to agitation, rapid heart rate, tremors, hyperthermia, cardiac arrhythmia, and seizures.",
+    "Most toxic common source: Cocoa powder is more dangerous per gram than dark chocolate, baker's chocolate, or any other chocolate product — treat any exposure as a serious emergency.",
+    "Hidden sources: Hot cocoa powder, chocolate baking mixes, and cocoa mulch (used in gardens) all contain high methylxanthine levels.",
+    "Action: Veterinary emergency. Even a small amount of cocoa powder requires immediate veterinary attention."
+  ],
+  "scientific_name": "Cocoa",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Gastrointestinal Upset (Vomiting and Diarrhea)",
+      "notes": "These are generally the first clinical signs of methylxanthine (theobromine and caffeine) poisoning after a cat consumes cocoa products",
+      "onset": "2 to 12 hours (often the initial symptoms to manifest).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Increased Thirst and Urination (Polydipsia and Polyuria)",
+      "notes": "Theobromine acts as a diuretic, increasing the loss of bodily fluids and causing the cat to pass large amounts of urine, which can rapidly lead to systemic dehydration",
+      "onset": "2 to 12 hours.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Severe Neurological Overstimulation",
+      "notes": "Methylxanthines cause severe central nervous system overstimulation. The cat may initially show disorientation and extreme agitation, which can rapidly progress to severe muscle tremors, convulsions, and potentially a coma",
+      "onset": "2 to 12 hours (progresses as the toxins are absorbed into the bloodstream).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Cardiovascular Dysfunction",
+      "notes": "Theobromine and caffeine abnormally enhance the strength and contractility of cardiac muscles. This results in very rapid, irregular heart rhythms, potential internal bleeding, and ultimately cardiac arrest or a heart attack in the terminal phase",
+      "onset": "2 to 12 hours.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Respiratory Distress",
+      "notes": "As cardiovascular and systemic distress worsens, cats will pant and breathe rapidly2.... They may develop a bluish tinge to their skin and mucous membranes (cyanosis) due to poor oxygenation, culminating in respiratory failure",
+      "onset": "Mid to late stages (progressing from 6 to 12 hours).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Hyperthermia",
+      "notes": "The extreme overstimulation of the nervous system and relentless muscle tremors generate excessive heat, causing the cat's core body temperature to spike to dangerous levels",
+      "onset": "Mid to late stage (6 to 12 hours).",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
     "Seed",
     "Powder"
   ],
-  "toxins": [
-    {
-      "name": "Theobromine (3,7-dimethylxanthine)",
-      "chemical_formula": "C",
-      "description": "in cats: Theobromine exerts its toxicity through three primary molecular pathways. First, it causes competitive antagonism of cellular adenosine receptors; because these receptors normally inhibit the central nervous system (CNS) and heart, blocking them causes severe CNS stimulation, diuresis (increased urination), and tachycardia (rapid heart rate)13. Second, it inhibits the enzyme phosphodiesterase, leading to a dangerous accumulation of intracellular cyclic AMP13. Third, it increases intracellular calcium levels by increasing cellular entry and inhibiting the sarcoplasmic reticulum from sequestering calcium, which abnormally amplifies the contractility and strength of skeletal and cardiac muscles, leading to tremors and cardiac arrhythmias13.\nAny notes on concentration or potency: Theobromine is the primary toxic component in cocoa products4. Its concentration is extraordinarily high in unrefined and dry forms; dry cocoa powder contains approximately 28.5 mg/g of theobromine45. Raw cocoa beans consist of 1% to 2% theobromine, and cocoa bean hulls (often used as mulch) contain about 9.1 mg/g4. The median lethal dose (LD\n50\n\t\u200b\n\n) of theobromine for cats is 200 mg/kg",
-      "concentration_notes": "or potency: Theobromine is the primary toxic component in cocoa products4. Its concentration is extraordinarily high in unrefined and dry forms; dry cocoa powder contains approximately 28.5 mg/g of theobromine45. Raw cocoa beans consist of 1% to 2% theobromine, and cocoa bean hulls (often used as mulch) contain about 9.1 mg/g4. The median lethal dose (LD\n50\n\t\u200b\n\n) of theobromine for cats is 200 mg/kg"
-    },
-    {
-      "name": "Caffeine (1,3,7-trimethylxanthine)",
-      "chemical_formula": "C",
-      "description": "in cats: Caffeine shares the exact same toxicological mechanisms as theobromine. It blocks cellular adenosine receptors, inhibits phosphodiesterase, and alters calcium fluxes within the muscles13. This leads to severe overstimulation of the cardiovascular and nervous systems, resulting in hyperactivity, muscle tremors, and irregular heart rhythms13.\nAny notes on concentration or potency: While caffeine is present in dry cocoa powder at much lower concentrations than theobromine (typically 0.8 to 2.1 mg/g), both methylxanthines act synergistically to cause the clinical symptoms seen in toxicosis",
-      "concentration_notes": "or potency: While caffeine is present in dry cocoa powder at much lower concentrations than theobromine (typically 0.8 to 2.1 mg/g), both methylxanthines act synergistically to cause the clinical symptoms seen in toxicosis"
-    }
-  ],
-  "symptoms": [
-    {
-      "name": "1. Gastrointestinal Upset (Vomiting and Diarrhea)",
-      "body_system": "Gastrointestinal",
-      "severity": "moderate",
-      "onset": "2 to 12 hours (often the initial symptoms to manifest).",
-      "notes": "These are generally the first clinical signs of methylxanthine (theobromine and caffeine) poisoning after a cat consumes cocoa products"
-    },
-    {
-      "name": "Increased Thirst and Urination (Polydipsia and Polyuria)",
-      "body_system": "Renal",
-      "severity": "moderate",
-      "onset": "2 to 12 hours.",
-      "notes": "Theobromine acts as a diuretic, increasing the loss of bodily fluids and causing the cat to pass large amounts of urine, which can rapidly lead to systemic dehydration"
-    },
-    {
-      "name": "Severe Neurological Overstimulation",
-      "body_system": "Neurological",
-      "severity": "fatal",
-      "onset": "2 to 12 hours (progresses as the toxins are absorbed into the bloodstream).",
-      "notes": "Methylxanthines cause severe central nervous system overstimulation. The cat may initially show disorientation and extreme agitation, which can rapidly progress to severe muscle tremors, convulsions, and potentially a coma"
-    },
-    {
-      "name": "Cardiovascular Dysfunction",
-      "body_system": "Cardiac",
-      "severity": "fatal",
-      "onset": "2 to 12 hours.",
-      "notes": "Theobromine and caffeine abnormally enhance the strength and contractility of cardiac muscles. This results in very rapid, irregular heart rhythms, potential internal bleeding, and ultimately cardiac arrest or a heart attack in the terminal phase"
-    },
-    {
-      "name": "Respiratory Distress",
-      "body_system": "Respiratory",
-      "severity": "fatal",
-      "onset": "Mid to late stages (progressing from 6 to 12 hours).",
-      "notes": "As cardiovascular and systemic distress worsens, cats will pant and breathe rapidly2.... They may develop a bluish tinge to their skin and mucous membranes (cyanosis) due to poor oxygenation, culminating in respiratory failure"
-    },
-    {
-      "name": "Hyperthermia",
-      "body_system": "Neurological",
-      "severity": "severe",
-      "onset": "Mid to late stage (6 to 12 hours).",
-      "notes": "The extreme overstimulation of the nervous system and relentless muscle tremors generate excessive heat, causing the cat's core body temperature to spike to dangerous levels"
-    }
-  ],
+  "toxicityLevel": "severe",
   "treatments": [
     {
-      "name": "Because cocoa contains highly concentrated levels of methylxanthines",
-      "priority": 1,
       "description": null,
-      "notes": null
+      "name": "Because cocoa contains highly concentrated levels of methylxanthines",
+      "notes": null,
+      "priority": 1
     },
     {
+      "description": "of the procedure: For cats presenting with advanced clinical signs, the veterinarian will immediately administer medications such as diazepam or barbiturates to halt muscle tremors and seizures, and beta-blockers (like metoprolol) to treat rapid heart rates and cardiac arrhythmias34. Artificial respiration may also be provided if necessary4. Any situation-specific",
       "name": "Emergency Stabilization (Seizure Control and Cardiovascular Support)",
-      "description": "of the procedure: For cats presenting with advanced clinical signs, the veterinarian will immediately administer medications such as diazepam or barbiturates to halt muscle tremors and seizures, and beta-blockers (like metoprolol) to treat rapid heart rates and cardiac arrhythmias34. Artificial respiration may also be provided if necessary4.\nAny situation-specific",
       "notes": "This is the highest priority for symptomatic cats to prevent immediate death. Crucially, lidocaine cannot be used in cats to treat ventricular arrhythmias, as it is toxic to them",
       "priority": 2
     },
     {
+      "description": "of the procedure: If the cocoa ingestion occurred within the last 1 to 2 hours and the cat is still asymptomatic, the veterinarian will administer a medication (such as the α 2 ​ -adrenergic agonist dexmedetomidine) to safely induce vomiting35. If the cat is already seizing or heavily sedated, inducing vomiting is unsafe, and a gastric lavage (stomach pumping) may be considered instead4. Any situa",
       "name": "Early Gastrointestinal Decontamination (Induction of Emesis or Gastric Lavage)",
-      "description": "of the procedure: If the cocoa ingestion occurred within the last 1 to 2 hours and the cat is still asymptomatic, the veterinarian will administer a medication (such as the \u03b1\n2\n\t\u200b\n\n-adrenergic agonist dexmedetomidine) to safely induce vomiting35. If the cat is already seizing or heavily sedated, inducing vomiting is unsafe, and a gastric lavage (stomach pumping) may be considered instead4.\nAny situation-specific",
       "notes": "Hydrogen peroxide is strictly contraindicated in cats for inducing vomiting because it can cause fatal hemorrhagic gastritis",
       "priority": 3
     },
     {
+      "description": "of the procedure: The cat is given oral doses of activated charcoal (typically 1–4 g/kg) to bind any remaining theobromine and caffeine in the gastrointestinal tract so it cannot be absorbed into the bloodstream34. Any situation-specific",
       "name": "Toxin Adsorption (Activated Charcoal)",
-      "description": "of the procedure: The cat is given oral doses of activated charcoal (typically 1\u20134 g/kg) to bind any remaining theobromine and caffeine in the gastrointestinal tract so it cannot be absorbed into the bloodstream34.\nAny situation-specific",
-      "notes": "Because methylxanthines undergo enterohepatic recirculation (meaning they are processed by the liver, secreted back into the intestines, and reabsorbed), repeated doses of activated charcoal must be administered every 3 hours for up to 72 hours4. Antiemetic medications (like metoclopramide) may be given to stop vomiting so the cat can keep the charcoal down",
+      "notes": "Because methylxanthines undergo enterohepatic recirculation (meaning they are processed by the liver, secreted back into the intestines, and reabsorbed), repeated doses of activated charcoal must be administered every 3 hours for up to 72 hours4. Antiemetic medications (like metoclopramide) may be g",
       "priority": 4
     },
     {
+      "description": "of the procedure: The cat is hospitalized and placed on continuous IV fluids to stabilize cardiovascular function and force the kidneys to rapidly excrete the methylxanthines in the urine34. A urinary catheter is also placed to keep the bladder continuously empty4. Any situation-specific",
       "name": "Fluid Diuresis and Urinary Excretion Support",
-      "description": "of the procedure: The cat is hospitalized and placed on continuous IV fluids to stabilize cardiovascular function and force the kidneys to rapidly excrete the methylxanthines in the urine34. A urinary catheter is also placed to keep the bladder continuously empty4.\nAny situation-specific",
       "notes": "Placing a urinary catheter is an incredibly critical step because methylxanthines and their toxic metabolites can be reabsorbed back into the bloodstream directly across the bladder wall if urine is allowed to pool",
       "priority": 5
     },
     {
+      "description": "of the procedure: The veterinary team continuously monitors the cat's cardiac status via electrocardiography (ECG), corrects any acid/base or electrolyte abnormalities, and actively manages the cat's body temperature to treat hyperthermia (overheating) caused by the hyperactivity and muscle tremors4. Any situation-specific",
       "name": "Ongoing Symptomatic and Metabolic Care",
-      "description": "of the procedure: The veterinary team continuously monitors the cat's cardiac status via electrocardiography (ECG), corrects any acid/base or electrolyte abnormalities, and actively manages the cat's body temperature to treat hyperthermia (overheating) caused by the hyperactivity and muscle tremors4.\nAny situation-specific",
       "notes": "Because cats metabolize these toxins very slowly, clinical signs can persist for up to 72 hours in severe cases34. Certain medications, such as erythromycin and corticosteroids, must be explicitly avoided during treatment as they actively interfere with the body's ability to excrete methylxanthines",
       "priority": 6
     }

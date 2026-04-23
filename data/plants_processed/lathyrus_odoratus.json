@@ -1,0 +1,86 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": "C\n3\n\t​\n\nH\n6\n\t​\n\nN\n2\n\t​",
+      "concentration_notes": "The plant is generally considered to have a low to moderate toxicity level, as your sources note that a cat must consume \"large amounts\" of the plant for it to cause severe harm1. The highest and most dangerous concentration of these toxins is found specifically in the seeds (the peas) and the seed pods of the plant.",
+      "description": "in cats: These toxic amino acids interfere with the central nervous system and inhibit the enzyme lysyl oxidase, which is necessary for the proper cross-linking of collagen and elastin in the body. This disruption leads to a toxic condition known as \"lathyrism.\" This can severely weaken connective tissues and cause neurological impairment, which manifests as weakness, lethargy, pacing, and in seve",
+      "name": "Aminopropionitriles (specifically beta-aminopropionitrile or BAPN)"
+    }
+  ],
+  "description": "Sweet Pea (Lathyrus odoratus) is a fragrant climbing flowering plant toxic to cats. It contains aminopropionitrile and related beta-aminopropionitrile compounds (lathyrogens) that cause a condition called lathyrism — affecting the nervous system and connective tissue. The seeds contain the highest concentration of these compounds.",
+  "emergencyNote": "Emesis Induction and Activated Charcoal",
+  "family": "Fabaceae",
+  "isToxic": true,
+  "name": "Sweet Pea",
+  "safetyNotes": [
+    "Toxic compounds: aminopropionitrile (BAPN) and lathyrogen compounds; seeds most concentrated; stems and leaves also toxic",
+    "Mechanism: lathyrogens inhibit lysyl oxidase, an enzyme critical for collagen and elastin cross-linking; also cause direct nervous system toxicity (neurological lathyrism)",
+    "Symptoms: weakness, loss of coordination, paralysis, respiratory difficulty; also vomiting and lethargy",
+    "Sweet Pea is an ornamental plant — not related to edible garden peas (Pisum sativum)",
+    "Seek veterinary care if ingestion is suspected, especially if seeds were consumed"
+  ],
+  "scientific_name": "Lathyrus odoratus",
+  "severity": "toxic",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and diarrhea",
+      "notes": "While small amounts of the plant typically will not harm a cat, ingesting large amounts will trigger these gastrointestinal issues1. 2. Dehydration",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Metabolic",
+      "name": "Dehydration",
+      "notes": "Cats may become dehydrated as a direct consequence of the vomiting and diarrhea caused by the plant's toxins1. 3. Lethargy",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy",
+      "notes": "Lethargy indicates a systemic toxic reaction, occurring after the cat has ingested a large amount of the plant1. 4. Seizures",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Seizures",
+      "notes": "Seizures present in severe cases of Sweet Pea poisoning1. (Note from our previous conversation: Severe neurological impairment, such as seizures and pacing, is a manifestation of \"lathyrism,\" which is caused by the toxic aminopropionitriles highly concentrated in the plant's seeds and seed pods).",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Seed",
+    "Leaf",
+    "Flower"
+  ],
+  "toxicityLevel": "mild",
+  "treatments": [
+    {
+      "description": "If the ingestion was recent, the veterinarian will medically induce vomiting to remove the plant material from the stomach before it can be fully digested34. This is often followed by administering a dose of activated charcoal, which binds to any remaining toxins in the gastrointestinal tract and prevents them from being absorbed into the bloodstream",
+      "name": "Emesis Induction and Activated Charcoal",
+      "notes": "You should never attempt to induce vomiting at home unless explicitly instructed by a veterinarian, as doing so incorrectly can cause significant injury6. 2. Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "description": "The veterinary team will administer IV fluids to rehydrate the cat, support blood pressure, and maintain proper organ function",
+      "name": "Intravenous (IV) Fluid Therapy",
+      "notes": "This intervention is particularly critical for Sweet Pea poisoning, as the plant's toxins trigger vomiting and diarrhea that can lead to significant dehydration14. 3. Symptomatic Gastrointestinal Support",
+      "priority": 2
+    },
+    {
+      "description": "The veterinarian will administer medications to stop nausea and vomiting (anti-emetics) alongside gastroprotectants or antacids to soothe the digestive tract",
+      "name": "Anti-emetics and Gastroprotectants",
+      "notes": "This supportive care is essential to keep the cat comfortable while the toxins pass through its system and to prevent further fluid loss from ongoing vomiting and diarrhea45. 4. Neurological Support (If Severe)",
+      "priority": 3
+    },
+    {
+      "description": "If the cat's nervous system is affected, the veterinarian will administer standard anticonvulsant medications (such as barbiturates or benzodiazepines) to control tremors or seizures",
+      "name": "Anticonvulsant Therapy",
+      "notes": "While mild exposures to Sweet Pea typically only cause gastrointestinal upset, consuming large amounts can cause severe poisoning resulting in seizures1. This treatment is utilized if the toxicity escalates to a neurological emergency.",
+      "priority": 4
+    }
+  ]
+}
