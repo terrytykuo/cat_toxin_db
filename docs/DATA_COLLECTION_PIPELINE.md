@@ -1,6 +1,6 @@
 # Data Collection Pipeline — Cat Vegetation Toxin Database
 
-How to systematically extract plant toxicity data from a NotebookLM notebook and push it into the database.
+How to systematically extract plant toxicity data from a NotebookLM notebook, shape it into validated JSON, and seed Firestore via the admin UI.
 
 ---
 
@@ -12,8 +12,8 @@ flowchart TD
     B --> C{"Answer complete?"}
     C -- No --> D["Ask follow-up\n(more detail / missing fields)"]
     D --> B
-    C -- Yes --> E["📝 Parse & Normalize\nExtract structured fields\nfrom raw answer"]
-    E --> F["💾 Insert into DB\nMap fields → tables"]
+    C -- Yes --> E["📝 Parse & Normalize\nraw JSON → processed JSON\n(schema-validated)"]
+    E --> F["💾 Seed to Firestore\nvia admin UI\n(double-writes disk JSON)"]
     F --> G{"More plants?"}
     G -- Yes --> B
     G -- No --> H["✅ Collection Complete"]
@@ -38,7 +38,7 @@ flowchart TD
 
 ## Query Strategy
 
-The queries are organized into **rounds** that map directly to the database tables. Each round targets one plant at a time to keep answers focused and parseable.
+The queries are organized into **rounds** that map directly onto the JSON record shape. Each round targets one plant at a time to keep answers focused and parseable.
 
 ### Round 0 — Discovery (run once)
 
@@ -54,7 +54,7 @@ This gives you the **iteration list** for the remaining rounds.
 
 ---
 
-### Round 1 — Plant basics → `plants`
+### Round 1 — Plant basics
 
 ```
 "For the plant [COMMON_NAME] ([SCIENTIFIC_NAME]):
@@ -63,11 +63,11 @@ This gives you the **iteration list** for the remaining rounds.
  Cite your sources."
 ```
 
-**Maps to:** `plants.family`, `plants.description`
+**Maps to JSON fields:** `family`, `description`
 
 ---
 
-### Round 2 — Toxic parts → `toxic_parts` + `plant_toxic_parts`
+### Round 2 — Toxic parts
 
 ```
 "Which parts of [COMMON_NAME] are toxic to cats?
@@ -75,11 +75,11 @@ This gives you the **iteration list** for the remaining rounds.
  Cite your sources."
 ```
 
-**Maps to:** `toxic_parts.name`, `plant_toxic_parts`
+**Maps to JSON fields:** `toxicParts[]`
 
 ---
 
-### Round 3 — Toxins → `toxins` + `plant_toxins`
+### Round 3 — Chemicals
 
 ```
 "What are the toxic compounds or substances in [COMMON_NAME] that harm cats?
@@ -91,11 +91,11 @@ This gives you the **iteration list** for the remaining rounds.
  Cite your sources."
 ```
 
-**Maps to:** `toxins.name`, `toxins.chemical_formula`, `toxins.description`, `plant_toxins.concentration_notes`
+**Maps to JSON fields:** `chemicals[].name`, `chemicals[].chemical_formula`, `chemicals[].description`, `chemicals[].concentration_notes`
 
 ---
 
-### Round 4 — Symptoms → `symptoms` + `plant_symptoms`
+### Round 4 — Symptoms
 
 ```
 "What symptoms does a cat show after ingesting or being exposed to [COMMON_NAME]?
@@ -108,11 +108,11 @@ This gives you the **iteration list** for the remaining rounds.
  Cite your sources."
 ```
 
-**Maps to:** `symptoms.name`, `symptoms.body_system`, `plant_symptoms.severity`, `plant_symptoms.onset`, `plant_symptoms.notes`
+**Maps to JSON fields:** `symptoms[].name`, `symptoms[].body_system`, `symptoms[].severity`, `symptoms[].onset`, `symptoms[].notes`
 
 ---
 
-### Round 5 — Treatments → `treatments` + `plant_treatments`
+### Round 5 — Treatments
 
 ```
 "What are the recommended veterinary treatments if a cat ingests [COMMON_NAME]?
@@ -124,16 +124,13 @@ This gives you the **iteration list** for the remaining rounds.
  Cite your sources."
 ```
 
-**Maps to:** `treatments.name`, `treatments.description`, `plant_treatments.priority`, `plant_treatments.notes`
+**Maps to JSON fields:** `treatments[].name`, `treatments[].description`, `treatments[].notes`, `treatments[].priority`
 
 ---
 
-### Round 6 — Sources (automatic)
+### Round 6 — Sources (captured in raw JSON)
 
-Every NotebookLM answer includes citations. Capture these as `sources` rows:
-- **title** — the cited document name
-- **url** — the source URL (if available)
-- **accessed_at** — today's date
+Every NotebookLM answer includes citations. These stay inline inside `data/plants/<slug>.json`'s `raw_responses` field for audit purposes — the processed toxin shape does not carry a structured `sources` array. If a citation contradicts later data, go back to the raw file.
 
 ---
 
@@ -146,7 +143,7 @@ NotebookLM allows **~50 queries/day** on a free account.
 | 0 — Discovery | 1 (total) | Run once |
 | 1 — Plant basics | 1 | |
 | 2 — Toxic parts | 1 | |
-| 3 — Toxins | 1 | May need 1 follow-up |
+| 3 — Chemicals | 1 | May need 1 follow-up |
 | 4 — Symptoms | 1 | May need 1 follow-up |
 | 5 — Treatments | 1 | |
 | **Total per plant** | **~5–7** | |
@@ -157,52 +154,44 @@ NotebookLM allows **~50 queries/day** on a free account.
 
 ## Data Normalization Rules
 
-Before inserting into the database, normalize the raw answers:
+Before writing processed JSON, normalize the raw answers:
 
 | Field | Rule |
 |---|---|
-| `scientific_name` | Title-case, italicized binomial (e.g. *Lilium longiflorum*) |
-| `toxic_parts.name` | Singular, capitalized (e.g. "Leaf" not "leaves") |
-| `toxins.name` | Capitalize first letter (e.g. "Lycorine") |
-| `symptoms.name` | Capitalize first letter (e.g. "Vomiting") |
-| `severity` | Must be exactly one of: `mild`, `moderate`, `severe`, `fatal` |
-| `plant_treatments.priority` | Integer starting from 1 (1 = most urgent) |
-| Deduplication | Before inserting a `toxin`, `symptom`, `toxic_part`, or `treatment`, check if it already exists (by name) and reuse the existing `id` |
+| `scientific_name` | Title-case binomial (e.g. *Lilium longiflorum*) |
+| `toxicParts[]` | Singular, lowercase (e.g. `"leaf"` not `"Leaves"`) |
+| `chemicals[].name` | Capitalize first letter (e.g. "Lycorine") |
+| `symptoms[].name` | Capitalize first letter (e.g. "Vomiting") |
+| `symptoms[].severity` | Exactly one of: `mild`, `moderate`, `severe`, `fatal` |
+| `severity` (top-level) | Exactly one of: `safe`, `cautious`, `toxic` |
+| `treatments[].priority` | Integer starting from 1 (1 = most urgent) |
+| `category` | Exactly `plant` or `food` |
+
+The canonical shape is defined in [`schemas/toxin.zod.ts`](../schemas/toxin.zod.ts) and the generated JSON Schema used for validation is `schemas/toxin.disk.schema.json`.
 
 ---
 
-## Insertion Order
+## Processed JSON shape
 
-Respect foreign key constraints — insert in this order:
+One file per toxin at `data/plants_processed/<slug>.json` (or `data/foods_processed/<slug>.json` when `category === 'food'`). `<slug>` is derived from `scientific_name`. Files must validate against `schemas/toxin.disk.schema.json` — `process_plants.py` / `process_foods.py` enforce this and refuse to write on failure.
 
-```
-1. plants
-2. toxic_parts        (deduplicate)
-3. plant_toxic_parts
-4. toxins              (deduplicate)
-5. plant_toxins
-6. symptoms            (deduplicate)
-7. plant_symptoms
-8. treatments          (deduplicate)
-9. plant_treatments
-10. sources
-```
+Firestore-only fields (`id`, `imageUrls`, `imageUrl`, `hidden`, `curatedList`) never appear on disk; they are added later by the admin UI when seeding.
 
 ---
 
 ## Verification
 
-Before inserting data into the database, run the verification workflow (`/verify-data`) to catch issues:
+Before seeding to Firestore, run the verification workflow (`/verify-data`) to catch issues:
 
 ```bash
-python3 verify_raw.py       # flags incomplete raw collection
-python3 process_plants.py   # re-parse raw → processed
-python3 verify_plants.py    # 3-tier audit: completeness, schema, cleanliness
+python3 pipeline/verify_raw.py       # flags incomplete raw collection
+python3 pipeline/process_plants.py   # re-parse raw → processed (schema-validated)
+python3 pipeline/verify_plants.py    # 3-tier audit: completeness, schema, cleanliness
 ```
 
 The audit checks for:
 - **Completeness** — all required fields and arrays are non-empty
-- **Schema** — values match DB constraints (severity enum, field lengths, valid toxic parts)
+- **Schema** — values match `toxin.disk.schema.json` constraints (severity enum, field lengths, valid toxic parts)
 - **Cleanliness** — no parsing artifacts, trailing source refs, header labels as values, or chatbot text
 
 A plant should not be marked as "Done" in `collection_status.md` until it passes all checks.
@@ -220,26 +209,27 @@ A plant should not be marked as "Done" in `collection_status.md` until it passes
           ▼  Pick: "Easter Lily"
 ┌─ Round 1 ───────────────────────────────────────────────┐
 │  "For Easter Lily…family, description…"                 │
-│  → INSERT INTO plants (…)                               │
+│  → raw JSON: data/plants/lilium_longiflorum.json        │
 └─────────────────────────────────────────────────────────┘
           │
           ▼
 ┌─ Round 2 ───────────────────────────────────────────────┐
 │  "Which parts of Easter Lily are toxic?"                │
-│  → INSERT INTO toxic_parts / plant_toxic_parts          │
+│  → append to the same raw JSON (toxicParts)             │
 └─────────────────────────────────────────────────────────┘
           │
           ▼
 ┌─ Rounds 3–5 (same pattern) ────────────────────────────┐
-│  Toxins → Symptoms → Treatments                        │
+│  Chemicals → Symptoms → Treatments                      │
 └─────────────────────────────────────────────────────────┘
           │
           ▼
 ┌─ Round 6 ───────────────────────────────────────────────┐
-│  Collect citations from all answers                     │
-│  → INSERT INTO sources                                  │
+│  Citations stay inline inside raw_responses             │
 └─────────────────────────────────────────────────────────┘
           │
+          ▼  Then: process_plants.py → schema-validated
+          ▼        admin UI → Firestore + disk JSON mirror
           ▼  Next plant: "Sago Palm" → repeat
 ```
 
