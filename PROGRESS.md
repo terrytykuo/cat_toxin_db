@@ -1,5 +1,27 @@
 # Cat Toxin DB — Progress Log
 
+## 2026-04-30 — 修正驗證腳本與收集進度同步
+
+### 完成項目
+
+#### Task 1：驗證腳本對齊現況資料格式
+- 新增 `pipeline/verify_common.py`，統一 legacy processed JSON 與 Firestore mirror flat JSON 的驗證投影
+- 修正 `pipeline/verify_plants.py`，現在可同時驗證舊版 `plant/toxins/...` 結構與新版 flat 結構
+- 修正 `pipeline/verify_foods.py`，food 端也改為同一套正規化流程
+
+#### Task 2：收集狀態同步修正
+- 修正 `pipeline/sync_status.py`，不再只靠猜檔名，改為掃描 raw/processed JSON 的檔名與內容來判定完成狀態
+- 修正 `pipeline/sync_status_food.py`，同步支援 processed 目錄與內容比對
+- 補回 `Peppermint`、`Ragwort / Tansy` 在 `data/collection_status.md` 的漏標完成狀態
+
+#### Task 3：驗證報表更新
+- 重新產生 plant / food 驗證報表，讓輸出反映目前 repo 的混合資料格式，而非把新版 flat JSON 全部誤判失敗
+
+### 已知事項
+
+- `data/plants_processed/` 與 `data/foods_processed/` 目前仍同時保留 legacy 與 Firestore mirror 兩種檔案格式；本次先讓驗證工具相容，未在這一輪做資料搬遷或去重
+- plant side 共有 198 個 processed JSON，其中 35 個 legacy、163 個 flat；food side 共有 57 個 processed JSON，其中 9 個 legacy、48 個 flat
+
 ## 2026-02-23 — 完成資料清洗 + D1 匯入 + API 部署
 
 ### 完成項目
