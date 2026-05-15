@@ -422,26 +422,75 @@ app.get('/api/glossary/examples', async (req, res) => {
       terms: {},
     }
 
-    for (const sev of ['mild', 'moderate', 'severe', 'fatal']) {
+    function findSymptomContaining(predicate, term) {
+      const needle = term.toLowerCase()
       for (const t of toxins) {
-        const hit = (t.symptoms || []).find(s => s?.severity === sev && s?.name)
-        if (hit) {
-          examples.symptoms_severity[sev] = { source: t.name || t.id, quote: hit.name }
-          break
+        for (const s of t.symptoms || []) {
+          if (predicate(s) && typeof s?.name === 'string' && s.name.toLowerCase().includes(needle)) {
+            return { source: t.name || t.id, quote: s.name }
+          }
+        }
+      }
+      return null
+    }
+
+    function collectSymptomNames(predicate, limit) {
+      const seen = []
+      const dedup = new Set()
+      const MAX_NAME_LEN = 60
+      for (const t of toxins) {
+        for (const s of t.symptoms || []) {
+          if (
+            predicate(s) &&
+            typeof s?.name === 'string' &&
+            s.name.length <= MAX_NAME_LEN &&
+            !dedup.has(s.name)
+          ) {
+            dedup.add(s.name)
+            seen.push(s.name)
+            if (seen.length >= limit) return seen
+          }
+        }
+      }
+      return seen
+    }
+
+    for (const sev of ['mild', 'moderate', 'severe', 'fatal']) {
+      const direct = findSymptomContaining(s => s?.severity === sev, sev)
+      if (direct) {
+        examples.symptoms_severity[sev] = direct
+      } else {
+        const names = collectSymptomNames(s => s?.severity === sev, 3)
+        if (names.length) {
+          examples.symptoms_severity[sev] = {
+            source: `${names.length} tagged ${sev}`,
+            quote: names.join(' · '),
+          }
         }
       }
     }
 
-    const bySys = new Map()
+    const bsSeen = new Set()
     for (const t of toxins) {
       for (const s of t.symptoms || []) {
         const bs = typeof s?.body_system === 'string' ? s.body_system.trim() : ''
-        if (bs && !bySys.has(bs) && s.name) {
-          bySys.set(bs, { source: t.name || t.id, quote: s.name })
+        if (bs) bsSeen.add(bs)
+      }
+    }
+    for (const bs of bsSeen) {
+      const direct = findSymptomContaining(s => s?.body_system === bs, bs)
+      if (direct) {
+        examples.body_system[bs] = direct
+      } else {
+        const names = collectSymptomNames(s => s?.body_system === bs, 3)
+        if (names.length) {
+          examples.body_system[bs] = {
+            source: `${names.length} tagged "${bs}"`,
+            quote: names.join(' · '),
+          }
         }
       }
     }
-    for (const [k, v] of bySys) examples.body_system[k] = v
 
     const partToToxins = new Map()
     for (const t of toxins) {
