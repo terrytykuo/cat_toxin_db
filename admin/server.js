@@ -9,6 +9,7 @@ import sharp from 'sharp'
 
 import { stripFirestoreOnly } from './lib/field-policy.js'
 import { atomicWriteJson, resolveDiskPath, validateDiskPayload } from './lib/disk-writer.js'
+import { validateGlossary } from './lib/glossary-validator.js'
 
 async function compressImage(buffer) {
   return sharp(buffer)
@@ -287,6 +288,219 @@ app.delete('/api/toxins/:id/images/:index', async (req, res) => {
     }
 
     res.json({ ok: true, imageUrls: next })
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
+const GLOSSARY_COLLECTION = 'glossary'
+const GLOSSARY_DOC = 'main'
+const SYMPTOM_SEVERITY_KEYS = ['mild', 'moderate', 'severe', 'fatal']
+
+function emptyMap(keys) {
+  return Object.fromEntries(keys.map(k => [k, '']))
+}
+
+async function extractVocabularyFromToxins() {
+  const snap = await db.collection('toxins').get()
+  const body = new Set()
+  const parts = new Set()
+  for (const doc of snap.docs) {
+    const t = doc.data() || {}
+    for (const s of t.symptoms || []) {
+      const bs = typeof s?.body_system === 'string' ? s.body_system.trim() : ''
+      if (bs) body.add(bs)
+    }
+    for (const p of t.toxicParts || []) {
+      const tp = typeof p === 'string' ? p.trim() : ''
+      if (tp) parts.add(tp)
+    }
+  }
+  return {
+    body_system: [...body].sort(),
+    toxic_parts: [...parts].sort(),
+  }
+}
+
+function isoOrNull(value) {
+  if (!value) return null
+  if (typeof value.toDate === 'function') return value.toDate().toISOString()
+  if (value instanceof Date) return value.toISOString()
+  return null
+}
+
+async function seedGlossary() {
+  const vocab = await extractVocabularyFromToxins()
+  return {
+    symptoms_severity: emptyMap(SYMPTOM_SEVERITY_KEYS),
+    body_system: emptyMap(vocab.body_system),
+    toxic_parts: emptyMap(vocab.toxic_parts),
+    terms: {},
+  }
+}
+
+app.get('/api/glossary', async (req, res) => {
+  try {
+    const ref = db.collection(GLOSSARY_COLLECTION).doc(GLOSSARY_DOC)
+    const snap = await ref.get()
+    if (snap.exists) {
+      const data = snap.data() || {}
+      return res.json({
+        symptoms_severity: data.symptoms_severity || {},
+        body_system: data.body_system || {},
+        toxic_parts: data.toxic_parts || {},
+        terms: data.terms || {},
+        updated_at: isoOrNull(data.updated_at),
+      })
+    }
+    const seed = await seedGlossary()
+    await ref.set({ ...seed, updated_at: admin.firestore.FieldValue.serverTimestamp() })
+    const written = await ref.get()
+    res.json({ ...seed, updated_at: isoOrNull(written.data()?.updated_at) })
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
+app.put('/api/glossary', async (req, res) => {
+  try {
+    const payload = {
+      symptoms_severity: req.body?.symptoms_severity || {},
+      body_system: req.body?.body_system || {},
+      toxic_parts: req.body?.toxic_parts || {},
+      terms: req.body?.terms || {},
+    }
+    const { ok, errors } = validateGlossary(payload)
+    if (!ok) return res.status(422).json({ error: 'Glossary failed validation', errors })
+
+    const ref = db.collection(GLOSSARY_COLLECTION).doc(GLOSSARY_DOC)
+    await ref.set({ ...payload, updated_at: admin.firestore.FieldValue.serverTimestamp() })
+    const written = await ref.get()
+    res.json({ ...payload, updated_at: isoOrNull(written.data()?.updated_at) })
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
+function splitSentences(text) {
+  if (typeof text !== 'string' || !text.trim()) return []
+  return text
+    .split(/(?<=[.!?。！？])\s+/)
+    .map(s => s.trim())
+    .filter(s => s.length > 0 && s.length < 400)
+}
+
+function findSentenceContaining(text, needle) {
+  if (typeof text !== 'string') return null
+  const needleLower = needle.toLowerCase()
+  for (const sentence of splitSentences(text)) {
+    if (sentence.toLowerCase().includes(needleLower)) return sentence
+  }
+  return null
+}
+
+function extractTermExample(toxins, term) {
+  for (const t of toxins) {
+    const fields = [t.description, ...(t.safetyNotes || [])]
+    for (const f of fields) {
+      const hit = findSentenceContaining(f, term)
+      if (hit) return { source: t.name || t.id, quote: hit }
+    }
+  }
+  return null
+}
+
+app.get('/api/glossary/examples', async (req, res) => {
+  try {
+    const snap = await db.collection('toxins').get()
+    const toxins = snap.docs.map(d => ({ id: d.id, ...d.data() }))
+
+    const examples = {
+      symptoms_severity: {},
+      body_system: {},
+      toxic_parts: {},
+      terms: {},
+    }
+
+    for (const sev of ['mild', 'moderate', 'severe', 'fatal']) {
+      for (const t of toxins) {
+        const hit = (t.symptoms || []).find(s => s?.severity === sev && s?.name)
+        if (hit) {
+          examples.symptoms_severity[sev] = { source: t.name || t.id, quote: hit.name }
+          break
+        }
+      }
+    }
+
+    const bySys = new Map()
+    for (const t of toxins) {
+      for (const s of t.symptoms || []) {
+        const bs = typeof s?.body_system === 'string' ? s.body_system.trim() : ''
+        if (bs && !bySys.has(bs) && s.name) {
+          bySys.set(bs, { source: t.name || t.id, quote: s.name })
+        }
+      }
+    }
+    for (const [k, v] of bySys) examples.body_system[k] = v
+
+    const partToToxins = new Map()
+    for (const t of toxins) {
+      for (const p of t.toxicParts || []) {
+        const part = typeof p === 'string' ? p.trim() : ''
+        if (!part) continue
+        if (!partToToxins.has(part)) partToToxins.set(part, [])
+        partToToxins.get(part).push(t)
+      }
+    }
+    for (const [part, candidates] of partToToxins) {
+      let chosen = null
+      for (const t of candidates) {
+        const hit = findSentenceContaining(t.description, part)
+          || (t.safetyNotes || []).map(n => findSentenceContaining(n, part)).find(Boolean)
+        if (hit) { chosen = { source: t.name || t.id, quote: hit }; break }
+      }
+      if (!chosen) {
+        const first = candidates[0]
+        chosen = { source: first.name || first.id, quote: `(used as toxic part of "${first.name || first.id}")` }
+      }
+      examples.toxic_parts[part] = chosen
+    }
+
+    const ref = db.collection(GLOSSARY_COLLECTION).doc(GLOSSARY_DOC)
+    const gSnap = await ref.get()
+    const termsMap = gSnap.exists ? (gSnap.data()?.terms || {}) : {}
+    for (const term of Object.keys(termsMap)) {
+      const ex = extractTermExample(toxins, term)
+      if (ex) examples.terms[term] = ex
+    }
+
+    res.json(examples)
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
+app.post('/api/glossary/sync-vocabulary', async (req, res) => {
+  try {
+    const ref = db.collection(GLOSSARY_COLLECTION).doc(GLOSSARY_DOC)
+    const [snap, vocab] = await Promise.all([ref.get(), extractVocabularyFromToxins()])
+    const current = snap.exists ? (snap.data() || {}) : {}
+    const currentBody = Object.keys(current.body_system || {})
+    const currentParts = Object.keys(current.toxic_parts || {})
+
+    const diff = (current, fromToxins) => {
+      const setCurrent = new Set(current)
+      const setToxins = new Set(fromToxins)
+      return {
+        add: fromToxins.filter(v => !setCurrent.has(v)),
+        orphan: current.filter(v => !setToxins.has(v)),
+      }
+    }
+
+    res.json({
+      body_system: diff(currentBody, vocab.body_system),
+      toxic_parts: diff(currentParts, vocab.toxic_parts),
+    })
   } catch (e) {
     res.status(500).json({ error: e.message })
   }

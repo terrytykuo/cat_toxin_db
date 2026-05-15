@@ -45,3 +45,36 @@ export interface Toxin {
   emergencyNote?: string
   hidden?: boolean
 }
+
+export interface Glossary {
+  symptoms_severity: Record<string, string>
+  body_system: Record<string, string>
+  toxic_parts: Record<string, string>
+  terms: Record<string, string>
+}
+
+export interface GlossaryWithMeta extends Glossary {
+  updated_at?: string | null
+}
+
+export interface VocabularyDiff {
+  add: string[]
+  orphan: string[]
+}
+
+export interface SyncVocabularyResponse {
+  body_system: VocabularyDiff
+  toxic_parts: VocabularyDiff
+}
+
+export interface GlossaryExample {
+  source: string
+  quote: string
+}
+
+export interface GlossaryExamplesResponse {
+  symptoms_severity: Record<string, GlossaryExample>
+  body_system: Record<string, GlossaryExample>
+  toxic_parts: Record<string, GlossaryExample>
+  terms: Record<string, GlossaryExample>
+}

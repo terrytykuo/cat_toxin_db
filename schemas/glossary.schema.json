@@ -1,0 +1,42 @@
+{
+  "$ref": "#/definitions/Glossary",
+  "definitions": {
+    "Glossary": {
+      "type": "object",
+      "properties": {
+        "symptoms_severity": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "body_system": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "toxic_parts": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "terms": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "symptoms_severity",
+        "body_system",
+        "toxic_parts",
+        "terms"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
