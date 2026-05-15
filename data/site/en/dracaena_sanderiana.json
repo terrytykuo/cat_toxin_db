@@ -1,0 +1,58 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Lucky Bamboo (Dracaena sanderiana) is a popular decorative plant often sold in water or soil arrangements. Despite its name, it is not a true bamboo — it is a Dracaena species and shares the same toxicity profile as other Dracaena plants. It contains steroidal saponins that irritate the gastrointestinal tract and produce cat-specific neurological effects.",
+  "imageUrls": [],
+  "name": "Lucky Bamboo",
+  "safetyNotes": [
+    "Toxic compounds: steroidal saponins (consistent with Dracaena genus)",
+    "Mechanism: saponins disrupt cell membrane integrity causing GI irritation; neurological effects noted in cats specifically",
+    "Symptoms: vomiting (sometimes blood-tinged), drooling, loss of appetite, weakness, dilated pupils (mydriasis)",
+    "Dilated pupils are a notable cat-specific sign of Dracaena/Lucky Bamboo toxicity",
+    "Water containing Lucky Bamboo may also carry some toxins — prevent cats from drinking from the vase"
+  ],
+  "scientificName": "Dracaena sanderiana",
+  "severity": "toxic",
+  "slug": "dracaena_sanderiana",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling",
+      "onset": "Rapid / immediate upon chewing (specific time not provided in sources).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting (which can occasionally contain blood)",
+      "onset": "Rapid.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "onset": "Variable (typically occurs as the toxins move through the digestive tract).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal pain and inappetence (anorexia)",
+      "onset": "Rapid to delayed.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Dilated pupils (mydriasis)",
+      "onset": "Variable.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Depression (lethargy), generalized weakness, and incoordination (ataxia)",
+      "onset": "Delayed (usually follows the initial GI distress).",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Leaf"
+  ]
+}

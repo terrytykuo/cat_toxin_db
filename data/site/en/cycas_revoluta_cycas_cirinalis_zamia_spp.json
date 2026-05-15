@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Sago Palm (Cycas revoluta) and related cycad species are among the most hepatotoxic plants known, with a case fatality rate exceeding 50% even with treatment. Every part is toxic — but the seeds (\"nuts\") are the most concentrated source. Cycasin, the primary toxin, causes rapid, severe liver failure that is often fatal.",
+  "imageUrls": [],
+  "name": "Sago Palm / Cycads",
+  "safetyNotes": [
+    "Toxic compounds: cycasin (methylazoxymethanol glycoside) in all parts; seeds contain the highest concentration",
+    "Mechanism: cycasin is metabolised to methylazoxymethanol (MAM), a powerful alkylating agent causing hepatocellular necrosis and DNA cross-linking",
+    "Symptoms (within 15 minutes to 3 hours): vomiting, diarrhea, drooling, lethargy; severe liver failure follows: jaundice, bleeding, neurological signs, coma",
+    "Seeds are the greatest risk — 1–2 seeds can kill a cat; all parts carry life-threatening toxicity",
+    "Any suspected ingestion is a critical veterinary emergency — survival depends on immediate, aggressive treatment"
+  ],
+  "scientificName": "Cycas revoluta, Cycas cirinalis, Zamia spp.",
+  "severity": "toxic",
+  "slug": "cycas_revoluta_cycas_cirinalis_zamia_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, drooling, anorexia, severe abdominal pain, increased thirst, and diarrhea (which may be bloody or appear as black, \"tarry\" feces)",
+      "onset": "Initial clinical signs typically appear rapidly, often within the first 4 hours of ingestion",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Jaundice (yellowing of the skin and eyes), profound hepatic necrosis, and severe liver failure",
+      "onset": "Progresses over 48 to 72 hours following ingestion",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Bruising, blood clots, petechiae (pinpoint spots of bleeding), ecchymotic hemorrhages, and generalized abnormal bleeding",
+      "onset": "Delayed; develops secondary to liver failure within 48 to 72 hours",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Lethargy, extreme weakness, ataxia (loss of coordination), tremors, paralysis, seizures, coma, and eventually death",
+      "onset": "Can begin developing within hours,",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Seed",
+    "Entire Plant"
+  ]
+}

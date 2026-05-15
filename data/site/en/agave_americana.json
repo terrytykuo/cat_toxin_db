@@ -1,0 +1,40 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Century Plant (Agave americana) is a large, dramatic succulent commonly found in gardens and as a container plant. Despite its striking appearance, it is toxic to cats. The plant's sap contains irritating saponins and calcium oxalate crystals, and the leaves have extremely sharp terminal spines capable of causing physical puncture injuries. Contact with the sap causes immediate chemical burns and dermatitis; ingestion triggers gastrointestinal irritation.",
+  "imageUrls": [],
+  "name": "Century Plant",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, and abdominal pain from ingestion; skin redness, blistering, and swelling from sap contact; puncture wounds from spines.",
+    "Sap is the primary chemical hazard: It causes both contact irritation and, if ingested, GI distress. The clear sap can squirt when a leaf is broken.",
+    "Action: Rinse skin or mouth thoroughly with water after any contact. Seek veterinary care if significant sap was ingested or skin reactions are severe."
+  ],
+  "scientificName": "Agave americana",
+  "severity": "cautious",
+  "slug": "agave_americana",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Oral Mucosal Irritation (pain and irritation of the mouth)",
+      "onset": "Immediate (Calcium oxalate crystals typically cause immediate pain upon chewing).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Edema (Swelling)",
+      "onset": "Rapid following contact or ingestion.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Dermal Irritation (Skin irritation/Dermatitis)",
+      "onset": "Upon contact with the sap.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf",
+    "Seed"
+  ]
+}

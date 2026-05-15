@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Autumn Crocus (Colchicum autumnale) is one of the most dangerous plants a cat can encounter, and should not be confused with the common spring-blooming crocus (Crocus spp.), which is far less toxic. It contains colchicine, a potent alkaloid that halts cell division by preventing microtubule formation — targeting the body's fastest-dividing cells, including those in the gut lining, bone marrow, and kidneys. Crucially, symptoms can be delayed by 2 to 12 hours after ingestion, making early veterinary intervention critical even when the cat appears unaffected.",
+  "imageUrls": [],
+  "name": "Autumn Crocus",
+  "safetyNotes": [
+    "Symptoms: Severe vomiting, bloody diarrhea, burning pain in the mouth and throat, followed hours later by bone marrow suppression (anaemia, reduced white blood cells), kidney failure, and respiratory failure.",
+    "All parts are lethal: The bulb (corm) is the most toxic, but flowers, leaves, and seeds all contain colchicine in dangerous concentrations.",
+    "Action: This is a life-threatening emergency. Take the cat to a vet immediately — do not wait for symptoms."
+  ],
+  "scientificName": "Colchicum autumnale",
+  "severity": "toxic",
+  "slug": "colchicum_autumnale",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Severe Vomiting (often bloody), Diarrhea (often bloody), Abdominal Pain, Drooling, and Difficulty Swallowing",
+      "onset": "Symptoms often appear immediately or within hours of ingestion,",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Respiratory Distress (Abnormal breathing patterns, difficulty breathing)",
+      "onset": "Can occur as the toxicity progresses, often days after exposure, or within hours in acute cases.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Liver Damage (Hepatotoxicity) and Kidney Failure (Renal Failure)",
+      "onset": "Often delayed by days after the initial ingestion.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Bone Marrow Suppression",
+      "onset": "Delayed (as it affects cell division and blood cell production).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Shock (Pale gums, abnormal heart rate, lethargy, weak pulse)",
+      "onset": "Can occur within hours or as the condition deteriorates.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Seizures",
+      "onset": "Variable; often associated with advanced toxicity.",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Bulb",
+    "Seed",
+    "Flower",
+    "Entire Plant"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Peruvian Lily (Alstroemeria spp.), also called Lily of the Incas, is a popular cut flower that is mildly toxic to cats. Unlike true lilies (Lilium), Alstroemeria does not cause acute kidney failure. It contains irritant compounds in the sap that cause gastrointestinal upset when ingested and contact dermatitis when the sap touches skin.",
+  "imageUrls": [],
+  "name": "Peruvian Lily",
+  "safetyNotes": [
+    "Toxic compounds: unidentified irritant compounds in the sap; not related to the nephrotoxic compounds in true Lilium species",
+    "Mechanism: GI irritant; sap contact causes dermatitis through direct tissue irritation",
+    "Symptoms: vomiting, diarrhea, drooling; skin or eye contact with sap may cause redness and irritation",
+    "No kidney failure risk — a critical difference from Easter and Tiger lilies",
+    "Symptoms are mild and self-limiting; contact your vet if ingestion was significant or symptoms persist"
+  ],
+  "scientificName": "Alstroemeria spp.",
+  "severity": "safe",
+  "slug": "alstroemeria_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Stomach upset (vomiting and/or diarrhea)",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Minor signs of oral toxicity or irritation",
+      "onset": "Immediate to shortly after chewing the plant.",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Entire Plant"
+  ]
+}

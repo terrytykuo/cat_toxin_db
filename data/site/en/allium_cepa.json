@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "",
+  "imageUrls": [],
+  "name": "Allium Cepa",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "allium_cepa",
+  "symptoms": [
+    {
+      "body_system": "Hematological",
+      "name": "Hemolytic anemia, pale, white, or yellow (jaundiced) mucous membranes/gums, and dark urine",
+      "onset": "May not appear for several days following ingestion",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Lethargy, profound weakness, stumbling (ataxia), collapse, and seeking out warm spaces",
+      "onset": "May not appear for several days following ingestion",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Rapid heartbeat (tachycardia), rapid breathing, and breathing difficulties",
+      "onset": "May not appear for several days following ingestion",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, diarrhea, lack of appetite, and abdominal pain",
+      "onset": "May not appear for several days following ingestion",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": []
+}

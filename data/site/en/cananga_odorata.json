@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Ylang Ylang (Cananga odorata) essential oil is toxic to cats. The fragrant essential oil — widely used in perfumes, diffusers, and aromatherapy — contains germacrene and related sesquiterpene compounds that cats cannot safely metabolise. Both inhalation of diffused oil and topical application cause toxicity.",
+  "imageUrls": [],
+  "name": "Ylang Ylang",
+  "safetyNotes": [
+    "Toxic compounds: germacrene, benzyl acetate, methyl benzoate, and other volatile sesquiterpene and ester compounds in the essential oil",
+    "Mechanism: cats lack the hepatic glucuronidase needed to metabolise these compounds efficiently; accumulation causes GI and CNS effects",
+    "Symptoms: vomiting, drooling, weakness, unsteady gait (ataxia), difficulty breathing; inhalation may cause respiratory irritation",
+    "Essential oil diffusers in closed rooms are a significant risk even without direct contact",
+    "Do not apply ylang ylang oil to or near cats; use diffusers only in well-ventilated areas the cat cannot access"
+  ],
+  "scientificName": "Cananga odorata",
+  "severity": "toxic",
+  "slug": "cananga_odorata",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive dribbling (drooling) and vomiting",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Walking as if they are drunk (ataxia)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Shaking, tremoring, seizures, and collapse",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy, depression, or dullness",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty breathing or breathing with the mouth open",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Sore, red skin, and chemical burns",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Liver failure and serious organ damage",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Flower"
+  ]
+}

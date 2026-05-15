@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Silver Leaf Philodendron (also sold as Satin Pothos, Scindapsus pictus) is a popular trailing houseplant with silvery-patterned leaves. Despite the name, it belongs to the Araceae family and contains insoluble calcium oxalate crystals (raphides) throughout its leaves and stems. Chewing the plant causes immediate intense oral pain.",
+  "imageUrls": [],
+  "name": "Silver Leaf Philodendron",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides throughout the plant; proteolytic enzymes in sap intensify the reaction",
+    "Mechanism: raphides mechanically penetrate the oral mucosa when plant tissue is chewed, causing burning and swelling",
+    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, difficulty swallowing, swollen lips and tongue, vomiting",
+    "The decorative silver-patterned leaves may attract cats — keep out of reach",
+    "Rinse the mouth with water; seek veterinary care if throat swelling impairs breathing or swallowing"
+  ],
+  "scientificName": "e.g. Satin Pothos",
+  "severity": "toxic",
+  "slug": "e_g_satin_pothos",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Intense oral irritation, burning sensation, pain, pawing at the mouth, and localized swelling (edema) of the tongue and pharynx",
+      "onset": "Immediate (upon chewing or ingestion)",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive salivation (drooling)",
+      "onset": "Immediate",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, retching, and lack of appetite (decreased appetite)",
+      "onset": "Shortly after ingestion",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Dyspnea and swelling of the upper airways",
+      "onset": "Rapidly following exposure (as tissue swelling develops)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excitability, nervous spasms, convulsions, and occasional encephalitis",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Renal failure",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Leaf"
+  ]
+}

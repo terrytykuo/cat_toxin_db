@@ -1,0 +1,45 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "American Bittersweet (Celastrus scandens) is a vigorous woody vine native to North America, easily recognised by its orange-yellow berries that split open to reveal bright red seeds. All parts of the plant are toxic to cats, including the leaves, bark, roots, and berries. The plant contains sesquiterpene alkaloids and compounds with cardiac-disrupting activity that irritate the gastrointestinal tract and, in larger amounts, affect the heart. The vivid berries are the most likely point of contact for cats, particularly when the vine is brought indoors as a decorative autumn cutting.",
+  "imageUrls": [],
+  "name": "Bittersweet",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, and abdominal pain from GI irritation; larger exposures may cause lethargy, muscle weakness, and in serious cases abnormal heart rhythm.",
+    "Berries are the primary hazard: Brightly coloured and accessible, the berries are appealing to curious cats — avoid using the plant as indoor decoration.",
+    "Action: Seek veterinary care if more than a small berry has been ingested, particularly if lethargy or weakness develops."
+  ],
+  "scientificName": "Celastrus scandens",
+  "severity": "toxic",
+  "slug": "celastrus_scandens",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, and Hypersalivation (Drooling)",
+      "onset": "2–24 hours (general timeframe for Nightshade/solanine toxicity).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Drowsiness, Depression, Confusion, and Weakness",
+      "onset": "2–24 hours (typically follows or accompanies GI signs).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Dilated Pupils (Mydriasis)",
+      "onset": "2–24 hours.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Slow Heart Rate (Bradycardia)",
+      "onset": "12–24 hours (or as toxicity progresses).",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Bulb",
+    "Seed"
+  ]
+}

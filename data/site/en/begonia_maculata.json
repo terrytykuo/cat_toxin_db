@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Polka Dot Begonia (Begonia maculata), recognised by its distinctive silver-spotted leaves, is toxic to cats in the same way as other Begonia species. It contains soluble calcium oxalates (not the insoluble raphide crystals of Dieffenbachia) throughout the plant, with the highest concentration in the underground tubers and roots.",
+  "imageUrls": [],
+  "name": "Polka Dot Begonia",
+  "safetyNotes": [
+    "Toxic compounds: soluble calcium oxalates; tubers and roots most concentrated; leaves carry lower levels",
+    "Mechanism: soluble oxalates irritate the gastrointestinal lining and, in large quantities, may contribute to kidney crystal formation",
+    "Symptoms: vomiting, drooling, and GI upset from leaf ingestion; more severe GI symptoms if tubers are chewed",
+    "Decorative aspects (trailing stems, spotted leaves) may attract cats — keep out of reach",
+    "Symptoms are generally mild with leaf exposure; contact your vet if tubers were ingested"
+  ],
+  "scientificName": "Begonia maculata",
+  "severity": "toxic",
+  "slug": "begonia_maculata",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive drooling (hypersalivation), redness around the mouth, oral sores, excessive licking of the lips, and an unpleasant burning sensation",
+      "onset": "Immediate.",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Difficulty swallowing (dysphagia)",
+      "onset": "Immediate to shortly after chewing.",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, disinterest in food and water (anorexia), and difficulty eating",
+      "onset": "Shortly after ingestion.",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Serious illness and liver failure",
+      "onset": "Delayed (occurs after the toxins are digested and absorbed into the bloodstream).",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Spring Crocus (Crocus spp.) is a common early-spring garden bulb that is toxic to cats, though significantly less dangerous than the Autumn Crocus (Colchicum autumnale), with which it is sometimes confused. Spring Crocus contains colchicine in lower concentrations than Autumn Crocus, along with other alkaloids. Ingestion typically causes gastrointestinal symptoms rather than the multi-organ failure associated with Autumn Crocus. However, if you are unsure which species your cat has ingested, treat it as a veterinary emergency.",
+  "imageUrls": [],
+  "name": "Crocus",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, and abdominal pain are the most common signs; symptoms are usually self-limiting.",
+    "Do not confuse with Autumn Crocus: Colchicum autumnale (the Autumn Crocus) is far more dangerous and can cause bone marrow suppression, kidney failure, and death. If the species is uncertain, seek emergency veterinary care.",
+    "Bulbs are the most concentrated part: Cats that dig in garden beds may encounter and chew on bulbs."
+  ],
+  "scientificName": "Crocus vernus",
+  "severity": "toxic",
+  "slug": "crocus_vernus",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea (General gastrointestinal upset)",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Bloody Vomiting and Diarrhea; Oral Irritation",
+      "onset": "Immediate or delayed for days.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Liver damage (Hepatic necrosis) and Kidney failure",
+      "onset": "Delayed (can take days to manifest fully).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Bone Marrow Suppression",
+      "onset": "Delayed.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Respiratory Failure / Difficulty Breathing",
+      "onset": "Delayed (associated with systemic progression).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Seizures, Tremors, Shock, and Weakness",
+      "onset": "Variable; shock signs include abnormal heart rates and pale gums.",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Bulb",
+    "Flower"
+  ]
+}

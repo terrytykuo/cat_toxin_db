@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Dragon Tree (Dracaena draco and related Dracaena species) is a popular houseplant toxic to cats. It contains steroidal saponins throughout its leaves and stem, compounds that disrupt cell membranes and irritate the gastrointestinal tract. Cats that chew the leaves typically develop unpleasant but non-life-threatening symptoms.",
+  "imageUrls": [],
+  "name": "Dragon Tree",
+  "safetyNotes": [
+    "Toxic compounds: steroidal saponins",
+    "Mechanism: saponins disrupt cellular membranes and stimulate GI irritation; may affect the CNS in cats at higher doses",
+    "Symptoms: vomiting (occasionally blood-tinged), hypersalivation, loss of appetite, lethargy, dilated pupils",
+    "Dilated pupils (mydriasis) are a noted cat-specific reaction and a useful indicator of saponin exposure",
+    "While rarely life-threatening, a cat showing mydriasis or repeated vomiting should be evaluated by a vet"
+  ],
+  "scientificName": "Dracaena marginata or Dracaena spp.",
+  "severity": "toxic",
+  "slug": "dracaena_marginata_or_dracaena_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting (often with blood/hematemesis) and Diarrhea",
+      "onset": "Acute (typically shortly after ingestion, though specific hours are not listed in the text).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Dilated Pupils",
+      "onset": "Associated with the acute phase of toxicity.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Depression, Lethargy, Weakness, or Incoordination (Ataxia)",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling / Ptyalism",
+      "onset": "Immediate to Acute (upon chewing/ingesting).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Loss of Appetite (Anorexia)",
+      "onset": "Acute.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Bark",
+    "Leaf",
+    "Entire Plant"
+  ]
+}

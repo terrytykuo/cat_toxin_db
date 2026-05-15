@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Rubber Plant (Ficus elastica) is a popular large-leafed houseplant in the Ficus genus that is mildly toxic to cats. Like other Ficus species, its milky latex sap contains ficin (a proteolytic enzyme) and irritant compounds. Skin or eye contact with broken stems releases sap that causes local irritation and dermatitis.",
+  "imageUrls": [],
+  "name": "Rubber Plant",
+  "safetyNotes": [
+    "Toxic compounds: ficin enzyme and irritant compounds in the milky latex sap",
+    "Mechanism: ficin irritates mucosal membranes and the GI lining; sap causes contact dermatitis",
+    "Symptoms: vomiting, diarrhea, drooling from ingestion; skin or eye redness if sap contact occurs",
+    "The large attractive leaves may tempt cats; breaking leaves or stems releases the most irritating sap",
+    "Symptoms are usually mild; wipe sap off skin promptly; contact your vet if GI symptoms are severe"
+  ],
+  "scientificName": "Ficus elastica",
+  "severity": "safe",
+  "slug": "ficus_elastica",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Irritation of the mouth and drooling (hypersalivation)",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and diarrhea",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Skin redness and contact dermatitis",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf"
+  ]
+}

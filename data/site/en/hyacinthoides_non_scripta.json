@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Bluebells (Hyacinthoides non-scripta and related species) are beloved spring wildflowers found in woodlands, gardens, and roadsides — environments where outdoor cats frequently roam. Despite their delicate appearance, all parts of the plant are toxic to cats. Bluebells contain scillaren and related cardiac glycoside-like compounds, as well as alkaloids, that interfere with the sodium-potassium pump in heart muscle cells, disrupting normal cardiac rhythm. The bulbs carry the highest toxin concentration, but the flowers, leaves, and sap are all hazardous.",
+  "imageUrls": [],
+  "name": "Bluebells",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, lethargy, and reduced heart rate; larger exposures can cause abnormal heart rhythm, low blood pressure, and in severe cases convulsions or collapse.",
+    "Bulbs are most toxic: Cats that dig in garden beds may encounter bulbs. The sap from crushed stems is also irritating to skin and eyes.",
+    "Seasonal risk: Peak exposure is in spring when plants bloom and are most accessible. Seek veterinary advice promptly if ingestion is suspected."
+  ],
+  "scientificName": "Hyacinthoides non-scripta",
+  "severity": "toxic",
+  "slug": "hyacinthoides_non_scripta",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, Drooling, and Stomach Pain",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Reduced Heart Rate (Bradycardia)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Trembling and Lethargy",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Skin Irritation and Dermatitis",
+      "onset": "Rapid (upon contact).",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Bulb"
+  ]
+}

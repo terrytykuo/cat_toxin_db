@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "African Blue Lily (Agapanthus) is often mistaken for a true lily, but it belongs to a different plant family and does not cause the acute kidney failure associated with true lilies (Lilium and Hemerocallis species). However, it is mildly toxic to cats and can cause gastrointestinal distress when any part of the plant — including the leaves, stems, or roots — is ingested. Cats are sometimes attracted to its grass-like foliage, so households with this plant should monitor access.",
+  "imageUrls": [],
+  "name": "African Blue Lily",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, and excessive drooling are the most common signs of ingestion.",
+    "Not a true lily: Unlike Lilium or Hemerocallis species, this plant does not cause kidney failure, making it significantly less dangerous — but it is still not safe to ingest.",
+    "Action: Monitor your cat after any suspected ingestion; contact a vet if symptoms persist or worsen."
+  ],
+  "scientificName": "Agapanthus orientalis or Agapanthus africanus",
+  "severity": "toxic",
+  "slug": "agapanthus_orientalis_or_agapanthus_africanus",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Immediate intense pain and local irritation to mucous membranes",
+      "onset": "Immediate upon chewing or ingestion.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excess salivation",
+      "onset": "Immediate to rapid (shortly after exposure).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Swollen tongue and pharynx (throat)",
+      "onset": "Rapid (following irritation).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Dyspnea",
+      "onset": "Rapid (secondary to swelling).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "onset": "Variable (typically within hours of ingestion).",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Latex",
+    "Leaf",
+    "Root"
+  ]
+}

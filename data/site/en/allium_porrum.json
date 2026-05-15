@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "",
+  "imageUrls": [],
+  "name": "Allium Porrum",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "allium_porrum",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, Abdominal Pain, and Inappetence (Loss of Appetite)",
+      "onset": "Can occur early, but general poisoning signs may not appear for several days after ingestion.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Pale or White Gums (Mucous Membranes), Dark/Reddish Urine (Hemoglobinuria), and Jaundice (Yellowing of skin/gums)",
+      "onset": "Delayed; symptoms typically manifest several days following ingestion.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Rapid Breathing (Tachypnea), Difficulty Breathing (Dyspnea), or Panting",
+      "onset": "Delayed; appears as anemia progresses (typically days after exposure).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Rapid Heartbeat (Tachycardia)",
+      "onset": "Delayed; appears as anemia progresses.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy, Weakness, Stumbling (Ataxia), and Collapse",
+      "onset": "Delayed; often several days after ingestion.",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": []
+}

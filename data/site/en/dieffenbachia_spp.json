@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Dieffenbachia, commonly called Dumb Cane, is a popular tropical houseplant toxic to cats because it contains insoluble calcium oxalate crystals (raphides) packed inside specialised cells throughout the leaves and stems. When a cat bites or chews the plant, these needle-like crystals are forcefully ejected into the oral mucosa, causing intense immediate pain and inflammation.",
+  "imageUrls": [],
+  "name": "Dieffenbachia / Dumb Cane",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate crystals (raphides) plus proteolytic enzymes that amplify the reaction",
+    "Mechanism: mechanical penetration of mouth and throat lining causing intense burning and swelling",
+    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, difficulty swallowing (dysphagia), swollen tongue and lips, vomiting",
+    "Severe cases: throat swelling may impair breathing — seek veterinary attention immediately",
+    "The name Dumb Cane comes from the temporary inability to vocalise; cats show equivalent signs of oral distress"
+  ],
+  "scientificName": "Dieffenbachia spp.",
+  "severity": "toxic",
+  "slug": "dieffenbachia_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Intense burning, irritation, and inflammation of the mouth, tongue, lips, and throat",
+      "onset": "Immediate upon chewing or biting the plant.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive Drooling or Ptyalism",
+      "onset": "Immediate to within minutes of ingestion.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty Breathing (Dyspnea) and Swelling of the Tongue/Throat (Edema)",
+      "onset": "Rapidly following the onset of inflammation.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Difficulty Swallowing (Dysphagia), and Anorexia (Loss of Appetite)",
+      "onset": "Immediate (difficulty swallowing) to short-term (vomiting).",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ]
+}

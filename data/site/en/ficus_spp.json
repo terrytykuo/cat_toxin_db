@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Weeping Fig (Ficus benjamina) is one of the most common indoor trees and is toxic to cats. Its milky latex sap contains ficin (a proteolytic enzyme), psoralens (ficusin), and other irritant compounds. Ficus benjamina is also a well-documented allergen — repeated exposure can sensitise cats and cause progressively stronger reactions.",
+  "imageUrls": [],
+  "name": "Ficus / Weeping Fig",
+  "safetyNotes": [
+    "Toxic compounds: ficin enzyme, psoralens (ficusin), and irritant latex; psoralens may cause photosensitisation with UV exposure",
+    "Mechanism: ficin irritates GI mucosa; psoralens activate under UV light causing skin/tissue damage; repeated latex exposure can trigger allergic reactions",
+    "Symptoms: vomiting, diarrhea, drooling, skin redness or itching from sap contact; allergic cats may develop more severe reactions",
+    "Fallen leaves are also hazardous if chewed; the tree sheds leaves commonly under stress",
+    "Monitor cats around this plant closely; consider relocating it if your cat shows repeated interest"
+  ],
+  "scientificName": "Ficus spp.",
+  "severity": "safe",
+  "slug": "ficus_spp",
+  "symptoms": [
+    {
+      "body_system": "Dermal",
+      "name": "Contact Dermatitis (Skin redness, irritation, or swelling)",
+      "onset": "Acute (Upon contact with the sap).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea",
+      "onset": "Acute (Shortly after ingestion).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive Drooling (Hypersalivation) and Oral Pain",
+      "onset": "Immediate (Upon chewing).",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ]
+}

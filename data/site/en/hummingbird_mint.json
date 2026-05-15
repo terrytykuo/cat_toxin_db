@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "",
+  "imageUrls": [],
+  "name": "Hummingbird Mint",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "hummingbird_mint",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea",
+      "onset": "Acute (shortly after ingestion).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling or Foaming at the Mouth",
+      "onset": "Immediate (upon tasting or chewing).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy or General Weakness",
+      "onset": "Variable.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty Breathing (Dyspnea), Coughing, or Sneezing",
+      "onset": "Acute.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Hepatic Dysfunction / Liver Failure",
+      "onset": "Delayed (symptoms may develop over hours or days).",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": []
+}

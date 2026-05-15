@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Hydrangea (Hydrangea spp.) is a popular flowering shrub toxic to cats. It contains cyanogenic glycosides — including hydrangin — primarily in the flower buds and leaves. When metabolised, these compounds release hydrogen cyanide (HCN), although the concentration is typically low enough that serious toxicity requires ingestion of substantial amounts. The plant also contains saponins that contribute to gastrointestinal irritation.",
+  "imageUrls": [],
+  "name": "Hydrangea",
+  "safetyNotes": [
+    "Toxic compounds: cyanogenic glycosides (hydrangin) in flower buds and leaves; saponins throughout the plant",
+    "Mechanism: hydrangin yields HCN upon digestion, inhibiting cellular respiration; saponins cause direct GI irritation",
+    "Symptoms: vomiting, diarrhea, lethargy, drooling; large ingestion may cause weakness, confusion, and laboured breathing",
+    "Flower buds carry the highest cyanogenic concentration — restrict access during blooming",
+    "Symptoms are usually mild with minor nibbling; seek veterinary care if large amounts were consumed"
+  ],
+  "scientificName": "Hydrangea spp.",
+  "severity": "toxic",
+  "slug": "hydrangea_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Acute (Clinical signs typically appear quickly, potentially within hours).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy / Depression / Exhaustion",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal Pain",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Respiratory Distress (Dyspnea), Rapid Breathing (Tachypnea), or Seizures",
+      "onset": "Very Rapid (10–60 minutes after ingestion).",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ]
+}

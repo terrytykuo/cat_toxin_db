@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Dracaena (Dracaena spp.) is a large genus of popular indoor plants — including Dracaena marginata, D. fragrans (Corn Plant), and D. trifasciata (Snake Plant) — all of which are toxic to cats. The genus contains steroidal saponins in its leaves and stems that interfere with cell membranes and cause gastrointestinal upset.",
+  "imageUrls": [],
+  "name": "Dracaena",
+  "safetyNotes": [
+    "Toxic compounds: steroidal saponins (consistent across the genus)",
+    "Mechanism: membrane disruption causing GI irritation; neurological effects possible at higher doses",
+    "Symptoms: vomiting (sometimes with blood), drooling, loss of appetite, weakness, dilated pupils",
+    "Cats are notably sensitive to the pupil-dilating (mydriatic) effect of Dracaena saponins",
+    "All parts of the plant are toxic; remove from areas accessible to cats and seek vet care if significant ingestion occurs"
+  ],
+  "scientificName": "Dracaena spp.",
+  "severity": "toxic",
+  "slug": "dracaena_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting (occasionally with blood/hematemesis) and Diarrhea",
+      "onset": "Not explicitly stated in the sources,",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Dilated Pupils",
+      "onset": "Associated with the acute phase of toxicity (time not explicitly stated).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling / Ptyalism",
+      "onset": "Acute (shortly after chewing/ingesting).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Depression, Lethargy, Weakness, or Incoordination (Ataxia)",
+      "onset": "Acute phase.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Bark",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ]
+}

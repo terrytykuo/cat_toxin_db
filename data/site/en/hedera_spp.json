@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "English Ivy (Hedera helix) is a common climbing vine toxic to cats. It contains triterpenoid saponins (including hederagenin and alpha-hederin) and polyacetylene compounds (falcarinol) throughout its leaves and berries. These compounds cause gastrointestinal irritation and, with repeated skin contact, dermatitis in sensitive individuals.",
+  "imageUrls": [],
+  "name": "English Ivy",
+  "safetyNotes": [
+    "Toxic compounds: triterpenoid saponins (hederagenin, alpha-hederin), polyacetylene compound falcarinol",
+    "Mechanism: saponins disrupt GI mucosal integrity; falcarinol is a contact irritant that can also cause systemic upset",
+    "Symptoms: vomiting, diarrhea, drooling, abdominal pain; large ingestion may cause ataxia or tremors",
+    "Berries are slightly more concentrated than leaves; all parts should be considered hazardous",
+    "Remove English Ivy from indoor spaces if you have cats; outdoor access to ivy-covered walls should also be restricted"
+  ],
+  "scientificName": "Hedera spp.",
+  "severity": "cautious",
+  "slug": "hedera_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Acute (Symptoms typically appear shortly after ingestion,",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal Pain (Stomach Discomfort)",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling / Hypersalivation",
+      "onset": "Immediate to Acute (Upon chewing).",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Fruit"
+  ]
+}

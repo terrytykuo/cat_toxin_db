@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Kalanchoe (Kalanchoe spp.), sold under names including Flaming Katy, Mother of Millions, and Widow's Thrill, is a popular succulent houseplant toxic to cats. It contains bufadienolide cardiac glycosides — related to but distinct from digitalis — concentrated throughout the plant. These compounds disrupt cardiac electrical conduction in a manner similar to Foxglove poisoning.",
+  "imageUrls": [],
+  "name": "Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy",
+  "safetyNotes": [
+    "Toxic compounds: bufadienolide cardiac glycosides throughout leaves, stems, and flowers",
+    "Mechanism: bufadienolides inhibit the Na+/K+-ATPase pump in cardiac muscle cells, causing irregular heart rhythm",
+    "Symptoms: drooling, vomiting, diarrhea, weakness, abnormal heart rate (bradycardia or arrhythmia), collapse",
+    "All parts of the plant are toxic; the small plantlets ('pups') produced by Mother of Millions varieties are equally hazardous",
+    "Seek veterinary care promptly — cardiac glycoside toxicity can escalate quickly; any cardiac symptoms require emergency attention"
+  ],
+  "scientificName": "Kalanchoe spp.",
+  "severity": "toxic",
+  "slug": "kalanchoe_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, Drooling (Hypersalivation), Abdominal Pain",
+      "onset": "Within the first 2 hours after exposure.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Abnormal Heart Rhythm (Arrhythmias), Bradycardia (Slow Heart Rate), or Tachycardia (Fast Heart Rate)",
+      "onset": "Within the first 2 hours; signs can persist for 4–5 days.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Weakness, Depression, Tremors, Ataxia (Loss of Coordination), Seizures (Rare)",
+      "onset": "Within the first 2 hours.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Rapid Breathing (Tachypnea), Difficulty Breathing",
+      "onset": "Within the first 2 hours.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Hyperkalemia (High Potassium levels)",
+      "onset": "Within the first 2 hours.",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Entire Plant",
+    "Flower"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "description": "",
+  "gemini_model": "gemini-cli-default",
+  "manual_override": false,
+  "name": "Allium Cepa",
+  "safetyNotes": [],
+  "slug": "allium_cepa",
+  "source_hash": "0be5acce4719fbdde4e8a5b8169019835b7ce38f507ee7c950cc769725e6527b",
+  "symptoms": [
+    {
+      "body_system": "血液系統",
+      "name": "溶血性貧血、黏膜/牙齦蒼白、發白或發黃（黃疸），以及深色尿液",
+      "onset": "攝入後可能數天內都不會出現"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "嗜睡、極度虛弱、步態不穩（共濟失調）、虛脫，以及尋找溫暖處",
+      "onset": "攝入後可能數天內都不會出現"
+    },
+    {
+      "body_system": "心血管系統",
+      "name": "心跳過快（心搏加速）、呼吸急促與呼吸困難",
+      "onset": "攝入後可能數天內都不會出現"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "嘔吐、腹瀉、食慾不振與腹痛",
+      "onset": "攝入後可能數天內都不會出現"
+    }
+  ],
+  "toxicParts": [],
+  "translated_at": "2026-05-15T21:44:48Z"
+}

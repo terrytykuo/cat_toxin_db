@@ -1,0 +1,71 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Cannabis (marijuana) is a growing household hazard for cats as its recreational and medicinal use becomes more widespread. The primary toxic compound is tetrahydrocannabinol (THC), which severely disrupts the nervous system in cats — both through ingestion of plant material or edibles, and through passive inhalation of smoke. Cats have a lower tolerance for THC than humans, and exposure can cause a frightening range of neurological and physical symptoms. Cannabis edibles present a compounded risk, as they frequently contain chocolate or xylitol alongside THC.",
+  "imageUrls": [],
+  "name": "Cannabis / Marijuana",
+  "safetyNotes": [
+    "Symptoms: Stumbling and lack of coordination (ataxia), muscle tremors, hypersensitivity to light and sound, alternating profound lethargy and severe agitation, drooling, vomiting, and urine dribbling (incontinence).",
+    "Edibles are especially dangerous: Pot brownies and gummies often contain chocolate (theobromine) or xylitol — adding a second layer of toxicity on top of the THC.",
+    "CBD products: An overdose can cause vomiting and diarrhea; never self-administer CBD to a cat without veterinary guidance.",
+    "Action: Secure all cannabis products including edibles, concentrates, and vape cartridges out of reach. Contact a vet promptly if exposure is suspected."
+  ],
+  "scientificName": "Cannabis sativa",
+  "severity": "toxic",
+  "slug": "cannabis_sativa",
+  "symptoms": [
+    {
+      "body_system": "Neurological",
+      "name": "Ataxia (wobbly, uncoordinated movements) and Disorientation",
+      "onset": "Signs manifest after the drug has been absorbed",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Prolonged Depression (Sleepiness/Lethargy) or Hyperexcitability",
+      "onset": "After absorption",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Mydriasis (Dilated Pupils)",
+      "onset": "After absorption",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Urinary Incontinence (Urine Leakage)",
+      "onset": "After absorption",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Hypersalivation (Excessive Drooling)",
+      "onset": "After absorption",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Bradycardia (Slow Heart Rate) or Tachycardia (Fast Heart Rate)",
+      "onset": "After absorption",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Hypothermia (Low Body Temperature) or Hyperthermia (High Body Temperature)",
+      "onset": "After absorption",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Tremors, Seizures, and Coma",
+      "onset": "After absorption",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Flower"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "description": "",
+  "gemini_model": "gemini-cli-default",
+  "manual_override": false,
+  "name": "Agapanthus Africanus Or A Orientalis",
+  "safetyNotes": [],
+  "slug": "agapanthus_africanus_or_a_orientalis",
+  "source_hash": "fab74db34853d44920f65d94aa722b5ea08d2ac978eba94e876999f683e9bdf0",
+  "symptoms": [
+    {
+      "body_system": "消化系統",
+      "name": "黏膜劇烈疼痛與局部刺激",
+      "onset": "立即。"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "過度流涎（流口水）",
+      "onset": "立即。"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "舌頭與咽喉腫脹",
+      "onset": "立即至快速。"
+    },
+    {
+      "body_system": "呼吸系統",
+      "name": "呼吸困難",
+      "onset": "快速。"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "腹瀉",
+      "onset": "變動（若吞食通常在幾小時內）。"
+    }
+  ],
+  "toxicParts": [],
+  "translated_at": "2026-05-15T21:44:48Z"
+}

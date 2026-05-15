@@ -1,0 +1,46 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Corn Plant (Dracaena fragrans), also known as Dracaena or False Palm, is one of the most common office and indoor plants — and one of the most frequent causes of plant-related cat poisoning. Despite its ordinary appearance, it contains steroidal saponins that are toxic to cats. The exact mechanism is not fully understood, but ingestion causes distinctive symptoms that include not just gastrointestinal distress but also neurological signs such as dilated pupils. The sap from leaves and stems is the primary route of exposure.",
+  "imageUrls": [],
+  "name": "Corn Plant",
+  "safetyNotes": [
+    "Symptoms: Vomiting (sometimes with blood or foam), loss of appetite, excessive drooling, dilated pupils, and lethargy; depression and weakness in more significant exposures.",
+    "Dilated pupils are a distinguishing sign: This neurological effect distinguishes Dracaena toxicity from simple GI irritation and warrants veterinary evaluation.",
+    "Action: Contact a vet if vomiting is prolonged or if dilated pupils appear. Keep the plant out of reach — its widely available nature makes it a disproportionately common source of exposure."
+  ],
+  "scientificName": "Dracaena fragrans",
+  "severity": "cautious",
+  "slug": "dracaena_fragrans",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting (Hematemesis)",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Dilated Pupils (Mydriasis)",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling (Hypersalivation)",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Depression and Depression-like behavior",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Incoordination (Ataxia) and Weakness",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Entire Plant"
+  ]
+}

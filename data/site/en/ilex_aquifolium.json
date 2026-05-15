@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "English Holly (Ilex aquifolium) is a common ornamental plant toxic to cats. It contains a complex of irritant saponins (including ilicin), methylxanthine-related compounds, and cyanogens concentrated primarily in the berries and leaves. The bright red berries are particularly attractive to cats and pose the greatest risk.",
+  "imageUrls": [],
+  "name": "English Holly",
+  "safetyNotes": [
+    "Toxic compounds: ilicin and related saponins, methylxanthine-related compounds, trace cyanogens",
+    "Mechanism: saponins cause intense GI mucosal irritation; systemic absorption may affect the central nervous system",
+    "Symptoms: intense nausea, repeated vomiting, diarrhea, lethargy, excessive head shaking; severe ingestion may cause drooling, lip-smacking, CNS depression",
+    "Even 1–2 berries can produce significant symptoms in a cat",
+    "Keep all holly plants — fresh, dried, or decorative — out of reach; seek vet care if ingestion is suspected"
+  ],
+  "scientificName": "Ilex aquifolium",
+  "severity": "cautious",
+  "slug": "ilex_aquifolium",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, and Nausea",
+      "onset": "Acute (Clinical signs typically appear shortly after ingestion,",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal Pain",
+      "onset": "Acute (Associated with the onset of vomiting and diarrhea).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling / Hypersalivation",
+      "onset": "Immediate to Acute (Upon chewing or swallowing).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy, Depression, or Decreased Activity",
+      "onset": "Associated with the systemic malaise following ingestion.",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Oral Injury / Smack-lipping / Head shaking",
+      "onset": "Immediate.",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Seed",
+    "Fruit"
+  ]
+}

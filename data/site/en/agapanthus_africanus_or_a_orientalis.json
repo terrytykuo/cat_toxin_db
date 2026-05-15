@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "",
+  "imageUrls": [],
+  "name": "Agapanthus Africanus Or A Orientalis",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "agapanthus_africanus_or_a_orientalis",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Intense pain and local irritation of the mucous membranes",
+      "onset": "Immediate.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive salivation (Drooling)",
+      "onset": "Immediate.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Swollen tongue and pharynx",
+      "onset": "Immediate to rapid.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty breathing (Dyspnea)",
+      "onset": "Rapid.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "onset": "Variable (typically within a few hours if swallowed).",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": []
+}

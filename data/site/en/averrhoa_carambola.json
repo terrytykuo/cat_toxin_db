@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Starfruit (Averrhoa carambola) is severely toxic to cats and dogs, though most research has focused on cats and humans with kidney disease. It contains caramboxin — a neurotoxic compound that inhibits glutamate decarboxylase — and very high oxalate concentrations that cause kidney injury. Even small amounts can be life-threatening.",
+  "imageUrls": [],
+  "name": "Starfruit",
+  "safetyNotes": [
+    "Toxic compounds: caramboxin (neurotoxin) and high soluble oxalates; the entire fruit is toxic",
+    "Mechanism: caramboxin inhibits GABA synthesis, causing neurological excitation; oxalates precipitate as calcium oxalate crystals in kidney tubules",
+    "Symptoms: vomiting, hiccups, agitation, confusion, seizures, acute kidney failure; onset within 1–5 hours",
+    "There is no known safe amount of starfruit for cats — even a small piece or juice can cause toxicity",
+    "Any starfruit ingestion is a veterinary emergency"
+  ],
+  "scientificName": "Averrhoa carambola",
+  "severity": "toxic",
+  "slug": "averrhoa_carambola",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, drooling, and loss of appetite",
+      "onset": "Within a few hours",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Increased thirst and urination, dehydration, bloody urine, and eventually reduced urine output or a complete inability to urinate",
+      "onset": "Within a few hours",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Lethargy and weakness",
+      "onset": "Within a few hours",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Seizures",
+      "onset": "Within a few hours",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Entire Plant",
+    "Fruit"
+  ]
+}

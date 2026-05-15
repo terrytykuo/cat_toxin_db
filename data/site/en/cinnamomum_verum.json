@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Cinnamon, derived from the inner bark of Cinnamomum trees, seems harmless but is toxic to cats in several forms. The primary concerns are cinnamaldehyde (the main flavour compound) and coumarin (present in high amounts in cassia/Chinese cinnamon). Cats are especially sensitive because they lack the key liver enzymes needed to safely metabolise these compounds. Even inhaling cinnamon powder can irritate a cat's airways and trigger coughing or choking. Cinnamon essential oils and extracts are far more concentrated than powdered spice and pose a much greater risk.",
+  "imageUrls": [],
+  "name": "Cinnamon",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, and mouth irritation from ingestion; coughing and airway irritation from inhaling the powder; liver damage signs (lethargy, jaundice) with large or repeated exposures.",
+    "Essential oils are the highest risk: A few drops of cinnamon essential oil can cause the same harm as ingesting a much larger quantity of ground spice.",
+    "Action: Keep cinnamon sticks, powder, and especially essential oils away from cats. Contact a vet if a cat has ingested oil or a significant quantity of spice."
+  ],
+  "scientificName": "Cinnamomum verum",
+  "severity": "toxic",
+  "slug": "cinnamomum_verum",
+  "symptoms": [
+    {
+      "body_system": "Hepatic",
+      "name": "Liver failure (Serious organ damage)",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Soreness, redness, or chemical burns",
+      "onset": "Rapid (upon contact).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Tremors, shaking, ataxia (walking as if drunk), and seizures",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty breathing (Dyspnea) or breathing with the mouth open",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and excessive dribbling (hypersalivation)",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Bark",
+    "Entire Plant"
+  ]
+}

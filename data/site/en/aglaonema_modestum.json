@@ -1,0 +1,58 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Chinese Evergreen (Aglaonema spp.) is a popular low-maintenance houseplant with attractively patterned leaves. Like all plants in the Araceae family, it contains insoluble calcium oxalate crystals (raphides) — needle-like structures packed into cells throughout its leaves and stems. When a cat bites into any part of the plant, these crystals are ejected and physically pierce the soft tissues of the mouth and throat, causing immediate and intense pain.",
+  "imageUrls": [],
+  "name": "Chinese Evergreen",
+  "safetyNotes": [
+    "Symptoms: Immediate oral pain, intense drooling, pawing at the mouth, swelling of the lips and tongue, and difficulty swallowing; vomiting may follow.",
+    "Rapid onset: Pain starts within seconds of chewing — the plant's own defence usually limits the amount consumed.",
+    "Action: Rinse the cat's mouth gently with water. Contact a vet if throat swelling, difficulty breathing, or persistent vomiting develops."
+  ],
+  "scientificName": "Aglaonema modestum",
+  "severity": "toxic",
+  "slug": "aglaonema_modestum",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Intense burning, pain, and irritation of the mouth, tongue, and lips",
+      "onset": "Immediate (Pain occurs as soon as the plant tissue is chewed).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling or excessive salivation (Ptyalism)",
+      "onset": "Immediate to within minutes of ingestion.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Swelling of the lips, tongue, and oral cavity",
+      "onset": "Rapid following contact.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Difficulty swallowing",
+      "onset": "Immediate.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and anorexia (refusal to eat)",
+      "onset": "Shortly after ingestion.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Dyspnea (Difficulty breathing)",
+      "onset": "Rapid (If laryngeal edema occurs).",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Entire Plant",
+    "Leaf",
+    "Stem"
+  ]
+}

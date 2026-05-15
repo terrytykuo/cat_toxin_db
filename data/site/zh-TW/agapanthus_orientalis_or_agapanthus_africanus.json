@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "description": "非洲百合 (Agapanthus) 常被誤認為是真正的百合，但它屬於不同的植物科，不會引起與真百合（百合屬 Lilium 和 萱草屬 Hemerocallis）相關的急性腎衰竭。然而，它對貓有輕微毒性，攝入植物的任何部分（包括葉、莖或根）都會引起胃腸不適。貓有時會被其像草一樣的葉子吸引，因此有此植物的家庭應監控接觸情況。",
+  "gemini_model": "gemini-cli-default",
+  "manual_override": false,
+  "name": "非洲百合",
+  "safetyNotes": [
+    "症狀：嘔吐、腹瀉和過度流口水是攝入後最常見的跡象。",
+    "非真百合：與百合屬 (Lilium) 或 萱草屬 (Hemerocallis) 不同，此植物不會導致腎衰竭，這使其危險性顯著降低 — 但攝入仍不安全。",
+    "行動：在任何疑似攝入後觀察您的貓；如果症狀持續或惡化，請聯繫獸醫。"
+  ],
+  "slug": "agapanthus_orientalis_or_agapanthus_africanus",
+  "source_hash": "70a448e05269005b191a7ceab7a123f0fea733663a06106cb8a7ca1f232e5c42",
+  "symptoms": [
+    {
+      "body_system": "消化系統",
+      "name": "咀嚼或攝入時立即產生劇烈疼痛和局部黏膜刺激",
+      "onset": "咀嚼或攝入時立即。"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "唾液分泌過多",
+      "onset": "立即至快速（接觸後不久）。"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "舌頭和咽喉腫脹",
+      "onset": "快速（刺激後）。"
+    },
+    {
+      "body_system": "呼吸系統",
+      "name": "呼吸困難",
+      "onset": "快速（繼發於腫脹）。"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "腹瀉",
+      "onset": "變動性（通常在攝入後幾小時內）。"
+    }
+  ],
+  "toxicParts": [
+    "莖",
+    "整株植物",
+    "乳狀汁液",
+    "葉",
+    "根"
+  ],
+  "translated_at": "2026-05-15T21:42:45Z"
+}

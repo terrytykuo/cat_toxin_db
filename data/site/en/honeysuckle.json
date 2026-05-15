@@ -1,0 +1,37 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "",
+  "imageUrls": [],
+  "name": "Honeysuckle",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "honeysuckle",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea",
+      "onset": "Not specified in the provided text (typically acute).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Inflammation around the mouth, Drooling, or Itchiness",
+      "onset": "Not specified.",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty Breathing (Dyspnea), Panting, or Rapid Heart Rate",
+      "onset": "Not specified.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Behavioral Reaction (Euphoria)",
+      "onset": "Immediate.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": []
+}

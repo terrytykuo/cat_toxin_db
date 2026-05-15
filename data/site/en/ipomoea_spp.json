@@ -1,0 +1,34 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Morning Glory (Ipomoea spp.) is a climbing vine with vibrant funnel-shaped flowers that is mildly toxic to cats. The seeds contain ergine (d-lysergic acid amide), a naturally occurring psychoactive compound related to LSD, along with other indole alkaloids. While the flowers and leaves carry much lower toxin levels, the seeds represent the primary hazard.",
+  "imageUrls": [],
+  "name": "Morning Glory",
+  "safetyNotes": [
+    "Toxic compounds: ergine (d-lysergic acid amide) and related indole alkaloids; concentrated in seeds",
+    "Mechanism: ergine acts on serotonin receptors in the CNS, causing altered neurological function; seeds also contain tannins that cause GI irritation",
+    "Symptoms: vomiting, diarrhea, drooling; seed ingestion may cause disorientation, agitation, dilated pupils, or tremors",
+    "Seeds are the most dangerous part; flowers and leaves cause mainly GI upset",
+    "Contact your vet if your cat ingests seeds or shows neurological symptoms"
+  ],
+  "scientificName": "Ipomoea spp.",
+  "severity": "cautious",
+  "slug": "ipomoea_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Agitation and Tremors",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Seed"
+  ]
+}

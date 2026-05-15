@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Wintergreen (Gaultheria procumbens) essential oil is one of the most dangerous substances for cats. It is essentially pure methyl salicylate — a compound cats cannot metabolise efficiently. The topical product BenGay and similar muscle rubs often contain wintergreen oil and are a common cause of severe cat poisoning.",
+  "imageUrls": [],
+  "name": "Wintergreen",
+  "safetyNotes": [
+    "Toxic compounds: methyl salicylate (the primary component of wintergreen oil, >96%); the plant also contains methyl salicylate at lower concentrations",
+    "Mechanism: cats lack glucuronyl transferase needed to metabolise salicylates; toxic accumulation causes GI haemorrhage, metabolic acidosis, and kidney failure",
+    "Symptoms: vomiting, rapid or laboured breathing, weakness, tremors, GI bleeding; severe cases cause seizures, liver and kidney failure",
+    "Topical application of wintergreen-containing products to cats is extremely dangerous — never use muscle rubs, liniments, or oral care products with wintergreen on cats",
+    "Any wintergreen oil exposure is a veterinary emergency"
+  ],
+  "scientificName": "Gaultheria procumbens",
+  "severity": "toxic",
+  "slug": "gaultheria_procumbens",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive dribbling",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Shaking, tremoring, and walking as if they are drunk (ataxia)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy, depression, or dullness",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty breathing or breathing with the mouth open",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Sore or red skin, and chemical burns",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Liver failure, seizures, collapse, and death",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Fruit"
+  ]
+}

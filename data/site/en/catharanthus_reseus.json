@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Madagascar Periwinkle (Catharanthus roseus) is a common ornamental flowering plant that is severely toxic to cats. It contains vinca alkaloids — primarily vincristine and vinblastine — the same compounds used as chemotherapy drugs in cancer treatment. Even small amounts can cause serious, life-threatening toxicity in cats.",
+  "imageUrls": [],
+  "name": "Madagascar Periwinkle",
+  "safetyNotes": [
+    "Toxic compounds: vinca alkaloids — vincristine, vinblastine, vinorelbine; all parts of the plant are toxic",
+    "Mechanism: vinca alkaloids inhibit cell division by binding to tubulin, disrupting the mitotic spindle; this damages rapidly dividing cells including bone marrow and GI epithelium",
+    "Symptoms: vomiting, diarrhea, severe weakness, low blood pressure, neurological signs (tremors, seizures); bone marrow suppression may develop over days",
+    "Despite its cheerful appearance, this plant is as dangerous as chemotherapy agents",
+    "Any suspected ingestion is a veterinary emergency"
+  ],
+  "scientificName": "Catharanthus reseus",
+  "severity": "toxic",
+  "slug": "catharanthus_reseus",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Pharyngeal (throat) pain, abdominal pain, severe diarrhea, and dehydration",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Peripheral nerve damage",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Bone marrow suppression (depression)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Cardiovascular damage",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Entire Plant"
+  ]
+}

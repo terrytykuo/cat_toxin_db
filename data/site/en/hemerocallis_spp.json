@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Daylily (Hemerocallis spp.) is one of the most dangerous plants for cats and must be treated as a veterinary emergency. Although not a true lily botanically, Daylilies share the same devastating nephrotoxicity seen in Easter and Tiger lilies. The specific toxic compound has not been fully identified, but virtually all parts — flowers, leaves, stems, pollen, and even vase water — can cause fatal acute kidney failure.",
+  "imageUrls": [],
+  "name": "Daylily",
+  "safetyNotes": [
+    "Toxic compounds: unknown nephrotoxic substance unique to Hemerocallis; not toxic to dogs or humans",
+    "Mechanism: acute tubular necrosis — rapid, irreversible destruction of kidney tissue",
+    "Symptoms Phase 1 (0-2h): vomiting, lethargy, drooling; Phase 2 (24-72h): acute kidney failure with cessation of urine output, seizures, coma",
+    "Even small exposures are dangerous: a few petals, licking pollen off fur, or drinking vase water can be lethal",
+    "Time is critical — decontamination and IV fluid therapy within 6 hours significantly improve survival; do not wait for symptoms to worsen"
+  ],
+  "scientificName": "Hemerocallis spp.",
+  "severity": "toxic",
+  "slug": "hemerocallis_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Rapid",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Acute Kidney Failure",
+      "onset": "12-36 hours",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy",
+      "onset": "Rapid",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower",
+    "Stem",
+    "Pollen"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Foxglove (Digitalis purpurea) is one of the most dangerous plants a cat can encounter. Every part of the plant — fresh or dried — contains potent cardiac glycosides including digoxin, digitoxin, and digitalin. These compounds have an extremely narrow margin between therapeutic and lethal doses, and even small amounts can trigger life-threatening cardiac events in cats.",
+  "imageUrls": [],
+  "name": "Foxglove",
+  "safetyNotes": [
+    "Toxic compounds: cardiac glycosides — digoxin, digitoxin, digitalin, digitonin; all parts toxic including dry leaves, flowers, seeds, and roots",
+    "Mechanism: inhibit the Na+/K+-ATPase pump in cardiac muscle → disrupts electrical conduction → arrhythmias and heart block",
+    "Symptoms: vomiting, diarrhea, drooling, weakness, bradycardia (abnormally slow heart rate), cardiac arrhythmias, collapse; can be fatal without treatment",
+    "Even dried Foxglove in hay or potpourri retains full toxicity",
+    "Any suspected ingestion is a veterinary emergency — do not wait for symptoms to develop"
+  ],
+  "scientificName": "Digitalis purpurea",
+  "severity": "toxic",
+  "slug": "digitalis_purpurea",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Bloody Diarrhea, and Nausea",
+      "onset": "Within 2 hours (Acute).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Bradycardia (Slow Heart Rate), Tachycardia (Fast Heart Rate), or Irregular Pulse",
+      "onset": "Within 2 hours (and can persist for days).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Weakness, Tremors, and Convulsions (Seizures)",
+      "onset": "Acute (following or accompanying cardiac signs).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Hyperkalemia (High Potassium Levels)",
+      "onset": "Acute (detectable via blood tests shortly after ingestion).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Frequent Urination",
+      "onset": "Acute.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Seed",
+    "Pollen",
+    "Leaf",
+    "Flower",
+    "Root",
+    "Sap"
+  ]
+}

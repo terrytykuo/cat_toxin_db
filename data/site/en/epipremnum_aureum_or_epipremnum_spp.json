@@ -1,0 +1,46 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Pothos (Epipremnum aureum), also called Devil’s Ivy, is one of the most common houseplants and a frequent cause of plant-related toxicity in cats. As a member of the Araceae family, it contains insoluble calcium oxalate crystals (raphides) throughout its leaves and stems. Chewing the plant causes immediate intense oral pain and irritation.",
+  "imageUrls": [],
+  "name": "Pothos / Devil’s Ivy",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides; sap also contains proteolytic enzymes that intensify the reaction",
+    "Mechanism: crystals are forcefully ejected into the oral mucosa when plant cells rupture, causing mechanical burning and swelling",
+    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, difficulty swallowing, swollen lips and tongue, vomiting",
+    "The trailing vines are very accessible to cats, especially when draped over furniture or shelves",
+    "Rinse the mouth with water; seek veterinary care if swallowing is impaired or symptoms do not subside"
+  ],
+  "scientificName": "Epipremnum aureum or Epipremnum spp.",
+  "severity": "toxic",
+  "slug": "epipremnum_aureum_or_epipremnum_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Intense burning, irritation, and pain of the mouth, lips, and tongue",
+      "onset": "Immediate",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive drooling or hypersalivation",
+      "onset": "Immediate",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Swelling of the mouth and tongue, accompanied by difficulty swallowing (dysphagia)",
+      "onset": "Immediate to shortly after exposure",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Shortly after ingestion",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Entire Plant"
+  ]
+}

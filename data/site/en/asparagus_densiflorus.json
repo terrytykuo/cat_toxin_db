@@ -1,0 +1,41 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Asparagus Fern (also called foxtail fern or emerald fern) is a popular decorative houseplant whose feathery fronds conceal a significant hazard: the plant contains sapogenin, a steroidal saponin that irritates the gastrointestinal tract when ingested. The small red or orange berries produced by the plant are the most concentrated source of sapogenin and pose the highest risk, particularly to cats that bat them off the plant and then chew them. Repeated skin contact with the sap can also trigger allergic dermatitis.",
+  "imageUrls": [],
+  "name": "Asparagus Fern",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, and abdominal pain from ingestion; skin blistering or dermatitis from repeated sap contact.",
+    "Berries: The berries carry the highest sapogenin concentration and should be considered the primary hazard — especially as they fall to the ground and become accessible to curious cats.",
+    "Action: Remove fallen berries promptly. Place the plant in a location cats cannot reach, and consult a vet if ingestion is suspected."
+  ],
+  "scientificName": "Asparagus densiflorus",
+  "severity": "cautious",
+  "slug": "asparagus_densiflorus",
+  "symptoms": [
+    {
+      "body_system": "Dermal",
+      "name": "Skin Irritation (Allergic Dermatitis)",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal Pain",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Fruit"
+  ]
+}

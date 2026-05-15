@@ -1,0 +1,45 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Allamanda is a tropical ornamental shrub prized for its vivid yellow trumpet-shaped flowers, but every part of the plant — leaves, stems, flowers, seeds, and its milky white sap — is toxic to cats. The plant contains iridoid compounds (including allamandin) that act as powerful cathartics and severe gastrointestinal irritants. The milky sap poses an additional hazard as a direct irritant to skin, eyes, and mucous membranes.",
+  "imageUrls": [],
+  "name": "Allamanda",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea (which may be bloody), abdominal pain, and drooling from ingestion; redness, swelling, and pain if sap contacts the skin or eyes.",
+    "All parts toxic: Flowers, leaves, stems, seeds, and sap all contain toxic compounds.",
+    "Action: Seek immediate veterinary care if a cat ingests any part of the plant or shows signs of distress."
+  ],
+  "scientificName": "Allamanda cathartica",
+  "severity": "toxic",
+  "slug": "allamanda_cathartica",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal discomfort (pain)",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Metabolic",
+      "name": "Dehydration",
+      "onset": "Secondary effect, developing after sustained fluid loss from diarrhea.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Electrolyte imbalance",
+      "onset": "Secondary effect, following fluid loss.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Bark",
+    "Leaf",
+    "Seed",
+    "Fruit"
+  ]
+}

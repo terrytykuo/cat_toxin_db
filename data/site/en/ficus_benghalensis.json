@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Ficus Audrey (Ficus benghalensis), the Indian Banyan tree, is a popular houseplant that is mildly toxic to cats. Like other Ficus species, it produces a milky latex sap containing proteolytic enzymes (ficin) and irritant compounds. These cause gastrointestinal upset when ingested and contact dermatitis when the sap touches skin.",
+  "imageUrls": [],
+  "name": "Ficus Audrey",
+  "safetyNotes": [
+    "Toxic compounds: ficin (proteolytic enzyme in latex sap), irritant compounds",
+    "Mechanism: ficin directly irritates mucous membranes and the GI tract; latex contact causes localised skin inflammation",
+    "Symptoms: vomiting, diarrhea, drooling, loss of appetite; skin contact with broken stems or leaves may cause redness or rash",
+    "Symptoms are generally mild and self-limiting; seek vet attention if vomiting is severe or prolonged",
+    "Wipe away sap from cat skin promptly; the plant is most hazardous when stems are broken and latex oozes"
+  ],
+  "scientificName": "Ficus benghalensis",
+  "severity": "safe",
+  "slug": "ficus_benghalensis",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Mild Oral Irritation (burning sensation in mouth/tongue)",
+      "onset": "Immediate (Upon chewing or contact with sap).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling / Hypersalivation",
+      "onset": "Acute (Shortly after exposure).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Acute.",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Contact Dermatitis (Skin redness or irritation)",
+      "onset": "Acute (Upon contact).",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Stem",
+    "Leaf"
+  ]
+}

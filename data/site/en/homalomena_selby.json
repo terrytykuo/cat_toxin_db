@@ -1,0 +1,61 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Homalomena ‘Selby’ is a tropical ornamental houseplant in the Araceae family, making it toxic to cats for the same reason as Dieffenbachia, Philodendron, and Pothos: insoluble calcium oxalate crystals (raphides) throughout the leaves and stems. When chewed, these needle-like crystals are forcefully ejected into the oral mucosa, causing intense immediate irritation.",
+  "imageUrls": [],
+  "name": "Homalomena Selby / Homalomena rubescens",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides; the plant’s cell sap also contains proteolytic enzymes",
+    "Mechanism: crystal penetration of the mouth and throat lining causes mechanical burning and inflammation",
+    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, swollen lips or tongue, difficulty swallowing, vomiting",
+    "All parts of the plant are hazardous; the reaction is immediate and self-limiting",
+    "Rinse the mouth with water; seek veterinary care if swallowing is impaired or symptoms do not resolve"
+  ],
+  "scientificName": "Homalomena Selby",
+  "severity": "cautious",
+  "slug": "homalomena_selby",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Mouth Irritation (Pain/Burning)",
+      "onset": "Immediate (Upon chewing the plant material).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling (Hypersalivation)",
+      "onset": "Immediate.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Reluctance to Eat / Difficulty Swallowing",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "onset": "Delayed (Following ingestion of larger quantities).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy",
+      "onset": "Acute/Delayed.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ]
+}

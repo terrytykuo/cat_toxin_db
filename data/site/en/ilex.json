@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "",
+  "imageUrls": [],
+  "name": "Ilex",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "ilex",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea",
+      "onset": "Acute (Clinical signs can occur after ingesting as few as two berries).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive Drooling (Ptyalism) or Lip Smacking",
+      "onset": "Immediate (Upon chewing or ingestion).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal Pain",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy or Depression",
+      "onset": "Acute (Following GI symptoms).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Head Shaking or Pawing at Mouth",
+      "onset": "Immediate.",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": []
+}

@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Fire Lily (Clivia miniata), also called Kaffir Lily, is a South African ornamental plant toxic to cats throughout all its parts. It contains lycorine and related phenanthridine alkaloids, with the highest concentration found in the bulb. Lycorine is the same toxin responsible for Amaryllis and Daffodil poisoning in cats, acting directly on the brainstem vomiting centre.",
+  "imageUrls": [],
+  "name": "Fire Lily",
+  "safetyNotes": [
+    "Toxic compounds: lycorine and related phenanthridine alkaloids; bulb is the most concentrated part",
+    "Mechanism: lycorine stimulates the emetic centre in the brainstem and causes vasodilation at higher doses",
+    "Symptoms: profuse vomiting, diarrhea, drooling, tremors; severe ingestion may cause low blood pressure, convulsions, and CNS depression",
+    "Flowers, leaves, and stems also contain toxins though at lower concentrations than the bulb",
+    "Keep bulbs stored safely out of reach; seek veterinary care promptly if ingestion is suspected"
+  ],
+  "scientificName": "Clivia miniata",
+  "severity": "toxic",
+  "slug": "clivia_miniata",
+  "symptoms": [
+    {
+      "body_system": "Renal",
+      "name": "Acute Tubular Necrosis / Renal Failure",
+      "onset": "36–72 hours (Progression to failure).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Anorexia (Loss of Appetite)",
+      "onset": "Within hours (Early stage).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Dehydration and Increased Thirst (Polydipsia)",
+      "onset": "12–30 hours.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy / Depression",
+      "onset": "Within hours.",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower",
+    "Pollen"
+  ]
+}

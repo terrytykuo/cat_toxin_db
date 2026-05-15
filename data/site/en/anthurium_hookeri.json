@@ -1,0 +1,58 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Bird's Nest Anthurium (Anthurium spp.) is a popular tropical houseplant with glossy, heart-shaped leaves and distinctive waxy spathes. All Anthurium species belong to the Araceae family and contain insoluble calcium oxalate crystals (raphides) throughout their leaves, stems, and berries. These needle-like crystals cause immediate mechanical injury to the soft tissues of the mouth and digestive tract when the plant is chewed. The colorful berries that some varieties produce are particularly attractive to cats but carry the same risk.",
+  "imageUrls": [],
+  "name": "Bird’s Nest Anthurium",
+  "safetyNotes": [
+    "Symptoms: Immediate oral pain, intense drooling, pawing at the mouth, swelling of the lips, tongue, and throat, and difficulty swallowing. Ingestion of berries may also cause vomiting and diarrhea.",
+    "Berries are an additional hazard: The colorful spathe berries contain the same raphide crystals and should be removed promptly when they appear.",
+    "Action: Rinse the cat's mouth with water. Seek veterinary advice if swelling is significant or symptoms persist beyond an hour."
+  ],
+  "scientificName": "Anthurium hookeri",
+  "severity": "toxic",
+  "slug": "anthurium_hookeri",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Intense burning sensation and irritation of the mouth, tongue, and lips",
+      "onset": "Immediate (upon chewing or biting).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling",
+      "onset": "Immediate.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Swelling of the lips, tongue, and pharynx (throat)",
+      "onset": "Rapid (shortly after contact).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Rapid.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Difficulty swallowing",
+      "onset": "Immediate to Rapid.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Pawing at the mouth or face",
+      "onset": "Immediate.",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ]
+}

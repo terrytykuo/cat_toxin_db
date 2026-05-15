@@ -1,0 +1,55 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "",
+  "imageUrls": [],
+  "name": "Allium Sativum",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "allium_sativum",
+  "symptoms": [
+    {
+      "body_system": "Hematological",
+      "name": "Hemolytic Anemia (Heinz Body Anemia)",
+      "onset": "Delayed (Signs may not appear for several days after ingestion).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, and Abdominal Pain",
+      "onset": "Delayed (Can appear several days later along with other symptoms,",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Pale, White, or Yellow (Jaundiced) Gums/Skin",
+      "onset": "Delayed (Several days).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Hemoglobinuria (Red to Brown Urine)",
+      "onset": "Delayed.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy, Weakness, Stumbling (Ataxia), and Collapse",
+      "onset": "Delayed (Several days).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Tachypnea (Rapid Breathing) or Difficulty Breathing",
+      "onset": "Delayed (Several days).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Rapid Heartbeat (Tachycardia)",
+      "onset": "Delayed (Several days).",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": []
+}

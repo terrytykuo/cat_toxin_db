@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Angel's Trumpets (Brugmansia spp., and the closely related Datura) is one of the most dangerous ornamental plants a cat can encounter. Every part of the plant — flowers, leaves, stems, seeds, and roots — contains high concentrations of tropane alkaloids, primarily atropine, scopolamine, and hyoscyamine. These compounds work by blocking muscarinic acetylcholine receptors, the receptors the nervous system uses to control glands, smooth muscle, and heart rate. When these receptors are blocked, the body's entire parasympathetic nervous system is effectively switched off, producing what veterinarians call anticholinergic syndrome. Although the plant's strong scent deters many cats, ingestion still occurs — and because cats cannot sweat, the disruption to their thermoregulatory system makes hyperthermia (dangerously high body temperature) a particularly life-threatening complication.",
+  "imageUrls": [],
+  "name": "Angel's Trumpets",
+  "safetyNotes": [
+    "Symptom progression: Early signs include dilated pupils, rapid heart rate, dry mouth, and restlessness. As toxicity progresses: agitation, disorientation, inability to urinate, and muscle tremors. Severe cases escalate to hyperthermia, seizures, respiratory failure, and coma.",
+    "Seeds and leaves carry the highest alkaloid load — but all parts, including the nectar and sap, are dangerous. Even second-hand exposure (e.g. a cat grooming pollen from its coat) can cause symptoms.",
+    "Hyperthermia risk: Because cats cannot sweat, the loss of thermoregulation from anticholinergic syndrome can rapidly push body temperature to fatal levels, especially in warm environments.",
+    "Action: This is a veterinary emergency requiring immediate treatment. Do not wait for symptoms to worsen — bring the cat to a vet at once, ideally with a sample of the plant for identification."
+  ],
+  "scientificName": "Brugmansia spp.",
+  "severity": "toxic",
+  "slug": "brugmansia_spp",
+  "symptoms": [
+    {
+      "body_system": "Neurological",
+      "name": "Behavioral changes and Disorientation",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Dilated Pupils (Mydriasis)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Metabolic",
+      "name": "Hyperthermia",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Change in heart rate",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Change in respiratory rate",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Loss of appetite",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Leaf",
+    "Seed",
+    "Flower"
+  ]
+}

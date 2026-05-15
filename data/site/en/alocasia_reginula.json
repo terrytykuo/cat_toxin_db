@@ -1,0 +1,52 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Black Velvet Alocasia (Alocasia reginula) is a striking indoor plant prized for its dark, velvety leaves with silvery veins. Like all plants in the Alocasia genus and the broader Araceae family, it contains insoluble calcium oxalate crystals (raphides) — microscopic needle-like structures packed into specialised cells throughout the leaves, stems, and roots. When a cat bites or chews any part of the plant, these crystals are forcibly ejected and physically penetrate the soft tissues of the mouth and throat, causing immediate and intense pain that typically stops the cat from ingesting more.",
+  "imageUrls": [],
+  "name": "Black Velvet Alocasia",
+  "safetyNotes": [
+    "Symptoms: Immediate intense oral pain, excessive drooling, pawing at the mouth, swelling of the lips, tongue, and throat, and difficulty swallowing; vomiting may follow if some plant material is swallowed.",
+    "Rapid onset: Irritation begins within seconds of chewing — the plant's own defence mechanism usually limits the amount ingested.",
+    "Action: Rinse the cat's mouth gently with water to help flush the crystals. Contact a vet if throat swelling, persistent vomiting, or difficulty breathing develops."
+  ],
+  "scientificName": "Alocasia reginula",
+  "severity": "toxic",
+  "slug": "alocasia_reginula",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Severe oral irritation; intense burning of the mouth, tongue, and throat",
+      "onset": "Immediate (upon contact/chewing).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling",
+      "onset": "Immediate.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Rapid (shortly after ingestion).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Difficulty swallowing",
+      "onset": "Immediate to Rapid.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Swelling of the throat (Laryngeal edema)",
+      "onset": "Rapid.",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ]
+}

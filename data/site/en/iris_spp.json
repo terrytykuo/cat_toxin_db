@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Iris (Iris spp.) is a widely cultivated ornamental plant that is mildly to moderately toxic to cats. The rhizomes (underground stems/bulbs) contain the highest concentration of toxic compounds, including irisin, iridoid glycosides, and pentacyclic terpenoids. The leaves and petals carry lower but non-trivial amounts of these irritants.",
+  "imageUrls": [],
+  "name": "Iris",
+  "safetyNotes": [
+    "Toxic compounds: irisin (resinous glycoside), iridoid glycosides, pentacyclic terpenoids; rhizomes most concentrated",
+    "Mechanism: irisin and iridoid compounds cause direct GI irritation; skin contact with sap may cause dermatitis",
+    "Symptoms: drooling, vomiting, diarrhea, lethargy, abdominal pain; skin or eye contact with sap may cause redness or irritation",
+    "Rhizomes are the most hazardous part — risk increases during planting or dividing bulbs",
+    "Symptoms are usually mild with leaf nibbling; contact your vet if rhizome ingestion is suspected"
+  ],
+  "scientificName": "Iris spp.",
+  "severity": "cautious",
+  "slug": "iris_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Nausea, and Diarrhea",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Mouth Ulcers and Oral Irritation",
+      "onset": "Acute (upon contact/ingestion).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Skin Irritation (Dermatitis)",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal Pain",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Leaf",
+    "Flower",
+    "Bulb"
+  ]
+}

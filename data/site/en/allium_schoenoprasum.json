@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Chives (Allium schoenoprasum) belong to the Allium family alongside onions, garlic, and leeks — all of which are toxic to cats. The primary toxic agents are organosulfur compounds (alk(en)yl cysteine sulfoxides) that convert when chewed into potent oxidants including N-propyl disulfide and sodium n-propylthiosulfate. These compounds attack red blood cells at the molecular level: they deplete glutathione, oxidise and denature haemoglobin, and cause it to clump into structures called Heinz bodies. This renders red blood cells rigid and fragile, leading to their rupture (haemolysis) and severe anaemia. Cats are 2–3 times more vulnerable than dogs because feline haemoglobin has significantly more reactive sulfhydryl groups. A critical danger: symptoms are often delayed by 3 to 5 days, so a cat may appear fine initially even after significant ingestion.",
+  "imageUrls": [],
+  "name": "Chives",
+  "safetyNotes": [
+    "Symptoms (early, within 24 hrs): Drooling, vomiting, diarrhea, loss of appetite, and abdominal pain.",
+    "Symptoms (3–5 days later): Lethargy, profound weakness, pale or yellow mucous membranes, rapid breathing, rapid heart rate, and dark reddish-brown urine (hemoglobinuria).",
+    "All forms are dangerous: Fresh, dried, and powdered chives are all toxic — powdered or dehydrated forms are especially concentrated.",
+    "Action: Seek veterinary care immediately after any confirmed ingestion, even if the cat seems well — do not wait for anaemia symptoms to develop."
+  ],
+  "scientificName": "Allium schoenoprasum",
+  "severity": "toxic",
+  "slug": "allium_schoenoprasum",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, diarrhea, abdominal pain, and loss of appetite (anorexia)",
+      "onset": "Can occur early, but general signs of poisoning may not appear for several days after ingestion.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Lethargy, weakness, stumbling, and collapse",
+      "onset": "Delayed (Symptoms typically appear several days following ingestion).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Pale, white, or yellow (jaundiced) gums",
+      "onset": "Delayed (Several days).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Dark, reddish, or brown urine",
+      "onset": "Delayed (Several days).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Tachypnea (rapid breathing), panting, or dyspnea (difficulty breathing)",
+      "onset": "Delayed (Several days).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Tachycardia (rapid heartbeat)",
+      "onset": "Delayed (Several days).",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant",
+    "Bulb"
+  ]
+}

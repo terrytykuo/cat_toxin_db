@@ -1,0 +1,58 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Croton (Codiaeum variegatum) is a popular ornamental shrub prized for its intensely colourful leaves, but it is toxic to cats. The plant's milky white sap contains irritating diterpene ester compounds related to phorbol esters, which cause severe chemical burns on contact with skin, eyes, or mucous membranes. The seeds also contain protein toxins. Ingestion causes significant gastrointestinal distress, while skin or eye contact with the sap produces a rapid inflammatory response.",
+  "imageUrls": [],
+  "name": "Croton",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, severe diarrhea, and abdominal pain from ingestion; skin redness, blistering, and eye pain from sap contact.",
+    "Sap is the immediate hazard: The milky sap is released whenever a leaf or stem is broken. Cats that chew on leaves receive both the sap and the leaf tissue.",
+    "Action: Rinse skin or eyes thoroughly with water if sap contact occurs. Seek veterinary care if a cat has ingested any part of the plant or if eye symptoms develop."
+  ],
+  "scientificName": "Codiaeum variegatum",
+  "severity": "cautious",
+  "slug": "codiaeum_variegatum",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Mouth irritation (burning sensation in mouth, tongue, and lips)",
+      "onset": "Immediate (upon chewing or contact).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling (Hypersalivation)",
+      "onset": "Rapid (following oral irritation).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Shortly after ingestion.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "onset": "Delayed (as plant material moves through the GI tract).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Skin Irritation (Dermatitis/Rash)",
+      "onset": "Upon direct contact.",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Anorexia (Refusal to eat)",
+      "onset": "Following oral pain or nausea.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf",
+    "Entire Plant"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Eucalyptus is toxic to cats due to its high concentration of essential oils — primarily eucalyptol (1,8-cineole) and other terpene compounds — found throughout the leaves, bark, and stems. Cats lack the hepatic enzymes needed to metabolize these oils efficiently, allowing toxic levels to accumulate and cause systemic effects.",
+  "imageUrls": [],
+  "name": "Eucalyptus",
+  "safetyNotes": [
+    "Toxic compounds: eucalyptol (1,8-cineole), terpenes; present in fresh leaves, dried leaves, and all essential oil products",
+    "Mechanism: impaired hepatic metabolism in cats allows eucalyptol to accumulate, causing CNS depression, GI irritation, and liver stress",
+    "Symptoms: drooling, vomiting, diarrhea, lethargy, weakness, unsteady gait (ataxia); severe cases may include respiratory depression",
+    "Eucalyptus essential oil diffusers are also a risk — airborne oil particles can cause respiratory irritation and systemic exposure",
+    "Seek veterinary care promptly; eucalyptus oil ingestion can progress to serious toxicity quickly in cats"
+  ],
+  "scientificName": "Eucalyptus spp.",
+  "severity": "toxic",
+  "slug": "eucalyptus_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, and Excessive Drooling (Hypersalivation)",
+      "onset": "Rapid (Clinical signs often appear quickly after ingestion or contact).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy, Depression, Ataxia (walking as if drunk/uncoordinated), Tremors, and Seizures",
+      "onset": "Acute (Shortly after exposure).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty Breathing (Dyspnea), Wheezing, or Coughing",
+      "onset": "Rapid (Especially if the oil is inhaled via a diffuser or aspirated during vomiting).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Chemical Burns, Redness, and Soreness",
+      "onset": "Immediate upon contact.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Liver Damage / Failure",
+      "onset": "Delayed (May develop over days as the body fails to metabolize the toxins).",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Bark",
+    "Flower"
+  ]
+}

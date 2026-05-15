@@ -1,0 +1,38 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Gardenia (Gardenia jasminoides) is a popular fragrant flowering shrub that is mildly toxic to cats. It contains iridoid glycosides — primarily genipin and gardenoside — found throughout the plant, including the flowers and fruit. These compounds irritate the gastrointestinal tract and may trigger skin reactions on contact.",
+  "imageUrls": [],
+  "name": "Gardenia",
+  "safetyNotes": [
+    "Toxic compounds: iridoid glycosides (genipin, gardenoside) in leaves, fruit, and flowers",
+    "Mechanism: genipin acts as a GI irritant and may cause mild liver stress at higher doses",
+    "Symptoms: vomiting, diarrhea, hives or skin rash (urticaria) from contact; mild lethargy",
+    "Symptoms are generally mild and resolve without treatment, but seek vet advice if vomiting is severe or prolonged",
+    "The fragrant flowers are attractive to some cats — keep the plant out of easy reach"
+  ],
+  "scientificName": "Gardenia jasminoides",
+  "severity": "safe",
+  "slug": "gardenia_jasminoides",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Hives (Urticaria) or Skin Rash",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower"
+  ]
+}

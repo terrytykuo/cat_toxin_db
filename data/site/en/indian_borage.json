@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Mexican Mint (Plectranthus amboinicus), also called Indian Borage or Cuban Oregano, is an aromatic succulent herb that is mildly toxic to cats. It contains pungent essential oils — primarily carvacrol, thymol, and camphor-related compounds — that act as GI irritants in cats and cannot be efficiently metabolised by their livers.",
+  "imageUrls": [],
+  "name": "Mexican Mint",
+  "safetyNotes": [
+    "Toxic compounds: carvacrol, thymol, and camphor-related volatile oils throughout the plant",
+    "Mechanism: these terpenoid oils irritate the gastrointestinal mucosa directly and may cause mild liver stress with repeated exposure",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy; symptoms are generally mild and self-limiting",
+    "The strong aroma may deter most cats, but some find the scent attractive",
+    "Contact your vet if symptoms persist or if large amounts were consumed"
+  ],
+  "scientificName": "Indian borage",
+  "severity": "toxic",
+  "slug": "indian_borage",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling (excessive salivation) or foaming at the mouth",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Loss of appetite",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy or weakness",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty breathing",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Leaf",
+    "Flower",
+    "Root"
+  ]
+}

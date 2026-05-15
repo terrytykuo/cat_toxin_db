@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "description": "",
+  "gemini_model": "gemini-cli-default",
+  "manual_override": false,
+  "name": "Allium Porrum",
+  "safetyNotes": [],
+  "slug": "allium_porrum",
+  "source_hash": "ccbadc7c688b2fabd9aef3d6617e655669a7aa621af8b0382adfa88a437cab4c",
+  "symptoms": [
+    {
+      "body_system": "消化系統",
+      "name": "嘔吐、腹瀉、腹痛與食慾不振（失去食慾）",
+      "onset": "可能早期發生，但一般中毒徵兆在攝入後數天內可能都不會出現。"
+    },
+    {
+      "body_system": "血液系統",
+      "name": "牙齦（黏膜）蒼白或發白、深色/偏紅尿液（血紅素尿），以及黃疸（皮膚/牙齦發黃）",
+      "onset": "延遲；症狀通常在攝入後數天顯現。"
+    },
+    {
+      "body_system": "呼吸系統",
+      "name": "呼吸急促、呼吸困難或喘氣",
+      "onset": "延遲；隨著貧血進展而出現（通常在接觸後數天）。"
+    },
+    {
+      "body_system": "心血管系統",
+      "name": "心跳過快（心搏加速）",
+      "onset": "延遲；隨著貧血進展而出現。"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "嗜睡、虛弱、步態不穩（共濟失調）與虛脫",
+      "onset": "延遲；通常在攝入後數天。"
+    }
+  ],
+  "toxicParts": [],
+  "translated_at": "2026-05-15T21:44:48Z"
+}

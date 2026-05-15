@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Jade Plant (Crassula spp.), also known as Money Plant or Lucky Plant, is a popular succulent houseplant that is mildly toxic to cats. The exact toxic principle has not been fully identified, but ingestion consistently causes gastrointestinal upset and neurological symptoms in cats. All parts of the plant are considered hazardous.",
+  "imageUrls": [],
+  "name": "Jade Plant",
+  "safetyNotes": [
+    "Toxic compounds: unidentified toxic principle; the plant's fleshy leaves and stems are the primary exposure source",
+    "Mechanism: unknown; likely involves direct GI irritation combined with a mild neurological component",
+    "Symptoms: vomiting, depression, unsteady gait (ataxia), slow heart rate; symptoms are usually mild",
+    "All parts of the plant are toxic — leaves, stems, and roots",
+    "Seek veterinary advice if your cat shows signs of unsteadiness or lethargy after contact with the plant"
+  ],
+  "scientificName": "Crassula arborescens",
+  "severity": "toxic",
+  "slug": "crassula_arborescens",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Acute (Clinical signs typically appear shortly after ingestion).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Loss of Balance / Incoordination / Ataxia",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Depression / Lethargy",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Slow Heart Rate (Bradycardia)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "onset": "Acute.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ]
+}

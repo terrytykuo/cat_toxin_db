@@ -1,0 +1,54 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Yesterday-Today-and-Tomorrow (Brunfelsia pauciflora), named for its flowers that change colour over three days, is moderately toxic to cats. All parts of the plant contain brunfelsamidine and other steroidal alkaloids. It is a member of the nightshade family and is particularly known for causing neurological symptoms.",
+  "imageUrls": [],
+  "name": "Yesterday-today-and-tomorrow",
+  "safetyNotes": [
+    "Toxic compounds: brunfelsamidine and related steroidal alkaloids; all parts of the plant are toxic",
+    "Mechanism: alkaloids affect the central nervous system, causing excitation and then CNS depression",
+    "Symptoms: vomiting, diarrhea, muscle tremors, seizures, hyperthermia; characteristically produces a syndrome that alternates agitation with sedation",
+    "Frequently used as a decorative garden shrub in tropical regions — keep cats away from the garden",
+    "Seek veterinary care promptly if ingestion is suspected; the neurological syndrome can escalate rapidly"
+  ],
+  "scientificName": "Brunfelsia pauciflora floribunda",
+  "severity": "toxic",
+  "slug": "brunfelsia_pauciflora_floribunda",
+  "symptoms": [
+    {
+      "body_system": "Cardiac",
+      "name": "Tachycardia (rapid heart rate)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Dry mouth",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Dilated pupils",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Ataxia (loss of coordination) and tremors",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Urinary retention",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Depression, deep sedation, and sometimes coma",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Bark",
+    "Leaf",
+    "Flower"
+  ]
+}

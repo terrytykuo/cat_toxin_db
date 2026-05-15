@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Begonias are a large family of popular houseplants and garden flowers, but all species are toxic to cats. The primary toxic agents are soluble calcium oxalates, which are most heavily concentrated in the underground tubers, rhizomes, and root systems. Unlike the insoluble raphide crystals found in related Araceae plants, soluble oxalates can be absorbed into the bloodstream and — with large enough exposure — may cause more systemic effects including electrolyte imbalances. Cats that dig at potted begonias and chew on the roots or tubers face the greatest risk.",
+  "imageUrls": [],
+  "name": "Begonia",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, and diarrhea are the most common signs; in larger exposures, electrolyte disturbances can occur.",
+    "Roots and tubers most toxic: The leaves and flowers contain lower oxalate levels, but the underground portions are significantly more concentrated and must be kept inaccessible.",
+    "Action: Contact a vet if a cat has chewed on the root or tuber, or if more than mild drooling and one episode of vomiting occurs."
+  ],
+  "scientificName": "Begonia spp.",
+  "severity": "toxic",
+  "slug": "begonia_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Intense burning, redness, and irritation of the mouth, tongue, and lips; occasionally oral sores",
+      "onset": "Immediate (upon biting or chewing).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Hypersalivation (Excessive salivation)",
+      "onset": "Immediate to rapid.",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Rapid (shortly after ingestion).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Dysphagia (Difficulty swallowing)",
+      "onset": "Rapid (associated with oral swelling/pain).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Liver Failure",
+      "onset": "Delayed (after toxin absorption).",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Flower"
+  ]
+}

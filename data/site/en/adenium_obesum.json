@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Desert Rose (Adenium obesum) is a succulent ornamental plant toxic to cats due to cardenolides — potent cardiac glycosides concentrated throughout the entire plant, including the sap, roots, stems, and flowers. These compounds inhibit the sodium-potassium ATPase pump in heart muscle cells, disrupting the electrical signals that regulate heartbeat rhythm.",
+  "imageUrls": [],
+  "name": "Desert Rose",
+  "safetyNotes": [
+    "Toxic compounds: cardenolides (cardiac glycosides), similar in action to digitalis",
+    "Mechanism: Na+/K+-ATPase inhibition causing cardiac conduction disruption and arrhythmias",
+    "Symptoms: drooling, vomiting, diarrhea, lethargy, weakness, abnormal heart rate (bradycardia or arrhythmia), collapse",
+    "All parts are toxic; the milky sap poses the greatest risk if ingested or contacted",
+    "Even small exposures warrant veterinary assessment due to cardiac risk"
+  ],
+  "scientificName": "Adenium obesum",
+  "severity": "toxic",
+  "slug": "adenium_obesum",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Rapid",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Cardiac Arrhythmias",
+      "onset": "Delayed",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Metabolic",
+      "name": "Hyperkalemia",
+      "onset": "Delayed",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf",
+    "Flower",
+    "Stem",
+    "Entire Plant"
+  ]
+}

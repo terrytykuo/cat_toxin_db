@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Mountain Laurel (Kalmia latifolia) is a broadleaf evergreen shrub in the heath family — related to Rhododendron and Azalea — and equally dangerous for cats. All parts contain grayanotoxins, the same diterpenoid polyol compounds responsible for the most severe ornamental plant poisonings in companion animals. Even nectar and pollen are toxic.",
+  "imageUrls": [],
+  "name": "Mountain Laurel",
+  "safetyNotes": [
+    "Toxic compounds: grayanotoxins I, II, and III; all parts toxic — leaves, flowers, nectar, pollen, and berries",
+    "Mechanism: grayanotoxins hold voltage-gated sodium channels open, causing sustained membrane depolarisation in cardiac and skeletal muscle; this leads to hypotension, bradycardia, and arrhythmias",
+    "Symptoms: profuse drooling, vomiting, diarrhea, severe weakness, loss of coordination, abnormally slow heart rate, tremors, seizures; can be fatal without treatment",
+    "Even small amounts of leaves or flowers can cause serious cardiac effects in cats",
+    "Any suspected ingestion is a veterinary emergency"
+  ],
+  "scientificName": "Kalmia latifolia",
+  "severity": "toxic",
+  "slug": "kalmia_latifolia",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, diarrhea, inappetence (loss of appetite), abdominal pain, and hypersalivation (drooling)",
+      "onset": "Within 1 to 4 hours (and occasionally up to 12 hours) after ingestion",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "CNS depression, lethargy, and profound muscle weakness",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Abnormally slow heart rate (bradycardia), irregular heart rhythms (arrhythmias), and low blood pressure (hypotension)",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Muscle tremors and seizures",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Transient (temporary) blindness",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower"
+  ]
+}

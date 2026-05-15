@@ -1,0 +1,45 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Christmas Rose (Helleborus niger) is a popular winter garden and holiday houseplant with elegant white flowers, but all parts of the plant are toxic to cats. It contains several classes of toxic compounds: bufadienolide cardiac glycosides (including hellebrin), which disrupt the heart's electrical system; and ranunculin, which converts to protoanemonin (a potent irritant) when the plant is damaged. Even small amounts can cause significant symptoms, and the cardiac effects make this plant particularly dangerous.",
+  "imageUrls": [],
+  "name": "Christmas Rose",
+  "safetyNotes": [
+    "Symptoms: Severe drooling, vomiting, diarrhea, and abdominal pain; cardiac arrhythmia, abnormal heart rate, and low blood pressure; central nervous system depression in serious cases.",
+    "All parts are toxic: Roots and rhizomes contain the highest concentrations, but leaves, stems, and flowers also pose a risk.",
+    "Action: Seek veterinary care promptly — cardiac effects can develop quickly, and early treatment significantly improves outcomes."
+  ],
+  "scientificName": "Helleborus niger",
+  "severity": "toxic",
+  "slug": "helleborus_niger",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive drooling",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Persistent vomiting and diarrhea",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Changes in heart rate and rhythm (Arrhythmias)",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Hallucinations",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Electrolyte imbalances",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Sap"
+  ]
+}

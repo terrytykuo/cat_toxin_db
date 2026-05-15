@@ -1,0 +1,64 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Bell peppers, chili peppers, and ornamental peppers all belong to the Capsicum annuum species of the nightshade family (Solanaceae). Their risk to cats varies significantly by variety and ripeness. Plain ripe bell pepper flesh is considered relatively low-risk and is \"rather harmless\" — but it is still not recommended as a regular food. Spicy chili peppers contain capsaicin, a potent irritant to mucous membranes, skin, and the gastrointestinal tract. More critically, all peppers contain solanine-like glycoalkaloids — compounds that damage cell membranes and inhibit acetylcholinesterase, a key enzyme for nerve function — at highest concentrations in unripe (green) fruits, leaves, stems, and roots. Cats have limited liver detoxification capacity, making them especially sensitive to these plant toxins.",
+  "imageUrls": [],
+  "name": "Bell Pepper / Chili Pepper / Ornamental Pepper",
+  "safetyNotes": [
+    "Capsaicin (chili peppers): Causes immediate drooling, coughing, gastroenteritis, tearing, and eye irritation on contact with mucous membranes.",
+    "Solanine (green parts, unripe fruit, leaves, stems): Can cause severe GI distress, muscle tremors, weakness, and slowed heart rate through neurological disruption.",
+    "Safest approach: Keep all pepper plants out of reach. If offering ripe bell pepper flesh as a very occasional treat, remove all seeds and offer only a tiny amount."
+  ],
+  "scientificName": "Capsicum annuum",
+  "severity": "toxic",
+  "slug": "capsicum_annuum",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, and Hypersalivation (Drooling)",
+      "onset": "2–24 hours.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal Pain (Colic)",
+      "onset": "2–24 hours.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Burning sensation, Coughing, Watery Eyes",
+      "onset": "Immediate (upon contact or ingestion).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy (Apathy), Ataxia (Loss of coordination), Tremors, Seizures",
+      "onset": "12–24 hours (often follows GI symptoms).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Bradycardia (Slow heart rate), Arrhythmias",
+      "onset": "12–24 hours.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty breathing (Dyspnea) leading to Respiratory Paralysis",
+      "onset": "Late-stage (usually >24 hours).",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Hemolysis (Red blood cell destruction), Hemoglobinuria (Dark urine)",
+      "onset": "2–24 hours.",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Fruit"
+  ]
+}

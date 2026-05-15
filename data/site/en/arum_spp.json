@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Italian Arum (Arum italicum) is a tuberous ornamental plant toxic to cats throughout all its parts. It belongs to the Araceae family and contains insoluble calcium oxalate crystals (raphides) along with aroin — a toxic protein compound — and saponins. The bright orange-red berries are especially hazardous as they are visually attractive and contain the highest concentration of toxins.",
+  "imageUrls": [],
+  "name": "Italian Arum",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides, aroin (toxic protein), saponins; berries most concentrated",
+    "Mechanism: raphides cause immediate mechanical irritation to the oral and GI mucosa; aroin and saponins add systemic toxicity",
+    "Symptoms: intense oral burning, drooling, pawing at mouth, vomiting, diarrhea; severe berry ingestion may cause systemic illness",
+    "The attractive orange-red berries pose the greatest risk, particularly to inquisitive cats",
+    "Seek veterinary care if berry ingestion is suspected or if GI symptoms are severe"
+  ],
+  "scientificName": "Arum spp.",
+  "severity": "toxic",
+  "slug": "arum_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Mucous Membrane Irritation and Ulcerations",
+      "onset": "Acute (The irritation is a direct contact effect).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea",
+      "onset": "Acute (Following the irritation of the gastric lining).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal Pain / Discomfort",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Metabolic",
+      "name": "Dehydration",
+      "onset": "Delayed (Occurs as a result of persistent vomiting and diarrhea).",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ]
+}

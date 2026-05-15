@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "",
+  "imageUrls": [],
+  "name": "Eg Satin Pothos",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "eg_satin_pothos",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Intense oral irritation, burning sensation, pain, pawing at the mouth, and localized swelling (edema) of the tongue and pharynx",
+      "onset": "Immediate (upon chewing or ingestion)",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive salivation (drooling)",
+      "onset": "Immediate",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, retching, and lack of appetite (decreased appetite)",
+      "onset": "Shortly after ingestion",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Dyspnea and swelling of the upper airways",
+      "onset": "Rapidly following exposure (as tissue swelling develops)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excitability, nervous spasms, convulsions, and occasional encephalitis",
+      "onset": "Not explicitly specified in the sources",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Renal failure",
+      "onset": "Not explicitly specified in the sources",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": []
+}

@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Sweet Birch (Betula lenta) and Birch trees in general are notable for containing methyl salicylate — an analgesic compound related to aspirin — in high concentrations in the bark, leaves, and especially birch essential oil. Cats are extremely sensitive to salicylates because they lack efficient glucuronyl transferase to metabolise them, making birch oil a significant toxicity risk.",
+  "imageUrls": [],
+  "name": "Sweet Birch",
+  "safetyNotes": [
+    "Toxic compounds: methyl salicylate (up to 98% in Sweet Birch essential oil); present in bark and leaves at lower concentrations",
+    "Mechanism: cats cannot efficiently metabolise salicylates via glucuronidation, causing toxic accumulation; inhibits prostaglandin synthesis affecting the GI tract and kidneys",
+    "Symptoms: vomiting, diarrhea, rapid breathing, weakness, tremors; severe cases cause GI haemorrhage, metabolic acidosis, and kidney failure",
+    "Birch essential oil is extremely concentrated and highly dangerous — never apply to or diffuse near cats",
+    "Contact your vet immediately if your cat is exposed to birch oil or essential oil products"
+  ],
+  "scientificName": "Betula lenta",
+  "severity": "toxic",
+  "slug": "betula_lenta",
+  "symptoms": [
+    {
+      "body_system": "Dermal",
+      "name": "Sore skin, redness, or chemical burns",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive dribbling",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty breathing or open-mouth breathing",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Lethargy, depression, or dullness",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Shaking, tremoring, \"walking as if they're drunk\" (ataxia), collapse, and seizures",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Liver failure (and serious organ damage)",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Bark",
+    "Leaf"
+  ]
+}

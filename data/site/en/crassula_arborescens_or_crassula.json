@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "",
+  "imageUrls": [],
+  "name": "Crassula Arborescens Or Crassula",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "crassula_arborescens_or_crassula",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Acute (Clinical signs typically appear shortly after ingestion).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Loss of Balance / Incoordination / Ataxia",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Depression / Lethargy",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Slow Heart Rate (Bradycardia)",
+      "onset": "Not explicitly specified.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "onset": "Acute.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": []
+}

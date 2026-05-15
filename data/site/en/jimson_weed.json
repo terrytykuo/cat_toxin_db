@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "",
+  "imageUrls": [],
+  "name": "Jimson Weed",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "jimson_weed",
+  "symptoms": [
+    {
+      "body_system": "Respiratory",
+      "name": "Rapid Breathing (Tachypnea)",
+      "onset": "Not explicitly specified in the provided sources.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Dilated Pupils (Mydriasis)",
+      "onset": "Not explicitly specified in the provided sources.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Rapid Pulse (Tachycardia)",
+      "onset": "Not explicitly specified in the provided sources.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Twitching and Convulsions",
+      "onset": "Not explicitly specified in the provided sources.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "onset": "Not explicitly specified in the provided sources.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": []
+}

@@ -1,0 +1,44 @@
+{
+  "aliases": [],
+  "description": "蜂香薄荷 (Agastache spp.) 是一種芳香觀賞草本植物，被認為對貓是安全的。ASPCA 或主要的獸醫毒理學參考資料均未將其列為有毒植物。雖然芳香油可能會引起貓的輕微反感或暫時避開，但在正常情況下，該植物不會造成顯著的健康風險。注意：與任何非食品植物一樣，攝入大量可能會因不熟悉的植物物質而導致輕微的胃腸不適。如果您的貓在接觸後出現任何異常症狀，請諮詢獸醫。",
+  "gemini_model": "gemini-cli-default",
+  "manual_override": false,
+  "name": "蜂香薄荷",
+  "safetyNotes": [],
+  "slug": "agastache_spp",
+  "source_hash": "f54ffc14ac698e7749d9a64418dd603eb15ea5100ea8894c7b216e5231ed9410",
+  "symptoms": [
+    {
+      "body_system": "消化系統",
+      "name": "嘔吐與腹瀉",
+      "onset": "急性（攝入後不久）。"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "流口水或口腔冒泡",
+      "onset": "立即（在品嚐或咀嚼時）。"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "嗜睡或全身虛弱",
+      "onset": "變動性。"
+    },
+    {
+      "body_system": "呼吸系統",
+      "name": "呼吸困難 (Dyspnea)、咳嗽或打噴嚏",
+      "onset": "急性。"
+    },
+    {
+      "body_system": "肝臟系統",
+      "name": "肝功能障礙 / 肝衰竭",
+      "onset": "延遲（症狀可能在數小時或數天內發展）。"
+    }
+  ],
+  "toxicParts": [
+    "根",
+    "莖",
+    "葉",
+    "花"
+  ],
+  "translated_at": "2026-05-15T21:42:45Z"
+}

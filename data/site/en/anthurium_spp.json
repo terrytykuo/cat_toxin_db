@@ -1,0 +1,61 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Flamingo Flower and Anthurium (Anthurium spp.) are popular tropical houseplants that are toxic to cats due to insoluble calcium oxalate crystals (raphides) packed throughout their leaves, stems, and spathe. Like other members of the Araceae family (including Dieffenbachia and Caladium), these needle-sharp crystals cause immediate and intense oral irritation when the plant is chewed.",
+  "imageUrls": [],
+  "name": "Flamingo Flower / Anthurium",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides plus proteolytic enzymes that amplify the irritation",
+    "Mechanism: crystals mechanically penetrate the oral mucosa, causing intense burning and swelling",
+    "Symptoms: sudden oral pain, excessive drooling, pawing at mouth, swollen lips and tongue, difficulty swallowing, vomiting",
+    "All parts of the plant are hazardous; the reaction is immediate and self-limiting but distressing",
+    "Rinse the mouth with water and contact your vet if swallowing is impaired or symptoms persist"
+  ],
+  "scientificName": "Anthurium spp.",
+  "severity": "toxic",
+  "slug": "anthurium_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Intense Burning Sensation / Oral Irritation",
+      "onset": "Immediate (Upon chewing or biting).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Hypersalivation / Drooling",
+      "onset": "Immediate to Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Oral and Pharyngeal Edema (Swelling)",
+      "onset": "Acute (Shortly after contact).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Difficulty Swallowing / Dysphagia",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Pawing at the Mouth / Head Shaking",
+      "onset": "Immediate.",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ]
+}

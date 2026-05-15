@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Fiddle Leaf Fig (Ficus lyrata) is a trendy houseplant toxic to cats. As a member of the Ficus genus, it produces a milky latex sap containing ficin, a proteolytic enzyme, along with irritant compounds that cause gastrointestinal upset when swallowed and skin irritation on contact. The large, dramatic leaves may attract curious cats.",
+  "imageUrls": [],
+  "name": "Fiddle Leaf Fig",
+  "safetyNotes": [
+    "Toxic compounds: ficin (proteolytic enzyme) and irritant compounds in the latex sap",
+    "Mechanism: ficin irritates the mucosal lining of the mouth, oesophagus, and stomach; sap contact causes localised dermatitis",
+    "Symptoms: vomiting, diarrhea, drooling, decreased appetite; contact with sap may cause skin redness or itching",
+    "Insoluble calcium oxalates may also contribute to oral irritation in some Ficus species",
+    "Symptoms are typically mild; however, repeated nibbling can lead to ongoing GI irritation — relocate the plant away from cats"
+  ],
+  "scientificName": "Ficus lyrata",
+  "severity": "safe",
+  "slug": "ficus_lyrata",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Oral Irritation (Pain and burning sensation in the mouth, tongue, and lips)",
+      "onset": "Immediate (Upon chewing or biting into the leaf/stem).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling / Hypersalivation",
+      "onset": "Immediate to Acute (Shortly after oral contact).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Acute.",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Skin Irritation / Redness (Contact Dermatitis)",
+      "onset": "Acute (Upon contact with sap).",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Stem",
+    "Leaf"
+  ]
+}

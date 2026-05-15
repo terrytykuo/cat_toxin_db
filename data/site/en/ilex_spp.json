@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Holly (Ilex spp.) encompasses many species — including American Holly (Ilex opaca), Japanese Holly (Ilex crenata), and others — all of which are toxic to cats. Like English Holly, these species contain saponins (including ilicin) concentrated in the berries and leaves. The bright berries are visually attractive to cats and represent the greatest exposure risk.",
+  "imageUrls": [],
+  "name": "Holly",
+  "safetyNotes": [
+    "Toxic compounds: saponins (ilicin and related compounds), methylxanthine-related compounds, trace cyanogens in berries",
+    "Mechanism: saponins cause intense GI mucosal irritation; systemic absorption may cause CNS and cardiac effects at higher doses",
+    "Symptoms: severe nausea, vomiting, diarrhea, lethargy, excessive head shaking, drooling; even 1–2 berries can cause significant symptoms",
+    "All holly species should be treated as hazardous — both fresh plants and dried/decorative holly",
+    "Contact your vet if any holly berry ingestion is suspected"
+  ],
+  "scientificName": "Ilex spp.",
+  "severity": "cautious",
+  "slug": "ilex_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea",
+      "onset": "Acute (Clinical signs can occur after ingesting as few as two berries).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive Drooling (Ptyalism) or Lip Smacking",
+      "onset": "Immediate (Upon chewing or ingestion).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal Pain",
+      "onset": "Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy or Depression",
+      "onset": "Acute (Following GI symptoms).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Head Shaking or Pawing at Mouth",
+      "onset": "Immediate.",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Fruit"
+  ]
+}

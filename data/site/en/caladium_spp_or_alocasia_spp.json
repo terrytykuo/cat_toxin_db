@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Caladium (Caladium spp.), commonly known as Elephant's Ear, is a tropical houseplant grown for its vivid, heart-shaped leaves in shades of red, pink, white, and green. All parts of the plant — leaves, stems, and especially the underground tubers — contain insoluble calcium oxalate crystals (raphides) that cause immediate mechanical injury to any soft tissue they contact. The tubers carry the highest crystal concentration and pose the greatest risk if a cat digs at potted plants.",
+  "imageUrls": [],
+  "name": "Caladium / Elephant’s Ear",
+  "safetyNotes": [
+    "Symptoms: Immediate intense oral pain, excessive drooling, pawing at the mouth, swelling of the mouth, lips, and throat, difficulty swallowing, and vomiting.",
+    "Tubers are most concentrated: A cat digging in a Caladium pot and biting the tuber receives the highest dose of oxalate crystals.",
+    "Action: Rinse the cat's mouth with water to flush crystals. Seek veterinary attention if swelling is significant or symptoms do not resolve quickly."
+  ],
+  "scientificName": "Caladium spp. or Alocasia spp.",
+  "severity": "toxic",
+  "slug": "caladium_spp_or_alocasia_spp",
+  "symptoms": [
+    {
+      "body_system": "Dermal",
+      "name": "Intense burning sensation and irritation of the mouth, tongue, and lips",
+      "onset": "Immediate (upon chewing or biting).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Hypersalivation (Ptyalism)",
+      "onset": "Immediate / Acute.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Edema (Swelling) of the tongue, lips, and pharynx",
+      "onset": "Immediate to Acute (rapid progression).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Dyspnea (Respiratory Distress)",
+      "onset": "Acute (following swelling).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea",
+      "onset": "Acute (following ingestion).",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ]
+}

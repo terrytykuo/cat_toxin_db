@@ -1,0 +1,49 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Hummingbird Mint (Agastache spp.) is a fragrant ornamental herb that is considered safe for cats. It is not listed as toxic by the ASPCA or major veterinary toxicology references. While the aromatic oils may cause mild disinterest or temporary avoidance in cats, the plant poses no significant health risk under normal circumstances. Note: As with any non-food plant, large quantities could cause mild GI upset simply due to the unfamiliar plant matter. If your cat shows any unusual symptoms after contact, consult your vet.",
+  "imageUrls": [],
+  "name": "Hummingbird Mint",
+  "safetyNotes": [],
+  "scientificName": "Agastache spp.",
+  "severity": "toxic",
+  "slug": "agastache_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea",
+      "onset": "Acute (shortly after ingestion).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling or Foaming at the Mouth",
+      "onset": "Immediate (upon tasting or chewing).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy or General Weakness",
+      "onset": "Variable.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty Breathing (Dyspnea), Coughing, or Sneezing",
+      "onset": "Acute.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Hepatic Dysfunction / Liver Failure",
+      "onset": "Delayed (symptoms may develop over hours or days).",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Flower"
+  ]
+}

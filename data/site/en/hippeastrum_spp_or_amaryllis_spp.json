@@ -1,0 +1,77 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Amaryllis contains lycorine and other phenanthridine alkaloids concentrated throughout the plant, with the highest levels found in the bulb. Lycorine inhibits protein synthesis in cells and triggers strong gastrointestinal reactions. This plant is particularly common as an indoor holiday gift, meaning cats may encounter it during periods when owners are less vigilant. Both the Hippeastrum hybrids (commonly sold as \"Amaryllis\") and true Amaryllis species are toxic.",
+  "imageUrls": [],
+  "name": "Amaryllis",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, abdominal pain, low blood pressure, tremors, and lethargy; rarely, seizures in severe cases.",
+    "Bulb is most toxic: The bulb contains the highest alkaloid concentration. Cats that dig at soil and chew on bulbs face the greatest risk.",
+    "Seasonal risk: Popular as a winter holiday plant — keep it fully out of reach from the moment it enters the home."
+  ],
+  "scientificName": "Hippeastrum spp. or Amaryllis spp.",
+  "severity": "toxic",
+  "slug": "hippeastrum_spp_or_amaryllis_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting",
+      "onset": "Rapid/Soon after ingestion.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Diarrhea",
+      "onset": "Following gastrointestinal irritation.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive Drooling (Hypersalivation)",
+      "onset": "Immediate to rapid (upon chewing or ingestion).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal Pain",
+      "onset": "Following ingestion.",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Tremors",
+      "onset": "After absorption of toxins (delayed compared to GI signs).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Seizures (Convulsions)",
+      "onset": "After absorption of toxins.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Hypotension (Low Blood Pressure)",
+      "onset": "Variable (systemic effect).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Cardiac Arrhythmias",
+      "onset": "Variable.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Respiratory Depression",
+      "onset": "Variable.",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Bulb",
+    "Flower"
+  ]
+}

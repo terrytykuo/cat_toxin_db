@@ -1,0 +1,55 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Cycads (Cycas revoluta — commonly sold as Sago Palm — and related Zamia species) are among the most hepatotoxic plants known to veterinary medicine. They contain cycasin, a methylazoxymethanol glycoside that is metabolised by gut bacteria into a potent liver toxin, as well as beta-methylamino-L-alanine (BMAA), a neurotoxic amino acid. All parts of the plant are toxic, but the seeds carry the highest cycasin concentration. Ingestion of even a small number of seeds can cause acute, irreversible liver failure, and the survival rate is low even with aggressive veterinary treatment.",
+  "imageUrls": [],
+  "name": "Cycad",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea (often with blood), severe lethargy, jaundice (yellow skin/eyes/gums), abdominal pain, neurological signs including seizures; liver failure develops within 24–72 hours.",
+    "Seeds are the greatest danger: One or two seeds can be fatal. The entire plant — leaves, roots, and seeds — contains toxic compounds.",
+    "Action: This is a life-threatening emergency. Seek immediate veterinary care if any part of the plant has been ingested — do not wait for symptoms."
+  ],
+  "scientificName": "Cycas spp. or Zamia spp.",
+  "severity": "toxic",
+  "slug": "cycas_spp_or_zamia_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, and Abdominal Pain",
+      "onset": "Rapid; typically within 15 minutes to 4 hours of ingestion.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Acute Liver Failure, Jaundice (Icterus)",
+      "onset": "Delayed; typically develops within 48 to 72 hours.",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Seizures, Tremors, and Ataxia (Wobbly Gait)",
+      "onset": "Can occur as toxicity progresses.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Bruising (Petechiae/Ecchymosis), Nosebleeds, and Bloody Stool",
+      "onset": "Delayed (secondary to liver failure).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy and Depression",
+      "onset": "Early onset, worsening over time.",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Bark",
+    "Seed",
+    "Entire Plant",
+    "Leaf",
+    "Root"
+  ]
+}

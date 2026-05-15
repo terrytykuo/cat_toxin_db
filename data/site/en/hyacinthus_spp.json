@@ -1,0 +1,57 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Hyacinth (Hyacinthus orientalis) is a common spring bulb plant toxic to cats throughout all its parts, with the bulb carrying the highest toxin concentration. It contains alkaloids — including lycorine and related phenanthridine compounds — that trigger vomiting and, at higher doses, neurological effects. The sap also contains calcium oxalate crystals that cause additional oral irritation.",
+  "imageUrls": [],
+  "name": "Hyacinth",
+  "safetyNotes": [
+    "Toxic compounds: lycorine and phenanthridine alkaloids (highest in bulb), calcium oxalate crystals in sap",
+    "Mechanism: lycorine directly activates the brainstem emetic centre; at higher doses causes vasodilation and CNS depression",
+    "Symptoms: profuse vomiting, diarrhea, drooling, tremors; severe bulb ingestion may cause low blood pressure, rapid heart rate, or convulsions",
+    "Bulbs are the most dangerous part — particularly relevant during planting or when stored indoors",
+    "Contact your vet if your cat ingests any part of the plant, especially the bulb"
+  ],
+  "scientificName": "Hyacinthus spp.",
+  "severity": "toxic",
+  "slug": "hyacinthus_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Profuse Drooling, Vomiting, and Diarrhea",
+      "onset": "Acute (Clinical signs typically appear quickly after ingestion).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Mouth and Throat Irritation (Burns)",
+      "onset": "Immediate (upon chewing).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty Breathing (Dyspnea) or Respiratory Depression",
+      "onset": "Variable (Associated with large ingestions or heavy exposure).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Increased Heart Rate (Tachycardia) or Arrhythmias",
+      "onset": "Delayed (Associated with systemic absorption after large ingestions).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Tremors or Depression",
+      "onset": "Variable.",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Pollen",
+    "Leaf",
+    "Flower",
+    "Bulb"
+  ]
+}

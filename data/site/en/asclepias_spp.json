@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Milkweed (Asclepias spp.) is a toxic plant for cats due to cardenolide cardiac glycosides — potent compounds found throughout the plant, with the highest concentration in the milky latex sap. These compounds act on the heart in a manner similar to Foxglove, disrupting the electrical signals that regulate heartbeat. All parts including dried plant material remain toxic.",
+  "imageUrls": [],
+  "name": "Milkweed",
+  "safetyNotes": [
+    "Toxic compounds: cardenolide cardiac glycosides in latex sap, leaves, and stems",
+    "Mechanism: cardenolides inhibit the Na+/K+-ATPase pump in cardiac muscle cells, causing arrhythmias",
+    "Symptoms: drooling, vomiting, weakness, abnormal heart rate, muscle tremors; severe cases may cause seizures and cardiac failure",
+    "The milky latex sap is the most concentrated source — avoid contact with broken stems",
+    "Seek veterinary care promptly; cardiac glycoside toxicity can escalate rapidly"
+  ],
+  "scientificName": "Asclepias spp.",
+  "severity": "toxic",
+  "slug": "asclepias_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and diarrhea",
+      "onset": "Within 2 hours",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Abnormal heart rates and rhythms (including bradycardia, tachycardia, and severe arrhythmias)",
+      "onset": "Within 2 hours",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Weakness and unspecified neurological signs",
+      "onset": "Within 2 hours",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Breathing difficulties (dyspnea)",
+      "onset": "Within 2 hours (or developing as the condition worsens).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Renal",
+      "name": "Organ damage",
+      "onset": "Delayed (typically develops as symptoms persist over 4–5 days).",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Entire Plant"
+  ]
+}

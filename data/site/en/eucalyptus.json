@@ -1,0 +1,43 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "",
+  "imageUrls": [],
+  "name": "Eucalyptus",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "eucalyptus",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, Diarrhea, and Excessive Drooling (Hypersalivation)",
+      "onset": "Rapid (Clinical signs often appear quickly after ingestion or contact).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy, Depression, Ataxia (walking as if drunk/uncoordinated), Tremors, and Seizures",
+      "onset": "Acute (Shortly after exposure).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Difficulty Breathing (Dyspnea), Wheezing, or Coughing",
+      "onset": "Rapid (Especially if the oil is inhaled via a diffuser or aspirated during vomiting).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Chemical Burns, Redness, and Soreness",
+      "onset": "Immediate upon contact.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hepatic",
+      "name": "Liver Damage / Failure",
+      "onset": "Delayed (May develop over days as the body fails to metabolize the toxins).",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": []
+}

@@ -1,0 +1,53 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Mountain Mahogany (Cercocarpus spp.) is a shrub or small tree in the rose family that is toxic to cats due to cyanogenic glycosides — primarily prunasin — found in its leaves. When the leaves are chewed or wilted, prunasin is enzymatically converted to hydrogen cyanide (HCN), which blocks cellular respiration. Wilted or dried leaves are particularly dangerous as the enzymatic conversion proceeds more readily.",
+  "imageUrls": [],
+  "name": "Mountain Mahogany",
+  "safetyNotes": [
+    "Toxic compounds: prunasin (cyanogenic glycoside); wilted leaves most dangerous",
+    "Mechanism: prunasin releases HCN via beta-glucosidase, inhibiting cytochrome c oxidase and halting cellular respiration",
+    "Symptoms: rapid breathing, weakness, dilated pupils, drooling; severe cases cause seizures, coma, and respiratory failure",
+    "Wilted or fallen leaves pose a higher risk than fresh leaves due to accelerated cyanogenic conversion",
+    "Seek veterinary care immediately if ingestion is suspected — cyanide toxicity can progress within minutes"
+  ],
+  "scientificName": "Cercocarpus spp.",
+  "severity": "toxic",
+  "slug": "cercocarpus_spp",
+  "symptoms": [
+    {
+      "body_system": "Respiratory",
+      "name": "Respiratory distress (panting, gasping for breath, or labored breathing)",
+      "onset": "Within minutes to hours",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Hematological",
+      "name": "Unusually red or pink gums (bright red mucous membranes)",
+      "onset": "Within minutes to hours",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Dilated pupils",
+      "onset": "Within minutes to hours",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Excessive drooling (hypersalivation)",
+      "onset": "Within minutes to hours",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Shock, seizures (convulsions), loss of consciousness, and coma",
+      "onset": "Within minutes to hours",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Seed"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Gladiolus (Gladiolus spp.), commonly called Sword Lily, is a popular garden flower toxic to cats, with the highest concentration of toxins found in the underground corms (bulbs). The toxic compounds have not been fully characterised, but they cause gastrointestinal irritation and general malaise when ingested.",
+  "imageUrls": [],
+  "name": "Gladioli / Sword Lily",
+  "safetyNotes": [
+    "Toxic compounds: unidentified irritant compounds; corms (bulbs) are the most concentrated part",
+    "Mechanism: direct GI irritant; dermatitis may occur with sap contact",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy, loss of appetite",
+    "The corms pose the greatest risk — particularly relevant during planting or storing seasons",
+    "Symptoms are generally mild; contact your vet if your cat shows signs of lethargy or repeated vomiting"
+  ],
+  "scientificName": "Gladiolus spp.",
+  "severity": "cautious",
+  "slug": "gladiolus_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and Diarrhea (Gastrointestinal Upset)",
+      "onset": "Acute (Typically within a few hours of ingestion).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling / Salivation",
+      "onset": "Acute (Immediate to shortly after chewing/ingestion).",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Lethargy",
+      "onset": "Acute (Accompanying gastrointestinal symptoms).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Abdominal Pain",
+      "onset": "Acute.",
+      "severity": "moderate"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Bulb",
+    "Flower"
+  ]
+}

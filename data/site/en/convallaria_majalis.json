@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Lily of the Valley (Convallaria majalis) is one of the most dangerous plants for cats. Despite its delicate appearance, every part — flowers, leaves, stems, berries, and even the water in a vase — contains potent cardiac glycosides including convallatoxin, convalloside, and over 30 related compounds. These affect the heart in a manner similar to Foxglove, and even tiny amounts can be lethal.",
+  "imageUrls": [],
+  "name": "Lily of the Valley",
+  "safetyNotes": [
+    "Toxic compounds: convallatoxin, convalloside, and 30+ related cardiac glycosides; highest in flowers and berries",
+    "Mechanism: cardiac glycosides inhibit Na+/K+-ATPase in heart muscle, disrupting electrical conduction and causing severe arrhythmias",
+    "Symptoms: vomiting, drooling, bradycardia (dangerously slow heart rate), hypotension, cardiac arrhythmias, weakness, collapse; can be fatal",
+    "All plant parts are hazardous — even the water in a flower vase can cause toxicity",
+    "Any ingestion is a veterinary emergency; do not wait for symptoms to develop"
+  ],
+  "scientificName": "Convallaria majalis",
+  "severity": "toxic",
+  "slug": "convallaria_majalis",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, diarrhea (which may contain blood), abdominal pain/discomfort, and trembling",
+      "onset": "Variable latent period depending on the dose;",
+      "severity": "severe"
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Bradycardia (a sudden, significant decrease in heart rate) and severe cardiac arrhythmias (such as Atrioventricular or AV block)",
+      "onset": "Variable latent period depending on the dose;",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Seizures and tremors",
+      "onset": "Variable; usually develops as the cardiovascular depression worsens",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Entire Plant",
+    "Flower"
+  ]
+}
