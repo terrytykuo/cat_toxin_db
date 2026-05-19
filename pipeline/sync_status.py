@@ -1,17 +1,58 @@
 import json
 import os
 import re
+import unicodedata
 
-from paths import PLANT_LIST, STATUS_FILE as STATUS_PATH, RAW_PLANTS_DIR
+from paths import PLANT_LIST, STATUS_FILE as STATUS_PATH, RAW_PLANTS_DIR, PROCESSED_PLANTS_DIR
 
 PLANT_LIST_FILE = str(PLANT_LIST)
 STATUS_FILE = str(STATUS_PATH)
 PLANTS_DIR = str(RAW_PLANTS_DIR)
+PROCESSED_DIR = str(PROCESSED_PLANTS_DIR)
 
-def to_snake_case(text):
-    text = re.sub(r'[^\w\s-]', '', text.lower())
-    text = re.sub(r'[\s-]+', '_', text).strip('_')
-    return text
+
+def normalize_name(text):
+    if not text:
+        return ""
+    text = unicodedata.normalize("NFKD", str(text))
+    text = text.encode("ascii", "ignore").decode("ascii")
+    text = text.lower().replace("&", " and ")
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return " ".join(text.split())
+
+
+def iter_names_from_json(path):
+    try:
+        with open(path, "r") as f:
+            data = json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return
+
+    candidates = [os.path.splitext(os.path.basename(path))[0].replace("_", " ")]
+    if "plant" in data:
+        plant = data.get("plant", {})
+        candidates.extend([plant.get("common_name"), plant.get("scientific_name")])
+    else:
+        candidates.extend([data.get("name"), data.get("scientific_name")])
+        candidates.extend(data.get("aliases", []))
+
+    for candidate in candidates:
+        normalized = normalize_name(candidate)
+        if normalized:
+            yield normalized
+
+
+def collect_known_names():
+    known = set()
+    for directory in [PLANTS_DIR, PROCESSED_DIR]:
+        if not os.path.exists(directory):
+            continue
+        for filename in os.listdir(directory):
+            if not filename.endswith(".json"):
+                continue
+            path = os.path.join(directory, filename)
+            known.update(iter_names_from_json(path))
+    return known
 
 def main():
     if not os.path.exists(PLANT_LIST_FILE):
@@ -21,13 +62,8 @@ def main():
     with open(PLANT_LIST_FILE, "r") as f:
         plants = json.load(f)
 
-    # Map name -> existing file
-    if not os.path.exists(PLANTS_DIR):
-        print(f"Error: {PLANTS_DIR} not found")
-        return
-        
-    existing_files = set(os.listdir(PLANTS_DIR))
-    print(f"Found {len(existing_files)} files in {PLANTS_DIR}")
+    known_names = collect_known_names()
+    print(f"Indexed {len(known_names)} known raw/processed plant names")
     
     # Read status file lines
     with open(STATUS_FILE, "r") as f:
@@ -65,46 +101,22 @@ def main():
             if idx <= len(plants):
                 plant = plants[idx-1]
                 
-                # Check file existence
-                # Filename logic from batch_collect.py:
-                # scientific_name if not N/A, else common_name
                 sci_name = plant.get("scientific_name")
                 com_name = plant.get("common_name")
-                
-                target_name = sci_name if sci_name and sci_name != "N/A" else com_name
-                
-                # Check both common and scientific just in case
-                filename_sci = to_snake_case(target_name) + ".json"
-                filename_com = to_snake_case(com_name) + ".json"
-                
-                found = False
-                if filename_sci in existing_files:
-                    found = True
-                elif filename_com in existing_files:
-                    found = True
-                
-                if found:
+
+                candidate_names = {
+                    normalize_name(com_name),
+                    normalize_name(sci_name),
+                }
+                candidate_names.discard("")
+
+                if candidate_names & known_names:
                     # Update row: check R1-R6 and Done
-                    # Columns R1-R6 are indices 5-10. Done is 11.
                     for col in range(5, 12):
                         parts[col] = "[x]"
-                    
-                    # Reconstruct line
-                    # Join with " | " and add leading/trailing "|"
-                    # parts has empty first and last element due to split("|") ?
-                    # split("|") on "| a | b |" gives ["", "a", "b", ""]
-                    # so parts[1] is "a".
-                    # My parts logic:
-                    # parts = [p.strip() for p in line.split("|")]
-                    # parts[0] = ""
-                    # parts[1] = "#"
-                    # ...
-                    # parts[-1] = ""
-                    
                     new_line = "| " + " | ".join(parts[1:-1]) + " |"
                     new_lines[i] = new_line + "\n"
-                    # print(f"Updated status for #{idx} {com_name}")
-                    
+
         except ValueError:
             continue
 
