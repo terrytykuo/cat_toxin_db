@@ -1,0 +1,53 @@
+{
+  "slug": "allamanda_cathartica",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/allamanda_cathartica.jpg"
+  ],
+  "name": "Allamanda",
+  "aliases": [],
+  "description": "Allamanda is a tropical ornamental shrub prized for its vivid yellow trumpet-shaped flowers, but every part of the plant — leaves, stems, flowers, seeds, and its milky white sap — is toxic to cats. The plant contains iridoid compounds (including allamandin) that act as powerful cathartics and severe gastrointestinal irritants. The milky sap poses an additional hazard as a direct irritant to skin, eyes, and mucous membranes.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea (which may be bloody), abdominal pain, and drooling from ingestion; redness, swelling, and pain if sap contacts the skin or eyes.",
+    "All parts toxic: Flowers, leaves, stems, seeds, and sap all contain toxic compounds.",
+    "Action: Seek immediate veterinary care if a cat ingests any part of the plant or shows signs of distress."
+  ],
+  "toxicParts": [
+    "Bark",
+    "Leaf",
+    "Seed",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Abdominal discomfort (pain)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "This is a direct result of the compound plumericin acting as an irritant to the lining of the digestive tract1. 2. Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "This is the primary sign of the plant's purgative (cathartic) effects1. 3. Dehydration"
+    },
+    {
+      "name": "Dehydration",
+      "body_system": "Metabolic",
+      "severity": "severe",
+      "onset": "Secondary effect, developing after sustained fluid loss from diarrhea.",
+      "notes": "Veterinary treatment may involve fluid therapy to correct this1. 4. Electrolyte Imbalance"
+    },
+    {
+      "name": "Electrolyte imbalance",
+      "body_system": "Hematological",
+      "severity": "moderate",
+      "onset": "Secondary effect, following fluid loss.",
+      "notes": "This occurs as a consequence of losing essential minerals through diarrhea and dehydration"
+    }
+  ],
+  "scientificName": "Allamanda cathartica",
+  "family": "Apocynaceae"
+}

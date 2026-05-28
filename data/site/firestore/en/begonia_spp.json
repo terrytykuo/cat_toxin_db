@@ -1,0 +1,62 @@
+{
+  "slug": "begonia_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/begonia_spp.jpg"
+  ],
+  "name": "Begonia",
+  "aliases": [],
+  "description": "Begonias are a large family of popular houseplants and garden flowers, but all species are toxic to cats. The primary toxic agents are soluble calcium oxalates, which are most heavily concentrated in the underground tubers, rhizomes, and root systems. Unlike the insoluble raphide crystals found in related Araceae plants, soluble oxalates can be absorbed into the bloodstream and — with large enough exposure — may cause more systemic effects including electrolyte imbalances. Cats that dig at potted begonias and chew on the roots or tubers face the greatest risk.",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, and diarrhea are the most common signs; in larger exposures, electrolyte disturbances can occur.",
+    "Roots and tubers most toxic: The leaves and flowers contain lower oxalate levels, but the underground portions are significantly more concentrated and must be kept inaccessible.",
+    "Action: Contact a vet if a cat has chewed on the root or tuber, or if more than mild drooling and one episode of vomiting occurs."
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning, redness, and irritation of the mouth, tongue, and lips; occasionally oral sores",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (upon biting or chewing).",
+      "notes": "The first taste often produces an unpleasant sensation and pain, which typically limits how much of the plant the cat ingests.Excessive Drooling"
+    },
+    {
+      "name": "Hypersalivation (Excessive salivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to rapid.",
+      "notes": "Drooling is a physiological response to the burning sensation and irritation caused by the oxalates in the mouth and throat.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid (shortly after ingestion).",
+      "notes": "This is a common sign of ingestion. While often self-limiting, persistent vomiting can lead to dehydration.Difficulty Swallowing (Dysphagia)"
+    },
+    {
+      "name": "Dysphagia (Difficulty swallowing)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid (associated with oral swelling/pain).",
+      "notes": "The cat may also show a disinterest in food and water due to the pain in the mouth and throat.Liver Failure (Rare)"
+    },
+    {
+      "name": "Liver Failure",
+      "body_system": "Hepatic",
+      "severity": "severe",
+      "onset": "Delayed (after toxin absorption).",
+      "notes": "While rare, if a cat consumes the roots (which contain the highest concentration of toxins) and the toxin enters the bloodstream, it can travel to the liver and cause serious organ failure. Note: Kidney failure is typically associated with grazing animals consuming begonias, not cats."
+    }
+  ],
+  "scientificName": "Begonia spp.",
+  "family": "Begoniaceae"
+}

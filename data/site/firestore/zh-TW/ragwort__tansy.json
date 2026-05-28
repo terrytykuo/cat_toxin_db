@@ -1,0 +1,30 @@
+{
+  "slug": "ragwort__tansy",
+  "source_hash": "bf15593bea6a0622abda9e6cf02cfa70dc649bd7b540ddc5f535c9f64c6ebcb5",
+  "translated_at": "2026-05-21T10:36:51Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "鴉致菊 / 黃菀 (Ragwort / Tansy)",
+  "aliases": [],
+  "description": "鴉致菊 (Senecio jacobaea) 和千里光對貓是劇毒植物，因為含有吡咯聯啶生物鹼 (PAs) — 這些化合物會導致嚴重且通常不可逆的肝臟損傷。毒性具有累積性；即使是少量的重複接觸也會導致進行性肝壞死，直到肝衰竭晚期才可能顯現。",
+  "safetyNotes": [
+    "有毒化合物：吡咯聯啶生物鹼 (jacobine、senecioline、retrorsine)；所有部位皆有毒；含有鴉致菊的乾草在乾燥後仍保有毒性",
+    "機制：PAs 在肝臟中代謝為反應性吡咯，形成 DNA 交聯並破壞肝細胞；損傷是累積性且不可逆的",
+    "症狀：體重減輕、嗜睡、黃疸、神經症狀 (壓頭、失明、繞圈)；急性肝衰竭可能發生在單次大量攝入時",
+    "乾草中的乾燥鴉致菊具有特別的風險 — 它失去了苦味但保留了全部毒性",
+    "請立即尋求醫療護理；在肝衰竭發生前的早期介入可大幅改善預後"
+  ],
+  "toxicParts": [
+    "莖",
+    "葉",
+    "花",
+    "種子"
+  ],
+  "symptoms": [
+    {
+      "name": "肝臟損傷",
+      "body_system": "肝臟"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "peony",
+  "source_hash": "c38f12a1f5c447aa0f3614d9b45fb186778e4403de2f860ec5179e876f92637d",
+  "translated_at": "2026-05-21T10:35:10Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "牡丹",
+  "aliases": [],
+  "description": "牡丹（Paeonia spp.）是受歡迎的花園多年生植物和切花，對貓有輕微毒性。其根、樹皮、花和葉中含有牡丹酚（paeonol）、牡丹苷（paeoniflorin）及相關的酚類化合物。攝入後，這些化合物會引起胃腸道不適。",
+  "safetyNotes": [
+    "有毒化合物：牡丹酚和牡丹苷（酚類化合物）；根部的濃度最高",
+    "作用機制：牡丹酚和牡丹苷會刺激胃腸道黏膜；高劑量可能對中樞神經系統產生輕微影響",
+    "症狀：嘔吐、腹瀉、流口水；通常程度輕微且具自限性",
+    "所有部位均有輕微毒性，但根部毒素最為集中；插在花瓶中的牡丹切花也存在風險",
+    "症狀通常較輕微；若症狀嚴重或持續，請諮詢獸醫"
+  ],
+  "toxicParts": [
+    "根",
+    "樹皮",
+    "花",
+    "種子"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "腹瀉",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "抑鬱/精神不振",
+      "body_system": "神經系統"
+    }
+  ]
+}

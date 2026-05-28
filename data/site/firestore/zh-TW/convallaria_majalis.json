@@ -1,0 +1,40 @@
+{
+  "slug": "convallaria_majalis",
+  "source_hash": "542dc6f00a2e34115880e016bc983c3d20cfd5f82a4a5724b8ed4eba0fb47168",
+  "translated_at": "2026-05-21T10:33:09Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "鈴蘭",
+  "aliases": [],
+  "description": "鈴蘭 (Convallaria majalis) 是對貓最危險的植物之一。儘管外觀嬌嫩，其所有部位——花、葉、莖、漿果，甚至花瓶裡的水——都含有強效的強心苷，包括鈴蘭毒苷 (convallatoxin)、鈴蘭毒苷 (convalloside) 以及 30 多種相關化合物。這些物質對心臟的影響與毛地黃 (Foxglove) 相似，即使是極少量也可能致命。",
+  "safetyNotes": [
+    "有毒化合物：鈴蘭毒苷 (convallatoxin)、鈴蘭毒苷 (convalloside) 及 30 多種相關強心苷；花與漿果含量最高",
+    "機制：強心苷會抑制心肌中的 Na+/K+-ATPase，破壞電傳導並導致嚴重的心律不整",
+    "症狀：嘔吐、流口水、心搏過緩（心率危險地緩慢）、低血壓、心律不整、虛弱、休克；可能致命",
+    "植物的所有部位都有危險——甚至花瓶裡的水也可能引起中毒",
+    "任何攝入情況皆屬獸醫急診；切勿等待症狀出現"
+  ],
+  "toxicParts": [
+    "根",
+    "整株植物",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐、腹瀉（可能帶血）、腹痛/不適以及發抖",
+      "body_system": "消化系統",
+      "onset": "潛伏期依劑量而異；"
+    },
+    {
+      "name": "心搏過緩（心率突然顯著下降）和嚴重的心律不整（如房室傳導阻滯或 AV block）",
+      "body_system": "心血管系統",
+      "onset": "潛伏期依劑量而異；"
+    },
+    {
+      "name": "癲癇和震顫",
+      "body_system": "消化系統",
+      "onset": "不定；通常隨著心血管抑制惡化而發展"
+    }
+  ]
+}

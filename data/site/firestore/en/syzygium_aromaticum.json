@@ -1,0 +1,65 @@
+{
+  "slug": "syzygium_aromaticum",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/syzygium_aromaticum/images/1773010220699.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/syzygium_aromaticum/images/1773010226710.avif"
+  ],
+  "name": "Clove",
+  "aliases": [],
+  "description": "Clove (Syzygium aromaticum) is a common kitchen spice, but its essential oil is highly toxic to cats. The primary toxic compound is eugenol, which constitutes up to 90% of clove essential oil. Cats have severely limited glucuronyl transferase activity in their livers — the enzyme needed to safely process eugenol and related phenol compounds — causing these substances to accumulate and cause acute liver toxicity. Even small skin exposures to clove essential oil can be dangerous; it is rapidly absorbed through the skin and mucous membranes.",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, lethargy, loss of coordination (ataxia), and muscle tremors from exposure; liver damage signs (jaundice, loss of appetite) with larger exposures; respiratory distress if inhaled.",
+    "Essential oil is far more dangerous than whole cloves: Concentrated clove oil can cause serious poisoning with just a few drops. Whole cloves or ground clove in small amounts pose lower but still real risk.",
+    "Action: Seek veterinary care immediately if a cat has been exposed to clove essential oil — on the skin, ingested, or via diffuser. Liver damage can progress rapidly."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Flower",
+    "Essential Oil"
+  ],
+  "symptoms": [
+    {
+      "name": "Liver failure (Serious organ damage)",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "notes": "Essential oils can cause serious organ damage in cats; in extreme cases, this leads to liver failure because cats lack the specific liver enzymes needed to break down these compounds.Neurological Disturbances (Tremors and Ataxia)"
+    },
+    {
+      "name": "Tremors, shaking, and ataxia (walking as if drunk)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "Cats may also experience collapse or seizures, indicating severe central nervous system toxicity.Respiratory Distress"
+    },
+    {
+      "name": "Difficulty breathing (Dyspnea) or breathing with the mouth open",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "notes": "This can occur from inhalation (diffusers) or aspiration if the cat vomits. Nebulized or ultrasonically diffused neat oils pose a greater risk.Chemical Burns"
+    },
+    {
+      "name": "Soreness, redness, or chemical burns",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Rapid (upon contact).",
+      "notes": "Direct skin contact with the oil can cause burns. Even if there is no visible damage to the skin, the cat may still be poisoned by absorbing the toxins or licking them off their fur.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting and excessive dribbling (hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Vomiting is a common sign of essential oil poisoning. High fat levels in carrier oils can also contribute to tummy upsets.Lethargy"
+    },
+    {
+      "name": "Lethargy, depression, or dullness",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "A general sign of systemic toxicity that often accompanies more specific symptoms."
+    }
+  ],
+  "scientificName": "Syzygium aromaticum",
+  "family": "Myrtaceae"
+}

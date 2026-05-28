@@ -1,0 +1,33 @@
+{
+  "slug": "tradescantia_zebrina",
+  "source_hash": "7359509e26351d8828389fe1a0263cb586d8a35171fdfd2de035b4faa4eafdcb",
+  "translated_at": "2026-05-21T10:40:43Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "吊竹梅",
+  "aliases": [],
+  "description": "吊竹梅 (Tradescantia zebrina) 是一種蔓生室內植物，具有引人注目的紫色和銀色條紋葉片，對貓咪有輕微毒性。與其親緣植物蚌蘭 (Tradescantia spathacea) 類似，其汁液中含有刺激性化合物，會導致皮膚接觸性皮炎，攝入後會引起腸胃不適。",
+  "safetyNotes": [
+    "有毒化合物：全株含有刺激性汁液化合物；接觸折斷的莖會釋放出最高濃度的汁液",
+    "機制：汁液導致接觸性皮炎；攝入會導致直接的腸胃黏膜刺激",
+    "症狀：接觸導致皮膚發紅或皮疹；攝入導致嘔吐、腹瀉、流口水",
+    "紫銀相間的蔓生葉片極具吸引力，懸掛時容易被接觸——請移至貓咪接觸不到的地方",
+    "症狀輕微且通常會自行緩解；用清水沖洗受影響的皮膚，若腸胃症狀持續請諮詢獸醫"
+  ],
+  "toxicParts": [
+    "汁液",
+    "莖"
+  ],
+  "symptoms": [
+    {
+      "name": "輕微嘔吐、流口水和/或腹瀉",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "皮膚發紅或發癢",
+      "body_system": "皮膚",
+      "onset": "長時間身體接觸植株汁液後發生"
+    }
+  ]
+}

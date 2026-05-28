@@ -1,0 +1,35 @@
+{
+  "slug": "tradescantia_spathacea",
+  "source_hash": "9f0134ee4e5757b5ac23af3047bdcf6f495fa38d9714ffebeb542b1014db2f3e",
+  "translated_at": "2026-05-21T10:34:36Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "蚌蘭 (Oyster Plant)",
+  "aliases": [],
+  "description": "蚌蘭 (Tradescantia spathacea)，也稱為紫背萬年青或蚌花，是一種常見的室內植物和花園觀賞植物，對貓有輕微毒性。其汁液中含有草酸鈣結晶和會引起皮膚炎的化合物。皮膚接觸植物或攝入均可能引起反應。",
+  "safetyNotes": [
+    "有毒化合物：汁液中的草酸鈣結晶和刺激性化合物；葉子鮮豔的紫色背面含量較高",
+    "機制：草酸鈣結晶對口腔和胃腸黏膜造成機械性刺激；汁液接觸會引起接觸性皮膚炎",
+    "症狀：流涎、嘔吐、腹瀉；汁液接觸皮膚或眼睛可能引起發紅、刺激或皮疹",
+    "裝飾性的紫綠雙色葉片使其成為受歡迎的室內植物——請將其放置在貓觸及不到的地方",
+    "症狀通常輕微；用水沖洗皮膚上的汁液，若胃腸症狀持續，請諮詢獸醫"
+  ],
+  "toxicParts": [
+    "汁液",
+    "莖",
+    "葉"
+  ],
+  "symptoms": [
+    {
+      "name": "流涎（流口水）和嘔吐",
+      "body_system": "消化系統",
+      "onset": "雖然來源未指定確切時間範圍，但由於它是即時性的物理刺激物，通常迅速發生"
+    },
+    {
+      "name": "皮膚刺激或皮疹",
+      "body_system": "皮膚",
+      "onset": "來源未指定確切時間範圍"
+    }
+  ]
+}

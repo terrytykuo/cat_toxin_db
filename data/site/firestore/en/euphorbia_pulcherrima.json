@@ -1,0 +1,58 @@
+{
+  "slug": "euphorbia_pulcherrima",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/euphorbia_pulcherrima.jpg"
+  ],
+  "name": "Poinsettia",
+  "aliases": [],
+  "description": "Poinsettia (Euphorbia pulcherrima) has a reputation as a highly toxic plant, but it is actually one of the milder holiday plant hazards for cats. It contains a milky latex sap with irritant diterpenoid euphorbol esters that cause localised irritation to the mouth, skin, and GI tract. Serious toxicity requires ingestion of very large quantities, which is unlikely given the unpleasant taste.",
+  "safetyNotes": [
+    "Toxic compounds: diterpenoid euphorbol esters in the milky latex sap; leaves and stems most irritating",
+    "Mechanism: latex causes direct mucosal irritation; contact with skin or eyes causes localised inflammation",
+    "Symptoms: drooling, vomiting, diarrhea (usually mild and self-limiting); eye or skin contact may cause redness and irritation",
+    "Toxicity is overstated — poinsettia is mildly irritating, not severely toxic; most cats avoid eating more than a leaf",
+    "Monitor for symptoms and contact your vet if vomiting is persistent or your cat ate a large amount"
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Oral irritation, excessive drooling (hypersalivation), and discomfort of the mouth and esophagus",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "This is caused by the thick, milky-white, latex sap found throughout the plant acting as a direct irritant to the mucous membranes1.... 2. Gastrointestinal Distress"
+    },
+    {
+      "name": "Vomiting, diarrhea, and nausea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Actual poisoning from a Poinsettia is considered rare; a cat generally needs to ingest a large amount of the plant to exhibit clinical signs56. The gastrointestinal symptoms are typically self-limiting and rarely require veterinary treatment6. 3. Anorexia"
+    },
+    {
+      "name": "Anorexia (loss of appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "This is usually secondary to the gastrointestinal irritation and nausea caused by the plant's sap2.... 4. Depression"
+    },
+    {
+      "name": "Depression or lethargy",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "This can present alongside the vomiting and anorexia if a significant amount of the plant is ingested6. 5. Cardiovascular Issues"
+    },
+    {
+      "name": "Cardiovascular issues",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "notes": "While Poinsettia toxicity is generally mild and limited to stomach upset, if a cat consumes a significantly large amount of the plant, it may suffer from more serious symptoms, including potential cardiovascular issues"
+    }
+  ],
+  "scientificName": "Euphorbia pulcherrima",
+  "family": "Euphorbiaceae"
+}

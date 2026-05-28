@@ -1,0 +1,33 @@
+{
+  "slug": "aucuba_japonica",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/aucuba_japonica.jpg"
+  ],
+  "name": "Japanese Aucuba",
+  "aliases": [],
+  "description": "Japanese Aucuba (Aucuba japonica), also called Japanese Laurel or Spotted Laurel, is a common garden and houseplant shrub that is mildly toxic to cats. It contains aucubin, an iridoid glycoside found throughout the plant, along with irritant saponins. The bright scarlet berries may attract curious cats and represent the most accessible toxic source.",
+  "safetyNotes": [
+    "Toxic compounds: aucubin (iridoid glycoside) and irritant saponins; berries and leaves are the main exposure route",
+    "Mechanism: aucubin causes GI irritation; large doses may produce mild hepatotoxicity in cats",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy; typically mild and self-limiting with small ingestions",
+    "Berries are visually appealing to cats — restrict access during berry season",
+    "Contact your vet if your cat ingests berries or shows more than mild GI symptoms"
+  ],
+  "toxicParts": [
+    "Entire Plant",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal Discomfort (Vomiting, Diarrhea)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "◦ The toxic compound, aucubin, is found throughout the plant but is concentrated in the fruit (scarlet berries). ◦ Treatment usually involves antiemetics (to stop vomiting) and fluid therapy for rehydration if the case is severe, but often no treatment is needed for small ingestions."
+    }
+  ],
+  "scientificName": "Aucuba japonica",
+  "family": "Cornaceae"
+}

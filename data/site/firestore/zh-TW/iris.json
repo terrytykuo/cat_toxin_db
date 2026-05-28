@@ -1,0 +1,44 @@
+{
+  "slug": "iris",
+  "source_hash": "ba9cd52a0efd0807f3b753bd1ddf828ea4304ee0dcc698661d70bb4403ab5b32",
+  "translated_at": "2026-05-21T10:30:51Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "鳶尾花",
+  "aliases": [],
+  "description": "鳶尾花 (Iris spp.) 是一種廣泛栽培的觀賞植物，對貓具有輕微到中等的毒性。根莖（地下莖/球莖）含有最高濃度的有毒化合物，包括鳶尾苷 (irisin)、環烯醚萜苷 (iridoid glycosides) 和五環三萜 (pentacyclic terpenoids)。葉子和花瓣含有較低但仍具刺激性的含量。",
+  "safetyNotes": [
+    "有毒化合物：鳶尾苷（樹脂質苷）、環烯醚萜苷、五環三萜；根莖濃度最高",
+    "機制：鳶尾苷和環烯醚萜化合物導致直接的消化系統刺激；皮膚接觸汁液可能導致皮膚炎",
+    "症狀：流口水、嘔吐、腹瀉、精神沉鬱、腹痛；皮膚或眼睛接觸汁液可能導致紅腫或刺激",
+    "根莖是最危險的部分——在種植或分株時風險增加",
+    "輕微啃食葉子的症狀通常較輕微；如果懷疑攝入根莖，請聯繫您的獸醫師"
+  ],
+  "toxicParts": [
+    "莖",
+    "整株植物",
+    "葉",
+    "花",
+    "球莖"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐、噁心與腹瀉",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "口腔潰瘍與口腔刺激",
+      "body_system": "消化系統",
+      "onset": "急性（接觸/攝入時）。"
+    },
+    {
+      "name": "皮膚刺激（皮膚炎）",
+      "body_system": "皮膚"
+    },
+    {
+      "name": "腹痛",
+      "body_system": "消化系統"
+    }
+  ]
+}

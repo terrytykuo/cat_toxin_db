@@ -1,0 +1,55 @@
+{
+  "slug": "epipremnum_aureum_or_epipremnum_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/epipremnum_aureum_or_epipremnum_spp/images/1773008089970.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/epipremnum_aureum_or_epipremnum_spp/images/1773008115654.jpg"
+  ],
+  "name": "Pothos / Devil’s Ivy",
+  "aliases": [],
+  "description": "Pothos (Epipremnum aureum), also called Devil’s Ivy, is one of the most common houseplants and a frequent cause of plant-related toxicity in cats. As a member of the Araceae family, it contains insoluble calcium oxalate crystals (raphides) throughout its leaves and stems. Chewing the plant causes immediate intense oral pain and irritation.",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides; sap also contains proteolytic enzymes that intensify the reaction",
+    "Mechanism: crystals are forcefully ejected into the oral mucosa when plant cells rupture, causing mechanical burning and swelling",
+    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, difficulty swallowing, swollen lips and tongue, vomiting",
+    "The trailing vines are very accessible to cats, especially when draped over furniture or shelves",
+    "Rinse the mouth with water; seek veterinary care if swallowing is impaired or symptoms do not subside"
+  ],
+  "toxicParts": [
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning, irritation, and pain of the mouth, lips, and tongue",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate",
+      "notes": "This immediate and intense pain occurs because Pothos contains microscopic, needle-like insoluble calcium oxalate crystals (raphides)12. When a cat bites or chews the leaves or stems, these crystals are forcefully ejected directly into the oral mucosa2. Because the pain is instantaneous, cats are us"
+    },
+    {
+      "name": "Excessive drooling or hypersalivation",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate",
+      "notes": "This is a direct physical and inflammatory response to the microscopic trauma and irritation caused by the oxalate crystals piercing the cat's mouth12. 3. Oral Swelling and Difficulty Swallowing"
+    },
+    {
+      "name": "Swelling of the mouth and tongue, accompanied by difficulty swallowing (dysphagia)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Immediate to shortly after exposure",
+      "notes": "The localized inflammatory response can cause the cat's mouth and tongue to become significantly swollen23. In severe cases, this swelling can progress to the throat and potentially obstruct the cat's airway, which requires immediate veterinary attention12. 4. Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion",
+      "notes": "While the systemic toxicity of Pothos is relatively low and not typically life-threatening, the ingestion of the plant material and the resulting irritation cause extreme gastrointestinal discomfort and stomach upset"
+    }
+  ],
+  "scientificName": "Epipremnum aureum or Epipremnum spp.",
+  "family": "Araceae"
+}

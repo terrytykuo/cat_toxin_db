@@ -1,0 +1,14 @@
+{
+  "slug": "sunflower",
+  "source_hash": "732b87574a35d3172d21bbb9a44c2cedf7fad02cf5a1ba8b74ac3503d992d0d1",
+  "translated_at": "2026-05-21T10:40:10Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "向日葵",
+  "aliases": [],
+  "description": "向日葵對貓咪完全無毒。這些明亮愉快的小花可以放心地點綴您的居家環境。即便貓咪不小心咬了花瓣或種子，也是安全的。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

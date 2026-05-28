@@ -1,0 +1,64 @@
+{
+  "slug": "pieris_japonica",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/pieris_japonica.jpg"
+  ],
+  "name": "Japanese Pieris",
+  "aliases": [],
+  "description": "Japanese Pieris (Pieris japonica), also known as Lily of the Valley shrub or Andromeda, is a highly toxic ornamental shrub closely related to Rhododendron and Azalea. It contains grayanotoxins — the same diterpenoid polyol compounds responsible for Rhododendron poisoning — throughout all parts of the plant, including leaves, flowers, and nectar.",
+  "safetyNotes": [
+    "Toxic compounds: grayanotoxins I, II, and III (diterpenoid polyols); all parts toxic including nectar",
+    "Mechanism: grayanotoxins bind to voltage-gated sodium channels, keeping them open; this causes persistent depolarisation of cardiac and skeletal muscle, leading to hypotension, bradycardia, and arrhythmias",
+    "Symptoms: profuse drooling, vomiting, diarrhea, severe weakness, loss of coordination, abnormally slow heart rate, low blood pressure, tremors, seizures; can be fatal",
+    "Even small ingestions can cause serious cardiac effects in cats",
+    "Any suspected ingestion is a veterinary emergency requiring immediate care"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Hypersalivation (Drooling), and Anorexia (Refusal to eat)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "1–4 hours (occasionally up to 12 hours).",
+      "notes": "With small ingestions (a few leaves or petals), clinical signs are often limited to these gastrointestinal effects. The toxin can also cause abdominal pain.Cardiovascular Abnormalities"
+    },
+    {
+      "name": "Cardiac Arrhythmias, Bradycardia (slow heart rate), Tachycardia (fast heart rate), and Hypotension (low blood pressure)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "1–4 hours.",
+      "notes": "Grayanotoxins modify sodium channels in cardiac muscle cells, leading to prolonged depolarization. Hypotension may require intravenous fluid support.Central Nervous System (CNS) Dysfunction"
+    },
+    {
+      "name": "Weakness, Tremors, Seizures (Convulsions), Ataxia (loss of coordination), Depression, and Coma",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "1–4 hours.",
+      "notes": "The toxins affect nerve cells, causing prolonged excitation followed by depression. Severe CNS signs usually indicate a larger ingestion.Respiratory Distress"
+    },
+    {
+      "name": "Dyspnea (Difficulty breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "1–4 hours.",
+      "notes": "Trouble breathing is a common sign of significant grayanotoxin poisoning and often accompanies muscle weakness and cardiac issues.Transient Blindness"
+    },
+    {
+      "name": "Transient Blindness / Blurred Vision",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "1–4 hours.",
+      "notes": "This is a specific, though less common, symptom associated with grayanotoxin ingestion (plants like Pieris and Rhododendron)."
+    }
+  ],
+  "scientificName": "Pieris japonica",
+  "family": "Ericaceae"
+}

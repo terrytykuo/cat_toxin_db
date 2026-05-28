@@ -1,0 +1,44 @@
+{
+  "slug": "hedera_spp",
+  "source_hash": "e7de6f68320147900b1f4be4bce465fc5158bac0369a3e3eea11adc0b3f7934d",
+  "translated_at": "2026-05-21T10:28:27Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "常春藤",
+  "aliases": [],
+  "description": "常春藤 (Hedera helix) 是常見的攀緣植物，對貓有毒。其葉片與漿果中含有三萜類皂苷（包括 hederagenin 和 alpha-hederin）以及聚乙炔化合物（falcarinol）。這些化合物會引起腸胃刺激，且敏感個體若反覆接觸皮膚，會導致皮膚炎。",
+  "safetyNotes": [
+    "有毒化合物：三萜類皂苷 (hederagenin, alpha-hederin)、聚乙炔化合物 falcarinol",
+    "機制：皂苷會破壞腸胃黏膜的完整性；falcarinol 是一種接觸性刺激物，也可能引起全身性不適",
+    "症狀：嘔吐、腹瀉、流口水、腹痛；大量攝入可能導致共濟失調或震顫",
+    "漿果的毒素濃度略高於葉片；應視所有部位為危險物品",
+    "若家中有貓，請移除室內的常春藤；貓進入覆蓋有常春藤牆壁的室外空間也應受到限制"
+  ],
+  "toxicParts": [
+    "葉",
+    "果實"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統",
+      "onset": "急性（症狀通常在攝入後不久出現）。"
+    },
+    {
+      "name": "腹瀉",
+      "body_system": "消化系統",
+      "onset": "急性。"
+    },
+    {
+      "name": "腹痛（胃部不適）",
+      "body_system": "消化系統",
+      "onset": "急性。"
+    },
+    {
+      "name": "流口水 / 唾液分泌過多",
+      "body_system": "消化系統",
+      "onset": "立即至急性（咀嚼時）。"
+    }
+  ]
+}

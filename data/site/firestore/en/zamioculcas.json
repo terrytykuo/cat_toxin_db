@@ -1,0 +1,54 @@
+{
+  "slug": "zamioculcas",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/zamioculcas.jpg"
+  ],
+  "name": "ZZ Plant",
+  "aliases": [],
+  "description": "ZZ Plant (Zamioculcas zamiifolia) is a popular low-maintenance houseplant that is mildly toxic to cats. As a member of the Araceae family, it contains insoluble calcium oxalate crystals (raphides) throughout its leaves and stems. The thick, waxy leaves may reduce the typical immediate pain response, but the crystals still cause GI irritation when ingested.",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides; the waxy leaf surface provides some physical barrier but does not eliminate the toxin",
+    "Mechanism: crystals cause mechanical irritation to the oral and GI mucosa; proteolytic enzymes in sap may amplify the reaction",
+    "Symptoms: drooling, vomiting, diarrhea; oral pain is often less pronounced than with Dieffenbachia due to the thicker leaf surface",
+    "The plant’s durability and popularity mean it is very commonly found in homes and offices",
+    "Monitor for GI symptoms if ingestion occurs; contact your vet if vomiting is persistent"
+  ],
+  "toxicParts": [
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Mouth irritation (intense pain and burning sensation in the mouth)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate (upon chewing) [Conversation History].",
+      "notes": "This irritation is caused by the mechanical trauma of insoluble calcium oxalate crystals (raphides) piercing the oral tissues when the plant is chewed [369, Conversation History]. The immediate and intense pain usually deters the cat from swallowing or eating large quantities of the plant [Conversat"
+    },
+    {
+      "name": "Excessive drooling (hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate [Conversation History].",
+      "notes": "This is a direct physiological response to the sharp crystals irritating the delicate mucous membranes in the cat's mouth and throat [369, Conversation History]. 3. Reluctance to Eat"
+    },
+    {
+      "name": "Reluctance to eat (anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to shortly after exposure [Conversation History].",
+      "notes": "Cats will often refuse food due to the lingering pain and inflammation in their oral cavity [369, Conversation History]. Rinsing the cat's mouth with water can help soothe the irritation, but if the refusal to eat persists, veterinary consultation is recommended1. 4. Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion [Conversation History].",
+      "notes": "Vomiting can occur if the cat manages to swallow the plant material [369, Conversation History]. While typically a mild and self-limiting symptom for this plant, a veterinarian should be consulted if the vomiting becomes continuous"
+    }
+  ],
+  "scientificName": "Zamioculcas zamiifolia",
+  "family": "Araceae"
+}

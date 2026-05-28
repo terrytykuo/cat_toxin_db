@@ -1,0 +1,47 @@
+{
+  "slug": "agave_americana",
+  "category": "plant",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/agave_americana.jpg"
+  ],
+  "name": "Century Plant",
+  "aliases": [],
+  "description": "Century Plant (Agave americana) is a large, dramatic succulent commonly found in gardens and as a container plant. Despite its striking appearance, it is toxic to cats. The plant's sap contains irritating saponins and calcium oxalate crystals, and the leaves have extremely sharp terminal spines capable of causing physical puncture injuries. Contact with the sap causes immediate chemical burns and dermatitis; ingestion triggers gastrointestinal irritation.",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, and abdominal pain from ingestion; skin redness, blistering, and swelling from sap contact; puncture wounds from spines.",
+    "Sap is the primary chemical hazard: It causes both contact irritation and, if ingested, GI distress. The clear sap can squirt when a leaf is broken.",
+    "Action: Rinse skin or mouth thoroughly with water after any contact. Seek veterinary care if significant sap was ingested or skin reactions are severe."
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf",
+    "Seed"
+  ],
+  "symptoms": [
+    {
+      "name": "Oral Mucosal Irritation (pain and irritation of the mouth)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (Calcium oxalate crystals typically cause immediate pain upon chewing).",
+      "notes": "The sap contains calcium oxalate crystals which cause physical irritation to the lining of the mouth and throat upon ingestion.Edema (Swelling)"
+    },
+    {
+      "name": "Edema (Swelling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid following contact or ingestion.",
+      "notes": "Swelling can occur in the mouth or on the skin where the plant sap has come into contact with the animal.Dermal Irritation"
+    },
+    {
+      "name": "Dermal Irritation (Skin irritation/Dermatitis)",
+      "body_system": "Dermal",
+      "severity": "moderate",
+      "onset": "Upon contact with the sap.",
+      "notes": "The sap of the Century Plant is an irritant. Contact with the skin can cause redness, irritation, and swelling.Note on Gastrointestinal Upset: While the sources specifically highlight irritation and edema for Agave americana, they also note the presence of saponins in the leaves and seeds1,2. In oth"
+    }
+  ],
+  "scientificName": "Agave americana",
+  "family": "Agavaceae"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "dracaena_fragrans",
+  "category": "plant",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dracaena_fragrans.jpg"
+  ],
+  "name": "Corn Plant",
+  "aliases": [],
+  "description": "Corn Plant (Dracaena fragrans), also known as Dracaena or False Palm, is one of the most common office and indoor plants — and one of the most frequent causes of plant-related cat poisoning. Despite its ordinary appearance, it contains steroidal saponins that are toxic to cats. The exact mechanism is not fully understood, but ingestion causes distinctive symptoms that include not just gastrointestinal distress but also neurological signs such as dilated pupils. The sap from leaves and stems is the primary route of exposure.",
+  "safetyNotes": [
+    "Symptoms: Vomiting (sometimes with blood or foam), loss of appetite, excessive drooling, dilated pupils, and lethargy; depression and weakness in more significant exposures.",
+    "Dilated pupils are a distinguishing sign: This neurological effect distinguishes Dracaena toxicity from simple GI irritation and warrants veterinary evaluation.",
+    "Action: Contact a vet if vomiting is prolonged or if dilated pupils appear. Keep the plant out of reach — its widely available nature makes it a disproportionately common source of exposure."
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting (Hematemesis)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Vomiting is a primary symptom, and in cats specifically, it may occasionally contain blood. The plant also causes loss of appetite (anorexia).Dilated Pupils"
+    },
+    {
+      "name": "Dilated Pupils (Mydriasis)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "This symptom is a specific reaction often seen in cats exposed to Dracaena species, distinguishing it from many other general plant toxicities.Excessive Drooling"
+    },
+    {
+      "name": "Drooling (Hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "This occurs due to oral irritation and nausea caused by the saponins found in the plant.Depression and Lethargy"
+    },
+    {
+      "name": "Depression and Depression-like behavior",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "Cats may appear withdrawn or less active than usual. This is often accompanied by a refusal to eat (anorexia).Incoordination and Weakness"
+    },
+    {
+      "name": "Incoordination (Ataxia) and Weakness",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "These symptoms are typically associated with larger ingestions of the plant material."
+    }
+  ],
+  "scientificName": "Dracaena fragrans",
+  "family": "Agavaceae"
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "thevetia_peruviana",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/thevetia_peruviana.jpg"
+  ],
+  "name": "Yellow Oleander",
+  "aliases": [],
+  "description": "Yellow Oleander (Cascabela thevetia, formerly Thevetia peruviana) is closely related to common Oleander and equally dangerous. All parts — seeds, leaves, bark, flowers, and fruit — contain thevetin A and thevetin B, potent cardiac glycosides related to digitalis. Seeds are most concentrated and are responsible for the majority of reported poisonings.",
+  "safetyNotes": [
+    "Toxic compounds: thevetin A and thevetin B (cardiac glycosides) in all parts; seeds most concentrated",
+    "Mechanism: thevetins inhibit Na+/K+-ATPase in cardiac muscle, disrupting electrical conduction causing arrhythmias and heart block",
+    "Symptoms: vomiting, diarrhea, drooling, severe weakness, bradycardia, cardiac arrhythmias, hypotension, collapse; often fatal without treatment",
+    "Yellow Oleander seeds are particularly accessible when the fruit falls; the decorative yellow flowers are also attractive",
+    "Any suspected ingestion is a veterinary emergency"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Bark",
+    "Seed",
+    "Entire Plant",
+    "Leaf",
+    "Flower",
+    "Fruit",
+    "Root",
+    "Sap"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea, excessive drooling, and abdominal pain",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within the first 2 hours after exposure",
+      "notes": "Gastrointestinal distress usually acts as the initial sign of poisoning from the plant's cardiac glycosides, often appearing just prior to major heart function abnormalities34. Symptoms can persist for up to 4 to 5 days3. 2. Abnormal Heart Rate and Arrhythmias"
+    },
+    {
+      "name": "Bradycardia (abnormally slow heart rate) or tachycardia (rapid heart rate), and severe arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Expected within the first 2 hours after exposure",
+      "notes": "Cardiac glycosides directly interfere with the heart by inhibiting the Na + /K + -ATPase pump, altering intracellular calcium and sodium levels [645, Conversation History]. This causes the heart's contractions to become forceful but irregular, which can rapidly lead to life-threatening cardiovascula"
+    },
+    {
+      "name": "Hyperkalemia (elevated potassium levels in the blood)",
+      "body_system": "Hematological",
+      "severity": "fatal",
+      "onset": "Within the first 2 hours after exposure",
+      "notes": "This dangerous accumulation of extracellular potassium is a direct result of the disrupted cellular pumps35. Severe hyperkalemia (> 7.5–9mEq/L) requires aggressive, emergency intravenous intervention (such as sodium bicarbonate or dextrose/insulin therapy) to stabilize the cat3. 4. Weakness and Leth"
+    },
+    {
+      "name": "Weakness and lethargy",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within the first 2 hours after exposure",
+      "notes": "The profound weakness is a systemic reflection of the severe cardiovascular disruption and plummeting blood pressure34. 5. Tremors and Seizures"
+    },
+    {
+      "name": "Tremors and seizures",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Often within the first few hours, progressing as the toxicosis worsens",
+      "notes": "These severe neurological manifestations occur in advanced stages of cardiac glycoside poisoning from oleander species26. 6. Difficulty Breathing"
+    },
+    {
+      "name": "Respiratory changes and difficulty breathing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Usually presents as the toxicity progresses (within hours)",
+      "notes": "Respiratory distress typically accompanies the severe, systemic decline in cardiovascular output and neurological stability"
+    }
+  ],
+  "scientificName": "Thevetia peruviana",
+  "family": "Apocynaceae"
+}

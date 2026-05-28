@@ -1,0 +1,45 @@
+{
+  "slug": "gardenia_jasminoides",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/gardenia_jasminoides.jpg"
+  ],
+  "name": "Gardenia",
+  "aliases": [],
+  "description": "Gardenia (Gardenia jasminoides) is a popular fragrant flowering shrub that is mildly toxic to cats. It contains iridoid glycosides — primarily genipin and gardenoside — found throughout the plant, including the flowers and fruit. These compounds irritate the gastrointestinal tract and may trigger skin reactions on contact.",
+  "safetyNotes": [
+    "Toxic compounds: iridoid glycosides (genipin, gardenoside) in leaves, fruit, and flowers",
+    "Mechanism: genipin acts as a GI irritant and may cause mild liver stress at higher doses",
+    "Symptoms: vomiting, diarrhea, hives or skin rash (urticaria) from contact; mild lethargy",
+    "Symptoms are generally mild and resolve without treatment, but seek vet advice if vomiting is severe or prolonged",
+    "The fragrant flowers are attractive to some cats — keep the plant out of easy reach"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "This is a common sign of gastrointestinal upset caused by the plant's toxic compounds (genioposide and gardenoside). The reaction is generally self-limiting.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "Like vomiting, diarrhea is a result of the iridoid glycosides irritating the digestive tract. It usually resolves on its own but should be monitored.Hives and Skin Rash"
+    },
+    {
+      "name": "Hives (Urticaria) or Skin Rash",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "notes": "Some cats may develop a dermatological reaction such as a rash or hives upon contact with the plant or after ingestion.General Clinical Note: The toxicity of Gardenia is classified as mild. Most cases do not require aggressive veterinary intervention. Offering water and monitoring the cat is often s"
+    }
+  ],
+  "scientificName": "Gardenia jasminoides",
+  "family": "Rubiaceae"
+}

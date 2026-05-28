@@ -1,0 +1,55 @@
+{
+  "slug": "walnuts",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Walnuts_-_whole_and_open_with_halved_kernel.jpg/500px-Walnuts_-_whole_and_open_with_halved_kernel.jpg"
+  ],
+  "name": "Walnuts",
+  "aliases": [],
+  "description": "Walnuts (Juglans spp.) are not directly toxic to cats in the same way as to dogs, but they present several health risks. The primary concern is juglone — a compound in black walnut that causes toxicity — and the risk of mould contamination with tremorgenic mycotoxins in any walnut that has been stored or is past its freshness.",
+  "safetyNotes": [
+    "Juglone risk (Black Walnut): juglone causes GI and neurological toxicity in cats; black walnuts are more dangerous than English walnuts",
+    "Mycotoxin risk: mouldy walnuts contain tremorgenic mycotoxins — causes severe tremors, seizures, and ataxia within hours",
+    "Physical hazard: walnut shells are hard and brittle; sharp fragments can injure the mouth and GI tract",
+    "High fat content: large amounts may trigger pancreatitis",
+    "If your cat ingests a mouldy walnut or shows tremors after contact with walnuts, seek veterinary care immediately"
+  ],
+  "toxicParts": [
+    "Skin",
+    "Entire food",
+    "Stem",
+    "Powder"
+  ],
+  "symptoms": [
+    {
+      "name": "If a cat ingests walnuts, the primary risks arise from the physical properties of the nut and its high fat and fiber content",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Gastrointestinal Upset",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within a few hours of ingestion.",
+      "notes": "The high fiber content and heavy amount of oils in nuts make them very difficult for cats to digest, easily leading to acute digestive distress"
+    },
+    {
+      "name": "Pancreatitis",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "24 to 72 hours (or progressively over a few days).",
+      "notes": "Walnuts contain very high amounts of oils and fats, which can trigger a painful inflammation of the pancreas known as pancreatitis1.... The clinical signs of pancreatitis in cats are often vague, subtle, and non-specific; the most common signs are profound lethargy, partial or complete anorexia (los"
+    },
+    {
+      "name": "Choking or Intestinal Obstruction",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Immediate (for choking) or progressive over hours to days (for intestinal blockage).",
+      "notes": "Because nuts are hard and difficult for a cat to digest, intact walnuts or large pieces pose a significant physical hazard. They can become lodged in the throat as a choking hazard or cause dangerous physical blockages within the intestinal tract"
+    }
+  ],
+  "scientificName": "Walnuts",
+  "family": "Various"
+}

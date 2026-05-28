@@ -1,0 +1,53 @@
+{
+  "slug": "lantana",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/lantana.jpg"
+  ],
+  "name": "Lantana",
+  "aliases": [],
+  "description": "Lantana (Lantana camara) is a colourful flowering shrub that is severely toxic to cats. All parts — particularly the unripe green berries — contain lantadene A and lantadene B, pentacyclic triterpenoid compounds that cause liver damage and bile duct obstruction. Lantana poisoning is well-documented in livestock and companion animals and can be fatal.",
+  "safetyNotes": [
+    "Toxic compounds: lantadene A and lantadene B (pentacyclic triterpenoids); unripe green berries most concentrated; leaves and stems also toxic",
+    "Mechanism: lantadenes cause hepatocellular necrosis and phylloerythrin accumulation in bile ducts, leading to photosensitisation and liver failure",
+    "Symptoms: severe vomiting, diarrhea, weakness, jaundice (yellowing of gums and eyes), photosensitive skin lesions, liver failure; may be fatal",
+    "The attractive berries (which change from green to red/black as they ripen) are especially dangerous",
+    "Any suspected ingestion is a veterinary emergency — do not wait for jaundice or liver symptoms to appear"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "These are typically the initial clinical signs of poisoning.common plants that are toxic to cats | Petbarn Articles (Conversation History) 2. Respiratory Distress"
+    },
+    {
+      "name": "Labored Breathing (Dyspnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "notes": "Difficulty breathing is a sign of advanced toxicity and requires immediate veterinary attention.common plants that are toxic to cats | Petbarn Articles (Conversation History) 3. General Weakness"
+    },
+    {
+      "name": "Weakness / Lethargy",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "The cat may appear depressed or unable to stand normally.common plants that are toxic to cats | Petbarn Articles (Conversation History) 4. Hepatic Failure"
+    },
+    {
+      "name": "Liver Failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Delayed (typically occurs after the initial gastrointestinal signs).",
+      "notes": "While the sources note that liver failure from Lantana is more commonly documented in livestock (cattle/sheep), it remains a potential risk for companion animals like cats and dogs.common plants that are toxic to cats | Petbarn Articles (Conversation History)"
+    }
+  ],
+  "scientificName": "Lantana camara",
+  "family": "Verbenaceae"
+}

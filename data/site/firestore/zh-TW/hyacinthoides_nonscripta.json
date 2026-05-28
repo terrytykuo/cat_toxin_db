@@ -1,0 +1,39 @@
+{
+  "slug": "hyacinthoides_nonscripta",
+  "source_hash": "127fa3ce7694c24dfa7612ce6cc90c8f827a6a88be6b49b879d364e269c4461e",
+  "translated_at": "2026-05-21T10:21:10Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "藍鈴花",
+  "aliases": [],
+  "description": "藍鈴花 (Hyacinthoides non-scripta 及相關物種) 是深受喜愛的春季野花，常見於林地、花園和路邊——這些都是室外貓經常活動的環境。儘管外表柔弱，該植物的所有部分對貓都有毒。藍鈴花含有海蔥苷及相關的強心甙類化合物，以及生物鹼，這些物質會干擾心肌細胞中的鈉鉀幫浦，破壞正常的心律。球莖的毒素濃度最高，但花、葉和汁液皆具危險性。",
+  "safetyNotes": [
+    "症狀：嘔吐、腹瀉、嗜睡和心跳減慢；攝入量較大時可能導致心律不整、低血壓，嚴重時會出現抽搐或休克。",
+    "球莖毒性最強：在花園中挖掘的貓可能會接觸到球莖。擠壓莖部流出的汁液也會刺激皮膚和眼睛。",
+    "季節性風險：暴露高峰期在春季花開且最容易接觸到時。若懷疑誤食，請立即諮詢獸醫。"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Bulb"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐、腹瀉、流口水和胃痛",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "心跳減慢 (Bradycardia)",
+      "body_system": "Cardiac"
+    },
+    {
+      "name": "顫抖及嗜睡",
+      "body_system": "神經系統"
+    },
+    {
+      "name": "皮膚刺激及皮炎",
+      "body_system": "皮膚",
+      "onset": "快速（接觸時）。"
+    }
+  ]
+}

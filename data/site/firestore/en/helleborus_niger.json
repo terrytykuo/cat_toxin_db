@@ -1,0 +1,54 @@
+{
+  "slug": "helleborus_niger",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/helleborus_niger.jpg"
+  ],
+  "name": "Christmas Rose",
+  "aliases": [],
+  "description": "Christmas Rose (Helleborus niger) is a popular winter garden and holiday houseplant with elegant white flowers, but all parts of the plant are toxic to cats. It contains several classes of toxic compounds: bufadienolide cardiac glycosides (including hellebrin), which disrupt the heart's electrical system; and ranunculin, which converts to protoanemonin (a potent irritant) when the plant is damaged. Even small amounts can cause significant symptoms, and the cardiac effects make this plant particularly dangerous.",
+  "safetyNotes": [
+    "Symptoms: Severe drooling, vomiting, diarrhea, and abdominal pain; cardiac arrhythmia, abnormal heart rate, and low blood pressure; central nervous system depression in serious cases.",
+    "All parts are toxic: Roots and rhizomes contain the highest concentrations, but leaves, stems, and flowers also pose a risk.",
+    "Action: Seek veterinary care promptly — cardiac effects can develop quickly, and early treatment significantly improves outcomes."
+  ],
+  "toxicParts": [
+    "Sap"
+  ],
+  "symptoms": [
+    {
+      "name": "Excessive drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "The plant contains saps that cause direct irritation to the mouth and digestive tract.Gastrointestinal Distress (Vomiting and Diarrhea)"
+    },
+    {
+      "name": "Persistent vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "Unlike mild stomach upset, the vomiting and diarrhea associated with Christmas Rose are described as persistent and often contain blood, indicating severe irritation or damage to the gastrointestinal lining.Cardiac Abnormalities"
+    },
+    {
+      "name": "Changes in heart rate and rhythm (Arrhythmias)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "notes": "The plant contains cardiac glycosides, which disrupt the heart's electrical impulses. These toxins can be fatal if untreated.Hallucinations"
+    },
+    {
+      "name": "Hallucinations",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "This is a distinct neurological symptom associated with the specific toxins found in the Christmas Rose.Electrolyte Imbalances"
+    },
+    {
+      "name": "Electrolyte imbalances",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "notes": "Cardiac glycosides interfere with cellular ion channels, leading to dangerous shifts in electrolytes that affect heart and nerve function."
+    }
+  ],
+  "scientificName": "Helleborus niger",
+  "family": "Ranunculaceae"
+}

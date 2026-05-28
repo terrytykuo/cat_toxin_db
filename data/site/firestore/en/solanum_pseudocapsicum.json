@@ -1,0 +1,55 @@
+{
+  "slug": "solanum_pseudocapsicum",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/solanum_pseudocapsicum.jpg"
+  ],
+  "name": "Jerusalem Cherry",
+  "aliases": [],
+  "description": "Jerusalem Cherry (Solanum pseudocapsicum), also called Winter Cherry, is a common ornamental houseplant and holiday decoration that is toxic to cats. It belongs to the nightshade family and contains glycoalkaloids — primarily solanine and solasonine — throughout all parts, with the highest concentration in the attractive red or yellow berries.",
+  "safetyNotes": [
+    "Toxic compounds: solanine and solasonine (steroidal glycoalkaloids); berries are most concentrated, but leaves and stems also contain toxins",
+    "Mechanism: glycoalkaloids inhibit acetylcholinesterase and disrupt cell membranes, causing GI and neurological effects",
+    "Symptoms: drooling, vomiting, diarrhea, abdominal pain, lethargy, weakness; more severe ingestion may cause tremors, confusion, or bradycardia",
+    "The berries resemble small tomatoes or ornamental peppers and are visually appealing to cats",
+    "Keep Jerusalem Cherry out of cat-accessible spaces; contact your vet if berry ingestion occurs"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea (often Hemorrhagic), Abdominal Pain, Anorexia",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "2–24 hours (General onset for Solanaceae/Nightshade alkaloid toxicity).",
+      "notes": "The diarrhea is specifically noted to be hemorrhagic (containing blood) in some cases. The irritation can also cause hypersalivation (drooling).Neurological Dysfunction (Seizures and Paralysis)"
+    },
+    {
+      "name": "Convulsions (Seizures), Progressive Weakness, Paralysis, Dilated Pupils",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Delayed (Neurological signs often follow gastrointestinal distress as the toxin is absorbed).",
+      "notes": "The clinical picture includes progressive weakness that can escalate to paralysis and convulsions. The alkaloids affect the central nervous system significantly.Cardiovascular Collapse"
+    },
+    {
+      "name": "Bradycardia (Slow Heart Rate), Circulatory Collapse",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Acute (Following absorption).",
+      "notes": "The alkaloids can cause a dangerous slowing of the heart rate (bradycardia) leading to total circulatory collapse (shock).Respiratory Distress"
+    },
+    {
+      "name": "Dyspnea (Difficulty Breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Acute.",
+      "notes": "Respiratory paralysis or distress is a potential complication of the severe neurological depression caused by the toxin."
+    }
+  ],
+  "scientificName": "Solanum pseudocapsicum",
+  "family": "Solanaceae"
+}

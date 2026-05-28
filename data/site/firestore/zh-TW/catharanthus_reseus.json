@@ -1,0 +1,39 @@
+{
+  "slug": "catharanthus_reseus",
+  "source_hash": "bf9efa646ad6c3a6b2f6c758fd11fcb65bbe23ebd6e25ecb5660febdee02a4ff",
+  "translated_at": "2026-05-21T10:33:09Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "長春花",
+  "aliases": [],
+  "description": "長春花 (Catharanthus roseus) 是一種常見的觀賞性開花植物，對貓具有嚴重毒性。它含有長春花生物鹼——主要是長春新鹼 (vincristine) 和長春花鹼 (vinblastine)——這些也是癌症治療中使用的化療藥物。即使是少量攝入，也可能導致貓出現嚴重的、威脅生命的毒性反應。",
+  "safetyNotes": [
+    "有毒化合物：長春花生物鹼——長春新鹼 (vincristine)、長春花鹼 (vinblastine)、長春瑞濱 (vinorelbine)；植物的所有部位都有毒",
+    "機制：長春花生物鹼通過與微管蛋白結合來抑制細胞分裂，破壞有絲分裂紡錘體；這會損害快速分裂的細胞，包括骨髓和腸胃道上皮細胞",
+    "症狀：嘔吐、腹瀉、嚴重虛弱、低血壓、神經症狀（震顫、癲癇）；骨髓抑制可能在數天內發展",
+    "儘管外表悅目，這種植物與化療藥物一樣危險",
+    "任何疑似攝入情況皆屬獸醫急診"
+  ],
+  "toxicParts": [
+    "整株植物"
+  ],
+  "symptoms": [
+    {
+      "name": "咽喉痛、腹痛、嚴重腹瀉和脫水",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "周邊神經受損",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "骨髓抑制（功能低下）",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "心血管損傷",
+      "body_system": "心血管系統"
+    }
+  ]
+}

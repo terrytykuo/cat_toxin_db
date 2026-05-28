@@ -1,0 +1,20 @@
+{
+  "slug": "boston-fern",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/boston-fern/images/1773839954813.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/boston-fern/images/1774784504646.avif"
+  ],
+  "name": "Boston Fern",
+  "aliases": [
+    "Sword Fern"
+  ],
+  "description": "Boston Ferns are lush, feathery plants that are perfectly safe for cats. They love humidity and indirect light, making them ideal bathroom plants. Their dangling fronds may tempt cats to play, but the plant is non-toxic.",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": [],
+  "scientificName": "Nephrolepis exaltata",
+  "family": ""
+}

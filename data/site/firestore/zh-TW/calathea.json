@@ -1,0 +1,18 @@
+{
+  "slug": "calathea",
+  "source_hash": "e5a2f8f0b760a785811eaeca08e1fd6eaa3c3be375d47bf22a6b20f55331f912",
+  "translated_at": "2026-05-21T10:21:45Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "竹芋 (Calathea)",
+  "aliases": [
+    "祈禱花 (Prayer Plant)",
+    "斑馬竹芋 (Zebra Plant)",
+    "響尾蛇竹芋 (Rattlesnake Plant)"
+  ],
+  "description": "竹芋是極具觀賞價值的熱帶植物，以其精緻圖案的葉片著稱，葉片在晚上會像祈禱的手一樣折疊起來。它們對貓完全無毒，在間接光照和定期澆水的環境下生長良好。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

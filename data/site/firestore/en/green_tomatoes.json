@@ -1,0 +1,75 @@
+{
+  "slug": "green_tomatoes",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/green_tomatoes/images/1773007844326.jpg"
+  ],
+  "name": "Green tomatoes",
+  "aliases": [],
+  "description": "Ripe red tomatoes (Solanum lycopersicum) are not significantly toxic to cats, but green (unripe) tomatoes contain solanine and tomatine — glycoalkaloids found throughout the nightshade family. These compounds decrease as the fruit ripens, which is why ripe tomatoes are generally considered safe in small amounts while all green parts of the tomato plant remain hazardous.",
+  "safetyNotes": [
+    "Avoid: green (unripe) tomatoes and all green parts of the plant — leaves, stems, and vines contain solanine and tomatine",
+    "Ripe red tomato flesh: safe in very small amounts but offers no nutritional benefit to cats",
+    "Symptoms if green parts ingested: drooling, vomiting, diarrhea, lethargy, weakness; severe exposure may cause bradycardia or CNS depression",
+    "Never feed seasoned tomato products — garlic, onion, and salt in sauces or ketchup are toxic to cats",
+    "If your cat chews tomato plant leaves or eats a green tomato, contact your vet"
+  ],
+  "toxicParts": [
+    "Fruit",
+    "Stem",
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Green tomatoes, as well as the leaves and stems of the tomato plant",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Severe Gastrointestinal Upset",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Usually within 2 to 24 hours of ingestion,",
+      "notes": "This is typically the first sign of nightshade poisoning. Solanine is a potent cytotoxin that interacts with the phospholipids in cell membranes, causing direct cell destruction and violent irritation and inflammation of the intestinal epithelial cells1.... A tense abdominal wall and pain upon being"
+    },
+    {
+      "name": "Hypersalivation",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "2 to 24 hours",
+      "notes": "While it can be a reaction to the severe mucosal irritation in the mouth and throat, drooling is primarily driven by the neurotoxic properties of the glycoalkaloids, which overstimulate the parasympathetic nervous system"
+    },
+    {
+      "name": "Neurological Deficits and Paralysis",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Usually follows gastrointestinal symptoms,",
+      "notes": "Solanine acts as a neurotoxin by inhibiting acetylcholinesterase, an enzyme responsible for breaking down the neurotransmitter acetylcholine. This leads to massive acetylcholine accumulation at the synaptic cleft and parasympathetic overstimulation1.... Additionally, the toxins disrupt mitochondrial"
+    },
+    {
+      "name": "Cardiovascular Disturbances",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Progressive (2 to 24 hours)",
+      "notes": "The severe parasympathetic overstimulation caused by the accumulation of acetylcholine forces the heart rate to slow dangerously. In critical cases, this progresses to complete circulatory failure and cardiovascular collapse, which can be fatal"
+    },
+    {
+      "name": "Ocular Changes",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "2 to 24 hours",
+      "notes": "Dilated pupils are another direct clinical manifestation of the neurotoxicity and autonomic nervous system overstimulation caused by the glycoalkaloids"
+    },
+    {
+      "name": "Hemolysis and Acute Kidney Injury",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Progressive; typically occurs in the later stages of a severe poisoning episode",
+      "notes": "In highly severe cases, solanine toxicity causes the cat's red blood cells to be destroyed (hemolysis)67. The release of free hemoglobin into the bloodstream from the ruptured cells is highly nephrotoxic (toxic to the kidneys) and can secondarily destroy the kidneys, leading to acute renal failure"
+    }
+  ],
+  "scientificName": "Green tomatoes",
+  "family": "Solanaceae"
+}

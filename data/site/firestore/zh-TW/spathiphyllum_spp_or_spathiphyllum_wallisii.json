@@ -1,0 +1,48 @@
+{
+  "slug": "spathiphyllum_spp_or_spathiphyllum_wallisii",
+  "source_hash": "f2a8d9ba4335a7fc9111cfc8acc7da1c4ef47e88f798af964d0fdbd056382072",
+  "translated_at": "2026-05-21T10:35:10Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "白鶴芋",
+  "aliases": [],
+  "description": "白鶴芋（Spathiphyllum spp.）是常見的室內植物，對貓有毒。儘管名稱中帶有「百合」二字，但它並非真正的百合，不會引起與百合屬（Lilium）相關的急性腎衰竭。作為天南星科的一員，它含有不溶性草酸鈣結晶（針晶體），當貓咪咀嚼植物時，會立即引起口腔和胃腸道刺激。",
+  "safetyNotes": [
+    "有毒化合物：遍布葉、莖和花的不溶性草酸鈣針晶體",
+    "作用機制：晶體機械性地滲透口腔黏膜，引起灼熱、腫脹和發炎",
+    "症狀：劇烈流口水、抓弄嘴部、口腔疼痛、吞嚥困難、嘔吐",
+    "無腎衰竭風險 — 白鶴芋並非真正的百合；名稱雖然誤導，但其毒性不同且較輕微",
+    "用水沖洗口腔；如果喉嚨腫脹影響吞嚥或呼吸，請尋求獸醫治療"
+  ],
+  "toxicParts": [
+    "葉"
+  ],
+  "symptoms": [
+    {
+      "name": "口腔強烈灼熱、疼痛、刺激、紅斑（發紅）及抓弄嘴部",
+      "body_system": "消化系統",
+      "onset": "立即。"
+    },
+    {
+      "name": "流涎過多（流口水）及吞嚥困難（dysphagia）",
+      "body_system": "消化系統",
+      "onset": "立即。"
+    },
+    {
+      "name": "嘔吐、胃部不適，偶爾腹瀉",
+      "body_system": "消化系統",
+      "onset": "攝入後立即或不久。"
+    },
+    {
+      "name": "精神沉鬱和食慾不振（拒絕進食）",
+      "body_system": "神經系統",
+      "onset": "攝入後不久。"
+    },
+    {
+      "name": "呼吸困難（dyspnea）",
+      "body_system": "呼吸系統",
+      "onset": "接觸後立即或隨後發生，隨腫脹進展而加重。"
+    }
+  ]
+}

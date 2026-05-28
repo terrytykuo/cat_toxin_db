@@ -1,0 +1,68 @@
+{
+  "slug": "codiaeum_variegatum",
+  "category": "plant",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/codiaeum_variegatum.jpg"
+  ],
+  "name": "Croton",
+  "aliases": [],
+  "description": "Croton (Codiaeum variegatum) is a popular ornamental shrub prized for its intensely colourful leaves, but it is toxic to cats. The plant's milky white sap contains irritating diterpene ester compounds related to phorbol esters, which cause severe chemical burns on contact with skin, eyes, or mucous membranes. The seeds also contain protein toxins. Ingestion causes significant gastrointestinal distress, while skin or eye contact with the sap produces a rapid inflammatory response.",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, severe diarrhea, and abdominal pain from ingestion; skin redness, blistering, and eye pain from sap contact.",
+    "Sap is the immediate hazard: The milky sap is released whenever a leaf or stem is broken. Cats that chew on leaves receive both the sap and the leaf tissue.",
+    "Action: Rinse skin or eyes thoroughly with water if sap contact occurs. Seek veterinary care if a cat has ingested any part of the plant or if eye symptoms develop."
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Mouth irritation (burning sensation in mouth, tongue, and lips)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (upon chewing or contact).",
+      "notes": "The sap causes direct irritation to the oral cavity, which can lead to behavioral signs of pain or distress.Excessive Drooling"
+    },
+    {
+      "name": "Drooling (Hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid (following oral irritation).",
+      "notes": "This is a secondary response to the burning sensation and irritation caused by the plant's sap in the mouth.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion.",
+      "notes": "Ingestion of the plant material irritates the stomach lining, triggering vomiting.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Delayed (as plant material moves through the GI tract).",
+      "notes": "The irritant oils affect the intestines, leading to loose stools.Skin Irritation"
+    },
+    {
+      "name": "Skin Irritation (Dermatitis/Rash)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Upon direct contact.",
+      "notes": "Contact with the sap (e.g., from a broken leaf) can cause redness or a rash on the cat's skin or fur.Loss of Appetite"
+    },
+    {
+      "name": "Anorexia (Refusal to eat)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Following oral pain or nausea.",
+      "notes": "Cats may refuse to eat due to the pain in their mouth or general nausea."
+    }
+  ],
+  "scientificName": "Codiaeum variegatum",
+  "family": "Euphorbiaceae"
+}

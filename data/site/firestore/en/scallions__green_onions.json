@@ -1,0 +1,88 @@
+{
+  "slug": "scallions__green_onions",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/scallions__green_onions.jpg"
+  ],
+  "name": "Scallions / Green onions",
+  "aliases": [],
+  "description": "Scallions and green onions (Allium fistulosum and Allium cepa) are members of the Allium family and are severely toxic to cats — sharing the same mechanism as garlic, onions, chives, and leeks. They contain organosulfur compounds that oxidise feline haemoglobin, forming Heinz bodies and triggering haemolytic anaemia. All parts and all preparation forms are dangerous.",
+  "safetyNotes": [
+    "Toxic compounds: N-propyl disulfide and organosulfur compounds (alk(en)yl cysteine sulfoxides); all parts toxic including white bulb, green tops, and cooked forms",
+    "Mechanism: oxidative damage to haemoglobin creates Heinz bodies; the spleen destroys affected red blood cells, causing haemolytic anaemia",
+    "Symptoms: lethargy, weakness, pale or yellowish gums, rapid breathing, loss of appetite, reddish-brown urine; onset often delayed 3–5 days",
+    "Scallions are commonly used in Asian cooking — stir-fries, soups, dumplings — keep cats away from these foods",
+    "Contact your vet immediately if ingestion is suspected"
+  ],
+  "toxicParts": [
+    "Powder",
+    "Juice"
+  ],
+  "symptoms": [
+    {
+      "name": "Because scallions (green onions) are members of the Allium genus",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Vomiting, Diarrhea, Abdominal Pain, and Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within 1 day of ingestion.",
+      "notes": "These are usually the first clinical signs of toxicosis to appear4.... They are caused by direct irritation to the mouth and stomach, frequently resulting in dehydration"
+    },
+    {
+      "name": "Lethargy, Weakness, and Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "After a lag of several days (typically 2 to 4 days).",
+      "notes": "These signs emerge as a secondary response to systemic hypoxia caused by the profound loss of oxygen-carrying red blood cells"
+    },
+    {
+      "name": "Pale Mucous Membranes and Jaundice (Icterus)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "After a lag of several days.",
+      "notes": "Pale gums indicate a lack of oxygenated blood (anemia)5.... Jaundice (yellowing of the skin or mucosa) occurs due to severe red blood cell destruction leading to hyperbilirubinemia"
+    },
+    {
+      "name": "Tachypnea and Dyspnea (Breathing Difficulties)",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "After a lag of several days.",
+      "notes": "This is a compensatory response as the cat's body attempts to offset the decreased blood oxygen transportation capacity and resulting tissue hypoxia"
+    },
+    {
+      "name": "Tachycardia (Rapid Heart Rate)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "After a lag of several days.",
+      "notes": "Tachycardia develops as the heart pumps much faster to compensate for the impaired oxygen transportation caused by the ruptured red blood cells"
+    },
+    {
+      "name": "Hemoglobinuria (Dark Urine)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "After a lag of several days.",
+      "notes": "This is a hallmark sign of severe oxidative hemolysis5.... Damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract59. This can lead to secondary acute kidney injury (hemoglobinuric nephrosis)"
+    },
+    {
+      "name": "Cold Sensitivity",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Several days after ingestion.",
+      "notes": "Affected cats may have difficulty regulating body temperature as a systemic effect of the progressive anemia"
+    },
+    {
+      "name": "Allium Breath Odor",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion.",
+      "notes": "While not harmful itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians"
+    }
+  ],
+  "scientificName": "Scallions / Green onions",
+  "family": "Allioideae"
+}

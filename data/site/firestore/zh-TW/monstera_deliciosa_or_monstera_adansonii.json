@@ -1,0 +1,43 @@
+{
+  "slug": "monstera_deliciosa_or_monstera_adansonii",
+  "source_hash": "e76b634a4ee7b1a603372815a54ed9e60d1dd3321537a013fa02d9d445a2281b",
+  "translated_at": "2026-05-21T10:34:02Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "龜背芋 / 龜背竹",
+  "aliases": [],
+  "description": "龜背芋 (Monstera deliciosa 及 M. adansonii)，通常被稱為瑞士起司草或龜背竹，是受歡迎的熱帶室內植物，對貓有毒。作為天南星科 (Araceae) 的成員，它的葉子和莖中充滿了不溶性草酸鈣結晶 (raphides)。咀嚼植物會將這些針狀結晶釋放到口腔黏膜中，引起劇烈的瞬間疼痛。",
+  "safetyNotes": [
+    "有毒化合物：不溶性草酸鈣結晶；汁液中的蛋白分解酶會加劇反應",
+    "機制：當植物組織受損時，結晶會強力噴射到口腔和喉嚨黏膜中，造成機械性灼傷和腫脹",
+    "症狀：突發性口腔疼痛、劇烈流口水、用爪子撥弄嘴巴、吞嚥困難 (dysphagia)、嘴唇和舌頭腫脹、嘔吐",
+    "嚴重的喉嚨腫脹可能會阻礙呼吸 —— 在這種情況下請立即尋求獸醫治療",
+    "用水沖洗口腔；如果吞嚥受阻或症狀沒有迅速消退，請聯繫獸醫"
+  ],
+  "toxicParts": [
+    "葉"
+  ],
+  "symptoms": [
+    {
+      "name": "口腔劇烈灼熱感和刺激，伴隨疼痛哀鳴",
+      "body_system": "消化系統",
+      "onset": "立即（咀嚼或咬合時）"
+    },
+    {
+      "name": "過度流口水或唾液分泌過多",
+      "body_system": "消化系統",
+      "onset": "立即（咀嚼或咬合時）"
+    },
+    {
+      "name": "口腔和舌頭腫脹，導致吞嚥困難",
+      "body_system": "消化系統",
+      "onset": "立即"
+    },
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統",
+      "onset": "攝入後不久（若吞嚥則通常繼發於最初的口腔刺激）"
+    }
+  ]
+}

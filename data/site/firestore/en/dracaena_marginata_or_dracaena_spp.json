@@ -1,0 +1,63 @@
+{
+  "slug": "dracaena_marginata_or_dracaena_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dracaena_marginata_or_dracaena_spp.jpg"
+  ],
+  "name": "Dragon Tree",
+  "aliases": [],
+  "description": "Dragon Tree (Dracaena draco and related Dracaena species) is a popular houseplant toxic to cats. It contains steroidal saponins throughout its leaves and stem, compounds that disrupt cell membranes and irritate the gastrointestinal tract. Cats that chew the leaves typically develop unpleasant but non-life-threatening symptoms.",
+  "safetyNotes": [
+    "Toxic compounds: steroidal saponins",
+    "Mechanism: saponins disrupt cellular membranes and stimulate GI irritation; may affect the CNS in cats at higher doses",
+    "Symptoms: vomiting (occasionally blood-tinged), hypersalivation, loss of appetite, lethargy, dilated pupils",
+    "Dilated pupils (mydriasis) are a noted cat-specific reaction and a useful indicator of saponin exposure",
+    "While rarely life-threatening, a cat showing mydriasis or repeated vomiting should be evaluated by a vet"
+  ],
+  "toxicParts": [
+    "Bark",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting (often with blood/hematemesis) and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Acute (typically shortly after ingestion, though specific hours are not listed in the text).",
+      "notes": "The plant's saponins cause significant irritation to the mucosal lining. In cats specifically, the vomiting is frequently noted to contain blood, which is a distinguishing feature of this toxicity compared to other mild plant irritants.Dilated Pupils (Mydriasis)"
+    },
+    {
+      "name": "Dilated Pupils",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Associated with the acute phase of toxicity.",
+      "notes": "This is a distinctive clinical sign of Dracaena poisoning in cats. It often helps veterinarians identify this specific plant as the culprit when accompanied by gastrointestinal signs.Depression and Weakness"
+    },
+    {
+      "name": "Depression, Lethargy, Weakness, or Incoordination (Ataxia)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Affected cats may appear \"drunk,\" wobbly, or simply inactive due to the central nervous system depression caused by the saponins and alkaloids.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling / Ptyalism",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to Acute (upon chewing/ingesting).",
+      "notes": "Saponins and resins in the leaves cause oral and mucosal irritation, stimulating increased saliva production.Anorexia"
+    },
+    {
+      "name": "Loss of Appetite (Anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "The cat may refuse food due to nausea, oral pain, or general systemic malaise."
+    }
+  ],
+  "scientificName": "Dracaena marginata or Dracaena spp.",
+  "family": "Agavaceae"
+}

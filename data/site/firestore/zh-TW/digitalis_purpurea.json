@@ -1,0 +1,55 @@
+{
+  "slug": "digitalis_purpurea",
+  "source_hash": "d5bda72240429fa8adce0047cbb7cf4c99f75de5cd45c17e21b66b5b4beda930",
+  "translated_at": "2026-05-21T10:29:32Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "毛地黃 (Digitalis purpurea)",
+  "aliases": [],
+  "description": "毛地黃（Digitalis purpurea）是貓咪可能遇到的最危險植物之一。植物的每個部分（無論是新鮮或乾燥）都含有強力的強心苷，包括地高辛 (digoxin)、洋地黃毒苷 (digitoxin) 和洋地黃苷 (digitalin)。這些化合物的治療劑量與致死劑量之間的界限極窄，即使是少量也可能觸發貓咪危及生命的心血管事件。",
+  "safetyNotes": [
+    "有毒成分：強心苷 — 地高辛、洋地黃毒苷、洋地黃苷、洋地黃皂苷；所有部位均有毒，包括乾葉、花、種子和根",
+    "機制：抑制心肌中的鈉鉀幫浦 (Na+/K+-ATPase pump) → 干擾電傳導 → 導致心律不整和心傳導阻滯",
+    "症狀：嘔吐、腹瀉、流口水、虛弱、心跳過緩（異常緩慢的心率）、心律不整、昏厥；若不治療可能致命",
+    "即使是乾草或香氛乾燥花中的乾毛地黃仍保有完整毒性",
+    "任何疑似攝入的情況均屬獸醫急診 — 不要等待症狀出現"
+  ],
+  "toxicParts": [
+    "莖",
+    "整株植物",
+    "種子",
+    "花粉",
+    "葉",
+    "花",
+    "根",
+    "汁液"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐、血便腹瀉及噁心",
+      "body_system": "消化系統",
+      "onset": "2小時內（急性）。"
+    },
+    {
+      "name": "心跳過緩（心率緩慢）、心跳過快（心率過快）或脈搏不規律",
+      "body_system": "心血管系統",
+      "onset": "2小時內（且可能持續數天）。"
+    },
+    {
+      "name": "虛弱、震顫及抽搐（癲癇）",
+      "body_system": "神經系統",
+      "onset": "急性（隨後或伴隨心臟徵兆）。"
+    },
+    {
+      "name": "高鉀血症（高血鉀水平）",
+      "body_system": "血液系統",
+      "onset": "急性（攝入後不久可通過血液檢查驗出）。"
+    },
+    {
+      "name": "頻尿",
+      "body_system": "泌尿系統",
+      "onset": "急性。"
+    }
+  ]
+}

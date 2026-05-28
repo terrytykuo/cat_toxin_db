@@ -1,0 +1,32 @@
+{
+  "slug": "abrus_precatorius",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/abrus_precatorius.jpg"
+  ],
+  "name": "Rosary Pea",
+  "aliases": [],
+  "description": "Rosary Pea (Abrus precatorius), also known as Jequirity Bean, is one of the most acutely toxic plants on earth. Its seeds contain abrin — a ribosome-inactivating protein (RIP) closely related to ricin — that is lethal in nanogram quantities. The hard seed coat usually prevents toxicity if seeds are swallowed whole, but chewed or cracked seeds are life-threatening.",
+  "safetyNotes": [
+    "Toxic compounds: abrin (ribosome-inactivating protein) in seeds; leaves contain abrine alkaloid",
+    "Mechanism: abrin halts protein synthesis in cells by inactivating ribosomes; affected cells die; organs fail progressively",
+    "Symptoms (delayed 2–6h): vomiting, diarrhea, weakness, abdominal pain; severe cases cause multi-organ failure, seizures, and death",
+    "Intact swallowed seeds may pass without harm; cracked or chewed seeds are a medical emergency",
+    "Any suspected abrin exposure is a veterinary emergency — do not wait for symptoms"
+  ],
+  "toxicParts": [
+    "Seed"
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal signs (which typically lead to significant dehydration and electrolyte imbalances)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "Abrin is a plant lectin (toxalbumin) that works by inhibiting cellular protein synthesis1. When absorbed, the resulting gastrointestinal distress can cause severe dehydration and dangerous electrolyte imbalances1. In these severe cases, the cat will require veterinary treatment for fluid and electro"
+    }
+  ],
+  "scientificName": "Abrus precatorius",
+  "family": "Fabaceae"
+}

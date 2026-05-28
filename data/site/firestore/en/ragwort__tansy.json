@@ -1,0 +1,37 @@
+{
+  "slug": "ragwort__tansy",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ragwort__tansy/images/1773009073771.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ragwort__tansy/images/1773009084597.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ragwort__tansy/images/1773009119865.avif"
+  ],
+  "name": "Ragwort / Tansy",
+  "aliases": [],
+  "description": "Ragwort (Senecio jacobaea) and Tansy Ragwort are highly toxic plants for cats due to pyrrolizidine alkaloids (PAs) — compounds that cause severe, often irreversible liver damage. The toxicity is cumulative; even small repeated exposures cause progressive hepatic necrosis that may not become apparent until liver failure is advanced.",
+  "safetyNotes": [
+    "Toxic compounds: pyrrolizidine alkaloids (jacobine, senecioline, retrorsine); all parts toxic; hay containing ragwort retains toxicity when dried",
+    "Mechanism: PAs are metabolised to reactive pyrroles in the liver, forming DNA cross-links and destroying hepatocytes; damage is cumulative and irreversible",
+    "Symptoms: weight loss, lethargy, jaundice, neurological signs (head-pressing, blindness, circling); acute liver failure may occur with large single exposures",
+    "Dried ragwort in hay is a particular risk — it loses bitterness but retains full toxicity",
+    "Seek veterinary care promptly; early intervention before liver failure occurs greatly improves prognosis"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Flower",
+    "Seed"
+  ],
+  "symptoms": [
+    {
+      "name": "Liver damage",
+      "body_system": "Hepatic",
+      "severity": "severe",
+      "notes": "Liver damage occurs due to the plant's alkaloid content and a volatile oil containing thujone1. The cat must ingest the plant in large quantities to suffer this damage1. Fortunately, Ragwort is quite unpleasant to eat, which usually acts as a natural deterrent and stops most cats from consuming it"
+    }
+  ],
+  "scientificName": "Senecio jacobaea or Tanacetum vulgare",
+  "family": "Asteraceae"
+}

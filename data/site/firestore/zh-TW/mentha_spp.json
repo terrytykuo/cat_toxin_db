@@ -1,0 +1,51 @@
+{
+  "slug": "mentha_spp",
+  "source_hash": "8e19ece3fe3a3d3c11e254ca2e6d704f31bcfc861afbd87c3b61dfb6841c466f",
+  "translated_at": "2026-05-21T10:24:04Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "薄荷",
+  "aliases": [],
+  "description": "薄荷 (Mentha spicata — 綠薄荷；Mentha x piperita — 胡椒薄荷) 廣泛種植於花園與廚房中，但對貓具有毒性。薄荷屬植物含有薄荷醇 (Menthol)、胡薄荷酮 (Pulegone) 以及多種其他的單萜類化合物。貓肝臟中的葡萄糖醛酸轉移酶 (Glucuronyl transferase) 活性有限，這意味著它們無法有效地分解和排出這些萜類化合物，導致毒素累積與中毒。胡椒薄荷與綠薄荷精油特別危險，絕不應在貓周圍使用。",
+  "safetyNotes": [
+    "症狀：攝入後會出現流口水、嘔吐、腹瀉和精神沉鬱；吸入高濃度精油則會引起呼吸道刺激與窘迫。",
+    "精油與鮮葉：雖然啃食少量新鮮薄荷葉可能僅引起輕微消化系統不適，但高濃度精油即使透過皮膚接觸或吸入也可能導致嚴重中毒。",
+    "行動：將薄荷植物及所有薄荷精油放置在貓接觸不到的地方。如果貓接觸到薄荷油或攝入了大量植物，請諮詢獸醫建議。"
+  ],
+  "toxicParts": [
+    "莖",
+    "葉",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐與腹瀉",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "噁心與口腔分泌過多 (流口水)",
+      "body_system": "消化系統",
+      "onset": "迅速 (通常是對味道或刺激的反應)。"
+    },
+    {
+      "name": "精神沉鬱與全身無力",
+      "body_system": "神經系統"
+    },
+    {
+      "name": "接觸性皮炎 (皮膚刺激)",
+      "body_system": "皮膚",
+      "onset": "迅速 (接觸後)。"
+    },
+    {
+      "name": "呼吸困難、咳嗽或打噴嚏",
+      "body_system": "呼吸系統",
+      "onset": "迅速 (於吸入或誤吸時)。"
+    },
+    {
+      "name": "肝臟損傷或衰竭",
+      "body_system": "肝臟系統",
+      "onset": "延遲。"
+    }
+  ]
+}

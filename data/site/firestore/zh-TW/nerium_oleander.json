@@ -1,0 +1,44 @@
+{
+  "slug": "nerium_oleander",
+  "source_hash": "b2e18a143c9a3e28f2c1d4718e35ccc86d04a0ddaadd13b30726a797880cb64f",
+  "translated_at": "2026-05-21T10:34:36Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "夾竹桃 (Oleander)",
+  "aliases": [],
+  "description": "夾竹桃 (Nerium oleander) 是對貓毒性最強烈的觀賞植物之一。植物的每個部分——葉、花、莖、根，甚至乾燥的植物材料——都含有強力的強心苷 (cardenolide)，主要是夾竹桃苷 (oleandrin) 和夾竹桃素 (neriine)。這些化合物的機制與地高辛 (digoxin) 相似，且極少量即可致命。",
+  "safetyNotes": [
+    "有毒化合物：夾竹桃苷 (oleandrin) 和夾竹桃素 (neriine) (強心苷)；所有部位均有毒，包括乾燥材料和焚燒產生的煙霧",
+    "機制：強心苷抑制心肌中的 Na+/K+-ATP 酶，干擾電傳導並引起心律不整和心臟傳導阻滯",
+    "症狀：流涎、嘔吐、腹瀉、虛弱、心動過緩、心律不整、低血壓、休克；可能迅速致命",
+    "單片葉子所含的夾竹桃苷足以殺死一隻貓；焚燒夾竹桃產生的煙霧也有毒",
+    "任何疑似攝入的情況均屬獸醫急診——切勿等待症狀出現"
+  ],
+  "toxicParts": [
+    "葉",
+    "整株植物"
+  ],
+  "symptoms": [
+    {
+      "name": "流涎（流口水）、噁心、嘔吐、腹瀉和腹痛",
+      "body_system": "消化系統",
+      "onset": "迅速，通常在接觸後的最初 2 小時內"
+    },
+    {
+      "name": "心律不整、心跳異常緩慢（心動過緩）或心跳過快（心動過速）以及低血壓",
+      "body_system": "心血管系統",
+      "onset": "在接觸後的最初 2 小時內"
+    },
+    {
+      "name": "嗜睡、極度虛弱、昏昏欲睡、肌肉震顫、癲癇發作和失去意識",
+      "body_system": "消化系統",
+      "onset": "隨著全身毒性進展，在最初 2 小時內迅速顯現"
+    },
+    {
+      "name": "呼吸困難和呼吸變化",
+      "body_system": "呼吸系統",
+      "onset": "隨著毒性進展迅速顯現"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "snapdragon",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/snapdragon/images/1773840084207.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/snapdragon/images/1774785258068.avif"
+  ],
+  "name": "Snapdragon",
+  "aliases": [
+    "Dragon Flowers"
+  ],
+  "description": "Snapdragons are whimsical, colorful flowers that are safe for cats. They come in a rainbow of colors and their unique \"snapping\" flower shape adds playful personality to any arrangement.",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": [],
+  "scientificName": "Antirrhinum majus",
+  "family": ""
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "phoradendron_spp_or_viscum",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/phoradendron_spp_or_viscum/images/1773009710232.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/phoradendron_spp_or_viscum/images/1773009748905.avif"
+  ],
+  "name": "Mistletoe",
+  "aliases": [],
+  "description": "Mistletoe (Phoradendron spp. and Viscum album) is a common holiday decoration that is moderately toxic to cats. American Mistletoe (Phoradendron) contains phoratoxins — toxic lectins that affect the cardiovascular and gastrointestinal systems. The white berries are the most concentrated part and may appeal to cats. European Mistletoe (Viscum) additionally contains viscotoxins with stronger cardiac effects.",
+  "safetyNotes": [
+    "Toxic compounds: phoratoxins (toxic lectins) in all parts; viscotoxins in European Mistletoe; berries most concentrated",
+    "Mechanism: lectins inhibit protein synthesis in cells; cardiovascular effects include bradycardia and hypotension",
+    "Symptoms: vomiting, diarrhea, drooling, abdominal pain, weakness, bradycardia, low blood pressure; severe ingestion may cause collapse",
+    "All parts are toxic — fresh plant, dried decorations, and even fallen berries on the floor",
+    "Keep mistletoe completely out of reach during the holiday season; contact your vet if ingestion is suspected"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal upset, including vomiting and diarrhea (which can be profuse)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within hours of ingestion",
+      "notes": "If a cat only eats a small amount (like a few leaves or berries), the symptoms are typically limited to mild gastrointestinal irritation14. However, ingesting larger amounts leads to severe gastrointestinal distress56. Additionally, many store-bought mistletoe decorations use plastic berries; if a c"
+    },
+    {
+      "name": "Slowed heart rate (bradycardia), low blood pressure (hypotension), and potential cardiovascular collapse",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within hours of ingesting a toxic dose",
+      "notes": "These life-threatening cardiovascular effects are caused by the plant's lectins and phoratoxins3. Fortunately, severe heart toxicity is relatively uncommon and usually only occurs if the cat consumes a large amount of the plant34. If left untreated after a large ingestion, it can lead to shock and d"
+    },
+    {
+      "name": "Difficulty breathing or rapid, labored breathing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Within hours of ingesting a toxic dose",
+      "notes": "This symptom is typically seen in severe cases of toxicity alongside cardiovascular collapse and shock23. 4. Weakness, Odd Behavior, and Dilated Pupils"
+    },
+    {
+      "name": "Weakness, odd behavior, and dilated pupils",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within hours of ingestion",
+      "notes": "The profound weakness and lethargy a cat experiences are usually secondary effects caused by the significant drop in blood pressure and the slowed heart rate"
+    }
+  ],
+  "scientificName": "Phoradendron spp. or Viscum",
+  "family": "Viscaceae"
+}

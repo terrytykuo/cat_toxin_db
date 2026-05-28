@@ -1,0 +1,51 @@
+{
+  "slug": "indian_borage",
+  "source_hash": "7d33c7b5787a88ecf043d71c2bc0dcf4dabbd69269e5934fdb2f0b34865086e8",
+  "translated_at": "2026-05-21T10:33:09Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "到手香",
+  "aliases": [],
+  "description": "到手香 (Plectranthus amboinicus)，也稱為左手香或印度琉璃苣，是一種具有香氣的多肉草本植物，對貓有輕微毒性。它含有刺激性的精油——主要是香芹酚 (carvacrol)、百里酚 (thymol) 和樟腦相關化合物——這些物質在貓體內會作為腸胃刺激物，且無法被其肝臟有效代謝。",
+  "safetyNotes": [
+    "有毒化合物：整株植物皆含有香芹酚、百里酚和樟腦相關揮發油",
+    "機制：這些萜類油會直接刺激胃腸黏膜，且重複接觸可能引起輕微的肝臟壓力",
+    "症狀：嘔吐、腹瀉、流口水、精神沉鬱；症狀通常較輕微且具自限性",
+    "強烈的氣味可能會嚇跑大多數的貓，但有些貓會覺得這氣味很吸引人",
+    "如果症狀持續或攝入量大，請聯繫您的獸醫"
+  ],
+  "toxicParts": [
+    "莖",
+    "整株植物",
+    "葉",
+    "花",
+    "根"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "腹瀉",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "流口水（唾液過度分泌）或口吐白沫",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "食慾不振",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "精神沉鬱或虛弱",
+      "body_system": "神經系統"
+    },
+    {
+      "name": "呼吸困難",
+      "body_system": "呼吸系統"
+    }
+  ]
+}

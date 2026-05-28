@@ -1,0 +1,63 @@
+{
+  "slug": "persea_americana",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/persea_americana.jpg"
+  ],
+  "name": "Avocado",
+  "aliases": [],
+  "description": "Avocado is toxic to cats primarily because of persin, a fungicidal compound the avocado tree produces as a natural defense. While humans metabolise persin safely, cats lack this ability. Persin triggers dangerous fluid accumulation (edema) in the lungs, chest cavity, abdomen, and around the heart, causing respiratory distress and, at high doses, myocardial necrosis (death of heart muscle tissue). The plant's extremely high fat content creates an additional hazard by triggering acute pancreatitis even when persin levels are low.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, abdominal pain; difficulty breathing and respiratory distress from lung fluid; lethargy, weakness, and abdominal swelling.",
+    "All parts are dangerous: Leaves carry the highest persin concentration and are considered most toxic; skin, bark, and pit also contain high levels. The fruit flesh contains only trace amounts of persin but is still risky due to its high fat content — keep portions extremely small if offered at all.",
+    "Physical hazard: The pit is a severe choking and obstruction risk if swallowed."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Bark",
+    "Seed",
+    "Leaf",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, and Abdominal Discomfort",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Clinical signs may be evident within 24 hours (usually after 12 hours).",
+      "notes": "Persin acts as a gastrointestinal irritant. Even small amounts of the fruit flesh can cause stomach upset, but the leaves, bark, skin, and pit contain higher concentrations of the toxin.Pancreatitis"
+    },
+    {
+      "name": "Pancreatitis (Inflammation of the Pancreas)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Variable; symptoms like abdominal pain and vomiting often appear within 24–72 hours after ingesting",
+      "notes": "This is triggered by the high dietary fat content in the avocado flesh and oil rather than the persin toxin itself. It can lead to dehydration, abdominal swelling, and organ damage.Respiratory and Cardiac Distress"
+    },
+    {
+      "name": "Labored Breathing (Dyspnea), Coughing, and Fluid Accumulation (Edema/Congestion)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "12–24 hours after ingestion.",
+      "notes": "In severe cases, persin toxicity can cause damage to heart muscle fibers, leading to fluid accumulation around the heart (hydropericardium) and in the lungs (pulmonary congestion). While cats are less sensitive to this than birds, it is a documented risk for dogs and cats in high doses.Foreign Body"
+    },
+    {
+      "name": "Choking or Intestinal Blockage",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Immediate (if choking) to days (if intestinal blockage occurs).",
+      "notes": "The large pit (seed) and thick skin pose a physical danger. If swallowed, the pit can block the esophagus, stomach, or intestines, requiring surgical removal.Lethargy and Weakness"
+    },
+    {
+      "name": "Lethargy and Depression",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Within 24 hours.",
+      "notes": "The cat may appear tired, inactive, or \"dull\" as a general systemic reaction to the toxin or dehydration from vomiting."
+    }
+  ],
+  "scientificName": "Persea americana",
+  "family": "Lauraceae"
+}

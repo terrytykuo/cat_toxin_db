@@ -1,0 +1,57 @@
+{
+  "slug": "dieffenbachia_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dieffenbachia_spp.jpg"
+  ],
+  "name": "Dieffenbachia / Dumb Cane",
+  "aliases": [],
+  "description": "Dieffenbachia, commonly called Dumb Cane, is a popular tropical houseplant toxic to cats because it contains insoluble calcium oxalate crystals (raphides) packed inside specialised cells throughout the leaves and stems. When a cat bites or chews the plant, these needle-like crystals are forcefully ejected into the oral mucosa, causing intense immediate pain and inflammation.",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate crystals (raphides) plus proteolytic enzymes that amplify the reaction",
+    "Mechanism: mechanical penetration of mouth and throat lining causing intense burning and swelling",
+    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, difficulty swallowing (dysphagia), swollen tongue and lips, vomiting",
+    "Severe cases: throat swelling may impair breathing — seek veterinary attention immediately",
+    "The name Dumb Cane comes from the temporary inability to vocalise; cats show equivalent signs of oral distress"
+  ],
+  "toxicParts": [
+    "Sap",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning, irritation, and inflammation of the mouth, tongue, lips, and throat",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Immediate upon chewing or biting the plant.",
+      "notes": "The plant contains needle-like crystals (raphides) that are forcefully ejected into the soft tissues when the plant is chewed. This immediate, intense pain often limits the amount a cat will ingest because they stop chewing right away.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Excessive Drooling or Ptyalism",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to within minutes of ingestion.",
+      "notes": "The cat may also exhibit head shaking or paw at their mouth in an attempt to remove the irritant.Airway Obstruction and Dyspnea"
+    },
+    {
+      "name": "Difficulty Breathing (Dyspnea) and Swelling of the Tongue/Throat (Edema)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapidly following the onset of inflammation.",
+      "notes": "While death is infrequent, severe inflammation and swelling of the tongue and pharynx (glottal edema) can obstruct the airway, making it difficult for the cat to breathe. This requires urgent veterinary care.Gastrointestinal Distress and Dysphagia"
+    },
+    {
+      "name": "Vomiting, Difficulty Swallowing (Dysphagia), and Anorexia (Loss of Appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (difficulty swallowing) to short-term (vomiting).",
+      "notes": "The cat may be unable or unwilling to eat (anorexia) due to the oral pain and swelling. Diarrhea is possible but less common than the oral symptoms."
+    }
+  ],
+  "scientificName": "Dieffenbachia spp.",
+  "family": "Araceae"
+}

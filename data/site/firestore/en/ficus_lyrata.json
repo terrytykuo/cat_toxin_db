@@ -1,0 +1,56 @@
+{
+  "slug": "ficus_lyrata",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Starr_031108-0130_Ficus_lyrata.jpg/500px-Starr_031108-0130_Ficus_lyrata.jpg"
+  ],
+  "name": "Fiddle Leaf Fig",
+  "aliases": [],
+  "description": "Fiddle Leaf Fig (Ficus lyrata) is a trendy houseplant toxic to cats. As a member of the Ficus genus, it produces a milky latex sap containing ficin, a proteolytic enzyme, along with irritant compounds that cause gastrointestinal upset when swallowed and skin irritation on contact. The large, dramatic leaves may attract curious cats.",
+  "safetyNotes": [
+    "Toxic compounds: ficin (proteolytic enzyme) and irritant compounds in the latex sap",
+    "Mechanism: ficin irritates the mucosal lining of the mouth, oesophagus, and stomach; sap contact causes localised dermatitis",
+    "Symptoms: vomiting, diarrhea, drooling, decreased appetite; contact with sap may cause skin redness or itching",
+    "Insoluble calcium oxalates may also contribute to oral irritation in some Ficus species",
+    "Symptoms are typically mild; however, repeated nibbling can lead to ongoing GI irritation — relocate the plant away from cats"
+  ],
+  "toxicParts": [
+    "Sap",
+    "Stem",
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Oral Irritation (Pain and burning sensation in the mouth, tongue, and lips)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate (Upon chewing or biting into the leaf/stem).",
+      "notes": "The plant contains irritant sap (sometimes described as containing needle-like oxalate crystals) that causes immediate pain and inflammation when it contacts mucous membranes. This pain often deters the cat from consuming large amounts.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling / Hypersalivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to Acute (Shortly after oral contact).",
+      "notes": "This is a physiological response to the burning sensation and irritation in the mouth and throat caused by the plant's sap.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Acute.",
+      "notes": "Ingestion of the plant material or sap can irritate the stomach lining, triggering vomiting. The symptoms are usually self-limiting.Dermal Irritation (Contact Dermatitis)"
+    },
+    {
+      "name": "Skin Irritation / Redness (Contact Dermatitis)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Acute (Upon contact with sap).",
+      "notes": "The milky sap found in Ficus plants is a known irritant. If it gets on the cat's fur or skin, it can cause redness, itching, or blistering."
+    }
+  ],
+  "scientificName": "Ficus lyrata",
+  "family": "Moraceae"
+}

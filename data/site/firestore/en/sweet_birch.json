@@ -1,0 +1,70 @@
+{
+  "slug": "sweet_birch",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sweet_birch.jpg"
+  ],
+  "name": "Sweet Birch",
+  "aliases": [],
+  "description": "Sweet Birch (Betula lenta) and Birch trees in general are notable for containing methyl salicylate — an analgesic compound related to aspirin — in high concentrations in the bark, leaves, and especially birch essential oil. Cats are extremely sensitive to salicylates because they lack efficient glucuronyl transferase to metabolise them, making birch oil a significant toxicity risk.",
+  "safetyNotes": [
+    "Toxic compounds: methyl salicylate (up to 98% in Sweet Birch essential oil); present in bark and leaves at lower concentrations",
+    "Mechanism: cats cannot efficiently metabolise salicylates via glucuronidation, causing toxic accumulation; inhibits prostaglandin synthesis affecting the GI tract and kidneys",
+    "Symptoms: vomiting, diarrhea, rapid breathing, weakness, tremors; severe cases cause GI haemorrhage, metabolic acidosis, and kidney failure",
+    "Birch essential oil is extremely concentrated and highly dangerous — never apply to or diffuse near cats",
+    "Contact your vet immediately if your cat is exposed to birch oil or essential oil products"
+  ],
+  "toxicParts": [
+    "Root",
+    "Bark",
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Sore skin, redness, or chemical burns",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "notes": "This occurs from direct physical contact with the essential oil. The sources warn that even if there is no visible damage to the skin, you should not assume the cat is safe, as the oil can still be absorbed or ingested during grooming23. 2. Excessive Dribbling (Drooling)"
+    },
+    {
+      "name": "Excessive dribbling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "This is often an immediate reaction to tasting or swallowing the bitter, irritating oil, which can happen if a cat licks the oil off its fur or drinks from a reed diffuser23. 3. Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "Vomiting is a common sign of systemic toxicity or gastrointestinal irritation after the cat swallows the oil23. 4. Difficulty Breathing"
+    },
+    {
+      "name": "Difficulty breathing or open-mouth breathing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "notes": "While toxic effects from simply inhaling diluted oils are rare, the risk of respiratory distress increases significantly if the cat inhales nebulized or ultrasonically diffused neat (undiluted) essential oils, or if the cat has a pre-existing medical condition like asthma23. 5. Lethargy and Depressi"
+    },
+    {
+      "name": "Lethargy, depression, or dullness",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "This indicates a severe systemic reaction to the toxins in the bloodstream3. 6. Neurological Impairment (Ataxia, Tremors, and Seizures)"
+    },
+    {
+      "name": "Shaking, tremoring, \"walking as if they're drunk\" (ataxia), collapse, and seizures",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "notes": "Essential oils can severely impact the central nervous system. If the toxicity progresses to collapse or seizures, it is an extreme, life-threatening emergency3. 7. Liver Failure"
+    },
+    {
+      "name": "Liver failure (and serious organ damage)",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "notes": "Because cats lack the specific liver enzymes to process these compounds, the toxins build up and cause severe internal damage. In extreme cases, this leads to complete liver failure and death"
+    }
+  ],
+  "scientificName": "Betula lenta",
+  "family": "Betulaceae"
+}

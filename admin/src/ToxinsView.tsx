@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import type { Toxin } from './types'
 import ToxinEditor from './ToxinEditor'
+import TranslationEditor from './TranslationEditor'
 import { adminFetch } from './api'
 
 const SEVERITY_COLOR: Record<string, string> = {
@@ -102,15 +103,26 @@ export default function ToxinsView() {
         </div>
       </aside>
 
-      <main className="flex-1 overflow-y-auto">
-        {selected ? (
-          <ToxinEditor key={selected.id} toxin={selected} onUpdate={handleUpdate} />
-        ) : (
-          <div className="flex items-center justify-center h-full text-gray-400">
-            ← Select a toxin to edit
-          </div>
-        )}
-      </main>
+      {selected ? (
+        <>
+          <main className="flex-1 min-w-0 overflow-y-auto border-r border-gray-200">
+            <div className="px-6 pt-3 pb-1 text-[10px] font-semibold text-gray-400 uppercase tracking-widest border-b border-gray-100 sticky top-0 bg-white z-10">
+              English
+            </div>
+            <ToxinEditor key={selected.id} toxin={selected} onUpdate={handleUpdate} />
+          </main>
+          <section className="flex-1 min-w-0 overflow-y-auto">
+            <div className="px-6 pt-3 pb-1 text-[10px] font-semibold text-gray-400 uppercase tracking-widest border-b border-gray-100 sticky top-0 bg-white z-10">
+              繁體中文（zh-TW）
+            </div>
+            <TranslationEditor key={selected.id} toxin={selected} />
+          </section>
+        </>
+      ) : (
+        <main className="flex-1 flex items-center justify-center text-gray-400">
+          ← Select a toxin to edit
+        </main>
+      )}
     </div>
   )
 }

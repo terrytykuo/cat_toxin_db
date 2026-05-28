@@ -1,0 +1,19 @@
+{
+  "slug": "rosemary",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/rosemary/images/1773840028250.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/rosemary/images/1774784715669.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/rosemary/images/1774784721554.avif"
+  ],
+  "name": "Rosemary",
+  "aliases": [],
+  "description": "Rosemary is a woody, aromatic herb that is safe for cats. Its strong scent may actually deter cats from chewing on it. It's drought-tolerant and easy to grow indoors with proper sunlight.",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": [],
+  "scientificName": "Salvia rosmarinus",
+  "family": ""
+}

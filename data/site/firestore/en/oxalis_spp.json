@@ -1,0 +1,46 @@
+{
+  "slug": "oxalis_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/oxalis_spp/images/1772923913221.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/oxalis_spp/images/1772923931430.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/oxalis_spp/images/1772923970436.avif"
+  ],
+  "name": "Shamrock",
+  "aliases": [],
+  "description": "Shamrock plants (Oxalis spp.), commonly sold as ornamental houseplants and associated with St. Patrick's Day, are toxic to cats due to soluble oxalate compounds. These differ from the insoluble calcium oxalate crystals in Araceae plants — soluble oxalates are absorbed into the bloodstream, where they bind calcium and may affect the kidneys with chronic high-dose exposure.",
+  "safetyNotes": [
+    "Toxic compounds: soluble oxalate salts throughout the plant — leaves, stems, and bulbs",
+    "Mechanism: soluble oxalates bind free calcium in the blood (hypocalcaemia); chronic exposure causes kidney calcium oxalate crystal deposition",
+    "Symptoms: drooling, vomiting, diarrhea; large ingestion may cause tremors (from hypocalcaemia) or kidney issues",
+    "The small clover-like leaves are appealing to nibbling cats — keep out of reach",
+    "Occasional mild nibbling is usually self-limiting; contact your vet if large amounts were eaten"
+  ],
+  "toxicParts": [
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal distress (including drooling, vomiting, diarrhea, and inappetence/anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "This is the most common presentation when a cat only takes a small taste or nibble of the plant. More serious signs are not expected unless larger quantities are consumed3. 2. Hypocalcemic Tetany (Neurological/Muscular Signs)"
+    },
+    {
+      "name": "Hypocalcemic tetany (manifesting as lethargy, extreme weakness, ataxia/incoordination, tremors, and seizures)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "This occurs following a large ingestion. The soluble oxalates absorb from the gastrointestinal tract into the bloodstream, where they bind to the body's calcium. This causes a sudden, dangerous drop in systemic blood calcium levels (hypocalcemia), triggering these severe neurological and muscular sy"
+    },
+    {
+      "name": "Acute renal failure (manifesting as changes in thirst and urination, PU/PD [polyuria/polydipsia], bloody urine",
+      "body_system": "Renal",
+      "severity": "severe",
+      "notes": "While rarely seen, this occurs if the calcium oxalates precipitate (form crystals) within the kidneys, causing direct damage to the renal tubules"
+    }
+  ],
+  "scientificName": "Oxalis spp.",
+  "family": "Oxalidaceae"
+}

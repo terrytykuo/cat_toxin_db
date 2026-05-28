@@ -1,0 +1,63 @@
+{
+  "slug": "solanum_lycopersicum",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/solanum_lycopersicum.jpg"
+  ],
+  "name": "Tomato",
+  "aliases": [],
+  "description": "Ripe red tomato flesh (Solanum lycopersicum) is not significantly toxic to cats in small amounts, but the green parts of the tomato plant — leaves, stems, sprouts, and unripe green tomatoes — contain solanine and tomatine (glycoalkaloids). These decrease as the fruit ripens to red, which is why ripe tomato flesh carries minimal risk.",
+  "safetyNotes": [
+    "Avoid: all green plant parts — leaves, stems, vines, and unripe tomatoes contain solanine and tomatine",
+    "Ripe red flesh: safe in very small amounts; no nutritional benefit for cats and high acid content may cause mild upset",
+    "Symptoms if green parts ingested: drooling, vomiting, diarrhea, lethargy, weakness; severe cases cause bradycardia or CNS depression",
+    "Never feed tomato sauce, ketchup, or canned tomato products — typically contain garlic, onion, and salt",
+    "Contact your vet if your cat eats significant amounts of green tomato plant material"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Within a few hours of ingestion.",
+      "notes": "This is typically one of the first signs of oral and gastrointestinal irritation caused by the plant's glycoalkaloid toxins. 2. Vomiting and Diarrhea"
+    },
+    {
+      "name": "Vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within a few hours of ingestion.",
+      "notes": "Solanine and tomatine act as direct gastrointestinal irritants. If the vomiting or diarrhea is severe, it can lead to dehydration. 3. Lethargy and Weakness"
+    },
+    {
+      "name": "Lethargy, weakness, and confusion",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Progresses after gastrointestinal signs (usually within a few to several hours).",
+      "notes": "This is caused by the systemic absorption of solanine, which acts as a cholinesterase inhibitor and depresses the central nervous system. 4. Dilated Pupils (Mydriasis)"
+    },
+    {
+      "name": "Dilated pupils (mydriasis)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "A few hours after ingestion.",
+      "notes": "This is an additional neurological effect stemming from the disruption of the nervous system by the glycoalkaloid toxins. 5. Slowed Heart Rate (Bradycardia)"
+    },
+    {
+      "name": "Slowed heart rate (bradycardia)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Occurs after the systemic absorption of a large toxic dose.",
+      "notes": "Severe cardiovascular and neurological effects are rare in cats. Felines typically do not consume enough of the unpalatable green plant material to trigger life-threatening symptoms, but it remains a risk in cases of severe poisoning."
+    }
+  ],
+  "scientificName": "Solanum lycopersicum",
+  "family": "Solanaceae"
+}

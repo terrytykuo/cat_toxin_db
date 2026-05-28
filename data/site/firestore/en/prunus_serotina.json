@@ -1,0 +1,70 @@
+{
+  "slug": "prunus_serotina",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/prunus_serotina.jpg"
+  ],
+  "name": "Cherry / Black Cherry / Chokecherry",
+  "aliases": [],
+  "description": "Cherries — including sweet cherries (Prunus avium), black cherries (Prunus serotina), and chokecherries (Prunus virginiana) — present a split safety picture for cats. The ripe fruit flesh is not toxic and is safe in small amounts as an occasional treat. However, the pits, seeds, leaves, bark, and stems all contain amygdalin, a cyanogenic glycoside that is broken down by digestive enzymes into hydrogen cyanide (HCN). The mechanism is identical to apricot pits and apple seeds: cyanide binds to cytochrome c oxidase, halting cellular respiration.",
+  "safetyNotes": [
+    "Symptoms (if pits or leaves ingested): Vomiting, rapid or laboured breathing, lethargy, shock, seizures, and potentially fatal respiratory and cardiac failure.",
+    "Safe part: Ripe flesh only — remove the pit, stem, and any leaves entirely before offering as a treat.",
+    "Physical hazard: Pits are a choking risk and can cause intestinal obstruction if swallowed whole.",
+    "Action: Seek emergency veterinary care immediately if a cat has chewed on a pit, bark, or leaves."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Seed",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Tachypnea (rapid breathing), dyspnea (difficulty breathing), or panting",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "10–60 minutes (Symptoms develop very rapidly).",
+      "notes": "Because cyanide inhibits the body's ability to use oxygen at the cellular level, the cat will gasp for air or breathe rapidly in an attempt to compensate for tissue hypoxia.Brick Red Mucous Membranes"
+    },
+    {
+      "name": "Bright red gums (mucous membranes) and cherry-red blood coloring",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "10–60 minutes.",
+      "notes": "Unlike many conditions that cause pale or blue gums, cyanide poisoning causes the blood to be fully oxygenated (because cells cannot extract the oxygen), leading to a characteristic bright \"brick red\" color in the gums and tissues.Neurological Collapse"
+    },
+    {
+      "name": "Seizures, tremors, dilated pupils, incoordination, and sudden collapse",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "10–60 minutes.",
+      "notes": "As the brain is deprived of usable oxygen, the cat may exhibit severe neurological signs progressing rapidly to coma and death.Cardiac Abnormalities"
+    },
+    {
+      "name": "Arrhythmias (irregular heartbeat) and hypotension (low blood pressure)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "10–60 minutes.",
+      "notes": "Cyanide toxicity can cause rapid shock and cardiac failure.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting, diarrhea, and salivation",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "10–60 minutes (often the first sign before progression).",
+      "notes": "You may also detect an \"almond-flavored\" odor on the cat's breath. Gastrointestinal signs can also be caused by the physical irritation of the plant material.Death"
+    },
+    {
+      "name": "Sudden death",
+      "body_system": "Metabolic",
+      "severity": "fatal",
+      "onset": "Rapid (often occurs before treatment can begin).",
+      "notes": "Due to the potency of cyanide and the speed of onset, death can occur quickly if the animal consumes a toxic dose of seeds or wilted leaves."
+    }
+  ],
+  "scientificName": "Prunus serotina",
+  "family": "Rosaceae"
+}

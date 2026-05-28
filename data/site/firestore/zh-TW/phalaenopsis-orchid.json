@@ -1,0 +1,16 @@
+{
+  "slug": "phalaenopsis-orchid",
+  "source_hash": "336850d6c88e1237612609071b2cd8f033fa221d758990d390382d4f78a1f947",
+  "translated_at": "2026-05-21T10:36:13Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "蝴蝶蘭 (Phalaenopsis Orchid)",
+  "aliases": [
+    "蝴蝶蘭"
+  ],
+  "description": "蝴蝶蘭 (Phalaenopsis) 是最受歡迎的蘭花之一，對貓完全安全。它們優雅且花期持久，是家中既美觀又無需擔心的裝飾。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

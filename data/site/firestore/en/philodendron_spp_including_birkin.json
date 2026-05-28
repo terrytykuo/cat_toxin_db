@@ -1,0 +1,60 @@
+{
+  "slug": "philodendron_spp_including_birkin",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/philodendron_spp_including_birkin.jpg"
+  ],
+  "name": "Philodendron",
+  "aliases": [],
+  "description": "Philodendron (Philodendron spp.), including popular varieties such as Philodendron Birkin, Heartleaf Philodendron, and Tree Philodendron, are widely kept houseplants toxic to cats. All Philodendron species contain insoluble calcium oxalate crystals (raphides) throughout their leaves and stems. Chewing releases these needle-like crystals into the oral tissue, causing immediate intense pain.",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides plus proteolytic enzymes in the sap",
+    "Mechanism: raphides mechanically penetrate the oral and GI mucosa; enzymes intensify the inflammatory response",
+    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, swollen lips and tongue, difficulty swallowing, vomiting",
+    "All species and hybrids are equally hazardous — variegated varieties are no safer than plain green types",
+    "Rinse the mouth with water; seek veterinary care if throat swelling impairs breathing"
+  ],
+  "toxicParts": [
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Immediate oral pain, intense burning sensation, erythema",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate",
+      "notes": "This is caused by the mechanical action of chewing the plant, which ruptures specialized cells and forcefully ejects needle-like insoluble calcium oxalate crystals (raphides) into the cat's tissues. The immediate and intense pain often limits the amount of the plant the cat is willing to consume37."
+    },
+    {
+      "name": "Excessive drooling (hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate",
+      "notes": "This is a direct physiological response to the sharp calcium oxalate crystals piercing and irritating the mucous membranes of the mouth and throat17. 3. Gastrointestinal Distress and Anorexia"
+    },
+    {
+      "name": "Vomiting, diarrhea, difficulty swallowing (dysphagia), and loss of appetite (anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion.",
+      "notes": "The reluctance to eat and difficulty swallowing are primarily secondary to the extreme discomfort, pain, and swelling in the gastrointestinal tract rather than systemic nausea1.... 4. Airway Swelling and Respiratory Distress"
+    },
+    {
+      "name": "Edema (swelling) of the mouth, tongue, pharynx, and upper airways, leading to difficulty breathing (dyspnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapidly following ingestion",
+      "notes": "While Philodendron ingestion is rarely fatal, a severe inflammatory response to the crystals can cause the tissues in the throat to swell significantly. This carries the dangerous potential to obstruct the cat's airway, which is a medical emergency requiring the vet to secure an airway and provide o"
+    },
+    {
+      "name": "Renal failure, lethargy, excitability, nervous spasms, convulsions, and encephalitis",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "While insoluble calcium oxalates usually cause localized physical irritation, ingestion of Philodendron has occasionally been reported to cause these rare but severe systemic issues in cats, including kidney failure and brain inflammation (encephalitis)"
+    }
+  ],
+  "scientificName": "Philodendron spp., including 'Birkin'",
+  "family": "Araceae"
+}

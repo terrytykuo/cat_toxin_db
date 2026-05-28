@@ -1,0 +1,65 @@
+{
+  "slug": "salt",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/salt/images/1772922251576.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/salt/images/1772922263236.avif"
+  ],
+  "name": "Salt",
+  "aliases": [],
+  "description": "Salt (sodium chloride) is toxic to cats at elevated doses. Cats have a very low sodium tolerance compared to humans, and their kidneys are highly efficient at regulating sodium under normal dietary conditions. Excessive sodium intake overwhelms this system, causing severe neurological and cardiovascular effects.",
+  "safetyNotes": [
+    "Toxic dose: approximately 4g/kg body weight is lethal; smaller amounts cause significant symptoms; even salty snacks fed regularly cause cumulative harm",
+    "Mechanism: high serum sodium causes cell dehydration and cerebral oedema; severe disruption of neurological and cardiac function",
+    "Symptoms: excessive thirst, frequent urination, vomiting, diarrhea, weakness, tremors, seizures; severe cases cause kidney failure and death",
+    "Salty human foods (chips, cured meats, soy sauce) are the most common accidental exposure route",
+    "If your cat ingests a large amount of salt or salty food, contact your vet immediately"
+  ],
+  "toxicParts": [],
+  "symptoms": [
+    {
+      "name": "If a cat ingests or is exposed to excessive amounts of salt without adequate access to fresh water",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Severe Gastrointestinal Upset",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within minutes to a few hours of ingestion",
+      "notes": "The influx of excessive salt causes direct osmotic irritation and inflammation of the gastrointestinal mucosa, triggering vomiting and diarrhea"
+    },
+    {
+      "name": "Excessive Thirst and Urination",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "onset": "Within minutes",
+      "notes": "The extreme thirst is the cat's biological attempt to restore osmotic balance4. The excess sodium circulating in the blood draws fluid out of the body's cells, leading to severe cellular dehydration, which the body frantically tries to correct by seeking water"
+    },
+    {
+      "name": "Neurological Deficits and Brain Damage",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Progressive (develops within minutes to hours as the sodium alters cell osmolarity)",
+      "notes": "The brain is uniquely vulnerable to rapid hypernatremia. As the sodium pulls water out of the brain's cells, it causes cerebral dehydration and physical cell shrinkage89. As the brain mass shrinks, it can pull away from the skull, potentially tearing delicate meningeal blood vessels and causing fata"
+    },
+    {
+      "name": "Cardiovascular and Respiratory Distress",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Within minutes to hours",
+      "notes": "These symptoms are often accompanied by an elevated body temperature and are secondary to the massive fluid shifts, electrolyte derangements, and systemic shock the body is experiencing"
+    },
+    {
+      "name": "Acute Kidney Failure",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "Progressive (hours to days as the toxicosis advances)",
+      "notes": "The severe, rapid systemic dehydration caused by the sodium drawing fluid out of the cells can overwhelm and destroy the kidneys, leading to acute kidney failure and death"
+    }
+  ],
+  "scientificName": "Salt",
+  "family": "Various"
+}

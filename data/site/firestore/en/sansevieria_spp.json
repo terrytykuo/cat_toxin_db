@@ -1,0 +1,39 @@
+{
+  "slug": "sansevieria_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sansevieria_spp.jpg"
+  ],
+  "name": "Snake Plant / Mother-in-Law’s Tongue",
+  "aliases": [],
+  "description": "Snake Plant (Sansevieria spp., reclassified as Dracaena trifasciata), also known as Mother-in-Law’s Tongue, is a popular low-maintenance houseplant that is mildly toxic to cats. Like other Dracaena species, it contains steroidal saponins throughout its leaves that cause gastrointestinal upset when ingested.",
+  "safetyNotes": [
+    "Toxic compounds: steroidal saponins throughout the leaves",
+    "Mechanism: saponins disrupt cell membrane integrity and irritate the GI mucosa; cats may show the characteristic dilated pupils (mydriasis) seen with Dracaena saponin exposure",
+    "Symptoms: vomiting (sometimes blood-tinged), drooling, loss of appetite, lethargy, dilated pupils",
+    "The plant is low-growing and often accessible to cats on the floor — consider relocating to higher shelves",
+    "Symptoms are usually mild and self-limiting; consult your vet if vomiting is severe or pupils remain dilated"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Nausea, vomiting, diarrhea, and excessive salivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "These signs are the primary reaction to the irritating saponins and organic acids in the plant2. You can offer the cat water, monitor their condition, and ensure they cannot eat any more of the plant1. You should contact a veterinarian if the vomiting becomes severe or persistent1. 2. Hemolysis"
+    },
+    {
+      "name": "Hemolysis (the rupture or destruction of red blood cells)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "This blood-related symptom is directly related to the gastrointestinal activity of the hemolytic saponins found in the leaves and flowers of the plant"
+    }
+  ],
+  "scientificName": "Sansevieria spp.",
+  "family": "Agavaceae"
+}

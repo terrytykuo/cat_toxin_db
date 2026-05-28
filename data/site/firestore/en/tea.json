@@ -1,0 +1,70 @@
+{
+  "slug": "tea",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/tea/images/1772922528139.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/tea/images/1772922533591.avif"
+  ],
+  "name": "Tea",
+  "aliases": [],
+  "description": "Tea (Camellia sinensis) — including black, green, white, and oolong teas — contains methylxanthines: caffeine and theophylline. Cats are significantly more sensitive to methylxanthines than humans, and even small amounts of strong tea can cause neurological and cardiac stimulation. Theophylline is particularly notable as it has a narrow margin between therapeutic and toxic doses.",
+  "safetyNotes": [
+    "Toxic compounds: caffeine and theophylline (methylxanthines); concentration varies by tea type — black tea > green tea > white tea",
+    "Mechanism: methylxanthines antagonise adenosine receptors and inhibit phosphodiesterase, causing stimulation of the CNS and heart",
+    "Symptoms: restlessness, rapid breathing, elevated heart rate (tachycardia), vomiting, tremors, seizures; severe cases cause cardiac arrhythmias",
+    "Used tea bags still contain significant caffeine — keep used and fresh tea bags away from cats",
+    "Herbal teas (chamomile, mint) have separate toxicity concerns; do not assume any tea is safe"
+  ],
+  "toxicParts": [
+    "Powder",
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal Upset (Vomiting and Diarrhea)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "2 to 12 hours (often within 2 to 4 hours as the initial sign of toxicity)",
+      "notes": "These are typically the very first symptoms to manifest after a cat ingests tea (which contains the methylxanthines caffeine and theobromine)1. Early vomiting can actually be beneficial, as it helps remove some of the unabsorbed toxic caffeine from the cat's body"
+    },
+    {
+      "name": "Increased Thirst and Urination",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "onset": "2 to 12 hours (often follows initial gastrointestinal signs)",
+      "notes": "The caffeine and theobromine in tea act as diuretics, increasing fluid loss and causing the cat to pass large amounts of urine12. This drives excessive thirst and can quickly lead to dehydration"
+    },
+    {
+      "name": "Severe Neurological Overstimulation",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "2 to 12 hours (progressing as the toxins are fully absorbed)",
+      "notes": "Methylxanthines block cellular adenosine receptors, leading to severe central nervous system overstimulation56. The cat will become extremely agitated and excited, which can rapidly progress to lack of coordination, severe muscle tremors, grand mal seizures, and potentially a coma"
+    },
+    {
+      "name": "Cardiovascular Dysfunction",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "2 to 12 hours",
+      "notes": "The stimulants in tea increase intracellular calcium levels, which abnormally enhances the strength and frequency of cardiac muscle contractions56. This results in very rapid, irregular heartbeats, high blood pressure, and ultimately cardiac arrest or a heart attack in the terminal phase"
+    },
+    {
+      "name": "Respiratory Distress",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "6 to 12 hours (often in the mid to terminal phases)",
+      "notes": "As the cat's cardiovascular and central nervous systems become overwhelmed, it will pant and breathe very rapidly2.... In severe poisonings, this progresses to a bluish tinge of the mucous membranes due to poor oxygenation, culminating in complete respiratory failure"
+    },
+    {
+      "name": "Hyperthermia",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "6 to 12 hours",
+      "notes": "The extreme overstimulation of the nervous system, combined with continuous hyperactivity and severe muscle tremors, generates excessive internal heat, causing the cat's core body temperature to spike to dangerous levels"
+    }
+  ],
+  "scientificName": "Tea",
+  "family": "Various"
+}

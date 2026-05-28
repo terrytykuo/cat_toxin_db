@@ -1,0 +1,66 @@
+{
+  "slug": "alcohol",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/alcohol.jpg"
+  ],
+  "name": "Alcohol",
+  "aliases": [],
+  "description": "Alcohol (ethanol) is highly toxic to cats, far more so than to humans, because cats lack robust alcohol dehydrogenase enzyme activity in the liver — meaning they cannot metabolise ethanol efficiently. Even tiny amounts are dangerous. Ethanol is absorbed rapidly through the gastrointestinal tract, crosses the blood-brain barrier acting as a severe CNS depressant, causes acute liver injury, triggers metabolic acidosis, and leads to dangerous heat loss through vasodilation. Symptoms typically appear within 30 to 60 minutes of ingestion. Beyond alcoholic beverages, hidden sources include raw yeast dough (which ferments in the stomach), rotting fruit, and certain mouthwashes or hand sanitisers (which may contain methanol or isopropanol, both even more toxic than ethanol).",
+  "safetyNotes": [
+    "Symptoms: Disorientation, loss of coordination (ataxia), lethargy, muscle tremors, vomiting, diarrhea, abnormally low body temperature (hypothermia), and metabolic acidosis; severe cases progress to respiratory depression, seizures, coma, and death.",
+    "Tiny amounts matter: As little as one teaspoon of alcohol can put a cat into a coma and cause severe liver or brain damage.",
+    "Hidden sources: Raw bread/pizza dough, rotting fruit, mouthwash, and some cleaning products — not just alcoholic drinks."
+  ],
+  "toxicParts": [
+    "Whole"
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal Upset",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within 30 to 60 minutes",
+      "notes": "Alcohol directly irritates the gastrointestinal tract34. If the source of the alcohol is raw yeast dough, the cat may also suffer from severe gastric distension (bloating) and abdominal pain as the fermenting yeast produces carbon dioxide gas in the warm environment of the stomach"
+    },
+    {
+      "name": "Neurological Impairment",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Within 30 to 60 minutes",
+      "notes": "Ethanol is rapidly absorbed into the bloodstream and easily crosses the blood-brain barrier1. Because cats lack robust alcohol dehydrogenase enzyme activity to metabolize the chemical efficiently, this leads to profound CNS depression, resulting in \"drunk-like\" stumbling, extreme tiredness, tremors,"
+    },
+    {
+      "name": "Hypothermia",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Within 30 to 60 minutes",
+      "notes": "Alcohol induces peripheral vasodilation, which widens the blood vessels near the surface of the skin1. This causes the cat's body to rapidly lose heat, dropping its core temperature to dangerous levels"
+    },
+    {
+      "name": "Metabolic Acidosis",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Within 1 hour (progressing as the alcohol is metabolized)",
+      "notes": "The liver's attempt to process the ethanol produces acetic acid1. This, combined with an accumulation of lactic acid due to poor systemic perfusion, dangerously lowers the pH of the cat's blood"
+    },
+    {
+      "name": "Respiratory Depression",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Within 1 hour to progressive stages",
+      "notes": "As CNS depression worsens, the cat's normal respiratory drive is suppressed1. This leads to shallow, labored breathing that can culminate in complete respiratory failure and death"
+    },
+    {
+      "name": "Acute Organ Damage",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Progressive (can occur rapidly after absorption)",
+      "notes": "Because a cat's liver cannot efficiently clear alcohol, just a tiny amount—as little as a single teaspoon or tablespoon—can quickly overwhelm the liver and brain, leading to irreversible organ failure and death"
+    }
+  ],
+  "scientificName": "Alcohol",
+  "family": "Various"
+}

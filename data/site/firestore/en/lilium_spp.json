@@ -1,0 +1,57 @@
+{
+  "slug": "lilium_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/lilium_spp.jpg"
+  ],
+  "name": "Lilies",
+  "aliases": [],
+  "description": "True lilies (Lilium spp.), including Easter Lily, Tiger Lily, Stargazer Lily, Asiatic Lily, and others in the Lilium genus, are among the most lethal plants for cats. Virtually every part — petals, leaves, stems, pollen, and even vase water — is highly nephrotoxic. The specific toxic compound has not been identified, but its effect is swift and devastating: acute kidney failure with high mortality if untreated.",
+  "safetyNotes": [
+    "Toxic compounds: unknown nephrotoxic substance specific to Lilium (and Hemerocallis/Daylily); toxic to cats but not dogs or humans",
+    "Mechanism: acute tubular necrosis — rapid, irreversible destruction of kidney tissue within 24–72 hours",
+    "Symptoms Phase 1 (0–2h): vomiting, lethargy, drooling; Phase 2 (24–72h): kidney failure with decreased/absent urination, dehydration, seizures, coma",
+    "Even licking pollen off fur or drinking vase water can cause fatal poisoning",
+    "True lily exposure is a veterinary emergency — early IV fluid therapy significantly improves survival; do not wait for symptoms to develop"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Entire Plant",
+    "Flower",
+    "Pollen"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Drooling (Salivation), Abdominal Pain, and Inappetence (Anorexia or Loss of Appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid; typically within 1 to 4 hours of ingestion",
+      "notes": "These are usually the first warning signs to appear3. The initial vomiting may temporarily cease after a few hours, but it will frequently return as the pet becomes dehydrated and renal failure begins to set in24. 2. Generalized Lethargy and Weakness"
+    },
+    {
+      "name": "Lethargy, Depression, Generalized Weakness, and Recumbency (inability to rise)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Initial lethargy and depression appear within a few hours (1 to 12 hours)35.",
+      "notes": "A cat will quickly stop eating and appear noticeably sluggish5. As the condition worsens, the cat will become progressively weaker leading up to death2. 3. Acute Kidney Failure"
+    },
+    {
+      "name": "Acute Kidney Failure (characterized by Increased Thirst, Dehydration, Polyuria, and Anuria)",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "Delayed; kidney failure typically occurs within 36 to 72 hours (1 to 3 days)",
+      "notes": "The toxin causes acute tubular necrosis in the kidneys6. Between 12 and 30 hours, the cat may exhibit increased thirst and excessive urination (polyuria)12. As the kidneys fail, this progresses to a complete cessation of urine production (anuria)24. Bloodwork will show toxic indications through elev"
+    },
+    {
+      "name": "Seizures / Tremors",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Delayed; typically occurs in the late stages of toxicity as kidney failure progresses",
+      "notes": "While generally considered an uncommon sign of lily toxicity, seizures can occur in very severe cases as a secondary complication2. They are triggered by substantial uremia, which is the dangerous buildup of waste products in the blood due to the kidneys shutting down"
+    }
+  ],
+  "scientificName": "Lilium spp.",
+  "family": "Liliaceae"
+}

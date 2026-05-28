@@ -1,0 +1,45 @@
+{
+  "slug": "euphorbia_pulcherrima",
+  "source_hash": "d1e32af3c9158a4688dacb7973769f78372f8067e5fb775e2374ea06eb36dae6",
+  "translated_at": "2026-05-21T10:36:13Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "聖誕紅 (Poinsettia)",
+  "aliases": [],
+  "description": "聖誕紅 (Euphorbia pulcherrima) 有著劇毒植物的名聲，但實際上對貓來說它是較輕微的節日植物危險之一。它含有乳白色的乳膠汁液，內含刺激性的二萜大戟醇酯 (Diterpenoid euphorbol esters)，會對口腔、皮膚 and 胃腸道造成局部刺激。嚴重中毒需要攝入極大量，由於味道不佳，這不太可能發生。",
+  "safetyNotes": [
+    "有毒化合物：乳白色乳膠汁液中的二萜大戟醇酯；葉子和莖最為刺激",
+    "機制：乳膠引起直接的黏膜刺激；接觸皮膚或眼睛會引起局部發炎",
+    "症狀：流口水、嘔吐、腹瀉（通常輕微且具自限性）；眼睛或皮膚接觸可能引起紅腫和刺激",
+    "毒性被誇大了——聖誕紅是輕微刺激性的，而非劇毒；大多數貓不會吃超過一片葉子",
+    "觀察症狀，如果嘔吐持續或您的貓攝入大量，請聯絡您的獸醫"
+  ],
+  "toxicParts": [
+    "汁液",
+    "葉",
+    "整株植物"
+  ],
+  "symptoms": [
+    {
+      "name": "口腔刺激、過度流口水（流涎）以及口腔和食道不適",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "嘔吐、腹瀉和噁心",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "食慾不振 (Anorexia)",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "精神萎靡",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "心臟問題",
+      "body_system": "心臟"
+    }
+  ]
+}

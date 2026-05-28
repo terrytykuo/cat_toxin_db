@@ -1,0 +1,68 @@
+{
+  "slug": "peanuts",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/peanuts/images/1773007896361.jpg"
+  ],
+  "name": "Peanuts",
+  "aliases": [],
+  "description": "Plain, unsalted peanuts are not toxic to cats, but they are an inappropriate snack for several reasons. Peanuts are very high in fat, which can trigger pancreatitis with regular feeding. They also carry a risk of aflatoxin contamination (a toxic mould byproduct) and offer no nutritional benefit to obligate carnivores.",
+  "safetyNotes": [
+    "Not acutely toxic: plain peanuts do not contain cat-specific toxins",
+    "Fat risk: very high fat content; regular feeding can cause pancreatitis (painful, potentially fatal pancreatic inflammation)",
+    "Aflatoxin risk: mouldy or improperly stored peanuts may contain aflatoxins, which cause liver damage",
+    "Salted, flavoured, or roasted peanuts: high sodium and artificial seasonings are harmful to cats",
+    "Peanut butter: most brands contain xylitol or excessive salt — check labels; a tiny taste of plain peanut butter is unlikely to cause harm"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Root",
+    "Skin"
+  ],
+  "symptoms": [
+    {
+      "name": "While plain, raw peanuts do not contain a specific inherent chemical poison",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Aflatoxicosis (From Moldy Peanuts)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Acute (shortly after a large dose) or chronic (developing progressively over time with low-dose expo",
+      "notes": "Peanuts are susceptible to growing Aspergillus fungi, which produce toxic aflatoxins1. Ingestion of these moldy peanuts results in severe liver damage and the rupturing of blood vessels"
+    },
+    {
+      "name": "Hypoglycemia and Liver Failure (From Xylitol in Peanut Butter)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "15 to 30 minutes for hypoglycemia (or delayed up to 12 hours depending on the product);",
+      "notes": "Many peanut butters are sweetened with xylitol, an artificial sweetener that tricks the body into releasing a massive amount of insulin37. While clinical data suggests cats are more resistant to xylitol than dogs, it can still cause a rapid drop in blood sugar and potentially fatal liver damage, req"
+    },
+    {
+      "name": "Sodium Ion Poisoning (From Salted Peanuts)",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Within minutes to hours of ingestion",
+      "notes": "Human peanut snacks are frequently heavily seasoned with salt, which unnecessarily increases the metabolic burden on a cat's kidneys4. An overdose of sodium draws fluid out of the body's cells, resulting in severe dehydration, electrolyte derangement, and potentially fatal kidney failure or cerebral"
+    },
+    {
+      "name": "Indigestion and Pancreatitis (From High Fat Content)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within a few hours (for standard indigestion) or progressively over days (for pancreatitis)",
+      "notes": "Peanuts are rich in oils and have a hard physical texture that easily leads to indigestion and diarrhea in cats4. Furthermore, consuming high-fat foods can trigger pancreatitis, a painful and potentially life-threatening inflammation of the pancreas"
+    },
+    {
+      "name": "Severe Allergic Reaction",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Immediate to a few hours.",
+      "notes": "Peanuts have been specifically noted as a food item capable of triggering a deadly allergic reaction in pets"
+    }
+  ],
+  "scientificName": "Peanuts",
+  "family": "Various"
+}

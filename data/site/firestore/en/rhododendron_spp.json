@@ -1,0 +1,63 @@
+{
+  "slug": "rhododendron_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/rhododendron_spp.jpg"
+  ],
+  "name": "Azalea",
+  "aliases": [],
+  "description": "Azaleas (Rhododendron spp.) are highly toxic to cats, and even small amounts can cause life-threatening illness. They contain grayanotoxins (also called andromedotoxins), which bind to and lock open voltage-gated sodium channels in nerve and muscle cell membranes. This disrupts the normal electrical signalling that the heart, muscles, and nervous system depend on, resulting in widespread cardiovascular and neurological dysfunction.",
+  "safetyNotes": [
+    "Symptoms: Profuse drooling, vomiting, diarrhea, ataxia (stumbling), muscle weakness, abnormal heart rhythm, and dangerously low blood pressure; severe cases progress to seizures, coma, and death.",
+    "All parts are toxic: Leaves, flowers, nectar, and pollen all contain grayanotoxins — even water from a vase containing azalea cuttings poses a risk.",
+    "Dose matters urgently: Ingestion of as little as 0.2% of a cat's body weight in leaves can trigger toxicity. Seek emergency veterinary care immediately."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Pollen",
+    "Leaf",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Hypersalivation (Drooling), and Anorexia (Refusal to eat)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within 1–4 hours of ingestion; occasionally up to 12 hours.",
+      "notes": "Drooling and abdominal pain are common early indicators. Even small ingestions (a few leaves) can trigger these symptoms.Cardiovascular Abnormalities"
+    },
+    {
+      "name": "Arrhythmias (irregular heart rate), Bradycardia (slow heart rate), and Hypotension (low blood pressure)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Acute (following gastrointestinal signs).",
+      "notes": "The toxins modify sodium channels, leading to prolonged depolarization. Severe cases can progress to cardiovascular collapse.Neurological Dysfunction"
+    },
+    {
+      "name": "Weakness, Tremors, Seizures, Depression, and Ataxia (loss of coordination)",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Within hours.",
+      "notes": "Central nervous system (CNS) depression can be profound, potentially leading to paralysis or coma in severe toxicosis.Transient Blindness"
+    },
+    {
+      "name": "Transient Blindness (Temporary loss of vision) or Blurred Vision",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "This is a specific, documented symptom of grayanotoxin poisoning, though less common than GI signs.Respiratory Distress"
+    },
+    {
+      "name": "Dyspnea (Trouble breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Acute.",
+      "notes": "Difficulty breathing may accompany other systemic signs like weakness and cardiovascular shock."
+    }
+  ],
+  "scientificName": "Rhododendron spp.",
+  "family": "Ericaceae"
+}

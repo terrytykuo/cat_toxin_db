@@ -1,0 +1,22 @@
+{
+  "slug": "thyme",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/thyme/images/1773840009265.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/thyme/images/1774784779682.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/thyme/images/1774784785989.avif"
+  ],
+  "name": "Thyme",
+  "aliases": [
+    "Common Thyme",
+    "Garden Thyme"
+  ],
+  "description": "Thyme is a low-growing, aromatic herb that is non-toxic to cats. It's hardy, easy to grow, and adds wonderful flavor to your cooking — all while being completely safe if your cat decides to investigate.",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": [],
+  "scientificName": "Thymus vulgaris",
+  "family": ""
+}

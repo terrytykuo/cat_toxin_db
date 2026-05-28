@@ -1,0 +1,50 @@
+{
+  "slug": "narcissus_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/narcissus_spp.jpg"
+  ],
+  "name": "Daffodil",
+  "aliases": [],
+  "description": "Daffodil (Narcissus spp.) is a bulbous spring-flowering plant toxic to cats throughout all its parts, with the bulb carrying the highest concentration of toxins. It contains lycorine, an alkaloid that directly triggers the vomiting reflex in the brainstem, and calcium oxalate crystals that cause additional mucosal irritation on contact.",
+  "safetyNotes": [
+    "Toxic compounds: lycorine (primary alkaloid), galantamine, calcium oxalate crystals; bulbs most concentrated",
+    "Mechanism: lycorine activates the emetic centre in the brainstem; oxalates cause direct tissue irritation",
+    "Symptoms: profuse vomiting, diarrhea, abdominal pain, excessive drooling, tremors; severe cases may include low blood pressure, cardiac arrhythmia, or convulsions",
+    "All parts are toxic — flowers, leaves, stems, and especially bulbs; bulb ingestion carries greatest risk",
+    "Wash hands after handling bulbs and keep cats away from areas where daffodils are planted or stored"
+  ],
+  "toxicParts": [
+    "Bulb",
+    "Leaf",
+    "Flower",
+    "Stem"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid",
+      "notes": "Often profuse due to potent emetic effect."
+    },
+    {
+      "name": "Cardiac Arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Delayed",
+      "notes": "Irregular heartbeat and hypotension; requires monitoring."
+    },
+    {
+      "name": "Respiratory Depression",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Delayed",
+      "notes": "Can occur with massive ingestions (bulbs)."
+    }
+  ],
+  "scientificName": "Narcissus spp.",
+  "family": "Amaryllidaceae"
+}

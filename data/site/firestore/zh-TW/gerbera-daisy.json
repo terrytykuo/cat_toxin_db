@@ -1,0 +1,19 @@
+{
+  "slug": "gerbera-daisy",
+  "source_hash": "0203d0ba86825f1428febbd26c961b0b357c1beeff10cd37d8fba20ff8dd06f4",
+  "translated_at": "2026-05-21T10:29:32Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "非洲菊 (Gerbera Daisy)",
+  "aliases": [
+    "大丁草",
+    "非洲菊"
+  ],
+  "description": "非洲菊對貓是安全的，且擁有充滿活力的霓虹色彩。與許多其他有毒的「雛菊」（如菊花或洋甘菊）不同，非洲菊是令人愉悅且寵物友好的選擇。",
+  "safetyNotes": [
+    "⚠️ 注意：許多其他「雛菊」（菊花、洋甘菊）對貓是有毒的。請確保您購買的是真正的非洲菊。"
+  ],
+  "toxicParts": [],
+  "symptoms": []
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "garlic",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/garlic/images/1773007524477.jpg"
+  ],
+  "name": "Garlic",
+  "aliases": [],
+  "description": "Garlic (Allium sativum) is one of the most toxic foods for cats, significantly more dangerous than onion — roughly 3 to 5 times more potent by weight. It contains organosulfur compounds including N-propyl disulfide and allicin derivatives that cats cannot safely metabolise. These compounds oxidise haemoglobin inside red blood cells, forming Heinz bodies and triggering haemolytic anaemia.",
+  "safetyNotes": [
+    "Toxic compounds: N-propyl disulfide, allicin, and allyl disulfides; all forms are dangerous — raw, cooked, dried, or powdered",
+    "Mechanism: oxidative damage to haemoglobin creates Heinz bodies; the spleen destroys affected RBCs faster than they can be replaced, causing haemolytic anaemia",
+    "Symptoms: lethargy, weakness, pale or yellowish gums, rapid breathing, reduced appetite, reddish-brown urine; onset is often delayed 3–5 days after ingestion",
+    "Garlic powder is especially dangerous — concentrated and easily hidden in human food",
+    "Never share garlic bread, sauces, broth, or any seasoned food with cats; contact your vet immediately if ingestion is suspected"
+  ],
+  "toxicParts": [
+    "Whole"
+  ],
+  "symptoms": [
+    {
+      "name": "Because garlic is a member of the Allium family and contains potent organosulfur compounds, it causes symptoms very similar to onion toxicosis",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Vomiting, Diarrhea, Abdominal Pain, and Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Often within 24 hours, though it can be delayed 2 to 4 days",
+      "notes": "These are typically the first signs of toxicosis to appear2. Unaged garlic preparations contain specific compounds that can cause direct, painful damage to the gastric and ileal mucosa, resulting in severe abdominal pain and diarrhea45. The toxins can also cause direct irritation to the mouth, leadi"
+    },
+    {
+      "name": "Lethargy, Weakness, and Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "After a lag of several days (typically 2 to 4 days)",
+      "notes": "These symptoms emerge as a secondary response to systemic hypoxia caused by the profound destruction of oxygen-carrying red blood cells (hemolytic anemia)"
+    },
+    {
+      "name": "Pale Mucous Membranes and Jaundice (Icterus)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "After a lag of several days",
+      "notes": "Pale gums indicate a lack of oxygenated blood (anemia), while jaundice (yellowing of the skin/mucosa) indicates severe red blood cell destruction leading to an excess of bilirubin in the blood (hyperbilirubinemia)"
+    },
+    {
+      "name": "Tachypnea and Dyspnea (Breathing Difficulties)",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "After a lag of several days",
+      "notes": "This is a compensatory response to the decreased blood oxygen transportation capacity and resulting tissue hypoxia"
+    },
+    {
+      "name": "Tachycardia and Hypotension (Cardiovascular Distress)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Several days after ingestion",
+      "notes": "Tachycardia develops as the heart pumps faster to compensate for impaired oxygen transportation6. Furthermore, garlic contains pharmacologically active agents (allicin and ajoene) that act as potent cardiac and smooth muscle relaxants, vasodilators, and hypotensive agents4. These hypotensive propert"
+    },
+    {
+      "name": "Hemoglobinuria (Dark Urine)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "After a lag of several days",
+      "notes": "This is a hallmark sign of severe oxidative hemolysis, where damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract"
+    },
+    {
+      "name": "Cold Sensitivity",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Several days after ingestion",
+      "notes": "Affected cats may have difficulty regulating their body temperature due to the systemic effects of the anemia and hypoxia"
+    },
+    {
+      "name": "Garlic Breath",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion",
+      "notes": "While not dangerous itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians"
+    }
+  ],
+  "scientificName": "Garlic",
+  "family": "Allioideae"
+}

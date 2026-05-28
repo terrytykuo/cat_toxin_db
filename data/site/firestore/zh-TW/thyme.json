@@ -1,0 +1,17 @@
+{
+  "slug": "thyme",
+  "source_hash": "04abd1c019ed2850643bb6d3aef9aadc50d82ef5bbf588a1f6e7afdabcd0dd59",
+  "translated_at": "2026-05-21T10:40:43Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "百里香",
+  "aliases": [
+    "普通百里香",
+    "花園百里香"
+  ],
+  "description": "百里香是一種低矮且具有香氣的草本植物，對貓咪無毒。它耐寒、易於生長，並能為料理增添極佳風味，即使您的貓咪決定去探索它，也完全安全。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

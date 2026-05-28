@@ -1,0 +1,69 @@
+{
+  "slug": "coffee",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/coffee.jpg"
+  ],
+  "name": "Coffee",
+  "aliases": [],
+  "description": "Coffee contains caffeine, a methylxanthine stimulant that is highly toxic to cats. Cats metabolise caffeine far more slowly than humans, making even small exposures dangerous. Caffeine works by blocking adenosine receptors in the brain and heart — receptors that normally slow neural activity and heart rate — causing uncontrolled CNS stimulation and rapid, potentially arrhythmic heart contractions. All coffee products are hazardous: brewed coffee, espresso, coffee grounds, instant coffee powder, and coffee-flavoured products all contain significant caffeine levels.",
+  "safetyNotes": [
+    "Symptoms: Vomiting and restlessness initially; rapidly progressing to rapid heart rate, hypertension, muscle tremors, hyperthermia, and in severe cases seizures and cardiac arrhythmia.",
+    "Coffee grounds are particularly dangerous: Dry grounds are highly concentrated and appealing to cats that investigate compost or kitchen waste.",
+    "Onset is fast: Symptoms can begin within 30–60 minutes of ingestion.",
+    "Action: Seek veterinary care immediately for any coffee ingestion — even a few licks of strong coffee warrants a call to a vet."
+  ],
+  "toxicParts": [
+    "Entire food",
+    "Stem",
+    "Powder"
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal Upset",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "2 to 4 hours",
+      "notes": "These are typically the initial clinical signs of caffeine (methylxanthine) poisoning1. While gastrointestinal distress is uncomfortable, early vomiting can actually be beneficial as it helps remove some of the unabsorbed, toxic caffeine from the cat's body before it enters the bloodstream"
+    },
+    {
+      "name": "Increased Thirst and Urination",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "onset": "2 to 4 hours (often following the initial gastrointestinal signs)",
+      "notes": "Caffeine acts as a diuretic, increasing fluid loss and causing the cat to pass large amounts of urine, which drives excessive thirst and can rapidly lead to dehydration"
+    },
+    {
+      "name": "Severe Neurological Overstimulation",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "2 to 12 hours (progresses as the caffeine is fully absorbed into the bloodstream)",
+      "notes": "Caffeine acts as a powerful stimulant that blocks cellular adenosine receptors, leading to severe central nervous system overstimulation1. The cat will become extremely agitated, which can rapidly progress to lack of coordination (ataxia), severe muscle tremors, grand mal seizures, and potentially a"
+    },
+    {
+      "name": "Cardiovascular Dysfunction",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "2 to 12 hours",
+      "notes": "Caffeine increases intracellular calcium levels, abnormally enhancing the strength and frequency of cardiac muscle contractions1. This results in very rapid, irregular heartbeats, high blood pressure, and ultimately cardiac arrest in the terminal phase of poisoning"
+    },
+    {
+      "name": "Respiratory Distress",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "6 to 12 hours (progressing in the mid to late stages of toxicosis)",
+      "notes": "As the central nervous and cardiovascular systems become overwhelmed, the cat will pant and breathe very rapidly1.... In the most extreme and terminal cases, this culminates in complete respiratory failure and arrest"
+    },
+    {
+      "name": "Hyperthermia",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "6 to 12 hours",
+      "notes": "The extreme overstimulation of the nervous system, combined with continuous hyperactivity and severe muscle tremors, generates excessive internal heat13. This causes the cat's core body temperature to spike to dangerously high levels"
+    }
+  ],
+  "scientificName": "Coffee",
+  "family": "Various"
+}

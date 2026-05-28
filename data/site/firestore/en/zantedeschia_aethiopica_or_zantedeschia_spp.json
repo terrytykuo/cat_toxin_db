@@ -1,0 +1,61 @@
+{
+  "slug": "zantedeschia_aethiopica_or_zantedeschia_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/zantedeschia_aethiopica_or_zantedeschia_spp.jpg"
+  ],
+  "name": "Calla Lily",
+  "aliases": [],
+  "description": "Calla Lily (Zantedeschia aethiopica) is often called a lily but is an \"imposter lily\" — it does NOT cause the acute kidney failure associated with true lilies (Lilium and Hemerocallis species) and is significantly less dangerous. However, it is still toxic to cats. Like all Araceae plants, Calla Lily contains insoluble calcium oxalate crystals (raphides) throughout its leaves, stems, and spathe. These needle-like crystals cause immediate mechanical injury to the soft tissues of the mouth and throat when the plant is chewed.",
+  "safetyNotes": [
+    "Symptoms: Immediate oral pain, intense drooling, pawing at the mouth, swelling of the mouth and throat, and difficulty swallowing; vomiting may follow.",
+    "Not a true lily: Unlike Lilium (Easter lily, Tiger lily) or Hemerocallis (day lily) species, Calla Lily does not damage the kidneys and is far less life-threatening.",
+    "Action: Rinse the cat's mouth with water to flush crystals. Contact a vet if swelling is significant or symptoms persist beyond an hour."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning sensation, pain, and irritation of the mouth, tongue, and lips",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate upon chewing or biting into the plant.",
+      "notes": "The plant contains microscopic, needle-like crystals (raphides) that embed into the soft tissues of the mouth immediately upon contact. This pain typically deters the cat from consuming large amounts.Excessive Drooling"
+    },
+    {
+      "name": "Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to rapid.",
+      "notes": "Drooling is a physiological response to the immediate mechanical irritation and burning sensation in the oral cavity.Gastrointestinal Upset (Vomiting)"
+    },
+    {
+      "name": "Vomiting and Anorexia (Decreased appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid (shortly after ingestion).",
+      "notes": "While vomiting is a common sign, diarrhea is less frequent. Anorexia (refusal to eat) is often secondary to the pain in the mouth rather than systemic toxicity.Difficulty Swallowing"
+    },
+    {
+      "name": "Dysphagia (Difficulty swallowing)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to rapid.",
+      "notes": "The swelling and irritation of the tongue and pharynx make swallowing painful and difficult for the cat.Airway Obstruction / Difficulty Breathing"
+    },
+    {
+      "name": "Dyspnea (Difficulty breathing) due to laryngeal edema",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid (as swelling develops).",
+      "notes": "In rare cases, the inflammatory response can cause swelling of the upper airway (tongue, throat, larynx), which can block air passages and compromise breathing. This requires immediate veterinary attention.Important Clinical Distinction: It is critical to note that Calla Lilies are considered \"impos"
+    }
+  ],
+  "scientificName": "Zantedeschia aethiopica or Zantedeschia spp.",
+  "family": "Araceae"
+}

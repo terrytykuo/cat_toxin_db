@@ -1,0 +1,18 @@
+{
+  "slug": "sunflower",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sunflower/images/1773840130062.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sunflower/images/1774785278853.avif"
+  ],
+  "name": "Sunflower",
+  "aliases": [],
+  "description": "Sunflowers are completely non-toxic to cats. These bright, cheerful flowers can safely brighten up your home. Both the petals and seeds are safe if your cat happens to take a nibble.",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": [],
+  "scientificName": "Helianthus annuus",
+  "family": ""
+}

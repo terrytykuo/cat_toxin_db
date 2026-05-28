@@ -1,0 +1,53 @@
+{
+  "slug": "crassula_arborescens_or_crassula",
+  "source_hash": "477adec7ba463050d81065dbf0aaee951cea612026d9ec98a38cf8d7cd020d32",
+  "translated_at": "2026-05-21T10:31:41Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "翡翠木",
+  "aliases": [
+    "發財樹",
+    "玉樹"
+  ],
+  "description": "翡翠木 (Crassula spp.)，又稱為發財樹或幸運樹，是一種受歡迎的肉質室內植物，對貓有輕微毒性。確切的有毒成分尚未完全確定，但攝入後通常會導致貓出現消化系統不適和神經系統症狀。植物的所有部分都被視為有害。",
+  "safetyNotes": [
+    "有毒化合物：未知的毒性原理；植物肥厚的葉子和莖是主要的暴露來源",
+    "機制：未知；可能涉及直接的消化系統刺激，並結合輕微的神經系統影響",
+    "症狀：嘔吐、抑鬱、步態不穩（共濟失調）、心跳緩慢；症狀通常較輕微",
+    "植物的所有部分皆有毒 — 葉、莖和根",
+    "如果您的貓在接觸植物後表現出步態不穩或嗜睡的跡象，請尋求獸醫建議"
+  ],
+  "toxicParts": [
+    "莖",
+    "葉",
+    "整株植物",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統",
+      "onset": "急性 (臨床跡象通常在攝入後不久出現)。"
+    },
+    {
+      "name": "失去平衡 / 協調能力差 / 共濟失調",
+      "body_system": "神經系統",
+      "onset": "急性。"
+    },
+    {
+      "name": "抑鬱 / 嗜睡",
+      "body_system": "神經系統",
+      "onset": "急性。"
+    },
+    {
+      "name": "心跳緩慢 (心動過緩)",
+      "body_system": "心血管系統"
+    },
+    {
+      "name": "腹瀉",
+      "body_system": "消化系統",
+      "onset": "急性。"
+    }
+  ]
+}

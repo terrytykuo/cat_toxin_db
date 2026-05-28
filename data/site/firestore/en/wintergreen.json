@@ -1,0 +1,70 @@
+{
+  "slug": "wintergreen",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/wintergreen.jpg"
+  ],
+  "name": "Wintergreen",
+  "aliases": [],
+  "description": "Wintergreen (Gaultheria procumbens) essential oil is one of the most dangerous substances for cats. It is essentially pure methyl salicylate — a compound cats cannot metabolise efficiently. The topical product BenGay and similar muscle rubs often contain wintergreen oil and are a common cause of severe cat poisoning.",
+  "safetyNotes": [
+    "Toxic compounds: methyl salicylate (the primary component of wintergreen oil, >96%); the plant also contains methyl salicylate at lower concentrations",
+    "Mechanism: cats lack glucuronyl transferase needed to metabolise salicylates; toxic accumulation causes GI haemorrhage, metabolic acidosis, and kidney failure",
+    "Symptoms: vomiting, rapid or laboured breathing, weakness, tremors, GI bleeding; severe cases cause seizures, liver and kidney failure",
+    "Topical application of wintergreen-containing products to cats is extremely dangerous — never use muscle rubs, liniments, or oral care products with wintergreen on cats",
+    "Any wintergreen oil exposure is a veterinary emergency"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Excessive dribbling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "This often occurs after oral exposure, such as when a cat gets the essential oil on its fur and licks it off during grooming, or if it directly drinks liquid from a reed diffuser12. 2. Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Vomiting can be caused directly by the toxic compounds in Wintergreen or by the high fat levels present in carrier oils used to dilute the essential oil13. 3. Shaking, Tremoring, and Ataxia"
+    },
+    {
+      "name": "Shaking, tremoring, and walking as if they are drunk (ataxia)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "These neurological symptoms indicate that the central nervous system is being affected by the absorbed toxins12. 4. Lethargy and Depression"
+    },
+    {
+      "name": "Lethargy, depression, or dullness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "This is a generalized systemic sign of toxicity as the cat's body struggles to handle the poison, specifically because felines lack the liver enzymes to process salicylates effectively [193, Conversation History]. 5. Respiratory Distress"
+    },
+    {
+      "name": "Difficulty breathing or breathing with the mouth open",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "notes": "This can occur if neat (undiluted) essential oils are nebulized or ultrasonically diffused into the air, especially in cats that already have underlying respiratory conditions like asthma2. 6. Skin Irritation and Chemical Burns"
+    },
+    {
+      "name": "Sore or red skin, and chemical burns",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "notes": "This is caused by direct skin contact with the essential oil. However, even if there is no visible damage to the skin, owners should not assume the cat is safe, as the oil can be absorbed transdermally or ingested when the cat grooms itself12. 7. Liver Failure, Seizures, and Collapse"
+    },
+    {
+      "name": "Liver failure, seizures, collapse, and death",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "notes": "Essential oils like Wintergreen can cause serious internal organ damage2. Because cats cannot efficiently metabolize the methyl salicylate in Wintergreen, the toxin builds up in their system, which can progress to life-threatening organ failure and terminal neurological events [192, Conversation His"
+    }
+  ],
+  "scientificName": "Gaultheria procumbens",
+  "family": "Ericaceae"
+}

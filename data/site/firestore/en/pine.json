@@ -1,0 +1,47 @@
+{
+  "slug": "pine",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/pine/images/1772923076837.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/pine/images/1772923082668.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/pine/images/1772923087778.jpg"
+  ],
+  "name": "Pine",
+  "aliases": [],
+  "description": "Most pine trees (Pinus spp.) are not severely toxic to cats, but they pose several practical risks. Pine needles can cause physical injury to the GI tract if swallowed, and the sap contains terpene compounds that cause GI irritation. Water from a Christmas tree stand (which may contain fertilisers, preservatives, or high terpene runoff) can cause vomiting if a cat drinks it.",
+  "safetyNotes": [
+    "Physical hazard: pine needles are sharp and can puncture or irritate the mouth, stomach, and intestines",
+    "Terpene irritants: pine sap and essential oil contain alpha-pinene and other terpenoids that cause mild GI upset",
+    "Christmas tree water risk: often contains bacteria, fertilisers, or tree preservatives — keep cats from drinking it",
+    "Norfolk Island Pine (Araucaria) is a distinct species in a different family and is considered more toxic to cats",
+    "Contact your vet if your cat ingests many needles or large amounts of sap"
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Drooling and vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "This minor irritation is typically caused by the cat chewing on or ingesting the tree's sap, sharp needles, or cones1. 2. Digestive Blockages"
+    },
+    {
+      "name": "Digestive blockages",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "Pine needles are very sharp and irritating; if swallowed, they pose a physical hazard that can potentially lead to dangerous blockages within the digestive tract2. 3. Liver Damage"
+    },
+    {
+      "name": "Liver damage",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "notes": "This toxicity is caused by the essential oils found in pine trees3. Pine essential oil is explicitly listed as toxic to cats4. However, the sources note that the natural essential oils present within a live indoor Christmas tree are usually in low concentrations and are not generally expected to res"
+    }
+  ],
+  "scientificName": "Pinus spp.",
+  "family": "Pinaceae"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "crocus_vernus",
+  "source_hash": "99f2c0e219554738b1eab70b64bffa1e7fdc8135b9e8803d726460feb0263b60",
+  "translated_at": "2026-05-21T10:27:19Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "番紅花",
+  "aliases": [],
+  "description": "春番紅花 (Crocus spp.) 是常見的早春庭園球根植物，對貓咪有毒，但其危險性遠低於常被混淆的秋水仙 (Colchicum autumnale)。春番紅花含有較低濃度的秋水仙素及其他生物鹼。誤食通常會引起消化系統症狀，而非秋水仙引發的多重器官衰竭。然而，如果不確定貓咪誤食的是哪一種，請視為獸醫急診處理。",
+  "safetyNotes": [
+    "症狀：流口水、嘔吐、腹瀉和腹痛是最常見的徵兆；症狀通常具自限性會自行緩解。",
+    "請勿與秋水仙混淆：秋水仙 (Colchicum autumnale) 危險得多，可能導致骨髓抑制、腎衰竭甚至死亡。如果無法確定植物種類，請立即尋求緊急獸醫治療。",
+    "球莖的毒素濃度最高：在花圃挖掘的貓咪可能會接觸並啃咬球莖。"
+  ],
+  "toxicParts": [
+    "葉",
+    "球莖",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐與腹瀉（一般消化系統不適）",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "血吐與血便；口腔刺激",
+      "body_system": "消化系統",
+      "onset": "立即或延遲數天發作。"
+    },
+    {
+      "name": "肝臟損傷（肝壞死）與腎衰竭",
+      "body_system": "腎臟",
+      "onset": "延遲（可能需要數天才能完全顯現）。"
+    },
+    {
+      "name": "骨髓抑制",
+      "body_system": "血液系統",
+      "onset": "延遲發作。"
+    },
+    {
+      "name": "呼吸衰竭 / 呼吸困難",
+      "body_system": "呼吸系統",
+      "onset": "延遲（與全身性惡化有關）。"
+    },
+    {
+      "name": "癲癇、顫抖、休克與虛弱",
+      "body_system": "神經系統",
+      "onset": "多變；休克徵兆包含心率異常及牙齦蒼白。"
+    }
+  ]
+}

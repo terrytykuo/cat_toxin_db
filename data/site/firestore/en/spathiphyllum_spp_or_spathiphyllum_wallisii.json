@@ -1,0 +1,61 @@
+{
+  "slug": "spathiphyllum_spp_or_spathiphyllum_wallisii",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/spathiphyllum_spp_or_spathiphyllum_wallisii.jpg"
+  ],
+  "name": "Peace Lily",
+  "aliases": [],
+  "description": "Peace Lily (Spathiphyllum spp.) is a common indoor plant toxic to cats. Despite the misleading name, it is not a true lily and does not cause the acute kidney failure associated with Lilium species. As a member of the Araceae family, it contains insoluble calcium oxalate crystals (raphides) that cause immediate oral and GI irritation when the plant is chewed.",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides throughout leaves, stems, and flowers",
+    "Mechanism: crystals penetrate the oral mucosa mechanically, causing burning, swelling, and inflammation",
+    "Symptoms: intense drooling, pawing at mouth, oral pain, difficulty swallowing, vomiting",
+    "No kidney failure risk — Peace Lily is NOT a true lily; the name is misleading but the toxicity is different and milder",
+    "Rinse the mouth with water; seek vet care if throat swelling impairs swallowing or breathing"
+  ],
+  "toxicParts": [
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning, pain, irritation, erythema (redness), and pawing at the mouth",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "This immediate pain is caused by the needle-like insoluble calcium oxalate crystals (raphides) physically piercing the mucous membranes as the cat bites into the plant14. This intense, sudden pain usually limits the amount of the plant the cat actually consumes5. 2. Excessive Drooling and Difficulty"
+    },
+    {
+      "name": "Hypersalivation (excessive drooling) and difficulty swallowing (dysphagia)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "This is a direct response to the oral trauma and tissue swelling (edema) in the tongue and pharynx46. Rinsing the cat's mouth out with water or offering a calcium-containing dairy product (like milk) can help bind the crystals and soothe the irritation46. 3. Stomach Upset (Vomiting and Diarrhea)"
+    },
+    {
+      "name": "Vomiting, stomach upset, and occasionally diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to shortly after ingestion.",
+      "notes": "If the cat manages to swallow the plant material, the crystals will continue to irritate the gastrointestinal tract, causing vomiting and diarrhea2.... However, this irritation remains localized and does not cause systemic organ failure1. 4. Lethargy and Loss of Appetite"
+    },
+    {
+      "name": "Lethargy and anorexia (refusal to eat)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion.",
+      "notes": "Because the cat's mouth and throat are inflamed and in pain, they will often refuse food and appear lethargic or depressed47. 5. Respiratory Distress (Rare)"
+    },
+    {
+      "name": "Difficulty breathing (dyspnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Immediate to shortly after exposure, as swelling progresses.",
+      "notes": "While generally rare and usually easily treatable, if the edema (swelling) spreads to the laryngeal region (the throat/airway), it can obstruct the airway and cause potentially life-threatening respiratory distress46. You should monitor the cat closely for throat swelling and seek veterinary care to"
+    }
+  ],
+  "scientificName": "Spathiphyllum spp. or Spathiphyllum wallisii",
+  "family": "Araceae"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "asparagus_densiflorus",
+  "category": "plant",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/asparagus_densiflorus.jpg"
+  ],
+  "name": "Asparagus Fern",
+  "aliases": [],
+  "description": "Asparagus Fern (also called foxtail fern or emerald fern) is a popular decorative houseplant whose feathery fronds conceal a significant hazard: the plant contains sapogenin, a steroidal saponin that irritates the gastrointestinal tract when ingested. The small red or orange berries produced by the plant are the most concentrated source of sapogenin and pose the highest risk, particularly to cats that bat them off the plant and then chew them. Repeated skin contact with the sap can also trigger allergic dermatitis.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, and abdominal pain from ingestion; skin blistering or dermatitis from repeated sap contact.",
+    "Berries: The berries carry the highest sapogenin concentration and should be considered the primary hazard — especially as they fall to the ground and become accessible to curious cats.",
+    "Action: Remove fallen berries promptly. Place the plant in a location cats cannot reach, and consult a vet if ingestion is suspected."
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Skin Irritation (Allergic Dermatitis)",
+      "body_system": "Dermal",
+      "severity": "moderate",
+      "notes": "This plant is distinct from other toxic plants because significant symptoms often arise simply from the cat brushing against the feathery leaves, which causes inflammation and irritation of the skin.Gastrointestinal Upset (Vomiting)"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Vomiting is specifically noted as a consequence of eating the berries of the plant.Abdominal Pain"
+    },
+    {
+      "name": "Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Ingestion of the berries can lead to palpable stomach pain.Gastrointestinal Upset (Diarrhea)"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Like vomiting, diarrhea is triggered by the ingestion of the plant's berries."
+    }
+  ],
+  "scientificName": "Asparagus densiflorus",
+  "family": "Asparagaceae"
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "lantana",
+  "source_hash": "9ea082a5fb5e8c17c3596de0bfd9305570309b08bcd92b1aa14deabf31b9f2b6",
+  "translated_at": "2026-05-21T10:32:34Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "馬纓丹 (Lantana)",
+  "aliases": [],
+  "description": "馬纓丹 (Lantana camara) 是一種色彩鮮豔的開花灌木，對貓具有嚴重毒性。所有部位 — 特別是未成熟的綠色漿果 — 都含有馬纓丹烯 A (lantadene A) 和馬纓丹烯 B (lantadene B)，這是一種會導致肝臟損傷和膽管阻塞的五環三萜類化合物。馬纓丹中毒在牲畜和伴侶動物中均有明確記載，且可能致命。",
+  "safetyNotes": [
+    "毒性化合物：馬纓丹烯 A 和馬纓丹烯 B (五環三萜類)；未成熟的綠色漿果濃度最高；葉和莖也有毒",
+    "機制：馬纓丹烯會導致肝細胞壞死和膽管中的光卟啉 (phylloerythrin) 累積，引發光敏感症和肝衰竭",
+    "症狀：嚴重嘔吐、下痢、虛弱、黃疸（牙齦和眼睛發黃）、光敏感性皮膚病變、肝衰竭；可能致命",
+    "具吸引力的漿果（成熟過程中由綠色變為紅色/黑色）特別危險",
+    "任何疑似攝入的情況均屬於獸醫急診 — 不要等到黃疸或肝臟症狀出現才就醫"
+  ],
+  "toxicParts": [
+    "葉",
+    "花",
+    "果實"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐與下痢",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "呼吸困難",
+      "body_system": "呼吸系統"
+    },
+    {
+      "name": "虛弱 / 嗜睡",
+      "body_system": "神經系統"
+    },
+    {
+      "name": "肝衰竭",
+      "body_system": "肝臟系統",
+      "onset": "延遲出現（通常發生在初步胃腸道症狀之後）。"
+    }
+  ]
+}

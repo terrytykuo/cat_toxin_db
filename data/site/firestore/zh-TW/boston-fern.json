@@ -1,0 +1,16 @@
+{
+  "slug": "boston-fern",
+  "source_hash": "6e9fb33b7edb59572e42f2db65ae5deaa4d69b47fa666b500fe74d98176d44b8",
+  "translated_at": "2026-05-21T10:21:10Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "波士頓腎蕨",
+  "aliases": [
+    "Sword Fern"
+  ],
+  "description": "波士頓腎蕨是茂盛、羽毛狀的植物，對貓完全安全。它們喜愛潮濕和間接光線，是理想的浴室植物。其垂吊的羽翎狀葉片可能會吸引貓咪玩耍，但該植物無毒。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

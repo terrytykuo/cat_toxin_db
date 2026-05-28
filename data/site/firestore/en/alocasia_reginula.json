@@ -1,0 +1,61 @@
+{
+  "slug": "alocasia_reginula",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/alocasia_reginula.jpg"
+  ],
+  "name": "Black Velvet Alocasia",
+  "aliases": [],
+  "description": "Black Velvet Alocasia (Alocasia reginula) is a striking indoor plant prized for its dark, velvety leaves with silvery veins. Like all plants in the Alocasia genus and the broader Araceae family, it contains insoluble calcium oxalate crystals (raphides) — microscopic needle-like structures packed into specialised cells throughout the leaves, stems, and roots. When a cat bites or chews any part of the plant, these crystals are forcibly ejected and physically penetrate the soft tissues of the mouth and throat, causing immediate and intense pain that typically stops the cat from ingesting more.",
+  "safetyNotes": [
+    "Symptoms: Immediate intense oral pain, excessive drooling, pawing at the mouth, swelling of the lips, tongue, and throat, and difficulty swallowing; vomiting may follow if some plant material is swallowed.",
+    "Rapid onset: Irritation begins within seconds of chewing — the plant's own defence mechanism usually limits the amount ingested.",
+    "Action: Rinse the cat's mouth gently with water to help flush the crystals. Contact a vet if throat swelling, persistent vomiting, or difficulty breathing develops."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Severe oral irritation; intense burning of the mouth, tongue, and throat",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (upon contact/chewing).",
+      "notes": "The plant contains microscopic crystals that act like needles, causing physical trauma to the mouth tissues.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "This is a physiological response to the acute pain and burning sensation in the oral cavity.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid (shortly after ingestion).",
+      "notes": "Swallowing the plant material or the body's reaction to the intense irritation can trigger vomiting.Difficulty Swallowing (Dysphagia)"
+    },
+    {
+      "name": "Difficulty swallowing",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to Rapid.",
+      "notes": "The cat may be unable or unwilling to swallow due to the pain and swelling in the throat.Throat Swelling (Airway Risk)"
+    },
+    {
+      "name": "Swelling of the throat (Laryngeal edema)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid.",
+      "notes": "While the overall toxicity is often rated as moderate, there is a risk that swelling in the back of the throat could obstruct breathing. Veterinary attention should be sought promptly to monitor for this specific complication."
+    }
+  ],
+  "scientificName": "Alocasia reginula",
+  "family": "Araceae"
+}

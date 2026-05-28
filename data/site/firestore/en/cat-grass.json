@@ -1,0 +1,20 @@
+{
+  "slug": "cat-grass",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cat-grass/images/1773839978312.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cat-grass/images/1774784692045.avif"
+  ],
+  "name": "Cat Grass (wheat grass)",
+  "aliases": [
+    "Wheatgrass"
+  ],
+  "description": "Cat Grass (Wheatgrass) is the ultimate \"safe\" plant specifically grown for cats to eat. It aids digestion, provides fiber, and satisfies cats' natural urge to chew on greens. Easy to grow from seed in just 7-10 days.",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": [],
+  "scientificName": "Triticum aestivum",
+  "family": ""
+}

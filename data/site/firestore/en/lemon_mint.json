@@ -1,0 +1,57 @@
+{
+  "slug": "lemon_mint",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/lemon_mint.jpg"
+  ],
+  "name": "Lemon Mint",
+  "aliases": [],
+  "description": "Lemon Mint is a fragrant herb — typically a lemon-scented variety of Mentha or Monarda — that is mildly toxic to cats. Like other mint family plants, it contains pulegone and menthol-related compounds that cats cannot safely metabolise. While nibbling a leaf rarely causes serious harm, regular exposure or consumption of concentrated forms (oils, extracts) can irritate the liver.",
+  "safetyNotes": [
+    "Toxic compounds: pulegone, linalool, and menthol-related monoterpenoids; concentration increases toward the flowers",
+    "Mechanism: cats lack efficient hepatic metabolism for pulegone and monoterpenes, leading to GI irritation and mild hepatotoxicity at higher doses",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy; repeated exposure may cause liver stress",
+    "Fresh plant nibbling usually causes only mild upset; essential oil or concentrated extracts pose a greater risk",
+    "Keep mint plants and oils out of reach; consult your vet if your cat ingests a large amount"
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Nausea, Drooling (Hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Clinical signs typically appear shortly after ingestion (acute).",
+      "notes": "Lemon Mint is specifically noted as a \"gastro-irritant\" due to the presence of citrus compounds alongside mint oils. Drooling or foaming at the mouth is a common reaction to the unpleasant taste and irritating oils.Neurological Depression"
+    },
+    {
+      "name": "Lethargy, Weakness, Uncoordinated Gait (Ataxia)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Variable; usually accompanies gastrointestinal signs.",
+      "notes": "While the plant itself often causes only stomach upset, the citrus compounds found in Lemon Mint can contribute to central nervous system depression if consumed in significant amounts.Respiratory Irritation"
+    },
+    {
+      "name": "Coughing, Sneezing, Difficulty Breathing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Immediate (upon inhalation or contact).",
+      "notes": "The strong scent of mint can irritate a cat's respiratory tract, leading to coughing or sneezing. Severe respiratory distress is more commonly associated with the inhalation of essential oils rather than eating the plant.Dermal Irritation"
+    },
+    {
+      "name": "Skin Redness, Itching, Contact Dermatitis",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Delayed (upon contact).",
+      "notes": "Hypersensitive cats may develop skin irritation or redness around the mouth and paws after coming into contact with the plant's oils."
+    }
+  ],
+  "scientificName": "Monarda citriodora",
+  "family": "Lamiaceae"
+}

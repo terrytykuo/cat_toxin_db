@@ -1,0 +1,46 @@
+{
+  "slug": "aloe_barbadensis_or_aloe_spp",
+  "source_hash": "12f4bc42ca3c3cb2b585376f913d23109f0e1c8246f656d7a9f0f95f1dd2ed6c",
+  "translated_at": "2026-05-21T10:19:10Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "蘆薈",
+  "aliases": [],
+  "description": "蘆薈是一種常見的多肉室內植物，因其具有藥用價值的凝膠而受重視，但植物本身對貓有毒。主要毒性物質是集中在緊貼外皮下方的黃色乳膠層中的蒽醌類（特別是蘆薈素 aloin 和 barbaloin），以及葉片各處的皂苷。貓代謝這些化合物的能力有限，會導致整個腸胃道受到刺激，且在大量暴露下會產生全身性影響。",
+  "safetyNotes": [
+    "症狀：嘔吐、腹瀉（通常帶有黃色或紅色色調）、嗜睡、食慾不振和低血糖；在更嚴重的情況下會出現震顫和深色尿液。",
+    "凝膠 vs. 乳膠：透明的內部凝膠含有極少量的蘆薈素，其毒性遠低於黃色乳膠層。然而，整葉產品或直接咀嚼植物會使貓同時接觸到兩者，導致攝取整株植物具有危險性。",
+    "行動：將蘆薈植物放置在接觸不到的地方。如果您的貓咀嚼了葉子，特別是出現腹瀉或嗜睡時，請聯繫獸醫。"
+  ],
+  "toxicParts": [
+    "汁液",
+    "葉",
+    "乳膠"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "腹瀉",
+      "body_system": "消化系統",
+      "onset": "突然。"
+    },
+    {
+      "name": "嗜睡 (抑鬱)",
+      "body_system": "神經系統",
+      "onset": "在腸胃道症狀出現後發生。"
+    },
+    {
+      "name": "低血糖 (Hypoglycemia)",
+      "body_system": "內分泌"
+    },
+    {
+      "name": "食慾不振 (Anorexia)",
+      "body_system": "消化系統",
+      "onset": "不定。"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "cast-iron-plant",
+  "source_hash": "87bbd2e57862048482adb1eeb4986683336ba6c6bf0b612b16b8ba6a06401d0e",
+  "translated_at": "2026-05-21T10:22:20Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "一葉蘭",
+  "aliases": [
+    "蜘蛛抱蛋"
+  ],
+  "description": "正如其名，一葉蘭（Cast Iron Plant）幾乎是不可摧毀的。它在低光照環境下生長良好，對貓完全安全。其堅硬、深綠色的葉片能為任何房間增添優雅氣息。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

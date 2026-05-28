@@ -1,0 +1,16 @@
+{
+  "slug": "snapdragon",
+  "source_hash": "cf43320bd0f7d1f4d111bf9fb152cc81f2f7d41013669b377bce4d3d6e5b2f09",
+  "translated_at": "2026-05-21T10:39:35Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "金魚草",
+  "aliases": [
+    "龍口花"
+  ],
+  "description": "金魚草是色彩繽紛且充滿奇趣的花卉，對貓咪安全。它們有各種如彩虹般的顏色，其獨特的「開合」花形能為任何花藝佈置增添活潑的個性。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "phoradendron_spp_or_viscum",
+  "source_hash": "67707d781e6bdd16705b07dd00941b3073815e72275c760f9b5a444441868c73",
+  "translated_at": "2026-05-21T10:34:02Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "槲寄生",
+  "aliases": [],
+  "description": "槲寄生 (Phoradendron spp. 及 Viscum album) 是常見的節日裝飾物，對貓具有中等毒性。美洲槲寄生 (Phoradendron) 含有槲寄生毒素 (phoratoxins) —— 這是一種會影響心血管和消化系統的有毒凝集素。白色漿果是濃度最高的部分，可能會吸引貓咪。歐洲槲寄生 (Viscum) 額外含有具更強心臟影響的槲寄生毒素 (viscotoxins)。",
+  "safetyNotes": [
+    "有毒化合物：所有部位均含有槲寄生毒素 (phoratoxins，有毒凝集素)；歐洲槲寄生含有 viscotoxins；漿果濃度最高",
+    "機制：凝集素會抑制細胞內的蛋白質合成；心血管影響包括心搏過緩及低血壓",
+    "症狀：嘔吐、下痢、流口水、腹痛、虛弱、心搏過緩、低血壓；大量攝入可能導致休克",
+    "所有部位皆有毒 —— 新鮮植物、乾燥裝飾品，甚至掉在地上的漿果",
+    "節慶期間請將槲寄生完全置於貓咪接觸不到的地方；若懷疑誤食請聯繫獸醫"
+  ],
+  "toxicParts": [
+    "葉",
+    "果實"
+  ],
+  "symptoms": [
+    {
+      "name": "腸胃不適，包括嘔吐和下痢（可能是大量的）",
+      "body_system": "消化系統",
+      "onset": "攝入後數小時內"
+    },
+    {
+      "name": "心率變慢（心搏過緩）、低血壓以及潛在的心血管休克",
+      "body_system": "心血管系統",
+      "onset": "攝入毒性劑量後數小時內"
+    },
+    {
+      "name": "呼吸困難或呼吸急促、費力",
+      "body_system": "呼吸系統",
+      "onset": "攝入毒性劑量後數小時內"
+    },
+    {
+      "name": "虛弱、行為異常以及瞳孔放大",
+      "body_system": "消化系統",
+      "onset": "攝入後數小時內"
+    }
+  ]
+}

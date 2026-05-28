@@ -1,0 +1,20 @@
+{
+  "slug": "rose",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/rose/images/1773840151551.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/rose/images/1774785228408.avif"
+  ],
+  "name": "Rose",
+  "aliases": [],
+  "description": "All true roses (Rosa species) are non-toxic to cats. Their beautiful blooms and fragrance make them a wonderful, safe choice for your home.",
+  "safetyNotes": [
+    "⚠️ Always remove the thorns before bringing roses indoors — they can cause physical injury to curious cats."
+  ],
+  "toxicParts": [],
+  "symptoms": [],
+  "scientificName": "Rosa spp.",
+  "family": ""
+}

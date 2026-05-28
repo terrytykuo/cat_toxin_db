@@ -1,0 +1,49 @@
+{
+  "slug": "asclepias_spp",
+  "source_hash": "b45c2309bf1bc80fbbb8680cd799df529238bfb97c148051ea7c636c6c4fbea6",
+  "translated_at": "2026-05-21T10:34:02Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "馬利筋",
+  "aliases": [],
+  "description": "馬利筋 (Asclepias spp.) 對貓來說是有毒植物，因為它含有卡烯內酯強心苷 (cardenolide cardiac glycosides) —— 這是一種遍布整株植物的強效化合物，其中以乳狀汁液中的濃度最高。這些化合物對心臟的作用方式與毛地黃 (Foxglove) 類似，會干擾調節心跳的電訊號。包括乾燥植物材料在內的所有部位皆具毒性。",
+  "safetyNotes": [
+    "有毒化合物：乳汁、葉子和莖中的卡烯內酯強心苷 (cardenolide cardiac glycosides)",
+    "機制：卡烯內酯會抑制心肌細胞中的 Na+/K+-ATPase 幫浦，導致心律不整",
+    "症狀：流口水、嘔吐、下痢、虛弱、心率異常、肌肉震顫；嚴重者可能導致癲癇發作和心臟衰竭",
+    "乳狀汁液是濃度最高的來源 —— 避免接觸折斷的莖",
+    "立即尋求獸醫治療；強心苷中毒可能會迅速惡化"
+  ],
+  "toxicParts": [
+    "汁液",
+    "整株植物"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐與下痢",
+      "body_system": "消化系統",
+      "onset": "2 小時內"
+    },
+    {
+      "name": "心率和心律異常（包括心搏過緩、心搏過速和嚴重的心律不整）",
+      "body_system": "心血管系統",
+      "onset": "2 小時內"
+    },
+    {
+      "name": "虛弱和不明神經症狀",
+      "body_system": "神經系統",
+      "onset": "2 小時內"
+    },
+    {
+      "name": "呼吸困難",
+      "body_system": "呼吸系統",
+      "onset": "2 小時內（或隨病情惡化而發展）"
+    },
+    {
+      "name": "器官受損",
+      "body_system": "腎臟系統",
+      "onset": "延遲（通常在症狀持續 4-5 天後發展）"
+    }
+  ]
+}

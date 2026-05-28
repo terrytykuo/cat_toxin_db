@@ -1,0 +1,55 @@
+{
+  "slug": "hedera_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/hedera_spp.jpg"
+  ],
+  "name": "English Ivy",
+  "aliases": [],
+  "description": "English Ivy (Hedera helix) is a common climbing vine toxic to cats. It contains triterpenoid saponins (including hederagenin and alpha-hederin) and polyacetylene compounds (falcarinol) throughout its leaves and berries. These compounds cause gastrointestinal irritation and, with repeated skin contact, dermatitis in sensitive individuals.",
+  "safetyNotes": [
+    "Toxic compounds: triterpenoid saponins (hederagenin, alpha-hederin), polyacetylene compound falcarinol",
+    "Mechanism: saponins disrupt GI mucosal integrity; falcarinol is a contact irritant that can also cause systemic upset",
+    "Symptoms: vomiting, diarrhea, drooling, abdominal pain; large ingestion may cause ataxia or tremors",
+    "Berries are slightly more concentrated than leaves; all parts should be considered hazardous",
+    "Remove English Ivy from indoor spaces if you have cats; outdoor access to ivy-covered walls should also be restricted"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (Symptoms typically appear shortly after ingestion,",
+      "notes": "This is a primary sign of saponin ingestion. The foliage (leaves) contains higher concentrations of the toxin than the berries.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Resulting from the irritation of the gastrointestinal tract by the saponins.Abdominal Pain"
+    },
+    {
+      "name": "Abdominal Pain (Stomach Discomfort)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "The cat may show signs of discomfort or sensitivity when the abdomen is touched due to the irritating nature of the plant compounds.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling / Hypersalivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to Acute (Upon chewing).",
+      "notes": "Caused by the immediate irritation of the mouth and mucous membranes by the plant's sap and saponins."
+    }
+  ],
+  "scientificName": "Hedera spp.",
+  "family": "Araliaceae"
+}

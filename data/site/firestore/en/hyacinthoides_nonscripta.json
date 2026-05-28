@@ -1,0 +1,50 @@
+{
+  "slug": "hyacinthoides_nonscripta",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/hyacinthoides_nonscripta.jpg"
+  ],
+  "name": "Bluebells",
+  "aliases": [],
+  "description": "Bluebells (Hyacinthoides non-scripta and related species) are beloved spring wildflowers found in woodlands, gardens, and roadsides — environments where outdoor cats frequently roam. Despite their delicate appearance, all parts of the plant are toxic to cats. Bluebells contain scillaren and related cardiac glycoside-like compounds, as well as alkaloids, that interfere with the sodium-potassium pump in heart muscle cells, disrupting normal cardiac rhythm. The bulbs carry the highest toxin concentration, but the flowers, leaves, and sap are all hazardous.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, lethargy, and reduced heart rate; larger exposures can cause abnormal heart rhythm, low blood pressure, and in severe cases convulsions or collapse.",
+    "Bulbs are most toxic: Cats that dig in garden beds may encounter bulbs. The sap from crushed stems is also irritating to skin and eyes.",
+    "Seasonal risk: Peak exposure is in spring when plants bloom and are most accessible. Seek veterinary advice promptly if ingestion is suspected."
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Bulb"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Drooling, and Stomach Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Ingestion of the plant triggers irritation of the digestive tract, leading to profuse drooling and abdominal discomfort.Cardiac Abnormalities"
+    },
+    {
+      "name": "Reduced Heart Rate (Bradycardia)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "notes": "Bluebells contain toxins (glycosides) that disrupt the heart's internal electrical balance, leading to a noticeably slow heartbeat. This cardiac effect distinguishes them from simple gastrointestinal irritants.Neurological Depression"
+    },
+    {
+      "name": "Trembling and Lethargy",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "The toxins can cause systemic weakness, manifesting as physical trembling and a lack of energy or responsiveness.Dermatitis"
+    },
+    {
+      "name": "Skin Irritation and Dermatitis",
+      "body_system": "Dermal",
+      "severity": "moderate",
+      "onset": "Rapid (upon contact).",
+      "notes": "Unlike many toxic plants that are only dangerous when ingested, Bluebells can cause dermatitis simply through physical contact with the plant juices or sap."
+    }
+  ],
+  "scientificName": "Hyacinthoides non-scripta",
+  "family": "Liliaceae"
+}

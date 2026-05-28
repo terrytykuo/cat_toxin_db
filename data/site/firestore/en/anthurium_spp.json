@@ -1,0 +1,71 @@
+{
+  "slug": "anthurium_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/anthurium_spp.jpg"
+  ],
+  "name": "Flamingo Flower / Anthurium",
+  "aliases": [],
+  "description": "Flamingo Flower and Anthurium (Anthurium spp.) are popular tropical houseplants that are toxic to cats due to insoluble calcium oxalate crystals (raphides) packed throughout their leaves, stems, and spathe. Like other members of the Araceae family (including Dieffenbachia and Caladium), these needle-sharp crystals cause immediate and intense oral irritation when the plant is chewed.",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides plus proteolytic enzymes that amplify the irritation",
+    "Mechanism: crystals mechanically penetrate the oral mucosa, causing intense burning and swelling",
+    "Symptoms: sudden oral pain, excessive drooling, pawing at mouth, swollen lips and tongue, difficulty swallowing, vomiting",
+    "All parts of the plant are hazardous; the reaction is immediate and self-limiting but distressing",
+    "Rinse the mouth with water and contact your vet if swallowing is impaired or symptoms persist"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Intense Burning Sensation / Oral Irritation",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (Upon chewing or biting).",
+      "notes": "The plant contains needle-like crystals that penetrate the soft tissues of the mouth, lips, and tongue, causing immediate and intense pain. This often deters the cat from consuming large quantities.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Hypersalivation / Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to Acute.",
+      "notes": "This is a physiological response to the severe burning sensation and irritation in the oral cavity.Edema (Swelling)"
+    },
+    {
+      "name": "Oral and Pharyngeal Edema (Swelling)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Acute (Shortly after contact).",
+      "notes": "Swelling can affect the lips, tongue, and throat (pharynx). In rare cases, severe swelling of the larynx (laryngeal edema) can lead to respiratory distress or difficulty breathing.Dysphagia (Difficulty Swallowing)"
+    },
+    {
+      "name": "Difficulty Swallowing / Dysphagia",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "The cat may be unable or unwilling to swallow food or water due to the pain and swelling in the throat.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Ingestion can irritate the stomach lining, leading to vomiting. The crystals are generally not absorbed systemically, so the reaction is primarily local irritation.Pawing at the Mouth"
+    },
+    {
+      "name": "Pawing at the Mouth / Head Shaking",
+      "body_system": "Neurological",
+      "severity": "mild",
+      "onset": "Immediate.",
+      "notes": "This behavior is a direct sign of oral discomfort as the cat attempts to dislodge the irritating crystals."
+    }
+  ],
+  "scientificName": "Anthurium spp.",
+  "family": "Araceae"
+}

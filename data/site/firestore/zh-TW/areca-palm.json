@@ -1,0 +1,18 @@
+{
+  "slug": "areca-palm",
+  "source_hash": "8ba50be4e0522e52ca76457cb33dc787009910eada45062c67fdb360cc8cd4ba",
+  "translated_at": "2026-05-21T10:20:14Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "黃椰子",
+  "aliases": [
+    "散尾葵",
+    "金貝椰子",
+    "Areca Palm"
+  ],
+  "description": "黃椰子是一種優雅、羽毛狀的棕櫚植物，能為任何空間增添熱帶氣息。它對貓無毒，還能充當天然的空氣增濕劑。貓可能會想啃食葉片，但這完全是安全的。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

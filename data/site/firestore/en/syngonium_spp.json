@@ -1,0 +1,68 @@
+{
+  "slug": "syngonium_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/syngonium_spp.jpg"
+  ],
+  "name": "Arrowhead Vine",
+  "aliases": [],
+  "description": "Arrowhead Vine (Syngonium podophyllum) is a popular trailing houseplant that contains insoluble calcium oxalate crystals (raphides) — microscopic needle-like structures bundled in specialised cells throughout the leaves and stems. When a cat bites or chews any part of the plant, these crystals are forcibly ejected and physically penetrate the soft tissues of the mouth, tongue, and throat, causing immediate and intense irritation. Systemic toxicity is uncommon because the pain typically stops the cat from consuming a large amount.",
+  "safetyNotes": [
+    "Symptoms: Immediate oral pain, intense drooling, pawing at the mouth, swelling of the lips, tongue, and throat, and difficulty swallowing; vomiting may follow.",
+    "Rapid onset: Discomfort begins within seconds of chewing — this is the plant's natural defence mechanism.",
+    "Action: Rinse the cat's mouth with water to help flush crystals. Contact a vet if swelling is severe or symptoms do not resolve within an hour."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Oral Irritation (intense burning sensation, pain)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate upon chewing.",
+      "notes": "The cat may demonstrate this pain by pawing at the mouth or shaking its head. The crystals cause inflammation and redness (erythema) of the lips, tongue, and mouth.Hypersalivation"
+    },
+    {
+      "name": "Excessive Drooling (Ptyalism)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "This is a physiological response to the intense irritation and burning in the mouth.Swelling (Edema)"
+    },
+    {
+      "name": "Swelling of the tongue, lips, and pharynx",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid.",
+      "notes": "Swelling of the tongue and throat can be significant. In rare cases, severe swelling of the laryngeal region (airway) can lead to respiratory distress.Difficulty Breathing (Dyspnea)"
+    },
+    {
+      "name": "Dyspnea",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid (following swelling).",
+      "notes": "This occurs if the swelling of the tongue and pharynx obstructs the airway. While the overall prognosis for this plant is generally good, airway obstruction requires immediate veterinary attention.Vomiting and Diarrhea"
+    },
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not specifically stated (likely acute).",
+      "notes": "These are general signs of gastrointestinal upset associated with the ingestion of the plant material.Anorexia"
+    },
+    {
+      "name": "Refusal to eat (Inappetence)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to short-term.",
+      "notes": "The cat often refuses to eat due to the oral pain and swelling."
+    }
+  ],
+  "scientificName": "Syngonium spp.",
+  "family": "Araceae"
+}

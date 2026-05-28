@@ -1,0 +1,67 @@
+{
+  "slug": "garlic",
+  "source_hash": "f17662e143c1fe6f535ff6591b8b1d8c8d668aca58a9edfece679d6c48c376e5",
+  "translated_at": "2026-05-21T10:13:23Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "food",
+  "name": "大蒜",
+  "aliases": [],
+  "description": "大蒜 (Allium sativum) 是對貓最危險的食物之一，其毒性明顯高於洋蔥——按重量計算，其毒性大約是洋蔥的 3 到 5 倍。它含有有機硫化合物，包括 N-propyl disulfide 和大蒜素 (allicin) 衍生物，貓無法安全地代謝這些物質。這些化合物會氧化紅血球內的血紅素，形成海因茨體 (Heinz bodies) 並引發溶血性貧血。",
+  "safetyNotes": [
+    "有毒化合物：N-propyl disulfide、大蒜素 (allicin) 和二烯丙基二硫 (allyl disulfides)；所有形式皆具危險性——不論是生食、煮熟、乾燥或粉末狀",
+    "機制：對血紅素的氧化損傷會產生海因茨體；脾臟破壞受損紅血球的速度快於新生速度，進而導致溶血性貧血",
+    "症狀：嗜睡、虛弱、黏膜蒼白或發黃、呼吸急促、食慾減退、紅褐色尿液；症狀通常在攝入後 3-5 天才會出現",
+    "大蒜粉特別危險——濃度高且容易隱藏在人類食物中",
+    "切勿給貓咪分享大蒜麵包、醬料、高湯或任何調味過的食物；若懷疑誤食，請立即聯繫獸醫"
+  ],
+  "toxicParts": [
+    "全部"
+  ],
+  "symptoms": [
+    {
+      "name": "由於大蒜屬於蔥屬植物並含有強效有機硫化合物，它引起的症狀與洋蔥中毒非常相似",
+      "body_system": "代謝系統"
+    },
+    {
+      "name": "嘔吐、腹瀉、腹痛和流口水",
+      "body_system": "消化系統",
+      "onset": "通常在 24 小時內出現，但也可能延遲 2 到 4 天"
+    },
+    {
+      "name": "嗜睡、虛弱和抑鬱",
+      "body_system": "神經系統",
+      "onset": "延遲數天後（通常為 2 到 4 天）"
+    },
+    {
+      "name": "黏膜蒼白和黃疸 (Icterus)",
+      "body_system": "消化系統",
+      "onset": "延遲數天後"
+    },
+    {
+      "name": "呼吸過速 (Tachypnea) 和呼吸困難 (Dyspnea)",
+      "body_system": "呼吸系統",
+      "onset": "延遲數天後"
+    },
+    {
+      "name": "心跳過速 (Tachycardia) 和低血壓 (Hypotension)（心血管窘迫）",
+      "body_system": "心血管系統",
+      "onset": "攝入後數天"
+    },
+    {
+      "name": "血紅素尿 (Hemoglobinuria)（深色尿液）",
+      "body_system": "消化系統",
+      "onset": "延遲數天後"
+    },
+    {
+      "name": "畏寒",
+      "body_system": "神經系統",
+      "onset": "攝入後數天"
+    },
+    {
+      "name": "大蒜口臭",
+      "body_system": "消化系統",
+      "onset": "攝入後不久"
+    }
+  ]
+}

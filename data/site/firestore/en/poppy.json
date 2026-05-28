@@ -1,0 +1,50 @@
+{
+  "slug": "poppy",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/poppy.jpg"
+  ],
+  "name": "Poppy",
+  "aliases": [],
+  "description": "Poppy (Papaver spp.) is toxic to cats due to the presence of isoquinoline alkaloids — including morphine, codeine, papaverine, and related opioid compounds in opium poppy (Papaver somniferum), and non-opioid isoquinolines in other species. All parts of the plant contain these alkaloids, with the highest concentration in the seed pod latex.",
+  "safetyNotes": [
+    "Toxic compounds: isoquinoline alkaloids (opioid and non-opioid types depending on species); seed pod latex most concentrated",
+    "Mechanism: opioid alkaloids bind to mu-opioid receptors, causing CNS and respiratory depression; cats are particularly sensitive to opioids",
+    "Symptoms: sedation, lethargy, pin-point pupils, slow or laboured breathing, loss of coordination, vomiting; severe cases cause respiratory failure",
+    "Even ornamental (non-opium) poppy species contain irritant alkaloids that cause GI upset",
+    "Any suspected poppy ingestion warrants prompt veterinary evaluation due to opioid sensitivity in cats"
+  ],
+  "toxicParts": [
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Dilated pupils",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "This is a direct result of the plant's toxins affecting the central nervous system, assumed based on data from other mammals1. 2. Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Extrapolated from symptoms seen in dogs and other mammals1. 3. Lack of Coordination"
+    },
+    {
+      "name": "Lack of coordination",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Caused by the plant's impact on the nervous system; assumed to occur in cats based on mammalian data1. 4. Collapse"
+    },
+    {
+      "name": "Collapse",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "This represents a significant disruption of the nervous system and is extrapolated from reports in dogs and other mammals"
+    }
+  ],
+  "scientificName": "Papaver spp.",
+  "family": "Papaveraceae"
+}

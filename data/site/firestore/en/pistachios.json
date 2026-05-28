@@ -1,0 +1,48 @@
+{
+  "slug": "pistachios",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/pistachios.jpg"
+  ],
+  "name": "Pistachios",
+  "aliases": [],
+  "description": "Pistachios are not considered directly toxic to cats, but they are an unsuitable snack that carries several indirect health risks. Their high fat content poses a pancreatitis risk, and commercially sold pistachios are almost always salted. Mouldy pistachios may contain tremorgenic mycotoxins — fungal toxins that cause severe neurological symptoms.",
+  "safetyNotes": [
+    "Not acutely toxic: no known cat-specific toxic compound in plain pistachios",
+    "Fat risk: high fat content can cause pancreatitis, especially with regular feeding",
+    "Sodium risk: salted pistachios contain harmful amounts of sodium for cats",
+    "Mould risk: green-tinged or improperly stored pistachios may contain tremorgenic mycotoxins — these cause tremors and seizures",
+    "A single pistachio nut (plain, unsalted) is unlikely to cause harm; regular feeding or large amounts warrant vet contact"
+  ],
+  "toxicParts": [
+    "Skin",
+    "Entire food",
+    "Stem",
+    "Powder"
+  ],
+  "symptoms": [
+    {
+      "name": "While pistachios do not contain an acute chemical poison specific to cats",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Indigestion and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within a few hours of ingestion.",
+      "notes": "Cats are obligate carnivores, and their digestive systems struggle to break down the dense oils and high fat content found in nuts1. Furthermore, the hard texture of pistachios makes them physically difficult to digest, and the nuts are highly susceptible to becoming damp and growing mold, all of wh"
+    },
+    {
+      "name": "Renal Stress / Increased Kidney Burden",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Chronic (effects compound over time with repeated ingestions).",
+      "notes": "In a household setting, pistachios are usually encountered as candied, dried, or roasted human snacks that are heavily seasoned with high amounts of salt and sugar1. Feeding these seasoned nuts to a cat provides no nutritional benefit and unnecessarily increases the metabolic burden on their kidneys"
+    }
+  ],
+  "scientificName": "Pistachios",
+  "family": "Various"
+}

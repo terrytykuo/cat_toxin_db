@@ -1,0 +1,54 @@
+{
+  "slug": "sweet_pea",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sweet_pea.jpg"
+  ],
+  "name": "Sweet Pea",
+  "aliases": [],
+  "description": "Sweet Pea (Lathyrus odoratus) is a fragrant climbing flowering plant toxic to cats. It contains aminopropionitrile and related beta-aminopropionitrile compounds (lathyrogens) that cause a condition called lathyrism — affecting the nervous system and connective tissue. The seeds contain the highest concentration of these compounds.",
+  "safetyNotes": [
+    "Toxic compounds: aminopropionitrile (BAPN) and lathyrogen compounds; seeds most concentrated; stems and leaves also toxic",
+    "Mechanism: lathyrogens inhibit lysyl oxidase, an enzyme critical for collagen and elastin cross-linking; also cause direct nervous system toxicity (neurological lathyrism)",
+    "Symptoms: weakness, loss of coordination, paralysis, respiratory difficulty; also vomiting and lethargy",
+    "Sweet Pea is an ornamental plant — not related to edible garden peas (Pisum sativum)",
+    "Seek veterinary care if ingestion is suspected, especially if seeds were consumed"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Seed",
+    "Leaf",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "While small amounts of the plant typically will not harm a cat, ingesting large amounts will trigger these gastrointestinal issues1. 2. Dehydration"
+    },
+    {
+      "name": "Dehydration",
+      "body_system": "Metabolic",
+      "severity": "severe",
+      "notes": "Cats may become dehydrated as a direct consequence of the vomiting and diarrhea caused by the plant's toxins1. 3. Lethargy"
+    },
+    {
+      "name": "Lethargy",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "Lethargy indicates a systemic toxic reaction, occurring after the cat has ingested a large amount of the plant1. 4. Seizures"
+    },
+    {
+      "name": "Seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "Seizures present in severe cases of Sweet Pea poisoning1. (Note from our previous conversation: Severe neurological impairment, such as seizures and pacing, is a manifestation of \"lathyrism,\" which is caused by the toxic aminopropionitriles highly concentrated in the plant's seeds and seed pods)."
+    }
+  ],
+  "scientificName": "Lathyrus odoratus",
+  "family": "Fabaceae"
+}

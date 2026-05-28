@@ -1,0 +1,68 @@
+{
+  "slug": "dracaena_sanderiana",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dracaena_sanderiana.jpg"
+  ],
+  "name": "Lucky Bamboo",
+  "aliases": [],
+  "description": "Lucky Bamboo (Dracaena sanderiana) is a popular decorative plant often sold in water or soil arrangements. Despite its name, it is not a true bamboo — it is a Dracaena species and shares the same toxicity profile as other Dracaena plants. It contains steroidal saponins that irritate the gastrointestinal tract and produce cat-specific neurological effects.",
+  "safetyNotes": [
+    "Toxic compounds: steroidal saponins (consistent with Dracaena genus)",
+    "Mechanism: saponins disrupt cell membrane integrity causing GI irritation; neurological effects noted in cats specifically",
+    "Symptoms: vomiting (sometimes blood-tinged), drooling, loss of appetite, weakness, dilated pupils (mydriasis)",
+    "Dilated pupils are a notable cat-specific sign of Dracaena/Lucky Bamboo toxicity",
+    "Water containing Lucky Bamboo may also carry some toxins — prevent cats from drinking from the vase"
+  ],
+  "toxicParts": [
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid / immediate upon chewing (specific time not provided in sources).",
+      "notes": "This is an initial reaction to the irritation of the mouth and gastrointestinal tract caused by the plant's saponins13. 2. Vomiting"
+    },
+    {
+      "name": "Vomiting (which can occasionally contain blood)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid.",
+      "notes": "Vomiting is one of the most common signs of Dracaena ingestion1.... If vomiting becomes severe or persistent, the cat must be monitored closely for dehydration1. 3. Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Variable (typically occurs as the toxins move through the digestive tract).",
+      "notes": "Veterinary sources note that the diarrhea can be severe, reflecting significant gastrointestinal irritation from the plant's compounds12. 4. Abdominal Pain and Loss of Appetite"
+    },
+    {
+      "name": "Abdominal pain and inappetence (anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid to delayed.",
+      "notes": "Due to the severe stomach upset and irritation, cats will often experience stomach discomfort and a subsequent refusal to eat1.... 5. Dilated Pupils"
+    },
+    {
+      "name": "Dilated pupils (mydriasis)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Variable.",
+      "notes": "The presence of noticeably wide or dilated pupils is a unique clinical sign specifically highlighted in cats that have ingested Dracaena species1.... 6. Depression, Weakness, and Incoordination"
+    },
+    {
+      "name": "Depression (lethargy), generalized weakness, and incoordination (ataxia)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Delayed (usually follows the initial GI distress).",
+      "notes": "While small ingestions are generally self-limiting, these systemic and neurological symptoms are known to manifest if a cat consumes a large amount of the plant or becomes severely weakened from refusing to eat"
+    }
+  ],
+  "scientificName": "Dracaena sanderiana",
+  "family": "Agavaceae"
+}

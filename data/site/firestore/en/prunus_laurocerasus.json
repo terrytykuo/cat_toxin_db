@@ -1,0 +1,60 @@
+{
+  "slug": "prunus_laurocerasus",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/prunus_laurocerasus.jpg"
+  ],
+  "name": "Cherry Laurel",
+  "aliases": [],
+  "description": "Cherry Laurel (Prunus laurocerasus) is a widely planted evergreen shrub used for hedging and screening. Like other members of the Prunus genus (cherries, apricots, plums), its leaves, bark, and seeds contain prunasin — a cyanogenic glycoside that releases hydrogen cyanide (HCN) when crushed or chewed and digested. The mechanism is identical to apple seeds and apricot pits: enzymes break down prunasin, liberating toxic cyanide that halts cellular respiration. The berries themselves contain less cyanogenic material than the leaves and seeds but are still not safe.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, rapid breathing, lethargy, weakness, low blood pressure, and in significant ingestion: seizures and respiratory failure from cyanide toxicity.",
+    "Leaves and seeds are most toxic: Wilted or damaged leaves release cyanide more readily than fresh ones — fallen or pruned branches are particularly dangerous.",
+    "Action: Treat as a veterinary emergency if a cat has chewed on leaves, bark, or seeds. Bring a sample of the plant for identification."
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Seed"
+  ],
+  "symptoms": [
+    {
+      "name": "Tachypnea (rapid breathing), dyspnea (difficulty breathing), or respiratory paralysis",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Rapid (often within 10 to 60 minutes).",
+      "notes": "Because the toxin prevents cells from using oxygen, the cat may gasp for air or pant heavily. Respiratory paralysis is a specific risk associated with Cherry Laurel ingestion.Mucous Membrane Discoloration"
+    },
+    {
+      "name": "Brick red\" gums and cherry-red blood",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Rapid (10–60 minutes).",
+      "notes": "Unlike other conditions that cause pale or blue gums, cyanide poisoning causes the blood to remain fully oxygenated (because tissues cannot extract the oxygen), leading to a characteristic bright red color in the mucous membranes.Neurological Abnormalities"
+    },
+    {
+      "name": "Tremors, seizures, dilated pupils, incoordination (ataxia), and sudden collapse",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Rapid (10–60 minutes).",
+      "notes": "As the brain is deprived of usable oxygen, the cat may exhibit severe neurological signs progressing to coma and death.Gastrointestinal Upset"
+    },
+    {
+      "name": "Hypersalivation (drooling), vomiting, and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid (often the first sign).",
+      "notes": "You may detect a bitter \"almond-like\" odor on the cat's breath. The plant material also causes inflammation of the mucosa (lining of the mouth and stomach).Cardiac Failure"
+    },
+    {
+      "name": "Arrhythmias (irregular heart rate), hypotension (low blood pressure), and cardiac arrest",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Rapid.",
+      "notes": "The toxin causes a rapid decline in cardiac function, often leading to sudden death before veterinary treatment can be administered."
+    }
+  ],
+  "scientificName": "Prunus laurocerasus",
+  "family": "Rosaceae"
+}

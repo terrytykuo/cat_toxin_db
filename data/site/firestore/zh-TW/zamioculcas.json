@@ -1,0 +1,43 @@
+{
+  "slug": "zamioculcas",
+  "source_hash": "9922963f5d1629c55350fbcdcf69ca6badfc4c9ab0112c900aa6188ca1d8aa72",
+  "translated_at": "2026-05-21T10:41:59Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "金錢樹",
+  "aliases": [],
+  "description": "金錢樹 (Zamioculcas zamiifolia) 是一種受歡迎且低維護的室內植物，對貓有輕微毒性。作為天南星科的一員，它的葉子和莖部含有不溶性草酸鈣晶體（針晶）。厚實的蠟質葉片可能會減弱典型的即時疼痛反應，但誤食時晶體仍會引起消化系統刺激。",
+  "safetyNotes": [
+    "有毒化合物：不溶性草酸鈣針晶；蠟質葉面提供了部分物理屏障，但不能消除毒性",
+    "機制：晶體對口腔和消化道黏膜造成機械性刺激；汁液中的蛋白水解酶可能會放大反應",
+    "症狀：流口水、嘔吐、腹瀉；由於葉片較厚，口腔疼痛通常比花葉萬年青 (Dieffenbachia) 不明顯",
+    "該植物的耐用性和普及度意味著它在家庭和辦公室中非常常見",
+    "若發生誤食，請觀察是否有消化系統症狀；若嘔吐持續，請聯繫獸醫"
+  ],
+  "toxicParts": [
+    "整株植物"
+  ],
+  "symptoms": [
+    {
+      "name": "口腔刺激（口腔內劇烈疼痛和灼熱感）",
+      "body_system": "消化系統",
+      "onset": "立即（咀嚼時）"
+    },
+    {
+      "name": "過度流口水",
+      "body_system": "消化系統",
+      "onset": "立即"
+    },
+    {
+      "name": "食慾不振",
+      "body_system": "消化系統",
+      "onset": "立即至接觸後不久"
+    },
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統",
+      "onset": "攝入後不久"
+    }
+  ]
+}

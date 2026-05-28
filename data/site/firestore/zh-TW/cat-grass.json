@@ -1,0 +1,16 @@
+{
+  "slug": "cat-grass",
+  "source_hash": "7efbb667a69cea9cdf406330b7b0e921fc1c5a668d68a73107c876cb38635bf0",
+  "translated_at": "2026-05-21T10:22:20Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "貓草 (小麥草)",
+  "aliases": [
+    "小麥草"
+  ],
+  "description": "貓草（小麥草）是專門為貓食用而種植的終極「安全」植物。它有助於消化、提供纖維，並滿足貓咀嚼綠色植物的自然本能。只需 7-10 天即可輕鬆從種子種出。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

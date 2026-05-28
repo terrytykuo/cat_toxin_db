@@ -1,0 +1,45 @@
+{
+  "slug": "corn_on_the_cob",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/corn_on_the_cob/images/1773010880576.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/corn_on_the_cob/images/1773010887032.avif"
+  ],
+  "name": "Corn",
+  "aliases": [],
+  "description": "Corn kernels themselves are not toxic to cats — plain, cooked corn is generally considered safe in very small amounts. The significant danger comes from the cob, which poses a severe gastrointestinal obstruction risk. Cats that chew and swallow pieces of corn cob cannot digest the fibrous material; it passes into the intestines and can become lodged, causing a blockage that requires emergency surgery. A secondary risk comes from seasonings: corn prepared for human consumption often contains butter, salt, garlic, or onion powder — all of which are harmful to cats.",
+  "safetyNotes": [
+    "Cob obstruction is the primary danger: Unlike corn kernels, cob pieces do not break down and can lodge in the throat or intestine. This is a surgical emergency.",
+    "Seasonings: Garlic and onion powder (used on corn) are highly toxic to cats (Allium toxicity); excessive salt and butter cause GI distress.",
+    "Safe corn: Plain cooked kernels, free of cob and seasonings, can be given as a very occasional small treat.",
+    "Action: If a cat has swallowed a piece of cob, seek emergency veterinary care. Watch for signs of obstruction: vomiting, straining, lethargy, loss of appetite."
+  ],
+  "toxicParts": [
+    "Cob"
+  ],
+  "symptoms": [
+    {
+      "name": "Based on the provided sources and our conversation history, the corn kernels themselves are actually safe for cats to eat in small amounts1. However",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Gastrointestinal Obstruction (From Swallowing the Cob)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Varies (typically hours to a few days,",
+      "notes": "While plain corn kernels are safe for cats1, the intact corn cob is highly dangerous. The cob cannot be digested and acts as a physical obstruction in the intestines, which can be fatal2. Pets scavenging in the garbage for discarded cobs are at a high risk for developing intestinal blockages, which"
+    },
+    {
+      "name": "Aflatoxicosis (From Moldy Corn)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Acute (short-term) after ingestion of high doses,",
+      "notes": "If raw or stored corn is exposed to high moisture and temperatures, it can grow Aspergillus fungi (A. flavus and A. parasiticus)45. These molds produce aflatoxins, which cause severe liver damage and the rupture of blood vessels46. While cats are less likely to scavenge moldy agricultural corn than"
+    }
+  ],
+  "scientificName": "Corn",
+  "family": "Various"
+}

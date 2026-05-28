@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
+    "audit:registry": "node pipeline/audit_toxin_registry.js",
     "build:schemas": "npm --prefix schemas run build",
     "check:schemas": "npm --prefix schemas run check"
   }

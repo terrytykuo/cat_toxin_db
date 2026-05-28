@@ -1,0 +1,42 @@
+{
+  "aliases": [],
+  "description": "軟枝黃蟬是一種因其鮮豔的黃色喇叭形花朵而受人喜愛的熱帶觀賞灌木，但植物的每個部分——葉、莖、花、種子以及其乳白色的汁液——對貓都有毒。該植物含有環烯醚萜類化合物（包括黃蟬花素），這些物質具有強大的瀉藥作用和嚴重的消化系統刺激性。乳白色的汁液對皮膚、眼睛和黏膜具有直接刺激性，構成了額外的危險。",
+  "gemini_model": "gemini-cli-default",
+  "manual_override": false,
+  "name": "軟枝黃蟬",
+  "safetyNotes": [
+    "症狀：誤食會導致嘔吐、腹瀉（可能帶血）、腹痛和流口水；汁液接觸皮膚或眼睛會導致發紅、腫脹和疼痛。",
+    "全株有毒：花、葉、莖、種子和汁液皆含有有毒化合物。",
+    "處置：若貓誤食植物的任何部分或表現出不適跡象，請立即就醫。"
+  ],
+  "slug": "allamanda_cathartica",
+  "source_hash": "09d168920ab5cb30589e2db3ea72e6e5a1924ac11b6a92bb3aaee687c6cfb47b",
+  "symptoms": [
+    {
+      "body_system": "消化系統",
+      "name": "腹部不適（疼痛）"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "腹瀉"
+    },
+    {
+      "body_system": "代謝系統",
+      "name": "脫水",
+      "onset": "繼發性影響，在腹瀉導致持續液體流失後出現。"
+    },
+    {
+      "body_system": "血液系統",
+      "name": "電解質失衡",
+      "onset": "繼發性影響，隨液體流失而出現。"
+    }
+  ],
+  "toxicParts": [
+    "樹皮",
+    "葉",
+    "種子",
+    "果實"
+  ],
+  "translated_at": "2026-05-15T21:43:29Z",
+  "migrated_from": "data/site/zh-TW/allamanda_cathartica.json"
+}

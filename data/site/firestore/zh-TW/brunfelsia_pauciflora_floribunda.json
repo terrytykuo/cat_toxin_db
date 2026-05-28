@@ -1,0 +1,49 @@
+{
+  "slug": "brunfelsia_pauciflora_floribunda",
+  "source_hash": "125a5258936bb2b5aff524b692645b2870841738bf743c149f1fbb4ae584a71c",
+  "translated_at": "2026-05-21T10:41:33Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "番茉莉",
+  "aliases": [],
+  "description": "番茉莉 (Brunfelsia pauciflora) 因其花朵在三天內會改變顏色而得名，對貓具有中等毒性。植物的所有部分都含有番茉莉鹼 (brunfelsamidine) 和其他甾體生物鹼。它是茄科植物，特別以引起神經系統症狀而聞名。",
+  "safetyNotes": [
+    "有毒化合物：番茉莉鹼及相關甾體生物鹼；植物所有部位均有毒",
+    "機制：生物鹼會影響中樞神經系統，先引起興奮，隨後引起中樞神經系統抑制",
+    "症狀：嘔吐、腹瀉、肌肉震顫、癲癇、體溫過高；典型的症狀表現為煩躁與鎮靜交替",
+    "常作為熱帶地區的園藝裝飾灌木——請讓貓遠離花園",
+    "若疑似攝入，請立即尋求獸醫治療；神經系統症狀可能迅速惡化"
+  ],
+  "toxicParts": [
+    "樹皮",
+    "葉",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "心搏過速（心跳過快）",
+      "body_system": "心血管系統"
+    },
+    {
+      "name": "口乾",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "瞳孔放大",
+      "body_system": "神經系統"
+    },
+    {
+      "name": "共濟失調（協調性喪失）與震顫",
+      "body_system": "神經系統"
+    },
+    {
+      "name": "尿滯留",
+      "body_system": "腎臟系統"
+    },
+    {
+      "name": "抑鬱、深度鎮靜，有時會昏迷",
+      "body_system": "神經系統"
+    }
+  ]
+}

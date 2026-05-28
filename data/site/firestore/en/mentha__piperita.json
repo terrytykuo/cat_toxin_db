@@ -1,0 +1,56 @@
+{
+  "slug": "mentha__piperita",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/mentha__piperita.jpg"
+  ],
+  "name": "Peppermint",
+  "aliases": [],
+  "description": "Peppermint (Mentha x piperita) is mildly toxic to cats. The plant is rich in menthol and pulegone — monoterpenoid compounds that cats cannot efficiently metabolise due to limited hepatic glucuronidase activity. While fresh plant nibbling usually causes only mild GI upset, peppermint essential oil is significantly more concentrated and far more dangerous.",
+  "safetyNotes": [
+    "Toxic compounds: menthol, pulegone, and related monoterpenoids; essential oil is 50-100x more concentrated than fresh leaves",
+    "Mechanism: impaired feline hepatic metabolism of terpenoids leads to GI irritation and liver stress; high doses cause CNS depression",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy; peppermint oil can cause tremors, weakness, and liver damage",
+    "Never apply peppermint oil to a cat's skin or fur — topical exposure causes rapid systemic absorption",
+    "Diffusing peppermint oil in closed spaces is also harmful; use in well-ventilated areas away from cats"
+  ],
+  "toxicParts": [
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea, nausea, excessive drooling (hypersalivation), difficulty swallowing, and loss of appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "The essential oils found in peppermint and garden mint can relax the esophageal valve, which makes vomiting more likely4. While a small nibble of the raw plant may only cause mild stomach upset, exposure to concentrated peppermint oil is highly toxic35. Neurological Impairment"
+    },
+    {
+      "name": "Lethargy, weakness, uncoordinated gait (walking as if drunk/ataxia), muscle tremors, and seizures",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "Severe neurological symptoms are typically associated with exposure to large quantities of the plant or concentrated peppermint essential oils3.... Respiratory Distress"
+    },
+    {
+      "name": "Difficulty breathing, breathing with the mouth open, coughing, and sneezing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "notes": "Respiratory irritation can occur from ingesting or inhaling strong peppermint essential oils, such as those aerosolized by indoor diffusers1112. Liver Damage"
+    },
+    {
+      "name": "Liver damage progressing to liver failure",
+      "body_system": "Hepatic",
+      "severity": "severe",
+      "notes": "Cats lack the specific liver enzymes required to safely process and break down plant essential oils like menthol and pulegone found in peppermint, leading to toxic buildup and organ stress1314. Skin and Mucous Membrane Irritation"
+    },
+    {
+      "name": "Skin irritation, redness, or chemical burns on the skin, lips, gums, and tongue",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "notes": "This occurs upon direct contact with peppermint essential oils. Furthermore, if the oil gets on the cat's fur, there is a high risk they will lick it off and ingest it during normal grooming"
+    }
+  ],
+  "scientificName": "Mentha × piperita",
+  "family": "Lamiaceae"
+}

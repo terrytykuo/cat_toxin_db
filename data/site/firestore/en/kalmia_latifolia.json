@@ -1,0 +1,62 @@
+{
+  "slug": "kalmia_latifolia",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://upload.wikimedia.org/wikipedia/commons/f/fb/Kalmia_Latifolia.jpg"
+  ],
+  "name": "Mountain Laurel",
+  "aliases": [],
+  "description": "Mountain Laurel (Kalmia latifolia) is a broadleaf evergreen shrub in the heath family — related to Rhododendron and Azalea — and equally dangerous for cats. All parts contain grayanotoxins, the same diterpenoid polyol compounds responsible for the most severe ornamental plant poisonings in companion animals. Even nectar and pollen are toxic.",
+  "safetyNotes": [
+    "Toxic compounds: grayanotoxins I, II, and III; all parts toxic — leaves, flowers, nectar, pollen, and berries",
+    "Mechanism: grayanotoxins hold voltage-gated sodium channels open, causing sustained membrane depolarisation in cardiac and skeletal muscle; this leads to hypotension, bradycardia, and arrhythmias",
+    "Symptoms: profuse drooling, vomiting, diarrhea, severe weakness, loss of coordination, abnormally slow heart rate, tremors, seizures; can be fatal without treatment",
+    "Even small amounts of leaves or flowers can cause serious cardiac effects in cats",
+    "Any suspected ingestion is a veterinary emergency"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea, inappetence (loss of appetite), abdominal pain, and hypersalivation (drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within 1 to 4 hours (and occasionally up to 12 hours) after ingestion",
+      "notes": "These are generally the most common and earliest signs of grayanotoxin poisoning14. If a cat only ingests a small amount of the plant (a few leaves or petals), the clinical signs are typically limited to these gastrointestinal effects and mild central nervous system depression3. 2. Central Nervous S"
+    },
+    {
+      "name": "CNS depression, lethargy, and profound muscle weakness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "notes": "Weakness and depression can occur even with smaller ingestions, but larger amounts will cause a progression to much more severe neurological and cardiovascular issues35. 3. Cardiac Abnormalities and Hypotension"
+    },
+    {
+      "name": "Abnormally slow heart rate (bradycardia), irregular heart rhythms (arrhythmias), and low blood pressure (hypotension)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "notes": "This is a life-threatening manifestation of grayanotoxin poisoning that occurs with larger ingestions5. The toxins bind to sodium channels, primarily affecting cardiac muscle, which can rapidly lead to cardiovascular collapse13. Continuous monitoring of the cat's heart rate and blood pressure is req"
+    },
+    {
+      "name": "Muscle tremors and seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "notes": "These severe neurological symptoms manifest when a larger, highly toxic dose of the plant is consumed5. Veterinarians typically use methocarbamol to manage the tremors and standard anticonvulsants for seizure control6. 5. Transient Blindness"
+    },
+    {
+      "name": "Transient (temporary) blindness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "notes": "While it is a known symptom of grayanotoxin poisoning, transient blindness is reported less commonly than the associated gastrointestinal, cardiovascular, and general central nervous system abnormalities"
+    }
+  ],
+  "scientificName": "Kalmia latifolia",
+  "family": "Ericaceae"
+}

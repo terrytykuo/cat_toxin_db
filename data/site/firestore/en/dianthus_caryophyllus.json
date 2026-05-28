@@ -1,0 +1,36 @@
+{
+  "slug": "dianthus_caryophyllus",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dianthus_caryophyllus.jpg"
+  ],
+  "name": "Carnation",
+  "aliases": [],
+  "description": "Carnations (Dianthus caryophyllus) are popular cut flowers and garden plants used in bouquets and floral arrangements worldwide. They are mildly toxic to cats. The plant contains saponins and other mildly irritating compounds whose exact mechanism is not fully characterised, but which cause predictable gastrointestinal symptoms. Because carnations appear so frequently in bouquets and as houseplants, they represent a common — if mild — exposure risk for curious cats.",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, and mild abdominal discomfort; dermatitis (skin irritation) can occur if a cat repeatedly rubs against the plant.",
+    "Flowers and leaves: All parts of the plant are mildly toxic; symptoms are typically self-limiting and resolve without treatment.",
+    "Action: Monitor the cat after exposure. Contact a vet if vomiting is persistent or severe, or if the cat seems unusually lethargic."
+  ],
+  "toxicParts": [
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "Carnations are often found in floral arrangements as filler flowers. Ingestion of the plant material triggers these digestive symptoms.Dermatological Irritation"
+    },
+    {
+      "name": "Dermatological symptoms (Skin irritation)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "notes": "While less common than vomiting, exposure to the plant can sometimes result in skin reactions."
+    }
+  ],
+  "scientificName": "Dianthus caryophyllus",
+  "family": "Caryophyllaceae"
+}

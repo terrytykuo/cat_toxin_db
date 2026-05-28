@@ -1,0 +1,22 @@
+{
+  "slug": "areca-palm",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/areca-palm/images/1773840160482.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/areca-palm/images/1774784460826.avif"
+  ],
+  "name": "Areca Palm",
+  "aliases": [
+    "Butterfly Palm",
+    "Golden Cane Palm",
+    "Yellow Palm"
+  ],
+  "description": "The Areca Palm is a graceful, feathery palm that brings a tropical feel to any space. It is non-toxic to cats and also acts as a natural air humidifier. Cats may be tempted to chew on the fronds, but they are perfectly safe.",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": [],
+  "scientificName": "Dypsis lutescens",
+  "family": ""
+}

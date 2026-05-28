@@ -1,0 +1,69 @@
+{
+  "slug": "leeks",
+  "source_hash": "3db2b04eaa995903bc05d08632751082e8b39c28ed83781a476c8e4d0f3276ed",
+  "translated_at": "2026-05-21T10:13:23Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "food",
+  "name": "韭蔥",
+  "aliases": [],
+  "description": "韭蔥 (Allium ampeloprasum) 是蔥屬植物的一員——該家族還包括大蒜、洋蔥和蝦夷蔥——這些對貓都有毒。韭蔥含有 N-propyl disulfide 和相關的有機硫化合物，會氧化貓的血紅素，導致海因茨體溶血性貧血。所有形式的韭蔥都很危險：包括生食、煮熟和乾燥的韭蔥。",
+  "safetyNotes": [
+    "有毒化合物：N-propyl disulfide 和有機硫化合物 (alk(en)yl cysteine sulfoxides)；所有部位皆有毒，包括球莖、莖和葉",
+    "機制：對血紅素的氧化損傷會產生海因茨體；脾臟破壞受損紅血球的速度快於新生速度，進而導致溶血性貧血",
+    "症狀：嗜睡、虛弱、黏膜蒼白或發黃、呼吸急促、食慾不振、紅褐色尿液；症狀通常在攝入後 3-5 天才會出現",
+    "湯品、燉菜或炒菜中的韭蔥在烹飪後依然具有毒性",
+    "切勿與貓分享含有韭蔥的食物；若懷疑誤食，請立即聯繫獸醫"
+  ],
+  "toxicParts": [
+    "粉末",
+    "汁",
+    "整株植物"
+  ],
+  "symptoms": [
+    {
+      "name": "由於韭蔥屬於蔥屬，其毒性表現與洋蔥和大蒜的臨床症狀完全相同",
+      "body_system": "代謝系統"
+    },
+    {
+      "name": "嘔吐、腹瀉、腹痛和食慾不振",
+      "body_system": "消化系統",
+      "onset": "通常在攝入後 1 天（24 小時）內"
+    },
+    {
+      "name": "嗜睡、虛弱和抑鬱",
+      "body_system": "神經系統",
+      "onset": "延遲數天後"
+    },
+    {
+      "name": "黏膜蒼白和黃疸 (Icterus)",
+      "body_system": "消化系統",
+      "onset": "延遲數天後"
+    },
+    {
+      "name": "呼吸過速 (Tachypnea) 和呼吸困難 (Dyspnea)",
+      "body_system": "呼吸系統",
+      "onset": "延遲數天後"
+    },
+    {
+      "name": "心跳過速 (Tachycardia)（心率加快）",
+      "body_system": "心血管系統",
+      "onset": "延遲數天後"
+    },
+    {
+      "name": "血紅素尿 (Hemoglobinuria)（深色尿液）",
+      "body_system": "消化系統",
+      "onset": "延遲數天後"
+    },
+    {
+      "name": "畏寒",
+      "body_system": "神經系統",
+      "onset": "攝入後數天"
+    },
+    {
+      "name": "蔥屬植物口臭味",
+      "body_system": "消化系統",
+      "onset": "攝入後不久"
+    }
+  ]
+}

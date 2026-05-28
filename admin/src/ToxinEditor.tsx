@@ -561,7 +561,7 @@ export default function ToxinEditor({
   const isHidden = toxin.hidden === true
 
   return (
-    <div className="max-w-3xl mx-auto p-6 space-y-5">
+    <div className="p-6 space-y-5">
       {/* Hero */}
       <div className="flex gap-4">
         <ImagesField toxin={toxin} onUpdate={onUpdate} />

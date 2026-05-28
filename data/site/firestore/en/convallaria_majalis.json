@@ -1,0 +1,49 @@
+{
+  "slug": "convallaria_majalis",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/convallaria_majalis.jpg"
+  ],
+  "name": "Lily of the Valley",
+  "aliases": [],
+  "description": "Lily of the Valley (Convallaria majalis) is one of the most dangerous plants for cats. Despite its delicate appearance, every part — flowers, leaves, stems, berries, and even the water in a vase — contains potent cardiac glycosides including convallatoxin, convalloside, and over 30 related compounds. These affect the heart in a manner similar to Foxglove, and even tiny amounts can be lethal.",
+  "safetyNotes": [
+    "Toxic compounds: convallatoxin, convalloside, and 30+ related cardiac glycosides; highest in flowers and berries",
+    "Mechanism: cardiac glycosides inhibit Na+/K+-ATPase in heart muscle, disrupting electrical conduction and causing severe arrhythmias",
+    "Symptoms: vomiting, drooling, bradycardia (dangerously slow heart rate), hypotension, cardiac arrhythmias, weakness, collapse; can be fatal",
+    "All plant parts are hazardous — even the water in a flower vase can cause toxicity",
+    "Any ingestion is a veterinary emergency; do not wait for symptoms to develop"
+  ],
+  "toxicParts": [
+    "Root",
+    "Entire Plant",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea (which may contain blood), abdominal pain/discomfort, and trembling",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Variable latent period depending on the dose;",
+      "notes": "These symptoms are primarily triggered by the irritant saponins found throughout the plant12. The severe irritation of the gastrointestinal tract often precedes more dangerous systemic cardiovascular issues1. 2. Cardiovascular Depression and Arrhythmias"
+    },
+    {
+      "name": "Bradycardia (a sudden, significant decrease in heart rate) and severe cardiac arrhythmias (such as Atrioventricular or AV block)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Variable latent period depending on the dose;",
+      "notes": "This is the most dangerous consequence of Lily of the Valley toxicity and is caused by the plant's cardiac glycosides2.... These toxins alter how the cardiac muscle contracts and disrupt electrical conduction57. In acute cases, this can also lead to hyperkalemia (dangerously high potassium levels in"
+    },
+    {
+      "name": "Seizures and tremors",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Variable; usually develops as the cardiovascular depression worsens",
+      "notes": "Seizures and trembling are secondary clinical signs that manifest as the toxins profoundly depress the cardiovascular system and disrupt cellular functions15. (Note: While these symptoms are highly dangerous and potentially fatal, veterinary sources emphasize that Lily of the Valley does not cause t"
+    }
+  ],
+  "scientificName": "Convallaria majalis",
+  "family": "Liliaceae"
+}

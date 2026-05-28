@@ -1,0 +1,49 @@
+{
+  "slug": "caladium_spp_or_alocasia_spp",
+  "source_hash": "8e0744840cce3d9e41274c82479961720e84e12abe20025df07b053bb7f04e5c",
+  "translated_at": "2026-05-21T10:21:45Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "彩葉芋 / 觀音蓮 (Caladium / Elephant’s Ear)",
+  "aliases": [],
+  "description": "彩葉芋 (Caladium spp.)，俗稱為觀音蓮，是一種因其紅、粉、白、綠等色澤鮮艷的心形葉片而被廣泛種植的熱帶室內植物。植物的所有部位——葉、莖，特別是地下塊莖——都含有不溶性草酸鈣結晶 (raphides)，這些結晶在接觸任何軟組織時會造成即時的機械性損傷。塊莖含有最高濃度的結晶，如果貓咪挖掘盆栽，其造成的風險最大。",
+  "safetyNotes": [
+    "症狀：立即性的劇烈口腔疼痛、過度流涎、用爪子抓嘴巴、口腔、嘴唇和喉嚨腫脹、吞嚥困難以及嘔吐。",
+    "塊莖濃度最高：貓咪若挖掘彩葉芋盆栽並啃咬塊莖，會攝入最高劑量的草酸鈣結晶。",
+    "動作：用水沖洗貓的嘴巴以清除結晶。如果腫脹嚴重或症狀未迅速緩解，請尋求獸醫治療。"
+  ],
+  "toxicParts": [
+    "根",
+    "莖",
+    "葉",
+    "整株植物"
+  ],
+  "symptoms": [
+    {
+      "name": "口腔、舌頭和嘴唇有強烈的灼熱感與刺激感",
+      "body_system": "皮膚",
+      "onset": "立即 (咀嚼或咬時)。"
+    },
+    {
+      "name": "流涎過度 (Ptyalism)",
+      "body_system": "消化系統",
+      "onset": "立即 / 急性。"
+    },
+    {
+      "name": "舌頭、嘴唇和咽喉水腫 (腫脹)",
+      "body_system": "消化系統",
+      "onset": "立即至急性 (快速進展)。"
+    },
+    {
+      "name": "呼吸困難 (Respiratory Distress)",
+      "body_system": "呼吸系統",
+      "onset": "急性 (繼發於腫脹)。"
+    },
+    {
+      "name": "嘔吐與腹瀉",
+      "body_system": "消化系統",
+      "onset": "急性 (攝入後)。"
+    }
+  ]
+}

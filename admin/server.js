@@ -11,6 +11,18 @@ import { stripFirestoreOnly } from './lib/field-policy.js'
 import { atomicWriteJson, resolveDiskPath, validateDiskPayload } from './lib/disk-writer.js'
 import { validateGlossary } from './lib/glossary-validator.js'
 
+const TRANSLATABLE_FIELDS = new Set([
+  'name',
+  'description',
+  'aliases',
+  'toxicParts',
+  'safetyNotes',
+  'emergencyNote',
+  'symptoms',
+  'chemicals',
+  'treatments',
+])
+
 async function compressImage(buffer) {
   return sharp(buffer)
     .resize({ width: 800, withoutEnlargement: true })
@@ -21,6 +33,8 @@ async function compressImage(buffer) {
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(import.meta.url)
 const admin = require('firebase-admin')
+
+const ZH_TW_DIR = resolve(__dirname, '..', 'data', 'site', 'zh-TW')
 
 function parseEnvFile(filePath) {
   if (!existsSync(filePath)) return {}
@@ -288,6 +302,59 @@ app.delete('/api/toxins/:id/images/:index', async (req, res) => {
     }
 
     res.json({ ok: true, imageUrls: next })
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
+// ── Translations (zh-TW) ─────────────────────────────────────────────────────
+
+function zhPathForSlug(slug) {
+  return resolve(ZH_TW_DIR, `${slug}.json`)
+}
+
+function readZhFile(slug) {
+  const path = zhPathForSlug(slug)
+  if (!existsSync(path)) return null
+  return JSON.parse(readFileSync(path, 'utf8'))
+}
+
+app.get('/api/translations/:slug', (req, res) => {
+  try {
+    const { slug } = req.params
+    if (!isValidDocId(slug)) return res.status(400).json({ error: 'Invalid slug' })
+
+    const data = readZhFile(slug)
+    if (!data) return res.status(404).json({ error: 'Not translated yet', slug })
+    res.json(data)
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
+app.patch('/api/translations/:slug', (req, res) => {
+  try {
+    const { slug } = req.params
+    if (!isValidDocId(slug)) return res.status(400).json({ error: 'Invalid slug' })
+
+    const patch = req.body && typeof req.body === 'object' ? req.body : {}
+    const invalid = Object.keys(patch).filter(k => !TRANSLATABLE_FIELDS.has(k))
+    if (invalid.length > 0) {
+      return res.status(400).json({ error: 'Unknown fields', fields: invalid })
+    }
+
+    const existing = readZhFile(slug) || { slug }
+    const merged = {
+      ...existing,
+      ...patch,
+      slug,
+      manual_override: true,
+      translated_at: new Date().toISOString(),
+    }
+
+    const path = zhPathForSlug(slug)
+    atomicWriteJson(path, merged)
+    res.json({ ok: true, path, data: merged })
   } catch (e) {
     res.status(500).json({ error: e.message })
   }

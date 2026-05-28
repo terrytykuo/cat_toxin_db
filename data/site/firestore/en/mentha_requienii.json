@@ -1,0 +1,58 @@
+{
+  "slug": "mentha_requienii",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/mentha_requienii.jpg"
+  ],
+  "name": "Corsican Mint",
+  "aliases": [],
+  "description": "Corsican Mint (Mentha requienii) is a tiny, ground-covering mint variety with an intensely concentrated minty fragrance despite its small leaf size. Like all mints, it contains menthol, pulegone, and other monoterpene compounds that cats cannot safely metabolise — their livers lack sufficient glucuronyl transferase activity to process these compounds. The small size of the plant may make it seem harmless, but its essential oil concentration per gram is notably high.",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, and lethargy after ingestion; respiratory irritation if a cat inhales crushed leaves or essential oil.",
+    "Essential oils are the highest risk: Concentrated mint essential oil should never be used around cats — even diffused, it can cause serious respiratory distress.",
+    "Action: Keep the plant and any mint-derived products (oils, sprays) away from cats. Consult a vet if significant ingestion or respiratory symptoms occur."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "This is one of the primary symptoms explicitly linked to the ingestion of Corsican Mint plant material. The essential oils in the plant can relax the esophageal valve, which makes vomiting more likely.Lethargy and Weakness"
+    },
+    {
+      "name": "Lethargy (General Weakness)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "Lethargy is specifically highlighted as a symptom of Corsican Mint ingestion. It indicates a systemic reaction to the toxins, potentially affecting the central nervous system.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "Like other mint varieties, the essential oils act as irritants to the intestinal lining, leading to loose stools.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling or Foaming at the mouth",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Rapid (often a response to taste or mucosal irritation).",
+      "notes": "Nausea and oral irritation from the mint oils can cause the cat to drool excessively.Respiratory Difficulty (Linked to Oils)"
+    },
+    {
+      "name": "Difficulty breathing (Dyspnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid (if oils are inhaled or aspirated).",
+      "notes": "While less common with grazing on the plant itself, severe respiratory issues can occur if the cat aspirates vomit or is exposed to concentrated mint essential oils (which are highly toxic). Strong aromas alone can sometimes irritate a cat's respiratory tract."
+    }
+  ],
+  "scientificName": "Mentha requienii",
+  "family": "Lamiaceae"
+}

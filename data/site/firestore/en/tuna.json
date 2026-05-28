@@ -1,0 +1,61 @@
+{
+  "slug": "tuna",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/tuna.png"
+  ],
+  "name": "Tuna",
+  "aliases": [],
+  "description": "Plain, cooked tuna is not toxic to cats and is often used as a flavour enhancer in cat food. However, regular feeding of tuna — especially raw tuna — creates significant health risks: thiamine deficiency, mercury accumulation, and nutritional imbalance. Tuna should be an occasional treat, not a dietary staple.",
+  "safetyNotes": [
+    "Thiaminase risk: raw tuna contains thiaminase, which destroys thiamine (B1); regular raw tuna feeding causes neurological damage — weakness, head tilt, seizures",
+    "Mercury risk: tuna is high in mercury; chronic exposure causes neurological damage, kidney damage, and immune suppression",
+    "Nutritional imbalance: tuna alone lacks several essential nutrients for cats (calcium, vitamins) and is high in unsaturated fats that deplete vitamin E",
+    "Canned tuna in water (plain, no salt): safe as an occasional treat; avoid tuna in oil or with any added salt",
+    "A small piece of plain cooked tuna occasionally is fine; daily feeding is not recommended"
+  ],
+  "toxicParts": [
+    "Raw form",
+    "Entire food",
+    "Juice"
+  ],
+  "symptoms": [
+    {
+      "name": "While a tiny bite of plain, cooked tuna is generally safe as a rare treat, feeding a cat a diet heavy in tuna",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Steatitis (Yellow Fat Disease)",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Chronic (develops over weeks to months of a diet heavy in tuna).",
+      "notes": "Tuna is extremely high in polyunsaturated fatty acids but naturally lacks adequate Vitamin E2. A heavy tuna diet depletes the cat's Vitamin E reserves, causing the fat tissue to oxidize and become painfully inflamed23. This manifests as firm, exquisitely painful lumps under the skin, making the cat"
+    },
+    {
+      "name": "Neurological Dysfunction (Methylmercury Poisoning)",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Chronic (accumulates over time with regular feeding).",
+      "notes": "Because tuna is a large apex predator, it bioaccumulates high levels of methylmercury2. Cats are particularly sensitive to low doses of organic mercury, which easily crosses the blood-brain barrier and interferes with neuronal protein synthesis25. This leads to progressive nervous system damage, vis"
+    },
+    {
+      "name": "Neurological Dysfunction (Thiamine Deficiency) (Note",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Chronic / Delayed (typically develops within 2 to 4 weeks of a raw fish-heavy diet).",
+      "notes": "Raw tuna (such as Skipjack and Yellowfin) can contain thiaminase, an enzyme that destroys thiamine (Vitamin B1)6. Lack of thiamine halts cellular energy metabolism and causes a potentially fatal \"Wernicke-like\" encephalopathy7. Thorough cooking destroys the thiaminase enzyme, eliminating this specif"
+    },
+    {
+      "name": "Gastrointestinal Upset and Salt Toxicosis (Note",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Acute (within hours to a few days of ingestion).",
+      "notes": "Human-grade canned tuna is frequently packed in oil or high-sodium brine12. The high fat content in oil-packed tuna can trigger severe digestive upset or acute pancreatitis910. Brine-packed tuna contains excessive salt, which can disrupt the cat's osmotic balance and lead to dehydration, sodium ion"
+    }
+  ],
+  "scientificName": "Tuna",
+  "family": "Various"
+}

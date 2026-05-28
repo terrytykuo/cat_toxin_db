@@ -1,0 +1,62 @@
+{
+  "slug": "asclepias_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/asclepias_spp.jpg"
+  ],
+  "name": "Milkweed",
+  "aliases": [],
+  "description": "Milkweed (Asclepias spp.) is a toxic plant for cats due to cardenolide cardiac glycosides — potent compounds found throughout the plant, with the highest concentration in the milky latex sap. These compounds act on the heart in a manner similar to Foxglove, disrupting the electrical signals that regulate heartbeat. All parts including dried plant material remain toxic.",
+  "safetyNotes": [
+    "Toxic compounds: cardenolide cardiac glycosides in latex sap, leaves, and stems",
+    "Mechanism: cardenolides inhibit the Na+/K+-ATPase pump in cardiac muscle cells, causing arrhythmias",
+    "Symptoms: drooling, vomiting, weakness, abnormal heart rate, muscle tremors; severe cases may cause seizures and cardiac failure",
+    "The milky latex sap is the most concentrated source — avoid contact with broken stems",
+    "Seek veterinary care promptly; cardiac glycoside toxicity can escalate rapidly"
+  ],
+  "toxicParts": [
+    "Sap",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within 2 hours",
+      "notes": "These are generally the first visible signs of cardiac glycoside toxicosis before systemic cardiovascular symptoms become apparent12. 2. Cardiovascular Abnormalities"
+    },
+    {
+      "name": "Abnormal heart rates and rhythms (including bradycardia, tachycardia, and severe arrhythmias)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within 2 hours",
+      "notes": "This is the most dangerous effect of the plant's cardiac glycosides, which disrupt the Na+/K+ ATPase pump and alter how the heart muscle contracts. This can also trigger hyperkalemia (dangerously high potassium levels in the blood), which is life-threatening12. 3. Generalized Weakness and Neurologic"
+    },
+    {
+      "name": "Weakness and unspecified neurological signs",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within 2 hours",
+      "notes": "These symptoms manifest as the cardiovascular system becomes profoundly depressed and cellular oxygen/energy cycles are disrupted12. 4. Breathing Difficulties"
+    },
+    {
+      "name": "Breathing difficulties (dyspnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Within 2 hours (or developing as the condition worsens).",
+      "notes": "Respiratory distress frequently occurs secondarily as the heart begins to fail and blood pressure drops2. 5. Organ Damage"
+    },
+    {
+      "name": "Organ damage",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Delayed (typically develops as symptoms persist over 4–5 days).",
+      "notes": "Depending heavily on the amount of milkweed or toxic sap ingested, systemic toxicity can ultimately cause severe damage to the liver or kidneys"
+    }
+  ],
+  "scientificName": "Asclepias spp.",
+  "family": "Apocynaceae"
+}

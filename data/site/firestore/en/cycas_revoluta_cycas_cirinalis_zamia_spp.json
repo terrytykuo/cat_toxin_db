@@ -1,0 +1,57 @@
+{
+  "slug": "cycas_revoluta_cycas_cirinalis_zamia_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cycas_revoluta_cycas_cirinalis_zamia_spp.jpg"
+  ],
+  "name": "Sago Palm / Cycads",
+  "aliases": [],
+  "description": "Sago Palm (Cycas revoluta) and related cycad species are among the most hepatotoxic plants known, with a case fatality rate exceeding 50% even with treatment. Every part is toxic — but the seeds (\"nuts\") are the most concentrated source. Cycasin, the primary toxin, causes rapid, severe liver failure that is often fatal.",
+  "safetyNotes": [
+    "Toxic compounds: cycasin (methylazoxymethanol glycoside) in all parts; seeds contain the highest concentration",
+    "Mechanism: cycasin is metabolised to methylazoxymethanol (MAM), a powerful alkylating agent causing hepatocellular necrosis and DNA cross-linking",
+    "Symptoms (within 15 minutes to 3 hours): vomiting, diarrhea, drooling, lethargy; severe liver failure follows: jaundice, bleeding, neurological signs, coma",
+    "Seeds are the greatest risk — 1–2 seeds can kill a cat; all parts carry life-threatening toxicity",
+    "Any suspected ingestion is a critical veterinary emergency — survival depends on immediate, aggressive treatment"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Seed",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, drooling, anorexia, severe abdominal pain, increased thirst, and diarrhea (which may be bloody or appear as black, \"tarry\" feces)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Initial clinical signs typically appear rapidly, often within the first 4 hours of ingestion",
+      "notes": "These initial stomach and intestinal symptoms act as an early indicator of poisoning before the plant's toxins begin destroying the internal organs56. 2. Fulminant Liver Failure and Hepatic Necrosis"
+    },
+    {
+      "name": "Jaundice (yellowing of the skin and eyes), profound hepatic necrosis, and severe liver failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Progresses over 48 to 72 hours following ingestion",
+      "notes": "This is caused by cycasin, a highly toxic compound in the plant that is broken down in the gut into methylazoxymethanol, which aggressively attacks the liver37. Ingesting as little as 1 to 2 seeds can cause fatal liver failure1. 3. Coagulopathy (Bleeding Disorders)"
+    },
+    {
+      "name": "Bruising, blood clots, petechiae (pinpoint spots of bleeding), ecchymotic hemorrhages, and generalized abnormal bleeding",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Delayed; develops secondary to liver failure within 48 to 72 hours",
+      "notes": "As the liver tissue dies (hepatic necrosis), it loses its ability to produce essential clotting factors, leading to life-threatening secondary bleeding disorders throughout the body45. 4. Neurological Decline"
+    },
+    {
+      "name": "Lethargy, extreme weakness, ataxia (loss of coordination), tremors, paralysis, seizures, coma, and eventually death",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Can begin developing within hours,",
+      "notes": "These neurological symptoms are caused both directly by the plant's neurotoxin (beta-methylamino-L-alanine, or BMAA) and indirectly as a consequence of the liver shutting down1.... Because of the high mortality rate associated with these toxins, immediate veterinary decontamination and aggressive su"
+    }
+  ],
+  "scientificName": "Cycas revoluta, Cycas cirinalis, Zamia spp.",
+  "family": "Zamiaceae"
+}

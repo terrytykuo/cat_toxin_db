@@ -1,0 +1,1530 @@
+[
+  {
+    "canonicalId": "abrus_precatorius",
+    "category": "plant",
+    "name": "Rosary Pea",
+    "scientificName": "Abrus precatorius",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "adenium_obesum",
+    "category": "plant",
+    "name": "Desert Rose",
+    "scientificName": "Adenium obesum",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "agapanthus_africanus_or_a_orientalis",
+    "category": "plant",
+    "name": "Agapanthus Africanus Or A Orientalis",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": "agapanthus_orientalis_or_agapanthus_africanus",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "agapanthus_orientalis_or_agapanthus_africanus",
+    "category": "plant",
+    "name": "African Blue Lily",
+    "scientificName": "Agapanthus orientalis or Agapanthus africanus",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "agastache_spp",
+    "category": "plant",
+    "name": "Hummingbird Mint",
+    "scientificName": "Agastache spp.",
+    "legacyIds": [],
+    "sharedImageFrom": "hummingbird_mint",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "agave_americana",
+    "category": "plant",
+    "name": "Century Plant",
+    "scientificName": "Agave americana",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "aglaonema_modestum",
+    "category": "plant",
+    "name": "Chinese Evergreen",
+    "scientificName": "Aglaonema modestum",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "allamanda_cathartica",
+    "category": "plant",
+    "name": "Allamanda",
+    "scientificName": "Allamanda cathartica",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "allium_cepa",
+    "category": "plant",
+    "name": "Allium Cepa",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": "onions",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "allium_porrum",
+    "category": "plant",
+    "name": "Allium Porrum",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": "leeks",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "allium_sativum",
+    "category": "plant",
+    "name": "Allium Sativum",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": "garlic",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "allium_schoenoprasum",
+    "category": "plant",
+    "name": "Chives",
+    "scientificName": "Allium schoenoprasum",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "alocasia_reginula",
+    "category": "plant",
+    "name": "Black Velvet Alocasia",
+    "scientificName": "Alocasia reginula",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "aloe_barbadensis_or_aloe_spp",
+    "category": "plant",
+    "name": "Aloe Vera",
+    "scientificName": "Aloe barbadensis or Aloe spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "alstroemeria_spp",
+    "category": "plant",
+    "name": "Peruvian Lily",
+    "scientificName": "Alstroemeria spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "anthurium_hookeri",
+    "category": "plant",
+    "name": "Bird’s Nest Anthurium",
+    "scientificName": "Anthurium hookeri",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "anthurium_spp",
+    "category": "plant",
+    "name": "Flamingo Flower / Anthurium",
+    "scientificName": "Anthurium spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "antirrhinum_majus",
+    "category": "plant",
+    "name": "Snapdragon",
+    "scientificName": "Antirrhinum majus",
+    "legacyIds": [
+      "snapdragon"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "arum_spp",
+    "category": "plant",
+    "name": "Italian Arum",
+    "scientificName": "Arum spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "asclepias_spp",
+    "category": "plant",
+    "name": "Milkweed",
+    "scientificName": "Asclepias spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "asparagus_densiflorus",
+    "category": "plant",
+    "name": "Asparagus Fern",
+    "scientificName": "Asparagus densiflorus",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "aspidistra_elatior",
+    "category": "plant",
+    "name": "Cast Iron Plant",
+    "scientificName": "Aspidistra elatior",
+    "legacyIds": [
+      "cast-iron-plant"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "aucuba_japonica",
+    "category": "plant",
+    "name": "Japanese Aucuba",
+    "scientificName": "Aucuba japonica",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "averrhoa_carambola",
+    "category": "plant",
+    "name": "Starfruit",
+    "scientificName": "Averrhoa carambola",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "begonia_maculata",
+    "category": "plant",
+    "name": "Polka Dot Begonia",
+    "scientificName": "Begonia maculata",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "begonia_spp",
+    "category": "plant",
+    "name": "Begonia",
+    "scientificName": "Begonia spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "betula_lenta",
+    "category": "plant",
+    "name": "Sweet Birch",
+    "scientificName": "Betula lenta",
+    "legacyIds": [
+      "sweet_birch"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "brugmansia_spp",
+    "category": "plant",
+    "name": "Angel's Trumpets",
+    "scientificName": "Brugmansia spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "brunfelsia_pauciflora_floribunda",
+    "category": "plant",
+    "name": "Yesterday-today-and-tomorrow",
+    "scientificName": "Brunfelsia pauciflora floribunda",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "caladium_spp_or_alocasia_spp",
+    "category": "plant",
+    "name": "Caladium / Elephant’s Ear",
+    "scientificName": "Caladium spp. or Alocasia spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "calathea_spp",
+    "category": "plant",
+    "name": "Calathea",
+    "scientificName": "Calathea spp.",
+    "legacyIds": [
+      "calathea"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "cananga_odorata",
+    "category": "plant",
+    "name": "Ylang Ylang",
+    "scientificName": "Cananga odorata",
+    "legacyIds": [
+      "ylang_ylang"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "cannabis_sativa",
+    "category": "plant",
+    "name": "Cannabis / Marijuana",
+    "scientificName": "Cannabis sativa",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "capsicum_annuum",
+    "category": "plant",
+    "name": "Bell Pepper / Chili Pepper / Ornamental Pepper",
+    "scientificName": "Capsicum annuum",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "catharanthus_reseus",
+    "category": "plant",
+    "name": "Madagascar Periwinkle",
+    "scientificName": "Catharanthus reseus",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "celastrus_scandens",
+    "category": "plant",
+    "name": "Bittersweet",
+    "scientificName": "Celastrus scandens",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "cercocarpus_spp",
+    "category": "plant",
+    "name": "Mountain Mahogany",
+    "scientificName": "Cercocarpus spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "chlorophytum_spp",
+    "category": "plant",
+    "name": "Spider Plant",
+    "scientificName": "Chlorophytum spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "chrysanthemum_morifolium",
+    "category": "plant",
+    "name": "Chrysanthemum / Mums",
+    "scientificName": "Chrysanthemum morifolium",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "cinnamomum_verum",
+    "category": "plant",
+    "name": "Cinnamon",
+    "scientificName": "Cinnamomum verum",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "citrus_spp",
+    "category": "plant",
+    "name": "Citrus",
+    "scientificName": "Citrus spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "clivia_miniata",
+    "category": "plant",
+    "name": "Fire Lily",
+    "scientificName": "Clivia miniata",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "codiaeum_variegatum",
+    "category": "plant",
+    "name": "Croton",
+    "scientificName": "Codiaeum variegatum",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "colchicum_autumnale",
+    "category": "plant",
+    "name": "Autumn Crocus",
+    "scientificName": "Colchicum autumnale",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "convallaria_majalis",
+    "category": "plant",
+    "name": "Lily of the Valley",
+    "scientificName": "Convallaria majalis",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "crassula_arborescens",
+    "category": "plant",
+    "name": "Jade Plant",
+    "scientificName": "Crassula arborescens",
+    "legacyIds": [],
+    "sharedImageFrom": "crassula_arborescens_or_crassula",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "crassula_arborescens_or_crassula",
+    "category": "plant",
+    "name": "Crassula Arborescens Or Crassula",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "crocus_vernus",
+    "category": "plant",
+    "name": "Crocus",
+    "scientificName": "Crocus vernus",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "cycas_revoluta_cycas_cirinalis_zamia_spp",
+    "category": "plant",
+    "name": "Sago Palm / Cycads",
+    "scientificName": "Cycas revoluta, Cycas cirinalis, Zamia spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "cycas_spp_or_zamia_spp",
+    "category": "plant",
+    "name": "Cycad",
+    "scientificName": "Cycas spp. or Zamia spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "cyclamen_spp",
+    "category": "plant",
+    "name": "Cyclamen",
+    "scientificName": "Cyclamen spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "dahlia_pinnata",
+    "category": "plant",
+    "name": "Dahlia",
+    "scientificName": "Dahlia pinnata",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "darlingtonia_californica",
+    "category": "plant",
+    "name": "Cobra Lily",
+    "scientificName": "Darlingtonia californica",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "datura_stramonium",
+    "category": "plant",
+    "name": "Jimson Weed",
+    "scientificName": "Datura stramonium",
+    "legacyIds": [],
+    "sharedImageFrom": "jimson_weed",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "dianthus_caryophyllus",
+    "category": "plant",
+    "name": "Carnation",
+    "scientificName": "Dianthus caryophyllus",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "dieffenbachia_spp",
+    "category": "plant",
+    "name": "Dieffenbachia / Dumb Cane",
+    "scientificName": "Dieffenbachia spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "digitalis_purpurea",
+    "category": "plant",
+    "name": "Foxglove",
+    "scientificName": "Digitalis purpurea",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "dracaena_fragrans",
+    "category": "plant",
+    "name": "Corn Plant",
+    "scientificName": "Dracaena fragrans",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "dracaena_marginata_or_dracaena_spp",
+    "category": "plant",
+    "name": "Dragon Tree",
+    "scientificName": "Dracaena marginata or Dracaena spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "dracaena_sanderiana",
+    "category": "plant",
+    "name": "Lucky Bamboo",
+    "scientificName": "Dracaena sanderiana",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "dracaena_spp",
+    "category": "plant",
+    "name": "Dracaena",
+    "scientificName": "Dracaena spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "dypsis_lutescens",
+    "category": "plant",
+    "name": "Areca Palm",
+    "scientificName": "Dypsis lutescens",
+    "legacyIds": [
+      "areca-palm"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "e_g_satin_pothos",
+    "category": "plant",
+    "name": "Silver Leaf Philodendron",
+    "scientificName": "e.g. Satin Pothos",
+    "legacyIds": [],
+    "sharedImageFrom": "eg_satin_pothos",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "eg_satin_pothos",
+    "category": "plant",
+    "name": "Eg Satin Pothos",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "epipremnum_aureum_or_epipremnum_spp",
+    "category": "plant",
+    "name": "Pothos / Devil’s Ivy",
+    "scientificName": "Epipremnum aureum or Epipremnum spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "eucalyptus",
+    "category": "plant",
+    "name": "Eucalyptus",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "eucalyptus_spp",
+    "category": "plant",
+    "name": "Eucalyptus",
+    "scientificName": "Eucalyptus spp.",
+    "legacyIds": [],
+    "sharedImageFrom": "eucalyptus",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "euphorbia_pulcherrima",
+    "category": "plant",
+    "name": "Poinsettia",
+    "scientificName": "Euphorbia pulcherrima",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "eustoma_grandiflorum",
+    "category": "plant",
+    "name": "Lisianthus",
+    "scientificName": "Eustoma grandiflorum",
+    "legacyIds": [
+      "lisianthus"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "ficus_benghalensis",
+    "category": "plant",
+    "name": "Ficus Audrey",
+    "scientificName": "Ficus benghalensis",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "ficus_elastica",
+    "category": "plant",
+    "name": "Rubber Plant",
+    "scientificName": "Ficus elastica",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "ficus_lyrata",
+    "category": "plant",
+    "name": "Fiddle Leaf Fig",
+    "scientificName": "Ficus lyrata",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "ficus_spp",
+    "category": "plant",
+    "name": "Ficus / Weeping Fig",
+    "scientificName": "Ficus spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "gardenia_jasminoides",
+    "category": "plant",
+    "name": "Gardenia",
+    "scientificName": "Gardenia jasminoides",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "gaultheria_procumbens",
+    "category": "plant",
+    "name": "Wintergreen",
+    "scientificName": "Gaultheria procumbens",
+    "legacyIds": [
+      "wintergreen"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "gerbera_jamesonii",
+    "category": "plant",
+    "name": "Gerbera Daisy",
+    "scientificName": "Gerbera jamesonii",
+    "legacyIds": [
+      "gerbera-daisy"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "gladiolus_spp",
+    "category": "plant",
+    "name": "Gladioli / Sword Lily",
+    "scientificName": "Gladiolus spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "hedera_spp",
+    "category": "plant",
+    "name": "English Ivy",
+    "scientificName": "Hedera spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "helianthus_annuus",
+    "category": "plant",
+    "name": "Sunflower",
+    "scientificName": "Helianthus annuus",
+    "legacyIds": [
+      "sunflower"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "helleborus_niger",
+    "category": "plant",
+    "name": "Christmas Rose",
+    "scientificName": "Helleborus niger",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "hemerocallis_spp",
+    "category": "plant",
+    "name": "Daylily",
+    "scientificName": "Hemerocallis spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "hippeastrum_spp_or_amaryllis_spp",
+    "category": "plant",
+    "name": "Amaryllis",
+    "scientificName": "Hippeastrum spp. or Amaryllis spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "homalomena_selby",
+    "category": "plant",
+    "name": "Homalomena Selby / Homalomena rubescens",
+    "scientificName": "Homalomena Selby",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "honeysuckle",
+    "category": "plant",
+    "name": "Honeysuckle",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "hummingbird_mint",
+    "category": "plant",
+    "name": "Hummingbird Mint",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "hyacinthoides_non_scripta",
+    "category": "plant",
+    "name": "Bluebells",
+    "scientificName": "Hyacinthoides non-scripta",
+    "legacyIds": [],
+    "sharedImageFrom": "hyacinthoides_nonscripta",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "hyacinthoides_nonscripta",
+    "category": "plant",
+    "name": "Hyacinthoides Nonscripta",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "hyacinthus_spp",
+    "category": "plant",
+    "name": "Hyacinth",
+    "scientificName": "Hyacinthus spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "hydrangea_spp",
+    "category": "plant",
+    "name": "Hydrangea",
+    "scientificName": "Hydrangea spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "ilex",
+    "category": "plant",
+    "name": "Ilex",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "ilex_aquifolium",
+    "category": "plant",
+    "name": "English Holly",
+    "scientificName": "Ilex aquifolium",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "ilex_spp",
+    "category": "plant",
+    "name": "Holly",
+    "scientificName": "Ilex spp.",
+    "legacyIds": [],
+    "sharedImageFrom": "ilex",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "indian_borage",
+    "category": "plant",
+    "name": "Mexican Mint",
+    "scientificName": "Indian borage",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "ipomoea_spp",
+    "category": "plant",
+    "name": "Morning Glory",
+    "scientificName": "Ipomoea spp.",
+    "legacyIds": [
+      "morning_glory"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "iris",
+    "category": "plant",
+    "name": "Iris",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "iris_spp",
+    "category": "plant",
+    "name": "Iris",
+    "scientificName": "Iris spp.",
+    "legacyIds": [],
+    "sharedImageFrom": "iris",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "jimson_weed",
+    "category": "plant",
+    "name": "Jimson Weed",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "kalanchoe_spp",
+    "category": "plant",
+    "name": "Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy",
+    "scientificName": "Kalanchoe spp.",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "kalmia_latifolia",
+    "category": "plant",
+    "name": "Mountain Laurel",
+    "scientificName": "Kalmia latifolia",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "lantana",
+    "category": "plant",
+    "name": "Lantana",
+    "scientificName": null,
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "onions",
+    "category": "food",
+    "name": "Onions",
+    "scientificName": "Onions",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "garlic",
+    "category": "food",
+    "name": "Garlic",
+    "scientificName": "Garlic",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "scallions_green_onions",
+    "category": "food",
+    "name": "Scallions / Green onions",
+    "scientificName": "Scallions / Green onions",
+    "legacyIds": [
+      "scallions__green_onions"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "leeks",
+    "category": "food",
+    "name": "Leeks",
+    "scientificName": "Leeks",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "shallots",
+    "category": "food",
+    "name": "Shallots",
+    "scientificName": "Shallots",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "grapes",
+    "category": "food",
+    "name": "Grapes",
+    "scientificName": "Grapes",
+    "legacyIds": [],
+    "sharedImageFrom": "vitis__implied",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "raisins",
+    "category": "food",
+    "name": "Raisins",
+    "scientificName": "Raisins",
+    "legacyIds": [],
+    "sharedImageFrom": "vitis__implied",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "macadamia_nuts",
+    "category": "food",
+    "name": "Macadamia nuts",
+    "scientificName": "Macadamia nuts",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "cherries",
+    "category": "food",
+    "name": "Cherries",
+    "scientificName": "Cherries",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "apples__apple_seeds",
+    "category": "food",
+    "name": "Apples / Apple seeds",
+    "scientificName": "Apples / Apple seeds",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "peaches",
+    "category": "food",
+    "name": "Peaches",
+    "scientificName": "Peaches",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "plums",
+    "category": "food",
+    "name": "Plums",
+    "scientificName": "Plums",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "apricots",
+    "category": "food",
+    "name": "Apricots",
+    "scientificName": "Apricots",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "starfruit",
+    "category": "food",
+    "name": "Starfruit",
+    "scientificName": "Starfruit",
+    "legacyIds": [],
+    "sharedImageFrom": "averrhoa_carambola",
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "avocado",
+    "category": "food",
+    "name": "Avocado",
+    "scientificName": "Avocado",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "citrus_fruits_oranges_tangerines_lemons_pomelos",
+    "category": "food",
+    "name": "Citrus fruits (oranges, tangerines, lemons, pomelos)",
+    "scientificName": "Citrus fruits (oranges, tangerines, lemons, pomelos)",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "unripened_pineapples",
+    "category": "food",
+    "name": "Unripened pineapples",
+    "scientificName": "Unripened pineapples",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "raw_eggs_raw_egg_whites",
+    "category": "food",
+    "name": "Raw eggs",
+    "scientificName": "Raw eggs / Raw egg whites",
+    "legacyIds": [
+      "raw_eggs__raw_egg_whites"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "raw_fish",
+    "category": "food",
+    "name": "Raw fish",
+    "scientificName": "Raw fish",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "raw_meat",
+    "category": "food",
+    "name": "Raw meat",
+    "scientificName": "Raw meat",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "bones",
+    "category": "food",
+    "name": "Bones",
+    "scientificName": "Bones",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "tuna",
+    "category": "food",
+    "name": "Tuna",
+    "scientificName": "Tuna",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "chocolate",
+    "category": "food",
+    "name": "Chocolate",
+    "scientificName": "Chocolate",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "cocoa",
+    "category": "food",
+    "name": "Cocoa",
+    "scientificName": "Cocoa",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "coffee",
+    "category": "food",
+    "name": "Coffee",
+    "scientificName": "Coffee",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "tea",
+    "category": "food",
+    "name": "Tea",
+    "scientificName": "Tea",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "caffeinated_drinks_soda",
+    "category": "food",
+    "name": "Caffeinated drinks / Soda",
+    "scientificName": "Caffeinated drinks / Soda",
+    "legacyIds": [
+      "caffeinated_drinks__soda"
+    ],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "alcohol",
+    "category": "food",
+    "name": "Alcohol",
+    "scientificName": "Alcohol",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "raw_dough",
+    "category": "food",
+    "name": "Raw dough",
+    "scientificName": "Raw dough",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "milk_and_dairy_products",
+    "category": "food",
+    "name": "Milk and dairy products",
+    "scientificName": "Milk and dairy products",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "gum",
+    "category": "food",
+    "name": "Gum",
+    "scientificName": "Gum",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "candies",
+    "category": "food",
+    "name": "Candies",
+    "scientificName": "Candies",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "jelly",
+    "category": "food",
+    "name": "Jelly",
+    "scientificName": "Jelly",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "pudding",
+    "category": "food",
+    "name": "Pudding",
+    "scientificName": "Pudding",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "green_tomatoes",
+    "category": "food",
+    "name": "Green tomatoes",
+    "scientificName": "Green tomatoes",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "unripe_or_sprouted_potatoes",
+    "category": "food",
+    "name": "Unripe or sprouted potatoes",
+    "scientificName": "Unripe or sprouted potatoes",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "corn_on_the_cob",
+    "category": "food",
+    "name": "Corn on the cob",
+    "scientificName": "Corn on the cob",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "liver",
+    "category": "food",
+    "name": "Liver",
+    "scientificName": "Liver",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "salt",
+    "category": "food",
+    "name": "Salt",
+    "scientificName": "Salt",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "sugar",
+    "category": "food",
+    "name": "Sugar",
+    "scientificName": "Sugar",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "persimmons",
+    "category": "food",
+    "name": "Persimmons",
+    "scientificName": "Persimmons",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "walnuts",
+    "category": "food",
+    "name": "Walnuts",
+    "scientificName": "Walnuts",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "pistachios",
+    "category": "food",
+    "name": "Pistachios",
+    "scientificName": "Pistachios",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "peanuts",
+    "category": "food",
+    "name": "Peanuts",
+    "scientificName": "Peanuts",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "sunflower_seeds",
+    "category": "food",
+    "name": "Sunflower seeds (salted)",
+    "scientificName": "Sunflower seeds",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "candied_fruits",
+    "category": "food",
+    "name": "Candied fruits",
+    "scientificName": "Candied fruits",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": true,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "meat_jerky_dried_squid_and_dried_fish",
+    "category": "food",
+    "name": "Meat jerky, dried squid, and dried fish",
+    "scientificName": "Meat jerky, dried squid, and dried fish",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": true,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "pastries_radish_cake_rice_cake_pineapple_cake_mochi",
+    "category": "food",
+    "name": "Pastries (radish cake, rice cake, pineapple cake, mochi)",
+    "scientificName": "Pastries (radish cake, rice cake, pineapple cake, mochi)",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": true,
+    "reviewStatus": "needs_review"
+  },
+  {
+    "canonicalId": "potato_chips",
+    "category": "food",
+    "name": "Potato chips",
+    "scientificName": "Potato chips",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  },
+  {
+    "canonicalId": "pretzels",
+    "category": "food",
+    "name": "Pretzels",
+    "scientificName": "Pretzels",
+    "legacyIds": [],
+    "sharedImageFrom": null,
+    "imageMissing": false,
+    "reviewStatus": "exact"
+  }
+]

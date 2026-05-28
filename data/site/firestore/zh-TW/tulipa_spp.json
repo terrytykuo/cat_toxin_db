@@ -1,0 +1,49 @@
+{
+  "slug": "tulipa_spp",
+  "source_hash": "3ef5f6dd2a1b57444888ba825740c61dc1869cd0c6433082c5305b30aea4ccd2",
+  "translated_at": "2026-05-21T10:40:43Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "鬱金香",
+  "aliases": [],
+  "description": "鬱金香 (Tulipa spp.) 是受歡迎的春季球根花卉，整株對貓咪都有毒，其中毒素濃度最高的部分是球莖。它含有鬱金香素 A (tulipalin A) 和鬱金香素 B (tulipalin B)——致敏內酯化合物——以及其他具刺激性的糖苷。球莖特別危險，因為在種植和儲存季節很容易被接觸到。",
+  "safetyNotes": [
+    "有毒化合物：鬱金香素 A 和鬱金香素 B（致敏內酯化合物），以及刺激性糖苷；球莖濃度最高",
+    "機制：鬱金香素會直接導致黏膜刺激和過敏性接觸性皮炎；攝入大量球莖可能導致中樞神經系統抑制和心臟影響",
+    "症狀：嘔吐、流口水、腹瀉、嗜睡；攝入大量球莖可能導致震顫、心率異常或呼吸困難",
+    "球莖在秋季種植或春季儲存期間特別危險——請將儲存的球莖遠離貓咪",
+    "若您的貓咪攝入球莖或表現出超過輕微的腸胃症狀，請聯繫獸醫"
+  ],
+  "toxicParts": [
+    "球莖",
+    "整株植物",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘴部、喉嚨和皮膚刺激，導致大量流口水 (Ptyalism)",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "嘔吐、腹瀉和嚴重的胃部不適",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "精神沉鬱",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "心率加快 (Tachycardia) 和心律不整",
+      "body_system": "心血管系統"
+    },
+    {
+      "name": "呼吸變化和呼吸困難",
+      "body_system": "呼吸系統"
+    },
+    {
+      "name": "震顫和抽搐 (Seizures)",
+      "body_system": "消化系統"
+    }
+  ]
+}

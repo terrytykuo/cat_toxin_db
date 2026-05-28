@@ -1,0 +1,72 @@
+{
+  "slug": "homalomena_selby",
+  "category": "plant",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/homalomena_selby/images/1772925591340.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/homalomena_selby/images/1772925598844.jpg"
+  ],
+  "name": "Homalomena Selby / Homalomena rubescens",
+  "aliases": [],
+  "description": "Homalomena ‘Selby’ is a tropical ornamental houseplant in the Araceae family, making it toxic to cats for the same reason as Dieffenbachia, Philodendron, and Pothos: insoluble calcium oxalate crystals (raphides) throughout the leaves and stems. When chewed, these needle-like crystals are forcefully ejected into the oral mucosa, causing intense immediate irritation.",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides; the plant’s cell sap also contains proteolytic enzymes",
+    "Mechanism: crystal penetration of the mouth and throat lining causes mechanical burning and inflammation",
+    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, swollen lips or tongue, difficulty swallowing, vomiting",
+    "All parts of the plant are hazardous; the reaction is immediate and self-limiting",
+    "Rinse the mouth with water; seek veterinary care if swallowing is impaired or symptoms do not resolve"
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Mouth Irritation (Pain/Burning)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (Upon chewing the plant material).",
+      "notes": "The needle-like crystals embed in the soft tissues of the mouth and tongue, causing immediate discomfort.Excessive Drooling"
+    },
+    {
+      "name": "Drooling (Hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "This is a direct reaction to the pain and irritation caused by the crystals in the mouth.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Occurs as the body attempts to expel the irritating plant material.Reluctance to Eat (Anorexia)"
+    },
+    {
+      "name": "Reluctance to Eat / Difficulty Swallowing",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "The cat may refuse food due to the pain and swelling in the mouth and throat.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Delayed (Following ingestion of larger quantities).",
+      "notes": "This symptom is noted specifically if the plant is \"ingested in quantity.\"Lethargy"
+    },
+    {
+      "name": "Lethargy",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute/Delayed.",
+      "notes": "Like diarrhea, this is more likely to occur if a significant amount of the plant has been consumed."
+    }
+  ],
+  "scientificName": "Homalomena Selby",
+  "family": "Araceae"
+}

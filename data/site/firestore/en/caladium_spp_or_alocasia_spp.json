@@ -1,0 +1,62 @@
+{
+  "slug": "caladium_spp_or_alocasia_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/caladium_spp_or_alocasia_spp.jpg"
+  ],
+  "name": "Caladium / Elephant’s Ear",
+  "aliases": [],
+  "description": "Caladium (Caladium spp.), commonly known as Elephant's Ear, is a tropical houseplant grown for its vivid, heart-shaped leaves in shades of red, pink, white, and green. All parts of the plant — leaves, stems, and especially the underground tubers — contain insoluble calcium oxalate crystals (raphides) that cause immediate mechanical injury to any soft tissue they contact. The tubers carry the highest crystal concentration and pose the greatest risk if a cat digs at potted plants.",
+  "safetyNotes": [
+    "Symptoms: Immediate intense oral pain, excessive drooling, pawing at the mouth, swelling of the mouth, lips, and throat, difficulty swallowing, and vomiting.",
+    "Tubers are most concentrated: A cat digging in a Caladium pot and biting the tuber receives the highest dose of oxalate crystals.",
+    "Action: Rinse the cat's mouth with water to flush crystals. Seek veterinary attention if swelling is significant or symptoms do not resolve quickly."
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning sensation and irritation of the mouth, tongue, and lips",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Immediate (upon chewing or biting).",
+      "notes": "The plant contains needle-like crystals (raphides) that embed in the tissue causing physical trauma and immediate pain. This pain often prevents the cat from consuming a lethal amount, but the local injury is significant.Excessive Drooling"
+    },
+    {
+      "name": "Hypersalivation (Ptyalism)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate / Acute.",
+      "notes": "This is a physiological response to the intense burning and irritation in the oral cavity.Swelling of the Mouth and Throat (Edema)"
+    },
+    {
+      "name": "Edema (Swelling) of the tongue, lips, and pharynx",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Immediate to Acute (rapid progression).",
+      "notes": "In severe cases, the swelling of the tongue and throat can be significant enough to cause difficulty swallowing (dysphagia) or block the airway.Difficulty Breathing"
+    },
+    {
+      "name": "Dyspnea (Respiratory Distress)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Acute (following swelling).",
+      "notes": "This typically results from the physical obstruction of the airway due to severe swelling of the pharynx and tongue.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (following ingestion).",
+      "notes": "While the primary damage is oral, swallowing plant material or the body's reaction to the toxin can trigger vomiting and diarrhea."
+    }
+  ],
+  "scientificName": "Caladium spp. or Alocasia spp.",
+  "family": "Araceae"
+}

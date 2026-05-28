@@ -1,0 +1,63 @@
+{
+  "slug": "crassula_arborescens_or_crassula",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/crassula_arborescens_or_crassula.jpg"
+  ],
+  "name": "Jade Plant",
+  "aliases": [],
+  "description": "Jade Plant (Crassula spp.), also known as Money Plant or Lucky Plant, is a popular succulent houseplant that is mildly toxic to cats. The exact toxic principle has not been fully identified, but ingestion consistently causes gastrointestinal upset and neurological symptoms in cats. All parts of the plant are considered hazardous.",
+  "safetyNotes": [
+    "Toxic compounds: unidentified toxic principle; the plant's fleshy leaves and stems are the primary exposure source",
+    "Mechanism: unknown; likely involves direct GI irritation combined with a mild neurological component",
+    "Symptoms: vomiting, depression, unsteady gait (ataxia), slow heart rate; symptoms are usually mild",
+    "All parts of the plant are toxic — leaves, stems, and roots",
+    "Seek veterinary advice if your cat shows signs of unsteadiness or lethargy after contact with the plant"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (Clinical signs typically appear shortly after ingestion).",
+      "notes": "This is the most consistent symptom reported. The plant is considered an irritant to the stomach lining.Incoordination (Ataxia)"
+    },
+    {
+      "name": "Loss of Balance / Incoordination / Ataxia",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Cats may appear \"drunk,\" wobbly, or unable to walk in a straight line. This neurological presentation distinguishes Jade Plant toxicity from simple gastrointestinal irritants.Depression (Lethargy)"
+    },
+    {
+      "name": "Depression / Lethargy",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Affected cats may become unusually inactive, hide, or be slow to respond to stimuli.Bradycardia (Rare)"
+    },
+    {
+      "name": "Slow Heart Rate (Bradycardia)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "notes": "While less common than vomiting or ataxia, a slowed heart rate has been noted as a potential rare side effect of ingestion.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "This symptom may accompany vomiting, though it is cited less frequently than the neurological signs (depression/ataxia) associated with this specific plant."
+    }
+  ],
+  "scientificName": "Crassula arborescens",
+  "family": "Crassulaceae"
+}

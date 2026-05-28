@@ -1,0 +1,50 @@
+{
+  "slug": "catharanthus_reseus",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Catharanthus_roseus_%28Pink_Madagascar_Periwinkle%29.jpg/500px-Catharanthus_roseus_%28Pink_Madagascar_Periwinkle%29.jpg"
+  ],
+  "name": "Madagascar Periwinkle",
+  "aliases": [],
+  "description": "Madagascar Periwinkle (Catharanthus roseus) is a common ornamental flowering plant that is severely toxic to cats. It contains vinca alkaloids — primarily vincristine and vinblastine — the same compounds used as chemotherapy drugs in cancer treatment. Even small amounts can cause serious, life-threatening toxicity in cats.",
+  "safetyNotes": [
+    "Toxic compounds: vinca alkaloids — vincristine, vinblastine, vinorelbine; all parts of the plant are toxic",
+    "Mechanism: vinca alkaloids inhibit cell division by binding to tubulin, disrupting the mitotic spindle; this damages rapidly dividing cells including bone marrow and GI epithelium",
+    "Symptoms: vomiting, diarrhea, severe weakness, low blood pressure, neurological signs (tremors, seizures); bone marrow suppression may develop over days",
+    "Despite its cheerful appearance, this plant is as dangerous as chemotherapy agents",
+    "Any suspected ingestion is a veterinary emergency"
+  ],
+  "toxicParts": [
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Pharyngeal (throat) pain, abdominal pain, severe diarrhea, and dehydration",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "These symptoms occur because the Vinca alkaloids (vincristine and vinblastine) found throughout the plant act as severe irritants to the mouth, throat, and digestive tract12. 2. Peripheral Nerve Damage"
+    },
+    {
+      "name": "Peripheral nerve damage",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "This is a serious systemic reaction to the absorption of the plant's toxic alkaloids, requiring aggressive supportive veterinary care and extended monitoring2. 3. Bone Marrow Suppression"
+    },
+    {
+      "name": "Bone marrow suppression (depression)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "The plant's toxins severely depress the bone marrow's ability to function, making immediate and aggressive veterinary treatment essential2. 4. Cardiovascular Damage"
+    },
+    {
+      "name": "Cardiovascular damage",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "notes": "The Vinca alkaloids in the plant are capable of causing profound, systemic damage to the cardiovascular system alongside the nerve and bone marrow effects"
+    }
+  ],
+  "scientificName": "Catharanthus reseus",
+  "family": "Apocynaceae"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "dracaena_marginata_or_dracaena_spp",
+  "source_hash": "8d1c0bc3b806364fb65522ec65bb1ab787d695455de7cd74a9d7b8a4b9dd08fd",
+  "translated_at": "2026-05-21T10:28:27Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "龍血樹",
+  "aliases": [],
+  "description": "龍血樹（Dracaena draco 及相關 Dracaena 物種）是常見的室內植物，對貓有毒。其葉片與莖部含有類固醇皂苷（steroidal saponins），這種化合物會破壞細胞膜並刺激消化系統。貓若啃食葉片，通常會出現令人不適但非致命的症狀。",
+  "safetyNotes": [
+    "有毒化合物：類固醇皂苷 (steroidal saponins)",
+    "機制：皂苷會破壞細胞膜並刺激腸胃道；高劑量下可能影響貓的神經系統",
+    "症狀：嘔吐（偶爾帶血）、唾液分泌過多、食慾不振、精神委靡、瞳孔放大",
+    "瞳孔放大（mydriasis）是貓特有的反應，也是辨識皂苷中毒的有用指標",
+    "雖然極少致命，但若貓出現瞳孔放大或反覆嘔吐，應由獸醫評估"
+  ],
+  "toxicParts": [
+    "樹皮",
+    "葉",
+    "整株植物"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐（常帶血/吐血）與腹瀉",
+      "body_system": "消化系統",
+      "onset": "急性（通常在攝入後不久發生）。"
+    },
+    {
+      "name": "瞳孔放大",
+      "body_system": "神經系統",
+      "onset": "與中毒的急性期相關。"
+    },
+    {
+      "name": "抑鬱、精神委靡、虛弱或共濟失調（不協調）",
+      "body_system": "神經系統",
+      "onset": "急性。"
+    },
+    {
+      "name": "流口水 / 唾液分泌過多",
+      "body_system": "消化系統",
+      "onset": "立即至急性（啃食/攝入時）。"
+    },
+    {
+      "name": "食慾不振（厭食）",
+      "body_system": "消化系統",
+      "onset": "急性。"
+    }
+  ]
+}

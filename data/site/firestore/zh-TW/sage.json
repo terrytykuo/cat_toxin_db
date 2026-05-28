@@ -1,0 +1,17 @@
+{
+  "slug": "sage",
+  "source_hash": "487b5a179ffe9b364dd0fa9a24a572d22002f4f1143d3899639dca9e706d6961",
+  "translated_at": "2026-05-21T10:37:20Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "鼠尾草",
+  "aliases": [
+    "普通鼠尾草",
+    "花園鼠尾草"
+  ],
+  "description": "鼠尾草是一種美麗的銀綠色香草，對貓安全。它天鵝絨般的葉子和強烈的香氣使其成為迷人的廚房植物。它在陽光充足和排水良好的土壤中茁壯成長。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

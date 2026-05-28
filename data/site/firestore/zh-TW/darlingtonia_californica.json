@@ -1,0 +1,25 @@
+{
+  "slug": "darlingtonia_californica",
+  "source_hash": "b6ffc0e205772d5ef119d4f941e81828bbe481fc86b6848f794c670b426bd10c",
+  "translated_at": "2026-05-21T10:24:04Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "眼鏡蛇百合",
+  "aliases": [],
+  "description": "眼鏡蛇百合 (Darlingtonia californica) 是一種食蟲性的瓶子草，原產於北加州和奧勒岡州的沼澤地區。因其外觀神似帶兜帽的眼鏡蛇而得名，它利用充滿液體的瓶狀葉捕獲昆蟲。眼鏡蛇百合對貓並無顯著毒性——如果貓觸摸或舔舐植物，瓶子草內的消化酶並無害處。主要的擔憂在於物理層面：瓶子草內的液體是停滯且充滿細菌的，好奇喝下瓶內液體的貓可能會出現輕微的腸胃不適。",
+  "safetyNotes": [
+    "風險等級：低。無造成貓隻顯著中毒的文獻紀錄。",
+    "物理性擔憂：攝入瓶子草內困住昆蟲的液體可能導致輕微消化系統不適；尖銳的兜帽頂端可能會造成輕微刮傷。",
+    "行動：如果貓與植物有密切接觸，請觀察是否有嘔吐或腹瀉。通常不需要獸醫治療。"
+  ],
+  "toxicParts": [
+    "葉"
+  ],
+  "symptoms": [
+    {
+      "name": "輕微消化系統不適",
+      "body_system": "消化系統"
+    }
+  ]
+}

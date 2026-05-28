@@ -1,0 +1,56 @@
+{
+  "slug": "ficus_benghalensis",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ficus_benghalensis.jpg"
+  ],
+  "name": "Ficus Audrey",
+  "aliases": [],
+  "description": "Ficus Audrey (Ficus benghalensis), the Indian Banyan tree, is a popular houseplant that is mildly toxic to cats. Like other Ficus species, it produces a milky latex sap containing proteolytic enzymes (ficin) and irritant compounds. These cause gastrointestinal upset when ingested and contact dermatitis when the sap touches skin.",
+  "safetyNotes": [
+    "Toxic compounds: ficin (proteolytic enzyme in latex sap), irritant compounds",
+    "Mechanism: ficin directly irritates mucous membranes and the GI tract; latex contact causes localised skin inflammation",
+    "Symptoms: vomiting, diarrhea, drooling, loss of appetite; skin contact with broken stems or leaves may cause redness or rash",
+    "Symptoms are generally mild and self-limiting; seek vet attention if vomiting is severe or prolonged",
+    "Wipe away sap from cat skin promptly; the plant is most hazardous when stems are broken and latex oozes"
+  ],
+  "toxicParts": [
+    "Sap",
+    "Stem",
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Mild Oral Irritation (burning sensation in mouth/tongue)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate (Upon chewing or contact with sap).",
+      "notes": "The sap contains irritant enzymes that cause immediate discomfort to the mucous membranes of the mouth.Excessive Drooling"
+    },
+    {
+      "name": "Drooling / Hypersalivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Acute (Shortly after exposure).",
+      "notes": "This is a secondary response to the oral irritation and burning sensation caused by the plant's sap.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Acute.",
+      "notes": "Ingestion of the sap can upset the stomach. Symptoms are usually self-limiting, but persistent vomiting may require veterinary attention.Dermatitis"
+    },
+    {
+      "name": "Contact Dermatitis (Skin redness or irritation)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Acute (Upon contact).",
+      "notes": "If the milky sap touches the cat's skin, it can cause local irritation or redness. It is recommended to wipe away any sap immediately."
+    }
+  ],
+  "scientificName": "Ficus benghalensis",
+  "family": "Moraceae"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "matricaria_chamomilla",
+  "source_hash": "89f07915d67c73406d1822048feacf666d8b11781574702e4cbf26e3fe1f128a",
+  "translated_at": "2026-05-21T10:22:20Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "洋甘菊",
+  "aliases": [],
+  "description": "洋甘菊（Chamaemelum nobile — 羅馬洋甘菊；Matricaria chamomilla — 德國洋甘菊）被人類廣泛用作草藥，但對貓有毒。該植物含有揮發油，包括沒藥醇 (bisabolol) 和甘菊藍 (chamazulene)，以及 anthecotulide 和其他萜類化合物。由於貓肝臟中的葡萄糖醛酸轉移酶 (glucuronyl transferase) 活性有限，無法安全代謝這些萜類化合物。反覆的局部接觸也會引起接觸性皮膚炎，並具有抗血小板作用——這意味著它會損害凝血功能。",
+  "safetyNotes": [
+    "症狀：攝入後引起嘔吐、腹瀉和食慾不振；反覆接觸引起皮膚發紅和皮膚炎；長期接觸可能有出血傾向。",
+    "精油比乾花危險得多：應讓貓完全遠離洋甘菊精油；即使是擴香的洋甘菊油也可能引起呼吸道刺激。",
+    "行動：讓貓遠離洋甘菊植物、茶，尤其是精油。如果攝入量較大或出現皮膚反應，請聯繫獸醫。"
+  ],
+  "toxicParts": [
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐與腹瀉",
+      "body_system": "消化系統"
+    }
+  ]
+}

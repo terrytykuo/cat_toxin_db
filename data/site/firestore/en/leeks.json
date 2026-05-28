@@ -1,0 +1,89 @@
+{
+  "slug": "leeks",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/leeks.jpg"
+  ],
+  "name": "Leeks",
+  "aliases": [],
+  "description": "Leeks (Allium ampeloprasum) are a member of the Allium family — the same group that includes garlic, onions, and chives — all of which are toxic to cats. Leeks contain N-propyl disulfide and related organosulfur compounds that oxidise feline haemoglobin, causing Heinz body haemolytic anaemia. All forms are dangerous: raw, cooked, and dried leeks.",
+  "safetyNotes": [
+    "Toxic compounds: N-propyl disulfide and organosulfur compounds (alk(en)yl cysteine sulfoxides); all parts toxic including the bulb, stems, and leaves",
+    "Mechanism: oxidative damage to haemoglobin creates Heinz bodies; the spleen destroys affected red blood cells faster than they can be replaced, causing haemolytic anaemia",
+    "Symptoms: lethargy, weakness, pale or yellowish gums, rapid breathing, loss of appetite, reddish-brown urine; onset often delayed 3–5 days after ingestion",
+    "Leeks in soups, stews, or stir-fries remain toxic after cooking",
+    "Never share leek-containing foods with cats; contact your vet immediately if ingestion is suspected"
+  ],
+  "toxicParts": [
+    "Powder",
+    "Juice",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Because leeks belong to the Allium genus, their toxicosis presents with the exact same clinical signs as onions, garlic",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Vomiting, Diarrhea, Abdominal Pain, and Loss of Appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Usually within 1 day (24 hours) of ingestion.",
+      "notes": "These are typically the first clinical signs of toxicosis to appear12. They occur due to direct irritation of the gastrointestinal tract and frequently result in dehydration"
+    },
+    {
+      "name": "Lethargy, Weakness, and Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "After a lag of several days.",
+      "notes": "These symptoms emerge as a secondary response to systemic hypoxia caused by the profound loss of oxygen-carrying red blood cells"
+    },
+    {
+      "name": "Pale Mucous Membranes and Jaundice (Icterus)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "After a lag of several days.",
+      "notes": "Pale gums indicate a lack of oxygenated blood (anemia)23. Jaundice (yellowing of the skin or mucosa) occurs because of severe red blood cell destruction (extravascular hemolysis), which leads to an excess of bilirubin in the blood (hyperbilirubinemia)"
+    },
+    {
+      "name": "Tachypnea and Dyspnea (Breathing Difficulties)",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "After a lag of several days.",
+      "notes": "This is a compensatory response as the cat's body attempts to offset the decreased blood oxygen transportation capacity and resulting tissue hypoxia"
+    },
+    {
+      "name": "Tachycardia (Rapid Heart Rate)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "After a lag of several days.",
+      "notes": "Tachycardia develops as the heart pumps much faster to compensate for the impaired oxygen transportation caused by the ruptured and damaged red blood cells"
+    },
+    {
+      "name": "Hemoglobinuria (Dark Urine)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "After a lag of several days.",
+      "notes": "This is a hallmark sign of severe oxidative intravascular hemolysis34. Damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract47. This process can lead to secondary acute kidney damage"
+    },
+    {
+      "name": "Cold Sensitivity",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Several days after ingestion.",
+      "notes": "Affected cats may have difficulty regulating their body temperature as a systemic effect of the progressive anemia and impaired oxygen delivery to tissues"
+    },
+    {
+      "name": "Allium Breath Odor",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion.",
+      "notes": "While not harmful itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians evaluating the cat"
+    }
+  ],
+  "scientificName": "Leeks",
+  "family": "Allioideae"
+}

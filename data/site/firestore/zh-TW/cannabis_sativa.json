@@ -1,0 +1,64 @@
+{
+  "slug": "cannabis_sativa",
+  "source_hash": "85b985492ccd0b6d490ffcfb98e0089c772a7586555e61987eab07878ba517f0",
+  "translated_at": "2026-05-21T10:21:45Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "大麻 (Cannabis / Marijuana)",
+  "aliases": [],
+  "description": "隨著娛樂和醫療用途的普及，大麻 (marijuana) 對貓來說已成為日益嚴重的家居危害。主要的有毒化合物是四氫大麻酚 (THC)，它會嚴重干擾貓的神經系統——無論是透過攝入植物體或食用製品，還是透過二手煙霧的被動吸入。貓對 THC 的耐受力比人類低，暴露後可能引發一系列令人恐懼的神經和生理症狀。大麻食用製品 (Edibles) 具有複合風險，因為它們除了 THC 之外，通常還含有巧克力或木糖醇。",
+  "safetyNotes": [
+    "症狀：步態不穩且缺乏協調性 (共濟失調)、肌肉震顫、對光線和聲音過度敏感、交替出現深層嗜睡與嚴重焦躁、流口水、嘔吐以及漏尿 (尿失禁)。",
+    "食用製品特別危險：大麻布朗尼和軟糖通常含有巧克力 (可可鹼) 或木糖醇，這在 THC 的基礎上增加了第二層毒性。",
+    "CBD 產品：過量使用可能導致嘔吐和腹瀉；在沒有獸醫指導的情況下，切勿自行給貓使用 CBD。",
+    "動作：將所有大麻產品（包括食物、濃縮物和電子菸彈）存放在接觸不到的地方。如果懷疑有暴露史，請立即聯繫獸醫。"
+  ],
+  "toxicParts": [
+    "莖",
+    "葉",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "共濟失調 (Ataxia，步態不穩、不協調) 與定向力障礙",
+      "body_system": "神經系統",
+      "onset": "藥物被吸收後出現徵兆"
+    },
+    {
+      "name": "長時間抑鬱 (嗜睡/沉鬱) 或過度興奮",
+      "body_system": "神經系統",
+      "onset": "吸收後"
+    },
+    {
+      "name": "散瞳 (Mydriasis)",
+      "body_system": "神經系統",
+      "onset": "吸收後"
+    },
+    {
+      "name": "尿失禁 (漏尿)",
+      "body_system": "腎臟系統",
+      "onset": "吸收後"
+    },
+    {
+      "name": "嘔吐與流涎過度 (過度流口水)",
+      "body_system": "消化系統",
+      "onset": "吸收後"
+    },
+    {
+      "name": "心跳過緩 (Bradycardia) 或心跳過速 (Tachycardia)",
+      "body_system": "心血管系統",
+      "onset": "吸收後"
+    },
+    {
+      "name": "低體溫 (Hypothermia) 或高體溫 (Hyperthermia)",
+      "body_system": "神經系統",
+      "onset": "吸收後"
+    },
+    {
+      "name": "震顫、抽搐與昏迷",
+      "body_system": "神經系統",
+      "onset": "吸收後"
+    }
+  ]
+}

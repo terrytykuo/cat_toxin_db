@@ -1,0 +1,59 @@
+{
+  "slug": "aloe_barbadensis_or_aloe_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/aloe_barbadensis_or_aloe_spp.png"
+  ],
+  "name": "Aloe Vera",
+  "aliases": [],
+  "description": "Aloe Vera is a common succulent houseplant valued for its medicinal gel, but the plant itself is toxic to cats. The primary toxic agents are anthraquinones (particularly aloin and barbaloin) concentrated in the yellow latex layer just beneath the outer skin, along with saponins throughout the leaf. Cats have a limited ability to metabolize these compounds, causing irritation throughout the gastrointestinal tract and, in larger exposures, systemic effects.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea (often yellow or reddish-tinged), lethargy, loss of appetite, and low blood sugar; tremors and dark urine in more serious cases.",
+    "Gel vs. latex: The clear inner gel contains very little aloin and is far less toxic than the yellow latex layer. However, whole-leaf products or plants chewed directly expose cats to both, making ingestion of the whole plant dangerous.",
+    "Action: Keep aloe plants out of reach. Contact a vet if your cat has chewed on a leaf, especially if diarrhea or lethargy develops."
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf",
+    "Latex"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "This is caused by saponins and anthraquinone glycosides found in the plant's latex (yellow sap), which act as purgatives and irritants to the digestive tract1.... 2. Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Abrupt.",
+      "notes": "The stool may appear red-tinged; this is often due to the plant's pigments passing through the system rather than actual blood, though it can look alarming. This symptom is driven by increased mucus and water secretion in the colon caused by glycosides12. 3. Lethargy"
+    },
+    {
+      "name": "Lethargy (Depression)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Following the onset of gastrointestinal symptoms.",
+      "notes": "This is a generalized systemic reaction to the toxins and the physical toll of gastrointestinal distress1.... 4. Hypoglycemia"
+    },
+    {
+      "name": "Hypoglycemia (Low Blood Sugar)",
+      "body_system": "Endocrine",
+      "severity": "severe",
+      "notes": "While less common than GI signs, a drop in blood sugar has been documented in cases of Aloe barbadensis ingestion2. 5. Anorexia"
+    },
+    {
+      "name": "Anorexia (Loss of appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Variable.",
+      "notes": "Cats may refuse food due to the nausea and abdominal discomfort associated with the plant's purgative effects"
+    }
+  ],
+  "scientificName": "Aloe barbadensis or Aloe spp.",
+  "family": "Liliaceae"
+}

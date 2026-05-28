@@ -1,28 +1,27 @@
 {
+  "symptoms_severity": {
+    "mild": "輕微",
+    "moderate": "中等",
+    "severe": "嚴重",
+    "fatal": "致命"
+  },
   "body_system": {
     "Cardiac": "",
+    "Gastrointestinal": "消化系統",
+    "Respiratory": "呼吸系統",
+    "Neurological": "神經系統",
     "Dermal": "皮膚",
     "Endocrine": "內分泌",
-    "Gastrointestinal": "消化系統",
     "Hematological": "",
     "Hepatic": "",
     "Metabolic": "",
-    "Neurological": "神經系統",
-    "Renal": "",
-    "Respiratory": "呼吸系統"
-  },
-  "symptoms_severity": {
-    "fatal": "致命",
-    "mild": "輕微",
-    "moderate": "中等",
-    "severe": "嚴重"
-  },
-  "terms": {
-    "Cardiac Arrhythmias": "心律不整",
-    "calcium oxalate": "草酸鈣",
-    "kidney failure": "腎衰竭"
+    "Renal": ""
   },
   "toxic_parts": {
+    "Leaf": "葉",
+    "Stem": "莖",
+    "Flower": "花",
+    "Seed": "種子",
     "Bark": "樹皮",
     "Bulb": "球莖",
     "Cob": "玉米芯",
@@ -31,11 +30,9 @@
     "Entire food": "",
     "Essential Oil": "精油",
     "Flesh": "",
-    "Flower": "花",
     "Fruit": "果實",
     "Juice": "汁",
     "Latex": "",
-    "Leaf": "葉",
     "Peel": "果皮",
     "Pit": "果核",
     "Pollen": "花粉",
@@ -43,9 +40,12 @@
     "Raw form": "",
     "Root": "",
     "Sap": "",
-    "Seed": "種子",
     "Skin": "",
-    "Stem": "莖",
     "Whole": ""
+  },
+  "terms": {
+    "kidney failure": "腎衰竭",
+    "calcium oxalate": "草酸鈣",
+    "Cardiac Arrhythmias": "心律不整"
   }
 }

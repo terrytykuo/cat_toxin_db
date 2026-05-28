@@ -1,0 +1,56 @@
+{
+  "slug": "jimson_weed",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/jimson_weed.jpg"
+  ],
+  "name": "Jimson Weed",
+  "aliases": [],
+  "description": "Jimson Weed (Datura stramonium), also called Thorn Apple or Devil's Trumpet, is an extremely toxic plant for cats. Every part — leaves, seeds, flowers, and stems — contains potent tropane alkaloids: atropine, scopolamine, and hyoscyamine. These anticholinergic compounds block the parasympathetic nervous system, causing life-threatening systemic effects even from small exposures.",
+  "safetyNotes": [
+    "Toxic compounds: tropane alkaloids — atropine, scopolamine, hyoscyamine; all parts toxic; spiky seed pods most concentrated",
+    "Mechanism: competitive antagonism of muscarinic acetylcholine receptors, causing full anticholinergic syndrome (dry, fast, hot, blind, mad)",
+    "Symptoms: dilated pupils (mydriasis), dry mouth, rapid heart rate (tachycardia), elevated body temperature, disorientation, agitation, hallucination-like behaviour, seizures, coma",
+    "The seed pods are the most concentrated source and can persist on the ground for months",
+    "Any suspected ingestion is a veterinary emergency — tropane alkaloid poisoning can be rapidly fatal"
+  ],
+  "toxicParts": [
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Rapid Breathing (Tachypnea)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "notes": "This is often one of the immediate physiological responses to the toxicity listed alongside cardiac issues.Dilated Pupils"
+    },
+    {
+      "name": "Dilated Pupils (Mydriasis)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "This sign indicates the toxin's effect on the nervous system, typically associated with the plant's alkaloid properties (though the specific alkaloids are not named in this source text).Rapid Pulse"
+    },
+    {
+      "name": "Rapid Pulse (Tachycardia)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "notes": "The plant causes significant cardiovascular stimulation.Neurological Dysfunction (Twitching and Convulsions)"
+    },
+    {
+      "name": "Twitching and Convulsions",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "notes": "Neurological signs can escalate from muscle twitching to full convulsions. Without intervention, this can progress to coma and death.Gastrointestinal Upset"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "While gastrointestinal distress is present, the neurological and cardiac signs are generally the primary cause for concern regarding mortality."
+    }
+  ],
+  "scientificName": "Datura stramonium",
+  "family": "Solanaceae"
+}

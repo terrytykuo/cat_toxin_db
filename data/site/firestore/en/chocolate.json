@@ -1,0 +1,68 @@
+{
+  "slug": "chocolate",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/chocolate.jpg"
+  ],
+  "name": "Chocolate",
+  "aliases": [],
+  "description": "Chocolate is one of the most well-known and genuinely dangerous foods for cats. Its toxic agents are the methylxanthines theobromine and caffeine, which cats metabolise far more slowly than humans, allowing lethal concentrations to build up quickly. These compounds attack feline physiology through three mechanisms: blocking adenosine receptors (causing CNS overstimulation and rapid heart rate), inhibiting phosphodiesterase (prolonging sympathetic nervous system activation), and modulating calcium flux in muscle cells (causing tremors and dangerous cardiac arrhythmias). Dark chocolate and cocoa powder carry the highest concentrations — just 2 grams of chocolate can cause serious harm to a cat.",
+  "safetyNotes": [
+    "Symptoms: Vomiting and diarrhea within 2–4 hours; followed by agitation, rapid heart rate, excessive thirst and urination; escalating to muscle tremors, hyperthermia, cardiac arrhythmias, and grand mal seizures; in severe cases: respiratory failure and death.",
+    "Danger by type (most to least): Dry cocoa powder > baker's chocolate > dark/semisweet chocolate > milk chocolate > white chocolate (virtually no methylxanthines).",
+    "2 grams can cause serious harm: Smaller than one standard chocolate square — even crumbs from baked goods should be taken seriously.",
+    "Action: Veterinary emergency. Contact a vet immediately even for small exposures."
+  ],
+  "toxicParts": [
+    "Seed",
+    "Powder"
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal Upset (Vomiting and Diarrhea)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "2 to 12 hours (often the initial symptoms to manifest)",
+      "notes": "These are generally the first clinical signs of methylxanthine (theobromine and caffeine) poisoning14. Additionally, the high fat content found in many chocolate products can trigger a secondary bout of acute pancreatitis"
+    },
+    {
+      "name": "Increased Thirst and Urination (Polydipsia and Polyuria)",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "onset": "2 to 12 hours (often follows initial gastrointestinal signs)",
+      "notes": "Theobromine acts as a diuretic, increasing fluid loss and causing the cat to pass large amounts of urine, which can rapidly lead to systemic dehydration"
+    },
+    {
+      "name": "Severe Neurological Overstimulation",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "6 to 12 hours (progresses as the toxins are absorbed into the bloodstream)",
+      "notes": "Methylxanthines block cellular adenosine receptors, leading to severe central nervous system overstimulation89. The cat will become extremely agitated, progressing to severe muscle tremors, grand mal seizures, and potentially a coma"
+    },
+    {
+      "name": "Cardiovascular Dysfunction",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "6 to 12 hours",
+      "notes": "The toxic compounds alter intracellular calcium fluxes in striated and cardiac muscles, abnormally enhancing muscle contractility89. This results in very rapid, irregular heartbeats, internal bleeding, and ultimately cardiac arrest in the terminal phase"
+    },
+    {
+      "name": "Respiratory Distress",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "6 to 12 hours",
+      "notes": "As cardiovascular and systemic distress worsens, cats will pant and breathe rapidly23. They may develop a bluish tinge to their skin and mucous membranes (cyanosis) due to poor oxygenation, culminating in respiratory failure"
+    },
+    {
+      "name": "Hyperthermia",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Mid to late stage (6 to 12 hours)",
+      "notes": "The extreme overstimulation of the nervous system and relentless muscle tremors generate excessive heat, causing the cat's core body temperature to spike to dangerous levels"
+    }
+  ],
+  "scientificName": "Chocolate",
+  "family": "Various"
+}

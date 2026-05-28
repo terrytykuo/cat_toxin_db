@@ -1,0 +1,3430 @@
+{
+  "generatedAt": "2026-05-28T11:39:49.879Z",
+  "firestore": {
+    "source": {
+      "mode": "firestore",
+      "detail": "toxins collection",
+      "liveError": null
+    }
+  },
+  "counts": {
+    "siteVisible": 150,
+    "plants": 100,
+    "foods": 50,
+    "firestoreDocs": 211,
+    "firestoreDocsWithImages": 207,
+    "currentMissingImages": 32,
+    "resolvedByLegacyId": 14,
+    "resolvedBySharedImage": 15,
+    "missingFirestoreImage": 3,
+    "unresolved": 0,
+    "duplicateCanonicalIds": 0,
+    "duplicateConceptGroups": 4
+  },
+  "currentMissingImages": [
+    {
+      "canonicalId": "agapanthus_africanus_or_a_orientalis",
+      "category": "plant",
+      "name": "Agapanthus Africanus Or A Orientalis",
+      "scientificName": null,
+      "sourcePath": "data/site/en/agapanthus_africanus_or_a_orientalis.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "agapanthus_orientalis_or_agapanthus_africanus",
+      "legacyIds": [],
+      "sharedImageFrom": "agapanthus_orientalis_or_agapanthus_africanus",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "agapanthus_orientalis_or_agapanthus_africanus",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "agastache_spp",
+      "category": "plant",
+      "name": "Hummingbird Mint",
+      "scientificName": "Agastache spp.",
+      "sourcePath": "data/site/en/agastache_spp.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "hummingbird_mint",
+      "legacyIds": [],
+      "sharedImageFrom": "hummingbird_mint",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "hummingbird_mint",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "allium_cepa",
+      "category": "plant",
+      "name": "Allium Cepa",
+      "scientificName": null,
+      "sourcePath": "data/site/en/allium_cepa.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "onions",
+      "legacyIds": [],
+      "sharedImageFrom": "onions",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "onions",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "allium_porrum",
+      "category": "plant",
+      "name": "Allium Porrum",
+      "scientificName": null,
+      "sourcePath": "data/site/en/allium_porrum.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "leeks",
+      "legacyIds": [],
+      "sharedImageFrom": "leeks",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "leeks",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "allium_sativum",
+      "category": "plant",
+      "name": "Allium Sativum",
+      "scientificName": null,
+      "sourcePath": "data/site/en/allium_sativum.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "garlic",
+      "legacyIds": [],
+      "sharedImageFrom": "garlic",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "garlic",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "antirrhinum_majus",
+      "category": "plant",
+      "name": "Snapdragon",
+      "scientificName": "Antirrhinum majus",
+      "sourcePath": "data/site/en/antirrhinum_majus.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "snapdragon",
+      "legacyIds": [
+        "snapdragon"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "snapdragon",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "aspidistra_elatior",
+      "category": "plant",
+      "name": "Cast Iron Plant",
+      "scientificName": "Aspidistra elatior",
+      "sourcePath": "data/site/en/aspidistra_elatior.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "cast-iron-plant",
+      "legacyIds": [
+        "cast-iron-plant"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "cast-iron-plant",
+          "reason": "name dash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "betula_lenta",
+      "category": "plant",
+      "name": "Sweet Birch",
+      "scientificName": "Betula lenta",
+      "sourcePath": "data/site/en/betula_lenta.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "sweet_birch",
+      "legacyIds": [
+        "sweet_birch"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "sweet_birch",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "calathea_spp",
+      "category": "plant",
+      "name": "Calathea",
+      "scientificName": "Calathea spp.",
+      "sourcePath": "data/site/en/calathea_spp.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "calathea",
+      "legacyIds": [
+        "calathea"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "calathea",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "cananga_odorata",
+      "category": "plant",
+      "name": "Ylang Ylang",
+      "scientificName": "Cananga odorata",
+      "sourcePath": "data/site/en/cananga_odorata.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "ylang_ylang",
+      "legacyIds": [
+        "ylang_ylang"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "ylang_ylang",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "crassula_arborescens",
+      "category": "plant",
+      "name": "Jade Plant",
+      "scientificName": "Crassula arborescens",
+      "sourcePath": "data/site/en/crassula_arborescens.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "crassula_arborescens_or_crassula",
+      "legacyIds": [],
+      "sharedImageFrom": "crassula_arborescens_or_crassula",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "crassula_arborescens_or_crassula",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "datura_stramonium",
+      "category": "plant",
+      "name": "Jimson Weed",
+      "scientificName": "Datura stramonium",
+      "sourcePath": "data/site/en/datura_stramonium.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "jimson_weed",
+      "legacyIds": [],
+      "sharedImageFrom": "jimson_weed",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "jimson_weed",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "dypsis_lutescens",
+      "category": "plant",
+      "name": "Areca Palm",
+      "scientificName": "Dypsis lutescens",
+      "sourcePath": "data/site/en/dypsis_lutescens.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "areca-palm",
+      "legacyIds": [
+        "areca-palm"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "areca-palm",
+          "reason": "name dash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "e_g_satin_pothos",
+      "category": "plant",
+      "name": "Silver Leaf Philodendron",
+      "scientificName": "e.g. Satin Pothos",
+      "sourcePath": "data/site/en/e_g_satin_pothos.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "eg_satin_pothos",
+      "legacyIds": [],
+      "sharedImageFrom": "eg_satin_pothos",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "eg_satin_pothos",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "eucalyptus_spp",
+      "category": "plant",
+      "name": "Eucalyptus",
+      "scientificName": "Eucalyptus spp.",
+      "sourcePath": "data/site/en/eucalyptus_spp.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "eucalyptus",
+      "legacyIds": [],
+      "sharedImageFrom": "eucalyptus",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "eucalyptus",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "eustoma_grandiflorum",
+      "category": "plant",
+      "name": "Lisianthus",
+      "scientificName": "Eustoma grandiflorum",
+      "sourcePath": "data/site/en/eustoma_grandiflorum.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "lisianthus",
+      "legacyIds": [
+        "lisianthus"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "lisianthus",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "gaultheria_procumbens",
+      "category": "plant",
+      "name": "Wintergreen",
+      "scientificName": "Gaultheria procumbens",
+      "sourcePath": "data/site/en/gaultheria_procumbens.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "wintergreen",
+      "legacyIds": [
+        "wintergreen"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "wintergreen",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "gerbera_jamesonii",
+      "category": "plant",
+      "name": "Gerbera Daisy",
+      "scientificName": "Gerbera jamesonii",
+      "sourcePath": "data/site/en/gerbera_jamesonii.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "gerbera-daisy",
+      "legacyIds": [
+        "gerbera-daisy"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "gerbera-daisy",
+          "reason": "name dash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "helianthus_annuus",
+      "category": "plant",
+      "name": "Sunflower",
+      "scientificName": "Helianthus annuus",
+      "sourcePath": "data/site/en/helianthus_annuus.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "sunflower",
+      "legacyIds": [
+        "sunflower"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "sunflower",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "hyacinthoides_non_scripta",
+      "category": "plant",
+      "name": "Bluebells",
+      "scientificName": "Hyacinthoides non-scripta",
+      "sourcePath": "data/site/en/hyacinthoides_non_scripta.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "hyacinthoides_nonscripta",
+      "legacyIds": [],
+      "sharedImageFrom": "hyacinthoides_nonscripta",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "hyacinthoides_nonscripta",
+          "reason": "canonicalId",
+          "compact": "hyacinthoidesnonscripta",
+          "match": "compact-id"
+        }
+      ]
+    },
+    {
+      "canonicalId": "ilex_spp",
+      "category": "plant",
+      "name": "Holly",
+      "scientificName": "Ilex spp.",
+      "sourcePath": "data/site/en/ilex_spp.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "ilex",
+      "legacyIds": [],
+      "sharedImageFrom": "ilex",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "ilex",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "ipomoea_spp",
+      "category": "plant",
+      "name": "Morning Glory",
+      "scientificName": "Ipomoea spp.",
+      "sourcePath": "data/site/en/ipomoea_spp.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "morning_glory",
+      "legacyIds": [
+        "morning_glory"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "morning_glory",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "iris_spp",
+      "category": "plant",
+      "name": "Iris",
+      "scientificName": "Iris spp.",
+      "sourcePath": "data/site/en/iris_spp.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "iris",
+      "legacyIds": [],
+      "sharedImageFrom": "iris",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "iris",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "scallions_green_onions",
+      "category": "food",
+      "name": "Scallions / Green onions",
+      "scientificName": "Scallions / Green onions",
+      "sourcePath": "data/foods_processed/scallions_green_onions.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "scallions__green_onions",
+      "legacyIds": [
+        "scallions__green_onions"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "scallions__green_onions",
+          "reason": "name slash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "grapes",
+      "category": "food",
+      "name": "Grapes",
+      "scientificName": "Grapes",
+      "sourcePath": "data/foods_processed/grapes.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "vitis__implied",
+      "legacyIds": [],
+      "sharedImageFrom": "vitis__implied",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "vitis__implied",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "raisins",
+      "category": "food",
+      "name": "Raisins",
+      "scientificName": "Raisins",
+      "sourcePath": "data/foods_processed/raisins.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "vitis__implied",
+      "legacyIds": [],
+      "sharedImageFrom": "vitis__implied",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "vitis__implied",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "starfruit",
+      "category": "food",
+      "name": "Starfruit",
+      "scientificName": "Starfruit",
+      "sourcePath": "data/foods_processed/starfruit.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "averrhoa_carambola",
+      "legacyIds": [],
+      "sharedImageFrom": "averrhoa_carambola",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "averrhoa_carambola",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "raw_eggs_raw_egg_whites",
+      "category": "food",
+      "name": "Raw eggs",
+      "scientificName": "Raw eggs / Raw egg whites",
+      "sourcePath": "data/foods_processed/raw_eggs_raw_egg_whites.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "raw_eggs__raw_egg_whites",
+      "legacyIds": [
+        "raw_eggs__raw_egg_whites"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "raw_eggs__raw_egg_whites",
+          "reason": "scientificName slash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "caffeinated_drinks_soda",
+      "category": "food",
+      "name": "Caffeinated drinks / Soda",
+      "scientificName": "Caffeinated drinks / Soda",
+      "sourcePath": "data/foods_processed/caffeinated_drinks_soda.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "caffeinated_drinks__soda",
+      "legacyIds": [
+        "caffeinated_drinks__soda"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "caffeinated_drinks__soda",
+          "reason": "name slash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "candied_fruits",
+      "category": "food",
+      "name": "Candied fruits",
+      "scientificName": "Candied fruits",
+      "sourcePath": "data/foods_processed/candied_fruits.json",
+      "status": "missing_firestore_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": true,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "meat_jerky_dried_squid_and_dried_fish",
+      "category": "food",
+      "name": "Meat jerky, dried squid, and dried fish",
+      "scientificName": "Meat jerky, dried squid, and dried fish",
+      "sourcePath": "data/foods_processed/meat_jerky_dried_squid_and_dried_fish.json",
+      "status": "missing_firestore_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": true,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "pastries_radish_cake_rice_cake_pineapple_cake_mochi",
+      "category": "food",
+      "name": "Pastries (radish cake, rice cake, pineapple cake, mochi)",
+      "scientificName": "Pastries (radish cake, rice cake, pineapple cake, mochi)",
+      "sourcePath": "data/foods_processed/pastries_radish_cake_rice_cake_pineapple_cake_mochi.json",
+      "status": "missing_firestore_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": true,
+      "candidateMatches": []
+    }
+  ],
+  "duplicateCanonicalIds": [],
+  "duplicateConceptGroups": [
+    {
+      "kind": "name",
+      "value": "eucalyptus",
+      "category": "plant",
+      "entries": [
+        {
+          "canonicalId": "eucalyptus",
+          "name": "Eucalyptus",
+          "scientificName": null,
+          "sourcePath": "data/site/en/eucalyptus.json"
+        },
+        {
+          "canonicalId": "eucalyptus_spp",
+          "name": "Eucalyptus",
+          "scientificName": "Eucalyptus spp.",
+          "sourcePath": "data/site/en/eucalyptus_spp.json"
+        }
+      ]
+    },
+    {
+      "kind": "name",
+      "value": "hummingbird mint",
+      "category": "plant",
+      "entries": [
+        {
+          "canonicalId": "agastache_spp",
+          "name": "Hummingbird Mint",
+          "scientificName": "Agastache spp.",
+          "sourcePath": "data/site/en/agastache_spp.json"
+        },
+        {
+          "canonicalId": "hummingbird_mint",
+          "name": "Hummingbird Mint",
+          "scientificName": null,
+          "sourcePath": "data/site/en/hummingbird_mint.json"
+        }
+      ]
+    },
+    {
+      "kind": "name",
+      "value": "iris",
+      "category": "plant",
+      "entries": [
+        {
+          "canonicalId": "iris",
+          "name": "Iris",
+          "scientificName": null,
+          "sourcePath": "data/site/en/iris.json"
+        },
+        {
+          "canonicalId": "iris_spp",
+          "name": "Iris",
+          "scientificName": "Iris spp.",
+          "sourcePath": "data/site/en/iris_spp.json"
+        }
+      ]
+    },
+    {
+      "kind": "name",
+      "value": "jimson weed",
+      "category": "plant",
+      "entries": [
+        {
+          "canonicalId": "datura_stramonium",
+          "name": "Jimson Weed",
+          "scientificName": "Datura stramonium",
+          "sourcePath": "data/site/en/datura_stramonium.json"
+        },
+        {
+          "canonicalId": "jimson_weed",
+          "name": "Jimson Weed",
+          "scientificName": null,
+          "sourcePath": "data/site/en/jimson_weed.json"
+        }
+      ]
+    }
+  ],
+  "allSiteVisibleImages": [
+    {
+      "canonicalId": "abrus_precatorius",
+      "category": "plant",
+      "name": "Rosary Pea",
+      "scientificName": "Abrus precatorius",
+      "sourcePath": "data/site/en/abrus_precatorius.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "adenium_obesum",
+      "category": "plant",
+      "name": "Desert Rose",
+      "scientificName": "Adenium obesum",
+      "sourcePath": "data/site/en/adenium_obesum.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "agapanthus_africanus_or_a_orientalis",
+      "category": "plant",
+      "name": "Agapanthus Africanus Or A Orientalis",
+      "scientificName": null,
+      "sourcePath": "data/site/en/agapanthus_africanus_or_a_orientalis.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "agapanthus_orientalis_or_agapanthus_africanus",
+      "legacyIds": [],
+      "sharedImageFrom": "agapanthus_orientalis_or_agapanthus_africanus",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "agapanthus_orientalis_or_agapanthus_africanus",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "agapanthus_orientalis_or_agapanthus_africanus",
+      "category": "plant",
+      "name": "African Blue Lily",
+      "scientificName": "Agapanthus orientalis or Agapanthus africanus",
+      "sourcePath": "data/site/en/agapanthus_orientalis_or_agapanthus_africanus.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "agastache_spp",
+      "category": "plant",
+      "name": "Hummingbird Mint",
+      "scientificName": "Agastache spp.",
+      "sourcePath": "data/site/en/agastache_spp.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "hummingbird_mint",
+      "legacyIds": [],
+      "sharedImageFrom": "hummingbird_mint",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "hummingbird_mint",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "agave_americana",
+      "category": "plant",
+      "name": "Century Plant",
+      "scientificName": "Agave americana",
+      "sourcePath": "data/site/en/agave_americana.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "aglaonema_modestum",
+      "category": "plant",
+      "name": "Chinese Evergreen",
+      "scientificName": "Aglaonema modestum",
+      "sourcePath": "data/site/en/aglaonema_modestum.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "allamanda_cathartica",
+      "category": "plant",
+      "name": "Allamanda",
+      "scientificName": "Allamanda cathartica",
+      "sourcePath": "data/site/en/allamanda_cathartica.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "allium_cepa",
+      "category": "plant",
+      "name": "Allium Cepa",
+      "scientificName": null,
+      "sourcePath": "data/site/en/allium_cepa.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "onions",
+      "legacyIds": [],
+      "sharedImageFrom": "onions",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "onions",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "allium_porrum",
+      "category": "plant",
+      "name": "Allium Porrum",
+      "scientificName": null,
+      "sourcePath": "data/site/en/allium_porrum.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "leeks",
+      "legacyIds": [],
+      "sharedImageFrom": "leeks",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "leeks",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "allium_sativum",
+      "category": "plant",
+      "name": "Allium Sativum",
+      "scientificName": null,
+      "sourcePath": "data/site/en/allium_sativum.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "garlic",
+      "legacyIds": [],
+      "sharedImageFrom": "garlic",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "garlic",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "allium_schoenoprasum",
+      "category": "plant",
+      "name": "Chives",
+      "scientificName": "Allium schoenoprasum",
+      "sourcePath": "data/site/en/allium_schoenoprasum.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "alocasia_reginula",
+      "category": "plant",
+      "name": "Black Velvet Alocasia",
+      "scientificName": "Alocasia reginula",
+      "sourcePath": "data/site/en/alocasia_reginula.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "aloe_barbadensis_or_aloe_spp",
+      "category": "plant",
+      "name": "Aloe Vera",
+      "scientificName": "Aloe barbadensis or Aloe spp.",
+      "sourcePath": "data/site/en/aloe_barbadensis_or_aloe_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "alstroemeria_spp",
+      "category": "plant",
+      "name": "Peruvian Lily",
+      "scientificName": "Alstroemeria spp.",
+      "sourcePath": "data/site/en/alstroemeria_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "anthurium_hookeri",
+      "category": "plant",
+      "name": "Bird’s Nest Anthurium",
+      "scientificName": "Anthurium hookeri",
+      "sourcePath": "data/site/en/anthurium_hookeri.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "anthurium_spp",
+      "category": "plant",
+      "name": "Flamingo Flower / Anthurium",
+      "scientificName": "Anthurium spp.",
+      "sourcePath": "data/site/en/anthurium_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "antirrhinum_majus",
+      "category": "plant",
+      "name": "Snapdragon",
+      "scientificName": "Antirrhinum majus",
+      "sourcePath": "data/site/en/antirrhinum_majus.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "snapdragon",
+      "legacyIds": [
+        "snapdragon"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "snapdragon",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "arum_spp",
+      "category": "plant",
+      "name": "Italian Arum",
+      "scientificName": "Arum spp.",
+      "sourcePath": "data/site/en/arum_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "asclepias_spp",
+      "category": "plant",
+      "name": "Milkweed",
+      "scientificName": "Asclepias spp.",
+      "sourcePath": "data/site/en/asclepias_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "asparagus_densiflorus",
+      "category": "plant",
+      "name": "Asparagus Fern",
+      "scientificName": "Asparagus densiflorus",
+      "sourcePath": "data/site/en/asparagus_densiflorus.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "aspidistra_elatior",
+      "category": "plant",
+      "name": "Cast Iron Plant",
+      "scientificName": "Aspidistra elatior",
+      "sourcePath": "data/site/en/aspidistra_elatior.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "cast-iron-plant",
+      "legacyIds": [
+        "cast-iron-plant"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "cast-iron-plant",
+          "reason": "name dash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "aucuba_japonica",
+      "category": "plant",
+      "name": "Japanese Aucuba",
+      "scientificName": "Aucuba japonica",
+      "sourcePath": "data/site/en/aucuba_japonica.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "averrhoa_carambola",
+      "category": "plant",
+      "name": "Starfruit",
+      "scientificName": "Averrhoa carambola",
+      "sourcePath": "data/site/en/averrhoa_carambola.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "begonia_maculata",
+      "category": "plant",
+      "name": "Polka Dot Begonia",
+      "scientificName": "Begonia maculata",
+      "sourcePath": "data/site/en/begonia_maculata.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "begonia_spp",
+      "category": "plant",
+      "name": "Begonia",
+      "scientificName": "Begonia spp.",
+      "sourcePath": "data/site/en/begonia_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "betula_lenta",
+      "category": "plant",
+      "name": "Sweet Birch",
+      "scientificName": "Betula lenta",
+      "sourcePath": "data/site/en/betula_lenta.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "sweet_birch",
+      "legacyIds": [
+        "sweet_birch"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "sweet_birch",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "brugmansia_spp",
+      "category": "plant",
+      "name": "Angel's Trumpets",
+      "scientificName": "Brugmansia spp.",
+      "sourcePath": "data/site/en/brugmansia_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "brunfelsia_pauciflora_floribunda",
+      "category": "plant",
+      "name": "Yesterday-today-and-tomorrow",
+      "scientificName": "Brunfelsia pauciflora floribunda",
+      "sourcePath": "data/site/en/brunfelsia_pauciflora_floribunda.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "caladium_spp_or_alocasia_spp",
+      "category": "plant",
+      "name": "Caladium / Elephant’s Ear",
+      "scientificName": "Caladium spp. or Alocasia spp.",
+      "sourcePath": "data/site/en/caladium_spp_or_alocasia_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "calathea_spp",
+      "category": "plant",
+      "name": "Calathea",
+      "scientificName": "Calathea spp.",
+      "sourcePath": "data/site/en/calathea_spp.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "calathea",
+      "legacyIds": [
+        "calathea"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "calathea",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "cananga_odorata",
+      "category": "plant",
+      "name": "Ylang Ylang",
+      "scientificName": "Cananga odorata",
+      "sourcePath": "data/site/en/cananga_odorata.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "ylang_ylang",
+      "legacyIds": [
+        "ylang_ylang"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "ylang_ylang",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "cannabis_sativa",
+      "category": "plant",
+      "name": "Cannabis / Marijuana",
+      "scientificName": "Cannabis sativa",
+      "sourcePath": "data/site/en/cannabis_sativa.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "capsicum_annuum",
+      "category": "plant",
+      "name": "Bell Pepper / Chili Pepper / Ornamental Pepper",
+      "scientificName": "Capsicum annuum",
+      "sourcePath": "data/site/en/capsicum_annuum.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "catharanthus_reseus",
+      "category": "plant",
+      "name": "Madagascar Periwinkle",
+      "scientificName": "Catharanthus reseus",
+      "sourcePath": "data/site/en/catharanthus_reseus.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "celastrus_scandens",
+      "category": "plant",
+      "name": "Bittersweet",
+      "scientificName": "Celastrus scandens",
+      "sourcePath": "data/site/en/celastrus_scandens.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "cercocarpus_spp",
+      "category": "plant",
+      "name": "Mountain Mahogany",
+      "scientificName": "Cercocarpus spp.",
+      "sourcePath": "data/site/en/cercocarpus_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "chlorophytum_spp",
+      "category": "plant",
+      "name": "Spider Plant",
+      "scientificName": "Chlorophytum spp.",
+      "sourcePath": "data/site/en/chlorophytum_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "chrysanthemum_morifolium",
+      "category": "plant",
+      "name": "Chrysanthemum / Mums",
+      "scientificName": "Chrysanthemum morifolium",
+      "sourcePath": "data/site/en/chrysanthemum_morifolium.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "cinnamomum_verum",
+      "category": "plant",
+      "name": "Cinnamon",
+      "scientificName": "Cinnamomum verum",
+      "sourcePath": "data/site/en/cinnamomum_verum.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "citrus_spp",
+      "category": "plant",
+      "name": "Citrus",
+      "scientificName": "Citrus spp.",
+      "sourcePath": "data/site/en/citrus_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "clivia_miniata",
+      "category": "plant",
+      "name": "Fire Lily",
+      "scientificName": "Clivia miniata",
+      "sourcePath": "data/site/en/clivia_miniata.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "codiaeum_variegatum",
+      "category": "plant",
+      "name": "Croton",
+      "scientificName": "Codiaeum variegatum",
+      "sourcePath": "data/site/en/codiaeum_variegatum.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "colchicum_autumnale",
+      "category": "plant",
+      "name": "Autumn Crocus",
+      "scientificName": "Colchicum autumnale",
+      "sourcePath": "data/site/en/colchicum_autumnale.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "convallaria_majalis",
+      "category": "plant",
+      "name": "Lily of the Valley",
+      "scientificName": "Convallaria majalis",
+      "sourcePath": "data/site/en/convallaria_majalis.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "crassula_arborescens",
+      "category": "plant",
+      "name": "Jade Plant",
+      "scientificName": "Crassula arborescens",
+      "sourcePath": "data/site/en/crassula_arborescens.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "crassula_arborescens_or_crassula",
+      "legacyIds": [],
+      "sharedImageFrom": "crassula_arborescens_or_crassula",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "crassula_arborescens_or_crassula",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "crassula_arborescens_or_crassula",
+      "category": "plant",
+      "name": "Crassula Arborescens Or Crassula",
+      "scientificName": null,
+      "sourcePath": "data/site/en/crassula_arborescens_or_crassula.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "crocus_vernus",
+      "category": "plant",
+      "name": "Crocus",
+      "scientificName": "Crocus vernus",
+      "sourcePath": "data/site/en/crocus_vernus.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "cycas_revoluta_cycas_cirinalis_zamia_spp",
+      "category": "plant",
+      "name": "Sago Palm / Cycads",
+      "scientificName": "Cycas revoluta, Cycas cirinalis, Zamia spp.",
+      "sourcePath": "data/site/en/cycas_revoluta_cycas_cirinalis_zamia_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "cycas_spp_or_zamia_spp",
+      "category": "plant",
+      "name": "Cycad",
+      "scientificName": "Cycas spp. or Zamia spp.",
+      "sourcePath": "data/site/en/cycas_spp_or_zamia_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "cyclamen_spp",
+      "category": "plant",
+      "name": "Cyclamen",
+      "scientificName": "Cyclamen spp.",
+      "sourcePath": "data/site/en/cyclamen_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "dahlia_pinnata",
+      "category": "plant",
+      "name": "Dahlia",
+      "scientificName": "Dahlia pinnata",
+      "sourcePath": "data/site/en/dahlia_pinnata.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "darlingtonia_californica",
+      "category": "plant",
+      "name": "Cobra Lily",
+      "scientificName": "Darlingtonia californica",
+      "sourcePath": "data/site/en/darlingtonia_californica.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "datura_stramonium",
+      "category": "plant",
+      "name": "Jimson Weed",
+      "scientificName": "Datura stramonium",
+      "sourcePath": "data/site/en/datura_stramonium.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "jimson_weed",
+      "legacyIds": [],
+      "sharedImageFrom": "jimson_weed",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "jimson_weed",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "dianthus_caryophyllus",
+      "category": "plant",
+      "name": "Carnation",
+      "scientificName": "Dianthus caryophyllus",
+      "sourcePath": "data/site/en/dianthus_caryophyllus.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "dieffenbachia_spp",
+      "category": "plant",
+      "name": "Dieffenbachia / Dumb Cane",
+      "scientificName": "Dieffenbachia spp.",
+      "sourcePath": "data/site/en/dieffenbachia_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "digitalis_purpurea",
+      "category": "plant",
+      "name": "Foxglove",
+      "scientificName": "Digitalis purpurea",
+      "sourcePath": "data/site/en/digitalis_purpurea.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "dracaena_fragrans",
+      "category": "plant",
+      "name": "Corn Plant",
+      "scientificName": "Dracaena fragrans",
+      "sourcePath": "data/site/en/dracaena_fragrans.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "dracaena_marginata_or_dracaena_spp",
+      "category": "plant",
+      "name": "Dragon Tree",
+      "scientificName": "Dracaena marginata or Dracaena spp.",
+      "sourcePath": "data/site/en/dracaena_marginata_or_dracaena_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "dracaena_sanderiana",
+      "category": "plant",
+      "name": "Lucky Bamboo",
+      "scientificName": "Dracaena sanderiana",
+      "sourcePath": "data/site/en/dracaena_sanderiana.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "dracaena_spp",
+      "category": "plant",
+      "name": "Dracaena",
+      "scientificName": "Dracaena spp.",
+      "sourcePath": "data/site/en/dracaena_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "dypsis_lutescens",
+      "category": "plant",
+      "name": "Areca Palm",
+      "scientificName": "Dypsis lutescens",
+      "sourcePath": "data/site/en/dypsis_lutescens.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "areca-palm",
+      "legacyIds": [
+        "areca-palm"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "areca-palm",
+          "reason": "name dash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "e_g_satin_pothos",
+      "category": "plant",
+      "name": "Silver Leaf Philodendron",
+      "scientificName": "e.g. Satin Pothos",
+      "sourcePath": "data/site/en/e_g_satin_pothos.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "eg_satin_pothos",
+      "legacyIds": [],
+      "sharedImageFrom": "eg_satin_pothos",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "eg_satin_pothos",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "eg_satin_pothos",
+      "category": "plant",
+      "name": "Eg Satin Pothos",
+      "scientificName": null,
+      "sourcePath": "data/site/en/eg_satin_pothos.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "epipremnum_aureum_or_epipremnum_spp",
+      "category": "plant",
+      "name": "Pothos / Devil’s Ivy",
+      "scientificName": "Epipremnum aureum or Epipremnum spp.",
+      "sourcePath": "data/site/en/epipremnum_aureum_or_epipremnum_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "eucalyptus",
+      "category": "plant",
+      "name": "Eucalyptus",
+      "scientificName": null,
+      "sourcePath": "data/site/en/eucalyptus.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "eucalyptus_spp",
+      "category": "plant",
+      "name": "Eucalyptus",
+      "scientificName": "Eucalyptus spp.",
+      "sourcePath": "data/site/en/eucalyptus_spp.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "eucalyptus",
+      "legacyIds": [],
+      "sharedImageFrom": "eucalyptus",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "eucalyptus",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "euphorbia_pulcherrima",
+      "category": "plant",
+      "name": "Poinsettia",
+      "scientificName": "Euphorbia pulcherrima",
+      "sourcePath": "data/site/en/euphorbia_pulcherrima.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "eustoma_grandiflorum",
+      "category": "plant",
+      "name": "Lisianthus",
+      "scientificName": "Eustoma grandiflorum",
+      "sourcePath": "data/site/en/eustoma_grandiflorum.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "lisianthus",
+      "legacyIds": [
+        "lisianthus"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "lisianthus",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "ficus_benghalensis",
+      "category": "plant",
+      "name": "Ficus Audrey",
+      "scientificName": "Ficus benghalensis",
+      "sourcePath": "data/site/en/ficus_benghalensis.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "ficus_elastica",
+      "category": "plant",
+      "name": "Rubber Plant",
+      "scientificName": "Ficus elastica",
+      "sourcePath": "data/site/en/ficus_elastica.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "ficus_lyrata",
+      "category": "plant",
+      "name": "Fiddle Leaf Fig",
+      "scientificName": "Ficus lyrata",
+      "sourcePath": "data/site/en/ficus_lyrata.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "ficus_spp",
+      "category": "plant",
+      "name": "Ficus / Weeping Fig",
+      "scientificName": "Ficus spp.",
+      "sourcePath": "data/site/en/ficus_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "gardenia_jasminoides",
+      "category": "plant",
+      "name": "Gardenia",
+      "scientificName": "Gardenia jasminoides",
+      "sourcePath": "data/site/en/gardenia_jasminoides.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "gaultheria_procumbens",
+      "category": "plant",
+      "name": "Wintergreen",
+      "scientificName": "Gaultheria procumbens",
+      "sourcePath": "data/site/en/gaultheria_procumbens.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "wintergreen",
+      "legacyIds": [
+        "wintergreen"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "wintergreen",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "gerbera_jamesonii",
+      "category": "plant",
+      "name": "Gerbera Daisy",
+      "scientificName": "Gerbera jamesonii",
+      "sourcePath": "data/site/en/gerbera_jamesonii.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "gerbera-daisy",
+      "legacyIds": [
+        "gerbera-daisy"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "gerbera-daisy",
+          "reason": "name dash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "gladiolus_spp",
+      "category": "plant",
+      "name": "Gladioli / Sword Lily",
+      "scientificName": "Gladiolus spp.",
+      "sourcePath": "data/site/en/gladiolus_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "hedera_spp",
+      "category": "plant",
+      "name": "English Ivy",
+      "scientificName": "Hedera spp.",
+      "sourcePath": "data/site/en/hedera_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "helianthus_annuus",
+      "category": "plant",
+      "name": "Sunflower",
+      "scientificName": "Helianthus annuus",
+      "sourcePath": "data/site/en/helianthus_annuus.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "sunflower",
+      "legacyIds": [
+        "sunflower"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "sunflower",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "helleborus_niger",
+      "category": "plant",
+      "name": "Christmas Rose",
+      "scientificName": "Helleborus niger",
+      "sourcePath": "data/site/en/helleborus_niger.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "hemerocallis_spp",
+      "category": "plant",
+      "name": "Daylily",
+      "scientificName": "Hemerocallis spp.",
+      "sourcePath": "data/site/en/hemerocallis_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "hippeastrum_spp_or_amaryllis_spp",
+      "category": "plant",
+      "name": "Amaryllis",
+      "scientificName": "Hippeastrum spp. or Amaryllis spp.",
+      "sourcePath": "data/site/en/hippeastrum_spp_or_amaryllis_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "homalomena_selby",
+      "category": "plant",
+      "name": "Homalomena Selby / Homalomena rubescens",
+      "scientificName": "Homalomena Selby",
+      "sourcePath": "data/site/en/homalomena_selby.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "honeysuckle",
+      "category": "plant",
+      "name": "Honeysuckle",
+      "scientificName": null,
+      "sourcePath": "data/site/en/honeysuckle.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "hummingbird_mint",
+      "category": "plant",
+      "name": "Hummingbird Mint",
+      "scientificName": null,
+      "sourcePath": "data/site/en/hummingbird_mint.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "hyacinthoides_non_scripta",
+      "category": "plant",
+      "name": "Bluebells",
+      "scientificName": "Hyacinthoides non-scripta",
+      "sourcePath": "data/site/en/hyacinthoides_non_scripta.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "hyacinthoides_nonscripta",
+      "legacyIds": [],
+      "sharedImageFrom": "hyacinthoides_nonscripta",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "hyacinthoides_nonscripta",
+          "reason": "canonicalId",
+          "compact": "hyacinthoidesnonscripta",
+          "match": "compact-id"
+        }
+      ]
+    },
+    {
+      "canonicalId": "hyacinthoides_nonscripta",
+      "category": "plant",
+      "name": "Hyacinthoides Nonscripta",
+      "scientificName": null,
+      "sourcePath": "data/site/en/hyacinthoides_nonscripta.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "hyacinthus_spp",
+      "category": "plant",
+      "name": "Hyacinth",
+      "scientificName": "Hyacinthus spp.",
+      "sourcePath": "data/site/en/hyacinthus_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "hydrangea_spp",
+      "category": "plant",
+      "name": "Hydrangea",
+      "scientificName": "Hydrangea spp.",
+      "sourcePath": "data/site/en/hydrangea_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "ilex",
+      "category": "plant",
+      "name": "Ilex",
+      "scientificName": null,
+      "sourcePath": "data/site/en/ilex.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "ilex_aquifolium",
+      "category": "plant",
+      "name": "English Holly",
+      "scientificName": "Ilex aquifolium",
+      "sourcePath": "data/site/en/ilex_aquifolium.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "ilex_spp",
+      "category": "plant",
+      "name": "Holly",
+      "scientificName": "Ilex spp.",
+      "sourcePath": "data/site/en/ilex_spp.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "ilex",
+      "legacyIds": [],
+      "sharedImageFrom": "ilex",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "ilex",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "indian_borage",
+      "category": "plant",
+      "name": "Mexican Mint",
+      "scientificName": "Indian borage",
+      "sourcePath": "data/site/en/indian_borage.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "ipomoea_spp",
+      "category": "plant",
+      "name": "Morning Glory",
+      "scientificName": "Ipomoea spp.",
+      "sourcePath": "data/site/en/ipomoea_spp.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "morning_glory",
+      "legacyIds": [
+        "morning_glory"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "morning_glory",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "iris",
+      "category": "plant",
+      "name": "Iris",
+      "scientificName": null,
+      "sourcePath": "data/site/en/iris.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "iris_spp",
+      "category": "plant",
+      "name": "Iris",
+      "scientificName": "Iris spp.",
+      "sourcePath": "data/site/en/iris_spp.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "iris",
+      "legacyIds": [],
+      "sharedImageFrom": "iris",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "iris",
+          "reason": "name slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "jimson_weed",
+      "category": "plant",
+      "name": "Jimson Weed",
+      "scientificName": null,
+      "sourcePath": "data/site/en/jimson_weed.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "kalanchoe_spp",
+      "category": "plant",
+      "name": "Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy",
+      "scientificName": "Kalanchoe spp.",
+      "sourcePath": "data/site/en/kalanchoe_spp.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "kalmia_latifolia",
+      "category": "plant",
+      "name": "Mountain Laurel",
+      "scientificName": "Kalmia latifolia",
+      "sourcePath": "data/site/en/kalmia_latifolia.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "lantana",
+      "category": "plant",
+      "name": "Lantana",
+      "scientificName": null,
+      "sourcePath": "data/site/en/lantana.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "onions",
+      "category": "food",
+      "name": "Onions",
+      "scientificName": "Onions",
+      "sourcePath": "data/foods_processed/onions.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "garlic",
+      "category": "food",
+      "name": "Garlic",
+      "scientificName": "Garlic",
+      "sourcePath": "data/foods_processed/garlic.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "scallions_green_onions",
+      "category": "food",
+      "name": "Scallions / Green onions",
+      "scientificName": "Scallions / Green onions",
+      "sourcePath": "data/foods_processed/scallions_green_onions.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "scallions__green_onions",
+      "legacyIds": [
+        "scallions__green_onions"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "scallions__green_onions",
+          "reason": "name slash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "leeks",
+      "category": "food",
+      "name": "Leeks",
+      "scientificName": "Leeks",
+      "sourcePath": "data/foods_processed/leeks.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "shallots",
+      "category": "food",
+      "name": "Shallots",
+      "scientificName": "Shallots",
+      "sourcePath": "data/foods_processed/shallots.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "grapes",
+      "category": "food",
+      "name": "Grapes",
+      "scientificName": "Grapes",
+      "sourcePath": "data/foods_processed/grapes.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "vitis__implied",
+      "legacyIds": [],
+      "sharedImageFrom": "vitis__implied",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "vitis__implied",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "raisins",
+      "category": "food",
+      "name": "Raisins",
+      "scientificName": "Raisins",
+      "sourcePath": "data/foods_processed/raisins.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "vitis__implied",
+      "legacyIds": [],
+      "sharedImageFrom": "vitis__implied",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "vitis__implied",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "macadamia_nuts",
+      "category": "food",
+      "name": "Macadamia nuts",
+      "scientificName": "Macadamia nuts",
+      "sourcePath": "data/foods_processed/macadamia_nuts.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "cherries",
+      "category": "food",
+      "name": "Cherries",
+      "scientificName": "Cherries",
+      "sourcePath": "data/foods_processed/cherries.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "apples__apple_seeds",
+      "category": "food",
+      "name": "Apples / Apple seeds",
+      "scientificName": "Apples / Apple seeds",
+      "sourcePath": "data/foods_processed/apples__apple_seeds.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "peaches",
+      "category": "food",
+      "name": "Peaches",
+      "scientificName": "Peaches",
+      "sourcePath": "data/foods_processed/peaches.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "plums",
+      "category": "food",
+      "name": "Plums",
+      "scientificName": "Plums",
+      "sourcePath": "data/foods_processed/plums.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "apricots",
+      "category": "food",
+      "name": "Apricots",
+      "scientificName": "Apricots",
+      "sourcePath": "data/foods_processed/apricots.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "starfruit",
+      "category": "food",
+      "name": "Starfruit",
+      "scientificName": "Starfruit",
+      "sourcePath": "data/foods_processed/starfruit.json",
+      "status": "resolved_by_shared_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "averrhoa_carambola",
+      "legacyIds": [],
+      "sharedImageFrom": "averrhoa_carambola",
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "averrhoa_carambola",
+          "reason": "manual audit hint",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "avocado",
+      "category": "food",
+      "name": "Avocado",
+      "scientificName": "Avocado",
+      "sourcePath": "data/foods_processed/avocado.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "citrus_fruits_oranges_tangerines_lemons_pomelos",
+      "category": "food",
+      "name": "Citrus fruits (oranges, tangerines, lemons, pomelos)",
+      "scientificName": "Citrus fruits (oranges, tangerines, lemons, pomelos)",
+      "sourcePath": "data/foods_processed/citrus_fruits_oranges_tangerines_lemons_pomelos.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "unripened_pineapples",
+      "category": "food",
+      "name": "Unripened pineapples",
+      "scientificName": "Unripened pineapples",
+      "sourcePath": "data/foods_processed/unripened_pineapples.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "raw_eggs_raw_egg_whites",
+      "category": "food",
+      "name": "Raw eggs",
+      "scientificName": "Raw eggs / Raw egg whites",
+      "sourcePath": "data/foods_processed/raw_eggs_raw_egg_whites.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "raw_eggs__raw_egg_whites",
+      "legacyIds": [
+        "raw_eggs__raw_egg_whites"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "raw_eggs__raw_egg_whites",
+          "reason": "scientificName slash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "raw_fish",
+      "category": "food",
+      "name": "Raw fish",
+      "scientificName": "Raw fish",
+      "sourcePath": "data/foods_processed/raw_fish.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "raw_meat",
+      "category": "food",
+      "name": "Raw meat",
+      "scientificName": "Raw meat",
+      "sourcePath": "data/foods_processed/raw_meat.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "bones",
+      "category": "food",
+      "name": "Bones",
+      "scientificName": "Bones",
+      "sourcePath": "data/foods_processed/bones.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "tuna",
+      "category": "food",
+      "name": "Tuna",
+      "scientificName": "Tuna",
+      "sourcePath": "data/foods_processed/tuna.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "chocolate",
+      "category": "food",
+      "name": "Chocolate",
+      "scientificName": "Chocolate",
+      "sourcePath": "data/foods_processed/chocolate.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "cocoa",
+      "category": "food",
+      "name": "Cocoa",
+      "scientificName": "Cocoa",
+      "sourcePath": "data/foods_processed/cocoa.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "coffee",
+      "category": "food",
+      "name": "Coffee",
+      "scientificName": "Coffee",
+      "sourcePath": "data/foods_processed/coffee.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "tea",
+      "category": "food",
+      "name": "Tea",
+      "scientificName": "Tea",
+      "sourcePath": "data/foods_processed/tea.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "caffeinated_drinks_soda",
+      "category": "food",
+      "name": "Caffeinated drinks / Soda",
+      "scientificName": "Caffeinated drinks / Soda",
+      "sourcePath": "data/foods_processed/caffeinated_drinks_soda.json",
+      "status": "resolved_by_legacy_id",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": false,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": "caffeinated_drinks__soda",
+      "legacyIds": [
+        "caffeinated_drinks__soda"
+      ],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": [
+        {
+          "id": "caffeinated_drinks__soda",
+          "reason": "name slash slug",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "canonicalId": "alcohol",
+      "category": "food",
+      "name": "Alcohol",
+      "scientificName": "Alcohol",
+      "sourcePath": "data/foods_processed/alcohol.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "raw_dough",
+      "category": "food",
+      "name": "Raw dough",
+      "scientificName": "Raw dough",
+      "sourcePath": "data/foods_processed/raw_dough.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "milk_and_dairy_products",
+      "category": "food",
+      "name": "Milk and dairy products",
+      "scientificName": "Milk and dairy products",
+      "sourcePath": "data/foods_processed/milk_and_dairy_products.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "gum",
+      "category": "food",
+      "name": "Gum",
+      "scientificName": "Gum",
+      "sourcePath": "data/foods_processed/gum.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "candies",
+      "category": "food",
+      "name": "Candies",
+      "scientificName": "Candies",
+      "sourcePath": "data/foods_processed/candies.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "jelly",
+      "category": "food",
+      "name": "Jelly",
+      "scientificName": "Jelly",
+      "sourcePath": "data/foods_processed/jelly.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "pudding",
+      "category": "food",
+      "name": "Pudding",
+      "scientificName": "Pudding",
+      "sourcePath": "data/foods_processed/pudding.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "green_tomatoes",
+      "category": "food",
+      "name": "Green tomatoes",
+      "scientificName": "Green tomatoes",
+      "sourcePath": "data/foods_processed/green_tomatoes.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "unripe_or_sprouted_potatoes",
+      "category": "food",
+      "name": "Unripe or sprouted potatoes",
+      "scientificName": "Unripe or sprouted potatoes",
+      "sourcePath": "data/foods_processed/unripe_or_sprouted_potatoes.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "corn_on_the_cob",
+      "category": "food",
+      "name": "Corn on the cob",
+      "scientificName": "Corn on the cob",
+      "sourcePath": "data/foods_processed/corn_on_the_cob.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "liver",
+      "category": "food",
+      "name": "Liver",
+      "scientificName": "Liver",
+      "sourcePath": "data/foods_processed/liver.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "salt",
+      "category": "food",
+      "name": "Salt",
+      "scientificName": "Salt",
+      "sourcePath": "data/foods_processed/salt.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "sugar",
+      "category": "food",
+      "name": "Sugar",
+      "scientificName": "Sugar",
+      "sourcePath": "data/foods_processed/sugar.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "persimmons",
+      "category": "food",
+      "name": "Persimmons",
+      "scientificName": "Persimmons",
+      "sourcePath": "data/foods_processed/persimmons.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "walnuts",
+      "category": "food",
+      "name": "Walnuts",
+      "scientificName": "Walnuts",
+      "sourcePath": "data/foods_processed/walnuts.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "pistachios",
+      "category": "food",
+      "name": "Pistachios",
+      "scientificName": "Pistachios",
+      "sourcePath": "data/foods_processed/pistachios.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "peanuts",
+      "category": "food",
+      "name": "Peanuts",
+      "scientificName": "Peanuts",
+      "sourcePath": "data/foods_processed/peanuts.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "sunflower_seeds",
+      "category": "food",
+      "name": "Sunflower seeds (salted)",
+      "scientificName": "Sunflower seeds",
+      "sourcePath": "data/foods_processed/sunflower_seeds.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "candied_fruits",
+      "category": "food",
+      "name": "Candied fruits",
+      "scientificName": "Candied fruits",
+      "sourcePath": "data/foods_processed/candied_fruits.json",
+      "status": "missing_firestore_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": true,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "meat_jerky_dried_squid_and_dried_fish",
+      "category": "food",
+      "name": "Meat jerky, dried squid, and dried fish",
+      "scientificName": "Meat jerky, dried squid, and dried fish",
+      "sourcePath": "data/foods_processed/meat_jerky_dried_squid_and_dried_fish.json",
+      "status": "missing_firestore_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": true,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "pastries_radish_cake_rice_cake_pineapple_cake_mochi",
+      "category": "food",
+      "name": "Pastries (radish cake, rice cake, pineapple cake, mochi)",
+      "scientificName": "Pastries (radish cake, rice cake, pineapple cake, mochi)",
+      "sourcePath": "data/foods_processed/pastries_radish_cake_rice_cake_pineapple_cake_mochi.json",
+      "status": "missing_firestore_image",
+      "currentSiteHasImage": false,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": false,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": true,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "potato_chips",
+      "category": "food",
+      "name": "Potato chips",
+      "scientificName": "Potato chips",
+      "sourcePath": "data/foods_processed/potato_chips.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    },
+    {
+      "canonicalId": "pretzels",
+      "category": "food",
+      "name": "Pretzels",
+      "scientificName": "Pretzels",
+      "sourcePath": "data/foods_processed/pretzels.json",
+      "status": "has_canonical_image",
+      "currentSiteHasImage": true,
+      "firestoreDocExists": true,
+      "firestoreDocHasImage": true,
+      "suggestedImageSource": null,
+      "legacyIds": [],
+      "sharedImageFrom": null,
+      "imageMissing": false,
+      "candidateMatches": []
+    }
+  ],
+  "outputs": {
+    "jsonReport": "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/toxin_id_audit.json",
+    "markdownReport": "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/toxin_id_audit.md",
+    "registryDraft": "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/toxin_registry.draft.json"
+  }
+}

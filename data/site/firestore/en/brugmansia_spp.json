@@ -1,0 +1,64 @@
+{
+  "slug": "brugmansia_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/brugmansia_spp.jpg"
+  ],
+  "name": "Angel's Trumpets",
+  "aliases": [],
+  "description": "Angel's Trumpets (Brugmansia spp., and the closely related Datura) is one of the most dangerous ornamental plants a cat can encounter. Every part of the plant — flowers, leaves, stems, seeds, and roots — contains high concentrations of tropane alkaloids, primarily atropine, scopolamine, and hyoscyamine. These compounds work by blocking muscarinic acetylcholine receptors, the receptors the nervous system uses to control glands, smooth muscle, and heart rate. When these receptors are blocked, the body's entire parasympathetic nervous system is effectively switched off, producing what veterinarians call anticholinergic syndrome. Although the plant's strong scent deters many cats, ingestion still occurs — and because cats cannot sweat, the disruption to their thermoregulatory system makes hyperthermia (dangerously high body temperature) a particularly life-threatening complication.",
+  "safetyNotes": [
+    "Symptom progression: Early signs include dilated pupils, rapid heart rate, dry mouth, and restlessness. As toxicity progresses: agitation, disorientation, inability to urinate, and muscle tremors. Severe cases escalate to hyperthermia, seizures, respiratory failure, and coma.",
+    "Seeds and leaves carry the highest alkaloid load — but all parts, including the nectar and sap, are dangerous. Even second-hand exposure (e.g. a cat grooming pollen from its coat) can cause symptoms.",
+    "Hyperthermia risk: Because cats cannot sweat, the loss of thermoregulation from anticholinergic syndrome can rapidly push body temperature to fatal levels, especially in warm environments.",
+    "Action: This is a veterinary emergency requiring immediate treatment. Do not wait for symptoms to worsen — bring the cat to a vet at once, ideally with a sample of the plant for identification."
+  ],
+  "toxicParts": [
+    "Root",
+    "Leaf",
+    "Seed",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Behavioral changes and Disorientation",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "The plant affects the nervous system, leading to noticeable changes in behavior and confusion.Dilated Pupils"
+    },
+    {
+      "name": "Dilated Pupils (Mydriasis)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "This is a hallmark sign of the plant's toxicity, often associated with the alkaloids present in the plant.Hyperthermia"
+    },
+    {
+      "name": "Hyperthermia",
+      "body_system": "Metabolic",
+      "severity": "severe",
+      "notes": "Ingestion causes a dangerous elevation in body temperature.Cardiovascular Instability"
+    },
+    {
+      "name": "Change in heart rate",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "notes": "The toxins alter vital signs, specifically affecting cardiac rhythm and rate.Respiratory Distress"
+    },
+    {
+      "name": "Change in respiratory rate",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "notes": "Alongside cardiac changes, the respiratory rate is significantly altered, necessitating immediate veterinary intervention.Gastrointestinal Upset"
+    },
+    {
+      "name": "Loss of appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "While neurological and cardiac signs are prominent, the cat may also refuse food."
+    }
+  ],
+  "scientificName": "Brugmansia spp.",
+  "family": "Solanaceae"
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "anthurium_hookeri",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Anthurium_hookeri.JPG/500px-Anthurium_hookeri.JPG"
+  ],
+  "name": "Bird’s Nest Anthurium",
+  "aliases": [],
+  "description": "Bird's Nest Anthurium (Anthurium spp.) is a popular tropical houseplant with glossy, heart-shaped leaves and distinctive waxy spathes. All Anthurium species belong to the Araceae family and contain insoluble calcium oxalate crystals (raphides) throughout their leaves, stems, and berries. These needle-like crystals cause immediate mechanical injury to the soft tissues of the mouth and digestive tract when the plant is chewed. The colorful berries that some varieties produce are particularly attractive to cats but carry the same risk.",
+  "safetyNotes": [
+    "Symptoms: Immediate oral pain, intense drooling, pawing at the mouth, swelling of the lips, tongue, and throat, and difficulty swallowing. Ingestion of berries may also cause vomiting and diarrhea.",
+    "Berries are an additional hazard: The colorful spathe berries contain the same raphide crystals and should be removed promptly when they appear.",
+    "Action: Rinse the cat's mouth with water. Seek veterinary advice if swelling is significant or symptoms persist beyond an hour."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning sensation and irritation of the mouth, tongue, and lips",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (upon chewing or biting).",
+      "notes": "The crystals act like microscopic needles, causing immediate mechanical trauma to the tissues. This intense pain often prevents the cat from consuming a large amount of the plant.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "This is a physiological response to the acute pain and irritation in the oral cavity.Oral Swelling (Edema)"
+    },
+    {
+      "name": "Swelling of the lips, tongue, and pharynx (throat)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid (shortly after contact).",
+      "notes": "While usually limited to the mouth, significant swelling in the back of the throat can potentially lead to difficulty breathing (dyspnea), though this is rare.Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid.",
+      "notes": "Swallowing plant material or the body's reaction to the intense irritation can trigger vomiting.Difficulty Swallowing (Dysphagia)"
+    },
+    {
+      "name": "Difficulty swallowing",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to Rapid.",
+      "notes": "The cat may show an inability or reluctance to swallow due to pain and swelling.Pawing at the Mouth"
+    },
+    {
+      "name": "Pawing at the mouth or face",
+      "body_system": "Neurological",
+      "severity": "mild",
+      "onset": "Immediate.",
+      "notes": "This is a distinct behavioral sign indicating the cat is trying to remove the source of the pain/crystals."
+    }
+  ],
+  "scientificName": "Anthurium hookeri",
+  "family": "Araceae"
+}

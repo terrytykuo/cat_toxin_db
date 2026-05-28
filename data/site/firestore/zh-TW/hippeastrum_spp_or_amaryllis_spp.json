@@ -1,0 +1,69 @@
+{
+  "slug": "hippeastrum_spp_or_amaryllis_spp",
+  "source_hash": "a66b62aaed123f3e182f21043b8f0059258d8d7f42662c01fbe50ebb66d4d7a8",
+  "translated_at": "2026-05-21T10:19:10Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "孤挺花",
+  "aliases": [],
+  "description": "孤挺花含有石蒜鹼 (lycorine) 和其他菲啶類生物鹼，分布於整株植物中，其中鱗莖含量最高。石蒜鹼會抑制細胞中的蛋白質合成，並引發強烈的腸胃反應。這種植物常作為室內節慶禮物，這意味著貓可能在飼主警惕性較低的時候接觸到它。無論是 Hippeastrum 雜交種（常以「孤挺花」名義販售）還是真正的孤挺花屬物種皆有毒性。",
+  "safetyNotes": [
+    "症狀：流口水、嘔吐、腹瀉、腹痛、低血壓、震顫 e 嗜睡；在嚴重病例中罕見癲癇發作。",
+    "鱗莖毒性最強：鱗莖含有最高濃度的生物鹼。挖掘土壤並咀嚼鱗莖的貓面臨最大的風險。",
+    "季節性風險：作為熱門的冬季節慶植物 — 從進入家門那一刻起，請將其完全放置在接觸不到的地方。"
+  ],
+  "toxicParts": [
+    "莖",
+    "葉",
+    "球莖",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統",
+      "onset": "迅速 / 攝取後不久。"
+    },
+    {
+      "name": "腹瀉",
+      "body_system": "消化系統",
+      "onset": "腸胃刺激後發生。"
+    },
+    {
+      "name": "過度流口水 (流涎)",
+      "body_system": "消化系統",
+      "onset": "立即至迅速（咀嚼或攝取時）。"
+    },
+    {
+      "name": "腹痛",
+      "body_system": "消化系統",
+      "onset": "攝取後。"
+    },
+    {
+      "name": "震顫",
+      "body_system": "神經系統",
+      "onset": "毒素吸收後（與腸胃道症狀相比有所延遲）。"
+    },
+    {
+      "name": "癲癇發作 (抽搐)",
+      "body_system": "神經系統",
+      "onset": "毒素吸收後。"
+    },
+    {
+      "name": "低血壓 (Hypotension)",
+      "body_system": "心血管系統",
+      "onset": "不定（全身性影響）。"
+    },
+    {
+      "name": "心律不整",
+      "body_system": "心血管系統",
+      "onset": "不定。"
+    },
+    {
+      "name": "呼吸抑制",
+      "body_system": "呼吸系統",
+      "onset": "不定。"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "ricinus_communis",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ricinus_communis.jpg"
+  ],
+  "name": "Castor Bean",
+  "aliases": [],
+  "description": "Castor Bean (Ricinus communis) contains ricin — one of the most toxic naturally occurring substances known. Ricin is a protein toxin classified as an A-B toxin: once inside cells, the active A-chain depurinates the 28S ribosomal RNA, completely shutting down protein synthesis in every affected cell. Even a single seed, if chewed (releasing the ricin from within), can be lethal to a cat. The seeds are visually striking — smooth, mottled, and bean-like — which makes them an attractive hazard.",
+  "safetyNotes": [
+    "Symptoms: Severe vomiting and bloody diarrhea within a few hours; extreme dehydration, abdominal pain, and muscle tremors; multi-organ failure (liver, kidney, spleen), seizures, and death within 3–5 days if untreated.",
+    "Seeds are the lethal component: The leaves and stems are irritating but far less toxic than the seeds. Chewing a seed releases the ricin; a swallowed whole seed may pass without full toxin release.",
+    "Action: This is an extreme toxicological emergency. Rush to a vet immediately — there is no antidote for ricin, and supportive care must begin as early as possible."
+  ],
+  "toxicParts": [
+    "Seed"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea (often bloody), abdominal pain, and loss of appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid (symptoms often manifest quickly after ingestion).",
+      "notes": "The diarrhea may become bloody, indicating severe irritation and damage to the intestinal lining.Neurological Abnormalities"
+    },
+    {
+      "name": "Tremors and seizures",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Rapid progression following gastrointestinal signs.",
+      "notes": "These symptoms indicate that the toxin has been absorbed and is affecting the central nervous system.Dehydration"
+    },
+    {
+      "name": "Dehydration",
+      "body_system": "Metabolic",
+      "severity": "severe",
+      "onset": "Secondary to rapid fluid loss from vomiting and diarrhea.",
+      "notes": "Rapid fluid loss exacerbates the systemic shock and stress on the kidneys.Organ Failure"
+    },
+    {
+      "name": "Organ failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Progression from initial symptoms.",
+      "notes": "Ricin inhibits protein synthesis at the cellular level, leading to widespread cell death and the shutdown of vital organs. The seeds contain the highest concentration of ricin, and even small amounts can be deadly."
+    }
+  ],
+  "scientificName": "Ricinus communis",
+  "family": "Euphorbiaceae"
+}

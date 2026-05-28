@@ -1,0 +1,57 @@
+{
+  "slug": "arum_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/arum_spp.jpg"
+  ],
+  "name": "Italian Arum",
+  "aliases": [],
+  "description": "Italian Arum (Arum italicum) is a tuberous ornamental plant toxic to cats throughout all its parts. It belongs to the Araceae family and contains insoluble calcium oxalate crystals (raphides) along with aroin — a toxic protein compound — and saponins. The bright orange-red berries are especially hazardous as they are visually attractive and contain the highest concentration of toxins.",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides, aroin (toxic protein), saponins; berries most concentrated",
+    "Mechanism: raphides cause immediate mechanical irritation to the oral and GI mucosa; aroin and saponins add systemic toxicity",
+    "Symptoms: intense oral burning, drooling, pawing at mouth, vomiting, diarrhea; severe berry ingestion may cause systemic illness",
+    "The attractive orange-red berries pose the greatest risk, particularly to inquisitive cats",
+    "Seek veterinary care if berry ingestion is suspected or if GI symptoms are severe"
+  ],
+  "toxicParts": [
+    "Root",
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Mucous Membrane Irritation and Ulcerations",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Acute (The irritation is a direct contact effect).",
+      "notes": "The toxin causes direct irritation to the tissues it touches. In severe cases or large ingestions, this irritation progresses to the formation of actual ulcers within the mouth and digestive tract.Vomiting and Diarrhea"
+    },
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (Following the irritation of the gastric lining).",
+      "notes": "These are the primary systemic signs of ingestion. The"
+    },
+    {
+      "name": "Abdominal Pain / Discomfort",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "This pain results from the inflammation and irritation of the gastrointestinal tract lining caused by the plant's toxins.Dehydration"
+    },
+    {
+      "name": "Dehydration",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": "Delayed (Occurs as a result of persistent vomiting and diarrhea).",
+      "notes": "Dehydration is a significant concern following the fluid loss from vomiting and diarrhea. Rehydration and electrolyte replacement are key components of the recommended veterinary treatment."
+    }
+  ],
+  "scientificName": "Arum spp.",
+  "family": "Araceae"
+}

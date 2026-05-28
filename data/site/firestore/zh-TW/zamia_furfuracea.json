@@ -1,0 +1,50 @@
+{
+  "slug": "zamia_furfuracea",
+  "source_hash": "13fcd785e8327f281d4ab78e0cec3728ee3fa2f20d63284b21ea6d09838a8425",
+  "translated_at": "2026-05-21T10:21:45Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "美鐵芋 / 紙葉蘇鐵 (Cardboard Palm)",
+  "aliases": [],
+  "description": "美鐵芋 (Zamia furfuracea) 是一種蘇鐵類植物，常用於熱帶景觀美化和室內觀賞，但對貓具有極強的毒性。與所有蘇鐵類植物一樣，它含有蘇鐵素 (cycasin)——這是一種會被腸道細菌轉化為強效肝毒素的甲基氧化偶氮甲醇配糖體——以及神經毒性氨基酸 beta-methylamino-L-alanine (BMAA)。植物的所有部位都有毒，其中種子的濃度最高。即使攝入少量也可能導致急性的致命性腎衰竭，且即使立即治療，預後通常也不佳。",
+  "safetyNotes": [
+    "症狀：嘔吐、腹瀉 (有時帶血)、沉鬱、黃疸 (眼睛/牙齦/皮膚發黃)、腹痛，以及包括抽搐在內的神經症狀；肝衰竭通常在 24-72 小時內發生。",
+    "種子是最致命的部分：一兩顆種子就可能致命。不要因為種子隱藏在植物內部就認為它是安全的。",
+    "動作：這是致命的緊急情況。請立即尋求獸醫護理——面對蘇鐵素中毒，每一分鐘都至關重要。"
+  ],
+  "toxicParts": [
+    "莖",
+    "整株植物",
+    "種子",
+    "葉",
+    "根"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐、腹瀉 (通常帶血) 與出血性胃炎",
+      "body_system": "消化系統",
+      "onset": "攝入後 15 分鐘至 4 小時內。"
+    },
+    {
+      "name": "黃疸 (Icterus)、肝壞死與肝衰竭",
+      "body_system": "肝臟系統",
+      "onset": "通常在 48-72 小時內進展為肝衰竭。"
+    },
+    {
+      "name": "共濟失調 (Ataxia，步態不穩)、震顫、抽搐、癱瘓與昏迷",
+      "body_system": "神經系統",
+      "onset": "通常繼發於初步的腸胃徵兆；隨肝衰竭惡化，沉鬱與癱瘓可能加劇。"
+    },
+    {
+      "name": "異常瘀青、出血點 (Petechiae) 與鼻出血",
+      "body_system": "血液系統",
+      "onset": "48-72 小時 (繼發於肝衰竭)。"
+    },
+    {
+      "name": "低血糖 (Hypoglycemia) 與口渴/尿量增加 (Polydipsia/Polyuria)",
+      "body_system": "肝臟系統",
+      "onset": "48-72 小時 (與肝衰竭相關)。"
+    }
+  ]
+}

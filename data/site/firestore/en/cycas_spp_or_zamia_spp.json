@@ -1,0 +1,64 @@
+{
+  "slug": "cycas_spp_or_zamia_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cycas_spp_or_zamia_spp.jpg"
+  ],
+  "name": "Cycad",
+  "aliases": [],
+  "description": "Cycads (Cycas revoluta — commonly sold as Sago Palm — and related Zamia species) are among the most hepatotoxic plants known to veterinary medicine. They contain cycasin, a methylazoxymethanol glycoside that is metabolised by gut bacteria into a potent liver toxin, as well as beta-methylamino-L-alanine (BMAA), a neurotoxic amino acid. All parts of the plant are toxic, but the seeds carry the highest cycasin concentration. Ingestion of even a small number of seeds can cause acute, irreversible liver failure, and the survival rate is low even with aggressive veterinary treatment.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea (often with blood), severe lethargy, jaundice (yellow skin/eyes/gums), abdominal pain, neurological signs including seizures; liver failure develops within 24–72 hours.",
+    "Seeds are the greatest danger: One or two seeds can be fatal. The entire plant — leaves, roots, and seeds — contains toxic compounds.",
+    "Action: This is a life-threatening emergency. Seek immediate veterinary care if any part of the plant has been ingested — do not wait for symptoms."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Bark",
+    "Seed",
+    "Entire Plant",
+    "Leaf",
+    "Root"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, and Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid; typically within 15 minutes to 4 hours of ingestion.",
+      "notes": "◦ Vomiting is often the first sign. ◦ Diarrhea may be bloody or appear as \"black, tarry feces\" (melena), indicating severe irritation and hemorrhagic gastritis.Liver Failure (Hepatic Necrosis)"
+    },
+    {
+      "name": "Acute Liver Failure, Jaundice (Icterus)",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Delayed; typically develops within 48 to 72 hours.",
+      "notes": "◦ Signs include yellowing of the skin and eyes (jaundice), increased thirst, and fluid accumulation in the abdomen (ascites). ◦ The toxin cycasin causes liver cells to die (hepatic necrosis), which is a primary cause of death in affected animals.Neurological Abnormalities"
+    },
+    {
+      "name": "Seizures, Tremors, and Ataxia (Wobbly Gait)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Can occur as toxicity progresses.",
+      "notes": "◦ The neurotoxin beta-methylamino-L-alanine (BMAA) is responsible for central nervous system effects. ◦ Symptoms range from muscle tremors and weakness to paralysis, coma, and death.Abnormal Bleeding (Coagulopathy)"
+    },
+    {
+      "name": "Bruising (Petechiae/Ecchymosis), Nosebleeds, and Bloody Stool",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Delayed (secondary to liver failure).",
+      "notes": "◦ As the liver fails, it cannot produce necessary blood-clotting factors, leading to spontaneous bleeding and visible bruising on the skin or gums.Systemic Weakness"
+    },
+    {
+      "name": "Lethargy and Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Early onset, worsening over time.",
+      "notes": "◦ Cats may appear unusually tired, weak, or unresponsive as the toxins affect multiple body systems."
+    }
+  ],
+  "scientificName": "Cycas spp. or Zamia spp.",
+  "family": "Zamiaceae"
+}

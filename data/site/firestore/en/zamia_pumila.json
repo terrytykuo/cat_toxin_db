@@ -1,0 +1,63 @@
+{
+  "slug": "zamia_pumila",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/zamia_pumila.jpg"
+  ],
+  "name": "Coontie Palm",
+  "aliases": [],
+  "description": "Coontie Palm (Zamia integrifolia) is a small, ground-level cycad native to Florida and the Caribbean, commonly used in landscaping as a low-maintenance ornamental. Despite the \"palm\" name, it is not a true palm — it belongs to the ancient Cycadaceae family and carries the same severe hepatotoxic risk as all cycads. It contains cycasin, a methylazoxymethanol glycoside that the gut converts into a potent liver poison, and the neurotoxin BMAA. Seeds carry the highest concentration and are the most dangerous component.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, bloody diarrhea, severe lethargy, jaundice, abdominal pain, seizures; irreversible liver failure within 24–72 hours without treatment.",
+    "Easily mistaken for a safe plant: Its low, fern-like appearance makes it seem innocuous, but it is equally deadly to all cycad species.",
+    "Action: Life-threatening emergency. Bring the cat and a sample of the plant to a vet immediately — do not wait for symptoms to worsen."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Seed",
+    "Leaf",
+    "Root"
+  ],
+  "symptoms": [
+    {
+      "name": "Persistent vomiting, diarrhea (often bloody or dark/tarry), anorexia, and abdominal pain",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid; typically within 15 minutes to 4 hours of ingestion.",
+      "notes": "Gastrointestinal signs are usually the first to appear. The vomiting can be persistent, and the resulting hemorrhagic gastritis can lead to severe dehydration.Hepatic (Liver) Failure"
+    },
+    {
+      "name": "Jaundice (icterus), abdominal swelling (ascites), and liver necrosis",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "onset": "Delayed; typically develops within 48–72 hours post-ingestion.",
+      "notes": "The toxin cycasin causes severe liver damage. Hypoglycemia (low blood sugar) may develop secondary to hepatic necrosis, requiring dextrose supplementation.Neurological Abnormalities"
+    },
+    {
+      "name": "Ataxia (wobbly gait), tremors, seizures, depression, and muscular paralysis",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Variable; can occur early or develop alongside liver failure.",
+      "notes": "The neurotoxin BMAA contributes to CNS effects. Paralysis and coma are potential outcomes in severe cases.Coagulopathy (Bleeding Disorders)"
+    },
+    {
+      "name": "Bruising (petechiae or ecchymotic hemorrhages), abnormal bleeding, and blood clots",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Delayed (associated with the progression of liver failure).",
+      "notes": "As the liver fails, it cannot produce necessary clotting factors, leading to internal and external bleeding issues.General Systemic Failure"
+    },
+    {
+      "name": "Lethargy, weakness, and increased thirst (polydipsia)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Within hours of ingestion.",
+      "notes": "Ingestion of just 1–2 seeds can be fatal due to the high concentration of toxins in them."
+    }
+  ],
+  "scientificName": "Zamia pumila",
+  "family": "Zamiaceae"
+}

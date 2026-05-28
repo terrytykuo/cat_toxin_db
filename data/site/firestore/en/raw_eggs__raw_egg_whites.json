@@ -1,0 +1,52 @@
+{
+  "slug": "raw_eggs__raw_egg_whites",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/raw_eggs__raw_egg_whites.jpg"
+  ],
+  "name": "Raw eggs",
+  "aliases": [],
+  "description": "Raw whole eggs and raw egg whites are not acutely toxic to cats, but they carry specific risks that make them inappropriate as regular food. Cooked eggs are a safe, nutritious treat; raw eggs are not recommended due to bacterial contamination and a vitamin-binding protein that interferes with nutrient absorption.",
+  "safetyNotes": [
+    "Bacterial risk: raw eggs may contain Salmonella or Listeria — causes vomiting, diarrhea, lethargy, and in severe cases, life-threatening sepsis",
+    "Avidin risk: raw egg whites contain avidin, a protein that binds biotin (vitamin B7) and prevents its absorption; regular feeding causes biotin deficiency — dry skin, hair loss, neurological issues",
+    "Cooked eggs: safe, nutritious, and avidin is deactivated by cooking; plain scrambled or boiled egg is an acceptable occasional treat",
+    "A single accidental bite of raw egg is unlikely to cause harm; regular feeding of raw eggs or egg whites is the concern",
+    "If your cat regularly eats raw eggs and shows skin or neurological symptoms, consult your vet"
+  ],
+  "toxicParts": [
+    "Raw form"
+  ],
+  "symptoms": [
+    {
+      "name": "Based on the provided sources, a cat exposed to or ingesting raw eggs",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Short-term (typically within hours to a few days,",
+      "notes": "These symptoms are primarily caused by foodborne bacteria, such as Salmonella and E. coli, which frequently contaminate raw eggs1.... Additionally, the high fat content in raw eggs can severely irritate the digestive system and potentially trigger a painful inflammation of the pancreas (pancreatitis"
+    },
+    {
+      "name": "Dermatological Lesions and Coat Degradation",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Chronic / Delayed (develops over time with repeated, chronic consumption).",
+      "notes": "This is the direct result of the protein avidin, which is found in raw egg whites. Avidin binds tightly to biotin (Vitamin B7) in the cat's digestive tract, preventing absorption and causing a functional vitamin deficiency that severely impacts the skin, hair, and coat3.... It can also result in bri"
+    },
+    {
+      "name": "Lethargy and Fatigue",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Variable (can present acutely alongside gastrointestinal symptoms, or chronically).",
+      "notes": "Lethargy and drowsiness are commonly observed as an acute systemic response to the foodborne pathogens (Salmonella or E. coli)34. Additionally, chronic biotin deficiency caused by avidin can manifest as prolonged low mood and fatigue over time, since biotin is critical for energy metabolism"
+    }
+  ],
+  "scientificName": "Raw eggs / Raw egg whites",
+  "family": "Various"
+}

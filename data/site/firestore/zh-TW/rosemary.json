@@ -1,0 +1,14 @@
+{
+  "slug": "rosemary",
+  "source_hash": "63c725ec54dd639d0ed81a10f22fb649978971673b8c2823d864f7c595044d6c",
+  "translated_at": "2026-05-21T10:37:20Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "迷迭香",
+  "aliases": [],
+  "description": "迷迭香是一種對貓安全的木本香草植物。它強烈的氣味實際上可能會阻止貓咀嚼它。它耐旱且在陽光充足的室內易於生長。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "schefflera_spp_or_schefflera_actinphylla",
+  "source_hash": "ff2f148c1687d437d1d1df028ea73e83c2b687c0944b172deec68decdc013e07",
+  "translated_at": "2026-05-21T10:38:32Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "鵝掌藤 / 傘樹",
+  "aliases": [],
+  "description": "鵝掌藤 (Schefflera spp.)，也稱為傘樹或矮傘樹，是受歡迎的室內樹木，對貓有輕微毒性。它含有不溶性草酸鈣晶體（針晶）和遍布其葉子和莖的刺激性萜類化合物。咀嚼植物會導致立即的口腔和腸胃刺激。",
+  "safetyNotes": [
+    "有毒化合物：不溶性草酸鈣晶體和萜類化合物；植物的所有部位都有危險",
+    "機制：針晶對口腔和腸胃黏膜造成機械性刺激；萜類化合物則增加化學刺激",
+    "症狀：口腔疼痛、流口水、嘔吐、下痢；皮膚接觸汁液可能導致局部刺激",
+    "其複葉和樹狀結構可能會吸引貓 — 請將其放在貓無法進入的房間",
+    "症狀通常很輕微；如果嘔吐持續，請聯繫您的獸醫師"
+  ],
+  "toxicParts": [
+    "葉"
+  ],
+  "symptoms": [
+    {
+      "name": "黏膜刺激、強烈的口腔疼痛和分泌過多唾液（流口水）",
+      "body_system": "消化系統",
+      "onset": "立即（咀嚼植物材料時）"
+    },
+    {
+      "name": "嘔吐和下痢",
+      "body_system": "消化系統",
+      "onset": "攝入後不久（幾小時內）"
+    },
+    {
+      "name": "食慾不振",
+      "body_system": "消化系統",
+      "onset": "接觸後立即至幾小時內"
+    }
+  ]
+}

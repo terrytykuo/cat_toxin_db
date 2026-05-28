@@ -1,0 +1,50 @@
+{
+  "slug": "ficus_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ficus_spp.jpg"
+  ],
+  "name": "Ficus / Weeping Fig",
+  "aliases": [],
+  "description": "Weeping Fig (Ficus benjamina) is one of the most common indoor trees and is toxic to cats. Its milky latex sap contains ficin (a proteolytic enzyme), psoralens (ficusin), and other irritant compounds. Ficus benjamina is also a well-documented allergen — repeated exposure can sensitise cats and cause progressively stronger reactions.",
+  "safetyNotes": [
+    "Toxic compounds: ficin enzyme, psoralens (ficusin), and irritant latex; psoralens may cause photosensitisation with UV exposure",
+    "Mechanism: ficin irritates GI mucosa; psoralens activate under UV light causing skin/tissue damage; repeated latex exposure can trigger allergic reactions",
+    "Symptoms: vomiting, diarrhea, drooling, skin redness or itching from sap contact; allergic cats may develop more severe reactions",
+    "Fallen leaves are also hazardous if chewed; the tree sheds leaves commonly under stress",
+    "Monitor cats around this plant closely; consider relocating it if your cat shows repeated interest"
+  ],
+  "toxicParts": [
+    "Sap",
+    "Stem",
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Contact Dermatitis (Skin redness, irritation, or swelling)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Acute (Upon contact with the sap).",
+      "notes": "The milky sap found throughout the plant can cause redness, itchiness, and irritation if it touches the cat's skin. This is a distinguishing feature of Ficus toxicity compared to many other houseplants.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Acute (Shortly after ingestion).",
+      "notes": "Ingestion of the leaves or stems introduces the irritating sap to the stomach, leading to vomiting and loose stools. While uncomfortable, these symptoms are generally self-limiting.Oral Irritation and Hypersalivation"
+    },
+    {
+      "name": "Excessive Drooling (Hypersalivation) and Oral Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate (Upon chewing).",
+      "notes": "The proteolytic enzymes (ficin) in the sap break down proteins and irritate the mucous membranes of the mouth, causing the cat to drool excessively or paw at its mouth due to the burning sensation."
+    }
+  ],
+  "scientificName": "Ficus spp.",
+  "family": "Moraceae"
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "wisteria_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/wisteria_spp.jpg"
+  ],
+  "name": "Wisteria",
+  "aliases": [],
+  "description": "Wisteria (Wisteria spp.) is a climbing ornamental vine toxic to cats throughout all its parts, with seeds and seed pods carrying the highest toxin concentration. It contains wisterin (a glycoside) and lectin-type proteins that cause significant gastrointestinal distress.",
+  "safetyNotes": [
+    "Toxic compounds: wisterin (glycoside) and lectin-type proteins; seeds and seed pods most concentrated; all parts toxic",
+    "Mechanism: wisterin irritates the GI mucosa; lectins may inhibit protein synthesis at higher doses",
+    "Symptoms: repeated and severe vomiting, diarrhea, drooling, abdominal pain, lethargy; seed ingestion may cause more pronounced effects",
+    "Even 2–3 seeds can cause significant symptoms in a cat",
+    "Contact your vet if your cat ingests any part of the wisteria plant, especially seeds"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Bark",
+    "Seed",
+    "Leaf",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Drooling and nausea [770, 849, Conversation History",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Typically appears within a few hours of ingestion",
+      "notes": "These are often the initial, outward signs of gastrointestinal irritation caused by the plant's toxic lectins and glycosides [770, 849, Conversation History]. 2. Vomiting (potentially bloody)"
+    },
+    {
+      "name": "Severe vomiting, which may contain blood",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Typically appears within a few hours of ingestion",
+      "notes": "This profuse vomiting is a direct reaction to the highly irritating compounds (lectins and wisterin) and rapidly leads to severe dehydration [395, 849, Conversation History]. 3. Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Typically appears within a few hours of ingestion",
+      "notes": "Combined with severe vomiting, profuse diarrhea causes massive gastrointestinal distress and life-threatening fluid loss [395, 849, Conversation History]. 4. Abdominal Pain"
+    },
+    {
+      "name": "Abdominal pain and stomach cramps [770, 800, 849, Conversation History",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Typically appears within a few hours of ingestion",
+      "notes": "Arises from the intense irritation of the mucosal lining of the digestive tract [395, 800, Conversation History]. 5. Lethargy, Central Nervous System Damage, and Collapse"
+    },
+    {
+      "name": "Lethargy, central nervous system (CNS) damage, and physical collapse [395, 770, 849, Conversation History",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Usually progresses following the initial severe gastrointestinal distress that begins within a few h",
+      "notes": "These systemic and neurological symptoms manifest primarily when a cat ingests larger amounts of the plant, particularly the highly concentrated and deadly seeds and seed pods [395, 770, 849, Conversation History]. If left untreated, the severe dehydration and toxicity can be fatal to cats [395, 800"
+    }
+  ],
+  "scientificName": "Wisteria spp.",
+  "family": "Fabaceae"
+}

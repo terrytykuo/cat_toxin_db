@@ -1,0 +1,59 @@
+{
+  "slug": "jelly",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/jelly.jpg"
+  ],
+  "name": "Jelly",
+  "aliases": [],
+  "description": "Jelly and jam can be toxic to cats depending on their ingredients. The two main hazards are xylitol in sugar-free products and grape or currant content in fruit spreads. Xylitol — a sweetener used in many reduced-sugar jellies — triggers a dangerous insulin surge in cats, and grape-based spreads carry the same unknown nephrotoxin found in raw grapes and raisins.",
+  "safetyNotes": [
+    "Xylitol-containing jelly: toxic — causes hypoglycaemia (low blood sugar), weakness, seizures; liver failure at higher doses",
+    "Grape, currant, or raisin jelly: toxic — same nephrotoxic risk as raw grapes; no safe amount known",
+    "Regular fruit jelly (non-xylitol, non-grape): not acutely toxic but very high in sugar — avoid; not appropriate for cats",
+    "Always check the ingredient list for xylitol, grapes, currants, or raisins before assuming a jelly is safe",
+    "Contact your vet immediately if your cat ingests any sugar-free product or any grape/currant-based spread"
+  ],
+  "toxicParts": [
+    "Whole"
+  ],
+  "symptoms": [
+    {
+      "name": "The symptoms a cat exhibits after ingesting jelly depend entirely on the ingredients used to make it, specifically whether it contains xylitol",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Gastrointestinal Upset (From High Sugar/Carbohydrates)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within a few hours.",
+      "notes": "Cats are obligate carnivores and their digestive systems are not designed to process high amounts of sugar or human foods. Consuming standard sugary jelly can easily cause general stomach upset, vomiting, and loose stools12. Very high consumption of certain safe artificial sweeteners can also trigge"
+    },
+    {
+      "name": "Transient Salivation (From Xylitol in Sugar-Free Jelly)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion.",
+      "notes": "Xylitol is a highly toxic artificial sweetener used in many sugar-free products. While it causes severe poisoning in dogs, cats appear to be naturally resistant to xylitol toxicity45. In experimental studies where cats were given massive oral doses of xylitol (up to 1,000 mg/kg), the cats remained c"
+    },
+    {
+      "name": "Hypoglycemia and Liver Failure (Theoretical / Rare from Xylitol)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "15 to 30 minutes for a drop in blood sugar (though it can be delayed if the product digests slowly);",
+      "notes": "In dogs, xylitol tricks the pancreas into releasing a massive surge of insulin, driving down blood sugar and destroying the liver511. Cats lack this specific receptor-mediated pathway and do not typically suffer this reaction45. However, because individual metabolisms vary, some veterinary sources s"
+    },
+    {
+      "name": "Acute Kidney Injury (Theoretical / Highly Unlikely from Grape Jelly)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Vomiting usually occurs within 6 to 12 hours of ingestion;",
+      "notes": "Grapes contain tartaric acid, a nephrotoxin that accumulates in the kidneys of dogs and cats, causing severe cellular necrosis and acute kidney injury1516. However, the commercial manufacturing of grape products (like grape juice, wine, and jelly) typically involves a thermal decomposition step call"
+    }
+  ],
+  "scientificName": "Jelly",
+  "family": "Various"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "solanum_lycopersicum",
+  "source_hash": "f0b4355e1a82a2479d733e6c2deaf7bb872fb6a22a1b9d5cf3a52a0250520fe6",
+  "translated_at": "2026-05-21T10:40:43Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "番茄",
+  "aliases": [],
+  "description": "熟透的紅色番茄果肉 (Solanum lycopersicum) 少量食用對貓咪並無明顯毒性，但番茄植株的綠色部分——葉、莖、芽和未成熟的青番茄——含有茄鹼 (solanine) 和番茄鹼 (tomatine)（糖苷生物鹼）。隨著果實成熟變紅，這些物質會減少，這也是為什麼熟透的番茄果肉風險極低。",
+  "safetyNotes": [
+    "避免：所有植株綠色部分——葉、莖、藤蔓和青番茄含有茄鹼和番茄鹼",
+    "熟透紅色果肉：極少量食用是安全的；對貓咪沒有營養價值，且高酸度可能導致輕微腸胃不適",
+    "若攝入綠色部分症狀：流口水、嘔吐、腹瀉、嗜睡、虛弱；嚴重案例會導致心動過緩或中樞神經系統抑制",
+    "切勿餵食番茄醬、番茄糊或番茄罐頭製品——通常含有大蒜、洋蔥和鹽",
+    "若您的貓咪攝入大量青番茄植株物質，請聯繫獸醫"
+  ],
+  "toxicParts": [
+    "莖",
+    "葉",
+    "果實"
+  ],
+  "symptoms": [
+    {
+      "name": "流口水 (Drooling)",
+      "body_system": "消化系統",
+      "onset": "攝入後幾小時內。"
+    },
+    {
+      "name": "嘔吐與腹瀉",
+      "body_system": "消化系統",
+      "onset": "攝入後幾小時內。"
+    },
+    {
+      "name": "嗜睡、虛弱和神智不清",
+      "body_system": "神經系統",
+      "onset": "在腸胃症狀後發展（通常在幾小時內）。"
+    },
+    {
+      "name": "瞳孔放大 (Mydriasis)",
+      "body_system": "神經系統",
+      "onset": "攝入後幾小時。"
+    },
+    {
+      "name": "心跳過緩 (Bradycardia)",
+      "body_system": "心血管系統",
+      "onset": "攝入大劑量毒素並被全身吸收後發生。"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "colchicum_autumnale",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/colchicum_autumnale/images/1773007996066.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/colchicum_autumnale/images/1773008004173.jpg"
+  ],
+  "name": "Autumn Crocus",
+  "aliases": [],
+  "description": "Autumn Crocus (Colchicum autumnale) is one of the most dangerous plants a cat can encounter, and should not be confused with the common spring-blooming crocus (Crocus spp.), which is far less toxic. It contains colchicine, a potent alkaloid that halts cell division by preventing microtubule formation — targeting the body's fastest-dividing cells, including those in the gut lining, bone marrow, and kidneys. Crucially, symptoms can be delayed by 2 to 12 hours after ingestion, making early veterinary intervention critical even when the cat appears unaffected.",
+  "safetyNotes": [
+    "Symptoms: Severe vomiting, bloody diarrhea, burning pain in the mouth and throat, followed hours later by bone marrow suppression (anaemia, reduced white blood cells), kidney failure, and respiratory failure.",
+    "All parts are lethal: The bulb (corm) is the most toxic, but flowers, leaves, and seeds all contain colchicine in dangerous concentrations.",
+    "Action: This is a life-threatening emergency. Take the cat to a vet immediately — do not wait for symptoms."
+  ],
+  "toxicParts": [
+    "Bulb",
+    "Seed",
+    "Flower",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Severe Vomiting (often bloody), Diarrhea (often bloody), Abdominal Pain, Drooling, and Difficulty Swallowing",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Symptoms often appear immediately or within hours of ingestion,",
+      "notes": "Initial signs can be subtle, such as drooling or mild vomiting, but can rapidly progress to severe gastrointestinal bleeding (hemorrhagic gastroenteritis) and burning sensations in the mouth.Respiratory Failure"
+    },
+    {
+      "name": "Respiratory Distress (Abnormal breathing patterns, difficulty breathing)",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Can occur as the toxicity progresses, often days after exposure, or within hours in acute cases.",
+      "notes": "Respiratory failure is a common cause of death in fatal cases.Multi-Organ Failure (Liver & Kidney)"
+    },
+    {
+      "name": "Liver Damage (Hepatotoxicity) and Kidney Failure (Renal Failure)",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "Often delayed by days after the initial ingestion.",
+      "notes": "The toxin colchicine interferes with cell division, causing catastrophic damage to these organs over time. Signs may include jaundice (yellowing), increased thirst, or changes in urination (including blood in urine).Bone Marrow Suppression"
+    },
+    {
+      "name": "Bone Marrow Suppression",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Delayed (as it affects cell division and blood cell production).",
+      "notes": "This effect compromises the cat's immune system and ability to clot blood, contributing to systemic shock and bleeding.Shock and Cardiovascular Collapse"
+    },
+    {
+      "name": "Shock (Pale gums, abnormal heart rate, lethargy, weak pulse)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Can occur within hours or as the condition deteriorates.",
+      "notes": "The animal may appear weak, cold, or unresponsive as systemic failure sets in.Seizures"
+    },
+    {
+      "name": "Seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Variable; often associated with advanced toxicity.",
+      "notes": "Indicates severe systemic involvement and requires immediate emergency intervention."
+    }
+  ],
+  "scientificName": "Colchicum autumnale",
+  "family": "Liliaceae"
+}

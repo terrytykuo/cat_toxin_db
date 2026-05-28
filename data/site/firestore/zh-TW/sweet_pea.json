@@ -1,0 +1,43 @@
+{
+  "slug": "sweet_pea",
+  "source_hash": "750fd062901a3f63b143b1078cc5a44b0e559782fe1670eb623c562b10cac538",
+  "translated_at": "2026-05-21T10:40:10Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "香豌豆",
+  "aliases": [],
+  "description": "香豌豆 (Lathyrus odoratus) 是一種具香味的攀緣開花植物，對貓有毒。它含有氨基丙腈 (aminopropionitrile) 及其相關的 β-氨基丙腈化合物（山黧豆毒素），會引起一種稱為山黧豆中毒 (lathyrism) 的病症，影響神經系統和結締組織。種子中的這些化合物濃度最高。",
+  "safetyNotes": [
+    "有毒化合物：氨基丙腈 (BAPN) 和山黧豆毒素；種子濃度最高；莖和葉也有毒",
+    "機制：山黧豆毒素會抑制離胺醯氧化酶 (lysyl oxidase)，這是一種對膠原蛋白和彈性蛋白交聯至關重要的酶；同時也會造成直接的神經系統毒性（神經性山黧豆中毒）",
+    "症狀：虛弱、失去協調能力、癱瘓、呼吸困難；亦會出現嘔吐和嗜睡",
+    "香豌豆是觀賞植物——與食用豌豆 (Pisum sativum) 無關",
+    "若懷疑誤食，尤其是吃下種子時，請尋求獸醫治療"
+  ],
+  "toxicParts": [
+    "莖",
+    "整株植物",
+    "種子",
+    "葉",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐與腹瀉",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "脫水",
+      "body_system": "代謝"
+    },
+    {
+      "name": "嗜睡",
+      "body_system": "神經系統"
+    },
+    {
+      "name": "癲癇發作",
+      "body_system": "神經系統"
+    }
+  ]
+}

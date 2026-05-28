@@ -1,0 +1,45 @@
+{
+  "slug": "ficus_elastica",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ficus_elastica.jpg"
+  ],
+  "name": "Rubber Plant",
+  "aliases": [],
+  "description": "Rubber Plant (Ficus elastica) is a popular large-leafed houseplant in the Ficus genus that is mildly toxic to cats. Like other Ficus species, its milky latex sap contains ficin (a proteolytic enzyme) and irritant compounds. Skin or eye contact with broken stems releases sap that causes local irritation and dermatitis.",
+  "safetyNotes": [
+    "Toxic compounds: ficin enzyme and irritant compounds in the milky latex sap",
+    "Mechanism: ficin irritates mucosal membranes and the GI lining; sap causes contact dermatitis",
+    "Symptoms: vomiting, diarrhea, drooling from ingestion; skin or eye redness if sap contact occurs",
+    "The large attractive leaves may tempt cats; breaking leaves or stems releases the most irritating sap",
+    "Symptoms are usually mild; wipe sap off skin promptly; contact your vet if GI symptoms are severe"
+  ],
+  "toxicParts": [
+    "Sap",
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Irritation of the mouth and drooling (hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "This is caused by the physical and chemical irritation from the proteolytic enzymes (ficin) and psoralen (ficusin) within the plant's sap12. 2. Gastrointestinal Upset (Vomiting and Diarrhea)"
+    },
+    {
+      "name": "Vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "If the cat swallows the irritating sap, it leads to mild stomach and intestinal upset1. 3. Contact Dermatitis (Skin Irritation)"
+    },
+    {
+      "name": "Skin redness and contact dermatitis",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "notes": "Contact dermatitis occurs if the plant's milky sap gets on the cat's skin or fur1. The sap contains multiple irritants, including furocoumarins, psoralens, ficin, sesquiterpenoid glycosides, and triterpenes, which are directly implicated in causing this skin reaction"
+    }
+  ],
+  "scientificName": "Ficus elastica",
+  "family": "Moraceae"
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "scallions__green_onions",
+  "source_hash": "e4719cdbf957586c6ff1680c17401e7399ae5a9e363f68669b34262c34d17f52",
+  "translated_at": "2026-05-21T10:16:27Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "food",
+  "name": "蔥 / 青蔥",
+  "aliases": [],
+  "description": "蔥和青蔥（Allium fistulosum 和 Allium cepa）是蔥屬植物的成員，對貓具有嚴重的毒性——與大蒜、洋蔥、韭菜和韭蔥的機制相同。它們含有有機硫化合物，會氧化貓的血紅蛋白，形成海恩茨氏體 (Heinz bodies) 並觸發溶血性貧血。所有部位和所有烹飪形式都是危險的。",
+  "safetyNotes": [
+    "有毒化合物：二丙基二硫醚和有機硫化合物（alk(en)yl cysteine sulfoxides）；所有部位均有毒，包括白色蔥白、綠色蔥綠和烹飪後的形式",
+    "機制：血紅蛋白的氧化損傷產生海恩茨氏體；脾臟破壞受影響的紅血球，導致溶血性貧血",
+    "症狀：嗜睡、虛弱、牙齦蒼白或發黃、呼吸急促、食慾不振、尿液呈紅褐色；症狀通常延遲 3-5 天出現",
+    "蔥常用於亞洲料理中——炒菜、湯品、餃子——請讓貓遠離這些食物",
+    "如果懷疑誤食，請立即聯繫您的獸醫"
+  ],
+  "toxicParts": [
+    "粉末",
+    "汁"
+  ],
+  "symptoms": [
+    {
+      "name": "由於蔥（青蔥）屬於蔥屬 (Allium)",
+      "body_system": "Metabolic"
+    },
+    {
+      "name": "嘔吐、腹瀉、腹痛和流口水",
+      "body_system": "消化系統",
+      "onset": "攝入後 1 天內。"
+    },
+    {
+      "name": "嗜睡、虛弱和抑鬱",
+      "body_system": "神經系統",
+      "onset": "延遲數天後（通常為 2 到 4 天）。"
+    },
+    {
+      "name": "黏膜蒼白和黃疸 (Icterus)",
+      "body_system": "消化系統",
+      "onset": "延遲數天後。"
+    },
+    {
+      "name": "呼吸過快和呼吸困難",
+      "body_system": "呼吸系統",
+      "onset": "延遲數天後。"
+    },
+    {
+      "name": "心搏過速（心跳加快）",
+      "body_system": "Cardiac",
+      "onset": "延遲數天後。"
+    },
+    {
+      "name": "血紅蛋白尿（深色尿液）",
+      "body_system": "消化系統",
+      "onset": "延遲數天後。"
+    },
+    {
+      "name": "對冷敏感",
+      "body_system": "神經系統",
+      "onset": "攝入後數天。"
+    },
+    {
+      "name": "蔥屬氣味呼吸",
+      "body_system": "消化系統",
+      "onset": "攝入後不久。"
+    }
+  ]
+}

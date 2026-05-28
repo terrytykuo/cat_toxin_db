@@ -1,0 +1,44 @@
+{
+  "slug": "persimmons",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/persimmons.jpg"
+  ],
+  "name": "Persimmons",
+  "aliases": [],
+  "description": "Ripe persimmon flesh is not acutely toxic to cats, but this fruit presents several practical concerns. The seeds contain cyanogenic glycosides similar to other stone fruit seeds, and the very high tannin content in unripe persimmons causes significant GI upset. The flesh is also high in natural sugars.",
+  "safetyNotes": [
+    "Seeds: contain cyanogenic compounds — remove before offering any flesh",
+    "Unripe persimmons: very high tannin content causes severe GI irritation — vomiting, diarrhea, and possible intestinal inflammation",
+    "Ripe flesh: safe in very small amounts but high in sugar; no nutritional benefit for cats",
+    "Tannins can also cause intestinal obstruction by binding digestive proteins in large quantities",
+    "A tiny taste of ripe, seedless flesh is unlikely to cause harm; avoid making it a regular treat"
+  ],
+  "toxicParts": [
+    "Pit",
+    "Cooked form",
+    "Seed",
+    "Skin",
+    "Powder",
+    "Flesh",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Persimmons do not contain a specific chemical toxin that causes acute systemic poisoning in cats. Instead",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Intestinal Obstruction",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Varies (typically develops over hours to a few days,",
+      "notes": "The pits of persimmons are hard, not easily digested, and are highly prone to causing dangerous physical blockages in the intestinal tracts of cats and dogs12. While persimmons are sometimes grouped in broad warnings with other fruits (like apples, cherries, peaches, and plums) whose pits contain to"
+    }
+  ],
+  "scientificName": "Persimmons",
+  "family": "Various"
+}

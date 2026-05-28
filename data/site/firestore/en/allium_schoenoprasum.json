@@ -1,0 +1,70 @@
+{
+  "slug": "allium_schoenoprasum",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/allium_schoenoprasum.jpg"
+  ],
+  "name": "Chives",
+  "aliases": [],
+  "description": "Chives (Allium schoenoprasum) belong to the Allium family alongside onions, garlic, and leeks — all of which are toxic to cats. The primary toxic agents are organosulfur compounds (alk(en)yl cysteine sulfoxides) that convert when chewed into potent oxidants including N-propyl disulfide and sodium n-propylthiosulfate. These compounds attack red blood cells at the molecular level: they deplete glutathione, oxidise and denature haemoglobin, and cause it to clump into structures called Heinz bodies. This renders red blood cells rigid and fragile, leading to their rupture (haemolysis) and severe anaemia. Cats are 2–3 times more vulnerable than dogs because feline haemoglobin has significantly more reactive sulfhydryl groups. A critical danger: symptoms are often delayed by 3 to 5 days, so a cat may appear fine initially even after significant ingestion.",
+  "safetyNotes": [
+    "Symptoms (early, within 24 hrs): Drooling, vomiting, diarrhea, loss of appetite, and abdominal pain.",
+    "Symptoms (3–5 days later): Lethargy, profound weakness, pale or yellow mucous membranes, rapid breathing, rapid heart rate, and dark reddish-brown urine (hemoglobinuria).",
+    "All forms are dangerous: Fresh, dried, and powdered chives are all toxic — powdered or dehydrated forms are especially concentrated.",
+    "Action: Seek veterinary care immediately after any confirmed ingestion, even if the cat seems well — do not wait for anaemia symptoms to develop."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant",
+    "Bulb"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea, abdominal pain, and loss of appetite (anorexia)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Can occur early, but general signs of poisoning may not appear for several days after ingestion.",
+      "notes": "The plant material causes direct irritation to the gastrointestinal mucosa. Nausea and drooling may also occur.Hemolytic Anemia (Heinz Body Anemia)"
+    },
+    {
+      "name": "Lethargy, weakness, stumbling, and collapse",
+      "body_system": "Hematological",
+      "severity": "fatal",
+      "onset": "Delayed (Symptoms typically appear several days following ingestion).",
+      "notes": "Sulfur compounds in chives cause oxidative damage to red blood cells, leading to their destruction (hemolysis). The cat may seek out warm spaces due to poor circulation and weakness.Discolored Mucous Membranes"
+    },
+    {
+      "name": "Pale, white, or yellow (jaundiced) gums",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "Gums appear pale due to a lack of red blood cells (anemia) or yellow due to the breakdown products of those cells accumulating in the body (icterus/jaundice).Discolored Urine (Hemoglobinuria)"
+    },
+    {
+      "name": "Dark, reddish, or brown urine",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "The dark color is caused by hemoglobin being filtered into the urine from ruptured red blood cells.Respiratory Distress"
+    },
+    {
+      "name": "Tachypnea (rapid breathing), panting, or dyspnea (difficulty breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "The cat breathes rapidly in an attempt to compensate for the decreased oxygen-carrying capacity of the blood caused by anemia.Cardiac Abnormalities"
+    },
+    {
+      "name": "Tachycardia (rapid heartbeat)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Delayed (Several days).",
+      "notes": "The heart must pump faster to circulate the remaining oxygenated blood to tissues."
+    }
+  ],
+  "scientificName": "Allium schoenoprasum",
+  "family": "Amaryllidaceae"
+}

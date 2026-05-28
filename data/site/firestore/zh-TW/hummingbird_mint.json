@@ -1,0 +1,45 @@
+{
+  "slug": "hummingbird_mint",
+  "source_hash": "cfeecd0b501fc3f9c5ca8391fe85b48ff2da3b437536316fb2f0c41a02362ed5",
+  "translated_at": "2026-05-21T10:30:51Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "蜂香薄荷 (Hummingbird Mint)",
+  "aliases": [],
+  "description": "蜂香薄荷 (Agastache spp.) 是一種芳香的觀賞草本植物，對貓來說是安全的。ASPCA 或主要的獸醫毒理學參考資料均未將其列為有毒植物。雖然其芳香油可能會引起貓咪輕微的不感興趣或暫時避開，但在正常情況下，該植物不會構成顯著的健康風險。注意：與任何非食用的植物一樣，攝入大量可能會僅因不熟悉的植物物質而導致輕微的消化系統不適。如果您的貓在接觸後出現任何異常症狀，請諮詢您的獸醫師。",
+  "safetyNotes": [],
+  "toxicParts": [
+    "根",
+    "莖",
+    "葉",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐與腹瀉",
+      "body_system": "消化系統",
+      "onset": "急性（攝入後不久）。"
+    },
+    {
+      "name": "流口水或口吐白沫",
+      "body_system": "消化系統",
+      "onset": "立即（品嚐或咀嚼時）。"
+    },
+    {
+      "name": "精神沉鬱或全身無力",
+      "body_system": "神經系統",
+      "onset": "不定。"
+    },
+    {
+      "name": "呼吸困難、咳嗽或打噴嚏",
+      "body_system": "呼吸系統",
+      "onset": "急性。"
+    },
+    {
+      "name": "肝功能障礙 / 肝衰竭",
+      "body_system": "肝臟",
+      "onset": "延遲（症狀可能在數小時或數天內發展）。"
+    }
+  ]
+}

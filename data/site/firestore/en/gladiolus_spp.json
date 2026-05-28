@@ -1,0 +1,56 @@
+{
+  "slug": "gladiolus_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/gladiolus_spp.jpg"
+  ],
+  "name": "Gladioli / Sword Lily",
+  "aliases": [],
+  "description": "Gladiolus (Gladiolus spp.), commonly called Sword Lily, is a popular garden flower toxic to cats, with the highest concentration of toxins found in the underground corms (bulbs). The toxic compounds have not been fully characterised, but they cause gastrointestinal irritation and general malaise when ingested.",
+  "safetyNotes": [
+    "Toxic compounds: unidentified irritant compounds; corms (bulbs) are the most concentrated part",
+    "Mechanism: direct GI irritant; dermatitis may occur with sap contact",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy, loss of appetite",
+    "The corms pose the greatest risk — particularly relevant during planting or storing seasons",
+    "Symptoms are generally mild; contact your vet if your cat shows signs of lethargy or repeated vomiting"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Bulb",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea (Gastrointestinal Upset)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (Typically within a few hours of ingestion).",
+      "notes": "Ingestion of any part of the plant can cause these symptoms, but the bulb (corm) is the most toxic part and causes the most severe reactions.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling / Salivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Acute (Immediate to shortly after chewing/ingestion).",
+      "notes": "This occurs due to the plant's irritant properties on the mouth and digestive tract. Gladioli belong to the Iridaceae (Iris) family, which are known to cause oral and mucosal irritation when eaten.Lethargy"
+    },
+    {
+      "name": "Lethargy",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute (Accompanying gastrointestinal symptoms).",
+      "notes": "The cat may appear tired or disinterested in food due to the abdominal discomfort and nausea associated with the poisoning.Abdominal Pain"
+    },
+    {
+      "name": "Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute.",
+      "notes": "Often described as \"stomach upset\" or discomfort. Because Gladioli are in the same family as Irises, symptoms can overlap, including general abdominal tenderness."
+    }
+  ],
+  "scientificName": "Gladiolus spp.",
+  "family": "Iridaceae"
+}

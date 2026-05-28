@@ -1,0 +1,55 @@
+{
+  "slug": "iris",
+  "category": "plant",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/iris.jpg"
+  ],
+  "name": "Iris",
+  "aliases": [],
+  "description": "Iris (Iris spp.) is a widely cultivated ornamental plant that is mildly to moderately toxic to cats. The rhizomes (underground stems/bulbs) contain the highest concentration of toxic compounds, including irisin, iridoid glycosides, and pentacyclic terpenoids. The leaves and petals carry lower but non-trivial amounts of these irritants.",
+  "safetyNotes": [
+    "Toxic compounds: irisin (resinous glycoside), iridoid glycosides, pentacyclic terpenoids; rhizomes most concentrated",
+    "Mechanism: irisin and iridoid compounds cause direct GI irritation; skin contact with sap may cause dermatitis",
+    "Symptoms: drooling, vomiting, diarrhea, lethargy, abdominal pain; skin or eye contact with sap may cause redness or irritation",
+    "Rhizomes are the most hazardous part — risk increases during planting or dividing bulbs",
+    "Symptoms are usually mild with leaf nibbling; contact your vet if rhizome ingestion is suspected"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Leaf",
+    "Flower",
+    "Bulb"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Nausea, and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "These are the most common signs of ingestion. The toxicity is highest in the bulbs, so cats digging up or chewing on rhizomes are at greater risk than those nibbling leaves.Oral Ulceration and Irritation"
+    },
+    {
+      "name": "Mouth Ulcers and Oral Irritation",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Acute (upon contact/ingestion).",
+      "notes": "Ingestion can cause physical damage and chemical irritation to the mouth, leading to visible sores or ulcers. Drooling (hypersalivation) may occur as a reaction to this irritation.Dermatitis"
+    },
+    {
+      "name": "Skin Irritation (Dermatitis)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "notes": "Contact with the plant sap or parts can cause irritation to the skin, which is a distinct symptom noted for Irises compared to many other toxic plants.Abdominal Pain"
+    },
+    {
+      "name": "Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "This pain is likely secondary to the severe gastrointestinal irritation caused by the plant's compounds.Important Distinction: It is crucial to distinguish Iris from True Lilies (Lilium or Hemerocallis species). While Irises cause \"extreme discomfort\" and gastrointestinal/dermal irritation, they are"
+    }
+  ],
+  "scientificName": "Iris spp.",
+  "family": "Iridaceae"
+}

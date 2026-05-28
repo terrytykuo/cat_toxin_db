@@ -1,0 +1,14 @@
+{
+  "slug": "zinnia",
+  "source_hash": "9f2c283e8d755d7c95fa37af35eaafb77994c769ebe77525b6efde2da5a4ee42",
+  "translated_at": "2026-05-21T10:41:59Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "百日草",
+  "aliases": [],
+  "description": "百日草是色彩鮮豔且易於生長的花朵，對貓安全。它們擁有彩虹般的各種顏色，是非常棒的鮮切花選擇，可持續開放數週。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

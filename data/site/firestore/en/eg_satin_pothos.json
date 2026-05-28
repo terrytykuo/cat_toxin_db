@@ -1,0 +1,67 @@
+{
+  "slug": "eg_satin_pothos",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/eg_satin_pothos/images/1773011657551.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/eg_satin_pothos/images/1773011672067.avif"
+  ],
+  "name": "Silver Leaf Philodendron",
+  "aliases": [],
+  "description": "Silver Leaf Philodendron (also sold as Satin Pothos, Scindapsus pictus) is a popular trailing houseplant with silvery-patterned leaves. Despite the name, it belongs to the Araceae family and contains insoluble calcium oxalate crystals (raphides) throughout its leaves and stems. Chewing the plant causes immediate intense oral pain.",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides throughout the plant; proteolytic enzymes in sap intensify the reaction",
+    "Mechanism: raphides mechanically penetrate the oral mucosa when plant tissue is chewed, causing burning and swelling",
+    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, difficulty swallowing, swollen lips and tongue, vomiting",
+    "The decorative silver-patterned leaves may attract cats — keep out of reach",
+    "Rinse the mouth with water; seek veterinary care if throat swelling impairs breathing or swallowing"
+  ],
+  "toxicParts": [
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Intense oral irritation, burning sensation, pain, pawing at the mouth, and localized swelling (edema) of the tongue and pharynx",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (upon chewing or ingestion)",
+      "notes": "This is a direct physical reaction caused by sharp, needle-like insoluble calcium oxalate crystals penetrating the delicate mucous membranes of the mouth2.... 2. Hypersalivation"
+    },
+    {
+      "name": "Excessive salivation (drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate",
+      "notes": "Drooling is triggered by the intense burning and irritation in the mouth; you may also notice the cat frantically pawing at its face due to the discomfort15. 3. Gastrointestinal Upset and Anorexia"
+    },
+    {
+      "name": "Vomiting, retching, and lack of appetite (decreased appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion",
+      "notes": "The cat's refusal to eat is largely due to the severe oral discomfort, while vomiting and retching are caused by the crystals physically irritating the gastrointestinal tract if swallowed2.... 4. Dyspnea (Difficulty Breathing)"
+    },
+    {
+      "name": "Dyspnea and swelling of the upper airways",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapidly following exposure (as tissue swelling develops)",
+      "notes": "This is a rarer but serious complication that occurs if the localized inflammation and swelling (edema) in the throat become severe enough to block the air passages1.... 5. Neurological Abnormalities"
+    },
+    {
+      "name": "Excitability, nervous spasms, convulsions, and occasional encephalitis",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "While plants containing insoluble oxalates typically only cause localized oral irritation, these specific, severe neurological signs have been reported specifically in cats after ingesting Philodendron species3. 6. Renal Failure"
+    },
+    {
+      "name": "Renal failure",
+      "body_system": "Renal",
+      "severity": "severe",
+      "notes": "Although insoluble calcium oxalates are generally known as gastrointestinal irritants that do not cause systemic organ damage, the Merck Veterinary Manual explicitly notes that renal failure has been reported in cats following the ingestion of Philodendron"
+    }
+  ],
+  "scientificName": "e.g. Satin Pothos",
+  "family": "Araceae"
+}

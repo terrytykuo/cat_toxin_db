@@ -1,0 +1,60 @@
+{
+  "slug": "rumex_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/rumex_spp.jpg"
+  ],
+  "name": "Curly Dock / Sorrel",
+  "aliases": [],
+  "description": "Curly Dock (Rumex crispus), also called Yellow Dock or Sorrel, is a common garden weed and wild plant found in fields, roadsides, and disturbed soils. It contains soluble oxalates and anthraquinone glycosides. Unlike the insoluble oxalate raphides found in Araceae plants (which cause immediate local pain), soluble oxalates are absorbed into the bloodstream, where they bind calcium, causing hypocalcaemia (low blood calcium), and can form calcium oxalate crystals in the kidneys over repeated exposures.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, lethargy, and muscle tremors from soluble oxalate absorption; dark urine and kidney-related signs with chronic or large ingestion.",
+    "Chronic exposure is the greater concern: A single nibble is unlikely to cause serious harm, but cats that repeatedly graze on this weed may develop calcium oxalate nephropathy (kidney damage).",
+    "Action: Discourage access if the plant is in your garden. Contact a vet if a cat has consumed a large amount or shows signs of weakness or muscle tremors."
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and Loss of Appetite (Inappetence)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid; these are cited as \"initial clinical signs.\"",
+      "notes": "Small ingestions, such as a nibble, typically result in only these gastrointestinal signs. However, persistent vomiting can also be a sign of developing kidney failure or hypocalcemia.Hypocalcemic Tetany (Tremors and Seizures)"
+    },
+    {
+      "name": "Tremors, Twitching, and Seizures (Tetany)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Rapid following significant absorption.",
+      "notes": "This occurs because soluble oxalates absorb into the blood and bind with systemic calcium, causing a sudden, dangerous drop in calcium levels (hypocalcemia). Symptoms include weakness, ataxia (loss of coordination), and lethargy.Renal Failure"
+    },
+    {
+      "name": "Kidney Failure (Acute Renal Failure)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Delayed (as crystals precipitate in the kidneys).",
+      "notes": "The oxalate crystals can precipitate within the renal tubules, causing physical damage. Signs include increased thirst and urination (PU/PD), followed by a decrease in urine production (oliguria) or complete cessation (anuria).Excessive Drooling"
+    },
+    {
+      "name": "Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid.",
+      "notes": "This is often seen alongside other early signs of toxicity.Bloody Urine"
+    },
+    {
+      "name": "Hematuria (Bloody Urine)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Delayed (associated with renal damage).",
+      "notes": "This symptom indicates damage to the urinary tract or kidneys caused by the filtration of oxalate crystals."
+    }
+  ],
+  "scientificName": "Rumex spp.",
+  "family": "Polygonaceae"
+}

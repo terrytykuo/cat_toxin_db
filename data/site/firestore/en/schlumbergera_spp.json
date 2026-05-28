@@ -1,0 +1,29 @@
+{
+  "slug": "schlumbergera_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/schlumbergera_spp.jpg"
+  ],
+  "name": "Christmas Cactus",
+  "aliases": [],
+  "description": "Christmas Cactus (Schlumbergera truncata and related hybrids) is a popular flowering houseplant during the holiday season. Unlike many other festive plants, it is considered only mildly toxic to cats — significantly less dangerous than poinsettia or holly. The plant's fibrous tissues and mildly irritating compounds can cause gastrointestinal upset if ingested, but serious toxicity is uncommon. The main risks are from the volume ingested, as large amounts of any plant material can overwhelm a cat's digestive system.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, and mild abdominal discomfort if a significant amount is eaten; symptoms are typically self-limiting.",
+    "Low overall risk: Christmas Cactus is not among the high-priority toxic plants — the danger is primarily from GI irritation rather than systemic toxicity.",
+    "Action: Monitor the cat after exposure. Veterinary care is rarely needed unless vomiting is persistent or the cat seems unusually unwell."
+  ],
+  "toxicParts": [],
+  "symptoms": [
+    {
+      "name": "Vomiting and Diarrhea (Gastrointestinal Irritation)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Not explicitly stated,",
+      "notes": "While the plant is classified as non-toxic, ingestion of the leaves can cause mechanical irritation to the stomach and intestines. Veterinary intervention is rarely needed unless the irritation persists."
+    }
+  ],
+  "scientificName": "Schlumbergera spp.",
+  "family": "Cactaceae"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "ornithogalum_umbellatum",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ornithogalum_umbellatum/images/1772926605185.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ornithogalum_umbellatum/images/1772926637991.avif"
+  ],
+  "name": "Star of Bethlehem",
+  "aliases": [],
+  "description": "Star of Bethlehem (Ornithogalum umbellatum) is a bulbous flowering plant toxic to cats throughout all its parts. It contains cardenolide cardiac glycosides — specifically convallatoxin-related compounds — concentrated in the bulbs and leaves. These affect the heart in a similar way to Foxglove and Lily of the Valley.",
+  "safetyNotes": [
+    "Toxic compounds: cardenolide cardiac glycosides (convallotoxin, convalloside-related compounds); bulbs most concentrated",
+    "Mechanism: cardenolides inhibit Na+/K+-ATPase in cardiac muscle, disrupting electrical conduction and causing arrhythmias",
+    "Symptoms: vomiting, drooling, diarrhea, abnormal heart rate, weakness, collapse",
+    "All parts are toxic — flowers, leaves, and especially bulbs; the plant is commonly found in gardens and naturalised fields",
+    "Seek veterinary care promptly if ingestion is suspected"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Leaf",
+    "Flower",
+    "Bulb"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within the first 2 hours after exposure",
+      "notes": "These are typical early signs of toxicosis from cardiac glycosides, and the clinical symptoms can persist for up to 4 to 5 days4. 2. Abnormal Heart Rate and Arrhythmias"
+    },
+    {
+      "name": "Bradycardia (abnormally slow heart rate), tachycardia (abnormally fast heart rate), and cardiac arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within the first 2 hours after exposure",
+      "notes": "The plant's toxins inhibit the Na+/K+ ATPase pump, which leads to an accumulation of intracellular sodium and calcium. This disrupts the heart's electrical system, forcing the cardiac muscles to produce more powerful but slower contractions3. 3. Hyperkalemia"
+    },
+    {
+      "name": "Hyperkalemia (dangerously elevated potassium levels in the blood)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Within the first 2 hours after exposure",
+      "notes": "This life-threatening electrolyte imbalance occurs because the toxin blocks the cellular pumps, leading to a build-up of extracellular potassium3. Severe hyperkalemia requires emergency intravenous treatments, such as a dextrose/insulin combination or sodium bicarbonate4. 4. Weakness"
+    },
+    {
+      "name": "Weakness",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within the first 2 hours after exposure",
+      "notes": "Generalized weakness is a clinical manifestation of the profound cardiovascular depression, heart rhythm abnormalities, and electrolyte imbalances caused by the poisoning"
+    }
+  ],
+  "scientificName": "Ornithogalum umbellatum",
+  "family": "Asparagaceae"
+}

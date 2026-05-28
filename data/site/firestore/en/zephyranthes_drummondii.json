@@ -1,0 +1,44 @@
+{
+  "slug": "zephyranthes_drummondii",
+  "category": "plant",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/zephyranthes_drummondii/images/1773011755655.jpg"
+  ],
+  "name": "Prairie Lily",
+  "aliases": [],
+  "description": "Prairie Lily (Zephyranthes drummondii), also called Rain Lily or Zephyr Lily, is a bulbous flowering plant toxic to cats. It belongs to the Amaryllidaceae family and contains lycorine and related phenanthridine alkaloids — the same compounds found in Amaryllis, Daffodil, and Blood Lily. The bulb carries the highest toxin concentration.",
+  "safetyNotes": [
+    "Toxic compounds: lycorine and phenanthridine alkaloids; bulb most concentrated",
+    "Mechanism: lycorine directly activates the emetic centre in the brainstem; higher doses cause vasodilation, hypotension, and CNS depression",
+    "Symptoms: vomiting, diarrhea, drooling, tremors; severe bulb ingestion may cause low blood pressure and convulsions",
+    "Bulbs are the most dangerous part — relevant during planting or when stored",
+    "Contact your vet if your cat ingests any part of the plant, especially the bulb"
+  ],
+  "toxicParts": [
+    "Bulb",
+    "Leaf",
+    "Stem",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate"
+    },
+    {
+      "name": "Hypersalivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild"
+    }
+  ],
+  "scientificName": "Zephyranthes drummondii",
+  "family": "Amaryllidaceae"
+}

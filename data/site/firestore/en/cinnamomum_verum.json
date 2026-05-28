@@ -1,0 +1,56 @@
+{
+  "slug": "cinnamomum_verum",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cinnamomum_verum.jpg"
+  ],
+  "name": "Cinnamon",
+  "aliases": [],
+  "description": "Cinnamon, derived from the inner bark of Cinnamomum trees, seems harmless but is toxic to cats in several forms. The primary concerns are cinnamaldehyde (the main flavour compound) and coumarin (present in high amounts in cassia/Chinese cinnamon). Cats are especially sensitive because they lack the key liver enzymes needed to safely metabolise these compounds. Even inhaling cinnamon powder can irritate a cat's airways and trigger coughing or choking. Cinnamon essential oils and extracts are far more concentrated than powdered spice and pose a much greater risk.",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, and mouth irritation from ingestion; coughing and airway irritation from inhaling the powder; liver damage signs (lethargy, jaundice) with large or repeated exposures.",
+    "Essential oils are the highest risk: A few drops of cinnamon essential oil can cause the same harm as ingesting a much larger quantity of ground spice.",
+    "Action: Keep cinnamon sticks, powder, and especially essential oils away from cats. Contact a vet if a cat has ingested oil or a significant quantity of spice."
+  ],
+  "toxicParts": [
+    "Bark",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Liver failure (Serious organ damage)",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "notes": "Essential oils can cause serious organ damage in cats, which in extreme cases leads to liver failure.Chemical Burns and Skin Irritation"
+    },
+    {
+      "name": "Soreness, redness, or chemical burns",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Rapid (upon contact).",
+      "notes": "This occurs if the cat has direct skin contact with the oil. Even if there is no visible damage to the skin, systemic toxicity may still occur from absorption.Neurological Distress"
+    },
+    {
+      "name": "Tremors, shaking, ataxia (walking as if drunk), and seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "Cats may also exhibit lethargy, depression, or dullness. In severe cases, this can progress to collapse.Respiratory Difficulties"
+    },
+    {
+      "name": "Difficulty breathing (Dyspnea) or breathing with the mouth open",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "notes": "Toxic effects from inhalation are generally rare with diluted diffusers but are a significant risk with nebulizers, ultrasonic diffusers using neat oils, or cats with conditions like asthma.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting and excessive dribbling (hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Cats may lick the oil off their fur, leading to ingestion. High fat levels in carrier oils can also contribute to tummy upsets."
+    }
+  ],
+  "scientificName": "Cinnamomum verum",
+  "family": "Lauraceae"
+}

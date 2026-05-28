@@ -1,0 +1,62 @@
+{
+  "slug": "monstera_adansonii",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/monstera_adansonii.jpg"
+  ],
+  "name": "Swiss Cheese Vine",
+  "aliases": [],
+  "description": "Swiss Cheese Vine (Monstera adansonii), named for the distinctive holes in its leaves, is toxic to cats. As a member of the Araceae family (the same as Pothos, Philodendron, and Dieffenbachia), it contains insoluble calcium oxalate crystals (raphides) throughout its leaves and stems. Chewing causes immediate intense oral pain.",
+  "safetyNotes": [
+    "Toxic compounds: insoluble calcium oxalate raphides; sap also contains proteolytic enzymes",
+    "Mechanism: raphides penetrate the oral mucosa mechanically when plant cells are damaged, causing burning and swelling",
+    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, difficulty swallowing, swollen tongue and lips, vomiting",
+    "All Monstera species carry the same oxalate toxicity — Swiss Cheese Vine, Swiss Cheese Plant, and Split-Leaf Philodendron are all hazardous",
+    "Rinse the mouth with water; seek vet care if swallowing is impaired"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Stem"
+  ],
+  "symptoms": [
+    {
+      "name": "Oral burning, tissue irritation, and crying out in pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "When the cat bites the plant, specialized cells forcefully eject needle-like calcium oxalate crystals directly into the cat's oral tissue, causing immediate and intense physical trauma and burning12. 2. Excessive Drooling and Pawing at the Mouth"
+    },
+    {
+      "name": "Excessive drooling (hypersalivation) and pawing at the mouth",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "Drooling and pawing at the face are direct, immediate reactions to the severe irritation and pain caused by the embedded crystals1.... 3. Swelling and Difficulty Swallowing"
+    },
+    {
+      "name": "Swelling of the mouth, tongue, and throat (edema), leading to difficulty swallowing",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Immediate to shortly after exposure.",
+      "notes": "The body's inflammatory response to the sharp crystals causes significant swelling. While this type of poisoning is rarely fatal, severe swelling in the throat (laryngeal edema) can potentially obstruct the cat's airway and cause dangerous respiratory distress1.... 4. Vomiting"
+    },
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion.",
+      "notes": "If the cat swallows the plant material despite the initial mouth pain, the crystals will continue to irritate the stomach and gastrointestinal tract, triggering vomiting12. 5. Reluctance to Eat (Anorexia)"
+    },
+    {
+      "name": "Anorexia or reluctance to eat",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after exposure.",
+      "notes": "Cats will often refuse food and water because their mouth and throat are swollen and in pain4. Offering something cool, like water or a bit of yogurt, can help soothe the mouth, and rinsing the mouth with water can help remove the irritants"
+    }
+  ],
+  "scientificName": "Monstera adansonii",
+  "family": "Araceae"
+}

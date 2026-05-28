@@ -1,12 +1,12 @@
 {
+  "scientific_name": "Phalaenopsis spp.",
   "aliases": [
     "Moth Orchid"
   ],
   "category": "plant",
-  "description": "Phalaenopsis (Moth Orchids) are among the most popular orchids and are completely safe for cats. Their elegant, long-lasting blooms make them a stunning, worry-free addition to any home.",
-  "name": "Phalaenopsis Orchid",
-  "scientific_name": "Phalaenopsis spp.",
   "severity": "safe",
+  "toxicParts": [],
   "symptoms": [],
-  "toxicParts": []
+  "description": "Phalaenopsis (Moth Orchids) are among the most popular orchids and are completely safe for cats. Their elegant, long-lasting blooms make them a stunning, worry-free addition to any home.",
+  "name": "Phalaenopsis Orchid/ Moth Orchid"
 }

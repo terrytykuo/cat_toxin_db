@@ -1,0 +1,36 @@
+{
+  "slug": "pine",
+  "source_hash": "7dadee99f9ecb1cbe6434e93dd60e93065faac54f454ec8fab5136c2f80ba505",
+  "translated_at": "2026-05-21T10:36:13Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "松樹 (Pine)",
+  "aliases": [],
+  "description": "大多數松樹 (Pinus spp.) 對貓沒有嚴重的毒性，但存在一些實際風險。松針如果被吞下可能會對胃腸道造成物理損傷，且汁液含有會引起胃腸道刺激的萜烯化合物。聖誕樹架內的水（可能含有肥料、防腐劑或高濃度的萜烯流出物）如果被貓飲用可能會導致嘔吐。",
+  "safetyNotes": [
+    "物理危害：松針很尖銳，會刺傷或刺激口腔、胃和腸道",
+    "萜烯刺激物：松樹汁液和精油含有 α-蒎烯和其他萜類化合物，會引起輕微的胃腸不適",
+    "聖誕樹水風險：通常含有細菌、肥料或樹木防腐劑——防止貓飲用",
+    "諾福克島松 (Araucaria) 是不同科的獨特物種，被認為對貓更具毒性",
+    "如果您的貓攝入大量松針或汁液，請聯絡您的獸醫"
+  ],
+  "toxicParts": [
+    "汁液",
+    "葉"
+  ],
+  "symptoms": [
+    {
+      "name": "流口水和嘔吐",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "消化道阻塞",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "肝臟損傷",
+      "body_system": "肝臟"
+    }
+  ]
+}

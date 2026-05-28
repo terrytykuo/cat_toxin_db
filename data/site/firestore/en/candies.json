@@ -1,0 +1,83 @@
+{
+  "slug": "candies",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/candies/images/1773011060744.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/candies/images/1773011066168.avif"
+  ],
+  "name": "Candies",
+  "aliases": [],
+  "description": "Commercially produced candies are not directly toxic to cats, but they carry multiple indirect hazards that make them consistently unsafe. The primary concern is the high sugar content, which causes GI distress. Chocolate-flavoured candies contain theobromine and caffeine (methylxanthines), which are highly toxic to cats. Sugar-free candies may contain xylitol. Additionally, hard candies pose a choking risk, and foil or plastic wrappers can cause intestinal obstruction.",
+  "safetyNotes": [
+    "Chocolate-flavoured candies: Even small amounts can cause methylxanthine toxicity — vomiting, agitation, muscle tremors, cardiac arrhythmia.",
+    "Sugar content: Causes osmotic diarrhea and GI upset in virtually all cases.",
+    "Wrappers: Hard to pass and can cause obstruction requiring surgical intervention.",
+    "Action: Keep all candies securely stored away from cats. If chocolate-flavoured candy was ingested, treat as a methylxanthine toxicity emergency and contact a vet immediately."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Seed",
+    "Pit",
+    "Skin"
+  ],
+  "symptoms": [
+    {
+      "name": "The symptoms a cat exhibits after ingesting candies depend primarily on the toxic ingredients present, most notably chocolate",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Gastrointestinal Upset (Vomiting and Diarrhea)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Usually within 2 to 12 hours of ingestion",
+      "notes": "This is typically one of the earliest signs of chocolate (methylxanthine) poisoning12. Very high levels of artificial sweeteners like xylitol, or general sugar overload, can also trigger general tummy upsets and loose stools"
+    },
+    {
+      "name": "Agitation, Hyperactivity, and Tremors",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "2 to 12 hours",
+      "notes": "Theobromine and caffeine in chocolate candies block adenosine receptors and inhibit the enzyme phosphodiesterase4. This leads to severe overstimulation of the central nervous system, causing the cat to enter a stage of extreme agitation, restlessness, and muscle tremors"
+    },
+    {
+      "name": "Cardiac Arrhythmias and Tachycardia",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "2 to 12 hours (often progressing as toxin levels peak)",
+      "notes": "Methylxanthines from chocolate increase the entry of extracellular calcium into muscle cells, enhancing the strength and frequency of heart contractions4. This can cause life-threatening heart palpitations and cardiac arrhythmias, ultimately leading to cardiac arrest in terminal phases"
+    },
+    {
+      "name": "Excessive Thirst and Urination",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "onset": "2 to 12 hours",
+      "notes": "Theobromine acts as a mild diuretic, causing the cat to lose bodily fluids and triggering excessive thirst and urination as the chemical stays in the bloodstream"
+    },
+    {
+      "name": "Severe CNS Depression (Seizures and Coma)",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "Progressive (hours after ingestion)",
+      "notes": "In the later stages of methylxanthine toxicosis (from chocolate candies), the severe overstimulation of the nervous system can progress to grand mal seizures, coma, and respiratory failure"
+    },
+    {
+      "name": "Transient Salivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion",
+      "notes": "In experimental studies evaluating the effects of xylitol (found in sugar-free candies and mints) on cats, massive oral doses caused no significant changes in blood sugar or liver parameters, with transient salivation being the only reported clinical sign"
+    },
+    {
+      "name": "Hypoglycemia and Liver Failure (Theoretical / Rare)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "15 to 30 minutes for a drop in blood sugar (or delayed up to 12 hours depending on the product);",
+      "notes": "In dogs, xylitol tricks the pancreas into releasing a massive surge of insulin, driving down blood sugar and destroying the liver1113. Cats appear to be naturally resistant to xylitol toxicity and lack this receptor-mediated pathway14. While major poison control centers report no cases of feline xyl"
+    }
+  ],
+  "scientificName": "Candies",
+  "family": "Various"
+}

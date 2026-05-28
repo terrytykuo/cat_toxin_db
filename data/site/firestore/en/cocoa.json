@@ -1,0 +1,68 @@
+{
+  "slug": "cocoa",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cocoa.jpg"
+  ],
+  "name": "Cocoa",
+  "aliases": [],
+  "description": "Cocoa is the concentrated base ingredient of all chocolate products, produced by processing cacao seeds. It is the most potent source of methylxanthines — theobromine and caffeine — of any common household food product. Dry cocoa powder contains approximately 30 mg of methylxanthines per gram, making it significantly more dangerous weight-for-weight than finished chocolate. Cats metabolise methylxanthines far more slowly than humans: these compounds block adenosine receptors, inhibit phosphodiesterase, and disrupt calcium signalling in cardiac and skeletal muscles, causing a cascade of CNS and cardiovascular effects.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, excessive thirst and urination; rapidly progressing to agitation, rapid heart rate, tremors, hyperthermia, cardiac arrhythmia, and seizures.",
+    "Most toxic common source: Cocoa powder is more dangerous per gram than dark chocolate, baker's chocolate, or any other chocolate product — treat any exposure as a serious emergency.",
+    "Hidden sources: Hot cocoa powder, chocolate baking mixes, and cocoa mulch (used in gardens) all contain high methylxanthine levels.",
+    "Action: Veterinary emergency. Even a small amount of cocoa powder requires immediate veterinary attention."
+  ],
+  "toxicParts": [
+    "Seed",
+    "Powder"
+  ],
+  "symptoms": [
+    {
+      "name": "Gastrointestinal Upset (Vomiting and Diarrhea)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "2 to 12 hours (often the initial symptoms to manifest).",
+      "notes": "These are generally the first clinical signs of methylxanthine (theobromine and caffeine) poisoning after a cat consumes cocoa products"
+    },
+    {
+      "name": "Increased Thirst and Urination (Polydipsia and Polyuria)",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "onset": "2 to 12 hours.",
+      "notes": "Theobromine acts as a diuretic, increasing the loss of bodily fluids and causing the cat to pass large amounts of urine, which can rapidly lead to systemic dehydration"
+    },
+    {
+      "name": "Severe Neurological Overstimulation",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "2 to 12 hours (progresses as the toxins are absorbed into the bloodstream).",
+      "notes": "Methylxanthines cause severe central nervous system overstimulation. The cat may initially show disorientation and extreme agitation, which can rapidly progress to severe muscle tremors, convulsions, and potentially a coma"
+    },
+    {
+      "name": "Cardiovascular Dysfunction",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "2 to 12 hours.",
+      "notes": "Theobromine and caffeine abnormally enhance the strength and contractility of cardiac muscles. This results in very rapid, irregular heart rhythms, potential internal bleeding, and ultimately cardiac arrest or a heart attack in the terminal phase"
+    },
+    {
+      "name": "Respiratory Distress",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Mid to late stages (progressing from 6 to 12 hours).",
+      "notes": "As cardiovascular and systemic distress worsens, cats will pant and breathe rapidly2.... They may develop a bluish tinge to their skin and mucous membranes (cyanosis) due to poor oxygenation, culminating in respiratory failure"
+    },
+    {
+      "name": "Hyperthermia",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Mid to late stage (6 to 12 hours).",
+      "notes": "The extreme overstimulation of the nervous system and relentless muscle tremors generate excessive heat, causing the cat's core body temperature to spike to dangerous levels"
+    }
+  ],
+  "scientificName": "Cocoa",
+  "family": "Various"
+}

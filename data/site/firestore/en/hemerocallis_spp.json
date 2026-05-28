@@ -1,0 +1,50 @@
+{
+  "slug": "hemerocallis_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/hemerocallis_spp.jpg"
+  ],
+  "name": "Daylily",
+  "aliases": [],
+  "description": "Daylily (Hemerocallis spp.) is one of the most dangerous plants for cats and must be treated as a veterinary emergency. Although not a true lily botanically, Daylilies share the same devastating nephrotoxicity seen in Easter and Tiger lilies. The specific toxic compound has not been fully identified, but virtually all parts — flowers, leaves, stems, pollen, and even vase water — can cause fatal acute kidney failure.",
+  "safetyNotes": [
+    "Toxic compounds: unknown nephrotoxic substance unique to Hemerocallis; not toxic to dogs or humans",
+    "Mechanism: acute tubular necrosis — rapid, irreversible destruction of kidney tissue",
+    "Symptoms Phase 1 (0-2h): vomiting, lethargy, drooling; Phase 2 (24-72h): acute kidney failure with cessation of urine output, seizures, coma",
+    "Even small exposures are dangerous: a few petals, licking pollen off fur, or drinking vase water can be lethal",
+    "Time is critical — decontamination and IV fluid therapy within 6 hours significantly improve survival; do not wait for symptoms to worsen"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower",
+    "Stem",
+    "Pollen"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid",
+      "notes": "Early sign (1-3 hours); may subside temporarily."
+    },
+    {
+      "name": "Acute Kidney Failure",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "12-36 hours",
+      "notes": "Oliguria/Anuria indicates irreversible damage."
+    },
+    {
+      "name": "Lethargy",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Rapid",
+      "notes": "Progressive weakness and depression."
+    }
+  ],
+  "scientificName": "Hemerocallis spp.",
+  "family": "Hemerocallidaceae"
+}

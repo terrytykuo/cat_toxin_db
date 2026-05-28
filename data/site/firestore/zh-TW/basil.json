@@ -1,0 +1,17 @@
+{
+  "slug": "basil",
+  "source_hash": "e5fc7deac64e1cc49ff3c06aa5a5662c188e2091754a53e0af19c36edf5910a1",
+  "translated_at": "2026-05-21T10:20:51Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "羅勒 / 九層塔",
+  "aliases": [
+    "甜羅勒",
+    "普通羅勒"
+  ],
+  "description": "羅勒是一種香草，對貓完全安全。雖然大多數貓對吃它不感興趣，但有些可能偶爾會咬上一口。這是一種非常適合廚房的雙用途植物——既可用於烹飪，又對貓咪安全。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

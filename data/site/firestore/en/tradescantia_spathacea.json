@@ -1,0 +1,42 @@
+{
+  "slug": "tradescantia_spathacea",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Tradescantia_spathacea_%28_Moses-in-the-cradle_%29.jpg/500px-Tradescantia_spathacea_%28_Moses-in-the-cradle_%29.jpg"
+  ],
+  "name": "Oyster Plant",
+  "aliases": [],
+  "description": "Oyster Plant (Tradescantia spathacea), also known as Moses-in-the-Cradle or Boat Lily, is a common houseplant and garden ornamental that is mildly toxic to cats. It contains calcium oxalate crystals and dermatitis-causing compounds in its sap. Skin contact with the plant or ingestion can both cause reactions.",
+  "safetyNotes": [
+    "Toxic compounds: calcium oxalate crystals and irritant compounds in the sap; the vivid purple undersides of leaves contain higher concentrations",
+    "Mechanism: calcium oxalate crystals cause mechanical irritation to the oral and GI mucosa; sap contact causes contact dermatitis",
+    "Symptoms: drooling, vomiting, diarrhea; skin or eye contact with sap may cause redness, irritation, or rash",
+    "The ornamental purple-and-green leaves make this a popular houseplant — keep it out of cat reach",
+    "Symptoms are usually mild; rinse any sap off skin with water and consult your vet if GI symptoms persist"
+  ],
+  "toxicParts": [
+    "Sap",
+    "Stem",
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Drooling (hypersalivation) and vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "The sources do not specify an exact timeframe, but because it is an immediate physical irritant,",
+      "notes": "If your cat ingests this plant, you should gently wipe out their mouth to remove any residual irritant sap and offer water1. You should monitor them for persistent vomiting and consult a veterinarian if symptoms worsen or do not resolve1. 2. Skin Irritation"
+    },
+    {
+      "name": "Skin irritation or rash",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "The sources do not specify an exact timeframe,",
+      "notes": "This is an occasional symptom that happens when the cat's skin or fur comes into contact with the sap1. It is recommended to wipe the cat's paws to remove the sap, and to consult a vet if the rash persists"
+    }
+  ],
+  "scientificName": "Tradescantia spathacea",
+  "family": "Commelinaceae"
+}

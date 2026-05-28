@@ -1,0 +1,41 @@
+{
+  "slug": "tradescantia_zebrina",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/tradescantia_zebrina/images/1772926956743.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/tradescantia_zebrina/images/1772926961728.jpg"
+  ],
+  "name": "Wandering Jew",
+  "aliases": [],
+  "description": "Wandering Jew (Tradescantia zebrina), a trailing houseplant with striking purple and silver striped leaves, is mildly toxic to cats. Like its relative Oyster Plant (Tradescantia spathacea), it contains irritant compounds in its sap that cause contact dermatitis on skin and GI upset when ingested.",
+  "safetyNotes": [
+    "Toxic compounds: irritant sap compounds throughout the plant; contact with broken stems releases the most concentrated sap",
+    "Mechanism: sap causes contact dermatitis; ingestion causes direct GI mucosal irritation",
+    "Symptoms: skin redness or rash from contact; vomiting, diarrhea, drooling from ingestion",
+    "The trailing purple-silver leaves are visually appealing and accessible when plants hang — relocate away from cats",
+    "Symptoms are mild and usually self-limiting; rinse affected skin with water and consult your vet if GI symptoms persist"
+  ],
+  "toxicParts": [
+    "Sap",
+    "Stem"
+  ],
+  "symptoms": [
+    {
+      "name": "Mild vomiting, drooling, and/or diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "This is generally a minor gastrointestinal upset that usually resolves on its own1. You can help by cleaning the cat's mouth with water, but you should consult a veterinarian if the vomiting becomes frequent1. 2. Skin Redness and Itching"
+    },
+    {
+      "name": "Skin redness or itch",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Occurs after prolonged physical contact with the plant's sap",
+      "notes": "If the sap gets on your cat, you should clean it off their fur and skin with water1. While usually a minor irritation, you should consult a veterinarian if the skin reaction appears severe"
+    }
+  ],
+  "scientificName": "Tradescantia zebrina",
+  "family": "Commelinaceae"
+}

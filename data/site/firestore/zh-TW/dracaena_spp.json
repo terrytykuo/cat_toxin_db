@@ -1,0 +1,46 @@
+{
+  "slug": "dracaena_spp",
+  "source_hash": "cb1f5d0a05e25e5b8c9ccbc1b1a81a80514e235cef139638cc40a6284dac882d",
+  "translated_at": "2026-05-21T10:27:54Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "龍血樹屬",
+  "aliases": [],
+  "description": "龍血樹屬 (Dracaena spp.) 是一個包含多種受歡迎室內植物的大屬 — 包括緣葉龍血樹 (Dracaena marginata)、香龍血樹 (D. fragrans，巴西鐵樹) 和虎尾蘭 (D. trifasciata) — 所有這些對貓都有毒。該屬植物的葉和莖中含有甾體皂苷，會干擾細胞膜並導致胃腸道不適。",
+  "safetyNotes": [
+    "毒性化合物：甾體皂苷（全屬一致）",
+    "機制：破壞細胞膜導致胃腸道刺激；高劑量下可能產生神經系統影響",
+    "症狀：嘔吐（有時帶血）、流口水、食慾不振、虛弱、瞳孔放大",
+    "貓對龍血樹皂苷引起的瞳孔放大（mydriatic）效果特別敏感",
+    "植物的所有部分都有毒；請將其從貓能接觸到的地方移走，若攝入量大請尋求獸醫護理"
+  ],
+  "toxicParts": [
+    "樹皮",
+    "莖",
+    "葉",
+    "整株植物"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐（偶爾帶血/吐血）和腹瀉",
+      "body_system": "消化系統",
+      "onset": "來源中未明確說明"
+    },
+    {
+      "name": "瞳孔放大",
+      "body_system": "神經系統",
+      "onset": "與急性中毒期相關（時間未明確說明）。"
+    },
+    {
+      "name": "流口水 / 唾液分泌過多",
+      "body_system": "消化系統",
+      "onset": "急性（咀嚼/攝入後不久）。"
+    },
+    {
+      "name": "抑鬱、嗜睡、虛弱或協調失常（共濟失調）",
+      "body_system": "神經系統",
+      "onset": "急性期。"
+    }
+  ]
+}

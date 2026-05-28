@@ -1,0 +1,84 @@
+{
+  "slug": "onions",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/onions.jpg"
+  ],
+  "name": "Onions",
+  "aliases": [],
+  "description": "Onions (Allium cepa) are severely toxic to cats. All Allium species — including onions, garlic, chives, and leeks — contain organosulfur compounds that oxidise feline haemoglobin, forming Heinz bodies and triggering haemolytic anaemia. All forms are equally dangerous: raw, cooked, powdered, or dehydrated onions. Onion powder is especially hazardous due to its high concentration.",
+  "safetyNotes": [
+    "Toxic compounds: N-propyl disulfide and organosulfur compounds (alk(en)yl cysteine sulfoxides); all forms toxic",
+    "Mechanism: oxidative damage to haemoglobin creates Heinz bodies; the spleen destroys affected red blood cells, causing haemolytic anaemia",
+    "Symptoms: lethargy, weakness, pale or yellowish gums, rapid breathing, loss of appetite, reddish-brown urine; onset often delayed 3–5 days",
+    "Onion powder in baby food, broths, gravies, or prepared meals is a common hidden source of toxicity",
+    "Never share any onion-containing food with cats; contact your vet immediately if ingestion is suspected"
+  ],
+  "toxicParts": [
+    "Powder",
+    "Raw form",
+    "Cooked form"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Abdominal Pain, and Loss of Appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within 1 day (or delayed up to 2–4 days)",
+      "notes": "These are usually the first clinical signs of toxicosis to appear, frequently resulting in dehydration"
+    },
+    {
+      "name": "Lethargy, Weakness, and Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "After a lag of several days (typically 3–5 days)",
+      "notes": "These symptoms emerge as a secondary response to systemic hypoxia caused by the profound loss of oxygen-carrying red blood cells"
+    },
+    {
+      "name": "Pale or Icteric Mucous Membranes (Jaundice)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "After a lag of several days (typically 3–5 days)",
+      "notes": "Pale gums indicate a lack of oxygenated blood (anemia), while jaundice (yellowing of the skin/mucosa) indicates severe red blood cell destruction leading to hyperbilirubinemia"
+    },
+    {
+      "name": "Tachypnea, Dyspnea, and Cyanosis",
+      "body_system": "Respiratory",
+      "severity": "fatal",
+      "onset": "Several days after ingestion",
+      "notes": "This is a compensatory response to systemic tissue hypoxia and methemoglobinemia, with cyanosis indicating a life-threatening lack of oxygen in the blood"
+    },
+    {
+      "name": "Tachycardia and Heart Murmur",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Several days after ingestion",
+      "notes": "Tachycardia develops as the heart pumps faster to compensate for impaired oxygen transportation45. In one documented feline case, a grade IV heart murmur was also observed upon physical examination"
+    },
+    {
+      "name": "Hemoglobinuria (Dark Urine)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Several days after ingestion (typically 3–5 days)",
+      "notes": "This is a hallmark sign of severe poisoning caused by damaged red blood cells rupturing and releasing hemoglobin, which is then excreted through the kidneys3.... This process can lead to secondary acute kidney injury known as hemoglobinuric nephrosis"
+    },
+    {
+      "name": "Hypothermia and Cold Sensitivity",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Several days after ingestion",
+      "notes": "Affected cats may present with an abnormally low body temperature, measured as low as 36.6 °C in one clinical case"
+    },
+    {
+      "name": "Collapse and Death",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within 24 hours (with massive doses) or several days after ingestion",
+      "notes": "Death occurs when oxidative damage to the blood, severe hemolytic anemia, and resulting tissue hypoxia are extensive and overwhelm the animal's bodily systems"
+    }
+  ],
+  "scientificName": "Onions",
+  "family": "Various"
+}

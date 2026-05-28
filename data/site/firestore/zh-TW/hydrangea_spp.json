@@ -1,0 +1,50 @@
+{
+  "slug": "hydrangea_spp",
+  "source_hash": "4d1aa2ab93c504437075d7420616db08baf566d31966a8132612befc21d94599",
+  "translated_at": "2026-05-21T10:30:51Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "繡球花",
+  "aliases": [],
+  "description": "繡球花 (Hydrangea spp.) 是一種受歡迎的開花灌木，對貓有毒。它含有氰苷 (cyanogenic glycosides) —— 包括繡球花苷 (hydrangin) —— 主要存在於花蕾和葉子中。當代謝時，這些化合物會釋放氰化氫 (HCN)，儘管濃度通常較低，通常需要攝入大量才會造成嚴重中毒。該植物還含有皂素 (saponins)，會導致消化系統刺激。",
+  "safetyNotes": [
+    "有毒化合物：花蕾和葉子中的氰苷（繡球花苷）；整株植物含有皂素",
+    "機制：繡球花苷在消化時產生氰化氫 (HCN)，抑制細胞呼吸；皂素導致直接的消化系統刺激",
+    "症狀：嘔吐、腹瀉、精神沉鬱、流口水；大量攝入可能導致無力、混亂和呼吸困難",
+    "花蕾攜帶最高的氰基濃度——在開花期間應限制接觸",
+    "輕微啃食的症狀通常較輕微；如果攝入大量，請尋求獸醫護理"
+  ],
+  "toxicParts": [
+    "葉",
+    "整株植物",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統",
+      "onset": "急性（臨床徵兆通常迅速出現，可能在數小時內）。"
+    },
+    {
+      "name": "腹瀉",
+      "body_system": "消化系統",
+      "onset": "急性。"
+    },
+    {
+      "name": "精神沉鬱 / 抑鬱 / 虛脫",
+      "body_system": "神經系統",
+      "onset": "急性。"
+    },
+    {
+      "name": "腹痛",
+      "body_system": "消化系統",
+      "onset": "急性。"
+    },
+    {
+      "name": "呼吸窘迫（呼吸困難）、呼吸急促（呼吸過快）或癲癇發作",
+      "body_system": "呼吸系統",
+      "onset": "非常迅速（攝入後 10–60 分鐘）。"
+    }
+  ]
+}

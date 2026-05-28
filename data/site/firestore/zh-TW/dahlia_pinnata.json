@@ -1,0 +1,35 @@
+{
+  "slug": "dahlia_pinnata",
+  "source_hash": "ae479f1813eb70ea92d575a68d999ca46528b60ba88b3b5a8031ce13172c5a6e",
+  "translated_at": "2026-05-21T10:27:54Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "大麗花",
+  "aliases": [],
+  "description": "大麗花 (Dahlia spp.) 是一種常見的庭園開花植物，對貓具輕微毒性。該植物含有刺激性化合物 — 包括倍半萜內酯 — 主要存在於葉片和莖部。這些物質會導致胃腸道刺激，若皮膚接觸則會引起輕微皮炎。",
+  "safetyNotes": [
+    "毒性化合物：倍半萜內酯和未知的刺激成分",
+    "機制：直接的黏膜和胃腸道刺激",
+    "症狀：嘔吐、腹瀉、輕微流口水；皮膚接觸可能導致局部發紅或瘙癢",
+    "所有地上部位均具有一定的刺激潛力；花瓣的濃度最低",
+    "症狀通常較輕微且具自限性，但若貓攝入大量，請聯繫您的獸醫"
+  ],
+  "toxicParts": [
+    "葉",
+    "花",
+    "莖"
+  ],
+  "symptoms": [
+    {
+      "name": "腸胃不適",
+      "body_system": "消化系統",
+      "onset": "未知"
+    },
+    {
+      "name": "皮炎",
+      "body_system": "皮膚",
+      "onset": "未知"
+    }
+  ]
+}

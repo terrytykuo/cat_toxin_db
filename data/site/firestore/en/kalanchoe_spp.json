@@ -1,0 +1,62 @@
+{
+  "slug": "kalanchoe_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/kalanchoe_spp.jpg"
+  ],
+  "name": "Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy",
+  "aliases": [],
+  "description": "Kalanchoe (Kalanchoe spp.), sold under names including Flaming Katy, Mother of Millions, and Widow's Thrill, is a popular succulent houseplant toxic to cats. It contains bufadienolide cardiac glycosides — related to but distinct from digitalis — concentrated throughout the plant. These compounds disrupt cardiac electrical conduction in a manner similar to Foxglove poisoning.",
+  "safetyNotes": [
+    "Toxic compounds: bufadienolide cardiac glycosides throughout leaves, stems, and flowers",
+    "Mechanism: bufadienolides inhibit the Na+/K+-ATPase pump in cardiac muscle cells, causing irregular heart rhythm",
+    "Symptoms: drooling, vomiting, diarrhea, weakness, abnormal heart rate (bradycardia or arrhythmia), collapse",
+    "All parts of the plant are toxic; the small plantlets ('pups') produced by Mother of Millions varieties are equally hazardous",
+    "Seek veterinary care promptly — cardiac glycoside toxicity can escalate quickly; any cardiac symptoms require emergency attention"
+  ],
+  "toxicParts": [
+    "Entire Plant",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, Drooling (Hypersalivation), Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within the first 2 hours after exposure.",
+      "notes": "These are the most frequent symptoms. Persistent vomiting can lead to dehydration.Cardiac Abnormalities"
+    },
+    {
+      "name": "Abnormal Heart Rhythm (Arrhythmias), Bradycardia (Slow Heart Rate), or Tachycardia (Fast Heart Rate)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within the first 2 hours; signs can persist for 4–5 days.",
+      "notes": "The cardiac glycosides inhibit the Na+/K+ ATPase pump, leading to electrolyte imbalances (hyperkalemia) and potentially fatal heart block or collapse. The flowers contain the highest concentration of toxins.Neurological Dysfunction"
+    },
+    {
+      "name": "Weakness, Depression, Tremors, Ataxia (Loss of Coordination), Seizures (Rare)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within the first 2 hours.",
+      "notes": "Neurological signs like paralysis and tremors indicate significant toxicity. Weakness is a common early sign alongside gastrointestinal upset.Respiratory Distress"
+    },
+    {
+      "name": "Rapid Breathing (Tachypnea), Difficulty Breathing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Within the first 2 hours.",
+      "notes": "Rapid breathing often accompanies cardiac and neurological distress.Electrolyte Imbalance"
+    },
+    {
+      "name": "Hyperkalemia (High Potassium levels)",
+      "body_system": "Hematological",
+      "severity": "severe",
+      "onset": "Within the first 2 hours.",
+      "notes": "This condition results from the inhibition of the sodium-potassium pump and requires careful monitoring and treatment (e.g., insulin/dextrose or sodium bicarbonate) to prevent cardiac arrest."
+    }
+  ],
+  "scientificName": "Kalanchoe spp.",
+  "family": "Crassulaceae"
+}

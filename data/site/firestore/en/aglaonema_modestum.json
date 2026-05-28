@@ -1,0 +1,68 @@
+{
+  "slug": "aglaonema_modestum",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/aglaonema_modestum.jpg"
+  ],
+  "name": "Chinese Evergreen",
+  "aliases": [],
+  "description": "Chinese Evergreen (Aglaonema spp.) is a popular low-maintenance houseplant with attractively patterned leaves. Like all plants in the Araceae family, it contains insoluble calcium oxalate crystals (raphides) — needle-like structures packed into cells throughout its leaves and stems. When a cat bites into any part of the plant, these crystals are ejected and physically pierce the soft tissues of the mouth and throat, causing immediate and intense pain.",
+  "safetyNotes": [
+    "Symptoms: Immediate oral pain, intense drooling, pawing at the mouth, swelling of the lips and tongue, and difficulty swallowing; vomiting may follow.",
+    "Rapid onset: Pain starts within seconds of chewing — the plant's own defence usually limits the amount consumed.",
+    "Action: Rinse the cat's mouth gently with water. Contact a vet if throat swelling, difficulty breathing, or persistent vomiting develops."
+  ],
+  "toxicParts": [
+    "Entire Plant",
+    "Leaf",
+    "Stem"
+  ],
+  "symptoms": [
+    {
+      "name": "Intense burning, pain, and irritation of the mouth, tongue, and lips",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate (Pain occurs as soon as the plant tissue is chewed).",
+      "notes": "The plant contains insoluble calcium oxalate crystals packaged in specialized cells (idioblasts) that forcefully eject into the tissue upon biting, causing micro-trauma. You may see the cat pawing at its mouth.Hypersalivation"
+    },
+    {
+      "name": "Drooling or excessive salivation (Ptyalism)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate to within minutes of ingestion.",
+      "notes": "This is a reflex response to the intense irritation and burning sensation in the oral cavity.Edema (Swelling)"
+    },
+    {
+      "name": "Swelling of the lips, tongue, and oral cavity",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid following contact.",
+      "notes": "In rare cases, swelling can extend to the pharynx (throat) or larynx (voice box). Severe swelling of the tongue or throat can potentially compromise the airway, though this is uncommon.Dysphagia"
+    },
+    {
+      "name": "Difficulty swallowing",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Immediate.",
+      "notes": "The cat may show an inability to eat or drink due to the pain and swelling in the mouth and throat.Gastrointestinal Upset"
+    },
+    {
+      "name": "Vomiting and anorexia (refusal to eat)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion.",
+      "notes": "Vomiting may occur due to the irritation of the stomach lining or the gag reflex triggered by oral swelling. The cat may refuse food (anorexia) simply because it hurts to chew and swallow.Respiratory Distress (Rare)"
+    },
+    {
+      "name": "Dyspnea (Difficulty breathing)",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Rapid (If laryngeal edema occurs).",
+      "notes": "While rare, if the swelling of the tongue or glottis is significant, it can obstruct the upper airway. This requires immediate veterinary intervention to secure an airway."
+    }
+  ],
+  "scientificName": "Aglaonema modestum",
+  "family": "Araceae"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "cast-iron-plant",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cast-iron-plant/images/1773840586168.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cast-iron-plant/images/1773840592382.jpg"
+  ],
+  "name": "Cast Iron Plant",
+  "aliases": [
+    "Bar Room Plant"
+  ],
+  "description": "True to its name, the Cast Iron Plant is nearly indestructible. It thrives in low light and is completely safe for cats. Its sturdy, dark green leaves add an elegant touch to any room.",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": [],
+  "scientificName": "Aspidistra elatior",
+  "family": ""
+}

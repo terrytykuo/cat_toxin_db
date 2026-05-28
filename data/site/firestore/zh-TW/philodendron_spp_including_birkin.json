@@ -1,0 +1,47 @@
+{
+  "slug": "philodendron_spp_including_birkin",
+  "source_hash": "70ef1ffcbbc51ac2f4b7a9d4d4fb590c207e5e74af213880b60a96f629a93fbc",
+  "translated_at": "2026-05-21T10:36:13Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "蔓綠絨 (Philodendron)",
+  "aliases": [],
+  "description": "蔓綠絨 (Philodendron spp.)，包括熱門品種如鉑金蔓綠絨 (Philodendron Birkin)、心葉蔓綠絨和羽裂蔓綠絨，是廣泛種植且對貓有毒的室內植物。所有蔓綠絨屬植物的葉子和莖中都含有不溶性草酸鈣結晶（針晶）。咀嚼時會將這些針狀晶體釋放到口腔組織中，引起立即且劇烈的疼痛。",
+  "safetyNotes": [
+    "有毒化合物：不溶性草酸鈣針晶，以及汁液中的蛋白分解酶",
+    "機制：針晶機械性地穿透口腔和胃腸黏膜；酶則會加劇發炎反應",
+    "症狀：突然的口腔疼痛、劇烈流口水、抓嘴巴、嘴唇和舌頭腫脹、吞嚥困難、嘔吐",
+    "所有物種和雜交種都具有同樣的危險性——斑葉品種並不比純綠品種安全",
+    "用水沖洗口腔；如果喉嚨腫脹影響呼吸，請立即尋求獸醫治療"
+  ],
+  "toxicParts": [
+    "葉"
+  ],
+  "symptoms": [
+    {
+      "name": "立即性的口腔疼痛、強烈灼熱感、紅斑",
+      "body_system": "消化系統",
+      "onset": "立即"
+    },
+    {
+      "name": "過度流口水（流涎）",
+      "body_system": "消化系統",
+      "onset": "立即"
+    },
+    {
+      "name": "嘔吐、腹瀉、吞嚥困難（Dysphagia）及食慾不振（Anorexia）",
+      "body_system": "消化系統",
+      "onset": "攝入後不久"
+    },
+    {
+      "name": "口腔、舌頭、咽喉和上呼吸道水腫（腫脹），導致呼吸困難（Dyspnea）",
+      "body_system": "呼吸系統",
+      "onset": "攝入後迅速發生"
+    },
+    {
+      "name": "腎衰竭、精神萎靡、興奮、神經性痙攣、抽搐和腦炎",
+      "body_system": "消化系統"
+    }
+  ]
+}

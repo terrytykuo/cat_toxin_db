@@ -1,0 +1,64 @@
+{
+  "slug": "unripe_or_sprouted_potatoes",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/unripe_or_sprouted_potatoes.jpg"
+  ],
+  "name": "Unripe or sprouted potatoes",
+  "aliases": [],
+  "description": "Unripe or sprouted potatoes (Solanum tuberosum) are toxic to cats due to solanine and chaconine — steroidal glycoalkaloids that concentrate in green skin, sprouts, and eyes of potatoes. These compounds are a natural defence mechanism that decreases as the potato ripens. Ripe, cooked potato flesh without green areas is safe.",
+  "safetyNotes": [
+    "Toxic compounds: solanine and chaconine (steroidal glycoalkaloids); highest in sprouts, eyes, and green-tinged skin",
+    "Mechanism: glycoalkaloids inhibit acetylcholinesterase (disrupting nerve signalling) and disrupt cell membranes in the GI tract",
+    "Symptoms: vomiting, diarrhea, drooling, weakness, lethargy; large doses may cause tremors, heart rate changes, or CNS depression",
+    "Even low solanine levels can cause symptoms in cats — do not feed any green potato parts",
+    "Contact your vet if your cat ingests sprouted potato or significant amounts of green potato skin"
+  ],
+  "toxicParts": [
+    "Cooked form",
+    "Peel",
+    "Skin",
+    "Root",
+    "Leaf",
+    "Stem"
+  ],
+  "symptoms": [
+    {
+      "name": "Unripe or sprouted potatoes",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Severe Gastrointestinal Upset",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Usually within 2 to 24 hours of ingestion,",
+      "notes": "This is typically the first clinical sign of nightshade poisoning6. Solanine is a potent cytotoxin that interacts with the phospholipids in cell membranes, causing direct cell destruction and violent irritation and inflammation of the intestinal epithelial cells35. A tense abdominal wall and pain up"
+    },
+    {
+      "name": "Neurological Deficits and Paralysis",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "Usually develops within 2 to 24 hours,",
+      "notes": "Solanine acts as a neurotoxin by inhibiting the enzyme acetylcholinesterase, which leads to massive acetylcholine accumulation and severe overstimulation of the parasympathetic nervous system89. Additionally, the toxins disrupt mitochondrial energy metabolism, which contributes to extreme lethargy,"
+    },
+    {
+      "name": "Cardiovascular Disturbances",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "2 to 24 hours",
+      "notes": "The severe parasympathetic overstimulation caused by the accumulation of acetylcholine forces the heart rate to slow dangerously9. In critical cases, this progresses to complete circulatory failure, which can be fatal"
+    },
+    {
+      "name": "Hemolysis and Acute Kidney Injury",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Progressive; typically occurs in the later stages of a severe poisoning episode",
+      "notes": "In highly severe cases, solanine toxicity causes the cat's red blood cells to be destroyed (hemolysis)68. The release of free hemoglobin into the bloodstream from the ruptured cells is highly nephrotoxic (toxic to the kidneys) and can secondarily damage the kidneys, leading to acute renal failure"
+    }
+  ],
+  "scientificName": "Unripe or sprouted potatoes",
+  "family": "Various"
+}

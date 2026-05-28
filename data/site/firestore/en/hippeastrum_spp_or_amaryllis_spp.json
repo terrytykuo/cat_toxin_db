@@ -1,0 +1,92 @@
+{
+  "slug": "hippeastrum_spp_or_amaryllis_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/hippeastrum_spp_or_amaryllis_spp/images/1772925084399.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/hippeastrum_spp_or_amaryllis_spp/images/1772925091530.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/hippeastrum_spp_or_amaryllis_spp/images/1772925096663.avif"
+  ],
+  "name": "Amaryllis",
+  "aliases": [],
+  "description": "Amaryllis contains lycorine and other phenanthridine alkaloids concentrated throughout the plant, with the highest levels found in the bulb. Lycorine inhibits protein synthesis in cells and triggers strong gastrointestinal reactions. This plant is particularly common as an indoor holiday gift, meaning cats may encounter it during periods when owners are less vigilant. Both the Hippeastrum hybrids (commonly sold as \"Amaryllis\") and true Amaryllis species are toxic.",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, abdominal pain, low blood pressure, tremors, and lethargy; rarely, seizures in severe cases.",
+    "Bulb is most toxic: The bulb contains the highest alkaloid concentration. Cats that dig at soil and chew on bulbs face the greatest risk.",
+    "Seasonal risk: Popular as a winter holiday plant — keep it fully out of reach from the moment it enters the home."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Bulb",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid/Soon after ingestion.",
+      "notes": "This is the most common sign of toxicity and is triggered by lycorine, an alkaloid with strong emetic (vomiting-inducing) properties found throughout the plant."
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Following gastrointestinal irritation.",
+      "notes": "Often accompanies vomiting as the body attempts to expel the toxins."
+    },
+    {
+      "name": "Excessive Drooling (Hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to rapid (upon chewing or ingestion).",
+      "notes": "This reaction is caused by irritation to the mouth and digestive tract."
+    },
+    {
+      "name": "Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Following ingestion.",
+      "notes": "Cats may show signs of discomfort such as hunched posture or sensitivity to touch around the stomach area."
+    },
+    {
+      "name": "Tremors",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "After absorption of toxins (delayed compared to GI signs).",
+      "notes": "This symptom indicates a large ingestion, particularly of the bulb, causing central nervous system excitation."
+    },
+    {
+      "name": "Seizures (Convulsions)",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "After absorption of toxins.",
+      "notes": "Like tremors, seizures are associated with high doses of phenanthridine alkaloids found in the bulbs."
+    },
+    {
+      "name": "Hypotension (Low Blood Pressure)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Variable (systemic effect).",
+      "notes": "This is a critical sign of severe toxicity that contributes to weakness and collapse."
+    },
+    {
+      "name": "Cardiac Arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Variable.",
+      "notes": "Irregular heartbeats can occur in severe cases of poisoning."
+    },
+    {
+      "name": "Respiratory Depression",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Variable.",
+      "notes": "Slowed or shallow breathing may occur as a systemic reaction to the alkaloids."
+    }
+  ],
+  "scientificName": "Hippeastrum spp. or Amaryllis spp.",
+  "family": "Liliaceae"
+}

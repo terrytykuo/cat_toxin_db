@@ -1,0 +1,52 @@
+{
+  "slug": "cyclamen_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cyclamen_spp.jpg"
+  ],
+  "name": "Cyclamen",
+  "aliases": [],
+  "description": "Cyclamen (Cyclamen spp.) is a popular flowering houseplant, particularly during winter and holidays. All parts are toxic to cats, with the highest concentration of toxic compounds in the underground tubers. The primary toxic agents are triterpenoid saponins, particularly cyclamin, which disrupt cell membranes, irritate the gastrointestinal tract, and in large amounts can affect heart rhythm. Cats that dig at potted Cyclamen and chew on the tubers are at greatest risk of significant poisoning.",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, and abdominal pain from mild ingestion; larger amounts can cause irregular heart rhythm, seizures, and in severe cases death.",
+    "Tubers are most toxic: The fleshy underground tuber contains the greatest saponin concentration — significantly more than the leaves or flowers.",
+    "Action: Seek immediate veterinary care if a cat has chewed on the tuber, or if any cardiac symptoms (weakness, collapse) develop."
+  ],
+  "toxicParts": [
+    "Root"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid",
+      "notes": "Often bloody; caused by saponin irritation."
+    },
+    {
+      "name": "Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Rapid",
+      "notes": "Hypersalivation due to mouth irritation."
+    },
+    {
+      "name": "Cardiac Arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Delayed",
+      "notes": "Associated with tuber ingestion; can be fatal."
+    },
+    {
+      "name": "Seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Delayed",
+      "notes": "Associated with severe poisoning (tubers)."
+    }
+  ],
+  "scientificName": "Cyclamen spp.",
+  "family": "Primulaceae"
+}

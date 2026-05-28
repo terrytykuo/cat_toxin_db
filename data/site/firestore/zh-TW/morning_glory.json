@@ -1,0 +1,33 @@
+{
+  "slug": "morning_glory",
+  "source_hash": "b50cbbc2c704829506e13c1b0661514876c60e96f9403d86ef4833f2684ca6cf",
+  "translated_at": "2026-05-21T10:34:02Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "牽牛花",
+  "aliases": [],
+  "description": "牽牛花 (Ipomoea spp.) 是一種具有鮮豔漏斗狀花朵的攀緣藤本植物，對貓具有輕微毒性。種子含有麥角靈 (ergine, d-lysergic acid amide)，這是一種與 LSD 相關的天然精神活性化合物，以及其他吲哚生物鹼。雖然花朵和葉子的毒素含量較低，但種子是主要的危害來源。",
+  "safetyNotes": [
+    "有毒化合物：麥角靈 (ergine) 及相關吲哚生物鹼；集中在種子中",
+    "機制：麥角靈作用於中樞神經系統中的血清素受體，導致神經功能改變；種子還含有會引起腸胃刺激的單寧",
+    "症狀：嘔吐、下痢、流口水；攝入種子可能導致迷失方向、焦慮不安、瞳孔放大或震顫",
+    "種子是最危險的部分；花朵和葉子主要引起腸胃不適",
+    "如果您的貓攝入種子或出現神經症狀，請聯繫獸醫"
+  ],
+  "toxicParts": [
+    "莖",
+    "葉",
+    "種子"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐與下痢",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "焦慮不安與震顫",
+      "body_system": "神經系統"
+    }
+  ]
+}

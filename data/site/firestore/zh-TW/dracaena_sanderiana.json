@@ -1,0 +1,53 @@
+{
+  "slug": "dracaena_sanderiana",
+  "source_hash": "9948187c28d0655dcafef25d04896e247f2148a0caabc2fb39d44e192d2396c2",
+  "translated_at": "2026-05-21T10:33:09Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "富貴竹",
+  "aliases": [],
+  "description": "富貴竹 (Dracaena sanderiana) 是一種受歡迎的裝飾植物，通常以水培或土培形式販售。儘管其名為竹，但它並非真正的竹子——它是龍血樹屬 (Dracaena) 的物種，與其他龍血樹屬植物具有相同的毒性特徵。它含有類固醇皂苷，會刺激胃腸道並對貓產生特定的神經系統影響。",
+  "safetyNotes": [
+    "有毒化合物：類固醇皂苷（與龍血樹屬一致）",
+    "機制：皂苷會破壞細胞膜完整性導致腸胃刺激；在貓身上觀察到特定的神經系統影響",
+    "症狀：嘔吐（有時帶血）、流口水、食慾不振、虛弱、瞳孔放大 (mydriasis)",
+    "瞳孔放大是龍血樹/富貴竹中毒在貓身上的顯著徵兆",
+    "含有富貴竹的水也可能帶有毒素——應防止貓飲用花瓶中的水"
+  ],
+  "toxicParts": [
+    "葉"
+  ],
+  "symptoms": [
+    {
+      "name": "流口水",
+      "body_system": "消化系統",
+      "onset": "咀嚼後迅速/立即發生（來源未提供確切時間）。"
+    },
+    {
+      "name": "嘔吐（偶爾可能帶血）",
+      "body_system": "消化系統",
+      "onset": "迅速。"
+    },
+    {
+      "name": "腹瀉",
+      "body_system": "消化系統",
+      "onset": "不定（通常在毒素通過消化道時發生）。"
+    },
+    {
+      "name": "腹痛和厭食（食慾不振）",
+      "body_system": "消化系統",
+      "onset": "迅速至延遲。"
+    },
+    {
+      "name": "瞳孔放大 (mydriasis)",
+      "body_system": "神經系統",
+      "onset": "不定。"
+    },
+    {
+      "name": "精神沉鬱（嗜睡）、全身虛弱和協調不良（共濟失調）",
+      "body_system": "神經系統",
+      "onset": "延遲（通常繼發於最初的腸胃不適）。"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "citrus_fruits_oranges_tangerines_lemons_pomelos",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/citrus_fruits_oranges_tangerines_lemons_pomelos.jpg"
+  ],
+  "name": "Citrus fruits (oranges, tangerines, lemons, pomelos)",
+  "aliases": [],
+  "description": "Common citrus fruits — oranges, tangerines, lemons, and pomelos — are all toxic to cats, with the degree of risk varying significantly by which part of the fruit is involved. The toxic agents are citric acid and concentrated essential oils, particularly D-limonene, which are found in highest concentrations in the peel, white pith, leaves, and stems. These compounds irritate the GI tract and in larger amounts cause central nervous system depression. The fruit flesh itself, while acidic, is far less dangerous and causes only mild stomach upset.",
+  "safetyNotes": [
+    "Symptoms (from peel/leaves): Drooling, vomiting, skin irritation, respiratory distress, and CNS depression in significant exposures.",
+    "Symptoms (from flesh only): Mild vomiting and diarrhea from the acidity.",
+    "Peels are the greatest hazard: Citrus peel concentrates D-limonene — this is also why citrus-scented cleaning products and essential oils pose a risk even without direct plant contact.",
+    "Deterrent note: Most cats dislike the scent of citrus — this aversion can be useful for deterring cats from certain areas."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Peel",
+    "Juice",
+    "Skin",
+    "Flesh",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, and Stomach Upset",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Shortly after ingestion (exact timeframe is not specified in the sources,",
+      "notes": "The severity depends heavily on the amount and part of the fruit consumed. A small dose, such as a cat eating a piece of the fruit's flesh, usually results in mild stomach upset due to the citric acid12. However, ingestion of the peels—which house the toxic essential oils—or eating a large amount of"
+    },
+    {
+      "name": "Central Nervous System (CNS) Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Variable (develops as the toxins are absorbed systemically).",
+      "notes": "This dangerous decrease in normal neurological functions generally occurs if a cat ingests a significantly large amount of citrus fruit or is exposed to the highly concentrated essential oils found within the peels"
+    },
+    {
+      "name": "Skin Irritation and Allergic Reactions",
+      "body_system": "Dermal",
+      "severity": "moderate",
+      "onset": "Shortly following direct physical contact.",
+      "notes": "The toxic compounds and essential oils (such as D-limonene) are heavily concentrated in the rind and peel of citrus fruits. Direct physical contact with the peels or extracted oils can trigger topical poisoning, skin allergies, and irritation"
+    },
+    {
+      "name": "Respiratory Tract Irritation",
+      "body_system": "Respiratory",
+      "severity": "moderate",
+      "onset": "Immediate upon inhalation/exposure.",
+      "notes": "The intense, acidic scent of citrus fruits is extremely stimulating to felines. Smelling or inhaling these strong aromas and vaporized essential oils can irritate and potentially damage a cat's sensitive respiratory tract"
+    }
+  ],
+  "scientificName": "Citrus fruits (oranges, tangerines, lemons, pomelos)",
+  "family": "Various"
+}

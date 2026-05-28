@@ -1,0 +1,56 @@
+{
+  "slug": "homalomena_selby",
+  "source_hash": "bf85dff01df5779e8744c0f013c166ca1970845c9fda748c2996c63a281095ff",
+  "translated_at": "2026-05-21T10:30:19Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "Selby 喜林芋 / 紅包喜林芋",
+  "aliases": [],
+  "description": "Selby 喜林芋 (Homalomena ‘Selby’) 是天南星科的一種熱帶觀賞室內植物，其對貓有毒的原因與黛粉葉、蔓綠絨和黃金葛相同：葉子和莖中遍布不溶性草酸鈣結晶（針晶）。咀嚼時，這些針狀晶體會強力刺入口腔黏膜，引起強烈的立即刺激。",
+  "safetyNotes": [
+    "毒性化合物：不溶性草酸鈣針晶；植物汁液還含有蛋白分解酶",
+    "機制：晶體穿透口腔和喉嚨襯裡，引起機械性灼傷和發炎",
+    "症狀：突然的口腔疼痛、劇烈流口水、抓嘴巴、嘴唇或舌頭腫脹、吞嚥困難、嘔吐",
+    "植物的所有部分均有害；反應是立即且具自限性的",
+    "用水沖洗口腔；如果吞嚥受損或症狀未緩解，請尋求獸醫護理"
+  ],
+  "toxicParts": [
+    "根",
+    "莖",
+    "葉",
+    "整株植物"
+  ],
+  "symptoms": [
+    {
+      "name": "口腔刺激（疼痛/灼熱）",
+      "body_system": "消化系統",
+      "onset": "立即（咀嚼植物材料時）。"
+    },
+    {
+      "name": "流口水（流涎過多）",
+      "body_system": "消化系統",
+      "onset": "立即。"
+    },
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統",
+      "onset": "急性。"
+    },
+    {
+      "name": "拒絕進食 / 吞嚥困難",
+      "body_system": "消化系統",
+      "onset": "急性。"
+    },
+    {
+      "name": "腹瀉",
+      "body_system": "消化系統",
+      "onset": "延遲（攝入較大量後）。"
+    },
+    {
+      "name": "嗜睡",
+      "body_system": "神經系統",
+      "onset": "急性/延遲。"
+    }
+  ]
+}

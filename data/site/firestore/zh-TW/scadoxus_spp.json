@@ -1,0 +1,34 @@
+{
+  "slug": "scadoxus_spp",
+  "source_hash": "b6501ae71a56e9ab545efa7bb8c0cea6a8d4bbf168f7774a8ef6d9cfc57c32e7",
+  "translated_at": "2026-05-21T10:21:10Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "網球花",
+  "aliases": [],
+  "description": "網球花 (Scadoxus multiflorus，也稱為 Haemanthus) 是一種引人注目的球根植物，具有大型、鮮紅色的球形花序。作為石蒜科中孤挺花的近親，它含有石蒜鹼和其他菲啶類生物鹼，這些成分分佈於整株植物中，以球莖含量最高。石蒜鹼會在細胞層面抑制蛋白質合成，並引發強烈的消化系統反應。該植物的所有部分都有毒，其顯眼的花朵可能會吸引貓的好奇心。",
+  "safetyNotes": [
+    "症狀：流口水、嘔吐、腹瀉、腹痛、低血壓和嗜睡；較嚴重的情況下會出現顫抖。",
+    "球莖毒性最強：地下球莖含有最高濃度的生物鹼。在盆栽或花圃中挖掘的貓面臨最高的暴露風險。",
+    "行動：請立即聯繫獸醫——即使只是攝入少量的球莖也可能導致嚴重的症狀。"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Bulb"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "流涎",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "腹瀉",
+      "body_system": "消化系統"
+    }
+  ]
+}

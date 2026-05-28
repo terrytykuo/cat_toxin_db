@@ -1,0 +1,22 @@
+{
+  "slug": "sage",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sage/images/1773839995411.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sage/images/1774784741676.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sage/images/1774784751540.avif"
+  ],
+  "name": "Sage",
+  "aliases": [
+    "Common Sage",
+    "Garden Sage"
+  ],
+  "description": "Sage is a beautiful, silvery-green herb that is safe for cats. Its velvety leaves and strong aroma make it an attractive kitchen plant. It thrives in sunny spots and well-drained soil.",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": [],
+  "scientificName": "Salvia officinalis",
+  "family": ""
+}

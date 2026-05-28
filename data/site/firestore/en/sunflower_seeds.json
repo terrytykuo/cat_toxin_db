@@ -1,0 +1,50 @@
+{
+  "slug": "sunflower_seeds",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sunflower_seeds.jpg"
+  ],
+  "name": "Sunflower seeds (salted)",
+  "aliases": [],
+  "description": "Plain, unsalted, hulled sunflower seeds are not toxic to cats and are occasionally offered as a treat without harm. However, they provide no meaningful nutritional benefit to obligate carnivores, and commercial sunflower seeds are almost always salted, flavoured, or sold in the hull — all of which create specific risks.",
+  "safetyNotes": [
+    "Not toxic: plain, hulled, unsalted sunflower seeds do not contain cat-specific toxins",
+    "Sodium risk: salted sunflower seeds exceed safe sodium levels for cats; even a small handful contains harmful amounts",
+    "Hull risk: the hard shell is indigestible and may cause intestinal irritation or blockage if eaten in quantity",
+    "High fat content: excessive amounts can contribute to obesity or trigger pancreatitis",
+    "A few plain hulled seeds are not dangerous; keep salted or flavoured versions completely away from cats"
+  ],
+  "toxicParts": [
+    "Fruit",
+    "Entire food",
+    "Flower",
+    "Powder",
+    "Seed",
+    "Stem"
+  ],
+  "symptoms": [
+    {
+      "name": "While sunflower seeds",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Indigestion and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within a few hours of ingestion.",
+      "notes": "Seeds are naturally rich in oils and fats and have a hard physical texture that makes them difficult for cats to properly digest1. Furthermore, seeds are highly susceptible to becoming damp and growing mold, all of which contribute to acute gastrointestinal distress"
+    },
+    {
+      "name": "Increased Kidney Burden / Renal Stress",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Variable / Chronic (effects can compound over time with repeated ingestions of seasoned snacks).",
+      "notes": "In a household setting, seeds are usually encountered as candied, roasted, or dried human snacks that are heavily seasoned with high amounts of salt and sugar1. Feeding these seasoned seeds to a cat provides no nutritional benefit and unnecessarily increases the metabolic burden on their kidneys"
+    }
+  ],
+  "scientificName": "Sunflower seeds",
+  "family": "Various"
+}

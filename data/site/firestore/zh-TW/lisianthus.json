@@ -1,0 +1,17 @@
+{
+  "slug": "lisianthus",
+  "source_hash": "6631e99ca236d410af0dab0cd4857a90500152405751ff1c06e8a273088f3623",
+  "translated_at": "2026-05-21T10:33:09Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "洋桔梗",
+  "aliases": [
+    "德州藍鈴花",
+    "大草原龍膽"
+  ],
+  "description": "洋桔梗的花朵外型像玫瑰，花瓣呈波浪狀且層次分明，對貓完全無毒。它們有紫色、粉紅色、白色和奶油色等多種美麗色調。",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": []
+}

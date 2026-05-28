@@ -1,0 +1,71 @@
+{
+  "slug": "vitis__implied",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/vitis__implied.jpg"
+  ],
+  "name": "Grapes / Raisins / Currants",
+  "aliases": [],
+  "description": "Grapes, raisins, sultanas, and currants are all severely toxic to cats. The specific toxic compound responsible has not been conclusively identified, though tartaric acid is a leading suspect. Critically, there is no known safe dose — even a single grape or a few raisins can cause acute kidney failure, and some cats react to very small amounts while others show no reaction, making all exposure unpredictable and dangerous.",
+  "safetyNotes": [
+    "Toxic compounds: likely tartaric acid or related compound; exact mechanism still under investigation",
+    "Mechanism: direct nephrotoxicity — causes acute tubular injury leading to kidney failure within 24–72 hours",
+    "Symptoms Phase 1 (within 6h): vomiting, diarrhea, abdominal pain, lethargy; Phase 2 (24–72h): acute kidney failure with decreased urination, loss of appetite, weakness",
+    "Raisins and dried currants are more dangerous by weight due to concentration; currants (Zante) are similarly toxic",
+    "Any grape or raisin ingestion warrants immediate veterinary attention — do not wait for symptoms"
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Fruit"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Within 12 hours of ingestion.",
+      "notes": "This is typically the first clinical sign of toxicity. The vomit may contain pieces of the undigested fruit.Diarrhea"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "12–24 hours (Often follows the initial vomiting).",
+      "notes": "Occurs as the toxins move through the digestive tract; may contribute to dehydration which exacerbates kidney stress.Lethargy and Weakness"
+    },
+    {
+      "name": "Lethargy, Weakness, or Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "12–24 hours.",
+      "notes": "The cat may appear unusually tired, hide, or refuse to move as kidney function begins to decline and uremic toxins build up in the blood.Polydipsia and Polyuria"
+    },
+    {
+      "name": "Increased Thirst (Polydipsia) and Increased Urination (Polyuria)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Initial 24 hours.",
+      "notes": "Early in the poisoning process, the kidneys may lose the ability to concentrate urine, leading to excessive drinking and urination before shutting down.Acute Kidney Failure (Anuria)"
+    },
+    {
+      "name": "Oliguria (Decreased Urine) or Anuria (No Urine Production)",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "12–72 hours (As the condition worsens).",
+      "notes": "This indicates that the kidneys have stopped functioning (shut down). Without immediate emergency intervention, this stage is often fatal. Some cats may be unaffected by grapes, while others develop this condition rapidly; the exact reason for individual sensitivity varies.Anorexia"
+    },
+    {
+      "name": "Poor Appetite or Refusal to Eat",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "12–24 hours.",
+      "notes": "Cats often refuse food as nausea sets in from the elevated kidney toxins in their blood."
+    }
+  ],
+  "scientificName": "Vitis vinifera",
+  "family": "Vitaceae"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "nymphaeaceae_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/nymphaeaceae_spp/images/1773008705020.jpg"
+  ],
+  "name": "Water Lily",
+  "aliases": [],
+  "description": "Water Lily (Nymphaea spp. and Nuphar spp.) is an aquatic ornamental plant that is mildly to moderately toxic to cats. It contains alkaloids — primarily nuphamine and thiobinupharidine in Yellow Water Lily (Nuphar) — and tannins and glycosides in White Water Lily (Nymphaea). Cats may encounter these plants near garden ponds.",
+  "safetyNotes": [
+    "Toxic compounds: nuphamine and thiobinupharidine (Nuphar species); tannins and glycosides (Nymphaea species)",
+    "Mechanism: alkaloids cause GI and CNS irritation; tannins cause direct mucosal irritation",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy; more severe ingestion may cause incoordination or CNS depression",
+    "Not related to nephrotoxic true lilies (Lilium or Hemerocallis) — Water Lilies do not cause kidney failure",
+    "Contact your vet if your cat shows symptoms after contact with pond plants"
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Leaf",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild"
+    }
+  ],
+  "scientificName": "Nymphaeaceae spp.",
+  "family": "Nymphaeaceae"
+}

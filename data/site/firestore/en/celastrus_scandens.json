@@ -1,0 +1,53 @@
+{
+  "slug": "celastrus_scandens",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/celastrus_scandens.jpg"
+  ],
+  "name": "Bittersweet",
+  "aliases": [],
+  "description": "American Bittersweet (Celastrus scandens) is a vigorous woody vine native to North America, easily recognised by its orange-yellow berries that split open to reveal bright red seeds. All parts of the plant are toxic to cats, including the leaves, bark, roots, and berries. The plant contains sesquiterpene alkaloids and compounds with cardiac-disrupting activity that irritate the gastrointestinal tract and, in larger amounts, affect the heart. The vivid berries are the most likely point of contact for cats, particularly when the vine is brought indoors as a decorative autumn cutting.",
+  "safetyNotes": [
+    "Symptoms: Vomiting, diarrhea, and abdominal pain from GI irritation; larger exposures may cause lethargy, muscle weakness, and in serious cases abnormal heart rhythm.",
+    "Berries are the primary hazard: Brightly coloured and accessible, the berries are appealing to curious cats — avoid using the plant as indoor decoration.",
+    "Action: Seek veterinary care if more than a small berry has been ingested, particularly if lethargy or weakness develops."
+  ],
+  "toxicParts": [
+    "Bulb",
+    "Seed"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, and Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "2–24 hours (general timeframe for Nightshade/solanine toxicity).",
+      "notes": "These are often the first signs of poisoning. The plant contains solanine, which is a severe irritant to the gastrointestinal tract and mucous membranes.Neurological Depression"
+    },
+    {
+      "name": "Drowsiness, Depression, Confusion, and Weakness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "2–24 hours (typically follows or accompanies GI signs).",
+      "notes": "The toxins affect the central nervous system, leading to significant lethargy and behavioral changes. In severe cases, this can progress to paralysis or coma.Ocular Abnormalities"
+    },
+    {
+      "name": "Dilated Pupils (Mydriasis)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "2–24 hours.",
+      "notes": "Dilated pupils are a hallmark neurological sign of toxicity from plants in the Nightshade family.Bradycardia"
+    },
+    {
+      "name": "Slow Heart Rate (Bradycardia)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "12–24 hours (or as toxicity progresses).",
+      "notes": "The toxins can disrupt heart rhythm, leading to a dangerously slow heartbeat, which contributes to the classification of this plant as \"extremely toxic.\""
+    }
+  ],
+  "scientificName": "Celastrus scandens",
+  "family": "Celastraceae"
+}

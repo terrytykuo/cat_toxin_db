@@ -1,0 +1,52 @@
+{
+  "slug": "mentha_pulegium",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/mentha_pulegium.jpg"
+  ],
+  "name": "Pennyroyal",
+  "aliases": [],
+  "description": "Pennyroyal (Mentha pulegium) is a mint family herb that is severely toxic to cats — significantly more dangerous than common mint or peppermint. Its primary toxic compound is pulegone, a monoterpene ketone that is metabolised in the liver to the reactive compound menthofuran. This metabolite causes severe hepatotoxicity and can be lethal, especially in the concentrated essential oil form historically used as a flea repellent.",
+  "safetyNotes": [
+    "Toxic compounds: pulegone (primary); metabolised to menthofuran in the liver — the true hepatotoxic agent",
+    "Mechanism: menthofuran causes direct hepatocellular necrosis (liver cell death); glutathione depletion amplifies the damage",
+    "Symptoms: vomiting, diarrhea, lethargy; severe cases cause acute liver failure with jaundice, tremors, seizures, and collapse",
+    "Pennyroyal essential oil is especially dangerous — do NOT use it as a flea treatment; even topical application can cause fatal liver failure",
+    "Any exposure to pennyroyal oil is a veterinary emergency; plant ingestion also warrants prompt vet evaluation"
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Liver damage progressing to liver failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "notes": "Unlike common garden mints (like spearmint or peppermint) that primarily irritate the digestive tract, Pennyroyal is explicitly noted for its severe systemic toxicity that attacks the cat's liver, which can ultimately lead to death1.... 2. Seizures and Neurological Impairment"
+    },
+    {
+      "name": "Seizures, tremors, uncoordinated gait, weakness, and lethargy",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "notes": "Seizures and profound neurological depression are hallmarks of severe mint/essential oil toxicity and are specifically associated with highly toxic mint plants like Pennyroyal25. 3. Gastrointestinal Distress"
+    },
+    {
+      "name": "Vomiting, diarrhea, excessive drooling, loss of appetite, and difficulty swallowing",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "The essential oils in the mint family are highly irritating to a cat's gastrointestinal tract36. With Pennyroyal, these symptoms may occur alongside or precede more severe systemic organ failure23. 4. Respiratory Issues"
+    },
+    {
+      "name": "Difficulty breathing, coughing, and sneezing",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "notes": "In severe cases, the ingestion or inhalation of the essential oils found within toxic mint plants can cause significant respiratory distress45. Note: The provided sources do not specify the exact hourly onset times for these symptoms. If you suspect your cat has been exposed to Pennyroyal, immediate"
+    }
+  ],
+  "scientificName": "Mentha pulegium",
+  "family": "Lamiaceae"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "epipremnum_aureum_or_epipremnum_spp",
+  "source_hash": "0f4c1f12e47e672b83bc00013df4e55f15da78190b85b8612f31dde20dabafa9",
+  "translated_at": "2026-05-21T10:36:51Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "黃金葛 (Pothos / Devil’s Ivy)",
+  "aliases": [],
+  "description": "黃金葛 (Epipremnum aureum)，也稱為 Devil’s Ivy，是最常見的室內植物之一，也是貓咪植物中毒的常見原因。作為天南星科的一員，它的葉片和莖部到處都含有不溶性草酸鈣結晶 (針晶)。啃食植物會立即引起劇烈的口腔疼痛和刺激。",
+  "safetyNotes": [
+    "有毒化合物：不溶性草酸鈣針晶；汁液還含有會加劇反應的蛋白分解酶",
+    "機制：當植物細胞破裂時，結晶會強力噴射到口腔黏膜，造成機械性灼傷和腫脹",
+    "症狀：突然的口腔疼痛、劇烈流口水、用爪子抓嘴、吞嚥困難、嘴唇和舌頭腫脹、嘔吐",
+    "垂吊的藤蔓對貓來說非常容易接觸到，尤其是掛在家具或架子上時",
+    "用水沖洗口腔；若吞嚥受阻或症狀未緩解，請尋求醫療護理"
+  ],
+  "toxicParts": [
+    "整株植物"
+  ],
+  "symptoms": [
+    {
+      "name": "口腔、嘴唇和舌頭劇烈灼熱、刺激感和疼痛",
+      "body_system": "消化系統",
+      "onset": "立即"
+    },
+    {
+      "name": "過度流口水或流涎",
+      "body_system": "消化系統",
+      "onset": "立即"
+    },
+    {
+      "name": "口腔和舌頭腫脹，伴隨吞嚥困難 (dysphagia)",
+      "body_system": "消化系統",
+      "onset": "接觸後立即或不久後"
+    },
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統",
+      "onset": "攝入後不久"
+    }
+  ]
+}

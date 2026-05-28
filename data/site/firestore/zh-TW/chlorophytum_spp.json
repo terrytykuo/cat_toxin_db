@@ -1,0 +1,27 @@
+{
+  "slug": "chlorophytum_spp",
+  "source_hash": "c347f2b1d21edadc344fe9384afcdc5c06a4c72823627bb08de43b03d457fb0e",
+  "translated_at": "2026-05-21T10:39:35Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "吊蘭",
+  "aliases": [],
+  "description": "吊蘭 (Chlorophytum spp.) 通常被認為對貓咪安全，並未被 ASPCA 列為有毒植物。然而，吊蘭含有與鴉片相關且具輕微致幻特性的化合物（結構相似但比真正的阿片類物質弱得多）。這可能導致貓咪表現出醉酒狀態並反覆啃食該植物。",
+  "safetyNotes": [
+    "被歸類為無毒，但含有可能吸引貓咪的輕微致幻化合物",
+    "過量食用後的症狀：輕微消化道不適（嘔吐、腹瀉）、明顯醉酒感或異常行為",
+    "這種輕微的吸引效果是為什麼有些貓咪儘管會出現消化道不適，仍會反覆咀嚼吊蘭的原因",
+    "非醫療緊急情況；如果您的貓咪過度咀嚼該植物，請限制其接觸",
+    "典型的小劑量啃食不需要獸醫治療"
+  ],
+  "toxicParts": [
+    "葉"
+  ],
+  "symptoms": [
+    {
+      "name": "輕微噁心或消化不適（可能包括嘔吐）",
+      "body_system": "消化系統"
+    }
+  ]
+}

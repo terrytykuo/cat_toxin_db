@@ -1,0 +1,70 @@
+{
+  "slug": "tea_tree",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/tea_tree.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/tea_tree/images/1772922769350.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/tea_tree/images/1772922776503.jpg"
+  ],
+  "name": "Tea Tree",
+  "aliases": [],
+  "description": "Tea Tree (Melaleuca alternifolia) essential oil is highly toxic to cats. Unlike many herbal products, tea tree oil causes severe toxicity even in very small topical doses — a few drops applied to the skin can cause life-threatening reactions. Cats absorb the oil rapidly through skin, and their livers cannot metabolise the terpene compounds.",
+  "safetyNotes": [
+    "Toxic compounds: terpene-4-ol, alpha-terpinene, and related monoterpenoids; concentrated in essential oil (never use on or near cats)",
+    "Mechanism: cats lack sufficient glucuronyl transferase to metabolise these terpenoids, causing rapid toxic accumulation affecting the CNS and liver",
+    "Symptoms: drooling, vomiting, ataxia, weakness, tremors, low body temperature, collapse; onset within hours of topical application",
+    "Topical application is the most common cause of toxicity — never use tea tree oil as a flea treatment or skin remedy for cats",
+    "Any tea tree oil exposure is a veterinary emergency — rinse off immediately and contact a vet"
+  ],
+  "toxicParts": [
+    "Leaf"
+  ],
+  "symptoms": [
+    {
+      "name": "Depression, lethargy, or dullness",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "This is a primary, highlighted symptom specifically associated with tea tree oil poisoning in cats1. 2. Hypothermia"
+    },
+    {
+      "name": "Hypothermia (abnormally low body temperature)",
+      "body_system": "Metabolic",
+      "severity": "severe",
+      "notes": "Alongside depression, hypothermia is explicitly noted as a direct consequence of tea tree oil exposure in felines1. 3. Liver Injury and Failure"
+    },
+    {
+      "name": "Liver injury progressing to potential liver failure",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "notes": "Because cats lack the specific enzymes to metabolize essential oils, the toxins accumulate and cause serious organ damage. Extreme cases of toxicity can cause complete liver failure and death12. 4. Excessive Drooling and Vomiting"
+    },
+    {
+      "name": "Excessive dribbling (drooling) and vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "These are common signs of general essential oil poisoning, often occurring if a cat ingests the liquid directly or licks it off its fur during grooming23. 5. Neurological Impairment (Ataxia, Tremors, and Seizures)"
+    },
+    {
+      "name": "Shaking, tremoring, \"walking as if they're drunk\" (ataxia), collapse, and seizures",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "notes": "Essential oils heavily impact the central nervous system. If the toxicity progresses to collapse or seizures, it is a life-threatening emergency2. 6. Skin Irritation and Chemical Burns"
+    },
+    {
+      "name": "Sore skin, redness, or chemical burns",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "notes": "Direct skin contact with undiluted essential oils causes localized damage. However, the sources warn that even if there is no visible damage to the skin, you should not assume the cat is safe from systemic poisoning2. 7. Respiratory Distress"
+    },
+    {
+      "name": "Difficulty breathing or breathing with their mouth open",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "notes": "While toxic effects from simply inhaling oils from standard reed diffusers or plugins are rare due to dilution, the risk of severe respiratory distress increases if you use nebulized or ultrasonically diffused neat (undiluted) essential oils, or if the cat has pre-existing medical conditions like as"
+    }
+  ],
+  "scientificName": "Melaleuca alternifolia",
+  "family": "Myrtaceae"
+}

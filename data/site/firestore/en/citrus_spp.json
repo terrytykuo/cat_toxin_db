@@ -1,0 +1,74 @@
+{
+  "slug": "citrus_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/citrus_spp/images/1773011257551.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/citrus_spp/images/1773011272587.avif"
+  ],
+  "name": "Citrus",
+  "aliases": [],
+  "description": "Citrus plants (oranges, lemons, limes, grapefruits, and related species) are toxic to cats in all forms — fruit, peel, leaves, and stems. The primary toxic agents are citric acid and concentrated essential oils, with D-limonene specifically identified as a key culprit. These compounds act as powerful irritants to the gastrointestinal tract, respiratory system, and skin; in sufficient amounts, the essential oils cross into the nervous system and cause central nervous system depression. The peels, leaves, and stems contain the highest concentrations of toxic essential oils, while the fruit flesh itself causes only mild GI upset due to its acidity.",
+  "safetyNotes": [
+    "Symptoms (mild): Vomiting and diarrhea from eating a small piece of fruit.",
+    "Symptoms (severe): Drooling, skin irritation, respiratory distress, low blood pressure, muscle tremors, and CNS depression from contact with peels, leaves, or essential oil products.",
+    "Peels are the greatest danger: Citrus peel contains the highest concentration of D-limonene. Citrus-based cleaning products and essential oil diffusers can also expose cats through inhalation.",
+    "Deterrent note: Most cats naturally dislike the smell of citrus, but inquisitive cats or those with access to fallen fruit should be monitored."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Seed",
+    "Fruit",
+    "Peel"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and diarrhea (Gastrointestinal irritation)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Ingesting small amounts of the fruit flesh may result in only mild stomach upset. However, the peels, seeds, and plant parts contain higher concentrations of citric acid and essential oils, leading to more significant irritation.Central Nervous System (CNS) Depression"
+    },
+    {
+      "name": "CNS Depression (Lethargy, dullness, weakness)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "The essential oils (such as limonene and linalool) found in citrus plants are irritating to the nervous system. Ingestion of large quantities can cause the system to shut down, leading to depression and weakness.Neurological Disturbances (Tremors and Ataxia)"
+    },
+    {
+      "name": "Tremors, shaking, and ataxia (walking as if drunk)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "These symptoms indicate a more serious level of toxicity, often resulting from the ingestion of significant amounts of plant material or concentrated essential oils.Dermatitis and Chemical Burns"
+    },
+    {
+      "name": "Soreness, redness, or chemical burns",
+      "body_system": "Dermal",
+      "severity": "severe",
+      "onset": "Rapid (upon contact).",
+      "notes": "Direct skin contact with citrus essential oils (often found in the peels) can cause irritation or burns. Even if there is no visible damage, the cat may still suffer systemic toxicity if they groom the oil off their fur.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Excessive dribbling or drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Rapid (often a response to taste or oral irritation).",
+      "notes": "This is a common sign of nausea or direct irritation to the mucous membranes in the mouth caused by the citric acid or oils.Seizures and Collapse"
+    },
+    {
+      "name": "Seizures and collapse",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "notes": "Ingesting large quantities of citrus parts (stems, leaves, peels) or concentrated oils can lead to severe neurological episodes and, in extreme cases, death.Liver Damage"
+    },
+    {
+      "name": "Liver failure (Hepatic necrosis)",
+      "body_system": "Hepatic",
+      "severity": "fatal",
+      "notes": "Essential oils can cause serious organ damage. Because cats lack the liver enzymes necessary to break down these compounds efficiently, extreme exposure can lead to liver failure."
+    }
+  ],
+  "scientificName": "Citrus spp.",
+  "family": "Rutaceae"
+}

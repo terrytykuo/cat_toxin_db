@@ -1,0 +1,55 @@
+{
+  "slug": "nerium_oleander",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/nerium_oleander.jpg"
+  ],
+  "name": "Oleander",
+  "aliases": [],
+  "description": "Oleander (Nerium oleander) is one of the most acutely toxic ornamental plants for cats. Every part — leaves, flowers, stems, roots, and even dried plant material — contains potent cardenolide cardiac glycosides, primarily oleandrin and neriine. These compounds are similar to digoxin in their mechanism and are toxic in extremely small quantities.",
+  "safetyNotes": [
+    "Toxic compounds: oleandrin and neriine (cardenolide cardiac glycosides); all parts are toxic, including dried material and smoke from burning",
+    "Mechanism: cardenolides inhibit Na+/K+-ATPase in cardiac muscle, disrupting electrical conduction and causing arrhythmias and heart block",
+    "Symptoms: drooling, vomiting, diarrhea, weakness, bradycardia, cardiac arrhythmias, hypotension, collapse; can be rapidly fatal",
+    "A single leaf contains enough oleandrin to kill a cat; smoke from burning oleander is also toxic",
+    "Any suspected ingestion is a veterinary emergency — do not wait for symptoms"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Entire Plant"
+  ],
+  "symptoms": [
+    {
+      "name": "Drooling (hypersalivation), nausea, vomiting, diarrhea, and abdominal pain",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapidly, usually within the first 2 hours after exposure,",
+      "notes": "These stomach upsets and oral irritations are typically the first signs of poisoning to appear prior to the onset of severe heart abnormalities4. 2. Cardiac Abnormalities and Hypotension"
+    },
+    {
+      "name": "Irregular heart rhythms (arrhythmias), abnormally slow heart rate (bradycardia) or fast heart rate (tachycardia), and low blood pressure (hypotension)",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Within the first 2 hours after exposure,",
+      "notes": "Cardiac glycosides (like oleandrin) inhibit the Na + /K + -ATPase pump, resulting in forceful yet slower cardiac contractions5. This disruption can also lead to hyperkalemia (high potassium) and can quickly progress to cardiovascular collapse and death if untreated3.... 3. Neurological Impairment (L"
+    },
+    {
+      "name": "Lethargy, profound weakness, drowsiness, muscle tremors, seizures, and a lack of consciousness",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Manifests quickly, within the first 2 hours as the systemic toxicity progresses15. • Any additional",
+      "notes": "These severe neurological signs escalate as the toxins further depress and disrupt the cat's normal physiological functions and cardiovascular output16. 4. Respiratory Distress"
+    },
+    {
+      "name": "Difficulty breathing and respiratory changes",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Manifests rapidly as the toxicity progresses1. • Any additional",
+      "notes": "Respiratory difficulty often occurs in tandem with severe cardiovascular and neurological decline"
+    }
+  ],
+  "scientificName": "Nerium oleander",
+  "family": "Apocynaceae"
+}

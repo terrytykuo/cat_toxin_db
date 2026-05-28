@@ -1,0 +1,56 @@
+{
+  "slug": "clivia_miniata",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/clivia_miniata.jpg"
+  ],
+  "name": "Fire Lily",
+  "aliases": [],
+  "description": "Fire Lily (Clivia miniata), also called Kaffir Lily, is a South African ornamental plant toxic to cats throughout all its parts. It contains lycorine and related phenanthridine alkaloids, with the highest concentration found in the bulb. Lycorine is the same toxin responsible for Amaryllis and Daffodil poisoning in cats, acting directly on the brainstem vomiting centre.",
+  "safetyNotes": [
+    "Toxic compounds: lycorine and related phenanthridine alkaloids; bulb is the most concentrated part",
+    "Mechanism: lycorine stimulates the emetic centre in the brainstem and causes vasodilation at higher doses",
+    "Symptoms: profuse vomiting, diarrhea, drooling, tremors; severe ingestion may cause low blood pressure, convulsions, and CNS depression",
+    "Flowers, leaves, and stems also contain toxins though at lower concentrations than the bulb",
+    "Keep bulbs stored safely out of reach; seek veterinary care promptly if ingestion is suspected"
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower",
+    "Pollen"
+  ],
+  "symptoms": [
+    {
+      "name": "Acute Tubular Necrosis / Renal Failure",
+      "body_system": "Renal",
+      "severity": "fatal",
+      "onset": "36–72 hours (Progression to failure).",
+      "notes": "According to one clinical analysis, the Fire Lily is categorized alongside true lilies (Lilium spp.) as causing damage to the renal parenchyma. If untreated, this can progress to anuria (cessation of urine production) and irreversible kidney damage.Gastrointestinal Distress (Initial Signs)"
+    },
+    {
+      "name": "Vomiting and Anorexia (Loss of Appetite)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within hours (Early stage).",
+      "notes": "Vomiting is often the first sign of toxicity. While vomiting may temporarily cease, it does not indicate recovery; rather, it may be followed by the progression of systemic signs.Dehydration and Polydipsia"
+    },
+    {
+      "name": "Dehydration and Increased Thirst (Polydipsia)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "12–30 hours.",
+      "notes": "As kidney function is compromised, the cat may show signs of significant dehydration and increased thirst before progressing to the anuric (no urine) phase.Lethargy"
+    },
+    {
+      "name": "Lethargy / Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within hours.",
+      "notes": "The cat may appear weak or depressed shortly after ingestion, often accompanying the initial gastrointestinal signs.-------------------------------------------------------------------------------- Important Note on Source Discrepancy: While the Clinical Perspectives on Feline Phytotoxicology source"
+    }
+  ],
+  "scientificName": "Clivia miniata",
+  "family": "Amaryllidaceae"
+}

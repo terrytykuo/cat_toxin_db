@@ -1,0 +1,72 @@
+{
+  "slug": "pudding",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/pudding/images/1772924283305.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/pudding/images/1772924287298.avif"
+  ],
+  "name": "Pudding",
+  "aliases": [],
+  "description": "Pudding is not acutely toxic to cats in its plain forms, but many pudding varieties contain ingredients that are dangerous: chocolate pudding contains theobromine, sugar-free puddings may contain xylitol, and dairy-based puddings cause lactose-related GI upset in most adult cats. The plain starchy base is safe but provides no nutritional value.",
+  "safetyNotes": [
+    "Chocolate pudding: TOXIC — contains theobromine; even small amounts can cause vomiting, tremors, and cardiac effects",
+    "Sugar-free pudding: check for xylitol — highly toxic to cats, causing dangerous hypoglycaemia",
+    "Dairy-based pudding: causes lactose-related vomiting and diarrhea in most adult cats",
+    "Plain starch-based pudding without toxic additives: not toxic, but very high in sugar and provides no nutritional value",
+    "Check the ingredient list before assuming a pudding is safe; chocolate and xylitol exposures require immediate vet contact"
+  ],
+  "toxicParts": [],
+  "symptoms": [
+    {
+      "name": "Because pudding is a manufactured dessert",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
+      "name": "Gastrointestinal Upset (Diarrhea and Vomiting)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within a few hours (typically 8 to 12 hours for diarrhea to peak).",
+      "notes": "Most adult cats are lactose intolerant because their bodies no longer produce sufficient amounts of the enzyme lactase after weaning1.... When the undigested lactose from the milk or cream in the pudding reaches the colon, it ferments and draws in water, causing stomach upset and loose stools"
+    },
+    {
+      "name": "Pancreatitis",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Progressive (can develop hours to days after consuming a high-fat meal).",
+      "notes": "Standard puddings are often made with heavy cream, butter, or whole milk. Ingesting rich, high-fat human foods can overload a cat's digestive system and trigger pancreatitis, a painful and potentially life-threatening inflammation56. Symptoms from Chocolate Pudding (Methylxanthine Toxicity)"
+    },
+    {
+      "name": "Restlessness, Muscle Tremors, and Seizures",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "2 to 12 hours.",
+      "notes": "Chocolate pudding contains theobromine and caffeine, which are toxic methylxanthines78. These compounds severely overstimulate the central nervous system, causing the cat to become restless and potentially progress to muscle tremors, seizures, and coma79. Darker chocolate puddings are significantly"
+    },
+    {
+      "name": "Tachycardia and Cardiac Arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "2 to 12 hours.",
+      "notes": "The methylxanthines in chocolate also overstimulate the cardiovascular system, leading to dangerous, irregular heart rhythms that can ultimately result in cardiac arrest"
+    },
+    {
+      "name": "Vomiting, Diarrhea, and Increased Thirst",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "2 to 12 hours.",
+      "notes": "Often the earliest signs of chocolate poisoning, theobromine and caffeine act as GI irritants and mild diuretics, causing the cat to lose bodily fluids rapidly79. Symptoms from Sugar-Free Pudding (Xylitol Exposure)"
+    },
+    {
+      "name": "Hypoglycemia and Liver Failure (Theoretical / Rare in Cats)",
+      "body_system": "Gastrointestinal",
+      "severity": "fatal",
+      "onset": "15 to 30 minutes for a drop in blood sugar; 1 to 3 days for signs of liver injury",
+      "notes": "Xylitol is an artificial sweetener commonly used in sugar-free puddings. While it causes a massive, life-threatening release of insulin and acute liver failure in dogs, cats appear to be naturally resistant to xylitol toxicity11.... Experimental studies have shown cats do not suffer this dangerous h"
+    }
+  ],
+  "scientificName": "Pudding",
+  "family": "Various"
+}

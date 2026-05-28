@@ -1,0 +1,65 @@
+{
+  "slug": "lyonia_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/lyonia_spp/images/1773009925795.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/lyonia_spp/images/1773009935047.jpg"
+  ],
+  "name": "Fetterbush / Staggerbush",
+  "aliases": [],
+  "description": "Fetterbush and Staggerbush (Lyonia spp.) are flowering shrubs related to Azalea and Rhododendron, and they share the same deadly toxin: grayanotoxins. These diterpenoid polyol compounds are found throughout the plant — in leaves, flowers, nectar, and pollen — and act on the cardiac and nervous systems to produce severe, potentially fatal toxicity in cats.",
+  "safetyNotes": [
+    "Toxic compounds: grayanotoxins I, II, and III (diterpenoid polyols); identical mechanism to Rhododendron/Azalea poisoning",
+    "Mechanism: grayanotoxins bind to voltage-gated sodium channels in cardiac and skeletal muscle, keeping them open; this causes sustained depolarisation, hypotension, bradycardia, and cardiac arrhythmias",
+    "Symptoms: profuse drooling, vomiting, diarrhea, severe weakness, loss of coordination, low blood pressure, slow heart rate, tremors, seizures; can be fatal",
+    "All parts including nectar and pollen are toxic — even honey made from flowers can cause toxicity",
+    "Any suspected ingestion is a veterinary emergency requiring immediate care"
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Entire Plant",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting, Diarrhea, and Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "1–4 hours (occasionally up to 12 hours).",
+      "notes": "These are typically the first signs to appear. Even ingesting a few leaves can trigger these symptoms. Abdominal pain may also be present.Cardiovascular Dysfunction"
+    },
+    {
+      "name": "Bradycardia (Slow Heart Rate), Hypotension (Low Blood Pressure), and Arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "1–4 hours.",
+      "notes": "Grayanotoxins cause prolonged depolarization of cardiac muscle cells. This can lead to irregular heartbeats and cardiovascular collapse, which is a primary cause of death in severe cases.Central Nervous System Depression"
+    },
+    {
+      "name": "Weakness, Lethargy, and Depression",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "1–4 hours.",
+      "notes": "The cat may appear uncoordinated or unusually quiet. In smaller ingestions, symptoms may be limited to this depression and GI upset.Neurological Excitation"
+    },
+    {
+      "name": "Tremors and Seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "1–4 hours.",
+      "notes": "As toxicity progresses, the disruption of nerve cells can lead to tremors and, in severe cases, convulsions or coma.Transient Blindness"
+    },
+    {
+      "name": "Transient Blindness",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute (During the course of toxicity).",
+      "notes": "While less common, temporary blindness has been reported as a specific symptom of grayanotoxin poisoning."
+    }
+  ],
+  "scientificName": "Lyonia spp.",
+  "family": "Ericaceae"
+}

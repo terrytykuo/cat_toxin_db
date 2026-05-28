@@ -1,0 +1,19 @@
+{
+  "slug": "zinnia",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/zinnia/images/1773840052190.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/zinnia/images/1773840056574.avif",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/zinnia/images/1774785310445.avif"
+  ],
+  "name": "Zinnia",
+  "aliases": [],
+  "description": "Zinnias are vibrant, easy-to-grow flowers that are safe for cats. They come in nearly every color of the rainbow and make wonderful cut flowers that last for weeks.",
+  "safetyNotes": [],
+  "toxicParts": [],
+  "symptoms": [],
+  "scientificName": "Zinnia elegans",
+  "family": ""
+}

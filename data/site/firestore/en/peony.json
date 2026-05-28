@@ -1,0 +1,44 @@
+{
+  "slug": "peony",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/peony.jpg"
+  ],
+  "name": "Peony",
+  "aliases": [],
+  "description": "Peony (Paeonia spp.) is a popular garden perennial and cut flower that is mildly toxic to cats. It contains paeonol, paeoniflorin, and related phenolic compounds throughout its roots, bark, flowers, and leaves. These compounds cause gastrointestinal upset when ingested.",
+  "safetyNotes": [
+    "Toxic compounds: paeonol and paeoniflorin (phenolic compounds); roots contain the highest concentration",
+    "Mechanism: paeonol and paeoniflorin irritate the GI mucosa; high doses may have mild CNS effects",
+    "Symptoms: vomiting, diarrhea, drooling; typically mild and self-limiting",
+    "All parts are mildly toxic, though the root is most concentrated; cut peony flowers in a vase are also a risk",
+    "Symptoms are usually mild; consult your vet if symptoms are severe or persistent"
+  ],
+  "toxicParts": [
+    "Root",
+    "Bark",
+    "Flower",
+    "Seed"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "mild"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild"
+    },
+    {
+      "name": "Depression",
+      "body_system": "Neurological",
+      "severity": "mild"
+    }
+  ],
+  "scientificName": "Paeonia spp.",
+  "family": "Paeoniaceae"
+}

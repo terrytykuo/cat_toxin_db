@@ -1,0 +1,29 @@
+{
+  "slug": "dianthus_caryophyllus",
+  "source_hash": "4db31243fb73e0cc581aa703b39eae5777cc8a01d1c198a9f284db744df460dc",
+  "translated_at": "2026-05-21T10:22:20Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "康乃馨",
+  "aliases": [],
+  "description": "康乃馨 (Dianthus caryophyllus) 是世界各地常用於花束和花藝佈置的熱門切花和園藝植物。對貓具有輕微毒性。該植物含有皂苷 (saponins) 和其他輕微刺激性化合物，其確切機制尚未完全明確，但會引起可預見的消化系統症狀。由於康乃馨頻繁出現在花束和室內盆栽中，對於好奇的貓來說，它們代表了一種常見但程度輕微的接觸風險。",
+  "safetyNotes": [
+    "症狀：流口水、嘔吐、腹瀉和輕微腹部不適；如果貓反覆摩擦植物，可能會發生皮膚炎（皮膚刺激）。",
+    "花和葉：植物的所有部分均具有輕微毒性；症狀通常具有自限性，無需治療即可緩解。",
+    "行動：接觸後請觀察貓的狀況。如果嘔吐持續或嚴重，或者貓顯得異常嗜睡，請聯繫獸醫。"
+  ],
+  "toxicParts": [
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐與腹瀉",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "皮膚症狀（皮膚刺激）",
+      "body_system": "皮膚"
+    }
+  ]
+}

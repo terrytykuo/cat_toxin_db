@@ -1,0 +1,64 @@
+{
+  "slug": "brunfelsia_pauciflora_floribunda",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/brunfelsia_pauciflora_floribunda.jpg"
+  ],
+  "name": "Yesterday-today-and-tomorrow",
+  "aliases": [],
+  "description": "Yesterday-Today-and-Tomorrow (Brunfelsia pauciflora), named for its flowers that change colour over three days, is moderately toxic to cats. All parts of the plant contain brunfelsamidine and other steroidal alkaloids. It is a member of the nightshade family and is particularly known for causing neurological symptoms.",
+  "safetyNotes": [
+    "Toxic compounds: brunfelsamidine and related steroidal alkaloids; all parts of the plant are toxic",
+    "Mechanism: alkaloids affect the central nervous system, causing excitation and then CNS depression",
+    "Symptoms: vomiting, diarrhea, muscle tremors, seizures, hyperthermia; characteristically produces a syndrome that alternates agitation with sedation",
+    "Frequently used as a decorative garden shrub in tropical regions — keep cats away from the garden",
+    "Seek veterinary care promptly if ingestion is suspected; the neurological syndrome can escalate rapidly"
+  ],
+  "toxicParts": [
+    "Bark",
+    "Leaf",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Tachycardia (rapid heart rate)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "notes": "This is caused by the plant's toxic alkaloids (atropine, scopolamine, and hyoscyamine)1. In cases where the cardiovascular system becomes severely depressed, the veterinarian may need to administer cardiac stimulants1. 2. Dry Mouth"
+    },
+    {
+      "name": "Dry mouth",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Caused by the ingestion of the flowers, leaves, bark, or roots1. 3. Dilated Pupils"
+    },
+    {
+      "name": "Dilated pupils",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "A direct systemic response to the alkaloid toxins1. 4. Loss of Coordination and Tremors"
+    },
+    {
+      "name": "Ataxia (loss of coordination) and tremors",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "These symptoms highlight the severe neurological disruption caused by the plant's toxic compounds1. 5. Urinary Retention"
+    },
+    {
+      "name": "Urinary retention",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "notes": "Occurs alongside other systemic signs of poisoning after the animal consumes the plant material1. 6. Depression, Deep Sedation, or Coma"
+    },
+    {
+      "name": "Depression, deep sedation, and sometimes coma",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "While poisoning from this plant can lead to a profound comatose state requiring respiratory stimulants and supportive treatment, it is notably not reported to cause death"
+    }
+  ],
+  "scientificName": "Brunfelsia pauciflora floribunda",
+  "family": "Solanaceae"
+}

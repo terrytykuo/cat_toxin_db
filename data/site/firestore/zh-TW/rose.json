@@ -1,0 +1,16 @@
+{
+  "slug": "rose",
+  "source_hash": "bb59c187570f53e7c1956245bc6640767df75fba8d3efe27db203b52a04162e6",
+  "translated_at": "2026-05-21T10:37:20Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "玫瑰",
+  "aliases": [],
+  "description": "所有真正的玫瑰（Rosa 品種）對貓都是無毒的。它們美麗的花朵和香氣使其成為您家中美好且安全的選擇。",
+  "safetyNotes": [
+    "⚠️ 在將玫瑰帶入室內之前，務必去除花刺——它們可能會對好奇的貓造成身體傷害。"
+  ],
+  "toxicParts": [],
+  "symptoms": []
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "scadoxus_spp",
+  "category": "plant",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/scadoxus_spp/images/1772924593905.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/scadoxus_spp/images/1772924604879.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/scadoxus_spp/images/1772924610550.jpg"
+  ],
+  "name": "Blood Lily",
+  "aliases": [],
+  "description": "Blood Lily (Scadoxus multiflorus, also known as Haemanthus) is a striking bulbous plant with large, spherical flower heads in vivid red. Like Amaryllis — a close relative in the Amaryllidaceae family — it contains lycorine and other phenanthridine alkaloids concentrated throughout the plant, with the highest levels in the bulb. Lycorine inhibits protein synthesis at the cellular level and triggers strong gastrointestinal reactions. All parts of the plant are toxic, and the showy flowers may attract cats' curiosity.",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, abdominal pain, low blood pressure, and lethargy; tremors in more severe cases.",
+    "Bulb is most toxic: The underground bulb contains the greatest alkaloid concentration. Cats that dig in pots or garden beds face the highest exposure risk.",
+    "Action: Contact a vet promptly — even small amounts from the bulb can cause significant symptoms."
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Bulb"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate"
+    },
+    {
+      "name": "Salivation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild"
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate"
+    }
+  ],
+  "scientificName": "Scadoxus spp.",
+  "family": "Amaryllidaceae"
+}

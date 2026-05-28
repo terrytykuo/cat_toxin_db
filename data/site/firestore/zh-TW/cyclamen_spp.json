@@ -1,0 +1,41 @@
+{
+  "slug": "cyclamen_spp",
+  "source_hash": "8d953fa9359ea6c4945245d68eeeee115d0d32efef4c13938d31084187cea672",
+  "translated_at": "2026-05-21T10:27:19Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "仙客來",
+  "aliases": [],
+  "description": "仙客來 (Cyclamen spp.) 是受歡迎的開花室內植物，尤其在冬季和節慶期間。所有部位對貓咪都有毒，其中毒素濃度最高的是地下塊莖。主要的毒性物質是三萜皂苷，尤其是仙客來苷 (cyclamin)，會破壞細胞膜、刺激消化道，大量攝入還會影響心律。挖掘盆栽仙客來並啃咬塊莖的貓咪面臨嚴重中毒的風險最高。",
+  "safetyNotes": [
+    "症狀：輕度誤食會引起流口水、嘔吐、腹瀉和腹痛；大量攝入會導致心律不整、癲癇，嚴重時可能致死。",
+    "塊莖毒性最強：肉質的地下塊莖含有最高濃度的皂苷，遠多於葉片或花朵。",
+    "處置：如果貓咪啃咬了塊莖，或出現任何心臟相關症狀（虛弱、倒下），請立即尋求獸醫治療。"
+  ],
+  "toxicParts": [
+    "根部"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統",
+      "onset": "迅速"
+    },
+    {
+      "name": "流口水",
+      "body_system": "消化系統",
+      "onset": "迅速"
+    },
+    {
+      "name": "心律不整",
+      "body_system": "心臟",
+      "onset": "延遲"
+    },
+    {
+      "name": "癲癇",
+      "body_system": "神經系統",
+      "onset": "延遲"
+    }
+  ]
+}

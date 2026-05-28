@@ -1,0 +1,83 @@
+{
+  "slug": "cannabis_sativa",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cannabis_sativa.jpg"
+  ],
+  "name": "Cannabis / Marijuana",
+  "aliases": [],
+  "description": "Cannabis (marijuana) is a growing household hazard for cats as its recreational and medicinal use becomes more widespread. The primary toxic compound is tetrahydrocannabinol (THC), which severely disrupts the nervous system in cats — both through ingestion of plant material or edibles, and through passive inhalation of smoke. Cats have a lower tolerance for THC than humans, and exposure can cause a frightening range of neurological and physical symptoms. Cannabis edibles present a compounded risk, as they frequently contain chocolate or xylitol alongside THC.",
+  "safetyNotes": [
+    "Symptoms: Stumbling and lack of coordination (ataxia), muscle tremors, hypersensitivity to light and sound, alternating profound lethargy and severe agitation, drooling, vomiting, and urine dribbling (incontinence).",
+    "Edibles are especially dangerous: Pot brownies and gummies often contain chocolate (theobromine) or xylitol — adding a second layer of toxicity on top of the THC.",
+    "CBD products: An overdose can cause vomiting and diarrhea; never self-administer CBD to a cat without veterinary guidance.",
+    "Action: Secure all cannabis products including edibles, concentrates, and vape cartridges out of reach. Contact a vet promptly if exposure is suspected."
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Ataxia (wobbly, uncoordinated movements) and Disorientation",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Signs manifest after the drug has been absorbed",
+      "notes": "The cat may appear \"drunk,\" wobbly, or unable to walk in a straight line. They may also be very vocal44. 2. Altered Mental State (Sedation or Hyperactivity)"
+    },
+    {
+      "name": "Prolonged Depression (Sleepiness/Lethargy) or Hyperexcitability",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "After absorption",
+      "notes": "Reactions can range from extreme lethargy and sleepiness to hyperactivity and agitation44. 3. Dilated Pupils (Mydriasis)"
+    },
+    {
+      "name": "Mydriasis (Dilated Pupils)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "After absorption",
+      "notes": "This gives the cat a \"wild-eyed\" appearance44. 4. Urinary Incontinence"
+    },
+    {
+      "name": "Urinary Incontinence (Urine Leakage)",
+      "body_system": "Renal",
+      "severity": "moderate",
+      "onset": "After absorption",
+      "notes": "The pet may dribble urine uncontrollably, a distinctive sign of cannabis intoxication4. 5. Vomiting and Drooling"
+    },
+    {
+      "name": "Vomiting and Hypersalivation (Excessive Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "After absorption",
+      "notes": "While vomiting is a symptom, cannabis also has an anti-emetic (anti-vomiting) effect, which can make it difficult for veterinarians to induce vomiting as a treatment33. 6. Heart Rate Abnormalities"
+    },
+    {
+      "name": "Bradycardia (Slow Heart Rate) or Tachycardia (Fast Heart Rate)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "After absorption",
+      "notes": "Altered blood pressure is also observed alongside heart rate changes55. 7. Abnormal Body Temperature"
+    },
+    {
+      "name": "Hypothermia (Low Body Temperature) or Hyperthermia (High Body Temperature)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "After absorption",
+      "notes": "Low body temperature is explicitly noted as a sign55. 8. Severe Neurological Signs (Tremors, Seizures, Coma)"
+    },
+    {
+      "name": "Tremors, Seizures, and Coma",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "After absorption",
+      "notes": "While death is rare (\"seldom fatal\"), it can occur if vital central nervous system regulatory centers are severely depressed. Fatalities are more commonly associated with the ingestion of highly concentrated \"medical-grade\" products (e.g., edibles, waxes) rather than plant material"
+    }
+  ],
+  "scientificName": "Cannabis sativa",
+  "family": "Cannabaceae"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "gardenia_jasminoides",
+  "source_hash": "f2172b739a2ee6ebe75a0eb702751057aa036bc2d88027bc02cf41b3d34e00b2",
+  "translated_at": "2026-05-21T10:29:32Z",
+  "gemini_model": "gemini-cli",
+  "manual_override": false,
+  "category": "plant",
+  "name": "梔子花 (Gardenia jasminoides)",
+  "aliases": [],
+  "description": "梔子花（Gardenia jasminoides）是常見的芳香開花灌木，對貓有輕微毒性。它含有環烯醚萜苷 — 主要是京尼平 (genipin) 和梔子苷 (gardenoside) — 存在於全株植物中，包括花朵和果實。這些化合物會刺激胃腸道，並可能在接觸時觸發皮膚反應。",
+  "safetyNotes": [
+    "有毒成分：葉片、果實和花朵中的環烯醚萜苷（京尼平、梔子苷）",
+    "機制：京尼平作為胃腸道刺激物，較高劑量時可能導致輕微肝臟負擔",
+    "症狀：嘔吐、腹瀉、接觸引起的蕁麻疹或皮疹（urticaria）；輕微精神沉鬱",
+    "症狀通常較輕微且無需治療即可緩解，但若嘔吐嚴重或持續，請諮詢獸醫建議",
+    "芳香的花朵對某些貓咪很有吸引力 — 請將植物放置在不易觸及的地方"
+  ],
+  "toxicParts": [
+    "葉",
+    "花"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "腹瀉",
+      "body_system": "消化系統"
+    },
+    {
+      "name": "蕁麻疹或皮疹",
+      "body_system": "皮膚"
+    }
+  ]
+}
