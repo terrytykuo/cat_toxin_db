@@ -23,6 +23,22 @@ A local-only React + Express app for editing toxin records in Firestore.
 3. Create `../.env.local` at the repo root from `../.env.example`:
    - `FIREBASE_STORAGE_BUCKET` — your Firebase Storage bucket name
 
+For another computer, repeat the same setup locally. Do not commit
+`admin/.env.local` or the service-account JSON: `FIREBASE_ADMIN_KEY_PATH` is a
+machine-specific path, and the JSON grants write access to Firebase. Share the
+service-account JSON through a password manager or another private channel, keep
+it outside the repo, then point `FIREBASE_ADMIN_KEY_PATH` at that local file.
+
+You can also run without local env files by exporting the same values:
+
+```bash
+cd admin
+export ADMIN_SECRET="$(openssl rand -hex 32)"
+export FIREBASE_ADMIN_KEY_PATH="/absolute/path/to/service-account.json"
+export FIREBASE_STORAGE_BUCKET="your-bucket.firebasestorage.app"
+npm run dev
+```
+
 ## Run
 
 ```bash

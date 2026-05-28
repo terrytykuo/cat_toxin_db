@@ -8,6 +8,8 @@ import { fileURLToPath } from 'node:url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 function readAdminSecret(): string {
+  if (process.env.ADMIN_SECRET) return process.env.ADMIN_SECRET
+
   const envPath = resolve(__dirname, '.env.local')
   if (!existsSync(envPath)) return ''
   const raw = readFileSync(envPath, 'utf8')

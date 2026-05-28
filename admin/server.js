@@ -55,22 +55,25 @@ function parseEnvFile(filePath) {
 
 const rootEnv = parseEnvFile(resolve(__dirname, '../.env.local'))
 const adminEnv = parseEnvFile(resolve(__dirname, '.env.local'))
-const storageBucket = rootEnv.FIREBASE_STORAGE_BUCKET
-const adminSecret = adminEnv.ADMIN_SECRET
-const serviceAccountPath = adminEnv.FIREBASE_ADMIN_KEY_PATH
+const storageBucket = process.env.FIREBASE_STORAGE_BUCKET || rootEnv.FIREBASE_STORAGE_BUCKET
+const adminSecret = process.env.ADMIN_SECRET || adminEnv.ADMIN_SECRET
+const serviceAccountPath =
+  process.env.FIREBASE_ADMIN_KEY_PATH ||
+  process.env.GOOGLE_APPLICATION_CREDENTIALS ||
+  adminEnv.FIREBASE_ADMIN_KEY_PATH
 
 if (!serviceAccountPath) {
-  console.error('Missing FIREBASE_ADMIN_KEY_PATH in admin/.env.local')
+  console.error('Missing FIREBASE_ADMIN_KEY_PATH in environment or admin/.env.local')
   process.exit(1)
 }
 
 if (!storageBucket) {
-  console.error('Missing FIREBASE_STORAGE_BUCKET in .env.local (repo root)')
+  console.error('Missing FIREBASE_STORAGE_BUCKET in environment or .env.local (repo root)')
   process.exit(1)
 }
 
 if (!adminSecret) {
-  console.error('Missing ADMIN_SECRET in admin/.env.local')
+  console.error('Missing ADMIN_SECRET in environment or admin/.env.local')
   process.exit(1)
 }
 
