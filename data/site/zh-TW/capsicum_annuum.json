@@ -14,38 +14,38 @@
   "source_hash": "f022059403c6f1028642cc580786c5efdf721bef9701b35628f533e4ea7e705b",
   "symptoms": [
     {
-      "body_system": "腸胃道",
       "name": "嘔吐、腹瀉與流涎（唾液分泌過多）",
-      "onset": "2–24 小時。"
-    },
-    {
       "body_system": "腸胃道",
-      "name": "腹痛（絞痛）",
       "onset": "2–24 小時。"
     },
     {
-      "body_system": "皮膚",
+      "name": "腹痛（絞痛）",
+      "body_system": "腸胃道",
+      "onset": "2–24 小時。"
+    },
+    {
       "name": "灼熱感、咳嗽、流眼淚",
+      "body_system": "皮膚",
       "onset": "立即（接觸或攝入時）。"
     },
     {
-      "body_system": "神經系統",
       "name": "精神不振或嗜睡（冷漠）、共濟失調（失去協調）、顫抖、癲癇",
+      "body_system": "神經系統",
       "onset": "12–24 小時（常接在腸胃道症狀之後）。"
     },
     {
-      "body_system": "心血管",
       "name": "心搏過緩（心跳變慢）、心律不整",
+      "body_system": "心血管",
       "onset": "12–24 小時。"
     },
     {
-      "body_system": "呼吸系統",
       "name": "呼吸困難進展為呼吸麻痺",
+      "body_system": "呼吸系統",
       "onset": "晚期（通常超過 24 小時）。"
     },
     {
-      "body_system": "血液系統",
       "name": "溶血（紅血球破壞）、血紅素尿（深色尿液）",
+      "body_system": "血液系統",
       "onset": "2–24 小時。"
     }
   ],
@@ -54,5 +54,5 @@
     "葉子",
     "果實"
   ],
-  "translated_at": "2026-05-28T20:40:17.653Z"
+  "translated_at": "2026-05-29T11:45:09.343Z"
 }
