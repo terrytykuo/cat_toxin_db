@@ -1,53 +1,55 @@
 {
-  "aliases": [],
-  "description": "粗肋草 (Aglaonema spp.) 是一種受歡迎且易於維護的室內植物，具有美觀的花紋葉片。與天南星科的所有植物一樣，它含有不溶性草酸鈣結晶（針晶）——這些針狀結構遍布於葉片和莖部的細胞中。當貓咬下植物的任何部分時，這些結晶會被噴射出來並物理性地刺入口腔和喉嚨的軟組織，造成立即且劇烈的疼痛。",
-  "gemini_model": "gemini-cli-default",
-  "manual_override": false,
-  "name": "粗肋草",
+  "aliases": [
+    "Chinese Evergreen"
+  ],
+  "category": "plant",
+  "description": "粗肋草／廣東萬年青 (Aglaonema spp.) 是受歡迎、好照顧的室內觀葉植物，葉片花紋很有觀賞性。和所有天南星科植物一樣，它含有不溶性草酸鈣結晶（針晶，raphides），這些針狀結構存在於葉片和莖的細胞中。當貓咬到植物任何部位時，結晶會被彈出並刺入口腔與喉嚨的柔軟組織，立即造成強烈疼痛。",
+  "gemini_model": "codex-manual",
+  "manual_override": true,
+  "name": "粗肋草／廣東萬年青",
   "safetyNotes": [
-    "症狀：立即性的口腔疼痛、劇烈流口水、抓弄嘴邊、嘴唇和舌頭腫脹以及吞嚥困難；隨後可能出現嘔吐。",
-    "發作迅速：疼痛在咀嚼後數秒內開始——植物自身的防禦機制通常會限制貓的進食量。",
-    "處置：用水輕輕沖洗貓的口腔。若出現喉嚨腫脹、呼吸困難或持續嘔吐，請聯繫獸醫。"
+    "症狀：立即口腔疼痛、劇烈流口水、用爪子抓嘴、嘴唇與舌頭腫脹、吞嚥困難；之後可能嘔吐。",
+    "發作很快：咀嚼後幾秒內就會痛；植物本身的防禦通常也會限制貓吃下的量。",
+    "處理方式：用清水輕柔沖洗貓的口腔。如果喉嚨腫脹、呼吸困難或持續嘔吐，請聯絡獸醫。"
   ],
   "slug": "aglaonema_modestum",
   "source_hash": "c0baef25ffbeaf3ab81fed38af9f050cc374c1a516cf857041b52d2a51a3c0e7",
   "symptoms": [
     {
-      "body_system": "消化系統",
-      "name": "口腔、舌頭和嘴唇劇烈灼熱、疼痛和刺激",
-      "onset": "立即（咀嚼植物組織時即產生疼痛）。"
+      "name": "嘴巴、舌頭與嘴唇劇烈灼熱、疼痛與刺激",
+      "body_system": "腸胃道",
+      "onset": "立即（咀嚼植物組織時就會疼痛）。"
     },
     {
-      "body_system": "消化系統",
-      "name": "流口水或過度流涎（流涎症）",
-      "onset": "立即至誤食後數分鐘內。"
+      "name": "流口水或唾液分泌過多",
+      "body_system": "腸胃道",
+      "onset": "立即至攝入後數分鐘內。"
     },
     {
-      "body_system": "消化系統",
-      "name": "嘴唇、舌頭和口腔腫脹",
-      "onset": "接觸後迅速出現。"
+      "name": "嘴唇、舌頭與口腔腫脹",
+      "body_system": "腸胃道",
+      "onset": "接觸後快速出現。"
     },
     {
-      "body_system": "消化系統",
       "name": "吞嚥困難",
+      "body_system": "腸胃道",
       "onset": "立即。"
     },
     {
-      "body_system": "消化系統",
-      "name": "嘔吐與厭食（拒絕進食）",
-      "onset": "誤食後不久。"
+      "name": "嘔吐與食慾不振",
+      "body_system": "腸胃道",
+      "onset": "攝入後不久。"
     },
     {
+      "name": "呼吸困難（罕見）",
       "body_system": "呼吸系統",
-      "name": "呼吸困難",
-      "onset": "迅速（若發生喉頭水腫）。"
+      "onset": "快速（若喉頭水腫發生）。"
     }
   ],
   "toxicParts": [
-    "整株植物",
-    "葉",
+    "全株有毒",
+    "葉子",
     "莖"
   ],
-  "translated_at": "2026-05-15T21:43:29Z",
-  "migrated_from": "data/site/zh-TW/aglaonema_modestum.json"
+  "translated_at": "2026-05-29T12:06:50.698Z"
 }
