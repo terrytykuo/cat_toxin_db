@@ -1,0 +1,32 @@
+{
+  "slug": "apples__apple_seeds",
+  "name": "蘋果（種子）",
+  "manual_override": true,
+  "translated_at": "2026-05-28T14:56:41.195Z",
+  "description": "蘋果是廣泛食用的肉質水果，果實中央有果核，裡面包含數顆種子；這些種子有時也稱為果仁或籽仁。\n\n和其他薔薇科植物一樣，蘋果種子天然含有氰苷類化合物，特別是一種稱為苦杏仁苷的物質；苦杏仁苷在特定條件下可能釋放氰化氫（HCN）。",
+  "toxicParts": [
+    "種子"
+  ],
+  "symptoms": [
+    {
+      "name": "Difficulty Breathing and Hyperventilation",
+      "body_system": "呼吸系統"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "嘔吐與腹瀉"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "Muscle Tremors, Incoordination, and Seizures"
+    },
+    {
+      "body_system": "消化系統",
+      "name": "昏迷與心跳停止"
+    },
+    {
+      "body_system": "血液系統",
+      "name": "黏膜呈櫻桃紅色"
+    }
+  ]
+}

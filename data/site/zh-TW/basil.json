@@ -4,14 +4,14 @@
     "普通羅勒"
   ],
   "category": "plant",
-  "description": "羅勒是一種芳香草本植物，對貓完全安全。雖然大多數貓不會特別想吃，但有些貓可能會啃上一小口。它很適合放在廚房，既能入菜，也能讓貓咪朋友安全共處。",
+  "description": "羅勒是一種芳香草本植物，對貓完全安全。雖然大多數貓不會特別想吃，但有些貓可能會啃上一小口。它很適合放在廚房，既能入菜，也能讓貓咪安全共處。",
   "gemini_model": "codex-manual",
-  "manual_override": false,
+  "manual_override": true,
   "name": "羅勒／九層塔",
   "safetyNotes": [],
   "slug": "basil",
   "source_hash": "9a9397abd57584ec331e312e5428e778ffafa9ee0240b2f2bf555d10111145a9",
   "symptoms": [],
   "toxicParts": [],
-  "translated_at": "2026-05-28T19:48:53Z"
+  "translated_at": "2026-05-28T20:24:30.951Z"
 }

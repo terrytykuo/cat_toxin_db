@@ -1,10 +1,13 @@
 {
-  "aliases": [],
+  "aliases": [
+    "火球花",
+    "紅繡球"
+  ],
   "category": "plant",
-  "description": "血百合 (Scadoxus multiflorus，也稱 Haemanthus) 是醒目的球根植物，具有鮮紅色的大型球狀花序。它和近緣的朱頂紅一樣屬於石蒜科 (Amaryllidaceae)，全株含有石蒜鹼 (lycorine) 和其他菲啶類生物鹼，且球莖中的濃度最高。石蒜鹼會在細胞層級抑制蛋白質合成，並引發強烈腸胃道反應。全株皆有毒，而醒目的花朵可能吸引貓的好奇心。",
+  "description": "血百合 (Scadoxus multiflorus，也稱 Haemanthus) 是醒目的球根植物，具有鮮紅色的大型球狀花序。它和近緣的朱頂紅一樣屬於石蒜科 (Amaryllidaceae)，全株含有石蒜鹼 (lycorine) 和其他菲啶類生物鹼，且球莖中的濃度最高。石蒜鹼會在細胞層級抑制蛋白質合成，並引發強烈腸胃道反應。整株植物都有毒，尤其要小心醒目的花朵可能會引起貓咪的好奇。",
   "gemini_model": "codex-manual",
-  "manual_override": false,
-  "name": "血百合",
+  "manual_override": true,
+  "name": "網球花/血百合",
   "safetyNotes": [
     "症狀：流涎、嘔吐、腹瀉、腹痛、低血壓和精神不振；較嚴重時可能出現顫抖。",
     "球莖毒性最高：地下球莖含有最高濃度的生物鹼。會在盆栽或花圃挖掘的貓，暴露風險最高。",
@@ -30,5 +33,5 @@
     "葉子",
     "球莖／球根"
   ],
-  "translated_at": "2026-05-28T19:48:53Z"
+  "translated_at": "2026-05-28T21:07:32.986Z"
 }

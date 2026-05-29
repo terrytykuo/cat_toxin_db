@@ -1,0 +1,122 @@
+{
+  "name": "Amaryllis",
+  "aliases": [],
+  "category": "plant",
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Bulb",
+    "Flower"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid/Soon after ingestion.",
+      "notes": "This is the most common sign of toxicity and is triggered by lycorine, an alkaloid with strong emetic (vomiting-inducing) properties found throughout the plant."
+    },
+    {
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Following gastrointestinal irritation.",
+      "notes": "Often accompanies vomiting as the body attempts to expel the toxins."
+    },
+    {
+      "name": "Excessive Drooling (Hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to rapid (upon chewing or ingestion).",
+      "notes": "This reaction is caused by irritation to the mouth and digestive tract."
+    },
+    {
+      "name": "Abdominal Pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Following ingestion.",
+      "notes": "Cats may show signs of discomfort such as hunched posture or sensitivity to touch around the stomach area."
+    },
+    {
+      "name": "Tremors",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "After absorption of toxins (delayed compared to GI signs).",
+      "notes": "This symptom indicates a large ingestion, particularly of the bulb, causing central nervous system excitation."
+    },
+    {
+      "name": "Seizures (Convulsions)",
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "onset": "After absorption of toxins.",
+      "notes": "Like tremors, seizures are associated with high doses of phenanthridine alkaloids found in the bulbs."
+    },
+    {
+      "name": "Hypotension (Low Blood Pressure)",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Variable (systemic effect).",
+      "notes": "This is a critical sign of severe toxicity that contributes to weakness and collapse."
+    },
+    {
+      "name": "Cardiac Arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Variable.",
+      "notes": "Irregular heartbeats can occur in severe cases of poisoning."
+    },
+    {
+      "name": "Respiratory Depression",
+      "body_system": "Respiratory",
+      "severity": "severe",
+      "onset": "Variable.",
+      "notes": "Slowed or shallow breathing may occur as a systemic reaction to the alkaloids."
+    }
+  ],
+  "chemicals": [
+    {
+      "name": "Phenanthridine alkaloids, with Lycorine being the specific alkaloid frequently identified",
+      "chemical_formula": null,
+      "description": "in cats: ◦ Gastrointestinal: These alkaloids have strong emetic properties, meaning they trigger vomiting and gastrointestinal upset (salivation, abdominal pain, diarrhea)45. ◦ Systemic: Upon significant ingestion, the toxins affect the cardiovascular and neurological systems. They can cause hypotension (low blood pressure), respiratory depression, and central nervous system excitation, resulting ",
+      "concentration_notes": "◦ These alkaloids are present in all parts of the plant, including the stalks, flowers, and leaves25. ◦ The toxins are most concentrated in the bulbs, making the bulb the most dangerous part of the plant to ingest2.... ◦ Ingesting the bulb is significantly more likely to lead to severe systemic signs (low blood pressure, tremors) compared to ingesting the leaves, which typically causes milder gast"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Fluid Therapy (Rehydration)",
+      "description": "The administration of intravenous (IV) or subcutaneous fluids to the cat.",
+      "notes": "This is critical for treating dehydration caused by severe vomiting and diarrhea. Fluid therapy also helps manage hypotension (low blood pressure) and shock, which are potential severe symptoms of Amaryllis bulb ingestion.",
+      "priority": 1
+    },
+    {
+      "name": "Antiemetics",
+      "description": "The administration of medication specifically designed to stop vomiting.",
+      "notes": "Since Amaryllis contains lycorine, a potent emetic alkaloid, persistent vomiting is a primary clinical sign. Antiemetics help control this symptom to prevent further fluid loss and esophageal irritation.",
+      "priority": 2
+    },
+    {
+      "name": "Electrolyte Replacement",
+      "description": "Supplementing essential minerals (such as potassium, sodium, and chloride) through fluid therapy or oral supplements.",
+      "notes": "This treatment addresses electrolyte imbalances resulting from profuse vomiting and diarrhea. It is particularly important in cases of \"large-dose exposure\" where systemic effects are more pronounced.",
+      "priority": 3
+    },
+    {
+      "name": "Decontamination (Induced Vomiting)",
+      "description": "The administration of medication (such as xylazine or apomorphine) by a veterinarian to trigger vomiting and expel remaining plant material from the stomach.",
+      "notes": "This is a general treatment option for poisoning but is situation-dependent. It is typically performed only if the ingestion was recent and the cat is not already vomiting. Since Amaryllis is a strong emetic itself, many cats may have already expelled the stomach contents before arrival.",
+      "priority": 4
+    }
+  ],
+  "emergencyNote": "Fluid Therapy (Rehydration)",
+  "family": "Liliaceae",
+  "isToxic": true,
+  "toxicityLevel": "mild",
+  "severity": "toxic",
+  "safetyNotes": [
+    "Symptoms: Drooling, vomiting, diarrhea, abdominal pain, low blood pressure, tremors, and lethargy; rarely, seizures in severe cases.",
+    "Bulb is most toxic: The bulb contains the highest alkaloid concentration. Cats that dig at soil and chew on bulbs face the greatest risk.",
+    "Seasonal risk: Popular as a winter holiday plant — keep it fully out of reach from the moment it enters the home."
+  ],
+  "description": "Amaryllis contains lycorine and other phenanthridine alkaloids concentrated throughout the plant, with the highest levels found in the bulb. Lycorine inhibits protein synthesis in cells and triggers strong gastrointestinal reactions. This plant is particularly common as an indoor holiday gift, meaning cats may encounter it during periods when owners are less vigilant. \n\nThe name “Amaryllis” is often used for different but related plants. Most potted “Amaryllis” sold in stores are actually Hippeastrum, but both types are toxic to cats.",
+  "scientific_name": "Hippeastrum spp."
+}
