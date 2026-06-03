@@ -335,7 +335,27 @@ app.get('/api/translations/:slug', (req, res) => {
   }
 })
 
-app.patch('/api/translations/:slug', (req, res) => {
+function buildL10nPayload(merged) {
+  const symptoms = (merged.symptoms ?? []).map(s => {
+    const entry = { name: s.name ?? '', body_system: s.body_system ?? '' }
+    if (s.onset) entry.onset = s.onset
+    return entry
+  })
+  const payload = {
+    name: merged.name ?? '',
+    aliases: merged.aliases ?? [],
+    description: merged.description ?? '',
+    safetyNotes: merged.safetyNotes ?? [],
+    toxicParts: merged.toxicParts ?? [],
+    symptoms,
+  }
+  if (merged.emergencyNote) payload.emergencyNote = merged.emergencyNote
+  if (Array.isArray(merged.chemicals) && merged.chemicals.length > 0) payload.chemicals = merged.chemicals
+  if (Array.isArray(merged.treatments) && merged.treatments.length > 0) payload.treatments = merged.treatments
+  return payload
+}
+
+app.patch('/api/translations/:slug', async (req, res) => {
   try {
     const { slug } = req.params
     if (!isValidDocId(slug)) return res.status(400).json({ error: 'Invalid slug' })
@@ -357,6 +377,10 @@ app.patch('/api/translations/:slug', (req, res) => {
 
     const path = zhPathForSlug(slug)
     atomicWriteJson(path, merged)
+
+    // Sync to Firestore l10n.zh-TW
+    await db.collection('toxins').doc(slug).update({ 'l10n.zh-TW': buildL10nPayload(merged) })
+
     res.json({ ok: true, path, data: merged })
   } catch (e) {
     res.status(500).json({ error: e.message })
