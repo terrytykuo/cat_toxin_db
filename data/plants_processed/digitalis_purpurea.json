@@ -9,66 +9,45 @@
       "name": "Cardiac Glycosides (specifically classified as Cardenolides). Specific compounds identified include Digitalis, Digoxin, Digitoxin, Gitoxin"
     }
   ],
-  "description": "Foxglove (Digitalis purpurea) is one of the most dangerous plants a cat can encounter. Every part of the plant — fresh or dried — contains potent cardiac glycosides including digoxin, digitoxin, and digitalin. These compounds have an extremely narrow margin between therapeutic and lethal doses, and even small amounts can trigger life-threatening cardiac events in cats.",
+  "description": "Foxglove (Digitalis purpurea) is a tall flowering plant with bell-shaped blooms. It is highly toxic to cats. Every part of the plant is dangerous, whether fresh or dried, including leaves, flowers, seeds, and roots.\n\nFoxglove contains cardiac glycosides, including digitalis-like compounds. These chemicals act directly on the heart. In small, carefully controlled medical doses, related compounds can be used as heart medicine, but the gap between a useful dose and a dangerous dose is very small. For a cat, chewing plant material can quickly become serious.\n\nEarly signs may include drooling, vomiting, diarrhea, weakness, or low energy. More serious signs include a slow or irregular heartbeat, collapse, seizures, or sudden death. Do not wait for symptoms if your cat may have eaten foxglove. Remove access and contact a veterinarian or pet poison helpline immediately.",
   "emergencyNote": "Induction of Emesis and Administration of Activated Charcoal",
   "family": "Plantaginaceae",
   "isToxic": true,
   "name": "Foxglove",
   "safetyNotes": [
-    "Toxic compounds: cardiac glycosides — digoxin, digitoxin, digitalin, digitonin; all parts toxic including dry leaves, flowers, seeds, and roots",
-    "Mechanism: inhibit the Na+/K+-ATPase pump in cardiac muscle → disrupts electrical conduction → arrhythmias and heart block",
-    "Symptoms: vomiting, diarrhea, drooling, weakness, bradycardia (abnormally slow heart rate), cardiac arrhythmias, collapse; can be fatal without treatment",
-    "Even dried Foxglove in hay or potpourri retains full toxicity",
-    "Any suspected ingestion is a veterinary emergency — do not wait for symptoms to develop"
+    "Main hazard: Cardiac glycosides can disrupt the heart rhythm and may be life-threatening.",
+    "Toxic parts: All parts are dangerous, including dried leaves or flowers in arrangements.",
+    "Symptoms: Vomiting, diarrhea, weakness, slow or irregular heartbeat, collapse, seizures, or sudden death.",
+    "Action: Suspected ingestion is an emergency. Call a vet or poison helpline immediately."
   ],
   "scientific_name": "Digitalis purpurea",
   "severity": "toxic",
   "symptoms": [
     {
+      "name": "Vomiting, diarrhea, drooling, or belly pain",
       "body_system": "Gastrointestinal",
-      "name": "Vomiting, Bloody Diarrhea, and Nausea",
-      "notes": "Vomiting and abdominal pain are typically the first signs of toxicity. The plant acts as a direct irritant to the gut, but the toxins also stimulate the chemoreceptor trigger zone in the brain.Cardiac Arrhythmias",
-      "onset": "Within 2 hours (Acute).",
-      "severity": "severe"
+      "severity": "moderate",
+      "onset": "Can begin within hours of ingestion."
     },
     {
+      "name": "Weakness, low energy, or collapse",
       "body_system": "Cardiac",
-      "name": "Bradycardia (Slow Heart Rate), Tachycardia (Fast Heart Rate), or Irregular Pulse",
-      "notes": "The toxins inhibit the sodium-potassium pump in heart cells, causing a rise in intracellular calcium. This leads to forceful but irregular heart contractions, heart block, and potential cardiac collapse.Neurological Abnormalities",
-      "onset": "Within 2 hours (and can persist for days).",
-      "severity": "fatal"
+      "severity": "severe",
+      "onset": "Can occur as the heart is affected."
     },
     {
-      "body_system": "Neurological",
-      "name": "Weakness, Tremors, and Convulsions (Seizures)",
-      "notes": "Cats may appear uncoordinated (ataxia) or profoundly weak due to the cardiovascular compromise and direct neurotoxic effects. Dilated pupils (mydriasis) may also be observed.Hyperkalemia",
-      "onset": "Acute (following or accompanying cardiac signs).",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Hematological",
-      "name": "Hyperkalemia (High Potassium Levels)",
-      "notes": "The inhibition of the cellular pump causes extracellular potassium to accumulate. Severe hyperkalemia (> 7.5–9 mEq/L) is life-threatening and complicates the heart rhythm issues.Frequent Urination",
-      "onset": "Acute (detectable via blood tests shortly after ingestion).",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Renal",
-      "name": "Frequent Urination",
-      "notes": "This symptom is specifically noted in veterinary toxicology reports for Foxglove ingestion, potentially linked to the body's attempt to excrete the toxins or cardiovascular shifts.",
-      "onset": "Acute.",
-      "severity": "moderate"
+      "name": "Slow heartbeat, irregular heartbeat, seizures, or sudden death",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Can develop quickly and may occur before many warning signs."
     }
   ],
   "toxicParts": [
-    "Stem",
-    "Entire Plant",
-    "Seed",
-    "Pollen",
+    "All parts of the plant",
     "Leaf",
     "Flower",
-    "Root",
-    "Sap"
+    "Seed",
+    "Root"
   ],
   "toxicityLevel": "severe",
   "treatments": [

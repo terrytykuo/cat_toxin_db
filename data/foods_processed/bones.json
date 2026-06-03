@@ -5,48 +5,7 @@
   "toxicParts": [
     "Stem"
   ],
-  "symptoms": [
-    {
-      "name": "Based on the provided sources and our conversation history, ingesting bones",
-      "body_system": "Metabolic",
-      "severity": "moderate"
-    },
-    {
-      "name": "Choking",
-      "body_system": "Respiratory",
-      "severity": "fatal",
-      "onset": "Immediate (during or right after ingestion).",
-      "notes": "Bones, particularly cooked poultry or fish bones, can easily splinter or lodge in the cat's throat, presenting an immediate and life-threatening choking hazard"
-    },
-    {
-      "name": "Gastrointestinal Obstruction, Laceration, or Perforation",
-      "body_system": "Gastrointestinal",
-      "severity": "fatal",
-      "onset": "Immediate to acute (within hours of ingestion).",
-      "notes": "Cooked bones become extremely brittle and splinter into sharp shards when chewed2.... These shards can cause severe damage to the mouth and digestive system, leading to internal lacerations, perforations of the intestines, or complete blockages of the gastrointestinal tract2.... Raw bones can also c"
-    },
-    {
-      "name": "Dental Fractures",
-      "body_system": "Gastrointestinal",
-      "severity": "severe",
-      "onset": "Immediate (while chewing).",
-      "notes": "Gnawing on objects that are as hard as or harder than the cat's own teeth, such as dense bones, can cause painful dental fractures"
-    },
-    {
-      "name": "Vomiting and Diarrhea (Foodborne Pathogen Infection)",
-      "body_system": "Gastrointestinal",
-      "severity": "severe",
-      "onset": "Variable/Acute (typically within hours to a few days,",
-      "notes": "This symptom is specifically associated with the ingestion of raw bones, which frequently harbor dangerous foodborne bacteria such as Salmonella and E. coli16. Ingesting these pathogens leads to gastrointestinal infection and systemic illness"
-    }
-  ],
   "chemicals": [
-    {
-      "name": "Based on the provided sources",
-      "chemical_formula": null,
-      "description": "to cause harm, there are no chemical formulas or specific toxic concentrations to report. Instead, the danger bones pose to cats is entirely due to severe physical and biological hazards14. Here is a breakdown of the actual harmful mechanisms associated with bones:",
-      "concentration_notes": null
-    },
     {
       "name": "Sharp Bone Splinters (Physical Hazard)",
       "chemical_formula": null,
@@ -97,11 +56,46 @@
   "family": "Various",
   "isToxic": false,
   "toxicityLevel": "low",
-  "severity": "cautious",
   "safetyNotes": [
     "Cooked bones: Never give cooked bones of any kind. Splintering is the primary danger — even a small shard can cause internal laceration requiring emergency surgery.",
     "Raw bones: Carry a lower splintering risk but can cause dental fractures and may harbour zoonotic pathogens; handle with caution and always supervise.",
     "Action: If a cat swallows a bone fragment, monitor closely for signs of distress — drooling, gagging, vomiting, abdominal pain, or bloody stool — and seek immediate veterinary care."
   ],
-  "description": "Bones are not toxic to cats, but they pose serious physical hazards that make them unsafe to offer as food or chews. Cooked bones — especially poultry, fish, and pork — become brittle when heated and splinter into sharp shards that can lacerate the mouth, throat, oesophagus, stomach, or intestines, potentially causing life-threatening internal injuries. Raw bones are harder and less likely to splinter, but they can fracture teeth and carry dangerous bacterial contamination including Salmonella and Campylobacter, particularly in commercial raw meat diets."
+  "description": "Bones are not toxic to cats, but they pose serious physical hazards that make them unsafe to offer as food or chews. Cooked bones — especially poultry, fish, and pork — become brittle when heated and splinter into sharp shards that can lacerate the mouth, throat, oesophagus, stomach, or intestines, potentially causing life-threatening internal injuries. Raw bones are harder and less likely to splinter, but they can fracture teeth and carry dangerous bacterial contamination including Salmonella and Campylobacter, particularly in commercial raw meat diets.",
+  "severity": "cautious",
+  "symptoms": [
+    {
+      "name": "Based on the provided sources and our conversation history, ingesting bones",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Respiratory",
+      "onset": "Immediate (during or right after ingestion).",
+      "name": "Choking",
+      "notes": "Bones, particularly cooked poultry or fish bones, can easily splinter or lodge in the cat's throat, presenting an immediate and life-threatening choking hazard",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "onset": "Immediate to acute (within hours of ingestion).",
+      "name": "Gastrointestinal Obstruction, Laceration, or Perforation",
+      "notes": "Cooked bones become extremely brittle and splinter into sharp shards when chewed2.... These shards can cause severe damage to the mouth and digestive system, leading to internal lacerations, perforations of the intestines, or complete blockages of the gastrointestinal tract2.... Raw bones can also c",
+      "severity": "fatal"
+    },
+    {
+      "name": "Dental Fractures",
+      "notes": "Gnawing on objects that are as hard as or harder than the cat's own teeth, such as dense bones, can cause painful dental fractures",
+      "severity": "severe",
+      "body_system": "Gastrointestinal",
+      "onset": "Immediate (while chewing)."
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "onset": "Variable/Acute (typically within hours to a few days,",
+      "name": "Vomiting and Diarrhea (Foodborne Pathogen Infection)",
+      "notes": "This symptom is specifically associated with the ingestion of raw bones, which frequently harbor dangerous foodborne bacteria such as Salmonella and E. coli16. Ingesting these pathogens leads to gastrointestinal infection and systemic illness",
+      "severity": "severe"
+    }
+  ]
 }

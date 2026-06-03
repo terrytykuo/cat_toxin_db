@@ -9,56 +9,46 @@
       "name": "Not explicitly identified in the provided text. ◦ Note: The plant is categorized as an \"imposter lily\" alongside plants like the Peruvian lily"
     }
   ],
-  "description": "Fire Lily (Clivia miniata), also called Kaffir Lily, is a South African ornamental plant toxic to cats throughout all its parts. It contains lycorine and related phenanthridine alkaloids, with the highest concentration found in the bulb. Lycorine is the same toxin responsible for Amaryllis and Daffodil poisoning in cats, acting directly on the brainstem vomiting centre.",
+  "description": "Fire Lily (Clivia miniata), also called Clivia Lily or Kaffir Lily, is an ornamental plant with strap-like leaves and bright orange flowers. It is toxic to cats. The bulb and lower stem area are the most dangerous parts, but the leaves and flowers should also be kept away from cats.\n\nThe main toxin is lycorine, along with related alkaloids. These compounds strongly irritate the stomach and can also affect blood pressure, the nervous system, and heart rhythm if a larger amount is eaten. Cats are most likely to chew the leaves or dig at the base of a potted plant.\n\nPossible signs include drooling, vomiting, diarrhea, belly pain, low energy, tremors, or wobbliness. Larger exposures can cause low blood pressure, seizures, or heart rhythm problems. Keep Fire Lily plants and bulbs out of reach, and call a veterinarian promptly if your cat chews any part of the plant.",
   "emergencyNote": "Gastrointestinal Decontamination",
   "family": "Amaryllidaceae",
   "isToxic": true,
   "name": "Fire Lily",
   "safetyNotes": [
-    "Toxic compounds: lycorine and related phenanthridine alkaloids; bulb is the most concentrated part",
-    "Mechanism: lycorine stimulates the emetic centre in the brainstem and causes vasodilation at higher doses",
-    "Symptoms: profuse vomiting, diarrhea, drooling, tremors; severe ingestion may cause low blood pressure, convulsions, and CNS depression",
-    "Flowers, leaves, and stems also contain toxins though at lower concentrations than the bulb",
-    "Keep bulbs stored safely out of reach; seek veterinary care promptly if ingestion is suspected"
+    "Main hazard: Lycorine and related alkaloids are most concentrated in the bulb and plant base.",
+    "Symptoms: Drooling, vomiting, diarrhea, belly pain, low energy, tremors, or wobbliness.",
+    "Higher concern: Larger amounts may cause low blood pressure, seizures, or heart rhythm problems.",
+    "Action: Keep plants and bulbs away from cats and call a vet if any part is chewed or eaten."
   ],
   "scientific_name": "Clivia miniata",
   "severity": "toxic",
   "symptoms": [
     {
-      "body_system": "Renal",
-      "name": "Acute Tubular Necrosis / Renal Failure",
-      "notes": "According to one clinical analysis, the Fire Lily is categorized alongside true lilies (Lilium spp.) as causing damage to the renal parenchyma. If untreated, this can progress to anuria (cessation of urine production) and irreversible kidney damage.Gastrointestinal Distress (Initial Signs)",
-      "onset": "36–72 hours (Progression to failure).",
-      "severity": "fatal"
-    },
-    {
+      "name": "Drooling, vomiting, diarrhea, or belly pain",
       "body_system": "Gastrointestinal",
-      "name": "Vomiting and Anorexia (Loss of Appetite)",
-      "notes": "Vomiting is often the first sign of toxicity. While vomiting may temporarily cease, it does not indicate recovery; rather, it may be followed by the progression of systemic signs.Dehydration and Polydipsia",
-      "onset": "Within hours (Early stage).",
-      "severity": "moderate"
+      "severity": "moderate",
+      "onset": "Often begins within a few hours after chewing or ingestion."
     },
     {
-      "body_system": "Renal",
-      "name": "Dehydration and Increased Thirst (Polydipsia)",
-      "notes": "As kidney function is compromised, the cat may show signs of significant dehydration and increased thirst before progressing to the anuric (no urine) phase.Lethargy",
-      "onset": "12–30 hours.",
-      "severity": "severe"
-    },
-    {
+      "name": "Low energy, weakness, tremors, or wobbliness",
       "body_system": "Neurological",
-      "name": "Lethargy / Depression",
-      "notes": "The cat may appear weak or depressed shortly after ingestion, often accompanying the initial gastrointestinal signs.-------------------------------------------------------------------------------- Important Note on Source Discrepancy: While the Clinical Perspectives on Feline Phytotoxicology source",
-      "onset": "Within hours.",
-      "severity": "severe"
+      "severity": "moderate",
+      "onset": "May appear after stomach upset or with larger exposure."
+    },
+    {
+      "name": "Low blood pressure, seizures, or heart rhythm problems",
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "onset": "Possible after larger ingestion, especially bulb material."
     }
   ],
   "toxicParts": [
+    "Bulb",
     "Leaf",
     "Flower",
-    "Pollen"
+    "Stem"
   ],
-  "toxicityLevel": "mild",
+  "toxicityLevel": "moderate",
   "treatments": [
     {
       "description": "If the ingestion was recent (typically within a few hours), the veterinarian may administer medication to induce vomiting (emesis) to remove the plant material from the stomach. This may be followed by the administration of activated charcoal, which binds to any remaining toxins in the gastrointestinal tract to prevent absorption into the bloodstream",

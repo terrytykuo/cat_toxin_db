@@ -21,20 +21,19 @@
       "name": "Triterpenes and Sesquiterpenoid Glycosides"
     }
   ],
-  "description": "Weeping Fig (Ficus benjamina) is one of the most common indoor trees and is toxic to cats. Its milky latex sap contains ficin (a proteolytic enzyme), psoralens (ficusin), and other irritant compounds. Ficus benjamina is also a well-documented allergen — repeated exposure can sensitise cats and cause progressively stronger reactions.",
+  "description": "Ficus plants, including Weeping Fig (Ficus benjamina), are common indoor trees. They are not safe for cats to chew, because the leaves and stems release an irritating milky sap when damaged.\n\nThe sap contains ficin and psoralens, two plant compounds that can irritate the mouth, stomach, and skin. Ficin can bother sensitive tissues, while psoralens may make skin more reactive to light. Repeated contact with ficus sap can also make some animals more sensitive over time.\n\nIf a cat chews ficus leaves or touches the sap, possible signs include drooling, mouth pain, vomiting, diarrhea, skin redness, itching, or swelling. Fallen leaves can still be a chewing risk. Keep ficus plants and dropped leaves away from cats, and contact a veterinarian if symptoms are persistent, spreading, or more than mild.",
   "emergencyNote": "Physical Decontamination (Rinsing and Washing)",
   "family": "Moraceae",
   "isToxic": true,
   "name": "Ficus / Weeping Fig",
   "safetyNotes": [
-    "Toxic compounds: ficin enzyme, psoralens (ficusin), and irritant latex; psoralens may cause photosensitisation with UV exposure",
-    "Mechanism: ficin irritates GI mucosa; psoralens activate under UV light causing skin/tissue damage; repeated latex exposure can trigger allergic reactions",
-    "Symptoms: vomiting, diarrhea, drooling, skin redness or itching from sap contact; allergic cats may develop more severe reactions",
-    "Fallen leaves are also hazardous if chewed; the tree sheds leaves commonly under stress",
-    "Monitor cats around this plant closely; consider relocating it if your cat shows repeated interest"
+    "Main hazard: Milky ficus sap can irritate the mouth, stomach, and skin; repeated contact may make reactions stronger.",
+    "Symptoms: Drooling, mouth pain, vomiting, diarrhea, skin redness, itching, or swelling after sap contact.",
+    "Exposure risk: Fallen leaves can still be chewed, and stressed ficus trees may drop leaves often.",
+    "Action: Keep the plant and fallen leaves away from cats, and call a vet if symptoms spread, persist, or seem more than mild."
   ],
   "scientific_name": "Ficus spp.",
-  "severity": "safe",
+  "severity": "cautious",
   "symptoms": [
     {
       "body_system": "Dermal",

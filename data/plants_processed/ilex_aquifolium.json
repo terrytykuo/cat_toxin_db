@@ -27,60 +27,35 @@
       "name": "Unknown compounds with digitalis-like cardiotonic activity"
     }
   ],
-  "description": "English Holly (Ilex aquifolium) is a common ornamental plant toxic to cats. It contains a complex of irritant saponins (including ilicin), methylxanthine-related compounds, and cyanogens concentrated primarily in the berries and leaves. The bright red berries are particularly attractive to cats and pose the greatest risk.",
+  "description": "English Holly (Ilex aquifolium) is an evergreen shrub often used in landscaping and winter decorations. It is toxic to cats, but most exposures cause low to moderate stomach upset rather than severe poisoning. The leaves and bright berries are the main concern.\n\nThe plant contains saponins, which are soap-like compounds that irritate the stomach and intestines. Berries may tempt curious cats, especially when holiday greenery is brought indoors. Dried decorative branches can still cause problems if chewed.\n\nPossible signs include vomiting, diarrhea, drooling, low energy, or depression. Keep holly plants, wreaths, and fallen berries away from cats. If your cat eats holly berries or chews the plant, contact a veterinarian for advice, especially if symptoms appear or the amount is unknown.",
   "emergencyNote": "Decontamination (Removal and Rinsing)",
   "family": "Aquifoliaceae",
   "isToxic": true,
   "name": "English Holly",
   "safetyNotes": [
-    "Toxic compounds: ilicin and related saponins, methylxanthine-related compounds, trace cyanogens",
-    "Mechanism: saponins cause intense GI mucosal irritation; systemic absorption may affect the central nervous system",
-    "Symptoms: intense nausea, repeated vomiting, diarrhea, lethargy, excessive head shaking; severe ingestion may cause drooling, lip-smacking, CNS depression",
-    "Even 1–2 berries can produce significant symptoms in a cat",
-    "Keep all holly plants — fresh, dried, or decorative — out of reach; seek vet care if ingestion is suspected"
+    "Main hazard: Saponins in leaves and berries can irritate the stomach and intestines.",
+    "Symptoms: Vomiting, diarrhea, drooling, low energy, or depression.",
+    "Holiday risk: Wreaths, cut branches, and fallen berries should be kept away from cats.",
+    "Action: Call a vet if berries are eaten, symptoms appear, or the amount is unknown."
   ],
   "scientific_name": "Ilex aquifolium",
   "severity": "cautious",
   "symptoms": [
     {
+      "name": "Vomiting, diarrhea, or drooling",
       "body_system": "Gastrointestinal",
-      "name": "Vomiting, Diarrhea, and Nausea",
-      "notes": "Saponins in the plant act as a soap-like irritant to the digestive tract. Ingestion of as few as two berries can trigger these symptoms. While usually self-limiting (resolves on its own), severe or persistent vomiting can lead to dehydration requiring veterinary care.Abdominal Pain",
-      "onset": "Acute (Clinical signs typically appear shortly after ingestion,",
-      "severity": "moderate"
+      "severity": "moderate",
+      "onset": "Usually within hours after chewing leaves or berries."
     },
     {
-      "body_system": "Gastrointestinal",
-      "name": "Abdominal Pain",
-      "notes": "The cat may show signs of discomfort such as a tense abdomen or reluctance to move due to the cramping caused by the saponins and other irritants.Excessive Drooling (Hypersalivation)",
-      "onset": "Acute (Associated with the onset of vomiting and diarrhea).",
-      "severity": "mild"
-    },
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Drooling / Hypersalivation",
-      "notes": "This reaction is caused by the chemical irritation of the mouth by saponins, as well as mechanical injury from the sharp, spiny leaves.Lethargy and Depression",
-      "onset": "Immediate to Acute (Upon chewing or swallowing).",
-      "severity": "mild"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Lethargy, Depression, or Decreased Activity",
-      "notes": "Affected cats may appear tired or less active than usual (\"depression\") as a secondary effect of the gastrointestinal distress.Mechanical Injury (Oral Trauma)",
-      "onset": "Associated with the systemic malaise following ingestion.",
-      "severity": "mild"
-    },
-    {
-      "body_system": "Dermal",
-      "name": "Oral Injury / Smack-lipping / Head shaking",
-      "notes": "The rigid, spiny leaves of the holly plant can physically injure a cat's mouth, throat, or esophagus when chewed or swallowed, distinguishing it from soft-leaved toxic plants.",
-      "onset": "Immediate.",
-      "severity": "mild"
+      "name": "Low energy or depression",
+      "body_system": "Other",
+      "severity": "mild",
+      "onset": "May appear with stomach upset."
     }
   ],
   "toxicParts": [
     "Leaf",
-    "Seed",
     "Fruit"
   ],
   "toxicityLevel": "mild",

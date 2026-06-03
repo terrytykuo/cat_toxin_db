@@ -15,20 +15,19 @@
       "name": "Psoralens (specifically ficusin) or furocoumarins"
     }
   ],
-  "description": "Ficus Audrey (Ficus benghalensis), the Indian Banyan tree, is a popular houseplant that is mildly toxic to cats. Like other Ficus species, it produces a milky latex sap containing proteolytic enzymes (ficin) and irritant compounds. These cause gastrointestinal upset when ingested and contact dermatitis when the sap touches skin.",
+  "description": "Ficus Audrey (Ficus benghalensis), also called the Indian banyan, is a popular indoor tree with soft green leaves. It is not a cat-safe plant to chew, even though most exposures are mild.\n\nThe main concern is the milky latex sap inside the leaves and stems. This sap contains ficin, an enzyme that can irritate sensitive tissue, along with other irritating compounds. If a cat bites the plant, the sap can bother the mouth and stomach. If the sap gets on the skin, it can also cause local redness or itching.\n\nPossible signs include mouth irritation, drooling, vomiting, diarrhea, reduced appetite, or skin redness where sap touched the fur or skin. Keep Ficus Audrey out of reach, and wipe away any sap if a stem or leaf breaks. Contact a veterinarian if vomiting continues, skin irritation is strong, or your cat ate more than a small nibble.",
   "emergencyNote": "Decontamination (Oral and Dermal)",
   "family": "Moraceae",
   "isToxic": true,
   "name": "Ficus Audrey",
   "safetyNotes": [
-    "Toxic compounds: ficin (proteolytic enzyme in latex sap), irritant compounds",
-    "Mechanism: ficin directly irritates mucous membranes and the GI tract; latex contact causes localised skin inflammation",
-    "Symptoms: vomiting, diarrhea, drooling, loss of appetite; skin contact with broken stems or leaves may cause redness or rash",
-    "Symptoms are generally mild and self-limiting; seek vet attention if vomiting is severe or prolonged",
-    "Wipe away sap from cat skin promptly; the plant is most hazardous when stems are broken and latex oozes"
+    "Main hazard: Milky latex sap in the leaves and stems can irritate the mouth, stomach, and skin.",
+    "Symptoms: Drooling, mouth discomfort, vomiting, diarrhea, reduced appetite, or skin redness after sap contact.",
+    "Exposure risk: Broken leaves or stems release the most sap, so pruning or damaged plants are more likely to cause contact.",
+    "Action: Keep the plant out of reach, wipe sap from fur or skin, and call a vet if vomiting continues or irritation is strong."
   ],
   "scientific_name": "Ficus benghalensis",
-  "severity": "safe",
+  "severity": "cautious",
   "symptoms": [
     {
       "body_system": "Gastrointestinal",

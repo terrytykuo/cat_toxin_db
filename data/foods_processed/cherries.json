@@ -2,14 +2,6 @@
   "name": "Cherries",
   "aliases": [],
   "category": "food",
-  "toxicParts": [
-    "Pit",
-    "Fruit",
-    "Seed",
-    "Leaf",
-    "Flesh",
-    "Stem"
-  ],
   "chemicals": [
     {
       "name": "The primary toxic substance in cherries",
@@ -117,12 +109,18 @@
     }
   ],
   "toxicityLevel": "low",
-  "severity": "toxic",
+  "severity": "cautious",
   "safetyNotes": [
     "Symptoms (if pits or leaves ingested): Vomiting, rapid or laboured breathing, lethargy, low blood pressure, shock, seizures, and potentially fatal cardiac and respiratory failure.",
     "Safe part: Pitted ripe flesh only — fully remove pit, stem, and any leaves before offering a small piece as a treat.",
     "Physical hazard: Pits pose a choking and intestinal obstruction risk even before releasing cyanide.",
     "Action: Emergency veterinary care if pit, bark, or leaves have been chewed."
   ],
-  "description": "Cherries present a split safety profile for cats. The ripe, pitted fruit flesh is not toxic and is safe in very small amounts. The danger lies in the pits, stems, leaves, and bark, which all contain amygdalin — a cyanogenic glycoside that digestive enzymes convert into hydrogen cyanide (HCN). Cyanide blocks cytochrome c oxidase, the enzyme that enables cells to use oxygen for energy, causing rapid cellular asphyxiation. The heart and brain, with their high oxygen demands, are the first to fail."
+  "description": "The safety of cherries for cats depends on the part of the cherry. The ripe flesh, with the pit removed, is not clearly toxic, and a very small amount usually does not cause serious problems. However, cherries are high in sugar and may still cause digestive upset, so they are not recommended as a treat.\n\nThe real danger comes from the pit, stem, leaves, and bark. These parts contain amygdalin, which can be broken down in the body and produce cyanide. Cyanide interferes with the cells’ ability to use oxygen, preventing the body from producing energy properly. This can quickly affect the heart, brain, breathing, and nervous system.\n\nIf a cat bites into or swallows a cherry pit, or eats the stem, leaves, or bark of a cherry plant, it should be treated as a poisoning risk. Contact a veterinarian as soon as possible.\n",
+  "toxicParts": [
+    "Pit",
+    "Seed",
+    "Leaf",
+    "Stem"
+  ]
 }

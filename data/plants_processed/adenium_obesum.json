@@ -1,83 +1,82 @@
 {
+  "name": "Desert Rose",
   "aliases": [],
   "category": "plant",
-  "chemicals": [
+  "symptoms": [
     {
-      "chemical_formula": null,
-      "concentration_notes": "Present in all parts including the toxic sap.",
-      "description": "Cardioactive steroids that inhibit the Na+/K+ ATPase pump, leading to increased intracellular calcium and severe cardiac arrhythmias.",
-      "name": "Cardiac Glycosides"
+      "name": "Vomiting",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid",
+      "notes": "Early sign within 2 hours."
+    },
+    {
+      "name": "Cardiac Arrhythmias",
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "onset": "Delayed",
+      "notes": "Bradycardia, tachycardia, heart block; can result in sudden death."
+    },
+    {
+      "name": "Hyperkalemia",
+      "body_system": "Metabolic",
+      "severity": "severe",
+      "onset": "Delayed",
+      "notes": "High potassium levels due to pump inhibition."
     }
   ],
-  "description": "Desert Rose (Adenium obesum) is a succulent ornamental plant toxic to cats due to cardenolides — potent cardiac glycosides concentrated throughout the entire plant, including the sap, roots, stems, and flowers. These compounds inhibit the sodium-potassium ATPase pump in heart muscle cells, disrupting the electrical signals that regulate heartbeat rhythm.",
+  "chemicals": [
+    {
+      "name": "Cardiac Glycosides",
+      "chemical_formula": null,
+      "description": "Cardioactive steroids that inhibit the Na+/K+ ATPase pump, leading to increased intracellular calcium and severe cardiac arrhythmias.",
+      "concentration_notes": "Present in all parts including the toxic sap."
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Decontamination",
+      "description": "Induce vomiting and activated charcoal (multiple doses).",
+      "notes": "For asymptomatic patients; avoid if cardiac signs present.",
+      "priority": 1
+    },
+    {
+      "name": "Digoxin-specific Fab Fragments",
+      "description": "Specific antidote to neutralize cardiac glycosides.",
+      "notes": "Use if available for severe toxicity.",
+      "priority": 2
+    },
+    {
+      "name": "Cardiovascular Support",
+      "description": "Anti-arrhythmics (atropine, lidocaine) and monitoring.",
+      "notes": "Manage heart rate and rhythm.",
+      "priority": 3
+    },
+    {
+      "name": "Fluid Therapy",
+      "description": "IV fluids and electrolyte correction.",
+      "notes": "Address hyperkalemia.",
+      "priority": 4
+    }
+  ],
   "emergencyNote": "Decontamination",
+  "scientific_name": "Adenium obesum",
   "family": "Apocynaceae",
   "isToxic": true,
-  "name": "Desert Rose",
+  "toxicityLevel": "mild",
+  "severity": "toxic",
+  "description": "沙漠玫瑰（Adenium obesum）是一種常見的觀賞多肉植物，因為有膨大的莖和鮮豔的花，很常被當作盆栽栽培。不過，沙漠玫瑰對貓有毒，不適合放在貓可能啃咬或碰到汁液的地方。\n\n主要危險來自一類叫做 強心苷 的毒性成分，其中包含 cardenolides。這類物質會影響心臟細胞維持正常電訊號的能力，進而干擾心跳節律。簡單來說，貓吃下後不只是可能腸胃不舒服，也可能影響心臟功能，因此需要特別謹慎。\n\n沙漠玫瑰全株都有毒，包括汁液、根、莖和花。貓誤食後可能出現流口水、嘔吐、腹瀉、食慾下降、精神變差、虛弱、心跳變慢或心律不整等症狀。建議家中有貓時避免擺放沙漠玫瑰，或放在貓完全碰不到、也不會被咬破流汁的地方。若貓誤食任何部位，或接觸汁液後出現不適，請立即聯絡獸醫，尤其不要等到出現心跳異常才處理。",
   "safetyNotes": [
     "Toxic compounds: cardenolides (cardiac glycosides), similar in action to digitalis",
-    "Mechanism: Na+/K+-ATPase inhibition causing cardiac conduction disruption and arrhythmias",
     "Symptoms: drooling, vomiting, diarrhea, lethargy, weakness, abnormal heart rate (bradycardia or arrhythmia), collapse",
     "All parts are toxic; the milky sap poses the greatest risk if ingested or contacted",
     "Even small exposures warrant veterinary assessment due to cardiac risk"
-  ],
-  "scientific_name": "Adenium obesum",
-  "severity": "toxic",
-  "symptoms": [
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Vomiting",
-      "notes": "Early sign within 2 hours.",
-      "onset": "Rapid",
-      "severity": "moderate"
-    },
-    {
-      "body_system": "Cardiac",
-      "name": "Cardiac Arrhythmias",
-      "notes": "Bradycardia, tachycardia, heart block; can result in sudden death.",
-      "onset": "Delayed",
-      "severity": "fatal"
-    },
-    {
-      "body_system": "Metabolic",
-      "name": "Hyperkalemia",
-      "notes": "High potassium levels due to pump inhibition.",
-      "onset": "Delayed",
-      "severity": "severe"
-    }
   ],
   "toxicParts": [
     "Sap",
     "Leaf",
     "Flower",
     "Stem",
-    "Entire Plant"
-  ],
-  "toxicityLevel": "mild",
-  "treatments": [
-    {
-      "description": "Induce vomiting and activated charcoal (multiple doses).",
-      "name": "Decontamination",
-      "notes": "For asymptomatic patients; avoid if cardiac signs present.",
-      "priority": 1
-    },
-    {
-      "description": "Specific antidote to neutralize cardiac glycosides.",
-      "name": "Digoxin-specific Fab Fragments",
-      "notes": "Use if available for severe toxicity.",
-      "priority": 2
-    },
-    {
-      "description": "Anti-arrhythmics (atropine, lidocaine) and monitoring.",
-      "name": "Cardiovascular Support",
-      "notes": "Manage heart rate and rhythm.",
-      "priority": 3
-    },
-    {
-      "description": "IV fluids and electrolyte correction.",
-      "name": "Fluid Therapy",
-      "notes": "Address hyperkalemia.",
-      "priority": 4
-    }
+    "All parts of the plant"
   ]
 }

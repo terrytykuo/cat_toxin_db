@@ -1,92 +1,93 @@
 {
+  "name": "Curly Dock / Sorrel",
   "aliases": [],
   "category": "plant",
-  "chemicals": [
+  "symptoms": [
     {
-      "chemical_formula": "Not explicitly provided in the sources.",
-      "concentration_notes": "◦ Quantity Dependent: Small ingestions usually result only in gastrointestinal upset (vomiting, anorexia). ◦ Large Ingestions Required for Severe Toxicity: Life-threatening signs (such as tetany and kidney failure) typically require the ingestion of large quantities. While this poisoning is more common in livestock grazing on the plants, it can occur in small animals like cats if enough plant mate",
-      "description": "in cats: ◦ Systemic Hypocalcemia: Unlike insoluble oxalates that cause immediate physical pain to the mouth, soluble oxalates are absorbed from the gastrointestinal tract into the bloodstream. Once absorbed, they bind with the body's systemic calcium, leading to a sudden, dangerous drop in calcium levels (hypocalcemia). ◦ Renal Damage: The oxalates can precipitate (crystallize) within the kidneys,",
-      "name": "Soluble Oxalates (specifically described as oxalic acid and oxalate salts)"
+      "name": "Vomiting and Loss of Appetite (Inappetence)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Rapid; these are cited as \"initial clinical signs.\"",
+      "notes": "Small ingestions, such as a nibble, typically result in only these gastrointestinal signs. However, persistent vomiting can also be a sign of developing kidney failure or hypocalcemia.Hypocalcemic Tetany (Tremors and Seizures)"
+    },
+    {
+      "name": "Tremors, Twitching, and Seizures (Tetany)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Rapid following significant absorption.",
+      "notes": "This occurs because soluble oxalates absorb into the blood and bind with systemic calcium, causing a sudden, dangerous drop in calcium levels (hypocalcemia). Symptoms include weakness, ataxia (loss of coordination), and lethargy.Renal Failure"
+    },
+    {
+      "name": "Kidney Failure (Acute Renal Failure)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Delayed (as crystals precipitate in the kidneys).",
+      "notes": "The oxalate crystals can precipitate within the renal tubules, causing physical damage. Signs include increased thirst and urination (PU/PD), followed by a decrease in urine production (oliguria) or complete cessation (anuria).Excessive Drooling"
+    },
+    {
+      "name": "Hypersalivation (Drooling)",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Rapid.",
+      "notes": "This is often seen alongside other early signs of toxicity.Bloody Urine"
+    },
+    {
+      "name": "Hematuria (Bloody Urine)",
+      "body_system": "Renal",
+      "severity": "severe",
+      "onset": "Delayed (associated with renal damage).",
+      "notes": "This symptom indicates damage to the urinary tract or kidneys caused by the filtration of oxalate crystals."
     }
   ],
-  "description": "Curly Dock (Rumex crispus), also called Yellow Dock or Sorrel, is a common garden weed and wild plant found in fields, roadsides, and disturbed soils. It contains soluble oxalates and anthraquinone glycosides. Unlike the insoluble oxalate raphides found in Araceae plants (which cause immediate local pain), soluble oxalates are absorbed into the bloodstream, where they bind calcium, causing hypocalcaemia (low blood calcium), and can form calcium oxalate crystals in the kidneys over repeated exposures.",
+  "chemicals": [
+    {
+      "name": "Soluble Oxalates (specifically described as oxalic acid and oxalate salts)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats: ◦ Systemic Hypocalcemia: Unlike insoluble oxalates that cause immediate physical pain to the mouth, soluble oxalates are absorbed from the gastrointestinal tract into the bloodstream. Once absorbed, they bind with the body's systemic calcium, leading to a sudden, dangerous drop in calcium levels (hypocalcemia). ◦ Renal Damage: The oxalates can precipitate (crystallize) within the kidneys,",
+      "concentration_notes": "◦ Quantity Dependent: Small ingestions usually result only in gastrointestinal upset (vomiting, anorexia). ◦ Large Ingestions Required for Severe Toxicity: Life-threatening signs (such as tetany and kidney failure) typically require the ingestion of large quantities. While this poisoning is more common in livestock grazing on the plants, it can occur in small animals like cats if enough plant mate"
+    }
+  ],
+  "treatments": [
+    {
+      "name": "Induction of Emesis and Administration of Activated Charcoal",
+      "description": "If the ingestion was recent, the veterinarian will induce vomiting (emesis) to remove the plant material from the stomach. This is typically followed by a dose of activated charcoal mixed with a cathartic (a medication to speed up defecation) to bind any remaining toxins in the gastrointestinal tract and prevent absorption.",
+      "notes": "This protocol is recommended for exposures that involve \"more than just a small taste or nibble.\" Small ingestions may only result in mild GI upset, but larger amounts require this aggressive decontamination to prevent systemic toxicity.Intravenous (IV) Fluid Therapy",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous Fluid Diuresis",
+      "description": "The cat is placed on IV fluids for 24 to 48 hours. This helps flush the kidneys (diuresis) and maintains hydration.",
+      "notes": "This step is critical because soluble oxalates can precipitate (crystallize) in the kidneys, potentially causing renal tubular damage and kidney failure. Fluid therapy helps prevent these crystals from forming and damaging the renal tissue.Calcium Replacement (Calcium Gluconate)",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous Calcium Gluconate Administration",
+      "description": "Calcium gluconate is administered directly into the bloodstream to raise calcium levels.",
+      "notes": "Soluble oxalates bind to the body's systemic calcium, leading to hypocalcemia (low calcium). This treatment is specifically indicated if the cat shows signs of hypocalcemia, such as tremors, tetany (involuntary muscle contractions), or seizures.Clinical Monitoring (Renal Indices)",
+      "priority": 3
+    },
+    {
+      "name": "Monitoring of Kidney Function",
+      "description": "The veterinary team will perform blood tests to monitor renal indices (kidney values) throughout the hospitalization period.",
+      "notes": "Because acute renal failure is a potential outcome of soluble oxalate poisoning (though rare in small animals compared to livestock), continuous monitoring is necessary to catch and treat any developing kidney dysfunction early.",
+      "priority": 4
+    }
+  ],
   "emergencyNote": "Induction of Emesis and Administration of Activated Charcoal",
+  "scientific_name": "Rumex spp.",
   "family": "Polygonaceae",
   "isToxic": true,
-  "name": "Curly Dock / Sorrel",
+  "toxicityLevel": "mild",
   "safetyNotes": [
     "Symptoms: Vomiting, diarrhea, lethargy, and muscle tremors from soluble oxalate absorption; dark urine and kidney-related signs with chronic or large ingestion.",
     "Chronic exposure is the greater concern: A single nibble is unlikely to cause serious harm, but cats that repeatedly graze on this weed may develop calcium oxalate nephropathy (kidney damage).",
     "Action: Discourage access if the plant is in your garden. Contact a vet if a cat has consumed a large amount or shows signs of weakness or muscle tremors."
   ],
-  "scientific_name": "Rumex spp.",
-  "severity": "toxic",
-  "symptoms": [
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Vomiting and Loss of Appetite (Inappetence)",
-      "notes": "Small ingestions, such as a nibble, typically result in only these gastrointestinal signs. However, persistent vomiting can also be a sign of developing kidney failure or hypocalcemia.Hypocalcemic Tetany (Tremors and Seizures)",
-      "onset": "Rapid; these are cited as \"initial clinical signs.\"",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Tremors, Twitching, and Seizures (Tetany)",
-      "notes": "This occurs because soluble oxalates absorb into the blood and bind with systemic calcium, causing a sudden, dangerous drop in calcium levels (hypocalcemia). Symptoms include weakness, ataxia (loss of coordination), and lethargy.Renal Failure",
-      "onset": "Rapid following significant absorption.",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Renal",
-      "name": "Kidney Failure (Acute Renal Failure)",
-      "notes": "The oxalate crystals can precipitate within the renal tubules, causing physical damage. Signs include increased thirst and urination (PU/PD), followed by a decrease in urine production (oliguria) or complete cessation (anuria).Excessive Drooling",
-      "onset": "Delayed (as crystals precipitate in the kidneys).",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Hypersalivation (Drooling)",
-      "notes": "This is often seen alongside other early signs of toxicity.Bloody Urine",
-      "onset": "Rapid.",
-      "severity": "moderate"
-    },
-    {
-      "body_system": "Renal",
-      "name": "Hematuria (Bloody Urine)",
-      "notes": "This symptom indicates damage to the urinary tract or kidneys caused by the filtration of oxalate crystals.",
-      "onset": "Delayed (associated with renal damage).",
-      "severity": "severe"
-    }
-  ],
+  "severity": "cautious",
+  "description": "Curly dock (Rumex crispus), also called yellow dock or dock, is a common garden weed and wild plant. It often grows in fields, along roadsides, and in disturbed soil. It is not safe for cats, and cats should not be allowed to chew it or have repeated exposure to it, especially outdoor cats that may encounter it in grassy or roadside areas.\n\nThe main concerns are soluble oxalates and anthraquinone glycosides. Oxalates come in different forms. Some plants contain insoluble oxalate crystals, which usually cause immediate pain and irritation in the mouth. Curly dock, however, contains soluble oxalates, which are more easily absorbed into the body. Once absorbed, they can bind to calcium in the blood and may lead to low calcium levels. With repeated exposure, they may also increase the risk of calcium oxalate crystal formation in the kidneys. Anthraquinone glycosides can also irritate the digestive system and may contribute to diarrhea or discomfort.\n\nIf a cat eats curly dock, possible signs include drooling, vomiting, diarrhea, loss of appetite, and low energy. The risk may be higher if a cat eats a larger amount or already has kidney problems. The leaves, stems, and seeds should all be kept away from cats. Remove curly dock from areas where your cat spends time, and do not offer it as an edible wild plant. If your cat develops clear digestive signs, weakness, tremors, abnormal urination, or if you are unsure how much was eaten, contact a veterinarian promptly.",
   "toxicParts": [
     "Leaf",
-    "Entire Plant"
-  ],
-  "toxicityLevel": "mild",
-  "treatments": [
-    {
-      "description": "If the ingestion was recent, the veterinarian will induce vomiting (emesis) to remove the plant material from the stomach. This is typically followed by a dose of activated charcoal mixed with a cathartic (a medication to speed up defecation) to bind any remaining toxins in the gastrointestinal tract and prevent absorption.",
-      "name": "Induction of Emesis and Administration of Activated Charcoal",
-      "notes": "This protocol is recommended for exposures that involve \"more than just a small taste or nibble.\" Small ingestions may only result in mild GI upset, but larger amounts require this aggressive decontamination to prevent systemic toxicity.Intravenous (IV) Fluid Therapy",
-      "priority": 1
-    },
-    {
-      "description": "The cat is placed on IV fluids for 24 to 48 hours. This helps flush the kidneys (diuresis) and maintains hydration.",
-      "name": "Intravenous Fluid Diuresis",
-      "notes": "This step is critical because soluble oxalates can precipitate (crystallize) in the kidneys, potentially causing renal tubular damage and kidney failure. Fluid therapy helps prevent these crystals from forming and damaging the renal tissue.Calcium Replacement (Calcium Gluconate)",
-      "priority": 2
-    },
-    {
-      "description": "Calcium gluconate is administered directly into the bloodstream to raise calcium levels.",
-      "name": "Intravenous Calcium Gluconate Administration",
-      "notes": "Soluble oxalates bind to the body's systemic calcium, leading to hypocalcemia (low calcium). This treatment is specifically indicated if the cat shows signs of hypocalcemia, such as tremors, tetany (involuntary muscle contractions), or seizures.Clinical Monitoring (Renal Indices)",
-      "priority": 3
-    },
-    {
-      "description": "The veterinary team will perform blood tests to monitor renal indices (kidney values) throughout the hospitalization period.",
-      "name": "Monitoring of Kidney Function",
-      "notes": "Because acute renal failure is a potential outcome of soluble oxalate poisoning (though rare in small animals compared to livestock), continuous monitoring is necessary to catch and treat any developing kidney dysfunction early.",
-      "priority": 4
-    }
+    "Stem",
+    "Seed"
   ]
 }

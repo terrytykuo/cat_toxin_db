@@ -4,10 +4,12 @@
     "African Daisy"
   ],
   "category": "plant",
-  "description": "Gerbera daisies are safe for cats and come in vibrant, neon-like colors. Unlike many other \"daisies\" (like Mums or Chamomile) which are toxic, Gerbera daisies are a cheerful, pet-safe choice.",
+  "description": "Gerbera Daisy (Gerbera jamesonii) is a bright, colorful flower often used in bouquets and potted arrangements. It is considered safe for cats and is not known to contain cat-specific toxins.\n\nThe important detail is identification. Many flowers casually called \"daisies\" are not gerbera daisies, and some of them, such as chrysanthemums or chamomile, can be toxic to cats. The name on a bouquet tag is not always enough, so it is worth checking the actual flower.\n\nIf your cat nibbles a small piece of true gerbera daisy, serious poisoning is not expected. Eating a large amount of any plant can still cause mild vomiting or diarrhea. Keep bouquets tidy, remove fallen petals and leaves, and make sure mixed arrangements do not include lilies, chrysanthemums, or other toxic flowers.",
   "name": "Gerbera Daisy",
   "safetyNotes": [
-    "⚠️ Note: Many other \"daisies\" (Chrysanthemums, Chamomile) ARE toxic to cats. Make sure you're getting true Gerbera daisies."
+    "Cat-safe status: True gerbera daisies are considered non-toxic to cats.",
+    "Identification matters: Chrysanthemums, chamomile, and some other flowers called daisies are toxic to cats.",
+    "Bouquet caution: Check mixed arrangements for lilies or other toxic flowers, and remove fallen petals and leaves."
   ],
   "scientific_name": "Gerbera jamesonii",
   "severity": "safe",

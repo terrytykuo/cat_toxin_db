@@ -1,78 +1,76 @@
 {
+  "name": "Cyclamen",
   "aliases": [],
   "category": "plant",
+  "toxicParts": [
+    "Root"
+  ],
   "chemicals": [
     {
+      "name": "Cyclanin",
       "chemical_formula": null,
-      "concentration_notes": "Highest concentration in the tubers (roots).",
       "description": "A triterpenoid saponin that causes severe irritation and can destroy red blood cells (hemolysis).",
-      "name": "Cyclanin"
+      "concentration_notes": "Highest concentration in the tubers (roots)."
     }
   ],
-  "description": "Cyclamen (Cyclamen spp.) is a popular flowering houseplant, particularly during winter and holidays. All parts are toxic to cats, with the highest concentration of toxic compounds in the underground tubers. The primary toxic agents are triterpenoid saponins, particularly cyclamin, which disrupt cell membranes, irritate the gastrointestinal tract, and in large amounts can affect heart rhythm. Cats that dig at potted Cyclamen and chew on the tubers are at greatest risk of significant poisoning.",
+  "treatments": [
+    {
+      "name": "Decontamination",
+      "description": "Rinse mouth with water to remove irritants.",
+      "notes": "First aid for mouth irritation.",
+      "priority": 1
+    },
+    {
+      "name": "Gastrointestinal Support",
+      "description": "Withhold food/water (fasting) until vomiting stops, then bland diet.",
+      "notes": "For mild cases (leaf ingestion).",
+      "priority": 2
+    },
+    {
+      "name": "Symptomatic Care",
+      "description": "Anti-seizure meds and cardiac support if severe signs develop.",
+      "notes": "Required for tuber ingestion.",
+      "priority": 3
+    }
+  ],
   "emergencyNote": "Decontamination",
+  "scientific_name": "Cyclamen spp.",
   "family": "Primulaceae",
   "isToxic": true,
-  "name": "Cyclamen",
+  "toxicityLevel": "mild",
   "safetyNotes": [
     "Symptoms: Drooling, vomiting, diarrhea, and abdominal pain from mild ingestion; larger amounts can cause irregular heart rhythm, seizures, and in severe cases death.",
     "Tubers are most toxic: The fleshy underground tuber contains the greatest saponin concentration — significantly more than the leaves or flowers.",
     "Action: Seek immediate veterinary care if a cat has chewed on the tuber, or if any cardiac symptoms (weakness, collapse) develop."
   ],
-  "scientific_name": "Cyclamen spp.",
-  "severity": "toxic",
+  "severity": "cautious",
+  "description": "Cyclamen (Cyclamen spp.) is a common flowering houseplant, especially popular in winter and around holidays. Its flowers are bright and attractive, but it is not safe for cats. The entire plant is toxic, and the underground tuber contains the highest concentration of toxic compounds.\n\nThe main concern is a group of plant compounds called triterpenoid saponins, especially cyclamin. These substances can irritate the digestive tract and may disturb the stability of cell surfaces, which is why cats can become quite uncomfortable after eating the plant. Small nibbles of leaves or flowers usually cause mostly digestive signs, but the risk is much higher if a cat digs in the pot and chews or swallows the underground tuber. Large amounts may also affect the heart rhythm and lead to more serious poisoning.\n\nIf a cat eats cyclamen, possible signs include drooling, vomiting, diarrhea, loss of appetite, low energy, and abdominal discomfort. If a larger amount of the tuber is eaten, weakness, abnormal heart rhythm, or more severe reactions may occur. Homes with cats should avoid keeping cyclamen, especially where cats may dig in the soil or chew the plant. If your cat eats any part of cyclamen, particularly the tuber, contact a veterinarian promptly; seek urgent care if repeated vomiting, weakness, or abnormal heartbeat occurs.",
   "symptoms": [
     {
-      "body_system": "Gastrointestinal",
       "name": "Vomiting",
-      "notes": "Often bloody; caused by saponin irritation.",
-      "onset": "Rapid",
-      "severity": "moderate"
-    },
-    {
       "body_system": "Gastrointestinal",
-      "name": "Drooling",
-      "notes": "Hypersalivation due to mouth irritation.",
+      "severity": "moderate",
       "onset": "Rapid",
-      "severity": "mild"
+      "notes": "Often bloody; caused by saponin irritation."
     },
     {
-      "body_system": "Cardiac",
+      "name": "Drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Rapid",
+      "notes": "Hypersalivation due to mouth irritation."
+    },
+    {
       "name": "Cardiac Arrhythmias",
-      "notes": "Associated with tuber ingestion; can be fatal.",
-      "onset": "Delayed",
-      "severity": "severe"
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "notes": "Associated with tuber ingestion; can be fatal."
     },
     {
-      "body_system": "Neurological",
       "name": "Seizures",
-      "notes": "Associated with severe poisoning (tubers).",
-      "onset": "Delayed",
-      "severity": "severe"
-    }
-  ],
-  "toxicParts": [
-    "Root"
-  ],
-  "toxicityLevel": "mild",
-  "treatments": [
-    {
-      "description": "Rinse mouth with water to remove irritants.",
-      "name": "Decontamination",
-      "notes": "First aid for mouth irritation.",
-      "priority": 1
-    },
-    {
-      "description": "Withhold food/water (fasting) until vomiting stops, then bland diet.",
-      "name": "Gastrointestinal Support",
-      "notes": "For mild cases (leaf ingestion).",
-      "priority": 2
-    },
-    {
-      "description": "Anti-seizure meds and cardiac support if severe signs develop.",
-      "name": "Symptomatic Care",
-      "notes": "Required for tuber ingestion.",
-      "priority": 3
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "Associated with severe poisoning (tubers)."
     }
   ]
 }

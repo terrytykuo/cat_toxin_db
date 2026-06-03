@@ -1,95 +1,81 @@
 {
+  "name": "Eggplant",
   "aliases": [],
   "category": "plant",
-  "chemicals": [
-    {
-      "chemical_formula": "Not explicitly provided in the sources.",
-      "concentration_notes": "◦ Green Parts are Most Toxic: The highest concentrations of solanine are found in the green parts of the plant (leaves, stems) and unripe (green) fruit2.... ◦ Peels: The skin or peel of the fruit generally contains higher levels of the toxin than the flesh2. ◦ Feline Sensitivity: Cats are often more sensitive to solanine than dogs because they lack specific liver enzymes (glucuronidation pathways)",
-      "description": "in cats: ◦ Acetylcholinesterase Inhibition: Solanine inhibits the enzyme acetylcholinesterase, which is responsible for breaking down the neurotransmitter acetylcholine. This leads to an accumulation of acetylcholine, causing overstimulation of the parasympathetic nervous system. Clinical signs include excessive drooling (hypersalivation), slow heart rate (bradycardia), muscle tremors, and neurolo",
-      "name": "Solanine. (Sources also mention related alkaloids like α-chaconine and solasodine may be present in nightshade plants"
-    }
-  ],
-  "description": "Eggplant (Solanum melongena) flesh is not acutely toxic to cats, but the plant belongs to the nightshade family and all green parts — including leaves, stems, flowers, and unripe fruit — contain solanine and other glycoalkaloids that can cause GI upset. Ripe eggplant flesh may be offered occasionally, but the cat-specific nutritional benefit is minimal.",
-  "emergencyNote": "Induction of Emesis, Gastric Lavage, and Activated Charcoal",
-  "family": "Solanaceae",
-  "isToxic": false,
-  "name": "Eggplant",
-  "safetyNotes": [
-    "Avoid: leaves, stems, flowers, and unripe fruit — these contain solanine-like glycoalkaloids",
-    "Ripe flesh: relatively safe in small amounts but provides no nutritional value for cats; may still cause mild GI upset",
-    "Never feed seasoned eggplant — garlic, onion, and salt used in cooking are toxic to cats",
-    "If your cat eats a small piece of plain ripe eggplant, monitor for vomiting or diarrhea; no urgent action needed unless symptoms persist"
-  ],
-  "scientific_name": "Solanum melongena",
-  "severity": "toxic",
-  "symptoms": [
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Vomiting, Diarrhea (sometimes bloody), Hypersalivation (Drooling), and Abdominal Pain",
-      "notes": "Solanine has a strong irritating effect on the mucous membranes of the digestive tract, leading to inflammation (gastroenteritis). This is typically the first stage of poisoning.Neurological Disturbances",
-      "onset": "2 to 24 hours after ingestion.",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Lethargy (Apathy/Drowsiness), Ataxia (Incoordination), Tremors, Seizures, and Dilated Pupils",
-      "notes": "The toxin inhibits the enzyme acetylcholinesterase, causing an accumulation of the neurotransmitter acetylcholine. This leads to overstimulation of the nervous system, resulting in confusion, weakness, paralysis, and potentially respiratory paralysis in fatal cases.Cardiac Abnormalities",
-      "onset": "After 2 hours, often following GI symptoms as the toxin is absorbed.",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Cardiac",
-      "name": "Bradycardia (Slow Heart Rate) and Cardiac Arrhythmias",
-      "notes": "High doses disrupt the electrical impulses in the heart. Severe cases can lead to circulatory collapse or cardiac standstill.Respiratory Distress",
-      "onset": "Associated with systemic absorption (hours after ingestion).",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Respiratory",
-      "name": "Difficulty Breathing (Dyspnea) or Respiratory Paralysis",
-      "notes": "Respiratory failure is often the cause of death in fatal cases of nightshade alkaloid poisoning.Hematological and Renal Damage",
-      "onset": "Late stage of severe poisoning.",
-      "severity": "fatal"
-    },
-    {
-      "body_system": "Hematological",
-      "name": "Hemolytic Anemia, Hemoglobinuria (Dark Urine), and Jaundice (Icterus)",
-      "notes": "In severe cases, solanine causes the breakdown of red blood cells (hemolysis). The release of free hemoglobin can damage the kidneys (nephrotoxicity), potentially leading to renal failure.",
-      "onset": "May develop over 24–72 hours.",
-      "severity": "severe"
-    }
-  ],
   "toxicParts": [
-    "Root",
     "Stem",
     "Leaf",
+    "Flower",
     "Fruit"
   ],
-  "toxicityLevel": "low",
+  "symptoms": [
+    {
+      "name": "Drooling, vomiting, diarrhea, or belly pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Usually within a few hours after eating plant parts or a large amount.",
+      "notes": "Green plant parts and unripe fruit are more likely to cause signs than a tiny bite of ripe plain flesh."
+    },
+    {
+      "name": "Low energy, weakness, or wobbliness",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "May follow stomach upset as the toxin is absorbed.",
+      "notes": "These signs are more concerning and should be discussed with a veterinarian."
+    },
+    {
+      "name": "Tremors, seizures, slow heart rate, or trouble breathing",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Uncommon, but possible after larger exposure.",
+      "notes": "Seek urgent veterinary help if any severe signs appear."
+    }
+  ],
+  "chemicals": [
+    {
+      "name": "Solanine. (Sources also mention related alkaloids like α-chaconine and solasodine may be present in nightshade plants",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats: ◦ Acetylcholinesterase Inhibition: Solanine inhibits the enzyme acetylcholinesterase, which is responsible for breaking down the neurotransmitter acetylcholine. This leads to an accumulation of acetylcholine, causing overstimulation of the parasympathetic nervous system. Clinical signs include excessive drooling (hypersalivation), slow heart rate (bradycardia), muscle tremors, and neurolo",
+      "concentration_notes": "◦ Green Parts are Most Toxic: The highest concentrations of solanine are found in the green parts of the plant (leaves, stems) and unripe (green) fruit2.... ◦ Peels: The skin or peel of the fruit generally contains higher levels of the toxin than the flesh2. ◦ Feline Sensitivity: Cats are often more sensitive to solanine than dogs because they lack specific liver enzymes (glucuronidation pathways)"
+    }
+  ],
   "treatments": [
     {
-      "description": "If ingestion was recent (typically within 1–2 hours), the veterinarian may induce vomiting using medication (such as xylazine for cats) to empty the stomach. Alternatively, gastric lavage (stomach pumping) may be performed under anesthesia. This is followed by the administration of activated charcoal (1–4 g/kg) to bind any remaining unabsorbed toxins in the gastrointestinal tract.",
       "name": "Induction of Emesis, Gastric Lavage, and Activated Charcoal",
+      "description": "If ingestion was recent (typically within 1–2 hours), the veterinarian may induce vomiting using medication (such as xylazine for cats) to empty the stomach. Alternatively, gastric lavage (stomach pumping) may be performed under anesthesia. This is followed by the administration of activated charcoal (1–4 g/kg) to bind any remaining unabsorbed toxins in the gastrointestinal tract.",
       "notes": "Decontamination is most effective if performed before clinical signs become severe. Activated charcoal may need to be repeated every 4–6 hours in severe cases due to the nature of the toxin.Intravenous (IV) Fluid Therapy (Diuresis)",
       "priority": 1
     },
     {
-      "description": "The vet administers crystalloid fluids intravenously. This serves two purposes: it corrects dehydration caused by vomiting and diarrhea, and it stimulates diuresis (urination) to help excrete the toxin.",
       "name": "Fluid Replacement and Electrolyte Correction",
+      "description": "The vet administers crystalloid fluids intravenously. This serves two purposes: it corrects dehydration caused by vomiting and diarrhea, and it stimulates diuresis (urination) to help excrete the toxin.",
       "notes": "If hemolysis (breakdown of red blood cells) is present—a severe complication of solanine poisoning—the infusion rate is increased to ensure the kidneys are well-flushed (renal perfusion) to prevent kidney damage from free hemoglobin.Management of Cholinergic Symptoms (Atropine)",
       "priority": 2
     },
     {
-      "description": "Solanine inhibits the enzyme acetylcholinesterase, leading to an overstimulation of the nervous system (cholinergic effects). Atropine may be administered to counteract specific symptoms such as excessive drooling (hypersalivation), slow heart rate (bradycardia), and bronchial secretions.",
       "name": "Administration of Atropine",
+      "description": "Solanine inhibits the enzyme acetylcholinesterase, leading to an overstimulation of the nervous system (cholinergic effects). Atropine may be administered to counteract specific symptoms such as excessive drooling (hypersalivation), slow heart rate (bradycardia), and bronchial secretions.",
       "notes": "There is no specific antidote for solanine poisoning itself; Atropine is used solely to manage these specific cholinergic symptoms.Seizure Control and Respiratory Support",
       "priority": 3
     },
     {
-      "description": "If the cat experiences tremors or seizures, medications like benzodiazepines or barbiturates are administered. In cases of severe respiratory depression or paralysis, the vet will provide supplemental oxygen or mechanical ventilation.",
       "name": "Symptomatic Support (Anticonvulsants and Oxygen Therapy)",
+      "description": "If the cat experiences tremors or seizures, medications like benzodiazepines or barbiturates are administered. In cases of severe respiratory depression or paralysis, the vet will provide supplemental oxygen or mechanical ventilation.",
       "notes": "Neurological signs and respiratory failure are risks in severe poisoning cases. Close monitoring of vital signs is essential throughout treatment.",
       "priority": 4
     }
+  ],
+  "emergencyNote": "Induction of Emesis, Gastric Lavage, and Activated Charcoal",
+  "scientific_name": "Solanum melongena",
+  "family": "Solanaceae",
+  "isToxic": true,
+  "toxicityLevel": "moderate",
+  "description": "Eggplant (Solanum melongena) is the purple vegetable often used in cooking. The ripe, plain flesh is not usually a serious toxin for cats, but it is not a useful food for them and may still upset the stomach. The plant itself should be treated more carefully than the cooked vegetable.\n\nEggplant belongs to the nightshade family. Its leaves, stems, flowers, and unripe green fruit contain solanine and related glycoalkaloids. These compounds can irritate the digestive tract and, in larger amounts, may affect the nervous system and heart. Cooked eggplant dishes can also be unsafe because they often contain garlic, onion, heavy salt, butter, or rich sauces.\n\nIf a cat eats a tiny bite of plain ripe eggplant, watch for drooling, vomiting, diarrhea, low energy, or wobbliness. Keep eggplant plants and unripe fruit away from cats. Call a veterinarian or pet poison helpline promptly if your cat eats leaves, stems, flowers, a large amount of eggplant, or any eggplant cooked with garlic or onion.",
+  "severity": "toxic",
+  "safetyNotes": [
+    "Main risk: Leaves, stems, flowers, and unripe fruit contain solanine-like glycoalkaloids.",
+    "Ripe plain flesh: A tiny bite is usually lower risk, but it has little value for cats and may cause stomach upset.",
+    "Avoid cooked dishes: Garlic, onion, heavy salt, butter, and rich sauces can make eggplant unsafe.",
+    "Action: Call a vet or poison helpline if your cat eats plant parts, a large amount, or develops symptoms."
   ]
 }

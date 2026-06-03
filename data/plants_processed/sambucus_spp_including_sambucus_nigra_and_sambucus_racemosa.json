@@ -1,97 +1,83 @@
 {
+  "name": "Elderberry",
   "aliases": [],
   "category": "plant",
-  "chemicals": [
-    {
-      "chemical_formula": null,
-      "concentration_notes": "◦ High-Risk Parts: The highest concentrations of toxins are found in the stems, leaves, twigs, roots, and raw/unripe berries. ◦ Cooking: While cooking destroys the cyanide-producing compounds making them safer for humans, sources warn that even cooked elderberries may still contain trace toxins harmful to cats due to their smaller size and metabolic sensitivity. ◦ Sensitivity: Cats generally lack ",
-      "description": "in cats: ◦ Metabolic Conversion: When a cat chews or digests the plant material, enzymes hydrolyze the glycosides, releasing free cyanide into the bloodstream. ◦ Cellular Asphyxiation: The cyanide inhibits the enzyme cytochrome c oxidase within the mitochondria. This blocks the electron transport chain, effectively preventing cells from utilizing oxygen (cellular hypoxia), even though the blood is",
-      "name": "Cyanogenic Glycosides (These compounds naturally occur in the plant as a defense mechanism)"
-    }
-  ],
-  "description": "Elderberry (Sambucus spp.) is a shrub whose leaves, bark, stems, and unripe berries are toxic to cats due to cyanogenic glycosides — primarily sambunigrin. When these compounds are metabolised, they release hydrogen cyanide (HCN), which blocks cellular respiration. Even ripe elderberries contain trace amounts of these glycosides, making the entire plant hazardous for cats.",
-  "emergencyNote": "Induction of Emesis (Vomiting) and Activated Charcoal",
-  "family": "Adoxaceae",
-  "isToxic": true,
-  "name": "Elderberry",
-  "safetyNotes": [
-    "Toxic compounds: sambunigrin and related cyanogenic glycosides; concentrated in leaves, bark, and unripe berries",
-    "Mechanism: sambunigrin is enzymatically converted to HCN, which inhibits cytochrome c oxidase and halts cellular energy production",
-    "Symptoms: nausea, vomiting, diarrhea, weakness, drooling; severe exposure may cause rapid breathing, convulsions, and collapse",
-    "Unripe berries and all green parts are most dangerous; ripe berries carry lower but non-zero risk",
-    "Do not feed elderberries or elderberry products to cats; contact a vet immediately if ingestion is suspected"
-  ],
-  "scientific_name": "Sambucus spp. including Sambucus nigra and Sambucus racemosa",
-  "severity": "toxic",
-  "symptoms": [
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Vomiting, Diarrhea, Nausea, and Drooling (Hypersalivation)",
-      "notes": "This is often the first sign of toxicity. The unripe/raw berries and vegetative parts (stems/leaves) are the most potent irritants.Neurological Impairment",
-      "onset": "Quickly after ingestion.",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Lethargy, Weakness, Dizziness, Drowsiness, and Seizures",
-      "notes": "Severe cases involving large ingestions can progress to seizures, tremors, and unresponsiveness (coma). This occurs because cyanide prevents cells from utilizing oxygen (cellular hypoxia).Respiratory Distress",
-      "onset": "Rapid (Cyanide toxicity typically manifests within minutes to an hour).",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Respiratory",
-      "name": "Rapid Breathing (Tachypnea) or Difficulty Breathing (Dyspnea)",
-      "notes": "Respiratory distress is a hallmark of cyanide poisoning. The cat may pant or gasp for air because, despite the blood being oxygenated, the cells cannot absorb the oxygen.Systemic Collapse and Death",
-      "onset": "Rapid.",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Cardiac",
-      "name": "Collapse, Shock, and Death",
-      "notes": "While death is less common if only a few berries are eaten, ingestion of high-risk parts (roots, stems) or large amounts of raw berries can result in fatal cardiovascular collapse or respiratory failure.Cyanide-Specific Signs (Mucous Membranes)",
-      "onset": "Rapid.",
-      "severity": "fatal"
-    },
-    {
-      "body_system": "Hematological",
-      "name": "Bright Red Gums (Brick Red Mucous Membranes) and Dilated Pupils",
-      "notes": "Unlike other toxicities that cause pale gums, cyanide poisoning can cause gums to appear bright red because the oxygen in the blood is not being used by the tissues (venous blood remains oxygenated).",
-      "onset": "10–60 minutes (General timeline for cyanogenic glycosides).",
-      "severity": "severe"
-    }
-  ],
   "toxicParts": [
+    "Root",
     "Stem",
     "Bark",
     "Seed",
     "Leaf",
     "Fruit"
   ],
-  "toxicityLevel": "mild",
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea, nausea, or drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Can appear soon after eating plant parts, uncooked berries, or supplements.",
+      "notes": "Stomach upset is the most likely sign in companion animals."
+    },
+    {
+      "name": "Low energy, weakness, or belly discomfort",
+      "body_system": "Other",
+      "severity": "moderate",
+      "onset": "May appear with or after stomach upset.",
+      "notes": "These signs deserve veterinary advice, especially if the amount eaten is unknown."
+    },
+    {
+      "name": "Fast breathing, tremors, seizures, or collapse",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Unusual, but possible after larger exposure.",
+      "notes": "Treat these as urgent signs and seek veterinary help immediately."
+    }
+  ],
+  "chemicals": [
+    {
+      "name": "Cyanogenic Glycosides (These compounds naturally occur in the plant as a defense mechanism)",
+      "chemical_formula": null,
+      "description": "in cats: ◦ Metabolic Conversion: When a cat chews or digests the plant material, enzymes hydrolyze the glycosides, releasing free cyanide into the bloodstream. ◦ Cellular Asphyxiation: The cyanide inhibits the enzyme cytochrome c oxidase within the mitochondria. This blocks the electron transport chain, effectively preventing cells from utilizing oxygen (cellular hypoxia), even though the blood is",
+      "concentration_notes": "◦ High-Risk Parts: The highest concentrations of toxins are found in the stems, leaves, twigs, roots, and raw/unripe berries. ◦ Cooking: While cooking destroys the cyanide-producing compounds making them safer for humans, sources warn that even cooked elderberries may still contain trace toxins harmful to cats due to their smaller size and metabolic sensitivity. ◦ Sensitivity: Cats generally lack "
+    }
+  ],
   "treatments": [
     {
-      "description": "If the ingestion is recent and the cat is neurologically stable (not having seizures or comatose), the veterinarian will administer medication to induce vomiting to remove the plant material from the stomach. This is typically followed by the administration of activated charcoal with a cathartic to bind any remaining toxins in the gastrointestinal tract and speed their transit out of the body.",
       "name": "Induction of Emesis (Vomiting) and Activated Charcoal",
+      "description": "If the ingestion is recent and the cat is neurologically stable (not having seizures or comatose), the veterinarian will administer medication to induce vomiting to remove the plant material from the stomach. This is typically followed by the administration of activated charcoal with a cathartic to bind any remaining toxins in the gastrointestinal tract and speed their transit out of the body.",
       "notes": "Decontamination is most effective when performed promptly. Owners should not try to induce vomiting at home without specific veterinary instructions, as it can cause further harm.Administration of Cyanide Antidotes",
       "priority": 1
     },
     {
-      "description": "In cases of severe poisoning where cyanide has been released into the bloodstream, specific antidotes are administered. Sodium nitrite helps convert hemoglobin to cyanomethemoglobin (which binds cyanide), followed by sodium thiosulfate, which converts cyanide into thiocyanate (a less toxic substance excreted in urine). Alternatively, hydroxycobalamin may be used to bind cyanide to form Vitamin B12",
       "name": "Cyanide Antidote Therapy (Sodium Nitrite, Sodium Thiosulfate, or Hydroxycobalamin)",
+      "description": "In cases of severe poisoning where cyanide has been released into the bloodstream, specific antidotes are administered. Sodium nitrite helps convert hemoglobin to cyanomethemoglobin (which binds cyanide), followed by sodium thiosulfate, which converts cyanide into thiocyanate (a less toxic substance excreted in urine). Alternatively, hydroxycobalamin may be used to bind cyanide to form Vitamin B12",
       "notes": "This step is critical for life-threatening cases where the cat is showing signs of hypoxia (lack of oxygen) or severe distress. Clinical signs of cyanide toxicity can develop rapidly (within 15–60 minutes).Oxygen Therapy and Respiratory Support",
       "priority": 2
     },
     {
-      "description": "Because cyanide prevents the body's cells from using oxygen, the cat may experience severe respiratory distress. The vet will provide supplemental oxygen via a mask or cage. In critical cases where the cat cannot breathe adequately on its own, mechanical ventilation may be required.",
       "name": "Oxygen Supplementation or Mechanical Ventilation",
+      "description": "Because cyanide prevents the body's cells from using oxygen, the cat may experience severe respiratory distress. The vet will provide supplemental oxygen via a mask or cage. In critical cases where the cat cannot breathe adequately on its own, mechanical ventilation may be required.",
       "notes": "This treatment addresses the \"tissue hypoxia\" caused by the toxin. Even if the blood is fully oxygenated, the cells cannot use it, so high-flow oxygen support is often necessary alongside antidotes.Metabolic Correction and Fluid Therapy",
       "priority": 3
     },
     {
-      "description": "IV fluids are administered to maintain blood pressure, support kidney function, and help excrete the detoxified cyanide compounds (thiocyanate). If the cat is suffering from metabolic acidosis (acidic blood pH due to the toxin), sodium bicarbonate is administered to correct the pH balance.",
       "name": "Intravenous (IV) Fluids and Sodium Bicarbonate",
+      "description": "IV fluids are administered to maintain blood pressure, support kidney function, and help excrete the detoxified cyanide compounds (thiocyanate). If the cat is suffering from metabolic acidosis (acidic blood pH due to the toxin), sodium bicarbonate is administered to correct the pH balance.",
       "notes": "Fluid replacement is also essential to treat dehydration resulting from the vomiting and diarrhea commonly caused by elderberry ingestion.",
       "priority": 4
     }
-  ]
+  ],
+  "emergencyNote": "Induction of Emesis (Vomiting) and Activated Charcoal",
+  "scientific_name": "Sambucus spp. including Sambucus nigra and Sambucus racemosa",
+  "family": "Adoxaceae",
+  "isToxic": true,
+  "toxicityLevel": "moderate",
+  "severity": "toxic",
+  "safetyNotes": [
+    "Main risk: Plant parts and uncooked berries contain cyanide-containing glycosides and irritating terpenoids.",
+    "Avoid supplements: Do not give elderberry syrup, gummies, tea, or capsules unless a vet specifically directs it.",
+    "Symptoms: Vomiting, diarrhea, drooling, low energy, or belly discomfort are the most likely signs.",
+    "Action: Call a vet or poison helpline after plant-part, raw-berry, or supplement ingestion, especially if the amount is unknown."
+  ],
+  "description": "Elderberry (Sambucus spp.) is a shrub or small tree with clusters of white flowers and dark, blue, or red berries. It should not be given to cats. Plant parts, uncooked berries, and elderberry supplements can upset a cat's stomach and may be unsafe.\n\nThe concern is a mix of cyanogenic glycosides, which can release small amounts of cyanide, and irritating terpenoid compounds. Leaves, stems, bark, roots, seeds, and unripe or uncooked berries are higher-risk parts. For cats and other companion animals, vomiting and diarrhea are more likely than true cyanide poisoning, but large amounts or concentrated supplements still need urgent veterinary advice.\n\nPossible signs include drooling, vomiting, diarrhea, belly discomfort, weakness, or low energy. More serious signs such as fast breathing, tremors, seizures, or collapse are unusual but possible after a larger exposure. Keep elderberry plants, raw berries, syrups, gummies, and supplements away from cats, and call a veterinarian or pet poison helpline if ingestion is suspected."
 }

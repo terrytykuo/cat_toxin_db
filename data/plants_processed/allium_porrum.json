@@ -10,14 +10,14 @@
     "description": "Brief Description: Leek (Allium porrum) is a vegetable in the onion family. It is a bulbous plant with broad, flat leaves."
   },
   "toxic_parts": [
-    "Entire Plant"
+    "All parts of the plant"
   ],
   "toxins": [
     {
       "name": "N-propyl disulfide (also referred to generally as organosulfur compounds or sulfur compounds)",
       "chemical_formula": null,
-      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Oxidative Damage: These compounds cause oxidative damage to the cat's red blood cells.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Heinz Body Formation: This damage leads to the formation of Heinz bodies (clumps of denatured hemoglobin) within the red blood cells.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Hemolysis: The damaged cells are prematurely removed and destroyed by the spleen (a process called hemolysis). This results in hemolytic anemia, a condition where the blood can no longer effectively transport oxygen.\n4. Notes on",
-      "concentration_notes": "\u25e6 Risk Level: Leeks are classified as having a \"Moderate to High\" potential risk for toxicity.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Preparation: The plants remain toxic regardless of preparation; leeks are dangerous whether they are raw, cooked, dehydrated, or powdered.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Susceptibility: Cats are noted to be more susceptible to Allium toxicity than dogs due to their unique hemoglobin structure.\u2022 Clinical Perspectives on Feline Phytotoxicology: A Comprehensive Analysis of Botanical Hazards in Domestic and Horticultural Environments12\n\u2022 What Can\u2019t Cats Eat? 8 Toxic Foods for Cats3\n\u2022 10 Foods that are Dangerous for Cats"
+      "description": "in cats:\n    ◦ Oxidative Damage: These compounds cause oxidative damage to the cat's red blood cells.\n    ◦ Heinz Body Formation: This damage leads to the formation of Heinz bodies (clumps of denatured hemoglobin) within the red blood cells.\n    ◦ Hemolysis: The damaged cells are prematurely removed and destroyed by the spleen (a process called hemolysis). This results in hemolytic anemia, a condition where the blood can no longer effectively transport oxygen.\n4. Notes on",
+      "concentration_notes": "◦ Risk Level: Leeks are classified as having a \"Moderate to High\" potential risk for toxicity.\n    ◦ Preparation: The plants remain toxic regardless of preparation; leeks are dangerous whether they are raw, cooked, dehydrated, or powdered.\n    ◦ Susceptibility: Cats are noted to be more susceptible to Allium toxicity than dogs due to their unique hemoglobin structure.• Clinical Perspectives on Feline Phytotoxicology: A Comprehensive Analysis of Botanical Hazards in Domestic and Horticultural Environments12\n• What Can’t Cats Eat? 8 Toxic Foods for Cats3\n• 10 Foods that are Dangerous for Cats"
     }
   ],
   "symptoms": [

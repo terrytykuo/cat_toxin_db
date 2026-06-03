@@ -8,7 +8,7 @@
   "sources": [],
   "toxic_parts": [
     "Seed",
-    "Fruit",
+    "Fruit / berry",
     "Skin",
     "Flesh"
   ],
@@ -22,7 +22,7 @@
     {
       "name": "Hydrogen Cyanide is HCN",
       "chemical_formula": null,
-      "description": "in cats: Amygdalin itself is not directly toxic; however, when a cat chews or crushes apple seeds, the compound mixes with \u03b2-glucosidase enzymes (present in the plant tissue and the intestinal microbiota)24. These enzymes hydrolyze the amygdalin, releasing hydrogen cyanide into the cat's system24. Cyanide is a highly lethal neurotoxin that binds to the active site of cytochrome c oxidase, a key enzyme containing ferric ions in the mitochondrial electron transport chain25. This binding completely halts cellular oxygen metabolism and ATP (energy) production, leading to rapid cellular death that primarily strikes organs with the highest oxygen demands, such as the brain and the heart25.\nAny notes on concentration or potency: Apple seeds naturally contain an amygdalin concentration of about 3 g/kg6. The overall cyanogenic potential of apple seeds is roughly 690 mg of hydrogen cyanide per kilogram of seed material7. The hydrogen cyanide released from this compound is extremely potent; the fatal oral dose is generally estimated to be between 0.6 and 1.5 mg/kg of body weight",
+      "description": "in cats: Amygdalin itself is not directly toxic; however, when a cat chews or crushes apple seeds, the compound mixes with β-glucosidase enzymes (present in the plant tissue and the intestinal microbiota)24. These enzymes hydrolyze the amygdalin, releasing hydrogen cyanide into the cat's system24. Cyanide is a highly lethal neurotoxin that binds to the active site of cytochrome c oxidase, a key enzyme containing ferric ions in the mitochondrial electron transport chain25. This binding completely halts cellular oxygen metabolism and ATP (energy) production, leading to rapid cellular death that primarily strikes organs with the highest oxygen demands, such as the brain and the heart25.\nAny notes on concentration or potency: Apple seeds naturally contain an amygdalin concentration of about 3 g/kg6. The overall cyanogenic potential of apple seeds is roughly 690 mg of hydrogen cyanide per kilogram of seed material7. The hydrogen cyanide released from this compound is extremely potent; the fatal oral dose is generally estimated to be between 0.6 and 1.5 mg/kg of body weight",
       "concentration_notes": "or potency: Apple seeds naturally contain an amygdalin concentration of about 3 g/kg6. The overall cyanogenic potential of apple seeds is roughly 690 mg of hydrogen cyanide per kilogram of seed material7. The hydrogen cyanide released from this compound is extremely potent; the fatal oral dose is generally estimated to be between 0.6 and 1.5 mg/kg of body weight"
     }
   ],
@@ -72,7 +72,7 @@
     },
     {
       "name": "Early Gastrointestinal Decontamination (Induction of Emesis)",
-      "description": "of the procedure: A veterinarian administers a specific medication (such as an \u03b1\n2\n\t\u200b\n\n-adrenergic agonist like dexmedetomidine) to safely force the cat to vomit, expelling the toxic apple seeds from the stomach before further cyanide can be released and absorbed23.\nAny situation-specific",
+      "description": "of the procedure: A veterinarian administers a specific medication (such as an α\n2\n\t​\n\n-adrenergic agonist like dexmedetomidine) to safely force the cat to vomit, expelling the toxic apple seeds from the stomach before further cyanide can be released and absorbed23.\nAny situation-specific",
       "notes": "This intervention is the primary goal if the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic3. Under no circumstances should pet owners attempt to use 3% hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated for cats and can cause fatal hemorrhagic gastritis",
       "priority": 2
     },

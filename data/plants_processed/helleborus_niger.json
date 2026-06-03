@@ -1,92 +1,92 @@
 {
+  "name": "Christmas Rose",
   "aliases": [],
   "category": "plant",
   "chemicals": [
     {
+      "name": "Cardiac glycosides. (Specific glycosides like hellebrin are not explicitly named in the provided text, but the class of compounds is identified)",
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "◦ Severity: The effects of cardiac glycosides can be fatal. Veterinary intervention is required to manage heart rate and electrolyte changes.• Holiday Toxins | Pet Poison Helpline®1",
       "description": "in cats: ◦ Cardiovascular System: These toxins disrupt the heart's natural rhythm and rate. They can cause electrolyte imbalances and lead to cardiac arrhythmias (irregular heartbeat). ◦ Neurological Effects: The sources note these compounds can also cause hallucinations. 4. Notes on",
-      "name": "Cardiac glycosides. (Specific glycosides like hellebrin are not explicitly named in the provided text, but the class of compounds is identified)"
+      "concentration_notes": "◦ Severity: The effects of cardiac glycosides can be fatal. Veterinary intervention is required to manage heart rate and electrolyte changes.• Holiday Toxins | Pet Poison Helpline®1"
     },
     {
+      "name": "Irritating saps (The specific chemical components, such as protoanemonin, are not explicitly named in the text",
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "◦ Clinical Presentation: The irritation is severe enough that the vomit and diarrhea may often contain blood.• Holiday Toxins | Pet Poison Helpline®1",
       "description": "in cats: ◦ Direct Irritation: The sap acts as a contact irritant to the mucous membranes of the mouth and gastrointestinal tract. ◦ Clinical Effect: Ingestion leads to excessive drooling (hypersalivation) and persistent gastrointestinal distress, specifically vomiting and diarrhea. 4. Notes on",
-      "name": "Irritating saps (The specific chemical components, such as protoanemonin, are not explicitly named in the text"
+      "concentration_notes": "◦ Clinical Presentation: The irritation is severe enough that the vomit and diarrhea may often contain blood.• Holiday Toxins | Pet Poison Helpline®1"
     }
   ],
-  "description": "Christmas Rose (Helleborus niger) is a popular winter garden and holiday houseplant with elegant white flowers, but all parts of the plant are toxic to cats. It contains several classes of toxic compounds: bufadienolide cardiac glycosides (including hellebrin), which disrupt the heart's electrical system; and ranunculin, which converts to protoanemonin (a potent irritant) when the plant is damaged. Even small amounts can cause significant symptoms, and the cardiac effects make this plant particularly dangerous.",
+  "treatments": [
+    {
+      "name": "Administration of Antiarrhythmics, Atropine, or Digoxin-Specific Antibody Fragments",
+      "description": "The veterinarian may administer Atropine to treat a dangerously slow heart rate (bradycardia) or antiarrhythmic drugs (such as Lidocaine or Procainamide) to control irregular heartbeats. In severe cases, Digoxin-specific antibody fragments (Fab) may be used as an antidote to bind and neutralize the cardiac toxins in the blood.",
+      "notes": "This is the most urgent priority because the cardiac glycosides in Christmas Rose can cause fatal arrhythmias and heart failure. The plant's toxins are structurally similar to the heart drug digoxin, allowing the specific antidote (Fab) to be effective.Correction of Electrolyte Imbalances (Hyperkale",
+      "priority": 1
+    },
+    {
+      "name": "Hyperkalemia Management (Insulin/Dextrose or Sodium Bicarbonate)",
+      "description": "If blood tests reveal dangerously high potassium levels (hyperkalemia), the vet may administer insulin and dextrose (sugar) or sodium bicarbonate intravenously to drive potassium back into the cells and lower blood levels.",
+      "notes": "Cardiac glycosides inhibit the sodium-potassium cellular pumps, causing potassium to accumulate outside the cells. Severe hyperkalemia (> 7.5–9 mEq/L) is life-threatening and requires immediate correction.Gastrointestinal Decontamination",
+      "priority": 2
+    },
+    {
+      "name": "Induction of Emesis and Activated Charcoal",
+      "description": "If the cat is stable and ingestion was recent, the vet may induce vomiting (emesis) to remove plant material. This is followed by the administration of activated charcoal, often in repeated doses (every 6–8 hours), to bind the toxins in the gut and prevent them from entering the bloodstream.",
+      "notes": "Repeated doses of charcoal are recommended because cardiac glycosides undergo enterohepatic recirculation (they are recycled through the liver and bile), meaning the body can re-absorb the toxin even after it has been processed once.Fluid Therapy and Symptomatic Support",
+      "priority": 3
+    },
+    {
+      "name": "Intravenous (IV) Fluids and Gastroprotectants",
+      "description": "The administration of IV fluids to maintain hydration and blood pressure, along with medications to stop vomiting (anti-emetics) and coat the stomach (gastroprotectants).",
+      "notes": "The saps in Christmas Rose are highly irritating and cause persistent vomiting and diarrhea, which may contain blood. Aggressive fluid support is necessary to prevent dehydration and support organ function while the severe irritation heals.",
+      "priority": 4
+    }
+  ],
   "emergencyNote": "Administration of Antiarrhythmics, Atropine, or Digoxin-Specific Antibody Fragments",
+  "scientific_name": "Helleborus niger",
   "family": "Ranunculaceae",
   "isToxic": true,
-  "name": "Christmas Rose",
+  "toxicityLevel": "mild",
+  "severity": "toxic",
   "safetyNotes": [
     "Symptoms: Severe drooling, vomiting, diarrhea, and abdominal pain; cardiac arrhythmia, abnormal heart rate, and low blood pressure; central nervous system depression in serious cases.",
     "All parts are toxic: Roots and rhizomes contain the highest concentrations, but leaves, stems, and flowers also pose a risk.",
     "Action: Seek veterinary care promptly — cardiac effects can develop quickly, and early treatment significantly improves outcomes."
   ],
-  "scientific_name": "Helleborus niger",
-  "severity": "toxic",
   "symptoms": [
     {
-      "body_system": "Gastrointestinal",
       "name": "Excessive drooling",
-      "notes": "The plant contains saps that cause direct irritation to the mouth and digestive tract.Gastrointestinal Distress (Vomiting and Diarrhea)",
-      "severity": "moderate"
-    },
-    {
       "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "The plant contains saps that cause direct irritation to the mouth and digestive tract.Gastrointestinal Distress (Vomiting and Diarrhea)"
+    },
+    {
       "name": "Persistent vomiting and diarrhea",
-      "notes": "Unlike mild stomach upset, the vomiting and diarrhea associated with Christmas Rose are described as persistent and often contain blood, indicating severe irritation or damage to the gastrointestinal lining.Cardiac Abnormalities",
-      "severity": "severe"
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "notes": "Unlike mild stomach upset, the vomiting and diarrhea associated with Christmas Rose are described as persistent and often contain blood, indicating severe irritation or damage to the gastrointestinal lining.Cardiac Abnormalities"
     },
     {
-      "body_system": "Cardiac",
       "name": "Changes in heart rate and rhythm (Arrhythmias)",
-      "notes": "The plant contains cardiac glycosides, which disrupt the heart's electrical impulses. These toxins can be fatal if untreated.Hallucinations",
-      "severity": "fatal"
+      "body_system": "Cardiac",
+      "severity": "fatal",
+      "notes": "The plant contains cardiac glycosides, which disrupt the heart's electrical impulses. These toxins can be fatal if untreated.Hallucinations"
     },
     {
-      "body_system": "Neurological",
       "name": "Hallucinations",
-      "notes": "This is a distinct neurological symptom associated with the specific toxins found in the Christmas Rose.Electrolyte Imbalances",
-      "severity": "severe"
+      "body_system": "Neurological",
+      "severity": "severe",
+      "notes": "This is a distinct neurological symptom associated with the specific toxins found in the Christmas Rose.Electrolyte Imbalances"
     },
     {
-      "body_system": "Hematological",
       "name": "Electrolyte imbalances",
-      "notes": "Cardiac glycosides interfere with cellular ion channels, leading to dangerous shifts in electrolytes that affect heart and nerve function.",
-      "severity": "severe"
+      "body_system": "Hematological",
+      "severity": "severe",
+      "notes": "Cardiac glycosides interfere with cellular ion channels, leading to dangerous shifts in electrolytes that affect heart and nerve function."
     }
   ],
+  "description": "Christmas rose (Helleborus niger) is a common ornamental plant in winter gardens and holiday decorations. Its white flowers may look elegant, but the entire plant is toxic to cats, including the flowers, leaves, stems, and roots.\n\nChristmas rose contains toxic compounds that can affect the heart, as well as substances that can irritate the mouth and digestive tract. If a cat bites or eats the plant, it may develop drooling, vomiting, diarrhea, abdominal pain, and lethargy. In more serious cases, the toxins may disturb the cat’s heartbeat, causing abnormal heart rhythms and potentially life-threatening effects.\n\nBecause Christmas rose can cause both digestive irritation and heart problems, even a small amount should be treated as a possible poisoning risk. If you think your cat has eaten any part of Christmas rose, contact a veterinarian as soon as possible.",
   "toxicParts": [
-    "Sap"
-  ],
-  "toxicityLevel": "mild",
-  "treatments": [
-    {
-      "description": "The veterinarian may administer Atropine to treat a dangerously slow heart rate (bradycardia) or antiarrhythmic drugs (such as Lidocaine or Procainamide) to control irregular heartbeats. In severe cases, Digoxin-specific antibody fragments (Fab) may be used as an antidote to bind and neutralize the cardiac toxins in the blood.",
-      "name": "Administration of Antiarrhythmics, Atropine, or Digoxin-Specific Antibody Fragments",
-      "notes": "This is the most urgent priority because the cardiac glycosides in Christmas Rose can cause fatal arrhythmias and heart failure. The plant's toxins are structurally similar to the heart drug digoxin, allowing the specific antidote (Fab) to be effective.Correction of Electrolyte Imbalances (Hyperkale",
-      "priority": 1
-    },
-    {
-      "description": "If blood tests reveal dangerously high potassium levels (hyperkalemia), the vet may administer insulin and dextrose (sugar) or sodium bicarbonate intravenously to drive potassium back into the cells and lower blood levels.",
-      "name": "Hyperkalemia Management (Insulin/Dextrose or Sodium Bicarbonate)",
-      "notes": "Cardiac glycosides inhibit the sodium-potassium cellular pumps, causing potassium to accumulate outside the cells. Severe hyperkalemia (> 7.5–9 mEq/L) is life-threatening and requires immediate correction.Gastrointestinal Decontamination",
-      "priority": 2
-    },
-    {
-      "description": "If the cat is stable and ingestion was recent, the vet may induce vomiting (emesis) to remove plant material. This is followed by the administration of activated charcoal, often in repeated doses (every 6–8 hours), to bind the toxins in the gut and prevent them from entering the bloodstream.",
-      "name": "Induction of Emesis and Activated Charcoal",
-      "notes": "Repeated doses of charcoal are recommended because cardiac glycosides undergo enterohepatic recirculation (they are recycled through the liver and bile), meaning the body can re-absorb the toxin even after it has been processed once.Fluid Therapy and Symptomatic Support",
-      "priority": 3
-    },
-    {
-      "description": "The administration of IV fluids to maintain hydration and blood pressure, along with medications to stop vomiting (anti-emetics) and coat the stomach (gastroprotectants).",
-      "name": "Intravenous (IV) Fluids and Gastroprotectants",
-      "notes": "The saps in Christmas Rose are highly irritating and cause persistent vomiting and diarrhea, which may contain blood. Aggressive fluid support is necessary to prevent dehydration and support organ function while the severe irritation heals.",
-      "priority": 4
-    }
+    "All parts of the plant"
   ]
 }

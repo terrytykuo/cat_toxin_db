@@ -4,8 +4,13 @@
     "Prairie Gentian"
   ],
   "category": "plant",
-  "description": "Lisianthus flowers resemble roses with their ruffled, layered petals but are completely non-toxic to cats. They come in gorgeous shades of purple, pink, white, and cream.",
+  "description": "Lisianthus (Eustoma grandiflorum), also called Texas bluebell or prairie gentian, is a bouquet flower with soft, layered petals that can look a little like roses. It is considered safe for cats and is not known to contain cat-specific toxins.\n\nThat said, safe does not mean it is a snack. Eating a large amount of any plant material can still upset a cat's stomach, and cut flowers may come with floral preservatives, pesticides, ribbons, or other bouquet materials that are not meant for cats.\n\nIf your cat nibbles a small piece of lisianthus, it is usually enough to monitor at home for mild vomiting or diarrhea. Keep bouquets tidy, remove fallen petals and leaves, and check the rest of the arrangement carefully because lilies and other toxic flowers are sometimes mixed into bouquets.",
   "name": "Lisianthus",
+  "safetyNotes": [
+    "Cat-safe status: Lisianthus is considered non-toxic to cats.",
+    "Possible mild issue: Eating a large amount of any plant can still cause mild vomiting or diarrhea.",
+    "Bouquet caution: Check mixed bouquets for lilies or other toxic flowers, and keep floral preservatives, ribbons, and fallen plant pieces away from cats."
+  ],
   "scientific_name": "Eustoma grandiflorum",
   "severity": "safe",
   "symptoms": [],

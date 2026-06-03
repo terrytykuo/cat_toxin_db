@@ -9,63 +9,52 @@
       "name": "Eucalyptus Essential Oil"
     }
   ],
-  "description": "Eucalyptus is toxic to cats due to its high concentration of essential oils — primarily eucalyptol (1,8-cineole) and other terpene compounds — found throughout the leaves, bark, and stems. Cats lack the hepatic enzymes needed to metabolize these oils efficiently, allowing toxic levels to accumulate and cause systemic effects.",
+  "description": "Eucalyptus (Eucalyptus spp.) includes aromatic trees and shrubs often used as fresh stems, dried decor, or essential oil products. It is toxic to cats, and concentrated eucalyptus oil is the biggest concern.\n\nThe main danger comes from essential oils, especially eucalyptol (1,8-cineole) and related terpene compounds. Cats do not process these oils efficiently, so exposure can irritate the stomach, skin, and airways and may also affect the nervous system. Eating leaves is a risk, but licking oil from fur or breathing concentrated diffuser mist can be more serious.\n\nPossible signs include drooling, vomiting, diarrhea, weakness, low energy, an unsteady walk, coughing, or trouble breathing. Severe oil exposure can lead to tremors, seizures, or liver stress. Keep eucalyptus plants, dried stems, oils, sprays, and diffusers away from cats. If oil gets on your cat's fur or your cat eats eucalyptus, contact a veterinarian promptly.",
   "emergencyNote": "Surface Decontamination and Oral Rinsing",
   "family": "Myrtaceae",
   "isToxic": true,
   "name": "Eucalyptus",
   "safetyNotes": [
-    "Toxic compounds: eucalyptol (1,8-cineole), terpenes; present in fresh leaves, dried leaves, and all essential oil products",
-    "Mechanism: impaired hepatic metabolism in cats allows eucalyptol to accumulate, causing CNS depression, GI irritation, and liver stress",
-    "Symptoms: drooling, vomiting, diarrhea, lethargy, weakness, unsteady gait (ataxia); severe cases may include respiratory depression",
-    "Eucalyptus essential oil diffusers are also a risk — airborne oil particles can cause respiratory irritation and systemic exposure",
-    "Seek veterinary care promptly; eucalyptus oil ingestion can progress to serious toxicity quickly in cats"
+    "Main hazard: Eucalyptol and other essential oil compounds can irritate the stomach, skin, airways, and nervous system.",
+    "Symptoms: Drooling, vomiting, diarrhea, weakness, lethargy, unsteady walking, coughing, or trouble breathing.",
+    "Highest-risk forms: Essential oils, diffusers, sprays, and oil on the fur are more concerning than a small nibble of dried plant material.",
+    "Action: Keep eucalyptus products away from cats and call a vet promptly after ingestion, oil contact, or breathing symptoms."
   ],
   "scientific_name": "Eucalyptus spp.",
   "severity": "toxic",
   "symptoms": [
     {
+      "name": "Drooling, vomiting, or diarrhea",
       "body_system": "Gastrointestinal",
-      "name": "Vomiting, Diarrhea, and Excessive Drooling (Hypersalivation)",
-      "notes": "Drooling is often the first sign, caused by the burning sensation of the oil in the mouth or nausea. Vomiting helps expel the toxin but can lead to dehydration.Neurological Depression and Disturbances",
-      "onset": "Rapid (Clinical signs often appear quickly after ingestion or contact).",
-      "severity": "moderate"
+      "severity": "moderate",
+      "onset": "Often begins soon after ingestion or oil contact."
     },
     {
+      "name": "Low energy, weakness, unsteady walking, tremors, or seizures",
       "body_system": "Neurological",
-      "name": "Lethargy, Depression, Ataxia (walking as if drunk/uncoordinated), Tremors, and Seizures",
-      "notes": "Essential oils are rapidly absorbed. Because cats lack the liver enzyme (glucuronyl transferase) needed to break down these compounds, toxins build up, depressing the central nervous system. Severe cases can lead to collapse or coma.Respiratory Distress",
-      "onset": "Acute (Shortly after exposure).",
-      "severity": "severe"
+      "severity": "severe",
+      "onset": "Can appear after larger ingestion or concentrated oil exposure."
     },
     {
+      "name": "Coughing, wheezing, or trouble breathing",
       "body_system": "Respiratory",
-      "name": "Difficulty Breathing (Dyspnea), Wheezing, or Coughing",
-      "notes": "Inhalation of strong vapors from diffusers can irritate the airways, causing an inflammatory response. This is particularly dangerous for cats with pre-existing conditions like feline asthma.Dermal Irritation",
-      "onset": "Rapid (Especially if the oil is inhaled via a diffuser or aspirated during vomiting).",
-      "severity": "severe"
+      "severity": "severe",
+      "onset": "Can occur quickly with diffuser mist, sprays, or aspiration during vomiting."
     },
     {
+      "name": "Skin redness or soreness after oil contact",
       "body_system": "Dermal",
-      "name": "Chemical Burns, Redness, and Soreness",
-      "notes": "Essential oils are highly potent and can burn the skin upon direct contact. Cats may also ingest the oil while grooming the irritated area, leading to systemic poisoning.Hepatic (Liver) Failure",
-      "onset": "Immediate upon contact.",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Hepatic",
-      "name": "Liver Damage / Failure",
-      "notes": "This is the most serious long-term risk of essential oil exposure. Signs may include jaundice (yellowing of eyes/gums) and progressive weakness.",
-      "onset": "Delayed (May develop over days as the body fails to metabolize the toxins).",
-      "severity": "fatal"
+      "severity": "moderate",
+      "onset": "Soon after direct contact with oil or sap."
     }
   ],
   "toxicParts": [
-    "Root",
+    "Leaf",
+    "Stem",
     "Bark",
-    "Flower"
+    "Essential Oil"
   ],
-  "toxicityLevel": "mild",
+  "toxicityLevel": "moderate",
   "treatments": [
     {
       "description": "◦ Dermal: If the cat has essential oil on its skin or fur, the veterinarian (or owner under instruction) will bathe the cat using liquid dish soap and lukewarm water to remove the oil before it is absorbed through the skin or ingested during grooming. ◦ Oral: If ingested, the vet may rinse the cat's mouth with water to remove residues.",

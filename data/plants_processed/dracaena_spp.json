@@ -1,101 +1,100 @@
 {
+  "name": "Dracaena",
   "aliases": [],
   "category": "plant",
-  "chemicals": [
-    {
-      "chemical_formula": "Not explicitly provided in the sources.",
-      "concentration_notes": "◦ Severity: The toxicity is generally classified as mild to moderate1.... ◦ Location: Found in all parts of the plant, including leaves and stalks",
-      "description": "in cats: ◦ Gastrointestinal Irritation: These compounds irritate the gastrointestinal tract, leading to drooling, vomiting (occasionally with blood), and diarrhea2.... ◦ Neurological/Ocular Effect: In cats specifically, these toxins can cause dilated pupils (mydriasis), which is a distinctive sign of Dracaena poisoning alongside depression and weakness1.... 4. Notes on",
-      "name": "Steroidal Saponins (also referred to as steroidal glycosides)"
-    },
-    {
-      "chemical_formula": "Not explicitly provided in the sources.",
-      "concentration_notes": "◦ Location: Specifically noted to be found in the leaves",
-      "description": "in cats: ◦ These compounds contribute to the plant's ability to cause significant gastrointestinal irritation, manifesting as vomiting and severe diarrhea4. 4. Notes on",
-      "name": "Alkaloids (specific types not named in the text)"
-    },
-    {
-      "chemical_formula": "Not explicitly provided in the sources.",
-      "concentration_notes": "◦ Location: Found in the leaves",
-      "description": "in cats: ◦ Works in conjunction with alkaloids and saponins to cause gastrointestinal irritation4. 4. Notes on",
-      "name": "Resin"
-    }
-  ],
-  "description": "Dracaena (Dracaena spp.) is a large genus of popular indoor plants — including Dracaena marginata, D. fragrans (Corn Plant), and D. trifasciata (Snake Plant) — all of which are toxic to cats. The genus contains steroidal saponins in its leaves and stems that interfere with cell membranes and cause gastrointestinal upset.",
-  "emergencyNote": "Decontamination (Removal of Plant Material)",
-  "family": "Agavaceae",
-  "isToxic": true,
-  "name": "Dracaena",
-  "safetyNotes": [
-    "Toxic compounds: steroidal saponins (consistent across the genus)",
-    "Mechanism: membrane disruption causing GI irritation; neurological effects possible at higher doses",
-    "Symptoms: vomiting (sometimes with blood), drooling, loss of appetite, weakness, dilated pupils",
-    "Cats are notably sensitive to the pupil-dilating (mydriatic) effect of Dracaena saponins",
-    "All parts of the plant are toxic; remove from areas accessible to cats and seek vet care if significant ingestion occurs"
-  ],
-  "scientific_name": "Dracaena spp.",
-  "severity": "toxic",
-  "symptoms": [
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Vomiting (occasionally with blood/hematemesis) and Diarrhea",
-      "notes": "The plant contains saponins which irritate the digestive tract. In cats specifically, the vomiting may occasionally contain blood, a symptom noted particularly for the Dragon Tree (Dracaena marginata) and Corn Plant (Dracaena fragrans).Dilated Pupils (Mydriasis)",
-      "onset": "Not explicitly stated in the sources,",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Dilated Pupils",
-      "notes": "This is a distinctive sign of Dracaena poisoning in cats, often appearing alongside gastrointestinal symptoms. It distinguishes this toxicity from simple mechanical irritation caused by other plants.Excessive Drooling (Hypersalivation)",
-      "onset": "Associated with the acute phase of toxicity (time not explicitly stated).",
-      "severity": "moderate"
-    },
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Drooling / Ptyalism",
-      "notes": "Saponins and resins in the leaves cause oral and mucosal irritation, leading to increased saliva production.Depression and Weakness",
-      "onset": "Acute (shortly after chewing/ingesting).",
-      "severity": "mild"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Depression, Lethargy, Weakness, or Incoordination (Ataxia)",
-      "notes": "Affected cats may appear \"drunk,\" wobbly, or simply inactive (anorexia/depression) due to the systemic effects of the alkaloids and saponins.",
-      "onset": "Acute phase.",
-      "severity": "moderate"
-    }
-  ],
   "toxicParts": [
     "Bark",
     "Stem",
     "Leaf",
     "Entire Plant"
   ],
-  "toxicityLevel": "mild",
+  "symptoms": [
+    {
+      "name": "Vomiting (occasionally with blood/hematemesis) and Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "Not explicitly stated in the sources,",
+      "notes": "The plant contains saponins which irritate the digestive tract. In cats specifically, the vomiting may occasionally contain blood, a symptom noted particularly for the Dragon Tree (Dracaena marginata) and Corn Plant (Dracaena fragrans).Dilated Pupils (Mydriasis)"
+    },
+    {
+      "name": "Dilated Pupils",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Associated with the acute phase of toxicity (time not explicitly stated).",
+      "notes": "This is a distinctive sign of Dracaena poisoning in cats, often appearing alongside gastrointestinal symptoms. It distinguishes this toxicity from simple mechanical irritation caused by other plants.Excessive Drooling (Hypersalivation)"
+    },
+    {
+      "name": "Drooling / Ptyalism",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Acute (shortly after chewing/ingesting).",
+      "notes": "Saponins and resins in the leaves cause oral and mucosal irritation, leading to increased saliva production.Depression and Weakness"
+    },
+    {
+      "name": "Depression, Lethargy, Weakness, or Incoordination (Ataxia)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Acute phase.",
+      "notes": "Affected cats may appear \"drunk,\" wobbly, or simply inactive (anorexia/depression) due to the systemic effects of the alkaloids and saponins."
+    }
+  ],
+  "chemicals": [
+    {
+      "name": "Steroidal Saponins (also referred to as steroidal glycosides)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats: ◦ Gastrointestinal Irritation: These compounds irritate the gastrointestinal tract, leading to drooling, vomiting (occasionally with blood), and diarrhea2.... ◦ Neurological/Ocular Effect: In cats specifically, these toxins can cause dilated pupils (mydriasis), which is a distinctive sign of Dracaena poisoning alongside depression and weakness1.... 4. Notes on",
+      "concentration_notes": "◦ Severity: The toxicity is generally classified as mild to moderate1.... ◦ Location: Found in all parts of the plant, including leaves and stalks"
+    },
+    {
+      "name": "Alkaloids (specific types not named in the text)",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats: ◦ These compounds contribute to the plant's ability to cause significant gastrointestinal irritation, manifesting as vomiting and severe diarrhea4. 4. Notes on",
+      "concentration_notes": "◦ Location: Specifically noted to be found in the leaves"
+    },
+    {
+      "name": "Resin",
+      "chemical_formula": "Not explicitly provided in the sources.",
+      "description": "in cats: ◦ Works in conjunction with alkaloids and saponins to cause gastrointestinal irritation4. 4. Notes on",
+      "concentration_notes": "◦ Location: Found in the leaves"
+    }
+  ],
   "treatments": [
     {
-      "description": "Immediate removal of any remaining plant fragments from the cat's mouth. This may involve wiping out the mouth to ensure no residue remains that could continue to release toxins.",
       "name": "Decontamination (Removal of Plant Material)",
+      "description": "Immediate removal of any remaining plant fragments from the cat's mouth. This may involve wiping out the mouth to ensure no residue remains that could continue to release toxins.",
       "notes": "This is the first step to prevent further ingestion and irritation. It is recommended for all Dracaena species, including the Dragon Tree (Dracaena marginata) and Corn Plant (Dracaena fragrans).",
       "priority": 1
     },
     {
-      "description": "Veterinary administration of fluids to correct dehydration and electrolyte imbalances resulting from vomiting and diarrhea.",
       "name": "Fluid Therapy and Electrolyte Correction",
+      "description": "Veterinary administration of fluids to correct dehydration and electrolyte imbalances resulting from vomiting and diarrhea.",
       "notes": "This is the primary specific treatment listed in veterinary toxicology resources for Dracaena ingestion, as the plant's saponins can cause significant gastrointestinal irritation leading to fluid loss.",
       "priority": 2
     },
     {
-      "description": "Offering the cat a small amount of water or milk to dilute the stomach contents.",
       "name": "Dilution",
+      "description": "Offering the cat a small amount of water or milk to dilute the stomach contents.",
       "notes": "This step is specifically noted for the Dragon Tree (Dracaena marginata) to help reduce gastric irritation. General advice for Dracaena species also includes encouraging hydration.",
       "priority": 3
     },
     {
-      "description": "Administration of medications to alleviate specific clinical signs, such as anti-emetics to stop vomiting.",
       "name": "Symptomatic Medication",
+      "description": "Administration of medications to alleviate specific clinical signs, such as anti-emetics to stop vomiting.",
       "notes": "Dracaena toxicity is generally \"self-limiting,\" meaning it often resolves on its own. However, medication is recommended if the cat has consumed a \"large amount,\" is very weak, refuses to eat, or if symptoms are persistent.",
       "priority": 4
     }
+  ],
+  "emergencyNote": "Decontamination (Removal of Plant Material)",
+  "scientific_name": "Dracaena spp.",
+  "family": "Agavaceae",
+  "isToxic": true,
+  "toxicityLevel": "mild",
+  "severity": "toxic",
+  "description": "Dracaena (Dracaena spp.) is a large group of common indoor foliage plants, including dragon tree (Dracaena marginata), corn plant (D. fragrans), and snake plant (D. trifasciata). These plants are popular because they are easy to care for, but they are not safe for cats and should not be placed where cats can chew them.\n\nThe main concern comes from steroidal saponins found in the leaves and stems. These are natural plant compounds that can irritate a cat’s digestive system and may disturb the stability of cell surfaces. After ingestion, cats may develop stomach and intestinal upset. In some Dracaena-related poisonings, signs such as enlarged pupils or poor coordination may also occur.\n\nIf a cat eats a Dracaena plant, possible signs include drooling, vomiting, diarrhea, loss of appetite, and low energy. Some cats may also show enlarged pupils or unsteady movement. The leaves and stems are the most common sources of exposure, and contact with plant sap should also be avoided. Homes with cats should avoid keeping Dracaena plants, or place them somewhere the cat truly cannot reach. If your cat has chewed the leaves or shows signs of illness, contact a veterinarian promptly.",
+  "safetyNotes": [
+    "Toxic compounds: steroidal saponins (consistent across the genus)",
+    "Mechanism: membrane disruption causing GI irritation; neurological effects possible at higher doses",
+    "Symptoms: vomiting (sometimes with blood), drooling, loss of appetite, weakness, dilated pupils",
+    "Cats are notably sensitive to the pupil-dilating (mydriatic) effect of Dracaena saponins"
   ]
 }

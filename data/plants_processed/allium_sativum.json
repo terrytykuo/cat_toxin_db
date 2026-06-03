@@ -8,14 +8,14 @@
   "basics": {},
   "toxic_parts": [
     "Bulb",
-    "Entire Plant"
+    "All parts of the plant"
   ],
   "toxins": [
     {
       "name": "N-propyl disulfide (part of a group of sulfur compounds found in Allium species)",
       "chemical_formula": null,
-      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Oxidative Damage: These sulfur compounds cause oxidative damage to the hemoglobin within red blood cells.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Heinz Body Formation: This damage leads to the formation of Heinz bodies (clumps of denatured hemoglobin) on the red blood cells.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Hemolysis: The spleen removes these damaged cells prematurely, leading to their destruction (hemolysis). This results in hemolytic anemia, where the blood can no longer effectively transport oxygen.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: The plant compounds also directly irritate the gastrointestinal mucosa, causing vomiting and diarrhea.",
-      "concentration_notes": "\u25e6 High Potency: Garlic is considered to be approximately five times more toxic than onions.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Toxic Dose: Ingestion of garlic weighing as little as 0.5% of the cat's body weight can be toxic.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Concentrated Forms: Garlic powder and dried garlic are particularly dangerous because they are potent, concentrated forms of the toxin. All forms (raw, cooked, dried) remain toxic.\u2022 Clinical Perspectives on Feline Phytotoxicology1\n\u2022 Dangerous Foods for Cats - FOUR PAWS2\n\u2022 What Can't Cats Eat? 8 Toxic Foods for Cats - PetMD3\n\u2022 10 Foods that are Dangerous for Cats | Anicira"
+      "description": "in cats:\n    ◦ Oxidative Damage: These sulfur compounds cause oxidative damage to the hemoglobin within red blood cells.\n    ◦ Heinz Body Formation: This damage leads to the formation of Heinz bodies (clumps of denatured hemoglobin) on the red blood cells.\n    ◦ Hemolysis: The spleen removes these damaged cells prematurely, leading to their destruction (hemolysis). This results in hemolytic anemia, where the blood can no longer effectively transport oxygen.\n    ◦ Gastrointestinal Irritation: The plant compounds also directly irritate the gastrointestinal mucosa, causing vomiting and diarrhea.",
+      "concentration_notes": "◦ High Potency: Garlic is considered to be approximately five times more toxic than onions.\n    ◦ Toxic Dose: Ingestion of garlic weighing as little as 0.5% of the cat's body weight can be toxic.\n    ◦ Concentrated Forms: Garlic powder and dried garlic are particularly dangerous because they are potent, concentrated forms of the toxin. All forms (raw, cooked, dried) remain toxic.• Clinical Perspectives on Feline Phytotoxicology1\n• Dangerous Foods for Cats - FOUR PAWS2\n• What Can't Cats Eat? 8 Toxic Foods for Cats - PetMD3\n• 10 Foods that are Dangerous for Cats | Anicira"
     }
   ],
   "symptoms": [

@@ -1,19 +1,45 @@
 {
+  "name": "Dahlia",
   "aliases": [],
   "category": "plant",
+  "toxicParts": [
+    "Leaf",
+    "Flower",
+    "Stem"
+  ],
   "chemicals": [
     {
+      "name": "Unidentified Irritants",
       "chemical_formula": null,
-      "concentration_notes": "Present in flowers and foliage.",
       "description": "Substances that cause gastrointestinal upset and skin irritation.",
-      "name": "Unidentified Irritants"
+      "concentration_notes": "Present in flowers and foliage."
     }
   ],
-  "description": "Dahlia (Dahlia spp.) is a common garden flowering plant that is mildly toxic to cats. The plant contains irritant compounds — including sesquiterpene lactones — primarily in the leaves and stem. These substances cause gastrointestinal irritation and, with skin contact, mild dermatitis.",
+  "treatments": [
+    {
+      "name": "Decontamination",
+      "description": "Induce vomiting if recent ingestion.",
+      "notes": "Purge plant material.",
+      "priority": 1
+    },
+    {
+      "name": "Dermal Cleansing",
+      "description": "Bath with mild soap to remove sap/irritants.",
+      "notes": "Crucial for dermatitis.",
+      "priority": 2
+    },
+    {
+      "name": "Supportive Care",
+      "description": "Fluids and anti-emetics for GI symptoms.",
+      "notes": "Symptomatic relief.",
+      "priority": 3
+    }
+  ],
   "emergencyNote": "Decontamination",
+  "scientific_name": "Dahlia pinnata",
   "family": "Asteraceae",
   "isToxic": true,
-  "name": "Dahlia",
+  "toxicityLevel": "mild",
   "safetyNotes": [
     "Toxic compounds: sesquiterpene lactones and unidentified irritant components",
     "Mechanism: direct mucosal and GI irritation",
@@ -21,48 +47,20 @@
     "All above-ground parts carry some irritant potential; flower petals are least concentrated",
     "Symptoms are usually mild and self-limiting, but contact your vet if your cat ingests a large quantity"
   ],
-  "scientific_name": "Dahlia pinnata",
-  "severity": "safe",
+  "description": "Dahlia (Dahlia spp.) is a common garden flowering plant that is mildly toxic to cats. The plant contains irritant compounds primarily in the leaves and stem. These substances cause gastrointestinal irritation and, with skin contact, mild dermatitis.",
+  "severity": "cautious",
   "symptoms": [
     {
-      "body_system": "Gastrointestinal",
       "name": "Gastrointestinal Upset",
-      "notes": "Vomiting and diarrhea.",
-      "onset": "Unknown",
-      "severity": "mild"
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "notes": "Vomiting and diarrhea."
     },
     {
-      "body_system": "Dermal",
       "name": "Dermatitis",
-      "notes": "Skin irritation upon contact or ingestion.",
-      "onset": "Unknown",
-      "severity": "mild"
-    }
-  ],
-  "toxicParts": [
-    "Leaf",
-    "Flower",
-    "Stem"
-  ],
-  "toxicityLevel": "mild",
-  "treatments": [
-    {
-      "description": "Induce vomiting if recent ingestion.",
-      "name": "Decontamination",
-      "notes": "Purge plant material.",
-      "priority": 1
-    },
-    {
-      "description": "Bath with mild soap to remove sap/irritants.",
-      "name": "Dermal Cleansing",
-      "notes": "Crucial for dermatitis.",
-      "priority": 2
-    },
-    {
-      "description": "Fluids and anti-emetics for GI symptoms.",
-      "name": "Supportive Care",
-      "notes": "Symptomatic relief.",
-      "priority": 3
+      "body_system": "Dermal",
+      "severity": "mild",
+      "notes": "Skin irritation upon contact or ingestion."
     }
   ]
 }

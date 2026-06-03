@@ -1,93 +1,93 @@
 {
+  "name": "Corn Plant",
   "aliases": [],
   "category": "plant",
+  "toxicParts": [
+    "Leaf",
+    "Entire Plant"
+  ],
   "chemicals": [
     {
+      "name": "Steroidal Saponins (often referred to simply as saponins)",
       "chemical_formula": null,
-      "concentration_notes": "◦ Moderate Toxicity: The plant is generally considered moderately toxic. While usually not fatal, the symptoms can be distressing. ◦ Location: These toxins are found in the leaves and stems.",
       "description": "in cats: ◦ Gastrointestinal Irritation: Saponins act as irritants to the gastrointestinal tract, leading to symptoms like vomiting (sometimes with blood) and diarrhea. ◦ Neurological/Systemic Effects: In cats specifically, these compounds can cause dilated pupils (mydriasis), breathing difficulties, depression, and increased heart rate. 4. Notes on",
-      "name": "Steroidal Saponins (often referred to simply as saponins)"
+      "concentration_notes": "◦ Moderate Toxicity: The plant is generally considered moderately toxic. While usually not fatal, the symptoms can be distressing. ◦ Location: These toxins are found in the leaves and stems."
     },
     {
+      "name": "Unknown Alkaloids and Resins",
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "◦ Presence: These are listed alongside saponins as toxic principles found in the leaves of Dracaena species.",
       "description": "in cats: ◦ General Toxicity: Alongside saponins, these compounds contribute to the general gastrointestinal distress and physiological signs observed in poisoned animals. 4. Notes on",
-      "name": "Unknown Alkaloids and Resins"
+      "concentration_notes": "◦ Presence: These are listed alongside saponins as toxic principles found in the leaves of Dracaena species."
     }
   ],
-  "description": "Corn Plant (Dracaena fragrans), also known as Dracaena or False Palm, is one of the most common office and indoor plants — and one of the most frequent causes of plant-related cat poisoning. Despite its ordinary appearance, it contains steroidal saponins that are toxic to cats. The exact mechanism is not fully understood, but ingestion causes distinctive symptoms that include not just gastrointestinal distress but also neurological signs such as dilated pupils. The sap from leaves and stems is the primary route of exposure.",
+  "treatments": [
+    {
+      "name": "Removal of Plant Material / Oral Decontamination",
+      "description": "The veterinarian (or owner under guidance) should gently wipe out the cat's mouth to remove any remaining plant residue that may be causing local irritation. If the ingestion was very recent, the veterinarian may induce vomiting (emesis) to expel the plant material from the stomach before it is fully absorbed.",
+      "notes": "Wiping the mouth helps reduce oral pain and drooling. Inducing vomiting is a standard protocol for recent plant ingestion but should be performed by a professional to avoid aspiration, especially if the cat is already vomiting or lethargic.Fluid Therapy (Rehydration)",
+      "priority": 1
+    },
+    {
+      "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
+      "description": "Fluids are administered to correct dehydration and stabilize electrolyte levels.",
+      "notes": "This is critical because Corn Plant ingestion frequently causes vomiting (which may occasionally contain blood) and diarrhea, leading to significant fluid loss and electrolyte imbalances.Symptomatic Medication (Anti-emetics)",
+      "priority": 2
+    },
+    {
+      "name": "Administration of Anti-emetics and Gastroprotectants",
+      "description": "Medications are given to stop persistent vomiting (anti-emetics) and to coat or soothe the stomach lining (gastroprotectants) to relieve irritation.",
+      "notes": "Since the saponins in Dracaena plants cause gastrointestinal irritation, these medications help alleviate the primary symptoms of distress and prevent further damage to the esophagus from chronic vomiting.Clinical Monitoring (Neurological Observation)",
+      "priority": 3
+    },
+    {
+      "name": "Observation for Systemic Signs",
+      "description": "The veterinary team will monitor the cat for specific physiological changes until they resolve.",
+      "notes": "Cats specifically may exhibit dilated pupils, depression, incoordination, or weakness after ingesting Dracaena species. Close monitoring ensures these neurological and systemic signs subside along with the gastrointestinal symptoms.",
+      "priority": 4
+    }
+  ],
   "emergencyNote": "Removal of Plant Material / Oral Decontamination",
+  "scientific_name": "Dracaena fragrans",
   "family": "Agavaceae",
   "isToxic": true,
-  "name": "Corn Plant",
+  "toxicityLevel": "mild",
+  "severity": "cautious",
   "safetyNotes": [
     "Symptoms: Vomiting (sometimes with blood or foam), loss of appetite, excessive drooling, dilated pupils, and lethargy; depression and weakness in more significant exposures.",
     "Dilated pupils are a distinguishing sign: This neurological effect distinguishes Dracaena toxicity from simple GI irritation and warrants veterinary evaluation.",
     "Action: Contact a vet if vomiting is prolonged or if dilated pupils appear. Keep the plant out of reach — its widely available nature makes it a disproportionately common source of exposure."
   ],
-  "scientific_name": "Dracaena fragrans",
-  "severity": "cautious",
+  "description": "Corn plant (Dracaena fragrans), also known as fragrant dracaena, is one of the most common office and indoor houseplants. Although it may look like an ordinary decorative plant, it is not safe for cats and is a common cause of plant-related poisoning.\n\nThe main concern is a group of natural plant compounds called steroidal saponins. These compounds help protect the plant, but when a cat eats them, they can irritate the digestive system and may also affect the nervous system. The exact way they cause poisoning in cats is not fully understood, but ingestion is known to cause a recognizable set of signs.\n\nIf a cat chews the leaves or stems of a corn plant and is exposed to the plant sap, it may develop drooling, vomiting, loss of appetite, low energy, or other signs of stomach upset. Some cats may also show enlarged pupils, poor coordination, or unusual behavior. The sap in the leaves and stems is the main source of concern. Homes with cats should avoid keeping corn plants, or place them somewhere the cat truly cannot reach. If your cat has chewed the plant or shows symptoms, contact a veterinarian promptly.",
   "symptoms": [
     {
-      "body_system": "Gastrointestinal",
       "name": "Vomiting (Hematemesis)",
-      "notes": "Vomiting is a primary symptom, and in cats specifically, it may occasionally contain blood. The plant also causes loss of appetite (anorexia).Dilated Pupils",
-      "severity": "moderate"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Dilated Pupils (Mydriasis)",
-      "notes": "This symptom is a specific reaction often seen in cats exposed to Dracaena species, distinguishing it from many other general plant toxicities.Excessive Drooling",
-      "severity": "moderate"
-    },
-    {
       "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "Vomiting is a primary symptom, and in cats specifically, it may occasionally contain blood. The plant also causes loss of appetite (anorexia).Dilated Pupils"
+    },
+    {
+      "name": "Dilated Pupils (Mydriasis)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "This symptom is a specific reaction often seen in cats exposed to Dracaena species, distinguishing it from many other general plant toxicities.Excessive Drooling"
+    },
+    {
       "name": "Drooling (Hypersalivation)",
-      "notes": "This occurs due to oral irritation and nausea caused by the saponins found in the plant.Depression and Lethargy",
-      "severity": "moderate"
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "This occurs due to oral irritation and nausea caused by the saponins found in the plant.Depression and Lethargy"
     },
     {
-      "body_system": "Neurological",
       "name": "Depression and Depression-like behavior",
-      "notes": "Cats may appear withdrawn or less active than usual. This is often accompanied by a refusal to eat (anorexia).Incoordination and Weakness",
-      "severity": "moderate"
-    },
-    {
       "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "Cats may appear withdrawn or less active than usual. This is often accompanied by a refusal to eat (anorexia).Incoordination and Weakness"
+    },
+    {
       "name": "Incoordination (Ataxia) and Weakness",
-      "notes": "These symptoms are typically associated with larger ingestions of the plant material.",
-      "severity": "moderate"
-    }
-  ],
-  "toxicParts": [
-    "Leaf",
-    "Entire Plant"
-  ],
-  "toxicityLevel": "mild",
-  "treatments": [
-    {
-      "description": "The veterinarian (or owner under guidance) should gently wipe out the cat's mouth to remove any remaining plant residue that may be causing local irritation. If the ingestion was very recent, the veterinarian may induce vomiting (emesis) to expel the plant material from the stomach before it is fully absorbed.",
-      "name": "Removal of Plant Material / Oral Decontamination",
-      "notes": "Wiping the mouth helps reduce oral pain and drooling. Inducing vomiting is a standard protocol for recent plant ingestion but should be performed by a professional to avoid aspiration, especially if the cat is already vomiting or lethargic.Fluid Therapy (Rehydration)",
-      "priority": 1
-    },
-    {
-      "description": "Fluids are administered to correct dehydration and stabilize electrolyte levels.",
-      "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
-      "notes": "This is critical because Corn Plant ingestion frequently causes vomiting (which may occasionally contain blood) and diarrhea, leading to significant fluid loss and electrolyte imbalances.Symptomatic Medication (Anti-emetics)",
-      "priority": 2
-    },
-    {
-      "description": "Medications are given to stop persistent vomiting (anti-emetics) and to coat or soothe the stomach lining (gastroprotectants) to relieve irritation.",
-      "name": "Administration of Anti-emetics and Gastroprotectants",
-      "notes": "Since the saponins in Dracaena plants cause gastrointestinal irritation, these medications help alleviate the primary symptoms of distress and prevent further damage to the esophagus from chronic vomiting.Clinical Monitoring (Neurological Observation)",
-      "priority": 3
-    },
-    {
-      "description": "The veterinary team will monitor the cat for specific physiological changes until they resolve.",
-      "name": "Observation for Systemic Signs",
-      "notes": "Cats specifically may exhibit dilated pupils, depression, incoordination, or weakness after ingesting Dracaena species. Close monitoring ensures these neurological and systemic signs subside along with the gastrointestinal symptoms.",
-      "priority": 4
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "These symptoms are typically associated with larger ingestions of the plant material."
     }
   ]
 }

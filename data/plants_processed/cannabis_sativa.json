@@ -1,115 +1,108 @@
 {
+  "name": "Cannabis / Marijuana",
   "aliases": [],
   "category": "plant",
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Flower"
+  ],
   "chemicals": [
     {
+      "name": "Tetrahydrocannabinol (specifically delta-9-tetrahydrocannabinol, commonly abbreviated as THC)",
       "chemical_formula": null,
-      "concentration_notes": "◦ Plant Parts: THC is found in the leaves, stems, and flower buds, but the concentration varies. The female flowers typically contain the highest concentrations, while leaves and stems contain less4. ◦ Forms: \"Medical-grade\" cannabis products (such as edibles, butter, or waxes) are significantly more potent than the dried plant material. While the lethal dose for pets is generally considered high ",
       "description": "in cats: ◦ Neurotransmitter Alteration: Upon ingestion or inhalation, THC enters the body and interacts with the brain's chemical messengers. It alters the activity of neurotransmitters such as norepinephrine, dopamine, serotonin, and acetylcholine1. ◦ Receptor Binding: THC binds to specific cannabinoid receptors in the brain. While sources note that dogs have a high density of these receptors (ma",
-      "name": "Tetrahydrocannabinol (specifically delta-9-tetrahydrocannabinol, commonly abbreviated as THC)"
+      "concentration_notes": "◦ Plant Parts: THC is found in the leaves, stems, and flower buds, but the concentration varies. The female flowers typically contain the highest concentrations, while leaves and stems contain less4. ◦ Forms: \"Medical-grade\" cannabis products (such as edibles, butter, or waxes) are significantly more potent than the dried plant material. While the lethal dose for pets is generally considered high "
     }
   ],
-  "description": "Cannabis (marijuana) is a growing household hazard for cats as its recreational and medicinal use becomes more widespread. The primary toxic compound is tetrahydrocannabinol (THC), which severely disrupts the nervous system in cats — both through ingestion of plant material or edibles, and through passive inhalation of smoke. Cats have a lower tolerance for THC than humans, and exposure can cause a frightening range of neurological and physical symptoms. Cannabis edibles present a compounded risk, as they frequently contain chocolate or xylitol alongside THC.",
+  "treatments": [
+    {
+      "name": "Gastrointestinal Decontamination (Emesis or Gastric Lavage)",
+      "description": "If the ingestion was recent, the veterinarian may attempt to induce vomiting (emesis) to remove the toxin from the stomach. In life-threatening cases, they may perform a gastric lavage (\"pumping the stomach\") to wash out the contents",
+      "notes": "This is the \"first line of defense,\" but it is time-sensitive. It is most effective if performed shortly after ingestion2. Two factors complicate this: clinical signs often manifest after the drug is already absorbed, and cannabis has a natural anti-emetic (anti-vomiting) effect, which can make it d",
+      "priority": 1
+    },
+    {
+      "name": "Administration of Activated Charcoal",
+      "description": "The administration of activated charcoal orally to bind to the toxin in the gastrointestinal tract, neutralizing it and preventing further absorption into the bloodstream",
+      "notes": "Charcoal may need to be administered every six to eight hours2. Oral tannic acid and saline cathartics (laxatives) are also recommended alongside charcoal to speed up the elimination of the toxin3. Enemas may also be used to reduce absorption from the intestinal tract",
+      "priority": 2
+    },
+    {
+      "name": "Intravenous (IV) Fluid Therapy",
+      "description": "The administration of fluids directly into the vein to maintain hydration and support physiological function",
+      "notes": "This is a critical part of the \"second line of defense\" (supportive care)4. Because intoxicated cats may be extremely lethargic with no desire to drink, fluids are necessary to prevent dehydration, support blood pressure, and maintain organ function while the body metabolizes the drug",
+      "priority": 3
+    },
+    {
+      "name": "Symptomatic Medication and Nursing Care",
+      "description": "The use of specific medications to manage symptoms such as heart rate abnormalities, respiratory distress, agitation, or nausea, combined with confinement in a safe environment",
+      "notes": "◦ Medications: Respiratory or cardiac stimulants may be essential if the animal is severely depressed3. Anti-anxiety medications can minimize agitation, and gastrointestinal treatments can help with vomiting4. ◦ Environment: Cats should be confined in a safe, comfortable space to prevent self-trauma",
+      "priority": 4
+    }
+  ],
   "emergencyNote": "Gastrointestinal Decontamination (Emesis or Gastric Lavage)",
+  "scientific_name": "Cannabis sativa",
   "family": "Cannabaceae",
   "isToxic": true,
-  "name": "Cannabis / Marijuana",
+  "toxicityLevel": "mild",
+  "severity": "toxic",
   "safetyNotes": [
     "Symptoms: Stumbling and lack of coordination (ataxia), muscle tremors, hypersensitivity to light and sound, alternating profound lethargy and severe agitation, drooling, vomiting, and urine dribbling (incontinence).",
     "Edibles are especially dangerous: Pot brownies and gummies often contain chocolate (theobromine) or xylitol — adding a second layer of toxicity on top of the THC.",
     "CBD products: An overdose can cause vomiting and diarrhea; never self-administer CBD to a cat without veterinary guidance.",
     "Action: Secure all cannabis products including edibles, concentrates, and vape cartridges out of reach. Contact a vet promptly if exposure is suspected."
   ],
-  "scientific_name": "Cannabis sativa",
-  "severity": "toxic",
+  "description": "Cannabis (marijuana) is a growing household hazard for cats as its recreational and medicinal use becomes more widespread. The primary toxic compound is tetrahydrocannabinol (THC), which severely disrupts the nervous system in cats — both through ingestion of plant material or edibles, and through passive inhalation of smoke. Cats have a lower tolerance for THC than humans, and exposure can cause a frightening range of neurological and physical symptoms. Cannabis edibles present a compounded risk, as they frequently contain chocolate or xylitol alongside THC.",
   "symptoms": [
     {
-      "body_system": "Neurological",
       "name": "Ataxia (wobbly, uncoordinated movements) and Disorientation",
-      "notes": "The cat may appear \"drunk,\" wobbly, or unable to walk in a straight line. They may also be very vocal44. 2. Altered Mental State (Sedation or Hyperactivity)",
+      "body_system": "Neurological",
+      "severity": "severe",
       "onset": "Signs manifest after the drug has been absorbed",
-      "severity": "severe"
+      "notes": "The cat may appear \"drunk,\" wobbly, or unable to walk in a straight line. They may also be very vocal44. 2. Altered Mental State (Sedation or Hyperactivity)"
     },
     {
-      "body_system": "Neurological",
       "name": "Prolonged Depression (Sleepiness/Lethargy) or Hyperexcitability",
-      "notes": "Reactions can range from extreme lethargy and sleepiness to hyperactivity and agitation44. 3. Dilated Pupils (Mydriasis)",
-      "onset": "After absorption",
-      "severity": "moderate"
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "Reactions can range from extreme lethargy and sleepiness to hyperactivity and agitation44. 3. Dilated Pupils (Mydriasis)"
     },
     {
-      "body_system": "Neurological",
       "name": "Mydriasis (Dilated Pupils)",
-      "notes": "This gives the cat a \"wild-eyed\" appearance44. 4. Urinary Incontinence",
-      "onset": "After absorption",
-      "severity": "moderate"
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "This gives the cat a \"wild-eyed\" appearance44. 4. Urinary Incontinence"
     },
     {
-      "body_system": "Renal",
       "name": "Urinary Incontinence (Urine Leakage)",
-      "notes": "The pet may dribble urine uncontrollably, a distinctive sign of cannabis intoxication4. 5. Vomiting and Drooling",
-      "onset": "After absorption",
-      "severity": "moderate"
+      "body_system": "Renal",
+      "severity": "moderate",
+      "notes": "The pet may dribble urine uncontrollably, a distinctive sign of cannabis intoxication4. 5. Vomiting and Drooling"
     },
     {
-      "body_system": "Gastrointestinal",
       "name": "Vomiting and Hypersalivation (Excessive Drooling)",
-      "notes": "While vomiting is a symptom, cannabis also has an anti-emetic (anti-vomiting) effect, which can make it difficult for veterinarians to induce vomiting as a treatment33. 6. Heart Rate Abnormalities",
-      "onset": "After absorption",
-      "severity": "moderate"
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "notes": "While vomiting is a symptom, cannabis also has an anti-emetic (anti-vomiting) effect, which can make it difficult for veterinarians to induce vomiting as a treatment33. 6. Heart Rate Abnormalities"
     },
     {
-      "body_system": "Cardiac",
       "name": "Bradycardia (Slow Heart Rate) or Tachycardia (Fast Heart Rate)",
-      "notes": "Altered blood pressure is also observed alongside heart rate changes55. 7. Abnormal Body Temperature",
-      "onset": "After absorption",
-      "severity": "severe"
+      "body_system": "Cardiac",
+      "severity": "severe",
+      "notes": "Altered blood pressure is also observed alongside heart rate changes55. 7. Abnormal Body Temperature"
     },
     {
-      "body_system": "Neurological",
       "name": "Hypothermia (Low Body Temperature) or Hyperthermia (High Body Temperature)",
-      "notes": "Low body temperature is explicitly noted as a sign55. 8. Severe Neurological Signs (Tremors, Seizures, Coma)",
-      "onset": "After absorption",
-      "severity": "moderate"
-    },
-    {
       "body_system": "Neurological",
+      "severity": "moderate",
+      "notes": "Low body temperature is explicitly noted as a sign55. 8. Severe Neurological Signs (Tremors, Seizures, Coma)"
+    },
+    {
       "name": "Tremors, Seizures, and Coma",
-      "notes": "While death is rare (\"seldom fatal\"), it can occur if vital central nervous system regulatory centers are severely depressed. Fatalities are more commonly associated with the ingestion of highly concentrated \"medical-grade\" products (e.g., edibles, waxes) rather than plant material",
-      "onset": "After absorption",
-      "severity": "fatal"
-    }
-  ],
-  "toxicParts": [
-    "Stem",
-    "Leaf",
-    "Flower"
-  ],
-  "toxicityLevel": "mild",
-  "treatments": [
-    {
-      "description": "If the ingestion was recent, the veterinarian may attempt to induce vomiting (emesis) to remove the toxin from the stomach. In life-threatening cases, they may perform a gastric lavage (\"pumping the stomach\") to wash out the contents",
-      "name": "Gastrointestinal Decontamination (Emesis or Gastric Lavage)",
-      "notes": "This is the \"first line of defense,\" but it is time-sensitive. It is most effective if performed shortly after ingestion2. Two factors complicate this: clinical signs often manifest after the drug is already absorbed, and cannabis has a natural anti-emetic (anti-vomiting) effect, which can make it d",
-      "priority": 1
-    },
-    {
-      "description": "The administration of activated charcoal orally to bind to the toxin in the gastrointestinal tract, neutralizing it and preventing further absorption into the bloodstream",
-      "name": "Administration of Activated Charcoal",
-      "notes": "Charcoal may need to be administered every six to eight hours2. Oral tannic acid and saline cathartics (laxatives) are also recommended alongside charcoal to speed up the elimination of the toxin3. Enemas may also be used to reduce absorption from the intestinal tract",
-      "priority": 2
-    },
-    {
-      "description": "The administration of fluids directly into the vein to maintain hydration and support physiological function",
-      "name": "Intravenous (IV) Fluid Therapy",
-      "notes": "This is a critical part of the \"second line of defense\" (supportive care)4. Because intoxicated cats may be extremely lethargic with no desire to drink, fluids are necessary to prevent dehydration, support blood pressure, and maintain organ function while the body metabolizes the drug",
-      "priority": 3
-    },
-    {
-      "description": "The use of specific medications to manage symptoms such as heart rate abnormalities, respiratory distress, agitation, or nausea, combined with confinement in a safe environment",
-      "name": "Symptomatic Medication and Nursing Care",
-      "notes": "◦ Medications: Respiratory or cardiac stimulants may be essential if the animal is severely depressed3. Anti-anxiety medications can minimize agitation, and gastrointestinal treatments can help with vomiting4. ◦ Environment: Cats should be confined in a safe, comfortable space to prevent self-trauma",
-      "priority": 4
+      "body_system": "Neurological",
+      "severity": "fatal",
+      "notes": "While death is rare (\"seldom fatal\"), it can occur if vital central nervous system regulatory centers are severely depressed. Fatalities are more commonly associated with the ingestion of highly concentrated \"medical-grade\" products (e.g., edibles, waxes) rather than plant material"
     }
   ]
 }
