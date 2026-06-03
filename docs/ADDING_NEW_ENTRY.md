@@ -139,6 +139,8 @@ FIREBASE_ADMIN_KEY_PATH=/abs/path/to/service-account.json \
 ## 相關文件
 
 - [docs/DATA_COLLECTION_PIPELINE.md](DATA_COLLECTION_PIPELINE.md) — NotebookLM 端的問卷協定細節
+- [docs/CONTENT_REWRITE_GUIDE.md](CONTENT_REWRITE_GUIDE.md) — site payload 出爐後、翻譯前的「高中程度」改寫 prompt
+- [docs/SITE_SYNC_RUNBOOK.md](SITE_SYNC_RUNBOOK.md) — sync_site_plants.py 與 Gemini 翻譯流程
 - [docs/SCHEMA.md](SCHEMA.md) — 欄位定義
 - [schemas/README.md](../schemas/README.md) — `FIRESTORE_ONLY_FIELDS` 政策與 schema 建置
 - [docs/plans/2026-04-22-unify-data-pipeline-design.md](plans/2026-04-22-unify-data-pipeline-design.md) — 為何 pipeline 長這樣的設計文件
