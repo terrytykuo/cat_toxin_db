@@ -1,9 +1,12 @@
 {
-  "aliases": [],
+  "aliases": [
+    "英國藍鈴花",
+    "藍風鈴"
+  ],
   "category": "plant",
-  "description": "藍鈴花 (Hyacinthoides non-scripta 及相關物種) 是受喜愛的春季野花，常見於林地、庭園和路邊，也就是戶外貓經常活動的環境。雖然外型纖細，全株都對貓有毒。藍鈴花含有海蔥苷 (scillaren) 與相關類強心苷化合物，也含有生物鹼；這些成分會干擾心肌細胞中的鈉鉀幫浦，破壞正常心律。球莖含有最高濃度的毒素，但花、葉子和汁液也都有危害。",
+  "description": "藍鈴花 (Hyacinthoides non-scripta 及相關物種) 是受喜愛的春季野花，常見於林地、庭園和路邊。外型纖細，全株都對貓有毒。\n\n藍鈴花含有海蔥苷 (scillaren) 與相關類強心苷化合物，也含有生物鹼；這些成分會干擾心肌細胞中的鈉鉀幫浦，破壞正常心律。球莖含有最高濃度的毒素，但花、葉子和汁液也都有危害。",
   "gemini_model": "codex-manual",
-  "manual_override": false,
+  "manual_override": true,
   "name": "藍鈴花",
   "safetyNotes": [
     "症狀：嘔吐、腹瀉、精神不振和心跳變慢；暴露量較大時可能造成心律不整、低血壓，嚴重時可能抽搐或昏倒。",
@@ -11,7 +14,7 @@
     "季節性風險：春季開花、植物最容易被接觸時，暴露風險最高。若懷疑攝入，請盡快諮詢獸醫。"
   ],
   "slug": "hyacinthoides_nonscripta",
-  "source_hash": "eb2ff6cb78fa228d4a682444db2ffc8667ff2e11c0f5592cb2567c5cea016093",
+  "source_hash": "f502f521763c11bae369f583475b148d74b5b0feee041069472d2da5485c26d9",
   "symptoms": [
     {
       "body_system": "腸胃道",
@@ -32,8 +35,9 @@
     }
   ],
   "toxicParts": [
-    "葉子",
+    "全株有毒",
     "球莖／球根"
   ],
-  "translated_at": "2026-05-28T19:48:53Z"
+  "translated_at": "2026-05-29T11:26:27.074Z",
+  "migrated_from": "data/site/zh-TW/hyacinthoides_nonscripta.json"
 }

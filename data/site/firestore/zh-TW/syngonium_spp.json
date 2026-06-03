@@ -1,53 +1,52 @@
 {
   "slug": "syngonium_spp",
-  "source_hash": "03b368fbd150f14bedd8116ef56bcf7aedc79cc2393298ec0805f2a31e73957a",
-  "translated_at": "2026-05-21T10:20:14Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
-  "category": "plant",
   "name": "合果芋",
-  "aliases": [],
-  "description": "合果芋 (Syngonium podophyllum) 是一種受歡迎的蔓生室內植物，含有不溶性草酸鈣結晶（針晶體）——這是捆綁在葉子和莖部特定細胞中的微小針狀結構。當貓咬或嚼植物的任何部分時，這些結晶會被強制噴出並穿透口腔、舌頭和喉嚨的軟組織，導致立即且強烈的刺激。全身性中毒並不常見，因為疼痛通常會阻止貓食用大量植物。",
+  "manual_override": true,
+  "translated_at": "2026-05-28T15:11:35.818Z",
+  "aliases": [
+    "長柄合果芋",
+    "紫梗芋",
+    "箭葉芋"
+  ],
+  "description": "常見的垂吊型室內植物，含有不可溶性草酸鈣結晶（raphides）。這些結晶是微小的針狀結構，存在於葉片和莖部各處的特殊細胞中。\n\n當貓咪啃咬咀嚼植物的任何部位時，這些結晶會釋放，並刺入口腔、舌頭和喉嚨等柔軟組織，造成立即且強烈的刺激感。全身性中毒並不常見，因為疼痛通常會讓貓停止繼續啃咬。",
   "safetyNotes": [
-    "症狀：立即口腔疼痛、劇烈流口水、抓弄嘴巴、嘴唇、舌頭和喉嚨腫脹，以及吞嚥困難；隨後可能嘔吐。",
-    "快速發作：咀嚼後幾秒鐘內即開始不適——這是植物的天然防禦機制。",
-    "行動：用清水沖洗貓的嘴巴以幫助沖走結晶。如果腫脹嚴重或症狀在一小時內未緩解，請聯繫獸醫。"
+    "症狀： 立即性的口腔疼痛、嚴重流口水、用爪子抓嘴巴、嘴唇、舌頭與喉嚨腫脹，以及吞嚥困難；之後也可能出現嘔吐。",
+    "快速出現： 不適感會在咀嚼後數秒內開始，這是植物的天然防禦機制。",
+    "處置： 清水沖洗貓咪口腔，幫助沖掉結晶。若腫脹嚴重，或症狀在一小時內沒有緩解，請聯絡獸醫"
   ],
   "toxicParts": [
-    "莖",
-    "葉",
-    "整株植物"
+    "全株有毒"
   ],
   "symptoms": [
     {
-      "name": "口腔刺激（強烈灼熱感、疼痛）",
-      "body_system": "消化系統",
-      "onset": "咀嚼後立即發作。"
+      "body_system": "消化道系統",
+      "onset": "咀嚼後立即出現",
+      "name": "Oral Irritation (intense burning sensation, pain)"
     },
     {
-      "name": "過度流口水（流涎症）",
-      "body_system": "消化系統",
-      "onset": "立即。"
+      "body_system": "消化道系統",
+      "name": "過度流口水（流涎）",
+      "onset": "快速出現"
     },
     {
-      "name": "舌頭、嘴唇和咽喉腫脹",
-      "body_system": "消化系統",
-      "onset": "快速。"
+      "body_system": "消化道系統",
+      "name": "舌頭、嘴唇與咽腫脹",
+      "onset": "快速出現"
     },
     {
-      "name": "呼吸困難",
       "body_system": "呼吸系統",
-      "onset": "快速（腫脹後）。"
+      "name": "呼吸困難",
+      "onset": "由於腫脹導致的間接症狀"
     },
     {
-      "name": "嘔吐與腹瀉",
-      "body_system": "消化系統",
-      "onset": "未明確說明（可能是急性）。"
+      "body_system": "消化道系統",
+      "name": "嘔吐與腹瀉"
     },
     {
-      "name": "拒絕進食（食慾不振）",
-      "body_system": "消化系統",
-      "onset": "立即至短期。"
+      "body_system": "消化道系統",
+      "name": "食慾下降"
     }
-  ]
+  ],
+  "source_hash": "a6b61b262f9a9fc5eab3657d367e1fb23a9ac500cd1d3b211a7ad5569ccc3dce",
+  "migrated_from": "data/site/zh-TW/syngonium_spp.json"
 }

@@ -1,19 +1,18 @@
 {
   "slug": "hedera_spp",
-  "source_hash": "e7de6f68320147900b1f4be4bce465fc5158bac0369a3e3eea11adc0b3f7934d",
-  "translated_at": "2026-05-21T10:28:27Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "source_hash": "30d1a7eec80ce3aedb7522eaabecc8a8af6200cd6f4d08e40c1f21bec10d6d13",
+  "translated_at": "2026-06-01T14:45:00.000Z",
+  "gemini_model": "codex-manual",
+  "manual_override": true,
   "category": "plant",
   "name": "常春藤",
   "aliases": [],
-  "description": "常春藤 (Hedera helix) 是常見的攀緣植物，對貓有毒。其葉片與漿果中含有三萜類皂苷（包括 hederagenin 和 alpha-hederin）以及聚乙炔化合物（falcarinol）。這些化合物會引起腸胃刺激，且敏感個體若反覆接觸皮膚，會導致皮膚炎。",
+  "description": "常春藤（Hedera helix 及相關 Hedera 植物）是常見的攀緣藤本植物，常種在室內、吊盆或戶外牆面上。貓咬到或吃下常春藤時可能中毒。葉片是主要風險，果實也不安全。\n\n常春藤含有三萜類皂苷（triterpenoid saponins），例如 hederagenin，也含有其他刺激性成分。簡單來說，這些化學物質會刺激口腔和胃，造成流口水、嘔吐、腹瀉和腹痛。有些貓或人反覆接觸葉片或汁液後，也可能出現皮膚刺激。\n\n多數情況以腸胃不適為主，但吃下較多時可能出現虛弱、走路不穩或顫抖。請把室內常春藤和剪下的枝條放在貓碰不到的地方，也不要讓貓啃咬覆滿常春藤的牆面或花園藤蔓。若貓咬到或吃下常春藤，請移開植物並聯絡獸醫。",
   "safetyNotes": [
-    "有毒化合物：三萜類皂苷 (hederagenin, alpha-hederin)、聚乙炔化合物 falcarinol",
-    "機制：皂苷會破壞腸胃黏膜的完整性；falcarinol 是一種接觸性刺激物，也可能引起全身性不適",
-    "症狀：嘔吐、腹瀉、流口水、腹痛；大量攝入可能導致共濟失調或震顫",
-    "漿果的毒素濃度略高於葉片；應視所有部位為危險物品",
-    "若家中有貓，請移除室內的常春藤；貓進入覆蓋有常春藤牆壁的室外空間也應受到限制"
+    "主要風險：常春藤葉片含有三萜類皂苷，會刺激口腔和胃。",
+    "症狀：流口水、嘔吐、腹瀉、腹痛，有時接觸後也會皮膚刺激。",
+    "較需注意：吃下較多時，可能出現虛弱、走路不穩或顫抖。",
+    "處理方式：讓貓遠離常春藤植株和剪下的枝條；若有啃咬或誤食，請聯絡獸醫。"
   ],
   "toxicParts": [
     "葉",
@@ -21,24 +20,24 @@
   ],
   "symptoms": [
     {
-      "name": "嘔吐",
-      "body_system": "消化系統",
-      "onset": "急性（症狀通常在攝入後不久出現）。"
+      "name": "嘔吐、腹瀉或腹痛",
+      "body_system": "腸胃道",
+      "onset": "通常在咬到或吃下植物後不久出現。"
     },
     {
-      "name": "腹瀉",
-      "body_system": "消化系統",
-      "onset": "急性。"
+      "name": "流口水或口腔刺激",
+      "body_system": "腸胃道",
+      "onset": "常在咀嚼時或不久後開始。"
     },
     {
-      "name": "腹痛（胃部不適）",
-      "body_system": "消化系統",
-      "onset": "急性。"
+      "name": "接觸後皮膚發紅或發癢",
+      "body_system": "皮膚",
+      "onset": "接觸後出現，敏感的貓較容易發生。"
     },
     {
-      "name": "流口水 / 唾液分泌過多",
-      "body_system": "消化系統",
-      "onset": "立即至急性（咀嚼時）。"
+      "name": "虛弱、走路不穩或顫抖",
+      "body_system": "神經系統",
+      "onset": "較少見，但吃下較多時可能發生。"
     }
   ]
 }

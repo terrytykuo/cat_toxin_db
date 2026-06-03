@@ -2,13 +2,13 @@
   "slug": "crocus_vernus",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/crocus_vernus.jpg"
   ],
   "name": "Crocus",
   "aliases": [],
-  "description": "Spring Crocus (Crocus spp.) is a common early-spring garden bulb that is toxic to cats, though significantly less dangerous than the Autumn Crocus (Colchicum autumnale), with which it is sometimes confused. Spring Crocus contains colchicine in lower concentrations than Autumn Crocus, along with other alkaloids. Ingestion typically causes gastrointestinal symptoms rather than the multi-organ failure associated with Autumn Crocus. However, if you are unsure which species your cat has ingested, treat it as a veterinary emergency.",
+  "description": "Spring crocus (Crocus spp.) is a common early-spring bulb flower often grown in gardens or pots. It is toxic to cats, but it is usually far less dangerous than autumn crocus (Colchicum autumnale), which is often confused with it. It is also important to note that spring crocus is not the same as saffron, the crocus used in traditional medicine, spices, or seasoning. They are used differently and should not be treated as the same plant. If you are not sure whether your cat ate spring crocus or autumn crocus, treat the situation as a veterinary emergency. Spring crocus contains small amounts of colchicine and other alkaloids. Colchicine is a toxic compound that can interfere with normal cell function, but spring crocus generally contains much lower levels than autumn crocus. Because of this, ingestion more often causes digestive upset rather than the severe, body-wide poisoning seen with autumn crocus. Autumn crocus is much more dangerous and can lead to serious illness involving multiple organs. If a cat eats spring crocus, possible signs include drooling, vomiting, diarrhea, loss of appetite, and low energy. The bulb, leaves, and flowers should all be kept away from cats. Do not place spring crocus where a cat can chew it. If you are certain your cat ate only a small amount of spring crocus, contact a veterinarian for advice; if you are unsure of the plant species, or if your cat shows repeated vomiting, diarrhea, weakness, or other concerning signs, seek veterinary care right away and bring a photo or sample of the plant if possible.",
   "safetyNotes": [
     "Symptoms: Drooling, vomiting, diarrhea, and abdominal pain are the most common signs; symptoms are usually self-limiting.",
     "Do not confuse with Autumn Crocus: Colchicum autumnale (the Autumn Crocus) is far more dangerous and can cause bone marrow suppression, kidney failure, and death. If the species is uncertain, seek emergency veterinary care.",

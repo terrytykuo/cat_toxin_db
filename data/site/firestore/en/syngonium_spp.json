@@ -2,11 +2,11 @@
   "slug": "syngonium_spp",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/syngonium_spp.jpg"
   ],
-  "name": "Arrowhead Vine",
+  "name": "Arrowhead Plant",
   "aliases": [],
   "description": "Arrowhead Vine (Syngonium podophyllum) is a popular trailing houseplant that contains insoluble calcium oxalate crystals (raphides) — microscopic needle-like structures bundled in specialised cells throughout the leaves and stems. When a cat bites or chews any part of the plant, these crystals are forcibly ejected and physically penetrate the soft tissues of the mouth, tongue, and throat, causing immediate and intense irritation. Systemic toxicity is uncommon because the pain typically stops the cat from consuming a large amount.",
   "safetyNotes": [
@@ -15,9 +15,7 @@
     "Action: Rinse the cat's mouth with water to help flush crystals. Contact a vet if swelling is severe or symptoms do not resolve within an hour."
   ],
   "toxicParts": [
-    "Stem",
-    "Leaf",
-    "Entire Plant"
+    "All parts of the plant"
   ],
   "symptoms": [
     {
@@ -52,14 +50,12 @@
       "name": "Vomiting and Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "onset": "Not specifically stated (likely acute).",
       "notes": "These are general signs of gastrointestinal upset associated with the ingestion of the plant material.Anorexia"
     },
     {
-      "name": "Refusal to eat (Inappetence)",
+      "name": "Loss of appetite",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "onset": "Immediate to short-term.",
       "notes": "The cat often refuses to eat due to the oral pain and swelling."
     }
   ],

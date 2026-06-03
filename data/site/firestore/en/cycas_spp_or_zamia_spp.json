@@ -7,8 +7,10 @@
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cycas_spp_or_zamia_spp.jpg"
   ],
   "name": "Cycad",
-  "aliases": [],
-  "description": "Cycads (Cycas revoluta — commonly sold as Sago Palm — and related Zamia species) are among the most hepatotoxic plants known to veterinary medicine. They contain cycasin, a methylazoxymethanol glycoside that is metabolised by gut bacteria into a potent liver toxin, as well as beta-methylamino-L-alanine (BMAA), a neurotoxic amino acid. All parts of the plant are toxic, but the seeds carry the highest cycasin concentration. Ingestion of even a small number of seeds can cause acute, irreversible liver failure, and the survival rate is low even with aggressive veterinary treatment.",
+  "aliases": [
+    "Sago Palm"
+  ],
+  "description": "Cycads, including sago palm (Cycas revoluta) and related Zamia species, are extremely dangerous ornamental plants for cats. They are among the most liver-toxic plants known in veterinary medicine and should not be kept in homes or gardens where cats have access. The main danger comes from a toxin called cycasin. After a cat eats the plant, this substance can be changed by gut bacteria into a compound that severely damages the liver. Cycads may also contain compounds that can affect the nervous system, such as BMAA. All parts of the plant are toxic, including the leaves, stems, roots, and seeds, but the seeds contain the highest levels of cycasin and are especially dangerous. If a cat eats any part of a cycad, early signs may include vomiting, diarrhea, drooling, loss of appetite, and low energy. More serious signs can follow, such as jaundice, abnormal bleeding, weakness, seizures, and acute liver failure. Even a small amount of seed material can cause severe and potentially irreversible damage, and the outlook may still be poor even with aggressive treatment. Homes with cats should completely avoid keeping cycads. If you suspect your cat has chewed or swallowed any part of the plant, especially a seed, contact a veterinarian or emergency animal hospital immediately—do not wait for symptoms to appear.",
   "safetyNotes": [
     "Symptoms: Vomiting, diarrhea (often with blood), severe lethargy, jaundice (yellow skin/eyes/gums), abdominal pain, neurological signs including seizures; liver failure develops within 24–72 hours.",
     "Seeds are the greatest danger: One or two seeds can be fatal. The entire plant — leaves, roots, and seeds — contains toxic compounds.",

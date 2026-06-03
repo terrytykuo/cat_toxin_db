@@ -15,9 +15,7 @@
     "Action: Keep all caffeinated beverages out of reach. Seek veterinary care immediately if a cat has ingested any caffeinated drink."
   ],
   "toxicParts": [
-    "Powder",
-    "Seed",
-    "Skin"
+    "Whole"
   ],
   "symptoms": [
     {
@@ -57,7 +55,7 @@
     },
     {
       "name": "Hyperthermia",
-      "body_system": "Neurological",
+      "body_system": "Other",
       "severity": "severe",
       "onset": "6 to 12 hours",
       "notes": "The extreme overstimulation of the nervous system, combined with continuous hyperactivity and severe muscle tremors, generates excessive internal heat, causing the cat's core body temperature to spike to dangerous levels12. (Note: If the caffeinated drink or soda is a \"diet\" or \"sugar-free\" variety"

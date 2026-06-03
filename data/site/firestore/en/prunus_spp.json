@@ -2,11 +2,11 @@
   "slug": "prunus_spp",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/prunus_spp.jpg"
   ],
-  "name": "Apricot",
+  "name": "Apricot (seeds)",
   "aliases": [],
   "description": "The fleshy part of an apricot is entirely safe for cats and does not contain toxic compounds. The danger lies in the pit (stone): when a cat chews or crushes it, enzymes break down amygdalin — a cyanogenic glycoside — releasing highly toxic hydrogen cyanide (HCN). Cyanide binds to cytochrome c oxidase, a critical enzyme in the mitochondrial electron transport chain, halting cellular respiration at the level of every cell. Because the heart and brain have the highest energy demands, they are the first organs to fail. Swallowed whole, the pit also presents a severe choking and intestinal obstruction hazard.",
   "safetyNotes": [

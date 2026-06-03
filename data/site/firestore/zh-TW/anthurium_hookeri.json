@@ -1,17 +1,19 @@
 {
-  "aliases": [],
+  "aliases": [
+    "富貴花燭"
+  ],
   "category": "plant",
-  "description": "鳥巢花燭 (Anthurium spp.) 是常見的熱帶室內植物，具有光亮的心形葉與特殊的蠟質佛焰苞。所有花燭屬 (Anthurium) 物種都屬於天南星科 (Araceae)，葉子、莖和漿果全株都含有不溶性草酸鈣晶體，也就是針晶體 (raphides)。貓咀嚼植物時，這些針狀晶體會立即對口腔與消化道軟組織造成機械性傷害。有些品種會結出顏色鮮豔的漿果，容易吸引貓，但風險相同。",
+  "description": "鳥巢花燭是常見的熱帶室內植物，具有光亮的心形葉與特殊的蠟質佛焰苞。所有花燭屬 (Anthurium) 物種都屬於天南星科 (Araceae)，葉子、莖和漿果全株都含有不溶性草酸鈣晶體，也就是針晶體 (raphides)。貓咪咬到植物時，這些像細針一樣的結晶會立刻刺傷嘴巴和消化道裡柔軟的組織。有些品種會長出色彩鮮豔的果實，這些果實對貓咪可能特別有吸引力，但也有同樣的風險。",
   "gemini_model": "codex-manual",
-  "manual_override": false,
+  "manual_override": true,
   "name": "鳥巢花燭",
   "safetyNotes": [
     "症狀：立即口腔疼痛、強烈流涎、用爪抓嘴、嘴唇、舌頭與喉嚨腫脹，以及吞嚥困難。攝入漿果也可能造成嘔吐與腹瀉。",
-    "漿果是額外危害：彩色佛焰苞上的漿果含有相同的針晶體，出現時應立即移除。",
+    "漿果是額外危害：含有相同的針晶體，出現時應立即移除。",
     "處理方式：用水沖洗貓的口腔。如果腫脹明顯，或症狀超過一小時仍未改善，請諮詢獸醫。"
   ],
   "slug": "anthurium_hookeri",
-  "source_hash": "c919273861e230dbfa4e0b50d2af7fc91646c2fead22a9f6953fed4b8cf2905c",
+  "source_hash": "53eb4b67d8592994a70a6e9a81e17e0e8cc0d4c1cc49120fd44ad14cf1162253",
   "symptoms": [
     {
       "body_system": "腸胃道",
@@ -49,5 +51,6 @@
     "葉子",
     "全株有毒"
   ],
-  "translated_at": "2026-05-28T19:48:53Z"
+  "translated_at": "2026-05-29T11:31:26.731Z",
+  "migrated_from": "data/site/zh-TW/anthurium_hookeri.json"
 }

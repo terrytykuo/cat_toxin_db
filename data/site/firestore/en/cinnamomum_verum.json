@@ -15,12 +15,11 @@
     "Action: Keep cinnamon sticks, powder, and especially essential oils away from cats. Contact a vet if a cat has ingested oil or a significant quantity of spice."
   ],
   "toxicParts": [
-    "Bark",
-    "Entire Plant"
+    "Bark"
   ],
   "symptoms": [
     {
-      "name": "Liver failure (Serious organ damage)",
+      "name": "Liver failure",
       "body_system": "Hepatic",
       "severity": "fatal",
       "notes": "Essential oils can cause serious organ damage in cats, which in extreme cases leads to liver failure.Chemical Burns and Skin Irritation"

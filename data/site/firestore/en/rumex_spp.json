@@ -2,13 +2,13 @@
   "slug": "rumex_spp",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/rumex_spp.jpg"
   ],
   "name": "Curly Dock / Sorrel",
   "aliases": [],
-  "description": "Curly Dock (Rumex crispus), also called Yellow Dock or Sorrel, is a common garden weed and wild plant found in fields, roadsides, and disturbed soils. It contains soluble oxalates and anthraquinone glycosides. Unlike the insoluble oxalate raphides found in Araceae plants (which cause immediate local pain), soluble oxalates are absorbed into the bloodstream, where they bind calcium, causing hypocalcaemia (low blood calcium), and can form calcium oxalate crystals in the kidneys over repeated exposures.",
+  "description": "Curly dock (Rumex crispus), also called yellow dock or dock, is a common garden weed and wild plant. It often grows in fields, along roadsides, and in disturbed soil. It is not safe for cats, and cats should not be allowed to chew it or have repeated exposure to it, especially outdoor cats that may encounter it in grassy or roadside areas. The main concerns are soluble oxalates and anthraquinone glycosides. Oxalates come in different forms. Some plants contain insoluble oxalate crystals, which usually cause immediate pain and irritation in the mouth. Curly dock, however, contains soluble oxalates, which are more easily absorbed into the body. Once absorbed, they can bind to calcium in the blood and may lead to low calcium levels. With repeated exposure, they may also increase the risk of calcium oxalate crystal formation in the kidneys. Anthraquinone glycosides can also irritate the digestive system and may contribute to diarrhea or discomfort. If a cat eats curly dock, possible signs include drooling, vomiting, diarrhea, loss of appetite, and low energy. The risk may be higher if a cat eats a larger amount or already has kidney problems. The leaves, stems, and seeds should all be kept away from cats. Remove curly dock from areas where your cat spends time, and do not offer it as an edible wild plant. If your cat develops clear digestive signs, weakness, tremors, abnormal urination, or if you are unsure how much was eaten, contact a veterinarian promptly.",
   "safetyNotes": [
     "Symptoms: Vomiting, diarrhea, lethargy, and muscle tremors from soluble oxalate absorption; dark urine and kidney-related signs with chronic or large ingestion.",
     "Chronic exposure is the greater concern: A single nibble is unlikely to cause serious harm, but cats that repeatedly graze on this weed may develop calcium oxalate nephropathy (kidney damage).",
@@ -16,7 +16,8 @@
   ],
   "toxicParts": [
     "Leaf",
-    "Entire Plant"
+    "Stem",
+    "Seed"
   ],
   "symptoms": [
     {

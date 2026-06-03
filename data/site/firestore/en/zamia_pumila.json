@@ -15,11 +15,8 @@
     "Action: Life-threatening emergency. Bring the cat and a sample of the plant to a vet immediately — do not wait for symptoms to worsen."
   ],
   "toxicParts": [
-    "Stem",
-    "Entire Plant",
     "Seed",
-    "Leaf",
-    "Root"
+    "All parts of the plant"
   ],
   "symptoms": [
     {

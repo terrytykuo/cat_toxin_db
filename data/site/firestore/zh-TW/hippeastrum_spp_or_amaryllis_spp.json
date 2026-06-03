@@ -1,69 +1,65 @@
 {
   "slug": "hippeastrum_spp_or_amaryllis_spp",
-  "source_hash": "a66b62aaed123f3e182f21043b8f0059258d8d7f42662c01fbe50ebb66d4d7a8",
-  "translated_at": "2026-05-21T10:19:10Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
-  "category": "plant",
   "name": "孤挺花",
-  "aliases": [],
-  "description": "孤挺花含有石蒜鹼 (lycorine) 和其他菲啶類生物鹼，分布於整株植物中，其中鱗莖含量最高。石蒜鹼會抑制細胞中的蛋白質合成，並引發強烈的腸胃反應。這種植物常作為室內節慶禮物，這意味著貓可能在飼主警惕性較低的時候接觸到它。無論是 Hippeastrum 雜交種（常以「孤挺花」名義販售）還是真正的孤挺花屬物種皆有毒性。",
+  "manual_override": true,
+  "translated_at": "2026-05-28T13:54:45.434Z",
+  "description": "孤挺花（Amaryllis）含有石蒜鹼（lycorine）和其他菲南啶類生物鹼，這些成分分布於整株植物，其中以球莖中的濃度最高。石蒜鹼會抑制細胞中的蛋白質合成，並引發強烈的胃腸道反應。這種植物常作為室內節慶禮物出現，因此貓咪可能會在飼主較容易疏忽的時期接觸到它。\n\n注意：「Amaryllis（孤挺花／朱頂紅）」這個名稱常被混用。市面上販售的「Amaryllis」盆栽，多半其實是 Hippeastrum（孤挺花屬／朱頂紅屬）植物；但不論是市售的 Hippeastrum，還是真正的 Amaryllis 屬植物，對貓都有毒。",
   "safetyNotes": [
-    "症狀：流口水、嘔吐、腹瀉、腹痛、低血壓、震顫 e 嗜睡；在嚴重病例中罕見癲癇發作。",
-    "鱗莖毒性最強：鱗莖含有最高濃度的生物鹼。挖掘土壤並咀嚼鱗莖的貓面臨最大的風險。",
-    "季節性風險：作為熱門的冬季節慶植物 — 從進入家門那一刻起，請將其完全放置在接觸不到的地方。"
+    "症狀： 流口水、嘔吐、腹瀉、腹痛、低血壓、顫抖和精神不振；嚴重時少數情況下可能出現癲癇發作。",
+    "球莖毒性最高： 球莖含有最高濃度的生物鹼。會挖盆土、啃咬球莖的貓咪風險最高。",
+    "季節性風險： 常作為冬季節慶植物販售；從它進入家中的那一刻起，就應完全放在貓咪碰不到的地方。"
   ],
   "toxicParts": [
     "莖",
-    "葉",
+    "葉子",
     "球莖",
     "花"
   ],
   "symptoms": [
     {
       "name": "嘔吐",
-      "body_system": "消化系統",
-      "onset": "迅速 / 攝取後不久。"
+      "onset": "誤食後很快／短時間內出現。",
+      "body_system": "消化系統"
     },
     {
       "name": "腹瀉",
       "body_system": "消化系統",
-      "onset": "腸胃刺激後發生。"
+      "onset": "腸胃道受到刺激後出現。"
     },
     {
-      "name": "過度流口水 (流涎)",
+      "name": "大量流口水",
       "body_system": "消化系統",
-      "onset": "立即至迅速（咀嚼或攝取時）。"
+      "onset": "立即到很快出現，通常在啃咬或誤食時。"
     },
     {
+      "body_system": "消化系統",
       "name": "腹痛",
-      "body_system": "消化系統",
-      "onset": "攝取後。"
+      "onset": ""
     },
     {
-      "name": "震顫",
       "body_system": "神經系統",
-      "onset": "毒素吸收後（與腸胃道症狀相比有所延遲）。"
+      "name": "顫抖",
+      "onset": "毒素被吸收後出現，通常比腸胃道症狀更晚。"
     },
     {
-      "name": "癲癇發作 (抽搐)",
       "body_system": "神經系統",
-      "onset": "毒素吸收後。"
+      "name": "癲癇發作／抽搐",
+      "onset": "毒素被吸收後出現，通常比腸胃道症狀更晚。"
     },
     {
-      "name": "低血壓 (Hypotension)",
       "body_system": "心血管系統",
-      "onset": "不定（全身性影響）。"
+      "name": "低血壓",
+      "onset": "時間不定，屬於全身性影響。"
     },
     {
-      "name": "心律不整",
       "body_system": "心血管系統",
-      "onset": "不定。"
+      "name": "心律不整"
     },
     {
-      "name": "呼吸抑制",
       "body_system": "呼吸系統",
-      "onset": "不定。"
+      "name": "呼吸抑制"
     }
-  ]
+  ],
+  "source_hash": "e63079ec7c590ffba83ec1d30e8bef23b856c6649fba75fb48a477775304d6ad",
+  "migrated_from": "data/site/zh-TW/hippeastrum_spp_or_amaryllis_spp.json"
 }

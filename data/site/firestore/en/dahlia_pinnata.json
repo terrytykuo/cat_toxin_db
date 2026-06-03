@@ -2,13 +2,13 @@
   "slug": "dahlia_pinnata",
   "category": "plant",
   "hidden": false,
-  "severity": "safe",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dahlia_pinnata.jpg"
   ],
   "name": "Dahlia",
   "aliases": [],
-  "description": "Dahlia (Dahlia spp.) is a common garden flowering plant that is mildly toxic to cats. The plant contains irritant compounds — including sesquiterpene lactones — primarily in the leaves and stem. These substances cause gastrointestinal irritation and, with skin contact, mild dermatitis.",
+  "description": "Dahlia (Dahlia spp.) is a common garden flowering plant that is mildly toxic to cats. The plant contains irritant compounds primarily in the leaves and stem. These substances cause gastrointestinal irritation and, with skin contact, mild dermatitis.",
   "safetyNotes": [
     "Toxic compounds: sesquiterpene lactones and unidentified irritant components",
     "Mechanism: direct mucosal and GI irritation",
@@ -26,14 +26,12 @@
       "name": "Gastrointestinal Upset",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "onset": "Unknown",
       "notes": "Vomiting and diarrhea."
     },
     {
       "name": "Dermatitis",
       "body_system": "Dermal",
       "severity": "mild",
-      "onset": "Unknown",
       "notes": "Skin irritation upon contact or ingestion."
     }
   ],

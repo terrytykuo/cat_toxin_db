@@ -8,16 +8,15 @@
   ],
   "name": "Aloe Vera",
   "aliases": [],
-  "description": "Aloe Vera is a common succulent houseplant valued for its medicinal gel, but the plant itself is toxic to cats. The primary toxic agents are anthraquinones (particularly aloin and barbaloin) concentrated in the yellow latex layer just beneath the outer skin, along with saponins throughout the leaf. Cats have a limited ability to metabolize these compounds, causing irritation throughout the gastrointestinal tract and, in larger exposures, systemic effects.",
+  "description": "Aloe Vera is a common succulent houseplant valued for its medicinal gel, but the plant itself is toxic to cats. The clear inner gel is much less toxic, but chewing the whole leaf exposes cats to the yellow latex layer just beneath the outer skin. The primary toxic agents are anthraquinones, particularly aloin and barbaloin, which are concentrated in this yellow latex layer, along with saponins throughout the leaf. Cats have a limited ability to metabolize these compounds, which can irritate the gastrointestinal tract and, in larger exposures, cause systemic effects.",
   "safetyNotes": [
     "Symptoms: Vomiting, diarrhea (often yellow or reddish-tinged), lethargy, loss of appetite, and low blood sugar; tremors and dark urine in more serious cases.",
     "Gel vs. latex: The clear inner gel contains very little aloin and is far less toxic than the yellow latex layer. However, whole-leaf products or plants chewed directly expose cats to both, making ingestion of the whole plant dangerous.",
     "Action: Keep aloe plants out of reach. Contact a vet if your cat has chewed on a leaf, especially if diarrhea or lethargy develops."
   ],
   "toxicParts": [
-    "Sap",
     "Leaf",
-    "Latex"
+    "Milky sap / latex"
   ],
   "symptoms": [
     {

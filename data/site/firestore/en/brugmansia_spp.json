@@ -8,18 +8,15 @@
   ],
   "name": "Angel's Trumpets",
   "aliases": [],
-  "description": "Angel's Trumpets (Brugmansia spp., and the closely related Datura) is one of the most dangerous ornamental plants a cat can encounter. Every part of the plant — flowers, leaves, stems, seeds, and roots — contains high concentrations of tropane alkaloids, primarily atropine, scopolamine, and hyoscyamine. These compounds work by blocking muscarinic acetylcholine receptors, the receptors the nervous system uses to control glands, smooth muscle, and heart rate. When these receptors are blocked, the body's entire parasympathetic nervous system is effectively switched off, producing what veterinarians call anticholinergic syndrome. Although the plant's strong scent deters many cats, ingestion still occurs — and because cats cannot sweat, the disruption to their thermoregulatory system makes hyperthermia (dangerously high body temperature) a particularly life-threatening complication.",
+  "description": "Angel’s Trumpets usually refers to Brugmansia spp., and is closely related to Datura. It is one of the most dangerous ornamental plants for cats. Every part of the plant — flowers, leaves, stems, seeds, roots, nectar, and sap — is toxic and may contain tropane alkaloids, mainly atropine, scopolamine, and hyoscyamine. Seeds and leaves may contain especially high concentrations.",
   "safetyNotes": [
-    "Symptom progression: Early signs include dilated pupils, rapid heart rate, dry mouth, and restlessness. As toxicity progresses: agitation, disorientation, inability to urinate, and muscle tremors. Severe cases escalate to hyperthermia, seizures, respiratory failure, and coma.",
-    "Seeds and leaves carry the highest alkaloid load — but all parts, including the nectar and sap, are dangerous. Even second-hand exposure (e.g. a cat grooming pollen from its coat) can cause symptoms.",
-    "Hyperthermia risk: Because cats cannot sweat, the loss of thermoregulation from anticholinergic syndrome can rapidly push body temperature to fatal levels, especially in warm environments.",
-    "Action: This is a veterinary emergency requiring immediate treatment. Do not wait for symptoms to worsen — bring the cat to a vet at once, ideally with a sample of the plant for identification."
+    "Symptom progression: Dilated pupils, rapid heart rate, dry mouth, restlessness, disorientation, tremors, and difficulty urinating; severe cases may progress to hyperthermia, seizures, respiratory failure, coma, and death.",
+    "All parts are toxic: Seeds and leaves may be especially concentrated, but flowers, stems, roots, nectar, sap, and pollen are also dangerous.",
+    "Indirect exposure: Grooming pollen or plant residue from the coat may cause symptoms.",
+    "Action: Treat as a veterinary emergency. Contact a vet immediately and bring a sample or photo of the plant if possible."
   ],
   "toxicParts": [
-    "Root",
-    "Leaf",
-    "Seed",
-    "Flower"
+    "All parts of the plant"
   ],
   "symptoms": [
     {

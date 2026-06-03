@@ -2,7 +2,7 @@
   "slug": "alocasia_reginula",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/alocasia_reginula.jpg"
   ],

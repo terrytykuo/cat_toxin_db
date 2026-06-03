@@ -8,7 +8,7 @@
   ],
   "name": "Allamanda",
   "aliases": [],
-  "description": "Allamanda is a tropical ornamental shrub prized for its vivid yellow trumpet-shaped flowers, but every part of the plant — leaves, stems, flowers, seeds, and its milky white sap — is toxic to cats. The plant contains iridoid compounds (including allamandin) that act as powerful cathartics and severe gastrointestinal irritants. The milky sap poses an additional hazard as a direct irritant to skin, eyes, and mucous membranes.",
+  "description": "Allamanda belongs to the Apocynaceae family and is a popular tropical ornamental shrub, loved for its bright yellow, trumpet-shaped flowers, but every part of the plant — leaves, stems, flowers, seeds, and its milky white sap — is toxic to cats. The plant contains iridoid compounds (including allamandin) that act as powerful cathartics and severe gastrointestinal irritants. The milky sap poses an additional hazard as a direct irritant to skin, eyes, and mucous membranes.",
   "safetyNotes": [
     "Symptoms: Vomiting, diarrhea (which may be bloody), abdominal pain, and drooling from ingestion; redness, swelling, and pain if sap contacts the skin or eyes.",
     "All parts toxic: Flowers, leaves, stems, seeds, and sap all contain toxic compounds.",
@@ -18,7 +18,8 @@
     "Bark",
     "Leaf",
     "Seed",
-    "Fruit"
+    "Fruit",
+    "milky sap/ latex"
   ],
   "symptoms": [
     {

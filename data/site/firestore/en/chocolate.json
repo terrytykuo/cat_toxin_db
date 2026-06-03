@@ -8,12 +8,12 @@
   ],
   "name": "Chocolate",
   "aliases": [],
-  "description": "Chocolate is one of the most well-known and genuinely dangerous foods for cats. Its toxic agents are the methylxanthines theobromine and caffeine, which cats metabolise far more slowly than humans, allowing lethal concentrations to build up quickly. These compounds attack feline physiology through three mechanisms: blocking adenosine receptors (causing CNS overstimulation and rapid heart rate), inhibiting phosphodiesterase (prolonging sympathetic nervous system activation), and modulating calcium flux in muscle cells (causing tremors and dangerous cardiac arrhythmias). Dark chocolate and cocoa powder carry the highest concentrations — just 2 grams of chocolate can cause serious harm to a cat.",
+  "description": "Chocolate is one of the most dangerous foods for cats. It contains theobromine and caffeine, two compounds that can overstimulate a cat’s nervous system and heart. Cats break down these substances much more slowly than humans, so even a small amount can build up in their body and cause poisoning. Symptoms may include vomiting, diarrhea, restlessness, rapid heartbeat, tremors, and seizures. In severe cases, chocolate poisoning can lead to dangerous abnormal heart rhythms or death. Dark chocolate, baking chocolate, and cocoa powder contain the highest levels of theobromine and are the most dangerous. For cats, even about 2 grams of dark chocolate may cause serious harm, so if a cat eats any chocolate, contact a veterinarian as soon as possible.",
   "safetyNotes": [
     "Symptoms: Vomiting and diarrhea within 2–4 hours; followed by agitation, rapid heart rate, excessive thirst and urination; escalating to muscle tremors, hyperthermia, cardiac arrhythmias, and grand mal seizures; in severe cases: respiratory failure and death.",
-    "Danger by type (most to least): Dry cocoa powder > baker's chocolate > dark/semisweet chocolate > milk chocolate > white chocolate (virtually no methylxanthines).",
     "2 grams can cause serious harm: Smaller than one standard chocolate square — even crumbs from baked goods should be taken seriously.",
-    "Action: Veterinary emergency. Contact a vet immediately even for small exposures."
+    "Action: Veterinary emergency. Contact a vet immediately even for small exposures.",
+    "Danger by type (most to least): Dry cocoa powder > baker's chocolate > dark/semisweet chocolate > milk chocolate > white chocolate (virtually no theobromine)."
   ],
   "toxicParts": [
     "Seed",

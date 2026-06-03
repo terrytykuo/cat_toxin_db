@@ -3,7 +3,7 @@
   "category": "plant",
   "description": "天堂鳥 (Strelitzia reginae 和 Strelitzia nicolai) 是常見觀賞植物，以戲劇性的橘藍色花朵和大型熱帶葉片聞名。它對貓有輕微毒性。主要危害來自種子與種莢，其中含有單寧 (tannins)、少量氫氰酸 (hydrocyanic acid，會釋放氰化物的化合物)，以及植物汁液中的其他刺激物。雖然毒性比許多室內植物低，但貓比人類更容易受這些化合物影響，攝入花或種子可能造成持續的腸胃道症狀。",
   "gemini_model": "codex-manual",
-  "manual_override": false,
+  "manual_override": true,
   "name": "天堂鳥",
   "safetyNotes": [
     "症狀：噁心、嘔吐、輕微腹瀉和嗜睡是最常見的徵象；症狀通常會自行緩解，但會讓貓不舒服。",
@@ -11,34 +11,36 @@
     "處理方式：觀察貓的狀況；如果嘔吐持續，或在已知／疑似攝入後顯得異常嗜睡，請聯絡獸醫。"
   ],
   "slug": "strelitzia_reginae",
-  "source_hash": "df4f0c7ad409a4004efd0c9bb29dc9516eaa19ac0326b256da83440829878bb4",
+  "source_hash": "1ec44a138d4156af8070bc583ef97df47b7c06f9ab9c864e3baaf3aa95e4c404",
   "symptoms": [
     {
       "body_system": "腸胃道",
       "name": "噁心、嘔吐與腹瀉",
-      "onset": "未明確說明。"
+      "onset": ""
     },
     {
       "body_system": "呼吸系統",
       "name": "呼吸費力（呼吸窘迫）",
-      "onset": "未明確說明。"
+      "onset": ""
     },
     {
       "body_system": "皮膚",
       "name": "眼部分泌物",
-      "onset": "未明確說明。"
+      "onset": ""
     },
     {
       "body_system": "神經系統",
       "name": "嗜睡（精神不振）",
-      "onset": "未明確說明。"
+      "onset": ""
     }
   ],
   "toxicParts": [
     "葉子",
     "種子",
     "花",
-    "果實"
+    "果實",
+    "種莢"
   ],
-  "translated_at": "2026-05-28T19:48:53Z"
+  "translated_at": "2026-05-29T11:31:52.798Z",
+  "migrated_from": "data/site/zh-TW/strelitzia_reginae.json"
 }

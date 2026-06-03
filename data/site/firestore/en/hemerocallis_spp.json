@@ -8,13 +8,12 @@
   ],
   "name": "Daylily",
   "aliases": [],
-  "description": "Daylily (Hemerocallis spp.) is one of the most dangerous plants for cats and must be treated as a veterinary emergency. Although not a true lily botanically, Daylilies share the same devastating nephrotoxicity seen in Easter and Tiger lilies. The specific toxic compound has not been fully identified, but virtually all parts — flowers, leaves, stems, pollen, and even vase water — can cause fatal acute kidney failure.",
+  "description": "Daylilies (Hemerocallis spp.) are among the most dangerous plants for cats and should be treated with extreme caution. Although they are not “true lilies” in botanical classification, they can cause the same severe kidney toxicity seen with Easter lilies and tiger lilies. Any suspected exposure should be treated as a veterinary emergency. The exact toxic compound in daylilies has not been fully identified, but they are known to cause serious kidney damage in cats. Cats are highly sensitive to this type of plant, and even a small exposure may lead to acute kidney failure. The risk is not limited to eating the flowers or leaves. Pollen that gets on a cat’s fur and is later licked off, or water from a vase containing daylilies, may also be dangerous. After exposure to daylily, a cat may first show vomiting, loss of appetite, low energy, or drooling. Later, abnormal drinking or urination, weakness, and acute kidney failure may develop. The flowers, leaves, stems, pollen, and vase water should all be kept completely away from cats. Homes with cats should not keep or grow daylilies. If you suspect your cat has eaten any part of the plant, licked pollen, or drunk vase water, contact a veterinarian or emergency animal hospital immediately—do not wait for symptoms to appear.",
   "safetyNotes": [
     "Toxic compounds: unknown nephrotoxic substance unique to Hemerocallis; not toxic to dogs or humans",
     "Mechanism: acute tubular necrosis — rapid, irreversible destruction of kidney tissue",
-    "Symptoms Phase 1 (0-2h): vomiting, lethargy, drooling; Phase 2 (24-72h): acute kidney failure with cessation of urine output, seizures, coma",
     "Even small exposures are dangerous: a few petals, licking pollen off fur, or drinking vase water can be lethal",
-    "Time is critical — decontamination and IV fluid therapy within 6 hours significantly improve survival; do not wait for symptoms to worsen"
+    "Time is critical. Do not wait for symptoms to worsen"
   ],
   "toxicParts": [
     "Leaf",

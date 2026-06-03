@@ -8,7 +8,7 @@
   ],
   "name": "Croton",
   "aliases": [],
-  "description": "Croton (Codiaeum variegatum) is a popular ornamental shrub prized for its intensely colourful leaves, but it is toxic to cats. The plant's milky white sap contains irritating diterpene ester compounds related to phorbol esters, which cause severe chemical burns on contact with skin, eyes, or mucous membranes. The seeds also contain protein toxins. Ingestion causes significant gastrointestinal distress, while skin or eye contact with the sap produces a rapid inflammatory response.",
+  "description": "Croton (Codiaeum variegatum) is a popular ornamental shrub known for its brightly colored, patterned leaves. It is often grown in gardens or kept as an indoor potted plant. However, croton is not safe for cats, and cats should not be allowed to chew it or come into contact with its sap. The main danger comes from the milky sap released when the plant is damaged. This sap contains strong irritants, including diterpene esters related to phorbol esters. In simple terms, these compounds can strongly irritate the skin, eyes, mouth, and other sensitive tissues, causing pain, redness, swelling, and inflammation. The seeds may also contain protein-based toxins, so cats should not chew or swallow them. If a cat eats croton, possible signs include drooling, vomiting, diarrhea, loss of appetite, mouth pain, and low energy. If the sap touches the skin or eyes, irritation can develop quickly, with redness, tearing, squinting, pawing at the face, or signs of pain. The leaves, stems, sap, and seeds should all be kept away from cats. Homes with cats should avoid keeping croton, or place it somewhere the cat truly cannot reach.",
   "safetyNotes": [
     "Symptoms: Drooling, vomiting, severe diarrhea, and abdominal pain from ingestion; skin redness, blistering, and eye pain from sap contact.",
     "Sap is the immediate hazard: The milky sap is released whenever a leaf or stem is broken. Cats that chew on leaves receive both the sap and the leaf tissue.",
@@ -17,7 +17,7 @@
   "toxicParts": [
     "Sap",
     "Leaf",
-    "Entire Plant"
+    "seed"
   ],
   "symptoms": [
     {

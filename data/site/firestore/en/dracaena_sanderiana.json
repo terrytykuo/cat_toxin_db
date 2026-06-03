@@ -2,9 +2,11 @@
   "slug": "dracaena_sanderiana",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
-    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dracaena_sanderiana.jpg"
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dracaena_sanderiana.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dracaena_sanderiana/images/1779373776205.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dracaena_sanderiana/images/1779373785176.jpg"
   ],
   "name": "Lucky Bamboo",
   "aliases": [],

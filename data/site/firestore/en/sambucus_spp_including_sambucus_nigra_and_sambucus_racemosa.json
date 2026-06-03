@@ -2,7 +2,7 @@
   "slug": "sambucus_spp_including_sambucus_nigra_and_sambucus_racemosa",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sambucus_spp_including_sambucus_nigra_and_sambucus_racemosa.jpg"
   ],

@@ -4,7 +4,8 @@
   "hidden": false,
   "severity": "toxic",
   "imageUrls": [
-    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/celastrus_scandens.jpg"
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/celastrus_scandens.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/celastrus_scandens/images/1780001805366.jpg"
   ],
   "name": "Bittersweet",
   "aliases": [],

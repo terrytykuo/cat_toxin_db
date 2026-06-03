@@ -1,9 +1,9 @@
 {
   "aliases": [],
   "category": "food",
-  "description": "骨頭本身對貓不具化學毒性，但會造成嚴重的物理性危害，因此不適合作為食物或咀嚼物。熟骨頭，尤其是禽類、魚類和豬骨，加熱後會變脆並裂成尖銳碎片，可能割傷口腔、喉嚨、食道、胃或腸道，造成危及生命的內部傷害。生骨頭較硬、較不容易碎裂，但可能造成牙齒斷裂，也可能帶有危險的細菌污染，包括沙門氏菌 (Salmonella) 和彎曲桿菌 (Campylobacter)，商業生肉飲食尤其需要注意。",
+  "description": "骨頭本身對貓不具毒性，但會造成嚴重的物理性危害，因此不適合作為食物或咀嚼物。\n\n熟骨頭，尤其是禽類、魚類和豬骨，加熱後會變脆並裂成尖銳碎片，可能割傷口腔、喉嚨、食道、胃或腸道，造成危及生命的內部傷害。生骨頭比較硬，也比較不容易裂成尖銳碎片；但它們仍可能造成貓咪牙齒斷裂，而且可能帶有危險的細菌污染，包括沙門氏菌 (Salmonella) 和彎曲桿菌 (Campylobacter)，在市售生食飲食中尤其需要注意。",
   "gemini_model": "codex-manual",
-  "manual_override": false,
+  "manual_override": true,
   "name": "骨頭",
   "safetyNotes": [
     "熟骨頭：絕對不要餵任何種類的熟骨頭。碎裂是主要危險，即使一小片尖銳碎片也可能造成需要緊急手術的內部撕裂傷。",
@@ -11,10 +11,10 @@
     "處理方式：如果貓吞下骨頭碎片，請密切觀察是否有不適徵象，例如流涎、作嘔、嘔吐、腹痛或血便，並立即尋求獸醫照護。"
   ],
   "slug": "bones",
-  "source_hash": "ce968f12dd3c8e73de1297986aae877e9108c47c18193a904e0e2c76fa744ea8",
+  "source_hash": "fa0ef88bd267d93d70bae95865c9eb039b4339655aea5ee4dfe5c5700ad8768f",
   "symptoms": [
     {
-      "body_system": "代謝",
+      "body_system": "腸胃道",
       "name": "誤食骨頭造成的物理性傷害風險"
     },
     {
@@ -41,5 +41,6 @@
   "toxicParts": [
     "整個食物"
   ],
-  "translated_at": "2026-05-28T19:48:53Z"
+  "translated_at": "2026-05-29T11:24:15.706Z",
+  "migrated_from": "data/site/zh-TW/bones.json"
 }

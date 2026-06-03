@@ -2,7 +2,7 @@
   "slug": "scadoxus_spp",
   "category": "plant",
   "hidden": false,
-  "severity": "cautious",
+  "severity": "toxic",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/scadoxus_spp/images/1772924593905.jpg",
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/scadoxus_spp/images/1772924604879.jpg",
@@ -17,8 +17,8 @@
     "Action: Contact a vet promptly — even small amounts from the bulb can cause significant symptoms."
   ],
   "toxicParts": [
-    "Leaf",
-    "Bulb"
+    "Bulb",
+    "All parts of the plant"
   ],
   "symptoms": [
     {

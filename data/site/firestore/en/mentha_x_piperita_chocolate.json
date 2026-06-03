@@ -34,13 +34,6 @@
       "notes": "Cats lack specific liver enzymes necessary to break down the volatile compounds in mint oils. This inability to metabolize the toxins can lead to central nervous system depression and weakness.CNS and Cardiac Stimulation (Methylxanthine Toxicity)"
     },
     {
-      "name": "Hyperactivity, tremors, seizures, abnormal heartbeats (arrhythmias), and hyperthermia (high body temperature)",
-      "body_system": "Neurological",
-      "severity": "fatal",
-      "onset": "Quantity-dependent (Symptoms of chocolate/caffeine toxicity generally appear within a few hours).",
-      "notes": "While some sources attribute Chocolate Mint toxicity primarily to mint oils6, another explicitly states that Chocolate Mint contains theobromine and caffeine. These compounds are highly dangerous stimulants for cats, distinct from the depressant effects of standard mint oils.Respiratory Distress"
-    },
-    {
       "name": "Difficulty breathing, coughing, or sneezing",
       "body_system": "Respiratory",
       "severity": "severe",

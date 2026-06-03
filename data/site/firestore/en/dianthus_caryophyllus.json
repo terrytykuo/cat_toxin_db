@@ -2,7 +2,7 @@
   "slug": "dianthus_caryophyllus",
   "category": "plant",
   "hidden": false,
-  "severity": "safe",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dianthus_caryophyllus.jpg"
   ],

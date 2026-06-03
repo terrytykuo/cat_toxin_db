@@ -32,49 +32,42 @@
       "name": "Prolonged Depression (Sleepiness/Lethargy) or Hyperexcitability",
       "body_system": "Neurological",
       "severity": "moderate",
-      "onset": "After absorption",
       "notes": "Reactions can range from extreme lethargy and sleepiness to hyperactivity and agitation44. 3. Dilated Pupils (Mydriasis)"
     },
     {
       "name": "Mydriasis (Dilated Pupils)",
       "body_system": "Neurological",
       "severity": "moderate",
-      "onset": "After absorption",
       "notes": "This gives the cat a \"wild-eyed\" appearance44. 4. Urinary Incontinence"
     },
     {
       "name": "Urinary Incontinence (Urine Leakage)",
       "body_system": "Renal",
       "severity": "moderate",
-      "onset": "After absorption",
       "notes": "The pet may dribble urine uncontrollably, a distinctive sign of cannabis intoxication4. 5. Vomiting and Drooling"
     },
     {
       "name": "Vomiting and Hypersalivation (Excessive Drooling)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "onset": "After absorption",
       "notes": "While vomiting is a symptom, cannabis also has an anti-emetic (anti-vomiting) effect, which can make it difficult for veterinarians to induce vomiting as a treatment33. 6. Heart Rate Abnormalities"
     },
     {
       "name": "Bradycardia (Slow Heart Rate) or Tachycardia (Fast Heart Rate)",
       "body_system": "Cardiac",
       "severity": "severe",
-      "onset": "After absorption",
       "notes": "Altered blood pressure is also observed alongside heart rate changes55. 7. Abnormal Body Temperature"
     },
     {
       "name": "Hypothermia (Low Body Temperature) or Hyperthermia (High Body Temperature)",
       "body_system": "Neurological",
       "severity": "moderate",
-      "onset": "After absorption",
       "notes": "Low body temperature is explicitly noted as a sign55. 8. Severe Neurological Signs (Tremors, Seizures, Coma)"
     },
     {
       "name": "Tremors, Seizures, and Coma",
       "body_system": "Neurological",
       "severity": "fatal",
-      "onset": "After absorption",
       "notes": "While death is rare (\"seldom fatal\"), it can occur if vital central nervous system regulatory centers are severely depressed. Fatalities are more commonly associated with the ingestion of highly concentrated \"medical-grade\" products (e.g., edibles, waxes) rather than plant material"
     }
   ],

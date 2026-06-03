@@ -1,18 +1,17 @@
 {
   "slug": "gerbera-daisy",
-  "source_hash": "0203d0ba86825f1428febbd26c961b0b357c1beeff10cd37d8fba20ff8dd06f4",
-  "translated_at": "2026-05-21T10:29:32Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "source_hash": "cb7769facc339d8753831def6dcc0740d2668148ef5d008052da33c5139289df",
+  "translated_at": "2026-06-01T14:09:01.000Z",
+  "gemini_model": "codex-manual",
+  "manual_override": true,
   "category": "plant",
-  "name": "非洲菊 (Gerbera Daisy)",
-  "aliases": [
-    "大丁草",
-    "非洲菊"
-  ],
-  "description": "非洲菊對貓是安全的，且擁有充滿活力的霓虹色彩。與許多其他有毒的「雛菊」（如菊花或洋甘菊）不同，非洲菊是令人愉悅且寵物友好的選擇。",
+  "name": "非洲菊",
+  "aliases": [],
+  "description": "非洲菊（Gerbera jamesonii）是顏色鮮明的花，常出現在花束和盆栽組合中。它被認為對貓安全，目前沒有已知的貓特異性毒素。\n\n真正需要注意的是辨識。很多被隨口稱為「雛菊」的花其實不是非洲菊，其中有些，例如菊花或洋甘菊，對貓有毒。花束標籤上的名稱不一定足夠，最好確認實際花材。\n\n如果貓只是咬了一小口真正的非洲菊，通常不預期會嚴重中毒。不過，大量吃下任何植物仍可能造成輕微嘔吐或腹瀉。請保持花束整潔，清掉掉落花瓣和葉片，也要確認混合花束裡沒有百合、菊花或其他對貓有毒的花。",
   "safetyNotes": [
-    "⚠️ 注意：許多其他「雛菊」（菊花、洋甘菊）對貓是有毒的。請確保您購買的是真正的非洲菊。"
+    "對貓安全：真正的非洲菊被認為對貓無毒。",
+    "辨識很重要：菊花、洋甘菊和某些被稱為雛菊的花，對貓有毒。",
+    "花束提醒：檢查混合花束中是否有百合或其他有毒花材，並清掉掉落花瓣和葉片。"
   ],
   "toxicParts": [],
   "symptoms": []

@@ -2,7 +2,7 @@
   "slug": "solanum_melongena",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/solanum_melongena.jpg"
   ],
@@ -12,14 +12,12 @@
   "safetyNotes": [
     "Avoid: leaves, stems, flowers, and unripe fruit — these contain solanine-like glycoalkaloids",
     "Ripe flesh: relatively safe in small amounts but provides no nutritional value for cats; may still cause mild GI upset",
-    "Never feed seasoned eggplant — garlic, onion, and salt used in cooking are toxic to cats",
-    "If your cat eats a small piece of plain ripe eggplant, monitor for vomiting or diarrhea; no urgent action needed unless symptoms persist"
+    "Never feed seasoned eggplant — garlic, onion, and salt used in cooking are toxic to cats"
   ],
   "toxicParts": [
     "Root",
     "Stem",
-    "Leaf",
-    "Fruit"
+    "Leaf"
   ],
   "symptoms": [
     {

@@ -8,7 +8,7 @@
   ],
   "name": "Common Garden Mint",
   "aliases": [],
-  "description": "Common Garden Mint (Mentha spicata — spearmint; Mentha x piperita — peppermint) is widely grown in gardens and kitchens, but is toxic to cats. Mint plants contain menthol, pulegone, and a variety of other monoterpene compounds. Cats have limited glucuronyl transferase enzyme activity in their livers, which means they cannot efficiently break down and excrete these terpene compounds, leading to accumulation and toxicity. Peppermint and spearmint essential oils are particularly dangerous and should never be used around cats.",
+  "description": "A common herb grown in gardens, kitchens, and small indoor pots. People often use it for tea, cooking, or fragrance products, but it is not considered safe for cats, especially when it is concentrated into essential oil. The main concern comes from natural aromatic compounds in mint, such as menthol and pulegone. These compounds are part of the plant’s essential oils, and they become more concerning when they are highly concentrated. Cats have a limited ability to break down and clear some of these plant compounds through the liver, so if they eat, lick, or breathe in concentrated mint oil for a long time, the substances may build up and increase the risk of poisoning. If a cat eats mint leaves, possible signs include drooling, vomiting, diarrhea, low energy, or loss of appetite. Peppermint and spearmint essential oils are especially risky and should not be used around cats. Do not feed spearmint to cats, and avoid using mint essential oils, diffusers, or mint-oil products near them. Keep mint plants out of reach, and contact a veterinarian promptly if your cat eats mint or licks any essential oil.",
   "safetyNotes": [
     "Symptoms: Drooling, vomiting, diarrhea, and lethargy from ingestion; respiratory irritation and distress from inhaling concentrated essential oils.",
     "Essential oils vs fresh leaves: While nibbling a small amount of fresh mint leaf may cause only mild GI upset, concentrated essential oils can cause serious poisoning even through skin contact or inhalation.",
@@ -17,7 +17,8 @@
   "toxicParts": [
     "Stem",
     "Leaf",
-    "Flower"
+    "Flower",
+    "Essential Oil"
   ],
   "symptoms": [
     {

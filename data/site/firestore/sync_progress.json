@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-21T10:42:44Z",
+  "updated_at": "2026-06-03T13:00:22Z",
   "source": "firestore:toxins",
   "include_hidden": false,
   "firestore_counts": {
@@ -9,13 +9,13 @@
   },
   "selected_counts": {
     "food": 43,
-    "total": 201,
-    "plant": 158
+    "total": 200,
+    "plant": 157
   },
   "generated_counts": {
     "food": 43,
-    "total": 201,
-    "plant": 158
+    "total": 200,
+    "plant": 157
   },
   "selected_slugs": [
     "alcohol",
@@ -120,7 +120,6 @@
     "adenium_obesum",
     "dieffenbachia_spp",
     "dracaena_spp",
-    "dracaena_marginata_or_dracaena_spp",
     "solanum_melongena",
     "sambucus_spp_including_sambucus_nigra_and_sambucus_racemosa",
     "hedera_spp",
@@ -224,8 +223,8 @@
   "zh_cache_dir": "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/zh-TW",
   "output_file": "/Users/sweetp/Workspace/MewGuard/mewguard_site/src/data/toxins.generated.ts",
   "translation": {
-    "current_count": 201,
-    "pending_count": 0,
+    "current_count": 199,
+    "pending_count": 1,
     "last_run": {
       "pending_before_limit": null,
       "selected": 0,

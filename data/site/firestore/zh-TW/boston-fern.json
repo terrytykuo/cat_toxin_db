@@ -3,14 +3,15 @@
     "劍蕨"
   ],
   "category": "plant",
-  "description": "波士頓腎蕨是茂密、羽狀的植物，對貓完全安全。它喜歡濕度和間接光，很適合放在浴室。垂墜的葉片可能會吸引貓玩耍，但這種植物無毒。",
+  "description": "波士頓腎蕨是茂密、羽狀的植物，對貓咪來說是安全的。它喜歡濕度和間接光，很適合放在浴室。垂墜的葉片可能會吸引貓玩耍，但這種植物無毒。",
   "gemini_model": "codex-manual",
-  "manual_override": false,
+  "manual_override": true,
   "name": "波士頓腎蕨",
   "safetyNotes": [],
   "slug": "boston-fern",
-  "source_hash": "9773de8b65c5d2d3c69f2d5016616c625f586bad71c25923289b72fdf6502751",
+  "source_hash": "6e9fb33b7edb59572e42f2db65ae5deaa4d69b47fa666b500fe74d98176d44b8",
   "symptoms": [],
   "toxicParts": [],
-  "translated_at": "2026-05-28T19:48:53Z"
+  "translated_at": "2026-05-28T21:16:45.939Z",
+  "migrated_from": "data/site/zh-TW/boston-fern.json"
 }

@@ -2,7 +2,7 @@
   "slug": "prunus_serotina",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/prunus_serotina.jpg"
   ],
@@ -19,7 +19,7 @@
     "Stem",
     "Leaf",
     "Seed",
-    "Fruit"
+    "Pit"
   ],
   "symptoms": [
     {
@@ -56,13 +56,6 @@
       "severity": "moderate",
       "onset": "10–60 minutes (often the first sign before progression).",
       "notes": "You may also detect an \"almond-flavored\" odor on the cat's breath. Gastrointestinal signs can also be caused by the physical irritation of the plant material.Death"
-    },
-    {
-      "name": "Sudden death",
-      "body_system": "Metabolic",
-      "severity": "fatal",
-      "onset": "Rapid (often occurs before treatment can begin).",
-      "notes": "Due to the potency of cyanide and the speed of onset, death can occur quickly if the animal consumes a toxic dose of seeds or wilted leaves."
     }
   ],
   "scientificName": "Prunus serotina",

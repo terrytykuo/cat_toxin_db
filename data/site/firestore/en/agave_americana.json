@@ -4,7 +4,8 @@
   "hidden": false,
   "severity": "cautious",
   "imageUrls": [
-    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/agave_americana.jpg"
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/agave_americana/images/1780057782598.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/agave_americana/images/1780057788830.jpg"
   ],
   "name": "Century Plant",
   "aliases": [],

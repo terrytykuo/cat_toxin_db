@@ -5,12 +5,11 @@
   "severity": "toxic",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/hippeastrum_spp_or_amaryllis_spp/images/1772925084399.jpg",
-    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/hippeastrum_spp_or_amaryllis_spp/images/1772925091530.avif",
-    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/hippeastrum_spp_or_amaryllis_spp/images/1772925096663.avif"
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/hippeastrum_spp_or_amaryllis_spp/images/1772925091530.avif"
   ],
   "name": "Amaryllis",
   "aliases": [],
-  "description": "Amaryllis contains lycorine and other phenanthridine alkaloids concentrated throughout the plant, with the highest levels found in the bulb. Lycorine inhibits protein synthesis in cells and triggers strong gastrointestinal reactions. This plant is particularly common as an indoor holiday gift, meaning cats may encounter it during periods when owners are less vigilant. Both the Hippeastrum hybrids (commonly sold as \"Amaryllis\") and true Amaryllis species are toxic.",
+  "description": "Amaryllis contains lycorine and other phenanthridine alkaloids concentrated throughout the plant, with the highest levels found in the bulb. Lycorine inhibits protein synthesis in cells and triggers strong gastrointestinal reactions. This plant is particularly common as an indoor holiday gift, meaning cats may encounter it during periods when owners are less vigilant. The name “Amaryllis” is often used for different but related plants. Most potted “Amaryllis” sold in stores are actually Hippeastrum, but both types are toxic to cats.",
   "safetyNotes": [
     "Symptoms: Drooling, vomiting, diarrhea, abdominal pain, low blood pressure, tremors, and lethargy; rarely, seizures in severe cases.",
     "Bulb is most toxic: The bulb contains the highest alkaloid concentration. Cats that dig at soil and chew on bulbs face the greatest risk.",
@@ -87,6 +86,6 @@
       "notes": "Slowed or shallow breathing may occur as a systemic reaction to the alkaloids."
     }
   ],
-  "scientificName": "Hippeastrum spp. or Amaryllis spp.",
+  "scientificName": "Hippeastrum spp.",
   "family": "Liliaceae"
 }

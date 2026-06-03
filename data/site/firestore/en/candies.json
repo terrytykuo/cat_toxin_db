@@ -69,13 +69,6 @@
       "severity": "mild",
       "onset": "Shortly after ingestion",
       "notes": "In experimental studies evaluating the effects of xylitol (found in sugar-free candies and mints) on cats, massive oral doses caused no significant changes in blood sugar or liver parameters, with transient salivation being the only reported clinical sign"
-    },
-    {
-      "name": "Hypoglycemia and Liver Failure (Theoretical / Rare)",
-      "body_system": "Gastrointestinal",
-      "severity": "fatal",
-      "onset": "15 to 30 minutes for a drop in blood sugar (or delayed up to 12 hours depending on the product);",
-      "notes": "In dogs, xylitol tricks the pancreas into releasing a massive surge of insulin, driving down blood sugar and destroying the liver1113. Cats appear to be naturally resistant to xylitol toxicity and lack this receptor-mediated pathway14. While major poison control centers report no cases of feline xyl"
     }
   ],
   "scientificName": "Candies",

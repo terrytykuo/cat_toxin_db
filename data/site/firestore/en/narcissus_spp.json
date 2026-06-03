@@ -8,7 +8,7 @@
   ],
   "name": "Daffodil",
   "aliases": [],
-  "description": "Daffodil (Narcissus spp.) is a bulbous spring-flowering plant toxic to cats throughout all its parts, with the bulb carrying the highest concentration of toxins. It contains lycorine, an alkaloid that directly triggers the vomiting reflex in the brainstem, and calcium oxalate crystals that cause additional mucosal irritation on contact.",
+  "description": "Daffodils (Narcissus spp.) are common spring-blooming bulb plants, often grown in gardens, pots, or used as indoor decorations. They are not safe for cats. The entire plant is toxic, and the bulb contains the highest concentration of toxins, so it is especially important to prevent cats from chewing or digging it up. The main toxin is an alkaloid called lycorine. This compound strongly triggers the vomiting response, so cats may vomit soon after eating the plant. Daffodils also contain calcium oxalate crystals. These tiny crystals can irritate the mouth, tongue, and throat, causing pain, drooling, lip licking, or trouble swallowing. If a cat eats daffodil, possible signs include drooling, vomiting, diarrhea, loss of appetite, low energy, and abdominal discomfort. Larger amounts, especially from the bulb, may cause weakness, low blood pressure, abnormal heart rhythm, or seizures. The leaves, flowers, stems, and bulbs should all be kept away from cats, but the bulb is the most dangerous part. Homes with cats should avoid keeping daffodils, or place them somewhere the cat truly cannot reach and cannot dig up the bulb. If your cat eats any part of the plant, especially the bulb, contact a veterinarian promptly.",
   "safetyNotes": [
     "Toxic compounds: lycorine (primary alkaloid), galantamine, calcium oxalate crystals; bulbs most concentrated",
     "Mechanism: lycorine activates the emetic centre in the brainstem; oxalates cause direct tissue irritation",
@@ -18,9 +18,7 @@
   ],
   "toxicParts": [
     "Bulb",
-    "Leaf",
-    "Flower",
-    "Stem"
+    "All parts of the plant"
   ],
   "symptoms": [
     {
@@ -34,14 +32,12 @@
       "name": "Cardiac Arrhythmias",
       "body_system": "Cardiac",
       "severity": "severe",
-      "onset": "Delayed",
       "notes": "Irregular heartbeat and hypotension; requires monitoring."
     },
     {
       "name": "Respiratory Depression",
       "body_system": "Respiratory",
       "severity": "severe",
-      "onset": "Delayed",
       "notes": "Can occur with massive ingestions (bulbs)."
     }
   ],

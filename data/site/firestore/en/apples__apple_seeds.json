@@ -2,7 +2,7 @@
   "slug": "apples__apple_seeds",
   "category": "food",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/apples__apple_seeds/images/1773007302251.jpg"
   ],

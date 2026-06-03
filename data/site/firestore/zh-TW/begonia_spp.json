@@ -1,9 +1,9 @@
 {
   "aliases": [],
   "category": "plant",
-  "description": "秋海棠是常見的室內植物與庭園花卉，種類繁多，但所有品種都對貓有毒。主要毒性成分是可溶性草酸鈣，濃度最高的位置在地下塊莖、根莖與根系。不同於天南星科植物常見的不溶性針晶體，可溶性草酸鹽可能被吸收入血液；如果暴露量足夠大，可能造成更全身性的影響，包括電解質失衡。會挖盆栽秋海棠、啃咬根部或塊莖的貓風險最高。",
+  "description": "秋海棠是常見的室內植物與庭園花卉，種類繁多，但所有品種都對貓有毒。主要毒性成分是可溶性草酸鈣，濃度最高的位置在地下塊莖、根莖與根系。\n\n可溶性草酸鈣可能被吸收入血液；如果攝取量足夠大，會造成更全身性的影響，包括電解質失衡。特別是會挖盆栽、啃咬根部或塊莖的貓風險最高。",
   "gemini_model": "codex-manual",
-  "manual_override": false,
+  "manual_override": true,
   "name": "秋海棠",
   "safetyNotes": [
     "症狀：流涎、嘔吐和腹瀉是最常見的徵象；暴露量較大時，可能出現電解質失衡。",
@@ -11,7 +11,7 @@
     "處理方式：如果貓咬過根部或塊莖，或出現超過輕微流涎與單次嘔吐的情況，請聯絡獸醫。"
   ],
   "slug": "begonia_spp",
-  "source_hash": "399b72292d2cfc6b1734fdc29380d5fea968f3629cab678b40c1e529ff8f7983",
+  "source_hash": "dcf22da099f5159bb087f6ae1f598203c2ca24bd2da9e75b2eb0f84b0a0b650e",
   "symptoms": [
     {
       "body_system": "腸胃道",
@@ -45,5 +45,6 @@
     "葉子",
     "花"
   ],
-  "translated_at": "2026-05-28T19:48:53Z"
+  "translated_at": "2026-05-29T10:09:20.876Z",
+  "migrated_from": "data/site/zh-TW/begonia_spp.json"
 }

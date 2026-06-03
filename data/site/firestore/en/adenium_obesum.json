@@ -8,10 +8,9 @@
   ],
   "name": "Desert Rose",
   "aliases": [],
-  "description": "Desert Rose (Adenium obesum) is a succulent ornamental plant toxic to cats due to cardenolides — potent cardiac glycosides concentrated throughout the entire plant, including the sap, roots, stems, and flowers. These compounds inhibit the sodium-potassium ATPase pump in heart muscle cells, disrupting the electrical signals that regulate heartbeat rhythm.",
+  "description": "沙漠玫瑰（Adenium obesum）是一種常見的觀賞多肉植物，因為有膨大的莖和鮮豔的花，很常被當作盆栽栽培。不過，沙漠玫瑰對貓有毒，不適合放在貓可能啃咬或碰到汁液的地方。 主要危險來自一類叫做 強心苷 的毒性成分，其中包含 cardenolides。這類物質會影響心臟細胞維持正常電訊號的能力，進而干擾心跳節律。簡單來說，貓吃下後不只是可能腸胃不舒服，也可能影響心臟功能，因此需要特別謹慎。 沙漠玫瑰全株都有毒，包括汁液、根、莖和花。貓誤食後可能出現流口水、嘔吐、腹瀉、食慾下降、精神變差、虛弱、心跳變慢或心律不整等症狀。建議家中有貓時避免擺放沙漠玫瑰，或放在貓完全碰不到、也不會被咬破流汁的地方。若貓誤食任何部位，或接觸汁液後出現不適，請立即聯絡獸醫，尤其不要等到出現心跳異常才處理。",
   "safetyNotes": [
     "Toxic compounds: cardenolides (cardiac glycosides), similar in action to digitalis",
-    "Mechanism: Na+/K+-ATPase inhibition causing cardiac conduction disruption and arrhythmias",
     "Symptoms: drooling, vomiting, diarrhea, lethargy, weakness, abnormal heart rate (bradycardia or arrhythmia), collapse",
     "All parts are toxic; the milky sap poses the greatest risk if ingested or contacted",
     "Even small exposures warrant veterinary assessment due to cardiac risk"
@@ -21,7 +20,7 @@
     "Leaf",
     "Flower",
     "Stem",
-    "Entire Plant"
+    "All parts of the plant"
   ],
   "symptoms": [
     {

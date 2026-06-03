@@ -2,13 +2,13 @@
   "slug": "begonia_spp",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/begonia_spp.jpg"
   ],
   "name": "Begonia",
   "aliases": [],
-  "description": "Begonias are a large family of popular houseplants and garden flowers, but all species are toxic to cats. The primary toxic agents are soluble calcium oxalates, which are most heavily concentrated in the underground tubers, rhizomes, and root systems. Unlike the insoluble raphide crystals found in related Araceae plants, soluble oxalates can be absorbed into the bloodstream and — with large enough exposure — may cause more systemic effects including electrolyte imbalances. Cats that dig at potted begonias and chew on the roots or tubers face the greatest risk.",
+  "description": "Begonias are a large family of popular houseplants and garden flowers, but all species are toxic to cats. The primary toxic agents are soluble calcium oxalates, which are most heavily concentrated in the underground tubers, rhizomes, and root systems. The soluble oxalates can be absorbed into the bloodstream and — with large enough exposure — may cause more systemic effects including electrolyte imbalances. Cats that dig at potted begonias and chew on the roots or tubers face the greatest risk.",
   "safetyNotes": [
     "Symptoms: Drooling, vomiting, and diarrhea are the most common signs; in larger exposures, electrolyte disturbances can occur.",
     "Roots and tubers most toxic: The leaves and flowers contain lower oxalate levels, but the underground portions are significantly more concentrated and must be kept inaccessible.",

@@ -15,14 +15,15 @@
     "Action: Remove fallen berries promptly. Place the plant in a location cats cannot reach, and consult a vet if ingestion is suspected."
   ],
   "toxicParts": [
-    "Leaf",
-    "Fruit"
+    "Fruits / berries",
+    "Leaves"
   ],
   "symptoms": [
     {
       "name": "Skin Irritation (Allergic Dermatitis)",
       "body_system": "Dermal",
       "severity": "moderate",
+      "onset": "Repeatedly",
       "notes": "This plant is distinct from other toxic plants because significant symptoms often arise simply from the cat brushing against the feathery leaves, which causes inflammation and irritation of the skin.Gastrointestinal Upset (Vomiting)"
     },
     {

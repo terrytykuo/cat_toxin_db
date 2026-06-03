@@ -16,10 +16,8 @@
     "Action: This is a life-threatening emergency. Take the cat to a vet immediately — do not wait for symptoms."
   ],
   "toxicParts": [
-    "Bulb",
-    "Seed",
-    "Flower",
-    "Entire Plant"
+    "All parts of the plant",
+    "Bulbs"
   ],
   "symptoms": [
     {
@@ -63,6 +61,11 @@
       "severity": "severe",
       "onset": "Variable; often associated with advanced toxicity.",
       "notes": "Indicates severe systemic involvement and requires immediate emergency intervention."
+    },
+    {
+      "name": "Liver Damage (Hepatotoxicity)",
+      "body_system": "Hepatic",
+      "severity": "moderate"
     }
   ],
   "scientificName": "Colchicum autumnale",

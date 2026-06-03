@@ -2,7 +2,7 @@
   "slug": "dieffenbachia_spp",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/dieffenbachia_spp.jpg"
   ],
@@ -13,8 +13,7 @@
     "Toxic compounds: insoluble calcium oxalate crystals (raphides) plus proteolytic enzymes that amplify the reaction",
     "Mechanism: mechanical penetration of mouth and throat lining causing intense burning and swelling",
     "Symptoms: sudden oral pain, intense drooling, pawing at mouth, difficulty swallowing (dysphagia), swollen tongue and lips, vomiting",
-    "Severe cases: throat swelling may impair breathing — seek veterinary attention immediately",
-    "The name Dumb Cane comes from the temporary inability to vocalise; cats show equivalent signs of oral distress"
+    "Severe cases: throat swelling may impair breathing — seek veterinary attention immediately"
   ],
   "toxicParts": [
     "Sap",

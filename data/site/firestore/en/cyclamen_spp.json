@@ -2,13 +2,13 @@
   "slug": "cyclamen_spp",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/cyclamen_spp.jpg"
   ],
   "name": "Cyclamen",
   "aliases": [],
-  "description": "Cyclamen (Cyclamen spp.) is a popular flowering houseplant, particularly during winter and holidays. All parts are toxic to cats, with the highest concentration of toxic compounds in the underground tubers. The primary toxic agents are triterpenoid saponins, particularly cyclamin, which disrupt cell membranes, irritate the gastrointestinal tract, and in large amounts can affect heart rhythm. Cats that dig at potted Cyclamen and chew on the tubers are at greatest risk of significant poisoning.",
+  "description": "Cyclamen (Cyclamen spp.) is a common flowering houseplant, especially popular in winter and around holidays. Its flowers are bright and attractive, but it is not safe for cats. The entire plant is toxic, and the underground tuber contains the highest concentration of toxic compounds. The main concern is a group of plant compounds called triterpenoid saponins, especially cyclamin. These substances can irritate the digestive tract and may disturb the stability of cell surfaces, which is why cats can become quite uncomfortable after eating the plant. Small nibbles of leaves or flowers usually cause mostly digestive signs, but the risk is much higher if a cat digs in the pot and chews or swallows the underground tuber. Large amounts may also affect the heart rhythm and lead to more serious poisoning. If a cat eats cyclamen, possible signs include drooling, vomiting, diarrhea, loss of appetite, low energy, and abdominal discomfort. If a larger amount of the tuber is eaten, weakness, abnormal heart rhythm, or more severe reactions may occur. Homes with cats should avoid keeping cyclamen, especially where cats may dig in the soil or chew the plant. If your cat eats any part of cyclamen, particularly the tuber, contact a veterinarian promptly; seek urgent care if repeated vomiting, weakness, or abnormal heartbeat occurs.",
   "safetyNotes": [
     "Symptoms: Drooling, vomiting, diarrhea, and abdominal pain from mild ingestion; larger amounts can cause irregular heart rhythm, seizures, and in severe cases death.",
     "Tubers are most toxic: The fleshy underground tuber contains the greatest saponin concentration — significantly more than the leaves or flowers.",
@@ -36,14 +36,12 @@
       "name": "Cardiac Arrhythmias",
       "body_system": "Cardiac",
       "severity": "severe",
-      "onset": "Delayed",
       "notes": "Associated with tuber ingestion; can be fatal."
     },
     {
       "name": "Seizures",
       "body_system": "Neurological",
       "severity": "severe",
-      "onset": "Delayed",
       "notes": "Associated with severe poisoning (tubers)."
     }
   ],

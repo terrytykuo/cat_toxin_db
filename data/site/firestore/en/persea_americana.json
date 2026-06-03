@@ -2,7 +2,7 @@
   "slug": "persea_americana",
   "category": "food",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/persea_americana.jpg"
   ],
@@ -11,15 +11,12 @@
   "description": "Avocado is toxic to cats primarily because of persin, a fungicidal compound the avocado tree produces as a natural defense. While humans metabolise persin safely, cats lack this ability. Persin triggers dangerous fluid accumulation (edema) in the lungs, chest cavity, abdomen, and around the heart, causing respiratory distress and, at high doses, myocardial necrosis (death of heart muscle tissue). The plant's extremely high fat content creates an additional hazard by triggering acute pancreatitis even when persin levels are low.",
   "safetyNotes": [
     "Symptoms: Vomiting, diarrhea, abdominal pain; difficulty breathing and respiratory distress from lung fluid; lethargy, weakness, and abdominal swelling.",
-    "All parts are dangerous: Leaves carry the highest persin concentration and are considered most toxic; skin, bark, and pit also contain high levels. The fruit flesh contains only trace amounts of persin but is still risky due to its high fat content — keep portions extremely small if offered at all.",
-    "Physical hazard: The pit is a severe choking and obstruction risk if swallowed."
+    "Physical hazard: The pit is a severe choking and obstruction risk if swallowed.",
+    "All parts are dangerous: Leaves carry the highest persin concentration and are considered most toxic; skin, bark, and pit also contain high levels. The fruit flesh contains only trace amounts of persin but is still risky due to its high fat content."
   ],
   "toxicParts": [
-    "Stem",
-    "Bark",
-    "Seed",
-    "Leaf",
-    "Fruit"
+    "All parts of the plant",
+    "Leaves"
   ],
   "symptoms": [
     {
@@ -38,7 +35,7 @@
     },
     {
       "name": "Labored Breathing (Dyspnea), Coughing, and Fluid Accumulation (Edema/Congestion)",
-      "body_system": "Cardiac",
+      "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "12–24 hours after ingestion.",
       "notes": "In severe cases, persin toxicity can cause damage to heart muscle fibers, leading to fluid accumulation around the heart (hydropericardium) and in the lungs (pulmonary congestion). While cats are less sensitive to this than birds, it is a documented risk for dogs and cats in high doses.Foreign Body"
@@ -56,6 +53,11 @@
       "severity": "moderate",
       "onset": "Within 24 hours.",
       "notes": "The cat may appear tired, inactive, or \"dull\" as a general systemic reaction to the toxin or dehydration from vomiting."
+    },
+    {
+      "name": "Fluid accumulation around the heart and myocardial damage",
+      "body_system": "Cardiac",
+      "severity": "moderate"
     }
   ],
   "scientificName": "Persea americana",

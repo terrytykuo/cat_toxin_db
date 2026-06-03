@@ -2,7 +2,7 @@
   "slug": "bones",
   "category": "food",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/bones.jpg"
   ],
@@ -20,7 +20,7 @@
   "symptoms": [
     {
       "name": "Based on the provided sources and our conversation history, ingesting bones",
-      "body_system": "Metabolic",
+      "body_system": "Gastrointestinal",
       "severity": "moderate"
     },
     {

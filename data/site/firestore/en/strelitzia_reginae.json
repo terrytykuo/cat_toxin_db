@@ -18,35 +18,32 @@
     "Leaf",
     "Seed",
     "Flower",
-    "Fruit"
+    "Fruit",
+    "Pod"
   ],
   "symptoms": [
     {
       "name": "Nausea, Vomiting, and Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "onset": "Not explicitly stated,",
       "notes": "These digestive issues are primarily caused by tannins found in the flower seeds and fruits, which act as irritants.Labored Breathing"
     },
     {
       "name": "Labored Breathing (Respiratory Distress)",
       "body_system": "Respiratory",
       "severity": "moderate",
-      "onset": "Not explicitly stated.",
       "notes": "This symptom is linked to the ingestion of the leaves, which contain hydrocyanic acid (prussic acid).Eye Discharge"
     },
     {
       "name": "Eye Discharge",
       "body_system": "Dermal",
       "severity": "mild",
-      "onset": "Not explicitly stated.",
       "notes": "This is a specific clinical sign associated with Bird of Paradise toxicity noted in multiple veterinary sources.Drowsiness"
     },
     {
       "name": "Drowsiness (Lethargy)",
       "body_system": "Neurological",
       "severity": "mild",
-      "onset": "Not explicitly stated.",
       "notes": "This symptom is primarily associated with the ingestion of the seeds or fruit."
     }
   ],

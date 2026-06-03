@@ -2,7 +2,7 @@
   "slug": "prunus_laurocerasus",
   "category": "plant",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/prunus_laurocerasus.jpg"
   ],
@@ -16,7 +16,9 @@
   ],
   "toxicParts": [
     "Leaf",
-    "Seed"
+    "Seed",
+    "Stem",
+    "Pit"
   ],
   "symptoms": [
     {

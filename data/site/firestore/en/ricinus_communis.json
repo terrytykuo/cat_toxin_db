@@ -4,7 +4,8 @@
   "hidden": false,
   "severity": "toxic",
   "imageUrls": [
-    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ricinus_communis.jpg"
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ricinus_communis.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ricinus_communis/images/1780057846489.jpg"
   ],
   "name": "Castor Bean",
   "aliases": [],
