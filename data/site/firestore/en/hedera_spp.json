@@ -8,13 +8,12 @@
   ],
   "name": "English Ivy",
   "aliases": [],
-  "description": "English Ivy (Hedera helix) is a common climbing vine toxic to cats. It contains triterpenoid saponins (including hederagenin and alpha-hederin) and polyacetylene compounds (falcarinol) throughout its leaves and berries. These compounds cause gastrointestinal irritation and, with repeated skin contact, dermatitis in sensitive individuals.",
+  "description": "English Ivy (Hedera helix and related Hedera plants) is a climbing vine often grown indoors, in hanging baskets, or on outdoor walls. It is toxic to cats if chewed or eaten. The leaves are the main concern, and berries are also unsafe. The plant contains triterpenoid saponins, including hederagenin, plus other irritating compounds. In plain terms, these chemicals can irritate the mouth and stomach, leading to drooling, vomiting, diarrhea, and belly pain. Some cats or people may also get skin irritation after repeated contact with the leaves or sap. Most cases involve stomach upset, but a larger amount can cause weakness, wobbliness, or tremors. Keep indoor ivy and cuttings out of reach, and do not let cats chew ivy-covered walls or garden vines. If your cat bites or eats English ivy, remove the plant material and call a veterinarian for advice.",
   "safetyNotes": [
-    "Toxic compounds: triterpenoid saponins (hederagenin, alpha-hederin), polyacetylene compound falcarinol",
-    "Mechanism: saponins disrupt GI mucosal integrity; falcarinol is a contact irritant that can also cause systemic upset",
-    "Symptoms: vomiting, diarrhea, drooling, abdominal pain; large ingestion may cause ataxia or tremors",
-    "Berries are slightly more concentrated than leaves; all parts should be considered hazardous",
-    "Remove English Ivy from indoor spaces if you have cats; outdoor access to ivy-covered walls should also be restricted"
+    "Main risk: English ivy leaves contain triterpenoid saponins that irritate the mouth and stomach.",
+    "Symptoms: Drooling, vomiting, diarrhea, belly pain, and sometimes skin irritation after contact.",
+    "Higher concern: A larger amount may cause weakness, wobbliness, or tremors.",
+    "Action: Keep ivy plants and cuttings away from cats and call a vet if chewing or ingestion occurs."
   ],
   "toxicParts": [
     "Leaf",
@@ -22,32 +21,32 @@
   ],
   "symptoms": [
     {
-      "name": "Vomiting",
+      "name": "Vomiting, diarrhea, or belly pain",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "onset": "Acute (Symptoms typically appear shortly after ingestion,",
-      "notes": "This is a primary sign of saponin ingestion. The foliage (leaves) contains higher concentrations of the toxin than the berries.Diarrhea"
+      "onset": "Usually soon after chewing or eating the plant.",
+      "notes": "These are the most common signs after English ivy ingestion."
     },
     {
-      "name": "Diarrhea",
-      "body_system": "Gastrointestinal",
-      "severity": "moderate",
-      "onset": "Acute.",
-      "notes": "Resulting from the irritation of the gastrointestinal tract by the saponins.Abdominal Pain"
-    },
-    {
-      "name": "Abdominal Pain (Stomach Discomfort)",
-      "body_system": "Gastrointestinal",
-      "severity": "moderate",
-      "onset": "Acute.",
-      "notes": "The cat may show signs of discomfort or sensitivity when the abdomen is touched due to the irritating nature of the plant compounds.Excessive Drooling (Hypersalivation)"
-    },
-    {
-      "name": "Drooling / Hypersalivation",
+      "name": "Drooling or mouth irritation",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "onset": "Immediate to Acute (Upon chewing).",
-      "notes": "Caused by the immediate irritation of the mouth and mucous membranes by the plant's sap and saponins."
+      "onset": "Often begins while chewing or shortly afterward.",
+      "notes": "Irritation can make the cat paw at the mouth or refuse food."
+    },
+    {
+      "name": "Skin redness or itchiness after contact",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "After contact, especially in sensitive cats.",
+      "notes": "This is more likely with repeated contact with leaves or sap."
+    },
+    {
+      "name": "Weakness, wobbliness, or tremors",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Uncommon, but possible after larger ingestion.",
+      "notes": "Call a veterinarian promptly if these signs appear."
     }
   ],
   "scientificName": "Hedera spp.",

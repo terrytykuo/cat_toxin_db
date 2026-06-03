@@ -24,24 +24,28 @@
       "name": "Dilated pupils",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
+      "onset": "Not specified in the sources.",
       "notes": "This is a direct result of the plant's toxins affecting the central nervous system, assumed based on data from other mammals1. 2. Vomiting"
     },
     {
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
+      "onset": "Not specified in the sources.",
       "notes": "Extrapolated from symptoms seen in dogs and other mammals1. 3. Lack of Coordination"
     },
     {
       "name": "Lack of coordination",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
+      "onset": "Not specified in the sources.",
       "notes": "Caused by the plant's impact on the nervous system; assumed to occur in cats based on mammalian data1. 4. Collapse"
     },
     {
       "name": "Collapse",
       "body_system": "Gastrointestinal",
       "severity": "severe",
+      "onset": "Not specified in the sources.",
       "notes": "This represents a significant disruption of the nervous system and is extrapolated from reports in dogs and other mammals"
     }
   ],

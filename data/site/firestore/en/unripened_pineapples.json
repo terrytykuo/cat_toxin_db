@@ -26,6 +26,11 @@
   ],
   "symptoms": [
     {
+      "name": "The provided sources do not detail a specific, isolated symptom profile exclusively for unripened pineapples1. Instead",
+      "body_system": "Metabolic",
+      "severity": "moderate"
+    },
+    {
       "name": "Difficulty Breathing and Hyperventilation",
       "body_system": "Respiratory",
       "severity": "fatal",

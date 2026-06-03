@@ -29,6 +29,7 @@
       "name": "Liver damage",
       "body_system": "Hepatic",
       "severity": "severe",
+      "onset": "Not specified in the provided sources.",
       "notes": "Liver damage occurs due to the plant's alkaloid content and a volatile oil containing thujone1. The cat must ingest the plant in large quantities to suffer this damage1. Fortunately, Ragwort is quite unpleasant to eat, which usually acts as a natural deterrent and stops most cats from consuming it"
     }
   ],

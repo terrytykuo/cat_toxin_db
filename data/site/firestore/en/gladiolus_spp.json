@@ -8,13 +8,12 @@
   ],
   "name": "Gladioli / Sword Lily",
   "aliases": [],
-  "description": "Gladiolus (Gladiolus spp.), commonly called Sword Lily, is a popular garden flower toxic to cats, with the highest concentration of toxins found in the underground corms (bulbs). The toxic compounds have not been fully characterised, but they cause gastrointestinal irritation and general malaise when ingested.",
+  "description": "Gladiolus (Gladiolus spp.), also called sword lily, is a tall garden flower often grown from underground corms. It can make cats sick if they chew or eat it, and the corms are the highest-risk part. The exact toxic compounds have not been fully identified, but the plant acts mainly as a digestive irritant. In simple terms, it can upset the stomach and intestines after ingestion. Sap or plant juices may also irritate the skin in some cases. Possible signs include drooling, vomiting, diarrhea, belly pain, low energy, and loss of appetite. The greatest risk is during planting or storage, when cats may access loose corms. Keep gladiolus plants and stored corms away from cats, and contact a veterinarian if your cat eats any part of the plant or has repeated vomiting or lethargy.",
   "safetyNotes": [
-    "Toxic compounds: unidentified irritant compounds; corms (bulbs) are the most concentrated part",
-    "Mechanism: direct GI irritant; dermatitis may occur with sap contact",
-    "Symptoms: vomiting, diarrhea, drooling, lethargy, loss of appetite",
-    "The corms pose the greatest risk — particularly relevant during planting or storing seasons",
-    "Symptoms are generally mild; contact your vet if your cat shows signs of lethargy or repeated vomiting"
+    "Main hazard: Unidentified irritant compounds are most concentrated in the underground corms.",
+    "Symptoms: Drooling, vomiting, diarrhea, belly pain, lethargy, or loss of appetite.",
+    "Highest-risk part: Corms are more concerning than flowers or leaves, especially during planting and storage.",
+    "Action: Keep plants and loose corms away from cats, and call a vet after ingestion or repeated vomiting."
   ],
   "toxicParts": [
     "Leaf",

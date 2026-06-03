@@ -24,30 +24,35 @@
       "name": "Vomiting, diarrhea, nausea, excessive drooling (hypersalivation), difficulty swallowing, and loss of appetite",
       "body_system": "Gastrointestinal",
       "severity": "severe",
+      "onset": "Not explicitly specified in the provided sources.",
       "notes": "The essential oils found in peppermint and garden mint can relax the esophageal valve, which makes vomiting more likely4. While a small nibble of the raw plant may only cause mild stomach upset, exposure to concentrated peppermint oil is highly toxic35. Neurological Impairment"
     },
     {
       "name": "Lethargy, weakness, uncoordinated gait (walking as if drunk/ataxia), muscle tremors, and seizures",
       "body_system": "Gastrointestinal",
       "severity": "severe",
+      "onset": "Not explicitly specified in the provided sources.",
       "notes": "Severe neurological symptoms are typically associated with exposure to large quantities of the plant or concentrated peppermint essential oils3.... Respiratory Distress"
     },
     {
       "name": "Difficulty breathing, breathing with the mouth open, coughing, and sneezing",
       "body_system": "Respiratory",
       "severity": "severe",
+      "onset": "Not explicitly specified in the provided sources.",
       "notes": "Respiratory irritation can occur from ingesting or inhaling strong peppermint essential oils, such as those aerosolized by indoor diffusers1112. Liver Damage"
     },
     {
       "name": "Liver damage progressing to liver failure",
       "body_system": "Hepatic",
       "severity": "severe",
+      "onset": "Not explicitly specified in the provided sources.",
       "notes": "Cats lack the specific liver enzymes required to safely process and break down plant essential oils like menthol and pulegone found in peppermint, leading to toxic buildup and organ stress1314. Skin and Mucous Membrane Irritation"
     },
     {
       "name": "Skin irritation, redness, or chemical burns on the skin, lips, gums, and tongue",
       "body_system": "Dermal",
       "severity": "severe",
+      "onset": "Not explicitly specified in the provided sources.",
       "notes": "This occurs upon direct contact with peppermint essential oils. Furthermore, if the oil gets on the cat's fur, there is a high risk they will lick it off and ingest it during normal grooming"
     }
   ],

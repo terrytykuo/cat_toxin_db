@@ -55,10 +55,10 @@
     },
     {
       "name": "Hyperthermia",
-      "body_system": "Other",
+      "body_system": "Neurological",
       "severity": "severe",
       "onset": "6 to 12 hours",
-      "notes": "The extreme overstimulation of the nervous system, combined with continuous hyperactivity and severe muscle tremors, generates excessive internal heat, causing the cat's core body temperature to spike to dangerous levels12. (Note: If the caffeinated drink or soda is a \"diet\" or \"sugar-free\" variety"
+      "notes": "The extreme overstimulation of the nervous system, combined with continuous hyperactivity and severe muscle tremors, generates excessive internal heat, causing the cat's core body temperature to spike to dangerous levels12. (Note: If the caffeinated drink or soda is a \"diet\" or \"sugar-free\" variety sweetened with xylitol, there is a theoretical risk of a rapid drop in blood sugar (hypoglycemia) and liver injury, though cats appear to be much more resistant to xylitol toxicity than dogs7. Nonetheless, xylitol combined with caffeine makes these beverages strictly contraindicated8.)"
     }
   ],
   "scientificName": "Caffeinated drinks / Soda",

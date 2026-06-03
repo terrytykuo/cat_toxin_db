@@ -29,14 +29,14 @@
       "body_system": "Gastrointestinal",
       "severity": "fatal",
       "onset": "Varies (typically hours to a few days,",
-      "notes": "While plain corn kernels are safe for cats1, the intact corn cob is highly dangerous. The cob cannot be digested and acts as a physical obstruction in the intestines, which can be fatal2. Pets scavenging in the garbage for discarded cobs are at a high risk for developing intestinal blockages, which"
+      "notes": "While plain corn kernels are safe for cats1, the intact corn cob is highly dangerous. The cob cannot be digested and acts as a physical obstruction in the intestines, which can be fatal2. Pets scavenging in the garbage for discarded cobs are at a high risk for developing intestinal blockages, which typically present with vomiting and diarrhea"
     },
     {
       "name": "Aflatoxicosis (From Moldy Corn)",
       "body_system": "Gastrointestinal",
       "severity": "fatal",
       "onset": "Acute (short-term) after ingestion of high doses,",
-      "notes": "If raw or stored corn is exposed to high moisture and temperatures, it can grow Aspergillus fungi (A. flavus and A. parasiticus)45. These molds produce aflatoxins, which cause severe liver damage and the rupture of blood vessels46. While cats are less likely to scavenge moldy agricultural corn than"
+      "notes": "If raw or stored corn is exposed to high moisture and temperatures, it can grow Aspergillus fungi (A. flavus and A. parasiticus)45. These molds produce aflatoxins, which cause severe liver damage and the rupture of blood vessels46. While cats are less likely to scavenge moldy agricultural corn than livestock or dogs, the toxins are universally dangerous and response to treatment is usually poor"
     }
   ],
   "scientificName": "Corn",

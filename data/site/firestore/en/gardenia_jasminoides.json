@@ -2,19 +2,18 @@
   "slug": "gardenia_jasminoides",
   "category": "plant",
   "hidden": false,
-  "severity": "safe",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/gardenia_jasminoides.jpg"
   ],
   "name": "Gardenia",
   "aliases": [],
-  "description": "Gardenia (Gardenia jasminoides) is a popular fragrant flowering shrub that is mildly toxic to cats. It contains iridoid glycosides — primarily genipin and gardenoside — found throughout the plant, including the flowers and fruit. These compounds irritate the gastrointestinal tract and may trigger skin reactions on contact.",
+  "description": "Gardenia (Gardenia jasminoides) is a fragrant flowering shrub often grown in pots or gardens. It is not considered one of the most dangerous plants for cats, but it can still cause mild poisoning if chewed or eaten. The main concern is a group of plant compounds called iridoid glycosides, including genipin and gardenoside. These compounds can irritate the digestive tract. In some cats, contact with the plant may also trigger skin irritation or hives. If a cat eats gardenia leaves, flowers, or fruit, possible signs include vomiting, diarrhea, mild lethargy, or a skin rash. The flowers may attract curious cats because of their scent. Keep gardenias out of easy reach, and contact a veterinarian if vomiting is repeated, diarrhea is strong, or a rash spreads.",
   "safetyNotes": [
-    "Toxic compounds: iridoid glycosides (genipin, gardenoside) in leaves, fruit, and flowers",
-    "Mechanism: genipin acts as a GI irritant and may cause mild liver stress at higher doses",
-    "Symptoms: vomiting, diarrhea, hives or skin rash (urticaria) from contact; mild lethargy",
-    "Symptoms are generally mild and resolve without treatment, but seek vet advice if vomiting is severe or prolonged",
-    "The fragrant flowers are attractive to some cats — keep the plant out of easy reach"
+    "Main hazard: Iridoid glycosides in the leaves, flowers, and fruit can irritate the digestive tract.",
+    "Symptoms: Vomiting, diarrhea, mild lethargy, hives, or a skin rash after contact.",
+    "Exposure risk: The strong fragrance and bright flowers may attract curious cats.",
+    "Action: Keep gardenias out of reach and call a vet if vomiting repeats, diarrhea is strong, or a rash spreads."
   ],
   "toxicParts": [
     "Leaf",

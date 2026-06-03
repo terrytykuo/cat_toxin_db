@@ -55,6 +55,7 @@
       "name": "Changes in Heart Rate (Bradycardia or Tachycardia)",
       "body_system": "Cardiac",
       "severity": "severe",
+      "onset": "Not explicitly specified, likely concurrent with systemic toxicity.",
       "notes": "While less common than GI or neurological signs, abnormal heart rhythms and collapse are documented severe reactions.Dermal Irritation"
     },
     {

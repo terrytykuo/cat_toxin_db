@@ -24,30 +24,35 @@
       "name": "Rapid Breathing (Tachypnea)",
       "body_system": "Respiratory",
       "severity": "severe",
+      "onset": "Not explicitly specified in the provided sources.",
       "notes": "This is often one of the immediate physiological responses to the toxicity listed alongside cardiac issues.Dilated Pupils"
     },
     {
       "name": "Dilated Pupils (Mydriasis)",
       "body_system": "Neurological",
       "severity": "severe",
+      "onset": "Not explicitly specified in the provided sources.",
       "notes": "This sign indicates the toxin's effect on the nervous system, typically associated with the plant's alkaloid properties (though the specific alkaloids are not named in this source text).Rapid Pulse"
     },
     {
       "name": "Rapid Pulse (Tachycardia)",
       "body_system": "Cardiac",
       "severity": "severe",
+      "onset": "Not explicitly specified in the provided sources.",
       "notes": "The plant causes significant cardiovascular stimulation.Neurological Dysfunction (Twitching and Convulsions)"
     },
     {
       "name": "Twitching and Convulsions",
       "body_system": "Neurological",
       "severity": "fatal",
+      "onset": "Not explicitly specified in the provided sources.",
       "notes": "Neurological signs can escalate from muscle twitching to full convulsions. Without intervention, this can progress to coma and death.Gastrointestinal Upset"
     },
     {
       "name": "Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
+      "onset": "Not explicitly specified in the provided sources.",
       "notes": "While gastrointestinal distress is present, the neurological and cardiac signs are generally the primary cause for concern regarding mortality."
     }
   ],

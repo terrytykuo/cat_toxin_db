@@ -2,19 +2,18 @@
   "slug": "ficus_lyrata",
   "category": "plant",
   "hidden": false,
-  "severity": "safe",
+  "severity": "cautious",
   "imageUrls": [
     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Starr_031108-0130_Ficus_lyrata.jpg/500px-Starr_031108-0130_Ficus_lyrata.jpg"
   ],
   "name": "Fiddle Leaf Fig",
   "aliases": [],
-  "description": "Fiddle Leaf Fig (Ficus lyrata) is a trendy houseplant toxic to cats. As a member of the Ficus genus, it produces a milky latex sap containing ficin, a proteolytic enzyme, along with irritant compounds that cause gastrointestinal upset when swallowed and skin irritation on contact. The large, dramatic leaves may attract curious cats.",
+  "description": "Fiddle Leaf Fig (Ficus lyrata) is a popular houseplant known for its large, violin-shaped leaves. It is not a good choice for cats that chew plants, because its leaves and stems contain irritating milky sap. The sap contains ficin, an enzyme that can irritate the mouth and digestive tract, along with other plant compounds that can bother the skin. When a cat bites a leaf or stem, the sap can cause local burning or stomach upset. Direct sap contact may also lead to redness or itchiness on the skin. Most cases are mild, but a cat may drool, paw at the mouth, vomit, have diarrhea, lose appetite, or develop skin redness where sap touched. Place fiddle leaf figs where cats truly cannot reach them. If your cat chews the plant or gets sap on its skin, clean the area and contact a veterinarian if symptoms continue or worsen.",
   "safetyNotes": [
-    "Toxic compounds: ficin (proteolytic enzyme) and irritant compounds in the latex sap",
-    "Mechanism: ficin irritates the mucosal lining of the mouth, oesophagus, and stomach; sap contact causes localised dermatitis",
-    "Symptoms: vomiting, diarrhea, drooling, decreased appetite; contact with sap may cause skin redness or itching",
-    "Insoluble calcium oxalates may also contribute to oral irritation in some Ficus species",
-    "Symptoms are typically mild; however, repeated nibbling can lead to ongoing GI irritation — relocate the plant away from cats"
+    "Main hazard: Milky latex sap in the leaves and stems can irritate the mouth, stomach, and skin.",
+    "Symptoms: Drooling, mouth pain, vomiting, diarrhea, reduced appetite, or skin redness after sap contact.",
+    "Exposure risk: Large leaves can attract curious cats, and repeated nibbling can keep the stomach irritated.",
+    "Action: Keep the plant out of reach, rinse sap from skin or fur, and call a vet if vomiting or irritation persists."
   ],
   "toxicParts": [
     "Sap",

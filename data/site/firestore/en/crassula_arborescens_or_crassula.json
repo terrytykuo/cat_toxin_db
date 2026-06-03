@@ -48,6 +48,7 @@
       "name": "Slow Heart Rate (Bradycardia)",
       "body_system": "Cardiac",
       "severity": "severe",
+      "onset": "Not explicitly specified.",
       "notes": "While less common than vomiting or ataxia, a slowed heart rate has been noted as a potential rare side effect of ingestion.Diarrhea"
     },
     {

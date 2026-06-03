@@ -27,19 +27,22 @@
       "name": "Drooling and vomiting",
       "body_system": "Gastrointestinal",
       "severity": "mild",
+      "onset": "Not explicitly specified in the sources.",
       "notes": "This minor irritation is typically caused by the cat chewing on or ingesting the tree's sap, sharp needles, or cones1. 2. Digestive Blockages"
     },
     {
       "name": "Digestive blockages",
       "body_system": "Gastrointestinal",
       "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
       "notes": "Pine needles are very sharp and irritating; if swallowed, they pose a physical hazard that can potentially lead to dangerous blockages within the digestive tract2. 3. Liver Damage"
     },
     {
       "name": "Liver damage",
       "body_system": "Hepatic",
       "severity": "fatal",
-      "notes": "This toxicity is caused by the essential oils found in pine trees3. Pine essential oil is explicitly listed as toxic to cats4. However, the sources note that the natural essential oils present within a live indoor Christmas tree are usually in low concentrations and are not generally expected to res"
+      "onset": "Not explicitly specified in the sources.",
+      "notes": "This toxicity is caused by the essential oils found in pine trees3. Pine essential oil is explicitly listed as toxic to cats4. However, the sources note that the natural essential oils present within a live indoor Christmas tree are usually in low concentrations and are not generally expected to result in major toxicity compared to concentrated, extracted essential oils"
     }
   ],
   "scientificName": "Pinus spp.",

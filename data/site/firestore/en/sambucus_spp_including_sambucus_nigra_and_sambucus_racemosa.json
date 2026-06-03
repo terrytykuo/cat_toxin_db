@@ -2,21 +2,21 @@
   "slug": "sambucus_spp_including_sambucus_nigra_and_sambucus_racemosa",
   "category": "plant",
   "hidden": false,
-  "severity": "cautious",
+  "severity": "toxic",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sambucus_spp_including_sambucus_nigra_and_sambucus_racemosa.jpg"
   ],
   "name": "Elderberry",
   "aliases": [],
-  "description": "Elderberry (Sambucus spp.) is a shrub whose leaves, bark, stems, and unripe berries are toxic to cats due to cyanogenic glycosides — primarily sambunigrin. When these compounds are metabolised, they release hydrogen cyanide (HCN), which blocks cellular respiration. Even ripe elderberries contain trace amounts of these glycosides, making the entire plant hazardous for cats.",
+  "description": "Elderberry (Sambucus spp.) is a shrub or small tree with clusters of white flowers and dark, blue, or red berries. It should not be given to cats. Plant parts, uncooked berries, and elderberry supplements can upset a cat's stomach and may be unsafe. The concern is a mix of cyanogenic glycosides, which can release small amounts of cyanide, and irritating terpenoid compounds. Leaves, stems, bark, roots, seeds, and unripe or uncooked berries are higher-risk parts. For cats and other companion animals, vomiting and diarrhea are more likely than true cyanide poisoning, but large amounts or concentrated supplements still need urgent veterinary advice. Possible signs include drooling, vomiting, diarrhea, belly discomfort, weakness, or low energy. More serious signs such as fast breathing, tremors, seizures, or collapse are unusual but possible after a larger exposure. Keep elderberry plants, raw berries, syrups, gummies, and supplements away from cats, and call a veterinarian or pet poison helpline if ingestion is suspected.",
   "safetyNotes": [
-    "Toxic compounds: sambunigrin and related cyanogenic glycosides; concentrated in leaves, bark, and unripe berries",
-    "Mechanism: sambunigrin is enzymatically converted to HCN, which inhibits cytochrome c oxidase and halts cellular energy production",
-    "Symptoms: nausea, vomiting, diarrhea, weakness, drooling; severe exposure may cause rapid breathing, convulsions, and collapse",
-    "Unripe berries and all green parts are most dangerous; ripe berries carry lower but non-zero risk",
-    "Do not feed elderberries or elderberry products to cats; contact a vet immediately if ingestion is suspected"
+    "Main risk: Plant parts and uncooked berries contain cyanide-containing glycosides and irritating terpenoids.",
+    "Avoid supplements: Do not give elderberry syrup, gummies, tea, or capsules unless a vet specifically directs it.",
+    "Symptoms: Vomiting, diarrhea, drooling, low energy, or belly discomfort are the most likely signs.",
+    "Action: Call a vet or poison helpline after plant-part, raw-berry, or supplement ingestion, especially if the amount is unknown."
   ],
   "toxicParts": [
+    "Root",
     "Stem",
     "Bark",
     "Seed",
@@ -25,39 +25,25 @@
   ],
   "symptoms": [
     {
-      "name": "Vomiting, Diarrhea, Nausea, and Drooling (Hypersalivation)",
+      "name": "Vomiting, diarrhea, nausea, or drooling",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
-      "onset": "Quickly after ingestion.",
-      "notes": "This is often the first sign of toxicity. The unripe/raw berries and vegetative parts (stems/leaves) are the most potent irritants.Neurological Impairment"
+      "severity": "moderate",
+      "onset": "Can appear soon after eating plant parts, uncooked berries, or supplements.",
+      "notes": "Stomach upset is the most likely sign in companion animals."
     },
     {
-      "name": "Lethargy, Weakness, Dizziness, Drowsiness, and Seizures",
+      "name": "Low energy, weakness, or belly discomfort",
+      "body_system": "Other",
+      "severity": "moderate",
+      "onset": "May appear with or after stomach upset.",
+      "notes": "These signs deserve veterinary advice, especially if the amount eaten is unknown."
+    },
+    {
+      "name": "Fast breathing, tremors, seizures, or collapse",
       "body_system": "Neurological",
       "severity": "severe",
-      "onset": "Rapid (Cyanide toxicity typically manifests within minutes to an hour).",
-      "notes": "Severe cases involving large ingestions can progress to seizures, tremors, and unresponsiveness (coma). This occurs because cyanide prevents cells from utilizing oxygen (cellular hypoxia).Respiratory Distress"
-    },
-    {
-      "name": "Rapid Breathing (Tachypnea) or Difficulty Breathing (Dyspnea)",
-      "body_system": "Respiratory",
-      "severity": "severe",
-      "onset": "Rapid.",
-      "notes": "Respiratory distress is a hallmark of cyanide poisoning. The cat may pant or gasp for air because, despite the blood being oxygenated, the cells cannot absorb the oxygen.Systemic Collapse and Death"
-    },
-    {
-      "name": "Collapse, Shock, and Death",
-      "body_system": "Cardiac",
-      "severity": "fatal",
-      "onset": "Rapid.",
-      "notes": "While death is less common if only a few berries are eaten, ingestion of high-risk parts (roots, stems) or large amounts of raw berries can result in fatal cardiovascular collapse or respiratory failure.Cyanide-Specific Signs (Mucous Membranes)"
-    },
-    {
-      "name": "Bright Red Gums (Brick Red Mucous Membranes) and Dilated Pupils",
-      "body_system": "Hematological",
-      "severity": "severe",
-      "onset": "10–60 minutes (General timeline for cyanogenic glycosides).",
-      "notes": "Unlike other toxicities that cause pale gums, cyanide poisoning can cause gums to appear bright red because the oxygen in the blood is not being used by the tissues (venous blood remains oxygenated)."
+      "onset": "Unusual, but possible after larger exposure.",
+      "notes": "Treat these as urgent signs and seek veterinary help immediately."
     }
   ],
   "scientificName": "Sambucus spp. including Sambucus nigra and Sambucus racemosa",

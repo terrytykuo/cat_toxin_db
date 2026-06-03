@@ -26,18 +26,21 @@
       "name": "Vomiting and Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "severe",
+      "onset": "Not specified in the provided sources.",
       "notes": "These are typically the initial clinical signs of poisoning.common plants that are toxic to cats | Petbarn Articles (Conversation History) 2. Respiratory Distress"
     },
     {
       "name": "Labored Breathing (Dyspnea)",
       "body_system": "Respiratory",
       "severity": "severe",
+      "onset": "Not specified in the provided sources.",
       "notes": "Difficulty breathing is a sign of advanced toxicity and requires immediate veterinary attention.common plants that are toxic to cats | Petbarn Articles (Conversation History) 3. General Weakness"
     },
     {
       "name": "Weakness / Lethargy",
       "body_system": "Neurological",
       "severity": "severe",
+      "onset": "Not specified in the provided sources.",
       "notes": "The cat may appear depressed or unable to stand normally.common plants that are toxic to cats | Petbarn Articles (Conversation History) 4. Hepatic Failure"
     },
     {

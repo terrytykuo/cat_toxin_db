@@ -28,24 +28,28 @@
       "name": "Vomiting and diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
+      "onset": "Not explicitly specified in the sources.",
       "notes": "While small amounts of the plant typically will not harm a cat, ingesting large amounts will trigger these gastrointestinal issues1. 2. Dehydration"
     },
     {
       "name": "Dehydration",
       "body_system": "Metabolic",
       "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
       "notes": "Cats may become dehydrated as a direct consequence of the vomiting and diarrhea caused by the plant's toxins1. 3. Lethargy"
     },
     {
       "name": "Lethargy",
       "body_system": "Neurological",
       "severity": "moderate",
+      "onset": "Not explicitly specified in the sources.",
       "notes": "Lethargy indicates a systemic toxic reaction, occurring after the cat has ingested a large amount of the plant1. 4. Seizures"
     },
     {
       "name": "Seizures",
       "body_system": "Neurological",
       "severity": "severe",
+      "onset": "Not explicitly specified in the sources.",
       "notes": "Seizures present in severe cases of Sweet Pea poisoning1. (Note from our previous conversation: Severe neurological impairment, such as seizures and pacing, is a manifestation of \"lathyrism,\" which is caused by the toxic aminopropionitriles highly concentrated in the plant's seeds and seed pods)."
     }
   ],

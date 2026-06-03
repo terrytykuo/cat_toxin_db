@@ -8,13 +8,12 @@
   ],
   "name": "Poinsettia",
   "aliases": [],
-  "description": "Poinsettia (Euphorbia pulcherrima) has a reputation as a highly toxic plant, but it is actually one of the milder holiday plant hazards for cats. It contains a milky latex sap with irritant diterpenoid euphorbol esters that cause localised irritation to the mouth, skin, and GI tract. Serious toxicity requires ingestion of very large quantities, which is unlikely given the unpleasant taste.",
+  "description": "Poinsettia (Euphorbia pulcherrima) is a common holiday plant with bright red, pink, or white bracts. It has a scary reputation, but for cats it is usually a mild irritant rather than a severe poison. The main issue is the milky latex sap inside the leaves and stems. This sap contains irritating compounds, including diterpenoid euphorbol esters, that can bother the mouth, stomach, skin, or eyes. Most cats do not eat much because the plant tastes unpleasant, so serious poisoning is uncommon. If a cat chews poinsettia, possible signs include drooling, mouth discomfort, vomiting, diarrhea, lower appetite, or low energy. Sap on the skin or in the eyes can cause redness or irritation. Keep poinsettias out of reach, wipe away fallen leaves, and contact a veterinarian if your cat eats a large amount, keeps vomiting, or has eye irritation.",
   "safetyNotes": [
-    "Toxic compounds: diterpenoid euphorbol esters in the milky latex sap; leaves and stems most irritating",
-    "Mechanism: latex causes direct mucosal irritation; contact with skin or eyes causes localised inflammation",
-    "Symptoms: drooling, vomiting, diarrhea (usually mild and self-limiting); eye or skin contact may cause redness and irritation",
-    "Toxicity is overstated — poinsettia is mildly irritating, not severely toxic; most cats avoid eating more than a leaf",
-    "Monitor for symptoms and contact your vet if vomiting is persistent or your cat ate a large amount"
+    "Main hazard: The milky latex sap in leaves and stems can irritate the mouth, stomach, skin, and eyes.",
+    "Symptoms: Drooling, mouth discomfort, vomiting, diarrhea, reduced appetite, or low energy; skin or eye contact may cause redness.",
+    "Risk level: Poinsettia is usually mildly irritating, not one of the highly dangerous holiday plants for cats.",
+    "Action: Keep the plant out of reach and call a vet if vomiting continues, eye irritation appears, or your cat ate a large amount."
   ],
   "toxicParts": [
     "Sap",

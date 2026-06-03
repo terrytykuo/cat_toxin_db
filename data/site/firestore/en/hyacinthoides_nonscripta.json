@@ -23,18 +23,21 @@
       "name": "Vomiting, Diarrhea, Drooling, and Stomach Pain",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
       "notes": "Ingestion of the plant triggers irritation of the digestive tract, leading to profuse drooling and abdominal discomfort.Cardiac Abnormalities"
     },
     {
       "name": "Reduced Heart Rate (Bradycardia)",
       "body_system": "Cardiac",
       "severity": "severe",
+      "onset": "Not specified in the provided sources.",
       "notes": "Bluebells contain toxins (glycosides) that disrupt the heart's internal electrical balance, leading to a noticeably slow heartbeat. This cardiac effect distinguishes them from simple gastrointestinal irritants.Neurological Depression"
     },
     {
       "name": "Trembling and Lethargy",
       "body_system": "Neurological",
       "severity": "moderate",
+      "onset": "Not specified in the provided sources.",
       "notes": "The toxins can cause systemic weakness, manifesting as physical trembling and a lack of energy or responsiveness.Dermatitis"
     },
     {

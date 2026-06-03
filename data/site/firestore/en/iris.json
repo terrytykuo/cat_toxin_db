@@ -28,6 +28,7 @@
       "name": "Vomiting, Nausea, and Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
+      "onset": "Not explicitly specified in the provided text (though general plant toxicity symptoms often appear a",
       "notes": "These are the most common signs of ingestion. The toxicity is highest in the bulbs, so cats digging up or chewing on rhizomes are at greater risk than those nibbling leaves.Oral Ulceration and Irritation"
     },
     {
@@ -41,13 +42,15 @@
       "name": "Skin Irritation (Dermatitis)",
       "body_system": "Dermal",
       "severity": "mild",
+      "onset": "Not explicitly specified.",
       "notes": "Contact with the plant sap or parts can cause irritation to the skin, which is a distinct symptom noted for Irises compared to many other toxic plants.Abdominal Pain"
     },
     {
       "name": "Abdominal Pain",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This pain is likely secondary to the severe gastrointestinal irritation caused by the plant's compounds.Important Distinction: It is crucial to distinguish Iris from True Lilies (Lilium or Hemerocallis species). While Irises cause \"extreme discomfort\" and gastrointestinal/dermal irritation, they are"
+      "onset": "Not explicitly specified.",
+      "notes": "This pain is likely secondary to the severe gastrointestinal irritation caused by the plant's compounds.Important Distinction: It is crucial to distinguish Iris from True Lilies (Lilium or Hemerocallis species). While Irises cause \"extreme discomfort\" and gastrointestinal/dermal irritation, they are not noted in the sources to cause the fatal acute renal failure associated with true lilies5,2. However, veterinary attention is still recommended to manage dehydration and pain"
     }
   ],
   "scientificName": "Iris spp.",
