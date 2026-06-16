@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-03-03T16:50:36.478662",
-  "total_files": 50,
-  "passed": 50,
-  "failed": 0,
+  "generated_at": "2026-04-30T09:52:01.780239",
+  "total_files": 57,
+  "passed": 53,
+  "failed": 4,
   "results": [
     {
       "file": "alcohol.json",
@@ -36,6 +36,12 @@
     },
     {
       "file": "caffeinated_drinks__soda.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "caffeinated_drinks_soda.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -83,6 +89,12 @@
       "issues": []
     },
     {
+      "file": "corn.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "corn_on_the_cob.json",
       "status": "PASS",
       "issue_count": 0,
@@ -108,9 +120,11 @@
     },
     {
       "file": "gum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 1,
+      "issues": [
+        "[COMPLETENESS] toxic_parts[] is empty"
+      ]
     },
     {
       "file": "jelly.json",
@@ -132,6 +146,12 @@
     },
     {
       "file": "macadamia_nuts.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "malus_spp.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -173,7 +193,19 @@
       "issues": []
     },
     {
+      "file": "persea_americana.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "persimmons.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "file": "pineapple.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -204,9 +236,11 @@
     },
     {
       "file": "pudding.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 1,
+      "issues": [
+        "[COMPLETENESS] toxic_parts[] is empty"
+      ]
     },
     {
       "file": "raisins.json",
@@ -227,6 +261,12 @@
       "issues": []
     },
     {
+      "file": "raw_eggs_raw_egg_whites.json",
+      "status": "PASS",
+      "issue_count": 0,
+      "issues": []
+    },
+    {
       "file": "raw_fish.json",
       "status": "PASS",
       "issue_count": 0,
@@ -240,12 +280,20 @@
     },
     {
       "file": "salt.json",
+      "status": "FAIL",
+      "issue_count": 1,
+      "issues": [
+        "[COMPLETENESS] toxic_parts[] is empty"
+      ]
+    },
+    {
+      "file": "scallions__green_onions.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
     },
     {
-      "file": "scallions__green_onions.json",
+      "file": "scallions_green_onions.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
@@ -258,9 +306,11 @@
     },
     {
       "file": "starfruit.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 1,
+      "issues": [
+        "[CLEANLINESS] family is too long (57 chars) \u2014 should be a taxonomic family name"
+      ]
     },
     {
       "file": "sugar.json",

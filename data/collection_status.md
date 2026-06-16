@@ -117,7 +117,7 @@
 | 113 | Peach | Peach | Prunus spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 114 | Pennyroyal | Pennyroyal | Mentha pulegium | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 115 | Peony | Peony | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 116 | Peppermint | Peppermint | Mentha × piperita | | | | | | | |
+| 116 | Peppermint | Peppermint | Mentha × piperita | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 117 | Peruvian Lily | Peruvian Lily | Alstroemeria spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 118 | Philodendron | Philodendron | Philodendron spp., including 'Birkin' | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 119 | Photina Red Leaf | Photina Red Leaf | Nandina Photina spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
@@ -130,7 +130,7 @@
 | 126 | Potato | Potato | Solanum tuberosum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 127 | Pothos / Devil’s Ivy | Pothos / Devil’s Ivy | Epipremnum aureum or Epipremnum spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 128 | Prairie Lily | Prairie Lily | Zephyranthes drummondii | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
-| 129 | Ragwort / Tansy | Ragwort / Tansy | N/A | | | | | | | |
+| 129 | Ragwort / Tansy | Ragwort / Tansy | N/A | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 130 | Rhododendron | Rhododendron | Rhododendron spp. | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 131 | Rhubarb | Rhubarb | Rheum rhabarbarum | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
 | 132 | Rosary Pea | Rosary Pea | Abrus precatorius | [x] | [x] | [x] | [x] | [x] | [x] | [x] |
