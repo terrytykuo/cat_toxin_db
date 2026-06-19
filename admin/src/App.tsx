@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import ToxinsView from './ToxinsView'
 import GlossaryEditor from './GlossaryEditor'
+import CouponsView from './CouponsView'
 
-type View = 'toxins' | 'glossary'
+type View = 'toxins' | 'glossary' | 'coupons'
 
 export default function App() {
   const [view, setView] = useState<View>('toxins')
@@ -14,7 +15,7 @@ export default function App() {
           MewGuard Admin
         </div>
         <nav className="flex gap-1">
-          {(['toxins', 'glossary'] as const).map(v => (
+          {(['toxins', 'glossary', 'coupons'] as const).map(v => (
             <button
               key={v}
               onClick={() => setView(v)}
@@ -29,7 +30,9 @@ export default function App() {
           ))}
         </nav>
       </header>
-      {view === 'toxins' ? <ToxinsView /> : <GlossaryEditor />}
+      {view === 'toxins' && <ToxinsView />}
+      {view === 'glossary' && <GlossaryEditor />}
+      {view === 'coupons' && <CouponsView />}
     </div>
   )
 }

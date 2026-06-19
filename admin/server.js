@@ -649,6 +649,170 @@ app.post('/api/glossary/sync-vocabulary', async (req, res) => {
   }
 })
 
+// ---------------------------------------------------------------------------
+// Coupon codes — shared code + redemption cap (Model A).
+// Promotional Pro access is granted at REDEMPTION time by the cat_toxin_app
+// `redeemCoupon` Cloud Function (via RevenueCat). This admin only manages the
+// coupon DEFINITIONS in Firestore `coupons/{CODE}`. `redemptionCount`
+// ("已 activate") is incremented by that function inside a transaction and is
+// never written here — admin treats it as read-only.
+// ---------------------------------------------------------------------------
+const COUPONS_COLLECTION = 'coupons'
+
+// Returns a Timestamp, null (no expiry), or undefined (invalid input).
+function parseCouponValidUntil(value) {
+  if (value === undefined || value === null || value === '') return null
+  const ms = Date.parse(value)
+  if (Number.isNaN(ms)) return undefined
+  return admin.firestore.Timestamp.fromDate(new Date(ms))
+}
+
+function isPositiveInt(value, max) {
+  return Number.isInteger(value) && value > 0 && value <= max
+}
+
+app.get('/api/coupons', async (req, res) => {
+  try {
+    const snap = await db.collection(COUPONS_COLLECTION).get()
+    const coupons = snap.docs
+      .map(d => {
+        const data = d.data() || {}
+        return {
+          code: d.id,
+          campaign: data.campaign ?? null,
+          grantDays: data.grantDays ?? null,
+          maxRedemptions: data.maxRedemptions ?? null,
+          redemptionCount: data.redemptionCount ?? 0,
+          active: data.active !== false,
+          note: data.note ?? '',
+          validUntil: data.validUntil?.toDate?.()?.toISOString?.() ?? null,
+          createdAt: data.createdAt?.toDate?.()?.toISOString?.() ?? null,
+        }
+      })
+      .sort((a, b) => (b.createdAt ?? '').localeCompare(a.createdAt ?? ''))
+    res.json(coupons)
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
+app.post('/api/coupons', async (req, res) => {
+  try {
+    const code = String(req.body?.code ?? '').trim().toUpperCase()
+    if (!isValidDocId(code)) {
+      return res.status(400).json({ error: 'Invalid code. Use letters, numbers, dash or underscore (max 128 chars).' })
+    }
+
+    const grantDays = Number(req.body?.grantDays)
+    if (!isPositiveInt(grantDays, 3650)) {
+      return res.status(400).json({ error: 'grantDays must be a positive integer (1–3650).' })
+    }
+
+    const maxRedemptions = Number(req.body?.maxRedemptions)
+    if (!isPositiveInt(maxRedemptions, 1_000_000)) {
+      return res.status(400).json({ error: 'maxRedemptions must be a positive integer.' })
+    }
+
+    const validUntil = parseCouponValidUntil(req.body?.validUntil)
+    if (validUntil === undefined) {
+      return res.status(400).json({ error: 'validUntil is not a valid date.' })
+    }
+
+    const campaign = cleanText(req.body?.campaign) ?? null
+    const note = cleanText(req.body?.note) ?? ''
+
+    const ref = db.collection(COUPONS_COLLECTION).doc(code)
+    const existing = await ref.get()
+    if (existing.exists) {
+      return res.status(409).json({ error: `Coupon ${code} already exists.` })
+    }
+
+    const now = admin.firestore.FieldValue.serverTimestamp()
+    await ref.set({
+      code,
+      campaign,
+      grantDays,
+      maxRedemptions,
+      redemptionCount: 0,
+      active: true,
+      note,
+      validUntil,
+      createdAt: now,
+      updatedAt: now,
+    })
+    res.status(201).json({ ok: true, code })
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
+app.patch('/api/coupons/:code', async (req, res) => {
+  try {
+    const code = String(req.params.code ?? '').toUpperCase()
+    if (!isValidDocId(code)) return res.status(400).json({ error: 'Invalid code' })
+
+    const ref = db.collection(COUPONS_COLLECTION).doc(code)
+    const snap = await ref.get()
+    if (!snap.exists) return res.status(404).json({ error: 'Not found' })
+    const current = snap.data() || {}
+
+    const patch = { updatedAt: admin.firestore.FieldValue.serverTimestamp() }
+
+    if ('active' in req.body) patch.active = !!req.body.active
+    if ('note' in req.body) patch.note = cleanText(req.body.note) ?? ''
+    if ('campaign' in req.body) patch.campaign = cleanText(req.body.campaign) ?? null
+
+    if ('grantDays' in req.body) {
+      const grantDays = Number(req.body.grantDays)
+      if (!isPositiveInt(grantDays, 3650)) {
+        return res.status(400).json({ error: 'grantDays must be a positive integer (1–3650).' })
+      }
+      patch.grantDays = grantDays
+    }
+
+    if ('maxRedemptions' in req.body) {
+      const maxRedemptions = Number(req.body.maxRedemptions)
+      if (!isPositiveInt(maxRedemptions, 1_000_000)) {
+        return res.status(400).json({ error: 'maxRedemptions must be a positive integer.' })
+      }
+      if (maxRedemptions < (current.redemptionCount ?? 0)) {
+        return res.status(400).json({ error: 'maxRedemptions cannot be lower than the already-activated count.' })
+      }
+      patch.maxRedemptions = maxRedemptions
+    }
+
+    if ('validUntil' in req.body) {
+      const validUntil = parseCouponValidUntil(req.body.validUntil)
+      if (validUntil === undefined) return res.status(400).json({ error: 'validUntil is not a valid date.' })
+      patch.validUntil = validUntil
+    }
+
+    await ref.update(patch)
+    res.json({ ok: true })
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
+app.delete('/api/coupons/:code', async (req, res) => {
+  try {
+    const code = String(req.params.code ?? '').toUpperCase()
+    if (!isValidDocId(code)) return res.status(400).json({ error: 'Invalid code' })
+
+    const ref = db.collection(COUPONS_COLLECTION).doc(code)
+    const snap = await ref.get()
+    if (!snap.exists) return res.status(404).json({ error: 'Not found' })
+    if ((snap.data()?.redemptionCount ?? 0) > 0) {
+      return res.status(409).json({ error: 'Cannot delete a coupon that has been activated. Deactivate it instead.' })
+    }
+
+    await ref.delete()
+    res.json({ ok: true })
+  } catch (e) {
+    res.status(500).json({ error: e.message })
+  }
+})
+
 const HOST = '127.0.0.1'
 const PORT = 3001
 app.listen(PORT, HOST, () => console.log(`Admin API running at http://${HOST}:${PORT}`))
