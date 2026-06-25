@@ -184,3 +184,105 @@ Progress: /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/sync
 - Reconstructed site entries from current `data/site/firestore/` working cache/progress matched sibling `mewguard_site/src/data/toxins.generated.ts` exactly.
 - `npm run build` in sibling `mewguard_site` succeeded and built 427 pages.
 - Root report: `/Users/sweetp/Workspace/MewGuard/docs/product/backlog/k11-generated-site-toxin-reconciliation.md`.
+
+## 2026-06-04 00:58 CEST — S-Z description simplification + zh-TW localization
+
+### Scope
+
+- Processed toxin entries whose JSON `name` starts with S, T, U, V, W, X, Y, or Z.
+- Targeting was by `name`, not filename. Malformed/partial records without the complete expected processed schema were not repaired as part of this pass.
+- Live Firestore was **not** updated; only local disk data and local cache/snapshot files were changed.
+
+### Data layers updated
+
+- Canonical processed files updated: 41 entries in `data/plants_processed/` and `data/foods_processed/`.
+- Legacy site bridge cache updated: 11 `data/site/en/*.json` files and 11 `data/site/zh-TW/*.json` files.
+- Firestore-shaped local cache updated: 39 `data/site/firestore/en/*.json` files and 39 `data/site/firestore/zh-TW/*.json` files.
+
+### Generation / translation notes
+
+- Used the `mewguard-toxin-data-localization` workflow and Taiwan zh-TW content style.
+- Gemini CLI was called with `--model gemini-2.5-pro` to avoid relying on a possible Flash default.
+- Batch output was persisted to `/tmp/mewguard_stuvwxyz_generated.partial.json`; the initial batch process hung on the final `walnuts.json` entry and was intentionally killed (`exit code 143`).
+- `/tmp/mewguard_stuvwxyz_finish.py` resumed from the partial output and completed the final entry.
+- zh-TW cache entries were marked `manual_override: true` and `gemini_model: "gemini-2.5-pro"`.
+
+### Verification
+
+- `schemas`: `npm run check` → `Schema artifacts are up-to-date.`
+- JSON syntax check over processed/site/firestore cache directories → `json-ok 905`.
+- Target processed schema validation → `target processed schema-ok: 41`.
+- zh-TW coverage check → `zh-description-coverage-ok {'data/site/en': 11, 'data/site/firestore/en': 39}`.
+
+### Notes for next agent
+
+- Do not treat `data/site/firestore/*` as proof of live Firestore updates; these are local snapshots/cache unless a Firestore upload script runs successfully.
+- Commit this alphabet batch carefully: canonical processed files, legacy site cache, and Firestore-shaped cache may belong in separate commit groups depending on the current release/reconciliation plan.
+
+## 2026-06-04 01:28 CEST — S-Z localization synced to live Firestore for Admin UI review
+
+### Scope
+
+- Live Firestore was updated after Terry said the S-Z pass would be checked in the Admin UI.
+- Used a temporary targeted Node script at `/tmp/mewguard_sync_sz_to_firestore.mjs` rather than the broad `admin/scripts/sync-disk-to-firestore.mjs`, because this pass needed only S-Z entries and also needed to write `l10n.zh-TW`.
+
+### Firestore updates
+
+- Dry-run fetched 211 live `toxins` docs and resolved all S-Z targets.
+- Applied updates to 40 unique live docs:
+  - English `description` from the localized/simplified local source.
+  - Firestore `l10n.zh-TW` payload from the zh-TW cache.
+- The canonical S-Z target count is 41, but the live unique doc count is 40 because `Silver Leaf Philodendron` and `Satin Pothos` both resolve to `eg_satin_pothos`.
+- No missing live docs were reported.
+
+### Admin UI visibility
+
+- The Admin UI main toxin list reads live Firestore via `GET /api/toxins`, so the updated English descriptions should now be visible there.
+- The Admin UI translation endpoint reads `data/site/zh-TW/{slug}.json`, so the sync also wrote/updated 40 files by live Firestore doc ID with `manual_override: true`.
+
+### Verification
+
+- Firestore read-back verification: `Verify complete. OK: 40; missing live: 0; problems: 0`.
+- JSON syntax check over `data/site/zh-TW`, `data/site/firestore/zh-TW`, and `data/site/firestore/en`: `json-ok 581`.
+- Admin UI build from `admin/`: `npm run build` completed successfully.
+
+## 2026-06-25 — 對抗式內容驗證 + 中文化（P1 完成；P2 進行中）
+
+### 背景
+
+新增可重複使用的 goal 工作流 `.agent/workflows/verify-and-localize-toxins.md`：以 Firestore live 快取（200 筆 EN / 201 zh-TW）為權威範圍，做四面向審查（英文事實正確性、英文品質結構、中文忠實度、原始雜訊），對抗式網路查證（ASPCA / Pet Poison Helpline / Merck Vet Manual，refute-by-default），audit-first + 人工閘門 + disk→Firestore sync。
+
+依 zh-TW provenance（`gemini_model`）分桶：P1 機器來源 44 筆（深度審查）、P2 人工審過 149 筆（快篩）、1 筆孤兒 zh-TW（`dracaena_marginata_or_dracaena_spp`，待 reconcile）。
+
+### P1 對抗式審查（44 筆，已完成）
+
+- 報告：`data/audits/verify-localize-2026-06-25-p1.md` (+ `.json`)。
+- 結果：英文品質 36 PASS / 8 需修訂 / 0 FAIL；**英文事實 13 FAIL（含 8 筆 safe↔toxic 矛盾）+ 3 NEEDS_REVIEW**；中文 10 PASS / 34 需修訂；原始雜訊 37/44。
+- 對抗式查證抓到純內部審查會放行的核心錯誤：schefflera 標 safe 但 ASPCA 列 toxic、unripened_pineapples 誤植氰化物中毒（實為 bromelain）、agapanthus 捏造草酸鈣機制（實為皂苷）、chlorophytum 捏造致幻成分、brunfelsia 低估致死性 + 機制錯。
+
+### 已套用的修正（全部僅寫 disk，**未碰 Firestore**）
+
+1. **13 筆事實 rewrite**（`data/{plants,foods}_processed/` + `data/site/zh-TW/`）：
+   - severity 修正：schefflera safe→cautious、sugar toxic→cautious、sunflower_seeds cautious→safe、nymphaeaceae/tradescantia_zebrina safe→cautious。
+   - 機制/化合物/科別/症狀更正、移除捏造項，依報告權威來源。模糊項由 agent 列入 `left_for_human` 未動。
+   - 已知遺留：`sweet_pea` 的 `*_processed` 缺 severity/isToxic 欄位（資料模型缺漏）；schefflera 學名拼字 `actinphylla`→應 `actinophylla`（牽動 slug，未動）。
+2. **glossary 正規化**（`pipeline/normalize_zh_glossary.py`）：257 處 body_system 術語對齊 glossary canonical（消化系統→腸胃道、心血管系統→心血管、ASCII 洩漏→中文等），76 檔；`ilex_spp` 的 `皮膚／口腔刺激` 標記待人工。
+3. **NotebookLM 雜訊清理**（`pipeline/clean_notebooklm_noise.py`，保守版）：921 欄位/212 檔，僅移除明確型態（`[Conversation History]`、雙數字洩漏標題、`....`、行尾黏字腳註、`in cats:` 前綴）。**注意**：初版正則會誤刪腳註後的合法句子（dry-run 抓到 raisins 砍 496 字元），已收緊為雙數字簽章才移除。
+
+### 待辦
+
+- **P2 對抗式審查（149 筆）**：先前一次背景執行因 `args` 未生效實際重跑了 P1，且 refute 階段撞 session 額度全失敗 → P2 尚未真正審查，需重跑（已改腳本預設 SLUGS 為 P2）。
+- **截斷類雜訊**：~3405 欄位疑似來源截斷（句子中斷），保守腳本未動，需 context-aware LLM pass 修補。
+- **Firestore sync（§8）**：尚未執行，等使用者 review 全部 disk diff 後再進行。zh-TW 既有條目的 Firestore 回寫仍有缺口（`upload-local-translations.mjs` 只處理本地新增檔；既有條目需 admin UI PATCH 或擴充 sync 腳本）。
+- slug 命名空間 reconciliation（disk 253 vs live 200，重複別名）屬 K11/K16，未在本次處理。
+
+### 跨 session 續跑
+
+- **單一事實來源：`docs/CONTENT_AUDIT_RESUME.md`**（進度快照、可重用腳本、各待辦的確切指令與 slug 清單、增量更新協定）。
+- 可重用腳本已進 repo：`.agent/workflows/scripts/{audit-4dim,refute-remaining,factual-fix}.workflow.js`、`pipeline/{normalize_zh_glossary,clean_notebooklm_noise}.py`。
+- 後續每完成一小份 batch，先更新該手冊與本檔，再續跑（token 昂貴、會反覆撞 session 額度）。
+
+更新 2026-06-25(b)：
+- P2 15 筆事實修正完成（disk）；摘要 `data/audits/p2-factual-fix-2026-06-25.json`。重點：gum/jelly/hummingbird_mint/lemon_mint/capsicum 等 xylitol/cross-contamination 假警報已降級。
+- **資料缺口已補（任務 A2）**：原 42 個 `*_processed` 缺 `severity` 欄位 → backfill 31 筆 live（firestore→processed）+ hummingbird_mint/lemon_mint→safe + unripened_pineapples→cautious；255 檔驗證 0 違規。剩 9 筆 disk-only dup（無 firestore 對應、非 live）屬 K11/K16。
+- 對抗式覆蓋率 139/200；P2 refute 仍剩 54 待補（手冊任務 B）。

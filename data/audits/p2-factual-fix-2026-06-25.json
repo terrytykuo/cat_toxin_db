@@ -1,0 +1,361 @@
+{
+  "fixed": 15,
+  "entries": [
+    {
+      "slug": "alstroemeria_spp",
+      "severity_change": "safe -> cautious",
+      "en": [
+        "severity: 'safe' -> 'cautious'. Verdict REFUTED 'safe' as understating Pet Poison Helpline's mildly-toxic GI-irritant position; ASPCA vs PPH conflict resolved toward documented mild GI upset. isToxic (true) and toxicityLevel ('mild') left as-is, now internally consistent with 'cautious'.",
+        "chemicals[0].name: 'Oxalate crystals' -> 'Tulipalin A / Tuliposide A' (REFUTED oxalate misattribution; authority-supported compound is tulipalin A / tuliposide A).",
+        "chemicals[0].description: rewrote to attribute GI irritation to tulipalin A (alpha-methylene-gamma-butyrolactone) and precursor tuliposide A as chemical irritants instead of oxalate crystals acting as physical irritants; cleaned NotebookLM citation digits; kept the 'imposter lily / no Lilium kidney failure' substance (CONFIRMED).",
+        "description (para 2): replaced 'physical irritants in its sap' with the named chemical irritant tulipalin A / tuliposide A; removed 'mild burning sensation in the mouth' phrasing (oral burning is UNVERIFIABLE) in favor of 'irritate the mouth'; added florist 'tulip fingers' context for the contact-dermatitis claim (CONFIRMED).",
+        "safetyNotes[0]: 'unidentified irritant compounds in the sap' -> 'tulipalin A and its precursor tuliposide A (an irritant glycoside) throughout the plant' (REFUTED 'unidentified'; resolved self-contradiction with symptom note).",
+        "symptoms[1].notes: 'caused by the oxalate crystals present in the plant, which act as a physical irritant' -> 'caused by tulipalin A (and its precursor tuliposide A) ... a chemical irritant' (REFUTED oxalate mechanism).",
+        "treatments[1] (Removal of Plant Material and Oral Rinsing): removed 'sharp oxalate crystals (raphides)' and the calcium/milk-binds-insoluble-oxalates rationale; replaced with rinsing/diluting the irritant sap (tulipalin A). Oxalate-raphide framing was cross-contaminated from a different plant profile.",
+        "treatments[0] (Securing an Airway): removed 'severe tissue swelling ... caused by the irritation of the crystals' wording; reframed as rare oral/throat irritation with possible swelling, removing the oxalate-crystal attribution."
+      ],
+      "zh": [
+        "severity: 'safe' -> 'cautious' (mirrors EN).",
+        "description (para 2): replaced '物理性的刺激物質' / '輕微的灼熱感' with named chemical irritant 鬱金香內酯A (tulipalin A) 及前驅物 tuliposide A; reframed mouth effect as irritation (not burning); added '鬱金香手指' contact-dermatitis context.",
+        "safetyNotes[0]: 'unidentified irritant compounds in the sap' -> 'tulipalin A and its precursor tuliposide A (an irritant glycoside) throughout the plant' (safetyNotes are stored in English in the zh-TW cache; kept consistent with EN)."
+      ],
+      "left": [
+        "ASPCA-vs-Pet-Poison-Helpline authority conflict: chose 'cautious' over 'safe'. ASPCA lists Alstroemeria as fully NON-toxic, so a curator who weights ASPCA may prefer 'safe'. Documented for review.",
+        "symptoms[1].onset 'Immediate to shortly after chewing the plant.' left unchanged in both files: verdict is UNVERIFIABLE (no authority confirms onset timing), not REFUTED, so conservatively not deleted.",
+        "EN symptoms[1].name 'Minor signs of oral toxicity or irritation' and description's oral-irritation references retained although oral 'burning' specifically is UNVERIFIABLE; phrasing softened to 'irritate the mouth' rather than removed.",
+        "treatments[0] 'Securing an Airway and Oxygen Support' (priority 1) and emergencyNote: this airway-emergency / laryngeal-edema framing fits an insoluble-oxalate raphide plant, not Alstroemeria's mild tulipalin GI-irritant profile. I corrected the 'crystals' wording but did NOT delete/restructure the treatment or change emergencyNote, since removing a treatment and re-prioritizing is beyond a surgical compound fix. Recommend human review to consider downgrading or removing this overstated emergency treatment.",
+        "concentration_notes and several symptom/treatment notes still contain NotebookLM citation-digit noise (e.g. '12', '24', '3. Symptomatic...') — left to the dataset-wide batch cleanup per task scope."
+      ]
+    },
+    {
+      "slug": "aucuba_japonica",
+      "severity_change": "safe -> cautious",
+      "en": [
+        "severity: \"safe\" -> \"cautious\" (REFUTED 'safe'; Merck/MSD classifies Aucuba japonica as a mild GI irritant / low-toxicity plant, not non-toxic). Now consistent with isToxic:true, toxicityLevel:\"mild\", and symptom severity:\"mild\".",
+        "family: \"Cornaceae\" -> \"Garryaceae\" (REFUTED; Cornaceae is outdated taxonomy. NCBI/Kew/POWO place Aucuba in Garryaceae, order Garryales).",
+        "description: removed misattributed co-toxin 'irritating saponins' (REFUTED; no authority lists saponins, only aucubin). Reworded 'These compounds' -> 'This compound'.",
+        "safetyNotes[0]: 'Toxic compounds: aucubin (iridoid glycoside) and irritant saponins...' -> 'Toxic compound: aucubin (iridoid glycoside)...' (removed fabricated saponins).",
+        "safetyNotes[1]: replaced 'large doses may produce mild hepatotoxicity in cats' (REFUTED; unsupported and contradicted by peer-reviewed work showing Aucuba extract is hepatoprotective) with 'effects are usually mild and self-limiting'."
+      ],
+      "zh": [
+        "description: removed fabricated saponins clause '也含有刺激性的皂苷' and adjusted '這些成分' -> '這種成分'.",
+        "safetyNotes[0]: removed '和刺激性皂苷' (fabricated saponins); '有毒化合物' wording adjusted from plural to single compound.",
+        "safetyNotes[1]: replaced '大劑量可能對貓產生輕微的肝毒性' (REFUTED hepatotoxicity) with '症狀通常輕微且具自限性'."
+      ],
+      "left": [
+        "Symptom 'drooling' (claim 10) and 'lethargy/mild tiredness' (claim 11) are UNVERIFIABLE — plausible for a GI irritant but not confirmed by Merck/authority. Left in description and safetyNotes as-is per conservative instruction; remove only if a stricter authority-only policy is desired.",
+        "zh-TW overlay has no severity/family fields, so the severity and family corrections live only in the EN canonical; downstream sync (Firestore + mewguard_site/toxins.generated.ts) must be re-run to propagate severity 'cautious' and family 'Garryaceae'.",
+        "EN chemicals[0].concentration_notes / description and symptoms[0].notes still contain NotebookLM '◦' bullet-glyph noise — left untouched per instruction (handled by dataset-wide batch scripts)."
+      ]
+    },
+    {
+      "slug": "begonia_maculata",
+      "severity_change": "none",
+      "en": [
+        "chemicals[0].description: removed the REFUTED hepatic pathway ('...it can travel to the liver') and replaced with renal/grazing-animal framing supported by ASPCA (systemic effects involve kidneys, uncommon in cats, primarily grazing animals).",
+        "description (paragraph 2): replaced 'the toxins can enter the bloodstream and potentially affect the liver or kidneys' with kidney-only systemic statement noting it is uncommon in cats and mainly in grazing animals.",
+        "symptoms[]: deleted the entire fabricated Hepatic entry 'Serious illness and liver failure' (body_system Hepatic, severity severe) — REFUTED by ASPCA which lists kidney failure (in grazing animals), never liver.",
+        "treatments[] priority 4 (Physical Examination and Blood Tests) notes: removed 'severe systemic illness, including liver failure and kidney damage' and reframed to renal monitoring (systemic soluble-oxalate effects are renal and uncommon in cats)."
+      ],
+      "zh": [
+        "description (第二段): 移除被駁回的肝臟途徑『毒素可能會進入血液，對肝臟或腎臟造成潛在影響』，改為腎臟（主要見於放牧型動物）、且貓咪罕見的全身性影響說明。",
+        "symptoms[]: 刪除整個虛構的肝臟症狀條目（body_system 肝臟，name 'Serious illness and liver failure'，severity severe）。"
+      ],
+      "left": [
+        "Did not add a prominent renal/kidney-failure symptom to replace the deleted hepatic one. The verdict states renal systemic effects are 'primarily in grazing animals rather than cats,' so promoting a kidney-failure symptom for cats would overstate the risk; left to human if a low-emphasis renal note is desired.",
+        "chemicals[0].concentration_notes and several symptoms[].notes / treatments[].notes remain truncated mid-sentence (NotebookLM artifacts). Not edited per instructions (symptoms[].notes noise is handled by batch scripts); flagged in case manual cleanup is wanted.",
+        "isToxic=true, severity='toxic', toxicityLevel='mild' left unchanged — all CONFIRMED and internally consistent (ASPCA toxic; practically mild oral irritation)."
+      ]
+    },
+    {
+      "slug": "capsicum_annuum",
+      "severity_change": "toxic -> cautious",
+      "en": [
+        "severity: \"toxic\" -> \"cautious\" (Merck: Capsicum annuum is a GI irritant only, \"not likely to be lethal\"; the fatal nightshade grade was conflated from Solanum pseudocapsicum). isToxic kept true and toxicityLevel kept \"mild\" to match the dataset's cautious convention and the genuine mild-irritant risk.",
+        "description: rewrote to frame edible peppers as a mild, non-lethal GI irritant (capsaicin in spicy/ornamental forms; low-level solanine in foliage only). Removed REFUTED \"all peppers contain solanine-like glycoalkaloids ... at highest concentrations in unripe (green) fruits, leaves, stems, and roots\" and the UNVERIFIABLE \"cats ... especially sensitive\" claim. Added an explicit note distinguishing it from the toxic Solanum pseudocapsicum (Jerusalem cherry) that the ASPCA \"Ornamental Pepper\" entry actually maps to.",
+        "safetyNotes[1] (solanine): removed REFUTED systemic claims (muscle tremors, weakness, slowed heart rate, neurological disruption); now states foliage solanine adds only mild GI upset and edible fruit causes no systemic poisoning.",
+        "symptoms: removed 4 REFUTED fabricated-by-transfer entries — Neurological (lethargy/ataxia/tremors/seizures), Cardiac (bradycardia/arrhythmias), Respiratory (dyspnea->respiratory paralysis, severity \"fatal\"), Hematological (hemolysis/hemoglobinuria). Kept CONFIRMED GI x2 and dermal/capsaicin entries.",
+        "symptoms[0] (GI vomiting/diarrhea): severity \"severe\" -> \"moderate\"; rewrote notes to reflect mild self-limiting GI irritation and removed trailing NotebookLM noise \"Abdominal Pain\".",
+        "symptoms[1] (abdominal pain): removed trailing noise \"Mucosal Irritation (Burning & Coughing)\".",
+        "symptoms[2] (dermal/capsaicin): removed trailing noise \"Neurological Effects (Apathy to Seizures)\".",
+        "chemicals[] Solanine entry: renamed to \"Solanine (foliage glycoalkaloid)\"; concentration_notes now confine it to low-level foliage and state fruit's alkaloid is capsaicin not solanine; description rewritten so solanine acts only as a local GI irritant in edible peppers and the systemic neuro/cardiac effects belong to Solanum pseudocapsicum, not Capsicum. Removed UNVERIFIABLE cat-vs-dog liver-sensitivity claim."
+      ],
+      "zh": [
+        "description: 同步英文改寫，定位為輕度且非致命的腸胃刺激物；移除「所有辣椒都含類似茄鹼的糖苷生物鹼…濃度最高」與「貓特別敏感」的被駁回/無法證實內容；新增與有毒的珊瑚櫻 (Solanum pseudocapsicum) 區分的說明。",
+        "safetyNotes[1] (茄鹼)：移除被駁回的全身性症狀（肌肉顫抖、虛弱、心跳變慢、神經干擾），改為僅葉莖低量糖苷生物鹼造成的輕度腸胃不適，並說明可食用果肉不會造成全身性中毒。",
+        "symptoms: 移除 4 個被駁回的條目（神經系統、心血管、呼吸系統、血液系統），保留腸胃道 x2 與皮膚（辣椒素）條目。"
+      ],
+      "left": [
+        "toxicParts left unchanged (Stem, Leaf, Fruit). Claim 7 flagged the 'fruit' as misattributed only for the glycoalkaloid framing, but spicy/ornamental pepper fruit genuinely contains the irritant capsaicin, so 'Fruit' remains a legitimate source of irritant; the glycoalkaloid framing was corrected in text instead. Confirm if the dataset prefers fruit removed for the bell-pepper case.",
+        "chemicals[] Scopoletin entry left as-is: the verdict did not address scopoletin; its concentration_notes still contain NotebookLM citation-dump noise (Merck/Pet Poison Helpline source list) and a truncated description. Not a factual REFUTED item, so left for the dataset-wide noise-cleanup batch.",
+        "isToxic kept true to match the 'cautious' dataset convention (cautious entries all have isToxic=true). If product policy wants edible-but-irritant plants surfaced as non-toxic/false-alarm, isToxic could be set false — flagged because the verdict headline called isToxic=true an overstatement, but a real mild-irritant risk remains.",
+        "emergencyNote and treatments[] (gastric lavage, multi-dose activated charcoal, atropine for bradycardia, hemolysis/diuresis framing) describe aggressive severe-poisoning management carried over from the Solanum profile and are now inconsistent with the 'cautious' GI-irritant grade. Not edited because the verify spec scoped corrections to description/safetyNotes/chemicals/symptoms/severity; recommend a follow-up to right-size treatments to supportive GI care."
+      ]
+    },
+    {
+      "slug": "celastrus_scandens",
+      "severity_change": "none",
+      "en": [
+        "chemicals[0]: replaced misattributed 'Solanine (glycoalkaloid)' entry (nightshade cross-contamination, claim 4 REFUTED) with ASPCA-supported 'Cardenolides and alkaloids'; removed the solanine acetylcholinesterase-inhibition mechanism description and the 'extremely toxic' potency framing (claim 2 REFUTED), replacing with low-toxicity / GI-irritation note",
+        "description: removed unverified prominent 'cardiac-disrupting activity ... affect the heart' mechanism (claims 3/5 UNVERIFIABLE) and reframed to ASPCA cardenolides+alkaloids with low toxicity, mild self-limiting GI signs, rare weakness/seizures; added seeds to all-parts-toxic list",
+        "safetyNotes[0]: replaced 'in serious cases abnormal heart rhythm' (claim 11 REFUTED bradycardia/arrhythmia) with 'rarely seizures' (ASPCA-supported)",
+        "symptoms[]: removed fabricated 'Dilated Pupils (Mydriasis)' entry (claim 10 REFUTED) and 'Slow Heart Rate (Bradycardia)' entry graded 'fatal' (claim 11 REFUTED); dropped unsupported 'Hypersalivation (Drooling)' from GI symptom name (claim 8 UNVERIFIABLE); removed nightshade/solanine onset note and paralysis/coma progression (claim 6 REFUTED). Replaced with three authority-supported symptoms: 'Vomiting and Diarrhea' (moderate), 'Weakness and Lethargy' (moderate), 'Seizures (rare)' (severe); cleared solanine attribution from notes",
+        "toxicParts: replaced botanically impossible 'Bulb' (claim 12 REFUTED, woody vine has no bulb) with 'Berries, Seed, Leaves, Bark, Roots' (claim 13 CONFIRMED, matches description and zh-TW)",
+        "treatments[1] (Activated Charcoal): removed solanine-specific binding/enterohepatic-recirculation claims, generalized to unabsorbed toxins",
+        "treatments[2] (IV Fluids): removed fabricated hemolysis (red-blood-cell breakdown) rationale not documented for Celastrus",
+        "treatments[3]: removed atropine-for-bradycardia and solanine-antidote/respiratory-distress content (tied to REFUTED cardiac/nightshade claims); renamed to 'Drug Therapy (Anticonvulsants)' focused on supportive care and rare seizures"
+      ],
+      "zh": [
+        "description: removed unverified '會干擾心臟功能的化合物 ... 也會影響心臟' cardiac mechanism; reframed to ASPCA 強心苷與生物鹼, low overall toxicity, mild self-limiting vomiting/diarrhea, rare weakness/seizures; added 種子 to all-parts-toxic list",
+        "safetyNotes[0]: replaced '嚴重時可能出現心律不整' (REFUTED arrhythmia) with '少數情況下出現抽搐' (rare seizures)",
+        "symptoms[]: removed '瞳孔放大' (mydriasis, REFUTED) and '心搏過緩（心跳變慢）' (bradycardia, REFUTED); dropped '流涎（唾液分泌過多）' (unsupported drooling) and the '茄科／茄鹼中毒' (nightshade/solanine) onset wording. Replaced with '嘔吐與腹瀉', '虛弱與精神不振', '抽搐（罕見）'"
+      ],
+      "left": [
+        "Top-level severity kept as 'toxic' (isToxic true, toxicityLevel 'mild'): ASPCA/PPH confirm toxic to cats (claim 1 CONFIRMED), and the enum offers only safe/cautious/toxic. The verdict's 'overstated' criticism targeted the 'fatal'/'extremely toxic' framing and fabricated cardiac/CNS signs, all now removed; the low-toxicity nature is carried by toxicityLevel 'mild'. If the team prefers, the schema does not offer a 'cautious'-for-toxic-plant nuance, so a maintainer may review whether toxicityLevel/severity messaging should be softened further.",
+        "EN description retains a high-level GI-irritation + low-toxicity framing without the specific 'sesquiterpene alkaloids' wording (claim 3 UNVERIFIABLE). I used ASPCA's 'cardenolides and alkaloids' instead; if the team wants to preserve the phytochemically-accurate 'sesquiterpenoid alkaloids' note as non-authority context, that is a judgment call left to a human.",
+        "symptoms[].notes still carry trailing NotebookLM concatenation artifacts on other treatment notes (e.g. '...Fluid Therapy', '...Symptomatic Supp', '...Toxin Adsorption') — left untouched per instructions (batch-script handled)."
+      ]
+    },
+    {
+      "slug": "cercocarpus_spp",
+      "severity_change": "toxic -> cautious",
+      "en": [
+        "severity: changed \"toxic\" to \"cautious\" — verdict rates isToxic and severity UNVERIFIABLE for cats (not listed by ASPCA/Pet Poison Helpline/VCA; documented poisonings are in grazing livestock and toxin levels are usually below the dangerous range); flat toxic/life-threatening overstates documented cat risk. isToxic stays true (plant is genuinely cyanogenic) and toxicityLevel stays \"mild\", now internally consistent.",
+        "description: removed the REFUTED specific compound \"(such as prunasin)\", keeping generic \"cyanogenic glycosides\".",
+        "description: corrected the false \"highly dangerous houseplant\" framing — now states it is a wild desert/mountain shrub (not a houseplant), not listed by cat-specific poison authorities, documented in livestock, with toxin levels usually below the dangerous range; reframed as caution rather than a confirmed everyday hazard.",
+        "description: fixed the \"toxic cyanide gas into the body\" oversimplification flagged in en_quality — now \"release cyanide, which stops the body's cells from using oxygen\".",
+        "description: added cyanosis as a later sign (\"bright red gums (which may later turn bluish)\") per verdict note on symptom claim 10, and conditioned symptom onset on \"a large enough amount is chewed and swallowed\".",
+        "chemicals[0].name: removed parenthetical \"specifically\" so it reads generic cyanogenic glycoside -> HCN (no prunasin specificity).",
+        "safetyNotes[0]: \"prunasin (cyanogenic glycoside)\" -> \"cyanogenic glycosides\".",
+        "safetyNotes[1] mechanism: \"prunasin releases HCN\" -> \"cyanogenic glycosides release HCN\".",
+        "safetyNotes: inserted a new note that the plant is not listed by ASPCA/Pet Poison Helpline for cats and documented poisonings are in livestock with toxin levels usually below the dangerous range.",
+        "safetyNotes (symptoms line): qualified with \"(if a toxic dose is chewed and swallowed)\" and softened the final note to \"if a large ingestion is suspected — acute cyanide toxicity\"."
+      ],
+      "zh": [
+        "description: removed REFUTED \"如 prunasin\" specific compound (now generic 含氰配糖體).",
+        "description: fixed name inconsistency — opening gloss now uses 山桃花心木 to match the name field (was 山桃木).",
+        "description: removed overstated \"對貓咪非常危險\" framing; now states it is a wild desert/mountain shrub (not a houseplant), not listed in ASPCA/Pet Poison Helpline, documented in livestock, toxin levels usually below the dangerous range, treat with caution.",
+        "description: added cyanosis later-sign (之後可能轉為發紫) and conditioned symptoms on chewing/swallowing a sufficient amount; softened closing to acute-cyanide emergency wording.",
+        "safetyNotes[0]: \"扁桃腈苷 (prunasin，氰苷)\" -> \"含氰配糖體\".",
+        "safetyNotes[1] mechanism: \"扁桃腈苷\" -> \"含氰配糖體\".",
+        "safetyNotes: inserted note that ASPCA/Pet Poison Helpline do not list it for cats and cases are in livestock with toxin levels usually below dangerous range.",
+        "safetyNotes (症狀 line): qualified with （在咬碎並吞下足夠毒量時）and softened final note to 大量攝入 / 急性氰化物中毒."
+      ],
+      "left": [
+        "Seeds as a toxic part (toxicParts includes \"Seed\" / 種子): verdict is UNVERIFIABLE — no source singles out Cercocarpus seeds, though plausible by Rosaceae analogy. Left unchanged per conservative rule; description/safetyNotes now emphasize leaves as the documented cyanogenic part.",
+        "Cache copies not in scope and not edited: data/site/en/cercocarpus_spp.json, data/site/firestore/en/cercocarpus_spp.json, data/site/firestore/zh-TW/cercocarpus_spp.json. CLAUDE.md says these caches are reconciled by the dataset-wide Firestore sync scripts; they still carry the old \"toxic\"/prunasin/\"highly dangerous\" content and need a re-sync/re-translate to match.",
+        "family is \"Rosaceae\" — verdict did not flag the family, so left unchanged (Cercocarpus is genuinely Rosaceae; correct).",
+        "NotebookLM noise left untouched per instructions: chemical_formula footnote residue \"HCN (for Hydrogen Cyanide)1.\", footnote/prompt-echo residue in symptoms[].notes and treatments[].notes, and chemicals[].description trailing fragments.",
+        "zh-TW symptoms[] have no per-symptom severity field (EN severe/moderate/fatal not carried over) — explicitly a dataset-wide batch concern, not touched.",
+        "Firestore live store and admin-UI review: disk JSON updated, but Firestore upload/read-back is a separate recorded step not performed here."
+      ]
+    },
+    {
+      "slug": "cinnamomum_verum",
+      "severity_change": "toxic -> cautious",
+      "en": [
+        "severity changed from \"toxic\" to \"cautious\": ASPCA grades the cinnamon plant/spice as NON-toxic to cats; only the concentrated essential oil is authority-backed as toxic, so a blanket \"toxic\" overall grade overstated risk for the dominant forms (powder/sticks). Kept isToxic=true and toxicityLevel=\"mild\" — internally consistent with a cautious grade that still flags the genuine essential-oil hazard.",
+        "description rewritten to remove the UNVERIFIABLE compound attribution (cinnamaldehyde \"main flavour compound and primary toxic concern\" and coumarin \"toxic concern in cassia\") which no authoritative feline source supports. Reframed per ASPCA: spice/plant non-toxic, powder/sticks only mildly risky (GI upset at large amounts; powder inhalation irritates airways), with the concentrated essential oil/extract as the real hepatotoxic hazard. Corrected the CONFIRMED mechanism's substrate from \"these compounds\" (cinnamaldehyde/coumarin) to the phenolic compounds in essential oils, and named the specific deficient enzyme (glucuronyl transferase) per Merck.",
+        "No edit to chemicals[] (entry is \"Cinnamon Essential Oil\" — the authority-backed toxic form — and does not assert cinnamaldehyde/coumarin as the toxic principle).",
+        "No edit to safetyNotes[] (oil-highest-risk, symptom list, and action are all authority-consistent and carry no refuted compound claims).",
+        "No edit to symptoms[] severity/body_system (all five oil-exposure symptoms are CONFIRMED by Merck/PPH/VCA; symptoms[].notes NotebookLM heading noise is explicitly out of scope per instructions)."
+      ],
+      "zh": [
+        "description rewritten to mirror the EN correction: removed 桂皮醛 (cinnamaldehyde) and 香豆素 (coumarin) as the toxic principles (UNVERIFIABLE), reframed per ASPCA that the plant/spice is non-toxic with powder/sticks only mildly risky, and the concentrated 精油/萃取物 as the genuine hepatotoxic hazard. Corrected the mechanism substrate to 精油中酚類化合物 (phenolic compounds in essential oils) and named the deficient enzyme 葡萄糖醛酸轉移酶 (glucuronyl transferase). Traditional Mandarin, plain text.",
+        "No edit to safetyNotes[] (audit confirmed they are faithful, natural Traditional Mandarin with no softening and no refuted compound claims).",
+        "No edit to toxicParts (current zh file already contains only [\"樹皮\"]; the fabricated \"全株有毒\" flagged in the audit is already absent)."
+      ],
+      "left": [
+        "toxicParts \"Bark\" (EN) / \"樹皮\" (zh): the verdict rules \"bark is the toxic part\" UNVERIFIABLE — no authority (ASPCA/PPH/VCA/Merck) identifies any toxic part, and the genuine risk vector is the essential oil/extract, not a botanical part. Left unchanged rather than fabricate a replacement: that cinnamon spice derives from inner bark is a true botanical fact, and the schema field expects a plant part (an \"essential oil\" is not a botanical part). Recommend human decides whether to clear toxicParts or relabel to reflect that risk is oil-driven, not bark-driven.",
+        "toxicityLevel=\"mild\" kept alongside severity=\"cautious\". This is consistent for the dominant non-/low-toxic forms, but note the essential oil is genuinely serious (hepatotoxic, can be fatal). If the dataset's toxicityLevel is meant to reflect the worst-case form rather than the typical form, a human may want to revisit this field — not changed because the verdict's overall grade aligns with cautious/mild for the common forms.",
+        "zh-TW per-symptom severity and symptom notes were not added back: explicitly out of scope per instructions (dropped zh per-symptom severity and symptoms[].notes are handled by dataset-wide batch scripts)."
+      ]
+    },
+    {
+      "slug": "citrus_fruits_oranges_tangerines_lemons_pomelos",
+      "severity_change": "none (overall severity \"toxic\" CONFIRMED by ASPCA; only per-symptom gradings changed)",
+      "en": [
+        "chemicals[1]: replaced the entire 'Citric Acid' compound (REFUTED by claim 3 - no authority names citric acid as a toxic principle) with 'Psoralens', the second principle ASPCA actually lists alongside essential oils; set chemical_formula to null and wrote authority-supported description/concentration_notes (psoralens concentrated in peel/leaves/stems).",
+        "description (paragraph 2): rewrote the mechanism sentence (REFUTED by claim 5) - removed 'citric acid' as a cause of irritation, now reads 'concentrated citrus essential oils and psoralens, the toxic principles named by the ASPCA' and clarified that systemic/CNS effects come especially from concentrated oils.",
+        "symptoms[0] (GI): severity downgraded 'severe' -> 'moderate' (REFUTED by claim 2 - severe overstates ordinary fruit-flesh exposure).",
+        "symptoms[1] (CNS): severity downgraded 'severe' -> 'moderate' and notes rewritten to state CNS depression generally occurs only with concentrated essential oils while ordinary fruit-flesh ingestion is mild/self-limiting (per claim 2 verdict).",
+        "emergencyNote: removed 'citric acid' as a toxic compound, now references 'essential oils and psoralens'; also completed the truncated sentence.",
+        "treatments[0].name: removed 'citric acid' attribution, now references 'essential oils and psoralens', completed truncated text."
+      ],
+      "zh": [
+        "description (第二段): 對應 EN 的機制修正 - 移除『檸檬酸』作為刺激來源，改為『濃縮的柑橘精油和補骨脂素（psoralens），這也是 ASPCA 所列出的毒性成分』，並說明全身性/神經系統影響尤其來自濃縮精油。"
+      ],
+      "left": [
+        "toxicParts duplication: EN lists both 'Peel' and 'Skin' (zh-TW renders both as 果皮, producing a duplicate). Flagged by audit as a source defect but not part of the factual verdict; left unchanged to avoid reordering keys / scope creep.",
+        "toxicParts over-inclusiveness: claim 12 notes that listing Flesh/Fruit/Juice as toxic parts is technically over-inclusive (ASPCA calls the fruit edible), but the verdict CONFIRMED the relative-risk ranking and did not direct removal, so the list was left intact.",
+        "zh-TW symptoms objects lack per-symptom severity fields (only name/body_system/onset). Per task instructions this is a dataset-wide cache-schema issue handled by batch scripts, so the downgraded GI/CNS severities could not be mirrored into zh-TW here.",
+        "chemicals[0] (Citrus Essential Oils) description and several treatment/notes fields contain truncated NotebookLM text with footnote residue (e.g. trailing 'neurologica'); flagged as raw_noise to be cleaned by batch scripts, not touched.",
+        "safetyNotes[3] 'Deterrent note' is human-/usage-focused rather than feline health info (audit called it borderline off-topic); not a factual error, left for editorial decision."
+      ]
+    },
+    {
+      "slug": "crocus_vernus",
+      "severity_change": "none",
+      "en": [
+        "chemicals[]: removed the REFUTED 'Colchicine and other alkaloids' entry (claim 2/3 — spring crocus is Iridaceae and does NOT contain colchicine; that compound belongs to autumn crocus Colchicum autumnale). Collapsed to a single accurate 'Unidentified gastrointestinal irritants' entry that explicitly states spring crocus does not contain colchicine and causes mild GI irritation.",
+        "description (para 2): replaced the false 'Spring crocus contains small amounts of colchicine and other alkaloids... much lower levels than autumn crocus' with 'Spring crocus does not contain colchicine. Colchicine is the dangerous toxin found in autumn crocus...' — fixes the core REFUTED compound claim while preserving the correct 'autumn crocus is much more dangerous' framing.",
+        "symptoms[]: removed the 5 misattributed autumn-crocus systemic rows (bloody/hemorrhagic GI, hepatic necrosis + kidney failure/anuria, bone marrow suppression, respiratory failure, seizures/shock — all UNVERIFIABLE/misattributed for Crocus vernus). Kept general GI upset (regraded moderate->mild to match authority 'mild self-limiting' framing) and added authority-confirmed 'Drooling (hypersalivation)'. This also removed the NotebookLM noise that lived in those rows' notes.",
+        "treatments[]: replaced the 4 colchicine/autumn-crocus management steps (gastric lavage for colchicine, IV resuscitation for shock, analgesics/atropine for hemorrhagic GI, respiratory/CNS support for fatal poisoning) with 2 spring-crocus-appropriate steps: confirm species first, then supportive care for mild GI upset.",
+        "emergencyNote: changed from 'Gastric Lavage (Stomach Pumping) or Activated Charcoal' (colchicine treatment) to species-confirmation guidance.",
+        "safetyNotes[]: changed 'Bulbs are the most concentrated part' (UNVERIFIABLE for spring crocus per claim 17) to authority-supported 'Keep all parts away from cats: Any part of the plant may cause gastrointestinal upset...'"
+      ],
+      "zh": [
+        "description (para 2): replaced false '春番紅花含有少量秋水仙鹼和其他生物鹼...含量通常比秋水仙低得多' with '春番紅花並不含秋水仙鹼。秋水仙鹼是另一種不相關植物——秋水仙（Colchicum autumnale）——中才有的危險毒素...' to fix the colchicine misattribution, mirroring the EN fix.",
+        "symptoms[]: removed the 5 misattributed autumn-crocus systemic rows (血性嘔吐/腹瀉, 肝壞死+腎衰竭, 骨髓抑制, 呼吸衰竭, 癲癇/休克). Kept 嘔吐與腹瀉（一般腸胃不適）and added 流口水（唾液分泌過多）to match EN.",
+        "safetyNotes[]: changed '球莖濃度最高...' to '所有部位都應遠離貓：任何部位都可能造成腸胃不適...' to match the EN all-parts correction."
+      ],
+      "left": [
+        "severity left unchanged at 'cautious' (isToxic=true, toxicityLevel=mild): ASPCA/Pet Poison Helpline confirm spring crocus causes only mild self-limiting GI upset, which maps to the 'cautious' enum. The verdict's claim-18 note about severity=='toxic' refers to the EN SITE CACHE file (data/site/en/crocus_vernus.json, confirmed severity:'toxic'), NOT either canonical file in scope — that cache mismatch should be reconciled by whoever owns the site cache.",
+        "EN description still lists 'loss of appetite, and low energy' as possible signs (claims 9 and 10 = UNVERIFIABLE, not REFUTED). Left in place as plausible GI-associated signs; remove if a stricter authority-only policy is desired.",
+        "EN toxicParts keeps singular 'Leaf'/'Bulb'/'Flower' vs glossary plural keys (Leaves/Bulbs/Flowers) — verdict flagged this only as a glossary-key style note, not a factual error; left for the dataset-wide glossary normalization batch."
+      ]
+    },
+    {
+      "slug": "dahlia_pinnata",
+      "severity_change": "none",
+      "en": [
+        "safetyNotes[0]: removed REFUTED compound 'sesquiterpene lactones' — changed 'Toxic compounds: sesquiterpene lactones and unidentified irritant components' to 'Toxic compounds: unknown; the specific irritant principle has not been identified by authorities (ASPCA)', per ASPCA stating the toxic principle is Unknown"
+      ],
+      "zh": [
+        "safetyNotes[0]: removed REFUTED compound 倍半萜內酯 (sesquiterpene lactones) — changed '毒性化合物：倍半萜內酯與尚未確認的刺激性成分。' to '毒性化合物：未知；具體的刺激性成分尚未經權威機構（ASPCA）確認。'"
+      ],
+      "left": [
+        "safetyNotes 'flower petals are least concentrated' / above-ground concentration gradient and toxicParts ordering: verdict UNVERIFIABLE (not REFUTED) — ASPCA does not specify parts or a concentration ranking, and secondary sources suggest all parts including tubers may react. Conservatively left unchanged; a human may want to soften the 'petals least concentrated' claim.",
+        "Symptom 'mild drooling / hypersalivation' in safetyNotes: verdict UNVERIFIABLE (not REFUTED) — plausible with oral irritation but not in authoritative sources. Left unchanged.",
+        "The verdict flagged a parenthetical 'ASPCA lists Dahlia as non-toxic to cats' as a dangerous safe-vs-toxic error, but that note does not appear in either canonical file (only in the verify claim text). Nothing to delete; no action taken."
+      ]
+    },
+    {
+      "slug": "dianthus_caryophyllus",
+      "severity_change": "none",
+      "en": [
+        "description: removed the REFUTED specific-compound claim 'The plant contains saponins and other mildly irritating compounds' and replaced it with authority-supported wording 'The specific toxic compound has not been identified; authorities classify the toxic principle as an unknown irritant' (ASPCA lists toxic principle as 'Unknown irritant'); kept the mechanism hedge and GI-symptom outcome, both CONFIRMED."
+      ],
+      "zh": [
+        "description: 移除被駁回的特定化合物說法『植物含有皂苷與其他輕度刺激性化合物』，改為符合權威來源的『具體的毒性化合物尚未被辨識出來；權威機構將其毒性成分歸類為不明刺激物』，保留機制未完全釐清與可預期腸胃症狀的敘述。"
+      ],
+      "left": [
+        "toxicParts lists only 'Flower' (EN) / '花' (zh-TW): verdict is UNVERIFIABLE, not REFUTED — ASPCA does not isolate the flower and the entry's own safetyNotes say 'all parts of the plant are mildly toxic', so the scope is understated. No authoritative source confirms a corrected list, so left unchanged per conservative policy; a human may wish to broaden it to whole-plant.",
+        "EN chemicals[0].name/description and symptoms[0].notes contain a copy-paste artifact ('...digestive symptoms.Dermatological Irritation') and verbose NotebookLM-style text; symptom .notes noise is explicitly out of scope (handled by batch scripts). The chemicals[0] name field already correctly states the toxic principle is unidentified, so it does not contradict the verdict and was left untouched."
+      ]
+    },
+    {
+      "slug": "gum",
+      "severity_change": "toxic -> cautious",
+      "en": [
+        "severity: \"toxic\" -> \"cautious\" (chemical xylitol pathway REFUTED for cats; only mechanical choking/obstruction risk remains, a mild hazard)",
+        "isToxic: true -> false (cats are not chemically poisoned by gum/xylitol per ASPCA/FDA/2018 study)",
+        "toxicityLevel: left \"mild\" (already consistent with cautious)",
+        "description: rewrote to lead with mechanical choking/GI-obstruction risk and explicitly state xylitol is NOT toxic to cats (ASPCA; 2018 study, 1,000 mg/kg, no hypoglycaemia/liver damage, only transient drooling); removed the REFUTED claim that xylitol is an 'emergency risk for cats' causing blood-sugar crash and liver harm",
+        "safetyNotes[0]: replaced 'Toxic compounds: xylitol...' with mechanical-hazard-first note (indigestible gum wad -> choking/GI blockage)",
+        "safetyNotes[1]: replaced REFUTED 'Mechanism: xylitol stimulates insulin secretion... severe hypoglycaemia; hepatotoxic' with the ASPCA/2018-study fact that xylitol is not toxic to cats",
+        "safetyNotes[2]: replaced REFUTED symptom list (seizures, 24-72h liver failure) with a note that the hypoglycaemia/liver-failure risk is dog-specific and does not apply to cats",
+        "safetyNotes[3]: reframed to cat-accurate signs (brief drooling, vomiting, reduced appetite, obstruction signs) instead of low-blood-sugar symptoms",
+        "safetyNotes[4]: removed 'any suspected xylitol ingestion is an emergency'; reframed storage note around choking/blockage prevention",
+        "chemicals[0]: removed truncated NotebookLM fragment chemical ('Based on the provided sources... However') by merging into the corrected Xylitol entry",
+        "chemicals[] Xylitol entry: removed dog-mechanism description ('tricks the pancreas into releasing a massive surge of insulin... acute liver failure and death'); replaced with cat-accurate non-toxic statement; cleared bogus chemical_formula 'C'; cleaned truncated concentration_notes",
+        "chemicals[] Indigestible Gum Base entry: cleaned truncated/duplicated NotebookLM text, kept the CONFIRMED mechanical foreign-body description",
+        "emergencyNote: replaced truncated fragment with cat-accurate note (no chemical emergency expected; concern is choking/blockage)",
+        "symptoms[]: removed REFUTED fragment symptom ('Unlike dogs, who suffer severe...') and removed REFUTED 'Hypoglycemia and Liver Failure (Theoretical/Rare)' symptom that was graded 'fatal'; kept CONFIRMED 'Transient Salivation' (severity mild) and renamed GI symptom to 'Gastrointestinal Upset or Obstruction' (mechanical, severity moderate), de-truncating their notes",
+        "treatments[0]: replaced truncated fragment treatment with 'Assess for Choking or Obstruction Risk'; noted no antidote/hypoglycaemia treatment needed for cats",
+        "treatments[] 'Hypoglycemia Management' -> 'Obstruction Management (If Blockage Develops)' since xylitol hypoglycaemia does not occur in cats; reframed toward foreign-body/blockage care"
+      ],
+      "zh": [
+        "description: rewrote to mirror corrected EN — mechanical choking/阻塞 as main risk; explicit statement that ASPCA says 貓不會受到木糖醇的不良影響 and 2018 study (1,000 mg/kg, no hypoglycaemia/liver damage, only transient drooling); removed the softened-but-REFUTED 'xylitol 對貓也應視為緊急風險 / 血糖突然下降 / 傷害肝臟' framing",
+        "safetyNotes: replaced all 4 generic/invented notes with 5 notes faithful to corrected EN; removed invented compounds 尼古丁(nicotine)/咖啡因(caffeine)/精油(essential oils) and invented symptom 拒食/癲癇 framing; added mechanical-hazard-first note, xylitol-non-toxic-to-cats note (with ASPCA + 2018 study), dog-specific-risk note, cat-accurate observation signs, and storage note",
+        "symptoms: removed empty fragment symptom (name/body_system both \"\") and removed REFUTED '低血糖和肝衰竭（理論性 / 罕見）' neurological symptom; kept 短暫流涎 and renamed GI entry to 胃腸不適或阻塞 to match EN"
+      ],
+      "left": [
+        "scientific_name=\"Gum\" and family=\"Various\" are placeholder/non-meaningful for a food product (verdict UNVERIFIABLE, not load-bearing). Left unchanged — schema-misuse cleanup, not a factual toxicity correction.",
+        "zh-TW body_system glossary divergences (代謝系統 vs canonical 代謝; 消化系統 vs canonical 腸胃道) — explicitly listed as dataset-wide batch normalization, not touched.",
+        "Dropped zh-TW per-symptom severity fields — explicitly batch-handled, not added.",
+        "EN canonical has no separate Firestore upload here; if live Firestore needs the corrected severity/isToxic, run the documented dump/sync flow (out of scope for this surgical edit)."
+      ]
+    },
+    {
+      "slug": "hummingbird_mint",
+      "severity_change": "toxic -> cautious (intent). Note: the EN canonical data/plants_processed/hummingbird_mint.json and zh-TW data/site/zh-TW/hummingbird_mint.json carry NO top-level severity/isToxic/toxicityLevel enum field; the enum lives only in the site/firestore caches (firestore/en still = \"toxic\", legacy en/ already = \"cautious\"), which are batch-managed and out of scope. Content was corrected to a non-toxic / mild-GI-only profile consistent with \"cautious\".",
+      "en": [
+        "family: fixed typo 'Lamiaceae (Mint family)1,' -> 'Lamiaceae (Mint family)' in both plant.family and basics.family (CONFIRMED Lamiaceae; stray footnote residue removed)",
+        "plant.description and basics.description: replaced NotebookLM placeholder/'considered unsafe for cats due to its essential oil content' with an authority-aligned summary stating Agastache spp. is generally considered safe, not listed as toxic by ASPCA, with only mild self-limiting GI upset possible (REFUTED toxic framing removed)",
+        "toxic_parts: emptied [] (was Root/Stem/Leaf/Flower; REFUTED — all-four-parts toxicity unsupported, plant not authority-listed as toxic)",
+        "toxins: emptied [] (removed the 'Essential Oils' entry whose description carried the REFUTED glucuronosyltransferase liver-enzyme-deficiency / respiratory / liver-stress mechanism cross-contaminated from concentrated essential-oil/Pennyroyal profiles)",
+        "symptom 'Vomiting and Diarrhea': severity moderate -> mild; notes rewritten to remove REFUTED 'oils relax the esophageal valve' mechanism and glued 'Hypersalivation' residue, reframed as transient non-specific GI upset",
+        "symptom 'Drooling or Foaming at the Mouth': kept (UNVERIFIABLE/mild); notes rewritten to remove essential-oil-irritation mechanism and glued 'Weakness and Lethargy' residue",
+        "removed symptom 'Lethargy or General Weakness' (Neurological, moderate) — REFUTED, cross-contaminated from essential-oil toxicosis",
+        "removed symptom 'Difficulty Breathing (Dyspnea), Coughing, or Sneezing' (Respiratory, SEVERE) — REFUTED fabricated severity escalation from concentrated-oil exposure",
+        "removed symptom 'Hepatic Dysfunction / Liver Failure' (Hepatic, FATAL) — REFUTED, Pennyroyal/concentrated-oil cross-contamination via glucuronosyltransferase mechanism",
+        "removed treatment 'Hepatic Monitoring / Hospitalization' which restated the REFUTED Pennyroyal/liver-failure risk; trimmed 'liver' wording from the gastroprotectant treatment's notes"
+      ],
+      "zh": [
+        "toxicParts: emptied [] (was 根/莖/葉/花; matches EN, REFUTED all-parts toxicity)",
+        "removed symptom '精神沉鬱或全身無力' (神經系統) — mirrors EN REFUTED neurological symptom",
+        "removed symptom '呼吸困難、咳嗽或打噴嚏' (呼吸系統) — mirrors EN REFUTED severe respiratory symptom",
+        "removed symptom '肝功能障礙 / 肝衰竭' (肝臟) — mirrors EN REFUTED fatal hepatic symptom",
+        "kept '嘔吐與腹瀉' and '流口水或口吐白沫' (mild GI, UNVERIFIABLE); zh-TW description already a faithful 'generally safe' rendering and left unchanged"
+      ],
+      "left": [
+        "Top-level severity enum: the canonical + zh-TW files have no severity/isToxic/toxicityLevel field. The site/firestore cache data/site/firestore/en/hummingbird_mint.json still reads severity='toxic' and its toxicParts still lists Root/Stem/Leaf/Flower; data/site/en/hummingbird_mint.json already reads 'cautious'. These caches are batch-managed (CLAUDE.md) so I did not edit them — a human/batch run should set severity='cautious' and clear toxicParts in the firestore cache and re-sync to Firestore.",
+        "EN treatments[] still describes aggressive decontamination (emesis induction with xylazine/dexmedetomidine, gastric lavage, activated charcoal, IV fluids) appropriate for a genuine toxicosis. The verdict did not explicitly rule on treatments; I removed only the REFUTED hepatic-monitoring entry and liver wording. Whether to soften the remaining emesis/lavage guidance for a non-toxic plant is a judgment call left for human review.",
+        "symptoms[].notes glued-heading residue and body_system glossary normalization (e.g. zh '消化系統' vs canonical '腸胃道', '葉' vs '葉子') were left to the dataset-wide batch scripts per instructions, except where I rewrote the two kept EN notes as part of the factual correction.",
+        "zh-TW retains the dropped per-symptom severity field (no severity in zh symptom objects) — left to batch fix per instructions."
+      ]
+    },
+    {
+      "slug": "jelly",
+      "severity_change": "toxic -> cautious",
+      "en": [
+        "severity: \"toxic\" -> \"cautious\"; isToxic: true -> false (blanket toxic grade REFUTED; xylitol non-toxic to cats, processed grape jelly not linked to poisoning, plain jelly unhealthy but not acutely toxic). toxicityLevel left \"mild\" (already consistent).",
+        "description: rewrote to lead with non-toxic/GI-upset reality; removed the xylitol hypoglycaemia/liver-failure alarm and the grape-jelly = raw-grapes nephrotoxicity claim; kept whole grape/raisin/currant as a precaution only.",
+        "safetyNotes: replaced the two REFUTED notes (xylitol-jelly toxic; grape jelly same risk as raw grapes) with corrected statements (xylitol not toxic to cats; processed grape jelly not associated with poisoning); reframed the precaution to apply to WHOLE grapes/raisins/currants.",
+        "emergencyNote: replaced the truncated ingredient-dependent fragment with an accurate note that jelly is generally non-toxic and concern is mainly whole-grape content or large amounts.",
+        "family: \"Various\" -> \"\" (fabricated metadata; jelly is a food, has no botanical family).",
+        "scientific_name: \"Jelly\" -> \"\" (fabricated; food has no scientific name).",
+        "toxicParts: [\"Whole\"] -> [\"Whole grape, raisin, or currant content (if present)\"] (\"Whole\" meaningless; toxicity is ingredient-specific).",
+        "chemicals[0] Xylitol: renamed to note 'not toxic to cats'; rewrote truncated description/concentration_notes to state cats are unaffected (ASPCA/VCA + 1,000 mg/kg study); chemical_formula \"C\" -> null (it was a truncated fragment, not a real formula).",
+        "chemicals[1] Tartaric Acid: renamed to clarify it is in whole grapes/raisins and largely removed from jelly; rewrote truncated description/concentration_notes to attribute the kidney-injury risk to whole-grape content, not jelly; chemical_formula \"C\" -> null.",
+        "symptoms[0]: replaced the sentence-fragment non-symptom with a real symptom 'Vomiting or loose stools from sugary jelly (most common reaction)', body_system Metabolic -> Gastrointestinal, severity moderate -> mild.",
+        "symptoms[3] (xylitol hypoglycemia/liver): renamed to make clear it does NOT apply to cats (dog risk only); severity \"fatal\" -> \"mild\" (false alarm for cats).",
+        "symptoms[4] (grape AKI): renamed to attribute risk to whole grapes/raisins/currants as a precaution, explicitly not processed grape jelly; severity kept \"fatal\" to avoid softening genuinely documented whole-grape danger."
+      ],
+      "zh": [
+        "description: 改寫為「不適合貓但一般無急性毒性、最常見為腸胃不適」；移除木糖醇低血糖/肝衰竭警示與葡萄果醬等同生葡萄的說法；整顆葡萄/葡萄乾/醋栗乾改為預防性提醒。",
+        "safetyNotes: 替換兩條被駁回的條目（含木糖醇果凍有毒；葡萄果凍與生葡萄同風險）為更正版本（木糖醇對貓無毒；加工葡萄果醬未被認為會中毒），並將預防提醒改為針對整顆葡萄/葡萄乾/醋栗乾。",
+        "toxicParts: [\"全部\"] -> [\"果凍中所含的整顆葡萄、葡萄乾或醋栗乾成分（若有）\"]。",
+        "symptoms[0]: 將句子片段的非症狀替換為真實症狀「因含糖果凍引起的嘔吐或軟便（最常見的反應）」，body_system 代謝 -> 腸胃道。",
+        "symptoms[3]: 重新命名為「木糖醇引起的低血糖／肝臟影響——對貓不適用（僅為狗的風險）」。",
+        "symptoms[4]: 重新命名為「整顆葡萄、葡萄乾或醋栗乾引起的急性腎損傷（預防性；非來自加工葡萄果醬）」。"
+      ],
+      "left": [
+        "Whole grapes/raisins/currants toxicity to CATS specifically is UNVERIFIABLE (robust data is in dogs; feline evidence is anecdotal/precautionary). Kept the grape AKI symptom at severity 'fatal' and as a precaution rather than downgrading, to avoid softening genuinely documented danger; a human may wish to relabel it 'precautionary/unconfirmed in cats'.",
+        "symptoms[].notes are still truncated mid-word (e.g. 'trigge', 'c', 's') and several treatments[] descriptions/notes are truncated NotebookLM artifacts; left untouched per instructions (batch-handled). treatments[0] is also a broken sentence-fragment 'name' mirroring the old emergencyNote — not corrected here since treatments were outside the verdict's mechanism/severity scope.",
+        "EN file has no per-symptom 'severity' mapping into zh-TW (zh-TW symptoms carry no severity field); dropped zh per-symptom severity is noted as batch-handled, so not added."
+      ]
+    },
+    {
+      "slug": "lemon_mint",
+      "severity_change": "toxic -> safe (conceptual; this plants_processed file has no top-level severity/isToxic/toxicityLevel field — those live in the Firestore/site-cache layer. Per-symptom severities were corrected here: GI moderate->mild, and two \"severe\" symptom objects removed entirely.)",
+      "en": [
+        "toxins[]: removed the two cross-contaminated compound entries ('Essential oils ... Menthol and Pulegone' and 'Citrus compounds') that falsely attributed pulegone/menthol/citrus and a hepatic-metabolism CNS/liver-failure mechanism (pulegone is pennyroyal's toxic principle, not Monarda's). Replaced with a single accurate entry 'Aromatic monoterpenes (thymol, p-cymene, carvacrol)' stating ASPCA does not list Monarda citriodora as toxic, it is broadly non-toxic, the lemon scent is from aromatic monoterpenes, and the only realistic concern is mild self-limiting GI upset.",
+        "symptoms[] GI object: severity 'moderate' -> 'mild'; rewrote notes to remove the unsupported 'citrus compounds / gastro-irritant' rationale (Monarda has no citrus compounds), reframed as mild self-limiting upset common to non-toxic plants.",
+        "symptoms[]: removed the REFUTED Neurological object ('Lethargy, Weakness, Ataxia', severity severe, CNS depression from citrus compounds) entirely — fabricated, lifted from pennyroyal/essential-oil toxicosis.",
+        "symptoms[]: removed the REFUTED Respiratory object ('Coughing, Sneezing, Difficulty Breathing', severity severe) entirely — no authority links Monarda to respiratory distress.",
+        "symptoms[] Dermal object: softened notes to reflect that contact dermatitis is biologically plausible but not authoritatively documented for this plant (verdict UNVERIFIABLE); kept severity 'mild'.",
+        "toxic_parts: changed ['Root','Stem','Leaf','Entire Plant'] -> [] because no authority establishes the plant as toxic or assigns toxic parts (verdict UNVERIFIABLE) and an empty array is valid per schema (no minItems)."
+      ],
+      "zh": [],
+      "left": [
+        "No legacy zh-TW file for this slug, so no zh edits were made (as instructed). The zh-TW copy in data/site/firestore/zh-TW/lemon_mint.json is a batch-script-managed cache and still carries the old toxic profile + bilingual name issues flagged in the audit — needs re-sync after this EN fix.",
+        "data/site/firestore/en/lemon_mint.json (Firestore-shaped cache) still holds the old toxic compound/symptom data and likely a top-level severity='toxic'/isToxic=true; the actual severity downgrade (toxic->safe) must be applied there / in Firestore by the batch sync, since this plants_processed file has no severity field.",
+        "plant.description and basics.description are raw NotebookLM appearance/habitat text with glued source-title residue ('Is Mint Safe for Cats?...', 'Mint Poisoning in Cats - ... Wag!'); left to dataset-wide batch cleanup. They contain no refuted toxicology claims.",
+        "Three symptom notes retain glued NotebookLM section-header residue ('...irritating oils.Neurological Depression', etc.) — per instructions this NotebookLM noise is handled by batch scripts, so left in place (the two objects whose residue I removed were deleted wholesale).",
+        "treatments[] describe generic emesis/charcoal/IV-fluid/anti-emetic care and reference 'volatile oils' and 'mint and citrus oils'; no specific verdict covers treatments and the plant being low-risk doesn't make the generic decon steps factually wrong, so left unchanged — flag for human to decide whether a non-toxic plant should list aggressive decontamination treatments at all."
+      ]
+    }
+  ]
+}
