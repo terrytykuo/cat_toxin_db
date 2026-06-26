@@ -33,6 +33,22 @@
 - [ ] **§9 記錄 + commit** — 每個檢查點做。見任務 E
 
 對抗式覆蓋率：**200/200（100%）** 已完成事實查證（P1 44 + P2 149 + 補齊）。
+**內容事實修正（A/A2/B/round2/round3）全部完成**——所有 safe↔toxic 方向錯誤、交叉污染、假化合物均已修正落 disk canonical。
+
+---
+
+## 🟢 新 session 從這裡開始（任務 C、D）
+
+**事實查證階段已收尾**，剩兩件事，互相獨立：
+
+1. **任務 C — 截斷類雜訊 LLM pass**（純資料品質清理，不碰事實判定）。可自動化、不需人工前置。見下方任務 C。
+2. **任務 D — Firestore sync**（把已修正的 disk canonical 推上 live store）。**需人工 review disk diff 後才能跑**，且有本 session 新發現的快取 caveat。見下方任務 D。
+
+**目前 git 狀態（branch `content-audit-2026-06-25`，與 main 隔離）：**
+本 session 的內容修正**已 commit**到此分支（不同於 2026-06-25(d) 當時「資料檔未 commit」的狀態）：
+- `d6dc837` — P2 round-2 16 FAIL 修正（含 7 筆 severity 翻轉）+ audits/腳本/docs
+- `77e83a7` — P2 round-3 11 NEEDS_REVIEW 修正 + audits/腳本/docs
+注意：**2026-06-25(d) 之前的大批資料檔變更（事實28/glossary257/雜訊921/severity34）仍未 commit**，依 reconciliation 計畫待人工分組；本分支 working tree 仍 dirty。跑任務 C 前先 `git status` 確認，commit 時延續「精準 stage 本批產出檔」模式（見任務 E）。
 
 ---
 
@@ -42,7 +58,7 @@
 |---|---|---|
 | 四面向審查 + 對抗式查證 | `.agent/workflows/scripts/audit-4dim.workflow.js`（預設 SLUGS=P2 149） | `Workflow({scriptPath})` |
 | 只跑對抗式 refute（self-source） | `.agent/workflows/scripts/refute-remaining.workflow.js`（預設 SLUGS=54 pending） | `Workflow({scriptPath})` |
-| 事實修正（外科式 Edit，無網路） | `.agent/workflows/scripts/factual-fix.workflow.js` | 改 ENTRIES + REPORT 後 `Workflow({scriptPath})` |
+| 事實修正（外科式 Edit，無網路） | `.agent/workflows/scripts/factual-fix.workflow.js`（P1 原版）；`factual-fix-p2-round2.workflow.js`（P2 16 FAIL）；`factual-fix-p2-round3.workflow.js`（P2 11 NEEDS_REVIEW） | 改 ENTRIES + REPORT 後 `Workflow({scriptPath})`。round2/3 的 prompt 已含「移除交叉污染症狀 / 修 toxicParts / null food 佔位 scientificName」等強化指引，新批次直接複製改 ENTRIES 即可 |
 | glossary 正規化（確定性） | `pipeline/normalize_zh_glossary.py` | `python3 ... [--apply]` |
 | 雜訊清理（保守確定性） | `pipeline/clean_notebooklm_noise.py` | `python3 ... [--apply] [--flags]` |
 | 審查結果 + 待補清單 | `data/audits/verify-localize-2026-06-25-{p1,p2}.json`、`p2_refute_pending.json` | — |
@@ -53,7 +69,9 @@
 
 ---
 
-## 任務 A — P2 事實修正（15 筆）⏳ 進行中
+## 任務 A — P2 事實修正（15 筆）✅ 已完成（2026-06-25(b)）
+
+> 歷史紀錄，保留方法供參。下方流程已套用完畢，**勿重跑**。
 
 已查證的 15 筆 FAIL（10 筆 safe↔toxic）。修正依據 = `data/audits/verify-localize-2026-06-25-p2.json` 內各 slug 的 `verify.summary` / `verify.claim_verdicts`（**無需再上網**）。
 
@@ -110,7 +128,9 @@ for d in ['data/plants_processed','data/foods_processed']:
 
 ---
 
-## 任務 B — P2 refute 補跑（54 筆）⏳ 最燒 token
+## 任務 B — P2 refute 補跑（54 筆）✅ 已完成（2026-06-26）
+
+> 歷史紀錄，保留方法供參（未來若再有 pending refute 可重用此流程）。本批 54 筆已 pending=0，**勿重跑**。
 
 54 筆未完成對抗式查證（多為**已知有毒**：oleander、ricinus 蓖麻、philodendron、narcissus、prunus、kalanchoe、digitalis…分類大概率正確，修正風險低）。清單見 `data/audits/p2_refute_pending.json`，已 baked 進腳本。
 
@@ -150,6 +170,10 @@ python3 pipeline/clean_notebooklm_noise.py --flags 2>&1 | grep -A99999 "TRUNCATE
 ```
 做法：對有截斷旗標的 `*_processed` 檔，用小型 LLM batch（context-aware，能分辨 `B12` 合法 vs `tract34` 雜訊）逐檔修補 `symptoms[].notes`。**先 dry-run/小批驗證再套用**（初版正則曾誤刪 raisins 496 字元合法內容——務必保持 audit-first）。
 
+**承接 round-2/3 留下的雜訊**：事實修正 agent 被明確指示「不碰純格式 footnote/截斷雜訊」，故多筆已修條目的 `symptoms[].notes` 仍帶尾綴 footnote 數字、黏連標題（如 `…unwell12.Nausea`、`pneumonia2.Liver Failure`）、截斷句——這些正是任務 C 範圍。明細散見各 agent `left_for_human`（`data/audits/p2-round2-*.json`、`p2-round3-*.json`）。
+**特別注意 mentha_x_piperita_chocolate**：methylxanthine 假化合物的「種子」是 notes 裡的殘留標題片段；round-3 已移除假 chemical/symptom，但若任務 C 不一併清掉 notes 裡的 `CNS and Cardiac Stimulation (Methylxanthine Toxicity)` 等片段，未來重生有再污染風險（該 agent 已警告）。
+**firestore 快取**：同樣的截斷/fabricated 殘留也存在 `data/site/firestore/zh-TW/` 對應檔；任務 C 若只清 *_processed，需確保任務 D 的 sync/resnapshot 會用 canonical 覆蓋快取，否則快取雜訊會回流。
+
 ---
 
 ## 任務 D — Firestore sync（§8）⏳ 需人工 review
@@ -162,26 +186,51 @@ node scripts/sync-disk-to-firestore.mjs --dry-run   # EN canonical → Firestore
 node scripts/sync-disk-to-firestore.mjs              # 套用
 node scripts/check-firestore-sync.mjs                # 驗證 divergence
 ```
+
+**sync 機制（2026-06-26 讀碼確認，腳本在 `admin/scripts/sync-disk-to-firestore.mjs`）：**
+- **來源 = `data/{plants,foods}_processed`（canonical）**，patch 欄位 `CANONICAL_FIELDS` 含 `severity`/`isToxic`/`toxicityLevel`/`toxicParts`/`safetyNotes`/`symptoms`/`chemicals`…。
+- `data/site/firestore/en/` **僅用來判斷 slug 是否已存在**（決定 update vs create），**不參與內容 diff**。→ 故 firestore/en 快取對 6 筆翻轉條目仍是舊值「不影響推送正確性」（sync 會用 *_processed 的正確值 `.update()`）。
+- ⚠️ **混合 schema 形狀**：部分 *_processed 用巢狀 snake_case（`plant`/`basics`/`toxic_parts`...），patch 讀的是 camelCase（`toxicParts`/`isToxic`...），這些檔的對應欄位會讀不到 → 推不出。屬 K11/K16 schema reconciliation，sync 前需評估（dry-run 看 UPDATE 清單與實際 patch 內容）。
+
+**本 session 留下的快取 divergence（sync 後須一併處理）：**
+- `firestore/en/`：6 筆翻轉條目（tradescantia/milk/persimmons/pistachios/peanuts/potato_chips）仍舊值；3 筆（peony/pine/zephyranthes）已被 agent 改成新值——sync+resnapshot 後會統一。
+- `firestore/zh-TW/`：部分條目（如 mentha_x_piperita_chocolate、nightshade）**仍含本輪已從 canonical 移除的 fabricated 症狀**。這些是 firestore-shaped 快取，需在 sync/zh 回寫流程中從修正後的 canonical / zh-TW 重生，**勿直接信任為 live 內容**。
+
 **zh-TW 回寫缺口**：`upload-local-translations.mjs` 只處理「本地新增、Firestore 沒有」的檔；**改過的既有 zh-TW 不會被它重推**。既有條目需透過 admin UI PATCH `/api/translations/:slug`（會寫 `l10n.zh-TW`）或擴充 sync 腳本。完成後 `python3 pipeline/dump_firestore.py` 回快照。
 
 ---
 
 ## 任務 E — 記錄 + commit（每個檢查點）
 
+⚠️ **不要用 `git add data/plants_processed`（整目錄）**——repo 有大量前 session 未 commit 的 dirty diff，整目錄 add 會把不相干變更掃進來。
+**改用「精準 stage 本批產出檔」模式**（本 session 2026-06-26 採用）：從該批 workflow 的 `result.entries[].files`（agent 實際寫入的絕對路徑）取檔清單，加上 audits/腳本/docs，只 stage 這些：
+
 ```bash
 cd cat_toxin_db
-git add data/plants_processed data/foods_processed data/site/zh-TW data/audits \
-        pipeline/normalize_zh_glossary.py pipeline/clean_notebooklm_noise.py \
-        .agent/workflows docs/CONTENT_AUDIT_RESUME.md PROGRESS.md
-git commit -m "content: <本檢查點做了什麼> $(date +%Y-%m-%d)"
+python3 - <<'PY' > /tmp/cm_files.txt
+import json
+d=json.load(open('data/audits/<本批fix摘要>.json'))['result']
+files=set()
+for e in d['entries']:
+    for f in e.get('files',[]): files.add(f.replace('/Users/sweetp/Workspace/MewGuard/cat_toxin_db/',''))
+files.update(['data/audits/<本批產出>.json','.agent/workflows/scripts/<本批腳本>.workflow.js',
+              'docs/CONTENT_AUDIT_RESUME.md','PROGRESS.md'])
+print('\n'.join(sorted(files)))
+PY
+tr '\n' '\0' < /tmp/cm_files.txt | xargs -0 git add --
+git diff --cached --stat        # commit 前檢視，確認無前 session 雜檔混入
+git commit -m "content: <本檢查點做了什麼> 2026-..."
 ```
+（`date` 指令在本環境可能觸發權限提示，日期直接寫死。）
 PROGRESS.md 誠實記錄：實際做了什麼、**不謊報未執行的 Firestore 狀態**。
 
 ---
 
 ## 重要 caveats / 踩過的坑
 
-- **全部變更僅寫 disk**（`*_processed` + `data/site/zh-TW`），**尚未碰 Firestore**。Firestore 是 live store，sync 是任務 D。
+- **全部變更僅寫 disk**（`*_processed` canonical + zh-TW 快取），**尚未碰 Firestore**。Firestore 是 live store，sync 是任務 D。本 session 的修正已 commit 到分支 `content-audit-2026-06-25`（`d6dc837`、`77e83a7`），但只是 commit 到 disk 分支，**不等於 Firestore 已更新**。
+- **zh-TW 檔路徑不一致**：legacy `data/site/zh-TW/` 只有部分 slug；多數 zh 修正落在 firestore-shaped 快取 `data/site/firestore/zh-TW/`（agent 發現 legacy 檔不存在時的 fallback）。新 session 改 zh 前先 `ls` 兩處確認哪個存在。
+- **混合 schema 形狀**：部分 `*_processed` 是巢狀 snake_case（`plant`/`basics`/`toxic_parts`/`toxins`），部分是 camelCase-flat（`toxicParts`/`safetyNotes`/`chemicals`）。`verify_plants.py` 對前者驗證正常、對後者報一堆假 completeness（common_name missing 等，170/198）——**那是 schema 不匹配噪音，非內容缺陷**，只看 `[SCHEMA]` enum 違規即可（severity/body_system/toxic_part）。toxic_part 合法值為**單數**（Leaf 非 Leaves）、body_system 比對前會 lowercase（用 `Hematological` 不要 `Hematologic`）。
 - **`Workflow` 的 `args` 參數對 scriptPath 無效**——曾導致誤跑 P1。要換 slug 就直接改腳本內 `SLUGS` 預設陣列。
 - **session 額度是 account 層級、會反覆撞**。Workflow 支援 resume（`resumeFromRunId`，已完成 agent 走 cache），但跨 session 不可用——故改用「存檔結果 + 更新 pending 清單 + 重跑」模式。
 - **雜訊正則危險**：醫療文字含合法數字（B12/O2）；只移除雙數字簽章等明確型態，截斷類一律標記不改。
@@ -191,11 +240,13 @@ PROGRESS.md 誠實記錄：實際做了什麼、**不謊報未執行的 Firestor
 
 ---
 
-## NEEDS_REVIEW（P2 round-2，11 筆，待人工/補查）
+## NEEDS_REVIEW（P2 round-2，11 筆）— ✅ 2026-06-26 已全數修正
 
-多為核心 claim UNVERIFIABLE（authoritative 來源沉默/衝突，依 refute-by-default 標記，非確定錯誤）：
-`mentha_x_piperita_chocolate, nightshade, orange_mint, peaches, philodendron_spp_including_birkin, pretzels, raw_eggs__raw_egg_whites, raw_meat, scadoxus_spp, schlumbergera_spp, vitis__implied`。
-判定依據在 `verify-localize-2026-06-25-p2.json` 各 slug 的 `verify`。處理：人工看 summary 決定是否改，或下一輪補查。
+已由 round-3（task wig1q79dc，`factual-fix-p2-round3.workflow.js`）處理完畢，**無待辦**。
+11 筆：`mentha_x_piperita_chocolate, nightshade, orange_mint, peaches, philodendron_spp_including_birkin, pretzels, raw_eggs__raw_egg_whites, raw_meat, scadoxus_spp, schlumbergera_spp, vitis__implied`。
+判定/修正明細見 `data/audits/p2-round3-needsreview-fix-2026-06-26.json` 與 p2.json 各 slug 的 `verify`。
+殘留供下一輪人工判斷（UNVERIFIABLE，保守未動，記在各 agent 的 `left_for_human`）：
+mentha_x_piperita_chocolate / orange_mint 的呼吸道症狀 severe 是否降級、nightshade 的 seizures 是否保留、scadoxus 是否從 toxic 降為 cautious（ASPCA 無條目，NC State 稱 LOW）。非阻塞，可併入未來內容微調。
 
 ---
 
@@ -203,7 +254,7 @@ PROGRESS.md 誠實記錄：實際做了什麼、**不謊報未執行的 Firestor
 
 - 2026-06-26 (c) — **NEEDS_REVIEW 11/11 修正完成**（task wig1q79dc，~491K token）。症狀交叉污染清理 + isToxic 一致性 + raw_eggs toxic→cautious。0 SCHEMA enum 違規。摘要 `data/audits/p2-round3-needsreview-fix-2026-06-26.json`。至此 P2 149 筆（FAIL 16 + NEEDS_REVIEW 11）全數修正落 disk canonical。**caveat：部分 firestore/zh-TW 快取仍含舊值，待任務 D sync 重生。**
 - 2026-06-26 (b) — **任務 B FAIL 修正完成**：16/16 事實修正（task wh9k16vjo，~655K token，外科式 Edit）。**7 筆 severity 方向修正**：peony safe→cautious、tradescantia_spathacea safe→cautious（漏報補正）；zephyranthes_drummondii cautious→safe、milk_and_dairy/persimmons/pine/pistachios/peanuts/potato_chips toxic→cautious（假警報降級）；pudding 修 isToxic/level 一致性。另修 nandina 學名/family/化合物、mentha 移除 pennyroyal 交叉污染肝毒、poppy 瞳孔矛盾、ragwort PA 化合物、raw_dough toxicParts/ADH 等。2 處 glossary key 對齊（peony Leaves→Leaf、potato_chips Hematologic→Hematological）。schema 驗證：16 筆 0 SCHEMA enum 違規（資料集既有 completeness shape 噪音 170/198 屬 K11/K16，非本批）。摘要 `data/audits/p2-round2-factual-fix-2026-06-26.json`。**全部僅寫 disk canonical，未碰 live Firestore（任務 D）。**
-- 2026-06-26 (a) — **任務 B 完成**：P2 refute 補跑 54/54（task wsrpnfji9，~1.45M token，web-grounded refute-by-default）。對抗式覆蓋率達 **200/200（100%）**。合併進 p2.json（pending=0），結果存 `verify-localize-2026-06-26-p2-refute-round2.json` + FAIL 明細 `p2-refute-round2-fails-detail.json`。新發現 **16 FAIL**（7 筆 safe↔toxic disagreement）+ 11 NEEDS_REVIEW。：P2 refute 補跑 54/54（task wsrpnfji9，~1.45M token，web-grounded refute-by-default）。對抗式覆蓋率達 **200/200（100%）**。合併進 p2.json（pending=0），結果存 `verify-localize-2026-06-26-p2-refute-round2.json` + FAIL 明細 `p2-refute-round2-fails-detail.json`。新發現 **16 FAIL**（7 筆 safe↔toxic disagreement：peony/tradescantia_spathacea safe→toxic 漏報；zephyranthes_drummondii/milk_and_dairy/persimmons/pine/pistachios toxic→cautious/safe 假警報）+ 11 NEEDS_REVIEW。已啟動 `factual-fix-p2-round2.workflow.js`（task wh9k16vjo）修這 16 筆。
+- 2026-06-26 (a) — **任務 B 完成**：P2 refute 補跑 54/54（task wsrpnfji9，~1.45M token，web-grounded refute-by-default）。對抗式覆蓋率達 **200/200（100%）**。合併進 p2.json（pending=0），結果存 `verify-localize-2026-06-26-p2-refute-round2.json` + FAIL 明細 `p2-refute-round2-fails-detail.json`。新發現 **16 FAIL**（7 筆 safe↔toxic disagreement：peony/tradescantia_spathacea safe→toxic 漏報；zephyranthes_drummondii/milk_and_dairy/persimmons/pine/pistachios toxic→cautious/safe 假警報）+ 11 NEEDS_REVIEW。
 - 2026-06-25 (d) — §9 部分：基礎建設 commit 到分支 `content-audit-2026-06-25`（`04b7647`，14 檔：goal/scripts/audits/手冊/PROGRESS.md，**不含資料檔**、不動 main）。資料檔變更（事實28/glossary257/雜訊921/severity34）仍在 disk 未 commit，依 reconciliation 計畫由人工分組；Firestore sync 未做（任務 D）。
 - 2026-06-25 (c) — 任務 A2：backfill 31 筆 live 條目的 severity（firestore→processed）+ unripened_pineapples override→cautious；255 檔驗證 0 違規；剩 9 disk-only dup（K11/K16）。
 - 2026-06-25 (b) — P2 15 筆事實修正完成（task wg0saw146，摘要 `data/audits/p2-factual-fix-2026-06-25.json`）。發現 42 個 `*_processed` 缺 severity 欄位的資料缺口 → 新增任務 A2；已補 hummingbird_mint、lemon_mint → safe。
