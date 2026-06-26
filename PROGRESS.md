@@ -1,5 +1,18 @@
 # Cat Toxin DB — Progress Log
 
+## 2026-06-26 — 內容驗證 P2 refute 補跑 + round-2 事實修正
+
+詳見 `docs/CONTENT_AUDIT_RESUME.md`（single source of truth）。
+
+- **任務 B：P2 refute 補跑 54/54 完成**（web-grounded 對抗式查證，refute-by-default）。對抗式事實查證覆蓋率達 **200/200（100%）**。pending 歸零。結果 `data/audits/verify-localize-2026-06-26-p2-refute-round2.json`。
+- **新發現 16 FAIL → 全數修正（16/16）**，外科式 Edit 寫入 disk canonical（`*_processed` + 部分 zh-TW/firestore 快取）：
+  - severity 方向修正 7 筆：peony、tradescantia_spathacea（標 safe 實則有毒 → cautious，漏報補正）；zephyranthes_drummondii（→safe）、milk_and_dairy、persimmons、pine、pistachios、peanuts、potato_chips（標 toxic 實則無毒 → cautious，假警報降級）；pudding 修 isToxic/toxicityLevel 一致性。
+  - 內容/化合物/症狀修正：nandina（family Rosaceae→Berberidaceae、prunasin→nandinin）、mentha（移除 pennyroyal 交叉污染的致命肝毒）、poppy（瞳孔 miosis/mydriasis 矛盾）、ragwort（PA 化合物歸屬）、raw_dough（toxicParts/ADH 措辭）等。
+  - glossary key 對齊 2 處：peony toxic_part Leaves→Leaf、potato_chips body_system Hematologic→Hematological。
+  - schema 驗證：本批 16 筆 **0 SCHEMA enum 違規**（資料集整體 completeness shape 不匹配 170/198 屬 K11/K16 schema 形狀 reconciliation，非本批引入）。
+- **11 筆 NEEDS_REVIEW** 留待人工/補查（清單見手冊）。
+- **狀態誠實聲明：以上全部僅寫 disk canonical，尚未執行 Firestore sync（任務 D）。** `firestore/en` 快取對部分翻轉條目仍是舊值；sync 腳本讀 `*_processed` 為來源，不受快取舊值影響，任務 D 執行後會 reconcile。
+
 ## 2026-02-23 — 完成資料清洗 + D1 匯入 + API 部署
 
 ### 完成項目

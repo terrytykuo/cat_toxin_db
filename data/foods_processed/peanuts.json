@@ -11,31 +11,31 @@
     {
       "chemical_formula": null,
       "concentration_notes": "or potency: The severity depends on the dose; high doses result in acute, severe liver damage and sudden death, while prolonged low-dose exposure causes reduced growth rates and liver enlargement",
-      "description": "in cats: Peanuts are highly susceptible to becoming damp and developing Aspergillus mold, which produces aflatoxins14. If an animal ingests moldy peanuts, it causes aflatoxicosis. This disrupts normal cellular function, leading to severe liver damage, ruptured blood vessels (internal bleeding), and jaundice15. Any notes on concentration or potency: The severity depends on the dose; high doses resu",
+      "description": "Peanuts are highly susceptible to becoming damp and developing Aspergillus mold, which produces aflatoxins14. If an animal ingests moldy peanuts, it causes aflatoxicosis. This disrupts normal cellular function, leading to severe liver damage, ruptured blood vessels (internal bleeding), and jaundice15. Any notes on concentration or potency: The severity depends on the dose; high doses resu",
       "name": "Aflatoxins (Mold Contamination)"
     },
     {
       "chemical_formula": null,
       "concentration_notes": "or potency: Allergic reactions are not strictly dose-dependent but rely on the individual animal's specific immune sensitivity",
-      "description": "in cats: The specific proteins in peanuts can trigger a severe immune system overreaction. The sources note that peanuts can specifically cause a \"deadly allergic reaction\" in pets3. Any notes on concentration or potency: Allergic reactions are not strictly dose-dependent but rely on the individual animal's specific immune sensitivity",
+      "description": "The specific proteins in peanuts can trigger a severe immune system overreaction. The sources note that peanuts can specifically cause a \"deadly allergic reaction\" in pets3. Any notes on concentration or potency: Allergic reactions are not strictly dose-dependent but rely on the individual animal's specific immune sensitivity",
       "name": "Peanut Allergens"
     },
     {
       "chemical_formula": "C",
       "concentration_notes": "or potency: Xylitol is extremely potent; in dogs, doses as low as 100 mg/kg cause severe hypoglycemia, and doses over 500 mg/kg cause liver failure",
-      "description": "in cats: Many commercial peanut butters use xylitol as an artificial, sugar-free sweetener26. In pets, xylitol tricks the pancreas into releasing a massive amount of insulin, which causes a rapid, life-threatening drop in blood sugar (hypoglycemia) and potential acute liver failure78. While dogs are exquisitely sensitive to this, and clinical data on cats is less conclusive, veterinary toxicologis",
+      "description": "Many commercial peanut butters use xylitol as an artificial, sugar-free sweetener. In dogs, xylitol triggers a massive insulin release causing life-threatening hypoglycemia and possible liver failure. Cats, however, are not affected: the Merck Veterinary Manual states cats are not at risk for hypoglycemia or liver injury from xylitol, and the ASPCA reports no known xylitol toxicity in cats. It is still prudent to keep xylitol products away from cats.",
       "name": "Xylitol (Found in Peanut Butter)"
     },
     {
       "chemical_formula": "NaCl (Salt) (Note",
       "concentration_notes": "or potency: The sources note that large amounts of salt can be fatal to pets1516. Treats containing these ingredients should make up no more than 10% of a pet's daily caloric intake, though peanuts are advised against entirely",
-      "description": "in cats: Peanuts are naturally very high in oils and fats, and human peanut snacks are frequently seasoned with high amounts of salt4.... A cat's digestive system cannot easily process dense plant fats, which leads to severe indigestion, diarrhea, and the potential to trigger pancreatitis (a painful inflammation of the pancreas)1314. Furthermore, the heavy salt content increases the metabolic burd",
+      "description": "Peanuts are naturally very high in oils and fats, and human peanut snacks are frequently seasoned with high amounts of salt4. A cat's digestive system cannot easily process dense plant fats, which leads to severe indigestion, diarrhea, and the potential to trigger pancreatitis (a painful inflammation of the pancreas)1314. Furthermore, the heavy salt content increases the metabolic burd",
       "name": "High Fats and Added Salt (Processed Peanuts)"
     }
   ],
-  "description": "Plain, unsalted peanuts are not toxic to cats, but they are an inappropriate snack for several reasons. Peanuts are very high in fat, which can trigger pancreatitis with regular feeding. They also carry a risk of aflatoxin contamination (a toxic mould byproduct) and offer no nutritional benefit to obligate carnivores.",
+  "description": "Plain, unsalted peanuts do not contain any specific poisons that are toxic to cats, but they are still not a good snack choice. Peanuts are very high in fat, and cats have a hard time digesting them. Eating too much fat can lead to pancreatitis, which is a painful and potentially life-threatening swelling of the pancreas.\n\nAnother hidden danger with peanuts is mold. Peanuts can easily grow a type of mold that produces aflatoxins, which can cause severe liver damage if eaten. Additionally, most peanuts sold in stores are roasted with a lot of salt or artificial flavorings, which are harmful to a cat's kidneys. Peanut butter is also very high in fat and salt. Some brands contain xylitol, a sweetener that is dangerous to dogs; unlike in dogs, xylitol is not a documented poison for cats, but it is still best avoided.\n\nWhile a single plain peanut probably will not hurt your cat, regular feeding can cause long-term health issues. Keep salted peanuts and peanut butter away from your cat. If your cat eats moldy peanuts, contact a veterinarian right away.",
   "emergencyNote": "Because peanuts do not contain a specific inherent chemical poison",
-  "family": "Various",
+  "family": "Fabaceae",
   "isToxic": false,
   "name": "Peanuts",
   "safetyNotes": [
@@ -43,16 +43,11 @@
     "Fat risk: very high fat content; regular feeding can cause pancreatitis (painful, potentially fatal pancreatic inflammation)",
     "Aflatoxin risk: mouldy or improperly stored peanuts may contain aflatoxins, which cause liver damage",
     "Salted, flavoured, or roasted peanuts: high sodium and artificial seasonings are harmful to cats",
-    "Peanut butter: most brands contain xylitol or excessive salt — check labels; a tiny taste of plain peanut butter is unlikely to cause harm"
+    "Peanut butter: high in fat and often excessive salt — the relevant cat risks; xylitol in some brands is a serious dog hazard but is not documented to harm cats (Merck/ASPCA); a tiny taste of plain peanut butter is unlikely to cause harm"
   ],
-  "scientific_name": "Peanuts",
-  "severity": "toxic",
+  "scientific_name": "Arachis hypogaea",
+  "severity": "cautious",
   "symptoms": [
-    {
-      "body_system": "Metabolic",
-      "name": "While plain, raw peanuts do not contain a specific inherent chemical poison",
-      "severity": "moderate"
-    },
     {
       "body_system": "Gastrointestinal",
       "name": "Aflatoxicosis (From Moldy Peanuts)",
@@ -62,10 +57,9 @@
     },
     {
       "body_system": "Gastrointestinal",
-      "name": "Hypoglycemia and Liver Failure (From Xylitol in Peanut Butter)",
-      "notes": "Many peanut butters are sweetened with xylitol, an artificial sweetener that tricks the body into releasing a massive amount of insulin37. While clinical data suggests cats are more resistant to xylitol than dogs, it can still cause a rapid drop in blood sugar and potentially fatal liver damage, req",
-      "onset": "15 to 30 minutes for hypoglycemia (or delayed up to 12 hours depending on the product);",
-      "severity": "fatal"
+      "name": "Xylitol (From Peanut Butter) — Dog Hazard, Not a Cat Hazard",
+      "notes": "Many peanut butters are sweetened with xylitol. This is a serious, sometimes fatal poison for dogs, but it is not a documented hazard for cats: the Merck Veterinary Manual states that cats are not at risk for hypoglycemia or liver injury from xylitol, and the ASPCA reports no known xylitol toxicity in cats. Xylitol-sweetened peanut butter is still best kept away from cats as a precaution.",
+      "severity": "mild"
     },
     {
       "body_system": "Neurological",
@@ -83,16 +77,14 @@
     },
     {
       "body_system": "Respiratory",
-      "name": "Severe Allergic Reaction",
-      "notes": "Peanuts have been specifically noted as a food item capable of triggering a deadly allergic reaction in pets",
+      "name": "Allergic Reaction (Rare)",
+      "notes": "Food-triggered allergic reactions, including rare anaphylaxis, are possible in cats, but no authoritative veterinary source documents peanut-specific fatal allergic reactions in cats. Treat this as a rare, unconfirmed risk rather than an expected outcome.",
       "onset": "Immediate to a few hours.",
-      "severity": "fatal"
+      "severity": "moderate"
     }
   ],
   "toxicParts": [
-    "Stem",
-    "Root",
-    "Skin"
+    "Seed"
   ],
   "toxicityLevel": "low",
   "treatments": [
@@ -109,7 +101,7 @@
       "priority": 2
     },
     {
-      "description": "of the procedure: The veterinarian will measure the cat's serum sodium and electrolyte levels and administer specific IV fluids to help dilute the sodium in the blood. The goal is to slowly return the animal to a normal water and electrolyte balance over a period of 2 to 3 days6.... Any situation-specific",
+      "description": "of the procedure: The veterinarian will measure the cat's serum sodium and electrolyte levels and administer specific IV fluids to help dilute the sodium in the blood. The goal is to slowly return the animal to a normal water and electrolyte balance over a period of 2 to 3 days6. Any situation-specific",
       "name": "Controlled Sodium Correction (If heavily salted peanuts were ingested)",
       "notes": "It is critical that the veterinarian lowers the sodium concentration slowly. If fluids are given too rapidly, it increases the osmotic gradient between the blood and the brain, drawing water into the brain cells and causing severe, potentially fatal cerebral edema (brain swelling)",
       "priority": 3

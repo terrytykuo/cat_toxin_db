@@ -5,18 +5,18 @@
     {
       "chemical_formula": "Hydrogen cyanide is HCN1.",
       "concentration_notes": "The toxins are primarily housed within the leaves and the seeds (within the fruit) of the plant2. The physical integrity of the seed is critical to its potency: if a cat swallows a seed completely whole without crushing or chewing it, the cyanide is not released, and toxicity is not expected2. While severe toxicity is uncommon unless large amounts are ingested, cyanide is incredibly potent and fas",
-      "description": "in cats: When a cat chews or grinds the plant's seeds or leaves, it compromises the plant tissue and triggers the conversion of cyanogenic glycosides into cyanide2. Once in the body, the cyanide binds to ferric (Fe3+) iron, specifically targeting an enzyme in the mitochondria called cytochrome c oxidase24. This disrupts the electron transport chain and completely prevents the cat's cells from util",
+      "description": "When a cat chews or grinds the plant's seeds or leaves, it compromises the plant tissue and triggers the conversion of cyanogenic glycosides into cyanide2. Once in the body, the cyanide binds to ferric (Fe3+) iron, specifically targeting an enzyme in the mitochondria called cytochrome c oxidase24. This disrupts the electron transport chain and completely prevents the cat's cells from util",
       "name": "Cyanogenic glycosides, which break down to release hydrogen cyanide when the plant material is chewed or digested"
     }
   ],
-  "description": "Photinia Red Leaf (Photinia spp.), an ornamental shrub grown for its vibrant red new foliage, is mildly toxic to cats. Like many members of the rose family (Rosaceae), Photinia contains cyanogenic glycosides — primarily prunasin — in its leaves and stems. These compounds release hydrogen cyanide when metabolised, though concentrations are typically low enough that serious toxicity requires ingestion of large amounts.",
+  "description": "Photinia Red Leaf (Photinia spp.) is a decorative shrub known for its bright red new leaves. It is mildly toxic to cats and not safe for them to chew. The plant contains chemicals called cyanogenic glycosides, especially in its young red leaves and seeds.\n\nWhen a cat chews and digests the leaves or seeds, these chemicals break down and release cyanide. Cyanide stops cells from using oxygen properly. Fortunately, the amount of these chemicals in the plant is usually low. A cat would need to eat a large amount to get seriously sick.\n\nIf your cat eats a small amount, you might see drooling, vomiting, or low energy. Eating larger amounts could cause breathing problems and weakness. Because the red leaves might look interesting to outdoor cats, it is best to keep them away. Please contact a veterinarian if your cat eats a noticeable amount of this plant.",
   "emergencyNote": "Antidote Therapy (Sodium Nitrite and Sodium Thiosulfate, OR Hydroxycobalamin)",
-  "family": "Rosaceae",
+  "family": "Berberidaceae",
   "isToxic": true,
   "name": "Photina Red Leaf",
   "safetyNotes": [
-    "Toxic compounds: prunasin (cyanogenic glycoside); young red leaves contain higher concentrations than mature green leaves",
-    "Mechanism: prunasin releases HCN via beta-glucosidase, inhibiting cellular respiration at high doses",
+    "Toxic compounds: cyanogenic glycosides (nandinin / p-glucosyloxymandelonitrile); young red leaves contain higher concentrations than mature green leaves",
+    "Mechanism: the cyanogenic glycoside releases HCN via beta-glucosidase, inhibiting cellular respiration at high doses",
     "Symptoms: drooling, vomiting, lethargy with minor ingestion; heavy ingestion may cause laboured breathing and weakness",
     "The attractive red foliage may make this shrub appealing to cats outdoors",
     "Contact your vet if your cat ingests a significant amount of leaves"
@@ -26,15 +26,15 @@
   "symptoms": [
     {
       "body_system": "Gastrointestinal",
-      "name": "Vomiting, diarrhea, excessive drooling, and almond-flavored breath",
-      "notes": "While vomiting and drooling are common early signs of many plant poisonings, the presence of an almond-like odor on the breath is a specific and classic indicator of cyanide gas release2. 2. Respiratory Distress",
+      "name": "Vomiting, diarrhea, and excessive drooling",
+      "notes": "While vomiting and drooling are common early signs of many plant poisonings, the presence of an almond-like odor on the breath is a specific and classic indicator of cyanide gas release. 2. Respiratory Distress",
       "onset": "Rapidly, often within 10 to 60 minutes",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Tachypnea (rapid breathing), severe respiratory distress, panting, and gasping for breath",
-      "notes": "This is a direct result of tissue hypoxia. The cyanide prevents the cat's cells from utilizing oxygen, causing the respiratory system to go into overdrive in a futile attempt to oxygenate the body23. 3. Mucous Membrane Discoloration and Cardiovascular Shock",
+      "notes": "This is a direct result of tissue hypoxia. The cyanide prevents the cat's cells from utilizing oxygen, causing the respiratory system to go into overdrive in a futile attempt to oxygenate the body. 3. Mucous Membrane Discoloration and Cardiovascular Shock",
       "onset": "Rapidly, often within 10 to 60 minutes",
       "severity": "severe"
     },
@@ -48,9 +48,9 @@
     {
       "body_system": "Neurological",
       "name": "Dilated pupils, sudden collapse, muscle seizures, convulsions, coma, and death",
-      "notes": "The brain is highly sensitive to oxygen deprivation. As cellular energy production completely halts, profound neurological collapse occurs. Cyanide toxicity is incredibly fast-acting, and sudden death frequently occurs before veterinary treatment can even be initiated",
+      "notes": "The brain is highly sensitive to oxygen deprivation. As cellular energy production halts, neurological collapse can occur after large ingestions. Death is possible in severe cyanide toxicosis but is rare in pets.",
       "onset": "Rapidly, often within 10 to 60 minutes",
-      "severity": "fatal"
+      "severity": "severe"
     }
   ],
   "toxicParts": [
@@ -63,13 +63,13 @@
     {
       "description": "To counteract the cyanide released by the plant, the veterinarian may administer specific antidotes. One method uses sodium nitrite to combine with cyanide and form cyanomethemoglobin, followed by sodium thiosulfate to convert it into water-soluble thiocyanate, which the cat can safely excrete in its urine1. Alternatively, the vet may use hydroxycobalamin, which binds with cyanide to form cyanocob",
       "name": "Antidote Therapy (Sodium Nitrite and Sodium Thiosulfate, OR Hydroxycobalamin)",
-      "notes": "This is the most critical and urgent intervention for severe poisoning, as cyanide toxicity causes rapid cellular hypoxia (oxygen starvation) and death can often occur before treatment even begins12. In less severe cases, the veterinarian may opt to treat the cat using only sodium thiosulfate1. 2. G",
+      "notes": "This is the most critical and urgent intervention for severe poisoning, as cyanide toxicity causes rapid cellular hypoxia (oxygen starvation) and death can often occur before treatment even begins12. In less severe cases, the veterinarian may opt to treat the cat using only sodium thiosulfate. 2. G",
       "priority": 1
     },
     {
       "description": "To prevent the plant material from further breaking down and releasing cyanide into the bloodstream, the veterinarian will medically induce vomiting to empty the stomach. This is followed by administering a dose of activated charcoal combined with a cathartic to bind and pass any remaining toxins out of the gastrointestinal tract",
       "name": "Emesis Induction (Inducing Vomiting) and Activated Charcoal",
-      "notes": "This procedure is strictly indicated for asymptomatic cats following a known or suspected large ingestion of the plant1. 3. Acidosis Correction and Supportive Care",
+      "notes": "This procedure is strictly indicated for asymptomatic cats following a known or suspected large ingestion of the plant. 3. Acidosis Correction and Supportive Care",
       "priority": 2
     },
     {

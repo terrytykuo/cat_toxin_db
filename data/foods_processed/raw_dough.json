@@ -5,29 +5,29 @@
     {
       "chemical_formula": "C",
       "concentration_notes": "or potency: The continuous fermentation of the dough inside the stomach acts as an ongoing source of alcohol, meaning the toxicosis can be progressive and highly dangerous4. Even small amounts of raw dough can produce enough ethanol to cause severe inebriation, weakness, seizures, coma, or death",
-      "description": "in cats: In the warm, moist incubator-like environment of a cat's stomach, the live yeast (Saccharomyces cerevisiae) within the raw dough ferments dietary carbohydrates to produce ethanol12. This ethanol is rapidly absorbed into the bloodstream and easily crosses the blood-brain barrier13. Because cats lack robust alcohol dehydrogenase enzyme activity, they cannot efficiently metabolize the alcoho",
+      "description": "In the warm, moist incubator-like environment of a cat's stomach, the live yeast (Saccharomyces cerevisiae) within the raw dough ferments dietary carbohydrates to produce ethanol12. This ethanol is rapidly absorbed into the bloodstream and easily crosses the blood-brain barrier13. Because cats have a limited, reduced capacity for alcohol dehydrogenase activity, they cannot efficiently metabolize the alcohol",
       "name": "Ethanol (Ethyl Alcohol)"
     },
     {
       "chemical_formula": "CO",
       "concentration_notes": "or potency: The physical hazard is strictly limited to raw, unbaked dough8. Once the dough is cooked or baked, the yeast is killed and the fermentation process stops, completely eliminating the production of both gas and alcohol",
-      "description": "in cats: As a byproduct of the same yeast fermentation process that creates ethanol, large amounts of carbon dioxide gas are actively produced inside the cat's stomach2.... This gas causes the dough mass to rapidly expand, leading to severe gastric distension (bloating)1.... The physical expansion compromises blood flow to the stomach wall, presses against the diaphragm to cause respiratory distre",
+      "description": "As a byproduct of the same yeast fermentation process that creates ethanol, large amounts of carbon dioxide gas are actively produced inside the cat's stomach2. This gas causes the dough mass to rapidly expand, leading to severe gastric distension (bloating)1. The physical expansion compromises blood flow to the stomach wall, presses against the diaphragm to cause respiratory distre",
       "name": "Carbon Dioxide Gas"
     }
   ],
-  "description": "Raw yeast dough is toxic to cats in two distinct ways. The live yeast ferments sugars in the warm stomach environment, producing carbon dioxide gas and ethanol. The CO2 causes painful abdominal bloating and can distend the stomach to dangerous levels, while the absorbed ethanol causes rapid alcohol poisoning.",
+  "description": "Raw yeast dough is extremely dangerous for cats because their warm, moist stomach acts like an incubator. Once inside, the live yeast continues to ferment, producing large amounts of carbon dioxide gas and alcohol (Ethanol). The gas causes the dough mass to expand rapidly, leading to painful abdominal bloating that can press against the diaphragm and make it difficult for the cat to breathe.\n\nAt the same time, the ethanol produced by the fermentation is quickly absorbed into the cat's bloodstream. Because cats have only a limited, reduced capacity to metabolize alcohol, even a small amount can cause severe poisoning, leading to weakness, seizures, or respiratory failure. While fully baked bread is safe, raw dough is a medical emergency. If your cat ingests raw dough, please contact your veterinarian or an emergency animal hospital immediately.",
   "emergencyNote": "If a cat ingests raw, yeast-based bread dough, the situation is treated as a critical emergency. The dough acts as a physical hazard by expanding in the stomach",
-  "family": "Various",
+  "family": null,
   "isToxic": true,
   "name": "Raw dough",
   "safetyNotes": [
     "Toxic mechanism 1: yeast fermentation produces CO2 — abdominal bloating, distension, and risk of gastric dilation",
-    "Toxic mechanism 2: ethanol production from fermentation — rapidly absorbed; cats lack alcohol dehydrogenase, causing CNS and respiratory depression",
+    "Toxic mechanism 2: ethanol production from fermentation — rapidly absorbed; cats have limited, reduced alcohol dehydrogenase capacity, causing CNS and respiratory depression",
     "Symptoms: distended abdomen, vomiting, lethargy, disorientation, weakness; ethanol intoxication causes unsteady gait, low body temperature, slow breathing",
     "Baked bread is safe — the heat kills yeast and evaporates alcohol; only raw dough poses this risk",
     "Contact your vet immediately if your cat ingests raw yeast dough"
   ],
-  "scientific_name": "Raw dough",
+  "scientific_name": null,
   "severity": "toxic",
   "symptoms": [
     {
@@ -74,9 +74,7 @@
     }
   ],
   "toxicParts": [
-    "Seed",
-    "Pit",
-    "Skin"
+    "Raw (uncooked) yeast dough"
   ],
   "toxicityLevel": "mild",
   "treatments": [
@@ -87,7 +85,7 @@
       "priority": 1
     },
     {
-      "description": "of the procedure: The veterinary team will immediately address any life-threatening conditions caused by severe ethanol intoxication, such as cardiac arrhythmias, respiratory depression, or coma1.... Any situation-specific",
+      "description": "of the procedure: The veterinary team will immediately address any life-threatening conditions caused by severe ethanol intoxication, such as cardiac arrhythmias, respiratory depression, or coma1. Any situation-specific",
       "name": "Emergency Stabilization (Cardiovascular and Respiratory Support)",
       "notes": "Patients with clinical signs of ethanol toxicosis must be stabilized before any attempts are made to remove the dough from the stomach",
       "priority": 2

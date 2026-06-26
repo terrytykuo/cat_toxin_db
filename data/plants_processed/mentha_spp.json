@@ -12,13 +12,13 @@
     {
       "name": "Essential Oils (specifically identified as Menthol and Peppermint Oil in the sources)",
       "chemical_formula": "Not provided in the sources.",
-      "description": "in cats: ◦ Enzymatic Deficiency: Cats lack specific liver enzymes required to break down and process the volatile compounds found in mint oils. This inability to metabolize the oils can lead to systemic toxicity. ◦ Gastrointestinal Irritation: The oils act as a direct irritant to the stomach and intestines, causing nausea, vomiting, and diarrhea. ◦ Esophageal Relaxation: The essential oils in gard",
+      "description": "◦ Enzymatic Deficiency: Cats lack specific liver enzymes required to break down and process the volatile compounds found in mint oils. This inability to metabolize the oils can lead to systemic toxicity. ◦ Gastrointestinal Irritation: The oils act as a direct irritant to the stomach and intestines, causing nausea, vomiting, and diarrhea. ◦ Esophageal Relaxation: The essential oils in gard",
       "concentration_notes": "◦ Fresh Plant: The concentration of oils in fresh leaves is relatively low. Ingesting a small amount usually results in mild gastrointestinal upset. ◦ Extracts and Oils: Essential oils are highly concentrated and dangerous. Exposure to these forms (via inhalation or ingestion) can cause severe symptoms such as liver failure, breathing difficulties, and neurological issues."
     },
     {
       "name": "Pulegone",
       "chemical_formula": "Not provided in the sources.",
-      "description": "in cats: ◦ Hepatotoxicity: Pulegone is a potent toxin that targets the liver. It can cause severe liver damage and failure.",
+      "description": "◦ Hepatotoxicity: Pulegone is a potent toxin that targets the liver. It can cause severe liver damage and failure.",
       "concentration_notes": "◦ High Toxicity: This compound is noted as a specific toxic component in Peppermint (Mentha × piperita) and is found in even higher, lethal concentrations in Pennyroyal (Mentha pulegium), a member of the mint family that is highly toxic to cats."
     }
   ],
@@ -77,7 +77,7 @@
       "name": "Lethargy and General Weakness",
       "body_system": "Neurological",
       "severity": "moderate",
-      "notes": "While common with large ingestions, severe lethargy is more frequently associated with the consumption of concentrated mint oils or more toxic mint varieties like Pennyroyal1....Skin Irritation"
+      "notes": "While common with large ingestions, severe lethargy is more frequently associated with the consumption of concentrated mint oils or more toxic mint varieties like Pennyroyal1.Skin Irritation"
     },
     {
       "name": "Contact Dermatitis (Skin irritation)",
@@ -92,13 +92,6 @@
       "severity": "severe",
       "onset": "Rapid (upon inhalation or aspiration).",
       "notes": "This is a primary risk if the cat is exposed to mint essential oils or strong aromas rather than just the leaf. The cool odor can irritate the respiratory tract, and aspiration of oils can cause severe pneumonia2.Liver Failure (Rare/Specific Contexts)"
-    },
-    {
-      "name": "Liver damage or failure",
-      "body_system": "Hepatic",
-      "severity": "fatal",
-      "onset": "Delayed.",
-      "notes": "Severe liver complications are primarily associated with the ingestion of concentrated mint oils or the highly toxic Pennyroyal (Mentha pulegium), rather than fresh garden mint leaves. However, large quantities of any mint containing essential oils can stress the liver"
     }
   ],
   "description": "A common herb grown in gardens, kitchens, and small indoor pots. People often use it for tea, cooking, or fragrance products, but it is not considered safe for cats, especially when it is concentrated into essential oil.\n\nThe main concern comes from natural aromatic compounds in mint, such as menthol and pulegone. These compounds are part of the plant’s essential oils, and they become more concerning when they are highly concentrated. Cats have a limited ability to break down and clear some of these plant compounds through the liver, so if they eat, lick, or breathe in concentrated mint oil for a long time, the substances may build up and increase the risk of poisoning.\n\nIf a cat eats mint leaves, possible signs include drooling, vomiting, diarrhea, low energy, or loss of appetite. Peppermint and spearmint essential oils are especially risky and should not be used around cats. Do not feed spearmint to cats, and avoid using mint essential oils, diffusers, or mint-oil products near them. Keep mint plants out of reach, and contact a veterinarian promptly if your cat eats mint or licks any essential oil."

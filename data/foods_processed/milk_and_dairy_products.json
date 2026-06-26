@@ -5,17 +5,17 @@
     {
       "chemical_formula": "C",
       "concentration_notes": "or potency: Cow's milk contains the highest concentration of lactose and is the most likely to cause severe symptoms5. Fermented dairy products like hard cheeses (e.g., cheddar) and plain yogurt contain lower amounts of lactose due to the fermentation process and might be tolerated in very small amounts (e.g., a teaspoon), but they can still easily upset the stomachs of sensitive cats",
-      "description": "in cats: While nursing kittens naturally produce high levels of the enzyme lactase to digest their mother's milk, these enzyme levels plummet after weaning12. Because most adult cats lack sufficient lactase, they cannot properly digest the lactose found in dairy13. When the undigested lactose reaches the colon, gastrointestinal bacteria ferment it1. This fermentation process causes gastrointestina",
+      "description": "While nursing kittens naturally produce high levels of the enzyme lactase to digest their mother's milk, these enzyme levels plummet after weaning12. Because most adult cats lack sufficient lactase, they cannot properly digest the lactose found in dairy13. When the undigested lactose reaches the colon, gastrointestinal bacteria ferment it1. This fermentation process causes gastrointestina",
       "name": "Lactose (Milk Sugar)"
     },
     {
       "chemical_formula": null,
       "concentration_notes": "or potency: Products such as cream, sour cream, and ice cream contain exceptionally high levels of fat and pose the greatest risk for inducing pancreatitis or severe diarrhea57. (Note: While not a dairy compound itself, human dairy products like yogurt or ice cream that are labeled \"sugar-free\" or \"low-calorie\" may be sweetened with xylitol79. Xylitol is a highly toxic artificial sweetener that ca",
-      "description": "in cats: While cats require some fat in their diet, excessive amounts of rich, high-fat human foods can overload their digestive system8. Consuming high-fat dairy products can trigger pancreatitis, a painful and potentially life-threatening inflammation of the pancreas5.... Additionally, these calorie-dense foods can unbalance a cat's diet and contribute to obesity6. Any notes on concentration or ",
+      "description": "While cats require some fat in their diet, excessive amounts of rich, high-fat human foods can overload their digestive system8. Consuming high-fat dairy products can trigger pancreatitis, a painful and potentially life-threatening inflammation of the pancreas5. Additionally, these calorie-dense foods can unbalance a cat's diet and contribute to obesity6. Any notes on concentration or",
       "name": "High Dietary Fat"
     }
   ],
-  "description": "Milk and dairy products are not toxic to cats but are inappropriate for most adult cats. After weaning, the majority of cats lose the ability to digest lactose — the sugar in milk — because they stop producing the enzyme lactase. Consuming milk or dairy causes lactose fermentation in the gut, leading to GI upset.",
+  "description": "Milk and dairy products are not toxic to cats, but they are not a good choice for most adult cats. After kittens are weaned from their mother's milk, their bodies stop producing enough lactase, the enzyme needed to digest lactose (the sugar in milk).\n\nWhen a cat drinks milk or eats dairy, the undigested lactose ferments in their digestive tract. This process leads to uncomfortable stomach issues like bloating, gas, vomiting, and diarrhea. In addition to lactose, products like cream, cheese, and ice cream are incredibly high in fat and calories. Feeding these rich foods can easily trigger painful pancreas inflammation and contribute to obesity.\n\nA small, occasional lick of plain milk might not harm a cat that can tolerate it, but it is best avoided. If you want to offer dairy, specially formulated lactose-free cat milk is a safer alternative. Do not give your cat cheese or cream as regular treats.",
   "emergencyNote": "1. Fluid Therapy and Rehydration",
   "family": "Various",
   "isToxic": false,
@@ -28,12 +28,12 @@
     "Lactose-free cat milk is a safer alternative if you want to offer dairy; avoid cheese and cream as regular treats"
   ],
   "scientific_name": "Milk and dairy products",
-  "severity": "toxic",
+  "severity": "cautious",
   "symptoms": [
     {
       "body_system": "Gastrointestinal",
       "name": "Diarrhea",
-      "notes": "Most adult cats lack the enzyme lactase, which is required to digest the lactose found in milk2.... When the undigested lactose reaches the colon, bacteria ferment it, drawing in water and causing loose stools3. If lactose-intolerant cats repeatedly consume dairy, the ongoing irritation can damage t",
+      "notes": "Most adult cats lack the enzyme lactase, which is required to digest the lactose found in milk2. When the undigested lactose reaches the colon, bacteria ferment it, drawing in water and causing loose stools3. If lactose-intolerant cats repeatedly consume dairy, the ongoing irritation can damage t",
       "onset": "Within hours (typically 8 to 12 hours after ingestion)",
       "severity": "moderate"
     },
@@ -56,14 +56,11 @@
       "name": "Pancreatitis",
       "notes": "While lactose causes the primary digestive upset in milk, the exceptionally high fat content found in certain dairy products—specifically cream and ice cream—can trigger pancreatitis in susceptible cats68. Frequent feeding of calorie-dense dairy can also unbalance a cat's diet and contribute to obes",
       "onset": "Progressive (can develop after consuming high-fat meals)",
-      "severity": "severe"
+      "severity": "moderate"
     }
   ],
   "toxicParts": [
-    "Seed",
-    "Entire food",
-    "Pit",
-    "Skin"
+    "Entire food"
   ],
   "toxicityLevel": "low",
   "treatments": [

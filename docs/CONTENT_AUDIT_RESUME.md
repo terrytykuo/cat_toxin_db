@@ -25,12 +25,14 @@
 - [x] **P2 對抗式 refute（95/149）** → 已合併進 p2.json；15 筆 FAIL、16 筆 NEEDS_REVIEW
 - [x] **P2 事實修正（15/15）** — 已寫 disk → 摘要 `data/audits/p2-factual-fix-2026-06-25.json`
 - [x] **補齊缺 severity 的 live 條目（31）** — backfill 完成；unripened_pineapples override→cautious。剩 9 筆 disk-only dup 屬 K11/K16（任務 A2）
-- [ ] **P2 refute 補跑（54 筆）** — ⏳ 未做（最燒 token，多為已知有毒）。見任務 B
+- [x] **P2 refute 補跑（54 筆）** — ✅ 2026-06-26 完成（task wsrpnfji9，54/54）。結果存 `data/audits/verify-localize-2026-06-26-p2-refute-round2.json`，已合併進 p2.json，pending=0。新發現 16 FAIL（7 筆 safe↔toxic）、11 NEEDS_REVIEW。
+- [x] **P2 round-2 FAIL 修正（16/16）** — ✅ 2026-06-26（task wh9k16vjo，腳本 `factual-fix-p2-round2.workflow.js`，摘要 `data/audits/p2-round2-factual-fix-2026-06-26.json`）。7 筆 severity 翻轉 + pudding 一致性已寫 *_processed canonical；2 處 glossary key 正規化（peony Leaves→Leaf、potato_chips Hematologic→Hematological）；16 筆 schema enum 0 違規。**firestore/en 快取部分仍舊值（6 筆），不影響 sync**（sync 讀 *_processed，firestore/en 僅判 slug 存在）。
+- [ ] **P2 NEEDS_REVIEW（11 筆）跟進** — ⏳ 未做。清單見下方任務 B 結語；多為 UNVERIFIABLE 核心 claim，需人工判斷或補查。
 - [ ] **截斷類雜訊 LLM pass（~3405 欄位）** — ⏳ 未做。見任務 C
 - [ ] **Firestore sync（§8）** — ⏳ 未做，需先人工 review 全部 disk diff。見任務 D
 - [ ] **§9 記錄 + commit** — 每個檢查點做。見任務 E
 
-對抗式覆蓋率：**139/200（70%）** 已完成事實查證。
+對抗式覆蓋率：**200/200（100%）** 已完成事實查證（P1 44 + P2 149 + 補齊）。
 
 ---
 
@@ -189,8 +191,19 @@ PROGRESS.md 誠實記錄：實際做了什麼、**不謊報未執行的 Firestor
 
 ---
 
+## NEEDS_REVIEW（P2 round-2，11 筆，待人工/補查）
+
+多為核心 claim UNVERIFIABLE（authoritative 來源沉默/衝突，依 refute-by-default 標記，非確定錯誤）：
+`mentha_x_piperita_chocolate, nightshade, orange_mint, peaches, philodendron_spp_including_birkin, pretzels, raw_eggs__raw_egg_whites, raw_meat, scadoxus_spp, schlumbergera_spp, vitis__implied`。
+判定依據在 `verify-localize-2026-06-25-p2.json` 各 slug 的 `verify`。處理：人工看 summary 決定是否改，或下一輪補查。
+
+---
+
 ## 完成日誌（最新在上）
 
+- 2026-06-26 (b) — **任務 B FAIL 修正完成**：16/16 事實修正（task wh9k16vjo，~655K token，外科式 Edit）。**7 筆 severity 方向修正**：peony safe→cautious、tradescantia_spathacea safe→cautious（漏報補正）；zephyranthes_drummondii cautious→safe、milk_and_dairy/persimmons/pine/pistachios/peanuts/potato_chips toxic→cautious（假警報降級）；pudding 修 isToxic/level 一致性。另修 nandina 學名/family/化合物、mentha 移除 pennyroyal 交叉污染肝毒、poppy 瞳孔矛盾、ragwort PA 化合物、raw_dough toxicParts/ADH 等。2 處 glossary key 對齊（peony Leaves→Leaf、potato_chips Hematologic→Hematological）。schema 驗證：16 筆 0 SCHEMA enum 違規（資料集既有 completeness shape 噪音 170/198 屬 K11/K16，非本批）。摘要 `data/audits/p2-round2-factual-fix-2026-06-26.json`。**全部僅寫 disk canonical，未碰 live Firestore（任務 D）。**
+- 2026-06-26 (a) — **任務 B 完成**：P2 refute 補跑 54/54（task wsrpnfji9，~1.45M token，web-grounded refute-by-default）。對抗式覆蓋率達 **200/200（100%）**。合併進 p2.json（pending=0），結果存 `verify-localize-2026-06-26-p2-refute-round2.json` + FAIL 明細 `p2-refute-round2-fails-detail.json`。新發現 **16 FAIL**（7 筆 safe↔toxic disagreement）+ 11 NEEDS_REVIEW。：P2 refute 補跑 54/54（task wsrpnfji9，~1.45M token，web-grounded refute-by-default）。對抗式覆蓋率達 **200/200（100%）**。合併進 p2.json（pending=0），結果存 `verify-localize-2026-06-26-p2-refute-round2.json` + FAIL 明細 `p2-refute-round2-fails-detail.json`。新發現 **16 FAIL**（7 筆 safe↔toxic disagreement：peony/tradescantia_spathacea safe→toxic 漏報；zephyranthes_drummondii/milk_and_dairy/persimmons/pine/pistachios toxic→cautious/safe 假警報）+ 11 NEEDS_REVIEW。已啟動 `factual-fix-p2-round2.workflow.js`（task wh9k16vjo）修這 16 筆。
+- 2026-06-25 (d) — §9 部分：基礎建設 commit 到分支 `content-audit-2026-06-25`（`04b7647`，14 檔：goal/scripts/audits/手冊/PROGRESS.md，**不含資料檔**、不動 main）。資料檔變更（事實28/glossary257/雜訊921/severity34）仍在 disk 未 commit，依 reconciliation 計畫由人工分組；Firestore sync 未做（任務 D）。
 - 2026-06-25 (c) — 任務 A2：backfill 31 筆 live 條目的 severity（firestore→processed）+ unripened_pineapples override→cautious；255 檔驗證 0 違規；剩 9 disk-only dup（K11/K16）。
 - 2026-06-25 (b) — P2 15 筆事實修正完成（task wg0saw146，摘要 `data/audits/p2-factual-fix-2026-06-25.json`）。發現 42 個 `*_processed` 缺 severity 欄位的資料缺口 → 新增任務 A2；已補 hummingbird_mint、lemon_mint → safe。
 - 2026-06-25 (a) — 建立本手冊 + 複製可重用腳本進 `.agent/workflows/scripts/`。P1 全完成（審查+13 修正）；批次 glossary/雜訊已套用；P2 審查完成、refute 95/149。

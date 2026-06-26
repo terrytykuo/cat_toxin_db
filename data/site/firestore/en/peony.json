@@ -2,25 +2,25 @@
   "slug": "peony",
   "category": "plant",
   "hidden": false,
-  "severity": "safe",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/peony.jpg"
   ],
   "name": "Peony",
   "aliases": [],
-  "description": "Peony (Paeonia spp.) is a popular garden perennial and cut flower that is mildly toxic to cats. It contains paeonol, paeoniflorin, and related phenolic compounds throughout its roots, bark, flowers, and leaves. These compounds cause gastrointestinal upset when ingested.",
+  "description": "Peony (Paeonia spp.) is a popular garden plant and beautiful cut flower, but it is toxic to cats. The plant contains a chemical called paeonol that can upset a cat's stomach. This compound is found in all parts of the plant, including the bark, roots, flowers, and leaves, with the highest amounts in the bark.\n\nIf a cat chews or eats parts of a peony, the plant chemical can irritate their digestive system. Even cut peony flowers kept in a vase indoors can be a risk for curious cats.\n\nMost of the time, the symptoms are mild. A cat might vomit, have diarrhea, or seem a bit tired and low on energy. These issues usually clear up on their own, but it is best to keep peonies out of reach. Please contact a veterinarian if your cat's symptoms are severe or do not improve.",
   "safetyNotes": [
-    "Toxic compounds: paeonol and paeoniflorin (phenolic compounds); roots contain the highest concentration",
-    "Mechanism: paeonol and paeoniflorin irritate the GI mucosa; high doses may have mild CNS effects",
-    "Symptoms: vomiting, diarrhea, drooling; typically mild and self-limiting",
-    "All parts are mildly toxic, though the root is most concentrated; cut peony flowers in a vase are also a risk",
+    "Toxic compound: paeonol (a phenolic compound); the bark contains the highest concentration",
+    "Mechanism: paeonol irritates the GI mucosa",
+    "Symptoms: vomiting, diarrhea, depression; typically mild and self-limiting",
+    "All parts are toxic, though the bark is most concentrated; cut peony flowers in a vase are also a risk",
     "Symptoms are usually mild; consult your vet if symptoms are severe or persistent"
   ],
   "toxicParts": [
-    "Root",
     "Bark",
+    "Root",
     "Flower",
-    "Seed"
+    "Leaf"
   ],
   "symptoms": [
     {

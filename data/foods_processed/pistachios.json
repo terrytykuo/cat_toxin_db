@@ -11,25 +11,25 @@
     {
       "chemical_formula": null,
       "concentration_notes": "or potency: The sources do not specify an exact toxic dose but note that nuts like pistachios are \"rich in oils\"",
-      "description": "in cats: Cats' digestive systems struggle to process the dense fat content found in nuts. Ingesting these fats leads to indigestion and diarrhea12. Any notes on concentration or potency: The sources do not specify an exact toxic dose but note that nuts like pistachios are \"rich in oils\"",
+      "description": "Cats' digestive systems struggle to process the dense fat content found in nuts. Ingesting these fats leads to indigestion and diarrhea12. Any notes on concentration or potency: The sources do not specify an exact toxic dose but note that nuts like pistachios are \"rich in oils\"",
       "name": "Oils and Fats (Lipids)"
     },
     {
       "chemical_formula": "NaCl (Salt) and C",
       "concentration_notes": "or potency: The sources warn that human nut snacks are typically processed with \"high sweetness and high salt\"",
-      "description": "in cats: Pistachios are most often encountered by pets as processed, candied, or roasted human snacks. Ingesting these added seasonings provides no nutritional benefit to cats and unnecessarily increases the metabolic burden on their kidneys12. Any notes on concentration or potency: The sources warn that human nut snacks are typically processed with \"high sweetness and high salt\"",
+      "description": "Pistachios are most often encountered by pets as processed, candied, or roasted human snacks. Ingesting these added seasonings provides no nutritional benefit to cats and unnecessarily increases the metabolic burden on their kidneys12. Any notes on concentration or potency: The sources warn that human nut snacks are typically processed with \"high sweetness and high salt\"",
       "name": "Added Salt and Sugar (Processing Seasonings)"
     },
     {
       "chemical_formula": null,
       "concentration_notes": "or potency: The sources do not specify concentrations, but simply highlight mold as a persistent risk when storing and feeding nuts",
-      "description": "in cats: The sources warn that nuts like pistachios are highly susceptible to becoming damp and developing mold12. Consuming moldy nuts can easily lead to indigestion and diarrhea in cats12. Any notes on concentration or potency: The sources do not specify concentrations, but simply highlight mold as a persistent risk when storing and feeding nuts",
+      "description": "The sources warn that nuts like pistachios are highly susceptible to becoming damp and developing mold12. Consuming moldy nuts can easily lead to indigestion and diarrhea in cats12. Any notes on concentration or potency: The sources do not specify concentrations, but simply highlight mold as a persistent risk when storing and feeding nuts",
       "name": "Mold (Potential Mycotoxins)"
     }
   ],
-  "description": "Pistachios are not considered directly toxic to cats, but they are an unsuitable snack that carries several indirect health risks. Their high fat content poses a pancreatitis risk, and commercially sold pistachios are almost always salted. Mouldy pistachios may contain tremorgenic mycotoxins — fungal toxins that cause severe neurological symptoms.",
+  "description": "Pistachios do not contain a specific poison that targets cats, but they are still an unhealthy and potentially unsafe snack. Nuts are naturally packed with fats that a cat's digestive system struggles to break down. Eating pistachios can cause indigestion and diarrhea, and regularly eating fatty foods can trigger pancreatitis, a painful inflammation of the pancreas.\n\nAnother major risk comes from how pistachios are prepared and stored. Store-bought pistachios are almost always covered in salt, which puts dangerous stress on a cat's kidneys. Furthermore, if pistachios are improperly stored and develop a green tinge, they might be contaminated with mold. This mold can produce tremorgenic mycotoxins, which are fungal poisons that cause muscle tremors and seizures.\n\nWhile eating a single plain, unsalted pistachio will likely not harm your cat, it is best to avoid them entirely. Keep all nuts out of reach, especially salted human snacks. If your cat eats moldy pistachios or shows any signs of shaking or stomach upset, contact a veterinarian.",
   "emergencyNote": "Based on the provided sources, there is no specific veterinary treatment protocol explicitly designated just for pistachio ingestion. However",
-  "family": "Various",
+  "family": "Anacardiaceae",
   "isToxic": false,
   "name": "Pistachios",
   "safetyNotes": [
@@ -39,14 +39,9 @@
     "Mould risk: green-tinged or improperly stored pistachios may contain tremorgenic mycotoxins — these cause tremors and seizures",
     "A single pistachio nut (plain, unsalted) is unlikely to cause harm; regular feeding or large amounts warrant vet contact"
   ],
-  "scientific_name": "Pistachios",
-  "severity": "toxic",
+  "scientific_name": "Pistacia vera",
+  "severity": "cautious",
   "symptoms": [
-    {
-      "body_system": "Metabolic",
-      "name": "While pistachios do not contain an acute chemical poison specific to cats",
-      "severity": "moderate"
-    },
     {
       "body_system": "Gastrointestinal",
       "name": "Indigestion and Diarrhea",
@@ -65,7 +60,7 @@
   "toxicParts": [
     "Skin",
     "Entire food",
-    "Stem",
+    "Shell",
     "Powder"
   ],
   "toxicityLevel": "low",

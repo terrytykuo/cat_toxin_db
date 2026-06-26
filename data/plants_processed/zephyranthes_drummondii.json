@@ -1,58 +1,21 @@
 {
   "aliases": [],
   "category": "plant",
-  "chemicals": [
-    {
-      "chemical_formula": "C16H17NO4",
-      "concentration_notes": "Concentrated mostly in the bulbs.",
-      "description": "An alkaloid that causes gastrointestinal irritation and distress.",
-      "name": "Lycorine"
-    }
-  ],
-  "description": "Prairie Lily (Zephyranthes drummondii), also called Rain Lily or Zephyr Lily, is a bulbous flowering plant toxic to cats. It belongs to the Amaryllidaceae family and contains lycorine and related phenanthridine alkaloids — the same compounds found in Amaryllis, Daffodil, and Blood Lily. The bulb carries the highest toxin concentration.",
-  "emergencyNote": "Decontamination and Supportive Care",
+  "chemicals": [],
+  "description": "Prairie Lily (Zephyranthes drummondii), also known as Rain Lily, is a flowering plant in the Amaryllidaceae family. The ASPCA Animal Poison Control plant database lists this species as non-toxic to cats, with no toxic principle assigned.\n\nWhile some other plants in the Amaryllidaceae family (such as daffodils and amaryllis) are toxic, Prairie Lily itself is not classified as poisonous to cats by animal-poison authorities.\n\nAs with any plant, eating large amounts of non-food material can occasionally cause mild stomach upset. If your cat shows ongoing vomiting or other concerning signs after chewing on this plant, contact your veterinarian.",
   "family": "Amaryllidaceae",
-  "isToxic": true,
+  "isToxic": false,
   "name": "Prairie Lily",
   "safetyNotes": [
-    "Toxic compounds: lycorine and phenanthridine alkaloids; bulb most concentrated",
-    "Mechanism: lycorine directly activates the emetic centre in the brainstem; higher doses cause vasodilation, hypotension, and CNS depression",
-    "Symptoms: vomiting, diarrhea, drooling, tremors; severe bulb ingestion may cause low blood pressure and convulsions",
-    "Bulbs are the most dangerous part — relevant during planting or when stored",
-    "Contact your vet if your cat ingests any part of the plant, especially the bulb"
+    "ASPCA Animal Poison Control lists Prairie Lily (Zephyranthes drummondii) as non-toxic to cats and dogs, with no toxic principle assigned",
+    "Not to be confused with toxic Amaryllidaceae relatives such as daffodils (Narcissus) and amaryllis (Hippeastrum)",
+    "Eating large amounts of any plant material can occasionally cause mild, self-limiting stomach upset",
+    "Contact your vet if your cat shows ongoing vomiting or other concerning signs"
   ],
   "scientific_name": "Zephyranthes drummondii",
-  "severity": "cautious",
-  "symptoms": [
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Vomiting",
-      "severity": "mild"
-    },
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Diarrhea",
-      "severity": "moderate"
-    },
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Hypersalivation",
-      "severity": "mild"
-    }
-  ],
-  "toxicParts": [
-    "Bulb",
-    "Leaf",
-    "Stem",
-    "Flower"
-  ],
-  "toxicityLevel": "mild",
-  "treatments": [
-    {
-      "description": "Provide supportive care for gastrointestinal upset. Rinse mouth, provide fluids if vomiting is severe.",
-      "name": "Decontamination and Supportive Care",
-      "notes": null,
-      "priority": 1
-    }
-  ]
+  "severity": "safe",
+  "symptoms": [],
+  "toxicParts": [],
+  "toxicityLevel": "none",
+  "treatments": []
 }

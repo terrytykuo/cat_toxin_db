@@ -1,18 +1,18 @@
 {
   "slug": "ragwort__tansy",
   "source_hash": "bf15593bea6a0622abda9e6cf02cfa70dc649bd7b540ddc5f535c9f64c6ebcb5",
-  "translated_at": "2026-05-21T10:36:51Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
-  "name": "鴉致菊 / 黃菀 (Ragwort / Tansy)",
+  "name": "黃菀 / 艾菊 (Ragwort / Tansy)",
   "aliases": [],
-  "description": "鴉致菊 (Senecio jacobaea) 和千里光對貓是劇毒植物，因為含有吡咯聯啶生物鹼 (PAs) — 這些化合物會導致嚴重且通常不可逆的肝臟損傷。毒性具有累積性；即使是少量的重複接觸也會導致進行性肝壞死，直到肝衰竭晚期才可能顯現。",
+  "description": "黃菀與艾菊（Senecio jacobaea 或 Tanacetum vulgare）對貓咪來說是非常危險的植物。黃菀含有名為「吡咯列啶生物鹼」（pyrrolizidine alkaloids）的成分，會對肝臟造成嚴重損害，這種傷害會隨時間累積，而且通常是不可逆的。艾菊則是另一種植物，其有毒成分為側柏酮（thujone）與倍半萜內酯，而非吡咯列啶生物鹼。\n\n好消息是，這些植物嚐起來非常苦且令人不適，所以大多數貓咪會本能地避開。然而，如果植物被乾燥處理（例如混入乾草中），它會失去苦味但毒性依舊，這會增加動物誤食的風險。\n\n肝衰竭的徵兆可能需要很長時間才會顯現，包括體重減輕、皮膚或眼睛發黃（黃疸），或是出現意識不清和虛弱的狀況。由於傷害是累積性的，即使是幾天內攝取少量也可能致命。如果您認為貓咪吃到了這些植物，請立即聯絡獸醫。",
   "safetyNotes": [
-    "有毒化合物：吡咯聯啶生物鹼 (jacobine、senecioline、retrorsine)；所有部位皆有毒；含有鴉致菊的乾草在乾燥後仍保有毒性",
+    "有毒化合物：黃菀（Senecio jacobaea）含吡咯列啶生物鹼 (jacobine、seneciphylline、retrorsine)；艾菊（Tanacetum vulgare）則含側柏酮 (thujone) 與倍半萜內酯，而非吡咯列啶生物鹼；所有部位皆有毒；含有黃菀的乾草在乾燥後仍保有毒性",
     "機制：PAs 在肝臟中代謝為反應性吡咯，形成 DNA 交聯並破壞肝細胞；損傷是累積性且不可逆的",
     "症狀：體重減輕、嗜睡、黃疸、神經症狀 (壓頭、失明、繞圈)；急性肝衰竭可能發生在單次大量攝入時",
-    "乾草中的乾燥鴉致菊具有特別的風險 — 它失去了苦味但保留了全部毒性",
+    "乾草中的乾燥黃菀具有特別的風險 — 它失去了苦味但保留了全部毒性",
     "請立即尋求醫療護理；在肝衰竭發生前的早期介入可大幅改善預後"
   ],
   "toxicParts": [

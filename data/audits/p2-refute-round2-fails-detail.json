@@ -1,0 +1,1215 @@
+{
+  "mentha_spp": {
+    "disagreement": false,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": false,
+    "summary": "Core toxicity direction is CORRECT and authoritatively confirmed: ASPCA classifies Mint (Mentha sp., Lamiaceae) as toxic to cats with toxic principle 'essential oils,' and clinical signs 'vomiting and diarrhea with large ingestions.' Compound (menthol/pulegone), mechanism (cats' limited hepatic metabolism of essential oils), family, and scientific name all check out. So there is NO safe-vs-toxic disagreement. However overall_factual=FAIL because of a REFUTED core severity claim driven by cross-contamination: the entry grades 'liver damage/failure' as 'fatal' for Common Garden Mint, but liver failure is the signature of PENNYROYAL (Mentha pulegium / pulegone) — a different species — or of highly concentrated oils, not fresh garden mint leaf. ASPCA attributes only vomiting/diarrhea to the plant. The entry repeatedly conflates fresh garden-mint leaf with concentrated essential oils, importing pennyroyal-specific liver toxicity and oil-specific respiratory distress / aspiration pneumonia / dermatitis as if they were garden-mint-leaf symptoms, and grading them severe-to-fatal. Several symptom 'notes' fields also contain corrupted/garbled trailing text and stray citation markers (e.g. 'Nausea and Excessive Drooling', '....Skin Irritation', '12', '24'), a content-quality defect. Recommended fix: re-scope severity to mild/moderate GI for leaf ingestion, clearly separate concentrated essential-oil risk, remove or relabel the pennyroyal-derived 'fatal' liver-failure symptom (or split pennyroyal into its own entry), and clean the garbled notes. File: /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/en/mentha_spp.json",
+    "claim_verdicts": [
+      {
+        "claim": "Scientific name Mentha spp. and common name garden/common mint",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/mint",
+        "note": "ASPCA lists 'Mint' as Mentha sp., common names including garden mint, spearmint, peppermint."
+      },
+      {
+        "claim": "Plant family Lamiaceae",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/mint",
+        "note": "ASPCA gives family Lamiaceae. Correct."
+      },
+      {
+        "claim": "Mint is toxic to cats (severity=toxic / isToxic=true)",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/mint",
+        "note": "ASPCA explicitly classifies Mint as 'Toxic to Cats'. No safe/toxic disagreement; entry direction is correct."
+      },
+      {
+        "claim": "Toxic principle/compound is essential oils, specifically menthol and pulegone",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA Animal Poison Control; Pet Poison Helpline; VCA",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/mint",
+        "note": "ASPCA gives toxic principle = 'Essential Oils.' Pet Poison Helpline/VCA confirm peppermint oil (menthol) and pennyroyal oil (pulegone) as toxic essential oils for cats. Mechanism (cats' limited hepatic metabolism of these compounds) is well supported."
+      },
+      {
+        "claim": "Symptoms of leaf ingestion: vomiting and diarrhea",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/mint",
+        "note": "ASPCA clinical signs for Mint: 'Vomiting and diarrhea with large ingestions.' This is the ONLY symptom set ASPCA attributes to the plant."
+      },
+      {
+        "claim": "Symptom: drooling/hypersalivation, nausea, lethargy/weakness, loss of appetite",
+        "verdict": "UNVERIFIABLE",
+        "authority": "VCA / Pet Poison Helpline (essential-oil context only)",
+        "url": "https://vcahospitals.com/know-your-pet/essential-oil-and-liquid-potpourri-poisoning-in-cats",
+        "note": "Drooling and lethargy/weakness are documented for concentrated ESSENTIAL OIL exposure, not for fresh garden-mint leaf. ASPCA does not list them for the plant. Plausible for oil exposure but presented here as general mint symptoms; not confirmed by an authority for leaf ingestion."
+      },
+      {
+        "claim": "Symptom: contact dermatitis / skin irritation from the plant (severity mild)",
+        "verdict": "UNVERIFIABLE",
+        "authority": "none (ASPCA silent)",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/mint",
+        "note": "No authoritative source attributes contact dermatitis to garden mint leaf in cats. VCA notes skin redness/burns from concentrated essential OIL, not the plant. Flagged: appears extrapolated."
+      },
+      {
+        "claim": "Symptom: respiratory distress, dyspnea, coughing, sneezing, aspiration pneumonia (severity severe)",
+        "verdict": "UNVERIFIABLE",
+        "authority": "VCA / Pet Poison Helpline (essential-oil context only)",
+        "url": "https://vcahospitals.com/know-your-pet/essential-oil-and-liquid-potpourri-poisoning-in-cats",
+        "note": "Difficulty breathing and aspiration risk are documented for concentrated/inhaled ESSENTIAL OILS, not for the garden-mint plant. Entry presents this as a primary mint risk; valid only for the oil. Severity grading 'severe' is for oil exposure, overstated for the plant itself."
+      },
+      {
+        "claim": "Symptom: liver damage/failure graded 'fatal' for Common Garden Mint",
+        "verdict": "REFUTED",
+        "authority": "ASPCA; Pet Poison Helpline; VetMD/PetMD (pennyroyal)",
+        "url": "https://www.petmd.com/cat/conditions/poisoning-toxicity/c_ct_pennyroyal_oil_poisoning",
+        "note": "Liver failure is the hallmark of PENNYROYAL (Mentha pulegium) oil / pulegone, a DIFFERENT species, or of highly concentrated oils. ASPCA's clinical signs for plain Mint are only vomiting/diarrhea. Grading garden-mint-leaf ingestion as 'fatal' liver failure is cross-contamination from the pennyroyal profile and severity over-statement. The entry's own note admits it is 'primarily associated with...Pennyroyal.'"
+      },
+      {
+        "claim": "Toxic parts: stem, leaf, flower, essential oil",
+        "verdict": "UNVERIFIABLE",
+        "authority": "ASPCA (does not enumerate parts)",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/mint",
+        "note": "ASPCA does not break down toxic parts; toxicity is driven by essential-oil content concentrated in leaves/flowers. Reasonable but not authoritatively confirmed at the part level."
+      }
+    ]
+  },
+  "milk_and_dairy_products": {
+    "disagreement": true,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": true,
+    "summary": "The entry's educational content (lactose-intolerance mechanism, lactase deficiency after weaning, diarrhea/bloating/vomiting symptoms, 8-12 hour onset, and the 'not toxic but avoid' framing) is accurate and well-supported by ASPCA and VCA. However the structured severity field is wrong and dangerous: severity is set to 'toxic' while ASPCA explicitly classifies milk/dairy as NON-toxic, and the entry's own description text correctly says 'not toxic.' This internal safe-vs-toxic field-level contradiction is a false-alarm overstatement (safe_toxic_disagreement=true) and forces overall FAIL. Additional defects: toxicParts contains plant-anatomy terms ('Seed','Pit','Skin') cross-contaminated from a fruit/plant profile, which are meaningless for dairy (REFUTED); and the Pancreatitis symptom is graded 'severe' as a direct dairy effect when the fat-to-pancreatitis causal link is unproven in cats (established in dogs only) — UNVERIFIABLE/overstated. Recommended fixes: change severity to a non-toxic/caution grade to match ASPCA and the entry's own text; remove Seed/Pit/Skin from toxicParts; soften the pancreatitis claim to reflect feline-specific uncertainty.",
+    "claim_verdicts": [
+      {
+        "claim": "Top-level severity field = 'toxic' (entry classified as toxic)",
+        "verdict": "REFUTED",
+        "note": "ASPCA APCC explicitly lists milk/dairy as NON-toxic: dairy 'can cause diarrhea or other digestive upset' due to lactase deficiency, NOT poisoning. The entry's own description and first safetyNote also say 'not toxic.' The structured severity:'toxic' grading contradicts both the authority and the entry's own body text. This is a false-alarm severity overstatement and a safe-vs-toxic field-level disagreement.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "claim": "Mechanism: adult cats lack sufficient lactase after weaning; undigested lactose ferments in the gut causing GI upset",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA: 'pets do not possess significant amounts of lactase (the enzyme that breaks down lactose in milk).' VCA: lactase is sufficient only in the first ~12 weeks; after weaning the enzyme dissipates and undigested lactose causes GI signs. Mechanism is accurate.",
+        "authority": "ASPCA APCC; VCA Animal Hospitals",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "claim": "Symptom: Diarrhea (onset within 8-12 hours), from colonic bacterial fermentation drawing in water",
+        "verdict": "CONFIRMED",
+        "note": "Multiple veterinary sources confirm diarrhea is a hallmark of feline lactose intolerance, with the 8-12 hour onset window and the osmotic/fermentation mechanism (undigested lactose draws water, colonic bacteria ferment it). Consistent with ASPCA's 'diarrhea or other digestive upset.'",
+        "authority": "Veterinary clinical sources (VCA, WebMD Pets, vet clinic guidance)",
+        "url": "https://vcahospitals.com/know-your-pet/adverse-reactions-to-food-in-cats"
+      },
+      {
+        "claim": "Symptom: Flatulence, bloating, abdominal pain from gas produced by lactose fermentation",
+        "verdict": "CONFIRMED",
+        "note": "VCA and other vet sources list bloating and abdominal discomfort among lactose-intolerance signs; gas production from colonic fermentation of undigested lactose is the accepted mechanism.",
+        "authority": "VCA Animal Hospitals",
+        "url": "https://vcahospitals.com/know-your-pet/adverse-reactions-to-food-in-cats"
+      },
+      {
+        "claim": "Symptom: Vomiting, nausea, decreased appetite",
+        "verdict": "CONFIRMED",
+        "note": "Vomiting is consistently listed alongside diarrhea/bloating as a sign of feline dairy intolerance by VCA and other veterinary sources. Plausible and well-documented.",
+        "authority": "VCA Animal Hospitals; veterinary clinic guidance",
+        "url": "https://vcahospitals.com/know-your-pet/adverse-reactions-to-food-in-cats"
+      },
+      {
+        "claim": "Symptom: Pancreatitis (severe) triggered by high-fat dairy (cream, ice cream)",
+        "verdict": "UNVERIFIABLE",
+        "note": "Overstated for cats specifically. ASPCA says high-fat foods can cause pancreatitis 'in some pets,' but the fat-to-pancreatitis causal link is established in DOGS, not proven in cats: >95% of feline pancreatitis cases have no identifiable cause and cats 'do not appear to develop pancreatitis as the result of a high-fat diet' per veterinary literature. Listing pancreatitis as a 'severe' direct symptom of dairy in cats is not authoritatively supported and is likely understated-uncertainty / overstated-causation.",
+        "authority": "ASPCA APCC; PetMD veterinary review",
+        "url": "https://www.petmd.com/cat/nutrition/what-to-feed-a-cat-with-pancreatitis"
+      },
+      {
+        "claim": "toxicParts: 'Seed', 'Pit', 'Skin', 'Entire food'",
+        "verdict": "REFUTED",
+        "note": "Cross-contamination from a plant/fruit profile (a known error pattern in this dataset). Milk and dairy products have no seed, pit, or skin — these are botanical anatomy terms with no meaning for a dairy entry. Only 'Entire food' is sensible. Seed/Pit/Skin are fabricated/mis-imported.",
+        "authority": "N/A (internal logical inconsistency; dairy is not a plant)",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "claim": "Compound/agent of harm: lactose (sugar), and fat in rich dairy",
+        "verdict": "CONFIRMED",
+        "note": "Correct. Lactose is the agent of GI upset (via lactase deficiency); fat content is a secondary concern. ASPCA and VCA both identify lactose as the cause and dairy as high-fat. No toxic compound is involved, consistent with non-toxic classification.",
+        "authority": "ASPCA APCC; VCA Animal Hospitals",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"
+      },
+      {
+        "claim": "scientificName 'Milk and dairy products' and family 'Various'",
+        "verdict": "UNVERIFIABLE",
+        "note": "Placeholder values for a non-plant food entry; no real taxonomy applies. Not harmful but not meaningful data.",
+        "authority": "N/A",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets"
+      }
+    ]
+  },
+  "nandina_photina_spp": {
+    "disagreement": false,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": false,
+    "summary": "This entry is a botanically incoherent CONFLATION of two different plants in two different families, and the named toxic compound is wrong. The slug and scientificName say \"Nandina Photina spp.\" (mashing together Nandina, family Berberidaceae, with Photinia, family Rosaceae); the display name and entire description are about Photinia (\"Photina/Photinia Red Leaf\"); the declared family is \"Rosaceae\" (Photinia's family, NOT Nandina's). The symptom toxicology (cyanide, cherry-red mucous membranes, etc.) is generic cyanogenic-glycoside material. CORE REFUTATIONS: (1) Compound — entry claims the cyanogenic glycoside is \"prunasin.\" ASPCA and peer-reviewed phytochemistry identify Nandina's cyanogenic glycosides as nandinin / p-glucosyloxymandelonitrile (plus protoberberine alkaloids); prunasin is the cyanogenic glycoside of Prunus species, not Nandina. REFUTED. (2) Family — entry says \"Rosaceae\"; ASPCA lists Nandina as Berberidaceae. REFUTED. (3) Identity — \"Nandina Photina spp.\" is not a valid taxon; Nandina and Photinia are distinct genera. The directionally-correct fact (this is a cyanogenic-glycoside plant, toxic to cats, causing the cyanide cascade) holds for Nandina via ASPCA, so there is no safe<->toxic flip — but the entry as written cannot be trusted: it is cross-contaminated, mislabels the family, and names the wrong compound. Severity (\"toxic\") is defensible for Nandina but the symptom list overstates the typical real-world picture (ASPCA-listed signs are weakness/incoordination/seizures/coma/respiratory failure with death RARE in pets; entry escalates to \"fatal,\" \"sudden death frequently occurs\"). Symptom \"notes\" fields also contain leaked draft artifacts (stray footnote markers like \"2\", \"23\", truncated sentences, embedded section headers \"2. Respiratory Distress\", \"3. Mucous Membrane Discoloration\"), indicating copy-paste contamination. overall_factual=FAIL due to REFUTED core compound and REFUTED family, plus the plant-identity conflation. Needs a decision: split into separate Nandina (Berberidaceae) and Photinia (Rosaceae) entries, fix the compound to nandinin for Nandina, and re-derive symptoms/severity from ASPCA. Note Photinia itself is NOT in the ASPCA cat database — its toxicity to cats is UNVERIFIABLE by authoritative sources (Merck covers horses/ruminants only).",
+    "claim_verdicts": [
+      {
+        "claim": "Plant identity: a single species 'Nandina Photina spp.' (slug nandina_photina_spp, name 'Photina Red Leaf')",
+        "verdict": "REFUTED",
+        "note": "Not a valid taxon. Nandina (genus Nandina, family Berberidaceae) and Photinia (genus Photinia, family Rosaceae) are two distinct genera in two different families. The entry mashes them into one nonexistent name. Description text is entirely about Photinia; slug/scientificName name Nandina. This is a cross-contamination of two plant profiles.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/nandina"
+      },
+      {
+        "claim": "Plant family: Rosaceae",
+        "verdict": "REFUTED",
+        "note": "ASPCA lists Nandina (the plant named in the slug/scientificName) as family Berberidaceae, not Rosaceae. Rosaceae is Photinia's family. The 'family' field is internally inconsistent with the slug and reflects the Photinia half of the conflation.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/nandina"
+      },
+      {
+        "claim": "Toxic compound: prunasin (cyanogenic glycoside)",
+        "verdict": "REFUTED",
+        "note": "ASPCA gives Nandina's toxic principle as 'cyanogenic glycosides' generically; peer-reviewed phytochemistry (e.g. PMC review of N. domestica; CSU Guide to Poisonous Plants) identifies the specific cyanogenic glycosides as nandinin and p-glucosyloxymandelonitrile, plus protoberberine alkaloids. Prunasin is the cyanogenic glycoside characteristic of Prunus (cherry/almond), not Nandina or Photinia. Wrong compound named.",
+        "authority": "ASPCA / peer-reviewed (PMC11263726; CSU Guide to Poisonous Plants)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11263726/"
+      },
+      {
+        "claim": "Mechanism: cyanogenic glycoside releases HCN via beta-glucosidase, inhibiting cellular respiration",
+        "verdict": "CONFIRMED",
+        "note": "The general cyanide mechanism (cyanogenic glycoside hydrolyzed to HCN, blocking cytochrome oxidase / cellular oxygen use) is correct for cyanogenic-glycoside plants including Nandina. ASPCA classifies Nandina's principle as cyanogenic glycosides producing cyanide. Mechanism is right even though the named compound (prunasin) is wrong.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/nandina"
+      },
+      {
+        "claim": "Severity: toxic / isToxic / toxicityLevel = toxic to cats",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA lists Nandina as Toxic to Cats (also dogs, horses). So the toxic flag is correct FOR NANDINA. Caveat: the entry is half-Photinia, and Photinia is not in the ASPCA database, so the flag is only justified via the Nandina identity. No safe<->toxic disagreement.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/nandina"
+      },
+      {
+        "claim": "Photinia (Photinia spp.) is toxic to cats (per the description text)",
+        "verdict": "UNVERIFIABLE",
+        "note": "Photinia does not appear in the ASPCA cat toxic/non-toxic database. Non-authoritative sources say Photinia contains cyanogenic glycosides and is poisonous to humans/livestock; Merck/authoritative coverage addresses horses and ruminants, not cats. No authoritative source confirms or refutes feline toxicity. Per skeptic rules, absence of authoritative confirmation = UNVERIFIABLE/flag.",
+        "authority": "ASPCA (silent); Merck (horses/ruminants only)",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/search"
+      },
+      {
+        "claim": "Symptoms with minor ingestion: drooling, vomiting, lethargy (safetyNotes/description)",
+        "verdict": "CONFIRMED",
+        "note": "Mild GI signs (drooling, vomiting, lethargy) are consistent with low-dose cyanogenic-glycoside plant ingestion and overlap with ASPCA's weakness sign. Plausible and not contradicted.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/nandina"
+      },
+      {
+        "claim": "Symptom: 'almond-flavored breath' as a classic cyanide indicator",
+        "verdict": "UNVERIFIABLE",
+        "note": "Bitter-almond breath odor is a textbook human cyanide sign, but ASPCA's Nandina clinical-sign list does not include it, and the ability to detect/report it in cats is unreliable (genetic anosmia in observers; not a documented veterinary diagnostic sign for this plant). Not supported by the authoritative entry. The notes field also shows draft-contamination artifacts.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/nandina"
+      },
+      {
+        "claim": "Symptoms: tachypnea/respiratory distress; bright cherry/brick-red mucous membranes; hypotension; cardiac arrhythmias; dilated pupils, collapse, seizures, convulsions, coma, death",
+        "verdict": "CONFIRMED",
+        "note": "These are the recognized signs of cyanide toxicosis and overlap ASPCA's listed Nandina signs (weakness, incoordination, seizures, coma, respiratory failure, death). Cherry-red mucous membranes and hypoxia-driven tachypnea are standard cyanide-toxicosis findings. Directionally correct.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/nandina"
+      },
+      {
+        "claim": "Severity grading of symptoms as 'severe'/'fatal' and 'sudden death frequently occurs before treatment'",
+        "verdict": "REFUTED",
+        "note": "Overstated for typical pet exposure. ASPCA explicitly qualifies death as 'rare in pets.' The entry's own description concedes plant concentrations are usually low and a large amount is needed to get seriously sick, then the symptom table escalates to 'fatal' and 'sudden death frequently occurs' — internally inconsistent and stronger than the authoritative source supports. Severity overstated.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/nandina"
+      },
+      {
+        "claim": "Toxic parts: Leaf, Seed, Fruit (with young red leaves highest)",
+        "verdict": "CONFIRMED",
+        "note": "For Nandina, leaves and green fruits are strongly cyanogenic and seeds/fruit are implicated (ASPCA/CSU/USU poisonous-plant research; fruits sometimes cyanogenic). Young leaves having higher cyanogenic content is consistent with cyanogenic-glycoside plants. Toxic parts are plausible/supported, though stated for an entry whose identity is otherwise wrong.",
+        "authority": "USU Poisonous Plant Research / CSU Guide to Poisonous Plants",
+        "url": "https://poisonousplants.cvmbs.colostate.edu/plant/117"
+      }
+    ]
+  },
+  "peanuts": {
+    "disagreement": false,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": false,
+    "summary": "Peanuts are correctly classified as NON-toxic to cats by the ASPCA (no cat-specific poison), so the core safe/toxic axis is right and there is no safe<->toxic disagreement. However the entry FAILS due to a REFUTED core mechanism: the xylitol \"Hypoglycemia and Liver Failure\" symptom is graded \"fatal\" for cats, but the Merck Veterinary Manual states plainly that \"cats are not at risk for hypoglycemia or liver injury from xylitol toxicosis\" and ASPCA APCC reports no known xylitol toxicity in cats. The entry's own notes even concede cats are \"more resistant,\" yet it still grades the symptom fatal -- an overstatement of a wrong-species mechanism. Additional serious problems: (1) toxicParts \"Stem, Root, Skin\", scientificName \"Peanuts\", and family \"Various\" are nonsensical/cross-contaminated fields imported from a plant-profile template -- peanuts are a legume SEED (Arachis hypogaea, Fabaceae) eaten as food, not a plant whose stem/root are the hazard; (2) severity inflation -- four of six symptoms graded \"fatal\" (xylitol, sodium, aflatoxin, allergy) for an item the entry itself and ASPCA call non-toxic, which misrepresents risk from realistic exposures; (3) the \"Severe Allergic Reaction / fatal anaphylaxis\" symptom is unsupported by any authoritative veterinary source for peanuts specifically (anaphylaxis to foods is real but rare and peanut-specific feline cases are not documented). The genuine, well-supported risks are pancreatitis/GI upset from high fat, aflatoxin liver damage from moldy peanuts (FDA/Merck confirm aflatoxin affects pets/peanuts), and sodium ion toxicosis from heavily salted product (Pet Poison Helpline/Merck confirm salt toxicosis in cats). Recommend: change overall severity off \"toxic\" to a caution/non-toxic-with-risks grade, fix the plant-template metadata fields, and downgrade the xylitol and allergy symptoms.",
+    "claim_verdicts": [
+      {
+        "claim": "Plain peanuts contain no cat-specific toxin / not acutely toxic (safetyNotes + symptom 'plain raw peanuts do not contain a specific inherent chemical poison')",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA APCC classifies peanuts as non-toxic to cats; multiple vet-reviewed sources concur peanuts are not poisonous, though nutritionally pointless and risky in quantity. This is the entry's correct core claim.",
+        "authority": "ASPCA Animal Poison Control / PetMD vet-reviewed",
+        "url": "https://www.petmd.com/cat/nutrition/can-cats-eat-peanut-butter"
+      },
+      {
+        "claim": "Xylitol in peanut butter causes Hypoglycemia and Liver Failure in cats, severity 'fatal', insulin surge within 15-30 min",
+        "verdict": "REFUTED",
+        "note": "Merck Vet Manual: 'Dogs are the only domestic species in which xylitol toxicosis has been reported; cats are not at risk for hypoglycemia or liver injury from xylitol toxicosis.' ASPCA APCC reports no known xylitol toxicity in cats. The insulin/hypoglycemia/liver mechanism is a dog mechanism; grading it 'fatal' for cats is a wrong-species/wrong-mechanism error and a severity overstatement.",
+        "authority": "Merck Veterinary Manual (Xylitol Toxicosis in Dogs)",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/xylitol-toxicosis-in-dogs"
+      },
+      {
+        "claim": "Aflatoxicosis from moldy peanuts (Aspergillus) causes severe liver damage in cats",
+        "verdict": "CONFIRMED",
+        "note": "FDA and Merck confirm aflatoxins (Aspergillus flavus) grow on peanuts and cause liver damage/death in pets. Mechanism and toxic-part attribution to mold are correct. 'Rupturing of blood vessels' is a plausible coagulopathy/hemorrhage consequence of liver failure but is loosely stated; core claim stands.",
+        "authority": "FDA Aflatoxin Poisoning in Pets / Merck Vet Manual Aflatoxicosis",
+        "url": "https://www.fda.gov/animal-veterinary/animal-health-literacy/aflatoxin-poisoning-pets"
+      },
+      {
+        "claim": "Sodium Ion Poisoning from salted peanuts; severe dehydration, kidney failure or cerebral effects, severity 'fatal'",
+        "verdict": "CONFIRMED",
+        "note": "Pet Poison Helpline and Merck confirm salt/sodium ion toxicosis in cats (toxicosis at ~2-3 g/kg NaCl, ~4 g/kg potentially fatal; neurologic signs incl. tremors/seizures). Realistic exposure from a few salted peanuts is far below toxic dose, so 'fatal' grading is technically possible only at large quantities and overstates typical risk, but the mechanism is sound.",
+        "authority": "Pet Poison Helpline / Merck Vet Manual Salt Poisoning",
+        "url": "https://www.petpoisonhelpline.com/poison/salt/"
+      },
+      {
+        "claim": "Indigestion and Pancreatitis from high fat content, severity 'severe'",
+        "verdict": "CONFIRMED",
+        "note": "Vet-reviewed sources confirm high fat in peanuts/peanut butter can trigger pancreatitis and GI upset in cats; vets have treated cats for pancreatitis after eating peanuts. This is the most realistically relevant risk and the grading is reasonable.",
+        "authority": "PetMD vet-reviewed / Purina vet content",
+        "url": "https://www.petmd.com/cat/nutrition/can-cats-eat-peanut-butter"
+      },
+      {
+        "claim": "Severe Allergic Reaction / deadly anaphylaxis from peanuts, body system Respiratory, severity 'fatal'",
+        "verdict": "UNVERIFIABLE",
+        "note": "Merck confirms cats CAN have food-triggered anaphylaxis (rare), but no authoritative source documents peanut-specific fatal anaphylaxis in cats. Listing it as a discrete 'fatal' peanut symptom is unsupported/speculative for this species and item.",
+        "authority": "Merck Vet Manual (Anaphylaxis in Cats) - peanut-specific evidence absent",
+        "url": "https://www.merckvetmanual.com/cat-owners/immune-disorders-of-cats/disorders-involving-anaphylactic-reactions-type-i-reactions-atopy-in-cats"
+      },
+      {
+        "claim": "toxicParts = Stem, Root, Skin",
+        "verdict": "REFUTED",
+        "note": "Cross-contamination from a plant-profile template. Peanuts are eaten as a legume seed; the hazard is the seed/kernel (fat) plus mold or added salt/xylitol, not stem/root. These fields are nonsensical for a food entry.",
+        "authority": "Entry-internal logic vs ASPCA food classification",
+        "url": "https://www.petmd.com/cat/nutrition/can-cats-eat-peanut-butter"
+      },
+      {
+        "claim": "scientificName = 'Peanuts', family = 'Various'",
+        "verdict": "REFUTED",
+        "note": "Botanically peanut is Arachis hypogaea, family Fabaceae (Leguminosae). 'Peanuts' is not a scientific name and 'Various' is not a family. Placeholder/erroneous metadata, consistent with the stem/root/skin template error.",
+        "authority": "Botanical taxonomy (Arachis hypogaea, Fabaceae)",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/aflatoxicosis-in-animals"
+      },
+      {
+        "claim": "Overall entry severity = 'toxic'",
+        "verdict": "REFUTED",
+        "note": "ASPCA lists peanuts as non-toxic. The entry's own description and safetyNotes say plain peanuts are not acutely toxic. Grading the whole item 'toxic' overstates severity (the real risks are conditional: fat/pancreatitis, mold/aflatoxin, added salt/xylitol). Should be a caution/non-toxic-with-risks grade, not 'toxic'.",
+        "authority": "ASPCA APCC non-toxic classification",
+        "url": "https://www.petmd.com/cat/nutrition/can-cats-eat-peanut-butter"
+      }
+    ]
+  },
+  "peony": {
+    "disagreement": true,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": true,
+    "summary": "DANGEROUS MISS. The entry sets severity=\"safe\", but both the ASPCA toxic-plant database and Pet Poison Helpline classify peony (Paeonia officinalis) as TOXIC to cats. This is an internal contradiction too: the entry's own description and safetyNotes call it \"mildly toxic,\" yet the machine-readable severity field is \"safe.\" A user filtering for safe plants would be misled. The toxic compound (paeonol), family (Paeoniaceae), and core symptoms (vomiting, diarrhea, depression) all match ASPCA. However the entry adds a second compound, paeoniflorin, and a \"CNS effects\" mechanism that authoritative sources do not support, and its toxicParts/\"highest in roots\" claim conflicts with leads that point to bark; ASPCA does not enumerate parts. Severity is best described as mild-but-real GI toxicity, not \"safe.\" overall_factual=FAIL on the safe-vs-toxic disagreement. Fix: set severity to a toxic/mild-toxic grade and reconcile the toxicParts and compound claims with authority.",
+    "claim_verdicts": [
+      {
+        "claim": "severity=\"safe\" / isToxic implied non-toxic",
+        "verdict": "REFUTED",
+        "note": "ASPCA explicitly lists peony as 'Toxic to Cats'; Pet Poison Helpline confirms toxicity. Marking it 'safe' is a dangerous miss and contradicts the entry's own description ('mildly toxic').",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/peony",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Toxic compound is paeonol",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA lists toxic principle 'Paeonol'; Pet Poison Helpline names 'paeonol' as the toxin.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/peony",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Paeoniflorin is also a toxic compound responsible for harm",
+        "verdict": "UNVERIFIABLE",
+        "note": "Neither ASPCA nor Pet Poison Helpline names paeoniflorin as a toxic principle for cats; ASPCA lists paeonol only. Not authority-supported.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/peony",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Mechanism: GI mucosal irritation, with mild CNS effects at high doses",
+        "verdict": "UNVERIFIABLE",
+        "note": "GI irritation is consistent with the reported GI signs, but no authoritative source describes the mechanism or any CNS effect; ASPCA gives signs, not mechanism. CNS claim unsupported.",
+        "url": "https://www.petpoisonhelpline.com/poison/peony/",
+        "authority": "Pet Poison Helpline"
+      },
+      {
+        "claim": "Symptom: Vomiting",
+        "verdict": "CONFIRMED",
+        "note": "Listed by ASPCA and Pet Poison Helpline.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/peony",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Symptom: Diarrhea",
+        "verdict": "CONFIRMED",
+        "note": "Listed by ASPCA and Pet Poison Helpline.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/peony",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Symptom: Depression (lethargy/low energy)",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA clinical signs for peony include 'Depression'.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/peony",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Symptom: Drooling (in description)",
+        "verdict": "UNVERIFIABLE",
+        "note": "Drooling is not in the ASPCA clinical-signs list (vomiting, diarrhea, depression); appears in secondary vet-reviewed blogs only. Not authority-confirmed.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/peony",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Toxic parts: Root (highest), Bark, Flower, Seed; all parts toxic with root most concentrated",
+        "verdict": "REFUTED",
+        "note": "ASPCA does not enumerate parts. Pet Poison Helpline and supporting sources state paeonol is concentrated in the BARK, not the root. The entry's 'highest in roots' and inclusion of 'Seed' are not authority-supported and the bark-vs-root emphasis is reversed.",
+        "url": "https://www.petpoisonhelpline.com/poison/peony/",
+        "authority": "Pet Poison Helpline"
+      },
+      {
+        "claim": "Plant family: Paeoniaceae",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA lists family Paeoniaceae for peony (Paeonia officinalis).",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/peony",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Scientific name: Paeonia spp. / Paeonia officinalis",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA lists scientific name Paeonia officinalis; genus Paeonia is correct.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/peony",
+        "authority": "ASPCA Animal Poison Control"
+      }
+    ]
+  },
+  "persimmons": {
+    "disagreement": true,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": true,
+    "summary": "FAIL. The persimmons entry has multiple core errors. (1) Severity='toxic' is a FALSE ALARM: persimmon is not on the ASPCA toxic list and all vet-reviewed sources call the ripe flesh non-toxic/safe in small amounts — the entry's own text even says 'not highly toxic.' (2) The cyanogenic/cyanide seed claim is REFUTED with wrong compound + fabricated mechanism — a classic cross-contamination from apple/cherry/peach stone-fruit pit profiles; the real seed danger is purely mechanical (choking/GI blockage). (3) toxicParts wrongly lists Flesh and Fruit as toxic when authorities say the flesh is the SAFEST part. (4) The symptoms array is corrupted: entry #1 is a truncated sentence fragment masquerading as a symptom, and 'Intestinal Obstruction' is over-graded 'fatal' with truncated notes. (5) scientificName ('Persimmons') and family ('Various') are placeholder/incorrect — should be Diospyros, Ebenaceae. CONFIRMED claims (genuine, mechanical/tannin risks): seed obstruction risk and unripe-fruit tannin GI irritation. Recommend: reclassify to low/conditional severity, delete the cyanide claim, remove Flesh/Fruit from toxicParts, rebuild the symptoms array, and fix taxonomy. safe_toxic_disagreement=true (false alarm: marked toxic but authorities deem flesh non-toxic).",
+    "claim_verdicts": [
+      {
+        "claim": "severity = 'toxic' (entry classifies persimmon as toxic to cats)",
+        "verdict": "REFUTED",
+        "authority": "ASPCA Cats Plant List; Catster (vet-reviewed); Hepper (vet-reviewed)",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+        "note": "Persimmon does not appear on the ASPCA toxic plant list. Vet-reviewed sources state ripe persimmon flesh is non-toxic/safe to cats in small amounts ('persimmons are non-toxic for cats'). The entry's own description even says 'Persimmons are not highly toxic to cats' — internally contradicting the severity='toxic' grade. This is a false-alarm overstatement: real risk is mechanical/GI from seeds and unripe fruit, not systemic toxicity. Severity should be low/conditional, not 'toxic'. Flagged as safe<->toxic disagreement (false alarm)."
+      },
+      {
+        "claim": "Persimmon seeds contain cyanogenic compounds that release low levels of cyanide when chewed",
+        "verdict": "REFUTED",
+        "authority": "Catster (vet-reviewed), Hepper (vet-reviewed); ASPCA (silent)",
+        "url": "https://www.catster.com/nutrition/can-cats-eat-persimmons/",
+        "note": "No vet-reviewed or authoritative source attributes cyanide/cyanogenic glycosides to persimmon (Diospyros) seeds. Vet sources describe the seed danger as purely MECHANICAL (choking / GI blockage), explicitly NOT chemical. The entry itself flags persimmon as 'sometimes grouped in broad warnings with other fruits (apples, cherries, peaches, plums) whose pits contain' cyanogenic compounds — i.e. cross-contamination from Rosaceae stone-fruit pit profiles. Wrong compound / fabricated mechanism."
+      },
+      {
+        "claim": "Persimmon seeds are large enough to cause intestinal obstruction / blockage if swallowed",
+        "verdict": "CONFIRMED",
+        "authority": "Catster (vet-reviewed), Hepper (vet-reviewed)",
+        "url": "https://articles.hepper.com/can-cats-eat-persimmons/",
+        "note": "Seeds and skin are hard, indigestible and 'may lead to a gastrointestinal blockage' / choking. This is the genuine primary risk and is correctly identified as mechanical."
+      },
+      {
+        "claim": "Unripe persimmons are high in tannins causing severe GI irritation (vomiting, diarrhea, intestinal inflammation)",
+        "verdict": "CONFIRMED",
+        "authority": "Catster (vet-reviewed), Hepper (vet-reviewed)",
+        "url": "https://www.catster.com/nutrition/can-cats-eat-persimmons/",
+        "note": "Vet sources confirm unripe persimmons contain elevated tannins that can irritate the stomach and cause nausea/diarrhea; can be 'toxic in high quantities'. 'Severe' is somewhat strong but directionally supported."
+      },
+      {
+        "claim": "Tannins cause intestinal obstruction by binding digestive proteins in large quantities",
+        "verdict": "UNVERIFIABLE",
+        "authority": "ASPCA / Pet Poison Helpline / VCA (silent on this specific mechanism for cats)",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants",
+        "note": "The tannin/phytobezoar-protein-binding obstruction mechanism is documented in human/livestock medicine (diospyrobezoars) but no authoritative feline source supports it for cats. Stated as fact without feline support — flag, not a pass."
+      },
+      {
+        "claim": "toxicParts include Flesh and Fruit (entry lists Flesh, Fruit, Skin, Pit, Seed, Powder, Cooked form as toxic parts)",
+        "verdict": "REFUTED",
+        "authority": "Catster (vet-reviewed), Hepper (vet-reviewed)",
+        "url": "https://www.catster.com/nutrition/can-cats-eat-persimmons/",
+        "note": "All sources identify the FLESH as the SAFEST part ('The safest part of a persimmon for your cat to eat is the flesh'). Listing 'Flesh' and 'Fruit' as toxic parts directly contradicts authorities. Only seeds/pits/skin (mechanical) and unripe fruit (tannins) carry risk. The toxicParts field is wrong/over-inclusive."
+      },
+      {
+        "claim": "Symptom entry #1 name: 'Persimmons do not contain a specific chemical toxin that causes acute systemic poisoning in cats. Instead' (Metabolic, moderate)",
+        "verdict": "REFUTED",
+        "authority": "N/A (data integrity)",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+        "note": "This is not a symptom — it is a truncated descriptive sentence fragment erroneously injected into the symptoms array with a body_system and severity. Malformed/fabricated data. Ironically the fragment's content (no specific chemical toxin / no acute systemic poisoning) is correct and itself contradicts the entry's cyanide claim and 'toxic' severity."
+      },
+      {
+        "claim": "Symptom: Intestinal Obstruction graded 'fatal' (Gastrointestinal)",
+        "verdict": "UNVERIFIABLE",
+        "authority": "Catster / Hepper (vet-reviewed) confirm obstruction risk but not 'fatal' grading",
+        "url": "https://articles.hepper.com/can-cats-eat-persimmons/",
+        "note": "GI obstruction is a real risk from seeds/skin and can be life-threatening if untreated, but grading it 'fatal' as the default outcome for a swallowed persimmon seed overstates likelihood; the notes text is also truncated mid-word ('contain to'). Plausible risk, exaggerated severity + corrupted field."
+      },
+      {
+        "claim": "scientificName = 'Persimmons'; family = 'Various'",
+        "verdict": "REFUTED",
+        "authority": "Botanical taxonomy (genus Diospyros, family Ebenaceae)",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+        "note": "'Persimmons' is not a scientific name; correct genus is Diospyros (D. kaki / D. virginiana), family Ebenaceae. 'Various' family is wrong for a single fruit genus. Placeholder/incorrect metadata."
+      }
+    ]
+  },
+  "pine": {
+    "disagreement": true,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": true,
+    "summary": "Pine (Pinus spp., Pinaceae) entry is partly accurate on physical/GI hazards but has two serious errors. (1) Severity is marked \"toxic,\" but ASPCA classifies pines (e.g. Blackjack/Ponderosa Pine, Pinaceae) as NON-TOXIC to cats — its only toxic principle, isocupressic acid, affects cattle, not cats. Pet Poison Helpline and VCA do flag genuine but MILD hazards (pine-oil GI irritation, needle obstruction/perforation), so the plant sits in a gray zone; the flat \"toxic\" grade contradicts ASPCA and overstates the plant's intrinsic toxicity (false-alarm direction). safe_toxic_disagreement=true. (2) The \"Liver damage / FATAL\" symptom is REFUTED for the pine tree: no authoritative source attributes hepatic toxicity to ingesting pine needles/sap; PPH's Christmas-tree article makes no mention of liver damage. Hepatotoxicity is a property of concentrated pine ESSENTIAL OIL (phenols/terpenes + cats' UGT deficiency), and the entry's own note concedes live-tree oil concentrations are low and not expected to cause major toxicity — so grading liver damage \"fatal\" for the tree is a mechanism/severity error. Additionally, the safetyNote claiming \"Norfolk Island Pine (Araucaria) is considered more toxic to cats\" is REFUTED: ASPCA lists Araucaria heterophylla (Norfolk Island / Australian Pine, family Araucariaceae) as NON-TOXIC to cats. Confirmed claims: identity/family, terpene/alpha-pinene GI-irritant mechanism, physical needle hazard, drooling/vomiting (mild), digestive blockage (severe), toxic parts (sap, needles). overall_factual=FAIL due to the refuted core liver-damage symptom and the safe↔toxic disagreement.",
+    "claim_verdicts": [
+      {
+        "claim": "Identity: Pine = Pinus spp., plant family Pinaceae",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA Blackjack Pine (Pinus ponderosa) entry lists family Pinaceae. Genus/family correct.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/blackjack-pine",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Severity = toxic / isToxic (pine tree is toxic to cats)",
+        "verdict": "REFUTED",
+        "note": "ASPCA classifies pine (Blackjack/Ponderosa Pine, Pinaceae) as NON-TOXIC to cats; only toxic principle isocupressic acid causes abortions in cattle, not seen in other species. Pet Poison Helpline/VCA flag MILD hazards (pine-oil GI irritation, needle obstruction) but the flat 'toxic' grade contradicts ASPCA's non-toxic classification of the plant. Safe<->toxic disagreement (false-alarm direction).",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/blackjack-pine",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Mechanism: pine sap/oil terpenes (alpha-pinene) act as mild GI irritants causing stomach upset",
+        "verdict": "CONFIRMED",
+        "note": "Pet Poison Helpline: oils in fir/pine/spruce irritate mouth and GI tract causing drooling and vomiting; cats sensitive to pine oils. VCA lists pine oil among oils poisonous to cats.",
+        "url": "https://www.petpoisonhelpline.com/uncategorized/cats-christmas-trees/",
+        "authority": "Pet Poison Helpline"
+      },
+      {
+        "claim": "Mechanism: pine needles are sharp physical hazard causing puncture/obstruction of GI tract",
+        "verdict": "CONFIRMED",
+        "note": "Pet Poison Helpline: needles can cause bowel obstructions or perforate the intestines.",
+        "url": "https://www.petpoisonhelpline.com/uncategorized/cats-christmas-trees/",
+        "authority": "Pet Poison Helpline"
+      },
+      {
+        "claim": "Symptom: Drooling and vomiting (mild, GI)",
+        "verdict": "CONFIRMED",
+        "note": "Pet Poison Helpline and VCA: pine oils cause excessive drooling and vomiting / GI upset.",
+        "url": "https://www.petpoisonhelpline.com/uncategorized/cats-christmas-trees/",
+        "authority": "Pet Poison Helpline"
+      },
+      {
+        "claim": "Symptom: Digestive blockages (severe, GI)",
+        "verdict": "CONFIRMED",
+        "note": "Needles can cause bowel obstruction/perforation per Pet Poison Helpline and VCA-aligned veterinary sources.",
+        "url": "https://www.petpoisonhelpline.com/uncategorized/cats-christmas-trees/",
+        "authority": "Pet Poison Helpline"
+      },
+      {
+        "claim": "Symptom: Liver damage graded FATAL, caused by pine tree essential oils",
+        "verdict": "REFUTED",
+        "note": "No authoritative source attributes liver damage to ingesting pine needles/sap from the tree. PPH's Christmas-tree article does not mention hepatic toxicity. Hepatotoxicity is documented only for CONCENTRATED pine essential oil; the entry's own note concedes live-tree concentrations are low and not expected to cause major toxicity. Grading liver damage 'fatal' for the tree is a mechanism misattribution and severity overstatement.",
+        "url": "https://www.petpoisonhelpline.com/uncategorized/cats-christmas-trees/",
+        "authority": "Pet Poison Helpline"
+      },
+      {
+        "claim": "Toxic parts: Sap and Leaf (needles)",
+        "verdict": "CONFIRMED",
+        "note": "Sap/oils and needles are the implicated parts per PPH and VCA (GI irritation from sap/oils; physical hazard from needles).",
+        "url": "https://www.petpoisonhelpline.com/uncategorized/cats-christmas-trees/",
+        "authority": "Pet Poison Helpline"
+      },
+      {
+        "claim": "SafetyNote: Norfolk Island Pine (Araucaria) is a distinct species considered MORE toxic to cats",
+        "verdict": "REFUTED",
+        "note": "ASPCA lists Araucaria heterophylla (Norfolk Island / Australian Pine, family Araucariaceae) as NON-TOXIC to cats (Toxic Principles: Non-toxic). The 'more toxic' claim is wrong; it is a dangerous miss / cross-contamination error. The species-distinct/different-family part is correct.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/australian-pine",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Christmas tree stand water risk (bacteria/fertilizers/dissolved oils)",
+        "verdict": "CONFIRMED",
+        "note": "Pet Poison Helpline advises keeping cats away from the tree water basin due to pine-oil sensitivity; additive/preservative and stagnant-water risk is widely cited.",
+        "url": "https://www.petpoisonhelpline.com/uncategorized/cats-christmas-trees/",
+        "authority": "Pet Poison Helpline"
+      }
+    ]
+  },
+  "pistachios": {
+    "disagreement": true,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": true,
+    "summary": "FAIL. Core safe-vs-toxic disagreement: the entry's machine-readable severity='toxic', but ASPCA explicitly classifies pistachios as NON-toxic to animals (risks are pancreatitis from large quantities and shell obstruction, not toxicity). The entry even contradicts itself — its own description and safetyNotes say 'not acutely toxic / no cat-specific compound,' which is correct, while the severity field overstates it as toxic (false alarm). Confirmed claims: fat -> GI upset/pancreatitis (ASPCA), and moldy nuts -> tremorgenic mycotoxins -> tremors/seizures with cats at risk (Pet Poison Helpline). Problems beyond severity: (1) the salted-pistachio 'Renal Stress, severity severe' symptom mislabels the mechanism (salt toxicosis is neurologic/electrolyte, not a severe chronic renal syndrome) and is unverifiable/overstated; (2) toxicParts include a nonsensical 'Stem' (cross-contamination from a plant template) while the genuinely dangerous SHELL (obstruction per ASPCA) is omitted; (3) the symptoms array contains a corrupted sentence-fragment 'symptom' and a truncated notes field, indicating data corruption; (4) scientificName/family are wrong placeholders (correct: Pistacia vera, Anacardiaceae). Recommend reclassifying severity to a 'caution/unsafe-but-not-toxic' tier, fixing the symptom array, adding shell-obstruction risk, and correcting toxicParts and taxonomy.",
+    "claim_verdicts": [
+      {
+        "claim": "severity = \"toxic\" (top-level grading classifies pistachios as toxic to cats)",
+        "verdict": "REFUTED",
+        "authority": "ASPCA",
+        "url": "https://www.aspca.org/news/internet-myths-and-rumors-pet-toxin-edition",
+        "note": "ASPCA states plainly that pistachios 'are not really toxic to animals.' The risks are pancreatitis from large quantities and intestinal obstruction from shells, not toxicity. Grading this entry severity='toxic' is a false-alarm overstatement and directly contradicts the authority. NOTE the entry internally contradicts itself: description and safetyNotes correctly say 'not acutely toxic / no known cat-specific toxic compound,' yet the machine-readable severity field says 'toxic.' This safe-vs-toxic mismatch is the core failure."
+      },
+      {
+        "claim": "No specific cat-targeting poison / no cat-specific toxic compound in plain pistachios",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA",
+        "url": "https://www.aspca.org/news/internet-myths-and-rumors-pet-toxin-edition",
+        "note": "Consistent with ASPCA classing pistachios as non-toxic. This body-text claim is correct and is exactly why the top-level severity='toxic' is wrong."
+      },
+      {
+        "claim": "High fat content can cause indigestion/diarrhea and, with regular feeding, pancreatitis",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA",
+        "url": "https://www.aspca.org/news/internet-myths-and-rumors-pet-toxin-edition",
+        "note": "ASPCA: ingesting a large number of pistachios 'is likely to result in stomach upset and possibly pancreatitis.' Mechanism (fatty food -> GI upset / pancreatitis) is supported."
+      },
+      {
+        "claim": "Moldy / green-tinged improperly stored pistachios may contain tremorgenic mycotoxins that cause muscle tremors and seizures",
+        "verdict": "CONFIRMED",
+        "authority": "Pet Poison Helpline",
+        "url": "https://www.petpoisonhelpline.com/poison/mycotoxin/",
+        "note": "Pet Poison Helpline confirms tremorgenic mycotoxins occur in moldy nuts and that cats are at risk, with neurological signs including tremors and seizures (plus GI distress). Mechanism and symptoms are accurate. Caveat: a fresh 'green tinge' is normal pistachio color (chlorophyll), not by itself a mold indicator — the entry conflates natural green color with mold, which is a minor accuracy slip, but the underlying mold/mycotoxin risk is real."
+      },
+      {
+        "claim": "Salted pistachios cause 'Renal Stress / Increased Kidney Burden' (sodium harms kidneys), graded severity 'severe', chronic onset",
+        "verdict": "UNVERIFIABLE",
+        "authority": "Pet Poison Helpline / Merck Vet Manual",
+        "url": "https://www.petpoisonhelpline.com/poison/mycotoxin/",
+        "note": "Excess dietary sodium is a legitimate concern, but authoritative salt-toxicosis literature frames acute danger as sodium ion (salt) toxicosis with NEUROLOGIC signs (vomiting, tremors, seizures, hypernatremia), not a discrete 'renal stress' syndrome from snack pistachios. No authoritative source supports a 'severe' chronic renal-burden symptom from pistachio salt specifically. The mechanism is mislabeled (renal vs neurologic/electrolyte) and the 'severe' severity is overstated for the realistic exposure."
+      },
+      {
+        "claim": "Intestinal obstruction / choking from shells (the actual physical hazard)",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA",
+        "url": "https://www.aspca.org/news/internet-myths-and-rumors-pet-toxin-edition",
+        "note": "ASPCA: pistachios ingested 'with their shell on' can cause intestinal obstruction. This is the primary mechanical risk per the authority and is MISSING from the entry's symptoms list and largely absent from toxicParts (no 'shell' listed)."
+      },
+      {
+        "claim": "toxicParts = [Skin, Entire food, Stem, Powder]",
+        "verdict": "REFUTED",
+        "authority": "ASPCA",
+        "url": "https://www.aspca.org/news/internet-myths-and-rumors-pet-toxin-edition",
+        "note": "'Stem' is nonsensical for a shelled nut and appears to be cross-contamination from a plant profile template. The genuinely hazardous part per ASPCA — the SHELL (obstruction/choking) — is absent. This list is unreliable/fabricated."
+      },
+      {
+        "claim": "Symptom entry named 'While pistachios do not contain an acute chemical poison specific to cats' (body_system Metabolic, severity moderate)",
+        "verdict": "REFUTED",
+        "authority": "data-integrity",
+        "url": "https://www.aspca.org/news/internet-myths-and-rumors-pet-toxin-edition",
+        "note": "This is not a symptom; it is a corrupted sentence fragment leaked into the symptom array. Fabricated/malformed data. The adjacent symptom 'Indigestion and Diarrhea' notes field is also truncated mid-word ('all of wh'). Indicates template/data corruption."
+      },
+      {
+        "claim": "scientificName = 'Pistachios', family = 'Various'",
+        "verdict": "REFUTED",
+        "authority": "botanical reference",
+        "url": "https://www.aspca.org/news/internet-myths-and-rumors-pet-toxin-edition",
+        "note": "Pistachio is Pistacia vera, family Anacardiaceae. 'Pistachios' is not a scientific name and 'Various' is a placeholder. Incorrect, though low-stakes for a food entry."
+      }
+    ]
+  },
+  "poppy": {
+    "disagreement": false,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": false,
+    "summary": "Core toxicity is correct: poppy (Papaver spp.) IS toxic to cats — confirmed by Pet Poison Helpline (any part ingested causes GI upset + CNS effects: inappetence, sedation, ataxia, coma). Compound class (isoquinoline alkaloids; opioid types in opium poppy, non-opioid in ornamentals) and the mu-opioid/CNS-depression mechanism are confirmed. The description and symptoms list correctly state DILATED pupils, which matches the established feline-specific response (opioids cause mydriasis in cats, unlike the miosis seen in dogs/humans). HOWEVER, overall_factual=FAIL because the safetyNotes contain a REFUTED, internally-contradictory, and clinically dangerous claim: 'pin-point pupils.' In cats, opioids produce DILATED pupils (mydriasis), not pin-point pupils (miosis); pin-point pupils is the human/dog presentation and is wrong for cats. The same entry lists 'Dilated pupils' as a symptom, so the document contradicts itself and the safetyNotes side is the incorrect one — a classic species cross-contamination error. No safe↔toxic disagreement (item is correctly toxic). Additional non-toxicology data defects: all four symptoms are mislabeled body_system='Gastrointestinal' (dilated pupils/ataxia/collapse are neurologic/ocular), and the symptom notes contain garbled run-on text ('...mammals1. 2. Vomiting'). ASPCA's own plant-list entries (Oriental/Iceland Poppy) could not be retrieved cleanly (nav shells only), so ASPCA confirmation is UNVERIFIABLE, but Pet Poison Helpline (priority 2) plus vet literature suffice to confirm the core toxicity.",
+    "claim_verdicts": [
+      {
+        "claim": "Poppy (Papaver spp.) is toxic to cats",
+        "verdict": "CONFIRMED",
+        "authority": "Pet Poison Helpline",
+        "url": "https://www.petpoisonhelpline.com/poison/poppy/",
+        "note": "PPH lists Papaver spp.; ingestion of any part causes GI upset and CNS effects. No safe/toxic disagreement — correctly flagged toxic."
+      },
+      {
+        "claim": "Toxic compounds are isoquinoline alkaloids, opioid and non-opioid types depending on species",
+        "verdict": "CONFIRMED",
+        "authority": "Pet Poison Helpline; peer-reviewed (Papaver alkaloid chemistry)",
+        "url": "https://www.petpoisonhelpline.com/poison/poppy/",
+        "note": "PPH: alkaloids vary between species, some more harmful than others. Opium poppy contains morphine/codeine; ornamental species contain other isoquinoline-pathway alkaloids. Accurate."
+      },
+      {
+        "claim": "Seed pod latex/milky sap is the most concentrated/toxic part",
+        "verdict": "CONFIRMED",
+        "authority": "Vet-reviewed clinical source (Catster, vet-approved)",
+        "url": "https://www.catster.com/cat-health-care/are-poppies-toxic-to-cats/",
+        "note": "Compounds present throughout plant but most concentrated in the milky sap around seed pods. Consistent with general poppy toxicology."
+      },
+      {
+        "claim": "All parts of the plant are dangerous (toxicParts: Entire Plant)",
+        "verdict": "CONFIRMED",
+        "authority": "Pet Poison Helpline",
+        "url": "https://www.petpoisonhelpline.com/poison/poppy/",
+        "note": "PPH: 'ingestion of any part of the plant' can cause toxicosis."
+      },
+      {
+        "claim": "Mechanism: opioid alkaloids bind mu-opioid receptors causing CNS and respiratory depression",
+        "verdict": "CONFIRMED",
+        "authority": "MSD/Merck Vet Manual (opioid toxicosis); IVIS opioid review",
+        "url": "https://www.msdvetmanual.com/toxicology/toxicities-from-human-drugs/toxicities-from-illicit-and-abused-drugs",
+        "note": "Mu-agonist opioids cause CNS depression, sedation, and respiratory depression. Valid for opium-poppy alkaloids."
+      },
+      {
+        "claim": "Cats are particularly sensitive to opioids",
+        "verdict": "CONFIRMED",
+        "authority": "Pet Poison Helpline (opioids); vet pharmacology literature",
+        "url": "https://www.petpoisonhelpline.com/poison/opioids-opiates/",
+        "note": "Cats have reduced glucuronidation, prolonging some opioid half-lives. Supported."
+      },
+      {
+        "claim": "Symptom: dilated pupils (in description and symptoms list)",
+        "verdict": "CONFIRMED",
+        "authority": "Peer-reviewed (morphine-induced mydriasis in cats); IVIS opioid review",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2993586/",
+        "note": "In CATS opioids cause mydriasis (dilation), opposite of dogs/humans. The description and symptom-list 'dilated pupils' is the CORRECT feline finding."
+      },
+      {
+        "claim": "safetyNotes symptom: 'pin-point pupils' (miosis)",
+        "verdict": "REFUTED",
+        "authority": "Peer-reviewed (Morphine-induced mydriasis in cats, PubMed 2993586); IVIS review of opioid use in cats",
+        "url": "https://www.ivis.org/library/recent-advances-veterinary-anesthesia-and-analgesia-companion-animals/a-review-of-opioid",
+        "note": "DANGEROUS SPECIES ERROR. In cats opioids cause DILATED pupils (mydriasis), not pin-point pupils (miosis). Pin-point pupils is the human/dog presentation. The entry also lists 'dilated pupils' elsewhere, so it self-contradicts; the safetyNotes statement is the wrong one. Likely cross-contaminated from human/dog opioid profile."
+      },
+      {
+        "claim": "Symptoms: sedation, lethargy, ataxia/loss of coordination, vomiting, slow/laboured breathing, severe cases respiratory failure/collapse",
+        "verdict": "CONFIRMED",
+        "authority": "Pet Poison Helpline",
+        "url": "https://www.petpoisonhelpline.com/poison/poppy/",
+        "note": "PPH lists inappetence, sedation, ataxia, coma for large ingestions; respiratory depression is the established opioid mechanism. Vomiting/GI upset reported across vet sources."
+      },
+      {
+        "claim": "Even ornamental (non-opium) poppy species contain irritant alkaloids causing GI upset",
+        "verdict": "CONFIRMED",
+        "authority": "Pet Poison Helpline; vet-reviewed source",
+        "url": "https://www.petpoisonhelpline.com/poison/poppy/",
+        "note": "PPH notes alkaloid potency differs between species, and ingestion of any poppy can cause GI upset."
+      },
+      {
+        "claim": "Severity = toxic / isToxic=true",
+        "verdict": "CONFIRMED",
+        "authority": "Pet Poison Helpline",
+        "url": "https://www.petpoisonhelpline.com/poison/poppy/",
+        "note": "Severity grading appropriate; potential for coma/respiratory depression supports a toxic rating. Not overstated."
+      },
+      {
+        "claim": "Plant family = Papaveraceae; scientificName Papaver spp.",
+        "verdict": "CONFIRMED",
+        "authority": "Botanical/peer-reviewed taxonomy; Pet Poison Helpline (Papaver spp.)",
+        "url": "https://www.petpoisonhelpline.com/poison/poppy/",
+        "note": "Papaver is the type genus of Papaveraceae. Correct."
+      },
+      {
+        "claim": "ASPCA-specific poppy plant-list entry (priority-1 authority)",
+        "verdict": "UNVERIFIABLE",
+        "authority": "ASPCA Animal Poison Control plant database",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/search",
+        "note": "ASPCA search/entry pages returned navigation shells only; could not confirm a discrete ASPCA poppy entry. Core toxicity nonetheless confirmed via Pet Poison Helpline (priority 2) and vet literature."
+      },
+      {
+        "claim": "All four symptoms tagged body_system='Gastrointestinal'",
+        "verdict": "REFUTED",
+        "authority": "Basic clinical classification / vet literature",
+        "url": "https://www.petpoisonhelpline.com/poison/poppy/",
+        "note": "Data-quality defect: dilated pupils (ocular/autonomic), lack of coordination and collapse (neurologic) are mislabeled as GI. Only vomiting is GI. Not a toxicology fabrication but an incorrect field."
+      }
+    ]
+  },
+  "potato_chips": {
+    "disagreement": false,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": false,
+    "summary": "Entry's overall direction (potato chips are unsafe for cats — high salt, plus hidden onion/garlic powder in flavored varieties) is correct, so there is no safe-vs-toxic disagreement. However it FAILS factual review on a core mechanism and on data integrity. (1) The \"Acute Pancreatitis\" symptom and the safetyNote claim that fat \"can trigger pancreatitis\" are REFUTED for cats: VCA states explicitly that, unlike dogs, cats do NOT appear to develop pancreatitis from high-fat diets — a classic dog-profile cross-contamination error, and it is graded \"severe.\" (2) Severe data-corruption: the first symptom name is a truncated sentence fragment (\"While the base ingredient of potato chips\") with no clinical content — a fabricated/garbage symptom; multiple notes fields are truncated mid-word. (3) Severity overstatement: salt toxicity and solanine are labeled \"fatal\" though Pet Poison Helpline rates salt only moderate-to-severe and the snack-food dose realistically falls well short of fatal. (4) Plant-profile artifacts wrongly applied to a manufactured snack: scientificName \"Potato chips\", family \"Various\", and toxicParts (Skin, Peel, Cooked form, Raw form) are nonsensical for a processed food. CONFIRMED claims: sodium/salt toxicity and its symptoms (PPH, Merck); onion/garlic powder toxicity to feline red blood cells (ASPCA, Merck); solanine as the glycoalkaloid in green/unpeeled potatoes (Vetlexicon), with the entry correctly noting cooking/peeling removes most of it.",
+    "claim_verdicts": [
+      {
+        "claim": "Potato chips are unsafe/toxic for cats (severity: toxic, isToxic true)",
+        "verdict": "CONFIRMED",
+        "note": "Direction is correct: high salt plus commonly-present onion/garlic powder make chips inappropriate and potentially harmful for cats. No safe-vs-toxic disagreement.",
+        "authority": "Pet Poison Helpline",
+        "url": "https://www.petpoisonhelpline.com/poison/salt/"
+      },
+      {
+        "claim": "High salt/sodium content can cause salt toxicity (hypernatremia) with vomiting, diarrhea, tremors, dehydration, neurological signs",
+        "verdict": "CONFIRMED",
+        "note": "PPH and Merck confirm salt overdose causes GI distress (vomiting, diarrhea), neurological signs (tremor, seizure, collapse), and can be fatal; onset minutes to hours. Mechanism (sodium drawing water from cells) is accurate.",
+        "authority": "Pet Poison Helpline / Merck Veterinary Manual",
+        "url": "https://www.petpoisonhelpline.com/poison/salt/"
+      },
+      {
+        "claim": "Salt Toxicity graded severity 'fatal'",
+        "verdict": "REFUTED",
+        "note": "Overstated. Pet Poison Helpline classifies salt as moderate-to-severe, not categorically fatal. Fatal outcomes require very large doses; the realistic chip-snack exposure does not justify a 'fatal' grade.",
+        "authority": "Pet Poison Helpline",
+        "url": "https://www.petpoisonhelpline.com/poison/salt/"
+      },
+      {
+        "claim": "Onion/garlic powder in flavored chips is highly toxic to cats and damages red blood cells",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA and Merck confirm Allium spp. cause oxidative damage to feline red blood cells (Heinz-body/hemolytic anemia); powdered forms are more concentrated and more dangerous. Accurate.",
+        "authority": "ASPCA / Merck Veterinary Manual",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/garlic-and-onion-allium-spp-toxicosis-in-animals"
+      },
+      {
+        "claim": "High fat content can trigger acute pancreatitis in cats (symptom graded 'severe')",
+        "verdict": "REFUTED",
+        "note": "Cross-species (dog) error. VCA states explicitly: 'Unlike dogs, cats do not appear to develop pancreatitis as the result of eating a high-fat diet.' The mechanism asserted for cats is not supported; symptom and safetyNote should be removed or rewritten.",
+        "authority": "VCA Animal Hospitals",
+        "url": "https://vcahospitals.com/know-your-pet/nutrition-and-pancreatic-disease-in-cats"
+      },
+      {
+        "claim": "Solanine (glycoalkaloid) in green/unpeeled potatoes is a neurotoxin; trace residue may remain in chips from green tubers",
+        "verdict": "CONFIRMED",
+        "note": "Solanine/chaconine glycoalkaloids in green/unpeeled potatoes are toxic to cats; entry correctly notes cooking and peeling remove the vast majority. This is an edge-case but accurate. However grading it 'fatal' for residual trace amounts in chips is overstated.",
+        "authority": "Vetlexicon (peer-reviewed feline reference)",
+        "url": "https://www.vetlexicon.com/treat/felis/diseases/plant-poisoning-solanine-and-related-glycoalkaloids"
+      },
+      {
+        "claim": "Symptom #1: 'While the base ingredient of potato chips' (Metabolic, moderate)",
+        "verdict": "REFUTED",
+        "note": "Not a symptom — a truncated sentence fragment with no clinical meaning. Fabricated/garbage data that must be removed.",
+        "authority": "n/a (data integrity)",
+        "url": ""
+      },
+      {
+        "claim": "scientificName 'Potato chips' and family 'Various'; toxicParts include Skin, Peel, Cooked form, Raw form",
+        "verdict": "REFUTED",
+        "note": "Plant-profile schema artifacts wrongly applied to a manufactured snack food. A processed food has no scientific name, no plant family, and 'Skin/Peel' toxic parts are meaningless here.",
+        "authority": "n/a (data integrity)",
+        "url": ""
+      }
+    ]
+  },
+  "pudding": {
+    "disagreement": true,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": true,
+    "summary": "Pudding is a food (composite) entry, not a plant; family 'Various' and scientificName 'Pudding' are placeholders, acceptable for a manufactured food. Core toxicity claims that are real (chocolate/theobromine + caffeine methylxanthines; adult-cat lactose intolerance) are CONFIRMED by ASPCA and Merck, so the overall 'toxic' severity for pudding-as-eaten is defensible. HOWEVER the entry FAILS due to a dangerous safe-toxic disagreement: its safetyNotes assert 'Sugar-free pudding: xylitol — highly toxic to cats, causing dangerous hypoglycaemia.' This is REFUTED — ASPCA, Merck, and a peer-reviewed cat study (PubMed 29430681) all establish cats are NOT affected by xylitol (no hypoglycemia, no liver injury). Worse, the safetyNote directly contradicts the entry's own symptoms section, which correctly states cats are naturally resistant. The user-facing safetyNote spreads false toxicology. Additional defects: (1) a fabricated/garbage symptom entry literally named 'Because pudding is a manufactured dessert' (truncated artifact, no clinical content); (2) pancreatitis-from-pudding in cats is UNVERIFIABLE and severity 'severe' likely overstated; (3) several symptom 'notes' contain truncated text and stray footnote markers (e.g., 'Darker chocolate puddings are significantly', 'cats do not suffer this dangerous h'), indicating copy-paste/scraping contamination. Recommend: correct the xylitol safetyNote to state cats are not affected by xylitol (keep the chocolate warning as the genuine danger), delete the malformed symptom, and clean truncated notes.",
+    "claim_verdicts": [
+      {
+        "claim": "Chocolate pudding is toxic to cats because it contains theobromine and caffeine (methylxanthines), causing vomiting, muscle tremors, seizures, and cardiac effects",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA/Merck confirm chocolate (theobromine + caffeine methylxanthines) is toxic to cats; cats lack efficient liver enzymes to metabolize them. Documented signs: vomiting, diarrhea, increased thirst/urination, restlessness, tremors, seizures, abnormal heart rhythm. Onset within a few hours. Mechanism, compound, and symptoms all accurate.",
+        "authority": "ASPCA / Merck Veterinary Manual",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/chocolate-toxicosis-in-animals"
+      },
+      {
+        "claim": "Tachycardia and cardiac arrhythmias from chocolate methylxanthines can result in cardiac arrest (severity fatal)",
+        "verdict": "CONFIRMED",
+        "note": "Merck/ASPCA confirm methylxanthines cause tachycardia/arrhythmias and severe toxicosis can be fatal. Severity grading appropriate for chocolate pudding component.",
+        "authority": "Merck Veterinary Manual / ASPCApro toxbrief",
+        "url": "https://www.aspcapro.org/sites/default/files/m-toxbrief_0201.pdf"
+      },
+      {
+        "claim": "SAFETY NOTE: Sugar-free pudding with xylitol is 'highly toxic to cats, causing dangerous hypoglycaemia'",
+        "verdict": "REFUTED",
+        "note": "DANGEROUS FALSE ALARM. ASPCA states plainly: 'people, cats and ferrets are not negatively affected by xylitol.' Merck: xylitol toxicosis reported only in dogs; cats not at risk for hypoglycemia or liver injury. Peer-reviewed cat study (Schmid & Hodshon / de Lorimier, PubMed 29430681) found xylitol 100-1000 mg/kg induced NO toxic effects and NO significant blood glucose change in cats. The safetyNotes claim that xylitol causes dangerous hypoglycemia IN CATS is false and directly contradicts the dataset's own symptoms section ('cats appear to be naturally resistant'). This is a safe-toxic disagreement: an exposure marked highly toxic that authorities call non-toxic to cats.",
+        "authority": "ASPCA / Merck Veterinary Manual / PubMed peer-reviewed (29430681)",
+        "url": "https://www.aspca.org/news/updated-safety-warning-xylitol-how-protect-your-pets"
+      },
+      {
+        "claim": "Symptoms section: Xylitol hypoglycemia/liver failure is 'Theoretical / Rare in Cats'; cats are naturally resistant; experimental studies show cats do not suffer this effect",
+        "verdict": "CONFIRMED",
+        "note": "This symptom-section framing is correct and matches ASPCA/Merck/PubMed: cats are not affected by xylitol. However it directly contradicts the entry's own safetyNotes which call xylitol 'highly toxic to cats causing dangerous hypoglycaemia.' Internal contradiction; the safetyNote is the wrong/dangerous version.",
+        "authority": "PubMed 29430681 / ASPCA / Merck",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29430681/"
+      },
+      {
+        "claim": "Most adult cats are lactose intolerant (reduced lactase after weaning); dairy-based pudding causes GI upset, gas, vomiting, diarrhea, onset within 8-12 hours",
+        "verdict": "CONFIRMED",
+        "note": "Widely supported by veterinary sources: adult cats lose lactase, undigested lactose ferments in colon drawing water, causing diarrhea/gas, typically within 8-12 hours. Mechanism and onset accurate. (Note: this is dietary intolerance, not true toxicity.)",
+        "authority": "Veterinary consensus (WebMD Pets / clinical sources); ASPCA-aligned",
+        "url": "https://www.webmd.com/pets/cats/features/cats-and-dairy-get-the-facts"
+      },
+      {
+        "claim": "High-fat puddings (heavy cream, butter, whole milk) can trigger pancreatitis in cats",
+        "verdict": "UNVERIFIABLE",
+        "note": "Dietary indiscretion / high-fat 'rich human food' is a commonly cited pancreatitis risk factor, but the causal link between a single high-fat fatty meal and feline pancreatitis is weaker and less established than in dogs; ASPCA/Merck do not list pudding or generic high-fat dessert as a pancreatitis cause in cats. Plausible but not confirmed by an authoritative source for cats specifically; severity 'severe' may be overstated for this dessert context.",
+        "authority": "No authoritative source confirms pudding-specific pancreatitis risk in cats",
+        "url": "https://www.merckvetmanual.com/digestive-system/disorders-of-the-pancreas-in-cats"
+      },
+      {
+        "claim": "Symptom entry named 'Because pudding is a manufactured dessert' (body_system Metabolic, severity moderate)",
+        "verdict": "REFUTED",
+        "note": "This is not a symptom. It is a fabricated/garbage entry — a truncated sentence fragment mistakenly stored as a symptom name with no clinical content. Data-quality defect.",
+        "authority": "N/A - malformed data, no clinical claim",
+        "url": ""
+      },
+      {
+        "claim": "Plain starch-based pudding without toxic additives is 'not toxic' but high in sugar / no nutritional value",
+        "verdict": "CONFIRMED",
+        "note": "Plain starch/sugar pudding is not a recognized feline toxin; concern is empty calories and dairy lactose, not poisoning. Consistent with absence from ASPCA toxic lists.",
+        "authority": "ASPCA (absence from toxin lists) / veterinary nutrition consensus",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control"
+      }
+    ]
+  },
+  "ragwort__tansy": {
+    "disagreement": false,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": false,
+    "summary": "The entry merges two botanically distinct Asteraceae plants into one — Ragwort/Tansy Ragwort (Senecio jacobaea) and Common Tansy (Tanacetum vulgare). Both ARE independently listed as toxic to cats by the ASPCA, so there is no safe/toxic disagreement. However, the entry commits a serious compound/mechanism error by attributing pyrrolizidine alkaloids (jacobine, retrorsine, etc.) to BOTH plants. Pyrrolizidine alkaloids and the PA->reactive-pyrrole->DNA-crosslink hepatotoxic mechanism belong ONLY to Senecio. Tanacetum vulgare's toxins are thujone and sesquiterpene lactones — NOT pyrrolizidine alkaloids. The entry then cross-contaminates in the opposite direction: its single \"Liver damage\" symptom note attributes the damage to \"a volatile oil containing thujone\" — a Tansy property — even though thujone is not a Senecio/ragwort compound and is not the PA hepatotoxic mechanism described elsewhere in the same record. This is the classic cross-contamination-from-another-plant failure mode operating in both directions within one entry. Additionally, \"senecioline\" is not a recognized pyrrolizidine alkaloid in the authoritative literature (Merck names seneciphylline, retrorsine, monocrotaline, jacobine); it appears fabricated or misspelled. overall_factual = FAIL because a core compound claim (PAs in Tansy) is REFUTED and the symptom-note mechanism is cross-contaminated. The toxic-to-cats grading and severity are correct, and the Senecio PA mechanism is accurately described.",
+    "claim_verdicts": [
+      {
+        "claim": "Ragwort / Tansy Ragwort (Senecio jacobaea) is toxic to cats (severity=toxic, isToxic).",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/ragwort",
+        "note": "ASPCA lists Ragwort (Senecio species; common names 'Golden Ragwort, Tansy') as toxic to cats, toxic principle pyrrolizidine alkaloids."
+      },
+      {
+        "claim": "Common Tansy (Tanacetum vulgare) is toxic to cats.",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA Animal Poison Control (cat plant list)",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+        "note": "Common Tansy (Tanacetum vulgare) appears on ASPCA's toxic-to-cats list. Both halves of the merged entry are independently toxic, so no safe/toxic disagreement."
+      },
+      {
+        "claim": "The toxic compounds are pyrrolizidine alkaloids (jacobine, senecioline, retrorsine) for BOTH Ragwort and Tansy.",
+        "verdict": "REFUTED",
+        "authority": "Merck Veterinary Manual (Pyrrolizidine Alkaloidosis) + ASPCA",
+        "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals",
+        "note": "Pyrrolizidine alkaloids are the toxic principle of Senecio (ragwort) ONLY. Tanacetum vulgare (common tansy) does NOT contain pyrrolizidine alkaloids; its toxins are thujone and sesquiterpene lactones. Attributing PAs to Tansy is a wrong-compound / cross-contamination error."
+      },
+      {
+        "claim": "Named alkaloid 'senecioline' is a pyrrolizidine alkaloid in these plants.",
+        "verdict": "REFUTED",
+        "authority": "Merck Veterinary Manual",
+        "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals",
+        "note": "Merck names jacobine, retrorsine, seneciphylline, monocrotaline. 'Senecioline' is not a recognized PA — likely a fabrication or misspelling of seneciphylline."
+      },
+      {
+        "claim": "Mechanism: PAs metabolised to reactive pyrroles in the liver, forming DNA cross-links and destroying hepatocytes; damage cumulative and irreversible.",
+        "verdict": "CONFIRMED",
+        "authority": "Merck Veterinary Manual (Pyrrolizidine Alkaloidosis)",
+        "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals",
+        "note": "Merck: alkaloids undergo hepatic conversion to reactive pyrroles that crosslink DNA strands and bind nucleoproteins, antimitotic, with cumulative liver damage. Accurate — but applies to the Senecio half ONLY, not to Tansy."
+      },
+      {
+        "claim": "Symptom note: liver damage occurs due to alkaloid content AND a volatile oil containing thujone.",
+        "verdict": "REFUTED",
+        "authority": "Merck Vet Manual + cross-source botany (thujone is a Tanacetum/wormwood compound)",
+        "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals",
+        "note": "Cross-contamination: thujone is a Common Tansy (Tanacetum vulgare) volatile-oil compound, not a ragwort/Senecio compound, and is not the PA hepatotoxic mechanism. Mixing thujone into the ragwort liver-damage note is botanically wrong attribution. The symptom note also reads as imported from a generic/blog profile (footnote markers '1')."
+      },
+      {
+        "claim": "Symptoms: weight loss, lethargy, jaundice, neurological signs (head-pressing, blindness, circling); acute liver failure with large single exposures.",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA + Merck Veterinary Manual",
+        "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals",
+        "note": "ASPCA lists weight loss, weakness, sleepiness, yawning, incoordination, icterus, neurologic signs. Merck describes hepatic encephalopathy signs (head-pressing, wandering). Consistent for the Senecio half. Note: authoritative clinical PA data is livestock-focused; cats are not the primary modeled species, but ASPCA confirms toxicity and signs for cats."
+      },
+      {
+        "claim": "All parts toxic; dried ragwort in hay loses bitterness but retains full toxicity.",
+        "verdict": "CONFIRMED",
+        "authority": "Merck Veterinary Manual / WSU Hortsense (Senecio jacobaea)",
+        "url": "https://www.merckvetmanual.com/special-pet-topics/poisoning/pyrrolizidine-alkaloidosis-senecio-poisoning-ragwort-poisoning",
+        "note": "Authoritative sources confirm ragwort is as toxic dried (in hay/straw) as fresh and that loss of deterrent taste increases accidental ingestion risk. Applies to Senecio."
+      },
+      {
+        "claim": "Plant family is Asteraceae.",
+        "verdict": "CONFIRMED",
+        "authority": "ASPCA",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/ragwort",
+        "note": "ASPCA lists family Compositae, which is the older synonym for Asteraceae. Both Senecio and Tanacetum are Asteraceae. Correct."
+      },
+      {
+        "claim": "Scientific name 'Senecio jacobaea or Tanacetum vulgare' (two distinct species under one entry).",
+        "verdict": "REFUTED",
+        "authority": "ASPCA / USDA ARS (Senecio jacobaea vs Tanacetum vulgare are distinct species)",
+        "url": "https://www.ars.usda.gov/pacific-west-area/logan-ut/poisonous-plant-research/docs/tansy-ragwort-senecio-jacobaea/",
+        "note": "Tansy Ragwort (Senecio jacobaea) and Common Tansy (Tanacetum vulgare) are different species with different toxic principles and should not be merged into one toxin record sharing a single compound/mechanism profile. The merge is the root cause of the wrong-compound and cross-contamination errors above."
+      }
+    ]
+  },
+  "raw_dough": {
+    "disagreement": false,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": false,
+    "summary": "Core toxicology is sound and confirmed by authoritative sources: raw yeast dough is genuinely toxic to cats via two confirmed mechanisms (CO2 fermentation -> gastric distension/bloat/diaphragm compression, and ethanol fermentation -> CNS and respiratory depression). Every listed symptom (abdominal distension, vomiting, ataxia, disorientation, weakness, hypothermia, hypoglycemia, metabolic acidosis, seizures, coma, respiratory distress) is corroborated by the Merck Veterinary Manual and/or Pet Poison Helpline. Severity grading (toxic/medical emergency, multiple fatal-graded signs) is appropriate and not overstated. No safe<->toxic disagreement.\\n\\nTwo defects drive the FAIL verdict: (1) toxicParts is cross-contaminated from a fruit/plant profile -- it lists \\\"Seed\\\", \\\"Pit\\\", \\\"Skin\\\", which are meaningless for dough (the explicitly flagged cross-contamination failure mode); (2) the mechanism claim that cats \\\"lack the specific enzymes\\\" / \\\"lack alcohol dehydrogenase\\\" is REFUTED as worded -- peer-reviewed feline ADH work (AVMA J 2000, PubMed 10772113) shows cats HAVE alcohol dehydrogenase but at ~2-fold reduced capacity. The clinical conclusion (cats are especially sensitive to ethanol) is correct, so this is an overstatement of a correct directional claim, but it should be reworded to \\\"limited/reduced capacity to metabolize alcohol.\\\" Also flagged: scientificName \\\"Raw dough\\\" and family \\\"Various\\\" are non-meaningful placeholders for a food entry (should be null). Recommended fixes: clear/correct toxicParts, reword the ADH claim, null out scientificName/family.",
+    "claim_verdicts": [
+      {
+        "claim": "Raw yeast dough is toxic/dangerous to cats (severity=toxic, isToxic implied true)",
+        "verdict": "CONFIRMED",
+        "authority": "Merck Veterinary Manual; Pet Poison Helpline; ASPCApro",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/bread-dough-toxicosis-in-animals",
+        "note": "All authorities classify raw/unbaked yeast dough as toxic to dogs and cats. Pet Poison Helpline and ASPCApro note cats are especially sensitive to ethanol. Toxicity direction is correct."
+      },
+      {
+        "claim": "Mechanism 1: yeast fermentation produces CO2 causing dough expansion, gastric distension/bloat, diaphragm compression and impaired breathing",
+        "verdict": "CONFIRMED",
+        "authority": "Merck Veterinary Manual; ASPCApro",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/bread-dough-toxicosis-in-animals",
+        "note": "Merck: 'Dough expansion causes gastric distension and resultant vascular compromise.' ASPCApro notes mechanical hazard, distension up to GDV, and respiratory compromise from severe distension."
+      },
+      {
+        "claim": "Mechanism 2: fermentation produces ethanol, rapidly absorbed, crosses blood-brain barrier, causing CNS/respiratory depression and ethanol toxicosis",
+        "verdict": "CONFIRMED",
+        "authority": "Merck Veterinary Manual; Pet Poison Helpline",
+        "url": "https://www.petpoisonhelpline.com/poison/bread-dough/",
+        "note": "Merck: 'Ethanol, produced from yeast fermentation, is absorbed into the bloodstream, resulting in inebriation and metabolic acidosis.' Continuous fermentation in stomach as ongoing alcohol source is supported."
+      },
+      {
+        "claim": "Cats lack the specific enzymes / lack alcohol dehydrogenase needed to process alcohol, so even a small amount causes severe poisoning",
+        "verdict": "REFUTED",
+        "authority": "AVMA Journal (Am J Vet Res 2000), PubMed 10772113 — feline alcohol dehydrogenase study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10772113/",
+        "note": "Cats DO possess hepatic alcohol dehydrogenase; it has ~2-fold lower maximal velocity than canine ADH (reduced capacity), not absent. The directional conclusion (cats are unusually sensitive to ethanol) is correct, but the entry's claim that cats 'lack' the enzyme is factually wrong as worded. Neither Merck nor Pet Poison Helpline make the 'cats lack ADH' claim. Should be reworded to 'limited/reduced capacity to metabolize alcohol.'"
+      },
+      {
+        "claim": "Symptoms: distended abdomen, vomiting/unproductive retching, lethargy, ataxia/unsteady gait, disorientation, weakness, recumbency",
+        "verdict": "CONFIRMED",
+        "authority": "Merck Veterinary Manual; Pet Poison Helpline",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/bread-dough-toxicosis-in-animals",
+        "note": "Merck lists unproductive emesis, abdominal distention, lethargy, ataxia, disorientation, weakness, recumbency."
+      },
+      {
+        "claim": "Symptom: Hypothermia (low body temperature) from ethanol-induced peripheral vasodilation",
+        "verdict": "CONFIRMED",
+        "authority": "Merck Veterinary Manual; Pet Poison Helpline",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/bread-dough-toxicosis-in-animals",
+        "note": "Merck explicitly lists hypothermia among severe signs. PPH notes alcohol causes dangerous drops in body temperature. Vasodilation as the proximate mechanism is plausible/standard ethanol pharmacology."
+      },
+      {
+        "claim": "Symptom: Metabolic acidosis and hypoglycemia",
+        "verdict": "CONFIRMED",
+        "authority": "Merck Veterinary Manual",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/bread-dough-toxicosis-in-animals",
+        "note": "Merck explicitly lists hypoglycemia and metabolic acidosis. PPH notes dangerous drops in blood sugar. The specific 'acetic and lactic acids' detail is a reasonable elaboration consistent with ethanol metabolism."
+      },
+      {
+        "claim": "Symptom: Severe CNS depression progressing to seizures and coma; death from systemic effects/respiratory failure",
+        "verdict": "CONFIRMED",
+        "authority": "Merck Veterinary Manual; Pet Poison Helpline; ASPCApro",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/bread-dough-toxicosis-in-animals",
+        "note": "Merck lists profound CNS depression, coma, seizures. ASPCApro/PPH note cardiovascular collapse, respiratory arrest, coma and death possible without treatment."
+      },
+      {
+        "claim": "Baked bread is safe; heat kills yeast and evaporates alcohol; only raw dough poses this risk",
+        "verdict": "CONFIRMED",
+        "authority": "Pet Poison Helpline; ASPCApro (raw/unbaked dough is the hazard)",
+        "url": "https://www.aspcapro.org/resource/bread-ingestion-pets",
+        "note": "Authorities consistently scope the hazard to raw/unbaked yeast dough; baking deactivates yeast and drives off ethanol. Reasonable and supported."
+      },
+      {
+        "claim": "toxicParts: [\"Seed\", \"Pit\", \"Skin\"]",
+        "verdict": "REFUTED",
+        "authority": "N/A — internal data-integrity defect",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/bread-dough-toxicosis-in-animals",
+        "note": "Cross-contamination error. Raw dough has no seed, pit, or skin; these fields are clearly copied from a fruit/stone-fruit plant profile (e.g., a Prunus-type entry). The toxic 'part' of raw dough is the whole live yeast dough mass. Must be corrected/cleared."
+      },
+      {
+        "claim": "scientificName: \"Raw dough\"; family: \"Various\"",
+        "verdict": "UNVERIFIABLE",
+        "authority": "N/A — not a taxonomic organism",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/bread-dough-toxicosis-in-animals",
+        "note": "Raw dough is a food preparation, not a species; no scientific name or plant family applies. The placeholder values are not factually meaningful but cause no toxicity-direction harm. Recommend leaving blank/null for food entries."
+      }
+    ]
+  },
+  "strelitzia_reginae": {
+    "disagreement": false,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": false,
+    "summary": "Core toxic/non-toxic status is CORRECT: ASPCA lists Strelitzia reginae (Strelitziaceae) as toxic to cats, so no safe-vs-toxic disagreement. However the entry's MECHANISM and several SYMPTOMS are REFUTED, which fails the entry. ASPCA states the toxic principle is simply \"GI irritants\" with clinical signs \"mild nausea, vomiting, drowsiness; caused mainly by fruit and seeds.\" The entry instead claims the active compounds are TANNINS and HYDROCYANIC ACID / cyanide-releasing cyanogenic glycosides — neither is supported by ASPCA or Pet Poison Helpline; these appear only on SEO/blog content. Built on that false cyanide mechanism, the entry adds a fabricated/over-stated symptom \"Labored Breathing (Respiratory Distress)\" attributed to cyanide in the leaves, and an unsupported \"Eye Discharge\" symptom (note falsely claims it is \"noted in multiple veterinary sources\"). ASPCA pins toxicity mainly to fruit/seeds, whereas the entry attributes systemic respiratory toxicity to leaves. Severity grade \"cautious\"/mild GI is reasonable and matches ASPCA, but the cyanide-poisoning framing materially overstates the hazard. Two symptom notes also contain corrupted concatenated text (\"...irritants.Labored Breathing\", \"...prussic acid).Eye Discharge\", \"...sources.Drowsiness\") indicating data-quality defects. Recommend: replace compound/mechanism with \"GI irritants,\" remove Labored Breathing and Eye Discharge, narrow toxic parts toward fruit/seeds per ASPCA.",
+    "claim_verdicts": [
+      {
+        "claim": "Plant is toxic to cats (severity 'cautious', isToxic implied true)",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA Animal Poison Control lists Bird of Paradise Flower (Strelitzia reginae) as Toxic to Dogs, Cats, and Horses. Mild GI severity matches 'cautious' grade.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower"
+      },
+      {
+        "claim": "Scientific name Strelitzia reginae",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA lists scientific name Strelitzia reginae.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower"
+      },
+      {
+        "claim": "Plant family Strelitziaceae",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA lists family Strelitziaceae.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower"
+      },
+      {
+        "claim": "Primary toxic compounds are tannins",
+        "verdict": "REFUTED",
+        "note": "ASPCA states the toxic principle is only 'GI irritants' (unspecified); Pet Poison Helpline does not name a compound. 'Tannins' appears only on non-authoritative blogs/SEO pages, not on any authoritative source. Not confirmable as the named principle.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower"
+      },
+      {
+        "claim": "Contains hydrocyanic acid / prussic acid / cyanide-releasing cyanogenic glycosides as a toxic mechanism",
+        "verdict": "REFUTED",
+        "note": "No authoritative source (ASPCA, Pet Poison Helpline) attributes cyanide/hydrocyanic-acid toxicity to Strelitzia reginae. ASPCA classifies it strictly as a mild GI irritant. The cyanide claim originates from SEO blogs and is a wrong-mechanism error that overstates the hazard.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower"
+      },
+      {
+        "claim": "Symptom: Nausea, Vomiting, and Diarrhea (GI)",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA lists 'mild nausea, vomiting'; GI signs incl. vomiting/diarrhea confirmed by Pet Poison Helpline. Core GI symptom is accurate (though entry attributes it to tannins, an unconfirmed compound).",
+        "authority": "ASPCA / Pet Poison Helpline",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower"
+      },
+      {
+        "claim": "Symptom: Drowsiness / Lethargy (Neurological)",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA explicitly lists 'drowsiness' as a clinical sign.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower"
+      },
+      {
+        "claim": "Symptom: Labored Breathing / Respiratory Distress from leaf hydrocyanic acid",
+        "verdict": "REFUTED",
+        "note": "Not listed by ASPCA or Pet Poison Helpline. Tied to the unsupported cyanide mechanism; appears only on SEO/blog content. Fabricated/over-stated systemic symptom for a plant ASPCA classes as a mild GI irritant.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower"
+      },
+      {
+        "claim": "Symptom: Eye Discharge (Dermal) 'noted in multiple veterinary sources'",
+        "verdict": "REFUTED",
+        "note": "Not listed by ASPCA or Pet Poison Helpline. No authoritative veterinary source documents eye discharge for Strelitzia reginae; the entry's citation claim is unsubstantiated. Likely fabricated or cross-contaminated.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower"
+      },
+      {
+        "claim": "Toxic parts: Leaf, Seed, Flower, Fruit, Pod (esp. seeds/pods highest-risk)",
+        "verdict": "UNVERIFIABLE",
+        "note": "ASPCA attributes effects 'mainly by fruit and seeds,' partially supporting Seed/Fruit. Leaf and Flower as toxic parts (and leaf respiratory toxicity) are not supported by authoritative sources; 'Pod' is redundant with seed. Toxic-part list is broader than ASPCA confirms.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower"
+      },
+      {
+        "claim": "Severity grading: cautious / mild GI toxicity",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA describes mild nausea/vomiting/drowsiness — consistent with a 'cautious'/mild grade. Note: internal symptom severities marked 'moderate' for the refuted respiratory symptom overstate risk.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower"
+      }
+    ]
+  },
+  "tradescantia_spathacea": {
+    "disagreement": true,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": true,
+    "summary": "CRITICAL: The entry's structured severity field is \"safe\" while ASPCA classifies the Tradescantia genus (listed as T. fluminensis \"Inch Plant,\" same genus/family Commelinaceae as T. spathacea) as TOXIC to cats. This is a dangerous safe-marked-but-toxic miss (safe_toxic_disagreement=true). The field also contradicts the entry's own description, which calls the plant \"mildly toxic.\" Beyond the severity error, the core mechanism is misstated: ASPCA's documented clinical sign for Tradescantia is DERMATITIS (contact/sap irritation), and ASPCA does NOT list Tradescantia among its calcium-oxalate plants (those are Araceae — Dieffenbachia, Philodendron). The entry's claim that calcium oxalate crystals cause mechanical oral/GI irritation appears to be cross-contamination from an aroid profile and is REFUTED/unsupported by the top authority. The dermatitis symptom and family (Commelinaceae) are CONFIRMED. GI symptoms (drooling/vomiting/diarrhea) appear only in lower-tier sources, not in ASPCA's clinical-sign listing, so they are UNVERIFIABLE against authority. overall_factual=FAIL on both the safe-vs-toxic disagreement and the refuted core mechanism.",
+    "claim_verdicts": [
+      {
+        "claim": "Severity field = 'safe' / non-toxic to cats",
+        "verdict": "REFUTED",
+        "note": "DANGEROUS MISS. ASPCA classifies the Tradescantia genus (listed as Tradescantia fluminensis, 'Inch Plant', family Commelinaceae — same genus and family as T. spathacea) as Toxic to Cats. The 'safe' grading is wrong and also internally contradicts the entry's own description, which states the plant is 'mildly toxic.' This is the safe-vs-toxic disagreement.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/inch-plant"
+      },
+      {
+        "claim": "Toxic compound = calcium oxalate crystals (raphides) in sap",
+        "verdict": "REFUTED",
+        "note": "ASPCA does not list a toxic principle for Tradescantia and lists only 'Dermatitis' as the clinical sign. ASPCA's calcium-oxalate (raphide) plants are the Araceae family (Dieffenbachia, Philodendron, etc.); Tradescantia (Commelinaceae) is not in that group. The calcium oxalate attribution appears to be cross-contamination from an aroid profile.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/inch-plant"
+      },
+      {
+        "claim": "Mechanism = calcium oxalate crystals cause mechanical irritation to oral/GI mucosa",
+        "verdict": "REFUTED",
+        "note": "ASPCA documents the harm as DERMATITIS (contact/sap irritation), not oxalate-raphide mechanical GI injury. The mechanical-irritation-via-raphides mechanism is the Dieffenbachia/aroid mechanism, not Tradescantia. Wrong mechanism for this plant.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/inch-plant"
+      },
+      {
+        "claim": "Mechanism = sap contact causes contact dermatitis",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA's single listed clinical sign for Tradescantia is 'Dermatitis,' consistent with sap-contact skin irritation. This is the correct, authority-supported mechanism.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/inch-plant"
+      },
+      {
+        "claim": "Symptom: skin irritation / rash (dermatitis)",
+        "verdict": "CONFIRMED",
+        "note": "Matches ASPCA's listed clinical sign 'Dermatitis' for Tradescantia.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/inch-plant"
+      },
+      {
+        "claim": "Symptoms: drooling (hypersalivation), vomiting, diarrhea (GI)",
+        "verdict": "UNVERIFIABLE",
+        "note": "ASPCA lists ONLY dermatitis for Tradescantia, not GI signs. GI symptoms appear only in non-authoritative blog/care sites, several of which derive them from the (refuted) calcium-oxalate claim. Per the skeptical default, absence of authoritative confirmation = flag, not pass. The GI symptom set may also be carried over from the misattributed oxalate mechanism.",
+        "authority": "ASPCA (silent on GI signs)",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/inch-plant"
+      },
+      {
+        "claim": "Toxic parts: sap, stem, leaf",
+        "verdict": "UNVERIFIABLE",
+        "note": "ASPCA does not enumerate specific toxic parts; it lists the plant as toxic with dermatitis. Sap-as-irritant is consistent with the dermatitis mechanism, but a per-part breakdown is not authority-verified.",
+        "authority": "ASPCA (no part-level data)",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/inch-plant"
+      },
+      {
+        "claim": "Scientific name = Tradescantia spathacea",
+        "verdict": "CONFIRMED",
+        "note": "Valid accepted binomial for Oyster Plant / Moses-in-the-Cradle, genus Tradescantia, which ASPCA lists as toxic at genus level (via T. fluminensis).",
+        "authority": "ASPCA / NC State Extension",
+        "url": "https://plants.ces.ncsu.edu/plants/tradescantia-spathacea/"
+      },
+      {
+        "claim": "Family = Commelinaceae",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA lists the Tradescantia 'Inch Plant' entry under family Commelinaceae; matches.",
+        "authority": "ASPCA Animal Poison Control",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/inch-plant"
+      }
+    ]
+  },
+  "zephyranthes_drummondii": {
+    "disagreement": true,
+    "overall_factual": "FAIL",
+    "safe_toxic_disagreement": true,
+    "summary": "CRITICAL FALSE ALARM. The entry grades Prairie Lily (Zephyranthes drummondii) as toxic (\"severity\": \"cautious\", isToxic implied) and describes a lycorine-driven emetic/hypotensive/CNS syndrome with vomiting, diarrhea, drooling, tremors, hypotension, and convulsions. The authoritative ASPCA Animal Poison Control plant database lists this exact species — Prairie Lily, Zephyranthes drummondii, family Amaryllidaceae, common names giant rain lily / hill country rain lily — as NON-TOXIC to both cats and dogs, with no toxic principle assigned. This is lethal failure mode (a): an item ASPCA calls non-toxic is marked toxic. The toxicology described (lycorine, phenanthridine alkaloids, bulb-most-concentrated, emetic-center activation, vasodilation/hypotension, CNS depression, convulsions) is the classic profile of Amaryllidaceae bulb plants such as daffodil (Narcissus) and amaryllis (Hippeastrum) — a cross-contamination from a different plant's profile (the dataset's noted common error). While the genus Zephyranthes does botanically contain lycorine and the family attribution is correct, no authority confirms clinical toxicity for THIS species in cats; ASPCA explicitly clears it. The species-specific ASPCA entry overrides generic \"less toxic lily / GI upset\" roundup mentions, which stem from Lilium-name confusion. Recommend: reclassify as non-toxic per ASPCA, or remove the entry. The discrete symptoms, mechanism, and severity are all unsupported for this plant.",
+    "claim_verdicts": [
+      {
+        "claim": "Zephyranthes drummondii (Prairie Lily) is toxic/dangerous to cats (severity: cautious)",
+        "verdict": "REFUTED",
+        "note": "ASPCA Animal Poison Control plant database lists Prairie Lily (Zephyranthes drummondii) as NON-TOXIC to cats and dogs. Direct safe-vs-toxic disagreement; false alarm.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/prairie-lily",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Plant family is Amaryllidaceae",
+        "verdict": "CONFIRMED",
+        "note": "ASPCA entry lists family Amaryllidaceae for this species. Botanically correct, but family being toxin-bearing does not make this species toxic per ASPCA.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/prairie-lily",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Toxic compound is lycorine and phenanthridine alkaloids",
+        "verdict": "UNVERIFIABLE",
+        "note": "Genus Zephyranthes does contain lycorine/phenanthridine alkaloids per phytochemical literature, but no animal-poison authority assigns a toxic principle to this species because ASPCA deems it non-toxic. The compound claim is borrowed from the Amaryllidaceae/daffodil profile and not validated as clinically relevant to cats for this plant.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/prairie-lily",
+        "authority": "ASPCA (silent on toxic principle; lists as non-toxic)"
+      },
+      {
+        "claim": "Mechanism: lycorine activates the brainstem emetic center; high doses cause vasodilation, hypotension, CNS depression",
+        "verdict": "REFUTED",
+        "note": "This is the documented mechanism for Amaryllidaceae bulbs like daffodil/amaryllis, not a validated mechanism for feline ingestion of this ASPCA-non-toxic species. Cross-contamination from another plant's toxicology profile.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/prairie-lily",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Symptoms: vomiting, diarrhea, hypersalivation, tremors, hypotension, convulsions in cats",
+        "verdict": "REFUTED",
+        "note": "No clinical signs are recognized by ASPCA for this species since it is classified non-toxic. The severe signs (tremors, hypotension, convulsions) match daffodil/amaryllis bulb toxicosis, not this plant. Fabricated/transplanted symptoms.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/prairie-lily",
+        "authority": "ASPCA Animal Poison Control"
+      },
+      {
+        "claim": "Toxic parts: bulb (most concentrated), leaf, stem, flower; bulb most dangerous",
+        "verdict": "REFUTED",
+        "note": "ASPCA lists no toxic parts because the species is non-toxic. The 'bulb-most-toxic' framing is the standard daffodil/amaryllis pattern, again indicating cross-contamination.",
+        "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/prairie-lily",
+        "authority": "ASPCA Animal Poison Control"
+      }
+    ]
+  }
+}

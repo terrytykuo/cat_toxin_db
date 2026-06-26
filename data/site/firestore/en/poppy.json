@@ -8,11 +8,11 @@
   ],
   "name": "Poppy",
   "aliases": [],
-  "description": "Poppy (Papaver spp.) is toxic to cats due to the presence of isoquinoline alkaloids — including morphine, codeine, papaverine, and related opioid compounds in opium poppy (Papaver somniferum), and non-opioid isoquinolines in other species. All parts of the plant contain these alkaloids, with the highest concentration in the seed pod latex.",
+  "description": "Poppy (Papaver spp.) is a toxic plant for cats because it contains chemicals called alkaloids. In some poppies, these are powerful opioid compounds, while other types of poppies have different but still harmful alkaloids. All parts of the plant are dangerous, but the milky sap inside the seed pods is the most toxic part.\n\nThese plant chemicals slow down the central nervous system and breathing. Cats are especially sensitive to these types of compounds. Even decorative poppies that do not contain opioids can upset their stomach and make them sick.\n\nIf a cat eats parts of a poppy, they may become very sleepy, lose their coordination, vomit, or have dilated pupils. In serious cases, it can cause dangerous breathing problems or collapse. Any suspected poppy eating is a serious concern, so please contact a veterinarian immediately for an evaluation.",
   "safetyNotes": [
     "Toxic compounds: isoquinoline alkaloids (opioid and non-opioid types depending on species); seed pod latex most concentrated",
     "Mechanism: opioid alkaloids bind to mu-opioid receptors, causing CNS and respiratory depression; cats are particularly sensitive to opioids",
-    "Symptoms: sedation, lethargy, pin-point pupils, slow or laboured breathing, loss of coordination, vomiting; severe cases cause respiratory failure",
+    "Symptoms: sedation, lethargy, dilated pupils, slow or laboured breathing, loss of coordination, vomiting; severe cases cause respiratory failure",
     "Even ornamental (non-opium) poppy species contain irritant alkaloids that cause GI upset",
     "Any suspected poppy ingestion warrants prompt veterinary evaluation due to opioid sensitivity in cats"
   ],
