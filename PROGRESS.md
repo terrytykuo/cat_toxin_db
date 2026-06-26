@@ -1,5 +1,17 @@
 # Cat Toxin DB — Progress Log
 
+## 2026-06-26 — 任務 C：截斷類雜訊安全 LLM pass 完成
+
+詳見 `docs/CONTENT_AUDIT_RESUME.md`（single source of truth）。
+
+- **NotebookLM 截斷/洩漏雜訊全面清理**（task wz2urpg8b，56 批 ~2.27M token）。看似 3301 個 `looks_truncated` flag，扣除 979+ 個 `symptoms.name`/`onset` 短標籤假陽性，真正候選 **1929 筆**（symptoms/treatments/chemicals 的 notes/description）。
+- 先做確定性清理：43（footnote 1–2 位 + 雙數字標題）+ 437（嚴格 leaked header，尾綴 `. N.` 且 N==index+2）+ 後續 489 footnote。
+- 安全 context-aware LLM 修補，四動作 **不捏造**：**911 ADD_PERIOD**（完整句補句號）、**581 STRIP_LEAK**（刪黏連下一標題/sibling 名/來源引用/footnote）、**433 TRIM_TRUNCATED**（真截斷→修剪到上一完整句，絕不補回遺失字）、**4 LEAVE**（整欄單一截斷句，無可退守 → 原樣保留，待人工 re-query 來源）。
+- 套用前**獨立重驗 invariant**（ADD=orig+"."、TRIM/STRIP 必為 orig 前綴且收尾標點）：本次 0 違規、0 套錯。
+- **驗證：JSON 全合法、schema enum 0 新違規、`looks_truncated` 3301→985（剩餘全為合法短標籤 + 4 LEAVE）、collision 檔（malus_spp/persea_americana 同名於兩 dir）已正確分流。**
+- 完整 provenance（每欄位 orig+cleaned+dir+arr+idx，可逆）：`data/audits/content-noise-llm-pass-2026-06-26.json`。可重用工具：`pipeline/noise_*.py`、`.agent/workflows/scripts/noise-llm-safe-pass.workflow.js`。
+- **狀態誠實聲明：資料檔僅寫 disk canonical，未 commit（沿用前 session reconciliation 模式），亦未碰 Firestore（任務 D）。本 session 只 commit 工具/audit/docs。** 至此內容稽核只剩任務 D（Firestore sync，需人工把關）。
+
 ## 2026-06-26 — 內容驗證 P2 refute 補跑 + round-2/3 事實修正
 
 詳見 `docs/CONTENT_AUDIT_RESUME.md`（single source of truth）。

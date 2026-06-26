@@ -28,21 +28,27 @@
 - [x] **P2 refute 補跑（54 筆）** — ✅ 2026-06-26 完成（task wsrpnfji9，54/54）。結果存 `data/audits/verify-localize-2026-06-26-p2-refute-round2.json`，已合併進 p2.json，pending=0。新發現 16 FAIL（7 筆 safe↔toxic）、11 NEEDS_REVIEW。
 - [x] **P2 round-2 FAIL 修正（16/16）** — ✅ 2026-06-26（task wh9k16vjo，腳本 `factual-fix-p2-round2.workflow.js`，摘要 `data/audits/p2-round2-factual-fix-2026-06-26.json`）。7 筆 severity 翻轉 + pudding 一致性已寫 *_processed canonical；2 處 glossary key 正規化（peony Leaves→Leaf、potato_chips Hematologic→Hematological）；16 筆 schema enum 0 違規。**firestore/en 快取部分仍舊值（6 筆），不影響 sync**（sync 讀 *_processed，firestore/en 僅判 slug 存在）。
 - [x] **P2 NEEDS_REVIEW（11/11）跟進** — ✅ 2026-06-26（task wig1q79dc，腳本 `factual-fix-p2-round3.workflow.js`，摘要 `data/audits/p2-round3-needsreview-fix-2026-06-26.json`）。全部方向正確；清理交叉污染症狀（mentha_chocolate 移除 methylxanthine、nightshade 移除溶血/呼吸麻痺等馬科 cross-contam）、isToxic 一致性（peaches/pretzels/raw_meat false→true）、raw_eggs severity toxic→cautious（高估降級）。0 SCHEMA enum 違規。**注意：部分 firestore/zh-TW 快取仍含舊 fabricated 症狀，待任務 D sync 從 canonical 重生。**
-- [ ] **截斷類雜訊 LLM pass（~3405 欄位）** — ⏳ 未做。見任務 C
+- [x] **截斷類雜訊 LLM pass** — ✅ 2026-06-26 完成（task wz2urpg8b，56 批 ~2.27M token）。看似 3301 flag，扣除 979+ 個 name/onset 短標籤假陽性，真正候選 1929。安全 context-aware 修補：911 ADD_PERIOD、581 STRIP_LEAK、433 TRIM_TRUNCATED、4 LEAVE（不可復原，未捏造）。另先做 480 確定性 strip（43 footnote/雙標題 + 437 嚴格 leaked header）+ 後續 489 footnote 清理。**0 捏造、0 新 schema 違規、JSON 全合法。** 完整 provenance：`data/audits/content-noise-llm-pass-2026-06-26.json`。剩 4 LEAVE 為來源端真截斷，留待人工 re-query（見下方清單）。
 - [ ] **Firestore sync（§8）** — ⏳ 未做，需先人工 review 全部 disk diff。見任務 D
-- [ ] **§9 記錄 + commit** — 每個檢查點做。見任務 E
+- [ ] **§9 記錄 + commit** — 每個檢查點做。見任務 E。**任務 C 的資料檔變更沿用前 session 模式：disk 已套用但未 commit，待人工 reconciliation 一併處理；本 session 只 commit 工具/audit/docs（非資料檔）。**
 
 對抗式覆蓋率：**200/200（100%）** 已完成事實查證（P1 44 + P2 149 + 補齊）。
 **內容事實修正（A/A2/B/round2/round3）全部完成**——所有 safe↔toxic 方向錯誤、交叉污染、假化合物均已修正落 disk canonical。
 
 ---
 
-## 🟢 新 session 從這裡開始（任務 C、D）
+## 🟢 新 session 從這裡開始（只剩任務 D）
 
-**事實查證階段已收尾**，剩兩件事，互相獨立：
+**事實查證 + 雜訊清理階段皆已收尾。** 只剩一件事：
 
-1. **任務 C — 截斷類雜訊 LLM pass**（純資料品質清理，不碰事實判定）。可自動化、不需人工前置。見下方任務 C。
-2. **任務 D — Firestore sync**（把已修正的 disk canonical 推上 live store）。**需人工 review disk diff 後才能跑**，且有本 session 新發現的快取 caveat。見下方任務 D。
+1. ~~任務 C — 截斷類雜訊 LLM pass~~ ✅ **2026-06-26 完成**（見下方任務 C 與快照）。所有 notes/description 的 NotebookLM 雜訊已清，僅剩 4 LEAVE 真截斷。
+2. **任務 D — Firestore sync**（把已修正的 disk canonical 推上 live store）。**需人工 review disk diff 後才能跑**，且有快取 caveat。見下方任務 D。**這是唯一剩餘工作，且需你人工把關。**
+
+**4 個 LEAVE（來源端真截斷，未捏造，留待人工 re-query 原始 NotebookLM 來源）：**
+- `plants_processed/cananga_odorata.json` symptoms[4].notes（`…pre-existing conditions l`）
+- `plants_processed/melaleuca_alternifolia.json` symptoms[6].notes（`…medical conditions like as`）
+- `plants_processed/sansevieria_spp.json` treatments[1].notes（`…saponins and`）
+- `plants_processed/tulipa_spp.json` treatments[2].notes（`…requiring targeted emerg`）
 
 **目前 git 狀態（branch `content-audit-2026-06-25`，與 main 隔離）：**
 本 session 的內容修正**已 commit**到此分支（不同於 2026-06-25(d) 當時「資料檔未 commit」的狀態）：
@@ -62,6 +68,11 @@
 | glossary 正規化（確定性） | `pipeline/normalize_zh_glossary.py` | `python3 ... [--apply]` |
 | 雜訊清理（保守確定性） | `pipeline/clean_notebooklm_noise.py` | `python3 ... [--apply] [--flags]` |
 | 審查結果 + 待補清單 | `data/audits/verify-localize-2026-06-25-{p1,p2}.json`、`p2_refute_pending.json` | — |
+| 雜訊：嚴格 leaked header strip（確定性，index+2） | `pipeline/noise_strip_leaked_headers.py` | `python3 … [--apply]` |
+| 雜訊：建截斷候選清單 | `pipeline/noise_build_candidates.py` | `python3 …` → candidates.json |
+| 雜訊：安全 LLM pass（4 動作，可續跑） | `.agent/workflows/scripts/noise-llm-safe-pass.workflow.js` | `Workflow({scriptPath})` |
+| 雜訊：合併+重驗 invariant+套用（dir-aware） | `pipeline/noise_apply_llm_fixes.py` | `python3 … [--apply]` |
+| 雜訊 pass 完整 provenance | `data/audits/content-noise-llm-pass-2026-06-26.json` | — |
 
 **讀取 Workflow 結果**：背景跑完會有 `<task-notification>`，內含 `output-file` 路徑。
 該檔是 `{summary, agentCount, logs, result}`，要的資料在 `["result"]`（不是頂層）。
@@ -162,7 +173,25 @@ PY
 
 ---
 
-## 任務 C — 截斷類雜訊 LLM pass（~3405 欄位）⏳
+## 任務 C — 截斷類雜訊 LLM pass ✅ 已完成（2026-06-26）
+
+> 歷史紀錄 + 可重用方法。**勿重跑**（disk 已套用，dry-run 0 變更）。完整 provenance（每欄位 orig+cleaned+dir+arr+idx，可逆）：`data/audits/content-noise-llm-pass-2026-06-26.json`。
+
+**做法（已執行）：**
+1. 確定性清理 `pipeline/clean_notebooklm_noise.py --apply`（footnote 數字 1–2 位 + 雙數字 leaked header）。
+2. 確定性嚴格 leaked header strip `pipeline/noise_strip_leaked_headers.py --apply`：只刪尾綴 `. N.` 且 **N == 陣列 index+2**（必為下一段標題洩漏，零誤判），共 437 筆。
+3. 建候選 `pipeline/noise_build_candidates.py`（所有 `looks_truncated` 且非 symptoms.name/onset 短標籤 → 1929 筆）。
+4. 安全 LLM pass `.agent/workflows/scripts/noise-llm-safe-pass.workflow.js`（56 批 ×35，每批寫 disk 可續跑）。四動作：**ADD_PERIOD**（完整句補句號）、**STRIP_LEAK**（刪黏連標題/sibling 名/引用/footnote）、**TRIM_TRUNCATED**（真截斷→修剪到上一個完整句，絕不補字）、**LEAVE**（整欄單一截斷句無可退守→原樣保留）。
+5. 套用 `pipeline/noise_apply_llm_fixes.py --apply`：**獨立重驗 invariant**（ADD=orig+"."、TRIM/STRIP 必為 orig 前綴且收尾標點），違規一律不套（本次 0 違規）；再重跑步驟 1 清掉 trim 暴露出的 footnote。
+6. 驗證：JSON 全合法、schema enum 0 新違規（既有 9 筆 toxic_part/body_system/長度屬 K11/K16，非本批）。
+
+結果：**911 ADD_PERIOD + 581 STRIP_LEAK + 433 TRIM_TRUNCATED + 4 LEAVE**。`looks_truncated` flag 3301→985（剩餘全是合法 name/onset 短標籤 + 4 LEAVE）。
+
+⚠️ **踩過的坑（已修進 `noise_apply_llm_fixes.py`）：** `malus_spp.json`、`persea_americana.json` 在 plants_processed 與 foods_processed **同名**。初版 apply 只用 basename 找檔（plants 優先）→ foods 候選被誤導到 plants 檔 → IndexError 中斷 + 可能靜默寫錯。修法：候選 = [plants 區塊]+[foods 區塊]，以「第一個 foods-only 候選」為 boundary（index 1082），`i<boundary→plants`。新 session 若再批次改這兩檔務必 dir-aware。
+
+---
+
+## 任務 C（原始說明，保留供參）
 
 保守雜訊腳本只清明確型態，留下「來源句子中斷」（如 `…making the cat`）與單數字洩漏標題未修（避免誤刪合法內容）。查清單：
 ```bash
@@ -252,6 +281,7 @@ mentha_x_piperita_chocolate / orange_mint 的呼吸道症狀 severe 是否降級
 
 ## 完成日誌（最新在上）
 
+- 2026-06-26 (d) — **任務 C 完成：截斷類雜訊安全 LLM pass**（task wz2urpg8b，56 批 ~2.27M token）。1929 真候選（扣 979+ name/onset 假陽性）：911 ADD_PERIOD + 581 STRIP_LEAK + 433 TRIM_TRUNCATED + 4 LEAVE。另先做 480 確定性 strip + 489 footnote 清理。**0 捏造**（TRIM 只修剪到上一完整句、LEAVE 不補字）、**0 新 schema 違規**、JSON 全合法、collision 檔已正確分流。獨立 invariant 重驗 0 違規。Provenance：`data/audits/content-noise-llm-pass-2026-06-26.json`；工具：`pipeline/noise_*.py` + `.agent/workflows/scripts/noise-llm-safe-pass.workflow.js`。**資料檔僅寫 disk 未 commit**（沿用前 session reconciliation 模式）；本 session 只 commit 工具/audit/docs。剩 4 LEAVE 待人工 re-query。**至此只剩任務 D（Firestore sync，需人工把關）。**
 - 2026-06-26 (c) — **NEEDS_REVIEW 11/11 修正完成**（task wig1q79dc，~491K token）。症狀交叉污染清理 + isToxic 一致性 + raw_eggs toxic→cautious。0 SCHEMA enum 違規。摘要 `data/audits/p2-round3-needsreview-fix-2026-06-26.json`。至此 P2 149 筆（FAIL 16 + NEEDS_REVIEW 11）全數修正落 disk canonical。**caveat：部分 firestore/zh-TW 快取仍含舊值，待任務 D sync 重生。**
 - 2026-06-26 (b) — **任務 B FAIL 修正完成**：16/16 事實修正（task wh9k16vjo，~655K token，外科式 Edit）。**7 筆 severity 方向修正**：peony safe→cautious、tradescantia_spathacea safe→cautious（漏報補正）；zephyranthes_drummondii cautious→safe、milk_and_dairy/persimmons/pine/pistachios/peanuts/potato_chips toxic→cautious（假警報降級）；pudding 修 isToxic/level 一致性。另修 nandina 學名/family/化合物、mentha 移除 pennyroyal 交叉污染肝毒、poppy 瞳孔矛盾、ragwort PA 化合物、raw_dough toxicParts/ADH 等。2 處 glossary key 對齊（peony Leaves→Leaf、potato_chips Hematologic→Hematological）。schema 驗證：16 筆 0 SCHEMA enum 違規（資料集既有 completeness shape 噪音 170/198 屬 K11/K16，非本批）。摘要 `data/audits/p2-round2-factual-fix-2026-06-26.json`。**全部僅寫 disk canonical，未碰 live Firestore（任務 D）。**
 - 2026-06-26 (a) — **任務 B 完成**：P2 refute 補跑 54/54（task wsrpnfji9，~1.45M token，web-grounded refute-by-default）。對抗式覆蓋率達 **200/200（100%）**。合併進 p2.json（pending=0），結果存 `verify-localize-2026-06-26-p2-refute-round2.json` + FAIL 明細 `p2-refute-round2-fails-detail.json`。新發現 **16 FAIL**（7 筆 safe↔toxic disagreement：peony/tradescantia_spathacea safe→toxic 漏報；zephyranthes_drummondii/milk_and_dairy/persimmons/pine/pistachios toxic→cautious/safe 假警報）+ 11 NEEDS_REVIEW。
