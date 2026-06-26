@@ -1,0 +1,547 @@
+{
+  "summary": "Apply authority-grounded cleanups to the 11 P2 NEEDS_REVIEW entries (symptom cross-contamination, overstated severity, misleading compounds) to canonical disk files, surgically via Edit",
+  "agentCount": 11,
+  "logs": [
+    "P2 round-3 NEEDS_REVIEW fixes applied to 11/11 entries"
+  ],
+  "result": {
+    "fixed": 11,
+    "entries": [
+      {
+        "slug": "mentha_x_piperita_chocolate",
+        "severity_change": "none",
+        "en": [
+          "chemicals[]: removed the entire fabricated 'Theobromine and Caffeine (Methylxanthines)' entry (chemicals[1]) — REFUTED cross-contamination from a chocolate/cacao profile; mint contains no methylxanthines (ASPCA toxic principle for Mint is essential oils).",
+          "chemicals[0].name: changed 'Essential oils, specifically Menthol and Pulegone ...' to 'Essential oils, chiefly Menthol and Menthone (the volatile monoterpenes ...)' — pulegone is pennyroyal's (Mentha pulegium) hepatotoxin, not peppermint, which is mainly menthol/menthone (REFUTED pulegone attribution).",
+          "description: replaced 'menthol, pulegone, and other monoterpene compounds' with 'menthol, menthone, and other essential-oil monoterpenes' (removed misattributed pulegone).",
+          "symptoms[] hepatic entry: renamed 'Jaundice ... and signs of liver failure' -> '... and signs of liver stress'; downgraded severity 'fatal' -> 'moderate' (REFUTED fatal grade — ASPCA documents only vomiting/diarrhea for the mint plant); rewrote notes to remove the pulegone attribution and ground severity in concentrated essential-oil exposure vs whole-plant nibbling, with authority context."
+        ],
+        "zh": [
+          "symptoms[]: removed the empty stub object {name:'', body_system:'', onset:''} that was the blanked-out fabricated methylxanthine symptom ('過度活躍、顫抖、癲癇、心律不整與體溫過高') — zh now has 5 symptoms matching EN.",
+          "description: changed '胡薄荷酮 (pulegone)' to '薄荷酮 (menthone)' and '其他單萜類化合物' to '其他精油單萜類化合物' to match the corrected EN compound list (removed misattributed pulegone).",
+          "symptoms[] hepatic entry: renamed '黃疸與肝衰竭徵象' -> '黃疸與肝臟負擔徵象' and onset '延遲（毒素累積且肝臟無法處理時）。' -> '延遲（毒素累積、肝臟負擔加重時）。' to match the softened EN 'liver stress'."
+        ],
+        "files": [
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/plants_processed/mentha_x_piperita_chocolate.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/zh-TW/mentha_x_piperita_chocolate.json"
+        ],
+        "left": [
+          "Respiratory symptom graded 'severe' (EN symptoms[2]): verify.claim_verdicts marks it UNVERIFIABLE (overstated), not REFUTED — ASPCA lists no respiratory signs for the mint plant, but Pet Poison Helpline documents irritation from concentrated/inhaled essential oils. Left the 'severe' grade unchanged to avoid softening a potentially real danger; flagged for vet review/possible downgrade.",
+          "Neurological symptom (EN symptoms[1]) is UNVERIFIABLE per finding (plausible for concentrated oils but not ASPCA-documented for whole-leaf ingestion). Left as-is since not REFUTED.",
+          "Top-level severity kept 'toxic' and isToxic true (CONFIRMED by ASPCA Mint listing); toxicityLevel left 'mild' — internally consistent with toxic+GI-only authority picture, not flagged by the finding.",
+          "Glued-on heading fragments in EN symptoms[].notes/treatments[].notes ('Neurological Depression', 'CNS and Cardiac Stimulation (Methylxanthine Toxicity)', 'Hypersalivation', 'Liver Failure', etc.) left untouched per instructions — these are NotebookLM formatting noise handled by the dataset-wide batch script. NOTE the methylxanthine fragment is the seed of the fabricated symptom; if the batch script does not strip it, the chemical/symptom error could re-propagate.",
+          "Firestore-shaped cache /data/site/firestore/zh-TW/mentha_x_piperita_chocolate.json STILL contains the fabricated methylxanthine symptom ('過度活躍、顫抖、癲癇、心律不整與體溫過高') — out of scope for this two-file edit (dataset-wide sync territory) but must be re-synced/regenerated from the corrected canonical files before reaching Firestore/site."
+        ]
+      },
+      {
+        "slug": "nightshade",
+        "severity_change": "none",
+        "en": [
+          "Severity kept 'toxic' / isToxic effectively true — ASPCA confirms Nightshade (Solanum spp.) is toxic to cats; no safe/toxic flip, so no severity change.",
+          "Removed REFUTED symptom block 'Hemolysis (destruction of red blood cells), resulting in anemia, jaundice (icterus), and hemoglobinuria' — finding identifies this as cross-contamination from equine/livestock Solanum toxicology, not a documented feline sign (ASPCA cat profile). Removed from data/site/firestore/en/nightshade.json and data/plants_processed/nightshade.json symptoms[].",
+          "Removed REFUTED symptom block 'Difficulty breathing progressing to respiratory paralysis' (graded fatal) — finding: 'respiratory paralysis as terminal cause of death' is a horse/livestock description, not in ASPCA's cat sign list. Removed from both files.",
+          "Downgraded bradycardia symptom from severity 'fatal' to 'severe' — finding: bradycardia is a real but uncommon/secondary feline sign; 'fatal' overstates feline risk. Renamed from 'Abnormally slow heart rate (bradycardia) and circulatory failure' to 'Abnormally slow heart rate (bradycardia)' and rewrote the notes to drop the cross-contaminated 'circulatory failure can lead to death' framing; replaced NotebookLM footnote/header residue in that one note as a side effect of the rewrite.",
+          "Removed the REFUTED 'Red blood cell destruction: ... hemolysis ... anemia and subsequent kidney damage' mechanism bullet from toxins[0].description in data/plants_processed/nightshade.json (same equine/livestock cross-contamination)."
+        ],
+        "zh": [
+          "Removed the two zh-TW symptom rows that mirror the REFUTED EN blocks: '溶血（紅血球破壞），導致貧血、黃疸以及血紅素尿' and '呼吸困難，進而發展為呼吸麻痺'. Now 4 symptoms, aligned with corrected EN.",
+          "Updated bradycardia row name from '心跳異常緩慢（心動過緩）和循環衰竭' to '心跳異常緩慢（心動過緩）' to drop the cross-contaminated '循環衰竭' (circulatory failure) framing, mirroring the corrected EN name."
+        ],
+        "files": [
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/en/nightshade.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/zh-TW/nightshade.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/plants_processed/nightshade.json"
+        ],
+        "left": [
+          "PATH MISMATCH: The prompt named EN canonical = data/plants_processed/nightshade.json and zh = data/site/zh-TW/nightshade.json, but (a) plants_processed uses a different raw schema (plant/basics/toxins) not the prompt's description/safetyNotes/chemicals schema, and (b) data/site/zh-TW/nightshade.json does NOT exist (no en/ counterpart either). The files matching the prompt's described schema are data/site/firestore/{en,zh-TW}/nightshade.json, so those are the canonical site files I edited; I also applied consistent symptom corrections to plants_processed since it shares the symptoms data. Confirm these are the intended targets and whether a non-firestore data/site/{en,zh-TW}/nightshade.json should also exist.",
+          "Seizures: UNVERIFIABLE (ASPCA silent). Left the seizures mention in EN description and in the neurological symptom row (and zh equivalent 癲癇) rather than removing — 'unverifiable' is not 'refuted' and removing could soften documented neuro risk. The verify summary suggests dropping/flagging; flag here for reviewer.",
+          "Glucuronidation susceptibility claim: UNVERIFIABLE. Left in plants_processed toxins[0].description and in the neurological symptom notes (zh drops notes entirely). It is a generally-true fact about feline metabolism; only its nightshade-specific severity extrapolation is unsupported. Did not remove to stay conservative.",
+          "zh chemical-name divergence: solanine rendered 龍葵鹼 / 配糖生物鹼 / 生物鹼糖苷 vs glossary-canonical 茄鹼 / 糖苷生物鹼. These are valid synonyms (not mistranslations) and the audit also lists them under glossary_divergences, which is the dataset-wide batch script's domain (glossary normalization is in the do-not-touch list). Left unchanged for the batch script.",
+          "NotebookLM footnote/header residue in the remaining EN symptoms[].notes (e.g. 'epithelial cells7 ... 2. Hypersalivation...') left as-is per instructions (dataset-wide batch handles pure-formatting noise); only the bradycardia note was rewritten because its content was being factually corrected.",
+          "Did NOT add per-symptom severity to zh-TW rows (zh omits the severity field) — explicitly listed as leave-as-is."
+        ]
+      },
+      {
+        "slug": "orange_mint",
+        "severity_change": "none (top-level severity stays \"toxic\" — CONFIRMED by ASPCA: Mentha sp., Lamiaceae is toxic to cats; only per-symptom severities and compound emphasis were corrected)",
+        "en": [
+          "data/site/firestore/en/orange_mint.json — safetyNotes[0]: replaced pulegone-lead compound framing with the authority-supported principle. Old: 'Toxic compounds: pulegone, linalool, and citrus-scented monoterpenoids; concentration increases in the flowers and essential oil'. New: 'Toxic principle: essential oils (monoterpenoids). Orange mint oil is dominated by linalool and linalyl acetate; concentration is highest in the flowers and extracted essential oil'. (REFUTED: pulegone is the hallmark of pennyroyal, not orange mint; ASPCA principle = essential oils; oil composition is linalool/linalyl-acetate dominant.)",
+          "data/site/firestore/en/orange_mint.json — symptom[0] (GI: vomiting/diarrhea/drooling) severity 'severe' -> 'mild' (REFUTED: ASPCA grades plant GI signs as occurring only 'with large ingestions', i.e. mild/self-limiting, matching the entry's own safetyNotes).",
+          "data/site/firestore/en/orange_mint.json — symptom[1] (lethargy/weakness/ataxia/tremors/seizures) body_system 'Gastrointestinal' -> 'Neurological' (en_quality flagged this as a factual mislabel; signs are plainly neurological). Severity left 'severe' (UNVERIFIABLE concentrated-oil sign; notes already silo it to oils).",
+          "data/site/firestore/en/orange_mint.json — symptom[3] (liver damage -> liver failure) severity 'fatal' -> 'moderate' (REFUTED: ASPCA lists no hepatic sign for the mint plant; fatal hepatic failure is a pennyroyal/concentrated-oil phenomenon, so 'fatal' on a garden-plant entry is a severe overstatement; downgraded but not removed since the note correctly scopes it to concentrated-oil exposure).",
+          "data/plants_processed/orange_mint.json — toxins[0].name: 'Essential oils, which in mint plants primarily include compounds like menthol (and sometimes pulegone)' -> 'Essential oils (monoterpenoids); orange mint oil is dominated by linalool and linalyl acetate' (same REFUTED-compound correction in canonical mirror).",
+          "data/plants_processed/orange_mint.json — symptom[0] GI severity 'severe' -> 'mild' (matches firestore EN).",
+          "data/plants_processed/orange_mint.json — symptom[1] body_system 'Gastrointestinal' -> 'Neurological' (matches firestore EN).",
+          "data/plants_processed/orange_mint.json — symptom[3] Hepatic severity 'fatal' -> 'moderate' (matches firestore EN)."
+        ],
+        "zh": [
+          "data/site/firestore/zh-TW/orange_mint.json — description opening mistranslation fixed: '檸檬薄荷（Orange Mint）...' -> '柳橙薄荷（Orange Mint）...'. (zh_fidelity issue: body said 檸檬薄荷 = lemon mint, factually wrong for the species and inconsistent with the 柳橙薄荷 name field.)",
+          "data/site/firestore/zh-TW/orange_mint.json — safetyNotes[0] compound fix to match corrected EN: removed pulegone (胡薄荷酮) as a lead toxin. Old: '有毒化合物：胡薄荷酮 (pulegone)、芳樟醇 (linalool) 和柑橘味單萜類化合物；在花朵和精油中濃度較高'. New: '有毒成分：植物精油（單萜類化合物）。柳橙薄荷精油主要由芳樟醇 (linalool) 和乙酸芳樟酯 (linalyl acetate) 構成；在花朵和萃取精油中濃度最高'.",
+          "data/site/firestore/zh-TW/orange_mint.json — symptom[1] body_system '消化系統' -> '神經系統' (factual mistag correction matching EN re-tag of the neurological symptom; this is a factual relabel, not the 消化系統-vs-腸胃道 glossary normalization that was left untouched)."
+        ],
+        "files": [
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/plants_processed/orange_mint.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/en/orange_mint.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/zh-TW/orange_mint.json"
+        ],
+        "left": [
+          "Task named the zh-TW path as data/site/zh-TW/orange_mint.json, which does not exist. The actual zh-TW canonical mirror is data/site/firestore/zh-TW/orange_mint.json (confirmed via find). I edited that file. If a legacy data/site/zh-TW/ entry is expected to exist, it is missing and was not created.",
+          "symptom[2] (Respiratory: difficulty breathing/coughing/sneezing, severity 'severe') and symptom[4] (Dermal burns, 'moderate') were left as-is. Verdicts are UNVERIFIABLE (not REFUTED) — these are real concentrated-essential-oil signs cross-contaminated onto the plant profile, but their notes already scope them to oil exposure. A reviewer may wish to either silo them more explicitly as oil-only or remove them from the plant entry; I left them to stay conservative.",
+          "symptom[1] neurological severity kept at 'severe' (verdict UNVERIFIABLE: seizures are not documented even on VCA's essential-oil page, ataxia/tremors are oil-only). I corrected the body_system mislabel but did not change the severity, since downgrading was not unambiguously authority-justified. Reviewer may want to qualify seizures or downgrade.",
+          "Hepatic symptom downgraded fatal->moderate rather than removed: ASPCA lists no hepatic sign for the plant at all, so a stricter reading would delete the symptom. I downgraded instead of deleting because the note legitimately documents concentrated-oil hepatotoxicity; flag for reviewer if the entry should be plant-only.",
+          "NotebookLM artifacts in symptom notes (e.g. '6. 2. Neurological Impairment', dangling footnote digits, the truncated/unclosed onset parenthesis in symptom[3]) and the garbage top-level description in data/plants_processed/orange_mint.json were left untouched per instructions (separate batch script handles formatting noise).",
+          "body_system glossary normalization left as-is per instructions: zh 消化系統 (vs canonical 腸胃道), 肝臟系統 (vs 肝臟); toxicParts 葉/整株植物 (vs 葉子/全株有毒); EN 'Hepatic' label retained.",
+          "Dropped per-symptom severity in the zh-TW file left as-is per instructions (zh schema omits symptom severity).",
+          "toxicParts (Leaf, Entire Plant) left unchanged — verdict UNVERIFIABLE (plausible, ASPCA does not enumerate parts), no authority basis to change."
+        ]
+      },
+      {
+        "slug": "philodendron_spp_including_birkin",
+        "severity_change": "none",
+        "en": [
+          "Removed REFUTED symptom (symptoms[4]) 'Renal failure, lethargy, excitability, nervous spasms, convulsions, and encephalitis' — no authoritative pet source attributes systemic renal/neuro toxicity to philodendron (insoluble calcium oxalates cause only localized irritation per Pet Poison Helpline); cross-contamination from dieffenbachia/soluble-oxalate profile.",
+          "description: removed UNVERIFIABLE enzyme clause — changed 'insoluble calcium oxalate crystals, along with enzymes that cause irritation' to 'insoluble calcium oxalate crystals that cause irritation' (proteolytic enzymes not attributed to philodendron by ASPCA/PPH).",
+          "safetyNotes[0]: changed 'insoluble calcium oxalate raphides plus proteolytic enzymes in the sap' to 'insoluble calcium oxalate raphides (needle-like crystals)'.",
+          "safetyNotes[1]: changed 'raphides mechanically penetrate the oral and GI mucosa; enzymes intensify the inflammatory response' to 'raphides mechanically penetrate the oral and GI mucosa, causing immediate pain and inflammation'."
+        ],
+        "zh": [
+          "Removed REFUTED symptom (symptoms[4]) '腎衰竭、精神萎靡、興奮、神經性痙攣、抽搐和腦炎' to match EN removal of the fabricated systemic-failure symptom.",
+          "description: removed enzyme clause '，以及會引起刺激的酵素' -> '，會引起刺激' to match corrected EN.",
+          "safetyNotes[0]: '不溶性草酸鈣針晶，以及汁液中的蛋白分解酶' -> '不溶性草酸鈣針晶（針狀結晶）' (removed unverifiable proteolytic-enzyme attribution).",
+          "safetyNotes[1]: '針晶機械性地穿透口腔和胃腸黏膜；酶則會加劇發炎反應' -> '針晶機械性地穿透口腔和胃腸黏膜，造成立即的疼痛與發炎'."
+        ],
+        "files": [
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/plants_processed/philodendron_spp_including_birkin.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/zh-TW/philodendron_spp_including_birkin.json"
+        ],
+        "left": [
+          "toxicityLevel is 'mild' while severity is 'toxic' and the airway-edema symptom is graded 'severe' — internally inconsistent, but the finding does not address toxicityLevel and the mild/cautious/toxic mapping is ambiguous (core risk is localized/rarely fatal but airway edema is a genuine emergency). Left unchanged; recommend a human decide whether 'mild' should become 'moderate'/'severe'.",
+          "chemicals[0] fields (chemical_formula 'Not provided in the given sources12.', concentration_notes, description) contain trailing footnote-digit/truncation noise ('12', '34', '...While the p') — left as-is per instructions (dataset-wide formatting noise handled by batch script). The chemical name/description are factually correct (raphides/idioblasts/mechanical mechanism, all CONFIRMED) and contain no enzyme claim.",
+          "symptom notes still contain NotebookLM artifacts (footnote digits, leaked '3. Gastrointestinal...'/'4. Airway...' headers, truncated 'provide o') and treatments[].notes have similar truncation — left as-is per instructions (formatting noise, separate batch).",
+          "zh-TW file is the only zh copy found; canonical path data/site/zh-TW/ in the task does not exist, edited data/site/firestore/zh-TW/ instead. No legacy data/site/zh-TW/ mirror exists to keep in sync.",
+          "Diarrhea/anorexia symptom (symptoms[2]) graded UNVERIFIABLE (not listed by ASPCA/PPH for philodendron) but plausible secondary — not REFUTED, so left intact per conservative policy.",
+          "toxicParts lists only 'Leaf'; finding notes stems also contain raphides (slightly under-inclusive) but rated CONFIRMED/acceptable — left unchanged."
+        ]
+      },
+      {
+        "slug": "scadoxus_spp",
+        "severity_change": "none",
+        "en": [
+          "safetyNotes[0]: Removed cross-contaminated systemic symptoms (abdominal pain, low blood pressure, lethargy, tremors) that the audit confirmed were near-verbatim from the ASPCA Hippeastrum/Amaryllis 'Barbados Lily' profile and are NOT documented for Scadoxus by any authority. Replaced with the authority-supported (NC State Extension) GI-only signs: drooling, vomiting, nausea, diarrhea.",
+          "safetyNotes[1]: Softened 'Bulb is most toxic' / 'greatest alkaloid concentration' / 'highest exposure risk' to 'Bulb contains alkaloids' / 'high alkaloid concentration' / 'exposure risk' — the bulb-most-toxic ranking is UNVERIFIABLE for this genus per the finding.",
+          "safetyNotes[2]: Removed the REFUTED severity-overstatement 'even small amounts from the bulb can cause significant symptoms' (inconsistent with LOW-toxicity classification); replaced with a proportionate vet-contact action keyed to persistent vomiting/diarrhea.",
+          "description: Replaced 'triggers strong gastrointestinal reactions. All parts of the plant are toxic' with authority-aligned text — added that lycorine acts as an emetic causing GI signs (drooling, vomiting, diarrhea) and explicitly noted authorities classify it as low toxicity with predominantly GI signs."
+        ],
+        "zh": [
+          "safetyNotes[0]: Mirrored EN — removed 腹痛/低血壓/精神不振/顫抖 (the cross-contaminated systemic signs) and replaced with 流涎、嘔吐、噁心和腹瀉，症狀以腸胃道為主.",
+          "safetyNotes[1]: Softened 球莖毒性最高 to 球莖含有生物鹼, and 最高濃度→較高濃度, 暴露風險最高→有暴露風險, matching the UNVERIFIABLE ranking.",
+          "safetyNotes[2]: Removed 即使攝入少量球莖也可能造成明顯症狀 (severity overstatement); replaced with proportionate vet-contact wording tied to persistent 嘔吐或腹瀉.",
+          "description: Mirrored EN — replaced 引發強烈腸胃道反應。整株植物都有毒 with 作為催吐劑引發流涎、嘔吐、腹瀉等腸胃道反應，並加入權威機構將其歸類為低毒性、症狀以腸胃道為主."
+        ],
+        "files": [
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/plants_processed/scadoxus_spp.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/zh-TW/scadoxus_spp.json"
+        ],
+        "left": [
+          "severity/isToxic/toxicityLevel left unchanged: severity='toxic', isToxic=true, toxicityLevel='mild'. The finding CONFIRMED the plant is toxic to cats (no safe-vs-toxic conflict) but grades it LOW toxicity. toxicityLevel='mild' already reflects the low grade and the schema severity enum has no 'low' tier between cautious and toxic. Did not downgrade severity to 'cautious' because authorities (NC State/IVIS) do list it as toxic/poisonous and the schema requires consistency that 'toxic' already satisfies. A human may wish to consider whether 'cautious' better matches a LOW-toxicity GI-only profile.",
+          "toxicParts ['Bulb','All parts of the plant'] left unchanged: 'bulb most toxic' is UNVERIFIABLE (not REFUTED) — NC State confirms bulbs and flowers contain toxic alkaloids but does not rank parts. Conservative: did not remove a plausible, partially-supported toxic part.",
+          "chemicals[0].description still says 'systemic distress': vague and borderline given the GI-dominant low-toxicity profile, but it is not a fabricated mechanism and the compound/mechanism are CONFIRMED, so left as-is. A human may want to trim 'and systemic distress' to keep it strictly GI."
+        ]
+      },
+      {
+        "slug": "schlumbergera_spp",
+        "severity_change": "none",
+        "en": [
+          "description: replaced REFUTED framing 'it is considered only mildly toxic to cats' and 'The plant's fibrous tissues and mildly irritating compounds can cause gastrointestinal upset' with authority-supported text — now states ASPCA classifies it as non-toxic to cats with no recognized toxic compound, and that mild GI upset comes from mechanical irritation by fibrous tissue rather than any chemical toxin.",
+          "isToxic: changed true -> false to be consistent with severity 'safe' / ASPCA non-toxic classification (CONFIRMED safe)."
+        ],
+        "zh": [
+          "description: replaced '蟹爪蘭對貓咪的風險通常較低' with explicit ASPCA non-toxic statement '蟹爪蘭被美國防止虐待動物協會（ASPCA）列為對貓咪無毒…且不含任何已知的有毒成分'.",
+          "description: removed the fabricated-compound phrase '輕微刺激性成分' (mildly irritating compounds), which paralleled the REFUTED EN claim; reworded to state the GI upset is from fibrous material causing 物理性刺激 (mechanical irritation) 而非任何化學毒素 (rather than a chemical toxin), matching corrected EN mechanism."
+        ],
+        "files": [
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/plants_processed/schlumbergera_spp.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/zh-TW/schlumbergera_spp.json"
+        ],
+        "left": [
+          "toxicityLevel='mild' and per-symptom severity='mild' (EN) left unchanged: severity='safe' and isToxic=false now denote non-toxic, but the entry legitimately documents mild self-limiting GI signs (CONFIRMED by Pet Poison Helpline/PetMD). 'mild' here describes the possible GI reaction, not chemical toxicity. Not flagged as REFUTED, so left as-is; flagged only in case the team wants strict safe=>toxicityLevel='none' normalization.",
+          "EN symptoms[0].onset='Not explicitly stated,' and zh onset='來源未明確說明時間。' are placeholder/truncation residue per audit raw_noise; left as-is per instruction (dataset-wide batch handles formatting noise; not a fabricated symptom NAME).",
+          "EN symptoms[].notes and treatments[].notes contain leaked header fragments ('Dietary Management', 'No Specific Detoxification (Monitoring Only)') appended without spacing — NotebookLM formatting noise, left as-is per instruction.",
+          "zh-TW symptoms[] still drops the EN per-symptom 'severity' and the mechanism/notes clause (zh_fidelity issue). Per instruction, dropped per-symptom severity in zh is left for the batch script; not corrected here.",
+          "Did NOT translate the new ASPCA reference choices beyond standard org name; chemicals[] left untouched as it already matched the CONFIRMED mechanical-irritant mechanism."
+        ]
+      },
+      {
+        "slug": "vitis__implied",
+        "severity_change": "none",
+        "en": [
+          "toxic_parts: removed fabricated plant-anatomy parts Root, Stem, Leaf (REFUTED — no authority attributes grape/raisin/currant nephrotoxicity to grapevine roots/stems/leaves; only the fruit and its dried forms are toxic). Kept Fruit."
+        ],
+        "zh": [
+          "description: replaced untranslated ASCII 'sultanas' (appeared twice) with 無核葡萄乾, matching the term already used correctly in safetyNotes and aligning zh with the EN fruit list.",
+          "safetyNotes[0]: replaced untranslated scientific genus 'Vitis 類果實' with 葡萄屬果實 (natural Mandarin for the Vitis genus fruit)."
+        ],
+        "files": [
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/plants_processed/vitis__implied.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/zh-TW/vitis__implied.json"
+        ],
+        "left": [
+          "severity left as 'toxic' / isToxic true: verify.summary CONFIRMS the precautionary 'toxic' grading is appropriate per ASPCA/PPH/VCA, even though cat-specific clinical evidence is weaker than the entry implies (largest published case series found NO cats developed AKI). The entry's confident cat-specific framing is mildly overstated but NOT softened by authorities, so no downgrade applied. A human may wish to add a hedge that feline evidence is presumed/anecdotal vs. canine.",
+          "symptoms[].notes glued run-on footnote residue (e.g. '...undigested fruit.Diarrhea', '...build up in the blood.Polydipsia and Polyuria') left as-is per DO NOT touch instruction — formatting/NotebookLM noise handled by the dataset-wide batch script, not a factual error.",
+          "toxins[0].description and concentration_notes contain NotebookLM footnote/source-list residue (e.g. trailing digits, leaked '• Clinical Perspectives...' headers) — left as-is; pure formatting noise, not a factual/mechanism error (tartaric acid + nephrotoxicity mechanism is CONFIRMED).",
+          "zh-TW symptom merging (6 EN -> 3 zh entries), dropped per-symptom severity, and omitted 神經系統 body_system for lethargy: left as-is per instructions (dropped per-symptom severity and body_system glossary normalization are explicitly out of scope)."
+        ]
+      },
+      {
+        "slug": "peaches",
+        "severity_change": "none (severity stays \"toxic\" — CONFIRMED by ASPCA; but isToxic corrected false->true for consistency)",
+        "en": [
+          "isToxic: false -> true (severity is \"toxic\" and ASPCA confirms peach toxic to cats; the false value was internally inconsistent with severity/toxicityLevel and isToxic must be true for a toxic entry)",
+          "scientific_name: \"Peaches\" -> \"Prunus persica\" (placeholder/name duplicate replaced with the ASPCA-confirmed binomial; description already used the correct binomial)",
+          "toxicParts: removed \"Flesh\" and \"Fruit\" (REFUTED — ASPCA does not list flesh as toxic; only pit/seed/stems/leaves; contradicted entry's own description stating flesh is safe). Kept \"Pit\" and \"Seed\".",
+          "symptoms[0]: deleted the entire symptom whose name was a truncated NotebookLM sentence fragment (\"The symptoms a cat shows after ingesting peaches depend heavily on which part of the fruit was consumed. While the flesh of a peach is not toxic\") — UNVERIFIABLE data-quality defect, not a real symptom"
+        ],
+        "zh": [
+          "toxicParts: removed \"果肉\" (flesh) and \"果實\" (fruit), mirroring the EN fix; kept \"果核\" (pit) and \"種子\" (seed)",
+          "symptoms[0]: deleted the truncated sentence-fragment symptom (\"貓在攝取桃子後表現出的症狀很大程度上取決於食用了果實的哪個部分。雖然桃子的果肉無毒\") matching the EN removal"
+        ],
+        "files": [
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/foods_processed/peaches.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/zh-TW/peaches.json"
+        ],
+        "left": [
+          "The prompt specified the zh-TW canonical as /data/site/zh-TW/peaches.json, but that file does not exist. The only zh-TW peaches file is /data/site/firestore/zh-TW/peaches.json, which I edited instead. There is also an EN site-firestore cache at /data/site/firestore/en/peaches.json that I did NOT edit (not in scope per the task's two-file spec) — it may also carry the toxicParts/symptom[0] defects and need re-sync.",
+          "Severity overstatement (REFUTED): Pet Poison Helpline says cyanide poisoning is unlikely in cats since they don't thoroughly chew the pit, and the real risk is GI obstruction; yet symptoms[2] (hyperventilation) and symptoms[3] (shock/collapse) are graded \"fatal\". I did NOT change per-symptom severity grades because the compounds are genuinely lethal if cyanide is released, the instructions forbid softening real danger, and per-symptom severity is handled by a separate batch. toxicityLevel remains \"low\". A human may want to reconcile the per-symptom \"fatal\" labels with the \"low\" toxicityLevel / PPH framing.",
+          "Footnote residue / truncated mid-word strings (chemicals[].chemical_formula \"Amygdalin is C\", chemical_formula null with truncated concentration_notes, descriptions ending mid-word like \"...into\" / \"...intestinal tr\", notes with trailing digits \"metabolism12\", \"hazard2\") were left untouched per the do-not-touch instructions (NotebookLM formatting noise handled by a separate batch script).",
+          "zh-TW symptoms drop the severity and notes fields relative to EN — left as-is per instructions (dropped per-symptom severity is out of scope).",
+          "body_system glossary divergences (代謝系統 vs 代謝, 消化系統 vs 腸胃道) left as-is per instructions.",
+          "zh-TW description appends \"或急診動物醫院\" not present in EN — benign, non-factual, left as-is."
+        ]
+      },
+      {
+        "slug": "pretzels",
+        "severity_change": "none (severity stayed \"toxic\" — verify verdict explicitly says \"severity=toxic is defensible for salted pretzels\"; only fixed internal-consistency fields isToxic false->true and toxicityLevel low->high so they agree with the confirmed-toxic, fatalities-documented verdict)",
+        "en": [
+          "toxicParts: replaced cross-contaminated stone-fruit parts [\"Seed\",\"Skin\",\"Pit\"] (REFUTED) with the actual hazard sources [\"Salt coating\",\"Onion/garlic flavoring\"]",
+          "Removed corrupted first symptom whose name was the prompt-echo fragment \"Because pretzels are heavily salted human snacks\" (REFUTED garbage, not a clinical sign)",
+          "isToxic: false -> true (internal consistency: severity=toxic, authorities document fatalities)",
+          "toxicityLevel: \"low\" -> \"high\" (consistent with confirmed-toxic severity and >50% documented death rate per Merck)",
+          "family: \"Various\" -> null (REFUTED placeholder — manufactured food has no botanical family)",
+          "scientific_name: \"Pretzels\" -> null (REFUTED placeholder — manufactured food has no binomial name)"
+        ],
+        "zh": [
+          "toxicParts: replaced carried-over plant-anatomy mistranslation [\"種子\",\"皮\",\"果核\"] (seed/skin/pit) with [\"鹽分塗層\",\"洋蔥/大蒜調味料\"] to match corrected EN",
+          "Removed corrupted first symptom \"由於椒鹽捲餅是高鹽分的人類零食\" (translated fragment of the EN garbage symptom)",
+          "description: canonicalized product name 蝴蝶餅 -> 椒鹽捲餅 (4 occurrences) so the body matches the name field and safetyNotes, which already use 椒鹽捲餅"
+        ],
+        "files": [
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/foods_processed/pretzels.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/zh-TW/pretzels.json"
+        ],
+        "left": [
+          "Task named the zh-TW path as data/site/zh-TW/pretzels.json, but no such file exists; the actual zh-TW canonical for this slug is data/site/firestore/zh-TW/pretzels.json, which I edited. Confirm that is the intended target (data/site/zh-TW/ has no pretzels entry at all).",
+          "Severity kept at \"toxic\": the EN-quality reviewer suggested downgrading to NON-TOXIC-RISKY/cautious, but the authority-grounded verify verdict overrides it (\"severity=toxic is defensible\", neuro 'fatal' grading \"justified\"). Left as toxic per the verify spec; flag if product policy prefers the softer NON-TOXIC-RISKY framing.",
+          "Did NOT alter chemicals[0].chemical_formula \"NaCl (Note\" or the truncated emergencyNote / treatments[0].name fragments — these are NotebookLM truncation/formatting noise (the compound NaCl/Sodium Chloride and mechanism are CONFIRMED), and per instructions dataset-wide formatting noise is handled by a separate batch script.",
+          "Did NOT remove the UNVERIFIABLE Cardiopulmonary Distress / hyperthermia symptom — verify marked it UNVERIFIABLE (not REFUTED) and 'plausible secondary to severe illness'; conservative call is to leave it. Flag if you want UNVERIFIABLE symptoms pruned.",
+          "Did NOT touch zh body_system glossary divergences (代謝系統/消化系統/腎臟系統/心臟系統) or per-symptom severities — explicitly out of scope per instructions."
+        ]
+      },
+      {
+        "slug": "raw_eggs__raw_egg_whites",
+        "severity_change": "toxic -> cautious",
+        "en": [
+          "Downgraded severity from 'toxic' to 'cautious' in both the canonical foods_processed file and the en site firestore cache. REFUTED by verify finding: ASPCA frames raw eggs as a risk (bacterial contamination + nutrient interference), not a poison; entry itself states a single bite is harmless and cooked eggs are safe.",
+          "foods_processed: removed plant-anatomy term 'Skin' from toxic_parts[] (cross-contaminated onto a food entry); left 'Raw form' which is authority-confirmed as the genuine concern.",
+          "foods_processed: removed REFUTED pancreatitis-from-high-fat mechanism from toxins[1] (Foodborne Pathogens) description — replaced 'can potentially trigger painful conditions like pancreatitis' with 'in severe cases can progress to a life-threatening systemic infection' (authority-supported). Cats, unlike dogs, do not develop pancreatitis from dietary fat (VCA/Cornell).",
+          "foods_processed: removed fabricated/malformed symptom whose name was the LLM prompt-echo fragment 'Based on the provided sources, a cat exposed to or ingesting raw eggs' (body_system Metabolic).",
+          "foods_processed: removed the pancreatitis clause from the Vomiting and Diarrhea symptom notes ('Additionally, the high fat content ... pancreatitis'); kept the Salmonella/E. coli bacterial cause.",
+          "foods_processed: removed 'or acute pancreatitis triggered by the high fat content or' from the IV Fluid Therapy treatment note, leaving GI distress from foodborne pathogens.",
+          "en site firestore: removed the same malformed prompt-echo symptom.",
+          "en site firestore: removed the pancreatitis clause from the Vomiting and Diarrhea symptom notes.",
+          "en site firestore: corrected safetyNotes[0] — replaced unsupported pathogen 'Listeria' with 'E. coli' (authorities cite Salmonella/E. coli, not Listeria) and softened 'life-threatening sepsis' to 'life-threatening infection' to match the description and remove the Listeria-specific framing."
+        ],
+        "zh": [
+          "zh-TW site firestore: corrected safetyNotes[0] — replaced unsupported pathogen 李斯特菌 (Listeria) with 大腸桿菌 (E. coli), matching the corrected EN and the zh description (which already correctly said 大腸桿菌); changed 危及生命的敗血症 (life-threatening sepsis) to 危及生命的感染 (life-threatening infection).",
+          "zh-TW site firestore: removed the fabricated/malformed symptom whose name was the translated prompt-echo artifact 根據提供的資料，接觸或攝取生雞蛋的貓 (body_system 代謝系統)."
+        ],
+        "files": [
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/foods_processed/raw_eggs__raw_egg_whites.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/en/raw_eggs__raw_egg_whites.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/zh-TW/raw_eggs__raw_egg_whites.json"
+        ],
+        "left": [
+          "The prompt specified zh-TW path data/site/zh-TW/raw_eggs__raw_egg_whites.json, which does not exist. The actual zh-TW cache is at data/site/firestore/zh-TW/. I edited the existing file. Confirm this is the correct canonical zh-TW location and whether a legacy data/site/zh-TW/ copy needs creating/syncing.",
+          "The canonical foods_processed file has a different schema (plant/toxins/scientific_name) than the en site firestore file (severity/symptoms/scientificName). foods_processed has no isToxic or toxicityLevel fields, so only the severity field was changed there; no isToxic/toxicityLevel consistency edit was possible/needed. Verify downstream consumers derive isToxic correctly from severity='cautious' (should remain true).",
+          "Left toxin name 'Foodborne Pathogens (Salmonella, E. coli, Campylobacter) (Note' as-is — the trailing '(Note' is NotebookLM formatting truncation on a real, authority-confirmed toxin, not fabricated data, so per instructions it is batch-script formatting noise rather than a fabricated entry to delete.",
+          "Left the truncated/noisy symptom onset 'Short-term (typically within hours to a few days,' and footnote-digit/ellipsis residue in symptom notes as-is — these are NotebookLM formatting artifacts explicitly reserved for the dataset-wide batch script, not factual errors.",
+          "Did not change family='Various'/scientificName='Raw eggs / Raw egg whites' — verify finding CONFIRMED these as benign placeholders for a non-plant food and did not flag them as needing nulling.",
+          "Left body_system glossary divergences (代謝系統/消化系統 vs glossary canonical) and the dropped per-symptom severity in zh-TW unchanged per the do-not-touch instructions."
+        ]
+      },
+      {
+        "slug": "raw_meat",
+        "severity_change": "none (severity stays \"toxic\"; verify CONFIRMED the toxic/danger grading — but isToxic corrected false -> true for internal consistency)",
+        "en": [
+          "isToxic: false -> true — verify CONFIRMED overall severity=\"toxic\"; per schema rule toxic => isToxic true (file was internally inconsistent: severity toxic but isToxic false)",
+          "safetyNotes[1]: removed the REFUTED salmon-poisoning sub-claim. '...Toxoplasma or Trichinella; raw salmon may carry salmon poisoning disease (Neorickettsia)' -> '...Toxoplasma or Trichinella'. Authorities (VCA/WSU/Merck) confirm cats are resistant to Neorickettsia (salmon poisoning disease) — it is a dog disease, a wrong-species false alarm",
+          "toxicParts: removed \"Powder\" (verdict UNVERIFIABLE — templated/cross-contaminated artifact; meat is not consumed as powder). Now [\"Raw form\", \"Flesh\"]"
+        ],
+        "zh": [
+          "safetyNotes[1]: removed the REFUTED salmon-poisoning clause to match corrected EN. '寄生蟲風險：生豬肉和野味可能含有弓形蟲或旋毛蟲；生鮭魚可能攜帶鮭魚中毒疾病（Neorickettsia）' -> '寄生蟲風險：生豬肉和野味可能含有弓形蟲或旋毛蟲'",
+          "toxicParts: removed '粉末' (matches EN 'Powder' removal) and translated the two untranslated ASCII placeholders into Traditional Chinese: 'Raw form' -> '生肉形式', 'Flesh' -> '肉質'. Now ['生肉形式', '肉質']"
+        ],
+        "files": [
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/foods_processed/raw_meat.json",
+          "/Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/zh-TW/raw_meat.json"
+        ],
+        "left": [
+          "zh-TW canonical path in the prompt (data/site/zh-TW/raw_meat.json) does not exist; the only zh-TW raw_meat file is data/site/firestore/zh-TW/raw_meat.json, which I edited. Confirm this is the intended canonical zh target.",
+          "severity NOT reclassified to NON-TOXIC-RISKY. The en_quality reviewer suggested reclassifying (raw meat is a contamination/handling risk, not a chemical toxin), but the authority-grounded verify verdict explicitly CONFIRMED severity='toxic' with no safe-vs-toxic flip. Kept 'toxic' per the conservative rule; toxicityLevel left as 'low' (not in schema enum scope of this task — schema enum is for the severity field). Human may want to decide on a dedicated NON-TOXIC-RISKY category and reconcile toxicityLevel='low' vs severity='toxic'.",
+          "family='Various' and scientific_name='Raw meat' left as-is — the verify finding did not explicitly flag these as placeholders requiring null (only en_quality noted no single active compound). Left for human to decide whether to null these per the manufactured-food rule.",
+          "zh-TW description includes an invented vet clause '若貓咪攝食生肉後出現不適，請聯絡獸醫' not in EN. zh_fidelity flagged it as an added-content fidelity divergence but called it a reasonable safety addition, not a factual error — left untouched per conservative scope.",
+          "Per instructions, did NOT touch: symptom notes footnote/truncation noise (raw_noise items), the dropped per-symptom severity/notes in zh, and the body_system glossary divergence (消化系統 vs canonical 腸胃道) — all batch-handled elsewhere."
+        ]
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Fix"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "fix:mentha_x_piperita_chocolate",
+      "phaseIndex": 1,
+      "phaseTitle": "Fix",
+      "agentId": "a84868c673cf937f7",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782464541568,
+      "queuedAt": 1782464541558,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "mentha_x_piperita_chocolate",
+      "promptPreview": "You are correcting ONE cat-toxin database entry with confirmed FACTUAL errors. Make SURGICAL, targeted edits — use the Edit tool for precise string replacements; do NOT rewrite whole files or reorder keys.\n\nSTEP 1 — Read the audit finding for this entry:\n- Open /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/verify-localize-2026-06-25-p2.json, locate the object in \"full\" whose slug == \"m…",
+      "lastProgressAt": 1782464658084,
+      "tokens": 45470,
+      "toolCalls": 13,
+      "durationMs": 116516,
+      "resultPreview": "{\"slug\":\"mentha_x_piperita_chocolate\",\"severity_change\":\"none\",\"en_changes\":[\"chemicals[]: removed the entire fabricated 'Theobromine and Caffeine (Methylxanthines)' entry (chemicals[1]) — REFUTED cross-contamination from a chocolate/cacao profile; mint contains no methylxanthines (ASPCA toxic principle for Mint is essential oils).\",\"chemicals[0].name: changed 'Essential oils, specifically Menthol…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "fix:nightshade",
+      "phaseIndex": 1,
+      "phaseTitle": "Fix",
+      "agentId": "a25b08fb9b3f11f8d",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782464541568,
+      "queuedAt": 1782464541558,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "nightshade",
+      "promptPreview": "You are correcting ONE cat-toxin database entry with confirmed FACTUAL errors. Make SURGICAL, targeted edits — use the Edit tool for precise string replacements; do NOT rewrite whole files or reorder keys.\n\nSTEP 1 — Read the audit finding for this entry:\n- Open /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/verify-localize-2026-06-25-p2.json, locate the object in \"full\" whose slug == \"n…",
+      "lastProgressAt": 1782464688823,
+      "tokens": 56529,
+      "toolCalls": 16,
+      "durationMs": 147255,
+      "resultPreview": "{\"slug\":\"nightshade\",\"severity_change\":\"none\",\"en_changes\":[\"Severity kept 'toxic' / isToxic effectively true — ASPCA confirms Nightshade (Solanum spp.) is toxic to cats; no safe/toxic flip, so no severity change.\",\"Removed REFUTED symptom block 'Hemolysis (destruction of red blood cells), resulting in anemia, jaundice (icterus), and hemoglobinuria' — finding identifies this as cross-contamination…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "fix:orange_mint",
+      "phaseIndex": 1,
+      "phaseTitle": "Fix",
+      "agentId": "ab989e69abec12e22",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782464541568,
+      "queuedAt": 1782464541558,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "orange_mint",
+      "promptPreview": "You are correcting ONE cat-toxin database entry with confirmed FACTUAL errors. Make SURGICAL, targeted edits — use the Edit tool for precise string replacements; do NOT rewrite whole files or reorder keys.\n\nSTEP 1 — Read the audit finding for this entry:\n- Open /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/verify-localize-2026-06-25-p2.json, locate the object in \"full\" whose slug == \"o…",
+      "lastProgressAt": 1782464691623,
+      "tokens": 48951,
+      "toolCalls": 20,
+      "durationMs": 150054,
+      "resultPreview": "{\"slug\":\"orange_mint\",\"severity_change\":\"none (top-level severity stays \\\"toxic\\\" — CONFIRMED by ASPCA: Mentha sp., Lamiaceae is toxic to cats; only per-symptom severities and compound emphasis were corrected)\",\"en_changes\":[\"data/site/firestore/en/orange_mint.json — safetyNotes[0]: replaced pulegone-lead compound framing with the authority-supported principle. Old: 'Toxic compounds: pulegone, lin…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "fix:philodendron_spp_including_birkin",
+      "phaseIndex": 1,
+      "phaseTitle": "Fix",
+      "agentId": "a8231818040281ac6",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782464541569,
+      "queuedAt": 1782464541558,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "philodendron_spp_including_birkin",
+      "promptPreview": "You are correcting ONE cat-toxin database entry with confirmed FACTUAL errors. Make SURGICAL, targeted edits — use the Edit tool for precise string replacements; do NOT rewrite whole files or reorder keys.\n\nSTEP 1 — Read the audit finding for this entry:\n- Open /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/verify-localize-2026-06-25-p2.json, locate the object in \"full\" whose slug == \"p…",
+      "lastProgressAt": 1782464621157,
+      "tokens": 42579,
+      "toolCalls": 13,
+      "durationMs": 79588,
+      "resultPreview": "{\"slug\":\"philodendron_spp_including_birkin\",\"severity_change\":\"none\",\"en_changes\":[\"Removed REFUTED symptom (symptoms[4]) 'Renal failure, lethargy, excitability, nervous spasms, convulsions, and encephalitis' — no authoritative pet source attributes systemic renal/neuro toxicity to philodendron (insoluble calcium oxalates cause only localized irritation per Pet Poison Helpline); cross-contaminatio…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "fix:scadoxus_spp",
+      "phaseIndex": 1,
+      "phaseTitle": "Fix",
+      "agentId": "a8aa7a435adbed92b",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782464541569,
+      "queuedAt": 1782464541558,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "scadoxus_spp",
+      "promptPreview": "You are correcting ONE cat-toxin database entry with confirmed FACTUAL errors. Make SURGICAL, targeted edits — use the Edit tool for precise string replacements; do NOT rewrite whole files or reorder keys.\n\nSTEP 1 — Read the audit finding for this entry:\n- Open /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/verify-localize-2026-06-25-p2.json, locate the object in \"full\" whose slug == \"s…",
+      "lastProgressAt": 1782464605469,
+      "tokens": 39037,
+      "toolCalls": 9,
+      "durationMs": 63900,
+      "resultPreview": "{\"slug\":\"scadoxus_spp\",\"severity_change\":\"none\",\"en_changes\":[\"safetyNotes[0]: Removed cross-contaminated systemic symptoms (abdominal pain, low blood pressure, lethargy, tremors) that the audit confirmed were near-verbatim from the ASPCA Hippeastrum/Amaryllis 'Barbados Lily' profile and are NOT documented for Scadoxus by any authority. Replaced with the authority-supported (NC State Extension) GI…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "fix:schlumbergera_spp",
+      "phaseIndex": 1,
+      "phaseTitle": "Fix",
+      "agentId": "ae69f975383b0fba1",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782464541569,
+      "queuedAt": 1782464541558,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "schlumbergera_spp",
+      "promptPreview": "You are correcting ONE cat-toxin database entry with confirmed FACTUAL errors. Make SURGICAL, targeted edits — use the Edit tool for precise string replacements; do NOT rewrite whole files or reorder keys.\n\nSTEP 1 — Read the audit finding for this entry:\n- Open /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/verify-localize-2026-06-25-p2.json, locate the object in \"full\" whose slug == \"s…",
+      "lastProgressAt": 1782464600919,
+      "tokens": 37656,
+      "toolCalls": 8,
+      "durationMs": 59350,
+      "resultPreview": "{\"slug\":\"schlumbergera_spp\",\"severity_change\":\"none\",\"en_changes\":[\"description: replaced REFUTED framing 'it is considered only mildly toxic to cats' and 'The plant's fibrous tissues and mildly irritating compounds can cause gastrointestinal upset' with authority-supported text — now states ASPCA classifies it as non-toxic to cats with no recognized toxic compound, and that mild GI upset comes fr…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "fix:vitis__implied",
+      "phaseIndex": 1,
+      "phaseTitle": "Fix",
+      "agentId": "a21cd730acd08caa4",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782464541569,
+      "queuedAt": 1782464541558,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "vitis__implied",
+      "promptPreview": "You are correcting ONE cat-toxin database entry with confirmed FACTUAL errors. Make SURGICAL, targeted edits — use the Edit tool for precise string replacements; do NOT rewrite whole files or reorder keys.\n\nSTEP 1 — Read the audit finding for this entry:\n- Open /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/verify-localize-2026-06-25-p2.json, locate the object in \"full\" whose slug == \"v…",
+      "lastProgressAt": 1782464588717,
+      "tokens": 39868,
+      "toolCalls": 7,
+      "durationMs": 47148,
+      "resultPreview": "{\"slug\":\"vitis__implied\",\"severity_change\":\"none\",\"en_changes\":[\"toxic_parts: removed fabricated plant-anatomy parts Root, Stem, Leaf (REFUTED — no authority attributes grape/raisin/currant nephrotoxicity to grapevine roots/stems/leaves; only the fruit and its dried forms are toxic). Kept Fruit.\"],\"zh_changes\":[\"description: replaced untranslated ASCII 'sultanas' (appeared twice) with 無核葡萄乾, match…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "fix:peaches",
+      "phaseIndex": 1,
+      "phaseTitle": "Fix",
+      "agentId": "a279aa8f270b465e7",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782464541569,
+      "queuedAt": 1782464541558,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "peaches",
+      "promptPreview": "You are correcting ONE cat-toxin database entry with confirmed FACTUAL errors. Make SURGICAL, targeted edits — use the Edit tool for precise string replacements; do NOT rewrite whole files or reorder keys.\n\nSTEP 1 — Read the audit finding for this entry:\n- Open /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/verify-localize-2026-06-25-p2.json, locate the object in \"full\" whose slug == \"p…",
+      "lastProgressAt": 1782464609666,
+      "tokens": 44322,
+      "toolCalls": 14,
+      "durationMs": 68097,
+      "resultPreview": "{\"slug\":\"peaches\",\"severity_change\":\"none (severity stays \\\"toxic\\\" — CONFIRMED by ASPCA; but isToxic corrected false->true for consistency)\",\"en_changes\":[\"isToxic: false -> true (severity is \\\"toxic\\\" and ASPCA confirms peach toxic to cats; the false value was internally inconsistent with severity/toxicityLevel and isToxic must be true for a toxic entry)\",\"scientific_name: \\\"Peaches\\\" -> \\\"Prunu…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "fix:pretzels",
+      "phaseIndex": 1,
+      "phaseTitle": "Fix",
+      "agentId": "a7e83f6e0315b85a3",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782464588717,
+      "queuedAt": 1782464541558,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "pretzels",
+      "promptPreview": "You are correcting ONE cat-toxin database entry with confirmed FACTUAL errors. Make SURGICAL, targeted edits — use the Edit tool for precise string replacements; do NOT rewrite whole files or reorder keys.\n\nSTEP 1 — Read the audit finding for this entry:\n- Open /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/verify-localize-2026-06-25-p2.json, locate the object in \"full\" whose slug == \"p…",
+      "lastProgressAt": 1782464684046,
+      "tokens": 45241,
+      "toolCalls": 16,
+      "durationMs": 95328,
+      "resultPreview": "{\"slug\":\"pretzels\",\"severity_change\":\"none (severity stayed \\\"toxic\\\" — verify verdict explicitly says \\\"severity=toxic is defensible for salted pretzels\\\"; only fixed internal-consistency fields isToxic false->true and toxicityLevel low->high so they agree with the confirmed-toxic, fatalities-documented verdict)\",\"en_changes\":[\"toxicParts: replaced cross-contaminated stone-fruit parts [\\\"Seed\\\",\\…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "fix:raw_eggs__raw_egg_whites",
+      "phaseIndex": 1,
+      "phaseTitle": "Fix",
+      "agentId": "ab1c17735fbd0ced0",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782464600919,
+      "queuedAt": 1782464541558,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "raw_eggs__raw_egg_whites",
+      "promptPreview": "You are correcting ONE cat-toxin database entry with confirmed FACTUAL errors. Make SURGICAL, targeted edits — use the Edit tool for precise string replacements; do NOT rewrite whole files or reorder keys.\n\nSTEP 1 — Read the audit finding for this entry:\n- Open /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/verify-localize-2026-06-25-p2.json, locate the object in \"full\" whose slug == \"r…",
+      "lastProgressAt": 1782464707926,
+      "tokens": 47471,
+      "toolCalls": 20,
+      "durationMs": 107007,
+      "resultPreview": "{\"slug\":\"raw_eggs__raw_egg_whites\",\"severity_change\":\"toxic -> cautious\",\"en_changes\":[\"Downgraded severity from 'toxic' to 'cautious' in both the canonical foods_processed file and the en site firestore cache. REFUTED by verify finding: ASPCA frames raw eggs as a risk (bacterial contamination + nutrient interference), not a poison; entry itself states a single bite is harmless and cooked eggs are…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "fix:raw_meat",
+      "phaseIndex": 1,
+      "phaseTitle": "Fix",
+      "agentId": "a864202444aa1a8ff",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782464605470,
+      "queuedAt": 1782464541558,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "raw_meat",
+      "promptPreview": "You are correcting ONE cat-toxin database entry with confirmed FACTUAL errors. Make SURGICAL, targeted edits — use the Edit tool for precise string replacements; do NOT rewrite whole files or reorder keys.\n\nSTEP 1 — Read the audit finding for this entry:\n- Open /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/audits/verify-localize-2026-06-25-p2.json, locate the object in \"full\" whose slug == \"r…",
+      "lastProgressAt": 1782464679804,
+      "tokens": 43931,
+      "toolCalls": 12,
+      "durationMs": 74334,
+      "resultPreview": "{\"slug\":\"raw_meat\",\"severity_change\":\"none (severity stays \\\"toxic\\\"; verify CONFIRMED the toxic/danger grading — but isToxic corrected false -> true for internal consistency)\",\"en_changes\":[\"isToxic: false -> true — verify CONFIRMED overall severity=\\\"toxic\\\"; per schema rule toxic => isToxic true (file was internally inconsistent: severity toxic but isToxic false)\",\"safetyNotes[1]: removed the R…"
+    }
+  ],
+  "totalTokens": 491055,
+  "totalToolCalls": 148
+}

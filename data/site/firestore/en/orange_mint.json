@@ -8,9 +8,9 @@
   ],
   "name": "Orange Mint",
   "aliases": [],
-  "description": "Orange Mint (Mentha x piperita f. citrata), a citrus-scented hybrid mint variety, is mildly toxic to cats. Like all Mentha species, it contains pulegone and menthol-related terpenoid compounds that cats cannot efficiently metabolise. While the orange-citrus fragrance may attract some cats, ingestion causes gastrointestinal upset.",
+  "description": "Orange Mint is a citrus-scented herb that is mildly toxic to cats. Like other types of mint, it contains oils that a cat's liver cannot process easily. While the pleasant smell might attract some cats, eating the plant can cause stomach problems.\n\nChewing on the fresh leaves usually only causes mild vomiting or diarrhea. However, concentrated mint essential oils are much more dangerous and can lead to more serious symptoms like weakness, trouble breathing, or liver damage.\n\nSymptoms of eating too much mint include drooling, vomiting, and loss of appetite. It is best to keep mint plants and mint oils away from your cat. If your cat shows signs of discomfort after eating mint, contact your veterinarian.",
   "safetyNotes": [
-    "Toxic compounds: pulegone, linalool, and citrus-scented monoterpenoids; concentration increases in the flowers and essential oil",
+    "Toxic principle: essential oils (monoterpenoids). Orange mint oil is dominated by linalool and linalyl acetate; concentration is highest in the flowers and extracted essential oil",
     "Mechanism: cats lack efficient glucuronidation for these terpenoids, leading to GI irritation and mild hepatic stress with repeated exposure",
     "Symptoms: vomiting, diarrhea, drooling, lethargy; typically mild and self-limiting",
     "Fresh leaf nibbling usually causes only transient mild upset; essential oil forms are far more dangerous",
@@ -24,13 +24,13 @@
     {
       "name": "Vomiting, diarrhea, excessive drooling (foaming at the mouth), difficulty swallowing, and loss of appetite",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "severity": "mild",
       "onset": "Rapidly shortly after ingestion",
       "notes": "A tiny taste of the fresh plant usually results in mild stomach upset. However, if the cat consumes larger amounts or is exposed to concentrated essential oils, the gastrointestinal distress becomes far more dangerous6. 2. Neurological Impairment"
     },
     {
       "name": "Lethargy, profound weakness, uncoordinated gait (ataxia), muscle tremors, and seizures",
-      "body_system": "Gastrointestinal",
+      "body_system": "Neurological",
       "severity": "severe",
       "onset": "Shortly after absorption into the bloodstream.",
       "notes": "These severe neurological signs are most often triggered by exposure to the highly concentrated essential oils found in the plant, rather than just a casual nibble of a leaf36. 3. Respiratory Distress"
@@ -45,7 +45,7 @@
     {
       "name": "Liver damage progressing to liver failure",
       "body_system": "Hepatic",
-      "severity": "fatal",
+      "severity": "moderate",
       "onset": "Delayed (often developing over several hours or days as the liver struggles to metabolize the toxins",
       "notes": "Because a cat's liver lacks the specific enzymes necessary to break down plant essential oils, the toxins build up and place dangerous, potentially fatal stress on the liver2. 5. Dermal and Mucous Membrane Burns"
     },

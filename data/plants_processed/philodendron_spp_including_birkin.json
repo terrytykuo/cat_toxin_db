@@ -5,18 +5,18 @@
     {
       "chemical_formula": "Not provided in the given sources12.",
       "concentration_notes": "Philodendrons contain high levels of these crystals throughout the entire plant34. The overall severity of the toxicity is generally classified as moderate56. While exposure is rarely fatal, a severe inflammatory response can cause the tissues in the throat to swell, which carries the dangerous potential to obstruct the cat's airway",
-      "description": "in cats: These needle-like crystals are stored within specialized plant cells called idioblasts12. When a cat bites or chews the plant, the mechanical action ruptures these cells, forcefully ejecting the sharp crystals into the cat's oral mucosa and surrounding tissues12. This physical trauma causes immediate and intense pain, burning, and inflammation of the mouth, lips, and tongue13. While the p",
+      "description": "These needle-like crystals are stored within specialized plant cells called idioblasts12. When a cat bites or chews the plant, the mechanical action ruptures these cells, forcefully ejecting the sharp crystals into the cat's oral mucosa and surrounding tissues12. This physical trauma causes immediate and intense pain, burning, and inflammation of the mouth, lips, and tongue13. While the p",
       "name": "Insoluble calcium oxalate crystals, which are shaped like needles and often referred to as raphides"
     }
   ],
-  "description": "Philodendron (Philodendron spp.), including popular varieties such as Philodendron Birkin, Heartleaf Philodendron, and Tree Philodendron, are widely kept houseplants toxic to cats. All Philodendron species contain insoluble calcium oxalate crystals (raphides) throughout their leaves and stems. Chewing releases these needle-like crystals into the oral tissue, causing immediate intense pain.",
+  "description": "Philodendron (Philodendron spp.), including popular varieties like 'Birkin' and heartleaf philodendron, are common houseplants that are toxic to cats. The leaves and stems contain tiny, needle-like structures called insoluble calcium oxalate crystals that cause irritation.\n\nWhen a cat bites the plant, these sharp crystals shoot into the mouth and throat tissues. This causes immediate, intense pain and burning. A cat may drool heavily, paw at its mouth, vomit, or have trouble swallowing.\n\nIn severe cases, the swelling in the mouth and throat can make it hard for the cat to breathe. Because all varieties of philodendron are equally dangerous, it is best to keep them out of your cat's reach. If your cat eats this plant and shows signs of throat swelling or breathing issues, contact a veterinarian immediately.",
   "emergencyNote": "Securing an Airway and Oxygen Support",
   "family": "Araceae",
   "isToxic": true,
   "name": "Philodendron",
   "safetyNotes": [
-    "Toxic compounds: insoluble calcium oxalate raphides plus proteolytic enzymes in the sap",
-    "Mechanism: raphides mechanically penetrate the oral and GI mucosa; enzymes intensify the inflammatory response",
+    "Toxic compounds: insoluble calcium oxalate raphides (needle-like crystals)",
+    "Mechanism: raphides mechanically penetrate the oral and GI mucosa, causing immediate pain and inflammation",
     "Symptoms: sudden oral pain, intense drooling, pawing at mouth, swollen lips and tongue, difficulty swallowing, vomiting",
     "All species and hybrids are equally hazardous — variegated varieties are no safer than plain green types",
     "Rinse the mouth with water; seek veterinary care if throat swelling impairs breathing"
@@ -27,21 +27,21 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Immediate oral pain, intense burning sensation, erythema",
-      "notes": "This is caused by the mechanical action of chewing the plant, which ruptures specialized cells and forcefully ejects needle-like insoluble calcium oxalate crystals (raphides) into the cat's tissues. The immediate and intense pain often limits the amount of the plant the cat is willing to consume37.",
+      "notes": "This is caused by the mechanical action of chewing the plant, which ruptures specialized cells and forcefully ejects needle-like insoluble calcium oxalate crystals (raphides) into the cat's tissues. The immediate and intense pain often limits the amount of the plant the cat is willing to consume.",
       "onset": "Immediate",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Excessive drooling (hypersalivation)",
-      "notes": "This is a direct physiological response to the sharp calcium oxalate crystals piercing and irritating the mucous membranes of the mouth and throat17. 3. Gastrointestinal Distress and Anorexia",
+      "notes": "This is a direct physiological response to the sharp calcium oxalate crystals piercing and irritating the mucous membranes of the mouth and throat. 3. Gastrointestinal Distress and Anorexia",
       "onset": "Immediate",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, diarrhea, difficulty swallowing (dysphagia), and loss of appetite (anorexia)",
-      "notes": "The reluctance to eat and difficulty swallowing are primarily secondary to the extreme discomfort, pain, and swelling in the gastrointestinal tract rather than systemic nausea1.... 4. Airway Swelling and Respiratory Distress",
+      "notes": "The reluctance to eat and difficulty swallowing are primarily secondary to the extreme discomfort, pain, and swelling in the gastrointestinal tract rather than systemic nausea1. 4. Airway Swelling and Respiratory Distress",
       "onset": "Shortly after ingestion.",
       "severity": "moderate"
     },
@@ -50,12 +50,6 @@
       "name": "Edema (swelling) of the mouth, tongue, pharynx, and upper airways, leading to difficulty breathing (dyspnea)",
       "notes": "While Philodendron ingestion is rarely fatal, a severe inflammatory response to the crystals can cause the tissues in the throat to swell significantly. This carries the dangerous potential to obstruct the cat's airway, which is a medical emergency requiring the vet to secure an airway and provide o",
       "onset": "Rapidly following ingestion",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Renal failure, lethargy, excitability, nervous spasms, convulsions, and encephalitis",
-      "notes": "While insoluble calcium oxalates usually cause localized physical irritation, ingestion of Philodendron has occasionally been reported to cause these rare but severe systemic issues in cats, including kidney failure and brain inflammation (encephalitis)",
       "severity": "severe"
     }
   ],
@@ -67,13 +61,13 @@
     {
       "description": "The veterinarian will immediately assess the cat for severe swelling of the tongue, mouth, and pharynx (laryngeal edema). If the swelling is obstructing the cat's breathing, the vet will secure the airway and provide supplemental oxygen",
       "name": "Securing an Airway and Oxygen Support",
-      "notes": "While Philodendron ingestions are rarely fatal, a severe inflammatory response to the calcium oxalate crystals can cause the tissues in the throat to swell to the point of airway obstruction, making this the most critical and urgent emergency intervention12. 2. Oral Decontamination and Crystal Bindi",
+      "notes": "While Philodendron ingestions are rarely fatal, a severe inflammatory response to the calcium oxalate crystals can cause the tissues in the throat to swell to the point of airway obstruction, making this the most critical and urgent emergency intervention. 2. Oral Decontamination and Crystal Bindi",
       "priority": 1
     },
     {
       "description": "The oral cavity is thoroughly inspected, and any remaining plant material is gently removed2. The mouth is then wiped out or rinsed with cool water to help clear away the sharp, needle-like calcium oxalate crystals (raphides)",
       "name": "Oral Rinsing and Removal of Plant Material",
-      "notes": "Veterinarians may also utilize milk, yogurt, or other calcium-containing dairy products to flush the mouth23. The calcium directly binds to the insoluble oxalates, which helps clear them from the oral cavity and esophagus while soothing the cat's intense pain and burning sensation23. 3. Symptomatic ",
+      "notes": "Veterinarians may also utilize milk, yogurt, or other calcium-containing dairy products to flush the mouth23. The calcium directly binds to the insoluble oxalates, which helps clear them from the oral cavity and esophagus while soothing the cat's intense pain and burning sensation. 3. Symptomatic",
       "priority": 2
     },
     {

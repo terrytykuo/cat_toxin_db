@@ -60,11 +60,11 @@
   "toxicityLevel": "mild",
   "severity": "toxic",
   "safetyNotes": [
-    "Symptoms: Drooling, vomiting, diarrhea, abdominal pain, low blood pressure, and lethargy; tremors in more severe cases.",
-    "Bulb is most toxic: The underground bulb contains the greatest alkaloid concentration. Cats that dig in pots or garden beds face the highest exposure risk.",
-    "Action: Contact a vet promptly — even small amounts from the bulb can cause significant symptoms."
+    "Symptoms: Drooling, vomiting, nausea, and diarrhea. Signs are predominantly gastrointestinal.",
+    "Bulb contains alkaloids: The underground bulb contains a high alkaloid concentration. Cats that dig in pots or garden beds face exposure risk.",
+    "Action: Contact a vet if your cat ingests any part of the plant, especially if vomiting or diarrhea persists."
   ],
-  "description": "Blood Lily (Scadoxus multiflorus, also known as Haemanthus) is a striking bulbous plant with large, spherical flower heads in vivid red. Like Amaryllis — a close relative in the Amaryllidaceae family — it contains lycorine and other phenanthridine alkaloids concentrated throughout the plant, with the highest levels in the bulb. Lycorine inhibits protein synthesis at the cellular level and triggers strong gastrointestinal reactions. All parts of the plant are toxic, and the showy flowers may attract cats' curiosity.",
+  "description": "Blood Lily (Scadoxus multiflorus, also known as Haemanthus) is a striking bulbous plant with large, spherical flower heads in vivid red. Like Amaryllis — a close relative in the Amaryllidaceae family — it contains lycorine and other phenanthridine alkaloids concentrated throughout the plant, with the highest levels in the bulb. Lycorine inhibits protein synthesis at the cellular level and acts as an emetic, triggering gastrointestinal reactions such as drooling, vomiting, and diarrhea. Authorities classify it as low toxicity with predominantly gastrointestinal signs, but the showy flowers may attract cats' curiosity.",
   "toxicParts": [
     "Bulb",
     "All parts of the plant"

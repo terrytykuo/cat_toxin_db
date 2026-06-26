@@ -10,15 +10,15 @@
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: Amygdalin naturally accumulates in high concentrations within the pits (kernels) of peaches, containing roughly 6.8 g/kg of amygdalin7. The overall cyanogenic potential of peach kernels is extremely high, yielding roughly 710 mg of hydrogen cyanide per kilogram of seed material8. The hydrogen cyanide released from this compound is exceptionally potent; the fatal oral dose is generally ",
-      "description": "in cats: Amygdalin itself is not directly toxic, but it acts as a precursor to a deadly poison12. When a cat chews or crushes the pit (seed) of a peach, the damaged plant tissue mixes the amygdalin with β-glucosidase enzymes (which are also present in the cat's intestinal microbiota)2.... These enzymes hydrolyze the amygdalin, ultimately decomposing it to rapidly release hydrogen cyanide (HCN) int",
+      "concentration_notes": "or potency: Amygdalin naturally accumulates in high concentrations within the pits (kernels) of peaches, containing roughly 6.8 g/kg of amygdalin7. The overall cyanogenic potential of peach kernels is extremely high, yielding roughly 710 mg of hydrogen cyanide per kilogram of seed material8. The hydrogen cyanide released from this compound is exceptionally potent; the fatal oral dose is generally",
+      "description": "Amygdalin itself is not directly toxic, but it acts as a precursor to a deadly poison12. When a cat chews or crushes the pit (seed) of a peach, the damaged plant tissue mixes the amygdalin with β-glucosidase enzymes (which are also present in the cat's intestinal microbiota)2. These enzymes hydrolyze the amygdalin, ultimately decomposing it to rapidly release hydrogen cyanide (HCN) int",
       "name": "Hydrogen Cyanide is HCN"
     }
   ],
-  "description": "Peach flesh (Prunus persica) is not toxic to cats in small amounts, but the pit, seeds, stems, and leaves contain amygdalin — a cyanogenic glycoside that releases hydrogen cyanide (HCN) when chewed or metabolised. This is the same compound found in apricot, cherry, and plum pits. The flesh alone is safe as an occasional treat.",
+  "description": "Peach (Prunus persica) flesh is safe for cats in small amounts, but the rest of the fruit can be dangerous. The pit, seeds, stems, and leaves contain a compound called amygdalin. When a cat chews or digests these parts, the amygdalin breaks down and releases hydrogen cyanide, a deadly poison.\n\nBecause of this risk, you should never let your cat play with or chew on peach pits. While a tiny piece of ripe peach flesh is okay as an occasional treat, it is high in sugar and does not give cats any nutritional benefits. Also, avoid giving your cat canned peaches, as they often contain extra sugar or unsafe artificial sweeteners.\n\nIf your cat chews a peach pit, they might breathe heavily, drool, or vomit. In severe cases, it can cause seizures or breathing failure. Keep peach pits away from your cat, and contact a veterinarian immediately if you think your cat has chewed one.",
   "emergencyNote": "The pits (seeds) of peaches are highly toxic to cats because they contain amygdalin, a cyanogenic glycoside that releases lethal hydrogen cyanide when chewed or crushed",
   "family": "Rosaceae",
-  "isToxic": false,
+  "isToxic": true,
   "name": "Peaches",
   "safetyNotes": [
     "Pit, seeds, leaves, stems: toxic — amygdalin (cyanogenic glycoside) releases HCN via beta-glucosidase",
@@ -27,14 +27,9 @@
     "Never give a whole peach — remove the pit completely before offering any flesh",
     "Canned or sweetened peach products should be avoided due to added sugar or xylitol"
   ],
-  "scientific_name": "Peaches",
+  "scientific_name": "Prunus persica",
   "severity": "toxic",
   "symptoms": [
-    {
-      "body_system": "Metabolic",
-      "name": "The symptoms a cat shows after ingesting peaches depend heavily on which part of the fruit was consumed. While the flesh of a peach is not toxic",
-      "severity": "moderate"
-    },
     {
       "body_system": "Gastrointestinal",
       "name": "Diarrhea and Loose Stools",
@@ -86,8 +81,6 @@
     }
   ],
   "toxicParts": [
-    "Flesh",
-    "Fruit",
     "Pit",
     "Seed"
   ],

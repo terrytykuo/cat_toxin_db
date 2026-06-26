@@ -4,15 +4,15 @@
   "chemicals": [
     {
       "chemical_formula": "NaCl (Note",
-      "concentration_notes": "or potency: Cats receive all the sodium they need from a balanced commercial cat diet, and their bodies cannot safely handle the high sodium concentrations found in heavily salted human snacks like pretzels1. The acute oral lethal dose of salt in companion animals (such as dogs) is approximately 4 g/kg, though severe clinical signs of toxicosis can appear after ingesting just 2–3 g/kg5. Ingesting ",
-      "description": "in cats: Pretzels are human snack foods that are heavily coated in salt12. When a cat ingests excess sodium, it severely disrupts their normal water and electrolyte balance1. The excess salt creates a strong osmotic gradient that draws fluid out of the body's cells, leading to severe systemic dehydration and electrolyte derangements13. In the central nervous system, this rapid osmotic shift causes",
+      "concentration_notes": "or potency: Cats receive all the sodium they need from a balanced commercial cat diet, and their bodies cannot safely handle the high sodium concentrations found in heavily salted human snacks like pretzels1. The acute oral lethal dose of salt in companion animals (such as dogs) is approximately 4 g/kg, though severe clinical signs of toxicosis can appear after ingesting just 2–3 g/kg5. Ingesting",
+      "description": "Pretzels are human snack foods that are heavily coated in salt12. When a cat ingests excess sodium, it severely disrupts their normal water and electrolyte balance1. The excess salt creates a strong osmotic gradient that draws fluid out of the body's cells, leading to severe systemic dehydration and electrolyte derangements13. In the central nervous system, this rapid osmotic shift causes",
       "name": "Sodium Chloride (Salt)"
     }
   ],
-  "description": "Pretzels are not acutely toxic to cats but are an inappropriate snack due to their very high sodium content. Even a small amount of salted pretzel contributes a disproportionate sodium load to a cat's diet. High sodium intake causes excessive thirst, increased urination, and with large amounts, salt toxicity affecting the kidneys and nervous system.",
+  "description": "Pretzels are a baked human snack usually covered in large grains of salt. While the baked dough itself isn't directly poisonous to cats, the heavy salt coating makes pretzels a very bad idea to share with your pet.\n\nCats get all the sodium they need from their regular cat food, and their small bodies cannot safely process the extreme amount of salt found on pretzels. Eating too much salt pulls water out of their cells, causing a serious imbalance. This can lead to extreme thirst, increased urination, and in severe cases, salt toxicity that harms their nervous system and kidneys.\n\nSome pretzels also feature flavorings like onion or garlic powder, which are highly toxic to cats. A tiny lick of a plain pretzel might not cause harm, but because of the high salt risk, you should keep these snacks out of reach. If your cat eats heavily salted or flavored pretzels and shows signs of distress, contact a veterinarian.",
   "emergencyNote": "Because the primary danger of pretzels for cats is their extremely high salt",
-  "family": "Various",
-  "isToxic": false,
+  "family": null,
+  "isToxic": true,
   "name": "Pretzels",
   "safetyNotes": [
     "Sodium hazard: traditional salted pretzels are heavily salted — even a few pieces significantly exceed a cat's safe daily sodium intake",
@@ -21,14 +21,9 @@
     "Plain, unsalted pretzel bread: not toxic but offers no nutritional benefit to cats",
     "A tiny accidental taste of salted pretzel is not an emergency; keep all salty snacks away from cats"
   ],
-  "scientific_name": "Pretzels",
+  "scientific_name": null,
   "severity": "toxic",
   "symptoms": [
-    {
-      "body_system": "Metabolic",
-      "name": "Because pretzels are heavily salted human snacks",
-      "severity": "moderate"
-    },
     {
       "body_system": "Gastrointestinal",
       "name": "Gastrointestinal Distress (Vomiting and Diarrhea)",
@@ -59,11 +54,10 @@
     }
   ],
   "toxicParts": [
-    "Seed",
-    "Skin",
-    "Pit"
+    "Salt coating",
+    "Onion/garlic flavoring"
   ],
-  "toxicityLevel": "low",
+  "toxicityLevel": "high",
   "treatments": [
     {
       "description": null,
@@ -78,7 +72,7 @@
       "priority": 2
     },
     {
-      "description": "of the procedure: The veterinarian will hospitalize the cat, measure serum sodium concentrations, and administer specific IV fluids (such as a 5% dextrose solution) to gradually dilute the sodium in the blood and restore normal water and electrolyte balance over a period of 2 to 3 days7.... Loop diuretics, such as furosemide, may also be administered to help excrete sodium and prevent fluid from b",
+      "description": "of the procedure: The veterinarian will hospitalize the cat, measure serum sodium concentrations, and administer specific IV fluids (such as a 5% dextrose solution) to gradually dilute the sodium in the blood and restore normal water and electrolyte balance over a period of 2 to 3 days7. Loop diuretics, such as furosemide, may also be administered to help excrete sodium and prevent fluid from b",
       "name": "Controlled IV Fluid Therapy and Sodium Correction (Primary Medical Treatment)",
       "notes": "It is critical that the serum sodium concentration is lowered slowly, at a recommended rate of 0.5 to 1.0 mEq/L per hour9. If the sodium levels are dropped too quickly, the osmotic gradient reverses, rapidly drawing water into the brain cells and causing severe, potentially fatal cerebral edema",
       "priority": 3

@@ -1,8 +1,11 @@
 # Cat Toxin DB — Progress Log
 
-## 2026-06-26 — 內容驗證 P2 refute 補跑 + round-2 事實修正
+## 2026-06-26 — 內容驗證 P2 refute 補跑 + round-2/3 事實修正
 
 詳見 `docs/CONTENT_AUDIT_RESUME.md`（single source of truth）。
+
+- **round-3：11 筆 NEEDS_REVIEW 全數修正**（task wig1q79dc）：症狀交叉污染清理（mentha_chocolate methylxanthine、nightshade 馬科溶血/呼吸麻痺等）、isToxic 一致性（peaches/pretzels/raw_meat false→true）、raw_eggs severity toxic→cautious（高估降級）。0 SCHEMA enum 違規。至此 **P2 149 筆（16 FAIL + 11 NEEDS_REVIEW）全數修正**落 disk canonical。
+- caveat：部分 firestore/zh-TW 快取仍含舊 fabricated 內容，待任務 D Firestore sync 從 canonical 重生。
 
 - **任務 B：P2 refute 補跑 54/54 完成**（web-grounded 對抗式查證，refute-by-default）。對抗式事實查證覆蓋率達 **200/200（100%）**。pending 歸零。結果 `data/audits/verify-localize-2026-06-26-p2-refute-round2.json`。
 - **新發現 16 FAIL → 全數修正（16/16）**，外科式 Edit 寫入 disk canonical（`*_processed` + 部分 zh-TW/firestore 快取）：
