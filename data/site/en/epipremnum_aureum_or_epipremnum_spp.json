@@ -1,15 +1,14 @@
 {
   "aliases": [],
   "category": "plant",
-  "description": "Pothos (Epipremnum aureum), also called Devil’s Ivy, is one of the most common houseplants and a frequent cause of plant-related toxicity in cats. As a member of the Araceae family, it contains insoluble calcium oxalate crystals (raphides) throughout its leaves and stems. Chewing the plant causes immediate intense oral pain and irritation.",
+  "description": "Pothos (Epipremnum aureum), also known as Devil's Ivy, is a very common houseplant with long, trailing vines. It is not safe for cats, especially since its hanging leaves are often tempting for curious pets to play with and chew.\n\nThe main danger comes from tiny, sharp needles inside the plant's cells called insoluble calcium oxalate crystals. When a cat bites into the leaves or stems, these microscopic needles shoot out and stab the tissues of the mouth, tongue, and throat. This causes sudden and sharp pain rather than a body-wide illness. Because the pain happens right away, most cats stop chewing before they eat a large amount.\n\nIf a cat bites a pothos plant, they may start drooling heavily, paw at their mouth in pain, or vomit. You might also see swelling around their lips, mouth, and tongue. In severe cases, the swelling can make it hard for the cat to swallow. Move trailing vines completely out of reach, and contact a veterinarian if the swelling is bad or if your cat has trouble swallowing.",
   "imageUrls": [],
   "name": "Pothos / Devil’s Ivy",
   "safetyNotes": [
-    "Toxic compounds: insoluble calcium oxalate raphides; sap also contains proteolytic enzymes that intensify the reaction",
-    "Mechanism: crystals are forcefully ejected into the oral mucosa when plant cells rupture, causing mechanical burning and swelling",
-    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, difficulty swallowing, swollen lips and tongue, vomiting",
-    "The trailing vines are very accessible to cats, especially when draped over furniture or shelves",
-    "Rinse the mouth with water; seek veterinary care if swallowing is impaired or symptoms do not subside"
+    "Main hazard: Insoluble calcium oxalate raphides in the leaves and stems irritate the mouth and throat when chewed.",
+    "Symptoms: Sudden mouth pain, heavy drooling, pawing at the mouth, swollen lips or tongue, vomiting, and difficulty swallowing.",
+    "Access risk: Trailing vines are easy for cats to reach when they hang over shelves, tables, or plant stands.",
+    "Action: Move the plant out of reach, offer water or gently rinse the mouth if safe, and contact a vet if swelling or swallowing trouble appears."
   ],
   "scientificName": "Epipremnum aureum or Epipremnum spp.",
   "severity": "toxic",

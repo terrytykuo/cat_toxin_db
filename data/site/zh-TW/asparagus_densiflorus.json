@@ -2,7 +2,7 @@
   "slug": "asparagus_densiflorus",
   "name": "文竹",
   "manual_override": true,
-  "translated_at": "2026-05-28T15:18:51.997Z",
+  "translated_at": "2026-06-04T06:39:58Z",
   "aliases": [
     "雲片竹",
     "山草"
@@ -16,21 +16,26 @@
   "symptoms": [
     {
       "name": "皮膚刺激（過敏性皮膚炎）",
-      "body_system": "皮膚系統",
+      "body_system": "皮膚",
       "onset": "反覆接觸"
     },
     {
-      "body_system": "腸胃道系統",
+      "body_system": "腸胃道",
       "name": "嘔吐",
       "onset": ""
     },
     {
-      "body_system": "腸胃道系統",
+      "body_system": "腸胃道",
       "name": "腹痛"
     },
     {
-      "body_system": "腸胃道系統",
+      "body_system": "腸胃道",
       "name": "腹瀉"
     }
-  ]
+  ],
+  "toxicParts": [
+    "葉",
+    "果實"
+  ],
+  "gemini_model": "codex-manual"
 }

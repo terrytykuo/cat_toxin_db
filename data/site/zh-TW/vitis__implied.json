@@ -1,8 +1,8 @@
 {
   "slug": "vitis__implied",
   "source_hash": "15cb3aa489ef6ef3df3aaa3a18548fcd6e1b40aea7c8a8704b064a6bc964e4ca",
-  "translated_at": "2026-06-03T21:31:11.093519Z",
-  "gemini_model": "codex-manual",
+  "translated_at": "2026-08-29T00:00:00Z",
+  "gemini_model": "manual-claude",
   "manual_override": true,
   "category": "plant",
   "name": "葡萄／葡萄乾／醋栗乾",
@@ -19,19 +19,34 @@
   ],
   "symptoms": [
     {
-      "name": "嘔吐、腹瀉、腹痛或精神變差",
+      "name": "嘔吐",
       "body_system": "腸胃道",
-      "onset": "通常在誤食後最初幾小時內出現。"
+      "onset": "攝入後 12 小時內。"
     },
     {
-      "name": "食慾下降、虛弱或病況惡化",
-      "body_system": "腎臟",
-      "onset": "腎臟傷害開始時可能出現。"
+      "name": "腹瀉",
+      "body_system": "腸胃道",
+      "onset": "12–24 小時（常接在最初的嘔吐之後）。"
     },
     {
-      "name": "喝水變多、尿量變少或急性腎衰竭",
+      "name": "精神不振、虛弱或沉鬱",
+      "body_system": "神經系統",
+      "onset": "12–24 小時。"
+    },
+    {
+      "name": "喝水增加（多渴）與排尿增加（多尿）",
       "body_system": "腎臟",
-      "onset": "可能在接下來 24 到 72 小時內發展。"
+      "onset": "最初 24 小時。"
+    },
+    {
+      "name": "尿量減少（少尿）或完全無尿",
+      "body_system": "腎臟",
+      "onset": "12–72 小時（隨病況惡化出現）。"
+    },
+    {
+      "name": "食慾不佳或拒食",
+      "body_system": "腸胃道",
+      "onset": "12–24 小時。"
     }
   ]
 }

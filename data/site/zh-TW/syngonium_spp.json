@@ -19,17 +19,17 @@
   ],
   "symptoms": [
     {
-      "body_system": "消化道系統",
+      "body_system": "腸胃道",
       "onset": "咀嚼後立即出現",
       "name": "Oral Irritation (intense burning sensation, pain)"
     },
     {
-      "body_system": "消化道系統",
+      "body_system": "腸胃道",
       "name": "過度流口水（流涎）",
       "onset": "快速出現"
     },
     {
-      "body_system": "消化道系統",
+      "body_system": "腸胃道",
       "name": "舌頭、嘴唇與咽腫脹",
       "onset": "快速出現"
     },
@@ -39,11 +39,11 @@
       "onset": "由於腫脹導致的間接症狀"
     },
     {
-      "body_system": "消化道系統",
+      "body_system": "腸胃道",
       "name": "嘔吐與腹瀉"
     },
     {
-      "body_system": "消化道系統",
+      "body_system": "腸胃道",
       "name": "食慾下降"
     }
   ]

@@ -1,11 +1,20 @@
 {
-  "aliases": [],
+  "aliases": [
+    "Silver Leaf Philodendron",
+    "Silk Pothos"
+  ],
   "category": "plant",
-  "description": "",
+  "description": "Satin Pothos (Scindapsus pictus) is a popular trailing houseplant with distinctive silver markings on its leaves. It is toxic to cats and should be kept out of their reach, as chewing on the leaves or stems can cause immediate and significant discomfort.\n\nThe plant's tissues are filled with tiny, sharp, needle-like crystals called insoluble calcium oxalates. When a cat bites into the plant, these crystals embed themselves in the soft tissues of the mouth, tongue, and throat, causing intense irritation and a burning sensation. This physical injury is the primary cause of the plant's toxicity.\n\nSymptoms appear right away and include intense drooling, pawing at the mouth, visible swelling of the lips or tongue, and vomiting. In severe cases, swelling can obstruct the airway, making breathing difficult. If you suspect your cat has chewed on a Satin Pothos, contact your veterinarian for guidance.",
   "imageUrls": [],
-  "name": "Eg Satin Pothos",
-  "safetyNotes": [],
-  "severity": "cautious",
+  "name": "Satin Pothos",
+  "safetyNotes": [
+    "Main hazard: Insoluble calcium oxalate raphides in the leaves and stems cause immediate mouth and throat irritation when chewed.",
+    "Symptoms: Sudden oral pain, heavy drooling, pawing at the mouth, swollen lips or tongue, vomiting, and difficulty swallowing.",
+    "Why cats get exposed: The trailing vines and silver-patterned leaves can be easy for curious cats to reach or bat at.",
+    "Action: Move the plant out of reach, offer water or gently rinse the mouth if safe, and call a vet if swelling, breathing trouble, or repeated vomiting occurs."
+  ],
+  "scientificName": "Scindapsus pictus",
+  "severity": "toxic",
   "slug": "eg_satin_pothos",
   "symptoms": [
     {
@@ -45,5 +54,8 @@
       "severity": "severe"
     }
   ],
-  "toxicParts": []
+  "toxicParts": [
+    "Leaf",
+    "Stem"
+  ]
 }

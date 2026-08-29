@@ -1,0 +1,35 @@
+{
+  "slug": "lemon_mint",
+  "category": "plant",
+  "name": "檸檬薄荷",
+  "aliases": [],
+  "description": "檸檬薄荷（Monarda citriodora），又稱檸檬美國薄荷（lemon beebalm），是唇形科（Lamiaceae）的芳香香草，一般認為對貓是安全的。雖然俗名帶有「薄荷」二字，它並不是真正的薄荷屬（Mentha）植物：ASPCA 未將其列為有毒植物，其檸檬香氣來自以百里酚（thymol）、對傘花烴（p-cymene）與香荊芥酚（carvacrol）為主的芳香精油成分——它不含胡薄荷酮（pulegone）或薄荷醇（menthol）。和幾乎所有植物一樣，貓啃咬葉片可能引起輕微、短暫的腸胃不適。請注意不要將它與帶檸檬香的真正薄荷屬植物（Mentha spp.）混淆；真正薄荷的精油——尤其是唇萼薄荷（pennyroyal）——對貓有毒。",
+  "safetyNotes": [
+    "ASPCA 未將其列為對貓有毒；美國薄荷屬（Monarda）植物普遍被認為對寵物無毒",
+    "芳香精油以百里酚、對傘花烴與香荊芥酚為主；本植物不含胡薄荷酮或薄荷醇（胡薄荷酮是唇萼薄荷 Mentha pulegium 的毒性成分，屬於不同植物）",
+    "啃咬新鮮葉片可能引起輕微、可自行緩解的腸胃不適或流口水，和許多植物相同",
+    "任何芳香香草的濃縮精油都應避免讓貓接觸",
+    "請勿將檸檬薄荷（Monarda citriodora）與帶檸檬香的真正薄荷屬植物（Mentha spp.）混淆；後者對貓有毒"
+  ],
+  "toxicParts": [
+    "根",
+    "莖",
+    "葉",
+    "全株"
+  ],
+  "symptoms": [
+    {
+      "name": "嘔吐、腹瀉、噁心、流口水（唾液分泌過多）",
+      "body_system": "腸胃道",
+      "onset": "臨床徵兆通常在攝入後不久出現（急性）。"
+    },
+    {
+      "name": "皮膚發紅、搔癢、接觸性皮膚炎",
+      "body_system": "皮膚",
+      "onset": "延遲出現（接觸後）。"
+    }
+  ],
+  "manual_override": true,
+  "translated_at": "2026-08-29T00:00:00Z",
+  "gemini_model": "manual-claude"
+}

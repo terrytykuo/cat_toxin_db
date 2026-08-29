@@ -1,15 +1,14 @@
 {
   "aliases": [],
   "category": "plant",
-  "description": "Flamingo Flower and Anthurium (Anthurium spp.) are popular tropical houseplants that are toxic to cats due to insoluble calcium oxalate crystals (raphides) packed throughout their leaves, stems, and spathe. Like other members of the Araceae family (including Dieffenbachia and Caladium), these needle-sharp crystals cause immediate and intense oral irritation when the plant is chewed.",
+  "description": "Flamingo Flower and Anthurium (Anthurium spp.) are tropical houseplants with glossy leaves and bright, waxy-looking flowers. They are toxic to cats if chewed. All parts of the plant should be kept away from cats.\n\nThe danger comes from insoluble calcium oxalate crystals, sometimes called raphides. These tiny needle-like crystals are released when the plant is bitten. They can pierce and irritate the soft tissues of the mouth and throat, causing immediate pain and swelling.\n\nSigns often start right away and may include pawing at the mouth, drooling, lip or tongue swelling, vomiting, or trouble swallowing. Most cats stop chewing quickly because it hurts, but swelling can still be stressful. Rinse the mouth gently with water if your cat allows it, remove the plant, and contact a veterinarian if symptoms continue or swallowing seems difficult.",
   "imageUrls": [],
   "name": "Flamingo Flower / Anthurium",
   "safetyNotes": [
-    "Toxic compounds: insoluble calcium oxalate raphides plus proteolytic enzymes that amplify the irritation",
-    "Mechanism: crystals mechanically penetrate the oral mucosa, causing intense burning and swelling",
-    "Symptoms: sudden oral pain, excessive drooling, pawing at mouth, swollen lips and tongue, difficulty swallowing, vomiting",
-    "All parts of the plant are hazardous; the reaction is immediate and self-limiting but distressing",
-    "Rinse the mouth with water and contact your vet if swallowing is impaired or symptoms persist"
+    "Main hazard: Insoluble calcium oxalate crystals cause immediate mouth and throat irritation.",
+    "Symptoms: Pawing at the mouth, drooling, swollen lips or tongue, vomiting, or trouble swallowing.",
+    "Risk level: All parts are irritating; pain often stops the cat from eating a large amount.",
+    "Action: Remove plant material, offer water, and call a vet if swelling or swallowing trouble continues."
   ],
   "scientificName": "Anthurium spp.",
   "severity": "toxic",
@@ -17,45 +16,27 @@
   "symptoms": [
     {
       "body_system": "Gastrointestinal",
-      "name": "Intense Burning Sensation / Oral Irritation",
-      "onset": "Immediate (Upon chewing or biting).",
-      "severity": "moderate"
+      "name": "Oral pain, drooling, or pawing at the mouth",
+      "severity": "moderate",
+      "onset": "Usually immediate while chewing."
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Swollen lips, tongue, or throat",
+      "severity": "moderate",
+      "onset": "Can occur quickly after chewing."
     },
     {
       "body_system": "Gastrointestinal",
-      "name": "Hypersalivation / Drooling",
-      "onset": "Immediate to Acute.",
-      "severity": "moderate"
-    },
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Oral and Pharyngeal Edema (Swelling)",
-      "onset": "Acute (Shortly after contact).",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Difficulty Swallowing / Dysphagia",
-      "onset": "Acute.",
-      "severity": "moderate"
-    },
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Vomiting",
-      "onset": "Acute.",
-      "severity": "moderate"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Pawing at the Mouth / Head Shaking",
-      "onset": "Immediate.",
-      "severity": "mild"
+      "name": "Vomiting or trouble swallowing",
+      "severity": "moderate",
+      "onset": "Usually soon after oral irritation begins."
     }
   ],
   "toxicParts": [
-    "Stem",
+    "All parts of the plant",
     "Leaf",
-    "Entire Plant",
+    "Stem",
     "Flower"
   ]
 }

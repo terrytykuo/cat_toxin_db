@@ -1,0 +1,40 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "馬纓丹是一種色彩繽紛的庭園灌木，但對貓來說非常危險。整株植物都有毒，尤其是那些還沒成熟的綠色小果實毒性最強。貓咪如果誤食，可能會導致嚴重的肝臟損傷，甚至肝衰竭。\n\n馬纓丹中的毒素（如 pentacyclic triterpenoids）會讓肝臟無法正常運作，進而可能導致皮膚或眼睛發黃（黃疸）。中毒的其他跡象包括嚴重的嘔吐、腹瀉、虛弱和呼吸困難。\n\n由於馬纓丹的毒性很高，只要懷疑貓咪吃到了，就應該視為緊急情況。不要等到出現黃疸等症狀才行動，請立即聯絡獸醫或急診動物醫院。",
+  "imageUrls": [],
+  "name": "Lantana",
+  "safetyNotes": [],
+  "severity": "cautious",
+  "slug": "lantana",
+  "symptoms": [
+    {
+      "body_system": "腸胃道",
+      "name": "Vomiting and Diarrhea",
+      "onset": "Not specified in the provided sources.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "呼吸系統",
+      "name": "Labored Breathing (Dyspnea)",
+      "onset": "Not specified in the provided sources.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "Weakness / Lethargy",
+      "onset": "Not specified in the provided sources.",
+      "severity": "severe"
+    },
+    {
+      "body_system": "肝臟",
+      "name": "Liver Failure",
+      "onset": "Delayed (typically occurs after the initial gastrointestinal signs).",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [],
+  "manual_override": true,
+  "gemini_model": "gemini-cli-manual-review",
+  "translated_at": "2026-06-03T22:27:19.400981Z"
+}

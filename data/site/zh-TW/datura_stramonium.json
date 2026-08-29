@@ -1,0 +1,40 @@
+{
+  "slug": "datura_stramonium",
+  "name": "曼陀羅／洋金花",
+  "description": "曼陀羅／洋金花（Datura stramonium），也稱 thorn apple 或 devil’s trumpet，對貓極度有毒。整株植物都可能危險，包括葉子、種子、花和莖。\n\n這種植物含有托烷生物鹼，例如 atropine、scopolamine 和 hyoscyamine。這些化學物質會阻斷身體正常的神經訊號。即使少量暴露，也可能影響心臟、大腦、眼睛、腸胃和體溫。\n\n症狀可能包括瞳孔放大、流口水或口乾、嘔吐、心跳加快、躁動、虛弱、顫抖、抽搐或昏倒。這是緊急情況。如果貓啃咬或吃到曼陀羅任何部位，請立即聯絡獸醫或急診動物醫院。",
+  "manual_override": true,
+  "gemini_model": "codex-manual",
+  "translated_at": "2026-06-04T06:39:58Z",
+  "safetyNotes": [
+    "有毒成分：莨菪烷類生物鹼，包括 atropine、scopolamine、hyoscyamine；全株有毒，帶刺的蒴果濃度最高。",
+    "機制：競爭性阻斷 muscarinic acetylcholine receptors，造成完整的抗膽鹼症候群（乾、快、熱、瞳孔散大、意識混亂）。",
+    "症狀：瞳孔放大（散瞳）、口乾、心跳加快（心搏過速）、體溫升高、方向感混亂、躁動、類似幻覺的行為、抽搐、昏迷。",
+    "種莢是毒性最集中的來源，掉在地上後可能持續存在數個月。",
+    "任何疑似攝入都屬於獸醫急症；莨菪烷類生物鹼中毒可能快速致命。"
+  ],
+  "toxicParts": [
+    "全株"
+  ],
+  "symptoms": [
+    {
+      "body_system": "呼吸系統",
+      "name": "呼吸急促（tachypnea）"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "瞳孔放大（散瞳）"
+    },
+    {
+      "body_system": "心血管",
+      "name": "心跳加快（心搏過速）"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "肌肉抽動與抽搐"
+    },
+    {
+      "body_system": "腸胃道",
+      "name": "腹瀉"
+    }
+  ]
+}

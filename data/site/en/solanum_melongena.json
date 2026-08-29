@@ -1,0 +1,45 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Eggplant (Solanum melongena) is the purple vegetable often used in cooking. The ripe, plain flesh is not usually a serious toxin for cats, but it is not a useful food for them and may still upset the stomach. The plant itself should be treated more carefully than the cooked vegetable.\n\nEggplant belongs to the nightshade family. Its leaves, stems, flowers, and unripe green fruit contain solanine and related glycoalkaloids. These compounds can irritate the digestive tract and, in larger amounts, may affect the nervous system and heart. Cooked eggplant dishes can also be unsafe because they often contain garlic, onion, heavy salt, butter, or rich sauces.\n\nIf a cat eats a tiny bite of plain ripe eggplant, watch for drooling, vomiting, diarrhea, low energy, or wobbliness. Keep eggplant plants and unripe fruit away from cats. Call a veterinarian or pet poison helpline promptly if your cat eats leaves, stems, flowers, a large amount of eggplant, or any eggplant cooked with garlic or onion.",
+  "imageUrls": [],
+  "name": "Eggplant",
+  "safetyNotes": [
+    "Main risk: Leaves, stems, flowers, and unripe fruit contain solanine-like glycoalkaloids.",
+    "Ripe plain flesh: A tiny bite is usually lower risk, but it has little value for cats and may cause stomach upset.",
+    "Avoid cooked dishes: Garlic, onion, heavy salt, butter, and rich sauces can make eggplant unsafe.",
+    "Action: Call a vet or poison helpline if your cat eats plant parts, a large amount, or develops symptoms."
+  ],
+  "scientificName": "Solanum melongena",
+  "severity": "toxic",
+  "slug": "solanum_melongena",
+  "symptoms": [
+    {
+      "name": "Drooling, vomiting, diarrhea, or belly pain",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Usually within a few hours after eating plant parts or a large amount.",
+      "notes": "Green plant parts and unripe fruit are more likely to cause signs than a tiny bite of ripe plain flesh."
+    },
+    {
+      "name": "Low energy, weakness, or wobbliness",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "May follow stomach upset as the toxin is absorbed.",
+      "notes": "These signs are more concerning and should be discussed with a veterinarian."
+    },
+    {
+      "name": "Tremors, seizures, slow heart rate, or trouble breathing",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Uncommon, but possible after larger exposure.",
+      "notes": "Seek urgent veterinary help if any severe signs appear."
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Leaf",
+    "Flower",
+    "Fruit"
+  ]
+}

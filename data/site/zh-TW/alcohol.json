@@ -14,7 +14,7 @@
   ],
   "symptoms": [
     {
-      "body_system": "Gastrointestinal",
+      "body_system": "腸胃道",
       "name": "腸胃不適",
       "onset": "30 到 60 分鐘"
     },
@@ -35,7 +35,7 @@
       "onset": "大約 60 分鐘"
     },
     {
-      "body_system": "Gastrointestinal",
+      "body_system": "腸胃道",
       "name": "急性器官損傷",
       "onset": "立即"
     }

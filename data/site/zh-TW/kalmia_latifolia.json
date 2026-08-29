@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "山月桂（Kalmia latifolia）是一種與杜鵑花同科的常綠灌木。它對貓咪具有高度毒性且非常危險，植物的所有部位（包括花朵、葉片，甚至花蜜）都有毒。\n\n這種植物含有木藜蘆毒素（grayanotoxins），會干擾貓咪體內正常的電氣訊號傳導。這些毒素會讓心臟、神經和肌肉細胞一直處於活化狀態，導致身體系統功能失常。\n\n只要吃下一點點，就可能引發嚴重的症狀，例如大量流口水、嘔吐、失去協調能力、癲癇，以及危險的心跳過緩。山月桂中毒是可能致命的醫療急症。如果您的貓咪接觸或吃下這種植物的任何部位，請立即聯絡獸醫或急診動物醫院。",
+  "imageUrls": [],
+  "name": "Mountain Laurel",
+  "safetyNotes": [
+    "Toxic compounds: grayanotoxins I, II, and III; all parts toxic — leaves, flowers, nectar, pollen, and berries",
+    "Mechanism: grayanotoxins hold voltage-gated sodium channels open, causing sustained membrane depolarisation in cardiac and skeletal muscle; this leads to hypotension, bradycardia, and arrhythmias",
+    "Symptoms: profuse drooling, vomiting, diarrhea, severe weakness, loss of coordination, abnormally slow heart rate, tremors, seizures; can be fatal without treatment",
+    "Even small amounts of leaves or flowers can cause serious cardiac effects in cats",
+    "Any suspected ingestion is a veterinary emergency"
+  ],
+  "scientificName": "Kalmia latifolia",
+  "severity": "toxic",
+  "slug": "kalmia_latifolia",
+  "symptoms": [
+    {
+      "body_system": "腸胃道",
+      "name": "Vomiting, diarrhea, inappetence (loss of appetite), abdominal pain, and hypersalivation (drooling)",
+      "onset": "Within 1 to 4 hours (and occasionally up to 12 hours) after ingestion",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "CNS depression, lethargy, and profound muscle weakness",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "心血管",
+      "name": "Abnormally slow heart rate (bradycardia), irregular heart rhythms (arrhythmias), and low blood pressure (hypotension)",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "Muscle tremors and seizures",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "Transient (temporary) blindness",
+      "onset": "Within 1 to 4 hours (up to 12 hours)",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Leaf",
+    "Flower"
+  ],
+  "manual_override": true,
+  "gemini_model": "gemini-cli-manual-review",
+  "translated_at": "2026-06-03T22:27:19.400981Z"
+}

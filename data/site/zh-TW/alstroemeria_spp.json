@@ -1,0 +1,36 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "秘魯百合（Alstroemeria spp.，又稱百合水仙）是花束中常見的花材，對貓咪只有輕微的刺激性。因為它的名字裡有「百合」，常讓飼主感到恐慌，但它其實不是真正的百合，也不會像麝香百合或虎皮百合那樣引起危險的腎衰竭。\n\n這植物的組織中含有一種化學性刺激物質，稱為鬱金香內酯A（tulipalin A，及其前驅物 tuliposide A）。如果貓咪啃咬葉子或莖部，這種成分可能會刺激口腔，並引起腸胃不適。如果汁液直接沾到皮膚，也可能造成發紅或搔癢（這也是花農「鬱金香手指」接觸性皮膚炎的成因）。\n\n大多數貓咪只會出現輕微的流口水、嘔吐或腹瀉，而且通常會自行緩解。雖然它比許多植物安全，但最好還是把花束放在貓咪碰不到的地方。如果貓咪吃下大量植物，或者腸胃不適的情況沒有好轉，請聯絡獸醫。",
+  "imageUrls": [],
+  "name": "Peruvian Lily",
+  "safetyNotes": [
+    "Toxic compounds: tulipalin A and its precursor tuliposide A (an irritant glycoside) throughout the plant; not related to the nephrotoxic compounds in true Lilium species",
+    "Mechanism: GI irritant; sap contact causes dermatitis through direct tissue irritation",
+    "Symptoms: vomiting, diarrhea, drooling; skin or eye contact with sap may cause redness and irritation",
+    "No kidney failure risk — a critical difference from Easter and Tiger lilies",
+    "Symptoms are mild and self-limiting; contact your vet if ingestion was significant or symptoms persist"
+  ],
+  "scientificName": "Alstroemeria spp.",
+  "severity": "cautious",
+  "slug": "alstroemeria_spp",
+  "symptoms": [
+    {
+      "body_system": "腸胃道",
+      "name": "Stomach upset (vomiting and/or diarrhea)",
+      "severity": "mild"
+    },
+    {
+      "body_system": "腸胃道",
+      "name": "Minor signs of oral toxicity or irritation",
+      "onset": "Immediate to shortly after chewing the plant.",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Entire Plant"
+  ],
+  "manual_override": true,
+  "gemini_model": "gemini-cli-manual-review",
+  "translated_at": "2026-06-03T22:27:19.400981Z"
+}

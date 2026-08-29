@@ -3,7 +3,7 @@
     "大麻草 (Marijuana)"
   ],
   "category": "plant",
-  "description": "大麻 (Cannabis / marijuana) 隨著娛樂與醫療用途增加，成為越來越常見的居家風險。主要毒性成分是四氫大麻酚 (THC)，會嚴重干擾貓的神經系統；不論是吃到植物、食用含大麻食品，或被動吸入煙霧，都可能中毒。貓對 THC 的耐受度低於人類，暴露後可能出現令人擔心的神經與身體症狀。大麻食品尤其危險，因為常同時含有巧克力或木糖醇。",
+  "description": "大麻 (Cannabis / marijuana) 的主要毒性成分是四氫大麻酚 (THC)，會嚴重干擾貓的神經系統；不論是吃到植物、食用含大麻食品，或被動吸入煙霧，都可能中毒。貓對 THC 的耐受度低於人類，暴露後可能出現令人擔心的神經與身體症狀。大麻食品尤其危險，因為常同時含有巧克力或木糖醇。",
   "gemini_model": "codex-manual",
   "manual_override": true,
   "name": "大麻",
@@ -24,37 +24,37 @@
     {
       "name": "長時間精神低落（嗜睡／倦怠）或過度興奮",
       "body_system": "神經系統",
-      "onset": "吸收後"
+      "onset": ""
     },
     {
       "name": "瞳孔放大",
       "body_system": "神經系統",
-      "onset": "吸收後"
+      "onset": ""
     },
     {
       "name": "尿失禁（漏尿）",
       "body_system": "腎臟",
-      "onset": "吸收後"
+      "onset": ""
     },
     {
       "name": "嘔吐與流涎過多",
       "body_system": "腸胃道",
-      "onset": "吸收後"
+      "onset": ""
     },
     {
       "name": "心搏過緩（心跳變慢）或心搏過速（心跳變快）",
       "body_system": "心血管",
-      "onset": "吸收後"
+      "onset": ""
     },
     {
       "name": "低體溫或高體溫",
       "body_system": "神經系統",
-      "onset": "吸收後"
+      "onset": ""
     },
     {
       "name": "顫抖、癲癇與昏迷",
       "body_system": "神經系統",
-      "onset": "吸收後"
+      "onset": ""
     }
   ],
   "toxicParts": [
@@ -62,5 +62,5 @@
     "葉子",
     "花"
   ],
-  "translated_at": "2026-05-29T11:45:09.343Z"
+  "translated_at": "2026-05-29T12:03:59.287Z"
 }

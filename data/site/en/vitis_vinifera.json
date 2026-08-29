@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Grapes, raisins, sultanas, and currants are highly dangerous for cats. There is no known safe amount. Even one grape or a few raisins may be enough to cause a serious problem in some cats.\n\nThe exact toxin is still not fully confirmed, though tartaric acid is one leading suspect. The main danger is sudden kidney injury. Because cats react unpredictably, a small amount can be risky even if another cat once seemed fine after eating more.\n\nEarly signs may include vomiting, diarrhea, low energy, not eating, belly pain, or increased thirst. Kidney problems can develop later. If your cat eats any grape, raisin, sultana, or currant, contact a veterinarian or pet poison helpline immediately instead of waiting for symptoms.",
+  "imageUrls": [],
+  "name": "Grapes / Raisins / Currants",
+  "safetyNotes": [
+    "Main hazard: Vitis fruits can cause unpredictable kidney injury; no safe amount is known.",
+    "Higher-risk forms: Raisins, sultanas, and dried currants are concentrated, so small amounts matter.",
+    "Symptoms: Vomiting, diarrhea, belly pain, low energy, poor appetite, increased thirst, or reduced urination.",
+    "Action: Call a vet or poison helpline immediately after any grape, raisin, sultana, or currant ingestion."
+  ],
+  "scientificName": "Vitis spp.",
+  "severity": "toxic",
+  "slug": "vitis_vinifera",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting, diarrhea, belly pain, or low energy",
+      "severity": "moderate",
+      "onset": "Often within the first several hours after ingestion."
+    },
+    {
+      "body_system": "Renal",
+      "name": "Poor appetite, weakness, or worsening sickness",
+      "severity": "severe",
+      "onset": "May develop as kidney injury begins."
+    },
+    {
+      "body_system": "Renal",
+      "name": "Increased thirst, reduced urination, or acute kidney failure",
+      "severity": "severe",
+      "onset": "May develop over the next 24 to 72 hours."
+    }
+  ],
+  "toxicParts": [
+    "Fruit"
+  ]
+}

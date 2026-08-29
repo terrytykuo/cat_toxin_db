@@ -1,0 +1,48 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Fetterbush and Staggerbush (Lyonia spp.) are flowering shrubs related to azaleas and rhododendrons. They are toxic to cats. Even though these plants are more common outdoors, cats may be exposed through garden shrubs, cut branches, or plant debris brought inside.\n\nThe dangerous compounds are grayanotoxins. These toxins interfere with the normal electrical signals used by the heart, nerves, and muscles. Leaves and flowers are risky, and the safest rule is to treat the whole plant as unsafe.\n\nPossible signs include drooling, vomiting, diarrhea, weakness, wobbliness, depression, low blood pressure, a slow or irregular heartbeat, tremors, seizures, or collapse. A few leaves may be enough to cause serious illness. If your cat may have eaten Fetterbush or Staggerbush, treat it as an emergency and contact a veterinarian or pet poison helpline right away.",
+  "imageUrls": [],
+  "name": "Fetterbush / Staggerbush",
+  "safetyNotes": [
+    "Main hazard: Grayanotoxins can disrupt heart, nerve, and muscle signaling.",
+    "Symptoms: Drooling, vomiting, diarrhea, weakness, wobbliness, low blood pressure, slow heartbeat, tremors, seizures, or collapse.",
+    "Risk level: Treat all parts of the plant as toxic; even a few leaves can be serious.",
+    "Action: Suspected ingestion is an emergency. Contact a vet or pet poison helpline immediately."
+  ],
+  "scientificName": "Lyonia spp.",
+  "severity": "toxic",
+  "slug": "lyonia_spp",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling, vomiting, or diarrhea",
+      "severity": "moderate",
+      "onset": "May begin soon after ingestion."
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Weakness, depression, or wobbliness",
+      "severity": "severe",
+      "onset": "Can follow stomach upset as toxins affect nerves and muscles."
+    },
+    {
+      "body_system": "Cardiac",
+      "name": "Low blood pressure, slow heartbeat, irregular heartbeat, or collapse",
+      "severity": "severe",
+      "onset": "Can develop quickly in serious exposures."
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Tremors or seizures",
+      "severity": "severe",
+      "onset": "Possible with larger or untreated exposure."
+    }
+  ],
+  "toxicParts": [
+    "All parts of the plant",
+    "Leaf",
+    "Flower",
+    "Pollen"
+  ]
+}

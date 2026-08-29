@@ -3,7 +3,7 @@
     "馬蹄蓮 (Calla Lily)"
   ],
   "category": "plant",
-  "description": "海芋 (Zantedeschia aethiopica) 常被叫作百合，但它其實是「假百合」，不會造成真百合（Lilium 屬與 Hemerocallis 屬）相關的急性腎衰竭，危險性也低得多。不過，海芋對貓仍然有毒。和其他天南星科植物一樣，海芋的葉片、莖和佛焰苞都含有不溶性草酸鈣結晶（針晶，raphides）。貓咀嚼時，這些針狀結晶會立即刺入口腔與喉嚨的柔軟組織，造成機械性傷害。",
+  "description": "海芋 (Zantedeschia aethiopica) 常被叫作百合，但它其實是「假百合」，不會造成真百合（Lilium 屬與 Hemerocallis 屬）相關的急性腎衰竭，危險性也低得多。不過，海芋對貓仍然有毒。\n\n和其他天南星科植物一樣，海芋的葉片、莖和佛焰苞都含有不溶性草酸鈣結晶（針晶，raphides）。貓咀嚼時，這些針狀結晶會立即刺入口腔與喉嚨的柔軟組織，造成機械性傷害。",
   "gemini_model": "codex-manual",
   "manual_override": true,
   "name": "海芋",
@@ -46,5 +46,5 @@
     "葉子",
     "全株有毒"
   ],
-  "translated_at": "2026-05-29T12:06:50.698Z"
+  "translated_at": "2026-05-29T12:09:09.051Z"
 }

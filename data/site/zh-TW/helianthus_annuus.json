@@ -1,0 +1,16 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "向日葵（Helianthus annuus）是一種充滿陽光氣息的熱門花卉，被認為對貓無毒且安全。向日葵的所有部分，包括花瓣、葉子、莖和種子，對貓科動物都沒有毒性。這使得它們對於有好奇貓咪的家庭來說，是花園和花束的絕佳、無憂選擇。\n\n儘管向日葵是安全的，但最好還是避免寵物食用任何大量的植物。攝取過多的葉子或花瓣可能會導致輕微的腸胃不適，例如嘔吐或腹瀉。此外，堅韌的纖維莖或尖銳的種子外殼可能帶來輕微的窒息風險，但這並不常見。",
+  "imageUrls": [],
+  "name": "Sunflower",
+  "safetyNotes": [],
+  "scientificName": "Helianthus annuus",
+  "severity": "safe",
+  "slug": "helianthus_annuus",
+  "symptoms": [],
+  "toxicParts": [],
+  "manual_override": true,
+  "gemini_model": "gemini-2.5-pro",
+  "translated_at": "2026-06-03T22:51:54.584427Z"
+}

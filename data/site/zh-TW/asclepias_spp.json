@@ -1,0 +1,56 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "馬利筋（Asclepias spp.）對貓咪來說是具有高度毒性的植物。包含乾燥的葉片和莖部在內，整株植物都含有被稱為強心苷 (cardiac glycosides) 的強烈毒素。其中，乳白色汁液裡的毒素濃度是最高的。\n\n這些毒素會直接攻擊心臟，干擾控制心跳的正常電子訊號。這會迫使心肌用力收縮，但心律卻會變得異常，這是非常危險的情況。此外，汁液也會刺激貓咪的消化系統。\n\n如果貓咪吃到馬利筋或舔到汁液，可能會嘔吐、腹瀉，或是看起來虛弱、走路不穩。更嚴重的症狀包括呼吸困難、肌肉顫抖和心律不整。由於心臟相關的毒性惡化得非常快，如果你懷疑貓咪接觸到這種植物，請立即聯絡獸醫或急診動物醫院。",
+  "imageUrls": [],
+  "name": "Milkweed",
+  "safetyNotes": [
+    "Toxic compounds: cardenolide cardiac glycosides in latex sap, leaves, and stems",
+    "Mechanism: cardenolides inhibit the Na+/K+-ATPase pump in cardiac muscle cells, causing arrhythmias",
+    "Symptoms: drooling, vomiting, weakness, abnormal heart rate, muscle tremors; severe cases may cause seizures and cardiac failure",
+    "The milky latex sap is the most concentrated source — avoid contact with broken stems",
+    "Seek veterinary care promptly; cardiac glycoside toxicity can escalate rapidly"
+  ],
+  "scientificName": "Asclepias spp.",
+  "severity": "toxic",
+  "slug": "asclepias_spp",
+  "symptoms": [
+    {
+      "body_system": "腸胃道",
+      "name": "Vomiting and diarrhea",
+      "onset": "Within 2 hours",
+      "severity": "severe"
+    },
+    {
+      "body_system": "心血管",
+      "name": "Abnormal heart rates and rhythms (including bradycardia, tachycardia, and severe arrhythmias)",
+      "onset": "Within 2 hours",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "Weakness and unspecified neurological signs",
+      "onset": "Within 2 hours",
+      "severity": "severe"
+    },
+    {
+      "body_system": "呼吸系統",
+      "name": "Breathing difficulties (dyspnea)",
+      "onset": "Within 2 hours (or developing as the condition worsens).",
+      "severity": "severe"
+    },
+    {
+      "body_system": "腎臟",
+      "name": "Organ damage",
+      "onset": "Delayed (typically develops as symptoms persist over 4–5 days).",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Sap",
+    "Entire Plant"
+  ],
+  "manual_override": true,
+  "gemini_model": "gemini-cli-manual-review",
+  "translated_at": "2026-06-03T22:27:19.400981Z"
+}

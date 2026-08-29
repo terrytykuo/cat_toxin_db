@@ -1,11 +1,10 @@
 {
   "aliases": [
-    "黑櫻桃 (Black Cherry)",
-    "稠李 (Chokecherry)"
+    "黑櫻桃 (Black Cherry)"
   ],
   "category": "plant",
   "description": "櫻桃，包括甜櫻桃 (Prunus avium)、黑櫻桃 (Prunus serotina) 和稠李 (Prunus virginiana)，對貓的安全性要分開看。成熟果肉本身沒有毒，少量可偶爾作為點心。但果核、種子、葉子、樹皮和莖都含有苦杏仁苷 (amygdalin)，這是一種氰苷，會被消化酵素分解成氰化氫 (HCN)。機制與杏桃果核和蘋果籽相同：氰化物會與細胞色素 c 氧化酶結合，使細胞呼吸停止。",
-  "gemini_model": "codex-manual",
+  "gemini_model": "manual-claude",
   "manual_override": true,
   "name": "櫻桃／黑櫻桃／稠李",
   "safetyNotes": [
@@ -25,12 +24,12 @@
     {
       "name": "牙齦鮮紅與血液呈櫻桃紅色",
       "body_system": "血液系統",
-      "onset": "10–60 分鐘。"
+      "onset": "攝入後不久即出現症狀"
     },
     {
       "name": "癲癇、顫抖、瞳孔放大、協調不良與突然倒下",
       "body_system": "神經系統",
-      "onset": "10–60 分鐘。"
+      "onset": "攝入後不久即出現症狀"
     },
     {
       "name": "心律不整與低血壓",
@@ -41,18 +40,13 @@
       "name": "嘔吐、腹瀉與流口水",
       "body_system": "腸胃道",
       "onset": "10–60 分鐘（常是惡化前最早的徵象）。"
-    },
-    {
-      "name": "突然死亡",
-      "body_system": "代謝",
-      "onset": "快速（常在能開始治療前發生）。"
     }
   ],
   "toxicParts": [
     "莖",
     "葉子",
     "種子",
-    "果實"
+    "果核"
   ],
-  "translated_at": "2026-05-29T12:06:50.698Z"
+  "translated_at": "2026-08-29T00:00:00Z"
 }

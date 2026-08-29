@@ -1,20 +1,20 @@
 {
   "aliases": [],
-  "description": "蜂香薄荷 (Agastache spp.) 是一種芳香觀賞草本植物，被認為對貓是安全的。ASPCA 或主要的獸醫毒理學參考資料均未將其列為有毒植物。雖然芳香油可能會引起貓的輕微反感或暫時避開，但在正常情況下，該植物不會造成顯著的健康風險。注意：與任何非食品植物一樣，攝入大量可能會因不熟悉的植物物質而導致輕微的胃腸不適。如果您的貓在接觸後出現任何異常症狀，請諮詢獸醫。",
-  "gemini_model": "gemini-cli-default",
-  "manual_override": false,
+  "description": "蜂香薄荷（Agastache spp.）是一種有香氣的觀賞香草，通常被認為對貓安全。主要獸醫毒物資料並未把它列為有毒植物。\n\n這種植物含有芳香油，氣味對貓可能偏強，但在一般家庭接觸下，通常不預期會造成中毒。不過，任何不是貓日常食物的植物，如果吃下很多，仍可能讓腸胃不舒服。\n\n如果貓只是少量啃咬，通常不預期會有嚴重症狀。若貓吃下較多，請觀察是否有輕微嘔吐或腹瀉。如果貓持續啃咬，請把植物移開；若症狀不只是輕微，或沒有改善，請聯絡獸醫。",
+  "gemini_model": "codex-manual",
+  "manual_override": true,
   "name": "蜂香薄荷",
   "safetyNotes": [],
   "slug": "agastache_spp",
   "source_hash": "f54ffc14ac698e7749d9a64418dd603eb15ea5100ea8894c7b216e5231ed9410",
   "symptoms": [
     {
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "name": "嘔吐與腹瀉",
       "onset": "急性（攝入後不久）。"
     },
     {
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "name": "流口水或口腔冒泡",
       "onset": "立即（在品嚐或咀嚼時）。"
     },
@@ -29,7 +29,7 @@
       "onset": "急性。"
     },
     {
-      "body_system": "肝臟系統",
+      "body_system": "肝臟",
       "name": "肝功能障礙 / 肝衰竭",
       "onset": "延遲（症狀可能在數小時或數天內發展）。"
     }
@@ -40,5 +40,5 @@
     "葉",
     "花"
   ],
-  "translated_at": "2026-05-15T21:42:45Z"
+  "translated_at": "2026-06-03T21:31:11.093519Z"
 }

@@ -1,17 +1,16 @@
 {
   "aliases": [],
   "category": "plant",
-  "description": "Silver Leaf Philodendron (also sold as Satin Pothos, Scindapsus pictus) is a popular trailing houseplant with silvery-patterned leaves. Despite the name, it belongs to the Araceae family and contains insoluble calcium oxalate crystals (raphides) throughout its leaves and stems. Chewing the plant causes immediate intense oral pain.",
+  "description": "Silver Leaf Philodendron (Scindapsus pictus), also known as Satin Pothos, is a popular houseplant that is toxic to cats. Its leaves and stems contain tiny, sharp, needle-like crystals called insoluble calcium oxalates. These crystals are a physical irritant, not a chemical poison.\n\nWhen a cat chews or bites the plant, these sharp crystals are released from the plant's cells and embed themselves into the sensitive tissues of the cat's mouth, tongue, and throat. This causes immediate and intense pain, burning, and swelling. The sap can also contain compounds that make the irritation worse.\n\nBecause the pain is immediate, most cats will stop chewing right away. Symptoms include heavy drooling, pawing at the face, swollen lips or tongue, and sometimes vomiting. If you see your cat chew this plant, gently rinse their mouth with water if possible. Contact your veterinarian if the swelling is severe, if your cat has trouble breathing, or if vomiting persists.",
   "imageUrls": [],
   "name": "Silver Leaf Philodendron",
   "safetyNotes": [
-    "Toxic compounds: insoluble calcium oxalate raphides throughout the plant; proteolytic enzymes in sap intensify the reaction",
-    "Mechanism: raphides mechanically penetrate the oral mucosa when plant tissue is chewed, causing burning and swelling",
-    "Symptoms: sudden oral pain, intense drooling, pawing at mouth, difficulty swallowing, swollen lips and tongue, vomiting",
-    "The decorative silver-patterned leaves may attract cats — keep out of reach",
-    "Rinse the mouth with water; seek veterinary care if throat swelling impairs breathing or swallowing"
+    "Main hazard: Insoluble calcium oxalate raphides in the leaves and stems cause immediate mouth and throat irritation when chewed.",
+    "Symptoms: Sudden oral pain, heavy drooling, pawing at the mouth, swollen lips or tongue, vomiting, and difficulty swallowing.",
+    "Why cats get exposed: The trailing vines and silver-patterned leaves can be easy for curious cats to reach or bat at.",
+    "Action: Move the plant out of reach, offer water or gently rinse the mouth if safe, and call a vet if swelling, breathing trouble, or repeated vomiting occurs."
   ],
-  "scientificName": "e.g. Satin Pothos",
+  "scientificName": "Scindapsus pictus",
   "severity": "toxic",
   "slug": "e_g_satin_pothos",
   "symptoms": [

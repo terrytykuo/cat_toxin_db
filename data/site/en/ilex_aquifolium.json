@@ -1,15 +1,14 @@
 {
   "aliases": [],
   "category": "plant",
-  "description": "English Holly (Ilex aquifolium) is a common ornamental plant toxic to cats. It contains a complex of irritant saponins (including ilicin), methylxanthine-related compounds, and cyanogens concentrated primarily in the berries and leaves. The bright red berries are particularly attractive to cats and pose the greatest risk.",
+  "description": "English Holly (Ilex aquifolium) is an evergreen shrub often used in landscaping and winter decorations. It is toxic to cats, but most exposures cause low to moderate stomach upset rather than severe poisoning. The leaves and bright berries are the main concern.\n\nThe plant contains saponins, which are soap-like compounds that irritate the stomach and intestines. Berries may tempt curious cats, especially when holiday greenery is brought indoors. Dried decorative branches can still cause problems if chewed.\n\nPossible signs include vomiting, diarrhea, drooling, low energy, or depression. Keep holly plants, wreaths, and fallen berries away from cats. If your cat eats holly berries or chews the plant, contact a veterinarian for advice, especially if symptoms appear or the amount is unknown.",
   "imageUrls": [],
   "name": "English Holly",
   "safetyNotes": [
-    "Toxic compounds: ilicin and related saponins, methylxanthine-related compounds, trace cyanogens",
-    "Mechanism: saponins cause intense GI mucosal irritation; systemic absorption may affect the central nervous system",
-    "Symptoms: intense nausea, repeated vomiting, diarrhea, lethargy, excessive head shaking; severe ingestion may cause drooling, lip-smacking, CNS depression",
-    "Even 1–2 berries can produce significant symptoms in a cat",
-    "Keep all holly plants — fresh, dried, or decorative — out of reach; seek vet care if ingestion is suspected"
+    "Main hazard: Saponins in leaves and berries can irritate the stomach and intestines.",
+    "Symptoms: Vomiting, diarrhea, drooling, low energy, or depression.",
+    "Holiday risk: Wreaths, cut branches, and fallen berries should be kept away from cats.",
+    "Action: Call a vet if berries are eaten, symptoms appear, or the amount is unknown."
   ],
   "scientificName": "Ilex aquifolium",
   "severity": "cautious",
@@ -17,38 +16,19 @@
   "symptoms": [
     {
       "body_system": "Gastrointestinal",
-      "name": "Vomiting, Diarrhea, and Nausea",
-      "onset": "Acute (Clinical signs typically appear shortly after ingestion,",
-      "severity": "moderate"
+      "name": "Vomiting, diarrhea, or drooling",
+      "severity": "moderate",
+      "onset": "Usually within hours after chewing leaves or berries."
     },
     {
-      "body_system": "Gastrointestinal",
-      "name": "Abdominal Pain",
-      "onset": "Acute (Associated with the onset of vomiting and diarrhea).",
-      "severity": "mild"
-    },
-    {
-      "body_system": "Gastrointestinal",
-      "name": "Drooling / Hypersalivation",
-      "onset": "Immediate to Acute (Upon chewing or swallowing).",
-      "severity": "mild"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Lethargy, Depression, or Decreased Activity",
-      "onset": "Associated with the systemic malaise following ingestion.",
-      "severity": "mild"
-    },
-    {
-      "body_system": "Dermal",
-      "name": "Oral Injury / Smack-lipping / Head shaking",
-      "onset": "Immediate.",
-      "severity": "mild"
+      "body_system": "Other",
+      "name": "Low energy or depression",
+      "severity": "mild",
+      "onset": "May appear with stomach upset."
     }
   ],
   "toxicParts": [
     "Leaf",
-    "Seed",
     "Fruit"
   ]
 }

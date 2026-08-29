@@ -1,15 +1,14 @@
 {
   "aliases": [],
   "category": "plant",
-  "description": "Wintergreen (Gaultheria procumbens) essential oil is one of the most dangerous substances for cats. It is essentially pure methyl salicylate — a compound cats cannot metabolise efficiently. The topical product BenGay and similar muscle rubs often contain wintergreen oil and are a common cause of severe cat poisoning.",
+  "description": "Wintergreen (Gaultheria procumbens) is a plant whose concentrated essential oil is extremely dangerous to cats. This oil can be found in products like muscle rubs, liniments, and some scented items. Cats must not ingest wintergreen oil or have it applied to their skin or fur.\n\nThe toxic compound is methyl salicylate, which is chemically similar to aspirin. Cats lack the specific liver enzymes needed to process salicylates effectively. This means the toxin can quickly build up in their system to poisonous levels, even from what might seem like a small exposure. Absorption through the skin is a major risk, especially if a cat licks the oil off while grooming.\n\nWintergreen poisoning is a medical emergency. Symptoms can include vomiting, severe weakness, difficulty breathing, tremors, seizures, and internal organ failure. If you suspect your cat has been exposed to any product containing wintergreen oil, do not wait for symptoms to appear. Please contact a veterinarian or an emergency animal hospital immediately.",
   "imageUrls": [],
   "name": "Wintergreen",
   "safetyNotes": [
-    "Toxic compounds: methyl salicylate (the primary component of wintergreen oil, >96%); the plant also contains methyl salicylate at lower concentrations",
-    "Mechanism: cats lack glucuronyl transferase needed to metabolise salicylates; toxic accumulation causes GI haemorrhage, metabolic acidosis, and kidney failure",
-    "Symptoms: vomiting, rapid or laboured breathing, weakness, tremors, GI bleeding; severe cases cause seizures, liver and kidney failure",
-    "Topical application of wintergreen-containing products to cats is extremely dangerous — never use muscle rubs, liniments, or oral care products with wintergreen on cats",
-    "Any wintergreen oil exposure is a veterinary emergency"
+    "Main hazard: Methyl salicylate in wintergreen oil is processed very slowly by cats and can build up to dangerous levels.",
+    "Symptoms: Drooling, vomiting, weakness, tremors, labored breathing, stomach bleeding, seizures, collapse, or organ injury.",
+    "Highest-risk forms: Essential oil, muscle rubs, liniments, oral care products, and any oil left on the fur.",
+    "Action: Never use wintergreen products on cats; call a vet or poison helpline immediately after any oil exposure."
   ],
   "scientificName": "Gaultheria procumbens",
   "severity": "toxic",

@@ -1,0 +1,62 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "甜樺（Betula lenta）和其他樺木一樣，含有水楊酸鹽，這是與阿斯匹靈相關的化合物。雖然啃咬樹皮或樹葉可能引起問題，但對貓來說，最大的危險來自高度濃縮的甜樺精油。\n\n這種精油毒性極強，因為貓缺乏有效代謝水楊酸鹽所需的特定肝臟酵素。當貓咪透過皮膚接觸、從薰香機吸入，或在理毛時舔入，這些化合物會在牠們體內累積至中毒水平，導致肝衰竭等嚴重健康問題。\n\n接觸到樺木精油是獸醫緊急情況。中毒跡象包括嘔吐、呼吸急促、虛弱、顫抖和癲癇。切勿將樺木精油塗抹在貓身上或在室內擴香，並確保所有精油產品都安全存放在貓無法觸及的地方。若懷疑貓咪接觸到，請立即聯絡獸醫。",
+  "imageUrls": [],
+  "name": "Sweet Birch",
+  "safetyNotes": [
+    "Toxic compounds: methyl salicylate (up to 98% in Sweet Birch essential oil); present in bark and leaves at lower concentrations",
+    "Mechanism: cats cannot efficiently metabolise salicylates via glucuronidation, causing toxic accumulation; inhibits prostaglandin synthesis affecting the GI tract and kidneys",
+    "Symptoms: vomiting, diarrhea, rapid breathing, weakness, tremors; severe cases cause GI haemorrhage, metabolic acidosis, and kidney failure",
+    "Birch essential oil is extremely concentrated and highly dangerous — never apply to or diffuse near cats",
+    "Contact your vet immediately if your cat is exposed to birch oil or essential oil products"
+  ],
+  "scientificName": "Betula lenta",
+  "severity": "toxic",
+  "slug": "betula_lenta",
+  "symptoms": [
+    {
+      "body_system": "皮膚",
+      "name": "Sore skin, redness, or chemical burns",
+      "severity": "severe"
+    },
+    {
+      "body_system": "腸胃道",
+      "name": "Excessive dribbling",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "腸胃道",
+      "name": "Vomiting",
+      "severity": "severe"
+    },
+    {
+      "body_system": "呼吸系統",
+      "name": "Difficulty breathing or open-mouth breathing",
+      "severity": "severe"
+    },
+    {
+      "body_system": "腸胃道",
+      "name": "Lethargy, depression, or dullness",
+      "severity": "severe"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "Shaking, tremoring, \"walking as if they're drunk\" (ataxia), collapse, and seizures",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "肝臟",
+      "name": "Liver failure (and serious organ damage)",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Bark",
+    "Leaf"
+  ],
+  "manual_override": true,
+  "gemini_model": "gemini-2.5-pro",
+  "translated_at": "2026-06-03T22:51:54.584427Z"
+}

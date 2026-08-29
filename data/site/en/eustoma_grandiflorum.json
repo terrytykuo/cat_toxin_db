@@ -4,10 +4,14 @@
     "Prairie Gentian"
   ],
   "category": "plant",
-  "description": "Lisianthus flowers resemble roses with their ruffled, layered petals but are completely non-toxic to cats. They come in gorgeous shades of purple, pink, white, and cream.",
+  "description": "Lisianthus (Eustoma grandiflorum) is a popular bouquet flower known for its soft, layered petals. It is considered non-toxic and safe for cats, meaning it does not contain specific poisons that target felines.\n\nHowever, any plant material can upset a cat's stomach if they eat too much of it. While the flower itself is safe, you should watch out for extra bouquet items like floral preservatives, ribbons, and pesticides.\n\nIf your cat nibbles on it, just watch for mild vomiting or diarrhea. Always check mixed bouquets carefully, as safe flowers are often grouped with toxic ones like lilies.",
   "imageUrls": [],
   "name": "Lisianthus",
-  "safetyNotes": [],
+  "safetyNotes": [
+    "Cat-safe status: Lisianthus is considered non-toxic to cats.",
+    "Possible mild issue: Eating a large amount of any plant can still cause mild vomiting or diarrhea.",
+    "Bouquet caution: Check mixed bouquets for lilies or other toxic flowers, and keep floral preservatives, ribbons, and fallen plant pieces away from cats."
+  ],
   "scientificName": "Eustoma grandiflorum",
   "severity": "safe",
   "slug": "eustoma_grandiflorum",

@@ -3,8 +3,8 @@
     "馬達加斯加長春花 (Madagascar Periwinkle)"
   ],
   "category": "plant",
-  "description": "長春花／日日春 (Catharanthus roseus) 是常見的觀賞開花植物，但對貓有嚴重毒性。它含有長春花生物鹼 (vinca alkaloids)，主要包括長春新鹼 (vincristine) 與長春鹼 (vinblastine)，也就是癌症化療中使用的同類化合物。即使少量也可能造成嚴重、危及生命的中毒。",
-  "gemini_model": "codex-manual",
+  "description": "日日春（Catharanthus roseus，又稱長春花）是常見的開花植物，但對貓咪來說極度危險。它含有長春花生物鹼 (vinca alkaloids)，這跟人類癌症化療中使用的強效藥物成分完全相同。這株植物的每一個部位都有毒，即使只吃下少量也可能引發致命的重病。\n\n吞下這些化學物質後，會阻止細胞正常分裂。這會嚴重破壞需要快速生長細胞的組織，例如胃黏膜和骨髓。這些毒素也會強烈刺激消化道，並對神經系統和心臟造成嚴重損害。\n\n中毒的貓咪可能會出現嚴重的腹痛、嘔吐、腹瀉和虛弱。在接下來的幾天內，牠們可能會出現神經問題（如顫抖），或血球數量危險地下降。這種植物的危險程度就和強效處方藥一樣。如果你懷疑貓咪吃下了它的任何部位，這是非常危急的情況，請立即聯絡獸醫或急診動物醫院。",
+  "gemini_model": "gemini-cli-manual-review",
   "manual_override": true,
   "name": "長春花／日日春",
   "safetyNotes": [
@@ -37,5 +37,5 @@
   "toxicParts": [
     "全株有毒"
   ],
-  "translated_at": "2026-05-29T11:45:09.343Z"
+  "translated_at": "2026-06-03T22:27:19.400981Z"
 }

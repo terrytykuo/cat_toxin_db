@@ -1,15 +1,14 @@
 {
   "aliases": [],
   "category": "plant",
-  "description": "Eucalyptus is toxic to cats due to its high concentration of essential oils — primarily eucalyptol (1,8-cineole) and other terpene compounds — found throughout the leaves, bark, and stems. Cats lack the hepatic enzymes needed to metabolize these oils efficiently, allowing toxic levels to accumulate and cause systemic effects.",
+  "description": "Eucalyptus (Eucalyptus spp.) includes aromatic trees and shrubs often used as fresh stems, dried decor, or essential oil products. It is toxic to cats, and concentrated eucalyptus oil is the biggest concern.\n\nThe main danger comes from essential oils, especially eucalyptol (1,8-cineole) and related terpene compounds. Cats do not process these oils efficiently, so exposure can irritate the stomach, skin, and airways and may also affect the nervous system. Eating leaves is a risk, but licking oil from fur or breathing concentrated diffuser mist can be more serious.\n\nPossible signs include drooling, vomiting, diarrhea, weakness, low energy, an unsteady walk, coughing, or trouble breathing. Severe oil exposure can lead to tremors, seizures, or liver stress. Keep eucalyptus plants, dried stems, oils, sprays, and diffusers away from cats. If oil gets on your cat's fur or your cat eats eucalyptus, contact a veterinarian promptly.",
   "imageUrls": [],
   "name": "Eucalyptus",
   "safetyNotes": [
-    "Toxic compounds: eucalyptol (1,8-cineole), terpenes; present in fresh leaves, dried leaves, and all essential oil products",
-    "Mechanism: impaired hepatic metabolism in cats allows eucalyptol to accumulate, causing CNS depression, GI irritation, and liver stress",
-    "Symptoms: drooling, vomiting, diarrhea, lethargy, weakness, unsteady gait (ataxia); severe cases may include respiratory depression",
-    "Eucalyptus essential oil diffusers are also a risk — airborne oil particles can cause respiratory irritation and systemic exposure",
-    "Seek veterinary care promptly; eucalyptus oil ingestion can progress to serious toxicity quickly in cats"
+    "Main hazard: Eucalyptol and other essential oil compounds can irritate the stomach, skin, airways, and nervous system.",
+    "Symptoms: Drooling, vomiting, diarrhea, weakness, lethargy, unsteady walking, coughing, or trouble breathing.",
+    "Highest-risk forms: Essential oils, diffusers, sprays, and oil on the fur are more concerning than a small nibble of dried plant material.",
+    "Action: Keep eucalyptus products away from cats and call a vet promptly after ingestion, oil contact, or breathing symptoms."
   ],
   "scientificName": "Eucalyptus spp.",
   "severity": "toxic",
@@ -17,38 +16,33 @@
   "symptoms": [
     {
       "body_system": "Gastrointestinal",
-      "name": "Vomiting, Diarrhea, and Excessive Drooling (Hypersalivation)",
-      "onset": "Rapid (Clinical signs often appear quickly after ingestion or contact).",
-      "severity": "moderate"
+      "name": "Drooling, vomiting, or diarrhea",
+      "severity": "moderate",
+      "onset": "Often begins soon after ingestion or oil contact."
     },
     {
       "body_system": "Neurological",
-      "name": "Lethargy, Depression, Ataxia (walking as if drunk/uncoordinated), Tremors, and Seizures",
-      "onset": "Acute (Shortly after exposure).",
-      "severity": "severe"
+      "name": "Low energy, weakness, unsteady walking, tremors, or seizures",
+      "severity": "severe",
+      "onset": "Can appear after larger ingestion or concentrated oil exposure."
     },
     {
       "body_system": "Respiratory",
-      "name": "Difficulty Breathing (Dyspnea), Wheezing, or Coughing",
-      "onset": "Rapid (Especially if the oil is inhaled via a diffuser or aspirated during vomiting).",
-      "severity": "severe"
+      "name": "Coughing, wheezing, or trouble breathing",
+      "severity": "severe",
+      "onset": "Can occur quickly with diffuser mist, sprays, or aspiration during vomiting."
     },
     {
       "body_system": "Dermal",
-      "name": "Chemical Burns, Redness, and Soreness",
-      "onset": "Immediate upon contact.",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Hepatic",
-      "name": "Liver Damage / Failure",
-      "onset": "Delayed (May develop over days as the body fails to metabolize the toxins).",
-      "severity": "fatal"
+      "name": "Skin redness or soreness after oil contact",
+      "severity": "moderate",
+      "onset": "Soon after direct contact with oil or sap."
     }
   ],
   "toxicParts": [
-    "Root",
+    "Leaf",
+    "Stem",
     "Bark",
-    "Flower"
+    "Essential Oil"
   ]
 }

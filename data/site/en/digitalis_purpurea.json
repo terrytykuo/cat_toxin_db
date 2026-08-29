@@ -1,15 +1,14 @@
 {
   "aliases": [],
   "category": "plant",
-  "description": "Foxglove (Digitalis purpurea) is one of the most dangerous plants a cat can encounter. Every part of the plant — fresh or dried — contains potent cardiac glycosides including digoxin, digitoxin, and digitalin. These compounds have an extremely narrow margin between therapeutic and lethal doses, and even small amounts can trigger life-threatening cardiac events in cats.",
+  "description": "Foxglove (Digitalis purpurea) is a tall flowering plant with bell-shaped blooms. It is highly toxic to cats. Every part of the plant is dangerous, whether fresh or dried, including leaves, flowers, seeds, and roots.\n\nFoxglove contains cardiac glycosides, including digitalis-like compounds. These chemicals act directly on the heart. In small, carefully controlled medical doses, related compounds can be used as heart medicine, but the gap between a useful dose and a dangerous dose is very small. For a cat, chewing plant material can quickly become serious.\n\nEarly signs may include drooling, vomiting, diarrhea, weakness, or low energy. More serious signs include a slow or irregular heartbeat, collapse, seizures, or sudden death. Do not wait for symptoms if your cat may have eaten foxglove. Remove access and contact a veterinarian or pet poison helpline immediately.",
   "imageUrls": [],
   "name": "Foxglove",
   "safetyNotes": [
-    "Toxic compounds: cardiac glycosides — digoxin, digitoxin, digitalin, digitonin; all parts toxic including dry leaves, flowers, seeds, and roots",
-    "Mechanism: inhibit the Na+/K+-ATPase pump in cardiac muscle → disrupts electrical conduction → arrhythmias and heart block",
-    "Symptoms: vomiting, diarrhea, drooling, weakness, bradycardia (abnormally slow heart rate), cardiac arrhythmias, collapse; can be fatal without treatment",
-    "Even dried Foxglove in hay or potpourri retains full toxicity",
-    "Any suspected ingestion is a veterinary emergency — do not wait for symptoms to develop"
+    "Main hazard: Cardiac glycosides can disrupt the heart rhythm and may be life-threatening.",
+    "Toxic parts: All parts are dangerous, including dried leaves or flowers in arrangements.",
+    "Symptoms: Vomiting, diarrhea, weakness, slow or irregular heartbeat, collapse, seizures, or sudden death.",
+    "Action: Suspected ingestion is an emergency. Call a vet or poison helpline immediately."
   ],
   "scientificName": "Digitalis purpurea",
   "severity": "toxic",
@@ -17,43 +16,28 @@
   "symptoms": [
     {
       "body_system": "Gastrointestinal",
-      "name": "Vomiting, Bloody Diarrhea, and Nausea",
-      "onset": "Within 2 hours (Acute).",
-      "severity": "severe"
+      "name": "Vomiting, diarrhea, drooling, or belly pain",
+      "severity": "moderate",
+      "onset": "Can begin within hours of ingestion."
     },
     {
       "body_system": "Cardiac",
-      "name": "Bradycardia (Slow Heart Rate), Tachycardia (Fast Heart Rate), or Irregular Pulse",
-      "onset": "Within 2 hours (and can persist for days).",
-      "severity": "fatal"
+      "name": "Weakness, low energy, or collapse",
+      "severity": "severe",
+      "onset": "Can occur as the heart is affected."
     },
     {
-      "body_system": "Neurological",
-      "name": "Weakness, Tremors, and Convulsions (Seizures)",
-      "onset": "Acute (following or accompanying cardiac signs).",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Hematological",
-      "name": "Hyperkalemia (High Potassium Levels)",
-      "onset": "Acute (detectable via blood tests shortly after ingestion).",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Renal",
-      "name": "Frequent Urination",
-      "onset": "Acute.",
-      "severity": "moderate"
+      "body_system": "Cardiac",
+      "name": "Slow heartbeat, irregular heartbeat, seizures, or sudden death",
+      "severity": "fatal",
+      "onset": "Can develop quickly and may occur before many warning signs."
     }
   ],
   "toxicParts": [
-    "Stem",
-    "Entire Plant",
-    "Seed",
-    "Pollen",
+    "All parts of the plant",
     "Leaf",
     "Flower",
-    "Root",
-    "Sap"
+    "Seed",
+    "Root"
   ]
 }

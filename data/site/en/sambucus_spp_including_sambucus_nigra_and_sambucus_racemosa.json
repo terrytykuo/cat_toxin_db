@@ -1,0 +1,47 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "Elderberry (Sambucus spp.) is a shrub or small tree with clusters of white flowers and dark, blue, or red berries. It should not be given to cats. Plant parts, uncooked berries, and elderberry supplements can upset a cat's stomach and may be unsafe.\n\nThe concern is a mix of cyanogenic glycosides, which can release small amounts of cyanide, and irritating terpenoid compounds. Leaves, stems, bark, roots, seeds, and unripe or uncooked berries are higher-risk parts. For cats and other companion animals, vomiting and diarrhea are more likely than true cyanide poisoning, but large amounts or concentrated supplements still need urgent veterinary advice.\n\nPossible signs include drooling, vomiting, diarrhea, belly discomfort, weakness, or low energy. More serious signs such as fast breathing, tremors, seizures, or collapse are unusual but possible after a larger exposure. Keep elderberry plants, raw berries, syrups, gummies, and supplements away from cats, and call a veterinarian or pet poison helpline if ingestion is suspected.",
+  "imageUrls": [],
+  "name": "Elderberry",
+  "safetyNotes": [
+    "Main risk: Plant parts and uncooked berries contain cyanide-containing glycosides and irritating terpenoids.",
+    "Avoid supplements: Do not give elderberry syrup, gummies, tea, or capsules unless a vet specifically directs it.",
+    "Symptoms: Vomiting, diarrhea, drooling, low energy, or belly discomfort are the most likely signs.",
+    "Action: Call a vet or poison helpline after plant-part, raw-berry, or supplement ingestion, especially if the amount is unknown."
+  ],
+  "scientificName": "Sambucus spp. including Sambucus nigra and Sambucus racemosa",
+  "severity": "toxic",
+  "slug": "sambucus_spp_including_sambucus_nigra_and_sambucus_racemosa",
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea, nausea, or drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Can appear soon after eating plant parts, uncooked berries, or supplements.",
+      "notes": "Stomach upset is the most likely sign in companion animals."
+    },
+    {
+      "name": "Low energy, weakness, or belly discomfort",
+      "body_system": "Other",
+      "severity": "moderate",
+      "onset": "May appear with or after stomach upset.",
+      "notes": "These signs deserve veterinary advice, especially if the amount eaten is unknown."
+    },
+    {
+      "name": "Fast breathing, tremors, seizures, or collapse",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Unusual, but possible after larger exposure.",
+      "notes": "Treat these as urgent signs and seek veterinary help immediately."
+    }
+  ],
+  "toxicParts": [
+    "Root",
+    "Stem",
+    "Bark",
+    "Seed",
+    "Leaf",
+    "Fruit"
+  ]
+}

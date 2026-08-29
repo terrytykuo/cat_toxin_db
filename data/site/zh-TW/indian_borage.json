@@ -1,0 +1,59 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "到手香（Plectranthus amboinicus），又稱左手香或印度琉璃苣，是一種有著厚實絨毛葉片的芳香草本植物。它對貓咪具有輕微毒性，因為其中含有強烈的精油成分。\n\n貓咪的肝臟缺乏分解這些精油的酵素。當貓咪吃下這種植物時，其中的香芹酚（carvacrol）和百里酚（thymol）等成分會直接刺激牠們的胃和消化道。\n\n如果貓咪咬了到手香，可能會出現流口水、嘔吐、腹瀉或食慾不振的狀況。它強烈的氣味通常會讓貓咪敬而遠之，但如果您的貓咪吃下大量，或是症狀一直沒有改善，請聯絡獸醫。",
+  "imageUrls": [],
+  "name": "Mexican Mint",
+  "safetyNotes": [
+    "Toxic compounds: carvacrol, thymol, and camphor-related volatile oils throughout the plant",
+    "Mechanism: these terpenoid oils irritate the gastrointestinal mucosa directly and may cause mild liver stress with repeated exposure",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy; symptoms are generally mild and self-limiting",
+    "The strong aroma may deter most cats, but some find the scent attractive",
+    "Contact your vet if symptoms persist or if large amounts were consumed"
+  ],
+  "scientificName": "Indian borage",
+  "severity": "toxic",
+  "slug": "indian_borage",
+  "symptoms": [
+    {
+      "body_system": "腸胃道",
+      "name": "Vomiting",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "腸胃道",
+      "name": "Diarrhea",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "腸胃道",
+      "name": "Drooling (excessive salivation) or foaming at the mouth",
+      "severity": "mild"
+    },
+    {
+      "body_system": "腸胃道",
+      "name": "Loss of appetite",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "Lethargy or weakness",
+      "severity": "severe"
+    },
+    {
+      "body_system": "呼吸系統",
+      "name": "Difficulty breathing",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "Stem",
+    "Entire Plant",
+    "Leaf",
+    "Flower",
+    "Root"
+  ],
+  "manual_override": true,
+  "gemini_model": "gemini-cli-manual-review",
+  "translated_at": "2026-06-03T22:27:19.400981Z"
+}

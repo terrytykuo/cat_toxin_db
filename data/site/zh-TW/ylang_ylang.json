@@ -1,0 +1,60 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "依蘭（Cananga odorata）是一種常用來製作精油的植物。這種精油對貓有很強的毒性，絕對不應該在牠們身上或周圍環境使用。貓的肝臟缺乏特定的酵素，無法有效分解精油中的芳樟醇（linalool）和乙酸芐酯（benzyl acetate）等成分。\n\n貓咪可能因為吸入擴香儀的香氣、皮膚接觸或舔到精油而中毒。這些有毒成分會在貓體內累積，導致神經系統問題，例如走路不穩、癲癇，並可能引發嚴重的肝損傷。由於精油濃度非常高，即使少量也極其危險。\n\n中毒症狀包括流口水、嘔吐、看似醉酒或搖晃、顫抖及呼吸困難。如果您懷疑貓咪接觸到任何形式的依蘭精油，這屬於緊急醫療情況。請立即聯絡獸醫或急診動物醫院。",
+  "imageUrls": [],
+  "name": "Ylang Ylang",
+  "safetyNotes": [
+    "Toxic compounds: germacrene, benzyl acetate, methyl benzoate, and other volatile sesquiterpene and ester compounds in the essential oil",
+    "Mechanism: cats are deficient in hepatic UDP-glucuronosyltransferase (UGT), the conjugation enzyme needed to metabolise these compounds efficiently; accumulation causes GI and CNS effects",
+    "Symptoms: vomiting, drooling, weakness, unsteady gait (ataxia), difficulty breathing; inhalation may cause respiratory irritation",
+    "Essential oil diffusers in closed rooms are a significant risk even without direct contact",
+    "Do not apply ylang ylang oil to or near cats; use diffusers only in well-ventilated areas the cat cannot access"
+  ],
+  "scientificName": "Cananga odorata",
+  "severity": "toxic",
+  "slug": "ylang_ylang",
+  "symptoms": [
+    {
+      "body_system": "腸胃道",
+      "name": "Excessive dribbling (drooling) and vomiting",
+      "severity": "severe"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "Walking as if they are drunk (ataxia)",
+      "severity": "severe"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "Shaking, tremoring, seizures, and collapse",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "神經系統",
+      "name": "Lethargy, depression, or dullness",
+      "severity": "severe"
+    },
+    {
+      "body_system": "呼吸系統",
+      "name": "Difficulty breathing or breathing with the mouth open",
+      "severity": "severe"
+    },
+    {
+      "body_system": "皮膚",
+      "name": "Sore, red skin, and chemical burns",
+      "severity": "severe"
+    },
+    {
+      "body_system": "肝臟",
+      "name": "Liver failure and serious organ damage",
+      "severity": "fatal"
+    }
+  ],
+  "toxicParts": [
+    "Essential oil"
+  ],
+  "manual_override": true,
+  "gemini_model": "gemini-2.5-pro",
+  "translated_at": "2026-06-03T22:51:54.584427Z"
+}
