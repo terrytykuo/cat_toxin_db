@@ -40,7 +40,7 @@ from paths import (
     TOXIN_DISK_SCHEMA,
 )
 
-FIRESTORE_ONLY_FIELDS = ("id", "imageUrls", "imageUrl", "hidden", "curatedList")
+FIRESTORE_ONLY_FIELDS = ("id", "imageUrls", "imageUrl", "hidden", "curatedList", "l10n")
 COLLECTION = "toxins"
 
 SLUG_RE = re.compile(r"[^a-z0-9]+")
@@ -71,6 +71,27 @@ def atomic_write_json(target: Path, payload: dict[str, Any]) -> None:
 
 def strip_firestore_only(data: dict[str, Any]) -> dict[str, Any]:
     return {k: v for k, v in data.items() if k not in FIRESTORE_ONLY_FIELDS}
+
+
+def load_allowed_fields(schema: dict[str, Any]) -> set[str]:
+    """Top-level property names of the disk schema, following a root $ref
+    (toxin.disk.schema.json is `{$ref: #/definitions/ToxinDisk, definitions: …}`)."""
+    node: dict[str, Any] = schema
+    ref = node.get("$ref")
+    if isinstance(ref, str) and ref.startswith("#/"):
+        for part in ref[2:].split("/"):
+            node = node[part]
+    return set(node.get("properties", {}))
+
+
+def find_unknown_fields(payload: dict[str, Any], allowed: set[str]) -> list[str]:
+    """Top-level keys that survive stripping but aren't in the disk schema.
+
+    The disk schema root has no additionalProperties:false, so a Firestore-only
+    field missing from FIRESTORE_ONLY_FIELDS would otherwise validate and land
+    in the canonical processed JSON (this happened with l10n).
+    """
+    return sorted(k for k in payload if k not in allowed)
 
 
 def parse_args() -> argparse.Namespace:
@@ -127,6 +148,8 @@ def main() -> int:
 
     db = load_firestore_client(key_path)
     validator = load_validator()
+    with open(TOXIN_DISK_SCHEMA, "r") as fh:
+        allowed_fields = load_allowed_fields(json.load(fh))
 
     docs = list(db.collection(COLLECTION).stream())
     fetched = len(docs)
@@ -137,6 +160,13 @@ def main() -> int:
     for doc in docs:
         raw = doc.to_dict() or {}
         disk_payload = strip_firestore_only(raw)
+
+        unknown = find_unknown_fields(disk_payload, allowed_fields)
+        if unknown:
+            validation_failures.append(
+                (doc.id, "<root>", f"Firestore-only field(s) not stripped: {unknown}")
+            )
+            continue
 
         errors = sorted(validator.iter_errors(disk_payload), key=lambda e: list(e.absolute_path))
         if errors:

@@ -55,6 +55,9 @@ export const FIRESTORE_ONLY_FIELDS = [
   'imageUrl',
   'hidden',
   'curatedList',
+  // Firestore-managed localization map (l10n.zh-TW, written by the admin
+  // server and admin/scripts); never part of the on-disk canonical JSON.
+  'l10n',
 ] as const
 
 export const ToxinDiskSchema = ToxinSchema.omit({

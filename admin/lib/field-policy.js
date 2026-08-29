@@ -10,6 +10,7 @@ export const FIRESTORE_ONLY_FIELDS = Object.freeze([
   'imageUrl',
   'hidden',
   'curatedList',
+  'l10n',
 ])
 
 export function stripFirestoreOnly(toxin) {
