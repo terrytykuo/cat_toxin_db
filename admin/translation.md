@@ -202,5 +202,21 @@ Generated on 2026-05-28 into `data/site/zh-TW/` and mirrored to `data/site/fires
 
 Add any corrections or new glossary terms in the review notes column before the next pass.
 
-New updates:
-Toxic Parts Tags 新增 Pods，對應中文種莢
+
+Edit Examples:
+Cats metabolise these compounds far more slowly than humans 
+原翻譯：...遠比人類慢
+修改：...比人類慢很多
+
+Even a small amount can cause significant harm
+原翻譯：即使少量也可能造成明顯傷害
+修改：即使只有少量，也可能造成傷害
+
+just a few sips of energy drink can overwhelm a cat's system. Sugar-free sodas and energy drinks carry an additional risk if they contain xylitol.
+幾口能量飲料就可能讓貓的身體負荷過大。無糖汽水和能量飲料若含有木糖醇，還會增加額外風險。
+只要少少幾口，就可能讓貓的身體負荷過大。另外，無糖汽水和能量飲料若含有木糖醇，還會增加額外風險。
+
+
+Commercially produced candies are not directly toxic to cats,
+商業糖果本身不一定會直接毒害貓
+市售的糖果不一定對貓咪直接有毒，

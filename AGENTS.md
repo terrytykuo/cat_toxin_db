@@ -26,8 +26,9 @@ NotebookLM → batch_collect → process_plants → admin UI ↔ Firestore → d
 | Admin UI (React) | `admin/src/` — App.tsx, ToxinEditor.tsx, ToxinsView.tsx, **GlossaryEditor.tsx** |
 | Admin server (Express) | `admin/server.js` — toxin endpoints (line 142+), glossary endpoints (line 342+) |
 | Plans & design docs | `docs/plans/` |
-| Handoff for site-sync task | `docs/SITE_SYNC_HANDOFF.md` |
-| Progress log | `PROGRESS.md`; site translation progress is under `data/site/` |
+| Site sync handoff/runbook | `docs/SITE_SYNC_HANDOFF.md`, `docs/SITE_SYNC_RUNBOOK.md` |
+| Site sync caches | `data/site/en/`, `data/site/zh-TW/`, `data/site/firestore/{en,zh-TW}/`, `data/site/translation_glossary.json` |
+| Progress log | `PROGRESS.md`; current site/firestore cache work is also reflected by dirty files under `data/site/` |
 
 ## Schema sync invariant
 
@@ -64,4 +65,11 @@ cd admin && npm run dev
 
 ## Active work
 
-**Site sync pipeline** — design locked in `docs/plans/2026-05-15-mewguard-site-sync-pipeline-design.md`. Bridge script implemented at `pipeline/sync_site_plants.py`; runbook is `docs/SITE_SYNC_RUNBOOK.md`. Current milestone: 100 English plants emitted to `mewguard_site/src/data/plants.ts`, first 10 translated, next pending index 11 in `data/site/sync_progress.json`.
+**Toxin content localization + site cache reconciliation** — the old 100-plant `pipeline/sync_site_plants.py` milestone is historical. Current site generation is driven from sibling `../mewguard_site` by `scripts/sync-firestore-toxin-data.mjs`, which reads Firestore and writes cache/progress under this repo's `data/site/firestore/` before emitting `../mewguard_site/src/data/toxins.generated.ts`.
+
+Current dirty-state notes (2026-06):
+
+- A large local toxin-content diff exists across canonical processed JSON (`data/{plants,foods}_processed/`), legacy site cache (`data/site/{en,zh-TW}/`), Firestore-shaped cache (`data/site/firestore/{en,zh-TW}/`), and `data/site/translation_glossary.json`; current status also includes many untracked `data/site/*` entries and untracked `admin/scripts/`.
+- The latest recorded batch in `PROGRESS.md` is S-Z description simplification + zh-TW localization, followed by a targeted live Firestore sync for Admin UI review.
+- Do not treat `data/site/firestore/*` as proof of live Firestore state by itself; it is local cache/snapshot unless a Firestore read-back/upload command is recorded in `PROGRESS.md`.
+- Before committing generated site artifacts in `../mewguard_site`, reconcile this repo's dirty cache/progress files with `../mewguard_site/src/data/toxins.generated.ts`.
