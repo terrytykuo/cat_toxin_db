@@ -5,7 +5,7 @@
     {
       "chemical_formula": null,
       "concentration_notes": "◦ Potency: It is described as \"one of the most potent toxins known\" and is highly toxic to cats.",
-      "description": "in cats: ◦ Cellular Inhibition: Ricin works by inhibiting protein synthesis at the cellular level. This disruption of basic cellular function leads to widespread cell death and organ damage. ◦ Systemic Effects: Ingestion leads to severe clinical signs starting with gastrointestinal distress (vomiting, bloody diarrhea, abdominal pain, loss of appetite). As the toxin affects the body, it progresses ",
+      "description": "◦ Cellular Inhibition: Ricin works by inhibiting protein synthesis at the cellular level. This disruption of basic cellular function leads to widespread cell death and organ damage. ◦ Systemic Effects: Ingestion leads to severe clinical signs starting with gastrointestinal distress (vomiting, bloody diarrhea, abdominal pain, loss of appetite). As the toxin affects the body, it progresses.",
       "name": "Ricin"
     }
   ],
@@ -25,21 +25,21 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, diarrhea (often bloody), abdominal pain, and loss of appetite",
-      "notes": "The diarrhea may become bloody, indicating severe irritation and damage to the intestinal lining.Neurological Abnormalities",
+      "notes": "The diarrhea may become bloody, indicating severe irritation and damage to the intestinal lining.",
       "onset": "Rapid (symptoms often manifest quickly after ingestion).",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Tremors and seizures",
-      "notes": "These symptoms indicate that the toxin has been absorbed and is affecting the central nervous system.Dehydration",
+      "notes": "These symptoms indicate that the toxin has been absorbed and is affecting the central nervous system.",
       "onset": "Rapid progression following gastrointestinal signs.",
       "severity": "fatal"
     },
     {
       "body_system": "Metabolic",
       "name": "Dehydration",
-      "notes": "Rapid fluid loss exacerbates the systemic shock and stress on the kidneys.Organ Failure",
+      "notes": "Rapid fluid loss exacerbates the systemic shock and stress on the kidneys.",
       "onset": "Secondary to rapid fluid loss from vomiting and diarrhea.",
       "severity": "severe"
     },
@@ -71,7 +71,7 @@
     {
       "description": "Administration of intravenous (IV) fluids to correct dehydration and electrolyte imbalances resulting from severe vomiting and diarrhea.",
       "name": "Fluid Therapy and Electrolyte Replacement",
-      "notes": "Castor bean ingestion causes significant fluid loss through \"bloody diarrhea\" and vomiting. Aggressive fluid support is necessary to maintain blood pressure and support kidney and liver function as the body attempts to process the toxin.(Mentions dehydration/organ failure),4 (Reference to treating t",
+      "notes": "Castor bean ingestion causes significant fluid loss through \"bloody diarrhea\" and vomiting. Aggressive fluid support is necessary to maintain blood pressure and support kidney and liver function as the body attempts to process the toxin.",
       "priority": 3
     },
     {

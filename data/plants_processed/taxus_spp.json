@@ -4,30 +4,30 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "Taxine is extremely potent and highly toxic; its effects are so rapid that veterinary treatment is \"usually futile once clinical signs appear\"34. It is distributed throughout the entire plant except for the fleshy red aril (the berry covering), with the highest and most lethal concentration found inside the seeds",
-      "description": "in cats: Taxine causes rapid and severe disruption to the cardiac system1. It triggers severe heart rhythm abnormalities (arrhythmias), which may initially present as a rapid heartbeat but quickly progress to bradycardia (an abnormally low heart rate), leading ultimately to cardiac standstill and fatal heart failure",
+      "concentration_notes": "Taxine is extremely potent and highly toxic; its effects are so rapid that veterinary treatment is \"usually futile once clinical signs appear\"34. It is distributed throughout the entire plant except for the fleshy red aril (the berry covering), with the highest and most lethal concentration found inside the seeds.",
+      "description": "Taxine causes rapid and severe disruption to the cardiac system1. It triggers severe heart rhythm abnormalities (arrhythmias), which may initially present as a rapid heartbeat but quickly progress to bradycardia (an abnormally low heart rate), leading ultimately to cardiac standstill and fatal heart failure.",
       "name": "Taxine (or taxine alkaloids)"
     },
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "It is found throughout all parts of the plant except the fleshy red aril",
-      "description": "in cats: While the sources do not detail its exact cellular mechanism within the context of Yew poisoning, it contributes to the severe systemic and neurological symptoms observed upon ingestion, such as nervousness, trembling, and ataxia (loss of coordination)",
+      "concentration_notes": "It is found throughout all parts of the plant except the fleshy red aril.",
+      "description": "While the sources do not detail its exact cellular mechanism within the context of Yew poisoning, it contributes to the severe systemic and neurological symptoms observed upon ingestion, such as nervousness, trembling, and ataxia (loss of coordination)",
       "name": "Ephedrine"
     },
     {
       "chemical_formula": "Hydrogen cyanide (HCN)5.",
-      "concentration_notes": "Cyanide is found throughout the plant with the exception of the fleshy red aril",
-      "description": "in cats: Cyanide is a potent cellular toxin that binds with ferric iron to inhibit an enzyme called mitochondrial cytochrome c oxidase56. By doing this, it effectively halts cellular respiration, preventing the cat's cells from utilizing oxygen and resulting in rapid, life-threatening tissue hypoxia",
+      "concentration_notes": "Cyanide is found throughout the plant with the exception of the fleshy red aril.",
+      "description": "Cyanide is a potent cellular toxin that binds with ferric iron to inhibit an enzyme called mitochondrial cytochrome c oxidase56. By doing this, it effectively halts cellular respiration, preventing the cat's cells from utilizing oxygen and resulting in rapid, life-threatening tissue hypoxia.",
       "name": "Cyanide"
     },
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "Like the other toxic compounds, volatile oils are present throughout the entire plant except the fleshy red aril",
-      "description": "in cats: The sources do not outline the specific mechanism of action for the volatile oils in the Yew plant, but they contribute to the plant's overall severe toxicosis and rapid physical decline, which includes difficulty breathing (dyspnea) and collapse",
+      "concentration_notes": "Like the other toxic compounds, volatile oils are present throughout the entire plant except the fleshy red aril.",
+      "description": "The sources do not outline the specific mechanism of action for the volatile oils in the Yew plant, but they contribute to the plant's overall severe toxicosis and rapid physical decline, which includes difficulty breathing (dyspnea) and collapse.",
       "name": "Volatile oils"
     }
   ],
-  "description": "Yew (Taxus spp.) is one of the most acutely toxic plants for cats and all mammals. Every part — needles, bark, seeds, and branches — contains taxine alkaloids (taxine A and B), with only the red berry flesh (aril) being relatively non-toxic. Even a small quantity of needles can cause cardiac arrest within minutes to hours.",
+  "description": "Yew (Taxus spp.) is an extremely poisonous plant that is highly lethal to cats, dogs, livestock, and humans. All parts of the plant are toxic, including the needles, stems, and seeds. The only part that is not poisonous is the soft, red flesh of the berry, but the seed within it is one of the most toxic parts.\n\nThe plant's primary toxins are called taxine alkaloids. These are potent, fast-acting cardiotoxins that disrupt the function of the heart's sodium and calcium channels. Ingestion causes severe cardiac arrhythmias (irregular heartbeat), which quickly leads to cardiac arrest and death. Even a very small amount, such as chewing on a few needles, can be fatal.\n\nSymptoms of Yew poisoning are sudden and severe, often leading to death with little to no warning. They can include trembling, difficulty breathing, weakness, collapse, and a slowed heart rate. Due to the rapid and deadly nature of the toxins, there is often no time for veterinary treatment to succeed. Any suspected ingestion of a Yew plant is a dire medical emergency. Please contact your veterinarian or an emergency animal hospital immediately.",
   "emergencyNote": "Emesis Induction, Gastric Lavage, and Activated Charcoal",
   "family": "Taxaceae",
   "isToxic": true,
@@ -45,35 +45,35 @@
     {
       "body_system": "Cardiac",
       "name": "Cardiac abnormalities (including an initially rapid heartbeat that progresses to abnormally slow heart rate and arrhythmias)",
-      "notes": "This is the most dangerous and primary effect of Yew poisoning, caused by the highly toxic taxine alkaloids12. It profoundly disrupts the heart's function, leading quickly to cardiac standstill and death from heart failure2.... 2. Difficulty Breathing (Dyspnea)",
+      "notes": "This is the most dangerous and primary effect of Yew poisoning, caused by the highly toxic taxine alkaloids12. It profoundly disrupts the heart's function, leading quickly to cardiac standstill and death from heart failure.",
       "onset": "Rapid",
       "severity": "fatal"
     },
     {
       "body_system": "Respiratory",
       "name": "Difficulty breathing (dyspnea) and rapid breathing",
-      "notes": "Severe respiratory distress and tachypnea accompany the sudden, systemic cardiovascular collapse and are exacerbated by the toxic alkaloids, volatile oils, and cyanide found in the plant23. 3. Sudden Weakness and Collapse",
+      "notes": "Severe respiratory distress and tachypnea accompany the sudden, systemic cardiovascular collapse and are exacerbated by the toxic alkaloids, volatile oils, and cyanide found in the plant.",
       "onset": "Rapid",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Sudden weakness, drowsiness, and collapse",
-      "notes": "A cat will often present with extreme lethargy and sudden collapse as a direct result of the plummeting blood pressure and failing heart function1.... 4. Trembling, Nervousness, and Ataxia",
+      "notes": "A cat will often present with extreme lethargy and sudden collapse as a direct result of the plummeting blood pressure and failing heart function.",
       "onset": "Rapid",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Trembling, nervousness, and ataxia (loss of coordination)",
-      "notes": "In addition to its cardiac effects, compounds in the Yew plant like ephedrine cause extreme neurological stimulation, leading to noticeable tremors and an inability to walk normally23. 5. Vomiting and Upset Stomach",
+      "notes": "In addition to its cardiac effects, compounds in the Yew plant like ephedrine cause extreme neurological stimulation, leading to noticeable tremors and an inability to walk normally.",
       "onset": "Rapid.",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting and upset stomach",
-      "notes": "While gastrointestinal distress is a notable symptom of Yew ingestion, it is rapidly overshadowed by the life-threatening cardiac and neurological emergencies that follow",
+      "notes": "While gastrointestinal distress is a notable symptom of Yew ingestion, it is rapidly overshadowed by the life-threatening cardiac and neurological emergencies that follow.",
       "onset": "Rapid",
       "severity": "severe"
     }
@@ -91,19 +91,19 @@
     {
       "description": "If the ingestion just occurred and the cat shows no symptoms yet, the veterinarian will urgently induce vomiting or perform a gastric lavage (stomach pumping) to remove intact plant material, followed by doses of activated charcoal to bind the remaining toxins in the digestive tract.",
       "name": "Emesis Induction, Gastric Lavage, and Activated Charcoal",
-      "notes": "This step is a race against time. Because taxine alkaloids cause rapid cardiovascular collapse, decontamination must happen before clinical signs start. Once severe cardiac or neurological signs begin, inducing vomiting becomes extremely dangerous and is contraindicated. 2. Aggressive Cardiovascular",
+      "notes": "This step is a race against time. Because taxine alkaloids cause rapid cardiovascular collapse, decontamination must happen before clinical signs start. Once severe cardiac or neurological signs begin, inducing vomiting becomes extremely dangerous and is contraindicated.",
       "priority": 1
     },
     {
       "description": "The veterinarian will administer targeted heart medications (such as atropine for profound bradycardia, or lidocaine and other antiarrhythmics for irregular beats) to manage the heart rhythm. In advanced facilities, a temporary pacemaker may be utilized.",
       "name": "Antiarrhythmic Medications and Cardiac Pacing",
-      "notes": "This is the most critical medical intervention once symptoms begin, as the primary cause of death from Yew is fatal cardiac standstill. Unfortunately, the arrhythmias caused by taxine are notoriously stubborn and often highly resistant to standard cardiac drugs. 3. Respiratory and Hemodynamic Suppor",
+      "notes": "This is the most critical medical intervention once symptoms begin, as the primary cause of death from Yew is fatal cardiac standstill. Unfortunately, the arrhythmias caused by taxine are notoriously stubborn and often highly resistant to standard cardiac drugs.",
       "priority": 2
     },
     {
       "description": "The clinical team provides supplemental oxygen—or places a breathing tube (intubation) and manually ventilates the cat—if it is experiencing severe respiratory distress. Intravenous (IV) fluids are also administered aggressively to support plummeting blood pressure and combat shock.",
       "name": "Oxygen Therapy, Intubation, and IV Fluids",
-      "notes": "This supportive care is necessary to counteract the sudden collapse, tissue hypoxia (linked to the plant's cyanide components), and respiratory failure that accompany the systemic cardiovascular decline. 4. Neurological Control",
+      "notes": "This supportive care is necessary to counteract the sudden collapse, tissue hypoxia (linked to the plant's cyanide components), and respiratory failure that accompany the systemic cardiovascular decline.",
       "priority": 3
     },
     {

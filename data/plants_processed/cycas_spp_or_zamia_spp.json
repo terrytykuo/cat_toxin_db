@@ -22,7 +22,7 @@
       "body_system": "Hepatic",
       "severity": "fatal",
       "onset": "Delayed; typically develops within 48 to 72 hours.",
-      "notes": "◦ Signs include yellowing of the skin and eyes (jaundice), increased thirst, and fluid accumulation in the abdomen (ascites). ◦ The toxin cycasin causes liver cells to die (hepatic necrosis), which is a primary cause of death in affected animals.Neurological Abnormalities"
+      "notes": "◦ Signs include yellowing of the skin and eyes (jaundice), increased thirst, and fluid accumulation in the abdomen (ascites). ◦ The toxin cycasin causes liver cells to die (hepatic necrosis), which is a primary cause of death in affected animals."
     },
     {
       "name": "Seizures, Tremors, and Ataxia (Wobbly Gait)",
@@ -36,7 +36,7 @@
       "body_system": "Hematological",
       "severity": "severe",
       "onset": "Delayed (secondary to liver failure).",
-      "notes": "◦ As the liver fails, it cannot produce necessary blood-clotting factors, leading to spontaneous bleeding and visible bruising on the skin or gums.Systemic Weakness"
+      "notes": "◦ As the liver fails, it cannot produce necessary blood-clotting factors, leading to spontaneous bleeding and visible bruising on the skin or gums."
     },
     {
       "name": "Lethargy and Depression",
@@ -50,13 +50,13 @@
     {
       "name": "Cycasin (a glycoside)",
       "chemical_formula": "Not explicitly provided in the sources.",
-      "description": "in cats: ◦ Metabolic Activation: Cycasin itself is not the direct toxic agent; once ingested, it is hydrolyzed (broken down) by bacteria in the cat's intestinal tract into the active toxic component called methylazoxymethanol (MAM). ◦ Hepatic Necrosis: This active metabolite (MAM) targets the liver, causing profound hepatic necrosis (death of liver tissue). This leads to severe liver failure, jaun",
+      "description": "◦ Metabolic Activation: Cycasin itself is not the direct toxic agent; once ingested, it is hydrolyzed (broken down) by bacteria in the cat's intestinal tract into the active toxic component called methylazoxymethanol (MAM). ◦ Hepatic Necrosis: This active metabolite (MAM) targets the liver, causing profound hepatic necrosis (death of liver tissue).",
       "concentration_notes": "◦ Highest Concentration: While found in all parts of the plant (leaves, stems, bark, roots), cycasin is most highly concentrated in the seeds (nuts). ◦ Extreme Lethality: The seeds are exceptionally potent; the ingestion of just 1 to 2 seeds can be fatal to a pet. Initial symptoms can appear within 15 minutes to several hours, but liver failure typically develops within 48–72 hours."
     },
     {
       "name": "Beta-methylamino-L-alanine (often abbreviated as BMAA)",
       "chemical_formula": "Not explicitly provided in the sources.",
-      "description": "in cats: ◦ Neurotoxicity: BMAA is a neurotoxin that affects the central nervous system (CNS). ◦ Neurological Symptoms: It is primarily responsible for the neurological signs observed in poisoning cases, such as weakness, ataxia (wobbly gait), muscle tremors, seizures, and paralysis.",
+      "description": "◦ Neurotoxicity: BMAA is a neurotoxin that affects the central nervous system (CNS). ◦ Neurological Symptoms: It is primarily responsible for the neurological signs observed in poisoning cases, such as weakness, ataxia (wobbly gait), muscle tremors, seizures, and paralysis.",
       "concentration_notes": "◦ Presence: This compound is present alongside cycasin in the plant tissues. ◦ Synergistic Effect: While cycasin causes the fatal liver damage, BMAA contributes to the debilitating neurological symptoms that often accompany Sago Palm poisoning."
     }
   ],
@@ -64,19 +64,19 @@
     {
       "name": "Induction of Vomiting and Administration of Activated Charcoal",
       "description": "If the cat is neurologically stable (not having seizures or tremors), the veterinarian will induce vomiting to remove plant material from the stomach. This is followed by the administration of activated charcoal to bind toxins in the gut.",
-      "notes": "Because the toxins in Cycads undergo \"enterohepatic recirculation\" (where toxins are reabsorbed from the gut back into the liver), veterinarians typically administer multiple doses of activated charcoal. A common protocol involves one initial dose with a cathartic (to speed up passing) followed by t",
+      "notes": "Because the toxins in Cycads undergo \"enterohepatic recirculation\" (where toxins are reabsorbed from the gut back into the liver), veterinarians typically administer multiple doses of activated charcoal.",
       "priority": 1
     },
     {
       "name": "Administration of Hepatoprotectants (NAC and SAMe)",
       "description": "Veterinarians administer specific medications to protect the liver and aid in its repair. These include N-acetylcysteine (NAC) and S-adenosylmethionine (SAMe).",
-      "notes": "Since liver necrosis (death of liver tissue) is the primary cause of fatality in Cycad poisoning, these drugs are essential to support liver function. Long-term care with these medications may be necessary if hepatic necrosis develops.Intravenous (IV) Fluid Therapy and Glucose Support",
+      "notes": "Since liver necrosis (death of liver tissue) is the primary cause of fatality in Cycad poisoning, these drugs are essential to support liver function. Long-term care with these medications may be necessary if hepatic necrosis develops.",
       "priority": 2
     },
     {
       "name": "IV Fluid Resuscitation and Dextrose Supplementation",
       "description": "IV fluids are administered to maintain hydration and support blood pressure. If blood tests reveal low blood sugar (hypoglycemia)—a common complication of liver failure—dextrose (sugar) is added to the fluids as a constant rate infusion.",
-      "notes": "Fluids are critical for 48–72 hours to support the body while monitoring for liver failure. Hypoglycemia can lead to seizures and coma, making glucose monitoring and supplementation vital.Symptomatic Neurological and GI Management",
+      "notes": "Fluids are critical for 48–72 hours to support the body while monitoring for liver failure. Hypoglycemia can lead to seizures and coma, making glucose monitoring and supplementation vital.",
       "priority": 3
     },
     {

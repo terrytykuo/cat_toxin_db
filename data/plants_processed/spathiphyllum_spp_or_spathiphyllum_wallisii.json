@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "The overall toxicity of the Peace Lily is considered mild to moderate12. The insoluble calcium oxalate crystals are found throughout all parts of the plant, with raphides notably present within the foliage26. Because chewing the plant causes immediate and intense pain, cats usually stop eating it right away; this naturally limits the amount of the plant they consume, making severe poisoning rare a",
-      "description": "in cats: The needle-like oxalate crystals are bundled and stored inside specialized plant cells called idioblasts4. When a cat bites, chews, or crushes the plant material, these idioblasts rupture and shoot the sharp raphides into the surrounding tissues4. The crystals act as tiny needles that physically pierce and traumatize the oral cavity and gastrointestinal mucous membranes34. This mechanical",
+      "concentration_notes": "The overall toxicity of the Peace Lily is considered mild to moderate12. The insoluble calcium oxalate crystals are found throughout all parts of the plant, with raphides notably present within the foliage.",
+      "description": "The needle-like oxalate crystals are bundled and stored inside specialized plant cells called idioblasts4. When a cat bites, chews, or crushes the plant material, these idioblasts rupture and shoot the sharp raphides into the surrounding tissues4. The crystals act as tiny needles that physically pierce and traumatize the oral cavity and gastrointestinal mucous membranes.",
       "name": "Insoluble calcium oxalate crystals, specifically in a needle-like form known as raphides"
     }
   ],
-  "description": "Peace Lily (Spathiphyllum spp.) is a common indoor plant toxic to cats. Despite the misleading name, it is not a true lily and does not cause the acute kidney failure associated with Lilium species. As a member of the Araceae family, it contains insoluble calcium oxalate crystals (raphides) that cause immediate oral and GI irritation when the plant is chewed.",
+  "description": "The Peace Lily (Spathiphyllum species) is a popular indoor houseplant. Despite its name, it is not a true lily and does not cause the fatal kidney failure in cats associated with true lilies. However, it is still moderately toxic and can cause intense discomfort if chewed.\n\nThe leaves and stems contain tiny, needle-like calcium oxalate crystals. When a cat bites the plant, these sharp crystals are released, physically piercing the delicate tissues of the mouth, tongue, and throat. This causes immediate, intense burning and pain, which usually stops the cat from eating more of the plant.\n\nA cat that bites a peace lily will often start drooling heavily, pawing at its mouth, and may have trouble swallowing. It might also vomit if it swallowed any plant matter. You can gently rinse your cat's mouth with water to help clear the crystals. Contact a veterinarian if the drooling continues or if throat swelling makes it hard for your cat to breathe or swallow.",
   "emergencyNote": "Securing an Airway and Oxygen Support",
   "family": "Araceae",
   "isToxic": true,
@@ -27,35 +27,35 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Intense burning, pain, irritation, erythema (redness), and pawing at the mouth",
-      "notes": "This immediate pain is caused by the needle-like insoluble calcium oxalate crystals (raphides) physically piercing the mucous membranes as the cat bites into the plant14. This intense, sudden pain usually limits the amount of the plant the cat actually consumes5. 2. Excessive Drooling and Difficulty",
+      "notes": "This immediate pain is caused by the needle-like insoluble calcium oxalate crystals (raphides) physically piercing the mucous membranes as the cat bites into the plant14. This intense, sudden pain usually limits the amount of the plant the cat actually consumes.",
       "onset": "Immediate.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Hypersalivation (excessive drooling) and difficulty swallowing (dysphagia)",
-      "notes": "This is a direct response to the oral trauma and tissue swelling (edema) in the tongue and pharynx46. Rinsing the cat's mouth out with water or offering a calcium-containing dairy product (like milk) can help bind the crystals and soothe the irritation46. 3. Stomach Upset (Vomiting and Diarrhea)",
+      "notes": "This is a direct response to the oral trauma and tissue swelling (edema) in the tongue and pharynx46. Rinsing the cat's mouth out with water or offering a calcium-containing dairy product (like milk) can help bind the crystals and soothe the irritation.",
       "onset": "Immediate.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, stomach upset, and occasionally diarrhea",
-      "notes": "If the cat manages to swallow the plant material, the crystals will continue to irritate the gastrointestinal tract, causing vomiting and diarrhea2.... However, this irritation remains localized and does not cause systemic organ failure1. 4. Lethargy and Loss of Appetite",
+      "notes": "If the cat manages to swallow the plant material, the crystals will continue to irritate the gastrointestinal tract, causing vomiting and diarrhea2. However, this irritation remains localized and does not cause systemic organ failure.",
       "onset": "Immediate to shortly after ingestion.",
       "severity": "moderate"
     },
     {
       "body_system": "Neurological",
       "name": "Lethargy and anorexia (refusal to eat)",
-      "notes": "Because the cat's mouth and throat are inflamed and in pain, they will often refuse food and appear lethargic or depressed47. 5. Respiratory Distress (Rare)",
+      "notes": "Because the cat's mouth and throat are inflamed and in pain, they will often refuse food and appear lethargic or depressed.",
       "onset": "Shortly after ingestion.",
       "severity": "moderate"
     },
     {
       "body_system": "Respiratory",
       "name": "Difficulty breathing (dyspnea)",
-      "notes": "While generally rare and usually easily treatable, if the edema (swelling) spreads to the laryngeal region (the throat/airway), it can obstruct the airway and cause potentially life-threatening respiratory distress46. You should monitor the cat closely for throat swelling and seek veterinary care to",
+      "notes": "While generally rare and usually easily treatable, if the edema (swelling) spreads to the laryngeal region (the throat/airway), it can obstruct the airway and cause potentially life-threatening respiratory distress.",
       "onset": "Immediate to shortly after exposure, as swelling progresses.",
       "severity": "severe"
     }
@@ -66,21 +66,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "The veterinarian will closely monitor the cat's throat for severe tissue swelling (laryngeal edema) caused by the irritating crystals. If the swelling threatens to block the airway, the vet will immediately secure the airway (intubation) and provide supplemental oxygen",
+      "description": "The veterinarian will closely monitor the cat's throat for severe tissue swelling (laryngeal edema) caused by the irritating crystals. If the swelling threatens to block the airway, the vet will immediately secure the airway (intubation) and provide supplemental oxygen.",
       "name": "Securing an Airway and Oxygen Support",
-      "notes": "This is an emergency measure that is only necessary in severe but rare cases where the inflammatory response in the throat causes respiratory distress34. 2. Oral Decontamination and Crystal Binding",
+      "notes": "This is an emergency measure that is only necessary in severe but rare cases where the inflammatory response in the throat causes respiratory distress.",
       "priority": 1
     },
     {
-      "description": "The mouth is gently wiped out to physically remove any remaining plant material3. The oral cavity is then thoroughly rinsed with water to dilute and clear away the sharp, needle-like oxalate crystals",
+      "description": "The mouth is gently wiped out to physically remove any remaining plant material3. The oral cavity is then thoroughly rinsed with water to dilute and clear away the sharp, needle-like oxalate crystals.",
       "name": "Removal of Plant Material and Oral Rinsing",
-      "notes": "Veterinarians (or owners at home, if instructed) may offer the cat milk or other calcium-containing dairy products. The insoluble oxalates bind directly to the calcium in the dairy, which helps clear the crystals from the mouth and esophagus and soothes the intense burning sensation3. 3. Symptomatic",
+      "notes": "Veterinarians (or owners at home, if instructed) may offer the cat milk or other calcium-containing dairy products. The insoluble oxalates bind directly to the calcium in the dairy, which helps clear the crystals from the mouth and esophagus and soothes the intense burning sensation.",
       "priority": 2
     },
     {
-      "description": "The cat is observed for ongoing oral pain, drooling, or mild stomach upset, and given basic supportive care until the localized irritation naturally subsides",
+      "description": "The cat is observed for ongoing oral pain, drooling, or mild stomach upset, and given basic supportive care until the localized irritation naturally subsides.",
       "name": "General Supportive Care and Monitoring",
-      "notes": "Because the Peace Lily is an \"imposter lily\" containing only insoluble oxalates, there is no risk of systemic kidney injury3. Therefore, aggressive systemic treatments like intensive IV fluid flushing or dialysis—which are required for true lily ingestions—are completely unnecessary13. Full recovery",
+      "notes": "Because the Peace Lily is an \"imposter lily\" containing only insoluble oxalates, there is no risk of systemic kidney injury3. Therefore, aggressive systemic treatments like intensive IV fluid flushing or dialysis—which are required for true lily ingestions—are completely unnecessary.",
       "priority": 3
     }
   ]

@@ -38,7 +38,7 @@
       "name": "Based on the provided sources and our conversation history, there is no specific information detailing the exact symptoms, severity",
       "body_system": "Metabolic",
       "severity": "moderate",
-      "onset": "times a cat will show after ingesting starfruit (\u694a\u6843)",
+      "onset": "times a cat will show after ingesting starfruit (楊桃)",
       "notes": null
     }
   ],
@@ -51,14 +51,14 @@
     },
     {
       "name": "Immediate Veterinary Examination",
-      "description": "of the procedure: Promptly bringing the cat to a veterinary hospital for a professional check-up, diagnosis, and treatment2.\nAny situation-specific",
-      "notes": "Pet parents are strictly warned not to arbitrarily administer any medications to the cat themselves at home",
+      "description": "of the procedure: Promptly bringing the cat to a veterinary hospital for a professional check-up, diagnosis, and treatment.",
+      "notes": "Pet parents are strictly warned not to arbitrarily administer any medications to the cat themselves at home.",
       "priority": 2
     },
     {
       "name": "Clinical Observation and History Gathering",
-      "description": "of the procedure: The owner must stay calm and carefully document exactly what the cat ate, the quantity ingested, and whether the cat is showing any signs of toxicity, such as vomiting or diarrhea2.\nAny situation-specific",
-      "notes": "Providing this detailed exposure history directly to the veterinarian is crucial to assist them in accurately diagnosing and treating the cat's condition",
+      "description": "of the procedure: The owner must stay calm and carefully document exactly what the cat ate, the quantity ingested, and whether the cat is showing any signs of toxicity, such as vomiting or diarrhea.",
+      "notes": "Providing this detailed exposure history directly to the veterinarian is crucial to assist them in accurately diagnosing and treating the cat's condition.",
       "priority": 3
     }
   ]

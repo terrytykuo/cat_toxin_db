@@ -4,36 +4,36 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "The overall toxicity level of these compounds in the Wandering Jew is considered mild1. The toxic compounds are concentrated specifically within the plant's sap, which is found in the leaves and stems1. The severity of the dermal reaction is dependent on the duration of exposure; prolonged contact with the sap increases the likelihood of skin redness or itchiness",
-      "description": "in cats: When a cat bites, chews, or brushes against the plant, the sap is released and directly irritates the contacted tissues1. If ingested, the sap causes mild gastrointestinal distress, leading to symptoms like drooling, vomiting, and diarrhea1. If the sap gets on the cat's fur and makes prolonged contact with the skin, it acts as a dermal irritant, causing redness and itching",
-      "name": "Irritant compounds, specifically identified as oxalates and other unspecified irritants found within the plant's sap"
+      "concentration_notes": "The overall toxicity level of these compounds in the Wandering Jew is considered mild1. The toxic compounds are concentrated specifically within the plant's sap, which is found in the leaves and stems1. The severity of the dermal reaction is dependent on the duration of exposure; prolonged contact with the sap increases the likelihood of skin redness or itchiness.",
+      "description": "When a cat bites, chews, or brushes against the plant, the sap is released and directly irritates the contacted tissues1. If ingested, the sap causes mild gastrointestinal distress, leading to symptoms like drooling, vomiting, and diarrhea1. If the sap gets on the cat's fur and makes prolonged contact with the skin, it acts as a dermal irritant, causing redness and itching.",
+      "name": "Irritant sap; ASPCA names no specific toxic principle, though botanical sources attribute the irritation to calcium oxalate raphides found within the plant's sap"
     }
   ],
-  "description": "Wandering Jew (Tradescantia zebrina), a trailing houseplant with striking purple and silver striped leaves, is mildly toxic to cats. Like its relative Oyster Plant (Tradescantia spathacea), it contains irritant compounds in its sap that cause contact dermatitis on skin and GI upset when ingested.",
+  "description": "Wandering Jew (Tradescantia zebrina) is a common, colorful trailing houseplant. While not severely toxic, it can cause mild discomfort for cats. The primary issue is the plant's sap, found in its leaves and stems, which contains compounds that can irritate a cat's skin and digestive system.\n\nThe most common reaction occurs when a cat's skin comes into contact with the sap from a broken stem or leaf. This can cause a skin reaction called dermatitis, which may appear as redness, itchiness, or a rash. This is usually mild and localized to the area of contact.\n\nIf a cat chews on the plant, the sap can irritate the mouth and stomach, leading to symptoms like drooling, pawing at the mouth, mild vomiting, or diarrhea. These signs are typically not serious and resolve on their own. If skin irritation or stomach upset continues, it is best to consult a veterinarian.",
   "emergencyNote": "Oral and Dermal Rinsing",
   "family": "Commelinaceae",
   "isToxic": true,
   "name": "Wandering Jew",
   "safetyNotes": [
-    "Toxic compounds: irritant sap compounds throughout the plant; contact with broken stems releases the most concentrated sap",
+    "Toxic compounds: irritant sap compounds throughout the plant; sap is released when leaves or stems are broken",
     "Mechanism: sap causes contact dermatitis; ingestion causes direct GI mucosal irritation",
     "Symptoms: skin redness or rash from contact; vomiting, diarrhea, drooling from ingestion",
     "The trailing purple-silver leaves are visually appealing and accessible when plants hang — relocate away from cats",
     "Symptoms are mild and usually self-limiting; rinse affected skin with water and consult your vet if GI symptoms persist"
   ],
   "scientific_name": "Tradescantia zebrina",
-  "severity": "safe",
+  "severity": "cautious",
   "symptoms": [
     {
       "body_system": "Gastrointestinal",
       "name": "Mild vomiting, drooling, and/or diarrhea",
-      "notes": "This is generally a minor gastrointestinal upset that usually resolves on its own1. You can help by cleaning the cat's mouth with water, but you should consult a veterinarian if the vomiting becomes frequent1. 2. Skin Redness and Itching",
+      "notes": "This is generally a minor gastrointestinal upset that usually resolves on its own1. You can help by cleaning the cat's mouth with water, but you should consult a veterinarian if the vomiting becomes frequent.",
       "severity": "mild"
     },
     {
       "body_system": "Dermal",
       "name": "Skin redness or itch",
-      "notes": "If the sap gets on your cat, you should clean it off their fur and skin with water1. While usually a minor irritation, you should consult a veterinarian if the skin reaction appears severe",
+      "notes": "If the sap gets on your cat, you should clean it off their fur and skin with water1. While usually a minor irritation, you should consult a veterinarian if the skin reaction appears severe.",
       "onset": "Occurs after prolonged physical contact with the plant's sap",
       "severity": "mild"
     }
@@ -45,21 +45,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "Thoroughly clean the cat’s mouth with water and wash off any of the plant's sap that has gotten onto the cat's fur or skin",
+      "description": "Thoroughly clean the cat’s mouth with water and wash off any of the plant's sap that has gotten onto the cat's fur or skin.",
       "name": "Oral and Dermal Rinsing",
-      "notes": "This is the most immediate priority. It physically removes the irritant compounds (oxalates) found in the sap, which are responsible for causing drooling, mouth pain, and skin redness1. 2. Observation and Monitoring",
+      "notes": "This is the most immediate priority. It physically removes the irritant compounds (oxalates) found in the sap, which are responsible for causing drooling, mouth pain, and skin redness.",
       "priority": 1
     },
     {
-      "description": "Keep a close eye on the cat to monitor the progression of any mild gastrointestinal upset (such as vomiting or diarrhea) or localized skin itchiness",
+      "description": "Keep a close eye on the cat to monitor the progression of any mild gastrointestinal upset (such as vomiting or diarrhea) or localized skin itchiness.",
       "name": "At-Home Monitoring",
-      "notes": "Because the toxicity of the Wandering Jew is mild, these symptoms are usually self-limiting and will typically resolve on their own without the need for medications1. 3. Veterinary Consultation for Symptomatic Care",
+      "notes": "Because the toxicity of the Wandering Jew is mild, these symptoms are usually self-limiting and will typically resolve on their own without the need for medications.",
       "priority": 2
     },
     {
       "description": "The cat is taken to a veterinarian for professional assessment, where the vet can provide specific treatments to ease persistent gastrointestinal distress or skin inflammation.",
       "name": "Veterinary Consultation and Symptomatic Treatment",
-      "notes": "Professional veterinary care is generally only required if the cat's vomiting becomes frequent or if the skin reaction appears severe",
+      "notes": "Professional veterinary care is generally only required if the cat's vomiting becomes frequent or if the skin reaction appears severe.",
       "priority": 3
     }
   ]

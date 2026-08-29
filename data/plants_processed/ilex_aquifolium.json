@@ -5,25 +5,25 @@
     {
       "chemical_formula": "Not explicitly provided in the sources.",
       "concentration_notes": "◦ Berries vs. Leaves: While found in the spiny leaves, these toxins are significantly more concentrated in the berries (fruit). ◦ Potency: Ingestion of as few as two berries can result in clinical signs like abdominal pain, vomiting, and diarrhea.",
-      "description": "in cats: ◦ Gastrointestinal Irritation: Saponins act as a soap-like irritant to the mucous membranes of the gastrointestinal tract. This irritation stimulates the body to purge the toxin, resulting in excessive drooling (hypersalivation), vigorous vomiting, and diarrhea. 4. Notes on",
+      "description": "◦ Gastrointestinal Irritation: Saponins act as a soap-like irritant to the mucous membranes of the gastrointestinal tract. This irritation stimulates the body to purge the toxin, resulting in excessive drooling (hypersalivation), vigorous vomiting, and diarrhea.",
       "name": "Saponins (specifically noted as spiny/irritating saps or tarpenoid saponins)"
     },
     {
       "chemical_formula": "Not explicitly provided in the sources.",
       "concentration_notes": "◦ Found in the leaves, fruits, and seeds.",
-      "description": "in cats: ◦ While the specific mechanism for holly-derived theobromine is not detailed separately from the plant's general effects in the provided text, theobromine is generally known as a stimulant. However, in the context of English Holly ingestion, the primary clinical manifestation reported is gastrointestinal distress rather than the severe cardiac/neurological stimulation seen in chocolate to",
+      "description": "◦ While the specific mechanism for holly-derived theobromine is not detailed separately from the plant's general effects in the provided text, theobromine is generally known as a stimulant.",
       "name": "Theobromine"
     },
     {
       "chemical_formula": "Not explicitly provided in the sources.",
       "concentration_notes": "◦ Present in the leaves, fruits, and seeds.",
-      "description": "in cats: ◦ These compounds contribute to the overall toxicity profile of the plant, working in conjunction with saponins to cause gastrointestinal upset. 4. Notes on",
+      "description": "◦ These compounds contribute to the overall toxicity profile of the plant, working in conjunction with saponins to cause gastrointestinal upset.",
       "name": "Triterpene compounds"
     },
     {
       "chemical_formula": null,
       "concentration_notes": "◦ Found throughout the plant's leaves, fruits, and seeds.",
-      "description": "in cats: ◦ These substances possess activity similar to digitalis (cardiac glycosides), which can potentially affect heart function, though severe cardiac signs are rare in reported holly poisonings compared to the predominant gastrointestinal symptoms. 4. Notes on",
+      "description": "◦ These substances possess activity similar to digitalis (cardiac glycosides), which can potentially affect heart function, though severe cardiac signs are rare in reported holly poisonings compared to the predominant gastrointestinal symptoms.",
       "name": "Unknown compounds with digitalis-like cardiotonic activity"
     }
   ],

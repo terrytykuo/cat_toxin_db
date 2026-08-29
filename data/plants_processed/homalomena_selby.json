@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ Severity: The toxicity is classified as Moderate. ◦ Dose-Dependent Effects: While oral irritation is the primary sign, ingesting larger quantities can lead to more systemic issues such as diarrhea and lethargy.• Cat toxicity chart for 50 popular houseplants",
-      "description": "in cats: ◦ Physical Irritation: When the plant is chewed, it releases needle-like crystals that cause immediate and painful irritation to the sensitive tissues of the mouth, tongue, and throat. This results in symptoms such as intense burning, excessive drooling, and difficulty swallowing. 4. Notes on",
+      "concentration_notes": "◦ Severity: The toxicity is classified as Moderate. ◦ Dose-Dependent Effects: While oral irritation is the primary sign, ingesting larger quantities can lead to more systemic issues such as diarrhea and lethargy.",
+      "description": "◦ Physical Irritation: When the plant is chewed, it releases needle-like crystals that cause immediate and painful irritation to the sensitive tissues of the mouth, tongue, and throat. This results in symptoms such as intense burning, excessive drooling, and difficulty swallowing.",
       "name": "Insoluble calcium oxalate crystals"
     }
   ],
-  "description": "Homalomena ‘Selby’ is a tropical ornamental houseplant in the Araceae family, making it toxic to cats for the same reason as Dieffenbachia, Philodendron, and Pothos: insoluble calcium oxalate crystals (raphides) throughout the leaves and stems. When chewed, these needle-like crystals are forcefully ejected into the oral mucosa, causing intense immediate irritation.",
+  "description": "Homalomena ‘Selby’ is a tropical houseplant in the Araceae family. Like pothos, philodendron, and dieffenbachia, it is unsafe for cats because the leaves and stems contain irritating calcium oxalate crystals.\n\nWhen a cat bites the plant, the crystals can press into the mouth and throat like tiny needles. This causes fast pain and burning. The plant’s sap may add more irritation, especially on the lips, tongue, or throat.\n\nA cat may drool, paw at the mouth, vomit, or have swelling of the lips or tongue. Most cats stop chewing quickly because it hurts, but swelling can still be serious. Keep Homalomena out of reach, rinse the mouth gently with water if safe, and call a veterinarian if swelling, vomiting, or breathing trouble appears.",
   "emergencyNote": "Oral Rinsing / Irrigation",
   "family": "Araceae",
   "isToxic": true,
@@ -27,14 +27,14 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Mouth Irritation (Pain/Burning)",
-      "notes": "The needle-like crystals embed in the soft tissues of the mouth and tongue, causing immediate discomfort.Excessive Drooling",
+      "notes": "The needle-like crystals embed in the soft tissues of the mouth and tongue, causing immediate discomfort.",
       "onset": "Immediate (Upon chewing the plant material).",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Drooling (Hypersalivation)",
-      "notes": "This is a direct reaction to the pain and irritation caused by the crystals in the mouth.Vomiting",
+      "notes": "This is a direct reaction to the pain and irritation caused by the crystals in the mouth.",
       "onset": "Immediate.",
       "severity": "moderate"
     },
@@ -48,14 +48,14 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Reluctance to Eat / Difficulty Swallowing",
-      "notes": "The cat may refuse food due to the pain and swelling in the mouth and throat.Diarrhea",
+      "notes": "The cat may refuse food due to the pain and swelling in the mouth and throat.",
       "onset": "Acute.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Diarrhea",
-      "notes": "This symptom is noted specifically if the plant is \"ingested in quantity.\"Lethargy",
+      "notes": "This symptom is noted specifically if the plant is \"ingested in quantity.\"",
       "onset": "Delayed (Following ingestion of larger quantities).",
       "severity": "moderate"
     },
@@ -84,7 +84,7 @@
     {
       "description": "The cat is fed or administered milk, yogurt, or another calcium-containing liquid. The calcium in these products binds to the insoluble oxalate crystals, helping to neutralize them and facilitate their clearance from the mouth and esophagus.",
       "name": "Administration of Dairy Products (Milk or Yogurt)",
-      "notes": "This can soothe the irritated tissues and is often recommended alongside rinsing to provide relief from the \"pins and needles\" sensation.Symptomatic and Supportive Care",
+      "notes": "This can soothe the irritated tissues and is often recommended alongside rinsing to provide relief from the \"pins and needles\" sensation.",
       "priority": 2
     },
     {

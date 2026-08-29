@@ -31,7 +31,7 @@
     {
       "name": "Plant Identification and Triage",
       "description": "The veterinarian must immediately verify the specific species of the plant. This is done to confirm the plant is an \"imposter lily\" (Scadoxus spp.) and definitively rule out Lilium or Hemerocallis species.",
-      "notes": "This is the most critical first step. True lilies cause fatal kidney failure with even small ingestions (pollen, 1-2 leaves), requiring aggressive, expensive, and prolonged hospitalization (48–72 hours of fluids). Confirming the plant is a Blood Lily allows the vet to avoid these intense kidney-prot",
+      "notes": "This is the most critical first step. True lilies cause fatal kidney failure with even small ingestions (pollen, 1-2 leaves), requiring aggressive, expensive, and prolonged hospitalization (48–72 hours of fluids).",
       "priority": 1
     },
     {

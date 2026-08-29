@@ -69,19 +69,19 @@
   "treatments": [
     {
       "name": "Surface Decontamination and Oral Rinsing",
-      "description": "◦ Dermal: If the cat has essential oil on its skin or fur, the veterinarian (or owner under instruction) will bathe the cat using liquid dish soap and lukewarm water to remove the oil before it is absorbed through the skin or ingested during grooming.\n    ◦ Oral: If ingested, the vet may rinse the cat's mouth with water to remove residues.",
-      "notes": "Inducing vomiting (emesis) at home is not recommended for cats as it can cause further injury or aspiration. The veterinarian will determine if inducing vomiting at the clinic is safe based on the cat's neurological status and the time since ingestion.Intravenous (IV) Fluid Therapy",
+      "description": "◦ Dermal: If the cat has essential oil on its skin or fur, the veterinarian (or owner under instruction) will bathe the cat using liquid dish soap and lukewarm water to remove the oil before it is absorbed through the skin or ingested during grooming. ◦ Oral: If ingested, the vet may rinse the cat's mouth with water to remove residues.",
+      "notes": "Inducing vomiting (emesis) at home is not recommended for cats as it can cause further injury or aspiration. The veterinarian will determine if inducing vomiting at the clinic is safe based on the cat's neurological status and the time since ingestion.",
       "priority": 1
     },
     {
       "name": "Aggressive Fluid Therapy",
       "description": "The administration of IV fluids is used to correct dehydration caused by vomiting and diarrhea. Crucially, it also helps support kidney and liver function by flushing toxins from the bloodstream and maintaining organ perfusion.",
-      "notes": "Since essential oils like Eucalyptus can cause serious organ damage (specifically liver failure), fluid support is vital to help the body eliminate the toxins and support the liver.Respiratory Support and Symptomatic Care",
+      "notes": "Since essential oils like Eucalyptus can cause serious organ damage (specifically liver failure), fluid support is vital to help the body eliminate the toxins and support the liver.",
       "priority": 2
     },
     {
       "name": "Oxygen Therapy and Symptomatic Medication",
-      "description": "◦ Respiratory: If the cat has inhaled Eucalyptus vapors (e.g., from a diffuser) and is showing signs of respiratory distress (coughing, wheezing), the vet will administer oxygen.\n    ◦ Neurological/GI: Medications such as anti-emetics (to stop vomiting) and anticonvulsants (if seizures or tremors occur) are administered to stabilize the patient.",
+      "description": "◦ Respiratory: If the cat has inhaled Eucalyptus vapors (e.g., from a diffuser) and is showing signs of respiratory distress (coughing, wheezing), the vet will administer oxygen. ◦ Neurological/GI: Medications such as anti-emetics (to stop vomiting) and anticonvulsants (if seizures or tremors occur) are administered to stabilize the patient.",
       "notes": "Eucalyptus toxicity can manifest as central nervous system depression (lethargy, \"drunk\" walking) or overexcitement (tremors, seizures). Monitoring liver enzymes is also critical as liver damage is a known risk of essential oil poisoning.",
       "priority": 3
     }

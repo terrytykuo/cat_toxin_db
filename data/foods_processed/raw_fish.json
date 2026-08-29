@@ -10,24 +10,24 @@
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: Thiaminase is highly concentrated in the viscera (guts and internal organs) of specific fish species, including carp, herring, and smelt2.... Cats have a high dietary requirement for thiamine and very low storage capacity; therefore, feeding a diet rich in raw, thiaminase-positive fish can induce a life-threatening deficiency within just 2 to 4 weeks2. Processing methods like freeze-dr",
-      "description": "in cats: Thiaminase functions as an anti-nutritional enzyme. When a cat ingests raw fish, the enzyme actively splits the thiamine molecule (Vitamin B1) at the methylene bridge, rendering the vitamin completely inactive and preventing its absorption23. Because thiamine is a critical cofactor for enzymes in the Krebs cycle, its destruction halts cellular energy metabolism2. In cats, this rapidly lea",
+      "concentration_notes": "or potency: Thiaminase is highly concentrated in the viscera (guts and internal organs) of specific fish species, including carp, herring, and smelt2. Cats have a high dietary requirement for thiamine and very low storage capacity; therefore, feeding a diet rich in raw, thiaminase-positive fish can induce a life-threatening deficiency within just 2 to 4 weeks.",
+      "description": "Thiaminase functions as an anti-nutritional enzyme. When a cat ingests raw fish, the enzyme actively splits the thiamine molecule (Vitamin B1) at the methylene bridge, rendering the vitamin completely inactive and preventing its absorption23. Because thiamine is a critical cofactor for enzymes in the Krebs cycle, its destruction halts cellular energy metabolism.",
       "name": "Thiaminase"
     },
     {
       "chemical_formula": "CH",
-      "concentration_notes": "or potency: Methylmercury aggressively bioaccumulates in large, apex predator fish (such as tuna and salmon)910. Feeding a cat a heavy or exclusive diet of these larger fish exposes them to dangerous, concentrated levels of heavy metals",
-      "description": "in cats: Methylmercury is a potent neurotoxin that easily crosses the blood-brain barrier9. Once in the brain, it severely interferes with neuronal protein synthesis, leading to progressive neurological damage, ataxia, tremors, and severe behavioral changes9. Any notes on concentration or potency: Methylmercury aggressively bioaccumulates in large, apex predator fish (such as tuna and salmon)910. ",
+      "concentration_notes": "or potency: Methylmercury aggressively bioaccumulates in large, apex predator fish (such as tuna and salmon)910. Feeding a cat a heavy or exclusive diet of these larger fish exposes them to dangerous, concentrated levels of heavy metals.",
+      "description": "Methylmercury is a potent neurotoxin that easily crosses the blood-brain barrier9. Once in the brain, it severely interferes with neuronal protein synthesis, leading to progressive neurological damage, ataxia, tremors, and severe behavioral changes9. Any notes on concentration or potency: Methylmercury aggressively bioaccumulates in large, apex predator fish (such as tuna and salmon)910.",
       "name": "Methylmercury (Note"
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: The risk of pathogenic infection is strictly tied to the raw, uncooked state of the fish12. The threat of parasites can sometimes be mitigated by deep-freezing the raw fish at specific sub-zero temperatures for extended periods, but thorough cooking is required to fully neutralize bacterial threats",
-      "description": "in cats: Ingesting uncooked fish exposes the cat to these live pathogens, which infect, irritate, and inflame the gastrointestinal tract1112. This biological infection leads to severe gastrointestinal distress, including vomiting, diarrhea, and lethargy11. Any notes on concentration or potency: The risk of pathogenic infection is strictly tied to the raw, uncooked state of the fish12. The threat o",
+      "concentration_notes": "or potency: The risk of pathogenic infection is strictly tied to the raw, uncooked state of the fish12. The threat of parasites can sometimes be mitigated by deep-freezing the raw fish at specific sub-zero temperatures for extended periods, but thorough cooking is required to fully neutralize bacterial threats.",
+      "description": "Ingesting uncooked fish exposes the cat to these live pathogens, which infect, irritate, and inflame the gastrointestinal tract1112. This biological infection leads to severe gastrointestinal distress, including vomiting, diarrhea, and lethargy11. Any notes on concentration or potency: The risk of pathogenic infection is strictly tied to the raw, uncooked state of the fish.",
       "name": "Foodborne Pathogens (Bacteria and Parasites) (Note"
     }
   ],
-  "description": "Raw fish is not acutely toxic to cats, but it carries significant health risks that make it inappropriate as a regular food. Many raw fish species contain thiaminase — an enzyme that destroys thiamine (vitamin B1) — and all raw fish poses bacterial and parasitic contamination risks.",
+  "description": "Feeding raw fish to cats can be dangerous because many species contain thiaminase, an enzyme that destroys thiamine (Vitamin B1). Since cats have a very high requirement for this vitamin and cannot store much of it, a diet of raw fish can lead to a life-threatening deficiency within just a few weeks. This deficiency often causes severe neurological problems, including tremors, seizures, and a loss of coordination.\n\nBeyond vitamin issues, raw fish often carries harmful bacteria like Salmonella and parasites such as anisakis worms. Larger fish like tuna can also contain concentrated levels of Methylmercury, a neurotoxin that can cause progressive brain damage. To keep your cat safe, always cook fish thoroughly and remove all bones before offering it as an occasional treat.",
   "emergencyNote": "1. Thiamine (Vitamin B1) Supplementation",
   "family": "Various",
   "isToxic": false,
@@ -50,35 +50,35 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Gastrointestinal Upset (Vomiting, Diarrhea, and Anorexia)",
-      "notes": "Ingesting raw fish exposes cats to foodborne pathogens like Salmonella, E. coli, and parasites, which directly cause vomiting and diarrhea12. Additionally, the high fat content in some raw fish can trigger a painful bout of acute pancreatitis1. If the cat is suffering from thiaminase-induced Vitamin",
+      "notes": "Ingesting raw fish exposes cats to foodborne pathogens like Salmonella, E. coli, and parasites, which directly cause vomiting and diarrhea12. Additionally, the high fat content in some raw fish can trigger a painful bout of acute pancreatitis.",
       "onset": "Variable. Can be acute (within hours to a few days) if caused by foodborne pathogens,",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Severe Neurological Dysfunction (Ataxia, Seizures, and Ventriflexion)",
-      "notes": "Raw fish (such as carp, herring, and smelt) contains thiaminase, an enzyme that destroys thiamine (Vitamin B1), halting cellular energy metabolism and causing a \"Wernicke-like\" encephalopathy3.... Cats will exhibit severe lack of coordination (ataxia), vestibular signs, and a characteristic abnormal",
+      "notes": "Raw fish (such as carp, herring, and smelt) contains thiaminase, an enzyme that destroys thiamine (Vitamin B1), halting cellular energy metabolism and causing a \"Wernicke-like\" encephalopathy.",
       "onset": "Chronic/Delayed (typically develops within 2 to 4 weeks of a raw fish-heavy diet).",
       "severity": "fatal"
     },
     {
       "body_system": "Neurological",
       "name": "Ocular / Visual Impairment",
-      "notes": "Alongside motor dysfunction, thiamine deficiency from raw fish consumption causes a fairly rapid onset of visual disturbances, visibly dilated pupils (mydriasis), and clinical blindness",
+      "notes": "Alongside motor dysfunction, thiamine deficiency from raw fish consumption causes a fairly rapid onset of visual disturbances, visibly dilated pupils (mydriasis), and clinical blindness.",
       "onset": "2 to 4 weeks (manifests rapidly once the thiamine deficiency encephalopathy sets in).",
       "severity": "severe"
     },
     {
       "body_system": "Cardiac",
       "name": "Cardiac Arrhythmias",
-      "notes": "If the thiamine deficiency caused by the raw fish is left untreated, it can severely impact the cardiovascular system. In the end stages of the disease, cats may develop a racing heart (tachycardia) and a cardiac arrhythmic syndrome with notable electrocardiographic changes",
+      "notes": "If the thiamine deficiency caused by the raw fish is left untreated, it can severely impact the cardiovascular system. In the end stages of the disease, cats may develop a racing heart (tachycardia) and a cardiac arrhythmic syndrome with notable electrocardiographic changes.",
       "onset": "Late-stage / End-stage of thiamine deficiency.",
       "severity": "fatal"
     },
     {
       "body_system": "Dermal",
       "name": "Steatitis (Yellow Fat Disease)",
-      "notes": "This condition is a specific risk if a cat is fed a heavy or exclusive diet of raw or canned tuna. Tuna is extremely high in polyunsaturated fats and lacks adequate Vitamin E. This imbalance causes the cat's subcutaneous fat to become severely inflamed, leading to the development of firm, exquisitel",
+      "notes": "This condition is a specific risk if a cat is fed a heavy or exclusive diet of raw or canned tuna. Tuna is extremely high in polyunsaturated fats and lacks adequate Vitamin E.",
       "onset": "Chronic (develops over time from an unbalanced diet).",
       "severity": "severe"
     }
@@ -91,31 +91,31 @@
   "toxicityLevel": "low",
   "treatments": [
     {
-      "description": "of the procedure: A veterinarian administers high doses of thiamine (typically 100–300 mg/day) via intravenous (IV) or intramuscular (IM) injection for the first several days, followed by oral supplementation until clinical signs fully resolve1. Any situation-specific",
+      "description": "of the procedure: A veterinarian administers high doses of thiamine (typically 100–300 mg/day) via intravenous (IV) or intramuscular (IM) injection for the first several days, followed by oral supplementation until clinical signs fully resolve.",
       "name": "1. Thiamine (Vitamin B1) Supplementation",
-      "notes": "This is the most critical, life-saving intervention if the cat has been eating raw fish over a period of time (2 to 4 weeks) and is exhibiting severe neurological dysfunction. Raw fish contains thiaminase, an enzyme that destroys the cat's Vitamin B1 reserves, leading to a potentially fatal encephal",
+      "notes": "This is the most critical, life-saving intervention if the cat has been eating raw fish over a period of time (2 to 4 weeks) and is exhibiting severe neurological dysfunction.",
       "priority": 1
     },
     {
-      "description": "of the procedure: The veterinarian administers anticonvulsant medications (such as phenobarbital or levetiracetam) to halt active seizures, and may use osmotic diuretics like mannitol to reduce brain swelling1. Any situation-specific",
+      "description": "of the procedure: The veterinarian administers anticonvulsant medications (such as phenobarbital or levetiracetam) to halt active seizures, and may use osmotic diuretics like mannitol to reduce brain swelling.",
       "name": "Seizure Control and Neurological Support",
       "notes": "This is an urgent priority if the cat has reached the advanced stages of thiamine deficiency encephalopathy and is presenting with cluster seizures, status epilepticus, or severe vestibular signs (like rolling or falling)",
       "priority": 2
     },
     {
-      "description": "of the procedure: If the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic, a veterinarian will administer a feline-specific medication (such as dexmedetomidine) to safely induce vomiting and expel the raw fish from the stomach3. Any situation-specific",
+      "description": "of the procedure: If the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic, a veterinarian will administer a feline-specific medication (such as dexmedetomidine) to safely induce vomiting and expel the raw fish from the stomach.",
       "name": "Induction of Emesis (Early Decontamination)",
-      "notes": "This is the highest priority for an acute ingestion event. Rapid decontamination helps prevent the absorption of the thiaminase enzyme and dangerous foodborne pathogens (like Salmonella, E. coli, and Campylobacter) commonly found in raw fish",
+      "notes": "This is the highest priority for an acute ingestion event. Rapid decontamination helps prevent the absorption of the thiaminase enzyme and dangerous foodborne pathogens (like Salmonella, E. coli, and Campylobacter) commonly found in raw fish.",
       "priority": 3
     },
     {
-      "description": "of the procedure: The cat is hospitalized to receive continuous IV fluids, along with antiemetic (anti-sickness) medications and potentially antibiotics1. Any situation-specific",
+      "description": "of the procedure: The cat is hospitalized to receive continuous IV fluids, along with antiemetic (anti-sickness) medications and potentially antibiotics.",
       "name": "Intravenous (IV) Fluid Therapy and Symptomatic Care",
       "notes": "This is highly recommended if the cat develops acute gastrointestinal distress (severe vomiting and diarrhea) due to the bacterial or parasitic pathogens carried in the raw fish14. IV fluids correct dehydration and maintain organ perfusion while the cat's system clears the infection.",
       "priority": 4
     },
     {
-      "description": "of the procedure: Immediately discontinuing all raw fish and transitioning the cat to a nutritionally complete, balanced, and fully cooked commercial diet1. Any situation-specific",
+      "description": "of the procedure: Immediately discontinuing all raw fish and transitioning the cat to a nutritionally complete, balanced, and fully cooked commercial diet.",
       "name": "Dietary Correction and Nutritional Assessment",
       "notes": "This is the primary long-term management strategy. Removing raw fish ensures the cat is no longer exposed to thiaminase, live biological pathogens, or dangerous accumulations of heavy metals (such as methylmercury, which bioaccumulates in large predatory fish like raw tuna)",
       "priority": 5

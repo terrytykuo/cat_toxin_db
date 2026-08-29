@@ -33,39 +33,39 @@
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Not explicitly specified in the sources.",
-      "notes": "This minor irritation is typically caused by the cat chewing on or ingesting the tree's sap, sharp needles, or cones. 2. Digestive Blockages"
+      "notes": "This minor irritation is typically caused by the cat chewing on or ingesting the tree's sap, sharp needles, or cones."
     },
     {
       "name": "Digestive blockages",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Not explicitly specified in the sources.",
-      "notes": "Pine needles are very sharp and irritating; if swallowed, they pose a physical hazard that can potentially lead to dangerous blockages within the digestive tract. 3. Liver Damage"
+      "notes": "Pine needles are very sharp and irritating; if swallowed, they pose a physical hazard that can potentially lead to dangerous blockages within the digestive tract."
     }
   ],
   "treatments": [
     {
       "name": "Veterinary-Induced Vomiting",
-      "description": "If a cat swallows a toxic substance (such as concentrated essential oils), a veterinarian may administer approved prescription medications in the clinic to safely induce vomiting and remove the toxin from the stomach",
-      "notes": "You should never attempt to induce vomiting at home (such as by using hydrogen peroxide or salt). There are no safe over-the-counter emetics for cats, and attempting to do so can cause severe injury to the mouth, throat, and stomach, which will only complicate professional treatments. 2. Oral Rinsing and Dilution",
+      "description": "If a cat swallows a toxic substance (such as concentrated essential oils), a veterinarian may administer approved prescription medications in the clinic to safely induce vomiting and remove the toxin from the stomach.",
+      "notes": "You should never attempt to induce vomiting at home (such as by using hydrogen peroxide or salt). There are no safe over-the-counter emetics for cats, and attempting to do so can cause severe injury to the mouth, throat, and stomach, which will only complicate professional treatments.",
       "priority": 1
     },
     {
       "name": "Oral Rinsing and Dilution",
-      "description": "The veterinarian may recommend rinsing the cat's mouth with lukewarm water or offering milk to help dilute and clear the irritating chemicals or oils from the oral cavity",
-      "notes": "This is a common recommendation for swallowed chemicals or essential oils1. If the cat only chewed on the sap or needles of a live pine tree, the resulting drooling and vomiting are usually mild and self-limiting, and may not require major medical intervention. 3. Intervention for Digestive Blockages",
+      "description": "The veterinarian may recommend rinsing the cat's mouth with lukewarm water or offering milk to help dilute and clear the irritating chemicals or oils from the oral cavity.",
+      "notes": "This is a common recommendation for swallowed chemicals or essential oils1. If the cat only chewed on the sap or needles of a live pine tree, the resulting drooling and vomiting are usually mild and self-limiting, and may not require major medical intervention.",
       "priority": 2
     },
     {
       "name": "Treatment for Digestive Blockages",
-      "description": "Because pine needles are sharp, they act as physical irritants. If swallowed, they pose a serious physical hazard, and veterinary intervention (such as imaging or surgery) may be required to locate and clear an obstruction in the gastrointestinal tract",
-      "notes": "This addresses the physical dangers of the plant rather than its chemical toxicity. 4. Systemic and Supportive Care for Liver Toxicity",
+      "description": "Because pine needles are sharp, they act as physical irritants. If swallowed, they pose a serious physical hazard, and veterinary intervention (such as imaging or surgery) may be required to locate and clear an obstruction in the gastrointestinal tract.",
+      "notes": "This addresses the physical dangers of the plant rather than its chemical toxicity.",
       "priority": 3
     },
     {
       "name": "Supportive Care for Liver Damage",
       "description": "The veterinary team will provide intensive care and monitoring to support the cat's organs if toxic oils have been absorbed into the bloodstream.",
-      "notes": "The need for this treatment depends heavily on the form of pine the cat was exposed to. The natural essential oils present in a live indoor pine tree are typically in low concentrations and are not generally expected to cause major toxicity2. However, concentrated pine essential oils are explicitly toxic to cats and can cause severe, potentially fatal liver damage",
+      "notes": "The need for this treatment depends heavily on the form of pine the cat was exposed to. The natural essential oils present in a live indoor pine tree are typically in low concentrations and are not generally expected to cause major toxicity2. However, concentrated pine essential oils are explicitly toxic to cats and can cause severe, potentially fatal liver damage.",
       "priority": 4
     }
   ],

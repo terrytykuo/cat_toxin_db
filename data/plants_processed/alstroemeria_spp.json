@@ -4,36 +4,36 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "The overall toxicity and potency of the Peruvian Lily are considered very mild12. Interestingly, the Peruvian Lily was listed among the top 10 cat exposure calls to the Pet Poison Helpline in 2023; this is largely because it is incredibly common in floral bouquets and the name \"lily\" causes immediate panic for cat owners24. However, actual poisoning is minor, and the resulting stomach upset genera",
-      "description": "in cats: The oxalate crystals act as direct physical irritants1. When a cat chews or swallows the plant material, the crystals irritate the gastrointestinal tract, resulting in minor signs of toxicity such as mild, self-limiting stomach upset12. Because the Peruvian Lily (Alstroemeria spp.) is considered an \"imposter lily\" and not a true lily, these crystals do not cause the acute, fatal kidney fa",
-      "name": "Oxalate crystals"
+      "concentration_notes": "The overall toxicity and potency of the Peruvian Lily are considered very mild12. Interestingly, the Peruvian Lily was listed among the top 10 cat exposure calls to the Pet Poison Helpline in 2023; this is largely because it is incredibly common in floral bouquets and the name \"lily\" causes immediate panic for cat owners.",
+      "description": "Tulipalin A (alpha-methylene-gamma-butyrolactone) and its precursor tuliposide A act as chemical irritants. When a cat chews or swallows the plant material, these compounds irritate the gastrointestinal tract, resulting in minor signs such as mild, self-limiting stomach upset. Because the Peruvian Lily (Alstroemeria spp.) is an \"imposter lily\" and not a true Lilium, it does not cause the acute, fatal kidney failure seen with Easter or Tiger lilies.",
+      "name": "Tulipalin A / Tuliposide A"
     }
   ],
-  "description": "Peruvian Lily (Alstroemeria spp.), also called Lily of the Incas, is a popular cut flower that is mildly toxic to cats. Unlike true lilies (Lilium), Alstroemeria does not cause acute kidney failure. It contains irritant compounds in the sap that cause gastrointestinal upset when ingested and contact dermatitis when the sap touches skin.",
+  "description": "Peruvian Lily (Alstroemeria spp.) is a common flower in bouquets that is only mildly irritating to cats. Because it has \"lily\" in its name, it often causes panic, but it is not a true lily and does not cause dangerous kidney failure like Easter or Tiger lilies do.\n\nThe plant contains a chemical irritant called tulipalin A (and its precursor tuliposide A) throughout its tissues. If a cat chews on the leaves or stems, this compound can irritate the mouth and upset the stomach. The sap can also cause some redness or itching if it gets directly on the skin (the same compound behind \"tulip fingers\" in florists).\n\nMost cats will only experience minor drooling, vomiting, or diarrhea that goes away on its own. While it is safer than many other plants, it is best to keep bouquets out of reach. Contact a veterinarian if your cat eats a large amount or if their stomach upset does not improve.",
   "emergencyNote": "Securing an Airway and Oxygen Support",
   "family": "Alstroemeriaceae",
   "isToxic": true,
   "name": "Peruvian Lily",
   "safetyNotes": [
-    "Toxic compounds: unidentified irritant compounds in the sap; not related to the nephrotoxic compounds in true Lilium species",
+    "Toxic compounds: tulipalin A and its precursor tuliposide A (an irritant glycoside) throughout the plant; not related to the nephrotoxic compounds in true Lilium species",
     "Mechanism: GI irritant; sap contact causes dermatitis through direct tissue irritation",
     "Symptoms: vomiting, diarrhea, drooling; skin or eye contact with sap may cause redness and irritation",
     "No kidney failure risk — a critical difference from Easter and Tiger lilies",
     "Symptoms are mild and self-limiting; contact your vet if ingestion was significant or symptoms persist"
   ],
   "scientific_name": "Alstroemeria spp.",
-  "severity": "safe",
+  "severity": "cautious",
   "symptoms": [
     {
       "body_system": "Gastrointestinal",
       "name": "Stomach upset (vomiting and/or diarrhea)",
-      "notes": "The stomach upset caused by Peruvian lilies is considered minor and self-limiting13. Because Peruvian lilies are not \"true\" lilies, they do not cause acute kidney failure, and actual poisoning is rare despite the plant's frequent appearance in floral bouquets1. 2. Minor Oral Irritation",
+      "notes": "The stomach upset caused by Peruvian lilies is considered minor and self-limiting13. Because Peruvian lilies are not \"true\" lilies, they do not cause acute kidney failure, and actual poisoning is rare despite the plant's frequent appearance in floral bouquets.",
       "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Minor signs of oral toxicity or irritation",
-      "notes": "This minor irritation is caused by the oxalate crystals present in the plant, which act as a physical irritant when the cat chews on the plant material",
+      "notes": "This minor irritation is caused by tulipalin A (and its precursor tuliposide A) present in the plant, a chemical irritant that affects the tissues when the cat chews on the plant material.",
       "onset": "Immediate to shortly after chewing the plant.",
       "severity": "mild"
     }
@@ -44,21 +44,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "The veterinarian will monitor the cat for severe tissue swelling in the throat (laryngeal edema) caused by the irritation of the crystals. If the swelling obstructs breathing, the vet will secure the airway and provide supplemental oxygen",
+      "description": "In the rare event of significant oral or throat irritation, the veterinarian will monitor the cat for tissue swelling. If swelling were to obstruct breathing, the vet will secure the airway and provide supplemental oxygen.",
       "name": "Securing an Airway and Oxygen Support",
-      "notes": "This is an emergency measure that is rarely necessary, but it is the most critical priority if severe swelling occurs4. 2. Oral Decontamination and Crystal Binding",
+      "notes": "This is an emergency measure that is rarely necessary, but it is the most critical priority if severe swelling occurs.",
       "priority": 1
     },
     {
-      "description": "The mouth is wiped out to physically remove any remaining plant material4. The oral cavity is then rinsed with water to help clear away the sharp oxalate crystals (raphides)",
+      "description": "The mouth is wiped out to physically remove any remaining plant material and irritant sap. The oral cavity is then rinsed with water to help clear away residual tulipalin A and ease irritation.",
       "name": "Removal of Plant Material and Oral Rinsing",
-      "notes": "Veterinarians may utilize milk or other calcium-containing dairy products, as the calcium binds directly to the insoluble oxalates, which helps clear them from the mouth and esophagus and eases the cat's pain4. 3. Symptomatic and Supportive Care",
+      "notes": "Rinsing the mouth and offering water helps dilute and clear the irritant sap, easing the cat's discomfort.",
       "priority": 2
     },
     {
-      "description": "The cat is observed for mild, self-limiting stomach upset, excessive drooling, or oral pain24. Basic supportive care is provided until the irritation naturally subsides",
+      "description": "The cat is observed for mild, self-limiting stomach upset, excessive drooling, or oral pain24. Basic supportive care is provided until the irritation naturally subsides.",
       "name": "General Supportive Care and Monitoring",
-      "notes": "Because Peruvian lilies only cause mild, localized irritation, there is no concern for systemic organ injury or renal failure24. Full recovery is expected, and many cats recover completely at home without requiring a clinic visit",
+      "notes": "Because Peruvian lilies only cause mild, localized irritation, there is no concern for systemic organ injury or renal failure24. Full recovery is expected, and many cats recover completely at home without requiring a clinic visit.",
       "priority": 3
     }
   ]

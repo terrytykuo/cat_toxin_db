@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "Starfruit is highly toxic to cats; even a very small amount or a single bite can cause poisoning34. Kittens (due to their smaller, developing bodies) and adult cats with pre-existing kidney issues are exceptionally vulnerable to the potency of this fruit",
-      "description": "in cats: Unlike insoluble oxalates that primarily cause localized oral irritation, the soluble calcium oxalates found in starfruit are absorbed directly into the cat's bloodstream2. Once in the blood, these compounds bind to systemic calcium, causing a sudden and dangerous drop in calcium levels (hypocalcemia)2. This process severely interferes with kidney function and can rapidly lead to acute ki",
+      "concentration_notes": "Starfruit is highly toxic to cats; even a very small amount or a single bite can cause poisoning34. Kittens (due to their smaller, developing bodies) and adult cats with pre-existing kidney issues are exceptionally vulnerable to the potency of this fruit.",
+      "description": "Unlike insoluble oxalates that primarily cause localized oral irritation, the soluble calcium oxalates found in starfruit are absorbed directly into the cat's bloodstream2. Once in the blood, these compounds bind to systemic calcium, causing a sudden and dangerous drop in calcium levels (hypocalcemia).",
       "name": "Soluble calcium oxalates"
     }
   ],
-  "description": "Starfruit (Averrhoa carambola) is severely toxic to cats and dogs, though most research has focused on cats and humans with kidney disease. It contains caramboxin — a neurotoxic compound that inhibits glutamate decarboxylase — and very high oxalate concentrations that cause kidney injury. Even small amounts can be life-threatening.",
+  "description": "Starfruit (Averrhoa carambola) is extremely toxic to cats and must be kept away from them at all times. The entire fruit, including the flesh and juice, contains dangerous compounds that can cause severe and rapid-onset illness, even in very small amounts.\n\nThe fruit contains high levels of soluble calcium oxalates and a neurotoxin called caramboxin. When a cat eats starfruit, the soluble oxalates are absorbed into the bloodstream, where they bind to calcium. This causes a sudden, dangerous drop in the body's calcium levels and leads to the formation of crystals that cause severe, acute kidney failure. The caramboxin can also cause serious neurological symptoms.\n\nAny amount of starfruit ingestion is a medical emergency. Symptoms can appear quickly and include vomiting, drooling, weakness, tremors, changes in thirst or urination, and seizures. If you suspect your cat has eaten even a tiny piece of starfruit, please contact a veterinarian or an emergency animal hospital immediately.",
   "emergencyNote": "Emesis Induction",
   "family": "Oxalidaceae",
   "isToxic": true,
@@ -27,28 +27,28 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, drooling, and loss of appetite",
-      "notes": "These are typical early signs of starfruit poisoning that alert an owner to toxicity before more severe systemic issues become obvious1. 2. Increased Thirst, Dehydration, Bloody Urine, and Kidney Failure",
+      "notes": "These are typical early signs of starfruit poisoning that alert an owner to toxicity before more severe systemic issues become obvious.",
       "onset": "Within a few hours",
       "severity": "severe"
     },
     {
       "body_system": "Renal",
       "name": "Increased thirst and urination, dehydration, bloody urine, and eventually reduced urine output or a complete inability to urinate",
-      "notes": "The soluble calcium oxalates in starfruit are absorbed into the bloodstream and severely interfere with kidney function, rapidly leading to acute kidney injury or fatal renal failure if not treated promptly1.... Extreme lethargy and an inability to urinate are signs of late-stage kidney failure1. 3.",
+      "notes": "The soluble calcium oxalates in starfruit are absorbed into the bloodstream and severely interfere with kidney function, rapidly leading to acute kidney injury or fatal renal failure if not treated promptly1. Extreme lethargy and an inability to urinate are signs of late-stage kidney failure1. 3.",
       "onset": "Within a few hours",
       "severity": "fatal"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Lethargy and weakness",
-      "notes": "Lethargy can present as an early symptom of toxicosis and will progress to extreme lethargy as the cat experiences severe kidney failure1. 4. Seizures",
+      "notes": "Lethargy can present as an early symptom of toxicosis and will progress to extreme lethargy as the cat experiences severe kidney failure.",
       "onset": "Within a few hours",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Seizures",
-      "notes": "Seizures can occur as a severe systemic reaction to the toxicity, driven by hypocalcemia (a dangerous drop in blood calcium levels) which happens when the soluble oxalates bind to calcium in the cat's bloodstream",
+      "notes": "Seizures can occur as a severe systemic reaction to the toxicity, driven by hypocalcemia (a dangerous drop in blood calcium levels) which happens when the soluble oxalates bind to calcium in the cat's bloodstream.",
       "onset": "Within a few hours",
       "severity": "severe"
     }
@@ -60,21 +60,21 @@
   "toxicityLevel": "severe",
   "treatments": [
     {
-      "description": "The veterinarian will medically induce vomiting to empty the cat's stomach and remove the starfruit before the toxins can be fully digested and absorbed into the body",
+      "description": "The veterinarian will medically induce vomiting to empty the cat's stomach and remove the starfruit before the toxins can be fully digested and absorbed into the body.",
       "name": "Emesis Induction",
-      "notes": "This treatment is highly time-sensitive and is typically only performed if the ingestion was recent2. You should never attempt to induce vomiting at home unless explicitly instructed to do so by a vet. 2. Toxin Binding",
+      "notes": "This treatment is highly time-sensitive and is typically only performed if the ingestion was recent2. You should never attempt to induce vomiting at home unless explicitly instructed to do so by a vet.",
       "priority": 1
     },
     {
-      "description": "Following emesis, the veterinarian will administer a dose of activated charcoal to bind to and absorb any remaining toxins left in the gastrointestinal tract",
+      "description": "Following emesis, the veterinarian will administer a dose of activated charcoal to bind to and absorb any remaining toxins left in the gastrointestinal tract.",
       "name": "Activated Charcoal Administration",
-      "notes": "This step is crucial for preventing the highly toxic soluble calcium oxalates from crossing the intestinal lining and entering the cat's bloodstream2. 3. Renal Protection and Stabilization",
+      "notes": "This step is crucial for preventing the highly toxic soluble calcium oxalates from crossing the intestinal lining and entering the cat's bloodstream.",
       "priority": 2
     },
     {
-      "description": "The veterinary team will admit the cat to administer IV fluids, which helps protect the kidneys by flushing the system, while also monitoring and stabilizing the cat's overall condition",
+      "description": "The veterinary team will admit the cat to administer IV fluids, which helps protect the kidneys by flushing the system, while also monitoring and stabilizing the cat's overall condition.",
       "name": "Intravenous (IV) Fluid Therapy and Supportive Care",
-      "notes": "This ongoing supportive care is essential because the soluble oxalates in starfruit bind to systemic calcium, causing a sudden and dangerous drop in blood calcium levels (hypocalcemia)13. If not aggressively managed with fluid therapy and supportive care, this process can quickly lead to irreversibl",
+      "notes": "This ongoing supportive care is essential because the soluble oxalates in starfruit bind to systemic calcium, causing a sudden and dangerous drop in blood calcium levels (hypocalcemia).",
       "priority": 3
     }
   ]

@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "These crystals are distributed throughout all parts of the Monstera plant, and the toxicity is generally classified as \"moderate\"12. Because the intense burning and pain are immediate upon chewing, it typically stops the cat from consuming a large amount of the plant35. Consequently, ingestion is rarely fatal, though in severe cases, the resulting inflammatory swelling in the mouth and throat can ",
-      "description": "in cats: These needle-like crystals are bundled inside specialized plant cells known as idioblasts34. When a cat bites, chews, or crushes the plant material, these cells are ruptured and the sharp crystals are forcefully ejected into the cat's oral mucosa and surrounding tissues34. Instead of a systemic chemical poisoning, this acts as a severe mechanical irritant, causing immediate physical traum",
+      "concentration_notes": "These crystals are distributed throughout all parts of the Monstera plant, and the toxicity is generally classified as \"moderate\"12. Because the intense burning and pain are immediate upon chewing, it typically stops the cat from consuming a large amount of the plant.",
+      "description": "These needle-like crystals are bundled inside specialized plant cells known as idioblasts34. When a cat bites, chews, or crushes the plant material, these cells are ruptured and the sharp crystals are forcefully ejected into the cat's oral mucosa and surrounding tissues.",
       "name": "Insoluble calcium oxalate crystals (specifically in the form of needle-like crystals known as raphides)"
     }
   ],
-  "description": "Monstera (Monstera deliciosa and M. adansonii), commonly called Swiss Cheese Plant or Split-Leaf Philodendron, is a popular tropical houseplant toxic to cats. As a member of the Araceae family, it contains insoluble calcium oxalate crystals (raphides) packed throughout its leaves and stems. Chewing the plant releases these needle-like crystals into the oral mucosa, causing immediate intense pain.",
+  "description": "Monstera (Monstera deliciosa and M. adansonii), often called the Swiss Cheese Plant, is a popular houseplant that is toxic to cats. It contains tiny, needle-shaped crystals called insoluble calcium oxalates. These crystals act like tiny shards of glass rather than a chemical poison.\n\nWhen a cat bites the leaves or stems, these sharp crystals are shot into the mouth and throat. This causes immediate, intense burning and pain. Because it hurts so much right away, most cats stop eating the plant before they swallow a dangerous amount. However, the swelling can sometimes make it difficult for the cat to swallow or breathe.\n\nA cat that has chewed on a Monstera will usually drool heavily, paw at its mouth, and may have swollen lips or a swollen tongue. You can try rinsing the mouth with water, but if your cat is having trouble breathing or the swelling is severe, please contact a veterinarian or an emergency animal hospital immediately.",
   "emergencyNote": "Airway Management and Oxygen Therapy",
   "family": "Araceae",
   "isToxic": true,
@@ -27,28 +27,28 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Intense burning and irritation of the mouth, accompanied by crying out in pain",
-      "notes": "This immediate pain is caused mechanically rather than chemically. When the cat bites the plant, specialized cells forcefully eject needle-like, insoluble calcium oxalate crystals directly into the cat's oral mucosa3. 2. Drooling (Hypersalivation)",
+      "notes": "This immediate pain is caused mechanically rather than chemically. When the cat bites the plant, specialized cells forcefully eject needle-like, insoluble calcium oxalate crystals directly into the cat's oral mucosa.",
       "onset": "Immediate (upon chewing or biting)",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Excessive drooling or hypersalivation",
-      "notes": "This is a localized reaction to the physical trauma and intense burning sensation occurring in the mouth3. 3. Swelling of the Mouth and Throat",
+      "notes": "This is a localized reaction to the physical trauma and intense burning sensation occurring in the mouth.",
       "onset": "Immediate (upon chewing or biting)",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Swelling of the mouth and tongue, leading to difficulty swallowing",
-      "notes": "The trauma from the calcium oxalate crystals causes an inflammatory response in the tissues3. While Monstera ingestion is rarely fatal, in severe cases, the swelling in the mouth and throat can become significant enough to obstruct the cat's airway3. 4. Vomiting",
+      "notes": "The trauma from the calcium oxalate crystals causes an inflammatory response in the tissues3. While Monstera ingestion is rarely fatal, in severe cases, the swelling in the mouth and throat can become significant enough to obstruct the cat's airway.",
       "onset": "Immediate",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting",
-      "notes": "If the cat manages to swallow the plant material despite the immediate mouth pain, the sharp crystals will continue to severely irritate the rest of the gastrointestinal tract, triggering vomiting",
+      "notes": "If the cat manages to swallow the plant material despite the immediate mouth pain, the sharp crystals will continue to severely irritate the rest of the gastrointestinal tract, triggering vomiting.",
       "onset": "Shortly after ingestion (typically follows the initial oral irritation if swallowed).",
       "severity": "moderate"
     }
@@ -59,21 +59,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "The veterinarian will act quickly to secure an open airway for the cat to breathe and may administer supplemental oxygen",
+      "description": "The veterinarian will act quickly to secure an open airway for the cat to breathe and may administer supplemental oxygen.",
       "name": "Airway Management and Oxygen Therapy",
-      "notes": "This is the most urgent, life-saving intervention, but it is typically only necessary in rare, severe cases45. It is required if the physical trauma from the sharp calcium oxalate crystals triggers an extreme inflammatory response, causing the cat's mouth, tongue, and throat (laryngeal edema) to swe",
+      "notes": "This is the most urgent, life-saving intervention, but it is typically only necessary in rare, severe cases.",
       "priority": 1
     },
     {
-      "description": "Any remaining plant material is physically removed from the cat's mouth, and the oral cavity is thoroughly rinsed or wiped out with cool water1.... Additionally, the vet (or the owner at home) may offer a small amount of milk, yogurt, or other calcium-containing dairy products; the calcium binds to the insoluble oxalate crystals, which helps clear them from the mouth and esophagus while soothing t",
+      "description": "Any remaining plant material is physically removed from the cat's mouth, and the oral cavity is thoroughly rinsed or wiped out with cool water.",
       "name": "Oral Decontamination, Rinsing, and Calcium Binding",
-      "notes": "This is the immediate first line of defense to stop the intense burning and pain4. Most cases of Monstera exposure have an excellent prognosis and resolve fully with this simple decontamination, often without needing further veterinary intervention4. 3. Symptomatic and Supportive Care",
+      "notes": "This is the immediate first line of defense to stop the intense burning and pain4. Most cases of Monstera exposure have an excellent prognosis and resolve fully with this simple decontamination, often without needing further veterinary intervention.",
       "priority": 2
     },
     {
-      "description": "The veterinarian will administer specific medications to relieve the intense oral and gastrointestinal pain, as well as anti-nausea drugs to stop ongoing vomiting",
+      "description": "The veterinarian will administer specific medications to relieve the intense oral and gastrointestinal pain, as well as anti-nausea drugs to stop ongoing vomiting.",
       "name": "Pain Relief and Anti-Nausea Medication (Antiemetics)",
-      "notes": "This supportive medical care is recommended if the cat remains highly distressed, experiences significant ongoing symptoms, or refuses to eat and drink after a short time due to the lingering pain",
+      "notes": "This supportive medical care is recommended if the cat remains highly distressed, experiences significant ongoing symptoms, or refuses to eat and drink after a short time due to the lingering pain.",
       "priority": 3
     }
   ]

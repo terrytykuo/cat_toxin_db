@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "Oleander is considered to be among the absolute most toxic plants that contain cardiac glycosides and possesses an extremely narrow margin of safety46. All parts of the plant are highly poisonous, and the toxins are so potent and concentrated that even drinking a small amount of the water from a vase or plant base holding oleander can cause severe toxicity1.... There is no safe level of ingestion ",
-      "description": "in cats: Cardiac glycosides directly interfere with the heart’s electrical system and muscle contractions12. They do this by inhibiting the Na + /K + -ATPase pump within the cells34. This inhibition leads to an accumulation of intracellular sodium and extracellular potassium, which subsequently causes a rapid increase in intracellular calcium34. This severe disruption of normal electrical conducti",
+      "concentration_notes": "Oleander is considered to be among the absolute most toxic plants that contain cardiac glycosides and possesses an extremely narrow margin of safety46. All parts of the plant are highly poisonous, and the toxins are so potent and concentrated that even drinking a small amount of the water from a vase or plant base holding oleander can cause severe toxicity1. There is no safe level of ingestion.",
+      "description": "Cardiac glycosides directly interfere with the heart’s electrical system and muscle contractions12. They do this by inhibiting the Na + /K + -ATPase pump within the cells34. This inhibition leads to an accumulation of intracellular sodium and extracellular potassium, which subsequently causes a rapid increase in intracellular calcium.",
       "name": "Cardiac glycosides, specifically a type of cardenolide known as oleandrin"
     }
   ],
-  "description": "Oleander (Nerium oleander) is one of the most acutely toxic ornamental plants for cats. Every part — leaves, flowers, stems, roots, and even dried plant material — contains potent cardenolide cardiac glycosides, primarily oleandrin and neriine. These compounds are similar to digoxin in their mechanism and are toxic in extremely small quantities.",
+  "description": "Oleander (Nerium oleander) is an extremely dangerous and highly toxic plant for cats. Every single part of the plant is poisonous, including the leaves, flowers, stems, roots, and even dried pieces. The water in a vase holding oleander can also become toxic.\n\nThe plant contains powerful chemicals called cardiac glycosides, such as oleandrin. These chemicals directly attack the heart's electrical system and muscle movements. Even a tiny amount, like a single leaf, can cause life-threatening heart problems for a cat.\n\nSymptoms can appear quickly and include drooling, vomiting, diarrhea, weakness, and severe breathing or heart issues. Because there is no safe amount of oleander, any exposure is highly dangerous. If you suspect your cat has chewed on or eaten any part of an oleander plant, please contact a veterinarian or an emergency animal hospital immediately—do not wait for symptoms to show.",
   "emergencyNote": "Induction of Emesis (Vomiting) and Repeated Activated Charcoal",
   "family": "Apocynaceae",
   "isToxic": true,
@@ -27,28 +27,28 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Drooling (hypersalivation), nausea, vomiting, diarrhea, and abdominal pain",
-      "notes": "These stomach upsets and oral irritations are typically the first signs of poisoning to appear prior to the onset of severe heart abnormalities4. 2. Cardiac Abnormalities and Hypotension",
+      "notes": "These stomach upsets and oral irritations are typically the first signs of poisoning to appear prior to the onset of severe heart abnormalities.",
       "onset": "Rapidly, usually within the first 2 hours after exposure,",
       "severity": "severe"
     },
     {
       "body_system": "Cardiac",
       "name": "Irregular heart rhythms (arrhythmias), abnormally slow heart rate (bradycardia) or fast heart rate (tachycardia), and low blood pressure (hypotension)",
-      "notes": "Cardiac glycosides (like oleandrin) inhibit the Na + /K + -ATPase pump, resulting in forceful yet slower cardiac contractions5. This disruption can also lead to hyperkalemia (high potassium) and can quickly progress to cardiovascular collapse and death if untreated3.... 3. Neurological Impairment (L",
+      "notes": "Cardiac glycosides (like oleandrin) inhibit the Na + /K + -ATPase pump, resulting in forceful yet slower cardiac contractions5. This disruption can also lead to hyperkalemia (high potassium) and can quickly progress to cardiovascular collapse and death if untreated.",
       "onset": "Within the first 2 hours after exposure,",
       "severity": "fatal"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Lethargy, profound weakness, drowsiness, muscle tremors, seizures, and a lack of consciousness",
-      "notes": "These severe neurological signs escalate as the toxins further depress and disrupt the cat's normal physiological functions and cardiovascular output16. 4. Respiratory Distress",
+      "notes": "These severe neurological signs escalate as the toxins further depress and disrupt the cat's normal physiological functions and cardiovascular output.",
       "onset": "Manifests quickly, within the first 2 hours as the systemic toxicity progresses15. • Any additional",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Difficulty breathing and respiratory changes",
-      "notes": "Respiratory difficulty often occurs in tandem with severe cardiovascular and neurological decline",
+      "notes": "Respiratory difficulty often occurs in tandem with severe cardiovascular and neurological decline.",
       "onset": "Manifests rapidly as the toxicity progresses1. • Any additional",
       "severity": "severe"
     }
@@ -62,25 +62,25 @@
     {
       "description": "If the cat is asymptomatic and the ingestion was recent, the veterinarian will medically induce vomiting to remove the plant material from the stomach1. This is followed by administering an antiemetic and a dose of activated charcoal with a cathartic (to bind the toxins and speed their exit through the digestive tract)",
       "name": "Induction of Emesis (Vomiting) and Repeated Activated Charcoal",
-      "notes": "Because cardiac glycosides undergo enterohepatic recirculation (meaning the toxins are repeatedly reabsorbed by the liver and intestines), the activated charcoal treatment must be repeated every 6 to 8 hours for a total of 3 doses (with the subsequent doses given without a cathartic)1. 2. Antidote A",
+      "notes": "Because cardiac glycosides undergo enterohepatic recirculation (meaning the toxins are repeatedly reabsorbed by the liver and intestines), the activated charcoal treatment must be repeated every 6 to 8 hours for a total of 3 doses (with the subsequent doses given without a cathartic)",
       "priority": 1
     },
     {
-      "description": "The veterinarian administers this specific antidote, which binds directly to the cardiac glycosides circulating in the bloodstream, neutralizing them so they can no longer affect the heart",
+      "description": "The veterinarian administers this specific antidote, which binds directly to the cardiac glycosides circulating in the bloodstream, neutralizing them so they can no longer affect the heart.",
       "name": "Digoxin-Specific Antibody Fragments (Fab)",
-      "notes": "Because the toxins in Oleander are structurally similar to the cardiac drug digoxin, this specific antidote is highly effective for Oleander poisoning1. Patients that develop severe signs of toxicosis but have access to this antidote have a guarded to good prognosis1. 3. Cardiovascular Support and A",
+      "notes": "Because the toxins in Oleander are structurally similar to the cardiac drug digoxin, this specific antidote is highly effective for Oleander poisoning1. Patients that develop severe signs of toxicosis but have access to this antidote have a guarded to good prognosis.",
       "priority": 2
     },
     {
-      "description": "IV fluids are administered to provide hemodynamic support and maintain blood pressure1. Specific medications are used to correct the life-threatening heart conditions caused by the poison: atropine or glycopyrrolate is administered to treat an abnormally slow heart rate (bradycardia), and antiarrhythmics like lidocaine are used to manage irregular heart rhythms",
+      "description": "IV fluids are administered to provide hemodynamic support and maintain blood pressure1. Specific medications are used to correct the life-threatening heart conditions caused by the poison: atropine or glycopyrrolate is administered to treat an abnormally slow heart rate (bradycardia), and antiarrhythmics like lidocaine are used to manage irregular heart rhythms.",
       "name": "Intravenous (IV) Fluid Therapy and Cardiac Medications",
-      "notes": "Antiarrhythmic drugs are particularly critical to utilize if the specific Digoxin Immune Fab antidote is unavailable1. 4. Electrolyte Monitoring and Correction",
+      "notes": "Antiarrhythmic drugs are particularly critical to utilize if the specific Digoxin Immune Fab antidote is unavailable.",
       "priority": 3
     },
     {
-      "description": "Oleander toxins cause an accumulation of extracellular potassium, so the cat's electrolytes must be closely monitored. Mild high potassium (hyperkalemia) can be managed with standard IV fluids, while severe hyperkalemia (> 7.5–9 mEq/L) requires active correction using sodium bicarbonate or a dextrose and insulin treatment",
+      "description": "Oleander toxins cause an accumulation of extracellular potassium, so the cat's electrolytes must be closely monitored. Mild high potassium (hyperkalemia) can be managed with standard IV fluids, while severe hyperkalemia (> 7.5–9 mEq/L) requires active correction using sodium bicarbonate or a dextrose and insulin treatment.",
       "name": "Hyperkalemia Management",
-      "notes": "Correcting this electrolyte imbalance is vital, as severe hyperkalemia directly contributes to the fatal cardiac arrhythmias associated with cardiac glycoside poisoning",
+      "notes": "Correcting this electrolyte imbalance is vital, as severe hyperkalemia directly contributes to the fatal cardiac arrhythmias associated with cardiac glycoside poisoning.",
       "priority": 4
     }
   ]

@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "The toxic crystals are found in all parts of the Swiss Cheese Vine1. The plant's overall toxicity level is considered \"moderate\"1. Because chewing the plant causes such immediate and intense pain, cats are usually deterred from consuming large, life-threatening amounts2. Furthermore, unlike the soluble oxalates found in plants like starfruit or rhubarb, these insoluble crystals are not absorbed sy",
-      "description": "in cats: These microscopic, needle-shaped crystals are bundled together within specialized plant cells known as idioblasts23. When a cat bites or chews on the plant, these cells rupture and forcefully eject the sharp crystals directly into the cat's oral mucosa and surrounding tissues23. This acts as a severe mechanical irritant, causing immediate physical trauma, intense burning and pain, swellin",
+      "concentration_notes": "The toxic crystals are found in all parts of the Swiss Cheese Vine1. The plant's overall toxicity level is considered \"moderate\"1. Because chewing the plant causes such immediate and intense pain, cats are usually deterred from consuming large, life-threatening amounts.",
+      "description": "These microscopic, needle-shaped crystals are bundled together within specialized plant cells known as idioblasts23. When a cat bites or chews on the plant, these cells rupture and forcefully eject the sharp crystals directly into the cat's oral mucosa and surrounding tissues.",
       "name": "Insoluble calcium oxalate crystals (specifically in the form of needle-like structures called raphides)"
     }
   ],
-  "description": "Swiss Cheese Vine (Monstera adansonii), named for the distinctive holes in its leaves, is toxic to cats. As a member of the Araceae family (the same as Pothos, Philodendron, and Dieffenbachia), it contains insoluble calcium oxalate crystals (raphides) throughout its leaves and stems. Chewing causes immediate intense oral pain.",
+  "description": "The Swiss Cheese Vine (Monstera adansonii) is a popular houseplant that is toxic to cats. All parts of the plant contain microscopic, needle-shaped crystals called insoluble calcium oxalates. These crystals are designed to be a defense mechanism for the plant.\n\nWhen a cat bites or chews on a leaf or stem, these sharp crystals shoot into the sensitive tissues of the cat's mouth, tongue, and throat. This causes immediate and intense pain, similar to biting into tiny shards of glass. It is a physical injury, not a chemical poisoning, and it usually stops cats from eating a large amount.\n\nSigns of exposure include intense drooling, pawing at the mouth, vocalizing in pain, and swelling of the mouth and lips. This swelling can sometimes make it difficult to swallow. If your cat chews on this plant, gently rinse its mouth with water and contact your veterinarian, especially if you notice any difficulty swallowing or breathing.",
   "emergencyNote": "Airway Management and Oxygen Therapy",
   "family": "Araceae",
   "isToxic": true,
@@ -27,35 +27,35 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Oral burning, tissue irritation, and crying out in pain",
-      "notes": "When the cat bites the plant, specialized cells forcefully eject needle-like calcium oxalate crystals directly into the cat's oral tissue, causing immediate and intense physical trauma and burning12. 2. Excessive Drooling and Pawing at the Mouth",
+      "notes": "When the cat bites the plant, specialized cells forcefully eject needle-like calcium oxalate crystals directly into the cat's oral tissue, causing immediate and intense physical trauma and burning.",
       "onset": "Immediate.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Excessive drooling (hypersalivation) and pawing at the mouth",
-      "notes": "Drooling and pawing at the face are direct, immediate reactions to the severe irritation and pain caused by the embedded crystals1.... 3. Swelling and Difficulty Swallowing",
+      "notes": "Drooling and pawing at the face are direct, immediate reactions to the severe irritation and pain caused by the embedded crystals.",
       "onset": "Immediate.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Swelling of the mouth, tongue, and throat (edema), leading to difficulty swallowing",
-      "notes": "The body's inflammatory response to the sharp crystals causes significant swelling. While this type of poisoning is rarely fatal, severe swelling in the throat (laryngeal edema) can potentially obstruct the cat's airway and cause dangerous respiratory distress1.... 4. Vomiting",
+      "notes": "The body's inflammatory response to the sharp crystals causes significant swelling. While this type of poisoning is rarely fatal, severe swelling in the throat (laryngeal edema) can potentially obstruct the cat's airway and cause dangerous respiratory distress.",
       "onset": "Immediate to shortly after exposure.",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting",
-      "notes": "If the cat swallows the plant material despite the initial mouth pain, the crystals will continue to irritate the stomach and gastrointestinal tract, triggering vomiting12. 5. Reluctance to Eat (Anorexia)",
+      "notes": "If the cat swallows the plant material despite the initial mouth pain, the crystals will continue to irritate the stomach and gastrointestinal tract, triggering vomiting.",
       "onset": "Shortly after ingestion.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Anorexia or reluctance to eat",
-      "notes": "Cats will often refuse food and water because their mouth and throat are swollen and in pain4. Offering something cool, like water or a bit of yogurt, can help soothe the mouth, and rinsing the mouth with water can help remove the irritants",
+      "notes": "Cats will often refuse food and water because their mouth and throat are swollen and in pain4. Offering something cool, like water or a bit of yogurt, can help soothe the mouth, and rinsing the mouth with water can help remove the irritants.",
       "onset": "Shortly after exposure.",
       "severity": "moderate"
     }
@@ -69,25 +69,25 @@
     {
       "description": "The veterinary team will establish an open airway for the cat and provide supplemental oxygen.",
       "name": "Airway Management and Oxygen Therapy",
-      "notes": "This is the most urgent, life-saving intervention, but it is only required in severe cases. The intense inflammatory response caused by the sharp crystals can occasionally cause severe swelling in the throat (laryngeal edema), which can dangerously obstruct the cat's ability to breathe23. 2. Oral De",
+      "notes": "This is the most urgent, life-saving intervention, but it is only required in severe cases. The intense inflammatory response caused by the sharp crystals can occasionally cause severe swelling in the throat (laryngeal edema), which can dangerously obstruct the cat's ability to breathe.",
       "priority": 1
     },
     {
-      "description": "The veterinarian (or the owner at home immediately after exposure) will gently remove any chewed plant pieces from the cat's mouth and thoroughly rinse or wipe out the oral cavity with water or a wet cloth",
+      "description": "The veterinarian (or the owner at home immediately after exposure) will gently remove any chewed plant pieces from the cat's mouth and thoroughly rinse or wipe out the oral cavity with water or a wet cloth.",
       "name": "Oral Decontamination",
-      "notes": "This step is critical to physically flush out the sharp raphide crystals embedded in the oral tissues, which prevents further mechanical irritation and intense burning3. 3. Toxin Binding and Soothing",
+      "notes": "This step is critical to physically flush out the sharp raphide crystals embedded in the oral tissues, which prevents further mechanical irritation and intense burning.",
       "priority": 2
     },
     {
-      "description": "The cat is offered small amounts of milk, yogurt, or other calcium-rich dairy products",
+      "description": "The cat is offered small amounts of milk, yogurt, or other calcium-rich dairy products.",
       "name": "Administration of Calcium-Containing Dairy",
-      "notes": "The insoluble oxalate crystals bind to the calcium found in the dairy products. This reaction helps to efficiently clear the remaining crystals from the cat's mouth and esophagus while also soothing the intense pain and irritation3. 4. Symptomatic and Supportive Care",
+      "notes": "The insoluble oxalate crystals bind to the calcium found in the dairy products. This reaction helps to efficiently clear the remaining crystals from the cat's mouth and esophagus while also soothing the intense pain and irritation.",
       "priority": 3
     },
     {
       "description": "The veterinarian may administer medications to alleviate pain, anti-emetics to stop any ongoing vomiting, and intravenous (IV) fluids to maintain hydration.",
       "name": "Symptomatic Treatment and Fluid Therapy",
-      "notes": "Most cats fully recover from this type of exposure without long-term issues3. However, supportive care is highly recommended if the cat experiences persistent vomiting or if the severe mouth pain causes the cat to completely refuse food and water",
+      "notes": "Most cats fully recover from this type of exposure without long-term issues3. However, supportive care is highly recommended if the cat experiences persistent vomiting or if the severe mouth pain causes the cat to completely refuse food and water.",
       "priority": 4
     }
   ]

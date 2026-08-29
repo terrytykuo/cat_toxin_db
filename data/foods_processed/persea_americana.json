@@ -5,13 +5,13 @@
     {
       "name": "Persin (a fungicidal toxin)",
       "chemical_formula": "Not explicitly provided in the sources.",
-      "description": "in cats: ◦ Gastrointestinal Irritation: Persin acts as an irritant to the cat's gastrointestinal tract, commonly causing vomiting and diarrhea. ◦ Systemic Effects: While cats are more resistant to persin than birds or ruminants, significant ingestion can potentially lead to more severe signs, including damage to the heart muscle, respiratory distress (labored breathing), and fluid accumulation (co",
-      "concentration_notes": "◦ Concentration: The toxin is present in all parts of the plant but is most concentrated in the leaves, bark, skin (peel), and pit (seed). The edible flesh contains low levels of persin. ◦ Potency: Cats are considered less sensitive to persin than other species (like birds, for whom it is deadly). Small amounts of flesh usually cause only mild upset, but ingestion of the skin or leaves poses a hig"
+      "description": "◦ Gastrointestinal Irritation: Persin acts as an irritant to the cat's gastrointestinal tract, commonly causing vomiting and diarrhea.",
+      "concentration_notes": "◦ Concentration: The toxin is present in all parts of the plant but is most concentrated in the leaves, bark, skin (peel), and pit (seed). The edible flesh contains low levels of persin. ◦ Potency: Cats are considered less sensitive to persin than other species (like birds, for whom it is deadly)."
     },
     {
       "name": "Lipids (Fatty Acids)",
       "chemical_formula": null,
-      "description": "in cats: ◦ Pancreatic Inflammation: The feline digestive system is not designed to handle the extremely high fat content found in avocados. Ingesting large amounts can trigger pancreatitis (inflammation of the pancreas), a painful and potentially life-threatening condition that interferes with digestion and blood sugar regulation. 4. Notes on",
+      "description": "◦ Pancreatic Inflammation: The feline digestive system is not designed to handle the extremely high fat content found in avocados. Ingesting large amounts can trigger pancreatitis (inflammation of the pancreas), a painful and potentially life-threatening condition that interferes with digestion and blood sugar regulation.",
       "concentration_notes": "◦ Concentration: The flesh and oil of the avocado are very high in fat. ◦ Potency: Even if the persin content in the flesh is low, the high fat content alone makes the fruit and oil unsafe for cats, capable of causing severe gastrointestinal distress and inflammation."
     }
   ],
@@ -25,7 +25,7 @@
     {
       "name": "Decontamination (Emesis and Activated Charcoal)",
       "description": "The veterinarian may induce vomiting (emesis) using prescription medications (like xylazine or apomorphine) to expel the plant material. This is often followed by the administration of activated charcoal to bind any remaining toxins in the gut and prevent absorption.",
-      "notes": "This is typically performed if the ingestion was recent (within a few hours) and the cat is not showing symptoms that make vomiting dangerous (like respiratory distress). It is crucial for removing the toxin persin and high-fat content before they are fully absorbed. Note: Owners should never induce",
+      "notes": "This is typically performed if the ingestion was recent (within a few hours) and the cat is not showing symptoms that make vomiting dangerous (like respiratory distress). It is crucial for removing the toxin persin and high-fat content before they are fully absorbed.",
       "priority": 2
     },
     {
@@ -37,7 +37,7 @@
     {
       "name": "Symptomatic Management (Medications)",
       "description": "The use of specific medications such as antiemetics (to stop vomiting), antidiarrheals, gastroprotectants (to soothe the stomach lining), and analgesics (pain relief).",
-      "notes": "Since persin acts as a gastrointestinal irritant and the high fat content can cause painful pancreatitis, controlling nausea and pain is vital for recovery. In rare severe cases involving respiratory distress or cardiac issues (associated with persin), oxygen therapy or cardiac monitoring may also b",
+      "notes": "Since persin acts as a gastrointestinal irritant and the high fat content can cause painful pancreatitis, controlling nausea and pain is vital for recovery.",
       "priority": 4
     }
   ],
@@ -62,20 +62,20 @@
     {
       "severity": "moderate",
       "name": "Vomiting, Diarrhea, and Abdominal Discomfort",
-      "notes": "Persin acts as a gastrointestinal irritant. Even small amounts of the fruit flesh can cause stomach upset, but the leaves, bark, skin, and pit contain higher concentrations of the toxin.Pancreatitis",
+      "notes": "Persin acts as a gastrointestinal irritant. Even small amounts of the fruit flesh can cause stomach upset, but the leaves, bark, skin, and pit contain higher concentrations of the toxin.",
       "onset": "Clinical signs may be evident within 24 hours (usually after 12 hours).",
       "body_system": "Gastrointestinal"
     },
     {
       "severity": "severe",
       "name": "Pancreatitis (Inflammation of the Pancreas)",
-      "notes": "This is triggered by the high dietary fat content in the avocado flesh and oil rather than the persin toxin itself. It can lead to dehydration, abdominal swelling, and organ damage.Respiratory and Cardiac Distress",
+      "notes": "This is triggered by the high dietary fat content in the avocado flesh and oil rather than the persin toxin itself. It can lead to dehydration, abdominal swelling, and organ damage.",
       "onset": "Variable; symptoms like abdominal pain and vomiting often appear within 24–72 hours after ingesting",
       "body_system": "Gastrointestinal"
     },
     {
       "body_system": "Respiratory",
-      "notes": "In severe cases, persin toxicity can cause damage to heart muscle fibers, leading to fluid accumulation around the heart (hydropericardium) and in the lungs (pulmonary congestion). While cats are less sensitive to this than birds, it is a documented risk for dogs and cats in high doses.Foreign Body",
+      "notes": "In severe cases, persin toxicity can cause damage to heart muscle fibers, leading to fluid accumulation around the heart (hydropericardium) and in the lungs (pulmonary congestion). While cats are less sensitive to this than birds, it is a documented risk for dogs and cats in high doses.",
       "onset": "12–24 hours after ingestion.",
       "name": "Labored Breathing (Dyspnea), Coughing, and Fluid Accumulation (Edema/Congestion)",
       "severity": "fatal"
@@ -84,7 +84,7 @@
       "name": "Choking or Intestinal Blockage",
       "severity": "fatal",
       "body_system": "Gastrointestinal",
-      "notes": "The large pit (seed) and thick skin pose a physical danger. If swallowed, the pit can block the esophagus, stomach, or intestines, requiring surgical removal.Lethargy and Weakness",
+      "notes": "The large pit (seed) and thick skin pose a physical danger. If swallowed, the pit can block the esophagus, stomach, or intestines, requiring surgical removal.",
       "onset": "Immediate (if choking) to days (if intestinal blockage occurs)."
     },
     {

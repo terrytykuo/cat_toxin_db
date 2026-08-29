@@ -50,7 +50,7 @@
     {
       "name": "Alk(en)yl cysteine sulfoxides (Precursors)",
       "chemical_formula": "Not provided in the sources.",
-      "description": "These are the non-toxic parent compounds sequestered inside the plant's cells213. When the plant experiences mechanical trauma\u2014such as a cat chewing the scallion or a human chopping it\u2014these precursors instantly convert into the highly reactive, cell-damaging sulfur-containing organic compounds listed above2....\nAny notes on concentration or potency: These compounds are responsible for the characteristic flavor and odor of scallions413. Because they are present throughout the plant tissue and convert to toxins instantly upon damage, no part of the scallion is safe for a cat",
+      "description": "These are the non-toxic parent compounds sequestered inside the plant's cells213. When the plant experiences mechanical trauma—such as a cat chewing the scallion or a human chopping it—these precursors instantly convert into the highly reactive, cell-damaging sulfur-containing organic compounds listed above2....\nAny notes on concentration or potency: These compounds are responsible for the characteristic flavor and odor of scallions413. Because they are present throughout the plant tissue and convert to toxins instantly upon damage, no part of the scallion is safe for a cat",
       "concentration_notes": "or potency: These compounds are responsible for the characteristic flavor and odor of scallions413. Because they are present throughout the plant tissue and convert to toxins instantly upon damage, no part of the scallion is safe for a cat"
     }
   ],
@@ -67,56 +67,56 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Within 1 day of ingestion.",
-      "notes": "These are usually the first clinical signs of toxicosis to appear4.... They are caused by direct irritation to the mouth and stomach, frequently resulting in dehydration"
+      "notes": "These are usually the first clinical signs of toxicosis to appear4. They are caused by direct irritation to the mouth and stomach, frequently resulting in dehydration."
     },
     {
       "name": "Lethargy, Weakness, and Depression",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "After a lag of several days (typically 2 to 4 days).",
-      "notes": "These signs emerge as a secondary response to systemic hypoxia caused by the profound loss of oxygen-carrying red blood cells"
+      "notes": "These signs emerge as a secondary response to systemic hypoxia caused by the profound loss of oxygen-carrying red blood cells."
     },
     {
       "name": "Pale Mucous Membranes and Jaundice (Icterus)",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "After a lag of several days.",
-      "notes": "Pale gums indicate a lack of oxygenated blood (anemia)5.... Jaundice (yellowing of the skin or mucosa) occurs due to severe red blood cell destruction leading to hyperbilirubinemia"
+      "notes": "Pale gums indicate a lack of oxygenated blood (anemia)5. Jaundice (yellowing of the skin or mucosa) occurs due to severe red blood cell destruction leading to hyperbilirubinemia."
     },
     {
       "name": "Tachypnea and Dyspnea (Breathing Difficulties)",
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "After a lag of several days.",
-      "notes": "This is a compensatory response as the cat's body attempts to offset the decreased blood oxygen transportation capacity and resulting tissue hypoxia"
+      "notes": "This is a compensatory response as the cat's body attempts to offset the decreased blood oxygen transportation capacity and resulting tissue hypoxia."
     },
     {
       "name": "Tachycardia (Rapid Heart Rate)",
       "body_system": "Cardiac",
       "severity": "severe",
       "onset": "After a lag of several days.",
-      "notes": "Tachycardia develops as the heart pumps much faster to compensate for the impaired oxygen transportation caused by the ruptured red blood cells"
+      "notes": "Tachycardia develops as the heart pumps much faster to compensate for the impaired oxygen transportation caused by the ruptured red blood cells."
     },
     {
       "name": "Hemoglobinuria (Dark Urine)",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "After a lag of several days.",
-      "notes": "This is a hallmark sign of severe oxidative hemolysis5.... Damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract59. This can lead to secondary acute kidney injury (hemoglobinuric nephrosis)"
+      "notes": "This is a hallmark sign of severe oxidative hemolysis5. Damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract59. This can lead to secondary acute kidney injury (hemoglobinuric nephrosis)"
     },
     {
       "name": "Cold Sensitivity",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Several days after ingestion.",
-      "notes": "Affected cats may have difficulty regulating body temperature as a systemic effect of the progressive anemia"
+      "notes": "Affected cats may have difficulty regulating body temperature as a systemic effect of the progressive anemia."
     },
     {
       "name": "Allium Breath Odor",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Shortly after ingestion.",
-      "notes": "While not harmful itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians"
+      "notes": "While not harmful itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians."
     }
   ],
   "treatments": [
@@ -128,33 +128,34 @@
     },
     {
       "name": "Oxygen Therapy and Blood Transfusions (Life-Saving Stabilization)",
-      "description": "of the procedure: Providing the cat with supplemental oxygen and transfusing whole blood to restore the body's depleted oxygen-carrying capacity1....\nAny situation-specific",
-      "notes": "This is the most urgent priority for severely affected cats presenting with life-threatening signs such as respiratory distress, systemic hypoxia, or profound hemolytic anemia (specifically when the hematocrit drops below 15\u201320%)",
+      "description": "of the procedure: Providing the cat with supplemental oxygen and transfusing whole blood to restore the body's depleted oxygen-carrying capacity.",
+      "notes": "This is the most urgent priority for severely affected cats presenting with life-threatening signs such as respiratory distress, systemic hypoxia, or profound hemolytic anemia (specifically when the hematocrit drops below 15–20%)",
       "priority": 2
     },
     {
       "name": "Induction of Emesis (Early Gastrointestinal Decontamination)",
-      "description": "of the procedure: Administering an emetic drug, such as dexmedetomidine (an \u03b1\n2\n\t\u200b\n\n-adrenergic agonist), via intramuscular or intravenous injection to force the cat to expel the ingested plant material before the toxins are absorbed78.\nAny situation-specific",
-      "notes": "This is highly valuable but only indicated if the ingestion was very recent (typically caught within 1 to 3 hours) and the cat is currently asymptomatic1.... Crucially, 3% hydrogen peroxide must never be used to induce vomiting in cats, as it is strictly contraindicated and can cause fatal hemorrhagic gastritis",
+      "description": "of the procedure: Administering an emetic drug, such as dexmedetomidine (an α 2 ​ -adrenergic agonist), via intramuscular or intravenous injection to force the cat to expel the ingested plant material before the toxins are absorbed.",
+      "notes": "This is highly valuable but only indicated if the ingestion was very recent (typically caught within 1 to 3 hours) and the cat is currently asymptomatic1. Crucially, 3% hydrogen peroxide must never be used to induce vomiting in cats, as it is strictly contraindicated and can cause fatal hemorrhagic gastritis.",
       "priority": 3
     },
     {
       "name": "Administration of Activated Charcoal (Secondary Decontamination)",
-      "description": "of the procedure: Administering oral activated charcoal (typically 1 to 4 g/kg) to bind to and adsorb any residual toxins remaining in the stomach and intestines1....\nAny situation-specific",
-      "notes": "This is typically administered directly after emesis to trap toxins before they can enter the bloodstream1.... However, it should be noted that its actual efficacy in binding to or preventing the production of Allium-derived sulfides is currently unknown",
+      "description": "of the procedure: Administering oral activated charcoal (typically 1 to 4 g/kg) to bind to and adsorb any residual toxins remaining in the stomach and intestines.",
+      "notes": "This is typically administered directly after emesis to trap toxins before they can enter the bloodstream1. However, it should be noted that its actual efficacy in binding to or preventing the production of Allium-derived sulfides is currently unknown.",
       "priority": 4
     },
     {
       "name": "Intravenous (IV) Fluid Therapy (Systemic Supportive Care)",
-      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to rehydrate the animal, support blood pressure, and maintain proper renal perfusion1....\nAny situation-specific",
-      "notes": "This treatment is indicated if the cat has suffered extensive fluid loss from severe vomiting and diarrhea, or presents with hypotension1.... Furthermore, it is an essential protective measure if the cat develops hemoglobinuria (dark urine caused by ruptured red blood cells clearing through the urinary tract), as IV diuresis helps protect the kidneys against secondary damage known as hemoglobinuric nephrosis",
+      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to rehydrate the animal, support blood pressure, and maintain proper renal perfusion.",
+      "notes": "This treatment is indicated if the cat has suffered extensive fluid loss from severe vomiting and diarrhea, or presents with hypotension1. Furthermore, it is an essential protective measure if the cat develops hemoglobinuria (dark urine caused by ruptured red blood cells clearing through the urinary tract), as IV diuresis helps protect the kidneys against secondary damage known as hemoglobinuric nephrosis.",
       "priority": 5
     },
     {
       "name": "Gastrointestinal and Antioxidant Medications (Symptomatic Relief)",
-      "description": "of the procedure: Administering anti-sickness/anti-nausea medications, stomach protectants, and sometimes antioxidant vitamins (C and E) or N-acetyl-cysteine1....\nAny situation-specific",
-      "notes": "GI protectants and anti-sickness medications are used to manage mild-to-moderate abdominal pain, vomiting, and diarrhea9. While antioxidants are sometimes administered in an attempt to combat the oxidative damage to red blood cells, they have shown minimal proven protective effects against Allium powder toxicosis in cats",
+      "description": "of the procedure: Administering anti-sickness/anti-nausea medications, stomach protectants, and sometimes antioxidant vitamins (C and E) or N-acetyl-cysteine.",
+      "notes": "GI protectants and anti-sickness medications are used to manage mild-to-moderate abdominal pain, vomiting, and diarrhea9. While antioxidants are sometimes administered in an attempt to combat the oxidative damage to red blood cells, they have shown minimal proven protective effects against Allium powder toxicosis in cats.",
       "priority": 6
     }
-  ]
+  ],
+  "severity": "toxic"
 }

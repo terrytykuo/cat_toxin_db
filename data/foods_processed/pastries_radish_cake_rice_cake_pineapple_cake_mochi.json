@@ -10,18 +10,18 @@
     },
     {
       "chemical_formula": "(C",
-      "concentration_notes": "or potency: The sources do not specify a toxic dose but warn that because these foods are \"mostly made of glutinous rice and high starch,\" the entire food item is fundamentally unsuitable for a cat's digestive system",
-      "description": "in cats: Traditional festive pastries are primarily formulated from glutinous rice and high amounts of starch1. Because cats are obligate carnivores, their digestive systems are not equipped to break down and metabolize heavy loads of complex carbohydrates1. Ingesting these ingredients easily leads to severe flatulence (bloating) and acute gastrointestinal discomfort1. Any notes on concentration o",
+      "concentration_notes": "or potency: The sources do not specify a toxic dose but warn that because these foods are \"mostly made of glutinous rice and high starch,\" the entire food item is fundamentally unsuitable for a cat's digestive system.",
+      "description": "Traditional festive pastries are primarily formulated from glutinous rice and high amounts of starch1. Because cats are obligate carnivores, their digestive systems are not equipped to break down and metabolize heavy loads of complex carbohydrates1. Ingesting these ingredients easily leads to severe flatulence (bloating) and acute gastrointestinal discomfort.",
       "name": "High Starch and Glutinous Rice (Complex Carbohydrates)"
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: N/A. The danger is not dose-dependent but relies entirely on the physical consistency and stickiness of the pastry",
-      "description": "in cats: Because of how items like mochi and rice cakes are prepared, they possess a highly sticky and dense texture1. Rather than chemically poisoning the cat, this presents a severe physical choking hazard1. If a cat attempts to swallow these sticky foods, they can easily become lodged in the throat or esophagus, triggering a life-threatening emergency1. Any notes on concentration or potency: N/",
+      "concentration_notes": "or potency: N/A. The danger is not dose-dependent but relies entirely on the physical consistency and stickiness of the pastry.",
+      "description": "Because of how items like mochi and rice cakes are prepared, they possess a highly sticky and dense texture1. Rather than chemically poisoning the cat, this presents a severe physical choking hazard1. If a cat attempts to swallow these sticky foods, they can easily become lodged in the throat or esophagus, triggering a life-threatening emergency1. Any notes on concentration or potency: N/",
       "name": "Highly Sticky Dough (Physical Hazard)"
     }
   ],
-  "description": "Pastries such as radish cake, rice cake, pineapple cake, and mochi are not acutely toxic to cats, but they are inappropriate foods that can cause digestive and metabolic problems. These products are high in refined carbohydrates and sugar — nutrients cats have no biological need for — and some varieties contain fillings or flavourings that may be harmful.",
+  "description": "Traditional pastries like radish cake, rice cake, pineapple cake, and mochi are not acutely poisonous, but they are highly inappropriate for cats. These festive treats are packed with high amounts of starch, sugar, and glutinous rice. Because cats are strictly meat-eaters, their digestive systems are simply not built to process heavy loads of complex carbohydrates.\n\nEating these pastries can easily lead to severe bloating, stomach cramps, and general digestive distress. Regularly feeding your cat sugary and starchy human treats will also cause weight gain and long-term blood sugar problems. Additionally, these pastries often contain hidden hazards like chocolate, excessive salt, or even toxic onion and garlic powder in savory versions.\n\nSticky products like mochi and rice cakes carry an extra physical risk. Because of their dense and chewy texture, they present a severe choking hazard. A cat could easily get a sticky piece lodged in their throat or intestines. While a tiny accidental bite is not an emergency, you should avoid giving these pastries to your cat entirely.",
   "emergencyNote": "Because the provided sources do not identify a specific chemical poison in pastries",
   "family": "Various",
   "isToxic": false,
@@ -44,14 +44,14 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Flatulence and Gastrointestinal Discomfort",
-      "notes": "These pastries are primarily made from high amounts of starch and glutinous rice12. A cat's digestive system is not well-equipped to process heavy loads of complex carbohydrates, which makes these items difficult to digest and leads to acute stomach upset and gas",
+      "notes": "These pastries are primarily made from high amounts of starch and glutinous rice12. A cat's digestive system is not well-equipped to process heavy loads of complex carbohydrates, which makes these items difficult to digest and leads to acute stomach upset and gas.",
       "onset": "Within a few hours of ingestion (as digestion begins).",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Choking / Airway Obstruction",
-      "notes": "Because of their preparation, these foods—especially mochi and rice cakes—possess a highly sticky and dense physical texture12. This stickiness presents a severe physical hazard, as the pastry can easily become lodged in the cat's throat, triggering a life-threatening emergency",
+      "notes": "Because of their preparation, these foods—especially mochi and rice cakes—possess a highly sticky and dense physical texture12. This stickiness presents a severe physical hazard, as the pastry can easily become lodged in the cat's throat, triggering a life-threatening emergency.",
       "onset": "Immediate (during the act of chewing and swallowing).",
       "severity": "fatal"
     }
@@ -70,15 +70,15 @@
       "priority": 1
     },
     {
-      "description": "of the procedure: If the sticky food mass becomes lodged in the cat's throat or creates a blockage in the digestive tract, the veterinarian must intervene immediately to clear the airway, or potentially perform surgery to safely remove the obstructing material12. Any situation-specific",
+      "description": "of the procedure: If the sticky food mass becomes lodged in the cat's throat or creates a blockage in the digestive tract, the veterinarian must intervene immediately to clear the airway, or potentially perform surgery to safely remove the obstructing material.",
       "name": "Emergency Airway Clearance / Obstruction Removal (If choking occurs)",
-      "notes": "The sources explicitly warn that the dense, highly sticky texture of these festive pastries (especially mochi and rice cakes) presents a severe choking hazard for pets, making this a hyper-acute, life-threatening emergency",
+      "notes": "The sources explicitly warn that the dense, highly sticky texture of these festive pastries (especially mochi and rice cakes) presents a severe choking hazard for pets, making this a hyper-acute, life-threatening emergency.",
       "priority": 2
     },
     {
-      "description": "of the procedure: If the cat successfully swallows the pastry but develops severe gastrointestinal distress, the veterinarian will provide symptomatic and supportive care (such as fluid therapy or anti-nausea medications) to keep the cat stable and hydrated until the inflammation and symptoms resolve13. Any situation-specific",
+      "description": "of the procedure: If the cat successfully swallows the pastry but develops severe gastrointestinal distress, the veterinarian will provide symptomatic and supportive care (such as fluid therapy or anti-nausea medications) to keep the cat stable and hydrated until the inflammation and symptoms resolve.",
       "name": "Symptomatic Gastrointestinal Support (For severe bloating and GI upset)",
-      "notes": "These pastries are primarily made from high amounts of starch and glutinous rice1. Because cats are obligate carnivores, their digestive systems are not equipped to process heavy loads of carbohydrates4. This inability to properly metabolize the ingredients routinely leads to severe flatulence (bloa",
+      "notes": "These pastries are primarily made from high amounts of starch and glutinous rice1. Because cats are obligate carnivores, their digestive systems are not equipped to process heavy loads of carbohydrates.",
       "priority": 3
     }
   ]

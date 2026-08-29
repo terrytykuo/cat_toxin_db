@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ Distribution: The toxin is found in the entire plant1. ◦ Potency: The severity of the symptoms is dose-dependent, meaning larger ingestions result in more severe irritation and clinical signs",
-      "description": "in cats: ◦ Mucosal Irritation: The toxin acts as a potent irritant to mucous membranes upon contact or ingestion. ◦ Tissue Damage: This irritation can progress to ulcerations within the mouth and gastrointestinal tract. ◦ Systemic Effects: The irritation leads to abdominal discomfort, vomiting, and diarrhea, which can subsequently cause significant fluid loss and dehydration1. 4. Notes on",
+      "concentration_notes": "◦ Distribution: The toxin is found in the entire plant1. ◦ Potency: The severity of the symptoms is dose-dependent, meaning larger ingestions result in more severe irritation and clinical signs.",
+      "description": "◦ Mucosal Irritation: The toxin acts as a potent irritant to mucous membranes upon contact or ingestion. ◦ Tissue Damage: This irritation can progress to ulcerations within the mouth and gastrointestinal tract. ◦ Systemic Effects: The irritation leads to abdominal discomfort, vomiting, and diarrhea, which can subsequently cause significant fluid loss and dehydration.",
       "name": "The specific toxic compound has yet to be identified in veterinary literature, though it is classified as a gastrointestinal toxin"
     }
   ],
-  "description": "Italian Arum (Arum italicum) is a tuberous ornamental plant toxic to cats throughout all its parts. It belongs to the Araceae family and contains insoluble calcium oxalate crystals (raphides) along with aroin — a toxic protein compound — and saponins. The bright orange-red berries are especially hazardous as they are visually attractive and contain the highest concentration of toxins.",
+  "description": "Italian Arum (Arum spp., often Arum italicum) is an ornamental plant with arrow-shaped leaves and bright berries. It is unsafe for cats because the leaves, stems, tubers, and berries can all irritate the mouth and digestive tract.\n\nThe main problem is insoluble calcium oxalate crystals. These tiny, needle-like crystals are released when a cat bites the plant. They can scratch and burn the lips, tongue, mouth, and throat. The plant may also contain other irritating compounds, and the colorful berries can be especially tempting.\n\nA cat that chews Italian arum may drool, paw at the mouth, vomit, or have trouble swallowing. Swelling in the mouth or throat can become serious. Keep the plant and loose berries away from cats, and call a veterinarian if your cat chews any part of it or shows mouth swelling, repeated vomiting, or breathing trouble.",
   "emergencyNote": "Administration of Analgesics",
   "family": "Araceae",
   "isToxic": true,
@@ -27,21 +27,21 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Mucous Membrane Irritation and Ulcerations",
-      "notes": "The toxin causes direct irritation to the tissues it touches. In severe cases or large ingestions, this irritation progresses to the formation of actual ulcers within the mouth and digestive tract.Vomiting and Diarrhea",
+      "notes": "The toxin causes direct irritation to the tissues it touches. In severe cases or large ingestions, this irritation progresses to the formation of actual ulcers within the mouth and digestive tract.",
       "onset": "Acute (The irritation is a direct contact effect).",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting and Diarrhea",
-      "notes": "These are the primary systemic signs of ingestion. The",
+      "notes": "These are the primary systemic signs of ingestion.",
       "onset": "Acute (Following the irritation of the gastric lining).",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Abdominal Pain / Discomfort",
-      "notes": "This pain results from the inflammation and irritation of the gastrointestinal tract lining caused by the plant's toxins.Dehydration",
+      "notes": "This pain results from the inflammation and irritation of the gastrointestinal tract lining caused by the plant's toxins.",
       "onset": "Acute.",
       "severity": "moderate"
     },
@@ -64,19 +64,19 @@
     {
       "description": "The veterinarian administers pain relief medication to manage the discomfort caused by the toxin.",
       "name": "Administration of Analgesics",
-      "notes": "This is necessary to treat the specific \"oral mucosal irritation and pain\" caused by the plant's toxins1. 2. Rehydration Therapy",
+      "notes": "This is necessary to treat the specific \"oral mucosal irritation and pain\" caused by the plant's toxins.",
       "priority": 1
     },
     {
       "description": "Fluids are administered (often intravenously) to restore hydration levels and balance electrolytes in the body.",
       "name": "Rehydration and Electrolyte Replacement",
-      "notes": "This treatment is required to address dehydration resulting from the severe vomiting and diarrhea associated with Italian Arum ingestion1. 3. Gastrointestinal Support",
+      "notes": "This treatment is required to address dehydration resulting from the severe vomiting and diarrhea associated with Italian Arum ingestion.",
       "priority": 2
     },
     {
       "description": "Medication is given to suppress nausea and stop persistent vomiting.",
       "name": "Antiemetics",
-      "notes": "This is used \"as needed\" to control the gastrointestinal distress and prevent further fluid loss",
+      "notes": "This is used \"as needed\" to control the gastrointestinal distress and prevent further fluid loss.",
       "priority": 3
     }
   ]

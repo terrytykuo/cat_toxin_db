@@ -10,24 +10,24 @@
     },
     {
       "chemical_formula": "H",
-      "concentration_notes": "These compounds are incredibly potent in cats. Furthermore, processing methods like drying and granulation significantly concentrate these reactive compounds, making powdered and granulated garlic substantially more dangerous and likely to cause oxidative damage than fresh garlic",
-      "description": "These organosulfur compounds are readily absorbed through the cat's gastrointestinal tract and metabolized into highly reactive oxidants2. They cause severe oxidative damage to the erythrocyte (red blood cell) membranes and hemoglobin3. Because feline red blood cells are highly susceptible to oxidative damage, these oxidants quickly overwhelm the cells' antioxidant defenses, causing the hemoglobin",
+      "concentration_notes": "These compounds are incredibly potent in cats. Furthermore, processing methods like drying and granulation significantly concentrate these reactive compounds, making powdered and granulated garlic substantially more dangerous and likely to cause oxidative damage than fresh garlic.",
+      "description": "These organosulfur compounds are readily absorbed through the cat's gastrointestinal tract and metabolized into highly reactive oxidants2. They cause severe oxidative damage to the erythrocyte (red blood cell) membranes and hemoglobin.",
       "name": "Thiosulfates and Disulfides (including Diallyl derivatives)"
     },
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "These are highly active constituents of garlic oil9. Unaged garlic preparations containing these compounds can also cause direct, painful damage to the gastric and ileal mucosa (stomach and intestinal lining), resulting in severe diarrhea",
-      "description": "These are pharmacologically active agents found specifically in garlic. They act as potent cardiac and smooth muscle relaxants, vasodilators, and hypotensive (blood-pressure-lowering) agents8. Ajoene is additionally a potent antithrombotic (blood-thinning) agent8. While they are not the primary cause of red blood cell destruction, their hypotensive and antithrombotic properties severely exacerbate",
+      "concentration_notes": "These are highly active constituents of garlic oil9. Unaged garlic preparations containing these compounds can also cause direct, painful damage to the gastric and ileal mucosa (stomach and intestinal lining), resulting in severe diarrhea.",
+      "description": "These are pharmacologically active agents found specifically in garlic. They act as potent cardiac and smooth muscle relaxants, vasodilators, and hypotensive (blood-pressure-lowering) agents8. Ajoene is additionally a potent antithrombotic (blood-thinning) agent.",
       "name": "Allicin and Ajoene"
     },
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "These compounds are responsible for the characteristic odor and flavor of garlic11. Because they are heavily concentrated throughout the plant, any ingestion of garlic exposes the cat to these toxin-generating precursors",
-      "description": "These are the parent compounds sequestered inside the plant's cells11. When the garlic clove experiences mechanical trauma—such as being chewed by a cat, chopped, or crushed—these precursors instantly convert into the complex mixture of toxic sulfur-containing organic compounds (like allicin and the thiosulfates mentioned above)11. Concentration/Potency notes: These compounds are responsible for t",
+      "concentration_notes": "These compounds are responsible for the characteristic odor and flavor of garlic11. Because they are heavily concentrated throughout the plant, any ingestion of garlic exposes the cat to these toxin-generating precursors.",
+      "description": "These are the parent compounds sequestered inside the plant's cells11. When the garlic clove experiences mechanical trauma—such as being chewed by a cat, chopped, or crushed—these precursors instantly convert into the complex mixture of toxic sulfur-containing organic compounds (like allicin and the thiosulfates mentioned above).",
       "name": "Alk(en)yl cysteine sulfoxides (Precursors)"
     }
   ],
-  "description": "Garlic (Allium sativum) is one of the most toxic foods for cats, significantly more dangerous than onion — roughly 3 to 5 times more potent by weight. It contains organosulfur compounds including N-propyl disulfide and allicin derivatives that cats cannot safely metabolise. These compounds oxidise haemoglobin inside red blood cells, forming Heinz bodies and triggering haemolytic anaemia.",
+  "description": "Garlic (Allium sativum) is highly toxic to cats. It is more dangerous than onion by weight, so even small amounts in cooked food, powders, sauces, or seasoning mixes can be a problem.\n\nGarlic contains sulfur-containing compounds that cats cannot process safely. These compounds can damage red blood cells. When too many red blood cells are damaged, the cat can develop hemolytic anemia, which means the blood cannot carry oxygen normally.\n\nSigns may not appear right away. A cat may vomit, have diarrhea, seem weak, breathe fast, have pale gums, or pass dark urine. Do not wait for symptoms after a known garlic exposure. Call a veterinarian or pet poison helpline for advice, especially if the amount is unknown or the garlic was concentrated.",
   "emergencyNote": "1. Oxygen Therapy and Blood Transfusions (Life-Saving Stabilization)",
   "family": "Allioideae",
   "isToxic": true,
@@ -50,7 +50,7 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, Diarrhea, Abdominal Pain, and Drooling",
-      "notes": "These are typically the first signs of toxicosis to appear2. Unaged garlic preparations contain specific compounds that can cause direct, painful damage to the gastric and ileal mucosa, resulting in severe abdominal pain and diarrhea45. The toxins can also cause direct irritation to the mouth, leadi",
+      "notes": "These are typically the first signs of toxicosis to appear2. Unaged garlic preparations contain specific compounds that can cause direct, painful damage to the gastric and ileal mucosa, resulting in severe abdominal pain and diarrhea.",
       "onset": "Often within 24 hours, though it can be delayed 2 to 4 days",
       "severity": "moderate"
     },
@@ -71,35 +71,35 @@
     {
       "body_system": "Respiratory",
       "name": "Tachypnea and Dyspnea (Breathing Difficulties)",
-      "notes": "This is a compensatory response to the decreased blood oxygen transportation capacity and resulting tissue hypoxia",
+      "notes": "This is a compensatory response to the decreased blood oxygen transportation capacity and resulting tissue hypoxia.",
       "onset": "After a lag of several days",
       "severity": "fatal"
     },
     {
       "body_system": "Cardiac",
       "name": "Tachycardia and Hypotension (Cardiovascular Distress)",
-      "notes": "Tachycardia develops as the heart pumps faster to compensate for impaired oxygen transportation6. Furthermore, garlic contains pharmacologically active agents (allicin and ajoene) that act as potent cardiac and smooth muscle relaxants, vasodilators, and hypotensive agents4. These hypotensive propert",
+      "notes": "Tachycardia develops as the heart pumps faster to compensate for impaired oxygen transportation6. Furthermore, garlic contains pharmacologically active agents (allicin and ajoene) that act as potent cardiac and smooth muscle relaxants, vasodilators, and hypotensive agents.",
       "onset": "Several days after ingestion",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Hemoglobinuria (Dark Urine)",
-      "notes": "This is a hallmark sign of severe oxidative hemolysis, where damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract",
+      "notes": "This is a hallmark sign of severe oxidative hemolysis, where damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract.",
       "onset": "After a lag of several days",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Cold Sensitivity",
-      "notes": "Affected cats may have difficulty regulating their body temperature due to the systemic effects of the anemia and hypoxia",
+      "notes": "Affected cats may have difficulty regulating their body temperature due to the systemic effects of the anemia and hypoxia.",
       "onset": "Several days after ingestion",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Garlic Breath",
-      "notes": "While not dangerous itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians",
+      "notes": "While not dangerous itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians.",
       "onset": "Shortly after ingestion",
       "severity": "mild"
     }
@@ -110,33 +110,33 @@
   "toxicityLevel": "severe",
   "treatments": [
     {
-      "description": "of the procedure: Providing the cat with supplemental oxygen and transfusing whole blood to restore the body's depleted oxygen-carrying capacity",
+      "description": "of the procedure: Providing the cat with supplemental oxygen and transfusing whole blood to restore the body's depleted oxygen-carrying capacity.",
       "name": "1. Oxygen Therapy and Blood Transfusions (Life-Saving Stabilization)",
-      "notes": "This is the most urgent priority for severely affected cats presenting with life-threatening signs such as respiratory distress, systemic hypoxia, or profound hemolytic anemia1.... Blood transfusions may be specifically indicated if the cat's hematocrit drops below 15–20%3. Because there is no speci",
+      "notes": "This is the most urgent priority for severely affected cats presenting with life-threatening signs such as respiratory distress, systemic hypoxia, or profound hemolytic anemia1. Blood transfusions may be specifically indicated if the cat's hematocrit drops below 15–20%3.",
       "priority": 1
     },
     {
-      "description": "of the procedure: Administering an emetic drug, typically an α 2 ​ -adrenergic agonist like dexmedetomidine (via intramuscular or intravenous injection), to force the cat to expel the ingested garlic before the toxins are absorbed into the bloodstream",
+      "description": "of the procedure: Administering an emetic drug, typically an α 2 ​ -adrenergic agonist like dexmedetomidine (via intramuscular or intravenous injection), to force the cat to expel the ingested garlic before the toxins are absorbed into the bloodstream.",
       "name": "Induction of Emesis (Early Gastrointestinal Decontamination)",
-      "notes": "This early decontamination step is highly valuable but only indicated if the ingestion was very recent (typically caught within 1 to 2 hours) and the cat is currently asymptomatic2.... Crucially, 3% hydrogen peroxide must never be used to induce vomiting in cats, as it is strictly contraindicated an",
+      "notes": "This early decontamination step is highly valuable but only indicated if the ingestion was very recent (typically caught within 1 to 2 hours) and the cat is currently asymptomatic.",
       "priority": 2
     },
     {
-      "description": "of the procedure: Administering oral activated charcoal (typically 1 to 4 g/kg) to bind to and adsorb any residual toxins remaining in the stomach and intestines",
+      "description": "of the procedure: Administering oral activated charcoal (typically 1 to 4 g/kg) to bind to and adsorb any residual toxins remaining in the stomach and intestines.",
       "name": "Administration of Activated Charcoal (Secondary Decontamination)",
-      "notes": "This is typically administered directly after emesis to trap toxins before they can enter the bloodstream1.... However, it should be noted that its actual efficacy in binding to or preventing the production of Allium-derived sulfides is still unknown",
+      "notes": "This is typically administered directly after emesis to trap toxins before they can enter the bloodstream1. However, it should be noted that its actual efficacy in binding to or preventing the production of Allium-derived sulfides is still unknown.",
       "priority": 3
     },
     {
-      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to rehydrate the animal, support blood pressure, and maintain proper renal perfusion",
+      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to rehydrate the animal, support blood pressure, and maintain proper renal perfusion.",
       "name": "Intravenous (IV) Fluid Therapy (Systemic Supportive Care)",
-      "notes": "This treatment is indicated if the cat has suffered extensive fluid loss from severe vomiting and diarrhea, or presents with hypotension12. Furthermore, it is a highly recommended protective measure if the cat develops hemoglobinuria (dark urine caused by ruptured red blood cells), as IV diuresis he",
+      "notes": "This treatment is indicated if the cat has suffered extensive fluid loss from severe vomiting and diarrhea, or presents with hypotension.",
       "priority": 4
     },
     {
-      "description": "of the procedure: Administering anti-sickness/anti-nausea medications, stomach protectants, and sometimes antioxidant vitamins (C and E) or N-acetyl-cysteine",
+      "description": "of the procedure: Administering anti-sickness/anti-nausea medications, stomach protectants, and sometimes antioxidant vitamins (C and E) or N-acetyl-cysteine.",
       "name": "Gastrointestinal and Antioxidant Medications (Symptomatic Relief)",
-      "notes": "The treatment of garlic poisoning is generally nonspecific and primarily symptomatic11. While antioxidants are sometimes administered in an attempt to combat the oxidative damage to red blood cells, they have shown minimal proven protective effects against Allium toxicity in cats",
+      "notes": "The treatment of garlic poisoning is generally nonspecific and primarily symptomatic11. While antioxidants are sometimes administered in an attempt to combat the oxidative damage to red blood cells, they have shown minimal proven protective effects against Allium toxicity in cats.",
       "priority": 5
     }
   ]

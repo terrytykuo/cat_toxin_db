@@ -5,13 +5,13 @@
     {
       "chemical_formula": "Not explicitly provided in the sources.",
       "concentration_notes": "◦ These crystals are found within the irritant sap present in the leaves and stems of the plant. ◦ The toxicity is generally considered mild, primarily resulting in local irritation rather than systemic organ damage.",
-      "description": "in cats: ◦ Physical Trauma and Irritation: These crystals are needle-like structures bundled in specialized plant cells. When a cat chews or crushes the plant tissue, these sharp crystals are forcefully shot out into the lining of the mouth, tongue, and throat. This causes immediate, intense pain and physical trauma to the tissues, leading to inflammation and swelling. ◦ Clinical Signs: The immedi",
+      "description": "◦ Physical Trauma and Irritation: These crystals are needle-like structures bundled in specialized plant cells. When a cat chews or crushes the plant tissue, these sharp crystals are forcefully shot out into the lining of the mouth, tongue, and throat. This causes immediate, intense pain and physical trauma to the tissues, leading to inflammation and swelling.",
       "name": "Insoluble Calcium Oxalate crystals (often referred to as raphides)"
     },
     {
       "chemical_formula": "Not explicitly provided in the sources.",
       "concentration_notes": "◦ These compounds are concentrated in the milky sap (latex) found throughout the plant's leaves and stems. ◦ While usually causing mild to moderate symptoms, the sap can be irritating enough to cause significant discomfort.",
-      "description": "in cats: ◦ Dermatitis and GI Irritation: These compounds are characteristic of the Ficus genus. They are found in the milky sap and can cause contact dermatitis (skin irritation, redness, and blisters) if the sap touches the cat's skin. Upon ingestion, they contribute to gastrointestinal distress, including vomiting and diarrhea. 4. Notes on",
+      "description": "◦ Dermatitis and GI Irritation: These compounds are characteristic of the Ficus genus. They are found in the milky sap and can cause contact dermatitis (skin irritation, redness, and blisters) if the sap touches the cat's skin. Upon ingestion, they contribute to gastrointestinal distress, including vomiting and diarrhea.",
       "name": "Proteolytic Enzymes (specifically Ficin) and Psoralens (also known as Furocoumarins)"
     }
   ],
@@ -39,7 +39,7 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Drooling / Hypersalivation",
-      "notes": "This is a physiological response to the burning sensation and irritation in the mouth and throat caused by the plant's sap.Vomiting",
+      "notes": "This is a physiological response to the burning sensation and irritation in the mouth and throat caused by the plant's sap.",
       "onset": "Immediate to Acute (Shortly after oral contact).",
       "severity": "mild"
     },
@@ -74,7 +74,7 @@
     {
       "description": "A veterinarian may administer or recommend offering a small amount of milk, yogurt, or a specific demulcent medication. These products help coat and soothe the irritated lining of the mouth and throat. Calcium in dairy can also help bind soluble oxalates (though Fiddle Leaf Fig primarily contains insoluble oxalates, the coating action effectively reduces pain from the crystals).",
       "name": "Administration of Calcium-Containing Dairy Products (Milk or Yogurt)",
-      "notes": "This is a specific counter-measure for calcium oxalate plants. It aids in the clearance of crystals from the oral cavity and esophagus and provides immediate relief from the burning sensation.Symptomatic Supportive Care",
+      "notes": "This is a specific counter-measure for calcium oxalate plants. It aids in the clearance of crystals from the oral cavity and esophagus and provides immediate relief from the burning sensation.",
       "priority": 2
     },
     {

@@ -5,11 +5,11 @@
     {
       "chemical_formula": null,
       "concentration_notes": null,
-      "description": "in Cats • Gastrointestinal Irritation: These compounds act as irritants to the feline system, primarily causing mild gastrointestinal upset. Symptoms include vomiting and diarrhea1. • Dermatological Reaction: In some cases, ingestion or contact can lead to hives or a skin rash1. 3. Concentration and Potency • Severity: The toxicity is classified as mild1. • Location: The toxins are found in all pa",
+      "description": "in Cats • Gastrointestinal Irritation: These compounds act as irritants to the feline system, primarily causing mild gastrointestinal upset. Symptoms include vomiting and diarrhea1. • Dermatological Reaction: In some cases, ingestion or contact can lead to hives or a skin rash. 3. Concentration and Potency • Severity: The toxicity is classified as mild.",
       "name": "s: Genioposide and gardenoside"
     }
   ],
-  "description": "Gardenia (Gardenia jasminoides) is a fragrant flowering shrub often grown in pots or gardens. It is not considered one of the most dangerous plants for cats, but it can still cause mild poisoning if chewed or eaten.\n\nThe main concern is a group of plant compounds called iridoid glycosides, including genipin and gardenoside. These compounds can irritate the digestive tract. In some cats, contact with the plant may also trigger skin irritation or hives.\n\nIf a cat eats gardenia leaves, flowers, or fruit, possible signs include vomiting, diarrhea, mild lethargy, or a skin rash. The flowers may attract curious cats because of their scent. Keep gardenias out of easy reach, and contact a veterinarian if vomiting is repeated, diarrhea is strong, or a rash spreads.",
+  "description": "Gardenia (Gardenia jasminoides) is a fragrant flowering shrub often grown in pots or gardens. It is not one of the most dangerous plants for cats, but it can still cause mild poisoning if a cat chews or eats it.\n\nThe main concern is a group of plant compounds called iridoid glycosides, including genipin and gardenoside. These compounds can irritate the digestive tract. In some cats, contact with the plant may also cause skin irritation or hives.\n\nIf a cat eats gardenia leaves, flowers, or fruit, possible signs include vomiting, diarrhea, mild tiredness, or a skin rash. The flowers may attract curious cats because of their scent. Keep gardenias out of easy reach, and call a veterinarian if vomiting repeats, diarrhea is strong, or a rash spreads.",
   "emergencyNote": "Supportive Care (Hydration and Observation)",
   "family": "Rubiaceae",
   "isToxic": true,
@@ -26,19 +26,19 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting",
-      "notes": "This is a common sign of gastrointestinal upset caused by the plant's toxic compounds (genioposide and gardenoside). The reaction is generally self-limiting.Diarrhea",
+      "notes": "This is a common sign of gastrointestinal upset caused by the plant's toxic compounds (genioposide and gardenoside). The reaction is generally self-limiting.",
       "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Diarrhea",
-      "notes": "Like vomiting, diarrhea is a result of the iridoid glycosides irritating the digestive tract. It usually resolves on its own but should be monitored.Hives and Skin Rash",
+      "notes": "Like vomiting, diarrhea is a result of the iridoid glycosides irritating the digestive tract. It usually resolves on its own but should be monitored.",
       "severity": "mild"
     },
     {
       "body_system": "Dermal",
       "name": "Hives (Urticaria) or Skin Rash",
-      "notes": "Some cats may develop a dermatological reaction such as a rash or hives upon contact with the plant or after ingestion.General Clinical Note: The toxicity of Gardenia is classified as mild. Most cases do not require aggressive veterinary intervention. Offering water and monitoring the cat is often s",
+      "notes": "Some cats may develop a dermatological reaction such as a rash or hives upon contact with the plant or after ingestion.",
       "severity": "mild"
     }
   ],
@@ -51,7 +51,7 @@
     {
       "description": "The primary recommendation is to offer the cat water to ensure they stay hydrated, especially if they have vomited. Owners should closely monitor the cat for signs of continued distress, persistent vomiting, or worsening skin irritation.",
       "name": "Supportive Care (Hydration and Observation)",
-      "notes": "Because Gardenia toxicity is typically mild, most cats recover without the need for medical procedures. This step is often sufficient to manage the immediate after-effects of ingestion.Veterinary Symptomatic Management",
+      "notes": "Because Gardenia toxicity is typically mild, most cats recover without the need for medical procedures. This step is often sufficient to manage the immediate after-effects of ingestion.",
       "priority": 1
     },
     {

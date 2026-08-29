@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "Plants containing cardiac glycosides are among the most toxic to pets and have a very narrow margin of safety, meaning there is no safe level of ingestion12. Furthermore, cats are believed to be more sensitive to cardiac glycoside toxicity than dogs3. While the sources note that oleander and foxglove are considered the most toxic plants in this specific category, the cardiac glycosides found in th",
-      "description": "in cats: Cardiac glycosides interfere with the heart's electrical system by inhibiting the Na+/K+ ATPase pump, which is necessary for normal cardiac function23. This inhibition causes intracellular sodium and extracellular potassium to accumulate, which subsequently leads to a rise in intracellular calcium23. These changes severely alter cardiac muscle contractions and electrical conduction, causi",
+      "concentration_notes": "Plants containing cardiac glycosides are among the most toxic to pets and have a very narrow margin of safety, meaning there is no safe level of ingestion12. Furthermore, cats are believed to be more sensitive to cardiac glycoside toxicity than dogs.",
+      "description": "Cardiac glycosides interfere with the heart's electrical system by inhibiting the Na+/K+ ATPase pump, which is necessary for normal cardiac function23. This inhibition causes intracellular sodium and extracellular potassium to accumulate, which subsequently leads to a rise in intracellular calcium.",
       "name": "Cardiac glycosides"
     }
   ],
-  "description": "Star of Bethlehem (Ornithogalum umbellatum) is a bulbous flowering plant toxic to cats throughout all its parts. It contains cardenolide cardiac glycosides — specifically convallatoxin-related compounds — concentrated in the bulbs and leaves. These affect the heart in a similar way to Foxglove and Lily of the Valley.",
+  "description": "Star of Bethlehem (Ornithogalum umbellatum) is a garden plant with white, star-shaped flowers. It is extremely dangerous to cats. All parts of the plant—the flowers, leaves, stem, and especially the bulb—contain potent toxins that affect the heart.\n\nThe plant contains powerful compounds called cardiac glycosides. These toxins directly interfere with the heart's electrical system, disrupting its ability to pump blood normally. They can cause the heart to beat too slowly, too quickly, or irregularly. There is no safe amount of this plant for a cat to eat; any ingestion is a medical emergency.\n\nSigns of poisoning include severe vomiting, diarrhea, drooling, weakness, and collapse. Because the toxins target the heart, this situation is life-threatening and requires immediate veterinary intervention. If you suspect your cat has chewed or eaten any part of this plant, contact a veterinarian or an emergency animal hospital without delay.",
   "emergencyNote": "Emesis Induction and Activated Charcoal",
   "family": "Asparagaceae",
   "isToxic": true,
@@ -27,28 +27,28 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting and diarrhea",
-      "notes": "These are typical early signs of toxicosis from cardiac glycosides, and the clinical symptoms can persist for up to 4 to 5 days4. 2. Abnormal Heart Rate and Arrhythmias",
+      "notes": "These are typical early signs of toxicosis from cardiac glycosides, and the clinical symptoms can persist for up to 4 to 5 days.",
       "onset": "Within the first 2 hours after exposure",
       "severity": "severe"
     },
     {
       "body_system": "Cardiac",
       "name": "Bradycardia (abnormally slow heart rate), tachycardia (abnormally fast heart rate), and cardiac arrhythmias",
-      "notes": "The plant's toxins inhibit the Na+/K+ ATPase pump, which leads to an accumulation of intracellular sodium and calcium. This disrupts the heart's electrical system, forcing the cardiac muscles to produce more powerful but slower contractions3. 3. Hyperkalemia",
+      "notes": "The plant's toxins inhibit the Na+/K+ ATPase pump, which leads to an accumulation of intracellular sodium and calcium. This disrupts the heart's electrical system, forcing the cardiac muscles to produce more powerful but slower contractions.",
       "onset": "Within the first 2 hours after exposure",
       "severity": "fatal"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Hyperkalemia (dangerously elevated potassium levels in the blood)",
-      "notes": "This life-threatening electrolyte imbalance occurs because the toxin blocks the cellular pumps, leading to a build-up of extracellular potassium3. Severe hyperkalemia requires emergency intravenous treatments, such as a dextrose/insulin combination or sodium bicarbonate4. 4. Weakness",
+      "notes": "This life-threatening electrolyte imbalance occurs because the toxin blocks the cellular pumps, leading to a build-up of extracellular potassium3. Severe hyperkalemia requires emergency intravenous treatments, such as a dextrose/insulin combination or sodium bicarbonate.",
       "onset": "Within the first 2 hours after exposure",
       "severity": "fatal"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Weakness",
-      "notes": "Generalized weakness is a clinical manifestation of the profound cardiovascular depression, heart rhythm abnormalities, and electrolyte imbalances caused by the poisoning",
+      "notes": "Generalized weakness is a clinical manifestation of the profound cardiovascular depression, heart rhythm abnormalities, and electrolyte imbalances caused by the poisoning.",
       "onset": "Within the first 2 hours after exposure",
       "severity": "severe"
     }
@@ -63,27 +63,27 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "The veterinarian will medically induce vomiting (emesis) to empty the stomach, followed by administering a dose of activated charcoal with a cathartic to bind the toxins and prevent them from being absorbed into the bloodstream",
+      "description": "The veterinarian will medically induce vomiting (emesis) to empty the stomach, followed by administering a dose of activated charcoal with a cathartic to bind the toxins and prevent them from being absorbed into the bloodstream.",
       "name": "Emesis Induction and Activated Charcoal",
-      "notes": "This intervention is ideally performed while the patient is still asymptomatic2. Because cardiac glycosides undergo enterohepatic recirculation (recirculating between the liver and intestines), the veterinarian will likely repeat the activated charcoal administration (without a cathartic) every 6–8 ",
+      "notes": "This intervention is ideally performed while the patient is still asymptomatic2. Because cardiac glycosides undergo enterohepatic recirculation (recirculating between the liver and intestines), the veterinarian will likely repeat the activated charcoal administration (without a cathartic) every 6–8",
       "priority": 1
     },
     {
-      "description": "The veterinary team administers an antidote originally designed for digoxin toxicity, which contains specific antibody fragments (Fab) that bind to and neutralize the cardiac glycoside toxins in the blood",
+      "description": "The veterinary team administers an antidote originally designed for digoxin toxicity, which contains specific antibody fragments (Fab) that bind to and neutralize the cardiac glycoside toxins in the blood.",
       "name": "Digoxin-Specific Antibody Fragments (Fab)",
-      "notes": "This specific antidote works very well for plant-induced cardiac glycoside toxicosis2. Patients who have access to and receive this antidote generally have a guarded to good prognosis2. 3. Cardiovascular and Arrhythmia Support",
+      "notes": "This specific antidote works very well for plant-induced cardiac glycoside toxicosis2. Patients who have access to and receive this antidote generally have a guarded to good prognosis.",
       "priority": 2
     },
     {
       "description": "Intravenous (IV) fluids are administered to provide hemodynamic support2. Depending on how the toxins are affecting the heart, specific medications will be used to correct the heart rate.",
       "name": "Hemodynamic Support and Antiarrhythmic Medications",
-      "notes": "If the specific Fab antidote is not available, antiarrhythmic drugs such as lidocaine can be administered2. If the cat develops bradycardia (an abnormally slow heart rate), medications such as atropine or glycopyrrolate have been used successfully2. 4. Electrolyte Management",
+      "notes": "If the specific Fab antidote is not available, antiarrhythmic drugs such as lidocaine can be administered2. If the cat develops bradycardia (an abnormally slow heart rate), medications such as atropine or glycopyrrolate have been used successfully.",
       "priority": 3
     },
     {
-      "description": "The veterinary team will closely monitor the cat's electrolyte levels, specifically looking for dangerous spikes in potassium (hyperkalemia), and administer targeted therapies to reduce potassium levels in the blood",
+      "description": "The veterinary team will closely monitor the cat's electrolyte levels, specifically looking for dangerous spikes in potassium (hyperkalemia), and administer targeted therapies to reduce potassium levels in the blood.",
       "name": "Hyperkalemia Correction",
-      "notes": "If the cat develops mild hyperkalemia, it can often be treated with IV fluid therapy alone2. However, if severe hyperkalemia develops (potassium levels > 7.5–9 mEq/L), emergency treatments such as sodium bicarbonate or a dextrose and insulin combination must be utilized",
+      "notes": "If the cat develops mild hyperkalemia, it can often be treated with IV fluid therapy alone2. However, if severe hyperkalemia develops (potassium levels > 7.5–9 mEq/L), emergency treatments such as sodium bicarbonate or a dextrose and insulin combination must be utilized.",
       "priority": 4
     }
   ]

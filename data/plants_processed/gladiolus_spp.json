@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "◦ Highest Concentration in Bulbs: The bulb (also known as the corm) is the most toxic part of the plant. ◦ Severity: While considered generally less dangerous than true lilies, ingestion can still cause significant discomfort and severe gastrointestinal upset.• 11 popular plants and flowers poisonous to cats - Vets Now1 • Outdoor Plants That Are Toxic to Cats: 10 to Avoid (Vet-Reviewed) - Catster2",
-      "description": "in cats: ◦ Gastrointestinal Irritation: Unlike true lilies (Lilium spp.) that cause kidney failure, Gladioli primarily cause severe irritation to the digestive tract. This leads to symptoms such as salivation (drooling), vomiting, and diarrhea. 4. Notes on",
+      "concentration_notes": "◦ Highest Concentration in Bulbs: The bulb (also known as the corm) is the most toxic part of the plant. ◦ Severity: While considered generally less dangerous than true lilies, ingestion can still cause significant discomfort and severe gastrointestinal upset.",
+      "description": "◦ Gastrointestinal Irritation: Unlike true lilies (Lilium spp.) that cause kidney failure, Gladioli primarily cause severe irritation to the digestive tract. This leads to symptoms such as salivation (drooling), vomiting, and diarrhea.",
       "name": "The sources do not specify the exact bioactive compound"
     }
   ],
-  "description": "Gladiolus (Gladiolus spp.), also called sword lily, is a tall garden flower often grown from underground corms. It can make cats sick if they chew or eat it, and the corms are the highest-risk part.\n\nThe exact toxic compounds have not been fully identified, but the plant acts mainly as a digestive irritant. In simple terms, it can upset the stomach and intestines after ingestion. Sap or plant juices may also irritate the skin in some cases.\n\nPossible signs include drooling, vomiting, diarrhea, belly pain, low energy, and loss of appetite. The greatest risk is during planting or storage, when cats may access loose corms. Keep gladiolus plants and stored corms away from cats, and contact a veterinarian if your cat eats any part of the plant or has repeated vomiting or lethargy.",
+  "description": "Gladiolus (Gladiolus spp.), also called sword lily, is a tall garden flower often grown from underground corms. It can make cats sick if they chew or eat it, and the corms are the highest-risk part.\n\nThe exact toxic compounds have not been fully identified, but the plant mainly acts as a digestive irritant. In simple terms, it can upset the stomach and intestines. Sap or plant juices may also irritate the skin in some cats.\n\nPossible signs include drooling, vomiting, diarrhea, belly pain, low energy, and loss of appetite. The greatest risk is during planting or storage, when cats may find loose corms. Keep gladiolus plants and stored corms away from cats, and call a veterinarian if your cat eats any part or has repeated vomiting or tiredness.",
   "emergencyNote": "Pharmacological Symptom Management (Anti-emetics and Antidiarrheals)",
   "family": "Iridaceae",
   "isToxic": true,
@@ -33,14 +33,14 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Drooling / Salivation",
-      "notes": "This occurs due to the plant's irritant properties on the mouth and digestive tract. Gladioli belong to the Iridaceae (Iris) family, which are known to cause oral and mucosal irritation when eaten.Lethargy",
+      "notes": "This occurs due to the plant's irritant properties on the mouth and digestive tract. Gladioli belong to the Iridaceae (Iris) family, which are known to cause oral and mucosal irritation when eaten.",
       "onset": "Acute (Immediate to shortly after chewing/ingestion).",
       "severity": "mild"
     },
     {
       "body_system": "Neurological",
       "name": "Lethargy",
-      "notes": "The cat may appear tired or disinterested in food due to the abdominal discomfort and nausea associated with the poisoning.Abdominal Pain",
+      "notes": "The cat may appear tired or disinterested in food due to the abdominal discomfort and nausea associated with the poisoning.",
       "onset": "Acute (Accompanying gastrointestinal symptoms).",
       "severity": "moderate"
     },
@@ -62,7 +62,7 @@
     {
       "description": "Veterinarians administer medications to control the primary symptoms of poisoning. Anti-emetics are given to stop vomiting, and antidiarrheals are used to manage diarrhea. A bland diet may be prescribed for several days to soothe the digestive tract during recovery.",
       "name": "Pharmacological Symptom Management (Anti-emetics and Antidiarrheals)",
-      "notes": "Because Gladioli act primarily as gastrointestinal irritants, the goal is to stabilize the cat and prevent further fluid loss. Most animals recover within 24–48 hours with this support.Fluid Therapy",
+      "notes": "Because Gladioli act primarily as gastrointestinal irritants, the goal is to stabilize the cat and prevent further fluid loss. Most animals recover within 24–48 hours with this support.",
       "priority": 1
     },
     {
@@ -74,7 +74,7 @@
     {
       "description": "If the ingestion was very recent (typically within 1–2 hours) and the cat is asymptomatic, the veterinarian may induce vomiting to remove the plant material (especially the toxic bulbs) from the stomach before the toxins are fully absorbed.",
       "name": "Induction of Emesis (Vomiting)",
-      "notes": "This should never be attempted at home using hydrogen peroxide, as it can cause severe irritation and injury to cats. It must be performed by a veterinary professional.Oral Decontamination and Soothing",
+      "notes": "This should never be attempted at home using hydrogen peroxide, as it can cause severe irritation and injury to cats. It must be performed by a veterinary professional.",
       "priority": 3
     },
     {

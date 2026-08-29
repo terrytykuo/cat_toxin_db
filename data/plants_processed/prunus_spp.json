@@ -7,35 +7,35 @@
       "body_system": "Respiratory",
       "severity": "severe",
       "onset": "Rapid; typically within 10–60 minutes to a few hours after ingestion.",
-      "notes": "Signs include panting, gasping for breath, or rapid breathing. This occurs because the cyanide toxin prevents cells from utilizing oxygen (cellular hypoxia), even though the blood is fully oxygenated.Brick Red Mucous Membranes"
+      "notes": "Signs include panting, gasping for breath, or rapid breathing. This occurs because the cyanide toxin prevents cells from utilizing oxygen (cellular hypoxia), even though the blood is fully oxygenated."
     },
     {
       "name": "Bright Red Gums/Mucous Membranes",
       "body_system": "Hematological",
       "severity": "severe",
       "onset": "Rapid (minutes to hours).",
-      "notes": "The gums and tongue may appear unusually bright red or pink (often described as \"cherry red\"). This coloration results from an abundance of oxygen in the blood that the tissues are unable to absorb due to the toxin blocking cellular respiration.Dilated Pupils"
+      "notes": "The gums and tongue may appear unusually bright red or pink (often described as \"cherry red\"). This coloration results from an abundance of oxygen in the blood that the tissues are unable to absorb due to the toxin blocking cellular respiration."
     },
     {
       "name": "Dilated Pupils (Mydriasis)",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Rapid (minutes to hours).",
-      "notes": "Enlarged pupils are a classic sign of cyanide poisoning often appearing alongside respiratory and cardiovascular distress.Shock and Sudden Collapse"
+      "notes": "Enlarged pupils are a classic sign of cyanide poisoning often appearing alongside respiratory and cardiovascular distress."
     },
     {
       "name": "Shock / Collapse / Weakness",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "Rapid (10–60 minutes).",
-      "notes": "Hypotension (low blood pressure) and arrhythmias (irregular heartbeats) can lead to sudden weakness, staggering, and collapse. Death can occur quickly if untreated.Seizures and Tremors"
+      "notes": "Hypotension (low blood pressure) and arrhythmias (irregular heartbeats) can lead to sudden weakness, staggering, and collapse. Death can occur quickly if untreated."
     },
     {
       "name": "Seizures (Convulsions) and Muscle Tremors",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Rapid.",
-      "notes": "As the brain is deprived of usable oxygen, the cat may experience tremors and violent convulsions, eventually lapsing into a coma.Gastrointestinal Upset"
+      "notes": "As the brain is deprived of usable oxygen, the cat may experience tremors and violent convulsions, eventually lapsing into a coma."
     },
     {
       "name": "Vomiting, Salivation (Excessive Drooling), and Diarrhea",
@@ -49,15 +49,15 @@
     {
       "name": "Amygdalin (a cyanogenic glycoside). When metabolized, it releases Hydrogen Cyanide (Cyanide)",
       "chemical_formula": null,
-      "description": "in cats: ◦ Activation: The compound is relatively harmless in its intact form. However, when the apricot pit (seed) is chewed, crushed, or digested, amygdalin interacts with digestive enzymes and undergoes hydrolysis, releasing hydrogen cyanide into the bloodstream12. ◦ Cellular Asphyxiation: Once released, cyanide acts as a potent cellular toxin. It binds tightly to ferric (Fe3+) iron within cyto",
-      "concentration_notes": "◦ Location: The toxin is concentrated in the seeds/pits, stems, and leaves46. The flesh of the fruit contains only trace or negligible amounts and is generally considered safe17. ◦ Bioavailability: The hard outer pit must be broken (chewed or crushed) to release the toxin. Swallowing a seed whole often prevents the release of cyanide4. ◦ Potency: While the seeds contain \"trace amounts\" of cyanide "
+      "description": "◦ Activation: The compound is relatively harmless in its intact form. However, when the apricot pit (seed) is chewed, crushed, or digested, amygdalin interacts with digestive enzymes and undergoes hydrolysis, releasing hydrogen cyanide into the bloodstream.",
+      "concentration_notes": "◦ Location: The toxin is concentrated in the seeds/pits, stems, and leaves46. The flesh of the fruit contains only trace or negligible amounts and is generally considered safe17. ◦ Bioavailability: The hard outer pit must be broken (chewed or crushed) to release the toxin. Swallowing a seed whole often prevents the release of cyanide."
     }
   ],
   "treatments": [
     {
       "name": "Specific Antidote Administration",
       "description": "The administration of specific antidotes to bind and neutralize the cyanide toxin. This typically involves using sodium nitrite (to form cyanomethemoglobin) followed by sodium thiosulfate (to form thiocyanate, which is excreted in urine). Alternatively, hydroxycobalamin (Vitamin B12a) may be used to bind with cyanide to form cyanocobalamin (Vitamin B12).",
-      "notes": "This is critical for life-threatening cases where the cat has ingested a large amount of crushed seeds and is showing severe signs like seizures or respiratory distress. Cyanide acts rapidly (within 10–60 minutes), and death can occur before treatment begins, making the antidote vital if the animal ",
+      "notes": "This is critical for life-threatening cases where the cat has ingested a large amount of crushed seeds and is showing severe signs like seizures or respiratory distress.",
       "priority": 1
     },
     {

@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ High Potency: Ingestion of even a small amount of the fruit (fresh or dried) can be sufficient to cause kidney failure. ◦ Variable Sensitivity: There is individual variation; some cats may ingest these fruits without apparent ill effects, while others develop severe acute kidney failure. ◦ Concentrated Sources: Dried forms like raisins and currants (Zante currants) are particularly dangerous. Ad",
-      "description": "in cats: ◦ Nephrotoxicity (Kidney Damage): These compounds are considered the primary toxic principles responsible for causing acute kidney failure in cats and dogs. ◦ Rapid Onset: The toxins are rapidly absorbed, often leading to vomiting within 12 hours, followed by diarrhea, lethargy, and increased thirst as kidney function declines. ◦ Target Organ: The active substances specifically target the",
+      "concentration_notes": "◦ High Potency: Ingestion of even a small amount of the fruit (fresh or dried) can be sufficient to cause kidney failure. ◦ Variable Sensitivity: There is individual variation; some cats may ingest these fruits without apparent ill effects, while others develop severe acute kidney failure. ◦ Concentrated Sources: Dried forms like raisins and currants (Zante currants) are particularly dangerous.",
+      "description": "◦ Nephrotoxicity (Kidney Damage): These compounds are considered the primary toxic principles responsible for causing acute kidney failure in cats and dogs. ◦ Rapid Onset: The toxins are rapidly absorbed, often leading to vomiting within 12 hours, followed by diarrhea, lethargy, and increased thirst as kidney function declines.",
       "name": "Tartaric Acid and its salt, Potassium Bitartrate (Cream of Tartar)"
     }
   ],
-  "description": "Grapes, raisins, sultanas, and Zante currants are unsafe for cats. They are best treated as a no-safe-amount food. Cats are less often reported than dogs, but kidney injury has been reported in pets after eating Vitis fruit, and the risk is unpredictable.\n\nThe exact toxic process is still being studied, with tartaric acid considered one likely factor. What matters for owners is that the fruit can damage the kidneys. Raisins and dried currants are more concentrated than fresh grapes, so a small number can still be concerning.\n\nEarly signs may include vomiting, diarrhea, belly pain, low energy, or loss of appetite. Kidney signs can develop later and may include drinking more, urinating less, weakness, or worsening sickness. If your cat eats any grape, raisin, sultana, or currant, call a veterinarian or pet poison helpline right away instead of waiting for symptoms.",
+  "description": "Grapes, raisins, sultanas, and currants are highly dangerous for cats. There is no known safe amount. Even one grape or a few raisins may be enough to cause a serious problem in some cats.\n\nThe exact toxin is still not fully confirmed, though tartaric acid is one leading suspect. The main danger is sudden kidney injury. Because cats react unpredictably, a small amount can be risky even if another cat once seemed fine after eating more.\n\nEarly signs may include vomiting, diarrhea, low energy, not eating, belly pain, or increased thirst. Kidney problems can develop later. If your cat eats any grape, raisin, sultana, or currant, contact a veterinarian or pet poison helpline immediately instead of waiting for symptoms.",
   "emergencyNote": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
   "family": "Vitaceae",
   "isToxic": true,
@@ -48,21 +48,21 @@
   "toxicityLevel": "severe",
   "treatments": [
     {
-      "description": "If the ingestion was recent, the veterinarian will administer prescription medication to induce vomiting, removing the fruit from the stomach before the toxins are fully absorbed45. This is typically followed by the administration of activated charcoal (often with a cathartic) to bind any remaining toxins in the gastrointestinal tract and prevent them from entering the bloodstream",
+      "description": "If the ingestion was recent, the veterinarian will administer prescription medication to induce vomiting, removing the fruit from the stomach before the toxins are fully absorbed45. This is typically followed by the administration of activated charcoal (often with a cathartic) to bind any remaining toxins in the gastrointestinal tract and prevent them from entering the bloodstream.",
       "name": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
-      "notes": "Owners should not attempt to induce vomiting at home using salt or hydrogen peroxide, as this is unsafe for cats and can cause severe injury or poisoning4. This procedure is most effective when performed within hours of ingestion78. 2. Aggressive Fluid Therapy",
+      "notes": "Owners should not attempt to induce vomiting at home using salt or hydrogen peroxide, as this is unsafe for cats and can cause severe injury or poisoning4. This procedure is most effective when performed within hours of ingestion.",
       "priority": 1
     },
     {
-      "description": "The veterinarian will administer IV fluids to correct dehydration and, crucially, to support the kidneys. Fluid therapy helps to \"flush\" the kidneys (diuresis), maintaining urine production and helping to clear toxins from the body",
+      "description": "The veterinarian will administer IV fluids to correct dehydration and, crucially, to support the kidneys. Fluid therapy helps to \"flush\" the kidneys (diuresis), maintaining urine production and helping to clear toxins from the body.",
       "name": "Intravenous (IV) Fluid Diuresis",
-      "notes": "Because grapes and raisins target the kidneys, fluid therapy is essential to prevent the onset of anuria (the cessation of urine production), which is a fatal complication of acute renal failure1011. Treatment may need to continue for 48 to 72 hours to ensure the kidneys are protected10. 3. Baseline",
+      "notes": "Because grapes and raisins target the kidneys, fluid therapy is essential to prevent the onset of anuria (the cessation of urine production), which is a fatal complication of acute renal failure1011. Treatment may need to continue for 48 to 72 hours to ensure the kidneys are protected.",
       "priority": 2
     },
     {
-      "description": "The veterinary team will run blood tests to establish baseline levels for kidney function, specifically checking creatinine, BUN (blood urea nitrogen), and electrolyte levels5. These tests are repeated (often every 24 hours) to track the progression of the toxicity or the success of the treatment",
+      "description": "The veterinary team will run blood tests to establish baseline levels for kidney function, specifically checking creatinine, BUN (blood urea nitrogen), and electrolyte levels5. These tests are repeated (often every 24 hours) to track the progression of the toxicity or the success of the treatment.",
       "name": "Renal Function Monitoring (Biochemistry Profile)",
-      "notes": "Clinical signs of kidney failure from grapes may not appear immediately; vomiting often starts within 12 hours, but severe renal failure markers may take 24 hours to days to manifest512. Therefore, monitoring is critical even if the cat appears fine initially",
+      "notes": "Clinical signs of kidney failure from grapes may not appear immediately; vomiting often starts within 12 hours, but severe renal failure markers may take 24 hours to days to manifest512. Therefore, monitoring is critical even if the cat appears fine initially.",
       "priority": 3
     }
   ]

@@ -5,7 +5,7 @@
     {
       "chemical_formula": "CaC\n2\n\t​\n\nO\n4\n\t​\n\n.",
       "concentration_notes": "◦ Distribution: These crystals are found in all parts of the plant, including the leaves, stems, and flowers. ◦ Potency: The toxicity is generally classified as moderate. Because the pain is immediate and intense, cats usually stop eating the plant quickly, which limits the amount of toxin ingested. Systemic toxicity is rare, but severe swelling can occasionally compromise breathing.",
-      "description": "in cats: ◦ Physical Trauma: The crystals are bundled within specialized plant cells known as idioblasts. When a cat bites or chews on the plant, these cells rupture, forcefully ejecting the needle-sharp raphides into the sensitive soft tissues of the mouth, tongue, throat, and esophagus. ◦ Immediate Irritation: This mechanical action causes immediate, intense pain, burning sensations, and inflamma",
+      "description": "◦ Physical Trauma: The crystals are bundled within specialized plant cells known as idioblasts. When a cat bites or chews on the plant, these cells rupture, forcefully ejecting the needle-sharp raphides into the sensitive soft tissues of the mouth, tongue, throat, and esophagus.",
       "name": "Insoluble Calcium Oxalate (specifically appearing as needle-like crystals called raphides)"
     }
   ],
@@ -25,7 +25,7 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Intense burning sensation, pain, and irritation of the mouth, tongue, and lips",
-      "notes": "The plant contains microscopic, needle-like crystals (raphides) that embed into the soft tissues of the mouth immediately upon contact. This pain typically deters the cat from consuming large amounts.Excessive Drooling",
+      "notes": "The plant contains microscopic, needle-like crystals (raphides) that embed into the soft tissues of the mouth immediately upon contact. This pain typically deters the cat from consuming large amounts.",
       "onset": "Immediate upon chewing or biting into the plant.",
       "severity": "moderate"
     },
@@ -39,21 +39,21 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting and Anorexia (Decreased appetite)",
-      "notes": "While vomiting is a common sign, diarrhea is less frequent. Anorexia (refusal to eat) is often secondary to the pain in the mouth rather than systemic toxicity.Difficulty Swallowing",
+      "notes": "While vomiting is a common sign, diarrhea is less frequent. Anorexia (refusal to eat) is often secondary to the pain in the mouth rather than systemic toxicity.",
       "onset": "Rapid (shortly after ingestion).",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Dysphagia (Difficulty swallowing)",
-      "notes": "The swelling and irritation of the tongue and pharynx make swallowing painful and difficult for the cat.Airway Obstruction / Difficulty Breathing",
+      "notes": "The swelling and irritation of the tongue and pharynx make swallowing painful and difficult for the cat.",
       "onset": "Immediate to rapid.",
       "severity": "moderate"
     },
     {
       "body_system": "Respiratory",
       "name": "Dyspnea (Difficulty breathing) due to laryngeal edema",
-      "notes": "In rare cases, the inflammatory response can cause swelling of the upper airway (tongue, throat, larynx), which can block air passages and compromise breathing. This requires immediate veterinary attention.Important Clinical Distinction: It is critical to note that Calla Lilies are considered \"impos",
+      "notes": "In rare cases, the inflammatory response can cause swelling of the upper airway (tongue, throat, larynx), which can block air passages and compromise breathing. This requires immediate veterinary attention.",
       "onset": "Rapid (as swelling develops).",
       "severity": "severe"
     }

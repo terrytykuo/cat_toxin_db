@@ -10,18 +10,18 @@
     },
     {
       "chemical_formula": "Not available.",
-      "concentration_notes": "or potency: There is no established toxic dose for cats. In dogs, the toxic dose ranges widely from 2.4 to 62.4 grams of nuts per kilogram of body weight, meaning even a very small amount can trigger illness in some animals",
-      "description": "The exact mechanism of toxicity is unknown3. While data on its specific effects in cats is limited, in dogs, this unknown toxin directly affects the muscles, digestive system, and nervous system, leading to weakness, tremors, ataxia (loss of coordination), and hyperthermia1.... Because of its severe effects on dogs, it is treated as a major safety concern for felines4. Any notes on concentration o",
+      "concentration_notes": "or potency: There is no established toxic dose for cats. In dogs, the toxic dose ranges widely from 2.4 to 62.4 grams of nuts per kilogram of body weight, meaning even a very small amount can trigger illness in some animals.",
+      "description": "The exact mechanism of toxicity is unknown3. While data on its specific effects in cats is limited, in dogs, this unknown toxin directly affects the muscles, digestive system, and nervous system, leading to weakness, tremors, ataxia (loss of coordination), and hyperthermia1. Because of its severe effects on dogs, it is treated as a major safety concern for felines.",
       "name": "The Unidentified Macadamia Toxin"
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: While an exact toxic threshold for fat ingestion is not specified, the sources note that the rich fat content in nuts makes them hazardous in virtually any quantity, and even small amounts can cause digestive upset or trigger pancreatitis in susceptible cats48. (Note: In addition to these substances, macadamia nuts pose a severe physical choking hazard to cats, and salted varieties int",
-      "description": "Cats are obligate carnivores, and their digestive systems are not equipped to handle rich, fatty, plant-based foods4. Ingesting the high amounts of fat and oil found in macadamia nuts overwhelms the feline digestive tract. This leads to severe gastrointestinal irritation (vomiting and diarrhea) and can trigger pancreatitis—a highly painful and potentially life-threatening inflammation of the pancr",
+      "concentration_notes": "or potency: While an exact toxic threshold for fat ingestion is not specified, the sources note that the rich fat content in nuts makes them hazardous in virtually any quantity, and even small amounts can cause digestive upset or trigger pancreatitis in susceptible cats.",
+      "description": "Cats are obligate carnivores, and their digestive systems are not equipped to handle rich, fatty, plant-based foods4. Ingesting the high amounts of fat and oil found in macadamia nuts overwhelms the feline digestive tract.",
       "name": "High Concentrations of Plant-Based Fats and Oils"
     }
   ],
-  "description": "Macadamia nuts are toxic to cats (and dogs), though less extensively studied in cats than in dogs. The specific toxic compound has not been identified, but ingestion consistently causes a distinctive syndrome of weakness, hyperthermia, vomiting, and tremors. The high fat content also poses an independent risk of pancreatitis.",
+  "description": "Macadamia nuts are toxic to cats, although scientists are still trying to figure out exactly which chemical causes the reaction. Even a small amount can make a cat sick, and the high fat content in these nuts can also cause a painful stomach condition called pancreatitis.\n\nWhen a cat eats macadamia nuts, they often develop a specific set of symptoms within 12 hours. The most common signs are weakness (especially in the back legs), shaking or tremors, vomiting, and a high fever. Because many macadamia products like cookies also contain chocolate or raisins, the danger can be even higher.\n\nBecause the exact cause of the poisoning is still a mystery, it is best to keep all macadamia nuts and products containing them far away from your pets. If your cat eats any amount of these nuts, please contact a veterinarian and monitor them closely for any signs of weakness or shaking.",
   "emergencyNote": "While clinical signs of the specific macadamia nut toxin have only been formally documented in dogs, the nuts are still considered highly dangerous to cats due to their potential toxicity",
   "family": "Various",
   "isToxic": true,
@@ -44,42 +44,42 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting and Diarrhea",
-      "notes": "Cats are obligate carnivores, and their digestive systems are not equipped to handle the high amounts of plant-based fats, oils, and fiber found in macadamia nuts. This leads to rapid gastrointestinal irritation and upset",
+      "notes": "Cats are obligate carnivores, and their digestive systems are not equipped to handle the high amounts of plant-based fats, oils, and fiber found in macadamia nuts. This leads to rapid gastrointestinal irritation and upset.",
       "onset": "Usually within 12 hours of ingestion.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Abdominal Pain and Loss of Appetite",
-      "notes": "These symptoms generally accompany vomiting and diarrhea as the cat's digestive tract struggles to break down the dense, fatty nuts",
+      "notes": "These symptoms generally accompany vomiting and diarrhea as the cat's digestive tract struggles to break down the dense, fatty nuts.",
       "onset": "Within 12 hours.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Pancreatitis",
-      "notes": "This is a highly painful and potentially life-threatening condition. The extremely rich fat content of macadamia nuts can overwhelm the feline pancreas, triggering acute inflammation that requires immediate and intensive veterinary care",
+      "notes": "This is a highly painful and potentially life-threatening condition. The extremely rich fat content of macadamia nuts can overwhelm the feline pancreas, triggering acute inflammation that requires immediate and intensive veterinary care.",
       "onset": "Delayed (typically develops 24 to 72 hours after ingesting a high-fat load).",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Lethargy, Weakness, and Tremors",
-      "notes": "While the unknown macadamia toxin is most famous for causing profound hind-leg weakness and ataxia (loss of coordination) in dogs, veterinary sources warn that macadamia nuts can also negatively affect a cat's nervous system and muscles, leading to tremors, severe lethargy, and difficulty moving",
+      "notes": "While the unknown macadamia toxin is most famous for causing profound hind-leg weakness and ataxia (loss of coordination) in dogs, veterinary sources warn that macadamia nuts can also negatively affect a cat's nervous system and muscles, leading to tremors, severe lethargy, and difficulty moving.",
       "onset": "Within 12 hours.",
       "severity": "moderate"
     },
     {
       "body_system": "Neurological",
       "name": "Hyperthermia (Fever)",
-      "notes": "Elevated body temperature is a documented clinical sign of macadamia nut toxicosis in pets, often occurring alongside muscle tremors and joint stiffness",
+      "notes": "Elevated body temperature is a documented clinical sign of macadamia nut toxicosis in pets, often occurring alongside muscle tremors and joint stiffness.",
       "onset": "Within 12 hours.",
       "severity": "moderate"
     },
     {
       "body_system": "Respiratory",
       "name": "Difficulty Breathing (Choking/Obstruction)",
-      "notes": "This symptom is caused by a mechanical hazard rather than a chemical toxin. The hard, round shape and texture of whole macadamia nuts make them a severe choking hazard for cats, which can block the airway or lead to dangerous intestinal blockages",
+      "notes": "This symptom is caused by a mechanical hazard rather than a chemical toxin. The hard, round shape and texture of whole macadamia nuts make them a severe choking hazard for cats, which can block the airway or lead to dangerous intestinal blockages.",
       "onset": "Immediate (during ingestion).",
       "severity": "fatal"
     }
@@ -96,27 +96,27 @@
       "priority": 1
     },
     {
-      "description": "of the procedure: A veterinarian administers medication to safely induce vomiting, expelling the nuts from the stomach before the fat and potential toxins can be absorbed. This may be followed by the administration of oral activated charcoal to bind remaining toxins, or mild laxatives to help the remaining ingesta pass safely through the digestive tract24. Any situation-specific",
+      "description": "of the procedure: A veterinarian administers medication to safely induce vomiting, expelling the nuts from the stomach before the fat and potential toxins can be absorbed. This may be followed by the administration of oral activated charcoal to bind remaining toxins, or mild laxatives to help the remaining ingesta pass safely through the digestive tract.",
       "name": "Early Gastrointestinal Decontamination",
-      "notes": "This is the most urgent first step, but it is only indicated for recent ingestions where the pet is still asymptomatic4. Pet owners must never attempt to induce vomiting at home without professional veterinary guidance, as doing so improperly can cause severe harm",
+      "notes": "This is the most urgent first step, but it is only indicated for recent ingestions where the pet is still asymptomatic4. Pet owners must never attempt to induce vomiting at home without professional veterinary guidance, as doing so improperly can cause severe harm.",
       "priority": 2
     },
     {
-      "description": "of the procedure: Hospitalizing the pet to administer continuous IV fluids to maintain systemic hydration and support the cardiovascular system24. Any situation-specific",
+      "description": "of the procedure: Hospitalizing the pet to administer continuous IV fluids to maintain systemic hydration and support the cardiovascular system.",
       "name": "Intravenous (IV) Fluid Therapy",
-      "notes": "This supportive treatment is indicated for severely affected animals, particularly if the cat has suffered significant fluid loss from vomiting and diarrhea",
+      "notes": "This supportive treatment is indicated for severely affected animals, particularly if the cat has suffered significant fluid loss from vomiting and diarrhea.",
       "priority": 3
     },
     {
-      "description": "of the procedure: Administering specific, veterinary-approved medications to relieve pain (analgesics) and bring down an elevated body temperature (antipyretics)24. Any situation-specific",
+      "description": "of the procedure: Administering specific, veterinary-approved medications to relieve pain (analgesics) and bring down an elevated body temperature (antipyretics).",
       "name": "Symptomatic Medications (Fever and Pain Relief)",
-      "notes": "This is utilized if the pet becomes severely affected and develops a fever (hyperthermia), muscle tremors, or painful joint stiffness",
+      "notes": "This is utilized if the pet becomes severely affected and develops a fever (hyperthermia), muscle tremors, or painful joint stiffness.",
       "priority": 4
     },
     {
-      "description": "of the procedure: Providing intensive hospital care (including anti-nausea meds and pain control) to treat severe inflammation of the pancreas, or performing surgery to manually extract nuts blocking the digestive tract. Any situation-specific",
+      "description": "of the procedure: Providing intensive hospital care (including anti-nausea meds and pain control) to treat severe inflammation of the pancreas, or performing surgery to manually extract nuts blocking the digestive tract.",
       "name": "Intensive Complication Management (Pancreatitis or Obstruction)",
-      "notes": "Macadamia nuts are extremely high in fat, which can overwhelm a cat's digestive system and trigger pancreatitis—a highly painful condition that requires immediate, intensive veterinary care6.... Additionally, because the nuts are hard and round, they present a physical choking or intestinal obstruct",
+      "notes": "Macadamia nuts are extremely high in fat, which can overwhelm a cat's digestive system and trigger pancreatitis—a highly painful condition that requires immediate, intensive veterinary care.",
       "priority": 5
     }
   ]

@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ Highest Concentration: The toxins are found in all parts of the plant, but the flowers contain the highest concentration of bufadienolides1. ◦ Potency: The plant is considered to have high severity toxicity1. While often associated with gastrointestinal signs like vomiting and diarrhea, large ingestions can lead to severe cardiac signs (abnormal heart rate/rhythm), tremors, seizures, and collaps",
-      "description": "in cats: ◦ Cardiovascular System Interference: Cardiac glycosides inhibit the Na+/K+ ATPase pump (sodium-potassium pump) in the cells. This inhibition causes an increase in intracellular calcium (Ca ++ ), along with an accumulation of intracellular sodium (Na + ) and extracellular potassium (K + )3. ◦ Physiological Effect: These cellular changes lead to more forceful but slower cardiac contraction",
+      "concentration_notes": "◦ Highest Concentration: The toxins are found in all parts of the plant, but the flowers contain the highest concentration of bufadienolides1. ◦ Potency: The plant is considered to have high severity toxicity.",
+      "description": "◦ Cardiovascular System Interference: Cardiac glycosides inhibit the Na+/K+ ATPase pump (sodium-potassium pump) in the cells. This inhibition causes an increase in intracellular calcium (Ca ++ ), along with an accumulation of intracellular sodium (Na + ) and extracellular potassium (K + ).",
       "name": "Bufadienolide cardiac glycosides"
     }
   ],
-  "description": "Kalanchoe (Kalanchoe spp.), sold under names including Flaming Katy, Mother of Millions, and Widow's Thrill, is a popular succulent houseplant toxic to cats. It contains bufadienolide cardiac glycosides — related to but distinct from digitalis — concentrated throughout the plant. These compounds disrupt cardiac electrical conduction in a manner similar to Foxglove poisoning.",
+  "description": "Kalanchoe (Kalanchoe spp.) is a popular succulent houseplant sold under names such as Flaming Katy, Mother of Millions, and Widow’s Thrill. It is toxic to cats.\n\nKalanchoe contains bufadienolide cardiac glycosides. These chemicals can disturb the electrical signals that keep the heart beating normally. Smaller exposures often start with stomach upset, but larger exposures can affect heart rhythm.\n\nA cat that eats kalanchoe may vomit, have diarrhea, drool, seem weak, or lose interest in food. Serious cases can cause an abnormal heartbeat, collapse, or seizures. Keep kalanchoe plants away from cats, and call a veterinarian promptly if your cat eats any part of the plant.",
   "emergencyNote": "Gastrointestinal Decontamination (Emesis and Activated Charcoal)",
   "family": "Crassulaceae",
   "isToxic": true,
@@ -27,28 +27,28 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, Diarrhea, Drooling (Hypersalivation), Abdominal Pain",
-      "notes": "These are the most frequent symptoms. Persistent vomiting can lead to dehydration.Cardiac Abnormalities",
+      "notes": "These are the most frequent symptoms. Persistent vomiting can lead to dehydration.",
       "onset": "Within the first 2 hours after exposure.",
       "severity": "moderate"
     },
     {
       "body_system": "Cardiac",
       "name": "Abnormal Heart Rhythm (Arrhythmias), Bradycardia (Slow Heart Rate), or Tachycardia (Fast Heart Rate)",
-      "notes": "The cardiac glycosides inhibit the Na+/K+ ATPase pump, leading to electrolyte imbalances (hyperkalemia) and potentially fatal heart block or collapse. The flowers contain the highest concentration of toxins.Neurological Dysfunction",
+      "notes": "The cardiac glycosides inhibit the Na+/K+ ATPase pump, leading to electrolyte imbalances (hyperkalemia) and potentially fatal heart block or collapse. The flowers contain the highest concentration of toxins.",
       "onset": "Within the first 2 hours; signs can persist for 4–5 days.",
       "severity": "fatal"
     },
     {
       "body_system": "Neurological",
       "name": "Weakness, Depression, Tremors, Ataxia (Loss of Coordination), Seizures (Rare)",
-      "notes": "Neurological signs like paralysis and tremors indicate significant toxicity. Weakness is a common early sign alongside gastrointestinal upset.Respiratory Distress",
+      "notes": "Neurological signs like paralysis and tremors indicate significant toxicity. Weakness is a common early sign alongside gastrointestinal upset.",
       "onset": "Within the first 2 hours.",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Rapid Breathing (Tachypnea), Difficulty Breathing",
-      "notes": "Rapid breathing often accompanies cardiac and neurological distress.Electrolyte Imbalance",
+      "notes": "Rapid breathing often accompanies cardiac and neurological distress.",
       "onset": "Within the first 2 hours.",
       "severity": "severe"
     },
@@ -69,7 +69,7 @@
     {
       "description": "If the cat is asymptomatic (showing no symptoms yet), the veterinarian will induce vomiting (emesis) to remove plant material from the stomach. This is followed by the administration of activated charcoal with a cathartic to bind toxins.",
       "name": "Gastrointestinal Decontamination (Emesis and Activated Charcoal)",
-      "notes": "Because cardiac glycosides undergo \"enterohepatic recirculation\" (the body recycles the toxin), veterinarians recommend repeating the dose of activated charcoal (without a cathartic) every 6–8 hours for a total of 3 doses. Do not attempt to induce vomiting at home unless explicitly directed by a pro",
+      "notes": "Because cardiac glycosides undergo \"enterohepatic recirculation\" (the body recycles the toxin), veterinarians recommend repeating the dose of activated charcoal (without a cathartic) every 6–8 hours for a total of 3 doses.",
       "priority": 1
     },
     {

@@ -39,21 +39,21 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "2–24 hours (typically the initial sign)",
-      "notes": "Solanine interacts directly with the cell membranes, specifically causing destruction, irritation, and inflammation to the intestinal epithelial cells7. This leads to violent lower gastrointestinal problems and tense abdominal walls. 2. Hypersalivation and Mucous Membrane Irritation"
+      "notes": "Solanine interacts directly with the cell membranes, specifically causing destruction, irritation, and inflammation to the intestinal epithelial cells7. This leads to violent lower gastrointestinal problems and tense abdominal walls."
     },
     {
       "name": "Excessive drooling (hypersalivation), burning sensation, and coughing",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "2–24 hours",
-      "notes": "This is caused by the direct irritating effect of the plant material on the mucous membranes, as well as the overstimulation of the parasympathetic nervous system4. 3. Neurological Abnormalities (Lethargy, Tremors, Seizures, and Ataxia)"
+      "notes": "This is caused by the direct irritating effect of the plant material on the mucous membranes, as well as the overstimulation of the parasympathetic nervous system."
     },
     {
       "name": "Lethargy, depression, confusion, dilated pupils, ataxia (loss of coordination), muscle tremors, stupor, and seizures",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "2–24 hours (typically follows gastrointestinal symptoms as the toxin is absorbed into the bloodstrea",
-      "notes": "Solanine inhibits the enzyme acetylcholinesterase in the brain and impairs mitochondrial function, severely disrupting the central nervous system3. Cats are exceptionally sensitive to these toxins because their specific liver metabolism (lack of glucuronidation) slows detoxification, resulting in more severe and prolonged neurological effects than in dogs. 4. Cardiac and Circulatory Disorders"
+      "notes": "Solanine inhibits the enzyme acetylcholinesterase in the brain and impairs mitochondrial function, severely disrupting the central nervous system3. Cats are exceptionally sensitive to these toxins because their specific liver metabolism (lack of glucuronidation) slows detoxification, resulting in more severe and prolonged neurological effects than in dogs."
     },
     {
       "name": "Abnormally slow heart rate (bradycardia)",
@@ -66,32 +66,32 @@
   "treatments": [
     {
       "name": "Oxygen Therapy, Mechanical Ventilation, and Anticonvulsant Medications",
-      "description": "The veterinarian will provide supplemental oxygen or utilize mechanical ventilation to support breathing. Seizures are actively controlled using anticonvulsant medications such as benzodiazepines or barbiturates",
-      "notes": "This is the most critical, life-saving intervention if the cat presents in the severe, terminal stages of poisoning, which can cause severe respiratory depression, respiratory paralysis, and active seizures. 2. Gastrointestinal Decontamination",
+      "description": "The veterinarian will provide supplemental oxygen or utilize mechanical ventilation to support breathing. Seizures are actively controlled using anticonvulsant medications such as benzodiazepines or barbiturates.",
+      "notes": "This is the most critical, life-saving intervention if the cat presents in the severe, terminal stages of poisoning, which can cause severe respiratory depression, respiratory paralysis, and active seizures.",
       "priority": 1
     },
     {
       "name": "Induction of Emesis (Vomiting), Gastric Lavage, and Activated Charcoal",
-      "description": "The veterinarian will remove the toxin from the stomach by medically inducing vomiting (typically using xylazine in cats) or by performing a gastric lavage (stomach pumping) under anesthesia3. Following this, activated charcoal (1–4 g/kg body weight) is administered to bind to any unabsorbed solanine in the gastrointestinal tract and pass it safely",
-      "notes": "Inducing vomiting should only be performed if the ingestion was very recent (within 1 to 2 hours) and the cat has absent or only mild symptoms3. In cases of severe poisoning, the activated charcoal administration may need to be repeated multiple times at 4- to 6-hour intervals. 3. Fluid Therapy and Renal Protection",
+      "description": "The veterinarian will remove the toxin from the stomach by medically inducing vomiting (typically using xylazine in cats) or by performing a gastric lavage (stomach pumping) under anesthesia3. Following this, activated charcoal (1–4 g/kg body weight) is administered to bind to any unabsorbed solanine in the gastrointestinal tract and pass it safely.",
+      "notes": "Inducing vomiting should only be performed if the ingestion was very recent (within 1 to 2 hours) and the cat has absent or only mild symptoms3. In cases of severe poisoning, the activated charcoal administration may need to be repeated multiple times at 4- to 6-hour intervals.",
       "priority": 2
     },
     {
       "name": "Intravenous (IV) Fluid Therapy with Crystalloid Solutions",
-      "description": "IV fluids are administered to correct dehydration caused by severe vomiting and diarrhea, stimulate diuresis (urine production), and promote the excretion of the toxins",
-      "notes": "If the cat's blood work or urine shows signs of hemolysis (destruction of red blood cells), the veterinarian must increase the IV infusion rate. This is critical to ensure adequate blood flow (perfusion) to the kidneys and prevent the released hemoglobin from causing acute kidney failure. 4. Targeted Symptomatic Therapy",
+      "description": "IV fluids are administered to correct dehydration caused by severe vomiting and diarrhea, stimulate diuresis (urine production), and promote the excretion of the toxins.",
+      "notes": "If the cat's blood work or urine shows signs of hemolysis (destruction of red blood cells), the veterinarian must increase the IV infusion rate. This is critical to ensure adequate blood flow (perfusion) to the kidneys and prevent the released hemoglobin from causing acute kidney failure.",
       "priority": 3
     },
     {
       "name": "Atropine Administration",
-      "description": "The veterinarian will administer atropine to partially compensate for the effects of the toxin on the brain and nervous system",
-      "notes": "There is no direct, specific antidote for solanine poisoning; however, atropine is highly effective at treating the specific cholinergic symptoms of the poisoning, such as an abnormally slow heart rate (bradycardia) and excessive drooling. 5. Ongoing Monitoring and Dietary Aftercare",
+      "description": "The veterinarian will administer atropine to partially compensate for the effects of the toxin on the brain and nervous system.",
+      "notes": "There is no direct, specific antidote for solanine poisoning; however, atropine is highly effective at treating the specific cholinergic symptoms of the poisoning, such as an abnormally slow heart rate (bradycardia) and excessive drooling.",
       "priority": 4
     },
     {
       "name": "Organ Monitoring and Bland Diet",
-      "description": "The cat's vital parameters, blood counts, and kidney functions will be continuously monitored throughout the hospital stay1. Upon returning home, the cat is fed a gentle, easily digestible diet for 3 to 5 days",
-      "notes": "Because kidney and liver damage can occur with a delay following nightshade poisoning, aftercare requires regular veterinary monitoring of liver and kidney functions for several weeks after the acute phase has passed",
+      "description": "The cat's vital parameters, blood counts, and kidney functions will be continuously monitored throughout the hospital stay1. Upon returning home, the cat is fed a gentle, easily digestible diet for 3 to 5 days.",
+      "notes": "Because kidney and liver damage can occur with a delay following nightshade poisoning, aftercare requires regular veterinary monitoring of liver and kidney functions for several weeks after the acute phase has passed.",
       "priority": 5
     }
   ],

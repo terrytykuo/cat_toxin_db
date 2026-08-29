@@ -5,13 +5,13 @@
     {
       "chemical_formula": "Not explicitly provided in the sources.",
       "concentration_notes": "◦ Found in the sap present in the leaves and stems. The overall severity of toxicity is considered mild.",
-      "description": "in cats: ◦ These enzymes break down proteins and act as an irritant. When the cat chews the plant, the release of these enzymes causes mild oral irritation, drooling, and vomiting.",
+      "description": "◦ These enzymes break down proteins and act as an irritant. When the cat chews the plant, the release of these enzymes causes mild oral irritation, drooling, and vomiting.",
       "name": "Proteolytic enzymes, specifically identified as ficin in Ficus species"
     },
     {
       "chemical_formula": "Not explicitly provided in the sources.",
       "concentration_notes": "◦ These toxins are concentrated in the sap found throughout the leaves and stems.",
-      "description": "in cats: ◦ These compounds contribute to the irritant nature of the plant. Contact with the sap can lead to dermatitis (skin irritation/redness) if it touches the skin, alongside gastrointestinal upset (vomiting) if ingested.",
+      "description": "◦ These compounds contribute to the irritant nature of the plant. Contact with the sap can lead to dermatitis (skin irritation/redness) if it touches the skin, alongside gastrointestinal upset (vomiting) if ingested.",
       "name": "Psoralens (specifically ficusin) or furocoumarins"
     }
   ],
@@ -32,21 +32,21 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Mild Oral Irritation (burning sensation in mouth/tongue)",
-      "notes": "The sap contains irritant enzymes that cause immediate discomfort to the mucous membranes of the mouth.Excessive Drooling",
+      "notes": "The sap contains irritant enzymes that cause immediate discomfort to the mucous membranes of the mouth.",
       "onset": "Immediate (Upon chewing or contact with sap).",
       "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Drooling / Hypersalivation",
-      "notes": "This is a secondary response to the oral irritation and burning sensation caused by the plant's sap.Vomiting",
+      "notes": "This is a secondary response to the oral irritation and burning sensation caused by the plant's sap.",
       "onset": "Acute (Shortly after exposure).",
       "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting",
-      "notes": "Ingestion of the sap can upset the stomach. Symptoms are usually self-limiting, but persistent vomiting may require veterinary attention.Dermatitis",
+      "notes": "Ingestion of the sap can upset the stomach. Symptoms are usually self-limiting, but persistent vomiting may require veterinary attention.",
       "onset": "Acute.",
       "severity": "mild"
     },

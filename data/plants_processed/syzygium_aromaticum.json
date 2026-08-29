@@ -6,27 +6,27 @@
     {
       "name": "Clove Essential Oil (Categorized under essential oils known to be toxic to cats)",
       "chemical_formula": "Not provided in the sources.",
-      "description": "in cats: ◦ Hepatic Enzyme Deficiency: Cats possess a unique metabolic profile that lacks specific liver enzymes (specifically hepatic glucuronosyltransferase) required to break down and glucuronidate certain organic compounds found in essential oils2. ◦ Accumulation and Organ Damage: Because the cat's liver cannot effectively process or eliminate these toxins, they accumulate in the body, leading ",
-      "concentration_notes": "◦ High Toxicity: The oil is considered toxic and can be harmful even in small quantities, such as a single drop of concentrated product4. ◦ \"Neat\" Application: The risk is highest when the oil is used \"neat\" (undiluted) rather than in low-concentration cosmetic products5. Toxicity can occur through ingestion (licking fur), inhalation, or direct skin contact"
+      "description": "◦ Hepatic Enzyme Deficiency: Cats possess a unique metabolic profile that lacks specific liver enzymes (specifically hepatic glucuronosyltransferase) required to break down and glucuronidate certain organic compounds found in essential oils.",
+      "concentration_notes": "◦ High Toxicity: The oil is considered toxic and can be harmful even in small quantities, such as a single drop of concentrated product4. ◦ \"Neat\" Application: The risk is highest when the oil is used \"neat\" (undiluted) rather than in low-concentration cosmetic products5. Toxicity can occur through ingestion (licking fur), inhalation, or direct skin contact."
     }
   ],
   "treatments": [
     {
       "name": "Warm Water Bath with Liquid Dish Soap",
       "description": "If the cat has Clove oil on its skin or fur, the veterinarian (or owner, under guidance) must bathe the cat using lukewarm water and a liquid dish soap (degreaser) to thoroughly remove the oily residue. This prevents the cat from absorbing more toxins through the skin or ingesting them while grooming.",
-      "notes": "This is urgent because cats are fastidious groomers. Do not use solvents or other cleaning products to remove the oil, as these can be toxic themselves.Oral Decontamination — Do NOT Induce Vomiting",
+      "notes": "This is urgent because cats are fastidious groomers. Do not use solvents or other cleaning products to remove the oil, as these can be toxic themselves.",
       "priority": 1
     },
     {
       "name": "Mouth Rinsing / Dilution",
       "description": "If the oil was ingested, the veterinarian may rinse the cat’s mouth with lukewarm water to remove localized traces of the oil. They may also administer small amounts of liquid (like milk or water) to dilute the substance.",
-      "notes": "Inducing vomiting is contraindicated (not recommended) for essential oil ingestion. Clove oil can cause chemical burns to the mouth and esophagus; bringing it back up can worsen this damage or lead to aspiration (inhaling the oil into the lungs), which causes severe pneumonia.Aggressive Supportive C",
+      "notes": "Inducing vomiting is contraindicated (not recommended) for essential oil ingestion. Clove oil can cause chemical burns to the mouth and esophagus; bringing it back up can worsen this damage or lead to aspiration (inhaling the oil into the lungs), which causes severe pneumonia.",
       "priority": 2
     },
     {
       "name": "Intravenous (IV) Fluid Therapy and Oxygen Supplementation",
       "description": "The administration of IV fluids to maintain hydration, blood pressure, and assist the body in eliminating toxins. If the cat is experiencing difficulty breathing (a symptom of essential oil poisoning), oxygen therapy may be required.",
-      "notes": "Essential oils can cause liver injury, seizures, and respiratory distress. Aggressive care is often needed to support the cat's organs while the liver attempts to process the toxins, a task made difficult by the cat's lack of specific liver enzymes (glucuronosyltransferase).Symptomatic Management (P",
+      "notes": "Essential oils can cause liver injury, seizures, and respiratory distress. Aggressive care is often needed to support the cat's organs while the liver attempts to process the toxins, a task made difficult by the cat's lack of specific liver enzymes (glucuronosyltransferase).",
       "priority": 3
     },
     {
@@ -65,26 +65,26 @@
       "name": "Tremors, shaking, and ataxia (walking as if drunk)",
       "body_system": "Neurological",
       "severity": "severe",
-      "notes": "Cats may also experience collapse or seizures, indicating severe central nervous system toxicity.Respiratory Distress"
+      "notes": "Cats may also experience collapse or seizures, indicating severe central nervous system toxicity."
     },
     {
       "name": "Difficulty breathing (Dyspnea) or breathing with the mouth open",
       "body_system": "Respiratory",
       "severity": "severe",
-      "notes": "This can occur from inhalation (diffusers) or aspiration if the cat vomits. Nebulized or ultrasonically diffused neat oils pose a greater risk.Chemical Burns"
+      "notes": "This can occur from inhalation (diffusers) or aspiration if the cat vomits. Nebulized or ultrasonically diffused neat oils pose a greater risk."
     },
     {
       "name": "Soreness, redness, or chemical burns",
       "body_system": "Dermal",
       "severity": "severe",
       "onset": "Rapid (upon contact).",
-      "notes": "Direct skin contact with the oil can cause burns. Even if there is no visible damage to the skin, the cat may still be poisoned by absorbing the toxins or licking them off their fur.Gastrointestinal Upset"
+      "notes": "Direct skin contact with the oil can cause burns. Even if there is no visible damage to the skin, the cat may still be poisoned by absorbing the toxins or licking them off their fur."
     },
     {
       "name": "Vomiting and excessive dribbling (hypersalivation)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "Vomiting is a common sign of essential oil poisoning. High fat levels in carrier oils can also contribute to tummy upsets.Lethargy"
+      "notes": "Vomiting is a common sign of essential oil poisoning. High fat levels in carrier oils can also contribute to tummy upsets."
     },
     {
       "name": "Lethargy, depression, or dullness",

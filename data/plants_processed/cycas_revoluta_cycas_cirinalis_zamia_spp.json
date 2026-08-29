@@ -4,18 +4,18 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "While cycasin is present in all parts of the plant, it is most highly concentrated in the seeds (or \"nuts\")25. The toxin is incredibly potent and lethal; the ingestion of as little as 1 to 2 seeds can be fatal to a pet",
-      "description": "in cats: When ingested, cycasin is broken down (hydrolyzed) by the cat's intestinal bacteria into a toxic component called methylazoxymethanol34. This active metabolite causes profound hepatic necrosis, resulting in severe liver damage and fulminant liver failure2.... It also contributes to severe gastrointestinal distress and central nervous system (CNS) effects",
+      "concentration_notes": "While cycasin is present in all parts of the plant, it is most highly concentrated in the seeds (or \"nuts\")25. The toxin is incredibly potent and lethal; the ingestion of as little as 1 to 2 seeds can be fatal to a pet.",
+      "description": "When ingested, cycasin is broken down (hydrolyzed) by the cat's intestinal bacteria into a toxic component called methylazoxymethanol34. This active metabolite causes profound hepatic necrosis, resulting in severe liver damage and fulminant liver failure2. It also contributes to severe gastrointestinal distress and central nervous system (CNS) effects.",
       "name": "Cycasin"
     },
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "Like cycasin, BMAA is present throughout the entire plant, making any part of the cycad dangerous if ingested12. The seeds pose the highest risk of acute poisoning",
-      "description": "in cats: BMAA is a neurotoxin that primarily affects the central nervous system (CNS)12. It contributes to the severe neurological symptoms seen in cycad poisoning, such as lethargy, paralysis, tremors, and seizures",
+      "concentration_notes": "Like cycasin, BMAA is present throughout the entire plant, making any part of the cycad dangerous if ingested12. The seeds pose the highest risk of acute poisoning.",
+      "description": "BMAA is a neurotoxin that primarily affects the central nervous system (CNS)12. It contributes to the severe neurological symptoms seen in cycad poisoning, such as lethargy, paralysis, tremors, and seizures.",
       "name": "Beta-methylamino-L-alanine (BMAA)"
     }
   ],
-  "description": "Sago Palm (Cycas revoluta) and related cycad species are among the most hepatotoxic plants known, with a case fatality rate exceeding 50% even with treatment. Every part is toxic — but the seeds (\"nuts\") are the most concentrated source. Cycasin, the primary toxin, causes rapid, severe liver failure that is often fatal.",
+  "description": "Sago Palm (Cycas revoluta) and other cycads are extremely dangerous and highly toxic to cats. Every single part of the plant—leaves, trunk, and roots—is poisonous, but the seeds (or \"nuts\") contain the highest concentration of toxins and are the most deadly part. Ingesting just one or two seeds can be fatal.\n\nThe main toxin, cycasin, causes severe and rapid liver failure. When a cat eats any part of the plant, the toxin is absorbed and begins to destroy liver cells. This damage is often irreversible and happens very quickly. The plant also contains other toxins that affect the nervous system.\n\nSymptoms of Sago Palm poisoning can appear within hours and include vomiting (sometimes with blood), diarrhea, drooling, weakness, and loss of appetite. As the liver fails, you may see yellowing of the skin and eyes (jaundice), seizures, and bleeding. Any suspected ingestion is a life-threatening emergency. Please contact a veterinarian or an emergency animal hospital immediately.",
   "emergencyNote": "Emesis Induction and Activated Charcoal",
   "family": "Zamiaceae",
   "isToxic": true,
@@ -33,28 +33,28 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, drooling, anorexia, severe abdominal pain, increased thirst, and diarrhea (which may be bloody or appear as black, \"tarry\" feces)",
-      "notes": "These initial stomach and intestinal symptoms act as an early indicator of poisoning before the plant's toxins begin destroying the internal organs56. 2. Fulminant Liver Failure and Hepatic Necrosis",
+      "notes": "These initial stomach and intestinal symptoms act as an early indicator of poisoning before the plant's toxins begin destroying the internal organs.",
       "onset": "Initial clinical signs typically appear rapidly, often within the first 4 hours of ingestion",
       "severity": "severe"
     },
     {
       "body_system": "Hepatic",
       "name": "Jaundice (yellowing of the skin and eyes), profound hepatic necrosis, and severe liver failure",
-      "notes": "This is caused by cycasin, a highly toxic compound in the plant that is broken down in the gut into methylazoxymethanol, which aggressively attacks the liver37. Ingesting as little as 1 to 2 seeds can cause fatal liver failure1. 3. Coagulopathy (Bleeding Disorders)",
+      "notes": "This is caused by cycasin, a highly toxic compound in the plant that is broken down in the gut into methylazoxymethanol, which aggressively attacks the liver37. Ingesting as little as 1 to 2 seeds can cause fatal liver failure.",
       "onset": "Progresses over 48 to 72 hours following ingestion",
       "severity": "fatal"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Bruising, blood clots, petechiae (pinpoint spots of bleeding), ecchymotic hemorrhages, and generalized abnormal bleeding",
-      "notes": "As the liver tissue dies (hepatic necrosis), it loses its ability to produce essential clotting factors, leading to life-threatening secondary bleeding disorders throughout the body45. 4. Neurological Decline",
+      "notes": "As the liver tissue dies (hepatic necrosis), it loses its ability to produce essential clotting factors, leading to life-threatening secondary bleeding disorders throughout the body.",
       "onset": "Delayed; develops secondary to liver failure within 48 to 72 hours",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Lethargy, extreme weakness, ataxia (loss of coordination), tremors, paralysis, seizures, coma, and eventually death",
-      "notes": "These neurological symptoms are caused both directly by the plant's neurotoxin (beta-methylamino-L-alanine, or BMAA) and indirectly as a consequence of the liver shutting down1.... Because of the high mortality rate associated with these toxins, immediate veterinary decontamination and aggressive su",
+      "notes": "These neurological symptoms are caused both directly by the plant's neurotoxin (beta-methylamino-L-alanine, or BMAA) and indirectly as a consequence of the liver shutting down.",
       "onset": "Can begin developing within hours,",
       "severity": "fatal"
     }
@@ -68,27 +68,27 @@
   "toxicityLevel": "severe",
   "treatments": [
     {
-      "description": "If the cat is neurologically stable, the veterinarian will medically induce vomiting (emesis) to remove the plant material from the stomach, followed by administering an antiemetic (anti-nausea medication)1. Next, the cat will be given a dose of activated charcoal with a cathartic to bind to remaining toxins in the gut",
+      "description": "If the cat is neurologically stable, the veterinarian will medically induce vomiting (emesis) to remove the plant material from the stomach, followed by administering an antiemetic (anti-nausea medication)1. Next, the cat will be given a dose of activated charcoal with a cathartic to bind to remaining toxins in the gut.",
       "name": "Emesis Induction and Activated Charcoal",
-      "notes": "Because the plant's toxins undergo enterohepatic recirculation (cycling between the liver and intestines), the vet will recommend administering two additional doses of activated charcoal (without a cathartic) spaced 6 to 8 hours apart1. 2. In-Hospital Monitoring and Systemic Support",
+      "notes": "Because the plant's toxins undergo enterohepatic recirculation (cycling between the liver and intestines), the vet will recommend administering two additional doses of activated charcoal (without a cathartic) spaced 6 to 8 hours apart.",
       "priority": 1
     },
     {
-      "description": "The cat requires hospitalization to closely monitor for major gastrointestinal effects, neurological abnormalities, and progression to liver failure1. The veterinary team will run baseline laboratory tests to assess overall health and will evaluate the cat's liver enzymes daily for 72 hours",
+      "description": "The cat requires hospitalization to closely monitor for major gastrointestinal effects, neurological abnormalities, and progression to liver failure1. The veterinary team will run baseline laboratory tests to assess overall health and will evaluate the cat's liver enzymes daily for 72 hours.",
       "name": "Hospitalization and Laboratory Monitoring",
-      "notes": "The veterinary team must also closely monitor the cat's blood glucose and coagulation profile, as secondary bleeding disorders (coagulopathy) and low blood sugar (hypoglycemia) can develop2. If hypoglycemia occurs, the cat will need a continuous intravenous infusion of 2.5% to 5% dextrose2. 3. Liver",
+      "notes": "The veterinary team must also closely monitor the cat's blood glucose and coagulation profile, as secondary bleeding disorders (coagulopathy) and low blood sugar (hypoglycemia) can develop2. If hypoglycemia occurs, the cat will need a continuous intravenous infusion of 2.5% to 5% dextrose.",
       "priority": 2
     },
     {
       "description": "The veterinary team will administer liver-protecting medications (hepatoprotectants) such as S-adenosylmethionine (SAMe) and N-acetylcysteine (NAC)",
       "name": "Hepatoprotective Therapy",
-      "notes": "Because the toxins aggressively attack the liver, these specific medications are necessary to support liver function and aid in tissue repair if hepatic necrosis (liver cell death) is occurring2. 4. Symptomatic Management",
+      "notes": "Because the toxins aggressively attack the liver, these specific medications are necessary to support liver function and aid in tissue repair if hepatic necrosis (liver cell death) is occurring.",
       "priority": 3
     },
     {
-      "description": "The vet will administer gastroprotectants to soothe the stomach and intestines based on the severity of the GI signs2. If neurological symptoms develop, medications such as methocarbamol will be given for tremors, and standard anticonvulsants will be administered for seizures",
+      "description": "The vet will administer gastroprotectants to soothe the stomach and intestines based on the severity of the GI signs2. If neurological symptoms develop, medications such as methocarbamol will be given for tremors, and standard anticonvulsants will be administered for seizures.",
       "name": "Gastrointestinal and Neurological Symptomatic Care",
-      "notes": "This treatment is highly individualized and administered as needed based on the specific clinical signs the cat develops during its hospitalization",
+      "notes": "This treatment is highly individualized and administered as needed based on the specific clinical signs the cat develops during its hospitalization.",
       "priority": 4
     }
   ]

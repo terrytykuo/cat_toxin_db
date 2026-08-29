@@ -4,8 +4,8 @@
   "chemicals": [
     {
       "chemical_formula": "Not explicitly provided in the sources.",
-      "concentration_notes": "◦ Highly Concentrated: Essential oils are highly potent. Toxicity can occur from ingestion (licking oil off fur), direct skin contact (even a single drop of concentrated oil can be problematic), or inhalation. ◦ Neat vs. Diluted: The oils are especially dangerous if used \"neat\" (undiluted). However, even diluted oils or ambient exposure from reed diffusers and nebulizers can pose a risk. ◦ Dried P",
-      "description": "in cats: ◦ Hepatic Enzyme Deficiency: Cats lack specific liver enzymes (glucuronyl transferase) required to break down and eliminate the volatile compounds found in essential oils. This inability to process the toxins leads to a buildup in the body, which can cause serious organ damage, specifically liver failure. ◦ Central Nervous System (CNS) Depression: The oils can affect the nervous system, l",
+      "concentration_notes": "◦ Highly Concentrated: Essential oils are highly potent. Toxicity can occur from ingestion (licking oil off fur), direct skin contact (even a single drop of concentrated oil can be problematic), or inhalation. ◦ Neat vs. Diluted: The oils are especially dangerous if used \"neat\" (undiluted). However, even diluted oils or ambient exposure from reed diffusers and nebulizers can pose a risk.",
+      "description": "◦ Hepatic Enzyme Deficiency: Cats lack specific liver enzymes (glucuronyl transferase) required to break down and eliminate the volatile compounds found in essential oils. This inability to process the toxins leads to a buildup in the body, which can cause serious organ damage, specifically liver failure.",
       "name": "Eucalyptus Essential Oil"
     }
   ],
@@ -59,13 +59,13 @@
     {
       "description": "◦ Dermal: If the cat has essential oil on its skin or fur, the veterinarian (or owner under instruction) will bathe the cat using liquid dish soap and lukewarm water to remove the oil before it is absorbed through the skin or ingested during grooming. ◦ Oral: If ingested, the vet may rinse the cat's mouth with water to remove residues.",
       "name": "Surface Decontamination and Oral Rinsing",
-      "notes": "Inducing vomiting (emesis) at home is not recommended for cats as it can cause further injury or aspiration. The veterinarian will determine if inducing vomiting at the clinic is safe based on the cat's neurological status and the time since ingestion.Intravenous (IV) Fluid Therapy",
+      "notes": "Inducing vomiting (emesis) at home is not recommended for cats as it can cause further injury or aspiration. The veterinarian will determine if inducing vomiting at the clinic is safe based on the cat's neurological status and the time since ingestion.",
       "priority": 1
     },
     {
       "description": "The administration of IV fluids is used to correct dehydration caused by vomiting and diarrhea. Crucially, it also helps support kidney and liver function by flushing toxins from the bloodstream and maintaining organ perfusion.",
       "name": "Aggressive Fluid Therapy",
-      "notes": "Since essential oils like Eucalyptus can cause serious organ damage (specifically liver failure), fluid support is vital to help the body eliminate the toxins and support the liver.Respiratory Support and Symptomatic Care",
+      "notes": "Since essential oils like Eucalyptus can cause serious organ damage (specifically liver failure), fluid support is vital to help the body eliminate the toxins and support the liver.",
       "priority": 2
     },
     {

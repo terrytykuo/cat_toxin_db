@@ -4,18 +4,18 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ Potency: The sources describe Nightshade plants, including bittersweet, as \"extremely toxic\" to cats.",
-      "description": "in cats: ◦ Acetylcholinesterase Inhibition: Solanine inhibits the enzyme acetylcholinesterase, which breaks down the neurotransmitter acetylcholine. This leads to an accumulation of acetylcholine and overstimulation of the parasympathetic nervous system, causing neurological symptoms like tremors, ataxia (loss of coordination), and seizures. ◦ Cytotoxicity: The compound interacts with cell membran",
-      "name": "Solanine (specifically classified as a glycoalkaloid). Related alkaloids such as solasodine or tomatine may also be present depending on the specific"
+      "concentration_notes": "Celastrus scandens is generally regarded as low toxicity; the specific toxin in cats is not well established (Pet Poison Helpline).",
+      "description": "ASPCA lists the toxic principles as cardenolides and alkaloids. Ingestion mainly irritates the gastrointestinal tract, producing vomiting and diarrhea; large ingestions may cause weakness and, rarely, seizures.",
+      "name": "Cardenolides and alkaloids"
     }
   ],
-  "description": "American Bittersweet (Celastrus scandens) is a vigorous woody vine native to North America, easily recognised by its orange-yellow berries that split open to reveal bright red seeds. All parts of the plant are toxic to cats, including the leaves, bark, roots, and berries. The plant contains sesquiterpene alkaloids and compounds with cardiac-disrupting activity that irritate the gastrointestinal tract and, in larger amounts, affect the heart. The vivid berries are the most likely point of contact for cats, particularly when the vine is brought indoors as a decorative autumn cutting.",
+  "description": "American Bittersweet (Celastrus scandens) is a vigorous woody vine native to North America, easily recognised by its orange-yellow berries that split open to reveal bright red seeds. All parts of the plant are toxic to cats, including the leaves, bark, roots, berries, and seeds. ASPCA lists the toxic principles as cardenolides and alkaloids; the plant mainly irritates the gastrointestinal tract. Toxicity is generally low, with mild self-limiting signs such as vomiting and diarrhea, and rarely weakness or seizures after large ingestions. The vivid berries are the most likely point of contact for cats, particularly when the vine is brought indoors as a decorative autumn cutting.",
   "emergencyNote": "Induction of Emesis (Vomiting) or Gastric Lavage",
   "family": "Celastraceae",
   "isToxic": true,
   "name": "Bittersweet",
   "safetyNotes": [
-    "Symptoms: Vomiting, diarrhea, and abdominal pain from GI irritation; larger exposures may cause lethargy, muscle weakness, and in serious cases abnormal heart rhythm.",
+    "Symptoms: Vomiting, diarrhea, and abdominal pain from GI irritation; larger exposures may cause lethargy, muscle weakness, and rarely seizures.",
     "Berries are the primary hazard: Brightly coloured and accessible, the berries are appealing to curious cats — avoid using the plant as indoor decoration.",
     "Action: Seek veterinary care if more than a small berry has been ingested, particularly if lethargy or weakness develops."
   ],
@@ -24,61 +24,57 @@
   "symptoms": [
     {
       "body_system": "Gastrointestinal",
-      "name": "Vomiting, Diarrhea, and Hypersalivation (Drooling)",
-      "notes": "These are often the first signs of poisoning. The plant contains solanine, which is a severe irritant to the gastrointestinal tract and mucous membranes.Neurological Depression",
-      "onset": "2–24 hours (general timeframe for Nightshade/solanine toxicity).",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Drowsiness, Depression, Confusion, and Weakness",
-      "notes": "The toxins affect the central nervous system, leading to significant lethargy and behavioral changes. In severe cases, this can progress to paralysis or coma.Ocular Abnormalities",
-      "onset": "2–24 hours (typically follows or accompanies GI signs).",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Dilated Pupils (Mydriasis)",
-      "notes": "Dilated pupils are a hallmark neurological sign of toxicity from plants in the Nightshade family.Bradycardia",
+      "name": "Vomiting and Diarrhea",
+      "notes": "These are often the first signs of ingestion. The plant irritates the gastrointestinal tract (ASPCA: vomiting, diarrhea).",
       "onset": "2–24 hours.",
-      "severity": "severe"
+      "severity": "moderate"
     },
     {
-      "body_system": "Cardiac",
-      "name": "Slow Heart Rate (Bradycardia)",
-      "notes": "The toxins can disrupt heart rhythm, leading to a dangerously slow heartbeat, which contributes to the classification of this plant as \"extremely toxic.\"",
-      "onset": "12–24 hours (or as toxicity progresses).",
-      "severity": "fatal"
+      "body_system": "Neurological",
+      "name": "Weakness and Lethargy",
+      "notes": "Larger ingestions may cause weakness and lethargy (ASPCA; Pet Poison Helpline).",
+      "onset": "2–24 hours (typically follows or accompanies GI signs).",
+      "severity": "moderate"
+    },
+    {
+      "body_system": "Neurological",
+      "name": "Seizures (rare)",
+      "notes": "Seizures are reported only rarely and usually with large ingestions (ASPCA; Pet Poison Helpline).",
+      "onset": "Variable; with larger ingestions.",
+      "severity": "severe"
     }
   ],
   "toxicParts": [
-    "Bulb",
-    "Seed"
+    "Berries",
+    "Seed",
+    "Leaves",
+    "Bark",
+    "Roots"
   ],
   "toxicityLevel": "mild",
   "treatments": [
     {
       "description": "If the ingestion was recent (typically within 1–2 hours) and the cat is not showing severe symptoms, the veterinarian may induce vomiting using medication (such as xylazine for cats) to remove the plant material from the stomach. Alternatively, gastric lavage (stomach pumping) may be performed under anesthesia to wash out the stomach contents.",
       "name": "Induction of Emesis (Vomiting) or Gastric Lavage",
-      "notes": "This is the primary defense to prevent further toxin absorption. It is only performed if the ingestion is recent and the cat is neurologically stable. Self-medication or inducing vomiting at home is not recommended; immediate veterinary intervention is required.Toxin Adsorption",
+      "notes": "This is the primary defense to prevent further toxin absorption. It is only performed if the ingestion is recent and the cat is neurologically stable. Self-medication or inducing vomiting at home is not recommended; immediate veterinary intervention is required.",
       "priority": 1
     },
     {
-      "description": "The administration of medical-grade activated charcoal (1–4 g/kg body weight) into the digestive tract. This substance binds to the unabsorbed solanine toxins in the gut, preventing them from entering the bloodstream.",
+      "description": "The administration of medical-grade activated charcoal (1–4 g/kg body weight) into the digestive tract. This substance binds unabsorbed toxins in the gut, preventing them from entering the bloodstream.",
       "name": "Activated Charcoal Administration",
-      "notes": "In severe poisoning cases, administration may need to be repeated multiple times at 4 to 6-hour intervals because solanine can undergo \"enterohepatic recirculation\" (reabsorption by the body).Fluid Therapy",
+      "notes": "In significant ingestions, administration may be repeated at 4 to 6-hour intervals to limit ongoing toxin absorption.",
       "priority": 2
     },
     {
       "description": "The administration of crystalloid solutions directly into the vein to rehydrate the cat and maintain electrolyte balance.",
       "name": "Intravenous (IV) Fluid Therapy",
-      "notes": "This step is essential for two reasons: 1) To compensate for dehydration caused by severe vomiting and diarrhea. 2) To stimulate diuresis (urination), which promotes the excretion of toxins and protects the kidneys, especially if hemolysis (breakdown of red blood cells) has occurred.Symptomatic Supp",
+      "notes": "This step helps in two ways: 1) To compensate for dehydration caused by vomiting and diarrhea. 2) To stimulate diuresis (urination), which promotes the excretion of toxins and supports the kidneys.",
       "priority": 3
     },
     {
-      "description": "Using specific medications to treat life-threatening symptoms. Atropine may be administered to counteract cholinergic symptoms like a dangerously slow heart rate (bradycardia). Benzodiazepines or barbiturates may be used to control seizures.",
-      "name": "Drug Therapy (Atropine, Anticonvulsants)",
-      "notes": "There is no specific antidote for solanine poisoning. Treatment focuses on managing severe neurological signs (tremors, seizures) and respiratory distress. Oxygen supplementation or mechanical ventilation may be required in critical cases.",
+      "description": "Using specific medications to manage symptoms as they arise. Benzodiazepines or barbiturates may be used to control seizures in the rare cases where they occur.",
+      "name": "Drug Therapy (Anticonvulsants)",
+      "notes": "There is no specific antidote. Treatment is supportive and focuses on controlling GI signs and, rarely, seizures.",
       "priority": 4
     }
   ]

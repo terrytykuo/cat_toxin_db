@@ -3,60 +3,35 @@
     "common_name": "Lemon Mint",
     "scientific_name": "Monarda citriodora",
     "family": "Lamiaceae",
-    "description": "2. Brief Description\n\u2022 Appearance: While specific physical details for \"Lemon Mint\" are not isolated in the text, mint plants in this family typically have wrinkled leaves that grow in an ovular shape. They often produce flowers in clusters on stalks, ranging in color from lavender to white2. Lemon Mint is specifically noted for its refreshing citrus scent3.\n\u2022 Habitat: Mint plants are often found in the wild growing near sources of water or in other damp locations2.\n\u2022 Common Locations: They are commonly cultivated in herb gardens or kept indoors for culinary and medicinal uses2.\u2022 Is Mint Safe for Cats? Hidden Toxic Types, Oils & What To Do13\n\u2022 Mint Poisoning in Cats - Symptoms, Causes, Diagnosis, Treatment, Recovery, Management, Cost - Wag!2"
+    "description": "2. Brief Description\n• Appearance: While specific physical details for \"Lemon Mint\" are not isolated in the text, mint plants in this family typically have wrinkled leaves that grow in an ovular shape. They often produce flowers in clusters on stalks, ranging in color from lavender to white2. Lemon Mint is specifically noted for its refreshing citrus scent3.\n• Habitat: Mint plants are often found in the wild growing near sources of water or in other damp locations2.\n• Common Locations: They are commonly cultivated in herb gardens or kept indoors for culinary and medicinal uses2.• Is Mint Safe for Cats? Hidden Toxic Types, Oils & What To Do13\n• Mint Poisoning in Cats - Symptoms, Causes, Diagnosis, Treatment, Recovery, Management, Cost - Wag!2"
   },
   "basics": {
     "family": "Lamiaceae",
-    "description": "2. Brief Description\n\u2022 Appearance: While specific physical details for \"Lemon Mint\" are not isolated in the text, mint plants in this family typically have wrinkled leaves that grow in an ovular shape. They often produce flowers in clusters on stalks, ranging in color from lavender to white2. Lemon Mint is specifically noted for its refreshing citrus scent3.\n\u2022 Habitat: Mint plants are often found in the wild growing near sources of water or in other damp locations2.\n\u2022 Common Locations: They are commonly cultivated in herb gardens or kept indoors for culinary and medicinal uses2.\u2022 Is Mint Safe for Cats? Hidden Toxic Types, Oils & What To Do13\n\u2022 Mint Poisoning in Cats - Symptoms, Causes, Diagnosis, Treatment, Recovery, Management, Cost - Wag!2"
+    "description": "2. Brief Description\n• Appearance: While specific physical details for \"Lemon Mint\" are not isolated in the text, mint plants in this family typically have wrinkled leaves that grow in an ovular shape. They often produce flowers in clusters on stalks, ranging in color from lavender to white2. Lemon Mint is specifically noted for its refreshing citrus scent3.\n• Habitat: Mint plants are often found in the wild growing near sources of water or in other damp locations2.\n• Common Locations: They are commonly cultivated in herb gardens or kept indoors for culinary and medicinal uses2.• Is Mint Safe for Cats? Hidden Toxic Types, Oils & What To Do13\n• Mint Poisoning in Cats - Symptoms, Causes, Diagnosis, Treatment, Recovery, Management, Cost - Wag!2"
   },
-  "toxic_parts": [
-    "Root",
-    "Stem",
-    "Leaf",
-    "Entire Plant"
-  ],
+  "toxic_parts": [],
   "toxins": [
     {
-      "name": "Essential oils (specifically Menthol and Pulegone are identified in the mint family)",
+      "name": "Aromatic monoterpenes (thymol, p-cymene, carvacrol)",
       "chemical_formula": null,
-      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Enzymatic Deficiency: Cats lack specific liver enzymes (such as glucuronosyltransferase) needed to break down and process plant oils effectively. Because they cannot metabolize these compounds, the toxins can build up in their system.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Systemic Effects: Ingestion or inhalation can irritate the digestive tract, affect breathing, and stress the liver. In severe cases, particularly with essential oils, it can lead to central nervous system depression or liver failure.\n4. Notes on",
-      "concentration_notes": "\u25e6 Plant vs. Oil: Consuming the fresh plant typically causes mild to moderate gastrointestinal upset (vomiting, diarrhea). However, essential oils derived from the plant are highly concentrated and far more dangerous; even a small amount can lead to severe respiratory distress, liver damage, or neurological symptoms."
-    },
-    {
-      "name": "Citrus compounds (general category)",
-      "chemical_formula": null,
-      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: Along with mint oils, the citrus compounds found in Lemon Mint act as gastrointestinal irritants. They can cause discomfort, nausea, and vomiting when ingested.\n4. Notes on",
-      "concentration_notes": "\u25e6 Additive Effect: The presence of citrus compounds combined with mint essential oils makes Lemon Mint specifically noted as \"unsafe\" and \"gastro-irritant\" for cats compared to other varieties."
+      "description": "Monarda citriodora is not listed as toxic to cats by the ASPCA and is broadly regarded as non-toxic. Its lemon scent comes from aromatic monoterpenes — the essential oil is dominated by thymol, p-cymene, and carvacrol. It does NOT contain pulegone, menthol, or citrus compounds; pulegone is the toxic principle of pennyroyal (Mentha pulegium), a different plant. As with any plant, eating a large amount of leaf or stem material may cause mild, self-limiting stomach upset.",
+      "concentration_notes": "No authoritative source documents serious systemic toxicity, hepatotoxicity, or a dangerous compound for this plant in cats. The only realistic concern is mild gastrointestinal irritation from eating plant material."
     }
   ],
   "symptoms": [
     {
       "name": "Vomiting, Diarrhea, Nausea, Drooling (Hypersalivation)",
       "body_system": "Gastrointestinal",
-      "severity": "moderate",
+      "severity": "mild",
       "onset": "Clinical signs typically appear shortly after ingestion (acute).",
-      "notes": "Lemon Mint is specifically noted as a \"gastro-irritant\" due to the presence of citrus compounds alongside mint oils. Drooling or foaming at the mouth is a common reaction to the unpleasant taste and irritating oils.Neurological Depression"
-    },
-    {
-      "name": "Lethargy, Weakness, Uncoordinated Gait (Ataxia)",
-      "body_system": "Neurological",
-      "severity": "severe",
-      "onset": "Variable; usually accompanies gastrointestinal signs.",
-      "notes": "While the plant itself often causes only stomach upset, the citrus compounds found in Lemon Mint can contribute to central nervous system depression if consumed in significant amounts.Respiratory Irritation"
-    },
-    {
-      "name": "Coughing, Sneezing, Difficulty Breathing",
-      "body_system": "Respiratory",
-      "severity": "severe",
-      "onset": "Immediate (upon inhalation or contact).",
-      "notes": "The strong scent of mint can irritate a cat's respiratory tract, leading to coughing or sneezing. Severe respiratory distress is more commonly associated with the inhalation of essential oils rather than eating the plant.Dermal Irritation"
+      "notes": "Mild, self-limiting stomach upset is possible after a cat eats plant material, as with many non-toxic plants. Drooling can occur as a reaction to the strong aromatic taste. This is not specific toxicity and no authoritative source documents serious effects from this plant."
     },
     {
       "name": "Skin Redness, Itching, Contact Dermatitis",
       "body_system": "Dermal",
       "severity": "mild",
       "onset": "Delayed (upon contact).",
-      "notes": "Hypersensitive cats may develop skin irritation or redness around the mouth and paws after coming into contact with the plant's oils."
+      "notes": "Hypersensitive cats may occasionally develop mild skin irritation or redness around the mouth and paws after contact with the plant's aromatic oils. This is plausible but not specifically documented for this plant by authoritative sources."
     }
   ],
   "treatments": [
@@ -69,7 +44,7 @@
     {
       "name": "Administration of Activated Charcoal",
       "description": "Following decontamination, the veterinarian may administer activated charcoal. This substance works by binding to the remaining toxins in the gastrointestinal tract, preventing them from entering the bloodstream.",
-      "notes": "This step is often taken if the vet suspects that toxins remain in the system after vomiting has been induced.Intravenous (IV) Fluid Therapy",
+      "notes": "This step is often taken if the vet suspects that toxins remain in the system after vomiting has been induced.",
       "priority": 2
     },
     {
@@ -84,5 +59,19 @@
       "notes": "This is part of supportive care to keep the cat comfortable while they recover from the gastrointestinal irritation caused by the mint and citrus oils.",
       "priority": 4
     }
+  ],
+  "severity": "safe",
+  "isToxic": false,
+  "toxicityLevel": "low",
+  "name": "Lemon Mint",
+  "scientific_name": "Monarda citriodora",
+  "family": "Lamiaceae",
+  "description": "Lemon Mint (Monarda citriodora), also known as lemon beebalm, is a fragrant herb in the mint family (Lamiaceae) that is generally considered safe for cats. Despite its common name it is not a true mint (Mentha): it is not listed as toxic by the ASPCA, and its lemony scent comes from aromatic oils dominated by thymol, p-cymene, and carvacrol — it does not contain pulegone or menthol. As with almost any plant, nibbling the leaves can cause mild, short-lived stomach upset. Take care not to confuse it with lemon-scented true mints (Mentha spp.); true mint essential oils, especially pennyroyal, are toxic to cats.",
+  "safetyNotes": [
+    "Not listed as toxic to cats by the ASPCA; Monarda species are widely regarded as non-toxic to pets",
+    "Aromatic oils are dominated by thymol, p-cymene, and carvacrol; the plant does not contain pulegone or menthol (pulegone is the toxic principle of pennyroyal, Mentha pulegium — a different plant)",
+    "Nibbling fresh leaves may cause mild, self-limiting stomach upset or drooling, as with many plants",
+    "Keep concentrated essential oils of any aromatic herb away from cats",
+    "Do not confuse Lemon Mint (Monarda citriodora) with lemon-scented true mints (Mentha spp.), which are toxic to cats"
   ]
 }

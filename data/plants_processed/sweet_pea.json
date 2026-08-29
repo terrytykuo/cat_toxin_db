@@ -3,11 +3,11 @@
     "common_name": "Sweet Pea",
     "scientific_name": "Lathyrus odoratus",
     "family": "Fabaceae",
-    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Sweet Pea is a climbing annual vine that uses thin, curling tendrils to wrap around supports and climb. It is characterized by its winged stems, paired oval leaflets, and highly fragrant, butterfly-shaped flowers that bloom in a wide variety of colors, including shades of pink, purple, red, white, and blue.\n\u2022 Habitat and Where Commonly Found: Native to the Mediterranean region\u2014specifically Sicily, southern Italy, and the Aegean Islands\u2014it naturally thrives in cool, mild climates with well-draining soil and full sun. Today, it is widely cultivated across the globe and is most commonly found in home gardens, where it is frequently grown on trellises, fences, and arches as a popular ornamental and cut flower."
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n• Appearance: The Sweet Pea is a climbing annual vine that uses thin, curling tendrils to wrap around supports and climb. It is characterized by its winged stems, paired oval leaflets, and highly fragrant, butterfly-shaped flowers that bloom in a wide variety of colors, including shades of pink, purple, red, white, and blue.\n• Habitat and Where Commonly Found: Native to the Mediterranean region—specifically Sicily, southern Italy, and the Aegean Islands—it naturally thrives in cool, mild climates with well-draining soil and full sun. Today, it is widely cultivated across the globe and is most commonly found in home gardens, where it is frequently grown on trellises, fences, and arches as a popular ornamental and cut flower."
   },
   "basics": {
     "family": "Fabaceae",
-    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n\u2022 Appearance: The Sweet Pea is a climbing annual vine that uses thin, curling tendrils to wrap around supports and climb. It is characterized by its winged stems, paired oval leaflets, and highly fragrant, butterfly-shaped flowers that bloom in a wide variety of colors, including shades of pink, purple, red, white, and blue.\n\u2022 Habitat and Where Commonly Found: Native to the Mediterranean region\u2014specifically Sicily, southern Italy, and the Aegean Islands\u2014it naturally thrives in cool, mild climates with well-draining soil and full sun. Today, it is widely cultivated across the globe and is most commonly found in home gardens, where it is frequently grown on trellises, fences, and arches as a popular ornamental and cut flower."
+    "description": "Brief Description (Appearance, Habitat, and Where Commonly Found)\n• Appearance: The Sweet Pea is a climbing annual vine that uses thin, curling tendrils to wrap around supports and climb. It is characterized by its winged stems, paired oval leaflets, and highly fragrant, butterfly-shaped flowers that bloom in a wide variety of colors, including shades of pink, purple, red, white, and blue.\n• Habitat and Where Commonly Found: Native to the Mediterranean region—specifically Sicily, southern Italy, and the Aegean Islands—it naturally thrives in cool, mild climates with well-draining soil and full sun. Today, it is widely cultivated across the globe and is most commonly found in home gardens, where it is frequently grown on trellises, fences, and arches as a popular ornamental and cut flower."
   },
   "toxic_parts": [
     "Stem",
@@ -19,65 +19,77 @@
   "toxins": [
     {
       "name": "Aminopropionitriles (specifically beta-aminopropionitrile or BAPN)",
-      "chemical_formula": "C\n3\n\t\u200b\n\nH\n6\n\t\u200b\n\nN\n2\n\t\u200b",
-      "description": "in cats: These toxic amino acids interfere with the central nervous system and inhibit the enzyme lysyl oxidase, which is necessary for the proper cross-linking of collagen and elastin in the body. This disruption leads to a toxic condition known as \"lathyrism.\" This can severely weaken connective tissues and cause neurological impairment, which manifests as weakness, lethargy, pacing, and in severe cases, seizures.",
-      "concentration_notes": "The plant is generally considered to have a low to moderate toxicity level, as your sources note that a cat must consume \"large amounts\" of the plant for it to cause severe harm1. The highest and most dangerous concentration of these toxins is found specifically in the seeds (the peas) and the seed pods of the plant."
+      "chemical_formula": "C\n3\n\t​\n\nH\n6\n\t​\n\nN\n2\n\t​",
+      "description": "Aminopropionitrile (BAPN) is the toxic principle the ASPCA names for this plant. It is a lathyrogen that inhibits the enzyme lysyl oxidase, disrupting the cross-linking of collagen and elastin (the chronic condition known as \"lathyrism\"). This effect is documented in grazing livestock such as horses, for which the ASPCA classifies Sweet Pea as toxic. The ASPCA classifies the same plant as non-toxic to cats, and no authoritative feline source documents lathyrism or related signs in cats.",
+      "concentration_notes": "Per the ASPCA, Sweet Pea is non-toxic to cats. The aminopropionitrile content is the basis for the plant's documented toxicity in horses, not cats."
     }
   ],
   "symptoms": [
     {
-      "name": "Vomiting and diarrhea",
+      "name": "Loss of appetite",
       "body_system": "Gastrointestinal",
-      "severity": "moderate",
-      "onset": "Not explicitly specified in the sources.",
-      "notes": "While small amounts of the plant typically will not harm a cat, ingesting large amounts will trigger these gastrointestinal issues1.\n2. Dehydration"
+      "severity": "mild",
+      "onset": "Hours after ingestion.",
+      "notes": "Listed by Pet Poison Helpline among the first signs after sweet pea ingestion in pets."
     },
     {
-      "name": "Dehydration",
-      "body_system": "Metabolic",
-      "severity": "severe",
-      "onset": "Not explicitly specified in the sources.",
-      "notes": "Cats may become dehydrated as a direct consequence of the vomiting and diarrhea caused by the plant's toxins1.\n3. Lethargy"
-    },
-    {
-      "name": "Lethargy",
+      "name": "Lethargy and weakness",
       "body_system": "Neurological",
       "severity": "moderate",
-      "onset": "Not explicitly specified in the sources.",
-      "notes": "Lethargy indicates a systemic toxic reaction, occurring after the cat has ingested a large amount of the plant1.\n4. Seizures"
+      "onset": "Hours to days after ingestion.",
+      "notes": "Reflects the neuromuscular effects of the lathyrogen BAPN; documented mainly in grazing animals."
+    },
+    {
+      "name": "Neuromuscular signs (stumbling, lameness, circling)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Delayed; associated with large or repeated ingestion.",
+      "notes": "Classic lathyrism-type signs; cat-specific reports are scarce."
     },
     {
       "name": "Seizures",
       "body_system": "Neurological",
       "severity": "severe",
-      "onset": "Not explicitly specified in the sources.",
-      "notes": "Seizures present in severe cases of Sweet Pea poisoning1. (Note from our previous conversation: Severe neurological impairment, such as seizures and pacing, is a manifestation of \"lathyrism,\" which is caused by the toxic aminopropionitriles highly concentrated in the plant's seeds and seed pods)."
+      "onset": "Rare; reported with substantial ingestion.",
+      "notes": "Reported in severe cases across species; seek veterinary care immediately."
     }
   ],
   "treatments": [
     {
       "name": "Emesis Induction and Activated Charcoal",
-      "description": "If the ingestion was recent, the veterinarian will medically induce vomiting to remove the plant material from the stomach before it can be fully digested34. This is often followed by administering a dose of activated charcoal, which binds to any remaining toxins in the gastrointestinal tract and prevents them from being absorbed into the bloodstream",
-      "notes": "You should never attempt to induce vomiting at home unless explicitly instructed by a veterinarian, as doing so incorrectly can cause significant injury6.\n2. Fluid Therapy",
+      "description": "If the ingestion was recent, the veterinarian will medically induce vomiting to remove the plant material from the stomach before it can be fully digested34. This is often followed by administering a dose of activated charcoal, which binds to any remaining toxins in the gastrointestinal tract and prevents them from being absorbed into the bloodstream.",
+      "notes": "You should never attempt to induce vomiting at home unless explicitly instructed by a veterinarian, as doing so incorrectly can cause significant injury.",
       "priority": 1
     },
     {
       "name": "Intravenous (IV) Fluid Therapy",
-      "description": "The veterinary team will administer IV fluids to rehydrate the cat, support blood pressure, and maintain proper organ function",
-      "notes": "This intervention is particularly critical for Sweet Pea poisoning, as the plant's toxins trigger vomiting and diarrhea that can lead to significant dehydration14.\n3. Symptomatic Gastrointestinal Support",
+      "description": "The veterinary team will administer IV fluids to rehydrate the cat, support blood pressure, and maintain proper organ function.",
+      "notes": "This intervention is particularly critical for Sweet Pea poisoning, as the plant's toxins trigger vomiting and diarrhea that can lead to significant dehydration.",
       "priority": 2
     },
     {
       "name": "Anti-emetics and Gastroprotectants",
-      "description": "The veterinarian will administer medications to stop nausea and vomiting (anti-emetics) alongside gastroprotectants or antacids to soothe the digestive tract",
-      "notes": "This supportive care is essential to keep the cat comfortable while the toxins pass through its system and to prevent further fluid loss from ongoing vomiting and diarrhea45.\n4. Neurological Support (If Severe)",
+      "description": "The veterinarian will administer medications to stop nausea and vomiting (anti-emetics) alongside gastroprotectants or antacids to soothe the digestive tract.",
+      "notes": "This supportive care is essential to keep the cat comfortable while the toxins pass through its system and to prevent further fluid loss from ongoing vomiting and diarrhea.",
       "priority": 3
     },
     {
       "name": "Anticonvulsant Therapy",
-      "description": "If the cat's nervous system is affected, the veterinarian will administer standard anticonvulsant medications (such as barbiturates or benzodiazepines) to control tremors or seizures",
+      "description": "If the cat's nervous system is affected, the veterinarian will administer standard anticonvulsant medications (such as barbiturates or benzodiazepines) to control tremors or seizures.",
       "notes": "While mild exposures to Sweet Pea typically only cause gastrointestinal upset, consuming large amounts can cause severe poisoning resulting in seizures1. This treatment is utilized if the toxicity escalates to a neurological emergency.",
       "priority": 4
     }
+  ],
+  "severity": "cautious",
+  "name": "Sweet Pea",
+  "scientific_name": "Lathyrus odoratus",
+  "family": "Fabaceae",
+  "description": "Sweet Pea (Lathyrus odoratus) is a fragrant climbing vine whose risk to cats is genuinely disputed: the ASPCA lists Sweet Pea (under Lathyrus latifolius) as non-toxic to cats, while Pet Poison Helpline treats sweet peas as toxic plants. The plant — especially its seeds and seed pods — contains beta-aminopropionitrile (BAPN), a lathyrogen neurotoxin that can cause \"lathyrism\" with weakness and neuromuscular signs after large or repeated ingestion, although documented poisonings involve mainly grazing animals and cat-specific cases are scarce. Because the danger cannot be ruled out, treat it with caution: a nibbled leaf is unlikely to harm a cat, but do not let cats chew the plant, and keep seeds and pods out of reach. Do not confuse it with the edible garden pea (Pisum sativum).",
+  "safetyNotes": [
+    "Authorities disagree: the ASPCA lists Sweet Pea (Lathyrus latifolius) as non-toxic to cats, while Pet Poison Helpline treats sweet peas (Lathyrus spp.) as toxic; this entry is graded cautious to reflect that uncertainty",
+    "Toxic compound: beta-aminopropionitrile (BAPN), a lathyrogen concentrated in seeds and seed pods; it inhibits lysyl oxidase (collagen/elastin cross-linking) and can cause neurolathyrism",
+    "Documented lathyrism cases involve mainly grazing animals after substantial or repeated ingestion; cat-specific poisoning data is scarce",
+    "Keep seeds and seed pods out of reach and discourage chewing; a single nibbled leaf is unlikely to cause harm",
+    "Contact a veterinarian if a cat eats seeds or pods, or shows weakness, stumbling, or other neuromuscular signs"
   ]
 }

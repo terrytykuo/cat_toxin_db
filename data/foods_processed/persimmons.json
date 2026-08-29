@@ -46,15 +46,15 @@
       "priority": 1
     },
     {
-      "description": "of the procedure: Contact an animal hospital immediately to inform them of the situation and transport the cat for professional emergency care. You should collect any remaining pieces of the ingested item (such as the persimmon or its pits) in a bag and bring it with you, as this gives the veterinarian a clear basis for making a diagnostic and treatment judgment34. Any situation-specific",
+      "description": "of the procedure: Contact an animal hospital immediately to inform them of the situation and transport the cat for professional emergency care. You should collect any remaining pieces of the ingested item (such as the persimmon or its pits) in a bag and bring it with you, as this gives the veterinarian a clear basis for making a diagnostic and treatment judgment.",
       "name": "Emergency Veterinary Consultation and Professional Care",
-      "notes": "It is highly emphasized that you must not attempt to induce vomiting at home (such as by administering hydrogen peroxide) before speaking with a veterinarian, as this can be extremely dangerous with obstructive objects. Additionally, do not give the cat milk, food, salt, oil, or any other substances",
+      "notes": "It is highly emphasized that you must not attempt to induce vomiting at home (such as by administering hydrogen peroxide) before speaking with a veterinarian, as this can be extremely dangerous with obstructive objects. Additionally, do not give the cat milk, food, salt, oil, or any other substances.",
       "priority": 2
     },
     {
-      "description": "of the procedure: Before heading to the vet, immediately move the cat away from the location of the food and clean up any remaining pieces to prevent further ingestion. Carefully check the cat's breathing and behavior to see if they are functioning normally34. Any situation-specific",
+      "description": "of the procedure: Before heading to the vet, immediately move the cat away from the location of the food and clean up any remaining pieces to prevent further ingestion. Carefully check the cat's breathing and behavior to see if they are functioning normally.",
       "name": "Immediate At-Home Triage (Prior to Transport)",
-      "notes": "Ensure that children and any other pets in the household are kept away from the scene to prevent them from also ingesting the dangerous item",
+      "notes": "Ensure that children and any other pets in the household are kept away from the scene to prevent them from also ingesting the dangerous item.",
       "priority": 3
     }
   ]

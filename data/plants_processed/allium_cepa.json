@@ -29,28 +29,28 @@
       "body_system": "Hematological",
       "severity": "fatal",
       "onset": "May not appear for several days following ingestion",
-      "notes": "This is the primary and most dangerous hallmark of onion toxicity14. The toxins destroy the red blood cells, severely impairing the blood's ability to carry oxygen1. The destroyed red blood cells are processed and excreted by the body, which causes the cat's urine to become abnormally dark4.\n2. Lethargy, Weakness, and Collapse"
+      "notes": "This is the primary and most dangerous hallmark of onion toxicity14. The toxins destroy the red blood cells, severely impairing the blood's ability to carry oxygen1. The destroyed red blood cells are processed and excreted by the body, which causes the cat's urine to become abnormally dark."
     },
     {
       "name": "Lethargy, profound weakness, stumbling (ataxia), collapse, and seeking out warm spaces",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "May not appear for several days following ingestion",
-      "notes": "Because the damaged red blood cells can no longer transport oxygen effectively, the cat will experience significant energy loss, depression, lack of coordination when walking, and an urge to seek out warm areas3....\n3. Cardiopulmonary Distress"
+      "notes": "Because the damaged red blood cells can no longer transport oxygen effectively, the cat will experience significant energy loss, depression, lack of coordination when walking, and an urge to seek out warm areas."
     },
     {
       "name": "Rapid heartbeat (tachycardia), rapid breathing, and breathing difficulties",
       "body_system": "Cardiac",
       "severity": "severe",
       "onset": "May not appear for several days following ingestion",
-      "notes": "As the red blood cell count drops and the body becomes starved of oxygen, the cat's heart and lungs are forced to work much harder and faster to compensate, leading to cardiovascular and respiratory distress2....\n4. Gastrointestinal Upset"
+      "notes": "As the red blood cell count drops and the body becomes starved of oxygen, the cat's heart and lungs are forced to work much harder and faster to compensate, leading to cardiovascular and respiratory distress."
     },
     {
       "name": "Vomiting, diarrhea, lack of appetite, and abdominal pain",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "May not appear for several days following ingestion",
-      "notes": "The compounds in Allium plants are irritating to the gastrointestinal mucosa, which can trigger stomach pain, vomiting, and diarrhea alongside the systemic red blood cell destruction"
+      "notes": "The compounds in Allium plants are irritating to the gastrointestinal mucosa, which can trigger stomach pain, vomiting, and diarrhea alongside the systemic red blood cell destruction."
     }
   ],
   "treatments": [

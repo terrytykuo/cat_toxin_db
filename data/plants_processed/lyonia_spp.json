@@ -4,8 +4,8 @@
   "chemicals": [
     {
       "chemical_formula": "Not explicitly provided in the sources.",
-      "concentration_notes": "◦ All parts of the plant are considered toxic. ◦ The nectar, flowers, leaves, and stems contain the highest concentrations of the toxin. ◦ Ingestion of even a small amount (a few leaves or petals) can cause clinical signs, while larger ingestions can lead to life-threatening cardiovascular collapse.• Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual",
-      "description": "in cats: ◦ Sodium Channel Binding: These toxins bind to sodium channels in cell membranes, preventing them from closing. This leads to prolonged depolarization of excitable cells, particularly affecting nerve and muscle cells (including cardiac muscle). ◦ Physiological Effects: This disruption causes a range of symptoms starting with gastrointestinal upset (vomiting, diarrhea) and progressing to c",
+      "concentration_notes": "◦ All parts of the plant are considered toxic. ◦ The nectar, flowers, leaves, and stems contain the highest concentrations of the toxin. ◦ Ingestion of even a small amount (a few leaves or petals) can cause clinical signs, while larger ingestions can lead to life-threatening cardiovascular collapse.",
+      "description": "◦ Sodium Channel Binding: These toxins bind to sodium channels in cell membranes, preventing them from closing. This leads to prolonged depolarization of excitable cells, particularly affecting nerve and muscle cells (including cardiac muscle).",
       "name": "Grayanotoxins (sometimes referred to as andromedotoxins in related species)"
     }
   ],
@@ -59,19 +59,19 @@
     {
       "description": "If the cat is neurologically stable (alert and not seizing), the veterinarian will induce vomiting (emesis) to remove the plant material from the stomach. This is followed by the administration of activated charcoal with a cathartic to bind any remaining toxins in the gastrointestinal tract and speed their removal.",
       "name": "Gastrointestinal Decontamination",
-      "notes": "Sources note that grayanotoxin-containing plant material often remains in the stomach for many hours, meaning inducing vomiting can be successful even several hours after ingestion. However, this should only be done if the cat is not showing severe neurological signs like seizures or coma to prevent",
+      "notes": "Sources note that grayanotoxin-containing plant material often remains in the stomach for many hours, meaning inducing vomiting can be successful even several hours after ingestion.",
       "priority": 1
     },
     {
       "description": "Intravenous (IV) fluids are administered to support blood pressure, as hypotension (low blood pressure) is a common symptom. If the cat is experiencing severe bradycardia (slow heart rate), the veterinarian will administer atropine.",
       "name": "Fluid Therapy and Cardiac Medications",
-      "notes": "Grayanotoxins can cause significant cardiovascular collapse. While atropine addresses the slow heart rate, other anti-arrhythmic drugs like lidocaine or procainamide may be required if the cat develops irregular heart rhythms (arrhythmias). Continuous heart rate and blood pressure monitoring is esse",
+      "notes": "Grayanotoxins can cause significant cardiovascular collapse. While atropine addresses the slow heart rate, other anti-arrhythmic drugs like lidocaine or procainamide may be required if the cat develops irregular heart rhythms (arrhythmias).",
       "priority": 2
     },
     {
       "description": "If the cat exhibits tremors or seizures due to the toxin's effect on nerve cells, veterinarians use specific medications to control them. Methocarbamol is recommended for tremors, while standard anticonvulsants are used for seizures.",
       "name": "Seizure and Tremor Control",
-      "notes": "The toxin prevents sodium channels in cells from closing, leading to prolonged excitation of nerve and muscle cells. This can manifest as weakness, tremors, or convulsions, which must be controlled to prevent secondary damage (like hyperthermia).Symptomatic Supportive Care",
+      "notes": "The toxin prevents sodium channels in cells from closing, leading to prolonged excitation of nerve and muscle cells. This can manifest as weakness, tremors, or convulsions, which must be controlled to prevent secondary damage (like hyperthermia).",
       "priority": 3
     },
     {

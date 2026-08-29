@@ -6,7 +6,7 @@
     {
       "name": "The sources do not explicitly name the specific toxin (e.g., sapogenins) for this plant",
       "chemical_formula": "Not provided in the sources.\n2.",
-      "description": "in Cats • Dermal Irritation (Contact Dermatitis): The primary mechanism described is allergic dermatitis. When a cat brushes against the feathery leaves of the plant, it causes skin irritation and inflammation. • Gastrointestinal Irritation: Ingestion of the plant material interferes with the gastrointestinal tract, leading to systemic upset. 3. Notes on Concentration and Potency • Toxic Parts: Th",
+      "description": "in Cats • Dermal Irritation (Contact Dermatitis): The primary mechanism described is allergic dermatitis. When a cat brushes against the feathery leaves of the plant, it causes skin irritation and inflammation. • Gastrointestinal Irritation: Ingestion of the plant material interferes with the gastrointestinal tract, leading to systemic upset. 3.",
       "concentration_notes": null
     }
   ],
@@ -58,7 +58,7 @@
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "Vomiting is specifically noted as a consequence of eating the berries of the plant.Abdominal Pain"
+      "notes": "Vomiting is specifically noted as a consequence of eating the berries of the plant."
     },
     {
       "name": "Abdominal Pain",

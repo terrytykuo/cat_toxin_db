@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ Distribution: The toxic principle is found in all parts of the plant, including the fleshy leaves and stems. ◦ Potency: The toxicity is generally classified as mild to moderate. While it can cause significant distress and coordination issues, it is rarely fatal if treated.• Cat toxicity chart for 50 popular houseplants1 • Clinical Perspectives on Feline Phytotoxicology2 • The Top 13 Plants + Flo",
-      "description": "in cats: ◦ Gastrointestinal Irritation: While the exact chemical mechanism is unknown, ingestion triggers the body's emetic center, leading to vomiting. ◦ Central Nervous System (CNS) Depression: The toxin affects the neurological system, resulting in depression (lethargy) and incoordination (ataxia) (loss of balance). ◦ Cardiovascular Effects: In rare cases, it can cause bradycardia (a slowed hea",
+      "concentration_notes": "◦ Distribution: The toxic principle is found in all parts of the plant, including the fleshy leaves and stems. ◦ Potency: The toxicity is generally classified as mild to moderate. While it can cause significant distress and coordination issues, it is rarely fatal if treated.",
+      "description": "◦ Gastrointestinal Irritation: While the exact chemical mechanism is unknown, ingestion triggers the body's emetic center, leading to vomiting. ◦ Central Nervous System (CNS) Depression: The toxin affects the neurological system, resulting in depression (lethargy) and incoordination (ataxia) (loss of balance).",
       "name": "The specific toxic principle remains unknown or unidentified in current veterinary literature"
     }
   ],
-  "description": "Jade Plant (Crassula spp.), also known as Money Plant or Lucky Plant, is a popular succulent houseplant that is mildly toxic to cats. The exact toxic principle has not been fully identified, but ingestion consistently causes gastrointestinal upset and neurological symptoms in cats. All parts of the plant are considered hazardous.",
+  "description": "Jade Plant (Crassula spp.) is a popular succulent with thick, shiny leaves. It is toxic to cats, even though the exact toxic compound has not been clearly identified.\n\nThe plant can irritate the stomach and may also affect the nervous system. Cats may chew jade plants because the leaves are firm and easy to reach on a windowsill or shelf. All parts of the plant should be treated as unsafe.\n\nAfter eating jade plant, a cat may vomit, have diarrhea, lose interest in food, seem tired, or become unsteady. Keep jade plants out of reach, and contact a veterinarian if your cat eats any amount, especially if symptoms are repeated or your cat seems weak or wobbly.",
   "emergencyNote": "Removal of Plant Material / Induction of Emesis",
   "family": "Crassulaceae",
   "isToxic": true,
@@ -48,7 +48,7 @@
     {
       "body_system": "Cardiac",
       "name": "Slow Heart Rate (Bradycardia)",
-      "notes": "While less common than vomiting or ataxia, a slowed heart rate has been noted as a potential rare side effect of ingestion.Diarrhea",
+      "notes": "While less common than vomiting or ataxia, a slowed heart rate has been noted as a potential rare side effect of ingestion.",
       "severity": "severe"
     },
     {
@@ -76,7 +76,7 @@
     {
       "description": "The veterinary team will monitor the cat's vital signs, specifically looking for a slowed heart rate (bradycardia) and neurological signs such as lethargy (depression) or loss of coordination (ataxia).",
       "name": "Observation for CNS Depression and Bradycardia",
-      "notes": "Jade Plant toxicity is distinct from many other plant poisonings because it causes incoordination and depression in addition to standard stomach upset. While rare, a slowed heart rate is a specific risk factor associated with this plant that requires professional monitoring.Supportive Fluid Therapy",
+      "notes": "Jade Plant toxicity is distinct from many other plant poisonings because it causes incoordination and depression in addition to standard stomach upset. While rare, a slowed heart rate is a specific risk factor associated with this plant that requires professional monitoring.",
       "priority": 2
     },
     {

@@ -4,18 +4,18 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "While these allergenic lactones are present in all parts of the tulip plant, they are most heavily and dangerously concentrated in the bulbs",
-      "description": "in cats: The provided sources do not detail the specific cellular mechanism of action for these compounds. However, clinically, they act as severe irritants and allergens. When ingested, they cause intense irritation to the gastrointestinal tract, leading to profuse drooling (ptyalism), nausea, vomiting, diarrhea, and depression1.... If a cat consumes a large amount, the toxins can cause systemic ",
+      "concentration_notes": "While these allergenic lactones are present in all parts of the tulip plant, they are most heavily and dangerously concentrated in the bulbs.",
+      "description": "The provided sources do not detail the specific cellular mechanism of action for these compounds. However, clinically, they act as severe irritants and allergens. When ingested, they cause intense irritation to the gastrointestinal tract, leading to profuse drooling (ptyalism), nausea, vomiting, diarrhea, and depression.",
       "name": "Allergenic lactones, specifically identified as tulipalin A and tulipalin B"
     },
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "Like the lactones, these toxic alkaloids are heavily concentrated in the tulip bulbs",
-      "description": "in cats: Similar to the allergenic lactones, the sources do not provide the internal biological mechanism of action for these alkaloids, but note that they contribute to the plant's overall toxicity. They cause significant stomach upset, oral irritation, and in severe cases (especially if the bulb is ingested), they can cause convulsions, tremors, and cardiac arrhythmias",
+      "concentration_notes": "Like the lactones, these toxic alkaloids are heavily concentrated in the tulip bulbs.",
+      "description": "Similar to the allergenic lactones, the sources do not provide the internal biological mechanism of action for these alkaloids, but note that they contribute to the plant's overall toxicity. They cause significant stomach upset, oral irritation, and in severe cases (especially if the bulb is ingested), they can cause convulsions, tremors, and cardiac arrhythmias.",
       "name": "Alkaloids"
     }
   ],
-  "description": "Tulip (Tulipa spp.) is a popular spring bulb flower that is toxic to cats throughout all its parts, with the highest concentration of toxins in the bulbs. It contains tulipalin A and tulipalin B — allergenic lactone compounds — and other irritant glycosides. The bulb is particularly dangerous as it is accessible during planting and storage seasons.",
+  "description": "Tulips (Tulipa spp.) are beloved spring flowers, but they are toxic to cats. All parts of the plant contain poisonous compounds, but the bulb has the highest and most dangerous concentration of these toxins. For this reason, tulip bulbs pose the greatest risk, especially when they are stored indoors before planting.\n\nThe toxic principles in tulips are allergenic lactones like tulipalin A and tulipalin B. These substances are very irritating to the body's tissues. When a cat chews on the leaves or flowers, these compounds cause irritation to the mouth and throat, leading to drooling, vomiting, or diarrhea.\n\nIngesting the bulb is far more serious. The concentrated toxins can cause severe stomach upset, depression, and significant changes in heart rate and breathing. In some cases, tremors or seizures can occur. If you suspect your cat has chewed on any part of a tulip, and especially if they have eaten a bulb, please contact your veterinarian right away.",
   "emergencyNote": "Emesis Induction and Activated Charcoal",
   "family": "Liliaceae",
   "isToxic": true,
@@ -33,37 +33,37 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Irritation to the mouth, throat, and skin, leading to profuse drooling (ptyalism)",
-      "notes": "This is typically a primary reaction to the allergenic lactones found in the plant12. 2. Vomiting and Diarrhea",
+      "notes": "This is typically a primary reaction to the allergenic lactones found in the plant.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, diarrhea, and significant stomach upset",
-      "notes": "These are the most common digestive symptoms3. Furthermore, if a cat ingests large, intact pieces of the tulip bulb, it can cause a physical intestinal obstruction8. 3. Depression",
+      "notes": "These are the most common digestive symptoms3. Furthermore, if a cat ingests large, intact pieces of the tulip bulb, it can cause a physical intestinal obstruction.",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Depression",
-      "notes": "This generalized symptom of toxicosis is noted alongside severe stomach upset68. 4. Elevated Heart Rate and Arrhythmias",
+      "notes": "This generalized symptom of toxicosis is noted alongside severe stomach upset.",
       "severity": "moderate"
     },
     {
       "body_system": "Cardiac",
       "name": "Elevated heart rate (tachycardia) and cardiac arrhythmias",
-      "notes": "Cardiovascular abnormalities typically present only after a cat has ingested larger amounts of the plant, especially the highly toxic bulb where the dangerous compounds are concentrated1.... 5. Respiratory Distress",
+      "notes": "Cardiovascular abnormalities typically present only after a cat has ingested larger amounts of the plant, especially the highly toxic bulb where the dangerous compounds are concentrated.",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Changes to respiration and difficulty breathing",
-      "notes": "Similar to cardiac symptoms, respiratory distress is a severe systemic sign that occurs following a larger ingestion of the plant or its bulb1.... 6. Tremors and Convulsions",
+      "notes": "Similar to cardiac symptoms, respiratory distress is a severe systemic sign that occurs following a larger ingestion of the plant or its bulb.",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Tremors and convulsions (seizures)",
-      "notes": "These severe neurological symptoms manifest when significant amounts of the plant, particularly the bulb containing the highest concentration of toxic alkaloids and lactones, are consumed",
+      "notes": "These severe neurological symptoms manifest when significant amounts of the plant, particularly the bulb containing the highest concentration of toxic alkaloids and lactones, are consumed.",
       "severity": "severe"
     }
   ],
@@ -75,27 +75,27 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "If the ingestion was recent, the veterinarian may medically induce vomiting to empty the stomach of the plant material. This is often followed by administering activated charcoal to bind any remaining toxins in the gastrointestinal tract, preventing them from being absorbed into the bloodstream",
+      "description": "If the ingestion was recent, the veterinarian may medically induce vomiting to empty the stomach of the plant material. This is often followed by administering activated charcoal to bind any remaining toxins in the gastrointestinal tract, preventing them from being absorbed into the bloodstream.",
       "name": "Emesis Induction and Activated Charcoal",
-      "notes": "This step is crucial for eliminating the toxic allergenic lactones and alkaloids before they can be absorbed, especially if the cat has eaten pieces of the highly concentrated tulip bulb1. You should never attempt to induce vomiting at home without professional veterinary advice, as you risk injurin",
+      "notes": "This step is crucial for eliminating the toxic allergenic lactones and alkaloids before they can be absorbed, especially if the cat has eaten pieces of the highly concentrated tulip bulb.",
       "priority": 1
     },
     {
-      "description": "The veterinary team will administer IV fluids to rehydrate the cat, help eliminate toxins, and support overall organ function",
+      "description": "The veterinary team will administer IV fluids to rehydrate the cat, help eliminate toxins, and support overall organ function.",
       "name": "Intravenous (IV) Fluid Therapy",
-      "notes": "This intervention is highly critical for tulip poisoning. The plant triggers profuse drooling, vomiting, and diarrhea, which quickly lead to severe fluid loss and dehydration1.... 3. Cardiovascular and Respiratory Support (If Severe)",
+      "notes": "This intervention is highly critical for tulip poisoning. The plant triggers profuse drooling, vomiting, and diarrhea, which quickly lead to severe fluid loss and dehydration.",
       "priority": 2
     },
     {
-      "description": "The veterinarian will closely monitor the cat's vital signs and administer specific medications or breathing support if cardiovascular or respiratory abnormalities develop",
+      "description": "The veterinarian will closely monitor the cat's vital signs and administer specific medications or breathing support if cardiovascular or respiratory abnormalities develop.",
       "name": "Cardiac and Respiratory Monitoring and Pharmacological Support",
       "notes": "While mild exposures generally only cause gastrointestinal upset, if a cat ingests larger amounts of the tulip—particularly the highly toxic bulb—it can lead to severe systemic signs such as an elevated heart rate (tachycardia), cardiac arrhythmias, and difficulty breathing, requiring targeted emerg",
       "priority": 3
     },
     {
-      "description": "The veterinarian will closely monitor the cat and provide specific treatments to ease discomfort, which may include gastroprotectant medications to soothe the digestive tract",
+      "description": "The veterinarian will closely monitor the cat and provide specific treatments to ease discomfort, which may include gastroprotectant medications to soothe the digestive tract.",
       "name": "Symptomatic Treatment and Monitoring",
-      "notes": "The allergenic lactones in tulips act as severe irritants to the tissues in the mouth and throat27. Supportive care ensures the cat remains comfortable while the toxins pass through its system. Additionally, veterinarians may need to monitor for potential intestinal blockages if large, intact pieces",
+      "notes": "The allergenic lactones in tulips act as severe irritants to the tissues in the mouth and throat27. Supportive care ensures the cat remains comfortable while the toxins pass through its system.",
       "priority": 4
     }
   ]

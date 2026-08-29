@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "The sources do not provide the exact concentration of these oils in Mexican Mint1. However, they note a general rule for mint plants: a tiny taste or nibble of fresh leaves typically only causes mild stomach upset, whereas concentrated forms (like extracted essential oils) are highly toxic and can cause severe respiratory distress, liver damage, or neurological issues",
-      "description": "in cats: These plant oils act as direct gastro-irritants to the feline digestive tract15. Furthermore, cats lack the specific liver enzymes required to safely process and break down these essential oils6. Because their bodies cannot metabolize the oils, ingestion leads to gastrointestinal upset, resulting in symptoms like vomiting, drooling, and diarrhea24. 4. Notes on",
+      "concentration_notes": "The sources do not provide the exact concentration of these oils in Mexican Mint1. However, they note a general rule for mint plants: a tiny taste or nibble of fresh leaves typically only causes mild stomach upset, whereas concentrated forms (like extracted essential oils) are highly toxic and can cause severe respiratory distress, liver damage, or neurological issues.",
+      "description": "These plant oils act as direct gastro-irritants to the feline digestive tract15. Furthermore, cats lack the specific liver enzymes required to safely process and break down these essential oils6. Because their bodies cannot metabolize the oils, ingestion leads to gastrointestinal upset, resulting in symptoms like vomiting, drooling, and diarrhea.",
       "name": "Essential oils (The sources do not specify the exact essential oil profile for Mexican Mint"
     }
   ],
-  "description": "Mexican Mint (Plectranthus amboinicus), also called Indian Borage or Cuban Oregano, is an aromatic succulent herb that is mildly toxic to cats. It contains pungent essential oils — primarily carvacrol, thymol, and camphor-related compounds — that act as GI irritants in cats and cannot be efficiently metabolised by their livers.",
+  "description": "Mexican Mint (Plectranthus amboinicus), also known as Indian borage or Cuban oregano, is an aromatic herb with thick, fuzzy leaves. It is mildly toxic to cats because it contains strong essential oils.\n\nCats do not have the right liver enzymes to break down these oils. When a cat eats the plant, compounds like carvacrol and thymol directly irritate their stomach and digestive tract.\n\nA cat that nibbles on Mexican mint may drool, vomit, have diarrhea, or lose its appetite. The strong smell usually keeps cats away, but if your cat eats a large amount or if the symptoms do not go away, contact a veterinarian.",
   "emergencyNote": "Induction of Emesis (Vomiting), Gastric Lavage, and Activated Charcoal",
   "family": "Lamiaceae",
   "isToxic": true,
@@ -27,37 +27,37 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting",
-      "notes": "Because Mexican Mint acts directly as a gastro-irritant, vomiting is one of the primary and most common signs of stomach upset after a cat nibbles on the plant1.... 2. Diarrhea",
+      "notes": "Because Mexican Mint acts directly as a gastro-irritant, vomiting is one of the primary and most common signs of stomach upset after a cat nibbles on the plant.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Diarrhea",
-      "notes": "This symptom is a direct result of the plant's essential oils irritating the feline digestive tract as the body attempts to process compounds it cannot properly break down2.... 3. Drooling or Foaming at the Mouth",
+      "notes": "This symptom is a direct result of the plant's essential oils irritating the feline digestive tract as the body attempts to process compounds it cannot properly break down.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Drooling (excessive salivation) or foaming at the mouth",
-      "notes": "This is a localized reaction to the strong taste and irritating nature of the essential oils present in the mint plant34. 4. Loss of Appetite",
+      "notes": "This is a localized reaction to the strong taste and irritating nature of the essential oils present in the mint plant.",
       "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Loss of appetite",
-      "notes": "The gastrointestinal irritation, discomfort, and nausea caused by the plant will frequently lead the cat to refuse food45. 5. Lethargy or Weakness",
+      "notes": "The gastrointestinal irritation, discomfort, and nausea caused by the plant will frequently lead the cat to refuse food.",
       "severity": "moderate"
     },
     {
       "body_system": "Neurological",
       "name": "Lethargy or weakness",
-      "notes": "While a small nibble usually results in mild discomfort, ingesting larger quantities of the plant can cause systemic weakness and lethargy34. 6. Difficulty Breathing (Associated with Concentrated Exposure)",
+      "notes": "While a small nibble usually results in mild discomfort, ingesting larger quantities of the plant can cause systemic weakness and lethargy.",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Difficulty breathing",
-      "notes": "While fresh Mexican Mint leaves generally cause mild gastrointestinal signs, if a cat is exposed to or inhales highly concentrated forms of the plant (such as extracted mint essential oils), it can trigger severe respiratory distress, neurological symptoms, and even liver failure",
+      "notes": "While fresh Mexican Mint leaves generally cause mild gastrointestinal signs, if a cat is exposed to or inhales highly concentrated forms of the plant (such as extracted mint essential oils), it can trigger severe respiratory distress, neurological symptoms, and even liver failure.",
       "severity": "severe"
     }
   ],
@@ -71,21 +71,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "To prevent the plant material from being fully digested and absorbed, the veterinarian may medically induce vomiting or perform a gastric lavage (pump the stomach)23. Following this, they may administer activated charcoal to bind to and absorb any remaining toxins in the digestive tract",
+      "description": "To prevent the plant material from being fully digested and absorbed, the veterinarian may medically induce vomiting or perform a gastric lavage (pump the stomach)23. Following this, they may administer activated charcoal to bind to and absorb any remaining toxins in the digestive tract.",
       "name": "Induction of Emesis (Vomiting), Gastric Lavage, and Activated Charcoal",
-      "notes": "You should never attempt to induce vomiting at home unless explicitly instructed to do so by a veterinary professional, as doing it incorrectly can cause more harm to the cat3. Gastric lavage is generally reserved for more extreme cases of ingestion2. 2. Fluid Replacement",
+      "notes": "You should never attempt to induce vomiting at home unless explicitly instructed to do so by a veterinary professional, as doing it incorrectly can cause more harm to the cat3. Gastric lavage is generally reserved for more extreme cases of ingestion.",
       "priority": 1
     },
     {
-      "description": "The veterinarian will administer IV fluids to rehydrate and stabilize the animal",
+      "description": "The veterinarian will administer IV fluids to rehydrate and stabilize the animal.",
       "name": "Intravenous (IV) Fluid Therapy",
-      "notes": "Because Mexican Mint is a gastro-irritant, it frequently causes vomiting and diarrhea1. This treatment is specifically necessary if these gastrointestinal symptoms have caused the cat to become dehydrated2. 3. Symptomatic Gastrointestinal Support",
+      "notes": "Because Mexican Mint is a gastro-irritant, it frequently causes vomiting and diarrhea1. This treatment is specifically necessary if these gastrointestinal symptoms have caused the cat to become dehydrated.",
       "priority": 2
     },
     {
-      "description": "The vet will administer an anti-nausea injection (antiemetic) to stop the vomiting, as well as gastric protectants or antacids to soothe the irritated stomach lining",
+      "description": "The vet will administer an anti-nausea injection (antiemetic) to stop the vomiting, as well as gastric protectants or antacids to soothe the irritated stomach lining.",
       "name": "Antiemetics and Gastric Protectants",
-      "notes": "The primary goal of this supportive care is to keep the cat as comfortable as possible as the irritants pass through its system2. In severe cases, the cat may need to be hospitalized while receiving these supportive treatments",
+      "notes": "The primary goal of this supportive care is to keep the cat as comfortable as possible as the irritants pass through its system2. In severe cases, the cat may need to be hospitalized while receiving these supportive treatments.",
       "priority": 3
     }
   ]

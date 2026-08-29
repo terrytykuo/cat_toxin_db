@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ Distribution: The toxin is found in all parts of the plant, with the nectar, flowers, leaves, and stems being of greatest concern12. ◦ Potency: The plant is potent; ingesting only a few leaves or petals is sufficient to cause clinical signs (usually gastrointestinal issues and central nervous system depression)4. Larger ingestions result in more severe toxicity, including cardiovascular collapse",
-      "description": "in cats: ◦ Sodium Channel Modification: Grayanotoxins bind to sodium channels in cell membranes and prevent them from closing23. ◦ Cellular Depolarization: This modification causes \"prolonged depolarization\" of excitable cells. This primarily affects nerve cells, skeletal muscle, and cardiac muscle, leading to disruption in the electrical conduction of the heart and nervous system23. 4. Notes on",
+      "concentration_notes": "◦ Distribution: The toxin is found in all parts of the plant, with the nectar, flowers, leaves, and stems being of greatest concern12. ◦ Potency: The plant is potent; ingesting only a few leaves or petals is sufficient to cause clinical signs (usually gastrointestinal issues and central nervous system depression)4. Larger ingestions result in more severe toxicity, including cardiovascular collapse.",
+      "description": "◦ Sodium Channel Modification: Grayanotoxins bind to sodium channels in cell membranes and prevent them from closing23. ◦ Cellular Depolarization: This modification causes \"prolonged depolarization\" of excitable cells. This primarily affects nerve cells, skeletal muscle, and cardiac muscle, leading to disruption in the electrical conduction of the heart and nervous system.",
       "name": "Grayanotoxins (historically referred to as andromedotoxins)"
     }
   ],
-  "description": "Japanese Pieris (Pieris japonica), also known as Lily of the Valley shrub or Andromeda, is a highly toxic ornamental shrub closely related to Rhododendron and Azalea. It contains grayanotoxins — the same diterpenoid polyol compounds responsible for Rhododendron poisoning — throughout all parts of the plant, including leaves, flowers, and nectar.",
+  "description": "Japanese Pieris (Pieris japonica), also called lily-of-the-valley shrub or andromeda, is a highly toxic ornamental shrub. It is related to azalea and rhododendron, which are also dangerous for cats.\n\nThe plant contains grayanotoxins in the leaves, flowers, stems, and nectar. These toxins interfere with normal nerve and muscle signals. They can affect the digestive system, heart, and brain, even when a cat eats only a small amount.\n\nSigns may include drooling, vomiting, diarrhea, weakness, slow or irregular heartbeat, tremors, seizures, or collapse. This is an emergency exposure. Keep Japanese Pieris away from cats, and contact a veterinarian or emergency clinic immediately if your cat eats any part of it.",
   "emergencyNote": "Induction of Emesis and Activated Charcoal",
   "family": "Ericaceae",
   "isToxic": true,
@@ -27,28 +27,28 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, Diarrhea, Hypersalivation (Drooling), and Anorexia (Refusal to eat)",
-      "notes": "With small ingestions (a few leaves or petals), clinical signs are often limited to these gastrointestinal effects. The toxin can also cause abdominal pain.Cardiovascular Abnormalities",
+      "notes": "With small ingestions (a few leaves or petals), clinical signs are often limited to these gastrointestinal effects. The toxin can also cause abdominal pain.",
       "onset": "1–4 hours (occasionally up to 12 hours).",
       "severity": "severe"
     },
     {
       "body_system": "Cardiac",
       "name": "Cardiac Arrhythmias, Bradycardia (slow heart rate), Tachycardia (fast heart rate), and Hypotension (low blood pressure)",
-      "notes": "Grayanotoxins modify sodium channels in cardiac muscle cells, leading to prolonged depolarization. Hypotension may require intravenous fluid support.Central Nervous System (CNS) Dysfunction",
+      "notes": "Grayanotoxins modify sodium channels in cardiac muscle cells, leading to prolonged depolarization. Hypotension may require intravenous fluid support.",
       "onset": "1–4 hours.",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Weakness, Tremors, Seizures (Convulsions), Ataxia (loss of coordination), Depression, and Coma",
-      "notes": "The toxins affect nerve cells, causing prolonged excitation followed by depression. Severe CNS signs usually indicate a larger ingestion.Respiratory Distress",
+      "notes": "The toxins affect nerve cells, causing prolonged excitation followed by depression. Severe CNS signs usually indicate a larger ingestion.",
       "onset": "1–4 hours.",
       "severity": "fatal"
     },
     {
       "body_system": "Respiratory",
       "name": "Dyspnea (Difficulty breathing)",
-      "notes": "Trouble breathing is a common sign of significant grayanotoxin poisoning and often accompanies muscle weakness and cardiac issues.Transient Blindness",
+      "notes": "Trouble breathing is a common sign of significant grayanotoxin poisoning and often accompanies muscle weakness and cardiac issues.",
       "onset": "1–4 hours.",
       "severity": "severe"
     },
@@ -71,25 +71,25 @@
     {
       "description": "If the cat is asymptomatic, the veterinarian will induce vomiting (emesis) to remove the plant material from the stomach. This is followed by the administration of an antiemetic (to stop vomiting) and a dose of activated charcoal with a cathartic to bind any remaining toxins in the digestive tract.",
       "name": "Induction of Emesis and Activated Charcoal",
-      "notes": "Decontamination should only be performed if the patient is \"neurologically appropriate\" (alert and able to swallow safely). However, because plant material can remain in the stomach for many hours, emesis may still be successful several hours after ingestion1. 2. Cardiovascular Stabilization",
+      "notes": "Decontamination should only be performed if the patient is \"neurologically appropriate\" (alert and able to swallow safely). However, because plant material can remain in the stomach for many hours, emesis may still be successful several hours after ingestion.",
       "priority": 1
     },
     {
       "description": "IV fluids are administered to support blood pressure, particularly in cases of hypotension (low blood pressure). Specific medications are used to correct heart rhythm abnormalities: Atropine is used for bradycardia (slow heart rate), while antiarrhythmics like lidocaine or procainamide are used for arrhythmias.",
       "name": "Intravenous (IV) Fluid Therapy and Cardiac Medications",
-      "notes": "Continuous monitoring of heart rate and blood pressure is required until the animal is ready for discharge. Cardiovascular collapse is a primary risk of grayanotoxin poisoning12. 3. Neurological Management",
+      "notes": "Continuous monitoring of heart rate and blood pressure is required until the animal is ready for discharge. Cardiovascular collapse is a primary risk of grayanotoxin poisoning.",
       "priority": 2
     },
     {
       "description": "Veterinarians administer methocarbamol to manage muscle tremors. Standard anticonvulsant medications are used if the cat experiences seizures.",
       "name": "Administration of Methocarbamol or Anticonvulsants",
-      "notes": "Grayanotoxins cause prolonged depolarization of nerve cells, leading to these neurological signs. Seizures and tremors indicate more severe toxicity12. 4. Symptomatic Supportive Care",
+      "notes": "Grayanotoxins cause prolonged depolarization of nerve cells, leading to these neurological signs. Seizures and tremors indicate more severe toxicity.",
       "priority": 3
     },
     {
       "description": "The use of antiemetics, antidiarrheals, and gastroprotectants (stomach coating medication) to manage persistent vomiting and diarrhea.",
       "name": "Gastrointestinal Support",
-      "notes": "If clinical signs are limited to gastrointestinal issues (common with small ingestions), the prognosis is generally excellent with this supportive care",
+      "notes": "If clinical signs are limited to gastrointestinal issues (common with small ingestions), the prognosis is generally excellent with this supportive care.",
       "priority": 4
     }
   ]

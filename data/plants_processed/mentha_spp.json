@@ -12,7 +12,7 @@
     {
       "name": "Essential Oils (specifically identified as Menthol and Peppermint Oil in the sources)",
       "chemical_formula": "Not provided in the sources.",
-      "description": "◦ Enzymatic Deficiency: Cats lack specific liver enzymes required to break down and process the volatile compounds found in mint oils. This inability to metabolize the oils can lead to systemic toxicity. ◦ Gastrointestinal Irritation: The oils act as a direct irritant to the stomach and intestines, causing nausea, vomiting, and diarrhea. ◦ Esophageal Relaxation: The essential oils in gard",
+      "description": "◦ Enzymatic Deficiency: Cats lack specific liver enzymes required to break down and process the volatile compounds found in mint oils. This inability to metabolize the oils can lead to systemic toxicity. ◦ Gastrointestinal Irritation: The oils act as a direct irritant to the stomach and intestines, causing nausea, vomiting, and diarrhea.",
       "concentration_notes": "◦ Fresh Plant: The concentration of oils in fresh leaves is relatively low. Ingesting a small amount usually results in mild gastrointestinal upset. ◦ Extracts and Oils: Essential oils are highly concentrated and dangerous. Exposure to these forms (via inhalation or ingestion) can cause severe symptoms such as liver failure, breathing difficulties, and neurological issues."
     },
     {
@@ -26,13 +26,13 @@
     {
       "name": "Removal of Stomach Contents (Induction of Vomiting or Stomach Pumping)",
       "description": "The veterinarian may induce vomiting (emesis) to expel the plant material from the stomach before it is digested. In more extreme cases, a gastric lavage (stomach pump) may be used to wash out the stomach.",
-      "notes": "This procedure is typically reserved for severe cases or recent massive ingestion. While one source mentions using hydrogen peroxide to induce vomiting, another explicitly warns that hydrogen peroxide should never be used to induce vomiting in cats at home due to the risk of severe injury, so this s",
+      "notes": "This procedure is typically reserved for severe cases or recent massive ingestion.",
       "priority": 1
     },
     {
       "name": "Administration of Activated Charcoal",
       "description": "The veterinarian may administer a dose of activated charcoal. This substance binds to toxins remaining in the gastrointestinal tract, preventing them from being absorbed into the bloodstream.",
-      "notes": "This is often used in conjunction with decontamination to ensure any remaining toxins are neutralized.Intravenous (IV) Fluid Therapy",
+      "notes": "This is often used in conjunction with decontamination to ensure any remaining toxins are neutralized.",
       "priority": 2
     },
     {
@@ -44,7 +44,7 @@
     {
       "name": "Anti-nausea Medication and Antacids",
       "description": "The vet may give an injection to stop nausea (anti-emetic) and administer medications (antacids or gastric protectants) to coat and soothe the stomach lining.",
-      "notes": "Garden mint essential oils can relax the esophageal valve, making vomiting more likely; these medications help keep the cat comfortable and prevent further gastrointestinal irritation.Important Note: Most ingestions of garden mint result in only mild symptoms and will not require aggressive treatmen",
+      "notes": "Garden mint essential oils can relax the esophageal valve, making vomiting more likely; these medications help keep the cat comfortable and prevent further gastrointestinal irritation.",
       "priority": 4
     }
   ],
@@ -64,20 +64,20 @@
       "name": "Vomiting and Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "Garden mint contains essential oils that can irritate the stomach lining. Additionally, these oils are known to relax the esophageal valve, which increases the likelihood of vomiting, particularly in cats that are already feeling unwell12.Nausea and Excessive Drooling"
+      "notes": "Garden mint contains essential oils that can irritate the stomach lining. Additionally, these oils are known to relax the esophageal valve, which increases the likelihood of vomiting, particularly in cats that are already feeling unwell."
     },
     {
       "name": "Nausea and Hypersalivation (Drooling)",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Rapid (often a response to taste or irritation).",
-      "notes": "The strong scent and taste of mint can be unappealing and irritating to cats, leading to drooling or foaming at the mouth24.Weakness and Lethargy"
+      "notes": "The strong scent and taste of mint can be unappealing and irritating to cats, leading to drooling or foaming at the mouth."
     },
     {
       "name": "Lethargy and General Weakness",
       "body_system": "Neurological",
       "severity": "moderate",
-      "notes": "While common with large ingestions, severe lethargy is more frequently associated with the consumption of concentrated mint oils or more toxic mint varieties like Pennyroyal1.Skin Irritation"
+      "notes": "While common with large ingestions, severe lethargy is more frequently associated with the consumption of concentrated mint oils or more toxic mint varieties like Pennyroyal."
     },
     {
       "name": "Contact Dermatitis (Skin irritation)",

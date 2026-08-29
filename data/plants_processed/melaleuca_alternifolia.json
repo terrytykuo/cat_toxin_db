@@ -5,11 +5,11 @@
     {
       "chemical_formula": null,
       "concentration_notes": "Essential oils are highly potent, concentrated plant extracts. As previously established, using essential oils \"neat\" (undiluted) on or around a cat is extremely dangerous. Because cats are uniquely sensitive to these specific compounds, even minor or indirect exposure can be hazardous and lead to rapid toxicity.",
-      "description": "in cats: As noted in our previous discussions regarding essential oil toxicity, cats lack the specific liver enzymes required to safely metabolize and break down these volatile compounds. When a cat is exposed to tea tree oil—whether through ingestion from grooming, direct skin absorption, or inhalation—the compounds quickly enter the bloodstream. Because the cat's liver cannot efficiently process",
+      "description": "As noted in our previous discussions regarding essential oil toxicity, cats lack the specific liver enzymes required to safely metabolize and break down these volatile compounds. When a cat is exposed to tea tree oil—whether through ingestion from grooming, direct skin absorption, or inhalation—the compounds quickly enter the bloodstream.",
       "name": "Tea Tree Essential Oil"
     }
   ],
-  "description": "Tea Tree (Melaleuca alternifolia) essential oil is highly toxic to cats. Unlike many herbal products, tea tree oil causes severe toxicity even in very small topical doses — a few drops applied to the skin can cause life-threatening reactions. Cats absorb the oil rapidly through skin, and their livers cannot metabolise the terpene compounds.",
+  "description": "Tea Tree essential oil, derived from the Melaleuca alternifolia plant, is extremely dangerous for cats and should never be used on or near them. Cats can absorb the toxic compounds through their skin, by inhaling the oil's vapor, or by licking it off their fur. This exposure can lead to severe poisoning very quickly.\n\nThe oil contains terpenes, a type of compound that a cat's liver cannot properly break down. This causes the toxins to build up in their system, affecting the central nervous system and liver. Even a few drops can be enough to cause a life-threatening reaction.\n\nSigns of tea tree oil poisoning include stumbling or lack of coordination, weakness, shaking, a low body temperature, and vomiting. If you suspect your cat has been exposed to tea tree oil, this is a medical emergency. Wash the oil off your cat immediately with dish soap and water, and contact a veterinarian or an emergency animal hospital without delay.",
   "emergencyNote": "Oral Rinsing and Dilution",
   "family": "Myrtaceae",
   "isToxic": true,
@@ -27,37 +27,37 @@
     {
       "body_system": "Neurological",
       "name": "Depression, lethargy, or dullness",
-      "notes": "This is a primary, highlighted symptom specifically associated with tea tree oil poisoning in cats1. 2. Hypothermia",
+      "notes": "This is a primary, highlighted symptom specifically associated with tea tree oil poisoning in cats.",
       "severity": "severe"
     },
     {
       "body_system": "Metabolic",
       "name": "Hypothermia (abnormally low body temperature)",
-      "notes": "Alongside depression, hypothermia is explicitly noted as a direct consequence of tea tree oil exposure in felines1. 3. Liver Injury and Failure",
+      "notes": "Alongside depression, hypothermia is explicitly noted as a direct consequence of tea tree oil exposure in felines.",
       "severity": "severe"
     },
     {
       "body_system": "Hepatic",
       "name": "Liver injury progressing to potential liver failure",
-      "notes": "Because cats lack the specific enzymes to metabolize essential oils, the toxins accumulate and cause serious organ damage. Extreme cases of toxicity can cause complete liver failure and death12. 4. Excessive Drooling and Vomiting",
+      "notes": "Because cats lack the specific enzymes to metabolize essential oils, the toxins accumulate and cause serious organ damage. Extreme cases of toxicity can cause complete liver failure and death.",
       "severity": "fatal"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Excessive dribbling (drooling) and vomiting",
-      "notes": "These are common signs of general essential oil poisoning, often occurring if a cat ingests the liquid directly or licks it off its fur during grooming23. 5. Neurological Impairment (Ataxia, Tremors, and Seizures)",
+      "notes": "These are common signs of general essential oil poisoning, often occurring if a cat ingests the liquid directly or licks it off its fur during grooming.",
       "severity": "moderate"
     },
     {
       "body_system": "Neurological",
       "name": "Shaking, tremoring, \"walking as if they're drunk\" (ataxia), collapse, and seizures",
-      "notes": "Essential oils heavily impact the central nervous system. If the toxicity progresses to collapse or seizures, it is a life-threatening emergency2. 6. Skin Irritation and Chemical Burns",
+      "notes": "Essential oils heavily impact the central nervous system. If the toxicity progresses to collapse or seizures, it is a life-threatening emergency.",
       "severity": "fatal"
     },
     {
       "body_system": "Dermal",
       "name": "Sore skin, redness, or chemical burns",
-      "notes": "Direct skin contact with undiluted essential oils causes localized damage. However, the sources warn that even if there is no visible damage to the skin, you should not assume the cat is safe from systemic poisoning2. 7. Respiratory Distress",
+      "notes": "Direct skin contact with undiluted essential oils causes localized damage. However, the sources warn that even if there is no visible damage to the skin, you should not assume the cat is safe from systemic poisoning.",
       "severity": "severe"
     },
     {
@@ -73,33 +73,33 @@
   "toxicityLevel": "severe",
   "treatments": [
     {
-      "description": "The cat's mouth is rinsed with lukewarm water, or the cat is offered milk to help dilute the ingested essential oils",
+      "description": "The cat's mouth is rinsed with lukewarm water, or the cat is offered milk to help dilute the ingested essential oils.",
       "name": "Oral Rinsing and Dilution",
-      "notes": "Do NOT induce vomiting2. Because essential oils can cause chemical burns to the digestive tract, making the cat vomit can cause further severe injury as the corrosive ingredients are brought back up23. 2. Dermal Decontamination (If ingested via grooming)",
+      "notes": "Do NOT induce vomiting2. Because essential oils can cause chemical burns to the digestive tract, making the cat vomit can cause further severe injury as the corrosive ingredients are brought back up.",
       "priority": 1
     },
     {
-      "description": "The affected areas of the cat's fur and skin are washed thoroughly with soap and water to remove any remaining essential oil",
+      "description": "The affected areas of the cat's fur and skin are washed thoroughly with soap and water to remove any remaining essential oil.",
       "name": "Topical Washing / Decontamination",
-      "notes": "Cats are meticulous groomers and will lick oils off their fur5. If the ingestion occurred because the Tea Tree oil was applied to or spilled on the skin, it is critical to completely wash the residue off to prevent the cat from continuing to ingest the toxins45. 3. Diagnostics and Systemic Organ Sup",
+      "notes": "Cats are meticulous groomers and will lick oils off their fur5. If the ingestion occurred because the Tea Tree oil was applied to or spilled on the skin, it is critical to completely wash the residue off to prevent the cat from continuing to ingest the toxins.",
       "priority": 2
     },
     {
-      "description": "The veterinarian will run blood work and a urinalysis to assess the extent of the poisoning, followed by administering IV fluids to rehydrate the cat, help eliminate the toxins from the body, and support vital organ function",
+      "description": "The veterinarian will run blood work and a urinalysis to assess the extent of the poisoning, followed by administering IV fluids to rehydrate the cat, help eliminate the toxins from the body, and support vital organ function.",
       "name": "Intravenous (IV) Fluid Therapy and Blood Work",
-      "notes": "This is a highly critical step for Tea Tree poisoning, as the oil is specifically known to cause liver injury1. The IV fluids are necessary to actively support and protect the liver and kidneys from failing while the toxins are processed2. 4. Gastrointestinal and Hepatic Medication",
+      "notes": "This is a highly critical step for Tea Tree poisoning, as the oil is specifically known to cause liver injury1. The IV fluids are necessary to actively support and protect the liver and kidneys from failing while the toxins are processed.",
       "priority": 3
     },
     {
-      "description": "The veterinarian will administer a combination of anti-emetic (anti-vomiting) medications, drugs that coat and protect the stomach lining, and specific liver-protectant medications",
+      "description": "The veterinarian will administer a combination of anti-emetic (anti-vomiting) medications, drugs that coat and protect the stomach lining, and specific liver-protectant medications.",
       "name": "Pharmacological Support",
-      "notes": "If the Tea Tree oil has caused chemical burns to the mouth or digestive tract, the vet will also prescribe appropriate pain medications and antibiotics2. 5. Nutritional Support (If severe burns are present)",
+      "notes": "If the Tea Tree oil has caused chemical burns to the mouth or digestive tract, the vet will also prescribe appropriate pain medications and antibiotics.",
       "priority": 4
     },
     {
-      "description": "A feeding tube is placed directly into the cat's stomach to bypass the mouth and throat, allowing the cat to receive necessary nutrition",
+      "description": "A feeding tube is placed directly into the cat's stomach to bypass the mouth and throat, allowing the cat to receive necessary nutrition.",
       "name": "Feeding Tube Insertion",
-      "notes": "This intervention is utilized only in severe cases where the essential oil has caused significant chemical burns, leaving the cat in too much pain to eat normally while its injuries heal",
+      "notes": "This intervention is utilized only in severe cases where the essential oil has caused significant chemical burns, leaving the cat in too much pain to eat normally while its injuries heal.",
       "priority": 5
     }
   ]

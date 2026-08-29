@@ -4,8 +4,8 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "• Lower Risk: The toxicity of imposter lilies is generally considered less severe than that of true lilies. True lilies are life-threatening emergencies where even pollen or vase water can be fatal35. By contrast, imposter lilies are distinguished by their lack of nephrotoxicity (kidney damage)3.• Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual1... • Household H",
-      "description": "in Cats • Non-Nephrotoxic: Unlike \"true lilies\" (e.g., Tiger, Easter, or Daylilies), which cause fatal acute kidney failure in cats upon ingestion of even small amounts, Fire Lilies do not cause kidney failure3. • Irritant (Inferred): While the text does not detail the Fire Lily's specific mechanism, other \"imposter lilies\" listed alongside it (such as Peace and Calla lilies) typically contain ins",
+      "concentration_notes": "• Lower Risk: The toxicity of imposter lilies is generally considered less severe than that of true lilies. True lilies are life-threatening emergencies where even pollen or vase water can be fatal35. By contrast, imposter lilies are distinguished by their lack of nephrotoxicity (kidney damage).",
+      "description": "in Cats • Non-Nephrotoxic: Unlike \"true lilies\" (e.g., Tiger, Easter, or Daylilies), which cause fatal acute kidney failure in cats upon ingestion of even small amounts, Fire Lilies do not cause kidney failure.",
       "name": "Not explicitly identified in the provided text. ◦ Note: The plant is categorized as an \"imposter lily\" alongside plants like the Peruvian lily"
     }
   ],
@@ -51,27 +51,27 @@
   "toxicityLevel": "moderate",
   "treatments": [
     {
-      "description": "If the ingestion was recent (typically within a few hours), the veterinarian may administer medication to induce vomiting (emesis) to remove the plant material from the stomach. This may be followed by the administration of activated charcoal, which binds to any remaining toxins in the gastrointestinal tract to prevent absorption into the bloodstream",
+      "description": "If the ingestion was recent (typically within a few hours), the veterinarian may administer medication to induce vomiting (emesis) to remove the plant material from the stomach. This may be followed by the administration of activated charcoal, which binds to any remaining toxins in the gastrointestinal tract to prevent absorption into the bloodstream.",
       "name": "Gastrointestinal Decontamination",
-      "notes": "Inducing vomiting should never be attempted at home using hydrogen peroxide or salt, as this can cause severe complications like aspiration pneumonia or salt poisoning. It must be performed by a veterinary professional3. This step is most effective when performed shortly after ingestion. 2. Fluid Th",
+      "notes": "Inducing vomiting should never be attempted at home using hydrogen peroxide or salt, as this can cause severe complications like aspiration pneumonia or salt poisoning. It must be performed by a veterinary professional3. This step is most effective when performed shortly after ingestion.",
       "priority": 1
     },
     {
-      "description": "Fluids are administered to correct dehydration resulting from vomiting or diarrhea. This therapy also helps maintain blood pressure and supports general organ function while the cat recovers",
+      "description": "Fluids are administered to correct dehydration resulting from vomiting or diarrhea. This therapy also helps maintain blood pressure and supports general organ function while the cat recovers.",
       "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
-      "notes": "While Fire Lilies do not cause the specific renal failure seen with true lilies, vomiting and diarrhea can lead to significant dehydration in cats, making fluid support a vital part of recovery1. 3. Symptomatic Medical Management",
+      "notes": "While Fire Lilies do not cause the specific renal failure seen with true lilies, vomiting and diarrhea can lead to significant dehydration in cats, making fluid support a vital part of recovery.",
       "priority": 2
     },
     {
       "description": "If the cat is experiencing persistent vomiting or gastrointestinal pain, the vet may administer anti-emetics (to stop vomiting) and gastroprotectants (to coat and protect the stomach lining)",
       "name": "Anti-emetics and Gastroprotectants",
-      "notes": "Since the primary toxicity of imposter lilies often involves gastrointestinal upset, these medications provide relief and prevent further fluid loss. Unlike true lily ingestion, where dialysis might be considered, care for Fire Lily ingestion is primarily supportive14. 4. Clinical Monitoring",
+      "notes": "Since the primary toxicity of imposter lilies often involves gastrointestinal upset, these medications provide relief and prevent further fluid loss. Unlike true lily ingestion, where dialysis might be considered, care for Fire Lily ingestion is primarily supportive.",
       "priority": 3
     },
     {
-      "description": "The cat may be kept in the clinic or monitored at home for 24 hours to ensure symptoms resolve and no secondary complications develop",
+      "description": "The cat may be kept in the clinic or monitored at home for 24 hours to ensure symptoms resolve and no secondary complications develop.",
       "name": "Observation and Monitoring",
-      "notes": "Veterinarians must confirm the plant identification to ensure it is indeed an \"imposter\" (Clivia) and not a \"true\" lily. If there is any ambiguity, the cat might be treated more aggressively as a precaution",
+      "notes": "Veterinarians must confirm the plant identification to ensure it is indeed an \"imposter\" (Clivia) and not a \"true\" lily. If there is any ambiguity, the cat might be treated more aggressively as a precaution.",
       "priority": 4
     }
   ]

@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "The toxicity of the Poinsettia is considered very mild, and actual poisoning is quite rare35. A cat would generally need to ingest a large amount of the plant to develop clinical signs1. When symptoms do occur, they are typically self-limiting and rarely require veterinary treatment1. However, one source notes that if a cat manages to eat a significantly large amount, it may suffer more serious sy",
-      "description": "in cats: The milky sap acts as a direct irritant to the mucous membranes2. When a cat bites into the leaves or stems, the sap irritates the mouth, esophagus, and gastrointestinal tract, which can lead to excessive drooling, nausea, vomiting, and diarrhea",
+      "concentration_notes": "The toxicity of the Poinsettia is considered very mild, and actual poisoning is quite rare35. A cat would generally need to ingest a large amount of the plant to develop clinical signs1. When symptoms do occur, they are typically self-limiting and rarely require veterinary treatment.",
+      "description": "The milky sap acts as a direct irritant to the mucous membranes2. When a cat bites into the leaves or stems, the sap irritates the mouth, esophagus, and gastrointestinal tract, which can lead to excessive drooling, nausea, vomiting, and diarrhea.",
       "name": "The sources identify the toxic substance simply as a \"thick, milky, irritant sap"
     }
   ],
-  "description": "Poinsettia (Euphorbia pulcherrima) is a common holiday plant with bright red, pink, or white bracts. It has a scary reputation, but for cats it is usually a mild irritant rather than a severe poison.\n\nThe main issue is the milky latex sap inside the leaves and stems. This sap contains irritating compounds, including diterpenoid euphorbol esters, that can bother the mouth, stomach, skin, or eyes. Most cats do not eat much because the plant tastes unpleasant, so serious poisoning is uncommon.\n\nIf a cat chews poinsettia, possible signs include drooling, mouth discomfort, vomiting, diarrhea, lower appetite, or low energy. Sap on the skin or in the eyes can cause redness or irritation. Keep poinsettias out of reach, wipe away fallen leaves, and contact a veterinarian if your cat eats a large amount, keeps vomiting, or has eye irritation.",
+  "description": "Poinsettia (Euphorbia pulcherrima) is a popular holiday plant known for its bright red, pink, or white leaves. While it has a reputation for being highly toxic, it is actually a mild irritant for cats rather than a deadly poison.\n\nThe hazard comes from the thick, milky sap found inside the plant's leaves and stems. When a cat bites the plant, this sap can irritate the mouth, throat, and stomach. The sap can also bother the skin or eyes if a leaf breaks and touches the cat. Because the sap tastes very bad, cats rarely eat enough to cause a serious problem.\n\nA cat that chews on a poinsettia may drool, feel nauseous, vomit, or have diarrhea. They might also lose their appetite or seem a bit tired. If the sap gets into their eyes or on their skin, it can cause redness and irritation. Keep these plants away from pets, clean up any fallen leaves, and contact a veterinarian if your cat eats a large amount, cannot stop vomiting, or shows signs of eye pain.",
   "emergencyNote": "Gastric Lavage, Activated Charcoal, and Saline Cathartics",
   "family": "Euphorbiaceae",
   "isToxic": true,
@@ -26,31 +26,31 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Oral irritation, excessive drooling (hypersalivation), and discomfort of the mouth and esophagus",
-      "notes": "This is caused by the thick, milky-white, latex sap found throughout the plant acting as a direct irritant to the mucous membranes1.... 2. Gastrointestinal Distress",
+      "notes": "This is caused by the thick, milky-white, latex sap found throughout the plant acting as a direct irritant to the mucous membranes.",
       "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, diarrhea, and nausea",
-      "notes": "Actual poisoning from a Poinsettia is considered rare; a cat generally needs to ingest a large amount of the plant to exhibit clinical signs56. The gastrointestinal symptoms are typically self-limiting and rarely require veterinary treatment6. 3. Anorexia",
+      "notes": "Actual poisoning from a Poinsettia is considered rare; a cat generally needs to ingest a large amount of the plant to exhibit clinical signs56. The gastrointestinal symptoms are typically self-limiting and rarely require veterinary treatment.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Anorexia (loss of appetite)",
-      "notes": "This is usually secondary to the gastrointestinal irritation and nausea caused by the plant's sap2.... 4. Depression",
+      "notes": "This is usually secondary to the gastrointestinal irritation and nausea caused by the plant's sap.",
       "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Depression or lethargy",
-      "notes": "This can present alongside the vomiting and anorexia if a significant amount of the plant is ingested6. 5. Cardiovascular Issues",
+      "notes": "This can present alongside the vomiting and anorexia if a significant amount of the plant is ingested.",
       "severity": "mild"
     },
     {
       "body_system": "Cardiac",
       "name": "Cardiovascular issues",
-      "notes": "While Poinsettia toxicity is generally mild and limited to stomach upset, if a cat consumes a significantly large amount of the plant, it may suffer from more serious symptoms, including potential cardiovascular issues",
+      "notes": "While Poinsettia toxicity is generally mild and limited to stomach upset, if a cat consumes a significantly large amount of the plant, it may suffer from more serious symptoms, including potential cardiovascular issues.",
       "severity": "severe"
     }
   ],
@@ -62,21 +62,21 @@
   "toxicityLevel": "low",
   "treatments": [
     {
-      "description": "For significant exposures, the veterinarian may pump or flush the stomach (gastric lavage) to remove the plant material. This can be followed by administering activated charcoal and a saline cathartic to bind the remaining toxins in the gastrointestinal tract and help them pass safely through the stool",
+      "description": "For significant exposures, the veterinarian may pump or flush the stomach (gastric lavage) to remove the plant material. This can be followed by administering activated charcoal and a saline cathartic to bind the remaining toxins in the gastrointestinal tract and help them pass safely through the stool.",
       "name": "Gastric Lavage, Activated Charcoal, and Saline Cathartics",
-      "notes": "This is the most urgent medical intervention but should only be considered in specific cases, as a cat would generally need to ingest a significantly large amount of the plant to warrant this level of treatment23. 2. Resting the Gastrointestinal Tract",
+      "notes": "This is the most urgent medical intervention but should only be considered in specific cases, as a cat would generally need to ingest a significantly large amount of the plant to warrant this level of treatment.",
       "priority": 1
     },
     {
-      "description": "The veterinarian may recommend limiting the cat's food and water intake for a short period, typically one or two hours",
+      "description": "The veterinarian may recommend limiting the cat's food and water intake for a short period, typically one or two hours.",
       "name": "Temporary Fasting (Withholding Food and Water)",
-      "notes": "This is recommended if the cat is suspected of becoming sick or is actively vomiting after ingestion, as it gives the irritated gastrointestinal tract time to settle and recover2. 3. Symptomatic Care and Observation",
+      "notes": "This is recommended if the cat is suspected of becoming sick or is actively vomiting after ingestion, as it gives the irritated gastrointestinal tract time to settle and recover.",
       "priority": 2
     },
     {
-      "description": "The cat is simply monitored while the mild symptoms (such as drooling, vomiting, or diarrhea) naturally subside on their own",
+      "description": "The cat is simply monitored while the mild symptoms (such as drooling, vomiting, or diarrhea) naturally subside on their own.",
       "name": "Observation and Symptomatic Support",
-      "notes": "Because Poinsettia ingestion is generally self-limiting and not fatal, active treatment is rarely needed23. Most of the time, the irritation resolves completely on its own without requiring a clinic visit",
+      "notes": "Because Poinsettia ingestion is generally self-limiting and not fatal, active treatment is rarely needed23. Most of the time, the irritation resolves completely on its own without requiring a clinic visit.",
       "priority": 3
     }
   ]

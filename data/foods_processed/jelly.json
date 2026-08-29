@@ -3,69 +3,69 @@
   "category": "food",
   "chemicals": [
     {
-      "chemical_formula": "C",
-      "concentration_notes": "or potency: Xylitol is exquisitely toxic to dogs at doses as low as 0.1 grams per kilogram of body weight10. By contrast, in an experimental study, cats were given massive doses up to 1,000 mg/kg (1 gram per kilogram) without suffering any toxic effects or significant biochemical changes4.... Nevertheless, products containing xylitol should still be kept away from cats as a strict safety precautio",
-      "description": "in cats: In dogs, xylitol tricks the pancreas into releasing a massive, rapid surge of insulin, which causes severe hypoglycemia (life-threatening low blood sugar) and can lead to acute liver failure23. In cats, however, this mechanism does not appear to occur. Experimental studies have shown that cats lack this severe insulinogenic response; when administered high oral doses of xylitol, cats show",
-      "name": "Xylitol (Artificial Sweetener)"
+      "chemical_formula": null,
+      "concentration_notes": "Xylitol is exquisitely toxic to dogs at doses as low as 0.1 grams per kilogram of body weight. Cats are not affected the same way: in an experimental study, cats were given doses up to 1,000 mg/kg (1 gram per kilogram) without suffering toxic effects or significant biochemical changes. Authorities such as the ASPCA and VCA state that cats are not negatively affected by xylitol.",
+      "description": "In dogs, xylitol triggers a massive, rapid surge of insulin, causing severe hypoglycemia and sometimes acute liver failure. In cats this does not occur — cats lack the strong insulin response, and high oral doses produced no significant change in blood glucose or liver values. Xylitol is therefore not considered toxic to cats.",
+      "name": "Xylitol (Artificial Sweetener) — not toxic to cats"
     },
     {
-      "chemical_formula": "C",
-      "concentration_notes": "or potency: The concentration of tartaric acid varies widely depending on the grape variety1920. While fresh grapes and raisins are highly toxic to pets, commercial processing of grape products (such as grape juice, wine, and jam/jelly) typically involves a step called \"detartration\"2021. The removal and thermal decomposition of these tartrates during commercial manufacturing likely explains why c",
-      "description": "in cats: Tartaric acid is the recently identified toxic principle in grapes and raisins that causes acute kidney injury1415. The mechanism of toxicity revolves around the Organic Anion Transporter 4 (OAT-4). Dogs (and anecdotally cats) lack the OAT-4 transporter in their kidneys, which normally secretes tartaric acid into the urine for safe excretion1617. Without this transporter, the tartaric aci",
-      "name": "Tartaric Acid / Potassium Bitartrate (Found in Grape Jelly)"
+      "chemical_formula": null,
+      "concentration_notes": "Tartaric acid concentration varies by grape variety. While whole grapes and raisins are dangerous, commercial processing of grape products (juice, wine, and jam/jelly) removes or thermally decomposes most of the tartrates, which is likely why processed grape products have not been associated with poisoning.",
+      "description": "Tartaric acid is the toxic principle in whole grapes and raisins that can cause acute kidney injury. It is concentrated in fresh grapes, raisins, and currants — not in processed grape jelly, where most of it is removed during manufacturing. The risk applies to whole-grape content, not to the jelly itself.",
+      "name": "Tartaric Acid / Potassium Bitartrate (in whole grapes and raisins, largely removed from jelly)"
     }
   ],
-  "description": "Jelly and jam can be toxic to cats depending on their ingredients. The two main hazards are xylitol in sugar-free products and grape or currant content in fruit spreads. Xylitol — a sweetener used in many reduced-sugar jellies — triggers a dangerous insulin surge in cats, and grape-based spreads carry the same unknown nephrotoxin found in raw grapes and raisins.",
-  "emergencyNote": "Because the toxicity of jelly depends heavily on its ingredients—most notably if it is made from grapes (which contain the nephrotoxin tartaric acid) or sweetened with xylitol",
-  "family": "Various",
-  "isToxic": true,
+  "description": "Jelly and jam are not appropriate cat food, but they are generally not acutely toxic to cats. Jelly is high in sugar, and cats are obligate carnivores not built to handle it, so the most common reaction is stomach upset.\n\nUnlike in dogs, xylitol (the sweetener in many sugar-free products) does not appear to be toxic to cats — studies and poison-control authorities report cats are not affected by it. Processed grape products such as grape jelly, juice, and wine have not been linked to poisoning, likely because processing removes most of the tartaric acid that makes whole grapes and raisins dangerous. As a precaution, however, whole grapes, raisins, and currants should still be kept away from cats.\n\nIf your cat eats jelly or jam, watch for vomiting or loose stools. Call a veterinarian or pet poison helpline if your cat ate jelly containing whole grapes, raisins, or currants, if it ate a large amount, or if you are not sure what was in it.",
+  "emergencyNote": "Jelly is generally not acutely toxic to cats. Seek prompt veterinary advice mainly if the jelly contained whole grapes, raisins, or currants, or if a large amount was eaten.",
+  "family": "",
+  "isToxic": false,
   "name": "Jelly",
   "safetyNotes": [
-    "Xylitol-containing jelly: toxic — causes hypoglycaemia (low blood sugar), weakness, seizures; liver failure at higher doses",
-    "Grape, currant, or raisin jelly: toxic — same nephrotoxic risk as raw grapes; no safe amount known",
-    "Regular fruit jelly (non-xylitol, non-grape): not acutely toxic but very high in sugar — avoid; not appropriate for cats",
-    "Always check the ingredient list for xylitol, grapes, currants, or raisins before assuming a jelly is safe",
-    "Contact your vet immediately if your cat ingests any sugar-free product or any grape/currant-based spread"
+    "Regular sugary jelly: not acutely toxic but very high in sugar — avoid; it is not appropriate food for cats and can cause stomach upset",
+    "Sugar-free (xylitol) jelly: xylitol is not toxic to cats (unlike dogs); the false hypoglycaemia/liver-failure alarm does not apply to cats",
+    "Processed grape jelly: not associated with poisoning — processing removes most of the tartaric acid that makes whole grapes toxic",
+    "Whole grapes, raisins, and currants: keep away from cats as a precaution; their tartaric acid can cause kidney injury and no safe dose is established",
+    "Contact your vet if your cat eats jelly made with whole grapes, raisins, or currants, or if it eats a large amount"
   ],
-  "scientific_name": "Jelly",
-  "severity": "toxic",
+  "scientific_name": "",
+  "severity": "cautious",
   "symptoms": [
     {
-      "body_system": "Metabolic",
-      "name": "The symptoms a cat exhibits after ingesting jelly depend entirely on the ingredients used to make it, specifically whether it contains xylitol",
-      "severity": "moderate"
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting or loose stools from sugary jelly (most common reaction)",
+      "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Gastrointestinal Upset (From High Sugar/Carbohydrates)",
-      "notes": "Cats are obligate carnivores and their digestive systems are not designed to process high amounts of sugar or human foods. Consuming standard sugary jelly can easily cause general stomach upset, vomiting, and loose stools12. Very high consumption of certain safe artificial sweeteners can also trigge",
+      "notes": "Cats are obligate carnivores and their digestive systems are not designed to process high amounts of sugar or human foods. Consuming standard sugary jelly can easily cause general stomach upset, vomiting, and loose stools.",
       "onset": "Within a few hours.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Transient Salivation (From Xylitol in Sugar-Free Jelly)",
-      "notes": "Xylitol is a highly toxic artificial sweetener used in many sugar-free products. While it causes severe poisoning in dogs, cats appear to be naturally resistant to xylitol toxicity45. In experimental studies where cats were given massive oral doses of xylitol (up to 1,000 mg/kg), the cats remained c",
+      "notes": "Xylitol is a highly toxic artificial sweetener used in many sugar-free products. While it causes severe poisoning in dogs, cats appear to be naturally resistant to xylitol toxicity.",
       "onset": "Shortly after ingestion.",
       "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
-      "name": "Hypoglycemia and Liver Failure (Theoretical / Rare from Xylitol)",
-      "notes": "In dogs, xylitol tricks the pancreas into releasing a massive surge of insulin, driving down blood sugar and destroying the liver511. Cats lack this specific receptor-mediated pathway and do not typically suffer this reaction45. However, because individual metabolisms vary, some veterinary sources s",
+      "name": "Hypoglycemia / liver effects from xylitol — does NOT apply to cats (a dog risk only)",
+      "notes": "In dogs, xylitol tricks the pancreas into releasing a massive surge of insulin, driving down blood sugar and destroying the liver511. Cats lack this specific receptor-mediated pathway and do not typically suffer this reaction.",
       "onset": "15 to 30 minutes for a drop in blood sugar (though it can be delayed if the product digests slowly);",
-      "severity": "fatal"
+      "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
-      "name": "Acute Kidney Injury (Theoretical / Highly Unlikely from Grape Jelly)",
-      "notes": "Grapes contain tartaric acid, a nephrotoxin that accumulates in the kidneys of dogs and cats, causing severe cellular necrosis and acute kidney injury1516. However, the commercial manufacturing of grape products (like grape juice, wine, and jelly) typically involves a thermal decomposition step call",
+      "name": "Acute kidney injury from whole grapes, raisins, or currants (precaution; not from processed grape jelly)",
+      "notes": "Grapes contain tartaric acid, a nephrotoxin that accumulates in the kidneys of dogs and cats, causing severe cellular necrosis and acute kidney injury1516.",
       "onset": "Vomiting usually occurs within 6 to 12 hours of ingestion;",
       "severity": "fatal"
     }
   ],
   "toxicParts": [
-    "Whole"
+    "Whole grape, raisin, or currant content (if present)"
   ],
   "toxicityLevel": "mild",
   "treatments": [
@@ -76,27 +76,27 @@
       "priority": 1
     },
     {
-      "description": "of the procedure: If the jelly was ingested very recently, the veterinarian will administer a specific medication (such as the α 2 ​ -adrenergic agonist dexmedetomidine) to induce vomiting and empty the stomach12. If grape jelly is suspected, this may be followed by administering activated charcoal by mouth to bind any remaining toxins in the gastrointestinal tract and prevent them from entering t",
+      "description": "of the procedure: If the jelly was ingested very recently, the veterinarian will administer a specific medication (such as the α 2 ​ -adrenergic agonist dexmedetomidine) to induce vomiting and empty the stomach.",
       "name": "Early Gastrointestinal Decontamination",
-      "notes": "Decontamination is highly time-sensitive and must be done before the toxins are absorbed. While activated charcoal is utilized for grape toxicosis, it is not recommended if the jelly was sugar-free, as charcoal does not effectively bind to xylitol45. Additionally, pet owners must never attempt to in",
+      "notes": "Decontamination is highly time-sensitive and must be done before the toxins are absorbed. While activated charcoal is utilized for grape toxicosis, it is not recommended if the jelly was sugar-free, as charcoal does not effectively bind to xylitol.",
       "priority": 2
     },
     {
-      "description": "of the procedure: The cat is hospitalized and placed on continuous IV fluids for a minimum of 48 hours36. This aggressive fluid diuresis is designed to stimulate urine production and protect the kidneys, while the veterinary team closely monitors the cat's renal function (e.g., serum creatinine) and fluid balance37. Any situation-specific",
+      "description": "of the procedure: The cat is hospitalized and placed on continuous IV fluids for a minimum of 48 hours36. This aggressive fluid diuresis is designed to stimulate urine production and protect the kidneys, while the veterinary team closely monitors the cat's renal function (e.g., serum creatinine) and fluid balance.",
       "name": "Intravenous (IV) Fluid Diuresis (For Grape Jelly)",
-      "notes": "This treatment is implemented to prevent anuric renal failure (acute kidney injury), which is associated with the tartaric acid found in grapes and raisins89. While commercial processing typically removes tartrates from grape jelly (\"detartration\"), making actual poisonings from commercial jelly hig",
+      "notes": "This treatment is implemented to prevent anuric renal failure (acute kidney injury), which is associated with the tartaric acid found in grapes and raisins.",
       "priority": 3
     },
     {
-      "description": "of the procedure: If the cat ingested sugar-free jelly containing xylitol, they may be admitted for monitoring. If the cat's blood sugar begins to drop, the veterinarian will administer IV fluids containing sugar (dextrose) to stabilize blood glucose levels, potentially alongside liver protectants to manage any hepatic injury411. Any situation-specific",
+      "description": "of the procedure: If the cat ingested sugar-free jelly containing xylitol, they may be admitted for monitoring. If the cat's blood sugar begins to drop, the veterinarian will administer IV fluids containing sugar (dextrose) to stabilize blood glucose levels, potentially alongside liver protectants to manage any hepatic injury411.",
       "name": "Hypoglycemia and Liver Management (For Sugar-Free Jelly)",
-      "notes": "While xylitol is a deadly toxin to dogs (causing a massive insulin surge, severe hypoglycemia, and liver failure), cats appear to be naturally resistant to xylitol1213. Experimental studies administering massive doses to cats (up to 1,000 mg/kg) showed no significant changes in blood glucose or live",
+      "notes": "While xylitol is a deadly toxin to dogs (causing a massive insulin surge, severe hypoglycemia, and liver failure), cats appear to be naturally resistant to xylitol1213.",
       "priority": 4
     },
     {
-      "description": "of the procedure: If the cat consumes standard, safe-fruit jelly (like strawberry or apple), the primary issue is a carbohydrate/sugar overload. The veterinarian will treat resulting tummy upset with anti-nausea medications and recommend a temporary bland diet while the digestive tract recovers1617. Any situation-specific",
+      "description": "of the procedure: If the cat consumes standard, safe-fruit jelly (like strawberry or apple), the primary issue is a carbohydrate/sugar overload. The veterinarian will treat resulting tummy upset with anti-nausea medications and recommend a temporary bland diet while the digestive tract recovers1617.",
       "name": "Symptomatic Care for Gastrointestinal Upset (For Sugary Jelly)",
-      "notes": "Cats are obligate carnivores and cannot properly process high amounts of dietary sugar1819. This results in mild to moderate gastrointestinal irritation, vomiting, and diarrhea, which typically resolves quickly with basic supportive care",
+      "notes": "Cats are obligate carnivores and cannot properly process high amounts of dietary sugar1819. This results in mild to moderate gastrointestinal irritation, vomiting, and diarrhea, which typically resolves quickly with basic supportive care.",
       "priority": 5
     }
   ]

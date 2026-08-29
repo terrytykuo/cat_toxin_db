@@ -4,8 +4,8 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources12.",
-      "concentration_notes": "Philodendrons contain high levels of these crystals throughout the entire plant34. The overall severity of the toxicity is generally classified as moderate56. While exposure is rarely fatal, a severe inflammatory response can cause the tissues in the throat to swell, which carries the dangerous potential to obstruct the cat's airway",
-      "description": "These needle-like crystals are stored within specialized plant cells called idioblasts12. When a cat bites or chews the plant, the mechanical action ruptures these cells, forcefully ejecting the sharp crystals into the cat's oral mucosa and surrounding tissues12. This physical trauma causes immediate and intense pain, burning, and inflammation of the mouth, lips, and tongue13. While the p",
+      "concentration_notes": "Philodendrons contain high levels of these crystals throughout the entire plant34. The overall severity of the toxicity is generally classified as moderate56. While exposure is rarely fatal, a severe inflammatory response can cause the tissues in the throat to swell, which carries the dangerous potential to obstruct the cat's airway.",
+      "description": "These needle-like crystals are stored within specialized plant cells called idioblasts12. When a cat bites or chews the plant, the mechanical action ruptures these cells, forcefully ejecting the sharp crystals into the cat's oral mucosa and surrounding tissues12. This physical trauma causes immediate and intense pain, burning, and inflammation of the mouth, lips, and tongue.",
       "name": "Insoluble calcium oxalate crystals, which are shaped like needles and often referred to as raphides"
     }
   ],
@@ -34,21 +34,21 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Excessive drooling (hypersalivation)",
-      "notes": "This is a direct physiological response to the sharp calcium oxalate crystals piercing and irritating the mucous membranes of the mouth and throat. 3. Gastrointestinal Distress and Anorexia",
+      "notes": "This is a direct physiological response to the sharp calcium oxalate crystals piercing and irritating the mucous membranes of the mouth and throat.",
       "onset": "Immediate",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, diarrhea, difficulty swallowing (dysphagia), and loss of appetite (anorexia)",
-      "notes": "The reluctance to eat and difficulty swallowing are primarily secondary to the extreme discomfort, pain, and swelling in the gastrointestinal tract rather than systemic nausea1. 4. Airway Swelling and Respiratory Distress",
+      "notes": "The reluctance to eat and difficulty swallowing are primarily secondary to the extreme discomfort, pain, and swelling in the gastrointestinal tract rather than systemic nausea.",
       "onset": "Shortly after ingestion.",
       "severity": "moderate"
     },
     {
       "body_system": "Respiratory",
       "name": "Edema (swelling) of the mouth, tongue, pharynx, and upper airways, leading to difficulty breathing (dyspnea)",
-      "notes": "While Philodendron ingestion is rarely fatal, a severe inflammatory response to the crystals can cause the tissues in the throat to swell significantly. This carries the dangerous potential to obstruct the cat's airway, which is a medical emergency requiring the vet to secure an airway and provide o",
+      "notes": "While Philodendron ingestion is rarely fatal, a severe inflammatory response to the crystals can cause the tissues in the throat to swell significantly.",
       "onset": "Rapidly following ingestion",
       "severity": "severe"
     }
@@ -59,21 +59,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "The veterinarian will immediately assess the cat for severe swelling of the tongue, mouth, and pharynx (laryngeal edema). If the swelling is obstructing the cat's breathing, the vet will secure the airway and provide supplemental oxygen",
+      "description": "The veterinarian will immediately assess the cat for severe swelling of the tongue, mouth, and pharynx (laryngeal edema). If the swelling is obstructing the cat's breathing, the vet will secure the airway and provide supplemental oxygen.",
       "name": "Securing an Airway and Oxygen Support",
-      "notes": "While Philodendron ingestions are rarely fatal, a severe inflammatory response to the calcium oxalate crystals can cause the tissues in the throat to swell to the point of airway obstruction, making this the most critical and urgent emergency intervention. 2. Oral Decontamination and Crystal Bindi",
+      "notes": "While Philodendron ingestions are rarely fatal, a severe inflammatory response to the calcium oxalate crystals can cause the tissues in the throat to swell to the point of airway obstruction, making this the most critical and urgent emergency intervention.",
       "priority": 1
     },
     {
       "description": "The oral cavity is thoroughly inspected, and any remaining plant material is gently removed2. The mouth is then wiped out or rinsed with cool water to help clear away the sharp, needle-like calcium oxalate crystals (raphides)",
       "name": "Oral Rinsing and Removal of Plant Material",
-      "notes": "Veterinarians may also utilize milk, yogurt, or other calcium-containing dairy products to flush the mouth23. The calcium directly binds to the insoluble oxalates, which helps clear them from the oral cavity and esophagus while soothing the cat's intense pain and burning sensation. 3. Symptomatic",
+      "notes": "Veterinarians may also utilize milk, yogurt, or other calcium-containing dairy products to flush the mouth23. The calcium directly binds to the insoluble oxalates, which helps clear them from the oral cavity and esophagus while soothing the cat's intense pain and burning sensation.",
       "priority": 2
     },
     {
-      "description": "The veterinarian will administer targeted medications, such as pain relief for the severe oral discomfort and anti-nausea treatments to control vomiting4. If the cat is dehydrated from vomiting or drooling, intravenous (IV) fluid therapy may also be administered",
+      "description": "The veterinarian will administer targeted medications, such as pain relief for the severe oral discomfort and anti-nausea treatments to control vomiting4. If the cat is dehydrated from vomiting or drooling, intravenous (IV) fluid therapy may also be administered.",
       "name": "Symptomatic Medication and Fluid Therapy",
-      "notes": "Most cases of insoluble calcium oxalate poisoning have an excellent prognosis and resolve with basic supportive care2. However, close veterinary monitoring is highly recommended because Philodendron ingestion in cats has occasionally been linked to rare but severe systemic complications, including r",
+      "notes": "Most cases of insoluble calcium oxalate poisoning have an excellent prognosis and resolve with basic supportive care.",
       "priority": 3
     }
   ]

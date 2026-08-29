@@ -13,7 +13,7 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate (Pain occurs as soon as the plant tissue is chewed).",
-      "notes": "The plant contains insoluble calcium oxalate crystals packaged in specialized cells (idioblasts) that forcefully eject into the tissue upon biting, causing micro-trauma. You may see the cat pawing at its mouth.Hypersalivation"
+      "notes": "The plant contains insoluble calcium oxalate crystals packaged in specialized cells (idioblasts) that forcefully eject into the tissue upon biting, causing micro-trauma. You may see the cat pawing at its mouth."
     },
     {
       "name": "Drooling or excessive salivation (Ptyalism)",
@@ -27,14 +27,14 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Rapid following contact.",
-      "notes": "In rare cases, swelling can extend to the pharynx (throat) or larynx (voice box). Severe swelling of the tongue or throat can potentially compromise the airway, though this is uncommon.Dysphagia"
+      "notes": "In rare cases, swelling can extend to the pharynx (throat) or larynx (voice box). Severe swelling of the tongue or throat can potentially compromise the airway, though this is uncommon."
     },
     {
       "name": "Difficulty swallowing",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate.",
-      "notes": "The cat may show an inability to eat or drink due to the pain and swelling in the mouth and throat.Gastrointestinal Upset"
+      "notes": "The cat may show an inability to eat or drink due to the pain and swelling in the mouth and throat."
     },
     {
       "name": "Vomiting and anorexia (refusal to eat)",
@@ -55,8 +55,8 @@
     {
       "name": "Insoluble calcium oxalate crystals (often referred to as raphides)",
       "chemical_formula": null,
-      "description": "in cats: ◦ Mechanical Irritation: These needle-like crystals are bundled within specialized plant cells called idioblasts. ◦ Release upon Chewing: When a cat bites or crushes the plant tissue, these cells violently eject the sharp crystals into the soft tissues of the mouth, tongue, and throat. ◦ Immediate Trauma: This embedding of crystals causes immediate, intense physical pain, tissue trauma, a",
-      "concentration_notes": "◦ Distribution: These crystals are found throughout the entire plant, including the leaves and stems. ◦ Severity: The toxicity is generally classified as moderate. While usually not fatal, the immediate pain typically prevents the cat from consuming a lethal amount, though severe swelling can occasionally compromise breathing.• Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Vete"
+      "description": "◦ Mechanical Irritation: These needle-like crystals are bundled within specialized plant cells called idioblasts. ◦ Release upon Chewing: When a cat bites or crushes the plant tissue, these cells violently eject the sharp crystals into the soft tissues of the mouth, tongue, and throat.",
+      "concentration_notes": "◦ Distribution: These crystals are found throughout the entire plant, including the leaves and stems. ◦ Severity: The toxicity is generally classified as moderate. While usually not fatal, the immediate pain typically prevents the cat from consuming a lethal amount, though severe swelling can occasionally compromise breathing."
     }
   ],
   "treatments": [

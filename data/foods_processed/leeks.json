@@ -16,14 +16,14 @@
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: It is described as a \"very poisonous\" organosulfur compound and is considered a principal toxin in Allium species34. Cats are exceptionally vulnerable to this toxin because normal feline hemoglobin is about two to three times more susceptible to oxidative damage than the hemoglobin of other species",
-      "description": "It acts as a highly reactive oxidant that causes a marked decrease in the activity of the enzyme glucose-6-phosphate dehydrogenase (G6PD) in feline red blood cells34. This decrease drops the concentration of glutathione, which the cells need to prevent oxidative damage34. As a result, hydrogen peroxide oxidizes the hemoglobin, causing it to denature and form clumps known as Heinz bodies on the cel",
+      "concentration_notes": "or potency: It is described as a \"very poisonous\" organosulfur compound and is considered a principal toxin in Allium species34. Cats are exceptionally vulnerable to this toxin because normal feline hemoglobin is about two to three times more susceptible to oxidative damage than the hemoglobin of other species.",
+      "description": "It acts as a highly reactive oxidant that causes a marked decrease in the activity of the enzyme glucose-6-phosphate dehydrogenase (G6PD) in feline red blood cells34. This decrease drops the concentration of glutathione, which the cells need to prevent oxidative damage.",
       "name": "Brief description of its mechanism of action"
     },
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "or potency: This is also classified as a \"very poisonous\" compound34. Notably, it has been isolated specifically from boiled Allium materials, proving that these reactive toxins easily survive high temperatures and cooking processes",
-      "description": "Similar to N-propyl disulfide, it reduces glutathione concentrations in erythrocytes34. It significantly increases methemoglobin concentrations and Heinz body counts in the blood, leading to subsequent oxidative cell damage and hemolytic anemia1.... Any notes on concentration or potency: This is also classified as a \"very poisonous\" compound34. Notably, it has been isolated specifically from boile",
+      "concentration_notes": "or potency: This is also classified as a \"very poisonous\" compound34. Notably, it has been isolated specifically from boiled Allium materials, proving that these reactive toxins easily survive high temperatures and cooking processes.",
+      "description": "Similar to N-propyl disulfide, it reduces glutathione concentrations in erythrocytes34. It significantly increases methemoglobin concentrations and Heinz body counts in the blood, leading to subsequent oxidative cell damage and hemolytic anemia1. Any notes on concentration or potency: This is also classified as a \"very poisonous\" compound.",
       "name": "Sodium n-propylthiosulfate"
     },
     {
@@ -34,18 +34,18 @@
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: It is another primary causative agent that has been implicated in Allium-induced hemolytic anemia",
-      "description": "Like other Allium organosulfur compounds, it is readily absorbed through the cat's gastrointestinal tract and metabolized into highly reactive oxidants that trigger oxidative hemolysis12. Any notes on concentration or potency: It is another primary causative agent that has been implicated in Allium-induced hemolytic anemia",
+      "concentration_notes": "or potency: It is another primary causative agent that has been implicated in Allium-induced hemolytic anemia.",
+      "description": "Like other Allium organosulfur compounds, it is readily absorbed through the cat's gastrointestinal tract and metabolized into highly reactive oxidants that trigger oxidative hemolysis12. Any notes on concentration or potency: It is another primary causative agent that has been implicated in Allium-induced hemolytic anemia.",
       "name": "Brief description of its mechanism of action"
     },
     {
       "chemical_formula": "Not provided in the sources.",
       "concentration_notes": "or potency: These compounds are responsible for the characteristic flavor and odor of leeks67. Because they are present throughout the plant tissue and convert to toxins instantly upon damage, no part of the leek is safe for a cat.",
-      "description": "These are the non-toxic parent compounds sequestered inside the plant's cells67. When the leek experiences mechanical trauma—such as being chewed by a cat or chopped with a knife—these precursors instantly convert into the highly reactive, cell-damaging sulfur-containing organic compounds listed above67. Any notes on concentration or potency: These compounds are responsible for the characteristic ",
+      "description": "These are the non-toxic parent compounds sequestered inside the plant's cells67. When the leek experiences mechanical trauma—such as being chewed by a cat or chopped with a knife—these precursors instantly convert into the highly reactive, cell-damaging sulfur-containing organic compounds listed above.",
       "name": "Alk(en)yl cysteine sulfoxides (Precursors)"
     }
   ],
-  "description": "Leeks (Allium ampeloprasum) are a member of the Allium family — the same group that includes garlic, onions, and chives — all of which are toxic to cats. Leeks contain N-propyl disulfide and related organosulfur compounds that oxidise feline haemoglobin, causing Heinz body haemolytic anaemia. All forms are dangerous: raw, cooked, and dried leeks.",
+  "description": "Leeks (Allium ampeloprasum) belong to the same vegetable family as onions, garlic, and chives. All of these are very toxic to cats, whether they are raw, cooked, or dried. This means you should never share soups, stews, or any human foods containing leeks with your cat.\n\nThe danger comes from natural compounds that cause \"oxidative damage\" to a cat’s red blood cells. Essentially, these chemicals cause the hemoglobin (the part of the blood that carries oxygen) to clump up and break down. The cat's body then destroys these damaged cells faster than it can make new ones, leading to a serious condition called anemia.\n\nSymptoms often don't show up right away and may take 3 to 5 days to appear. Look for signs like extreme tiredness, pale or yellowish gums, fast breathing, and reddish-brown urine. If you suspect your cat has eaten leeks, please immediately contact a veterinarian or emergency animal hospital.",
   "emergencyNote": "Because leeks belong to the Allium genus, their toxicosis causes the exact same oxidative damage as onions and garlic. There is no specific antidote for Allium poisoning",
   "family": "Allioideae",
   "isToxic": true,
@@ -68,14 +68,14 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, Diarrhea, Abdominal Pain, and Loss of Appetite",
-      "notes": "These are typically the first clinical signs of toxicosis to appear12. They occur due to direct irritation of the gastrointestinal tract and frequently result in dehydration",
+      "notes": "These are typically the first clinical signs of toxicosis to appear12. They occur due to direct irritation of the gastrointestinal tract and frequently result in dehydration.",
       "onset": "Usually within 1 day (24 hours) of ingestion.",
       "severity": "moderate"
     },
     {
       "body_system": "Neurological",
       "name": "Lethargy, Weakness, and Depression",
-      "notes": "These symptoms emerge as a secondary response to systemic hypoxia caused by the profound loss of oxygen-carrying red blood cells",
+      "notes": "These symptoms emerge as a secondary response to systemic hypoxia caused by the profound loss of oxygen-carrying red blood cells.",
       "onset": "After a lag of several days.",
       "severity": "severe"
     },
@@ -89,35 +89,35 @@
     {
       "body_system": "Respiratory",
       "name": "Tachypnea and Dyspnea (Breathing Difficulties)",
-      "notes": "This is a compensatory response as the cat's body attempts to offset the decreased blood oxygen transportation capacity and resulting tissue hypoxia",
+      "notes": "This is a compensatory response as the cat's body attempts to offset the decreased blood oxygen transportation capacity and resulting tissue hypoxia.",
       "onset": "After a lag of several days.",
       "severity": "fatal"
     },
     {
       "body_system": "Cardiac",
       "name": "Tachycardia (Rapid Heart Rate)",
-      "notes": "Tachycardia develops as the heart pumps much faster to compensate for the impaired oxygen transportation caused by the ruptured and damaged red blood cells",
+      "notes": "Tachycardia develops as the heart pumps much faster to compensate for the impaired oxygen transportation caused by the ruptured and damaged red blood cells.",
       "onset": "After a lag of several days.",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Hemoglobinuria (Dark Urine)",
-      "notes": "This is a hallmark sign of severe oxidative intravascular hemolysis34. Damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract47. This process can lead to secondary acute kidney damage",
+      "notes": "This is a hallmark sign of severe oxidative intravascular hemolysis34. Damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract47. This process can lead to secondary acute kidney damage.",
       "onset": "After a lag of several days.",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Cold Sensitivity",
-      "notes": "Affected cats may have difficulty regulating their body temperature as a systemic effect of the progressive anemia and impaired oxygen delivery to tissues",
+      "notes": "Affected cats may have difficulty regulating their body temperature as a systemic effect of the progressive anemia and impaired oxygen delivery to tissues.",
       "onset": "Several days after ingestion.",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Allium Breath Odor",
-      "notes": "While not harmful itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians evaluating the cat",
+      "notes": "While not harmful itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians evaluating the cat.",
       "onset": "Shortly after ingestion.",
       "severity": "mild"
     }
@@ -136,33 +136,33 @@
       "priority": 1
     },
     {
-      "description": "of the procedure: Providing the cat with supplemental oxygen and transfusing whole blood to restore the body's depleted oxygen-carrying capacity23. Any situation-specific",
+      "description": "of the procedure: Providing the cat with supplemental oxygen and transfusing whole blood to restore the body's depleted oxygen-carrying capacity.",
       "name": "Oxygen Therapy and Blood Transfusions (Life-Saving Stabilization)",
-      "notes": "This is the most urgent priority for severely affected cats presenting with life-threatening clinical signs of profound hemolytic anemia, methemoglobinemia, or respiratory distress",
+      "notes": "This is the most urgent priority for severely affected cats presenting with life-threatening clinical signs of profound hemolytic anemia, methemoglobinemia, or respiratory distress.",
       "priority": 2
     },
     {
-      "description": "of the procedure: Administering an emetic drug under veterinary supervision to force the cat to expel the ingested leeks before the toxins are fully absorbed. For cats, the recommended drug is dexmedetomidine (administered intramuscularly or intravenously)4. Any situation-specific",
+      "description": "of the procedure: Administering an emetic drug under veterinary supervision to force the cat to expel the ingested leeks before the toxins are fully absorbed. For cats, the recommended drug is dexmedetomidine (administered intramuscularly or intravenously).",
       "name": "Induction of Emesis (Early Gastrointestinal Decontamination)",
-      "notes": "This early decontamination step is highly valuable but is only indicated if the cat is currently asymptomatic and the ingestion was very recent (caught within one to two hours)24. Veterinarians should prioritize drugs specifically licensed for cats to avoid unintended adverse events",
+      "notes": "This early decontamination step is highly valuable but is only indicated if the cat is currently asymptomatic and the ingestion was very recent (caught within one to two hours)24. Veterinarians should prioritize drugs specifically licensed for cats to avoid unintended adverse events.",
       "priority": 3
     },
     {
-      "description": "of the procedure: Administering oral activated charcoal (typically 1 to 4 g/kg) to bind to any residual toxins remaining in the stomach and gastrointestinal tract2. Any situation-specific",
+      "description": "of the procedure: Administering oral activated charcoal (typically 1 to 4 g/kg) to bind to any residual toxins remaining in the stomach and gastrointestinal tract.",
       "name": "Administration of Activated Charcoal (Secondary Decontamination)",
-      "notes": "This is typically administered directly after inducing emesis to trap toxins before they can enter the bloodstream2. However, it should be noted that its actual efficacy in adsorbing or preventing the production of Allium-derived sulfides is currently unknown",
+      "notes": "This is typically administered directly after inducing emesis to trap toxins before they can enter the bloodstream2. However, it should be noted that its actual efficacy in adsorbing or preventing the production of Allium-derived sulfides is currently unknown.",
       "priority": 4
     },
     {
-      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to rehydrate the animal, support blood pressure, and maintain proper renal perfusion23. Any situation-specific",
+      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to rehydrate the animal, support blood pressure, and maintain proper renal perfusion.",
       "name": "Intravenous (IV) Fluid Therapy (Systemic Supportive Care)",
-      "notes": "This treatment is indicated if the cat presents with hypotension or has suffered extensive fluid loss from severe vomiting and diarrhea2. Furthermore, it is a critical protective measure if the cat develops hemoglobinuria (dark urine caused by ruptured red blood cells), as IV diuresis helps protect ",
+      "notes": "This treatment is indicated if the cat presents with hypotension or has suffered extensive fluid loss from severe vomiting and diarrhea.",
       "priority": 5
     },
     {
-      "description": "of the procedure: Administering anti-sickness/anti-nausea medications alongside antioxidant vitamins (such as Vitamin C and E) or N-acetyl-cysteine26. Any situation-specific",
+      "description": "of the procedure: Administering anti-sickness/anti-nausea medications alongside antioxidant vitamins (such as Vitamin C and E) or N-acetyl-cysteine.",
       "name": "Antioxidant and Gastrointestinal Medications (Symptomatic Relief)",
-      "notes": "Anti-emetics are utilized if the cat is suffering from persistent vomiting2. While antioxidants are sometimes administered to combat the oxidative damage done to the red blood cells, they have shown minimal proven protective effects against Allium toxicosis in cats",
+      "notes": "Anti-emetics are utilized if the cat is suffering from persistent vomiting2. While antioxidants are sometimes administered to combat the oxidative damage done to the red blood cells, they have shown minimal proven protective effects against Allium toxicosis in cats.",
       "priority": 6
     }
   ]

@@ -11,21 +11,21 @@
     {
       "name": "Essential Oils (The sources generally attribute mint toxicity to volatile oils, specifically noting menthol in related mint species)",
       "chemical_formula": null,
-      "description": "in cats: ◦ Enzymatic Deficiency: Cats lack specific liver enzymes required to break down and metabolize the volatile oils found in mint plants. This inability to process these compounds allows them to build up to toxic levels. ◦ Gastrointestinal Irritation: The oils irritate the lining of the stomach and intestines. ◦ Esophageal Relaxation: Mint oils can relax the esophageal valve, increasing the ",
-      "concentration_notes": "◦ Fresh Plant: Ingesting the ground-cover plant material typically results in mild to moderate symptoms such as vomiting and lethargy. ◦ Concentrated Oils: Extracted essential oils are highly concentrated and dangerous. Exposure to these forms (via inhalation, ingestion, or skin contact) can lead to severe issues like liver failure and breathing difficulties.• Is Mint Safe For Cats? Hidden Toxic T"
+      "description": "◦ Enzymatic Deficiency: Cats lack specific liver enzymes required to break down and metabolize the volatile oils found in mint plants. This inability to process these compounds allows them to build up to toxic levels. ◦ Gastrointestinal Irritation: The oils irritate the lining of the stomach and intestines.",
+      "concentration_notes": "◦ Fresh Plant: Ingesting the ground-cover plant material typically results in mild to moderate symptoms such as vomiting and lethargy. ◦ Concentrated Oils: Extracted essential oils are highly concentrated and dangerous. Exposure to these forms (via inhalation, ingestion, or skin contact) can lead to severe issues like liver failure and breathing difficulties."
     }
   ],
   "treatments": [
     {
       "name": "Induction of Vomiting or Stomach Pumping",
       "description": "The veterinarian may administer medication to induce vomiting (emesis) to expel the plant material from the stomach. In more severe cases, or if the cat cannot vomit safely, a gastric lavage (stomach pump) may be performed to wash out the stomach contents.",
-      "notes": "This is typically the first line of defense if the ingestion was recent. While one source mentions hydrogen peroxide, other veterinary authorities warn that you should never attempt to induce vomiting in cats at home using hydrogen peroxide, as it can cause severe injury; this procedure should only ",
+      "notes": "This is typically the first line of defense if the ingestion was recent.",
       "priority": 1
     },
     {
       "name": "Administration of Activated Charcoal",
       "description": "The veterinarian may administer a dose of activated charcoal. This substance works by binding to the toxic essential oils remaining in the gastrointestinal tract, preventing them from being absorbed into the cat's bloodstream.",
-      "notes": "This is often used following decontamination (vomiting) to neutralize any remaining toxins in the system.Intravenous (IV) Fluid Therapy",
+      "notes": "This is often used following decontamination (vomiting) to neutralize any remaining toxins in the system.",
       "priority": 2
     },
     {
@@ -58,13 +58,13 @@
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This is one of the primary symptoms explicitly linked to the ingestion of Corsican Mint plant material. The essential oils in the plant can relax the esophageal valve, which makes vomiting more likely.Lethargy and Weakness"
+      "notes": "This is one of the primary symptoms explicitly linked to the ingestion of Corsican Mint plant material. The essential oils in the plant can relax the esophageal valve, which makes vomiting more likely."
     },
     {
       "name": "Lethargy (General Weakness)",
       "body_system": "Neurological",
       "severity": "moderate",
-      "notes": "Lethargy is specifically highlighted as a symptom of Corsican Mint ingestion. It indicates a systemic reaction to the toxins, potentially affecting the central nervous system.Diarrhea"
+      "notes": "Lethargy is specifically highlighted as a symptom of Corsican Mint ingestion. It indicates a systemic reaction to the toxins, potentially affecting the central nervous system."
     },
     {
       "name": "Diarrhea",

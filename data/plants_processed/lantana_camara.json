@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ High Toxicity: The plant is considered extremely toxic to cats and dogs1. ◦ Weed Status: In some regions, such as Australia, Lantana is considered a weed, yet it remains a common garden risk due to its colorful flowers",
-      "description": "in cats: ◦ Hepatic Damage: These compounds target the liver. Toxicity can lead to liver failure in cats, though the sources note that liver failure is historically more common in livestock than in companion animals like dogs and cats1. ◦ Gastrointestinal and Systemic Effects: Ingestion leads to vomiting, diarrhea, weakness, and labored breathing1. 4. Notes on",
+      "concentration_notes": "◦ High Toxicity: The plant is considered extremely toxic to cats and dogs1. ◦ Weed Status: In some regions, such as Australia, Lantana is considered a weed, yet it remains a common garden risk due to its colorful flowers.",
+      "description": "◦ Hepatic Damage: These compounds target the liver. Toxicity can lead to liver failure in cats, though the sources note that liver failure is historically more common in livestock than in companion animals like dogs and cats1. ◦ Gastrointestinal and Systemic Effects: Ingestion leads to vomiting, diarrhea, weakness, and labored breathing.",
       "name": "Pentacyclic triterpenoids"
     }
   ],
-  "description": "Lantana (Lantana camara) is a colourful flowering shrub that is severely toxic to cats. All parts — particularly the unripe green berries — contain lantadene A and lantadene B, pentacyclic triterpenoid compounds that cause liver damage and bile duct obstruction. Lantana poisoning is well-documented in livestock and companion animals and can be fatal.",
+  "description": "Lantana is a colorful garden shrub that is very dangerous for cats. All parts of the plant are toxic, but the unripe green berries are the most concentrated. If a cat eats any part of this plant, it can lead to serious liver damage or even liver failure.\n\nThe toxins in Lantana cause the liver to stop working correctly, which can lead to yellowing of the skin and eyes (jaundice). Other signs of poisoning include severe vomiting, diarrhea, weakness, and trouble breathing.\n\nBecause Lantana is so toxic, you should treat any amount eaten as an emergency. Do not wait for symptoms like yellowing to show up. Contact a veterinarian or an emergency animal hospital immediately.",
   "emergencyNote": "Induction of Emesis (Vomiting) and Gastric Lavage",
   "family": "Verbenaceae",
   "isToxic": true,
@@ -27,19 +27,19 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting and Diarrhea",
-      "notes": "These are typically the initial clinical signs of poisoning.common plants that are toxic to cats | Petbarn Articles (Conversation History) 2. Respiratory Distress",
+      "notes": "These are typically the initial clinical signs of poisoning.",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Labored Breathing (Dyspnea)",
-      "notes": "Difficulty breathing is a sign of advanced toxicity and requires immediate veterinary attention.common plants that are toxic to cats | Petbarn Articles (Conversation History) 3. General Weakness",
+      "notes": "Difficulty breathing is a sign of advanced toxicity and requires immediate veterinary attention.",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Weakness / Lethargy",
-      "notes": "The cat may appear depressed or unable to stand normally.common plants that are toxic to cats | Petbarn Articles (Conversation History) 4. Hepatic Failure",
+      "notes": "The cat may appear depressed or unable to stand normally.",
       "severity": "severe"
     },
     {
@@ -60,19 +60,19 @@
     {
       "description": "If the ingestion is recent (typically within 1–2 hours) and the cat is neurologically stable, the veterinarian will administer medication (such as xylazine) to induce vomiting and remove the plant material from the stomach. In life-threatening cases or if vomiting cannot be induced safely, the stomach may be pumped (gastric lavage) to wash out contents.",
       "name": "Induction of Emesis (Vomiting) and Gastric Lavage",
-      "notes": "Decontamination is most effective when performed early. Owners should not attempt to induce vomiting at home with hydrogen peroxide or salt, as this can cause severe injury; this procedure requires veterinary supervision.Toxin Adsorption",
+      "notes": "Decontamination is most effective when performed early. Owners should not attempt to induce vomiting at home with hydrogen peroxide or salt, as this can cause severe injury; this procedure requires veterinary supervision.",
       "priority": 1
     },
     {
       "description": "Following emesis, the veterinarian administers activated charcoal, often with a cathartic. This substance binds to the remaining toxins in the gastrointestinal tract, preventing them from being absorbed into the bloodstream.",
       "name": "Administration of Activated Charcoal",
-      "notes": "Because some plant toxins undergo \"enterohepatic recirculation\" (recycling through the liver), multiple doses of activated charcoal every 6–8 hours may be necessary to minimize ongoing liver damage.Hepatic and Systemic Support",
+      "notes": "Because some plant toxins undergo \"enterohepatic recirculation\" (recycling through the liver), multiple doses of activated charcoal every 6–8 hours may be necessary to minimize ongoing liver damage.",
       "priority": 2
     },
     {
       "description": "IV fluids are administered to maintain hydration, correct electrolyte imbalances caused by vomiting and diarrhea, and support organ function by flushing toxins from the body.",
       "name": "Intravenous (IV) Fluid Therapy",
-      "notes": "Since Lantana toxicity can lead to liver failure, maintaining adequate perfusion to the liver and kidneys is critical. Fluid therapy helps manage the hypotension (low blood pressure) and dehydration often associated with severe plant poisoning.Symptomatic Care and Monitoring",
+      "notes": "Since Lantana toxicity can lead to liver failure, maintaining adequate perfusion to the liver and kidneys is critical. Fluid therapy helps manage the hypotension (low blood pressure) and dehydration often associated with severe plant poisoning.",
       "priority": 3
     },
     {

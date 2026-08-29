@@ -1,14 +1,21 @@
 {
-  "generated_at": "2026-03-03T16:50:36.478662",
-  "total_files": 50,
-  "passed": 50,
-  "failed": 0,
+  "generated_at": "2026-06-26T12:13:30.210253",
+  "total_files": 57,
+  "passed": 9,
+  "failed": 48,
   "results": [
     {
       "file": "alcohol.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "apples__apple_seeds.json",
@@ -18,21 +25,42 @@
     },
     {
       "file": "apricots.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "avocado.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "bones.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "caffeinated_drinks__soda.json",
@@ -41,46 +69,124 @@
       "issues": []
     },
     {
+      "file": "caffeinated_drinks_soda.json",
+      "status": "FAIL",
+      "issue_count": 7,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[SCHEMA] symptoms[5].body_system \"Other\" is not a recognized system"
+      ]
+    },
+    {
       "file": "candied_fruits.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "candies.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "cherries.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "chocolate.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "citrus_fruits_oranges_tangerines_lemons_pomelos.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[SCHEMA] treatments[0].name > 200 chars",
+        "[CLEANLINESS] treatments[0].name ends with a period"
+      ]
     },
     {
       "file": "cocoa.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "coffee.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "corn.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "corn_on_the_cob.json",
@@ -90,9 +196,16 @@
     },
     {
       "file": "garlic.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "grapes.json",
@@ -102,111 +215,276 @@
     },
     {
       "file": "green_tomatoes.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "gum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "jelly.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "leeks.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "liver.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "macadamia_nuts.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "malus_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "meat_jerky_dried_squid_and_dried_fish.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "milk_and_dairy_products.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "onions.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "pastries_radish_cake_rice_cake_pineapple_cake_mochi.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "peaches.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "peanuts.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "persea_americana.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "persimmons.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "pineapple.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "pistachios.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "plums.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "potato_chips.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "pretzels.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "pudding.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "raisins.json",
@@ -216,9 +494,16 @@
     },
     {
       "file": "raw_dough.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "raw_eggs__raw_egg_whites.json",
@@ -227,22 +512,56 @@
       "issues": []
     },
     {
+      "file": "raw_eggs_raw_egg_whites.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
       "file": "raw_fish.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "raw_meat.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "salt.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "scallions__green_onions.json",
@@ -251,10 +570,30 @@
       "issues": []
     },
     {
+      "file": "scallions_green_onions.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
       "file": "shallots.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "starfruit.json",
@@ -264,33 +603,69 @@
     },
     {
       "file": "sugar.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 7,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[SCHEMA] symptoms[3].onset > 100 chars"
+      ]
     },
     {
       "file": "sunflower_seeds.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "tea.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "tuna.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "unripe_or_sprouted_potatoes.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "unripened_pineapples.json",
@@ -300,9 +675,16 @@
     },
     {
       "file": "walnuts.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     }
   ]
 }

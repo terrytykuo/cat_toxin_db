@@ -4,18 +4,18 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "The concentration of these toxins is exceptionally high in the green, vegetative parts of the plant (leaves and stems) as well as in the unripe, green fruit1.... As the tomato ripens and turns red, the toxin levels drop significantly to negligible amounts; ripe red tomatoes are largely harmless to cats, though consuming them in large quantities may still cause mild irritation1.... Furthermore, cat",
-      "description": "in cats: These compounds act as cytotoxins and neurotoxins that disrupt a cat's body in three primary ways25: ◦ Cytotoxic Cell Destruction: The toxins interact with the phospholipids of the cell membranes, increasing their permeability and causing the cells to be destroyed5. This causes significant damage to the intestinal epithelial cells, resulting in severe gastrointestinal inflammation and irr",
+      "concentration_notes": "The concentration of these toxins is exceptionally high in the green, vegetative parts of the plant (leaves and stems) as well as in the unripe, green fruit1. As the tomato ripens and turns red, the toxin levels drop significantly to negligible amounts; ripe red tomatoes are largely harmless to cats, though consuming them in large quantities may still cause mild irritation.",
+      "description": "These compounds act as cytotoxins and neurotoxins that disrupt a cat's body in three primary ways25: ◦ Cytotoxic Cell Destruction: The toxins interact with the phospholipids of the cell membranes, increasing their permeability and causing the cells to be destroyed.",
       "name": "Glycoalkaloids, specifically tomatine and solanine"
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "Atropine is noted to be present in tomatoes, but it is considered a \"lesser toxin\" compared to the highly concentrated tomatine",
-      "description": "in cats: The provided sources do not detail the specific biological mechanism of action for the atropine found in tomato plants",
+      "concentration_notes": "Atropine is noted to be present in tomatoes, but it is considered a \"lesser toxin\" compared to the highly concentrated tomatine.",
+      "description": "The provided sources do not detail the specific biological mechanism of action for the atropine found in tomato plants.",
       "name": "Atropine"
     }
   ],
-  "description": "Ripe red tomato flesh (Solanum lycopersicum) is not significantly toxic to cats in small amounts, but the green parts of the tomato plant — leaves, stems, sprouts, and unripe green tomatoes — contain solanine and tomatine (glycoalkaloids). These decrease as the fruit ripens to red, which is why ripe tomato flesh carries minimal risk.",
+  "description": "While the ripe, red fruit of the tomato (Solanum lycopersicum) is generally considered non-toxic for cats in small amounts, the green parts of the plant are poisonous. This includes the leaves, stems, vines, and unripe green tomatoes, all of which contain harmful compounds.\n\nThe toxic substances are glycoalkaloids known as solanine and tomatine. These compounds are part of the plant's natural defense system and are concentrated in its green parts. If ingested, they can cause significant gastrointestinal distress and, in larger quantities, may affect the nervous system, leading to confusion, weakness, or a slowed heart rate. As the tomato fruit ripens to red, these toxin levels naturally fall to negligible, safe amounts.\n\nSymptoms of tomato plant poisoning include severe vomiting, diarrhea, drooling, lethargy, and loss of appetite. To be safe, prevent cats from accessing tomato plants. If you know your cat has eaten the green leaves or an unripe tomato, you should contact your veterinarian for guidance.",
   "emergencyNote": "Oxygen Therapy, Defibrillation, and Anticonvulsant Therapy",
   "family": "Solanaceae",
   "isToxic": false,
@@ -33,28 +33,28 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Hypersalivation (Drooling)",
-      "notes": "This is typically one of the first signs of oral and gastrointestinal irritation caused by the plant's glycoalkaloid toxins. 2. Vomiting and Diarrhea",
+      "notes": "This is typically one of the first signs of oral and gastrointestinal irritation caused by the plant's glycoalkaloid toxins.",
       "onset": "Within a few hours of ingestion.",
       "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting and diarrhea",
-      "notes": "Solanine and tomatine act as direct gastrointestinal irritants. If the vomiting or diarrhea is severe, it can lead to dehydration. 3. Lethargy and Weakness",
+      "notes": "Solanine and tomatine act as direct gastrointestinal irritants. If the vomiting or diarrhea is severe, it can lead to dehydration.",
       "onset": "Within a few hours of ingestion.",
       "severity": "moderate"
     },
     {
       "body_system": "Neurological",
       "name": "Lethargy, weakness, and confusion",
-      "notes": "This is caused by the systemic absorption of solanine, which acts as a cholinesterase inhibitor and depresses the central nervous system. 4. Dilated Pupils (Mydriasis)",
+      "notes": "This is caused by the systemic absorption of solanine, which acts as a cholinesterase inhibitor and depresses the central nervous system.",
       "onset": "Progresses after gastrointestinal signs (usually within a few to several hours).",
       "severity": "moderate"
     },
     {
       "body_system": "Neurological",
       "name": "Dilated pupils (mydriasis)",
-      "notes": "This is an additional neurological effect stemming from the disruption of the nervous system by the glycoalkaloid toxins. 5. Slowed Heart Rate (Bradycardia)",
+      "notes": "This is an additional neurological effect stemming from the disruption of the nervous system by the glycoalkaloid toxins.",
       "onset": "A few hours after ingestion.",
       "severity": "moderate"
     },
@@ -74,33 +74,33 @@
   "toxicityLevel": "low",
   "treatments": [
     {
-      "description": "The veterinary team will secure the airway to provide oxygen supplementation or mechanical ventilation, administer anticonvulsants (like benzodiazepines or barbiturates) to stop seizures, and use defibrillation if the heart experiences ventricular fibrillation",
+      "description": "The veterinary team will secure the airway to provide oxygen supplementation or mechanical ventilation, administer anticonvulsants (like benzodiazepines or barbiturates) to stop seizures, and use defibrillation if the heart experiences ventricular fibrillation.",
       "name": "Oxygen Therapy, Defibrillation, and Anticonvulsant Therapy",
-      "notes": "This is the most urgent, life-saving intervention but is only required in the most severe, critical poisoning cases where the glycoalkaloids have progressed to cause respiratory depression, circulatory failure, or severe neurological impairment23. 2. Gastrointestinal Decontamination",
+      "notes": "This is the most urgent, life-saving intervention but is only required in the most severe, critical poisoning cases where the glycoalkaloids have progressed to cause respiratory depression, circulatory failure, or severe neurological impairment.",
       "priority": 1
     },
     {
-      "description": "The veterinarian will medically induce vomiting (often using xylazine for cats) to empty the stomach. Alternatively, they may perform a gastric lavage (pumping the stomach) under anesthesia",
+      "description": "The veterinarian will medically induce vomiting (often using xylazine for cats) to empty the stomach. Alternatively, they may perform a gastric lavage (pumping the stomach) under anesthesia.",
       "name": "Emesis Induction or Gastric Lavage",
-      "notes": "This step is crucial for eliminating the toxic green plant parts or unripe fruit before the toxins can be absorbed, but it is typically only performed if the ingestion was recent (within 1 to 2 hours) and the cat is not yet showing severe symptoms4. 3. Toxin Binding",
+      "notes": "This step is crucial for eliminating the toxic green plant parts or unripe fruit before the toxins can be absorbed, but it is typically only performed if the ingestion was recent (within 1 to 2 hours) and the cat is not yet showing severe symptoms.",
       "priority": 2
     },
     {
-      "description": "The cat is given a dose of activated charcoal (1–4 g/kg body weight) to bind to any unabsorbed solanine and tomatine remaining in the gastrointestinal tract, preventing the toxins from entering the bloodstream",
+      "description": "The cat is given a dose of activated charcoal (1–4 g/kg body weight) to bind to any unabsorbed solanine and tomatine remaining in the gastrointestinal tract, preventing the toxins from entering the bloodstream.",
       "name": "Administration of Activated Charcoal",
-      "notes": "In cases of severe poisoning, the veterinarian may repeat the administration of activated charcoal multiple times at 4- to 6-hour intervals2. 4. Systemic Support and Excretion",
+      "notes": "In cases of severe poisoning, the veterinarian may repeat the administration of activated charcoal multiple times at 4- to 6-hour intervals.",
       "priority": 3
     },
     {
-      "description": "Crystalloid IV fluids are administered to rehydrate the cat from fluid loss (due to vomiting and diarrhea), stimulate urine production (diuresis), and promote the excretion of the toxins",
+      "description": "Crystalloid IV fluids are administered to rehydrate the cat from fluid loss (due to vomiting and diarrhea), stimulate urine production (diuresis), and promote the excretion of the toxins.",
       "name": "Intravenous (IV) Fluid Therapy",
-      "notes": "In advanced poisoning cases where the toxins have caused the destruction of red blood cells (hemolysis), the IV infusion rate must be aggressively increased. This ensures adequate blood flow to the kidneys and prevents secondary kidney damage caused by the release of hemoglobin2. 5. Pharmacological ",
+      "notes": "In advanced poisoning cases where the toxins have caused the destruction of red blood cells (hemolysis), the IV infusion rate must be aggressively increased. This ensures adequate blood flow to the kidneys and prevents secondary kidney damage caused by the release of hemoglobin.",
       "priority": 4
     },
     {
-      "description": "The veterinarian administers the medication atropine to help counteract the specific effects of the toxins on the nervous system",
+      "description": "The veterinarian administers the medication atropine to help counteract the specific effects of the toxins on the nervous system.",
       "name": "Atropine Administration",
-      "notes": "While there is no direct antidote for solanine or tomatine poisoning, atropine is specifically utilized to treat \"cholinergic symptoms\" caused by the toxins, such as a dangerously slow heart rate (bradycardia) or excessive salivation",
+      "notes": "While there is no direct antidote for solanine or tomatine poisoning, atropine is specifically utilized to treat \"cholinergic symptoms\" caused by the toxins, such as a dangerously slow heart rate (bradycardia) or excessive salivation.",
       "priority": 5
     }
   ]

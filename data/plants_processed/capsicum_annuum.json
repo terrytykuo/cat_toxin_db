@@ -4,84 +4,56 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "◦ Concentration: The highest concentrations are found in the foliage (leaves and stems) and unripe (green) fruits5.... Ripe bell peppers contain very low levels and are generally considered less dangerous, though they can still be irritating9. ◦ Potency: Cats are noted to be more sensitive to solanine than dogs due to their limited liver detoxification capacity",
-      "description": "in cats: ◦ Acetylcholinesterase Inhibition: Solanine inhibits the enzyme acetylcholinesterase, which is responsible for breaking down acetylcholine in the nervous system. This leads to an overstimulation of the parasympathetic nervous system, potentially causing neurological symptoms like tremors, ataxia (loss of coordination), and lethargy12. ◦ Cytotoxicity: It interacts with cell membranes (phos",
-      "name": "Solanine (specifically a glycoalkaloid)"
+      "concentration_notes": "◦ Concentration: In Capsicum annuum, solanine-type glycoalkaloids are confined to the foliage (leaves and stems) at low levels. The edible fruit is not a significant source — its characteristic alkaloid is capsaicin, not solanine. Ripe bell pepper flesh is essentially non-toxic.",
+      "description": "◦ Effect in edible peppers: At the low foliage levels present in Capsicum annuum, solanine acts mainly as a local gastrointestinal irritant, contributing to vomiting and diarrhea if green parts are chewed. The systemic neurological and cardiac effects of severe solanine poisoning are associated with high-glycoalkaloid nightshades such as Solanum pseudocapsicum, not with edible peppers, which are not likely to be lethal to cats.",
+      "name": "Solanine (foliage glycoalkaloid)"
     },
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "◦ Concentration: Found primarily in the mature fruits (the peppers themselves)512. ◦ Potency: Toxicity varies by the \"spiciness\" of the pepper. Spicy chili and ornamental peppers are particularly dangerous due to higher capsaicin content, while mild bell peppers are considered \"rather harmless\" but still not recommended for feeding",
-      "description": "in cats: ◦ Mucosal Irritation: Capsaicin is a potent irritant to mucous membranes. Upon contact or ingestion, it causes an intense burning sensation, hypersalivation (drooling), coughing, and watering of the eyes911. ◦ Gastrointestinal Distress: It irritates the gastrointestinal tract, leading to gastroenteritis, vomiting, and diarrhea512. 4. Notes on",
+      "concentration_notes": "◦ Concentration: Found primarily in the mature fruits (the peppers themselves)512. ◦ Potency: Toxicity varies by the \"spiciness\" of the pepper. Spicy chili and ornamental peppers are particularly dangerous due to higher capsaicin content, while mild bell peppers are considered \"rather harmless\" but still not recommended for feeding.",
+      "description": "◦ Mucosal Irritation: Capsaicin is a potent irritant to mucous membranes. Upon contact or ingestion, it causes an intense burning sensation, hypersalivation (drooling), coughing, and watering of the eyes911. ◦ Gastrointestinal Distress: It irritates the gastrointestinal tract, leading to gastroenteritis, vomiting, and diarrhea.",
       "name": "Capsaicin (or Capsaicinoids)"
     },
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "◦ Concentration: Specifically identified in the foliage (leaves and stems) of the plant512.• Eggplant, Tomato, Bell Pepper, and Potato in dogs and cats - PETSVETCHECK1... • Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual512 • Tomato Is Toxic To Dogs | Pet Poison Helpline®8",
-      "description": "in cats: ◦ The sources group scopoletin with solanine in the foliage, noting that it contributes to gastrointestinal irritation causing vomiting and diarrhea12. 4. Notes on",
+      "concentration_notes": "◦ Concentration: Specifically identified in the foliage (leaves and stems) of the plant512.• Eggplant, Tomato, Bell Pepper, and Potato in dogs and cats - PETSVETCHECK1. • Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual512 • Tomato Is Toxic To Dogs | Pet Poison Helpline®8",
+      "description": "◦ The sources group scopoletin with solanine in the foliage, noting that it contributes to gastrointestinal irritation causing vomiting and diarrhea.",
       "name": "Scopoletin"
     }
   ],
-  "description": "Bell peppers, chili peppers, and ornamental peppers all belong to the Capsicum annuum species of the nightshade family (Solanaceae). Their risk to cats varies significantly by variety and ripeness. Plain ripe bell pepper flesh is considered relatively low-risk and is \"rather harmless\" — but it is still not recommended as a regular food. Spicy chili peppers contain capsaicin, a potent irritant to mucous membranes, skin, and the gastrointestinal tract. More critically, all peppers contain solanine-like glycoalkaloids — compounds that damage cell membranes and inhibit acetylcholinesterase, a key enzyme for nerve function — at highest concentrations in unripe (green) fruits, leaves, stems, and roots. Cats have limited liver detoxification capacity, making them especially sensitive to these plant toxins.",
+  "description": "Bell peppers, chili peppers, and ornamental peppers all belong to the Capsicum annuum species of the nightshade family (Solanaceae). For cats, edible peppers are a mild gastrointestinal irritant rather than a serious systemic toxin — ingestion is not likely to be life-threatening. Ripe bell pepper flesh is essentially non-toxic and considered \"rather harmless,\" though it is still not recommended as a regular food. Spicy chili and ornamental peppers contain capsaicin, the compound that makes them hot; it is a potent irritant to the mucous membranes, eyes, skin, and gastrointestinal tract, causing drooling, vomiting, and diarrhea on contact or ingestion. The plant's foliage (leaves and stems) contains low levels of solanine-type glycoalkaloids, which add to the stomach upset if chewed. Note: this entry covers true edible Capsicum annuum and should not be confused with Solanum pseudocapsicum (Jerusalem cherry), a distinct, genuinely toxic nightshade sometimes sold as \"ornamental pepper.\"",
   "emergencyNote": "Gastrointestinal Decontamination (Emesis or Gastric Lavage)",
   "family": "Solanaceae",
   "isToxic": true,
   "name": "Bell Pepper / Chili Pepper / Ornamental Pepper",
   "safetyNotes": [
     "Capsaicin (chili peppers): Causes immediate drooling, coughing, gastroenteritis, tearing, and eye irritation on contact with mucous membranes.",
-    "Solanine (green parts, unripe fruit, leaves, stems): Can cause severe GI distress, muscle tremors, weakness, and slowed heart rate through neurological disruption.",
+    "Solanine (foliage — leaves and stems): Low levels of glycoalkaloids in the green parts can add to stomach upset (vomiting, diarrhea) if chewed. Edible pepper fruit is not a significant source and is not expected to cause tremors, heart-rhythm changes, or other systemic poisoning in cats.",
     "Safest approach: Keep all pepper plants out of reach. If offering ripe bell pepper flesh as a very occasional treat, remove all seeds and offer only a tiny amount."
   ],
   "scientific_name": "Capsicum annuum",
-  "severity": "toxic",
+  "severity": "cautious",
   "symptoms": [
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, Diarrhea, and Hypersalivation (Drooling)",
-      "notes": "Solanine acts as a severe irritant to the intestinal lining, potentially causing inflammation (gastroenteritis). Capsaicin in spicy peppers causes an immediate burning sensation that can lead to drooling and vomiting.Abdominal Pain",
+      "notes": "The main effect of edible peppers in cats. Capsaicin in spicy peppers causes an immediate burning sensation that can lead to drooling and vomiting; low-level solanine in chewed foliage adds mild irritation to the stomach and intestinal lining. Generally self-limiting and not life-threatening.",
       "onset": "2–24 hours.",
-      "severity": "severe"
+      "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Abdominal Pain (Colic)",
-      "notes": "A cat may show a tense abdominal wall or vocalize pain upon palpation. This is a common progression after the initial vomiting phase.Mucosal Irritation (Burning & Coughing)",
+      "notes": "A cat may show a tense abdominal wall or vocalize pain upon palpation. This can follow the initial vomiting phase.",
       "onset": "2–24 hours.",
       "severity": "moderate"
     },
     {
       "body_system": "Dermal",
       "name": "Burning sensation, Coughing, Watery Eyes",
-      "notes": "Specific to capsaicin found in chili and ornamental peppers. Contact can cause conjunctivitis (eye irritation), and inhalation or swallowing can trigger a cough reflex and intense burning of the mouth and throat.Neurological Effects (Apathy to Seizures)",
+      "notes": "Specific to capsaicin found in chili and ornamental peppers. Contact can cause conjunctivitis (eye irritation), and inhalation or swallowing can trigger a cough reflex and intense burning of the mouth and throat.",
       "onset": "Immediate (upon contact or ingestion).",
       "severity": "moderate"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Lethargy (Apathy), Ataxia (Loss of coordination), Tremors, Seizures",
-      "notes": "These symptoms are caused by solanine (found in the green parts of the plant), which inhibits the enzyme acetylcholinesterase. This disrupts nerve signal transmission, leading to drowsiness, confusion, paralysis, or convulsions in severe cases.Cardiovascular Abnormalities",
-      "onset": "12–24 hours (often follows GI symptoms).",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Cardiac",
-      "name": "Bradycardia (Slow heart rate), Arrhythmias",
-      "notes": "In high doses (associated with eating the plant/foliage), the toxins can disrupt heart rhythm and lead to circulatory collapse.Respiratory Paralysis",
-      "onset": "12–24 hours.",
-      "severity": "severe"
-    },
-    {
-      "body_system": "Respiratory",
-      "name": "Difficulty breathing (Dyspnea) leading to Respiratory Paralysis",
-      "notes": "In fatal cases of nightshade/solanine poisoning, death is typically caused by respiratory failure.Hematological Changes (Hemolysis)",
-      "onset": "Late-stage (usually >24 hours).",
-      "severity": "fatal"
-    },
-    {
-      "body_system": "Hematological",
-      "name": "Hemolysis (Red blood cell destruction), Hemoglobinuria (Dark urine)",
-      "notes": "Severe poisoning can cause red blood cells to break down, leading to anemia and dark red or brown urine. The released hemoglobin can subsequently damage the kidneys.",
-      "onset": "2–24 hours.",
-      "severity": "severe"
     }
   ],
   "toxicParts": [
@@ -106,13 +78,13 @@
     {
       "description": "The administration of crystalloid fluids directly into the vein (IV) to rehydrate the cat and maintain electrolyte balance.",
       "name": "Fluid Therapy (Intravenous Fluids)",
-      "notes": "This is critical for two reasons: 1) To replace fluids lost through the severe vomiting and diarrhea caused by both solanine and capsaicin. 2) To stimulate diuresis (urination), which helps flush toxins from the body and protects the kidneys from damage, especially if hemolysis (breakdown of red blo",
+      "notes": "This is critical for two reasons: 1) To replace fluids lost through the severe vomiting and diarrhea caused by both solanine and capsaicin.",
       "priority": 3
     },
     {
       "description": "Using specific medications to treat symptoms as they arise. Atropine may be used to treat slow heart rate (bradycardia) or other cholinergic neurological signs. Antiemetics (to stop vomiting) and gastroprotectants are used to soothe the stomach lining.",
       "name": "Symptomatic Drug Therapy (Atropine & Gastroprotectants)",
-      "notes": "While there is no specific antidote for solanine, atropine can counteract some of its neurological effects. For Chili/Ornamental peppers specifically, which contain capsaicin, cool water irrigation or oral vegetable/mineral oil may be used to soothe the intense burning irritation of the mouth and th",
+      "notes": "While there is no specific antidote for solanine, atropine can counteract some of its neurological effects.",
       "priority": 4
     }
   ]

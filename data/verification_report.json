@@ -1,50 +1,107 @@
 {
-  "generated_at": "2026-02-23T20:41:05.811825",
-  "total_files": 154,
-  "passed": 154,
-  "failed": 0,
+  "generated_at": "2026-06-26T12:13:30.174126",
+  "total_files": 198,
+  "passed": 29,
+  "failed": 169,
   "results": [
     {
       "file": "abrus_precatorius.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "adenium_obesum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "agapanthus_africanus_or_a_orientalis.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 1,
+      "issues": [
+        "[SCHEMA] toxic_part \"All parts of the plant\" is not in the valid set"
+      ]
     },
     {
       "file": "agapanthus_orientalis_or_agapanthus_africanus.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "agastache_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "agave_americana.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "aglaonema_modestum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "allamanda_cathartica.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "allium_cepa.json",
@@ -54,189 +111,480 @@
     },
     {
       "file": "allium_porrum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 1,
+      "issues": [
+        "[SCHEMA] toxic_part \"All parts of the plant\" is not in the valid set"
+      ]
     },
     {
       "file": "allium_sativum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 1,
+      "issues": [
+        "[SCHEMA] toxic_part \"All parts of the plant\" is not in the valid set"
+      ]
     },
     {
       "file": "allium_schoenoprasum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "alocasia_reginula.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "aloe_barbadensis_or_aloe_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "alstroemeria_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "anthurium_hookeri.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "anthurium_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "antirrhinum_majus.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     },
     {
       "file": "arum_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "asclepias_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "asparagus_densiflorus.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "aspidistra_elatior.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     },
     {
       "file": "aucuba_japonica.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "averrhoa_carambola.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "begonia_maculata.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "begonia_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "betula_lenta.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "brugmansia_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "brunfelsia_pauciflora_floribunda.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "caladium_spp_or_alocasia_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "calathea_spp.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
+    },
+    {
+      "file": "cananga_odorata.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "cannabis_sativa.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "capsicum_annuum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "catharanthus_reseus.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "celastrus_scandens.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "cercocarpus_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "chlorophytum_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "chrysanthemum_morifolium.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "cinnamomum_verum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "citrus_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "clivia_miniata.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "codiaeum_variegatum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "colchicum_autumnale.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "convallaria_majalis.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "crassula_arborescens.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "crassula_arborescens_or_crassula.json",
@@ -246,81 +594,213 @@
     },
     {
       "file": "crocus_vernus.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "cycas_revoluta_cycas_cirinalis_zamia_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "cycas_spp_or_zamia_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "cyclamen_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "dahlia_pinnata.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "darlingtonia_californica.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "datura_stramonium.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "dianthus_caryophyllus.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "dieffenbachia_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "digitalis_purpurea.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "dracaena_fragrans.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "dracaena_marginata_or_dracaena_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "dracaena_sanderiana.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "dracaena_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "dypsis_lutescens.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
+    },
+    {
+      "file": "e_g_satin_pothos.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "eg_satin_pothos.json",
@@ -330,9 +810,16 @@
     },
     {
       "file": "epipremnum_aureum_or_epipremnum_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "eucalyptus.json",
@@ -341,76 +828,231 @@
       "issues": []
     },
     {
+      "file": "eucalyptus_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
       "file": "euphorbia_pulcherrima.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "eustoma_grandiflorum.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     },
     {
       "file": "ficus_benghalensis.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "ficus_elastica.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "ficus_lyrata.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "ficus_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "gardenia_jasminoides.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "gaultheria_procumbens.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "gerbera_jamesonii.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     },
     {
       "file": "gladiolus_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "hedera_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "helianthus_annuus.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     },
     {
       "file": "helleborus_niger.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "hemerocallis_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
-      "file": "hippeastrum_spp_or_amaryllis_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "file": "hippeastrum_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "homalomena_selby.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "honeysuckle.json",
@@ -420,9 +1062,25 @@
     },
     {
       "file": "hummingbird_mint.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 2,
+      "issues": [
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "hyacinthoides_non_scripta.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "hyacinthoides_nonscripta.json",
@@ -432,15 +1090,29 @@
     },
     {
       "file": "hyacinthus_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "hydrangea_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "ilex.json",
@@ -450,21 +1122,75 @@
     },
     {
       "file": "ilex_aquifolium.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 7,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[SCHEMA] symptoms[1].body_system \"Other\" is not a recognized system"
+      ]
+    },
+    {
+      "file": "ilex_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "indian_borage.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "ipomoea_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "iris.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
+    },
+    {
+      "file": "iris_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "jimson_weed.json",
@@ -474,15 +1200,29 @@
     },
     {
       "file": "kalanchoe_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "kalmia_latifolia.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "lantana.json",
@@ -491,40 +1231,135 @@
       "issues": []
     },
     {
+      "file": "lantana_camara.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "lathyrus_odoratus.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
       "file": "lavandula.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
     },
     {
+      "file": "lavandula_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
       "file": "lemon_mint.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 1,
+      "issues": [
+        "[COMPLETENESS] toxic_parts[] is empty"
+      ]
     },
     {
       "file": "lilium_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "lonicera_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "lyonia_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "malus_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "matricaria_chamomilla.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "melaleuca_alternifolia.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "mentha__piperita.json",
@@ -533,34 +1368,95 @@
       "issues": []
     },
     {
+      "file": "mentha_citrata.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "mentha_piperita.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
       "file": "mentha_pulegium.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "mentha_requienii.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "mentha_spicata.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "mentha_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "mentha_x_piperita_chocolate.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "mint.json",
@@ -569,16 +1465,43 @@
       "issues": []
     },
     {
+      "file": "monarda_citriodora.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
       "file": "monstera_adansonii.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "monstera_deliciosa_or_monstera_adansonii.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "morning_glory.json",
@@ -588,27 +1511,70 @@
     },
     {
       "file": "nandina_photina_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "nandina_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "narcissus_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "nephrolepis_exaltata.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     },
     {
       "file": "nerium_oleander.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "nightshade.json",
@@ -618,9 +1584,31 @@
     },
     {
       "file": "nymphaeaceae_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "ocimum_basilicum.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     },
     {
       "file": "orange_mint.json",
@@ -630,15 +1618,55 @@
     },
     {
       "file": "ornithogalum_umbellatum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "oxalis_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "paeonia_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "papaver_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "peony.json",
@@ -653,34 +1681,90 @@
       "issues": []
     },
     {
+      "file": "phalaenopsis_spp.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
+    },
+    {
       "file": "philodendron_spp_including_birkin.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "phoradendron_flavescens.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "phoradendron_spp_or_viscum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "pieris_japonica.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "pine.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
+    },
+    {
+      "file": "pinus_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "pom_flowers.json",
@@ -696,21 +1780,42 @@
     },
     {
       "file": "prunus_laurocerasus.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "prunus_serotina.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "prunus_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "ragwort__tansy.json",
@@ -720,57 +1825,166 @@
     },
     {
       "file": "rheum_rhabarbarum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "rhododendron_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "ricinus_communis.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "rosa_spp.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     },
     {
       "file": "rumex_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "salvia_officinalis.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
+    },
+    {
+      "file": "salvia_rosmarinus.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     },
     {
       "file": "sambucus_spp_including_sambucus_nigra_and_sambucus_racemosa.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 7,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[SCHEMA] symptoms[1].body_system \"Other\" is not a recognized system"
+      ]
     },
     {
       "file": "sansevieria_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "scadoxus_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "schefflera_spp_or_schefflera_actinphylla.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "schlumbergera_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "senecio.json",
@@ -779,40 +1993,121 @@
       "issues": []
     },
     {
+      "file": "senecio_jacobaea_or_tanacetum_vulgare.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "senecio_rowleyanus.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
       "file": "solanum_lycopersicum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "solanum_melongena.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "solanum_pseudocapsicum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "solanum_spp.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "solanum_tuberosum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "spathiphyllum_spp_or_spathiphyllum_wallisii.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "strelitzia_reginae.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "sweet_birch.json",
@@ -828,21 +2123,42 @@
     },
     {
       "file": "syngonium_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "syzygium_aromaticum.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "taxus_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "tea_tree.json",
@@ -852,33 +2168,104 @@
     },
     {
       "file": "thevetia_peruviana.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "thymus_vulgaris.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     },
     {
       "file": "tradescantia_spathacea.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "tradescantia_zebrina.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
+      "file": "triticum_aestivum.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     },
     {
       "file": "tulipa_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "vitis__implied.json",
       "status": "PASS",
       "issue_count": 0,
       "issues": []
+    },
+    {
+      "file": "vitis_vinifera.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "wintergreen.json",
@@ -888,27 +2275,50 @@
     },
     {
       "file": "wisteria_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "ylang_ylang.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 1,
+      "issues": [
+        "[SCHEMA] toxic_part \"Essential oil\" is not in the valid set"
+      ]
     },
     {
       "file": "zamia_furfuracea.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "zamia_pumila.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "zamioculcas.json",
@@ -917,16 +2327,60 @@
       "issues": []
     },
     {
+      "file": "zamioculcas_zamiifolia.json",
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
+    },
+    {
       "file": "zantedeschia_aethiopica_or_zantedeschia_spp.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 6,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty"
+      ]
     },
     {
       "file": "zephyranthes_drummondii.json",
-      "status": "PASS",
-      "issue_count": 0,
-      "issues": []
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
+    },
+    {
+      "file": "zinnia_elegans.json",
+      "status": "FAIL",
+      "issue_count": 8,
+      "issues": [
+        "[COMPLETENESS] common_name is missing or empty",
+        "[COMPLETENESS] scientific_name is null or empty",
+        "[COMPLETENESS] family is missing",
+        "[COMPLETENESS] description is missing or too short (< 20 chars)",
+        "[COMPLETENESS] toxic_parts[] is empty",
+        "[COMPLETENESS] toxins[] is empty",
+        "[COMPLETENESS] symptoms[] is empty",
+        "[COMPLETENESS] treatments[] is empty"
+      ]
     }
   ]
 }

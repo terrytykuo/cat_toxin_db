@@ -12,56 +12,56 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "2 to 12 hours (often within 2 to 4 hours as the initial sign of toxicity)",
-      "notes": "These are typically the very first symptoms to manifest after a cat ingests tea (which contains the methylxanthines caffeine and theobromine)1. Early vomiting can actually be beneficial, as it helps remove some of the unabsorbed toxic caffeine from the cat's body"
+      "notes": "These are typically the very first symptoms to manifest after a cat ingests tea (which contains the methylxanthines caffeine and theobromine)1. Early vomiting can actually be beneficial, as it helps remove some of the unabsorbed toxic caffeine from the cat's body."
     },
     {
       "name": "Increased Thirst and Urination",
       "body_system": "Renal",
       "severity": "moderate",
       "onset": "2 to 12 hours (often follows initial gastrointestinal signs)",
-      "notes": "The caffeine and theobromine in tea act as diuretics, increasing fluid loss and causing the cat to pass large amounts of urine12. This drives excessive thirst and can quickly lead to dehydration"
+      "notes": "The caffeine and theobromine in tea act as diuretics, increasing fluid loss and causing the cat to pass large amounts of urine12. This drives excessive thirst and can quickly lead to dehydration."
     },
     {
       "name": "Severe Neurological Overstimulation",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "2 to 12 hours (progressing as the toxins are fully absorbed)",
-      "notes": "Methylxanthines block cellular adenosine receptors, leading to severe central nervous system overstimulation56. The cat will become extremely agitated and excited, which can rapidly progress to lack of coordination, severe muscle tremors, grand mal seizures, and potentially a coma"
+      "notes": "Methylxanthines block cellular adenosine receptors, leading to severe central nervous system overstimulation56. The cat will become extremely agitated and excited, which can rapidly progress to lack of coordination, severe muscle tremors, grand mal seizures, and potentially a coma."
     },
     {
       "name": "Cardiovascular Dysfunction",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "2 to 12 hours",
-      "notes": "The stimulants in tea increase intracellular calcium levels, which abnormally enhances the strength and frequency of cardiac muscle contractions56. This results in very rapid, irregular heartbeats, high blood pressure, and ultimately cardiac arrest or a heart attack in the terminal phase"
+      "notes": "The stimulants in tea increase intracellular calcium levels, which abnormally enhances the strength and frequency of cardiac muscle contractions56. This results in very rapid, irregular heartbeats, high blood pressure, and ultimately cardiac arrest or a heart attack in the terminal phase."
     },
     {
       "name": "Respiratory Distress",
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "6 to 12 hours (often in the mid to terminal phases)",
-      "notes": "As the cat's cardiovascular and central nervous systems become overwhelmed, it will pant and breathe very rapidly2.... In severe poisonings, this progresses to a bluish tinge of the mucous membranes due to poor oxygenation, culminating in complete respiratory failure"
+      "notes": "As the cat's cardiovascular and central nervous systems become overwhelmed, it will pant and breathe very rapidly2. In severe poisonings, this progresses to a bluish tinge of the mucous membranes due to poor oxygenation, culminating in complete respiratory failure."
     },
     {
       "name": "Hyperthermia",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "6 to 12 hours",
-      "notes": "The extreme overstimulation of the nervous system, combined with continuous hyperactivity and severe muscle tremors, generates excessive internal heat, causing the cat's core body temperature to spike to dangerous levels"
+      "notes": "The extreme overstimulation of the nervous system, combined with continuous hyperactivity and severe muscle tremors, generates excessive internal heat, causing the cat's core body temperature to spike to dangerous levels."
     }
   ],
   "chemicals": [
     {
       "name": "Caffeine",
       "chemical_formula": "C",
-      "description": "in cats: Caffeine acts through three primary molecular mechanisms. First, it causes competitive antagonism (blocking) of cellular adenosine receptors (A 1 ​ and A 2 ​ ), which normally inhibit the central nervous system (CNS) and heart; blocking them leads to severe CNS stimulation, constriction of blood vessels, diuresis, and a rapid heart rate (tachycardia)23. Second, it inhibits the enzyme phos",
-      "concentration_notes": "or potency: The toxic dose of caffeine for cats is 80 to 150 mg per kilogram of body weight4. Cats metabolize caffeine significantly slower than humans, making them highly sensitive to its effects2. While brewed black or green tea poses a hazard, ingesting dry tea leaves or tea bags is considered extremely dangerous because the caffeine is highly concentrated"
+      "description": "Caffeine acts through three primary molecular mechanisms. First, it causes competitive antagonism (blocking) of cellular adenosine receptors (A 1 ​ and A 2 ​ ), which normally inhibit the central nervous system (CNS) and heart; blocking them leads to severe CNS stimulation, constriction of blood vessels, diuresis, and a rapid heart rate (tachycardia).",
+      "concentration_notes": "or potency: The toxic dose of caffeine for cats is 80 to 150 mg per kilogram of body weight4. Cats metabolize caffeine significantly slower than humans, making them highly sensitive to its effects2. While brewed black or green tea poses a hazard, ingesting dry tea leaves or tea bags is considered extremely dangerous because the caffeine is highly concentrated."
     },
     {
       "name": "Theobromine",
       "chemical_formula": "C",
-      "description": "in cats: Theobromine belongs to the same class of alkaloids as caffeine and shares the exact same toxicological mechanisms. It acts as a powerful stimulant by blocking adenosine receptors, inhibiting phosphodiesterase, and increasing intracellular calcium levels23. This results in overstimulation of the cardiovascular and nervous systems, leading to hyperactivity, tremors, and cardiac arrhythmias2",
-      "concentration_notes": "or potency: While tea is most recognized for its caffeine content, it also contains theobromine2.... The median lethal dose (LD 50 ​ ) of theobromine specifically for cats is 200 mg/kg7. Just like caffeine, cats metabolize theobromine very slowly, allowing the chemical to stay in the bloodstream and quickly reach life-threatening levels"
+      "description": "Theobromine belongs to the same class of alkaloids as caffeine and shares the exact same toxicological mechanisms. It acts as a powerful stimulant by blocking adenosine receptors, inhibiting phosphodiesterase, and increasing intracellular calcium levels23. This results in overstimulation of the cardiovascular and nervous systems, leading to hyperactivity, tremors, and cardiac arrhythmias.",
+      "concentration_notes": "or potency: While tea is most recognized for its caffeine content, it also contains theobromine2. The median lethal dose (LD 50 ​ ) of theobromine specifically for cats is 200 mg/kg7. Just like caffeine, cats metabolize theobromine very slowly, allowing the chemical to stay in the bloodstream and quickly reach life-threatening levels."
     }
   ],
   "treatments": [
@@ -73,32 +73,32 @@
     },
     {
       "name": "Emergency Stabilization (Seizure Control and Cardiovascular Support)",
-      "description": "of the procedure: If the cat presents with severe clinical signs, the veterinarian will immediately administer medications such as diazepam or barbiturates to control seizures2. For cardiovascular issues, medications like metoprolol or propranolol are given for rapid heart rates (tachyarrhythmias), or atropine for abnormally slow heart rates (bradycardia), alongside artificial respiration if neede",
-      "notes": "This is the most urgent priority to stabilize a symptomatic cat. Crucially, lidocaine cannot be used in cats to treat ventricular arrhythmias, as it is contraindicated and toxic to them",
+      "description": "of the procedure: If the cat presents with severe clinical signs, the veterinarian will immediately administer medications such as diazepam or barbiturates to control seizures.",
+      "notes": "This is the most urgent priority to stabilize a symptomatic cat. Crucially, lidocaine cannot be used in cats to treat ventricular arrhythmias, as it is contraindicated and toxic to them.",
       "priority": 2
     },
     {
       "name": "Early Gastrointestinal Decontamination",
-      "description": "of the procedure: If the tea was ingested recently (e.g., within 1 hour) and the cat has not yet developed clinical signs, the veterinarian will safely induce vomiting to expel the tea2. For cats, dexmedetomidine is the preferred emetic3. Any situation-specific",
-      "notes": "If the cat is already seizing or heavily sedated from anticonvulsants, inducing vomiting is dangerous; in these cases, a gastric lavage (stomach pumping) should be considered instead",
+      "description": "of the procedure: If the tea was ingested recently (e.g., within 1 hour) and the cat has not yet developed clinical signs, the veterinarian will safely induce vomiting to expel the tea2. For cats, dexmedetomidine is the preferred emetic.",
+      "notes": "If the cat is already seizing or heavily sedated from anticonvulsants, inducing vomiting is dangerous; in these cases, a gastric lavage (stomach pumping) should be considered instead.",
       "priority": 3
     },
     {
       "name": "Toxin Adsorption (Activated Charcoal)",
-      "description": "of the procedure: Following decontamination, the cat is given oral doses of activated charcoal (1–4 g/kg) to bind the remaining caffeine and theobromine in the gastrointestinal tract so it cannot be absorbed2. Any situation-specific",
-      "notes": "Because methylxanthines undergo enterohepatic recirculation (they are processed by the liver, secreted back into the intestines, and reabsorbed), repeated doses of activated charcoal must be administered every 3 hours for up to 72 hours2. Antiemetic medications like metoclopramide can be given to co",
+      "description": "of the procedure: Following decontamination, the cat is given oral doses of activated charcoal (1–4 g/kg) to bind the remaining caffeine and theobromine in the gastrointestinal tract so it cannot be absorbed.",
+      "notes": "Because methylxanthines undergo enterohepatic recirculation (they are processed by the liver, secreted back into the intestines, and reabsorbed), repeated doses of activated charcoal must be administered every 3 hours for up to 72 hours.",
       "priority": 4
     },
     {
       "name": "Fluid Diuresis and Urinary Excretion Support",
-      "description": "of the procedure: The cat is placed on IV fluids to assist in stabilizing cardiovascular function and to hasten the urinary excretion of the methylxanthines2. A urinary catheter is also placed to continuously drain the bladder2. Any situation-specific",
-      "notes": "Placing a urinary catheter is a critical step because methylxanthines and their toxic metabolites can be reabsorbed directly across the bladder wall back into the bloodstream if urine is allowed to sit",
+      "description": "of the procedure: The cat is placed on IV fluids to assist in stabilizing cardiovascular function and to hasten the urinary excretion of the methylxanthines2. A urinary catheter is also placed to continuously drain the bladder.",
+      "notes": "Placing a urinary catheter is a critical step because methylxanthines and their toxic metabolites can be reabsorbed directly across the bladder wall back into the bloodstream if urine is allowed to sit.",
       "priority": 5
     },
     {
       "name": "Ongoing Symptomatic and Supportive Care",
-      "description": "of the procedure: The veterinary team continuously monitors the cat's cardiac status via electrocardiography (ECG), actively manages the cat's body temperature (thermoregulation), and corrects any acid/base or electrolyte abnormalities that arise2. Any situation-specific",
-      "notes": "Clinical signs of methylxanthine poisoning can persist for up to 72 hours in severe cases2. Medications such as erythromycin and corticosteroids must be strictly avoided during treatment, as they actively interfere with the body's ability to excrete methylxanthines",
+      "description": "of the procedure: The veterinary team continuously monitors the cat's cardiac status via electrocardiography (ECG), actively manages the cat's body temperature (thermoregulation), and corrects any acid/base or electrolyte abnormalities that arise.",
+      "notes": "Clinical signs of methylxanthine poisoning can persist for up to 72 hours in severe cases2. Medications such as erythromycin and corticosteroids must be strictly avoided during treatment, as they actively interfere with the body's ability to excrete methylxanthines.",
       "priority": 6
     }
   ],
@@ -115,5 +115,5 @@
     "Used tea bags still contain significant caffeine — keep used and fresh tea bags away from cats",
     "Herbal teas (chamomile, mint) have separate toxicity concerns; do not assume any tea is safe"
   ],
-  "description": "Tea (Camellia sinensis) — including black, green, white, and oolong teas — contains methylxanthines: caffeine and theophylline. Cats are significantly more sensitive to methylxanthines than humans, and even small amounts of strong tea can cause neurological and cardiac stimulation. Theophylline is particularly notable as it has a narrow margin between therapeutic and toxic doses."
+  "description": "Tea leaves from the Camellia sinensis plant, which are used to make black, green, and oolong tea, are toxic to cats. They contain two stimulants, caffeine and theobromine, that can severely affect a cat's heart and nervous system.\n\nCats are far more sensitive to these compounds than humans are. Even a small amount can cause restlessness, a rapid heart rate, breathing difficulty, muscle tremors, and seizures. The risk is highest if a cat chews on dry tea leaves or a tea bag, where the caffeine is highly concentrated. Even brewed tea or a used tea bag can contain enough caffeine to be harmful.\n\nThis is a serious poisoning risk. Keep all tea products, including loose-leaf tea, tea bags, and brewed tea, completely out of your cat's reach. If you suspect your cat has ingested any amount of tea, please contact a veterinarian or an emergency animal hospital immediately."
 }

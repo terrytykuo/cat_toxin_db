@@ -15,21 +15,21 @@
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Rapid following significant absorption.",
-      "notes": "This occurs because soluble oxalates absorb into the blood and bind with systemic calcium, causing a sudden, dangerous drop in calcium levels (hypocalcemia). Symptoms include weakness, ataxia (loss of coordination), and lethargy.Renal Failure"
+      "notes": "This occurs because soluble oxalates absorb into the blood and bind with systemic calcium, causing a sudden, dangerous drop in calcium levels (hypocalcemia). Symptoms include weakness, ataxia (loss of coordination), and lethargy."
     },
     {
       "name": "Kidney Failure (Acute Renal Failure)",
       "body_system": "Renal",
       "severity": "severe",
       "onset": "Delayed (as crystals precipitate in the kidneys).",
-      "notes": "The oxalate crystals can precipitate within the renal tubules, causing physical damage. Signs include increased thirst and urination (PU/PD), followed by a decrease in urine production (oliguria) or complete cessation (anuria).Excessive Drooling"
+      "notes": "The oxalate crystals can precipitate within the renal tubules, causing physical damage. Signs include increased thirst and urination (PU/PD), followed by a decrease in urine production (oliguria) or complete cessation (anuria)."
     },
     {
       "name": "Hypersalivation (Drooling)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Rapid.",
-      "notes": "This is often seen alongside other early signs of toxicity.Bloody Urine"
+      "notes": "This is often seen alongside other early signs of toxicity."
     },
     {
       "name": "Hematuria (Bloody Urine)",
@@ -43,15 +43,15 @@
     {
       "name": "Soluble Oxalates (specifically described as oxalic acid and oxalate salts)",
       "chemical_formula": "Not explicitly provided in the sources.",
-      "description": "in cats: ◦ Systemic Hypocalcemia: Unlike insoluble oxalates that cause immediate physical pain to the mouth, soluble oxalates are absorbed from the gastrointestinal tract into the bloodstream. Once absorbed, they bind with the body's systemic calcium, leading to a sudden, dangerous drop in calcium levels (hypocalcemia). ◦ Renal Damage: The oxalates can precipitate (crystallize) within the kidneys,",
-      "concentration_notes": "◦ Quantity Dependent: Small ingestions usually result only in gastrointestinal upset (vomiting, anorexia). ◦ Large Ingestions Required for Severe Toxicity: Life-threatening signs (such as tetany and kidney failure) typically require the ingestion of large quantities. While this poisoning is more common in livestock grazing on the plants, it can occur in small animals like cats if enough plant mate"
+      "description": "◦ Systemic Hypocalcemia: Unlike insoluble oxalates that cause immediate physical pain to the mouth, soluble oxalates are absorbed from the gastrointestinal tract into the bloodstream. Once absorbed, they bind with the body's systemic calcium, leading to a sudden, dangerous drop in calcium levels (hypocalcemia). ◦ Renal Damage: The oxalates can precipitate (crystallize) within the kidneys,.",
+      "concentration_notes": "◦ Quantity Dependent: Small ingestions usually result only in gastrointestinal upset (vomiting, anorexia). ◦ Large Ingestions Required for Severe Toxicity: Life-threatening signs (such as tetany and kidney failure) typically require the ingestion of large quantities."
     }
   ],
   "treatments": [
     {
       "name": "Induction of Emesis and Administration of Activated Charcoal",
       "description": "If the ingestion was recent, the veterinarian will induce vomiting (emesis) to remove the plant material from the stomach. This is typically followed by a dose of activated charcoal mixed with a cathartic (a medication to speed up defecation) to bind any remaining toxins in the gastrointestinal tract and prevent absorption.",
-      "notes": "This protocol is recommended for exposures that involve \"more than just a small taste or nibble.\" Small ingestions may only result in mild GI upset, but larger amounts require this aggressive decontamination to prevent systemic toxicity.Intravenous (IV) Fluid Therapy",
+      "notes": "This protocol is recommended for exposures that involve \"more than just a small taste or nibble.\" Small ingestions may only result in mild GI upset, but larger amounts require this aggressive decontamination to prevent systemic toxicity.",
       "priority": 1
     },
     {

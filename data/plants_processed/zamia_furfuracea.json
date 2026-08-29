@@ -5,13 +5,13 @@
     {
       "chemical_formula": null,
       "concentration_notes": "◦ Highest Concentration: While all parts of the plant (leaves, stems, roots) are toxic, the seeds (or nuts) contain the highest concentration of cycasin. ◦ Lethality: It is extremely potent; the ingestion of just 1–2 seeds can be fatal to a pet.",
-      "description": "in cats: ◦ Hepatic Necrosis: Cycasin itself is not the active toxin; once ingested, it is hydrolyzed (broken down) by bacteria in the cat's intestinal tract into the toxic component methylazoxymethanol. This substance causes profound hepatic necrosis (liver tissue death). ◦ Gastrointestinal Destruction: It triggers severe hemorrhagic gastroenteritis (bloody vomiting and diarrhea), leading to the d",
+      "description": "◦ Hepatic Necrosis: Cycasin itself is not the active toxin; once ingested, it is hydrolyzed (broken down) by bacteria in the cat's intestinal tract into the toxic component methylazoxymethanol. This substance causes profound hepatic necrosis (liver tissue death).",
       "name": "Cycasin (a glycoside of methylazoxymethanol)"
     },
     {
       "chemical_formula": null,
       "concentration_notes": "◦ This toxin works in conjunction with cycasin to produce the plant's severe clinical profile. While liver failure (from cycasin) is often the cause of death, BMAA is responsible for the severe CNS (nervous system) effects observed during poisoning.",
-      "description": "in cats: ◦ Neurotoxicity: This compound is an amino acid that acts as a neurotoxin. It specifically targets the central nervous system, contributing to neurological symptoms such as weakness, ataxia (coordination loss), tremors, seizures, and paralysis. 4. Notes on",
+      "description": "◦ Neurotoxicity: This compound is an amino acid that acts as a neurotoxin. It specifically targets the central nervous system, contributing to neurological symptoms such as weakness, ataxia (coordination loss), tremors, seizures, and paralysis.",
       "name": "Beta-methylamino-L-alanine (often abbreviated as BMAA)"
     }
   ],
@@ -31,14 +31,14 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, Diarrhea (often bloody), and Hemorrhagic Gastritis",
-      "notes": "Vomiting is typically the first clinical sign observed. The diarrhea may appear black or \"tarry\" (melena) due to digested blood, indicating severe bleeding in the digestive tract.Hepatic (Liver) Failure",
+      "notes": "Vomiting is typically the first clinical sign observed. The diarrhea may appear black or \"tarry\" (melena) due to digested blood, indicating severe bleeding in the digestive tract.",
       "onset": "Within 15 minutes to 4 hours of ingestion.",
       "severity": "severe"
     },
     {
       "body_system": "Hepatic",
       "name": "Icterus (Jaundice), Hepatic Necrosis, and Liver Failure",
-      "notes": "The toxin cycasin causes severe liver cell death. Clinical signs associated with this stage include yellowing of the eyes and skin (jaundice) and fluid accumulation in the abdomen (ascites).Neurological Abnormalities",
+      "notes": "The toxin cycasin causes severe liver cell death. Clinical signs associated with this stage include yellowing of the eyes and skin (jaundice) and fluid accumulation in the abdomen (ascites).",
       "onset": "Progression to liver failure typically occurs within 48–72 hours.",
       "severity": "fatal"
     },
@@ -52,7 +52,7 @@
     {
       "body_system": "Hematological",
       "name": "Abnormal Bruising, Petechiae (pinpoint hemorrhages), and Nosebleeds",
-      "notes": "As the liver fails, it cannot produce the necessary clotting factors, leading to spontaneous bleeding, blood clots, and visible bruising on the skin.Metabolic Instability",
+      "notes": "As the liver fails, it cannot produce the necessary clotting factors, leading to spontaneous bleeding, blood clots, and visible bruising on the skin.",
       "onset": "48–72 hours (secondary to liver failure).",
       "severity": "severe"
     },

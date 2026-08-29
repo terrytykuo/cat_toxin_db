@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ Distribution: The toxic alkaloids are found in the leaves and the fruits (berries). ◦ Potency: Ingestion can cause a wide range of severe clinical signs, from gastrointestinal distress to fatal circulatory collapse.• Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual",
-      "description": "in cats: ◦ Gastrointestinal Irritation: The alkaloids act as potent irritants to the gastrointestinal tract, capable of causing severe inflammation and hemorrhagic diarrhea (bloody stool). ◦ Systemic Neurological and Cardiac Effects: The toxins affect the central nervous system and heart, leading to progressive weakness, paralysis, and bradycardia (dangerously slow heart rate). In severe cases, th",
+      "concentration_notes": "◦ Distribution: The toxic alkaloids are found in the leaves and the fruits (berries). ◦ Potency: Ingestion can cause a wide range of severe clinical signs, from gastrointestinal distress to fatal circulatory collapse.",
+      "description": "◦ Gastrointestinal Irritation: The alkaloids act as potent irritants to the gastrointestinal tract, capable of causing severe inflammation and hemorrhagic diarrhea (bloody stool). ◦ Systemic Neurological and Cardiac Effects: The toxins affect the central nervous system and heart, leading to progressive weakness, paralysis, and bradycardia (dangerously slow heart rate).",
       "name": "Solanocapsine (and related alkaloids)"
     }
   ],
-  "description": "Jerusalem Cherry (Solanum pseudocapsicum), also called Winter Cherry, is a common ornamental houseplant and holiday decoration that is toxic to cats. It belongs to the nightshade family and contains glycoalkaloids — primarily solanine and solasonine — throughout all parts, with the highest concentration in the attractive red or yellow berries.",
+  "description": "Jerusalem Cherry (Solanum pseudocapsicum), also called winter cherry, is an ornamental nightshade plant with bright red or orange berries. It is toxic to cats, and the berries are the most tempting part.\n\nThe plant contains glycoalkaloids such as solanine and solasonine. These chemicals can irritate the digestive tract and may also affect the nervous system. All parts are unsafe, but the colorful berries create the highest household risk.\n\nA cat that eats Jerusalem cherry may vomit, have diarrhea, drool, seem sleepy, act confused, or become weak. More serious cases can involve tremors or breathing problems. Keep the plant away from cats, and call a veterinarian if your cat eats any berries or plant material.",
   "emergencyNote": "Gastric Lavage (Stomach Pumping)",
   "family": "Solanaceae",
   "isToxic": true,
@@ -34,14 +34,14 @@
     {
       "body_system": "Neurological",
       "name": "Convulsions (Seizures), Progressive Weakness, Paralysis, Dilated Pupils",
-      "notes": "The clinical picture includes progressive weakness that can escalate to paralysis and convulsions. The alkaloids affect the central nervous system significantly.Cardiovascular Collapse",
+      "notes": "The clinical picture includes progressive weakness that can escalate to paralysis and convulsions. The alkaloids affect the central nervous system significantly.",
       "onset": "Delayed (Neurological signs often follow gastrointestinal distress as the toxin is absorbed).",
       "severity": "fatal"
     },
     {
       "body_system": "Cardiac",
       "name": "Bradycardia (Slow Heart Rate), Circulatory Collapse",
-      "notes": "The alkaloids can cause a dangerous slowing of the heart rate (bradycardia) leading to total circulatory collapse (shock).Respiratory Distress",
+      "notes": "The alkaloids can cause a dangerous slowing of the heart rate (bradycardia) leading to total circulatory collapse (shock).",
       "onset": "Acute (Following absorption).",
       "severity": "fatal"
     },
@@ -62,19 +62,19 @@
     {
       "description": "The veterinarian inserts a tube into the cat's stomach to wash out contents and remove unabsorbed plant material.",
       "name": "Gastric Lavage (Stomach Pumping)",
-      "notes": "This is explicitly suggested to remove the toxic alkaloids from the system before they can be fully absorbed.Toxin Adsorption",
+      "notes": "This is explicitly suggested to remove the toxic alkaloids from the system before they can be fully absorbed.",
       "priority": 1
     },
     {
       "description": "A substance is administered orally to bind with the remaining toxins in the gastrointestinal tract, preventing them from entering the bloodstream.",
       "name": "Administration of Activated Charcoal",
-      "notes": "This step typically follows decontamination to minimize the bioavailability of the ingested alkaloids.Supportive Therapy",
+      "notes": "This step typically follows decontamination to minimize the bioavailability of the ingested alkaloids.",
       "priority": 2
     },
     {
       "description": "Intravenous (IV) fluids and electrolytes are administered to correct dehydration and imbalances caused by severe vomiting and diarrhea.",
       "name": "Fluid and Electrolyte Therapy",
-      "notes": "This treatment is crucial for managing circulatory collapse (shock) and hemorrhagic diarrhea, both of which are potential severe symptoms of Jerusalem Cherry poisoning.Neurological Management",
+      "notes": "This treatment is crucial for managing circulatory collapse (shock) and hemorrhagic diarrhea, both of which are potential severe symptoms of Jerusalem Cherry poisoning.",
       "priority": 3
     },
     {

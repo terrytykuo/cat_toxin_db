@@ -24,35 +24,35 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "within 2 to 6 hours",
-      "notes": "Cats may vomit due to the high fat content or persin"
+      "notes": "Cats may vomit due to the high fat content or persin."
     },
     {
       "name": "Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "within 6 to 12 hours",
-      "notes": "Secondary to gastrointestinal irritation"
+      "notes": "Secondary to gastrointestinal irritation."
     },
     {
       "name": "Pancreatitis",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "12-48 hours",
-      "notes": "Caused by the very high fat content in avocado flesh"
+      "notes": "Caused by the very high fat content in avocado flesh."
     }
   ],
   "chemicals": [
     {
       "name": "Persin",
       "chemical_formula": "Not provided in the sources.",
-      "description": "in cats: Cats are particularly sensitive to persin because their livers are less efficient at breaking the compound down3. When ingested, the toxin acts as a severe gastrointestinal irritant, causing abdominal pain, vomiting, and diarrhea13. If ingested in large quantities, persin has the potential to cause systemic fluid accumulation, respiratory distress, and myocardial damage (necrosis of the h",
-      "concentration_notes": "or potency: The highest and most toxic concentrations of persin are located in the leaves, bark, stems, skin (peel), and pits (seeds) of the avocado plant1.... The edible green flesh contains only trace amounts of persin38. While cats are at risk of persin poisoning, their overall susceptibility to lethal cardiac complications is considered lower than that of highly vulnerable species like birds, "
+      "description": "Cats are particularly sensitive to persin because their livers are less efficient at breaking the compound down3. When ingested, the toxin acts as a severe gastrointestinal irritant, causing abdominal pain, vomiting, and diarrhea.",
+      "concentration_notes": "or potency: The highest and most toxic concentrations of persin are located in the leaves, bark, stems, skin (peel), and pits (seeds) of the avocado plant1. The edible green flesh contains only trace amounts of persin."
     },
     {
       "name": "High Fat Content (Dietary Lipids) (Note",
       "chemical_formula": null,
-      "description": "in cats: Feline digestive systems are delicate and not adapted to digest large amounts of plant-based fats16. Ingesting avocado flesh or pure avocado oil can severely irritate the gastrointestinal tract and trigger an inflammatory cascade in the pancreas, leading to a painful and potentially life-threatening condition called acute pancreatitis1.... Furthermore, if a cat develops gastrointestinal u",
-      "concentration_notes": "or potency: Avocado flesh and extracted avocado oils are exceptionally dense in fat and calories911. Due to this concentration, even the flesh—which is largely free of the persin toxin—poses a high risk of pancreatitis and severe gastrointestinal distress, particularly for senior cats or those with a history of digestive issues212. Veterinarians recommend limiting any accidental exposure to a tiny"
+      "description": "Feline digestive systems are delicate and not adapted to digest large amounts of plant-based fats16. Ingesting avocado flesh or pure avocado oil can severely irritate the gastrointestinal tract and trigger an inflammatory cascade in the pancreas, leading to a painful and potentially life-threatening condition called acute pancreatitis.",
+      "concentration_notes": "or potency: Avocado flesh and extracted avocado oils are exceptionally dense in fat and calories911. Due to this concentration, even the flesh—which is largely free of the persin toxin—poses a high risk of pancreatitis and severe gastrointestinal distress, particularly for senior cats or those with a history of digestive issues212."
     }
   ],
   "treatments": [

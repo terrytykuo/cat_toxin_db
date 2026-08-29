@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "Essential oils are highly potent, concentrated plant extracts. The sources warn that these oils are especially harmful to cats when used \"neat\" (undiluted)5. However, because cats are so sensitive to these compounds, even indirect exposure—such as inhaling aerosolized droplets from a reed diffuser, plug-in, or nebulizer—can be hazardous",
-      "description": "in cats: Cats lack specific liver enzymes required to safely break down and process the volatile compounds found in essential oils2. Whether the oil is absorbed directly through the skin, inhaled into the respiratory tract, or ingested from grooming, the compounds enter the bloodstream and travel to the cat's liver34. Because the cat cannot efficiently metabolize these substances, the toxins build",
+      "concentration_notes": "Essential oils are highly potent, concentrated plant extracts. The sources warn that these oils are especially harmful to cats when used \"neat\" (undiluted)5. However, because cats are so sensitive to these compounds, even indirect exposure—such as inhaling aerosolized droplets from a reed diffuser, plug-in, or nebulizer—can be hazardous.",
+      "description": "Cats lack specific liver enzymes required to safely break down and process the volatile compounds found in essential oils2. Whether the oil is absorbed directly through the skin, inhaled into the respiratory tract, or ingested from grooming, the compounds enter the bloodstream and travel to the cat's liver.",
       "name": "The provided sources specifically identify Sweet birch essential oil as the toxic substance"
     }
   ],
-  "description": "Sweet Birch (Betula lenta) and Birch trees in general are notable for containing methyl salicylate — an analgesic compound related to aspirin — in high concentrations in the bark, leaves, and especially birch essential oil. Cats are extremely sensitive to salicylates because they lack efficient glucuronyl transferase to metabolise them, making birch oil a significant toxicity risk.",
+  "description": "Sweet Birch (Betula lenta), like other birch species, contains salicylates, which are compounds related to aspirin. While chewing on the bark or leaves can cause issues, the greatest danger to cats comes from the highly concentrated Sweet Birch essential oil.\n\nThe oil is extremely toxic because cats lack the specific liver enzymes needed to properly metabolize salicylates. When exposed through skin contact, inhalation from a diffuser, or ingestion from grooming, these compounds can build up in the cat's body to poisonous levels, leading to severe health problems like liver failure.\n\nExposure to birch essential oil is a veterinary emergency. Signs of poisoning include vomiting, rapid breathing, weakness, tremors, and seizures. Never apply birch oil to a cat or use it in diffusers, and keep all essential oil products securely out of reach. If you suspect your cat has been exposed, contact your veterinarian immediately.",
   "emergencyNote": "Oral Rinsing and Dilution",
   "family": "Betulaceae",
   "isToxic": true,
@@ -27,43 +27,43 @@
     {
       "body_system": "Dermal",
       "name": "Sore skin, redness, or chemical burns",
-      "notes": "This occurs from direct physical contact with the essential oil. The sources warn that even if there is no visible damage to the skin, you should not assume the cat is safe, as the oil can still be absorbed or ingested during grooming23. 2. Excessive Dribbling (Drooling)",
+      "notes": "This occurs from direct physical contact with the essential oil. The sources warn that even if there is no visible damage to the skin, you should not assume the cat is safe, as the oil can still be absorbed or ingested during grooming.",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Excessive dribbling",
-      "notes": "This is often an immediate reaction to tasting or swallowing the bitter, irritating oil, which can happen if a cat licks the oil off its fur or drinks from a reed diffuser23. 3. Vomiting",
+      "notes": "This is often an immediate reaction to tasting or swallowing the bitter, irritating oil, which can happen if a cat licks the oil off its fur or drinks from a reed diffuser.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting",
-      "notes": "Vomiting is a common sign of systemic toxicity or gastrointestinal irritation after the cat swallows the oil23. 4. Difficulty Breathing",
+      "notes": "Vomiting is a common sign of systemic toxicity or gastrointestinal irritation after the cat swallows the oil.",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Difficulty breathing or open-mouth breathing",
-      "notes": "While toxic effects from simply inhaling diluted oils are rare, the risk of respiratory distress increases significantly if the cat inhales nebulized or ultrasonically diffused neat (undiluted) essential oils, or if the cat has a pre-existing medical condition like asthma23. 5. Lethargy and Depressi",
+      "notes": "While toxic effects from simply inhaling diluted oils are rare, the risk of respiratory distress increases significantly if the cat inhales nebulized or ultrasonically diffused neat (undiluted) essential oils, or if the cat has a pre-existing medical condition like asthma.",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Lethargy, depression, or dullness",
-      "notes": "This indicates a severe systemic reaction to the toxins in the bloodstream3. 6. Neurological Impairment (Ataxia, Tremors, and Seizures)",
+      "notes": "This indicates a severe systemic reaction to the toxins in the bloodstream.",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Shaking, tremoring, \"walking as if they're drunk\" (ataxia), collapse, and seizures",
-      "notes": "Essential oils can severely impact the central nervous system. If the toxicity progresses to collapse or seizures, it is an extreme, life-threatening emergency3. 7. Liver Failure",
+      "notes": "Essential oils can severely impact the central nervous system. If the toxicity progresses to collapse or seizures, it is an extreme, life-threatening emergency.",
       "severity": "fatal"
     },
     {
       "body_system": "Hepatic",
       "name": "Liver failure (and serious organ damage)",
-      "notes": "Because cats lack the specific liver enzymes to process these compounds, the toxins build up and cause severe internal damage. In extreme cases, this leads to complete liver failure and death",
+      "notes": "Because cats lack the specific liver enzymes to process these compounds, the toxins build up and cause severe internal damage. In extreme cases, this leads to complete liver failure and death.",
       "severity": "fatal"
     }
   ],
@@ -75,33 +75,33 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "The mouth is rinsed with lukewarm water, or the cat is offered milk to help dilute the ingested oils",
+      "description": "The mouth is rinsed with lukewarm water, or the cat is offered milk to help dilute the ingested oils.",
       "name": "Oral Rinsing and Dilution",
-      "notes": "Do NOT induce vomiting. Because essential oils can cause chemical burns, inducing vomiting is heavily contraindicated; bringing the oil back up can severely burn and damage the cat's digestive tract45. 2. Dermal Decontamination (If Ingested from Grooming)",
+      "notes": "Do NOT induce vomiting. Because essential oils can cause chemical burns, inducing vomiting is heavily contraindicated; bringing the oil back up can severely burn and damage the cat's digestive tract.",
       "priority": 1
     },
     {
-      "description": "If the ingestion occurred because the cat was licking the essential oil off its coat, the cat must be bathed using a liquid dish soap and lukewarm water to remove any remaining residue",
+      "description": "If the ingestion occurred because the cat was licking the essential oil off its coat, the cat must be bathed using a liquid dish soap and lukewarm water to remove any remaining residue.",
       "name": "Bathing (Topical Decontamination)",
-      "notes": "Solvents should never be used to strip the fur. If the cat is aggressive or in too much distress to be bathed, the veterinarian can provide mild sedation to handle them safely6. 3. Systemic Organ Support",
+      "notes": "Solvents should never be used to strip the fur. If the cat is aggressive or in too much distress to be bathed, the veterinarian can provide mild sedation to handle them safely.",
       "priority": 2
     },
     {
-      "description": "The veterinary team will administer IV fluids to rehydrate the cat, help flush the toxins out of the bloodstream, and support vital organ function",
+      "description": "The veterinary team will administer IV fluids to rehydrate the cat, help flush the toxins out of the bloodstream, and support vital organ function.",
       "name": "Intravenous (IV) Fluid Therapy",
-      "notes": "This is a critical step because essential oils are primarily processed in the liver, and IV fluids help protect both the liver and kidneys from failing as the toxins are eliminated35. 4. Gastrointestinal and Hepatic Medication",
+      "notes": "This is a critical step because essential oils are primarily processed in the liver, and IV fluids help protect both the liver and kidneys from failing as the toxins are eliminated.",
       "priority": 3
     },
     {
-      "description": "The veterinarian will administer a combination of anti-emetic (anti-vomiting) medications, drugs designed to coat and protect the stomach lining, and specific liver-protectant medications",
+      "description": "The veterinarian will administer a combination of anti-emetic (anti-vomiting) medications, drugs designed to coat and protect the stomach lining, and specific liver-protectant medications.",
       "name": "Pharmacological Support (Protectants and Anti-emetics)",
-      "notes": "If the essential oil has caused internal chemical burns, the veterinarian will also prescribe appropriate pain medications and antibiotics to prevent infection5. 5. Nutritional Support",
+      "notes": "If the essential oil has caused internal chemical burns, the veterinarian will also prescribe appropriate pain medications and antibiotics to prevent infection.",
       "priority": 4
     },
     {
       "description": "A feeding tube is surgically inserted directly into the cat's stomach to bypass the mouth and throat, allowing the cat to receive necessary nutrition.",
       "name": "Feeding Tube Insertion",
-      "notes": "This is only utilized in severe cases where the essential oil has caused significant chemical burns to the cat's mouth or digestive tract, rendering them unable to eat normally while their injuries heal",
+      "notes": "This is only utilized in severe cases where the essential oil has caused significant chemical burns to the cat's mouth or digestive tract, rendering them unable to eat normally while their injuries heal.",
       "priority": 5
     }
   ]

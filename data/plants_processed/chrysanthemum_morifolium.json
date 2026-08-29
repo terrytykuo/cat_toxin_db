@@ -12,19 +12,19 @@
     {
       "name": "Pyrethrins (These are natural insecticides derived from the chrysanthemum flower)",
       "chemical_formula": "Not explicitly provided in the sources.",
-      "description": "in cats: ◦ Nervous System: Pyrethrins affect the nervous system, leading to signs such as incoordination (ataxia) and weakness. ◦ Irritation: They cause direct irritation to the gastrointestinal tract, resulting in vomiting and diarrhea. ◦ Sensitivity: Sources note that while pyrethrins are used in some dog flea and tick medications, cats are significantly more sensitive to them than dogs, making ",
+      "description": "◦ Nervous System: Pyrethrins affect the nervous system, leading to signs such as incoordination (ataxia) and weakness. ◦ Irritation: They cause direct irritation to the gastrointestinal tract, resulting in vomiting and diarrhea.",
       "concentration_notes": "◦ Toxicity Level: The plant is generally considered mildly to moderately toxic. ◦ Comparative Potency: While the natural concentration in the plant causes illness, it is the same class of compound that can be highly toxic in concentrated pesticide forms."
     },
     {
       "name": "Lactones (specifically identified as sesquiterpene lactones in some contexts, or simply lactones)",
       "chemical_formula": "Not explicitly provided in the sources.",
-      "description": "in cats: ◦ Irritation: These compounds act as irritants to the gastrointestinal tract and can also affect the nervous system. ◦ Clinical Effect: Ingestion leads to vomiting, diarrhea, and increased salivation (hypersalivation). 4. Notes on",
+      "description": "◦ Irritation: These compounds act as irritants to the gastrointestinal tract and can also affect the nervous system. ◦ Clinical Effect: Ingestion leads to vomiting, diarrhea, and increased salivation (hypersalivation).",
       "concentration_notes": "◦ General: These contribute to the overall mild-to-moderate toxicity profile of the plant."
     },
     {
       "name": "Sesquiterpenes",
       "chemical_formula": "Not explicitly provided in the sources.",
-      "description": "in cats: ◦ Irritation: These compounds work in conjunction with lactones and pyrethrins to cause physical irritation to the mouth and digestive system. ◦ Dermatitis: Contact with these compounds can also cause skin irritation (dermatitis) in the mouth or on the skin. 4. Notes on",
+      "description": "◦ Irritation: These compounds work in conjunction with lactones and pyrethrins to cause physical irritation to the mouth and digestive system. ◦ Dermatitis: Contact with these compounds can also cause skin irritation (dermatitis) in the mouth or on the skin.",
       "concentration_notes": "◦ Potency: These are listed as one of the primary toxic components alongside pyrethrins."
     }
   ],
@@ -32,19 +32,19 @@
     {
       "name": "Induction of Emesis (Vomiting) and Activated Charcoal",
       "description": "If the ingestion was recent (typically within 1–2 hours), the veterinarian may administer medication (such as xylazine or apomorphine) to induce vomiting and remove the plant material from the stomach. This is often followed by the administration of activated charcoal, which binds to the remaining toxins in the gut to prevent absorption into the bloodstream.",
-      "notes": "Do not attempt to induce vomiting at home (e.g., with hydrogen peroxide) unless explicitly instructed by a professional, as it can cause severe irritation or aspiration. Decontamination is most effective when performed shortly after ingestion.Fluid Therapy",
+      "notes": "Do not attempt to induce vomiting at home (e.g., with hydrogen peroxide) unless explicitly instructed by a professional, as it can cause severe irritation or aspiration. Decontamination is most effective when performed shortly after ingestion.",
       "priority": 1
     },
     {
       "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
       "description": "The administration of electrolyte-balanced fluids to correct dehydration and support kidney function.",
-      "notes": "This is critical if the cat has been experiencing profuse vomiting or diarrhea, which are the most common symptoms of Chrysanthemum poisoning. Fluids help flush toxins from the body and maintain blood pressure.Symptomatic Pharmacological Support",
+      "notes": "This is critical if the cat has been experiencing profuse vomiting or diarrhea, which are the most common symptoms of Chrysanthemum poisoning. Fluids help flush toxins from the body and maintain blood pressure.",
       "priority": 2
     },
     {
       "name": "Anti-emetics and Gastroprotectants",
       "description": "The veterinarian may administer anti-emetics (to stop vomiting) and gastroprotectants (to coat and soothe the stomach lining). In cases of incoordination or neurological distress, muscle relaxants or other medications may be used.",
-      "notes": "Because Chrysanthemums contain irritants that inflame the stomach and intestines, these medications keep the cat comfortable and prevent further fluid loss while the irritation heals.Dermal Decontamination",
+      "notes": "Because Chrysanthemums contain irritants that inflame the stomach and intestines, these medications keep the cat comfortable and prevent further fluid loss while the irritation heals.",
       "priority": 3
     },
     {
@@ -71,7 +71,7 @@
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This is one of the most common signs of ingestion. The plant contains lactones and other irritants that inflame the stomach lining.Diarrhea"
+      "notes": "This is one of the most common signs of ingestion. The plant contains lactones and other irritants that inflame the stomach lining."
     },
     {
       "name": "Diarrhea",
@@ -95,7 +95,7 @@
       "name": "Inappetence (Refusal to eat)",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "The cat may refuse food due to nausea or abdominal discomfort following ingestion.Dermatitis"
+      "notes": "The cat may refuse food due to nausea or abdominal discomfort following ingestion."
     },
     {
       "name": "Dermatitis (Skin irritation)",

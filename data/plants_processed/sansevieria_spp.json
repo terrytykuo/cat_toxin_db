@@ -10,21 +10,21 @@
     {
       "name": "Hemolytic saponins and organic acids",
       "chemical_formula": "Not provided in the given sources.",
-      "description": "in cats: These compounds act as gastrointestinal irritants. When a cat ingests them, they trigger gastrointestinal distress, resulting in nausea, excessive salivation, vomiting, and diarrhea12. Additionally, the hemolytic nature of the saponins can lead to hemolysis (the rupture or destruction of red blood cells) related to this gastrointestinal activity",
-      "concentration_notes": "These toxic compounds are present in the leaves and flowers of the plant, with the leaves being particularly noted as a primary source12. Despite the potential for hemolysis, the overall severity of the toxicity for this plant is generally considered mild"
+      "description": "These compounds act as gastrointestinal irritants. When a cat ingests them, they trigger gastrointestinal distress, resulting in nausea, excessive salivation, vomiting, and diarrhea12. Additionally, the hemolytic nature of the saponins can lead to hemolysis (the rupture or destruction of red blood cells) related to this gastrointestinal activity.",
+      "concentration_notes": "These toxic compounds are present in the leaves and flowers of the plant, with the leaves being particularly noted as a primary source12. Despite the potential for hemolysis, the overall severity of the toxicity for this plant is generally considered mild."
     }
   ],
   "treatments": [
     {
       "name": "Exposure Prevention and Monitoring",
-      "description": "The immediate first step is to prevent the cat from eating any more of the plant. Offer the cat water to drink and closely monitor their condition for gastrointestinal upset",
-      "notes": "Because this plant usually causes only mild irritation, removing access to the plant and ensuring the cat stays hydrated is often the only action required. You should contact a veterinarian if the vomiting or diarrhea becomes severe or persistent1. 2. Symptomatic Veterinary Care",
+      "description": "The immediate first step is to prevent the cat from eating any more of the plant. Offer the cat water to drink and closely monitor their condition for gastrointestinal upset.",
+      "notes": "Because this plant usually causes only mild irritation, removing access to the plant and ensuring the cat stays hydrated is often the only action required. You should contact a veterinarian if the vomiting or diarrhea becomes severe or persistent.",
       "priority": 1
     },
     {
       "name": "Fluid and Electrolyte Therapy",
-      "description": "If the cat's symptoms warrant a veterinary visit, the vet will provide symptomatic and supportive care. This primarily involves administering fluids and electrolytes to restore hydration and correct any imbalances",
-      "notes": "This veterinary treatment becomes necessary if the cat is experiencing significant fluid loss from prolonged vomiting and diarrhea, or to provide systemic support if the cat is experiencing internal complications like hemolysis (the destruction of red blood cells) caused by the plant's saponins and ",
+      "description": "If the cat's symptoms warrant a veterinary visit, the vet will provide symptomatic and supportive care. This primarily involves administering fluids and electrolytes to restore hydration and correct any imbalances.",
+      "notes": "This veterinary treatment becomes necessary if the cat is experiencing significant fluid loss from prolonged vomiting and diarrhea, or to provide systemic support if the cat is experiencing internal complications like hemolysis (the destruction of red blood cells) caused by the plant's saponins and",
       "priority": 2
     }
   ],
@@ -40,19 +40,19 @@
     "The plant is low-growing and often accessible to cats on the floor — consider relocating to higher shelves",
     "Symptoms are usually mild and self-limiting; consult your vet if vomiting is severe or pupils remain dilated"
   ],
-  "description": "Snake Plant (Sansevieria spp., reclassified as Dracaena trifasciata), also known as Mother-in-Law’s Tongue, is a popular low-maintenance houseplant that is mildly toxic to cats. Like other Dracaena species, it contains steroidal saponins throughout its leaves that cause gastrointestinal upset when ingested.",
+  "description": "Snake Plant (Sansevieria spp.), also called Mother-in-Law's Tongue, is an extremely popular and hardy houseplant. Its tough, upright leaves make it a common decorative choice, but it is mildly toxic to cats if chewed or eaten.\n\nThe plant contains chemical compounds called saponins, which act as natural detergents and have a foaming quality. These substances are irritating to the tissues of the mouth and digestive tract. When a cat bites into a leaf, the saponins can cause a localized reaction and stomach upset.\n\nSymptoms are generally mild and self-limiting. A cat might drool, vomit, have diarrhea, or lose its appetite for a short time. While the effects are not usually severe, it is best to keep snake plants out of reach to prevent your cat from feeling unwell. If symptoms persist or seem severe, it is always best to contact a veterinarian for advice.",
   "symptoms": [
     {
       "name": "Nausea, vomiting, diarrhea, and excessive salivation",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "These signs are the primary reaction to the irritating saponins and organic acids in the plant2. You can offer the cat water, monitor their condition, and ensure they cannot eat any more of the plant1. You should contact a veterinarian if the vomiting becomes severe or persistent1. 2. Hemolysis"
+      "notes": "These signs are the primary reaction to the irritating saponins and organic acids in the plant2. You can offer the cat water, monitor their condition, and ensure they cannot eat any more of the plant1. You should contact a veterinarian if the vomiting becomes severe or persistent."
     },
     {
       "name": "Hemolysis (the rupture or destruction of red blood cells)",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "This blood-related symptom is directly related to the gastrointestinal activity of the hemolytic saponins found in the leaves and flowers of the plant"
+      "notes": "This blood-related symptom is directly related to the gastrointestinal activity of the hemolytic saponins found in the leaves and flowers of the plant."
     }
   ],
   "severity": "toxic"

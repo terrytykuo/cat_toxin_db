@@ -34,32 +34,32 @@
       "body_system": "Hepatic",
       "severity": "severe",
       "onset": "Not specified in the provided sources.",
-      "notes": "Liver damage occurs due to the pyrrolizidine alkaloid content of Ragwort. The cat must ingest the plant in large quantities to suffer this damage. Fortunately, Ragwort is quite unpleasant to eat, which usually acts as a natural deterrent and stops most cats from consuming it"
+      "notes": "Liver damage occurs due to the pyrrolizidine alkaloid content of Ragwort. The cat must ingest the plant in large quantities to suffer this damage. Fortunately, Ragwort is quite unpleasant to eat, which usually acts as a natural deterrent and stops most cats from consuming it."
     }
   ],
   "treatments": [
     {
       "name": "Veterinary Consultation and Triage",
-      "description": "Contact your veterinarian or a pet poison helpline immediately for professional advice2. If you have evidence of what the cat ate, take a sample of the plant (or a sample of the cat's vomit, especially if it contains plant matter) to the vet to aid in diagnosis",
-      "notes": "You should not attempt to make the cat sick at home, as this may not be helpful and can cause further harm2. Fortunately, Ragwort is quite unpleasant to eat, which usually acts as a natural deterrent and stops most cats from consuming the large quantities necessary to cause severe liver damage. 2. Gastrointestinal Decontamination",
+      "description": "Contact your veterinarian or a pet poison helpline immediately for professional advice2. If you have evidence of what the cat ate, take a sample of the plant (or a sample of the cat's vomit, especially if it contains plant matter) to the vet to aid in diagnosis.",
+      "notes": "You should not attempt to make the cat sick at home, as this may not be helpful and can cause further harm2. Fortunately, Ragwort is quite unpleasant to eat, which usually acts as a natural deterrent and stops most cats from consuming the large quantities necessary to cause severe liver damage.",
       "priority": 1
     },
     {
       "name": "Emesis Induction and Activated Charcoal",
-      "description": "To prevent the plant's toxins from being fully absorbed into the bloodstream, a veterinarian may medically induce vomiting (emesis)3. This is typically followed by an antiemetic (anti-nausea medication) and doses of activated charcoal to bind to any remaining toxins in the gastrointestinal tract",
-      "notes": "This decontamination step is most appropriate for a neurologically stable patient shortly after the plant has been ingested3. Due to enterohepatic recirculation (toxins cycling through the liver and intestines), multiple doses of activated charcoal may be recommended. 3. Liver Support and Protection",
+      "description": "To prevent the plant's toxins from being fully absorbed into the bloodstream, a veterinarian may medically induce vomiting (emesis)3. This is typically followed by an antiemetic (anti-nausea medication) and doses of activated charcoal to bind to any remaining toxins in the gastrointestinal tract.",
+      "notes": "This decontamination step is most appropriate for a neurologically stable patient shortly after the plant has been ingested3. Due to enterohepatic recirculation (toxins cycling through the liver and intestines), multiple doses of activated charcoal may be recommended.",
       "priority": 2
     },
     {
       "name": "Hepatoprotective Therapy",
       "description": "Because Ragwort targets the liver1, the veterinary team will likely administer hepatoprotectants (liver-protecting medications) such as S-adenosylmethionine (SAMe) and N-acetylcysteine (NAC)",
-      "notes": "These specific medications are necessary to support liver function and aid in tissue repair if hepatic necrosis (liver cell death) is occurring or suspected. 4. Systemic Supportive Care and Monitoring",
+      "notes": "These specific medications are necessary to support liver function and aid in tissue repair if hepatic necrosis (liver cell death) is occurring or suspected.",
       "priority": 3
     },
     {
       "name": "In-Hospital Monitoring and Symptomatic Support",
-      "description": "The cat will likely require hospitalization for close monitoring, which includes evaluating liver enzymes daily for a period of time (e.g., 72 hours)3. The vet may also administer gastroprotectants to soothe the stomach and intestines",
-      "notes": "If severe liver damage develops, secondary complications like hypoglycemia (low blood sugar) and bleeding disorders (coagulopathy) can occur4. The veterinary team will monitor blood glucose and coagulation profiles, and if hypoglycemia is present, they will administer a continuous intravenous infusion of dextrose",
+      "description": "The cat will likely require hospitalization for close monitoring, which includes evaluating liver enzymes daily for a period of time (e.g., 72 hours)3. The vet may also administer gastroprotectants to soothe the stomach and intestines.",
+      "notes": "If severe liver damage develops, secondary complications like hypoglycemia (low blood sugar) and bleeding disorders (coagulopathy) can occur4. The veterinary team will monitor blood glucose and coagulation profiles, and if hypoglycemia is present, they will administer a continuous intravenous infusion of dextrose.",
       "priority": 4
     }
   ],

@@ -22,8 +22,8 @@
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: The sources do not specify concentrations, but simply highlight mold as a persistent risk when storing and feeding nuts",
-      "description": "The sources warn that nuts like pistachios are highly susceptible to becoming damp and developing mold12. Consuming moldy nuts can easily lead to indigestion and diarrhea in cats12. Any notes on concentration or potency: The sources do not specify concentrations, but simply highlight mold as a persistent risk when storing and feeding nuts",
+      "concentration_notes": "or potency: The sources do not specify concentrations, but simply highlight mold as a persistent risk when storing and feeding nuts.",
+      "description": "The sources warn that nuts like pistachios are highly susceptible to becoming damp and developing mold12. Consuming moldy nuts can easily lead to indigestion and diarrhea in cats12. Any notes on concentration or potency: The sources do not specify concentrations, but simply highlight mold as a persistent risk when storing and feeding nuts.",
       "name": "Mold (Potential Mycotoxins)"
     }
   ],
@@ -45,14 +45,14 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Indigestion and Diarrhea",
-      "notes": "Cats are obligate carnivores, and their digestive systems struggle to break down the dense oils and high fat content found in nuts1. Furthermore, the hard texture of pistachios makes them physically difficult to digest, and the nuts are highly susceptible to becoming damp and growing mold, all of wh",
+      "notes": "Cats are obligate carnivores, and their digestive systems struggle to break down the dense oils and high fat content found in nuts.",
       "onset": "Within a few hours of ingestion.",
       "severity": "moderate"
     },
     {
       "body_system": "Renal",
       "name": "Renal Stress / Increased Kidney Burden",
-      "notes": "In a household setting, pistachios are usually encountered as candied, dried, or roasted human snacks that are heavily seasoned with high amounts of salt and sugar1. Feeding these seasoned nuts to a cat provides no nutritional benefit and unnecessarily increases the metabolic burden on their kidneys",
+      "notes": "In a household setting, pistachios are usually encountered as candied, dried, or roasted human snacks that are heavily seasoned with high amounts of salt and sugar1. Feeding these seasoned nuts to a cat provides no nutritional benefit and unnecessarily increases the metabolic burden on their kidneys.",
       "onset": "Chronic (effects compound over time with repeated ingestions).",
       "severity": "severe"
     }
@@ -72,27 +72,27 @@
       "priority": 1
     },
     {
-      "description": "of the procedure: If an intact pistachio or a large piece becomes lodged in the cat's throat or digestive tract, the veterinarian will need to physically remove the blockage using endoscopy or abdominal surgery. Any situation-specific",
+      "description": "of the procedure: If an intact pistachio or a large piece becomes lodged in the cat's throat or digestive tract, the veterinarian will need to physically remove the blockage using endoscopy or abdominal surgery.",
       "name": "Relief of Choking or Intestinal Obstruction",
-      "notes": "Pistachios have a hard physical texture that is very difficult for cats to properly digest, making them an immediate choking and obstruction hazard",
+      "notes": "Pistachios have a hard physical texture that is very difficult for cats to properly digest, making them an immediate choking and obstruction hazard.",
       "priority": 2
     },
     {
-      "description": "of the procedure: The veterinarian will hospitalize the cat, monitor serum sodium levels, and administer specific IV fluids to slowly return the animal to a normal water and electrolyte balance over a period of 2 to 3 days3. Any situation-specific",
+      "description": "of the procedure: The veterinarian will hospitalize the cat, monitor serum sodium levels, and administer specific IV fluids to slowly return the animal to a normal water and electrolyte balance over a period of 2 to 3 days.",
       "name": "Correction of Salt Toxicity (If salted nuts were ingested)",
-      "notes": "Pistachios are typically encountered as human snacks heavily seasoned with salt, which unnecessarily increases the burden on a cat's kidneys and can lead to sodium poisoning12. The veterinarian must lower the sodium concentration very slowly; if fluids are given too rapidly, it can cause fatal cereb",
+      "notes": "Pistachios are typically encountered as human snacks heavily seasoned with salt, which unnecessarily increases the burden on a cat's kidneys and can lead to sodium poisoning.",
       "priority": 3
     },
     {
-      "description": "of the procedure: If the cat develops acute pancreatitis, it will require hospitalization. The vet will use intravenous (IV) fluids to support the pancreatic vasculature and combat dehydration from vomiting or diarrhea, alongside administering medications to control pain and nausea56. Any situation-specific",
+      "description": "of the procedure: If the cat develops acute pancreatitis, it will require hospitalization. The vet will use intravenous (IV) fluids to support the pancreatic vasculature and combat dehydration from vomiting or diarrhea, alongside administering medications to control pain and nausea.",
       "name": "Intensive Medical Management for Pancreatitis (If triggered by high fat)",
-      "notes": "The dense oils and high fat content found in nuts like pistachios can trigger pancreatitis (a severe inflammation of the pancreas)17. Because anorexic cats are at high risk of developing a secondary fatal liver condition called hepatic lipidosis, the vet may also use appetite stimulants or place a f",
+      "notes": "The dense oils and high fat content found in nuts like pistachios can trigger pancreatitis (a severe inflammation of the pancreas).",
       "priority": 4
     },
     {
-      "description": "of the procedure: For milder cases, the veterinarian may administer basic hydration (such as subcutaneous fluids) and prescribe anti-emetics or a bland diet until the gastrointestinal inflammation subsides. Any situation-specific",
+      "description": "of the procedure: For milder cases, the veterinarian may administer basic hydration (such as subcutaneous fluids) and prescribe anti-emetics or a bland diet until the gastrointestinal inflammation subsides.",
       "name": "Symptomatic Gastrointestinal Support",
-      "notes": "Even if severe complications like pancreatitis or salt poisoning do not occur, the high fat content, hard texture, and potential for mold growth in pistachios easily lead to standard indigestion and diarrhea that require basic symptomatic relief",
+      "notes": "Even if severe complications like pancreatitis or salt poisoning do not occur, the high fat content, hard texture, and potential for mold growth in pistachios easily lead to standard indigestion and diarrhea that require basic symptomatic relief.",
       "priority": 5
     }
   ]

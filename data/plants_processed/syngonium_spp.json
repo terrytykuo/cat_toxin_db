@@ -5,8 +5,8 @@
     {
       "name": "Insoluble Calcium Oxalates, which form needle-like crystals known as raphides",
       "chemical_formula": null,
-      "description": "in cats: ◦ Mechanical Irritation: The crystals are bundled inside specialized cells called idioblasts scattered throughout the plant tissues. ◦ Ejection: When a cat chews or crushes the plant material, these idioblasts rupture, forcibly ejecting the sharp, needle-like raphides into the surrounding soft tissues of the mouth, tongue, and throat. ◦ Trauma: This action causes immediate physical trauma",
-      "concentration_notes": "◦ Distribution: These crystals are \"scattered throughout the plant,\" meaning all parts chewed by the cat can cause injury. ◦ Self-Limiting Potency: The pain is immediate (\"immediate pain\"), which often serves as a deterrent, limiting the amount of plant material the cat actually swallows. While the reaction is painful and causes significant irritation, the prognosis is generally \"good to excellent"
+      "description": "◦ Mechanical Irritation: The crystals are bundled inside specialized cells called idioblasts scattered throughout the plant tissues. ◦ Ejection: When a cat chews or crushes the plant material, these idioblasts rupture, forcibly ejecting the sharp, needle-like raphides into the surrounding soft tissues of the mouth, tongue, and throat. ◦ Trauma: This action causes immediate physical trauma.",
+      "concentration_notes": "◦ Distribution: These crystals are \"scattered throughout the plant,\" meaning all parts chewed by the cat can cause injury. ◦ Self-Limiting Potency: The pain is immediate (\"immediate pain\"), which often serves as a deterrent, limiting the amount of plant material the cat actually swallows. While the reaction is painful and causes significant irritation, the prognosis is generally \"good to excellent."
     }
   ],
   "treatments": [
@@ -55,7 +55,7 @@
       "severity": "moderate",
       "name": "Oral Irritation (intense burning sensation, pain)",
       "body_system": "Gastrointestinal",
-      "notes": "The cat may demonstrate this pain by pawing at the mouth or shaking its head. The crystals cause inflammation and redness (erythema) of the lips, tongue, and mouth.Hypersalivation",
+      "notes": "The cat may demonstrate this pain by pawing at the mouth or shaking its head. The crystals cause inflammation and redness (erythema) of the lips, tongue, and mouth.",
       "onset": "Immediate upon chewing."
     },
     {
@@ -76,14 +76,14 @@
       "severity": "severe",
       "name": "Dyspnea",
       "onset": "Rapid (following swelling).",
-      "notes": "This occurs if the swelling of the tongue and pharynx obstructs the airway. While the overall prognosis for this plant is generally good, airway obstruction requires immediate veterinary attention.Vomiting and Diarrhea",
+      "notes": "This occurs if the swelling of the tongue and pharynx obstructs the airway. While the overall prognosis for this plant is generally good, airway obstruction requires immediate veterinary attention.",
       "body_system": "Respiratory"
     },
     {
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "name": "Vomiting and Diarrhea",
-      "notes": "These are general signs of gastrointestinal upset associated with the ingestion of the plant material.Anorexia"
+      "notes": "These are general signs of gastrointestinal upset associated with the ingestion of the plant material."
     },
     {
       "severity": "mild",

@@ -5,23 +5,23 @@
     {
       "chemical_formula": null,
       "concentration_notes": "◦ Distribution: While saponins are found throughout the plant material, the berries are considered the most toxic part. ◦ Potency: Ingestion of as few as two berries can result in clinical signs like abdominal pain, vomiting, and diarrhea.",
-      "description": "in cats: ◦ Gastrointestinal Irritation: Saponins are described as \"irritating saps\" that possess detergent-like properties. When ingested, they cause direct severe irritation to the mucous membranes of the mouth and the lining of the gastrointestinal tract. This leads to the primary symptoms of drooling (hypersalivation), vomiting, and diarrhea.",
+      "description": "◦ Gastrointestinal Irritation: Saponins are described as \"irritating saps\" that possess detergent-like properties. When ingested, they cause direct severe irritation to the mucous membranes of the mouth and the lining of the gastrointestinal tract. This leads to the primary symptoms of drooling (hypersalivation), vomiting, and diarrhea.",
       "name": "Saponins (a group of glycosides causing foaming/soapy activity)"
     },
     {
       "chemical_formula": "Not explicitly provided in the sources.",
       "concentration_notes": "◦ Found in leaves, fruit, and seeds. Specific potency regarding theobromine content in Holly is not detailed, but the overall plant toxicity is generally considered low to moderate compared to plants like true lilies.",
-      "description": "in cats: ◦ The sources list theobromine as a constituent found in the leaves, fruits, and seeds of Ilex aquifolium (English Holly). While theobromine is a known stimulant (also found in chocolate) that can affect the central nervous system and heart, the sources primarily attribute the clinical signs of Holly poisoning (GI upset) to the saponins.",
+      "description": "◦ The sources list theobromine as a constituent found in the leaves, fruits, and seeds of Ilex aquifolium (English Holly). While theobromine is a known stimulant (also found in chocolate) that can affect the central nervous system and heart, the sources primarily attribute the clinical signs of Holly poisoning (GI upset) to the saponins.",
       "name": "Theobromine (an alkaloid)"
     },
     {
       "chemical_formula": "Not provided.",
       "concentration_notes": "◦ Present in leaves, fruits, and seeds.• Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual1 • Holiday Toxins | Pet Poison Helpline2 • Beautiful, But Beware: Toxic Holiday Plants You Should Know About3 • Take the \"Oh No!\" Out of Your and Your Pets' Holiday \"Ho-Ho-Ho!\"4",
-      "description": "in cats: ◦ These compounds are noted to be present in the plant. \"Digitalis-like\" activity suggests a potential to affect heart rhythm and contraction, though severe cardiac signs are less commonly reported than gastrointestinal irritation in typical Holly ingestion cases.",
+      "description": "◦ These compounds are noted to be present in the plant. \"Digitalis-like\" activity suggests a potential to affect heart rhythm and contraction, though severe cardiac signs are less commonly reported than gastrointestinal irritation in typical Holly ingestion cases.",
       "name": "Triterpene compounds and unknown compounds with digitalis-like cardiotonic activity"
     }
   ],
-  "description": "Holly (Ilex spp.) encompasses many species — including American Holly (Ilex opaca), Japanese Holly (Ilex crenata), and others — all of which are toxic to cats. Like English Holly, these species contain saponins (including ilicin) concentrated in the berries and leaves. The bright berries are visually attractive to cats and represent the greatest exposure risk.",
+  "description": "Holly (Ilex spp.) includes many shrubs and trees with glossy leaves and bright berries. It is toxic to cats, and the berries are often the easiest part for a cat to find or swallow.\n\nHolly contains saponins and other irritating compounds. These can upset the stomach and intestines. The sharp leaves can also irritate the mouth, while fallen berries may attract curious cats during the holiday season.\n\nA cat that eats holly may drool, vomit, have diarrhea, smack the lips, or seem uncomfortable. Keep holly decorations and outdoor berries away from cats. Call a veterinarian if your cat eats several berries, vomits repeatedly, or seems weak.",
   "emergencyNote": "Intravenous (IV) or Subcutaneous Fluid Administration",
   "family": "Aquifoliaceae",
   "isToxic": true,
@@ -46,21 +46,21 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Excessive Drooling (Ptyalism) or Lip Smacking",
-      "notes": "This is caused by both the chemical irritation from the saponins and the mechanical injury from the sharp, spiny leaves puncturing or scratching the sensitive tissues of the mouth and throat.Abdominal Pain",
+      "notes": "This is caused by both the chemical irritation from the saponins and the mechanical injury from the sharp, spiny leaves puncturing or scratching the sensitive tissues of the mouth and throat.",
       "onset": "Immediate (Upon chewing or ingestion).",
       "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Abdominal Pain",
-      "notes": "The cat may hunch over or vocalize due to the cramping and irritation caused by the plant toxins moving through the digestive tract.Lethargy and Depression",
+      "notes": "The cat may hunch over or vocalize due to the cramping and irritation caused by the plant toxins moving through the digestive tract.",
       "onset": "Acute.",
       "severity": "moderate"
     },
     {
       "body_system": "Neurological",
       "name": "Lethargy or Depression",
-      "notes": "The cat may appear tired or unresponsive, often as a secondary reaction to the pain and dehydration associated with vomiting and diarrhea.Mechanical Oral Injury",
+      "notes": "The cat may appear tired or unresponsive, often as a secondary reaction to the pain and dehydration associated with vomiting and diarrhea.",
       "onset": "Acute (Following GI symptoms).",
       "severity": "mild"
     },
@@ -81,13 +81,13 @@
     {
       "description": "If the cat is experiencing persistent vomiting or diarrhea, the veterinarian will administer fluids to correct electrolyte imbalances and prevent or treat dehydration.",
       "name": "Intravenous (IV) or Subcutaneous Fluid Administration",
-      "notes": "This is the primary specific veterinary intervention mentioned for cases that progress beyond mild symptoms. While most pets recover at home, those with severe signs require this support to maintain stability.Symptomatic Care and Management",
+      "notes": "This is the primary specific veterinary intervention mentioned for cases that progress beyond mild symptoms. While most pets recover at home, those with severe signs require this support to maintain stability.",
       "priority": 1
     },
     {
       "description": "Veterinarians treat the clinical signs as they appear (\"symptomatic treatment\"). This typically involves administering medications to stop vomiting (anti-emetics), control diarrhea, and coat or soothe the stomach lining (gastroprotectants) to relieve abdominal pain.",
       "name": "Pharmacological Symptom Management (Anti-emetics and Gastroprotectants)",
-      "notes": "Because there is no specific antidote for holly poisoning, care is focused on managing the gastrointestinal irritation caused by the saponins until the toxins pass through the system.Observation and Home Monitoring",
+      "notes": "Because there is no specific antidote for holly poisoning, care is focused on managing the gastrointestinal irritation caused by the saponins until the toxins pass through the system.",
       "priority": 2
     },
     {

@@ -5,19 +5,19 @@
     {
       "chemical_formula": "Not provided in the sources.",
       "concentration_notes": "These crystals are specifically concentrated in the sap of the plant.",
-      "description": "in cats: Upon ingestion or contact, these crystals cause dermal (skin) and oral mucosal irritation as well as edema (swelling). 4. Notes on",
+      "description": "Upon ingestion or contact, these crystals cause dermal (skin) and oral mucosal irritation as well as edema (swelling).",
       "name": "Calcium oxalate crystals"
     },
     {
       "chemical_formula": "Not provided in the sources.",
       "concentration_notes": "These compounds are found in the leaves and seeds.",
-      "description": "in cats: Saponins are irritants that contribute to the plant's ability to cause irritation and swelling upon ingestion. 4. Notes on",
+      "description": "Saponins are irritants that contribute to the plant's ability to cause irritation and swelling upon ingestion.",
       "name": "Saponins"
     },
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "These oils are located in the leaves and seeds.• Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual",
-      "description": "in cats: These oils act as irritants to the skin and mucous membranes. 4. Notes on",
+      "concentration_notes": "These oils are located in the leaves and seeds.",
+      "description": "These oils act as irritants to the skin and mucous membranes.",
       "name": "Acrid volatile oils"
     }
   ],
@@ -44,14 +44,14 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Edema (Swelling)",
-      "notes": "Swelling can occur in the mouth or on the skin where the plant sap has come into contact with the animal.Dermal Irritation",
+      "notes": "Swelling can occur in the mouth or on the skin where the plant sap has come into contact with the animal.",
       "onset": "Rapid following contact or ingestion.",
       "severity": "moderate"
     },
     {
       "body_system": "Dermal",
       "name": "Dermal Irritation (Skin irritation/Dermatitis)",
-      "notes": "The sap of the Century Plant is an irritant. Contact with the skin can cause redness, irritation, and swelling.Note on Gastrointestinal Upset: While the sources specifically highlight irritation and edema for Agave americana, they also note the presence of saponins in the leaves and seeds1,2. In oth",
+      "notes": "The sap of the Century Plant is an irritant. Contact with the skin can cause redness, irritation, and swelling.Note on Gastrointestinal Upset: While the sources specifically highlight irritation and edema for Agave americana, they also note the presence of saponins in the leaves and seeds1,2.",
       "onset": "Upon contact with the sap.",
       "severity": "moderate"
     }
@@ -76,7 +76,7 @@
       "priority": 2
     },
     {
-      "description": "◦ Medications: Administration of analgesics (pain relievers) to treat oral pain and anti-inflammatory medications to reduce swelling. Gastroprotectants or antiemetics may be given if vomiting occurs due to the saponins. ◦ Demulcents: Feeding small amounts of calcium-containing products (like milk or yogurt) may be suggested to bind the oxalate crystals and soothe the mouth (if the cat is not lacto",
+      "description": "◦ Medications: Administration of analgesics (pain relievers) to treat oral pain and anti-inflammatory medications to reduce swelling. Gastroprotectants or antiemetics may be given if vomiting occurs due to the saponins.",
       "name": "Symptomatic and Supportive Care (Pain Management & Fluids)",
       "notes": "Veterinary literature classifies the treatment for Agave americana specifically as \"Symptomatic.\" The goal is to manage the immediate pain and irritation until the reaction subsides. The prognosis is generally good to excellent once the irritation is managed.",
       "priority": 3

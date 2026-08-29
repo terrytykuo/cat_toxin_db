@@ -4,8 +4,8 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ Toxic Threshold: Ingestion of as little as 0.5% of the cat’s body weight in Allium plant material can be toxic. ◦ Concentrated Forms: Chives are toxic in all forms (raw, cooked, or dried). However, dried or powdered forms (often found in soup mixes or seasonings) are particularly dangerous because the toxins are highly concentrated. ◦ Delayed Onset: Symptoms of red blood cell damage (such as pal",
-      "description": "in cats: ◦ Oxidative Damage: When a cat ingests chives, these sulfur compounds cause oxidative damage to the hemoglobin within red blood cells. ◦ Heinz Body Formation: This damage causes the hemoglobin to denature and clump together, forming structures called Heinz bodies on the red blood cells. ◦ Hemolysis: The cat's spleen identifies these cells as damaged and removes them from circulation faste",
+      "concentration_notes": "◦ Toxic Threshold: Ingestion of as little as 0.5% of the cat’s body weight in Allium plant material can be toxic. ◦ Concentrated Forms: Chives are toxic in all forms (raw, cooked, or dried). However, dried or powdered forms (often found in soup mixes or seasonings) are particularly dangerous because the toxins are highly concentrated.",
+      "description": "◦ Oxidative Damage: When a cat ingests chives, these sulfur compounds cause oxidative damage to the hemoglobin within red blood cells. ◦ Heinz Body Formation: This damage causes the hemoglobin to denature and clump together, forming structures called Heinz bodies on the red blood cells.",
       "name": "The specific toxic agent identified in chives and other Allium species (like onions and garlic) is N-propyl disulfide"
     }
   ],
@@ -33,7 +33,7 @@
     {
       "body_system": "Hematological",
       "name": "Lethargy, weakness, stumbling, and collapse",
-      "notes": "Sulfur compounds in chives cause oxidative damage to red blood cells, leading to their destruction (hemolysis). The cat may seek out warm spaces due to poor circulation and weakness.Discolored Mucous Membranes",
+      "notes": "Sulfur compounds in chives cause oxidative damage to red blood cells, leading to their destruction (hemolysis). The cat may seek out warm spaces due to poor circulation and weakness.",
       "onset": "Delayed (Symptoms typically appear several days following ingestion).",
       "severity": "fatal"
     },
@@ -47,14 +47,14 @@
     {
       "body_system": "Renal",
       "name": "Dark, reddish, or brown urine",
-      "notes": "The dark color is caused by hemoglobin being filtered into the urine from ruptured red blood cells.Respiratory Distress",
+      "notes": "The dark color is caused by hemoglobin being filtered into the urine from ruptured red blood cells.",
       "onset": "Delayed (Several days).",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Tachypnea (rapid breathing), panting, or dyspnea (difficulty breathing)",
-      "notes": "The cat breathes rapidly in an attempt to compensate for the decreased oxygen-carrying capacity of the blood caused by anemia.Cardiac Abnormalities",
+      "notes": "The cat breathes rapidly in an attempt to compensate for the decreased oxygen-carrying capacity of the blood caused by anemia.",
       "onset": "Delayed (Several days).",
       "severity": "severe"
     },
@@ -77,19 +77,19 @@
     {
       "description": "If the ingestion was recent (typically within a few hours), the veterinarian may administer medication to induce vomiting to remove the plant material from the stomach. This may be followed by the administration of activated charcoal, which helps bind any remaining toxins in the gastrointestinal tract to prevent absorption.",
       "name": "Induction of Emesis (Vomiting) and Activated Charcoal",
-      "notes": "This step is time-sensitive. Veterinarians advise against trying to induce vomiting at home (especially with hydrogen peroxide) as it can cause severe irritation or complications. Decontamination is most effective before the cat begins showing clinical signs.Supportive Care and Fluid Therapy",
+      "notes": "This step is time-sensitive. Veterinarians advise against trying to induce vomiting at home (especially with hydrogen peroxide) as it can cause severe irritation or complications. Decontamination is most effective before the cat begins showing clinical signs.",
       "priority": 1
     },
     {
       "description": "The administration of IV fluids to maintain hydration and support organ function.",
       "name": "Intravenous (IV) Fluid Therapy",
-      "notes": "Fluids are critical if the cat is experiencing vomiting or diarrhea. Furthermore, since Allium toxicity causes red blood cell destruction, hemoglobin (the oxygen-carrying protein) can be released into the bloodstream and filtered by the kidneys (hemoglobinuria), potentially causing kidney damage. Fl",
+      "notes": "Fluids are critical if the cat is experiencing vomiting or diarrhea. Furthermore, since Allium toxicity causes red blood cell destruction, hemoglobin (the oxygen-carrying protein) can be released into the bloodstream and filtered by the kidneys (hemoglobinuria), potentially causing kidney damage.",
       "priority": 2
     },
     {
       "description": "The veterinarian will monitor the cat's blood values, specifically looking for signs of anemia (low red blood cell count) and the presence of Heinz bodies (damaged hemoglobin) on red blood cells.",
       "name": "Hematological Monitoring (Blood Tests)",
-      "notes": "This is a critical part of the treatment plan because symptoms of Chive poisoning—such as pale gums, rapid heartbeat, and dark urine—are often delayed and may not appear for several days after ingestion. A cat may appear fine initially but deteriorate later as red blood cells die off.Advanced Interv",
+      "notes": "This is a critical part of the treatment plan because symptoms of Chive poisoning—such as pale gums, rapid heartbeat, and dark urine—are often delayed and may not appear for several days after ingestion. A cat may appear fine initially but deteriorate later as red blood cells die off.",
       "priority": 3
     },
     {

@@ -4,8 +4,8 @@
   "chemicals": [
     {
       "chemical_formula": "NaCl (Note",
-      "concentration_notes": "or potency: Cats receive all the sodium they need from a balanced commercial cat diet, and their bodies cannot safely handle the high sodium concentrations found in heavily salted human snacks like pretzels1. The acute oral lethal dose of salt in companion animals (such as dogs) is approximately 4 g/kg, though severe clinical signs of toxicosis can appear after ingesting just 2–3 g/kg5. Ingesting",
-      "description": "Pretzels are human snack foods that are heavily coated in salt12. When a cat ingests excess sodium, it severely disrupts their normal water and electrolyte balance1. The excess salt creates a strong osmotic gradient that draws fluid out of the body's cells, leading to severe systemic dehydration and electrolyte derangements13. In the central nervous system, this rapid osmotic shift causes",
+      "concentration_notes": "or potency: Cats receive all the sodium they need from a balanced commercial cat diet, and their bodies cannot safely handle the high sodium concentrations found in heavily salted human snacks like pretzels1. The acute oral lethal dose of salt in companion animals (such as dogs) is approximately 4 g/kg, though severe clinical signs of toxicosis can appear after ingesting just 2–3 g/kg.",
+      "description": "Pretzels are human snack foods that are heavily coated in salt12. When a cat ingests excess sodium, it severely disrupts their normal water and electrolyte balance1. The excess salt creates a strong osmotic gradient that draws fluid out of the body's cells, leading to severe systemic dehydration and electrolyte derangements.",
       "name": "Sodium Chloride (Salt)"
     }
   ],
@@ -27,21 +27,21 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Gastrointestinal Distress (Vomiting and Diarrhea)",
-      "notes": "Vomiting is often one of the earliest clinical signs of excess salt intake2. The heavy sodium load severely irritates the gastrointestinal tract and contributes to rapid, severe systemic dehydration",
+      "notes": "Vomiting is often one of the earliest clinical signs of excess salt intake2. The heavy sodium load severely irritates the gastrointestinal tract and contributes to rapid, severe systemic dehydration.",
       "onset": "Within minutes to several hours of ingestion",
       "severity": "severe"
     },
     {
       "body_system": "Renal",
       "name": "Polydipsia and Polyuria (Excessive Thirst and Urination)",
-      "notes": "The excess salt creates an osmotic gradient that draws fluid out of the body's cells, leading to profound water-seeking behavior and electrolyte derangements14. If left untreated, this severe dehydration can progress to kidney failure",
+      "notes": "The excess salt creates an osmotic gradient that draws fluid out of the body's cells, leading to profound water-seeking behavior and electrolyte derangements14. If left untreated, this severe dehydration can progress to kidney failure.",
       "onset": "Within minutes of ingestion",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Neuromuscular and Central Nervous Dysfunction",
-      "notes": "The rapid shift of fluids out of the cells causes cerebral dehydration (fluid loss in the brain)46. This leads to progressive neurological deterioration, starting with depression and ataxia (weakness), and escalating to muscle tremors, severe seizures, coma, and potentially death",
+      "notes": "The rapid shift of fluids out of the cells causes cerebral dehydration (fluid loss in the brain)46. This leads to progressive neurological deterioration, starting with depression and ataxia (weakness), and escalating to muscle tremors, severe seizures, coma, and potentially death.",
       "onset": "Within minutes to several hours (often progressing after initial gastrointestinal signs)",
       "severity": "fatal"
     },
@@ -66,27 +66,27 @@
       "priority": 1
     },
     {
-      "description": "of the procedure: If the cat is experiencing seizures, the veterinarian will administer seizure-control agents, such as diazepam5. If cerebral edema (swelling of the brain) is suspected, medications like mannitol, dexamethasone, or dimethyl sulfoxide (DMSO) may be administered to reduce the swelling5. Any situation-specific",
+      "description": "of the procedure: If the cat is experiencing seizures, the veterinarian will administer seizure-control agents, such as diazepam5. If cerebral edema (swelling of the brain) is suspected, medications like mannitol, dexamethasone, or dimethyl sulfoxide (DMSO) may be administered to reduce the swelling.",
       "name": "Emergency Neurological Management (If the cat presents in a crisis)",
-      "notes": "This is an urgent, life-saving intervention. Excess sodium causes rapid fluid shifts that lead to cerebral dehydration and shrinking of the brain cells; treating the resulting severe central nervous system dysfunction (like seizures and coma) is the highest immediate priority",
+      "notes": "This is an urgent, life-saving intervention. Excess sodium causes rapid fluid shifts that lead to cerebral dehydration and shrinking of the brain cells; treating the resulting severe central nervous system dysfunction (like seizures and coma) is the highest immediate priority.",
       "priority": 2
     },
     {
-      "description": "of the procedure: The veterinarian will hospitalize the cat, measure serum sodium concentrations, and administer specific IV fluids (such as a 5% dextrose solution) to gradually dilute the sodium in the blood and restore normal water and electrolyte balance over a period of 2 to 3 days7. Loop diuretics, such as furosemide, may also be administered to help excrete sodium and prevent fluid from b",
+      "description": "of the procedure: The veterinarian will hospitalize the cat, measure serum sodium concentrations, and administer specific IV fluids (such as a 5% dextrose solution) to gradually dilute the sodium in the blood and restore normal water and electrolyte balance over a period of 2 to 3 days.",
       "name": "Controlled IV Fluid Therapy and Sodium Correction (Primary Medical Treatment)",
-      "notes": "It is critical that the serum sodium concentration is lowered slowly, at a recommended rate of 0.5 to 1.0 mEq/L per hour9. If the sodium levels are dropped too quickly, the osmotic gradient reverses, rapidly drawing water into the brain cells and causing severe, potentially fatal cerebral edema",
+      "notes": "It is critical that the serum sodium concentration is lowered slowly, at a recommended rate of 0.5 to 1.0 mEq/L per hour9. If the sodium levels are dropped too quickly, the osmotic gradient reverses, rapidly drawing water into the brain cells and causing severe, potentially fatal cerebral edema.",
       "priority": 3
     },
     {
-      "description": "of the procedure: If the ingestion is caught acutely before any clinical signs develop, the immediate removal of the remaining salty food is imperative4. The cat should be allowed access to fresh water in small, frequent amounts and observed closely for several hours34. Any situation-specific",
+      "description": "of the procedure: If the ingestion is caught acutely before any clinical signs develop, the immediate removal of the remaining salty food is imperative4. The cat should be allowed access to fresh water in small, frequent amounts and observed closely for several hours.",
       "name": "Early Hydration Management and Decontamination (If caught immediately)",
-      "notes": "Allowing the cat to drink large, unrestricted amounts of water all at once must be avoided, as rapidly drinking massive amounts of water can actually worsen neurological signs by causing fluid to quickly build up in the brain",
+      "notes": "Allowing the cat to drink large, unrestricted amounts of water all at once must be avoided, as rapidly drinking massive amounts of water can actually worsen neurological signs by causing fluid to quickly build up in the brain.",
       "priority": 4
     },
     {
-      "description": "of the procedure: The veterinarian may administer antacids and other medications (such as antibiotics) to alleviate gastrointestinal issues7. Any situation-specific",
+      "description": "of the procedure: The veterinarian may administer antacids and other medications (such as antibiotics) to alleviate gastrointestinal issues.",
       "name": "Gastrointestinal Supportive Care",
-      "notes": "Massive amounts of salt act as a direct and severe irritant to the mucosal lining of the stomach and intestines10. Soothing the digestive tract and addressing vomiting and diarrhea is an important supportive measure once the cat's life-threatening systemic imbalances are stabilized",
+      "notes": "Massive amounts of salt act as a direct and severe irritant to the mucosal lining of the stomach and intestines10. Soothing the digestive tract and addressing vomiting and diarrhea is an important supportive measure once the cat's life-threatening systemic imbalances are stabilized.",
       "priority": 5
     }
   ]

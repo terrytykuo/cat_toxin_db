@@ -4,8 +4,8 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ Location: The toxin is concentrated in the seeds (pips), leaves, and stems; the flesh of the apple is considered safe and non-toxic2.... ◦ Bioavailability: Apple seeds have a hard outer shell that often allows them to pass through the digestive tract intact without releasing the toxin. The seed must be crushed or chewed to pose a significant threat3.... ◦ Potency: While the amount of cyanide in ",
-      "description": "in cats: ◦ Activation: Amygdalin is relatively harmless in its intact form. However, when the apple seed is chewed, crushed, or digested, the compound interacts with digestive enzymes to undergo hydrolysis, releasing hydrogen cyanide into the bloodstream1.... ◦ Cellular Disruption: Once absorbed, the cyanide interferes with cellular respiration. It tightly binds to ferric (Fe3+) iron within cytoch",
+      "concentration_notes": "◦ Location: The toxin is concentrated in the seeds (pips), leaves, and stems; the flesh of the apple is considered safe and non-toxic2. ◦ Bioavailability: Apple seeds have a hard outer shell that often allows them to pass through the digestive tract intact without releasing the toxin. The seed must be crushed or chewed to pose a significant threat.",
+      "description": "◦ Activation: Amygdalin is relatively harmless in its intact form. However, when the apple seed is chewed, crushed, or digested, the compound interacts with digestive enzymes to undergo hydrolysis, releasing hydrogen cyanide into the bloodstream1. ◦ Cellular Disruption: Once absorbed, the cyanide interferes with cellular respiration.",
       "name": "The specific compound found in apple seeds is Amygdalin, which is a type of Cyanogenic Glycoside. When metabolized by the cat's body"
     }
   ],
@@ -25,35 +25,35 @@
     {
       "body_system": "Respiratory",
       "name": "Respiratory Distress (Difficulty Breathing, Panting, Tachypnea)",
-      "notes": "Signs include panting, gasping for breath, or rapid breathing. This occurs because the cyanide toxin prevents cells from utilizing oxygen (cellular hypoxia), effectively suffocating cells even though the blood is oxygenated.Brick Red Mucous Membranes",
+      "notes": "Signs include panting, gasping for breath, or rapid breathing. This occurs because the cyanide toxin prevents cells from utilizing oxygen (cellular hypoxia), effectively suffocating cells even though the blood is oxygenated.",
       "onset": "Rapid; often within 10–60 minutes to a few hours after ingestion.",
       "severity": "severe"
     },
     {
       "body_system": "Hematological",
       "name": "Bright Red Gums/Tongue (Mucous Membrane Discoloration)",
-      "notes": "The gums and tongue may appear unusually bright red or pink. This \"cherry red\" blood coloring is a classic sign of cyanide toxicity, resulting from the abundance of oxygen in the blood that tissues are unable to absorb.Dilated Pupils",
+      "notes": "The gums and tongue may appear unusually bright red or pink. This \"cherry red\" blood coloring is a classic sign of cyanide toxicity, resulting from the abundance of oxygen in the blood that tissues are unable to absorb.",
       "onset": "Rapid (minutes to hours).",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Dilated Pupils (Mydriasis)",
-      "notes": "Enlarged pupils are a frequent sign of cyanide poisoning listed alongside respiratory distress and shock.Seizures and Tremors",
+      "notes": "Enlarged pupils are a frequent sign of cyanide poisoning listed alongside respiratory distress and shock.",
       "onset": "Rapid (minutes to hours).",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Seizures, Convulsions, and Tremors",
-      "notes": "As the brain is deprived of usable oxygen, the cat may experience muscle tremors, convulsions, and eventually lapse into a coma.Shock and Collapse",
+      "notes": "As the brain is deprived of usable oxygen, the cat may experience muscle tremors, convulsions, and eventually lapse into a coma.",
       "onset": "Rapid (often within an hour).",
       "severity": "fatal"
     },
     {
       "body_system": "Cardiac",
       "name": "Shock / Sudden Collapse / Weakness",
-      "notes": "Hypotension (low blood pressure) and arrhythmias (irregular heartbeats) can lead to sudden collapse and death if untreated.Gastrointestinal Upset",
+      "notes": "Hypotension (low blood pressure) and arrhythmias (irregular heartbeats) can lead to sudden collapse and death if untreated.",
       "onset": "Rapid (10–60 minutes).",
       "severity": "fatal"
     },

@@ -24,42 +24,42 @@
       "body_system": "Hematological",
       "severity": "fatal",
       "onset": "Delayed (Signs may not appear for several days after ingestion).",
-      "notes": "Garlic contains sulfur compounds that cause oxidative damage to red blood cells, leading to their destruction (hemolysis). This results in a dangerously low red blood cell count, preventing adequate oxygen transport throughout the body.Gastrointestinal Upset"
+      "notes": "Garlic contains sulfur compounds that cause oxidative damage to red blood cells, leading to their destruction (hemolysis). This results in a dangerously low red blood cell count, preventing adequate oxygen transport throughout the body."
     },
     {
       "name": "Vomiting, Diarrhea, and Abdominal Pain",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Delayed (Can appear several days later along with other symptoms,",
-      "notes": "The plant compounds irritate the gastrointestinal mucosa. While vomiting can be an early sign of irritation, it is often listed alongside the delayed systemic effects of poisoning.Discolored Mucous Membranes"
+      "notes": "The plant compounds irritate the gastrointestinal mucosa. While vomiting can be an early sign of irritation, it is often listed alongside the delayed systemic effects of poisoning."
     },
     {
       "name": "Pale, White, or Yellow (Jaundiced) Gums/Skin",
       "body_system": "Hematological",
       "severity": "severe",
       "onset": "Delayed (Several days).",
-      "notes": "Pale or white gums indicate severe anemia and blood loss. Yellow mucous membranes (jaundice) occur due to the breakdown of red blood cells releasing bilirubin into the system.Dark or Discolored Urine"
+      "notes": "Pale or white gums indicate severe anemia and blood loss. Yellow mucous membranes (jaundice) occur due to the breakdown of red blood cells releasing bilirubin into the system."
     },
     {
       "name": "Hemoglobinuria (Red to Brown Urine)",
       "body_system": "Renal",
       "severity": "severe",
       "onset": "Delayed.",
-      "notes": "The urine turns dark red or brown due to the presence of hemoglobin filtered from the destroyed red blood cells.General Weakness and Collapse"
+      "notes": "The urine turns dark red or brown due to the presence of hemoglobin filtered from the destroyed red blood cells."
     },
     {
       "name": "Lethargy, Weakness, Stumbling (Ataxia), and Collapse",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Delayed (Several days).",
-      "notes": "The cat may appear uncoordinated, tired, or unable to stand due to the lack of oxygen reaching the muscles and brain. Cats may also seek out warm spaces.Respiratory Distress"
+      "notes": "The cat may appear uncoordinated, tired, or unable to stand due to the lack of oxygen reaching the muscles and brain. Cats may also seek out warm spaces."
     },
     {
       "name": "Tachypnea (Rapid Breathing) or Difficulty Breathing",
       "body_system": "Respiratory",
       "severity": "severe",
       "onset": "Delayed (Several days).",
-      "notes": "The cat breathes rapidly in an attempt to compensate for the decreased oxygen-carrying capacity of the blood.Tachycardia"
+      "notes": "The cat breathes rapidly in an attempt to compensate for the decreased oxygen-carrying capacity of the blood."
     },
     {
       "name": "Rapid Heartbeat (Tachycardia)",
@@ -73,13 +73,13 @@
     {
       "name": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
       "description": "If the ingestion is recent, the veterinarian will administer medication to induce vomiting and remove the garlic from the stomach. This is typically followed by activated charcoal to bind any remaining toxins in the gastrointestinal tract and prevent them from entering the bloodstream.",
-      "notes": "Owners should not attempt to induce vomiting at home (e.g., using hydrogen peroxide), as this can cause severe injury to the cat's stomach and throat. Professional induction is safer and more effective.Supportive Fluid Therapy",
+      "notes": "Owners should not attempt to induce vomiting at home (e.g., using hydrogen peroxide), as this can cause severe injury to the cat's stomach and throat. Professional induction is safer and more effective.",
       "priority": 1
     },
     {
       "name": "Intravenous (IV) Fluid Therapy",
       "description": "IV fluids are administered to maintain hydration and support organ function. This is particularly important to flush the kidneys, as the destruction of red blood cells releases hemoglobin (hemoglobinuria), which can darken the urine and potentially damage the kidneys.",
-      "notes": "Fluids also help manage the immediate gastrointestinal symptoms like vomiting and diarrhea often associated with plant poisoning.Hematological Monitoring and Oxygen Support",
+      "notes": "Fluids also help manage the immediate gastrointestinal symptoms like vomiting and diarrhea often associated with plant poisoning.",
       "priority": 2
     },
     {

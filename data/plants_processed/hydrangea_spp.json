@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ Concentration: The toxins are found in all parts of the plant, but the flowers and leaves contain the highest concentrations and pose the greatest risk6. ◦ Potency: While the mechanism is potentially lethal (cyanide poisoning), severe cyanide toxicity in small animals like cats is uncommon and typically requires the ingestion of large amounts37. In most household cases, ingestion results in gast",
-      "description": "in cats: ◦ Cellular Hypoxia: When the plant parts (leaves, flowers, or buds) are chewed or digested, the cyanogenic glycosides are broken down by enzymes to release cyanide. Cyanide binds to ferric iron (Fe 3+ ) in the enzyme cytochrome c oxidase within the mitochondria35. ◦ Inhibition of Respiration: This binding blocks the electron transport chain, effectively preventing cells from using oxygen ",
+      "concentration_notes": "◦ Concentration: The toxins are found in all parts of the plant, but the flowers and leaves contain the highest concentrations and pose the greatest risk6. ◦ Potency: While the mechanism is potentially lethal (cyanide poisoning), severe cyanide toxicity in small animals like cats is uncommon and typically requires the ingestion of large amounts.",
+      "description": "◦ Cellular Hypoxia: When the plant parts (leaves, flowers, or buds) are chewed or digested, the cyanogenic glycosides are broken down by enzymes to release cyanide. Cyanide binds to ferric iron (Fe 3+ ) in the enzyme cytochrome c oxidase within the mitochondria35. ◦ Inhibition of Respiration: This binding blocks the electron transport chain, effectively preventing cells from using oxygen.",
       "name": "Cyanogenic Glycosides (specifically, the plant contains compounds that can metabolize into cyanide)"
     }
   ],
-  "description": "Hydrangea (Hydrangea spp.) is a popular flowering shrub toxic to cats. It contains cyanogenic glycosides — including hydrangin — primarily in the flower buds and leaves. When metabolised, these compounds release hydrogen cyanide (HCN), although the concentration is typically low enough that serious toxicity requires ingestion of substantial amounts. The plant also contains saponins that contribute to gastrointestinal irritation.",
+  "description": "Hydrangea (Hydrangea spp.) is a popular flowering shrub that is toxic to cats. The leaves and flower buds are the main parts of concern, especially if a cat chews or eats them.\n\nHydrangeas contain cyanogenic glycosides, including hydrangin. When these compounds are broken down, they can release small amounts of hydrogen cyanide. In most household cases, the bigger problem is stomach irritation, but large exposures can be more serious.\n\nA cat that eats hydrangea may vomit, have diarrhea, drool, or seem tired. Keep hydrangeas out of reach and clean up fallen leaves or flowers. Call a veterinarian if your cat eats the plant, symptoms repeat, or your cat seems weak or unusually sleepy.",
   "emergencyNote": "Induction of Emesis (Vomiting) and Activated Charcoal",
   "family": "Hydrangeaceae",
   "isToxic": true,
@@ -27,21 +27,21 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting",
-      "notes": "This is one of the most frequently reported symptoms. It occurs as the body attempts to expel the irritating plant material and toxins.Diarrhea",
+      "notes": "This is one of the most frequently reported symptoms. It occurs as the body attempts to expel the irritating plant material and toxins.",
       "onset": "Acute (Clinical signs typically appear quickly, potentially within hours).",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Diarrhea",
-      "notes": "Often accompanies vomiting. The toxins irritate the lining of the gastrointestinal tract.Lethargy and Depression",
+      "notes": "Often accompanies vomiting. The toxins irritate the lining of the gastrointestinal tract.",
       "onset": "Acute.",
       "severity": "moderate"
     },
     {
       "body_system": "Neurological",
       "name": "Lethargy / Depression / Exhaustion",
-      "notes": "Cats may appear unusually tired, weak, or unresponsive. General \"depression\" is a common clinical sign noted by veterinary sources.Abdominal Pain",
+      "notes": "Cats may appear unusually tired, weak, or unresponsive. General \"depression\" is a common clinical sign noted by veterinary sources.",
       "onset": "Acute.",
       "severity": "moderate"
     },
@@ -55,7 +55,7 @@
     {
       "body_system": "Respiratory",
       "name": "Respiratory Distress (Dyspnea), Rapid Breathing (Tachypnea), or Seizures",
-      "notes": "Because Hydrangeas contain cyanogenic glycosides, large ingestions can theoretically lead to cyanide poisoning. Symptoms of this include almond-flavored breath, brick-red mucous membranes (gums), tremors, and collapse. However, severe cyanide toxicity from Hydrangea is uncommon in small animals comp",
+      "notes": "Because Hydrangeas contain cyanogenic glycosides, large ingestions can theoretically lead to cyanide poisoning. Symptoms of this include almond-flavored breath, brick-red mucous membranes (gums), tremors, and collapse.",
       "onset": "Very Rapid (10–60 minutes after ingestion).",
       "severity": "fatal"
     }
@@ -70,7 +70,7 @@
     {
       "description": "If the ingestion was recent (typically within 1–2 hours), the veterinarian will administer medication to induce vomiting to expel the plant material. This is often followed by the administration of activated charcoal, which helps bind any remaining toxins in the stomach to prevent absorption into the bloodstream.",
       "name": "Induction of Emesis (Vomiting) and Activated Charcoal",
-      "notes": "Early intervention is crucial for the best chance of a full recovery. You should not attempt to induce vomiting at home without veterinary guidance, as improper methods can cause further injury.Symptomatic and Supportive Care",
+      "notes": "Early intervention is crucial for the best chance of a full recovery. You should not attempt to induce vomiting at home without veterinary guidance, as improper methods can cause further injury.",
       "priority": 1
     },
     {

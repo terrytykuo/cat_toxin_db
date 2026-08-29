@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "Fresh spearmint leaves have a relatively low toxicity; a small nibble or taste typically only causes mild stomach upset3.... However, the toxicity is dose-dependent—ingesting large amounts of the plant can lead to liver damage3. Furthermore, concentrated forms, such as extracted mint essential oils, are highly toxic and far more dangerous, where even a very small amount or indirect exposure can ca",
-      "description": "in cats: Cats lack certain specific liver enzymes required to effectively metabolize and process these plant oils1. Because they cannot break down the compounds, ingestion leads to gastrointestinal irritation (resulting in vomiting or diarrhea)14. In severe cases, the inability to process these toxins can stress the liver, potentially leading to liver damage or failure, and inhaling the strong aro",
+      "concentration_notes": "Fresh spearmint leaves have a relatively low toxicity; a small nibble or taste typically only causes mild stomach upset3. However, the toxicity is dose-dependent—ingesting large amounts of the plant can lead to liver damage.",
+      "description": "Cats lack certain specific liver enzymes required to effectively metabolize and process these plant oils1. Because they cannot break down the compounds, ingestion leads to gastrointestinal irritation (resulting in vomiting or diarrhea).",
       "name": "Mint essential oils (which include various volatile plant oils)"
     }
   ],
-  "description": "Spearmint (Mentha spicata) is mildly toxic to cats, sharing the same toxicity profile as other Mentha species. It contains carvone and related monoterpenoid compounds that cats cannot efficiently metabolise due to limited hepatic enzyme activity. While fresh leaf nibbling rarely causes serious harm, essential oil forms are significantly more concentrated and dangerous.",
+  "description": "Spearmint (Mentha spicata) is a common garden herb. While chewing on a small amount of the fresh plant is unlikely to cause serious harm, it can lead to an upset stomach. The plant contains oils that are difficult for a cat's liver to process, which may cause vomiting or diarrhea.\n\nThe real danger comes from spearmint essential oil, which is a highly concentrated form. Essential oils are much more potent than the plant itself and are toxic to cats. Exposure to the oil, whether by skin contact or ingestion, can lead to more severe symptoms, including potential liver stress if the exposure is significant or repeated.\n\nIf your cat nibbles on a fresh spearmint leaf, they will likely only have mild digestive upset. However, keep all essential oils away from cats. If your cat eats a large amount of the plant or shows ongoing symptoms like vomiting or lethargy, it's best to contact your veterinarian.",
   "emergencyNote": "Gastrointestinal Decontamination (Emesis, Gastric Lavage, and/or Activated Charcoal)",
   "family": "Lamiaceae",
   "isToxic": true,
@@ -27,37 +27,37 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Nausea, vomiting, diarrhea, and general upset stomach",
-      "notes": "This is the most common reaction to nibbling fresh spearmint leaves12. The essential oils specific to garden mints have been known to relax the esophageal valve, which makes vomiting more likely to occur3. 2. Hypersalivation and Oral Discomfort",
+      "notes": "This is the most common reaction to nibbling fresh spearmint leaves12. The essential oils specific to garden mints have been known to relax the esophageal valve, which makes vomiting more likely to occur.",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Excessive drooling (hypersalivation) and difficulty swallowing",
-      "notes": "Cats may drool or foam at the mouth after tasting the plant or being exposed to its essential oils45. 3. Neurological Abnormalities and Depression",
+      "notes": "Cats may drool or foam at the mouth after tasting the plant or being exposed to its essential oils.",
       "severity": "mild"
     },
     {
       "body_system": "Neurological",
       "name": "Lethargy, weakness, uncoordinated gait (ataxia), tremors, and seizures",
-      "notes": "While mild lethargy and weakness can occur from plant ingestion67, severe neurological signs like tremors, seizures, and severe lack of coordination are typically the result of exposure to concentrated spearmint essential oils4.... 4. Hepatotoxicity (Liver Damage)",
+      "notes": "While mild lethargy and weakness can occur from plant ingestion67, severe neurological signs like tremors, seizures, and severe lack of coordination are typically the result of exposure to concentrated spearmint essential oils.",
       "severity": "severe"
     },
     {
       "body_system": "Hepatic",
       "name": "Liver damage or liver failure",
-      "notes": "Because cats lack the specific liver enzymes required to effectively process and metabolize plant essential oils, ingesting large amounts of spearmint leaves or even small amounts of spearmint essential oil can overwhelm and damage their liver2.... 5. Respiratory Distress",
+      "notes": "Because cats lack the specific liver enzymes required to effectively process and metabolize plant essential oils, ingesting large amounts of spearmint leaves or even small amounts of spearmint essential oil can overwhelm and damage their liver.",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Difficulty breathing, coughing, and sneezing",
-      "notes": "These symptoms can be triggered by ingesting the toxic oils or simply by inhaling the strong, cool aromas of the mint plant and diffused spearmint oils, which irritate the feline respiratory tract7.... 6. Skin and Mucous Membrane Irritation",
+      "notes": "These symptoms can be triggered by ingesting the toxic oils or simply by inhaling the strong, cool aromas of the mint plant and diffused spearmint oils, which irritate the feline respiratory tract.",
       "severity": "severe"
     },
     {
       "body_system": "Dermal",
       "name": "Skin irritation, redness, or burns on the lips, gums, tongue, or skin",
-      "notes": "Direct physical contact with the mint plant or its concentrated essential oils can cause dermal irritation or burns, especially in hypersensitive cats",
+      "notes": "Direct physical contact with the mint plant or its concentrated essential oils can cause dermal irritation or burns, especially in hypersensitive cats.",
       "severity": "moderate"
     }
   ],
@@ -68,21 +68,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "The veterinarian may medically induce vomiting to remove the plant material from the stomach before it can be fully digested12. In more extreme cases, a gastric lavage (stomach pump) may be used, and activated charcoal may be administered to bind any remaining toxins and prevent them from being absorbed into the cat's system",
+      "description": "The veterinarian may medically induce vomiting to remove the plant material from the stomach before it can be fully digested12. In more extreme cases, a gastric lavage (stomach pump) may be used, and activated charcoal may be administered to bind any remaining toxins and prevent them from being absorbed into the cat's system.",
       "name": "Gastrointestinal Decontamination (Emesis, Gastric Lavage, and/or Activated Charcoal)",
-      "notes": "You should never attempt to induce vomiting at home unless specifically instructed to do so by a veterinary professional, as doing it incorrectly can cause the cat more harm2. 2. Fluid Therapy and Stabilization",
+      "notes": "You should never attempt to induce vomiting at home unless specifically instructed to do so by a veterinary professional, as doing it incorrectly can cause the cat more harm.",
       "priority": 1
     },
     {
-      "description": "The cat is admitted to the hospital and administered IV fluids to stabilize their condition, restore hydration, and help flush toxins from the body",
+      "description": "The cat is admitted to the hospital and administered IV fluids to stabilize their condition, restore hydration, and help flush toxins from the body.",
       "name": "Intravenous (IV) Fluid Therapy and Hospitalization",
-      "notes": "This treatment is particularly necessary if the cat's gastrointestinal distress—specifically excessive vomiting or diarrhea—has caused them to become severely dehydrated1. 3. Symptomatic and Supportive Medications",
+      "notes": "This treatment is particularly necessary if the cat's gastrointestinal distress—specifically excessive vomiting or diarrhea—has caused them to become severely dehydrated.",
       "priority": 2
     },
     {
-      "description": "To keep the cat as comfortable as possible during the episode, the vet may administer medications such as anti-nausea injections (anti-emetics) and antacids or gastric protectants",
+      "description": "To keep the cat as comfortable as possible during the episode, the vet may administer medications such as anti-nausea injections (anti-emetics) and antacids or gastric protectants.",
       "name": "Symptomatic Medical Management (Anti-nausea and Gastric Protectants)",
-      "notes": "Most cats make a full recovery from mint plant ingestion3. However, cats with pre-existing liver, intestine, or bowel diseases are at a heightened risk for complications4. If the cat ingested highly concentrated mint essential oils or massive amounts of the plant, more intensive ongoing treatment ma",
+      "notes": "Most cats make a full recovery from mint plant ingestion3. However, cats with pre-existing liver, intestine, or bowel diseases are at a heightened risk for complications.",
       "priority": 3
     }
   ]

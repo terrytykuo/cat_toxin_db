@@ -28,7 +28,7 @@
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Acute (shortly after chewing/ingesting).",
-      "notes": "Saponins and resins in the leaves cause oral and mucosal irritation, leading to increased saliva production.Depression and Weakness"
+      "notes": "Saponins and resins in the leaves cause oral and mucosal irritation, leading to increased saliva production."
     },
     {
       "name": "Depression, Lethargy, Weakness, or Incoordination (Ataxia)",
@@ -42,20 +42,20 @@
     {
       "name": "Steroidal Saponins (also referred to as steroidal glycosides)",
       "chemical_formula": "Not explicitly provided in the sources.",
-      "description": "in cats: ◦ Gastrointestinal Irritation: These compounds irritate the gastrointestinal tract, leading to drooling, vomiting (occasionally with blood), and diarrhea2.... ◦ Neurological/Ocular Effect: In cats specifically, these toxins can cause dilated pupils (mydriasis), which is a distinctive sign of Dracaena poisoning alongside depression and weakness1.... 4. Notes on",
-      "concentration_notes": "◦ Severity: The toxicity is generally classified as mild to moderate1.... ◦ Location: Found in all parts of the plant, including leaves and stalks"
+      "description": "◦ Gastrointestinal Irritation: These compounds irritate the gastrointestinal tract, leading to drooling, vomiting (occasionally with blood), and diarrhea2. ◦ Neurological/Ocular Effect: In cats specifically, these toxins can cause dilated pupils (mydriasis), which is a distinctive sign of Dracaena poisoning alongside depression and weakness.",
+      "concentration_notes": "◦ Severity: The toxicity is generally classified as mild to moderate1. ◦ Location: Found in all parts of the plant, including leaves and stalks."
     },
     {
       "name": "Alkaloids (specific types not named in the text)",
       "chemical_formula": "Not explicitly provided in the sources.",
-      "description": "in cats: ◦ These compounds contribute to the plant's ability to cause significant gastrointestinal irritation, manifesting as vomiting and severe diarrhea4. 4. Notes on",
-      "concentration_notes": "◦ Location: Specifically noted to be found in the leaves"
+      "description": "◦ These compounds contribute to the plant's ability to cause significant gastrointestinal irritation, manifesting as vomiting and severe diarrhea.",
+      "concentration_notes": "◦ Location: Specifically noted to be found in the leaves."
     },
     {
       "name": "Resin",
       "chemical_formula": "Not explicitly provided in the sources.",
-      "description": "in cats: ◦ Works in conjunction with alkaloids and saponins to cause gastrointestinal irritation4. 4. Notes on",
-      "concentration_notes": "◦ Location: Found in the leaves"
+      "description": "◦ Works in conjunction with alkaloids and saponins to cause gastrointestinal irritation.",
+      "concentration_notes": "◦ Location: Found in the leaves."
     }
   ],
   "treatments": [

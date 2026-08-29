@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "The danger of peppermint is heavily dependent on its concentration. The raw plant (fresh peppermint leaves) is generally considered mildly toxic; a cat would usually need to ingest a large quantity to experience more than mild stomach upset5.... However, concentrated forms such as peppermint essential oil are extremely toxic and highly potent911. Exposure to concentrated peppermint oil—whether ing",
-      "description": "in cats: Cats lack the specific liver enzymes required to effectively break down and metabolize these volatile organic compounds34. Because the cat's body cannot process them, the oils act as a direct gastrointestinal irritant and can relax the esophageal valve, making vomiting likely56. If absorbed systemically, the toxins overwhelm the liver and central nervous system, which can cause liver dama",
+      "concentration_notes": "The danger of peppermint is heavily dependent on its concentration. The raw plant (fresh peppermint leaves) is generally considered mildly toxic; a cat would usually need to ingest a large quantity to experience more than mild stomach upset5. However, concentrated forms such as peppermint essential oil are extremely toxic and highly potent911.",
+      "description": "Cats lack the specific liver enzymes required to effectively break down and metabolize these volatile organic compounds34. Because the cat's body cannot process them, the oils act as a direct gastrointestinal irritant and can relax the esophageal valve, making vomiting likely.",
       "name": "Essential oils, specifically identified as menthol and pulegone"
     }
   ],
-  "description": "Peppermint (Mentha x piperita) is mildly toxic to cats. The plant is rich in menthol and pulegone — monoterpenoid compounds that cats cannot efficiently metabolise due to limited hepatic glucuronidase activity. While fresh plant nibbling usually causes only mild GI upset, peppermint essential oil is significantly more concentrated and far more dangerous.",
+  "description": "Peppermint (Mentha × piperita) is a common garden herb that is mildly toxic to cats. While humans love its refreshing scent, cats lack the specific liver enzymes (proteins that help break down substances) needed to process the oils found in the plant.\n\nThe fresh leaves are usually less dangerous, often only causing a mild upset stomach if a cat nibbles on them. However, peppermint essential oil is much more concentrated and can be very harmful. If a cat eats a lot of the plant or touches the concentrated oil, it can cause vomiting, diarrhea, drooling, or even trouble walking.\n\nNever apply peppermint oil to your cat's skin, as it absorbs quickly and can cause chemical burns or liver stress. If your cat eats a large amount of peppermint or shows signs of weakness or tremors, please contact a veterinarian.",
   "emergencyNote": "Emesis Induction (Inducing Vomiting), Gastric Lavage (Stomach Pump), and Activated Charcoal",
   "family": "Lamiaceae",
   "isToxic": true,
@@ -27,31 +27,31 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, diarrhea, nausea, excessive drooling (hypersalivation), difficulty swallowing, and loss of appetite",
-      "notes": "The essential oils found in peppermint and garden mint can relax the esophageal valve, which makes vomiting more likely4. While a small nibble of the raw plant may only cause mild stomach upset, exposure to concentrated peppermint oil is highly toxic35. Neurological Impairment",
+      "notes": "The essential oils found in peppermint and garden mint can relax the esophageal valve, which makes vomiting more likely4. While a small nibble of the raw plant may only cause mild stomach upset, exposure to concentrated peppermint oil is highly toxic.",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Lethargy, weakness, uncoordinated gait (walking as if drunk/ataxia), muscle tremors, and seizures",
-      "notes": "Severe neurological symptoms are typically associated with exposure to large quantities of the plant or concentrated peppermint essential oils3.... Respiratory Distress",
+      "notes": "Severe neurological symptoms are typically associated with exposure to large quantities of the plant or concentrated peppermint essential oils.",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Difficulty breathing, breathing with the mouth open, coughing, and sneezing",
-      "notes": "Respiratory irritation can occur from ingesting or inhaling strong peppermint essential oils, such as those aerosolized by indoor diffusers1112. Liver Damage",
+      "notes": "Respiratory irritation can occur from ingesting or inhaling strong peppermint essential oils, such as those aerosolized by indoor diffusers.",
       "severity": "severe"
     },
     {
       "body_system": "Hepatic",
       "name": "Liver damage progressing to liver failure",
-      "notes": "Cats lack the specific liver enzymes required to safely process and break down plant essential oils like menthol and pulegone found in peppermint, leading to toxic buildup and organ stress1314. Skin and Mucous Membrane Irritation",
+      "notes": "Cats lack the specific liver enzymes required to safely process and break down plant essential oils like menthol and pulegone found in peppermint, leading to toxic buildup and organ stress.",
       "severity": "severe"
     },
     {
       "body_system": "Dermal",
       "name": "Skin irritation, redness, or chemical burns on the skin, lips, gums, and tongue",
-      "notes": "This occurs upon direct contact with peppermint essential oils. Furthermore, if the oil gets on the cat's fur, there is a high risk they will lick it off and ingest it during normal grooming",
+      "notes": "This occurs upon direct contact with peppermint essential oils. Furthermore, if the oil gets on the cat's fur, there is a high risk they will lick it off and ingest it during normal grooming.",
       "severity": "severe"
     }
   ],
@@ -61,21 +61,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "To prevent the toxic plant material or essential oils from being fully digested and absorbed into the bloodstream, the veterinarian may medically induce vomiting (sometimes using clinical-grade hydrogen peroxide) or perform a gastric lavage to pump the stomach contents12. Following this, the vet may administer activated charcoal to bind and neutralize any remaining toxins",
+      "description": "To prevent the toxic plant material or essential oils from being fully digested and absorbed into the bloodstream, the veterinarian may medically induce vomiting (sometimes using clinical-grade hydrogen peroxide) or perform a gastric lavage to pump the stomach contents12. Following this, the vet may administer activated charcoal to bind and neutralize any remaining toxins.",
       "name": "Emesis Induction (Inducing Vomiting), Gastric Lavage (Stomach Pump), and Activated Charcoal",
-      "notes": "You should never attempt to induce vomiting at home unless explicitly instructed by a veterinarian, as doing it incorrectly can cause further harm3. This urgent decontamination is especially critical in extreme cases, such as the ingestion of highly concentrated peppermint essential oils12. 2. Intra",
+      "notes": "You should never attempt to induce vomiting at home unless explicitly instructed by a veterinarian, as doing it incorrectly can cause further harm3. This urgent decontamination is especially critical in extreme cases, such as the ingestion of highly concentrated peppermint essential oils.",
       "priority": 1
     },
     {
-      "description": "The veterinarian will administer IV fluids to stabilize the cat, correct any dehydration caused by excessive vomiting or diarrhea, and help the body flush out the circulating toxins",
+      "description": "The veterinarian will administer IV fluids to stabilize the cat, correct any dehydration caused by excessive vomiting or diarrhea, and help the body flush out the circulating toxins.",
       "name": "Intravenous (IV) Fluid Therapy and Hospitalization",
-      "notes": "In severe cases of mint poisoning, the cat will need to be hospitalized for continuous monitoring and ongoing fluid administration while they weather the episode of illness12. 3. Symptomatic Supportive Medications",
+      "notes": "In severe cases of mint poisoning, the cat will need to be hospitalized for continuous monitoring and ongoing fluid administration while they weather the episode of illness.",
       "priority": 2
     },
     {
-      "description": "The vet will administer specific medications to manage the cat's clinical symptoms and keep them as comfortable as possible. This typically includes anti-nausea injections to control active vomiting and antacids or other gastric protectants to soothe the irritated gastrointestinal tract",
+      "description": "The vet will administer specific medications to manage the cat's clinical symptoms and keep them as comfortable as possible. This typically includes anti-nausea injections to control active vomiting and antacids or other gastric protectants to soothe the irritated gastrointestinal tract.",
       "name": "Anti-nausea Injections and Gastric Protectants",
-      "notes": "Most cases of minor illness caused by eating a small amount of the raw plant are mild and may not require any treatment1. However, if the cat is experiencing significant gastrointestinal distress or has a pre-existing health issue, these supportive medications are utilized to provide relief",
+      "notes": "Most cases of minor illness caused by eating a small amount of the raw plant are mild and may not require any treatment1. However, if the cat is experiencing significant gastrointestinal distress or has a pre-existing health issue, these supportive medications are utilized to provide relief.",
       "priority": 3
     }
   ]

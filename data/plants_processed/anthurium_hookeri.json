@@ -27,7 +27,7 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Rapid (shortly after contact).",
-      "notes": "While usually limited to the mouth, significant swelling in the back of the throat can potentially lead to difficulty breathing (dyspnea), though this is rare.Vomiting"
+      "notes": "While usually limited to the mouth, significant swelling in the back of the throat can potentially lead to difficulty breathing (dyspnea), though this is rare."
     },
     {
       "name": "Vomiting",
@@ -41,7 +41,7 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate to Rapid.",
-      "notes": "The cat may show an inability or reluctance to swallow due to pain and swelling.Pawing at the Mouth"
+      "notes": "The cat may show an inability or reluctance to swallow due to pain and swelling."
     },
     {
       "name": "Pawing at the mouth or face",
@@ -55,14 +55,14 @@
     {
       "name": "Insoluble Calcium Oxalate Crystals (often referred to as raphides)",
       "chemical_formula": null,
-      "description": "in cats: These crystals are needle-like structures bundled within specialized plant cells known as idioblasts. When a cat chews or crushes the plant tissue, these cells rupture, forcefully ejecting the sharp crystals into the soft tissues of the mouth, tongue, and throat12. This causes immediate mechanical trauma (microscopic cuts), leading to intense burning, pain, swelling, and inflammation of t",
-      "concentration_notes": "These crystals are found in all parts of the plant1. The pain caused by the crystals is immediate, which typically limits the amount a cat will ingest, making systemic toxicity rare but local irritation severe"
+      "description": "These crystals are needle-like structures bundled within specialized plant cells known as idioblasts. When a cat chews or crushes the plant tissue, these cells rupture, forcefully ejecting the sharp crystals into the soft tissues of the mouth, tongue, and throat.",
+      "concentration_notes": "These crystals are found in all parts of the plant1. The pain caused by the crystals is immediate, which typically limits the amount a cat will ingest, making systemic toxicity rare but local irritation severe."
     },
     {
       "name": "Proteinaceous Toxins",
       "chemical_formula": "Not provided in the sources.",
-      "description": "in cats: These toxins are present alongside the calcium oxalate crystals. They contribute to the inflammatory response, exacerbating the pain and causing a burning sensation in the oral cavity upon contact or ingestion",
-      "concentration_notes": "The sources note the presence of these toxins specifically in the leaves and stems3. While they enhance the painful reaction, the overall severity is generally considered moderate due to the limiting factor of mouth pain preventing large ingestions"
+      "description": "These toxins are present alongside the calcium oxalate crystals. They contribute to the inflammatory response, exacerbating the pain and causing a burning sensation in the oral cavity upon contact or ingestion.",
+      "concentration_notes": "The sources note the presence of these toxins specifically in the leaves and stems3. While they enhance the painful reaction, the overall severity is generally considered moderate due to the limiting factor of mouth pain preventing large ingestions."
     }
   ],
   "treatments": [

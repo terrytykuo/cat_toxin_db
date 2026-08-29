@@ -8,14 +8,14 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Rapid; typically within 15 minutes to 4 hours of ingestion.",
-      "notes": "Gastrointestinal signs are usually the first to appear. The vomiting can be persistent, and the resulting hemorrhagic gastritis can lead to severe dehydration.Hepatic (Liver) Failure"
+      "notes": "Gastrointestinal signs are usually the first to appear. The vomiting can be persistent, and the resulting hemorrhagic gastritis can lead to severe dehydration."
     },
     {
       "name": "Jaundice (icterus), abdominal swelling (ascites), and liver necrosis",
       "body_system": "Hepatic",
       "severity": "fatal",
       "onset": "Delayed; typically develops within 48–72 hours post-ingestion.",
-      "notes": "The toxin cycasin causes severe liver damage. Hypoglycemia (low blood sugar) may develop secondary to hepatic necrosis, requiring dextrose supplementation.Neurological Abnormalities"
+      "notes": "The toxin cycasin causes severe liver damage. Hypoglycemia (low blood sugar) may develop secondary to hepatic necrosis, requiring dextrose supplementation."
     },
     {
       "name": "Ataxia (wobbly gait), tremors, seizures, depression, and muscular paralysis",
@@ -29,7 +29,7 @@
       "body_system": "Hematological",
       "severity": "severe",
       "onset": "Delayed (associated with the progression of liver failure).",
-      "notes": "As the liver fails, it cannot produce necessary clotting factors, leading to internal and external bleeding issues.General Systemic Failure"
+      "notes": "As the liver fails, it cannot produce necessary clotting factors, leading to internal and external bleeding issues."
     },
     {
       "name": "Lethargy, weakness, and increased thirst (polydipsia)",
@@ -43,27 +43,27 @@
     {
       "name": "Cycasin (a glycoside)",
       "chemical_formula": "Not provided in the sources.",
-      "description": "in cats: ◦ Hepatotoxicity: Cycasin is the primary agent responsible for severe liver damage and liver failure (hepatic necrosis). ◦ Gastrointestinal Effects: It causes severe gastrointestinal irritation, leading to symptoms like vomiting and bloody diarrhea. 4. Notes on",
+      "description": "◦ Hepatotoxicity: Cycasin is the primary agent responsible for severe liver damage and liver failure (hepatic necrosis). ◦ Gastrointestinal Effects: It causes severe gastrointestinal irritation, leading to symptoms like vomiting and bloody diarrhea.",
       "concentration_notes": "◦ Highest in Seeds: While all parts of the plant are toxic (leaves, stems, roots), the seeds contain the highest concentration of cycasin. ◦ Lethal Potential: Ingestion of just one or two seeds can be fatal to a pet. Clinical signs often appear within hours, progressing to liver failure within 1–3 days."
     },
     {
       "name": "Beta-methylamino-L-alanine (often abbreviated as BMAA)",
       "chemical_formula": "Not provided in the sources.",
-      "description": "in cats: ◦ Neurotoxicity: This compound is toxic to the nervous system. It contributes to the central nervous system (CNS) abnormalities observed in poisoning cases, such as weakness, ataxia (wobbly gait), tremors, and seizures. 4. Notes on",
+      "description": "◦ Neurotoxicity: This compound is toxic to the nervous system. It contributes to the central nervous system (CNS) abnormalities observed in poisoning cases, such as weakness, ataxia (wobbly gait), tremors, and seizures.",
       "concentration_notes": "◦ Systemic Effect: Along with cycasin, BMAA makes the entire plant dangerous. The combination of liver failure and neurological damage leads to a high mortality rate if untreated."
     }
   ],
   "treatments": [
     {
       "name": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
-      "description": "If the cat is neurologically stable, the veterinarian will induce vomiting to remove plant material from the stomach. This is followed by the administration of activated charcoal with a cathartic to bind toxins. Because cycad toxins undergo \"enterohepatic recirculation\" (where toxins are reabsorbed from the intestine back into the liver), two additional doses of activated charcoal are typically gi",
+      "description": "If the cat is neurologically stable, the veterinarian will induce vomiting to remove plant material from the stomach. This is followed by the administration of activated charcoal with a cathartic to bind toxins.",
       "notes": "Decontamination is critical because even small amounts (like 1–2 seeds) can be fatal. Emesis should only be induced if the cat is not showing signs of aspiration risk or severe neurological impairment.Hepatoprotective Therapy (Liver Support)",
       "priority": 1
     },
     {
       "name": "Administration of S-adenosylmethionine (SAMe) and N-acetylcysteine (NAC)",
       "description": "The veterinarian will administer these specific hepatoprotectants (liver defense drugs) to support liver function and aid in repair. SAMe serves as an antioxidant and methyl donor, while NAC replenishes glutathione reserves essential for detoxification.",
-      "notes": "This is necessary to combat hepatic necrosis (liver tissue death), which is a primary cause of fatality in cycad poisoning. Long-term care may be required depending on the severity of liver damage.Intravenous (IV) Fluid and Dextrose Therapy",
+      "notes": "This is necessary to combat hepatic necrosis (liver tissue death), which is a primary cause of fatality in cycad poisoning. Long-term care may be required depending on the severity of liver damage.",
       "priority": 2
     },
     {

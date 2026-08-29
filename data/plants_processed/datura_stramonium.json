@@ -15,7 +15,7 @@
       "name": "Clinical Signs and Toxicity"
     }
   ],
-  "description": "Jimson Weed (Datura stramonium), also called Thorn Apple or Devil's Trumpet, is an extremely toxic plant for cats. Every part — leaves, seeds, flowers, and stems — contains potent tropane alkaloids: atropine, scopolamine, and hyoscyamine. These anticholinergic compounds block the parasympathetic nervous system, causing life-threatening systemic effects even from small exposures.",
+  "description": "Jimson Weed (Datura stramonium), also called thorn apple or devil’s trumpet, is extremely toxic to cats. Every part of the plant can be dangerous, including the leaves, seeds, flowers, and stems.\n\nThe plant contains tropane alkaloids such as atropine, scopolamine, and hyoscyamine. These chemicals block normal nerve signals in the body. Even a small exposure can affect the heart, brain, eyes, gut, and body temperature.\n\nSigns can include wide pupils, drooling or dry mouth, vomiting, fast heartbeat, agitation, weakness, tremors, seizures, or collapse. This is an emergency. If your cat chews or eats any part of Jimson weed, contact a veterinarian or emergency clinic immediately.",
   "emergencyNote": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
   "family": "Solanaceae",
   "isToxic": true,
@@ -33,13 +33,13 @@
     {
       "body_system": "Respiratory",
       "name": "Rapid Breathing (Tachypnea)",
-      "notes": "This is often one of the immediate physiological responses to the toxicity listed alongside cardiac issues.Dilated Pupils",
+      "notes": "This is often one of the immediate physiological responses to the toxicity listed alongside cardiac issues.",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Dilated Pupils (Mydriasis)",
-      "notes": "This sign indicates the toxin's effect on the nervous system, typically associated with the plant's alkaloid properties (though the specific alkaloids are not named in this source text).Rapid Pulse",
+      "notes": "This sign indicates the toxin's effect on the nervous system, typically associated with the plant's alkaloid properties (though the specific alkaloids are not named in this source text).",
       "severity": "severe"
     },
     {
@@ -51,7 +51,7 @@
     {
       "body_system": "Neurological",
       "name": "Twitching and Convulsions",
-      "notes": "Neurological signs can escalate from muscle twitching to full convulsions. Without intervention, this can progress to coma and death.Gastrointestinal Upset",
+      "notes": "Neurological signs can escalate from muscle twitching to full convulsions. Without intervention, this can progress to coma and death.",
       "severity": "fatal"
     },
     {
@@ -69,13 +69,13 @@
     {
       "description": "Upon arrival at the clinic, if the ingestion is recent, the veterinarian may administer medication to make the cat vomit, removing the plant material from the stomach. This is often followed by the administration of activated charcoal, which binds to the toxins in the digestive tract to prevent them from being absorbed into the bloodstream.",
       "name": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
-      "notes": "◦ Do not attempt to induce vomiting at home without specific instructions from a veterinarian, as this can cause complications. ◦ Ingesting any part of the Jimson Weed plant is considered toxic.Symptomatic Care and Monitoring",
+      "notes": "◦ Do not attempt to induce vomiting at home without specific instructions from a veterinarian, as this can cause complications. ◦ Ingesting any part of the Jimson Weed plant is considered toxic.",
       "priority": 1
     },
     {
       "description": "The veterinary team will monitor the cat's heart rate, respiratory rate, and neurological status. Supportive care may include intravenous (IV) fluids to maintain hydration, support blood pressure, and help flush toxins from the body.",
       "name": "Vital Sign Monitoring and Supportive Care",
-      "notes": "Jimson Weed ingestion causes specific symptoms that require close observation, including rapid pulse (tachycardia), rapid breathing, dilated pupils, and diarrhea.Management of Neurological and Respiratory Signs",
+      "notes": "Jimson Weed ingestion causes specific symptoms that require close observation, including rapid pulse (tachycardia), rapid breathing, dilated pupils, and diarrhea.",
       "priority": 2
     },
     {

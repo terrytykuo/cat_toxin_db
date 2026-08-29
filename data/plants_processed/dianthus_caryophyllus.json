@@ -9,7 +9,7 @@
     {
       "name": "The sources do not identify the specific toxic principle. Carnations are grouped with \"pom flowers,\" which are noted to contain unidentified substance",
       "chemical_formula": "Not provided in the sources.",
-      "description": "in cats: ◦ Gastrointestinal Irritation: Ingestion of the flowers or plant parts typically causes mild gastrointestinal upset, manifesting as vomiting and diarrhea. ◦ Dermal Irritation: Exposure to the plant can occasionally cause dermatological symptoms, such as skin irritation or dermatitis. 4. Notes on",
+      "description": "◦ Gastrointestinal Irritation: Ingestion of the flowers or plant parts typically causes mild gastrointestinal upset, manifesting as vomiting and diarrhea. ◦ Dermal Irritation: Exposure to the plant can occasionally cause dermatological symptoms, such as skin irritation or dermatitis.",
       "concentration_notes": "◦ Potency: The toxicity is classified as mild."
     }
   ],
@@ -17,7 +17,7 @@
     {
       "name": "Veterinary Consultation and Triage",
       "description": "Contacting a veterinarian or animal poison control center immediately to assess the severity of the situation based on the amount ingested and the cat's current symptoms.",
-      "notes": "Because Carnations are considered only \"mildly toxic,\" a vet may advise monitoring the cat at home rather than immediate hospitalization, provided the symptoms (vomiting, diarrhea) are not severe. Professional guidance prevents unnecessary stress for the cat while ensuring intervention is available ",
+      "notes": "Because Carnations are considered only \"mildly toxic,\" a vet may advise monitoring the cat at home rather than immediate hospitalization, provided the symptoms (vomiting, diarrhea) are not severe. Professional guidance prevents unnecessary stress for the cat while ensuring intervention is available.",
       "priority": 1
     },
     {
@@ -50,13 +50,13 @@
     "Flowers and leaves: All parts of the plant are mildly toxic; symptoms are typically self-limiting and resolve without treatment.",
     "Action: Monitor the cat after exposure. Contact a vet if vomiting is persistent or severe, or if the cat seems unusually lethargic."
   ],
-  "description": "Carnations (Dianthus caryophyllus) are popular cut flowers and garden plants used in bouquets and floral arrangements worldwide. They are mildly toxic to cats. The plant contains saponins and other mildly irritating compounds whose exact mechanism is not fully characterised, but which cause predictable gastrointestinal symptoms. Because carnations appear so frequently in bouquets and as houseplants, they represent a common — if mild — exposure risk for curious cats.",
+  "description": "Carnations (Dianthus caryophyllus) are popular cut flowers and garden plants used in bouquets and floral arrangements worldwide. They are mildly toxic to cats. The specific toxic compound has not been identified; authorities classify the toxic principle as an unknown irritant whose exact mechanism is not fully characterised, but which causes predictable gastrointestinal symptoms. Because carnations appear so frequently in bouquets and as houseplants, they represent a common — if mild — exposure risk for curious cats.",
   "symptoms": [
     {
       "name": "Vomiting and Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "Carnations are often found in floral arrangements as filler flowers. Ingestion of the plant material triggers these digestive symptoms.Dermatological Irritation"
+      "notes": "Carnations are often found in floral arrangements as filler flowers. Ingestion of the plant material triggers these digestive symptoms."
     },
     {
       "name": "Dermatological symptoms (Skin irritation)",

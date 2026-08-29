@@ -5,19 +5,19 @@
     {
       "chemical_formula": null,
       "concentration_notes": "◦ Found in all parts of the plant. ◦ Ingestion typically causes gastrointestinal upset, but large amounts are required to trigger the more severe cardiac symptoms.",
-      "description": "in cats: ◦ Cellular Inhibition & Cardiac Effect: Lectins are potent cytotoxins that can inhibit protein synthesis within cells. In the context of mistletoe poisoning, they act synergistically with other toxins to depress the cardiovascular system, leading to low blood pressure (hypotension) and a slowed heart rate (bradycardia). 4. Notes on",
+      "description": "◦ Cellular Inhibition & Cardiac Effect: Lectins are potent cytotoxins that can inhibit protein synthesis within cells. In the context of mistletoe poisoning, they act synergistically with other toxins to depress the cardiovascular system, leading to low blood pressure (hypotension) and a slowed heart rate (bradycardia).",
       "name": "Lectins (Toxic Proteins)"
     },
     {
       "chemical_formula": null,
       "concentration_notes": "◦ These toxins are present throughout the plant, including the leaves, stems, and berries. ◦ Some sources indicate the leaves may be more toxic than the berries. ◦ Severe poisoning is uncommon and usually requires the ingestion of a large volume of plant material.",
-      "description": "in cats: ◦ Cardiovascular Depression: Phoratoxins directly affect the heart muscle and smooth muscles of the blood vessels. They cause hypotension (low blood pressure) and bradycardia (dangerously slow heart rate), which can progress to cardiovascular collapse and shock in severe cases. 4. Notes on",
+      "description": "◦ Cardiovascular Depression: Phoratoxins directly affect the heart muscle and smooth muscles of the blood vessels. They cause hypotension (low blood pressure) and bradycardia (dangerously slow heart rate), which can progress to cardiovascular collapse and shock in severe cases.",
       "name": "Phoratoxins (Small, toxic proteins/peptides)"
     },
     {
       "chemical_formula": "Not applicable.",
       "concentration_notes": "◦ Found in all parts of the plant. ◦ Most ingestions result only in mild to moderate gastrointestinal irritation; fatal cardiovascular collapse is rare but possible with significant ingestion.",
-      "description": "in cats: ◦ Gastrointestinal & Systemic Shock: These compounds act as severe irritants to the gastrointestinal tract, causing profuse vomiting and diarrhea. Systemically, they contribute to shock, dilated pupils, and respiratory distress leading to cardiovascular collapse. 4. Notes on",
+      "description": "◦ Gastrointestinal & Systemic Shock: These compounds act as severe irritants to the gastrointestinal tract, causing profuse vomiting and diarrhea. Systemically, they contribute to shock, dilated pupils, and respiratory distress leading to cardiovascular collapse.",
       "name": "Viscotoxins (Toxic proteins) and Amines. ◦ Note: While viscotoxins are classically associated with European Mistletoe"
     }
   ],
@@ -37,28 +37,28 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, Diarrhea (can be profuse), Abdominal Pain, and Drooling (Hypersalivation)",
-      "notes": "Small ingestions (a few leaves or berries) usually result in only mild irritation. Severe, profuse diarrhea is associated with larger toxic doses.Cardiovascular Disturbances",
+      "notes": "Small ingestions (a few leaves or berries) usually result in only mild irritation. Severe, profuse diarrhea is associated with larger toxic doses.",
       "onset": "Within hours of ingestion.",
       "severity": "moderate"
     },
     {
       "body_system": "Cardiac",
       "name": "Bradycardia (Slowed Heart Rate) and Hypotension (Low Blood Pressure)",
-      "notes": "These symptoms occur with larger ingestions. The plant contains phoratoxins and lectins that directly affect the heart, potentially leading to cardiovascular collapse and shock.Respiratory Distress",
+      "notes": "These symptoms occur with larger ingestions. The plant contains phoratoxins and lectins that directly affect the heart, potentially leading to cardiovascular collapse and shock.",
       "onset": "Within hours of ingestion.",
       "severity": "fatal"
     },
     {
       "body_system": "Respiratory",
       "name": "Dyspnea (Rapid, labored breathing)",
-      "notes": "Breathing difficulties are often a precursor to or symptom of shock and cardiovascular collapse.Neurological Abnormalities",
+      "notes": "Breathing difficulties are often a precursor to or symptom of shock and cardiovascular collapse.",
       "onset": "Within hours of ingestion.",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Dilated Pupils (Mydriasis), Seizures, and Odd Behavior/Weakness",
-      "notes": "Weakness is often secondary to low blood pressure. Seizures are a sign of severe toxicity and require immediate intervention.Shock and Collapse",
+      "notes": "Weakness is often secondary to low blood pressure. Seizures are a sign of severe toxicity and require immediate intervention.",
       "onset": "Within hours of ingestion.",
       "severity": "severe"
     },

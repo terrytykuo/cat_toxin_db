@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "The overall toxicity of Milkweed ranges from moderate to severe depending on the amount the cat ingests4. Plants containing cardiac glycosides are considered to be among the most toxic plants and have a very \"narrow margin of safety\"1. All parts of the milkweed plant, including its sap, are considered toxic",
-      "description": "in cats: These toxins directly target the cardiovascular system by inhibiting the Na + /K + -ATPase pump3. This inhibition causes an accumulation of intracellular sodium and extracellular potassium, which subsequently triggers a rise in intracellular calcium3. This cellular disruption forces the cardiac muscle to contract more forcefully but at a slower rate, resulting in severe abnormal heart rat",
+      "concentration_notes": "The overall toxicity of Milkweed ranges from moderate to severe depending on the amount the cat ingests4. Plants containing cardiac glycosides are considered to be among the most toxic plants and have a very \"narrow margin of safety\"1. All parts of the milkweed plant, including its sap, are considered toxic.",
+      "description": "These toxins directly target the cardiovascular system by inhibiting the Na + /K + -ATPase pump3. This inhibition causes an accumulation of intracellular sodium and extracellular potassium, which subsequently triggers a rise in intracellular calcium.",
       "name": "Cardiac glycosides"
     }
   ],
-  "description": "Milkweed (Asclepias spp.) is a toxic plant for cats due to cardenolide cardiac glycosides — potent compounds found throughout the plant, with the highest concentration in the milky latex sap. These compounds act on the heart in a manner similar to Foxglove, disrupting the electrical signals that regulate heartbeat. All parts including dried plant material remain toxic.",
+  "description": "Milkweed (Asclepias spp.) is a highly toxic plant for cats. All parts of the plant, including dried leaves and stems, contain powerful toxins called cardiac glycosides. The highest concentration is found in the plant's milky sap.\n\nThese toxins directly attack the heart by disrupting the normal electrical signals that control heartbeats. This forces the heart muscle to beat harder but at an abnormal rhythm, which can be very dangerous. The sap can also irritate the digestive system.\n\nIf a cat eats milkweed or licks the sap, they may vomit, have diarrhea, or act weak and uncoordinated. More severe signs include difficulty breathing, muscle tremors, and irregular heartbeats. Because heart-related poisoning can worsen very quickly, contact a veterinarian immediately if you suspect your cat has been exposed.",
   "emergencyNote": "Emesis Induction and Activated Charcoal",
   "family": "Apocynaceae",
   "isToxic": true,
@@ -27,35 +27,35 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting and diarrhea",
-      "notes": "These are generally the first visible signs of cardiac glycoside toxicosis before systemic cardiovascular symptoms become apparent12. 2. Cardiovascular Abnormalities",
+      "notes": "These are generally the first visible signs of cardiac glycoside toxicosis before systemic cardiovascular symptoms become apparent.",
       "onset": "Within 2 hours",
       "severity": "severe"
     },
     {
       "body_system": "Cardiac",
       "name": "Abnormal heart rates and rhythms (including bradycardia, tachycardia, and severe arrhythmias)",
-      "notes": "This is the most dangerous effect of the plant's cardiac glycosides, which disrupt the Na+/K+ ATPase pump and alter how the heart muscle contracts. This can also trigger hyperkalemia (dangerously high potassium levels in the blood), which is life-threatening12. 3. Generalized Weakness and Neurologic",
+      "notes": "This is the most dangerous effect of the plant's cardiac glycosides, which disrupt the Na+/K+ ATPase pump and alter how the heart muscle contracts. This can also trigger hyperkalemia (dangerously high potassium levels in the blood), which is life-threatening.",
       "onset": "Within 2 hours",
       "severity": "fatal"
     },
     {
       "body_system": "Neurological",
       "name": "Weakness and unspecified neurological signs",
-      "notes": "These symptoms manifest as the cardiovascular system becomes profoundly depressed and cellular oxygen/energy cycles are disrupted12. 4. Breathing Difficulties",
+      "notes": "These symptoms manifest as the cardiovascular system becomes profoundly depressed and cellular oxygen/energy cycles are disrupted.",
       "onset": "Within 2 hours",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Breathing difficulties (dyspnea)",
-      "notes": "Respiratory distress frequently occurs secondarily as the heart begins to fail and blood pressure drops2. 5. Organ Damage",
+      "notes": "Respiratory distress frequently occurs secondarily as the heart begins to fail and blood pressure drops.",
       "onset": "Within 2 hours (or developing as the condition worsens).",
       "severity": "severe"
     },
     {
       "body_system": "Renal",
       "name": "Organ damage",
-      "notes": "Depending heavily on the amount of milkweed or toxic sap ingested, systemic toxicity can ultimately cause severe damage to the liver or kidneys",
+      "notes": "Depending heavily on the amount of milkweed or toxic sap ingested, systemic toxicity can ultimately cause severe damage to the liver or kidneys.",
       "onset": "Delayed (typically develops as symptoms persist over 4–5 days).",
       "severity": "severe"
     }
@@ -67,27 +67,27 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "If the cat is currently asymptomatic, the veterinarian will induce vomiting (emesis) to quickly remove the plant material from the stomach. Following this, they will administer a dose of activated charcoal with a cathartic to bind to and prevent the absorption of any remaining toxins",
+      "description": "If the cat is currently asymptomatic, the veterinarian will induce vomiting (emesis) to quickly remove the plant material from the stomach. Following this, they will administer a dose of activated charcoal with a cathartic to bind to and prevent the absorption of any remaining toxins.",
       "name": "Emesis Induction and Activated Charcoal",
-      "notes": "Because cardiac glycosides undergo \"enterohepatic recirculation\" (recirculating continuously through the liver and intestines), it is recommended to repeat the administration of activated charcoal (without a cathartic) every 6 to 8 hours for a total of 3 doses2. 2. Antidote Administration",
+      "notes": "Because cardiac glycosides undergo \"enterohepatic recirculation\" (recirculating continuously through the liver and intestines), it is recommended to repeat the administration of activated charcoal (without a cathartic) every 6 to 8 hours for a total of 3 doses.",
       "priority": 1
     },
     {
-      "description": "The veterinarian administers this specific antidote. While primarily designed for digoxin toxicity, these antibody fragments cross-react and work effectively against plant-based cardiac glycosides",
+      "description": "The veterinarian administers this specific antidote. While primarily designed for digoxin toxicity, these antibody fragments cross-react and work effectively against plant-based cardiac glycosides.",
       "name": "Digoxin-specific antibody fragments (Fab)",
-      "notes": "If this specialized antidote is unavailable at the clinic, the veterinarian will have to rely heavily on the pharmacological cardiac controls listed below2. 3. Pharmacological Cardiac Control",
+      "notes": "If this specialized antidote is unavailable at the clinic, the veterinarian will have to rely heavily on the pharmacological cardiac controls listed below.",
       "priority": 2
     },
     {
-      "description": "The vet will administer specific medications to correct the heart's electrical abnormalities. Atropine and glycopyrrolate have been used successfully to correct severe bradycardia (slow heart rate), while antiarrhythmics like lidocaine are used to manage other heart rhythm defects",
+      "description": "The vet will administer specific medications to correct the heart's electrical abnormalities. Atropine and glycopyrrolate have been used successfully to correct severe bradycardia (slow heart rate), while antiarrhythmics like lidocaine are used to manage other heart rhythm defects.",
       "name": "Antiarrhythmic and Heart Rate Medications (Atropine, Glycopyrrolate, Lidocaine)",
-      "notes": "This treatment is primarily utilized to manage cardiovascular symptoms when access to the Digoxin-specific antidote is not available2. 4. Fluid Therapy and Electrolyte Management",
+      "notes": "This treatment is primarily utilized to manage cardiovascular symptoms when access to the Digoxin-specific antidote is not available.",
       "priority": 3
     },
     {
       "description": "The cat is given IV fluids to provide necessary hemodynamic support, while the vet closely monitors their electrolyte levels to watch for hyperkalemia (dangerously high potassium in the blood)",
       "name": "Intravenous (IV) Fluid Therapy and Hyperkalemia Management",
-      "notes": "Mild hyperkalemia can often be treated with IV fluids alone. However, if the hyperkalemia becomes severe (measuring greater than 7.5–9 mEq/L), the vet will need to treat it aggressively using sodium bicarbonate or a dextrose and insulin treatment",
+      "notes": "Mild hyperkalemia can often be treated with IV fluids alone. However, if the hyperkalemia becomes severe (measuring greater than 7.5–9 mEq/L), the vet will need to treat it aggressively using sodium bicarbonate or a dextrose and insulin treatment.",
       "priority": 4
     }
   ]

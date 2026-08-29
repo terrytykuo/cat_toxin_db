@@ -19,56 +19,56 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Usually within 2 to 12 hours of ingestion",
-      "notes": "This is typically one of the earliest signs of chocolate (methylxanthine) poisoning12. Very high levels of artificial sweeteners like xylitol, or general sugar overload, can also trigger general tummy upsets and loose stools"
+      "notes": "This is typically one of the earliest signs of chocolate (methylxanthine) poisoning12. Very high levels of artificial sweeteners like xylitol, or general sugar overload, can also trigger general tummy upsets and loose stools."
     },
     {
       "name": "Agitation, Hyperactivity, and Tremors",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "2 to 12 hours",
-      "notes": "Theobromine and caffeine in chocolate candies block adenosine receptors and inhibit the enzyme phosphodiesterase4. This leads to severe overstimulation of the central nervous system, causing the cat to enter a stage of extreme agitation, restlessness, and muscle tremors"
+      "notes": "Theobromine and caffeine in chocolate candies block adenosine receptors and inhibit the enzyme phosphodiesterase4. This leads to severe overstimulation of the central nervous system, causing the cat to enter a stage of extreme agitation, restlessness, and muscle tremors."
     },
     {
       "name": "Cardiac Arrhythmias and Tachycardia",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "2 to 12 hours (often progressing as toxin levels peak)",
-      "notes": "Methylxanthines from chocolate increase the entry of extracellular calcium into muscle cells, enhancing the strength and frequency of heart contractions4. This can cause life-threatening heart palpitations and cardiac arrhythmias, ultimately leading to cardiac arrest in terminal phases"
+      "notes": "Methylxanthines from chocolate increase the entry of extracellular calcium into muscle cells, enhancing the strength and frequency of heart contractions4. This can cause life-threatening heart palpitations and cardiac arrhythmias, ultimately leading to cardiac arrest in terminal phases."
     },
     {
       "name": "Excessive Thirst and Urination",
       "body_system": "Renal",
       "severity": "moderate",
       "onset": "2 to 12 hours",
-      "notes": "Theobromine acts as a mild diuretic, causing the cat to lose bodily fluids and triggering excessive thirst and urination as the chemical stays in the bloodstream"
+      "notes": "Theobromine acts as a mild diuretic, causing the cat to lose bodily fluids and triggering excessive thirst and urination as the chemical stays in the bloodstream."
     },
     {
       "name": "Severe CNS Depression (Seizures and Coma)",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Progressive (hours after ingestion)",
-      "notes": "In the later stages of methylxanthine toxicosis (from chocolate candies), the severe overstimulation of the nervous system can progress to grand mal seizures, coma, and respiratory failure"
+      "notes": "In the later stages of methylxanthine toxicosis (from chocolate candies), the severe overstimulation of the nervous system can progress to grand mal seizures, coma, and respiratory failure."
     },
     {
       "name": "Transient Salivation",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Shortly after ingestion",
-      "notes": "In experimental studies evaluating the effects of xylitol (found in sugar-free candies and mints) on cats, massive oral doses caused no significant changes in blood sugar or liver parameters, with transient salivation being the only reported clinical sign"
+      "notes": "In experimental studies evaluating the effects of xylitol (found in sugar-free candies and mints) on cats, massive oral doses caused no significant changes in blood sugar or liver parameters, with transient salivation being the only reported clinical sign."
     }
   ],
   "chemicals": [
     {
       "name": "Methylxanthines (Theobromine and Caffeine)",
       "chemical_formula": "C",
-      "description": "in cats: Methylxanthines act primarily by competitively blocking A 1 ​ and A 2 ​ adenosine receptors, which normally serve to calm and inhibit the central nervous system (CNS) and heart25. They also inhibit the enzyme phosphodiesterase (causing an accumulation of cAMP) and increase the entry of extracellular calcium into muscle cells25. Together, these actions cause severe overstimulation of the C",
-      "concentration_notes": "or potency: The toxicity depends heavily on the cocoa content of the candy. Dark, unsweetened, and baker's chocolates have the highest concentrations of theobromine and are the most dangerous, while white chocolate contains insignificant amounts1.... Cats are highly sensitive to these compounds; the lethal dose (LD 50 ​ ) of theobromine for a cat is approximately 200 mg per kilogram of body weight"
+      "description": "Methylxanthines act primarily by competitively blocking A 1 ​ and A 2 ​ adenosine receptors, which normally serve to calm and inhibit the central nervous system (CNS) and heart25. They also inhibit the enzyme phosphodiesterase (causing an accumulation of cAMP) and increase the entry of extracellular calcium into muscle cells.",
+      "concentration_notes": "or potency: The toxicity depends heavily on the cocoa content of the candy. Dark, unsweetened, and baker's chocolates have the highest concentrations of theobromine and are the most dangerous, while white chocolate contains insignificant amounts1. Cats are highly sensitive to these compounds; the lethal dose (LD 50 ​ ) of theobromine for a cat is approximately 200 mg per kilogram of body weight."
     },
     {
       "name": "Xylitol (Artificial Sweetener)",
       "chemical_formula": "C",
-      "description": "in cats: In dogs, xylitol tricks the pancreas into releasing a massive surge of insulin, resulting in severe, life-threatening hypoglycemia (low blood sugar) and acute liver failure12.... In cats, however, this mechanism is highly debated and largely theoretical. Studies indicate that the feline pancreas lacks the specific receptor-mediated pathway that triggers this dangerous insulin release in r",
-      "concentration_notes": "or potency: Xylitol is exquisitely potent in dogs—doses as low as 0.05 to 0.1 grams per kilogram of body weight (often just a single piece of sugar-free gum or candy) can cause severe poisoning1321. By contrast, experimental studies have administered massive doses of up to 1,000 mg/kg to cats without inducing clinical signs of hypoglycemia or changes in liver enzymes18. Despite this apparent resis"
+      "description": "In dogs, xylitol tricks the pancreas into releasing a massive surge of insulin, resulting in severe, life-threatening hypoglycemia (low blood sugar) and acute liver failure12. In cats, however, this mechanism is highly debated and largely theoretical.",
+      "concentration_notes": "or potency: Xylitol is exquisitely potent in dogs—doses as low as 0.05 to 0.1 grams per kilogram of body weight (often just a single piece of sugar-free gum or candy) can cause severe poisoning1321. By contrast, experimental studies have administered massive doses of up to 1,000 mg/kg to cats without inducing clinical signs of hypoglycemia or changes in liver enzymes."
     }
   ],
   "treatments": [
@@ -80,26 +80,26 @@
     },
     {
       "name": "Emergency Stabilization (Neurological and Cardiac Support)",
-      "description": "of the procedure: If the cat has ingested chocolate candies and is already exhibiting severe clinical signs, the veterinary team will immediately stabilize the animal. They will administer medications (such as diazepam or barbiturates) to control hyperactivity, muscle tremors, and seizures, alongside drugs to correct life-threatening rapid or abnormal heart rhythms (tachyarrhythmias)45. Any situat",
-      "notes": "For heart arrhythmias caused by the methylxanthines in chocolate, veterinarians must rely on specific beta-blockers like metoprolol or propranolol. Lidocaine, which is a very common anti-arrhythmic drug used in other species, cannot be safely used in cats",
+      "description": "of the procedure: If the cat has ingested chocolate candies and is already exhibiting severe clinical signs, the veterinary team will immediately stabilize the animal. They will administer medications (such as diazepam or barbiturates) to control hyperactivity, muscle tremors, and seizures, alongside drugs to correct life-threatening rapid or abnormal heart rhythms (tachyarrhythmias).",
+      "notes": "For heart arrhythmias caused by the methylxanthines in chocolate, veterinarians must rely on specific beta-blockers like metoprolol or propranolol. Lidocaine, which is a very common anti-arrhythmic drug used in other species, cannot be safely used in cats.",
       "priority": 2
     },
     {
       "name": "Early Gastrointestinal Decontamination",
-      "description": "of the procedure: If the candy ingestion was very recent (e.g., within 1 hour) and the cat is not yet showing symptoms, the veterinarian will administer a medication to induce vomiting (emesis) to empty the stomach of the candies56. For chocolate ingestion, this is followed by giving the cat activated charcoal by mouth to bind the remaining toxins in the gastrointestinal tract and prevent them fro",
-      "notes": "Because the toxic methylxanthines in chocolate undergo enterohepatic recirculation (meaning they continuously cycle between the liver and intestines), the activated charcoal must be administered repeatedly every 3 hours for up to 72 hours5. Conversely, if the ingested candy was sugar-free, activated",
+      "description": "of the procedure: If the candy ingestion was very recent (e.g., within 1 hour) and the cat is not yet showing symptoms, the veterinarian will administer a medication to induce vomiting (emesis) to empty the stomach of the candies.",
+      "notes": "Because the toxic methylxanthines in chocolate undergo enterohepatic recirculation (meaning they continuously cycle between the liver and intestines), the activated charcoal must be administered repeatedly every 3 hours for up to 72 hours.",
       "priority": 3
     },
     {
       "name": "Fluid Therapy and Excretion Management",
-      "description": "of the procedure: The cat is placed on continuous IV fluids to stabilize cardiovascular function, correct dehydration from vomiting or diarrhea, and hasten the excretion of toxins through the urine45. A urinary catheter is often placed to continually drain the bladder. Any situation-specific",
-      "notes": "Placing a urinary catheter is a highly critical step in treating chocolate toxicity. Methylxanthines and their toxic metabolites can be reabsorbed back into the bloodstream directly across the bladder wall if the cat's urine is allowed to sit in the bladder",
+      "description": "of the procedure: The cat is placed on continuous IV fluids to stabilize cardiovascular function, correct dehydration from vomiting or diarrhea, and hasten the excretion of toxins through the urine45. A urinary catheter is often placed to continually drain the bladder.",
+      "notes": "Placing a urinary catheter is a highly critical step in treating chocolate toxicity. Methylxanthines and their toxic metabolites can be reabsorbed back into the bloodstream directly across the bladder wall if the cat's urine is allowed to sit in the bladder.",
       "priority": 4
     },
     {
       "name": "Hypoglycemia and Hepatic Management (If Xylitol is Suspected)",
-      "description": "of the procedure: If the cat ingested sugar-free candies or mints sweetened with xylitol, they will be admitted as an in-patient for intensive monitoring8. If symptoms of low blood sugar (hypoglycemia) develop, the veterinary team will administer IV fluids containing sugar (dextrose) to stabilize the cat's blood glucose levels, potentially alongside liver protectants78. Any situation-specific",
-      "notes": "While xylitol is exquisitely toxic to dogs (causing massive insulin release, hypoglycemia, and liver failure), cats appear to be naturally resistant to xylitol toxicity and rarely suffer these life-threatening drops in blood sugar910. However, precautionary monitoring and dextrose therapy are still ",
+      "description": "of the procedure: If the cat ingested sugar-free candies or mints sweetened with xylitol, they will be admitted as an in-patient for intensive monitoring8. If symptoms of low blood sugar (hypoglycemia) develop, the veterinary team will administer IV fluids containing sugar (dextrose) to stabilize the cat's blood glucose levels, potentially alongside liver protectants.",
+      "notes": "While xylitol is exquisitely toxic to dogs (causing massive insulin release, hypoglycemia, and liver failure), cats appear to be naturally resistant to xylitol toxicity and rarely suffer these life-threatening drops in blood sugar910.",
       "priority": 5
     }
   ],

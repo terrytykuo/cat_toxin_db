@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": "◦ Location: The toxins are generally housed within the leaves and the seeds of the fruit2. ◦ Bioavailability: If a seed is swallowed whole, the toxin is usually not released, and toxicity is not expected. The plant material must be compromised (chewed or ground) to become toxic2. ◦ Potency: Severe toxicity in small animals is considered uncommon unless large ingestions occur. However, the onset of",
-      "description": "in cats: ◦ Activation: When the plant material (particularly seeds or leaves) is chewed or crushed, the cyanogenic glycosides interact with enzymes to release cyanide. ◦ Cellular Disruption: The released cyanide binds with ferric (Fe 3+ ) iron in the body. ◦ Oxygen Blockage: This binding prevents the release of oxygen for cellular use, effectively halting cellular respiration. ◦ Result: This proce",
+      "concentration_notes": "◦ Location: The toxins are generally housed within the leaves and the seeds of the fruit2. ◦ Bioavailability: If a seed is swallowed whole, the toxin is usually not released, and toxicity is not expected. The plant material must be compromised (chewed or ground) to become toxic2. ◦ Potency: Severe toxicity in small animals is considered uncommon unless large ingestions occur.",
+      "description": "◦ Activation: When the plant material (particularly seeds or leaves) is chewed or crushed, the cyanogenic glycosides interact with enzymes to release cyanide. ◦ Cellular Disruption: The released cyanide binds with ferric (Fe 3+ ) iron in the body. ◦ Oxygen Blockage: This binding prevents the release of oxygen for cellular use, effectively halting cellular respiration.",
       "name": "Cyanogenic glycosides (which are converted into Cyanide upon ingestion)"
     }
   ],
-  "description": "Heavenly Bamboo (Nandina domestica) is a popular ornamental shrub that is toxic to cats despite its misleading name — it is not a true bamboo. All parts contain cyanogenic compounds, with the bright red berries carrying the highest concentration. When metabolised, these compounds release hydrogen cyanide (HCN), which disrupts cellular oxygen utilisation.",
+  "description": "Heavenly Bamboo (Nandina domestica) is an ornamental shrub with red berries. Despite the name, it is not true bamboo, and it is toxic to cats.\n\nThe plant contains cyanogenic compounds, especially in the berries. When these compounds are broken down, they can release hydrogen cyanide, which interferes with the body’s ability to use oxygen. Birds and pets can be attracted to the bright berries.\n\nA cat that eats heavenly bamboo may vomit, have diarrhea, seem weak, breathe faster than normal, or collapse in severe cases. Keep berries and pruned branches away from cats. Call a veterinarian immediately if your cat eats the berries or shows weakness or breathing changes.",
   "emergencyNote": "Oxygen Supplementation and Administration of Cyanide Antidotes (e.g., Hydroxocobalamin or Sodium Nitrite with Sodium Thiosulfate)",
   "family": "Berberidaceae",
   "isToxic": true,
@@ -27,35 +27,35 @@
     {
       "body_system": "Respiratory",
       "name": "Tachypnea (Rapid Breathing), Dyspnea (Difficulty Breathing), or Hyperventilation",
-      "notes": "Cyanide prevents the body's cells from utilizing oxygen (cellular hypoxia). The cat breathes rapidly in a desperate attempt to compensate for this lack of usable oxygen.\"Cherry Red\" Mucous Membranes",
+      "notes": "Cyanide prevents the body's cells from utilizing oxygen (cellular hypoxia). The cat breathes rapidly in a desperate attempt to compensate for this lack of usable oxygen.",
       "onset": "10–60 minutes after ingestion.",
       "severity": "severe"
     },
     {
       "body_system": "Hematological",
       "name": "Bright Red Gums/Mucous Membranes",
-      "notes": "This is a classic hallmark of cyanide poisoning. Because the cells cannot absorb oxygen from the blood, the venous blood remains oxygenated and bright red (cherry red), causing the gums to appear unusually brick red rather than pale or blue (cyanotic), although cyanosis can occur in later stages.Neu",
+      "notes": "This is a classic hallmark of cyanide poisoning. Because the cells cannot absorb oxygen from the blood, the venous blood remains oxygenated and bright red (cherry red), causing the gums to appear unusually brick red rather than pale or blue (cyanotic), although cyanosis can occur in later stages.",
       "onset": "10–60 minutes.",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Seizures, Tremors, Ataxia (Incoordination), or Coma",
-      "notes": "The brain is highly sensitive to oxygen deprivation. As cellular hypoxia sets in, the cat may suffer convulsions or collapse into a coma.Gastrointestinal Upset",
+      "notes": "The brain is highly sensitive to oxygen deprivation. As cellular hypoxia sets in, the cat may suffer convulsions or collapse into a coma.",
       "onset": "10–60 minutes.",
       "severity": "fatal"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting and Diarrhea",
-      "notes": "These are often the first signs observed. While less immediately fatal than the respiratory or cardiac effects, they indicate that the toxin has been ingested.Cardiovascular Collapse",
+      "notes": "These are often the first signs observed. While less immediately fatal than the respiratory or cardiac effects, they indicate that the toxin has been ingested.",
       "onset": "10–60 minutes.",
       "severity": "moderate"
     },
     {
       "body_system": "Cardiac",
       "name": "Hypotension (Low Blood Pressure), Arrhythmias (Irregular Heartbeat), and Sudden Collapse",
-      "notes": "The toxin causes a drop in blood pressure and irregular heart rhythm, which often leads to sudden death before veterinary treatment can even be initiated.Almond Scented Breath",
+      "notes": "The toxin causes a drop in blood pressure and irregular heart rhythm, which often leads to sudden death before veterinary treatment can even be initiated.",
       "onset": "10–60 minutes.",
       "severity": "fatal"
     },
@@ -75,21 +75,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "◦ Oxygen: Supplemental oxygen is provided immediately to support tissue oxygenation, even though the toxin blocks oxygen utilization at the cellular level. ◦ Antidotes: Veterinarians may administer specific antidotes to bind and neutralize the cyanide. Hydroxocobalamin combines with cyanide to form vitamin B12 (cyanocobalamin), which is safely excreted in urine. Alternatively, sodium nitrite (to f",
+      "description": "◦ Oxygen: Supplemental oxygen is provided immediately to support tissue oxygenation, even though the toxin blocks oxygen utilization at the cellular level. ◦ Antidotes: Veterinarians may administer specific antidotes to bind and neutralize the cyanide. Hydroxocobalamin combines with cyanide to form vitamin B12 (cyanocobalamin), which is safely excreted in urine.",
       "name": "Oxygen Supplementation and Administration of Cyanide Antidotes (e.g., Hydroxocobalamin or Sodium Nitrite with Sodium Thiosulfate)",
-      "notes": "Because signs of hypoxia (oxygen deprivation) develop so quickly, death can occur before treatment begins. If the cat is showing signs of respiratory distress or collapse, this step is critical and takes precedence over decontamination.Gastrointestinal Decontamination",
+      "notes": "Because signs of hypoxia (oxygen deprivation) develop so quickly, death can occur before treatment begins. If the cat is showing signs of respiratory distress or collapse, this step is critical and takes precedence over decontamination.",
       "priority": 1
     },
     {
       "description": "If the cat is asymptomatic and the ingestion was recent (typically within 1–2 hours), the veterinarian will induce vomiting to remove the plant material from the stomach. This is followed by activated charcoal (often with a cathartic) to bind any remaining toxins in the gastrointestinal tract.",
       "name": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
-      "notes": "This should only be performed if the cat is neurologically stable. If the cat is already seizing, having trouble breathing, or is lethargic, inducing vomiting is dangerous due to the risk of aspiration pneumonia.Correction of Metabolic Acidosis",
+      "notes": "This should only be performed if the cat is neurologically stable. If the cat is already seizing, having trouble breathing, or is lethargic, inducing vomiting is dangerous due to the risk of aspiration pneumonia.",
       "priority": 2
     },
     {
       "description": "Cyanide toxicity often causes severe metabolic acidosis (an imbalance in the body's acid-base levels). The veterinarian will monitor the cat's blood gas values and administer sodium bicarbonate intravenously to correct the pH balance.",
       "name": "Administration of Sodium Bicarbonate",
-      "notes": "This is a supportive measure used in severe cases to stabilize the patient's internal environment while the body clears the toxin.Fluid Therapy and Monitoring",
+      "notes": "This is a supportive measure used in severe cases to stabilize the patient's internal environment while the body clears the toxin.",
       "priority": 3
     },
     {

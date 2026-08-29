@@ -5,17 +5,17 @@
     {
       "chemical_formula": null,
       "concentration_notes": "◦ Plant vs. Oil: Consuming the fresh plant typically causes mild to moderate gastrointestinal upset (vomiting, diarrhea). However, essential oils derived from the plant are highly concentrated and far more dangerous; even a small amount can lead to severe respiratory distress, liver damage, or neurological symptoms.",
-      "description": "in cats: ◦ Enzymatic Deficiency: Cats lack specific liver enzymes (such as glucuronosyltransferase) needed to break down and process plant oils effectively. Because they cannot metabolize these compounds, the toxins can build up in their system. ◦ Systemic Effects: Ingestion or inhalation can irritate the digestive tract, affect breathing, and stress the liver. In severe cases, particularly with e",
+      "description": "◦ Enzymatic Deficiency: Cats lack specific liver enzymes (such as glucuronosyltransferase) needed to break down and process plant oils effectively. Because they cannot metabolize these compounds, the toxins can build up in their system. ◦ Systemic Effects: Ingestion or inhalation can irritate the digestive tract, affect breathing, and stress the liver.",
       "name": "Essential oils (specifically Menthol and Pulegone are identified in the mint family)"
     },
     {
       "chemical_formula": null,
       "concentration_notes": "◦ Additive Effect: The presence of citrus compounds combined with mint essential oils makes Lemon Mint specifically noted as \"unsafe\" and \"gastro-irritant\" for cats compared to other varieties.",
-      "description": "in cats: ◦ Gastrointestinal Irritation: Along with mint oils, the citrus compounds found in Lemon Mint act as gastrointestinal irritants. They can cause discomfort, nausea, and vomiting when ingested. 4. Notes on",
+      "description": "◦ Gastrointestinal Irritation: Along with mint oils, the citrus compounds found in Lemon Mint act as gastrointestinal irritants. They can cause discomfort, nausea, and vomiting when ingested.",
       "name": "Citrus compounds (general category)"
     }
   ],
-  "description": "Lemon Mint is a fragrant herb — typically a lemon-scented variety of Mentha or Monarda — that is mildly toxic to cats. Like other mint family plants, it contains pulegone and menthol-related compounds that cats cannot safely metabolise. While nibbling a leaf rarely causes serious harm, regular exposure or consumption of concentrated forms (oils, extracts) can irritate the liver.",
+  "description": "Lemon Mint (Monarda citriodora) is a fragrant herb known for its citrus-like scent. While it smells pleasant to us, it is mildly toxic to cats. It contains certain plant oils that a cat's liver cannot process effectively, which can lead to a buildup of toxins in their system.\n\nNibbling on a few leaves typically only causes mild stomach issues, such as vomiting or diarrhea. However, the risk increases significantly with concentrated forms like essential oils or extracts. These can be much harsher on the digestive tract and may even cause stress to the liver if used regularly or in large amounts.\n\nIn addition to stomach upset, contact with the plant can sometimes cause skin redness or itching. It is best to keep these plants and their oils out of your cat's reach. If your cat eats a large amount or seems unusually weak, please contact a veterinarian.",
   "emergencyNote": "Induction of Emesis (Vomiting) or Gastric Lavage (Stomach Pumping)",
   "family": "Lamiaceae",
   "isToxic": true,
@@ -33,21 +33,21 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, Diarrhea, Nausea, Drooling (Hypersalivation)",
-      "notes": "Lemon Mint is specifically noted as a \"gastro-irritant\" due to the presence of citrus compounds alongside mint oils. Drooling or foaming at the mouth is a common reaction to the unpleasant taste and irritating oils.Neurological Depression",
+      "notes": "Lemon Mint is specifically noted as a \"gastro-irritant\" due to the presence of citrus compounds alongside mint oils. Drooling or foaming at the mouth is a common reaction to the unpleasant taste and irritating oils.",
       "onset": "Clinical signs typically appear shortly after ingestion (acute).",
       "severity": "moderate"
     },
     {
       "body_system": "Neurological",
       "name": "Lethargy, Weakness, Uncoordinated Gait (Ataxia)",
-      "notes": "While the plant itself often causes only stomach upset, the citrus compounds found in Lemon Mint can contribute to central nervous system depression if consumed in significant amounts.Respiratory Irritation",
+      "notes": "While the plant itself often causes only stomach upset, the citrus compounds found in Lemon Mint can contribute to central nervous system depression if consumed in significant amounts.",
       "onset": "Variable; usually accompanies gastrointestinal signs.",
       "severity": "severe"
     },
     {
       "body_system": "Respiratory",
       "name": "Coughing, Sneezing, Difficulty Breathing",
-      "notes": "The strong scent of mint can irritate a cat's respiratory tract, leading to coughing or sneezing. Severe respiratory distress is more commonly associated with the inhalation of essential oils rather than eating the plant.Dermal Irritation",
+      "notes": "The strong scent of mint can irritate a cat's respiratory tract, leading to coughing or sneezing. Severe respiratory distress is more commonly associated with the inhalation of essential oils rather than eating the plant.",
       "onset": "Immediate (upon inhalation or contact).",
       "severity": "severe"
     },
@@ -76,7 +76,7 @@
     {
       "description": "Following decontamination, the veterinarian may administer activated charcoal. This substance works by binding to the remaining toxins in the gastrointestinal tract, preventing them from entering the bloodstream.",
       "name": "Administration of Activated Charcoal",
-      "notes": "This step is often taken if the vet suspects that toxins remain in the system after vomiting has been induced.Intravenous (IV) Fluid Therapy",
+      "notes": "This step is often taken if the vet suspects that toxins remain in the system after vomiting has been induced.",
       "priority": 2
     },
     {

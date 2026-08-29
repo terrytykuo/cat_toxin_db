@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "The toxin is only released if the hard seed coat of the Rosary Pea is chewed, crushed, or otherwise broken1. Because the seed coat is so hard, if a cat swallows the seed whole and it remains intact, it is generally considered non-toxic1. If the seed is chewed and the toxin is released, severe cases require veterinary treatment for electrolyte replacement",
-      "description": "in cats: Abrin is a highly dangerous toxin that works by inhibiting cellular protein synthesis1. When absorbed, it leads to severe gastrointestinal signs, which can cause significant dehydration and dangerous electrolyte imbalances",
+      "concentration_notes": "The toxin is only released if the hard seed coat of the Rosary Pea is chewed, crushed, or otherwise broken1. Because the seed coat is so hard, if a cat swallows the seed whole and it remains intact, it is generally considered non-toxic1. If the seed is chewed and the toxin is released, severe cases require veterinary treatment for electrolyte replacement.",
+      "description": "Abrin is a highly dangerous toxin that works by inhibiting cellular protein synthesis1. When absorbed, it leads to severe gastrointestinal signs, which can cause significant dehydration and dangerous electrolyte imbalances.",
       "name": "Abrin (a plant lectin or toxalbumin related to ricin)"
     }
   ],
-  "description": "Rosary Pea (Abrus precatorius), also known as Jequirity Bean, is one of the most acutely toxic plants on earth. Its seeds contain abrin — a ribosome-inactivating protein (RIP) closely related to ricin — that is lethal in nanogram quantities. The hard seed coat usually prevents toxicity if seeds are swallowed whole, but chewed or cracked seeds are life-threatening.",
+  "description": "Rosary Pea (Abrus precatorius) is a highly dangerous plant for cats. Its seeds contain abrin, a powerful toxin that stops cells from making the proteins they need to survive. This leads to cell death and gradual failure of the body's organs.\n\nThe danger mostly comes from chewed or broken seeds. If a cat swallows a whole seed with its hard shell intact, it might pass through the digestive system without causing harm. However, if the seed coat is cracked, even a tiny amount of abrin can be life-threatening.\n\nIf the toxin is released, a cat may experience vomiting, diarrhea, weakness, and stomach pain within a few hours. In severe cases, it can cause seizures and organ failure. If you suspect your cat has chewed a Rosary Pea seed, treat it as an absolute emergency and contact a veterinarian immediately—do not wait for symptoms to appear.",
   "emergencyNote": "Assessment of Dehydration and Electrolyte Status",
   "family": "Fabaceae",
   "isToxic": true,
@@ -27,7 +27,7 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Gastrointestinal signs (which typically lead to significant dehydration and electrolyte imbalances)",
-      "notes": "Abrin is a plant lectin (toxalbumin) that works by inhibiting cellular protein synthesis1. When absorbed, the resulting gastrointestinal distress can cause severe dehydration and dangerous electrolyte imbalances1. In these severe cases, the cat will require veterinary treatment for fluid and electro",
+      "notes": "Abrin is a plant lectin (toxalbumin) that works by inhibiting cellular protein synthesis1. When absorbed, the resulting gastrointestinal distress can cause severe dehydration and dangerous electrolyte imbalances.",
       "severity": "severe"
     }
   ],
@@ -37,15 +37,15 @@
   "toxicityLevel": "severe",
   "treatments": [
     {
-      "description": "The veterinarian will examine the cat to evaluate the severity of the gastrointestinal signs and determine the extent of any dehydration and electrolyte imbalances",
+      "description": "The veterinarian will examine the cat to evaluate the severity of the gastrointestinal signs and determine the extent of any dehydration and electrolyte imbalances.",
       "name": "Assessment of Dehydration and Electrolyte Status",
-      "notes": "This initial assessment is critical because if the cat swallowed the seeds whole without chewing them, it is usually non-toxic and may not require further medical intervention1. 2. Systemic Supportive Care",
+      "notes": "This initial assessment is critical because if the cat swallowed the seeds whole without chewing them, it is usually non-toxic and may not require further medical intervention.",
       "priority": 1
     },
     {
-      "description": "The veterinary team will administer fluids and electrolytes to restore the cat's normal physiological balance and counteract the fluid loss caused by the gastrointestinal symptoms",
+      "description": "The veterinary team will administer fluids and electrolytes to restore the cat's normal physiological balance and counteract the fluid loss caused by the gastrointestinal symptoms.",
       "name": "Electrolyte Replacement Treatment",
-      "notes": "This therapy is specifically indicated and necessary for severe cases where the seed coat was broken, releasing the toxin (abrin) and causing significant illness",
+      "notes": "This therapy is specifically indicated and necessary for severe cases where the seed coat was broken, releasing the toxin (abrin) and causing significant illness.",
       "priority": 2
     }
   ]

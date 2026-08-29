@@ -4,24 +4,24 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "These toxins are found in all parts of the plant, though the leaves are considered to be more toxic than the berries14. While severe mistletoe toxicity is uncommon and usually requires a cat to eat a large amount of the plant, small ingestions are still potent enough to cause mild to severe stomach upset",
-      "description": "in cats: These toxic proteins act as severe gastrointestinal irritants and cardiovascular depressants1.... When ingested, they can cause profuse vomiting and diarrhea, dilated pupils, and rapid, labored breathing2. Systemically, they affect the heart, causing a slowed heart rate and low blood pressure, which can ultimately lead to shock and death from cardiovascular collapse",
+      "concentration_notes": "These toxins are found in all parts of the plant, though the leaves are considered to be more toxic than the berries14. While severe mistletoe toxicity is uncommon and usually requires a cat to eat a large amount of the plant, small ingestions are still potent enough to cause mild to severe stomach upset.",
+      "description": "These toxic proteins act as severe gastrointestinal irritants and cardiovascular depressants1. When ingested, they can cause profuse vomiting and diarrhea, dilated pupils, and rapid, labored breathing2. Systemically, they affect the heart, causing a slowed heart rate and low blood pressure, which can ultimately lead to shock and death from cardiovascular collapse.",
       "name": "Lectins and viscotoxins (which are toxic proteins)"
     },
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "Phoratoxins are distributed throughout the plant1. Fortunately, a cat must typically consume a large amount of the plant for these chemicals to reach a severely toxic, life-threatening threshold",
-      "description": "in cats: Working alongside the lectins, phoratoxins specifically target the heart muscle and cardiovascular system13. They are responsible for inducing dangerous drops in blood pressure (hypotension) and abnormally slow heart rates (bradycardia), which can lead to profound weakness and odd behavior",
+      "concentration_notes": "Phoratoxins are distributed throughout the plant1. Fortunately, a cat must typically consume a large amount of the plant for these chemicals to reach a severely toxic, life-threatening threshold.",
+      "description": "Working alongside the lectins, phoratoxins specifically target the heart muscle and cardiovascular system13. They are responsible for inducing dangerous drops in blood pressure (hypotension) and abnormally slow heart rates (bradycardia), which can lead to profound weakness and odd behavior.",
       "name": "Phoratoxins"
     },
     {
       "chemical_formula": "Not provided in the sources.",
-      "concentration_notes": "Amines are found in all parts of the mistletoe plant2. Like the other compounds, a large toxic dose is generally required to trigger fatal cardiovascular collapse",
-      "description": "in cats: Amines are present alongside the toxic proteins and contribute to the rapid onset of both gastrointestinal distress and cardiovascular shock2. They play a role in symptoms such as vomiting, diarrhea, dilated pupils, and labored breathing",
+      "concentration_notes": "Amines are found in all parts of the mistletoe plant2. Like the other compounds, a large toxic dose is generally required to trigger fatal cardiovascular collapse.",
+      "description": "Amines are present alongside the toxic proteins and contribute to the rapid onset of both gastrointestinal distress and cardiovascular shock2. They play a role in symptoms such as vomiting, diarrhea, dilated pupils, and labored breathing.",
       "name": "Amines"
     }
   ],
-  "description": "Mistletoe (Phoradendron spp. and Viscum album) is a common holiday decoration that is moderately toxic to cats. American Mistletoe (Phoradendron) contains phoratoxins — toxic lectins that affect the cardiovascular and gastrointestinal systems. The white berries are the most concentrated part and may appeal to cats. European Mistletoe (Viscum) additionally contains viscotoxins with stronger cardiac effects.",
+  "description": "Mistletoe (Phoradendron spp. or Viscum spp.) is a popular holiday decoration that is highly toxic to cats. It contains toxic proteins, such as lectins and phoratoxins, which can seriously affect a cat's stomach, intestines, and heart. The berries usually have the highest concentration of these toxins.\n\nIf a cat eats mistletoe, it may experience severe vomiting, diarrhea, drooling, and stomach pain. The toxins can also cause dangerous drops in blood pressure and a slowed heart rate, which can make the cat very weak or cause breathing problems.\n\nEven dried decorations or fallen berries are dangerous. Keep all mistletoe completely out of your cat's reach during the holidays. If you suspect your cat has eaten any part of a mistletoe plant, contact a veterinarian immediately.",
   "emergencyNote": "Medically Induced Emesis and Activated Charcoal",
   "family": "Viscaceae",
   "isToxic": true,
@@ -39,28 +39,28 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Gastrointestinal upset, including vomiting and diarrhea (which can be profuse)",
-      "notes": "If a cat only eats a small amount (like a few leaves or berries), the symptoms are typically limited to mild gastrointestinal irritation14. However, ingesting larger amounts leads to severe gastrointestinal distress56. Additionally, many store-bought mistletoe decorations use plastic berries; if a c",
+      "notes": "If a cat only eats a small amount (like a few leaves or berries), the symptoms are typically limited to mild gastrointestinal irritation14. However, ingesting larger amounts leads to severe gastrointestinal distress.",
       "onset": "Within hours of ingestion",
       "severity": "severe"
     },
     {
       "body_system": "Cardiac",
       "name": "Slowed heart rate (bradycardia), low blood pressure (hypotension), and potential cardiovascular collapse",
-      "notes": "These life-threatening cardiovascular effects are caused by the plant's lectins and phoratoxins3. Fortunately, severe heart toxicity is relatively uncommon and usually only occurs if the cat consumes a large amount of the plant34. If left untreated after a large ingestion, it can lead to shock and d",
+      "notes": "These life-threatening cardiovascular effects are caused by the plant's lectins and phoratoxins3. Fortunately, severe heart toxicity is relatively uncommon and usually only occurs if the cat consumes a large amount of the plant.",
       "onset": "Within hours of ingesting a toxic dose",
       "severity": "fatal"
     },
     {
       "body_system": "Respiratory",
       "name": "Difficulty breathing or rapid, labored breathing",
-      "notes": "This symptom is typically seen in severe cases of toxicity alongside cardiovascular collapse and shock23. 4. Weakness, Odd Behavior, and Dilated Pupils",
+      "notes": "This symptom is typically seen in severe cases of toxicity alongside cardiovascular collapse and shock.",
       "onset": "Within hours of ingesting a toxic dose",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Weakness, odd behavior, and dilated pupils",
-      "notes": "The profound weakness and lethargy a cat experiences are usually secondary effects caused by the significant drop in blood pressure and the slowed heart rate",
+      "notes": "The profound weakness and lethargy a cat experiences are usually secondary effects caused by the significant drop in blood pressure and the slowed heart rate.",
       "onset": "Within hours of ingestion",
       "severity": "severe"
     }
@@ -74,19 +74,19 @@
     {
       "description": "If the mistletoe was ingested recently, the veterinarian will administer medication to induce vomiting and clear the highly toxic leaves or berries from the stomach. After vomiting, they will administer activated charcoal to bind to any remaining toxins in the digestive tract and prevent them from being absorbed into the bloodstream.",
       "name": "Medically Induced Emesis and Activated Charcoal",
-      "notes": "This is the most urgent step to prevent the toxins from triggering severe cardiovascular and neurological symptoms. You should never attempt to induce vomiting at home without direct veterinary supervision. 2. Intravenous (IV) Fluid Therapy",
+      "notes": "This is the most urgent step to prevent the toxins from triggering severe cardiovascular and neurological symptoms. You should never attempt to induce vomiting at home without direct veterinary supervision.",
       "priority": 1
     },
     {
       "description": "The cat is placed on IV fluids to maintain hydration, support kidney function, and help flush the absorbed toxins out of the body.",
       "name": "IV Fluid Therapy and Blood Pressure Support",
-      "notes": "Because mistletoe poisoning can cause profuse vomiting and diarrhea—as well as a dangerous drop in blood pressure (hypotension)—aggressive fluid therapy is critical to prevent severe dehydration and cardiovascular collapse. 3. Cardiovascular Monitoring and Pharmacological Support",
+      "notes": "Because mistletoe poisoning can cause profuse vomiting and diarrhea—as well as a dangerous drop in blood pressure (hypotension)—aggressive fluid therapy is critical to prevent severe dehydration and cardiovascular collapse.",
       "priority": 2
     },
     {
       "description": "The veterinary team will continuously monitor the cat's heart rhythm and blood pressure using an electrocardiogram (ECG). If the cat's heart rate drops dangerously low (bradycardia), the vet will administer specific cardiovascular drugs, such as atropine, to stabilize the heart rate.",
       "name": "ECG Monitoring and Heart Medications (e.g., Atropine)",
-      "notes": "This targeted treatment is necessary because the phoratoxins in mistletoe directly depress the cardiovascular system. Cats that have ingested a large amount of the plant are at the highest risk for requiring emergency heart stabilization. 4. Symptomatic and Supportive Care",
+      "notes": "This targeted treatment is necessary because the phoratoxins in mistletoe directly depress the cardiovascular system. Cats that have ingested a large amount of the plant are at the highest risk for requiring emergency heart stabilization.",
       "priority": 3
     },
     {

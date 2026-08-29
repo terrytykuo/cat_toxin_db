@@ -4,58 +4,59 @@
   "chemicals": [
     {
       "chemical_formula": "HCN (for Hydrogen Cyanide)1.",
-      "concentration_notes": "The toxic cyanogenic glycosides are generally concentrated within the leaves of the plant and the seeds of its fruit2. Severe toxicity is relatively uncommon unless a large amount of the plant is ingested2. Furthermore, the seeds must be physically compromised to pose a danger; if a cat swallows a seed completely whole without chewing it, the cyanide is not released and toxicity is not expected",
-      "description": "in cats: When a cat chews, grinds, or crushes the plant material, the cyanogenic glycosides are altered and release toxic cyanide into the body2. Once absorbed, the cyanide binds to ferric iron (Fe 3+ ), specifically inhibiting the mitochondrial enzyme cytochrome c oxidase24. This interference halts cellular respiration, completely preventing the cells from utilizing oxygen and resulting in rapid,",
-      "name": "Cyanogenic glycosides, which metabolize and break down to release cyanide (specifically hydrogen cyanide)"
+      "concentration_notes": "The toxic cyanogenic glycosides are generally concentrated within the leaves of the plant and the seeds of its fruit2. Severe toxicity is relatively uncommon unless a large amount of the plant is ingested2. Furthermore, the seeds must be physically compromised to pose a danger; if a cat swallows a seed completely whole without chewing it, the cyanide is not released and toxicity is not expected.",
+      "description": "When a cat chews, grinds, or crushes the plant material, the cyanogenic glycosides are altered and release toxic cyanide into the body2. Once absorbed, the cyanide binds to ferric iron (Fe 3+ ), specifically inhibiting the mitochondrial enzyme cytochrome c oxidase.",
+      "name": "Cyanogenic glycosides, which metabolize and break down to release cyanide (hydrogen cyanide)"
     }
   ],
-  "description": "Mountain Mahogany (Cercocarpus spp.) is a shrub or small tree in the rose family that is toxic to cats due to cyanogenic glycosides — primarily prunasin — found in its leaves. When the leaves are chewed or wilted, prunasin is enzymatically converted to hydrogen cyanide (HCN), which blocks cellular respiration. Wilted or dried leaves are particularly dangerous as the enzymatic conversion proceeds more readily.",
+  "description": "Mountain Mahogany (Cercocarpus spp.) is a wild desert and mountain shrub or small tree, not a houseplant. Its leaves contain compounds called cyanogenic glycosides, so it can release cyanide if a cat chews and swallows enough of the plant. It is not listed by the ASPCA, Pet Poison Helpline, or other cat-specific poison authorities, and documented poisonings are in grazing livestock rather than cats; toxin levels are usually below the dangerous range, so a cat encountering this plant is unlikely. Treat it with caution rather than as a confirmed everyday hazard.\n\nWhen a plant part is chewed or crushed, the cyanogenic glycosides break down and release cyanide, which stops the body's cells from using oxygen. Wilted or dried leaves can release the poison more readily than fresh ones. A seed swallowed whole without chewing may not release the toxin, but chewing it is the hazard.\n\nIf a large enough amount is chewed and swallowed, signs can appear quickly: rapid breathing or gasping for air, unusually bright red gums (which may later turn bluish), heavy drooling, or wide pupils, and in severe cases seizures or loss of consciousness. Acute cyanide poisoning is life-threatening, so if you suspect your cat chewed and swallowed part of this plant, contact a veterinarian or emergency animal hospital right away.",
   "emergencyNote": "Antidote Administration (Sodium Nitrite, Sodium Thiosulfate, or Hydroxycobalamin)",
   "family": "Rosaceae",
   "isToxic": true,
   "name": "Mountain Mahogany",
   "safetyNotes": [
-    "Toxic compounds: prunasin (cyanogenic glycoside); wilted leaves most dangerous",
-    "Mechanism: prunasin releases HCN via beta-glucosidase, inhibiting cytochrome c oxidase and halting cellular respiration",
-    "Symptoms: rapid breathing, weakness, dilated pupils, drooling; severe cases cause seizures, coma, and respiratory failure",
+    "Toxic compounds: cyanogenic glycosides; wilted leaves most dangerous",
+    "Mechanism: cyanogenic glycosides release HCN via beta-glucosidase, inhibiting cytochrome c oxidase and halting cellular respiration",
+    "Not listed by ASPCA or Pet Poison Helpline for cats; documented poisonings are in grazing livestock, and toxin levels are usually below the dangerous range",
+    "Symptoms (if a toxic dose is chewed and swallowed): rapid breathing, weakness, dilated pupils, drooling; severe cases cause seizures, coma, and respiratory failure",
     "Wilted or fallen leaves pose a higher risk than fresh leaves due to accelerated cyanogenic conversion",
-    "Seek veterinary care immediately if ingestion is suspected — cyanide toxicity can progress within minutes"
+    "Seek veterinary care immediately if a large ingestion is suspected — acute cyanide toxicity can progress within minutes"
   ],
   "scientific_name": "Cercocarpus spp.",
-  "severity": "toxic",
+  "severity": "cautious",
   "symptoms": [
     {
       "body_system": "Respiratory",
       "name": "Respiratory distress (panting, gasping for breath, or labored breathing)",
-      "notes": "This is typically one of the most prominent signs of cyanide poisoning, occurring because the toxin severely hampers the body's ability to utilize oxygen at the cellular level45. 2. Unusual Gum Color (Bright Red Gums)",
+      "notes": "This is typically one of the most prominent signs of cyanide poisoning, occurring because the toxin severely hampers the body's ability to utilize oxygen at the cellular level.",
       "onset": "Within minutes to hours",
       "severity": "severe"
     },
     {
       "body_system": "Hematological",
       "name": "Unusually red or pink gums (bright red mucous membranes)",
-      "notes": "This distinct symptom happens because the cells are unable to extract oxygen from the blood. The blood remains fully oxygenated, causing the gums and mucous membranes to appear bright red while the body's tissues are essentially suffocating35. 3. Dilated Pupils",
+      "notes": "This distinct symptom happens because the cells are unable to extract oxygen from the blood. The blood remains fully oxygenated, causing the gums and mucous membranes to appear bright red while the body's tissues are essentially suffocating.",
       "onset": "Within minutes to hours",
       "severity": "severe"
     },
     {
       "body_system": "Neurological",
       "name": "Dilated pupils",
-      "notes": "Abnormally large pupils act as an indicator of severe systemic stress and neurological impairment from the rapid lack of usable oxygen3.... 4. Excessive Drooling",
+      "notes": "Abnormally large pupils act as an indicator of severe systemic stress and neurological impairment from the rapid lack of usable oxygen.",
       "onset": "Within minutes to hours",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Excessive drooling (hypersalivation)",
-      "notes": "Salivating much more than usual can be one of the earlier, acute signs of toxic exposure before severe neurological decline sets in5. 5. Shock, Seizures, and Coma",
+      "notes": "Salivating much more than usual can be one of the earlier, acute signs of toxic exposure before severe neurological decline sets in.",
       "onset": "Within minutes to hours",
       "severity": "moderate"
     },
     {
       "body_system": "Neurological",
       "name": "Shock, seizures (convulsions), loss of consciousness, and coma",
-      "notes": "These extreme neurological and cardiovascular symptoms manifest as the oxygen deprivation peaks. Cyanide poisoning acts very quickly; if prompt veterinary attention (which may include oxygen therapy and specific antidotes) is not provided, it rapidly progresses to death",
+      "notes": "These extreme neurological and cardiovascular symptoms manifest as the oxygen deprivation peaks. Cyanide poisoning acts very quickly; if prompt veterinary attention (which may include oxygen therapy and specific antidotes) is not provided, it rapidly progresses to death.",
       "onset": "Within minutes to hours",
       "severity": "fatal"
     }
@@ -67,21 +68,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "The veterinarian administers specific antidotes to neutralize the cyanide in the bloodstream. This typically involves using sodium nitrite (which binds with cyanide to form cyanomethemoglobin) followed by sodium thiosulfate (which converts the toxin into water-soluble thiocyanate that is safely excreted in the urine)4. Alternatively, the vet may use hydroxycobalamin, which combines with cyanide to",
+      "description": "The veterinarian administers specific antidotes to neutralize the cyanide in the bloodstream. This typically involves using sodium nitrite (which binds with cyanide to form cyanomethemoglobin) followed by sodium thiosulfate (which converts the toxin into water-soluble thiocyanate that is safely excreted in the urine).",
       "name": "Antidote Administration (Sodium Nitrite, Sodium Thiosulfate, or Hydroxycobalamin)",
-      "notes": "This is the most urgent life-saving intervention for a cat showing clinical signs of large-dose poisoning (such as respiratory distress, cherry-red blood/gums, seizures, or collapse)3. Less severe cases might be successfully treated using sodium thiosulfate alone4. 2. Immediate Gastrointestinal Deco",
+      "notes": "This is the most urgent life-saving intervention for a cat showing clinical signs of large-dose poisoning (such as respiratory distress, cherry-red blood/gums, seizures, or collapse)3. Less severe cases might be successfully treated using sodium thiosulfate alone.",
       "priority": 1
     },
     {
-      "description": "If the cat was exposed recently and is not yet showing neurological or respiratory symptoms, the vet will induce vomiting to clear the stomach of the plant material. This is followed by administering a single dose of activated charcoal alongside a cathartic to bind to any unabsorbed toxins in the digestive tract",
+      "description": "If the cat was exposed recently and is not yet showing neurological or respiratory symptoms, the vet will induce vomiting to clear the stomach of the plant material. This is followed by administering a single dose of activated charcoal alongside a cathartic to bind to any unabsorbed toxins in the digestive tract.",
       "name": "Emesis Induction and Activated Charcoal",
-      "notes": "Decontamination should only be performed on asymptomatic patients. If the cat only ingested a very small amount of the plant, severe toxicity is less likely, and the cat might ultimately only require minimal gastrointestinal support4. 3. Systemic Metabolic Support and Monitoring",
+      "notes": "Decontamination should only be performed on asymptomatic patients. If the cat only ingested a very small amount of the plant, severe toxicity is less likely, and the cat might ultimately only require minimal gastrointestinal support.",
       "priority": 2
     },
     {
-      "description": "The veterinary team will routinely monitor the cat's venous blood gas levels to check for severe metabolic acidosis, which is a dangerous secondary effect of cyanide halting cellular respiration. If acidosis is present, it is corrected by intravenously administering sodium bicarbonate",
+      "description": "The veterinary team will routinely monitor the cat's venous blood gas levels to check for severe metabolic acidosis, which is a dangerous secondary effect of cyanide halting cellular respiration. If acidosis is present, it is corrected by intravenously administering sodium bicarbonate.",
       "name": "Blood Gas Monitoring and Sodium Bicarbonate Therapy",
-      "notes": "Alongside blood gas monitoring, the veterinarian may also draw a whole blood cyanide level to definitively confirm the diagnosis",
+      "notes": "Alongside blood gas monitoring, the veterinarian may also draw a whole blood cyanide level to definitively confirm the diagnosis.",
       "priority": 3
     }
   ]

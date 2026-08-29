@@ -6,14 +6,14 @@
     {
       "name": "Specific glycosides identified include Barbaloin, Aloin, and Emodin. The sources also list Chrysophanic acid as a related component",
       "chemical_formula": null,
-      "description": "in cats: These compounds act as potent purgatives (laxatives). Upon ingestion, they irritate the gastrointestinal tract, leading to increased mucus production and water secretion in the colon. This results in abrupt, severe diarrhea and vomiting. Additionally, ingestion has been linked to hypoglycemia (low blood sugar) in some cases",
-      "concentration_notes": "These toxins are concentrated in the latex (often described as a bitter yellow sap) located just under the skin of the leaves2. The concentration of these toxins is notably higher in younger leaves"
+      "description": "These compounds act as potent purgatives (laxatives). Upon ingestion, they irritate the gastrointestinal tract, leading to increased mucus production and water secretion in the colon. This results in abrupt, severe diarrhea and vomiting. Additionally, ingestion has been linked to hypoglycemia (low blood sugar) in some cases.",
+      "concentration_notes": "These toxins are concentrated in the latex (often described as a bitter yellow sap) located just under the skin of the leaves2. The concentration of these toxins is notably higher in younger leaves."
     },
     {
       "name": "Saponins (a class of chemical compounds)",
       "chemical_formula": null,
-      "description": "in cats: Saponins have detergent-like properties that cause severe irritation to the gastrointestinal lining. Ingestion typically leads to vomiting, diarrhea, and lethargy",
-      "concentration_notes": "Like anthraquinones, saponins are found in the leaves and latex of the plant. While the clear inner gel is often used medicinally for humans, the toxic latex layer makes chewing on the plant dangerous for cats24. Clinical Signs Summary: Signs of toxicity include vomiting, diarrhea (which may be red-tinged due to plant pigments), lethargy, anorexia, and potentially low blood sugar"
+      "description": "Saponins have detergent-like properties that cause severe irritation to the gastrointestinal lining. Ingestion typically leads to vomiting, diarrhea, and lethargy.",
+      "concentration_notes": "Like anthraquinones, saponins are found in the leaves and latex of the plant. While the clear inner gel is often used medicinally for humans, the toxic latex layer makes chewing on the plant dangerous for cats24. Clinical Signs Summary: Signs of toxicity include vomiting, diarrhea (which may be red-tinged due to plant pigments), lethargy, anorexia, and potentially low blood sugar."
     }
   ],
   "treatments": [
@@ -64,34 +64,34 @@
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This is caused by saponins and anthraquinone glycosides found in the plant's latex (yellow sap), which act as purgatives and irritants to the digestive tract1.... 2. Diarrhea"
+      "notes": "This is caused by saponins and anthraquinone glycosides found in the plant's latex (yellow sap), which act as purgatives and irritants to the digestive tract."
     },
     {
       "name": "Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Abrupt.",
-      "notes": "The stool may appear red-tinged; this is often due to the plant's pigments passing through the system rather than actual blood, though it can look alarming. This symptom is driven by increased mucus and water secretion in the colon caused by glycosides12. 3. Lethargy"
+      "notes": "The stool may appear red-tinged; this is often due to the plant's pigments passing through the system rather than actual blood, though it can look alarming. This symptom is driven by increased mucus and water secretion in the colon caused by glycosides."
     },
     {
       "name": "Lethargy (Depression)",
       "body_system": "Neurological",
       "severity": "moderate",
       "onset": "Following the onset of gastrointestinal symptoms.",
-      "notes": "This is a generalized systemic reaction to the toxins and the physical toll of gastrointestinal distress1.... 4. Hypoglycemia"
+      "notes": "This is a generalized systemic reaction to the toxins and the physical toll of gastrointestinal distress."
     },
     {
       "name": "Hypoglycemia (Low Blood Sugar)",
       "body_system": "Endocrine",
       "severity": "severe",
-      "notes": "While less common than GI signs, a drop in blood sugar has been documented in cases of Aloe barbadensis ingestion2. 5. Anorexia"
+      "notes": "While less common than GI signs, a drop in blood sugar has been documented in cases of Aloe barbadensis ingestion."
     },
     {
       "name": "Anorexia (Loss of appetite)",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Variable.",
-      "notes": "Cats may refuse food due to the nausea and abdominal discomfort associated with the plant's purgative effects"
+      "notes": "Cats may refuse food due to the nausea and abdominal discomfort associated with the plant's purgative effects."
     }
   ],
   "toxicParts": [

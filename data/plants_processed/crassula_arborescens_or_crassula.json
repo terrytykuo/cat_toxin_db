@@ -3,11 +3,11 @@
     "common_name": "Jade Plant",
     "scientific_name": "Crassula arborescens",
     "family": "Crassulaceae",
-    "description": "2. Brief Description\n\u2022 Appearance: The Jade Plant is a succulent34 characterized by its fleshy leaves and stems1.\n\u2022 Habitat & Common Locations: It is a popular indoor houseplant or pot plant45. It is commonly known by the aliases money plant or lucky plant"
+    "description": "2. Brief Description\n• Appearance: The Jade Plant is a succulent34 characterized by its fleshy leaves and stems1.\n• Habitat & Common Locations: It is a popular indoor houseplant or pot plant45. It is commonly known by the aliases money plant or lucky plant"
   },
   "basics": {
     "family": "Crassulaceae",
-    "description": "2. Brief Description\n\u2022 Appearance: The Jade Plant is a succulent34 characterized by its fleshy leaves and stems1.\n\u2022 Habitat & Common Locations: It is a popular indoor houseplant or pot plant45. It is commonly known by the aliases money plant or lucky plant"
+    "description": "2. Brief Description\n• Appearance: The Jade Plant is a succulent34 characterized by its fleshy leaves and stems1.\n• Habitat & Common Locations: It is a popular indoor houseplant or pot plant45. It is commonly known by the aliases money plant or lucky plant"
   },
   "toxic_parts": [
     "Stem",
@@ -19,8 +19,8 @@
     {
       "name": "The specific toxic principle remains unknown or unidentified in current veterinary literature",
       "chemical_formula": null,
-      "description": "in cats:\n\u00a0\u00a0\u00a0\u00a0\u25e6 Gastrointestinal Irritation: While the exact chemical mechanism is unknown, ingestion triggers the body's emetic center, leading to vomiting.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Central Nervous System (CNS) Depression: The toxin affects the neurological system, resulting in depression (lethargy) and incoordination (ataxia) (loss of balance).\n\u00a0\u00a0\u00a0\u00a0\u25e6 Cardiovascular Effects: In rare cases, it can cause bradycardia (a slowed heart rate).\n4. Notes on",
-      "concentration_notes": "\u25e6 Distribution: The toxic principle is found in all parts of the plant, including the fleshy leaves and stems.\n\u00a0\u00a0\u00a0\u00a0\u25e6 Potency: The toxicity is generally classified as mild to moderate. While it can cause significant distress and coordination issues, it is rarely fatal if treated.\u2022 Cat toxicity chart for 50 popular houseplants1\n\u2022 Clinical Perspectives on Feline Phytotoxicology2\n\u2022 The Top 13 Plants + Flowers Toxic and Poisonous to Cats3\n\u2022 Top 10 toxic household plants for pets - VCA Animal Hospitals"
+      "description": "in cats:\n    ◦ Gastrointestinal Irritation: While the exact chemical mechanism is unknown, ingestion triggers the body's emetic center, leading to vomiting.\n    ◦ Central Nervous System (CNS) Depression: The toxin affects the neurological system, resulting in depression (lethargy) and incoordination (ataxia) (loss of balance).\n    ◦ Cardiovascular Effects: In rare cases, it can cause bradycardia (a slowed heart rate).\n4. Notes on",
+      "concentration_notes": "◦ Distribution: The toxic principle is found in all parts of the plant, including the fleshy leaves and stems.\n    ◦ Potency: The toxicity is generally classified as mild to moderate. While it can cause significant distress and coordination issues, it is rarely fatal if treated.• Cat toxicity chart for 50 popular houseplants1\n• Clinical Perspectives on Feline Phytotoxicology2\n• The Top 13 Plants + Flowers Toxic and Poisonous to Cats3\n• Top 10 toxic household plants for pets - VCA Animal Hospitals"
     }
   ],
   "symptoms": [
@@ -50,7 +50,7 @@
       "body_system": "Cardiac",
       "severity": "severe",
       "onset": "Not explicitly specified.",
-      "notes": "While less common than vomiting or ataxia, a slowed heart rate has been noted as a potential rare side effect of ingestion.Diarrhea"
+      "notes": "While less common than vomiting or ataxia, a slowed heart rate has been noted as a potential rare side effect of ingestion."
     },
     {
       "name": "Diarrhea",
@@ -70,7 +70,7 @@
     {
       "name": "Observation for CNS Depression and Bradycardia",
       "description": "The veterinary team will monitor the cat's vital signs, specifically looking for a slowed heart rate (bradycardia) and neurological signs such as lethargy (depression) or loss of coordination (ataxia).",
-      "notes": "Jade Plant toxicity is distinct from many other plant poisonings because it causes incoordination and depression in addition to standard stomach upset. While rare, a slowed heart rate is a specific risk factor associated with this plant that requires professional monitoring.Supportive Fluid Therapy",
+      "notes": "Jade Plant toxicity is distinct from many other plant poisonings because it causes incoordination and depression in addition to standard stomach upset. While rare, a slowed heart rate is a specific risk factor associated with this plant that requires professional monitoring.",
       "priority": 2
     },
     {
@@ -79,5 +79,6 @@
       "notes": "Since vomiting is a primary symptom of Jade Plant ingestion, preventing dehydration is a key component of the recovery process.",
       "priority": 3
     }
-  ]
+  ],
+  "severity": "toxic"
 }

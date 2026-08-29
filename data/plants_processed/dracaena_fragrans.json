@@ -10,13 +10,13 @@
     {
       "name": "Steroidal Saponins (often referred to simply as saponins)",
       "chemical_formula": null,
-      "description": "in cats: ◦ Gastrointestinal Irritation: Saponins act as irritants to the gastrointestinal tract, leading to symptoms like vomiting (sometimes with blood) and diarrhea. ◦ Neurological/Systemic Effects: In cats specifically, these compounds can cause dilated pupils (mydriasis), breathing difficulties, depression, and increased heart rate. 4. Notes on",
+      "description": "◦ Gastrointestinal Irritation: Saponins act as irritants to the gastrointestinal tract, leading to symptoms like vomiting (sometimes with blood) and diarrhea. ◦ Neurological/Systemic Effects: In cats specifically, these compounds can cause dilated pupils (mydriasis), breathing difficulties, depression, and increased heart rate.",
       "concentration_notes": "◦ Moderate Toxicity: The plant is generally considered moderately toxic. While usually not fatal, the symptoms can be distressing. ◦ Location: These toxins are found in the leaves and stems."
     },
     {
       "name": "Unknown Alkaloids and Resins",
       "chemical_formula": "Not provided in the sources.",
-      "description": "in cats: ◦ General Toxicity: Alongside saponins, these compounds contribute to the general gastrointestinal distress and physiological signs observed in poisoned animals. 4. Notes on",
+      "description": "◦ General Toxicity: Alongside saponins, these compounds contribute to the general gastrointestinal distress and physiological signs observed in poisoned animals.",
       "concentration_notes": "◦ Presence: These are listed alongside saponins as toxic principles found in the leaves of Dracaena species."
     }
   ],
@@ -63,25 +63,25 @@
       "name": "Vomiting (Hematemesis)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "Vomiting is a primary symptom, and in cats specifically, it may occasionally contain blood. The plant also causes loss of appetite (anorexia).Dilated Pupils"
+      "notes": "Vomiting is a primary symptom, and in cats specifically, it may occasionally contain blood. The plant also causes loss of appetite (anorexia)."
     },
     {
       "name": "Dilated Pupils (Mydriasis)",
       "body_system": "Neurological",
       "severity": "moderate",
-      "notes": "This symptom is a specific reaction often seen in cats exposed to Dracaena species, distinguishing it from many other general plant toxicities.Excessive Drooling"
+      "notes": "This symptom is a specific reaction often seen in cats exposed to Dracaena species, distinguishing it from many other general plant toxicities."
     },
     {
       "name": "Drooling (Hypersalivation)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This occurs due to oral irritation and nausea caused by the saponins found in the plant.Depression and Lethargy"
+      "notes": "This occurs due to oral irritation and nausea caused by the saponins found in the plant."
     },
     {
       "name": "Depression and Depression-like behavior",
       "body_system": "Neurological",
       "severity": "moderate",
-      "notes": "Cats may appear withdrawn or less active than usual. This is often accompanied by a refusal to eat (anorexia).Incoordination and Weakness"
+      "notes": "Cats may appear withdrawn or less active than usual. This is often accompanied by a refusal to eat (anorexia)."
     },
     {
       "name": "Incoordination (Ataxia) and Weakness",

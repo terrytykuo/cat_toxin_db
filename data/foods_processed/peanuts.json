@@ -10,26 +10,26 @@
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: The severity depends on the dose; high doses result in acute, severe liver damage and sudden death, while prolonged low-dose exposure causes reduced growth rates and liver enlargement",
-      "description": "Peanuts are highly susceptible to becoming damp and developing Aspergillus mold, which produces aflatoxins14. If an animal ingests moldy peanuts, it causes aflatoxicosis. This disrupts normal cellular function, leading to severe liver damage, ruptured blood vessels (internal bleeding), and jaundice15. Any notes on concentration or potency: The severity depends on the dose; high doses resu",
+      "concentration_notes": "or potency: The severity depends on the dose; high doses result in acute, severe liver damage and sudden death, while prolonged low-dose exposure causes reduced growth rates and liver enlargement.",
+      "description": "Peanuts are highly susceptible to becoming damp and developing Aspergillus mold, which produces aflatoxins14. If an animal ingests moldy peanuts, it causes aflatoxicosis. This disrupts normal cellular function, leading to severe liver damage, ruptured blood vessels (internal bleeding), and jaundice.",
       "name": "Aflatoxins (Mold Contamination)"
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: Allergic reactions are not strictly dose-dependent but rely on the individual animal's specific immune sensitivity",
-      "description": "The specific proteins in peanuts can trigger a severe immune system overreaction. The sources note that peanuts can specifically cause a \"deadly allergic reaction\" in pets3. Any notes on concentration or potency: Allergic reactions are not strictly dose-dependent but rely on the individual animal's specific immune sensitivity",
+      "concentration_notes": "or potency: Allergic reactions are not strictly dose-dependent but rely on the individual animal's specific immune sensitivity.",
+      "description": "The specific proteins in peanuts can trigger a severe immune system overreaction. The sources note that peanuts can specifically cause a \"deadly allergic reaction\" in pets3. Any notes on concentration or potency: Allergic reactions are not strictly dose-dependent but rely on the individual animal's specific immune sensitivity.",
       "name": "Peanut Allergens"
     },
     {
       "chemical_formula": "C",
-      "concentration_notes": "or potency: Xylitol is extremely potent; in dogs, doses as low as 100 mg/kg cause severe hypoglycemia, and doses over 500 mg/kg cause liver failure",
+      "concentration_notes": "or potency: Xylitol is extremely potent; in dogs, doses as low as 100 mg/kg cause severe hypoglycemia, and doses over 500 mg/kg cause liver failure.",
       "description": "Many commercial peanut butters use xylitol as an artificial, sugar-free sweetener. In dogs, xylitol triggers a massive insulin release causing life-threatening hypoglycemia and possible liver failure. Cats, however, are not affected: the Merck Veterinary Manual states cats are not at risk for hypoglycemia or liver injury from xylitol, and the ASPCA reports no known xylitol toxicity in cats. It is still prudent to keep xylitol products away from cats.",
       "name": "Xylitol (Found in Peanut Butter)"
     },
     {
       "chemical_formula": "NaCl (Salt) (Note",
-      "concentration_notes": "or potency: The sources note that large amounts of salt can be fatal to pets1516. Treats containing these ingredients should make up no more than 10% of a pet's daily caloric intake, though peanuts are advised against entirely",
-      "description": "Peanuts are naturally very high in oils and fats, and human peanut snacks are frequently seasoned with high amounts of salt4. A cat's digestive system cannot easily process dense plant fats, which leads to severe indigestion, diarrhea, and the potential to trigger pancreatitis (a painful inflammation of the pancreas)1314. Furthermore, the heavy salt content increases the metabolic burd",
+      "concentration_notes": "or potency: The sources note that large amounts of salt can be fatal to pets1516. Treats containing these ingredients should make up no more than 10% of a pet's daily caloric intake, though peanuts are advised against entirely.",
+      "description": "Peanuts are naturally very high in oils and fats, and human peanut snacks are frequently seasoned with high amounts of salt4. A cat's digestive system cannot easily process dense plant fats, which leads to severe indigestion, diarrhea, and the potential to trigger pancreatitis (a painful inflammation of the pancreas)1314.",
       "name": "High Fats and Added Salt (Processed Peanuts)"
     }
   ],
@@ -51,7 +51,7 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Aflatoxicosis (From Moldy Peanuts)",
-      "notes": "Peanuts are susceptible to growing Aspergillus fungi, which produce toxic aflatoxins1. Ingestion of these moldy peanuts results in severe liver damage and the rupturing of blood vessels",
+      "notes": "Peanuts are susceptible to growing Aspergillus fungi, which produce toxic aflatoxins1. Ingestion of these moldy peanuts results in severe liver damage and the rupturing of blood vessels.",
       "onset": "Acute (shortly after a large dose) or chronic (developing progressively over time with low-dose expo",
       "severity": "fatal"
     },
@@ -64,14 +64,14 @@
     {
       "body_system": "Neurological",
       "name": "Sodium Ion Poisoning (From Salted Peanuts)",
-      "notes": "Human peanut snacks are frequently heavily seasoned with salt, which unnecessarily increases the metabolic burden on a cat's kidneys4. An overdose of sodium draws fluid out of the body's cells, resulting in severe dehydration, electrolyte derangement, and potentially fatal kidney failure or cerebral",
+      "notes": "Human peanut snacks are frequently heavily seasoned with salt, which unnecessarily increases the metabolic burden on a cat's kidneys.",
       "onset": "Within minutes to hours of ingestion",
       "severity": "fatal"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Indigestion and Pancreatitis (From High Fat Content)",
-      "notes": "Peanuts are rich in oils and have a hard physical texture that easily leads to indigestion and diarrhea in cats4. Furthermore, consuming high-fat foods can trigger pancreatitis, a painful and potentially life-threatening inflammation of the pancreas",
+      "notes": "Peanuts are rich in oils and have a hard physical texture that easily leads to indigestion and diarrhea in cats4. Furthermore, consuming high-fat foods can trigger pancreatitis, a painful and potentially life-threatening inflammation of the pancreas.",
       "onset": "Within a few hours (for standard indigestion) or progressively over days (for pancreatitis)",
       "severity": "severe"
     },
@@ -95,25 +95,25 @@
       "priority": 1
     },
     {
-      "description": "of the procedure: If the ingestion is caught very early (within a couple of hours) and the cat has not yet developed symptoms, the veterinarian may administer a specific injection to induce vomiting (emesis) to empty the stomach and minimize absorption1. If the cat is already showing symptoms of low blood sugar, they will be admitted for intensive in-patient monitoring and administered IV fluids c",
+      "description": "of the procedure: If the ingestion is caught very early (within a couple of hours) and the cat has not yet developed symptoms, the veterinarian may administer a specific injection to induce vomiting (emesis) to empty the stomach and minimize absorption.",
       "name": "Rapid Hypoglycemia Management & Decontamination (If Xylitol-sweetened peanut butter was ingested)",
-      "notes": "Pet owners must never attempt to induce vomiting in cats at home, as there are no safe methods to do so without professional supervision3. While studies suggest cats are much more resistant to xylitol than dogs, any ingestion of this artificial sweetener requires prompt veterinary care as a precauti",
+      "notes": "Pet owners must never attempt to induce vomiting in cats at home, as there are no safe methods to do so without professional supervision.",
       "priority": 2
     },
     {
-      "description": "of the procedure: The veterinarian will measure the cat's serum sodium and electrolyte levels and administer specific IV fluids to help dilute the sodium in the blood. The goal is to slowly return the animal to a normal water and electrolyte balance over a period of 2 to 3 days6. Any situation-specific",
+      "description": "of the procedure: The veterinarian will measure the cat's serum sodium and electrolyte levels and administer specific IV fluids to help dilute the sodium in the blood. The goal is to slowly return the animal to a normal water and electrolyte balance over a period of 2 to 3 days.",
       "name": "Controlled Sodium Correction (If heavily salted peanuts were ingested)",
       "notes": "It is critical that the veterinarian lowers the sodium concentration slowly. If fluids are given too rapidly, it increases the osmotic gradient between the blood and the brain, drawing water into the brain cells and causing severe, potentially fatal cerebral edema (brain swelling)",
       "priority": 3
     },
     {
-      "description": "of the procedure: If the cat experiences a severe immune overreaction, the vet will provide immediate life-saving stabilization (such as airway support, oxygen, and emergency medications) to counteract the systemic allergic response. Any situation-specific",
+      "description": "of the procedure: If the cat experiences a severe immune overreaction, the vet will provide immediate life-saving stabilization (such as airway support, oxygen, and emergency medications) to counteract the systemic allergic response.",
       "name": "Emergency Anaphylaxis Response (If an allergic reaction occurs)",
-      "notes": "Peanuts have been specifically identified as a food capable of triggering a \"deadly allergic reaction\" in pets",
+      "notes": "Peanuts have been specifically identified as a food capable of triggering a \"deadly allergic reaction\" in pets.",
       "priority": 4
     },
     {
-      "description": "of the procedure: If the high fat in the peanuts triggers pancreatitis, the cat will be hospitalized and given IV fluids to correct dehydration and electrolyte abnormalities10. The vet will administer anti-nausea medications (such as maropitant) and prescribe pain relief (such as the opioid buprenorphine)10. To ensure the cat gets vital nutrients, the vet may use appetite stimulants (like mirtazap",
+      "description": "of the procedure: If the high fat in the peanuts triggers pancreatitis, the cat will be hospitalized and given IV fluids to correct dehydration and electrolyte abnormalities10. The vet will administer anti-nausea medications (such as maropitant) and prescribe pain relief (such as the opioid buprenorphine).",
       "name": "Intensive Medical Management for Pancreatitis (If triggered by high fat content)",
       "notes": "Early nutritional support is critical in feline pancreatitis to prevent prolonged anorexia, which can quickly lead to a secondary, life-threatening liver condition known as hepatic lipidosis (fatty liver)",
       "priority": 5

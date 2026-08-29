@@ -27,14 +27,14 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Drooling (hypersalivation) and vomiting",
-      "notes": "If your cat ingests this plant, you should gently wipe out their mouth to remove any residual irritant sap and offer water1. You should monitor them for persistent vomiting and consult a veterinarian if symptoms worsen or do not resolve. 2. Skin Irritation",
+      "notes": "If your cat ingests this plant, you should gently wipe out their mouth to remove any residual irritant sap and offer water1. You should monitor them for persistent vomiting and consult a veterinarian if symptoms worsen or do not resolve.",
       "onset": "The sources do not specify an exact timeframe, but because it is an immediate physical irritant,",
       "severity": "mild"
     },
     {
       "body_system": "Dermal",
       "name": "Skin irritation or rash",
-      "notes": "This is an occasional symptom that happens when the cat's skin or fur comes into contact with the sap1. It is recommended to wipe the cat's paws to remove the sap, and to consult a vet if the rash persists",
+      "notes": "This is an occasional symptom that happens when the cat's skin or fur comes into contact with the sap1. It is recommended to wipe the cat's paws to remove the sap, and to consult a vet if the rash persists.",
       "onset": "The sources do not specify an exact timeframe,",
       "severity": "mild"
     }
@@ -47,21 +47,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "Gently wipe out the cat's mouth and thoroughly clean its paws to remove any remaining toxic, irritant sap",
+      "description": "Gently wipe out the cat's mouth and thoroughly clean its paws to remove any remaining toxic, irritant sap.",
       "name": "Oral and Paw Decontamination",
-      "notes": "This is an urgent at-home first aid step to stop the sap from causing further irritation to the skin or gastrointestinal tract1. Because the plant's toxicity is mild, this is often the only intervention required. 2. Observation and Monitoring",
+      "notes": "This is an urgent at-home first aid step to stop the sap from causing further irritation to the skin or gastrointestinal tract1. Because the plant's toxicity is mild, this is often the only intervention required.",
       "priority": 1
     },
     {
-      "description": "Keep a close eye on the cat for a period of time after exposure, watching for signs of mild gastrointestinal upset (drooling or vomiting) or skin redness/rash",
+      "description": "Keep a close eye on the cat for a period of time after exposure, watching for signs of mild gastrointestinal upset (drooling or vomiting) or skin redness/rash.",
       "name": "Symptomatic Monitoring",
-      "notes": "If the vomiting is persistent, or if the skin rash worsens and does not resolve on its own, it is time to consult a veterinarian for professional guidance. 3. Veterinary Symptomatic Support (If Symptoms Worsen)",
+      "notes": "If the vomiting is persistent, or if the skin rash worsens and does not resolve on its own, it is time to consult a veterinarian for professional guidance.",
       "priority": 2
     },
     {
       "description": "If the cat's symptoms escalate, a veterinarian will assess the animal and provide targeted medical relief, which may include anti-emetic medications to stop persistent vomiting or treatments to soothe severe skin irritation.",
       "name": "Veterinary Symptomatic Care",
-      "notes": "Because Oyster Plant ingestion typically only results in mild, self-limiting symptoms, this step is only necessary for cats that have an unusually severe reaction or do not recover quickly",
+      "notes": "Because Oyster Plant ingestion typically only results in mild, self-limiting symptoms, this step is only necessary for cats that have an unusually severe reaction or do not recover quickly.",
       "priority": 3
     }
   ]

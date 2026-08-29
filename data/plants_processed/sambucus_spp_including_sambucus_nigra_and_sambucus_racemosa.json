@@ -37,27 +37,27 @@
     {
       "name": "Cyanogenic Glycosides (These compounds naturally occur in the plant as a defense mechanism)",
       "chemical_formula": null,
-      "description": "in cats: ◦ Metabolic Conversion: When a cat chews or digests the plant material, enzymes hydrolyze the glycosides, releasing free cyanide into the bloodstream. ◦ Cellular Asphyxiation: The cyanide inhibits the enzyme cytochrome c oxidase within the mitochondria. This blocks the electron transport chain, effectively preventing cells from utilizing oxygen (cellular hypoxia), even though the blood is",
-      "concentration_notes": "◦ High-Risk Parts: The highest concentrations of toxins are found in the stems, leaves, twigs, roots, and raw/unripe berries. ◦ Cooking: While cooking destroys the cyanide-producing compounds making them safer for humans, sources warn that even cooked elderberries may still contain trace toxins harmful to cats due to their smaller size and metabolic sensitivity. ◦ Sensitivity: Cats generally lack "
+      "description": "◦ Metabolic Conversion: When a cat chews or digests the plant material, enzymes hydrolyze the glycosides, releasing free cyanide into the bloodstream. ◦ Cellular Asphyxiation: The cyanide inhibits the enzyme cytochrome c oxidase within the mitochondria.",
+      "concentration_notes": "◦ High-Risk Parts: The highest concentrations of toxins are found in the stems, leaves, twigs, roots, and raw/unripe berries. ◦ Cooking: While cooking destroys the cyanide-producing compounds making them safer for humans, sources warn that even cooked elderberries may still contain trace toxins harmful to cats due to their smaller size and metabolic sensitivity."
     }
   ],
   "treatments": [
     {
       "name": "Induction of Emesis (Vomiting) and Activated Charcoal",
       "description": "If the ingestion is recent and the cat is neurologically stable (not having seizures or comatose), the veterinarian will administer medication to induce vomiting to remove the plant material from the stomach. This is typically followed by the administration of activated charcoal with a cathartic to bind any remaining toxins in the gastrointestinal tract and speed their transit out of the body.",
-      "notes": "Decontamination is most effective when performed promptly. Owners should not try to induce vomiting at home without specific veterinary instructions, as it can cause further harm.Administration of Cyanide Antidotes",
+      "notes": "Decontamination is most effective when performed promptly. Owners should not try to induce vomiting at home without specific veterinary instructions, as it can cause further harm.",
       "priority": 1
     },
     {
       "name": "Cyanide Antidote Therapy (Sodium Nitrite, Sodium Thiosulfate, or Hydroxycobalamin)",
       "description": "In cases of severe poisoning where cyanide has been released into the bloodstream, specific antidotes are administered. Sodium nitrite helps convert hemoglobin to cyanomethemoglobin (which binds cyanide), followed by sodium thiosulfate, which converts cyanide into thiocyanate (a less toxic substance excreted in urine). Alternatively, hydroxycobalamin may be used to bind cyanide to form Vitamin B12",
-      "notes": "This step is critical for life-threatening cases where the cat is showing signs of hypoxia (lack of oxygen) or severe distress. Clinical signs of cyanide toxicity can develop rapidly (within 15–60 minutes).Oxygen Therapy and Respiratory Support",
+      "notes": "This step is critical for life-threatening cases where the cat is showing signs of hypoxia (lack of oxygen) or severe distress. Clinical signs of cyanide toxicity can develop rapidly (within 15–60 minutes).",
       "priority": 2
     },
     {
       "name": "Oxygen Supplementation or Mechanical Ventilation",
       "description": "Because cyanide prevents the body's cells from using oxygen, the cat may experience severe respiratory distress. The vet will provide supplemental oxygen via a mask or cage. In critical cases where the cat cannot breathe adequately on its own, mechanical ventilation may be required.",
-      "notes": "This treatment addresses the \"tissue hypoxia\" caused by the toxin. Even if the blood is fully oxygenated, the cells cannot use it, so high-flow oxygen support is often necessary alongside antidotes.Metabolic Correction and Fluid Therapy",
+      "notes": "This treatment addresses the \"tissue hypoxia\" caused by the toxin. Even if the blood is fully oxygenated, the cells cannot use it, so high-flow oxygen support is often necessary alongside antidotes.",
       "priority": 3
     },
     {

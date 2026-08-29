@@ -4,8 +4,8 @@
   "chemicals": [
     {
       "chemical_formula": "Not explicitly provided in the sources.",
-      "concentration_notes": "◦ High Potency: The plant is extremely toxic; ingestion of even a minute amount of the plant material (fresh or dried) or seeds can be fatal. ◦ Vase Water: The water in a vase containing Foxglove is also toxic. ◦ Variation in Toxicity: The upper leaves of the stem are noted to be more potent than the lower leaves. The plant retains its toxicity even when dried.• Clinical Perspectives on Feline Phy",
-      "description": "in cats: ◦ Inhibition of ATPase Pump: These toxins inhibit the sodium-potassium ATPase pump (Na+-K+-ATPase) in cell membranes. ◦ Electrolyte Imbalance: This inhibition increases intracellular sodium, which in turn alters the sodium-calcium exchanger, leading to a dangerous rise in intracellular calcium. ◦ Cardiac Effect: The excess calcium increases the contractility of the heart muscle (myocardia",
+      "concentration_notes": "◦ High Potency: The plant is extremely toxic; ingestion of even a minute amount of the plant material (fresh or dried) or seeds can be fatal. ◦ Vase Water: The water in a vase containing Foxglove is also toxic. ◦ Variation in Toxicity: The upper leaves of the stem are noted to be more potent than the lower leaves. The plant retains its toxicity even when dried.",
+      "description": "◦ Inhibition of ATPase Pump: These toxins inhibit the sodium-potassium ATPase pump (Na+-K+-ATPase) in cell membranes. ◦ Electrolyte Imbalance: This inhibition increases intracellular sodium, which in turn alters the sodium-calcium exchanger, leading to a dangerous rise in intracellular calcium.",
       "name": "Cardiac Glycosides (specifically classified as Cardenolides). Specific compounds identified include Digitalis, Digoxin, Digitoxin, Gitoxin"
     }
   ],
@@ -54,25 +54,25 @@
     {
       "description": "If the ingestion is recent and the cat is neurologically stable (not seizing), the veterinarian will induce vomiting to remove plant material from the stomach. This is followed by the administration of activated charcoal with a cathartic to bind the toxins.",
       "name": "Induction of Emesis and Administration of Activated Charcoal",
-      "notes": "Because cardiac glycosides undergo \"enterohepatic recirculation\" (the body reabsorbs the toxin), veterinarians recommend repeating the activated charcoal dose (without cathartic) every 6–8 hours for a total of three doses2. Decontamination should not be attempted at home with hydrogen peroxide, as t",
+      "notes": "Because cardiac glycosides undergo \"enterohepatic recirculation\" (the body reabsorbs the toxin), veterinarians recommend repeating the activated charcoal dose (without cathartic) every 6–8 hours for a total of three doses.",
       "priority": 1
     },
     {
       "description": "This is an immunotherapy treatment where specific antibody fragments bind to the cardiac glycoside toxins in the blood, neutralizing them and allowing the body to excrete them safely.",
       "name": "Digoxin-specific Antibody Fragments (Fab)",
-      "notes": "Because the toxins in Foxglove are structurally similar to the heart medication digoxin, this specific antidote works well for Foxglove poisoning2. It is generally reserved for life-threatening cases due to cost and availability, but patients treated with this antidote have a guarded to good prognos",
+      "notes": "Because the toxins in Foxglove are structurally similar to the heart medication digoxin, this specific antidote works well for Foxglove poisoning.",
       "priority": 2
     },
     {
-      "description": "The veterinarian will administer atropine or glycopyrrolate to treat severe bradycardia (dangerously slow heart rate). If the cat is experiencing irregular heart rhythms (arrhythmias), anti-arrhythmic drugs such as lidocaine, procainamide, or phenytoin may be used",
+      "description": "The veterinarian will administer atropine or glycopyrrolate to treat severe bradycardia (dangerously slow heart rate). If the cat is experiencing irregular heart rhythms (arrhythmias), anti-arrhythmic drugs such as lidocaine, procainamide, or phenytoin may be used.",
       "name": "Pharmacological Heart Rate and Rhythm Management",
-      "notes": "Continuous electrocardiogram (ECG) monitoring is required to detect heart blocks or arrhythmias early5. The toxins cause the heart to contract more forcefully but slower; managing this balance is critical to survival7.Fluid Therapy and Electrolyte Correction",
+      "notes": "Continuous electrocardiogram (ECG) monitoring is required to detect heart blocks or arrhythmias early5. The toxins cause the heart to contract more forcefully but slower; managing this balance is critical to survival.",
       "priority": 3
     },
     {
-      "description": "IV fluids are administered to maintain blood pressure and support kidney function. Crucially, the vet will monitor for hyperkalemia (high potassium levels), a common and fatal result of Foxglove poisoning. Severe hyperkalemia (> 7.5–9 mEq/L) is treated with sodium bicarbonate or a dextrose and insulin therapy to lower potassium levels",
+      "description": "IV fluids are administered to maintain blood pressure and support kidney function. Crucially, the vet will monitor for hyperkalemia (high potassium levels), a common and fatal result of Foxglove poisoning. Severe hyperkalemia (> 7.5–9 mEq/L) is treated with sodium bicarbonate or a dextrose and insulin therapy to lower potassium levels.",
       "name": "Intravenous (IV) Fluid Therapy and Management of Hyperkalemia",
-      "notes": "Calcium should not be administered, as intracellular calcium is already dangerously high due to the toxin's mechanism of action7. Mild hyperkalemia may be managed with fluids alone, but severe cases require aggressive intervention to prevent cardiac standstill",
+      "notes": "Calcium should not be administered, as intracellular calcium is already dangerously high due to the toxin's mechanism of action7. Mild hyperkalemia may be managed with fluids alone, but severe cases require aggressive intervention to prevent cardiac standstill.",
       "priority": 4
     }
   ]

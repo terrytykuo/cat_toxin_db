@@ -36,13 +36,13 @@
     {
       "description": "The veterinarian or pet owner must positively identify the plant as Darlingtonia californica. This distinguishes it from True Lilies (like Tiger, Easter, or Daylilies), which cause fatal acute kidney failure.",
       "name": "Confirmation of Species (Rule Out True Lily)",
-      "notes": "This is the most critical step. If there is any doubt about the plant's identity, or if it could be a True Lily, the cat must be treated immediately for kidney failure (aggressive fluid therapy and decontamination). However, confirmed Cobra Lilies do not pose this risk.Clinical Monitoring (Home Obse",
+      "notes": "This is the most critical step. If there is any doubt about the plant's identity, or if it could be a True Lily, the cat must be treated immediately for kidney failure (aggressive fluid therapy and decontamination). However, confirmed Cobra Lilies do not pose this risk.",
       "priority": 1
     },
     {
       "description": "Monitor the cat at home for minor signs of stomach upset, such as temporary vomiting or diarrhea, which can occur after eating any plant material due to indigestible fiber.",
       "name": "Observation for Mild Gastrointestinal Upset",
-      "notes": "The Cobra Lily (also known as the California Pitcher Plant) appears on lists of plants non-toxic to cats. Unlike other \"imposter lilies\" (like Peace or Calla lilies) which contain irritating calcium oxalate crystals, the Cobra Lily is not listed among the oxalate-containing plants in the provided ve",
+      "notes": "The Cobra Lily (also known as the California Pitcher Plant) appears on lists of plants non-toxic to cats.",
       "priority": 2
     }
   ]

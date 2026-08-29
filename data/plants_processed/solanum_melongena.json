@@ -35,8 +35,8 @@
     {
       "name": "Solanine. (Sources also mention related alkaloids like α-chaconine and solasodine may be present in nightshade plants",
       "chemical_formula": "Not explicitly provided in the sources.",
-      "description": "in cats: ◦ Acetylcholinesterase Inhibition: Solanine inhibits the enzyme acetylcholinesterase, which is responsible for breaking down the neurotransmitter acetylcholine. This leads to an accumulation of acetylcholine, causing overstimulation of the parasympathetic nervous system. Clinical signs include excessive drooling (hypersalivation), slow heart rate (bradycardia), muscle tremors, and neurolo",
-      "concentration_notes": "◦ Green Parts are Most Toxic: The highest concentrations of solanine are found in the green parts of the plant (leaves, stems) and unripe (green) fruit2.... ◦ Peels: The skin or peel of the fruit generally contains higher levels of the toxin than the flesh2. ◦ Feline Sensitivity: Cats are often more sensitive to solanine than dogs because they lack specific liver enzymes (glucuronidation pathways)"
+      "description": "◦ Acetylcholinesterase Inhibition: Solanine inhibits the enzyme acetylcholinesterase, which is responsible for breaking down the neurotransmitter acetylcholine. This leads to an accumulation of acetylcholine, causing overstimulation of the parasympathetic nervous system.",
+      "concentration_notes": "◦ Green Parts are Most Toxic: The highest concentrations of solanine are found in the green parts of the plant (leaves, stems) and unripe (green) fruit2. ◦ Peels: The skin or peel of the fruit generally contains higher levels of the toxin than the flesh2. ◦ Feline Sensitivity: Cats are often more sensitive to solanine than dogs because they lack specific liver enzymes (glucuronidation pathways)"
     }
   ],
   "treatments": [
@@ -55,7 +55,7 @@
     {
       "name": "Administration of Atropine",
       "description": "Solanine inhibits the enzyme acetylcholinesterase, leading to an overstimulation of the nervous system (cholinergic effects). Atropine may be administered to counteract specific symptoms such as excessive drooling (hypersalivation), slow heart rate (bradycardia), and bronchial secretions.",
-      "notes": "There is no specific antidote for solanine poisoning itself; Atropine is used solely to manage these specific cholinergic symptoms.Seizure Control and Respiratory Support",
+      "notes": "There is no specific antidote for solanine poisoning itself; Atropine is used solely to manage these specific cholinergic symptoms.",
       "priority": 3
     },
     {

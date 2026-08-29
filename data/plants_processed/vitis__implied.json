@@ -23,21 +23,21 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Within 12 hours of ingestion.",
-      "notes": "This is typically the first clinical sign of toxicity. The vomit may contain pieces of the undigested fruit.Diarrhea"
+      "notes": "This is typically the first clinical sign of toxicity. The vomit may contain pieces of the undigested fruit."
     },
     {
       "name": "Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "12–24 hours (Often follows the initial vomiting).",
-      "notes": "Occurs as the toxins move through the digestive tract; may contribute to dehydration which exacerbates kidney stress.Lethargy and Weakness"
+      "notes": "Occurs as the toxins move through the digestive tract; may contribute to dehydration which exacerbates kidney stress."
     },
     {
       "name": "Lethargy, Weakness, or Depression",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "12–24 hours.",
-      "notes": "The cat may appear unusually tired, hide, or refuse to move as kidney function begins to decline and uremic toxins build up in the blood.Polydipsia and Polyuria"
+      "notes": "The cat may appear unusually tired, hide, or refuse to move as kidney function begins to decline and uremic toxins build up in the blood."
     },
     {
       "name": "Increased Thirst (Polydipsia) and Increased Urination (Polyuria)",
@@ -51,7 +51,7 @@
       "body_system": "Renal",
       "severity": "fatal",
       "onset": "12–72 hours (As the condition worsens).",
-      "notes": "This indicates that the kidneys have stopped functioning (shut down). Without immediate emergency intervention, this stage is often fatal. Some cats may be unaffected by grapes, while others develop this condition rapidly; the exact reason for individual sensitivity varies.Anorexia"
+      "notes": "This indicates that the kidneys have stopped functioning (shut down). Without immediate emergency intervention, this stage is often fatal. Some cats may be unaffected by grapes, while others develop this condition rapidly; the exact reason for individual sensitivity varies."
     },
     {
       "name": "Poor Appetite or Refusal to Eat",
@@ -64,20 +64,20 @@
   "treatments": [
     {
       "name": "Induction of Emesis (Vomiting) and Administration of Activated Charcoal",
-      "description": "If the ingestion was recent, the veterinarian will administer prescription medication to induce vomiting, removing the fruit from the stomach before the toxins are fully absorbed45. This is typically followed by the administration of activated charcoal (often with a cathartic) to bind any remaining toxins in the gastrointestinal tract and prevent them from entering the bloodstream",
-      "notes": "Owners should not attempt to induce vomiting at home using salt or hydrogen peroxide, as this is unsafe for cats and can cause severe injury or poisoning4. This procedure is most effective when performed within hours of ingestion. 2. Aggressive Fluid Therapy",
+      "description": "If the ingestion was recent, the veterinarian will administer prescription medication to induce vomiting, removing the fruit from the stomach before the toxins are fully absorbed45. This is typically followed by the administration of activated charcoal (often with a cathartic) to bind any remaining toxins in the gastrointestinal tract and prevent them from entering the bloodstream.",
+      "notes": "Owners should not attempt to induce vomiting at home using salt or hydrogen peroxide, as this is unsafe for cats and can cause severe injury or poisoning4. This procedure is most effective when performed within hours of ingestion.",
       "priority": 1
     },
     {
       "name": "Intravenous (IV) Fluid Diuresis",
-      "description": "The veterinarian will administer IV fluids to correct dehydration and, crucially, to support the kidneys. Fluid therapy helps to \"flush\" the kidneys (diuresis), maintaining urine production and helping to clear toxins from the body",
-      "notes": "Because grapes and raisins target the kidneys, fluid therapy is essential to prevent the onset of anuria (the cessation of urine production), which is a fatal complication of acute renal failure1011. Treatment may need to continue for 48 to 72 hours to ensure the kidneys are protected. 3. Baseline Blood Work and Monitoring",
+      "description": "The veterinarian will administer IV fluids to correct dehydration and, crucially, to support the kidneys. Fluid therapy helps to \"flush\" the kidneys (diuresis), maintaining urine production and helping to clear toxins from the body.",
+      "notes": "Because grapes and raisins target the kidneys, fluid therapy is essential to prevent the onset of anuria (the cessation of urine production), which is a fatal complication of acute renal failure1011. Treatment may need to continue for 48 to 72 hours to ensure the kidneys are protected.",
       "priority": 2
     },
     {
       "name": "Renal Function Monitoring (Biochemistry Profile)",
-      "description": "The veterinary team will run blood tests to establish baseline levels for kidney function, specifically checking creatinine, BUN (blood urea nitrogen), and electrolyte levels5. These tests are repeated (often every 24 hours) to track the progression of the toxicity or the success of the treatment",
-      "notes": "Clinical signs of kidney failure from grapes may not appear immediately; vomiting often starts within 12 hours, but severe renal failure markers may take 24 hours to days to manifest512. Therefore, monitoring is critical even if the cat appears fine initially",
+      "description": "The veterinary team will run blood tests to establish baseline levels for kidney function, specifically checking creatinine, BUN (blood urea nitrogen), and electrolyte levels5. These tests are repeated (often every 24 hours) to track the progression of the toxicity or the success of the treatment.",
+      "notes": "Clinical signs of kidney failure from grapes may not appear immediately; vomiting often starts within 12 hours, but severe renal failure markers may take 24 hours to days to manifest512. Therefore, monitoring is critical even if the cat appears fine initially.",
       "priority": 3
     }
   ],

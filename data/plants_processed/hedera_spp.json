@@ -5,13 +5,13 @@
     {
       "chemical_formula": "Not explicitly provided in the sources.",
       "concentration_notes": "◦ Foliage vs. Berries: While the plant produces black berries, the leaves (foliage) are explicitly cited as being more toxic than the berries. ◦ Severity: Toxicity is generally considered moderate.",
-      "description": "in cats: ◦ Gastrointestinal Irritation: These saponins act as irritants to the gastrointestinal tract. Upon ingestion, they cause abdominal pain, excessive drooling (hypersalivation), vomiting, and diarrhea. ◦ Absorption: One source notes that the toxin is poorly absorbed upon ingestion, which typically limits the toxic effects to gastrointestinal issues rather than systemic organ failure. 4. Note",
+      "description": "◦ Gastrointestinal Irritation: These saponins act as irritants to the gastrointestinal tract. Upon ingestion, they cause abdominal pain, excessive drooling (hypersalivation), vomiting, and diarrhea. ◦ Absorption: One source notes that the toxin is poorly absorbed upon ingestion, which typically limits the toxic effects to gastrointestinal issues rather than systemic organ failure.",
       "name": "Triterpenoid Saponins (specifically identified as Hederagenin and Hederin in the sources)"
     },
     {
       "chemical_formula": "Not explicitly provided in the sources.",
       "concentration_notes": "◦ Like the saponins, these are found within the plant material, with the foliage noted as the more toxic component compared to the berries.",
-      "description": "in cats: ◦ These compounds work in conjunction with hederagenin to cause the clinical signs of toxicity, including vomiting, abdominal pain, and hypersalivation. 4. Notes on",
+      "description": "◦ These compounds work in conjunction with hederagenin to cause the clinical signs of toxicity, including vomiting, abdominal pain, and hypersalivation.",
       "name": "Polyacetylene compounds"
     }
   ],
@@ -67,7 +67,7 @@
     {
       "description": "The immediate step is to prevent further ingestion and remove any remaining plant material from the cat's mouth. The mouth is then thoroughly rinsed with water to wash away the irritating sap and crystals that cause drooling and pain.",
       "name": "Oral Decontamination / Irrigation",
-      "notes": "Because the toxins are poorly absorbed, systemic decontamination (like inducing vomiting) is not always necessary unless a large amount was ingested. Rinsing helps soothe the immediate burning sensation and oral irritation.Fluid Therapy and Electrolyte Correction",
+      "notes": "Because the toxins are poorly absorbed, systemic decontamination (like inducing vomiting) is not always necessary unless a large amount was ingested. Rinsing helps soothe the immediate burning sensation and oral irritation.",
       "priority": 1
     },
     {

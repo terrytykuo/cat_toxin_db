@@ -4,90 +4,72 @@
   "chemicals": [
     {
       "chemical_formula": null,
-      "concentration_notes": null,
-      "description": null,
-      "name": "Based on the provided sources, the primary substance of concern found in chewing gum is the artificial sweetener xylitol. However"
-    },
-    {
-      "chemical_formula": "C",
-      "concentration_notes": "or potency: A single stick of sugar-free gum can contain up to 1 gram of xylitol, which is enough to cause severe poisoning in a small dog10. By contrast, experimental studies have administered massive doses of up to 1,000 mg/kg (1 gram per kilogram of body weight) to cats without inducing any toxic effects or clinical signs of illness25. Despite cats' apparent immunity, veterinarians still strong",
-      "description": "in cats: In dogs, xylitol is exquisitely toxic; it tricks the pancreas into releasing a massive surge of insulin, which rapidly drives down blood sugar (severe hypoglycemia) and can lead to acute liver failure and death2.... However, cats appear to be naturally resistant to xylitol toxicity2. Research—including a 2018 experimental study—has demonstrated that the feline pancreas does not respond to",
+      "concentration_notes": "A single stick of sugar-free gum can contain up to 1 gram of xylitol. This is enough to poison a small dog, but cats tolerated doses up to 1,000 mg/kg with no toxic effects.",
+      "description": "Xylitol is the artificial sweetener in sugar-free gum. It is not toxic to cats. The ASPCA states that people, cats, and ferrets are not negatively affected by xylitol, and a 2018 study found cats had no change in blood sugar, no liver damage, and only transient drooling. The severe insulin surge, hypoglycaemia, and liver failure caused by xylitol are specific to dogs and do not occur in cats.",
       "name": "Xylitol (Artificial Sweetener)"
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: Even a single swallowed piece of gum can pose a choking hazard or cause a gastrointestinal blockage in a small animal like a cat",
-      "description": "in cats: While standard sugary gum or the gum base itself is not chemically toxic, it presents a physical danger. Swallowed chewing gum cannot be broken down by the feline digestive system and can act as a foreign body, potentially causing a dangerous obstruction or blockage in the esophagus, stomach, or intestines11. Any notes on concentration or potency: Even a single swallowed piece of gum can ",
+      "concentration_notes": "Even a single swallowed piece of gum can pose a choking hazard or cause a gastrointestinal blockage in a small animal like a cat.",
+      "description": "Standard sugary gum and the gum base itself are not chemically toxic, but they present a physical danger. Swallowed chewing gum cannot be broken down by the feline digestive system and can act as a foreign body, potentially causing an obstruction or blockage in the esophagus, stomach, or intestines.",
       "name": "Indigestible Gum Base (Physical Hazard)"
     }
   ],
-  "description": "Chewing gum is potentially toxic to cats depending on its ingredients. Sugar-free gum and many mints contain xylitol — an artificial sweetener that is highly toxic to cats and dogs. Xylitol triggers a massive release of insulin from the pancreas, causing dangerous hypoglycaemia, and at higher doses causes liver failure. Regular sugary gum is not chemically toxic but poses a physical hazard.",
-  "emergencyNote": "While experimental studies and poison control records indicate that cats appear to be naturally resistant to xylitol",
+  "description": "Chewing gum is not chemically toxic to cats, but a swallowed piece can still cause problems. The main risk is mechanical: a wad of gum cannot be digested and may cause choking or a gastrointestinal blockage, especially in a small cat.\n\nMany people worry about xylitol, the sweetener in sugar-free gum. Xylitol is genuinely dangerous to dogs, but authorities including the ASPCA state that cats are not negatively affected by it. A 2018 study gave cats doses up to 1,000 mg/kg with no drop in blood sugar, no liver damage, and only brief drooling. So the chemical poisoning seen in dogs does not apply to cats.\n\nThere is still no reason to let a cat eat gum. If a cat swallows gum, watch for drooling, vomiting, reduced appetite, or signs of an obstruction such as repeated retching or straining, and contact a veterinarian if these appear. Keep gum out of reach to avoid the choking and blockage risk.",
+  "emergencyNote": "Cats are not poisoned by xylitol, so a chemical emergency is not expected. The real concern is a swallowed gum mass causing choking or a gastrointestinal blockage. Contact a veterinarian if a cat shows repeated retching, straining, vomiting, or lethargy after swallowing gum.",
   "family": "Various",
-  "isToxic": true,
+  "isToxic": false,
   "name": "Gum",
   "safetyNotes": [
-    "Toxic compounds: xylitol (in sugar-free gum, some mints, and dental products) — check ingredient labels",
-    "Mechanism: xylitol stimulates insulin secretion independent of blood glucose levels, causing severe hypoglycaemia; hepatotoxic at higher doses",
-    "Symptoms: vomiting, weakness, incoordination (ataxia), tremors, seizures (from low blood sugar); liver failure may follow 24–72 hours later",
-    "Regular sugar-based gum: choking hazard and GI obstruction risk from swallowed gum mass; not chemically toxic",
-    "Keep all gum, breath mints, and xylitol-containing products sealed and stored away from cats; any suspected xylitol ingestion is an emergency"
+    "Main hazard is mechanical, not chemical: a swallowed gum wad is indigestible and can cause choking or a gastrointestinal blockage, especially in a small cat",
+    "Xylitol is NOT toxic to cats: the ASPCA states people, cats, and ferrets are not negatively affected by xylitol, and a 2018 study found no hypoglycaemia or liver damage in cats at doses up to 1,000 mg/kg",
+    "The severe hypoglycaemia and liver failure caused by xylitol are a dog-specific risk and do not apply to cats",
+    "Signs to watch for after a cat swallows gum: brief drooling, vomiting, reduced appetite, or signs of obstruction such as repeated retching, straining, or lethargy",
+    "Keep gum and breath mints out of reach to prevent choking and blockage; contact a veterinarian if obstruction signs appear"
   ],
   "scientific_name": "Gum",
-  "severity": "toxic",
+  "severity": "cautious",
   "symptoms": [
-    {
-      "body_system": "Metabolic",
-      "name": "Unlike dogs, who suffer severe and life-threatening reactions to chewing gum containing the artificial sweetener xylitol",
-      "severity": "moderate"
-    },
     {
       "body_system": "Gastrointestinal",
       "name": "Transient Salivation (Drooling)",
-      "notes": "In a 2018 experimental study where cats were given highly toxic oral doses of xylitol (up to 1,000 mg/kg), the cats exhibited no changes in their blood glucose, liver enzymes, or hematological parameters. The animals remained completely well, with transient salivation being the only reported clinica",
+      "notes": "In a 2018 experimental study where cats were given oral doses of xylitol up to 1,000 mg/kg, the cats exhibited no changes in blood glucose, liver enzymes, or hematological parameters. The animals remained well, with transient salivation being the only reported clinical sign.",
       "onset": "Shortly after ingestion.",
       "severity": "mild"
     },
     {
       "body_system": "Gastrointestinal",
-      "name": "Gastrointestinal Upset",
-      "notes": "Very high levels of consumption of artificial sweeteners and sugar substitutes can trigger general stomach upset and gastrointestinal distress in cats7. Additionally, the indigestible gum base itself cannot be broken down and can act as a foreign body, potentially causing a physical gastrointestinal",
+      "name": "Gastrointestinal Upset or Obstruction",
+      "notes": "The indigestible gum base cannot be broken down and can act as a foreign body, potentially causing a physical gastrointestinal obstruction. Watch for vomiting, repeated retching, straining, or reduced appetite.",
       "onset": "Within a few hours.",
       "severity": "moderate"
-    },
-    {
-      "body_system": "Neurological",
-      "name": "Hypoglycemia and Liver Failure (Theoretical / Rare)",
-      "notes": "While scientific studies and major poison control centers report that cats do not react to xylitol with the dangerous insulin surge seen in dogs2..., some veterinary sources still urge extreme caution. Because individual cats may have atypical metabolisms, it is theoretically suggested that xylitol",
-      "onset": "15 to 30 minutes for a drop in blood sugar (though it can be delayed up to 12 hours for products lik",
-      "severity": "fatal"
     }
   ],
   "toxicParts": [],
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": null,
-      "name": "While experimental studies and poison control records indicate that cats appear to be naturally resistant to xylitol",
-      "notes": null,
+      "description": "Because xylitol does not poison cats, treatment focuses on the mechanical risk. Identify how much gum was swallowed and whether the cat is showing any signs of choking or obstruction.",
+      "name": "Assess for Choking or Obstruction Risk",
+      "notes": "No antidote or hypoglycaemia treatment is needed for the xylitol itself in cats; the concern is a swallowed gum mass acting as a foreign body.",
       "priority": 1
     },
     {
-      "description": "of the procedure: If the gum was ingested very recently, the veterinarian will administer a specific injection to make the cat vomit, emptying the stomach to minimize the absorption of any potential toxins7. Any situation-specific",
+      "description": "of the procedure: If the gum was ingested very recently, the veterinarian will administer a specific injection to make the cat vomit, emptying the stomach to minimize the absorption of any potential toxins.",
       "name": "Early Gastrointestinal Decontamination",
-      "notes": "This procedure is only helpful if performed very quickly after ingestion; it is too late to induce vomiting if symptoms have already developed7. Pet owners should never attempt to induce vomiting at home, as there are no safe methods for doing so in cats without professional veterinary care",
+      "notes": "This procedure is only helpful if performed very quickly after ingestion; it is too late to induce vomiting if symptoms have already developed7. Pet owners should never attempt to induce vomiting at home, as there are no safe methods for doing so in cats without professional veterinary care.",
       "priority": 2
     },
     {
-      "description": "of the procedure: If the cat shows symptoms of low blood sugar, they will be admitted to the veterinary clinic as an in-patient for intensive monitoring. The veterinary team will administer fluids containing sugar (dextrose) directly into the cat's veins to stabilize blood glucose levels8. Any situation-specific",
-      "name": "Hypoglycemia Management (If Symptoms Develop)",
-      "notes": "While waiting for veterinary care, if a cat begins to show symptoms of low blood sugar (such as unsteadiness or tremors), owners can provide emergency home first aid by smearing honey, jam, or sugary water on the cat's gums, especially if swallowing is risky",
+      "description": "If a swallowed gum mass causes a gastrointestinal blockage, the veterinarian may use imaging to locate it and, if needed, remove it endoscopically or surgically. Cats do not require hypoglycaemia treatment for xylitol.",
+      "name": "Obstruction Management (If Blockage Develops)",
+      "notes": "Watch for repeated retching, straining, vomiting, abdominal discomfort, or lethargy, which can indicate an obstruction and warrant prompt veterinary care.",
       "priority": 3
     },
     {
-      "description": "of the procedure: The veterinarian will run blood tests to confirm blood glucose levels and perform urinalysis. These tests help identify any instances of internal organ damage (such as liver impairment) and guide the ongoing treatment strategy610. Any situation-specific",
+      "description": "of the procedure: The veterinarian will run blood tests to confirm blood glucose levels and perform urinalysis. These tests help identify any instances of internal organ damage (such as liver impairment) and guide the ongoing treatment strategy610.",
       "name": "Diagnostic Testing and Ongoing Supportive Care",
-      "notes": "In experimental studies where cats were given massive doses of xylitol (up to 1,000 mg/kg), their hematological and biochemical parameters remained unchanged111. Therefore, these diagnostics are largely precautionary to ensure the individual cat is not experiencing an atypical, rare reaction that co",
+      "notes": "In experimental studies where cats were given massive doses of xylitol (up to 1,000 mg/kg), their hematological and biochemical parameters remained unchanged111.",
       "priority": 4
     }
   ]

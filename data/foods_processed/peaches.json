@@ -10,8 +10,8 @@
     },
     {
       "chemical_formula": null,
-      "concentration_notes": "or potency: Amygdalin naturally accumulates in high concentrations within the pits (kernels) of peaches, containing roughly 6.8 g/kg of amygdalin7. The overall cyanogenic potential of peach kernels is extremely high, yielding roughly 710 mg of hydrogen cyanide per kilogram of seed material8. The hydrogen cyanide released from this compound is exceptionally potent; the fatal oral dose is generally",
-      "description": "Amygdalin itself is not directly toxic, but it acts as a precursor to a deadly poison12. When a cat chews or crushes the pit (seed) of a peach, the damaged plant tissue mixes the amygdalin with β-glucosidase enzymes (which are also present in the cat's intestinal microbiota)2. These enzymes hydrolyze the amygdalin, ultimately decomposing it to rapidly release hydrogen cyanide (HCN) int",
+      "concentration_notes": "or potency: Amygdalin naturally accumulates in high concentrations within the pits (kernels) of peaches, containing roughly 6.8 g/kg of amygdalin7. The overall cyanogenic potential of peach kernels is extremely high, yielding roughly 710 mg of hydrogen cyanide per kilogram of seed material.",
+      "description": "Amygdalin itself is not directly toxic, but it acts as a precursor to a deadly poison12. When a cat chews or crushes the pit (seed) of a peach, the damaged plant tissue mixes the amygdalin with β-glucosidase enzymes (which are also present in the cat's intestinal microbiota).",
       "name": "Hydrogen Cyanide is HCN"
     }
   ],
@@ -33,49 +33,49 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Diarrhea and Loose Stools",
-      "notes": "While the fleshy part of the peach is not chemically poisonous, it can still irritate a cat's digestive tract and lead to mild gastrointestinal upset",
+      "notes": "While the fleshy part of the peach is not chemically poisonous, it can still irritate a cat's digestive tract and lead to mild gastrointestinal upset.",
       "onset": "Shortly after ingestion (within a few hours).",
       "severity": "mild"
     },
     {
       "body_system": "Respiratory",
       "name": "Hyperventilation and Difficulty Breathing",
-      "notes": "If a cat chews or crushes the peach pit, the released cyanide binds to cellular enzymes and halts cellular oxygen metabolism12. This effectively suffocates the tissues, forcing the cat to hyperventilate as the body struggles to utilize oxygen",
+      "notes": "If a cat chews or crushes the peach pit, the released cyanide binds to cellular enzymes and halts cellular oxygen metabolism12. This effectively suffocates the tissues, forcing the cat to hyperventilate as the body struggles to utilize oxygen.",
       "onset": "Rapid onset (often within minutes to a few hours after chewing a pit).",
       "severity": "fatal"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Shock, Collapse, and Coma",
-      "notes": "Cyanide is an extremely potent toxin that rapidly starves vital organs (like the brain and heart) of energy, resulting in abnormally low blood pressure, shock, loss of consciousness, coma, and ultimately death if untreated",
+      "notes": "Cyanide is an extremely potent toxin that rapidly starves vital organs (like the brain and heart) of energy, resulting in abnormally low blood pressure, shock, loss of consciousness, coma, and ultimately death if untreated.",
       "onset": "Rapidly following initial respiratory distress.",
       "severity": "fatal"
     },
     {
       "body_system": "Neurological",
       "name": "Neurological Dysfunction (Dizziness, Ataxia, and Confusion)",
-      "notes": "The sudden lack of cellular energy production caused by cyanide poisoning quickly damages nerves and impairs central nervous system function, leading to dizziness, mental confusion, and an inability to walk properly",
+      "notes": "The sudden lack of cellular energy production caused by cyanide poisoning quickly damages nerves and impairs central nervous system function, leading to dizziness, mental confusion, and an inability to walk properly.",
       "onset": "Rapid onset.",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting and Nausea",
-      "notes": "Vomiting can occur either as an initial reaction to the cyanide toxicity from the pit or simply as a response to gastrointestinal irritation",
+      "notes": "Vomiting can occur either as an initial reaction to the cyanide toxicity from the pit or simply as a response to gastrointestinal irritation.",
       "onset": "Shortly after ingestion (within 30 minutes to a few hours).",
       "severity": "moderate"
     },
     {
       "body_system": "Hematological",
       "name": "Cherry-Red Skin or Mucous Membranes",
-      "notes": "Because cyanide blocks the cells from extracting oxygen from the bloodstream, the venous blood remains fully oxygenated. This clinical hallmark causes the cat's skin, gums, and mucous membranes to turn an abnormally bright, cherry-red color",
+      "notes": "Because cyanide blocks the cells from extracting oxygen from the bloodstream, the venous blood remains fully oxygenated. This clinical hallmark causes the cat's skin, gums, and mucous membranes to turn an abnormally bright, cherry-red color.",
       "onset": "Rapid onset.",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Gastrointestinal or Throat Obstruction (Physical Hazard)",
-      "notes": "Aside from the chemical dangers of a crushed seed, swallowing an intact, hard peach pit poses a major mechanical hazard2. The pit can easily become lodged in the cat's throat, causing immediate choking, or block the intestinal tract, requiring emergency surgical removal",
+      "notes": "Aside from the chemical dangers of a crushed seed, swallowing an intact, hard peach pit poses a major mechanical hazard2. The pit can easily become lodged in the cat's throat, causing immediate choking, or block the intestinal tract, requiring emergency surgical removal.",
       "onset": "Immediate (if lodged in the throat) or variable (taking hours to days if lodged in the intestinal tr",
       "severity": "severe"
     }
@@ -93,33 +93,33 @@
       "priority": 1
     },
     {
-      "description": "of the procedure: Placing the cat in an oxygen cage or providing flow-by oxygen to maximize the oxygen available in the bloodstream. Any situation-specific",
+      "description": "of the procedure: Placing the cat in an oxygen cage or providing flow-by oxygen to maximize the oxygen available in the bloodstream.",
       "name": "Supplemental Oxygen Therapy (Life-Saving Stabilization)",
       "notes": "This is the highest priority for a symptomatic cat. The cyanide released by crushed peach pits is a potent inhibitor of cellular enzymes, halting cellular ATP production and compromising the body's oxygen-carrying capacity14. Oxygen therapy is strictly required to combat this systemic suffocation.",
       "priority": 2
     },
     {
-      "description": "of the procedure: A veterinarian administers an α 2 ​ -adrenergic agonist, such as dexmedetomidine, to safely force the cat to vomit and expel the peach pit from the stomach before it can release more cyanide or cause a blockage3. Any situation-specific",
+      "description": "of the procedure: A veterinarian administers an α 2 ​ -adrenergic agonist, such as dexmedetomidine, to safely force the cat to vomit and expel the peach pit from the stomach before it can release more cyanide or cause a blockage.",
       "name": "Induction of Emesis (Early Gastrointestinal Decontamination)",
-      "notes": "This intervention is the primary goal if the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic3. Pet owners must never attempt to use hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated for cats and can cause fatal hemorrhagic gastriti",
+      "notes": "This intervention is the primary goal if the ingestion is caught very early (within 1 to 2 hours) and the cat is still asymptomatic.",
       "priority": 3
     },
     {
-      "description": "of the procedure: Administering oral activated charcoal to bind to and adsorb any residual toxins remaining in the stomach and gastrointestinal tract3. Any situation-specific",
+      "description": "of the procedure: Administering oral activated charcoal to bind to and adsorb any residual toxins remaining in the stomach and gastrointestinal tract.",
       "name": "Administration of Activated Charcoal (Secondary Decontamination)",
-      "notes": "This is typically administered immediately following successful emesis to trap any remaining cyanogenic compounds in the gut and prevent them from being absorbed into the bloodstream",
+      "notes": "This is typically administered immediately following successful emesis to trap any remaining cyanogenic compounds in the gut and prevent them from being absorbed into the bloodstream.",
       "priority": 4
     },
     {
-      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to maintain perfusion and support failing organ systems4. Any situation-specific",
+      "description": "of the procedure: Hospitalizing the cat to administer continuous IV fluids to maintain perfusion and support failing organ systems.",
       "name": "Intravenous (IV) Fluid Therapy and Supportive Care",
-      "notes": "Because there is no specific antidote available for cyanide toxicity in felines, aggressive IV fluid therapy and intensive supportive care are essential to sustain the cat through the resulting shock",
+      "notes": "Because there is no specific antidote available for cyanide toxicity in felines, aggressive IV fluid therapy and intensive supportive care are essential to sustain the cat through the resulting shock.",
       "priority": 5
     },
     {
-      "description": "of the procedure: Utilizing an endoscope or performing abdominal surgery to physically extract an intact peach pit from the digestive tract. Any situation-specific",
+      "description": "of the procedure: Utilizing an endoscope or performing abdominal surgery to physically extract an intact peach pit from the digestive tract.",
       "name": "Surgical or Endoscopic Removal (Obstruction Management)",
-      "notes": "While crushed peach pits release deadly cyanide, swallowing a hard, intact pit presents a major physical hazard. Peach seeds have the potential to become lodged in the cat's throat or intestinal tract, causing a dangerous mechanical obstruction that requires physical removal",
+      "notes": "While crushed peach pits release deadly cyanide, swallowing a hard, intact pit presents a major physical hazard. Peach seeds have the potential to become lodged in the cat's throat or intestinal tract, causing a dangerous mechanical obstruction that requires physical removal.",
       "priority": 6
     }
   ]

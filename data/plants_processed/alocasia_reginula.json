@@ -20,7 +20,7 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate.",
-      "notes": "This is a physiological response to the acute pain and burning sensation in the oral cavity.Vomiting"
+      "notes": "This is a physiological response to the acute pain and burning sensation in the oral cavity."
     },
     {
       "name": "Vomiting",
@@ -48,14 +48,14 @@
     {
       "name": "Insoluble Calcium Oxalate Crystals",
       "chemical_formula": null,
-      "description": "in cats: ◦ Mechanical Damage: These crystals form needle-like structures known as raphides. When a cat bites or chews into the plant tissue, specialized cells (idioblasts) forcefully eject these microscopic needles into the soft tissues of the mouth, tongue, and throat. ◦ Inflammatory Response: This penetration causes immediate and intense physical trauma, leading to severe burning, irritation, an",
+      "description": "◦ Mechanical Damage: These crystals form needle-like structures known as raphides. When a cat bites or chews into the plant tissue, specialized cells (idioblasts) forcefully eject these microscopic needles into the soft tissues of the mouth, tongue, and throat.",
       "concentration_notes": "◦ Distribution: These crystals are found in all parts of the plant. ◦ Potency: The reaction is immediate and painful, often described as \"moderate\" severity because the intense pain typically prevents the cat from consuming a lethal amount. However, severe swelling can potentially obstruct the airway."
     },
     {
       "name": "Proteinaceous Toxins (or proteolytic enzymes)",
       "chemical_formula": "Not applicable (complex proteins).",
-      "description": "in cats: ◦ The sources indicate that Alocasia species may contain proteinaceous toxins alongside the oxalate crystals. These toxins are released when the plant is damaged and can exacerbate the inflammatory response caused by the crystals, contributing to the intense pain and swelling. 4. Notes on",
-      "concentration_notes": "◦ Distribution: Present in leaves, stems, and tubers. ◦ Potency: These compounds work synergistically with the calcium oxalate crystals to increase the severity of the irritation.• Cat toxicity chart for 50 popular houseplants1 • Houseplants and Ornamentals Toxic to Animals - Toxicology - Merck Veterinary Manual"
+      "description": "◦ The sources indicate that Alocasia species may contain proteinaceous toxins alongside the oxalate crystals. These toxins are released when the plant is damaged and can exacerbate the inflammatory response caused by the crystals, contributing to the intense pain and swelling.",
+      "concentration_notes": "◦ Distribution: Present in leaves, stems, and tubers. ◦ Potency: These compounds work synergistically with the calcium oxalate crystals to increase the severity of the irritation."
     }
   ],
   "treatments": [

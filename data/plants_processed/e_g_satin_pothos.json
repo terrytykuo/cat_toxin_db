@@ -4,12 +4,12 @@
   "chemicals": [
     {
       "chemical_formula": "Not provided in the given sources.",
-      "concentration_notes": "The insoluble calcium oxalate crystals are found throughout all parts of the Silver Leaf Philodendron15. The overall toxicity is generally considered moderate1. Because biting the plant causes immediate and intense oral pain, cats typically stop chewing it very quickly, which naturally limits the amount they consume and prevents more severe systemic issues",
-      "description": "in cats: These insoluble crystals are bundled tightly inside specialized plant cells called idioblasts3. When a cat chews or crushes the plant, these cells are mechanically ruptured, which forcefully ejects the sharp, needle-like crystals into the cat's oral mucosa and gastrointestinal tract23. This acts as a physical irritant rather than a chemical poison, penetrating the delicate tissues and cau",
+      "concentration_notes": "The insoluble calcium oxalate crystals are found throughout all parts of the Silver Leaf Philodendron15. The overall toxicity is generally considered moderate1. Because biting the plant causes immediate and intense oral pain, cats typically stop chewing it very quickly, which naturally limits the amount they consume and prevents more severe systemic issues.",
+      "description": "These insoluble crystals are bundled tightly inside specialized plant cells called idioblasts3. When a cat chews or crushes the plant, these cells are mechanically ruptured, which forcefully ejects the sharp, needle-like crystals into the cat's oral mucosa and gastrointestinal tract.",
       "name": "Insoluble calcium oxalates (specifically in the form of sharp, needle-like crystals known as raphides)"
     }
   ],
-  "description": "Silver Leaf Philodendron, often sold as Satin Pothos (Scindapsus pictus), is a trailing houseplant with silver-patterned leaves. It is not safe for cats, especially if they chew the leaves or stems.\n\nThe main risk comes from insoluble calcium oxalate crystals, also called raphides. These are tiny, needle-like crystals stored inside the plant tissue. When a cat bites the plant, the crystals can scratch and irritate the mouth, tongue, and throat. The sap may also contain enzymes that make the burning and swelling feel worse.\n\nMost cats stop after a bite because the pain starts quickly, but symptoms can still be dramatic: drooling, pawing at the mouth, swollen lips or tongue, vomiting, or trouble swallowing. Keep satin pothos and similar trailing vines out of reach. If your cat chews the plant, rinse the mouth gently with water if you can do so safely, and contact a veterinarian if swelling, vomiting, or breathing trouble appears.",
+  "description": "Silver Leaf Philodendron (Scindapsus pictus), also known as Satin Pothos, is a popular houseplant that is toxic to cats. Its leaves and stems contain tiny, sharp, needle-like crystals called insoluble calcium oxalates. These crystals are a physical irritant, not a chemical poison.\n\nWhen a cat chews or bites the plant, these sharp crystals are released from the plant's cells and embed themselves into the sensitive tissues of the cat's mouth, tongue, and throat. This causes immediate and intense pain, burning, and swelling. The sap can also contain compounds that make the irritation worse.\n\nBecause the pain is immediate, most cats will stop chewing right away. Symptoms include heavy drooling, pawing at the face, swollen lips or tongue, and sometimes vomiting. If you see your cat chew this plant, gently rinse their mouth with water if possible. Contact your veterinarian if the swelling is severe, if your cat has trouble breathing, or if vomiting persists.",
   "emergencyNote": "Airway Security and Oxygen Support",
   "family": "Araceae",
   "isToxic": true,
@@ -26,41 +26,41 @@
     {
       "body_system": "Gastrointestinal",
       "name": "Intense oral irritation, burning sensation, pain, pawing at the mouth, and localized swelling (edema) of the tongue and pharynx",
-      "notes": "This is a direct physical reaction caused by sharp, needle-like insoluble calcium oxalate crystals penetrating the delicate mucous membranes of the mouth2.... 2. Hypersalivation",
+      "notes": "This is a direct physical reaction caused by sharp, needle-like insoluble calcium oxalate crystals penetrating the delicate mucous membranes of the mouth.",
       "onset": "Immediate (upon chewing or ingestion)",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Excessive salivation (drooling)",
-      "notes": "Drooling is triggered by the intense burning and irritation in the mouth; you may also notice the cat frantically pawing at its face due to the discomfort15. 3. Gastrointestinal Upset and Anorexia",
+      "notes": "Drooling is triggered by the intense burning and irritation in the mouth; you may also notice the cat frantically pawing at its face due to the discomfort.",
       "onset": "Immediate",
       "severity": "moderate"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Vomiting, retching, and lack of appetite (decreased appetite)",
-      "notes": "The cat's refusal to eat is largely due to the severe oral discomfort, while vomiting and retching are caused by the crystals physically irritating the gastrointestinal tract if swallowed2.... 4. Dyspnea (Difficulty Breathing)",
+      "notes": "The cat's refusal to eat is largely due to the severe oral discomfort, while vomiting and retching are caused by the crystals physically irritating the gastrointestinal tract if swallowed.",
       "onset": "Shortly after ingestion",
       "severity": "moderate"
     },
     {
       "body_system": "Respiratory",
       "name": "Dyspnea and swelling of the upper airways",
-      "notes": "This is a rarer but serious complication that occurs if the localized inflammation and swelling (edema) in the throat become severe enough to block the air passages1.... 5. Neurological Abnormalities",
+      "notes": "This is a rarer but serious complication that occurs if the localized inflammation and swelling (edema) in the throat become severe enough to block the air passages.",
       "onset": "Rapidly following exposure (as tissue swelling develops)",
       "severity": "severe"
     },
     {
       "body_system": "Gastrointestinal",
       "name": "Excitability, nervous spasms, convulsions, and occasional encephalitis",
-      "notes": "While plants containing insoluble oxalates typically only cause localized oral irritation, these specific, severe neurological signs have been reported specifically in cats after ingesting Philodendron species3. 6. Renal Failure",
+      "notes": "While plants containing insoluble oxalates typically only cause localized oral irritation, these specific, severe neurological signs have been reported specifically in cats after ingesting Philodendron species.",
       "severity": "severe"
     },
     {
       "body_system": "Renal",
       "name": "Renal failure",
-      "notes": "Although insoluble calcium oxalates are generally known as gastrointestinal irritants that do not cause systemic organ damage, the Merck Veterinary Manual explicitly notes that renal failure has been reported in cats following the ingestion of Philodendron",
+      "notes": "Although insoluble calcium oxalates are generally known as gastrointestinal irritants that do not cause systemic organ damage, the Merck Veterinary Manual explicitly notes that renal failure has been reported in cats following the ingestion of Philodendron.",
       "severity": "severe"
     }
   ],
@@ -70,21 +70,21 @@
   "toxicityLevel": "mild",
   "treatments": [
     {
-      "description": "The veterinary team will monitor the cat's breathing, secure an open airway, and provide oxygen support if necessary",
+      "description": "The veterinary team will monitor the cat's breathing, secure an open airway, and provide oxygen support if necessary.",
       "name": "Airway Security and Oxygen Support",
-      "notes": "This is the most urgent potential intervention but is typically only required in severe cases. The insoluble calcium oxalate crystals in Silver Leaf Philodendron can cause intense inflammation and swelling (edema) of the tongue and laryngeal region (pharynx/throat), which can occasionally be severe ",
+      "notes": "This is the most urgent potential intervention but is typically only required in severe cases. The insoluble calcium oxalate crystals in Silver Leaf Philodendron can cause intense inflammation and swelling (edema) of the tongue and laryngeal region (pharynx/throat), which can occasionally be severe.",
       "priority": 1
     },
     {
-      "description": "Any remaining plant fragments are removed from the cat's mouth, and the oral cavity is rinsed with water or wiped out to remove the sharp, needle-like oxalate crystals14. The administration of milk or other calcium-containing dairy products may also be utilized",
+      "description": "Any remaining plant fragments are removed from the cat's mouth, and the oral cavity is rinsed with water or wiped out to remove the sharp, needle-like oxalate crystals14. The administration of milk or other calcium-containing dairy products may also be utilized.",
       "name": "Oral Rinsing and Clearance",
-      "notes": "Administering dairy is helpful because the calcium binds to the insoluble oxalates, aiding in clearing the irritating crystals from the mouth and esophagus1. Because chewing the plant causes immediate and intense pain, cats rarely consume large amounts, making this simple decontamination step suffic",
+      "notes": "Administering dairy is helpful because the calcium binds to the insoluble oxalates, aiding in clearing the irritating crystals from the mouth and esophagus.",
       "priority": 2
     },
     {
-      "description": "The veterinarian will treat the cat based on the specific clinical signs that develop. This may include administering pain relief and anti-nausea medications to manage localized discomfort, vomiting, and refusal to eat",
+      "description": "The veterinarian will treat the cat based on the specific clinical signs that develop. This may include administering pain relief and anti-nausea medications to manage localized discomfort, vomiting, and refusal to eat.",
       "name": "Symptomatic Medical Management",
-      "notes": "While insoluble oxalates usually only act as localized physical irritants, Philodendron ingestions are uniquely noted to occasionally cause severe systemic complications in cats. The veterinary team may need to provide targeted symptomatic care if the cat develops rare but serious reported side effe",
+      "notes": "While insoluble oxalates usually only act as localized physical irritants, Philodendron ingestions are uniquely noted to occasionally cause severe systemic complications in cats.",
       "priority": 3
     }
   ]

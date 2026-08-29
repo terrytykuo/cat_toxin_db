@@ -29,40 +29,40 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Short-term (typically within hours to a few days,",
-      "notes": "These symptoms are primarily caused by foodborne bacteria, such as Salmonella and E. coli, which frequently contaminate raw eggs1."
+      "notes": "These symptoms are primarily caused by foodborne bacteria, such as Salmonella and E. coli, which frequently contaminate raw eggs."
     },
     {
       "name": "Dermatological Lesions and Coat Degradation",
       "body_system": "Dermal",
       "severity": "severe",
       "onset": "Chronic / Delayed (develops over time with repeated, chronic consumption).",
-      "notes": "This is the direct result of the protein avidin, which is found in raw egg whites. Avidin binds tightly to biotin (Vitamin B7) in the cat's digestive tract, preventing absorption and causing a functional vitamin deficiency that severely impacts the skin, hair, and coat3. It can also result in brittle, splitting nails"
+      "notes": "This is the direct result of the protein avidin, which is found in raw egg whites. Avidin binds tightly to biotin (Vitamin B7) in the cat's digestive tract, preventing absorption and causing a functional vitamin deficiency that severely impacts the skin, hair, and coat3. It can also result in brittle, splitting nails."
     },
     {
       "name": "Lethargy and Fatigue",
       "body_system": "Neurological",
       "severity": "moderate",
       "onset": "Variable (can present acutely alongside gastrointestinal symptoms, or chronically).",
-      "notes": "Lethargy and drowsiness are commonly observed as an acute systemic response to the foodborne pathogens (Salmonella or E. coli)34. Additionally, chronic biotin deficiency caused by avidin can manifest as prolonged low mood and fatigue over time, since biotin is critical for energy metabolism"
+      "notes": "Lethargy and drowsiness are commonly observed as an acute systemic response to the foodborne pathogens (Salmonella or E. coli)34. Additionally, chronic biotin deficiency caused by avidin can manifest as prolonged low mood and fatigue over time, since biotin is critical for energy metabolism."
     }
   ],
   "treatments": [
     {
       "name": "1. Induction of Emesis (Early Gastrointestinal Decontamination)",
-      "description": "of the procedure: If the ingestion of raw eggs is caught very early (typically within 1 to 2 hours) and the cat is still asymptomatic, a veterinarian may administer a feline-specific α 2 ​ -adrenergic agonist, such as dexmedetomidine, to safely induce vomiting and expel the raw egg material from the stomach1. Any situation-specific",
-      "notes": "This is the primary goal for early intervention of feline dietary toxicoses1. Pet owners must never attempt to use hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated in cats and can cause fatal hemorrhagic gastritis",
+      "description": "of the procedure: If the ingestion of raw eggs is caught very early (typically within 1 to 2 hours) and the cat is still asymptomatic, a veterinarian may administer a feline-specific α 2 ​ -adrenergic agonist, such as dexmedetomidine, to safely induce vomiting and expel the raw egg material from the stomach.",
+      "notes": "This is the primary goal for early intervention of feline dietary toxicoses1. Pet owners must never attempt to use hydrogen peroxide to induce vomiting at home, as it is strictly contraindicated in cats and can cause fatal hemorrhagic gastritis.",
       "priority": 1
     },
     {
       "name": "Intravenous (IV) Fluid Therapy and Supportive Care",
-      "description": "of the procedure: The cat may be hospitalized to receive continuous intravenous fluids (a drip) and undergo blood tests to closely monitor organ function while symptoms resolve2. Any situation-specific",
-      "notes": "This supportive treatment is generally required if the cat develops severe gastrointestinal distress (vomiting and diarrhea) caused by foodborne pathogens, such as Salmonella or E. coli, commonly associated with raw eggs",
+      "description": "of the procedure: The cat may be hospitalized to receive continuous intravenous fluids (a drip) and undergo blood tests to closely monitor organ function while symptoms resolve.",
+      "notes": "This supportive treatment is generally required if the cat develops severe gastrointestinal distress (vomiting and diarrhea) caused by foodborne pathogens, such as Salmonella or E. coli, commonly associated with raw eggs.",
       "priority": 2
     },
     {
       "name": "Dietary Correction and Monitoring (For Chronic Ingestion)",
-      "description": "of the procedure: Completely removing raw eggs from the cat's diet and conducting a comprehensive dietary analysis to ensure micronutrient sufficiency5. Any situation-specific",
-      "notes": "This is a critical step if the cat has chronically consumed raw egg whites, as the glycoprotein avidin tightly binds to biotin (Vitamin B7) and prevents its absorption67. The veterinarian will monitor for signs of functional biotin deficiency, which include scaly dermatitis, poor coat quality, and hair loss around the eyes78. Thoroughly cooking eggs neutralizes the avidin, rendering them safe",
+      "description": "of the procedure: Completely removing raw eggs from the cat's diet and conducting a comprehensive dietary analysis to ensure micronutrient sufficiency.",
+      "notes": "This is a critical step if the cat has chronically consumed raw egg whites, as the glycoprotein avidin tightly binds to biotin (Vitamin B7) and prevents its absorption67. The veterinarian will monitor for signs of functional biotin deficiency, which include scaly dermatitis, poor coat quality, and hair loss around the eyes78. Thoroughly cooking eggs neutralizes the avidin, rendering them safe.",
       "priority": 3
     }
   ],

@@ -77,8 +77,8 @@
     {
       "name": "Phenanthridine alkaloids, with Lycorine being the specific alkaloid frequently identified",
       "chemical_formula": null,
-      "description": "in cats: ◦ Gastrointestinal: These alkaloids have strong emetic properties, meaning they trigger vomiting and gastrointestinal upset (salivation, abdominal pain, diarrhea)45. ◦ Systemic: Upon significant ingestion, the toxins affect the cardiovascular and neurological systems. They can cause hypotension (low blood pressure), respiratory depression, and central nervous system excitation, resulting ",
-      "concentration_notes": "◦ These alkaloids are present in all parts of the plant, including the stalks, flowers, and leaves25. ◦ The toxins are most concentrated in the bulbs, making the bulb the most dangerous part of the plant to ingest2.... ◦ Ingesting the bulb is significantly more likely to lead to severe systemic signs (low blood pressure, tremors) compared to ingesting the leaves, which typically causes milder gast"
+      "description": "◦ Gastrointestinal: These alkaloids have strong emetic properties, meaning they trigger vomiting and gastrointestinal upset (salivation, abdominal pain, diarrhea)45. ◦ Systemic: Upon significant ingestion, the toxins affect the cardiovascular and neurological systems.",
+      "concentration_notes": "◦ These alkaloids are present in all parts of the plant, including the stalks, flowers, and leaves25. ◦ The toxins are most concentrated in the bulbs, making the bulb the most dangerous part of the plant to ingest."
     }
   ],
   "treatments": [
