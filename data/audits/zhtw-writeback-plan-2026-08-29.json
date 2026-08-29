@@ -1,0 +1,2723 @@
+{
+  "generated_at": "2026-08-29",
+  "liveDocs": 211,
+  "counts": {
+    "UPDATE": 184,
+    "NO_LOCAL": 8,
+    "NO_CHANGE": 18,
+    "CREATE_L10N": 1
+  },
+  "entries": {
+    "abrus_precatorius": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 1,
+      "hidden": false,
+      "legacySymptoms": 1,
+      "fstoreSymptoms": 1,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "adenium_obesum": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "aliases",
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "agapanthus_orientalis_or_agapanthus_africanus": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "agave_americana": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "name"
+      ],
+      "deletions": []
+    },
+    "aglaonema_modestum": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "name",
+        "aliases"
+      ],
+      "deletions": []
+    },
+    "alcohol": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "allamanda_cathartica": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "allium_schoenoprasum": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "aliases"
+      ],
+      "deletions": []
+    },
+    "alocasia_reginula": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "aliases",
+        "description"
+      ],
+      "deletions": []
+    },
+    "aloe_barbadensis_or_aloe_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "alstroemeria_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 2,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "anthurium_hookeri": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "aliases",
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "anthurium_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "name",
+        "description"
+      ],
+      "deletions": []
+    },
+    "apples__apple_seeds": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "apricots": {
+      "bucket": "NO_LOCAL",
+      "winnerSource": null,
+      "enSymptomCount": 7,
+      "hidden": true,
+      "legacySymptoms": null,
+      "fstoreSymptoms": null,
+      "changedFields": [],
+      "deletions": []
+    },
+    "areca-palm": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description"
+      ],
+      "deletions": []
+    },
+    "arum_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "asclepias_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "asparagus_densiflorus": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "aucuba_japonica": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 1,
+      "hidden": false,
+      "legacySymptoms": 1,
+      "fstoreSymptoms": 1,
+      "changedFields": [
+        "aliases",
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "averrhoa_carambola": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": true,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": null,
+      "changedFields": [
+        "name",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "avocado": {
+      "bucket": "NO_LOCAL",
+      "winnerSource": null,
+      "enSymptomCount": 4,
+      "hidden": true,
+      "legacySymptoms": null,
+      "fstoreSymptoms": null,
+      "changedFields": [],
+      "deletions": []
+    },
+    "basil": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "begonia_maculata": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "name",
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "begonia_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "bones": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "boston-fern": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "brugmansia_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "name",
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "brunfelsia_pauciflora_floribunda": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "caffeinated_drinks__soda": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "caladium_spp_or_alocasia_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "calathea": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "aliases"
+      ],
+      "deletions": []
+    },
+    "candied_fruits": {
+      "bucket": "NO_LOCAL",
+      "winnerSource": null,
+      "enSymptomCount": 6,
+      "hidden": true,
+      "legacySymptoms": null,
+      "fstoreSymptoms": null,
+      "changedFields": [],
+      "deletions": []
+    },
+    "candies": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 7,
+      "hidden": false,
+      "legacySymptoms": 7,
+      "fstoreSymptoms": 8,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "cannabis_sativa": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 8,
+      "hidden": false,
+      "legacySymptoms": 8,
+      "fstoreSymptoms": 8,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "capsicum_annuum": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 7,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "cast-iron-plant": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "aliases"
+      ],
+      "deletions": []
+    },
+    "cat-grass": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "catharanthus_reseus": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "celastrus_scandens": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "cercocarpus_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "cherries": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "chlorophytum_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 1,
+      "hidden": false,
+      "legacySymptoms": 1,
+      "fstoreSymptoms": 1,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "chocolate": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "chrysanthemum_morifolium": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "aliases",
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "cinnamomum_verum": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "citrus_fruits_oranges_tangerines_lemons_pomelos": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "citrus_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 7,
+      "hidden": false,
+      "legacySymptoms": 7,
+      "fstoreSymptoms": 7,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "clivia_miniata": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "cocoa": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "codiaeum_variegatum": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "coffee": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "colchicum_autumnale": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 7,
+      "hidden": false,
+      "legacySymptoms": 7,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "convallaria_majalis": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "corn_on_the_cob": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "name"
+      ],
+      "deletions": []
+    },
+    "crassula_arborescens_or_crassula": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [],
+      "deletions": []
+    },
+    "crocus_vernus": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "cycas_revoluta_cycas_cirinalis_zamia_spp": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [],
+      "deletions": []
+    },
+    "cycas_spp_or_zamia_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "aliases",
+        "description"
+      ],
+      "deletions": []
+    },
+    "cyclamen_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "dahlia_pinnata": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 2,
+      "changedFields": [
+        "aliases",
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "darlingtonia_californica": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 1,
+      "hidden": false,
+      "legacySymptoms": 1,
+      "fstoreSymptoms": 1,
+      "changedFields": [],
+      "deletions": []
+    },
+    "dianthus_caryophyllus": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 2,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "dieffenbachia_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "digitalis_purpurea": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [],
+      "deletions": []
+    },
+    "dracaena_fragrans": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description"
+      ],
+      "deletions": []
+    },
+    "dracaena_marginata_or_dracaena_spp": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": true,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [],
+      "deletions": []
+    },
+    "dracaena_sanderiana": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "dracaena_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "eg_satin_pothos": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [],
+      "deletions": []
+    },
+    "epipremnum_aureum_or_epipremnum_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "name",
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "eucalyptus": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "name",
+        "description"
+      ],
+      "deletions": []
+    },
+    "euphorbia_pulcherrima": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "name",
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "ficus_benghalensis": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [],
+      "deletions": []
+    },
+    "ficus_elastica": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [],
+      "deletions": []
+    },
+    "ficus_lyrata": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "ficus_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "name",
+        "description"
+      ],
+      "deletions": []
+    },
+    "gardenia_jasminoides": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [],
+      "deletions": []
+    },
+    "garlic": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 9,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 9,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "gerbera-daisy": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [],
+      "deletions": []
+    },
+    "gladiolus_spp": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [],
+      "deletions": []
+    },
+    "green_tomatoes": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 7,
+      "hidden": false,
+      "legacySymptoms": 7,
+      "fstoreSymptoms": 7,
+      "changedFields": [
+        "name",
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "gum": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "hedera_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "helleborus_niger": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "hemerocallis_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "hippeastrum_spp_or_amaryllis_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 9,
+      "hidden": false,
+      "legacySymptoms": 9,
+      "fstoreSymptoms": 9,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "homalomena_selby": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "name",
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "honeysuckle": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "hummingbird_mint": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "hyacinthoides_nonscripta": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "hyacinthus_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "hydrangea_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "ilex": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "ilex_aquifolium": {
+      "bucket": "CREATE_L10N",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": true,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": null,
+      "changedFields": [],
+      "deletions": []
+    },
+    "indian_borage": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "iris": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "jelly": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "jimson_weed": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "aliases",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "kalanchoe_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "kalmia_latifolia": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "lantana": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "lavandula": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "leeks": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 9,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 9,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "lemon_mint": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "name",
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "lilium_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "lisianthus": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "liver": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "lyonia_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "name",
+        "description"
+      ],
+      "deletions": []
+    },
+    "macadamia_nuts": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 7,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 7,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "malus_spp": {
+      "bucket": "NO_LOCAL",
+      "winnerSource": null,
+      "enSymptomCount": 6,
+      "hidden": true,
+      "legacySymptoms": null,
+      "fstoreSymptoms": null,
+      "changedFields": [],
+      "deletions": []
+    },
+    "matricaria_chamomilla": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 1,
+      "hidden": false,
+      "legacySymptoms": 1,
+      "fstoreSymptoms": 1,
+      "changedFields": [
+        "aliases",
+        "description"
+      ],
+      "deletions": []
+    },
+    "meat_jerky_dried_squid_and_dried_fish": {
+      "bucket": "NO_LOCAL",
+      "winnerSource": null,
+      "enSymptomCount": 5,
+      "hidden": true,
+      "legacySymptoms": null,
+      "fstoreSymptoms": null,
+      "changedFields": [],
+      "deletions": []
+    },
+    "mentha__piperita": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "mentha_pulegium": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "mentha_requienii": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "mentha_spicata": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "mentha_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "mentha_x_piperita_chocolate": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "milk_and_dairy_products": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "monstera_adansonii": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "monstera_deliciosa_or_monstera_adansonii": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "morning_glory": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 2,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "nandina_photina_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "nandina_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "narcissus_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "description",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "nerium_oleander": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "nightshade": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "nymphaeaceae_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 2,
+      "changedFields": [
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "onions": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 8,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 8,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "orange_mint": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "ornithogalum_umbellatum": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "oxalis_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "pastries_radish_cake_rice_cake_pineapple_cake_mochi": {
+      "bucket": "NO_LOCAL",
+      "winnerSource": null,
+      "enSymptomCount": 3,
+      "hidden": true,
+      "legacySymptoms": null,
+      "fstoreSymptoms": null,
+      "changedFields": [],
+      "deletions": []
+    },
+    "peaches": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 7,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 7,
+      "changedFields": [
+        "description",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "peanuts": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "peony": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "persea_americana": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "persimmons": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 1,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 1,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "phalaenopsis-orchid": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "philodendron_spp_including_birkin": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "phoradendron_flavescens": {
+      "bucket": "NO_LOCAL",
+      "winnerSource": null,
+      "enSymptomCount": 5,
+      "hidden": true,
+      "legacySymptoms": null,
+      "fstoreSymptoms": null,
+      "changedFields": [],
+      "deletions": []
+    },
+    "phoradendron_spp_or_viscum": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "pieris_japonica": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "pine": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 2,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "pistachios": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 2,
+      "changedFields": [
+        "description",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "plums": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 7,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 7,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "poppy": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "potato_chips": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "pretzels": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "prunus_laurocerasus": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "prunus_serotina": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "aliases",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "prunus_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "name",
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "pudding": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "ragwort__tansy": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 1,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 1,
+      "changedFields": [
+        "name",
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "raw_dough": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "raw_eggs__raw_egg_whites": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "raw_fish": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "raw_meat": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "rheum_rhabarbarum": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "rhododendron_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "ricinus_communis": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [],
+      "deletions": []
+    },
+    "rose": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "rosemary": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "rumex_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "sage": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [],
+      "deletions": []
+    },
+    "salt": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "sambucus_spp_including_sambucus_nigra_and_sambucus_racemosa": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [],
+      "deletions": []
+    },
+    "sansevieria_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 2,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "scadoxus_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description",
+        "safetyNotes",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "scallions__green_onions": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 9,
+      "hidden": false,
+      "legacySymptoms": 9,
+      "fstoreSymptoms": 9,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "schefflera_spp_or_schefflera_actinphylla": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "schlumbergera_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 1,
+      "hidden": false,
+      "legacySymptoms": 1,
+      "fstoreSymptoms": 1,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description"
+      ],
+      "deletions": []
+    },
+    "senecio": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "shallots": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 9,
+      "hidden": false,
+      "legacySymptoms": 9,
+      "fstoreSymptoms": 9,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "snapdragon": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "name",
+        "aliases"
+      ],
+      "deletions": []
+    },
+    "solanum_lycopersicum": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "solanum_melongena": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 3,
+      "hidden": false,
+      "legacySymptoms": 3,
+      "fstoreSymptoms": 3,
+      "changedFields": [],
+      "deletions": []
+    },
+    "solanum_pseudocapsicum": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "solanum_tuberosum": {
+      "bucket": "NO_LOCAL",
+      "winnerSource": null,
+      "enSymptomCount": 5,
+      "hidden": true,
+      "legacySymptoms": null,
+      "fstoreSymptoms": null,
+      "changedFields": [],
+      "deletions": []
+    },
+    "spathiphyllum_spp_or_spathiphyllum_wallisii": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "strelitzia_reginae": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "sugar": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "sunflower": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "name"
+      ],
+      "deletions": []
+    },
+    "sunflower_seeds": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "description",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "sweet_birch": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 7,
+      "hidden": false,
+      "legacySymptoms": 7,
+      "fstoreSymptoms": 7,
+      "changedFields": [
+        "name",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "sweet_pea": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "syngonium_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "aliases",
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "syzygium_aromaticum": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "taxus_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "tea": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "tea_tree": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 7,
+      "hidden": false,
+      "legacySymptoms": 7,
+      "fstoreSymptoms": 7,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "thevetia_peruviana": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "thyme": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [],
+      "deletions": []
+    },
+    "tradescantia_spathacea": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 2,
+      "changedFields": [
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "tradescantia_zebrina": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 2,
+      "hidden": false,
+      "legacySymptoms": 2,
+      "fstoreSymptoms": 2,
+      "changedFields": [
+        "description",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "tulipa_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 6,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "tuna": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "unripe_or_sprouted_potatoes": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "unripened_pineapples": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "vitis__implied": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 6,
+      "hidden": false,
+      "legacySymptoms": 6,
+      "fstoreSymptoms": 3,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "walnuts": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "wintergreen": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 7,
+      "hidden": false,
+      "legacySymptoms": 7,
+      "fstoreSymptoms": 7,
+      "changedFields": [],
+      "deletions": []
+    },
+    "wisteria_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "ylang_ylang": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 7,
+      "hidden": false,
+      "legacySymptoms": 7,
+      "fstoreSymptoms": 7,
+      "changedFields": [
+        "name",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "zamia_furfuracea": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "name",
+        "aliases",
+        "description",
+        "safetyNotes"
+      ],
+      "deletions": []
+    },
+    "zamia_pumila": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "name",
+        "description",
+        "toxicParts"
+      ],
+      "deletions": []
+    },
+    "zamioculcas": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 4,
+      "hidden": false,
+      "legacySymptoms": 4,
+      "fstoreSymptoms": 4,
+      "changedFields": [
+        "safetyNotes",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "zantedeschia_aethiopica_or_zantedeschia_spp": {
+      "bucket": "UPDATE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 5,
+      "hidden": false,
+      "legacySymptoms": 5,
+      "fstoreSymptoms": 5,
+      "changedFields": [
+        "description"
+      ],
+      "deletions": []
+    },
+    "zephyranthes_drummondii": {
+      "bucket": "UPDATE",
+      "winnerSource": "fstore",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": null,
+      "fstoreSymptoms": 0,
+      "changedFields": [
+        "description",
+        "safetyNotes",
+        "toxicParts",
+        "symptoms"
+      ],
+      "deletions": []
+    },
+    "zinnia": {
+      "bucket": "NO_CHANGE",
+      "winnerSource": "legacy",
+      "enSymptomCount": 0,
+      "hidden": false,
+      "legacySymptoms": 0,
+      "fstoreSymptoms": 0,
+      "changedFields": [],
+      "deletions": []
+    }
+  }
+}

@@ -1,5 +1,17 @@
 # Cat Toxin DB — Progress Log
 
+## 2026-08-29 — zh-TW l10n 回寫 live Firestore + 網站快取／資料重生
+
+詳見 `docs/CONTENT_AUDIT_RESUME.md`（single source of truth）與計劃 `docs/plans/2026-08-29-zhtw-l10n-writeback.md`。
+
+- **盤點（read-only）**：211 個 live toxin docs → `UPDATE 184 / NO_CHANGE 18 / CREATE_L10N 1 / NO_LOCAL 8 / NEEDS_RETRANSLATION 0`（修正前為 8）。winner 規則：legacy `data/site/zh-TW/` 優先、fstore 快取次之，兩者都須通過結構閘門（zh symptoms 長度 == live EN，網站是 index 對齊）且 name 含中文。報告：`data/audits/zhtw-writeback-plan-2026-08-29.json`。
+- **推送 live Firestore**：**185 筆**寫入 `toxins/{slug}.l10n['zh-TW']`（184 update + 1 create `ilex_aquifolium`）。推送前備份全部 211 筆 live l10n 至 `data/audits/backups/l10n-zhtw-live-backup-2026-08-29.json`；dry-run 0 abort、0 deletions；apply 後 **read-back 複驗 OK 185、mismatch 0**（log：`data/audits/zhtw-writeback-apply-log-2026-08-29.txt`）。
+- **語意方向 spot-check**：對 54 筆審計曾改動的條目逐筆比對 live EN 與 winner zh 的 safe↔toxic／xylitol 方向，**0 筆需修**；全庫自動掃描另 3 筆命中為否定句式假陽性。
+- **重寫 8 筆結構不符**（預期 3 筆，多出的 5 筆逐筆查證皆為真實資料狀況，非 winner 邏輯 bug）：`aloe_barbadensis_or_aloe_spp`、`averrhoa_carambola`、`begonia_maculata`、`candies`、`colchicum_autumnale`、`lemon_mint`（新建）、`prunus_serotina`、`vitis__implied`。
+- **網站端**：快取 `data/site/firestore/zh-TW/` 從 legacy 覆蓋 **140 筆**（63 筆內容已相同、跳過）；`npm run build:toxins` 重生 200 筆 → `mewguard_site/src/data/toxins.generated.ts`，translation **pending 0**；`npm run build` 通過（427 頁）。抽驗 `mentha_x_piperita_chocolate` zh 症狀 6→5，捏造的 methylxanthine 症狀已不存在於產物。
+- **狀態誠實聲明：本次只 commit 工具／單元測試／audits／docs；`data/site/zh-TW/`、`data/site/firestore/{en,zh-TW}/`、`toxins.generated.ts` 等資料檔沿用 reconciliation 慣例未 commit。** 未跑 `pipeline/dump_firestore.py`（它不 strip `l10n`，會污染 canonical）。
+- **遺留 FLAG（EN 側，需人工決定）**：`sweet_pea` 的 P1 審計判定為對貓無毒但 live/disk EN 仍是 toxic；`lemon_mint` live EN `severity: safe` 與其 description「mildly toxic」自相矛盾。
+
 ## 2026-06-26 — 任務 C：截斷類雜訊安全 LLM pass 完成
 
 詳見 `docs/CONTENT_AUDIT_RESUME.md`（single source of truth）。

@@ -29,7 +29,7 @@
 - [x] **P2 round-2 FAIL 修正（16/16）** — ✅ 2026-06-26（task wh9k16vjo，腳本 `factual-fix-p2-round2.workflow.js`，摘要 `data/audits/p2-round2-factual-fix-2026-06-26.json`）。7 筆 severity 翻轉 + pudding 一致性已寫 *_processed canonical；2 處 glossary key 正規化（peony Leaves→Leaf、potato_chips Hematologic→Hematological）；16 筆 schema enum 0 違規。**firestore/en 快取部分仍舊值（6 筆），不影響 sync**（sync 讀 *_processed，firestore/en 僅判 slug 存在）。
 - [x] **P2 NEEDS_REVIEW（11/11）跟進** — ✅ 2026-06-26（task wig1q79dc，腳本 `factual-fix-p2-round3.workflow.js`，摘要 `data/audits/p2-round3-needsreview-fix-2026-06-26.json`）。全部方向正確；清理交叉污染症狀（mentha_chocolate 移除 methylxanthine、nightshade 移除溶血/呼吸麻痺等馬科 cross-contam）、isToxic 一致性（peaches/pretzels/raw_meat false→true）、raw_eggs severity toxic→cautious（高估降級）。0 SCHEMA enum 違規。**注意：部分 firestore/zh-TW 快取仍含舊 fabricated 症狀，待任務 D sync 從 canonical 重生。**
 - [x] **截斷類雜訊 LLM pass** — ✅ 2026-06-26 完成（task wz2urpg8b，56 批 ~2.27M token）。看似 3301 flag，扣除 979+ 個 name/onset 短標籤假陽性，真正候選 1929。安全 context-aware 修補：911 ADD_PERIOD、581 STRIP_LEAK、433 TRIM_TRUNCATED、4 LEAVE（不可復原，未捏造）。另先做 480 確定性 strip（43 footnote/雙標題 + 437 嚴格 leaked header）+ 後續 489 footnote 清理。**0 捏造、0 新 schema 違規、JSON 全合法。** 完整 provenance：`data/audits/content-noise-llm-pass-2026-06-26.json`。剩 4 LEAVE 為來源端真截斷，留待人工 re-query（見下方清單）。
-- [ ] **Firestore sync（§8）** — ⏳ 未做，需先人工 review 全部 disk diff。見任務 D
+- [x] **Firestore sync（§8）EN canonical → live** — ✅ 2026-06-28 完成。disk→live read-only diff review 後推 **194 筆**（含 11 筆原被 stale cache 漏掉的 live 真毒物），排除 2 筆衝突檔。寫入後複驗：真實非預期差異 = 0（其餘為 key 排序假差異）。詳見任務 D。**zh-TW 快取重生仍待辦（見任務 D 尾段）。**
 - [ ] **§9 記錄 + commit** — 每個檢查點做。見任務 E。**任務 C 的資料檔變更沿用前 session 模式：disk 已套用但未 commit，待人工 reconciliation 一併處理；本 session 只 commit 工具/audit/docs（非資料檔）。**
 
 對抗式覆蓋率：**200/200（100%）** 已完成事實查證（P1 44 + P2 149 + 補齊）。
@@ -37,12 +37,19 @@
 
 ---
 
-## 🟢 新 session 從這裡開始（只剩任務 D）
+## 🟢 新 session 從這裡開始（內容審計主線已全部收尾）
 
-**事實查證 + 雜訊清理階段皆已收尾。** 只剩一件事：
+**事實查證 + 雜訊清理 + EN canonical→live sync + zh-TW 回寫/快取重生皆已收尾。** 剩餘只有：
 
-1. ~~任務 C — 截斷類雜訊 LLM pass~~ ✅ **2026-06-26 完成**（見下方任務 C 與快照）。所有 notes/description 的 NotebookLM 雜訊已清，僅剩 4 LEAVE 真截斷。
-2. **任務 D — Firestore sync**（把已修正的 disk canonical 推上 live store）。**需人工 review disk diff 後才能跑**，且有快取 caveat。見下方任務 D。**這是唯一剩餘工作，且需你人工把關。**
+1. ~~任務 C — 截斷類雜訊 LLM pass~~ ✅ 2026-06-26 完成。
+2. ~~任務 D — Firestore sync（EN canonical → live）~~ ✅ **2026-06-28 完成**（194 筆，見下方任務 D）。
+3. ~~zh-TW 快取/回寫~~ ✅ **2026-08-29 完成**（推 185 筆 live l10n、快取重生 140 筆、`toxins.generated.ts` 重生 200 筆，見任務 D 尾段與完成日誌）。
+4. **K11/K16 收尾**：`malus_spp` 同名衝突檔本次 sync 排除，待處理；59 筆 disk-only 別名 slug 無 live 對應。
+5. **4 個 LEAVE**（下方清單，待人工 re-query 原始來源）。
+
+**⚠️ 2026-08-29 新增 FLAG（EN 側，非 zh 問題）：**
+- `sweet_pea` — P1 審計判定 ASPCA 將其列為對貓**無毒**（REFUTED 現有 toxic 判定），zh 已依判定改寫，但 live + disk 的 EN 仍是 `severity: toxic` 的舊版本。EN 側修正未落地，需人工決定。
+- `lemon_mint` — live EN `severity: safe`，但 EN description 仍寫 "mildly toxic to cats"、且保留 2 筆症狀，EN 自身不一致。zh 依「以 live EN 為準」忠實翻譯（輕微毒性方向）。
 
 **4 個 LEAVE（來源端真截斷，未捏造，留待人工 re-query 原始 NotebookLM 來源）：**
 - `plants_processed/cananga_odorata.json` symptoms[4].notes（`…pre-existing conditions l`）
@@ -205,15 +212,27 @@ python3 pipeline/clean_notebooklm_noise.py --flags 2>&1 | grep -A99999 "TRUNCATE
 
 ---
 
-## 任務 D — Firestore sync（§8）⏳ 需人工 review
+## 任務 D — Firestore sync（§8）✅ EN canonical → live 已完成（2026-06-28）
 
-**前置**：所有 disk 變更（事實修正 + glossary + 雜訊）經人工 review 確認無誤。
+> **EN canonical → live Firestore 已推送。剩 zh-TW 快取重生（見本節尾段，未做）。**
+
+**2026-06-28 執行紀錄：**
+1. read-only diff（disk vs **live** Firestore，非本地 cache）→ 191 筆有差異，45 筆 scalar 翻轉全部有 audit 佐證。
+2. 沿途修兩個基礎建設 bug（已落 `admin/scripts/sync-disk-to-firestore.mjs`）：
+   - **閘門改讀 live**：原本用 `data/site/firestore/en/` 本地 cache 判斷 slug 是否存在 → stale，會默默漏推 **11 筆 live 已存在但不在 cache 的真毒物**（avocado/potato/holly/mistletoe/apricots…）。改成開頭一次 `db.collection('toxins').select().get()` 取 live doc ids。
+   - **新增 `SKIP_SLUGS` 環境變數**：排除 K11/K16 同名衝突檔。
+3. ⚠️ **同名衝突檔（plants_processed ∩ foods_processed）**：`malus_spp`、`persea_americana`。sync loop last-wins → foods 版覆蓋。
+   - `malus_spp`：live=Apple/plant/toxic，foods 版=Apple seeds/food/cautious **身分不一致** → 用 `SKIP_SLUGS=malus_spp` **排除**，live 維持原樣，待 K11/K16。
+   - `persea_americana`：live 本來就是 Avocado/food（與 foods 版一致），plants 版只是稀疏 stub → **不需排除**，sync 寫 foods 版正確。
+4. sync 前先備份 211 筆 live 到 scratchpad（rollback 後路）。
+5. 結果：**194 update / 0 create / 59 skip（無 live 對應）/ 2 exclude（malus×2）**。
+6. 寫入後 read-only 複驗：183 hash 相同 + 11 筆「僅物件 key 排序」假差異（Firestore 保留插入序，內容逐欄相同）+ persea 正確 + malus 刻意保留 → **真實非預期差異 = 0**。
 
 ```bash
 cd cat_toxin_db/admin
-node scripts/sync-disk-to-firestore.mjs --dry-run   # EN canonical → Firestore，先預覽
-node scripts/sync-disk-to-firestore.mjs              # 套用
-node scripts/check-firestore-sync.mjs                # 驗證 divergence
+SKIP_SLUGS=malus_spp node scripts/sync-disk-to-firestore.mjs --dry-run   # 預覽（閘門已改讀 live）
+SKIP_SLUGS=malus_spp node scripts/sync-disk-to-firestore.mjs             # 套用（2026-06-28 已執行）
+# 複驗：用 order-insensitive 比對（check-firestore-sync.mjs 只比本地 cache，會有 key 排序假差異）
 ```
 
 **sync 機制（2026-06-26 讀碼確認，腳本在 `admin/scripts/sync-disk-to-firestore.mjs`）：**
@@ -225,7 +244,17 @@ node scripts/check-firestore-sync.mjs                # 驗證 divergence
 - `firestore/en/`：6 筆翻轉條目（tradescantia/milk/persimmons/pistachios/peanuts/potato_chips）仍舊值；3 筆（peony/pine/zephyranthes）已被 agent 改成新值——sync+resnapshot 後會統一。
 - `firestore/zh-TW/`：部分條目（如 mentha_x_piperita_chocolate、nightshade）**仍含本輪已從 canonical 移除的 fabricated 症狀**。這些是 firestore-shaped 快取，需在 sync/zh 回寫流程中從修正後的 canonical / zh-TW 重生，**勿直接信任為 live 內容**。
 
-**zh-TW 回寫缺口**：`upload-local-translations.mjs` 只處理「本地新增、Firestore 沒有」的檔；**改過的既有 zh-TW 不會被它重推**。既有條目需透過 admin UI PATCH `/api/translations/:slug`（會寫 `l10n.zh-TW`）或擴充 sync 腳本。完成後 `python3 pipeline/dump_firestore.py` 回快照。
+**zh-TW 回寫缺口** ✅ **2026-08-29 已補**（計劃 `docs/plans/2026-08-29-zhtw-l10n-writeback.md`）。
+`upload-local-translations.mjs` 只處理「本地新增、Firestore 沒有」的檔，改過的既有 zh-TW 不會被它重推 → 新增三支腳本補上：
+
+| 腳本 | 作用 |
+|---|---|
+| `admin/scripts/report-zhtw-status.mjs` | read-only 盤點：per-slug 選 winner（legacy 優先、結構閘門 symptoms 長度 == live EN、name 需含中文）並分桶，輸出 `data/audits/zhtw-writeback-plan-2026-08-29.json` |
+| `admin/scripts/sync-zhtw-l10n-to-firestore.mjs` | diff-driven 推送 `l10n.zh-TW`（先備份全部 live l10n、支援 `--dry-run`、apply 後 read-back 複驗） |
+| `admin/scripts/reconcile-zhtw-cache.mjs` | 用 winner 覆蓋網站快取 `data/site/firestore/zh-TW/` 並強制 `manual_override: true` |
+| `admin/scripts/lib/zhtw-l10n.mjs` (+ `.test.mjs`) | 共用 winner/payload/比較邏輯，含 live-only 欄位（emergencyNote/chemicals/treatments）的 merge-preserve |
+
+⚠️ **不要用 `pipeline/dump_firestore.py` 回快照**：它不 strip `l10n`，而 disk schema root 沒有 `additionalProperties:false`，跑下去會把整包 l10n 灌進 canonical processed 檔（200+ 檔污染）。EN 快取改由 `mewguard_site` 的 `npm run build:toxins` 重生。
 
 ---
 
@@ -281,6 +310,8 @@ mentha_x_piperita_chocolate / orange_mint 的呼吸道症狀 severe 是否降級
 
 ## 完成日誌（最新在上）
 
+- 2026-08-29 — **zh-TW l10n 回寫 live Firestore + 網站快取重生完成**（計劃 `docs/plans/2026-08-29-zhtw-l10n-writeback.md`）。盤點 211 live docs：UPDATE 184 / NO_CHANGE 18 / CREATE_L10N 1 / NO_LOCAL 8 / NEEDS_RETRANSLATION 0。**推送 185 筆**（184 update + 1 create `ilex_aquifolium`），read-back 複驗 **OK 185、mismatch 0**；備份 211 筆 live l10n 於 `data/audits/backups/l10n-zhtw-live-backup-2026-08-29.json`，執行輸出 `data/audits/zhtw-writeback-apply-log-2026-08-29.txt`。網站快取 `firestore/zh-TW/` 從 legacy 覆蓋 140 筆（63 筆已相同），`npm run build:toxins` 重生 200 筆、translation pending **0**，`npm run build` 427 頁通過。抽驗：`mentha_x_piperita_chocolate` zh 症狀 6→5、捏造的 methylxanthine 症狀已消失。**Task 3 語意方向檢查：54 筆受檢條目 0 筆需改**（另 3 筆為否定句式的正則假陽性）。**Task 4 重寫 8 筆**（比預期 3 筆多 5 筆，逐筆查證皆為真實資料狀況、非 winner 邏輯 bug）：`aloe_barbadensis_or_aloe_spp`（補缺漏的 name）、`averrhoa_carambola`／`begonia_maculata`（name/safetyNotes/toxicParts/症狀名仍英文）、`candies`／`prunus_serotina`（移除空白 symptom placeholder）、`colchicum_autumnale`（補 EN 新增的第 7 筆症狀）、`lemon_mint`（新建 legacy 檔，依 live EN 重譯為 2 症狀）、`vitis__implied`（3→6 症狀對齊）。**資料檔沿慣例未 commit**；本次只 commit 工具/測試/audits/docs。遺留 FLAG：`sweet_pea`、`lemon_mint` 的 EN 側不一致（見上方「新 session 從這裡開始」）。
+- 2026-06-28 — **任務 D 完成：EN canonical → live Firestore sync（194 筆）**。read-only disk-vs-live diff review（45 scalar 翻轉全有 audit 佐證）後推送。修 sync 腳本兩個 bug：閘門改讀 live doc ids（原信任 stale 本地 cache，會漏推 11 筆 live 真毒物）、新增 `SKIP_SLUGS`。排除同名衝突檔 `malus_spp`（身分不一致）；`persea_americana` 經查 live 本就是 foods 身分故不需排除。sync 前備份 211 筆 live 到 scratchpad。寫入後複驗真實非預期差異 = 0（其餘為物件 key 排序假差異）。**資料檔仍未 commit（沿用 reconciliation 模式）；本 session 改動 = sync 腳本 + 本手冊。zh-TW 快取重生留待下一 session。**
 - 2026-06-26 (d) — **任務 C 完成：截斷類雜訊安全 LLM pass**（task wz2urpg8b，56 批 ~2.27M token）。1929 真候選（扣 979+ name/onset 假陽性）：911 ADD_PERIOD + 581 STRIP_LEAK + 433 TRIM_TRUNCATED + 4 LEAVE。另先做 480 確定性 strip + 489 footnote 清理。**0 捏造**（TRIM 只修剪到上一完整句、LEAVE 不補字）、**0 新 schema 違規**、JSON 全合法、collision 檔已正確分流。獨立 invariant 重驗 0 違規。Provenance：`data/audits/content-noise-llm-pass-2026-06-26.json`；工具：`pipeline/noise_*.py` + `.agent/workflows/scripts/noise-llm-safe-pass.workflow.js`。**資料檔僅寫 disk 未 commit**（沿用前 session reconciliation 模式）；本 session 只 commit 工具/audit/docs。剩 4 LEAVE 待人工 re-query。**至此只剩任務 D（Firestore sync，需人工把關）。**
 - 2026-06-26 (c) — **NEEDS_REVIEW 11/11 修正完成**（task wig1q79dc，~491K token）。症狀交叉污染清理 + isToxic 一致性 + raw_eggs toxic→cautious。0 SCHEMA enum 違規。摘要 `data/audits/p2-round3-needsreview-fix-2026-06-26.json`。至此 P2 149 筆（FAIL 16 + NEEDS_REVIEW 11）全數修正落 disk canonical。**caveat：部分 firestore/zh-TW 快取仍含舊值，待任務 D sync 重生。**
 - 2026-06-26 (b) — **任務 B FAIL 修正完成**：16/16 事實修正（task wh9k16vjo，~655K token，外科式 Edit）。**7 筆 severity 方向修正**：peony safe→cautious、tradescantia_spathacea safe→cautious（漏報補正）；zephyranthes_drummondii cautious→safe、milk_and_dairy/persimmons/pine/pistachios/peanuts/potato_chips toxic→cautious（假警報降級）；pudding 修 isToxic/level 一致性。另修 nandina 學名/family/化合物、mentha 移除 pennyroyal 交叉污染肝毒、poppy 瞳孔矛盾、ragwort PA 化合物、raw_dough toxicParts/ADH 等。2 處 glossary key 對齊（peony Leaves→Leaf、potato_chips Hematologic→Hematological）。schema 驗證：16 筆 0 SCHEMA enum 違規（資料集既有 completeness shape 噪音 170/198 屬 K11/K16，非本批）。摘要 `data/audits/p2-round2-factual-fix-2026-06-26.json`。**全部僅寫 disk canonical，未碰 live Firestore（任務 D）。**
