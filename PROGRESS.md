@@ -1,5 +1,22 @@
 # Cat Toxin DB — Progress Log
 
+## 2026-08-29 (c) — git reconciliation 完成：832 檔分組 commit + 併回 main
+
+計劃 `docs/plans/2026-08-29-git-reconciliation.md`。跨多個 session 累積、刻意不 commit 的資料檔積壓一次結清。
+
+- **驗證閘門（read-only，全過才 commit）**：826 個 dirty JSON 全部合法（bad=0）；機密掃描兩份清單皆空（Firebase 憑證在 repo 外、`.env*` 已被 .gitignore 覆蓋）；`pipeline` unittest 6/6、`zhtw-l10n.test.mjs` 9/9、`schemas npm run check` up-to-date。
+- **disk-vs-live 抽樣比對**（`data/site/firestore/en/` live 快照 vs `*_processed` canonical）：compared=489、skipped(mixed-schema)=60、mismatch=113。**逐字元查證後確認 113 筆全為空白差異**（222 處 `\n\n`→` `、3 處 `\n`→``、1 處 ` `→``），非空白差異 **0**；`name` mismatch **0**、`severity` mismatch **0**。成因：firestore-shaped 快照把段落換行壓平為單一空格，disk 保留段落結構——格式差異而非內容分歧，故放行。（`malus_spp` 無 live 快照故未進入比對。）
+- **5 組 commit**（每組以 pathspec 精準 stage、`git diff --cached --stat` 覆核路徑與檔數，全程未用 `git add -A`）：
+  - `154add3` — canonical 資料 **244 檔**（`data/{plants,foods}_processed/` + 兩份 verification report）
+  - `e2e927b` — legacy site 快取 **228 檔**（en 57M+4A、zh-TW 72M+94A、glossary 1M）
+  - `d9d94a7` — firestore-shaped 快取 **354 檔**（en 175、zh-TW 178、sync_progress 1）
+  - `0b6b7a2` — 歷史 Firestore 同步腳本 **3 檔**（`admin/scripts/`，2026-06 起一直 untracked）
+  - `140f1a6` — AGENTS/CLAUDE/translation 文件 **3 檔**
+  - 合計 832 檔，與 reconciliation 前的 dirty 檔數一致（833 減去本計劃檔本身）。
+- **併回 main**：`git merge --ff-only content-audit-2026-06-25` 成功（main 零新 commit，真正 fast-forward，無 rebase／squash／no-ff）；`main` 與分支同為 `140f1a6`。`origin/main` 5db6a2b→140f1a6，分支亦首次推上 origin。
+- **`mewguard_site`**（獨立 repo）：`src/data/toxins.generated.ts` commit `0382049`（+2886/−3549）並 push origin main（f71e135→0382049）；working tree clean。
+- **狀態變更**：本 repo working tree 自此 **clean**。過去多個 session 的「資料檔沿 reconciliation 慣例未 commit」聲明**到此失效**，之後每個 batch 正常 commit 資料檔即可。
+
 ## 2026-08-29 — zh-TW l10n 回寫 live Firestore + 網站快取／資料重生
 
 詳見 `docs/CONTENT_AUDIT_RESUME.md`（single source of truth）與計劃 `docs/plans/2026-08-29-zhtw-l10n-writeback.md`。

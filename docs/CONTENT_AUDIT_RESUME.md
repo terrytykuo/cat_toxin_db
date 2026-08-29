@@ -30,7 +30,7 @@
 - [x] **P2 NEEDS_REVIEW（11/11）跟進** — ✅ 2026-06-26（task wig1q79dc，腳本 `factual-fix-p2-round3.workflow.js`，摘要 `data/audits/p2-round3-needsreview-fix-2026-06-26.json`）。全部方向正確；清理交叉污染症狀（mentha_chocolate 移除 methylxanthine、nightshade 移除溶血/呼吸麻痺等馬科 cross-contam）、isToxic 一致性（peaches/pretzels/raw_meat false→true）、raw_eggs severity toxic→cautious（高估降級）。0 SCHEMA enum 違規。**注意：部分 firestore/zh-TW 快取仍含舊 fabricated 症狀，待任務 D sync 從 canonical 重生。**
 - [x] **截斷類雜訊 LLM pass** — ✅ 2026-06-26 完成（task wz2urpg8b，56 批 ~2.27M token）。看似 3301 flag，扣除 979+ 個 name/onset 短標籤假陽性，真正候選 1929。安全 context-aware 修補：911 ADD_PERIOD、581 STRIP_LEAK、433 TRIM_TRUNCATED、4 LEAVE（不可復原，未捏造）。另先做 480 確定性 strip（43 footnote/雙標題 + 437 嚴格 leaked header）+ 後續 489 footnote 清理。**0 捏造、0 新 schema 違規、JSON 全合法。** 完整 provenance：`data/audits/content-noise-llm-pass-2026-06-26.json`。剩 4 LEAVE 為來源端真截斷，留待人工 re-query（見下方清單）。
 - [x] **Firestore sync（§8）EN canonical → live** — ✅ 2026-06-28 完成。disk→live read-only diff review 後推 **194 筆**（含 11 筆原被 stale cache 漏掉的 live 真毒物），排除 2 筆衝突檔。寫入後複驗：真實非預期差異 = 0（其餘為 key 排序假差異）。詳見任務 D。**zh-TW 快取重生仍待辦（見任務 D 尾段）。**
-- [ ] **§9 記錄 + commit** — 每個檢查點做。見任務 E。**任務 C 的資料檔變更沿用前 session 模式：disk 已套用但未 commit，待人工 reconciliation 一併處理；本 session 只 commit 工具/audit/docs（非資料檔）。**
+- [x] **§9 記錄 + commit** — ✅ 2026-08-29 完成（計劃 `docs/plans/2026-08-29-git-reconciliation.md`）。歷次 session 累積的 832 個未 commit 檔案已分 5 組 commit（canonical 244 / legacy 快取 228 / firestore 快取 354 / 工具 3 / 文件 3），fast-forward 併回 `main` 並 push origin。**reconciliation 完畢，working tree 已 clean，「資料檔沿慣例未 commit」的模式就此結束。**
 
 對抗式覆蓋率：**200/200（100%）** 已完成事實查證（P1 44 + P2 149 + 補齊）。
 **內容事實修正（A/A2/B/round2/round3）全部完成**——所有 safe↔toxic 方向錯誤、交叉污染、假化合物均已修正落 disk canonical。
@@ -58,11 +58,17 @@
 - `plants_processed/sansevieria_spp.json` treatments[1].notes（`…saponins and`）
 - `plants_processed/tulipa_spp.json` treatments[2].notes（`…requiring targeted emerg`）
 
-**目前 git 狀態（branch `content-audit-2026-06-25`，與 main 隔離）：**
-本 session 的內容修正**已 commit**到此分支（不同於 2026-06-25(d) 當時「資料檔未 commit」的狀態）：
-- `d6dc837` — P2 round-2 16 FAIL 修正（含 7 筆 severity 翻轉）+ audits/腳本/docs
-- `77e83a7` — P2 round-3 11 NEEDS_REVIEW 修正 + audits/腳本/docs
-注意：**2026-06-25(d) 之前的大批資料檔變更（事實28/glossary257/雜訊921/severity34）仍未 commit**，依 reconciliation 計畫待人工分組；本分支 working tree 仍 dirty。跑任務 C 前先 `git status` 確認，commit 時延續「精準 stage 本批產出檔」模式（見任務 E）。
+**目前 git 狀態（2026-08-29 reconciliation 後）：已併回 `main`，working tree clean。**
+
+歷次 session 累積的 832 個未 commit 檔案已於 2026-08-29 依語意分 5 組 commit 到 `content-audit-2026-06-25`，再 `--ff-only` 併回 `main` 並 push origin：
+
+- `154add3` — canonical 資料 244 檔（`data/{plants,foods}_processed/` + verification reports）
+- `e2e927b` — legacy site 快取 228 檔（`data/site/{en,zh-TW}/` + glossary）
+- `d9d94a7` — firestore-shaped 快取 354 檔（2026-08-29 build:toxins 後的 live 快照）
+- `0b6b7a2` — 歷史 Firestore 同步腳本 3 檔（`admin/scripts/`）
+- `140f1a6` — AGENTS/CLAUDE/translation 文件 3 檔
+
+`main` 與分支同為 `140f1a6`；`mewguard_site` 的 `toxins.generated.ts` 亦已 commit（`0382049`）並 push。**「資料檔沿慣例未 commit」的 reconciliation 模式到此結束**——之後每個 batch 請正常 commit 資料檔，仍延續「精準 stage 本批產出檔、不用 `git add -A`」的習慣（見任務 E）。
 
 ---
 
@@ -261,7 +267,7 @@ SKIP_SLUGS=malus_spp node scripts/sync-disk-to-firestore.mjs             # 套�
 
 ## 任務 E — 記錄 + commit（每個檢查點）
 
-⚠️ **不要用 `git add data/plants_processed`（整目錄）**——repo 有大量前 session 未 commit 的 dirty diff，整目錄 add 會把不相干變更掃進來。
+⚠️ **精準 stage 本批產出檔，不要用 `git add -A` / `git add .`。** （2026-08-29 reconciliation 前，repo 有大量前 session 未 commit 的 dirty diff，連 `git add data/plants_processed` 整目錄都會掃進不相干變更；該積壓已清空、working tree clean，整目錄 add 不再危險，但每次 add 後仍應以 `git diff --cached --stat` 確認檔數與路徑符合預期。）
 **改用「精準 stage 本批產出檔」模式**（本 session 2026-06-26 採用）：從該批 workflow 的 `result.entries[].files`（agent 實際寫入的絕對路徑）取檔清單，加上 audits/腳本/docs，只 stage 這些：
 
 ```bash
