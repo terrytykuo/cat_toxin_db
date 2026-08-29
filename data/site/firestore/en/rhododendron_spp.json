@@ -23,28 +23,28 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Within 1–4 hours of ingestion; occasionally up to 12 hours.",
-      "notes": "Drooling and abdominal pain are common early indicators. Even small ingestions (a few leaves) can trigger these symptoms.Cardiovascular Abnormalities"
+      "notes": "Drooling and abdominal pain are common early indicators. Even small ingestions (a few leaves) can trigger these symptoms."
     },
     {
       "name": "Arrhythmias (irregular heart rate), Bradycardia (slow heart rate), and Hypotension (low blood pressure)",
       "body_system": "Cardiac",
       "severity": "severe",
       "onset": "Acute (following gastrointestinal signs).",
-      "notes": "The toxins modify sodium channels, leading to prolonged depolarization. Severe cases can progress to cardiovascular collapse.Neurological Dysfunction"
+      "notes": "The toxins modify sodium channels, leading to prolonged depolarization. Severe cases can progress to cardiovascular collapse."
     },
     {
       "name": "Weakness, Tremors, Seizures, Depression, and Ataxia (loss of coordination)",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Within hours.",
-      "notes": "Central nervous system (CNS) depression can be profound, potentially leading to paralysis or coma in severe toxicosis.Transient Blindness"
+      "notes": "Central nervous system (CNS) depression can be profound, potentially leading to paralysis or coma in severe toxicosis."
     },
     {
       "name": "Transient Blindness (Temporary loss of vision) or Blurred Vision",
       "body_system": "Neurological",
       "severity": "moderate",
       "onset": "Acute.",
-      "notes": "This is a specific, documented symptom of grayanotoxin poisoning, though less common than GI signs.Respiratory Distress"
+      "notes": "This is a specific, documented symptom of grayanotoxin poisoning, though less common than GI signs."
     },
     {
       "name": "Dyspnea (Trouble breathing)",

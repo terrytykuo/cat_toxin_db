@@ -32,21 +32,21 @@
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Rapid following significant absorption.",
-      "notes": "This occurs because soluble oxalates absorb into the blood and bind with systemic calcium, causing a sudden, dangerous drop in calcium levels (hypocalcemia). Symptoms include weakness, ataxia (loss of coordination), and lethargy.Renal Failure"
+      "notes": "This occurs because soluble oxalates absorb into the blood and bind with systemic calcium, causing a sudden, dangerous drop in calcium levels (hypocalcemia). Symptoms include weakness, ataxia (loss of coordination), and lethargy."
     },
     {
       "name": "Kidney Failure (Acute Renal Failure)",
       "body_system": "Renal",
       "severity": "severe",
       "onset": "Delayed (as crystals precipitate in the kidneys).",
-      "notes": "The oxalate crystals can precipitate within the renal tubules, causing physical damage. Signs include increased thirst and urination (PU/PD), followed by a decrease in urine production (oliguria) or complete cessation (anuria).Excessive Drooling"
+      "notes": "The oxalate crystals can precipitate within the renal tubules, causing physical damage. Signs include increased thirst and urination (PU/PD), followed by a decrease in urine production (oliguria) or complete cessation (anuria)."
     },
     {
       "name": "Hypersalivation (Drooling)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Rapid.",
-      "notes": "This is often seen alongside other early signs of toxicity.Bloody Urine"
+      "notes": "This is often seen alongside other early signs of toxicity."
     },
     {
       "name": "Hematuria (Bloody Urine)",

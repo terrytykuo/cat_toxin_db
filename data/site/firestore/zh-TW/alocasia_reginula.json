@@ -15,7 +15,7 @@
     "處理方式：用水輕柔沖洗貓的口腔，協助沖掉晶體。如果出現喉嚨腫脹、持續嘔吐或呼吸困難，請聯絡獸醫。"
   ],
   "slug": "alocasia_reginula",
-  "source_hash": "546e7c8b5a7e94863a0928b590ff4eb0246e3562f2f38711ad7f96b250067a23",
+  "source_hash": "53810e48c25133fe2621b93f733fc3434d2ffd264ecc52ec64c22ad4063db121",
   "symptoms": [
     {
       "body_system": "腸胃道",
@@ -48,6 +48,5 @@
     "葉子",
     "全株有毒"
   ],
-  "translated_at": "2026-05-29T11:30:43.719Z",
-  "migrated_from": "data/site/zh-TW/alocasia_reginula.json"
+  "translated_at": "2026-05-29T11:30:43.719Z"
 }

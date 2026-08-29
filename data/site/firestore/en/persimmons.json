@@ -2,15 +2,15 @@
   "slug": "persimmons",
   "category": "food",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/persimmons.jpg"
   ],
   "name": "Persimmons",
   "aliases": [],
-  "description": "Ripe persimmon flesh is not acutely toxic to cats, but this fruit presents several practical concerns. The seeds contain cyanogenic glycosides similar to other stone fruit seeds, and the very high tannin content in unripe persimmons causes significant GI upset. The flesh is also high in natural sugars.",
+  "description": "Persimmons are not highly toxic to cats, but they come with several health and safety risks. The main concern is the seeds and skin, which are hard and indigestible and can cause choking or a gastrointestinal blockage if swallowed. This is a mechanical hazard, not chemical poisoning. Unripe persimmons are especially bad for cats because they are packed with tannins. Tannins are bitter chemicals that can severely irritate a cat's stomach, leading to vomiting, diarrhea, and intestinal inflammation. Even when the fruit is fully ripe, the flesh is very high in sugar and does not provide any nutrients that a cat needs. A tiny taste of ripe, seedless persimmon flesh is unlikely to hurt your cat, but it should not be a regular treat. Always make sure to completely remove the seeds before letting your cat near the fruit. If your cat swallows a seed or eats an unripe persimmon and shows signs of stomach pain or vomiting, contact a veterinarian.",
   "safetyNotes": [
-    "Seeds: contain cyanogenic compounds — remove before offering any flesh",
+    "Seeds and skin: hard and indigestible — choking and gastrointestinal blockage hazard; remove before offering any flesh",
     "Unripe persimmons: very high tannin content causes severe GI irritation — vomiting, diarrhea, and possible intestinal inflammation",
     "Ripe flesh: safe in very small amounts but high in sugar; no nutritional benefit for cats",
     "Tannins can also cause intestinal obstruction by binding digestive proteins in large quantities",
@@ -18,27 +18,18 @@
   ],
   "toxicParts": [
     "Pit",
-    "Cooked form",
     "Seed",
-    "Skin",
-    "Powder",
-    "Flesh",
-    "Fruit"
+    "Skin"
   ],
   "symptoms": [
     {
-      "name": "Persimmons do not contain a specific chemical toxin that causes acute systemic poisoning in cats. Instead",
-      "body_system": "Metabolic",
-      "severity": "moderate"
-    },
-    {
       "name": "Intestinal Obstruction",
       "body_system": "Gastrointestinal",
-      "severity": "fatal",
-      "onset": "Varies (typically develops over hours to a few days,",
-      "notes": "The pits of persimmons are hard, not easily digested, and are highly prone to causing dangerous physical blockages in the intestinal tracts of cats and dogs12. While persimmons are sometimes grouped in broad warnings with other fruits (like apples, cherries, peaches, and plums) whose pits contain to"
+      "severity": "severe",
+      "onset": "Varies (typically develops over hours to a few days)",
+      "notes": "The pits and skin of persimmons are hard, not easily digested, and are prone to causing dangerous physical blockages in the intestinal tract of cats. This is a mechanical hazard from a swallowed seed, not chemical poisoning."
     }
   ],
-  "scientificName": "Persimmons",
-  "family": "Various"
+  "scientificName": "Diospyros",
+  "family": "Ebenaceae"
 }

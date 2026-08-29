@@ -8,7 +8,7 @@
   ],
   "name": "Pretzels",
   "aliases": [],
-  "description": "Pretzels are not acutely toxic to cats but are an inappropriate snack due to their very high sodium content. Even a small amount of salted pretzel contributes a disproportionate sodium load to a cat's diet. High sodium intake causes excessive thirst, increased urination, and with large amounts, salt toxicity affecting the kidneys and nervous system.",
+  "description": "Pretzels are a baked human snack usually covered in large grains of salt. While the baked dough itself isn't directly poisonous to cats, the heavy salt coating makes pretzels a very bad idea to share with your pet. Cats get all the sodium they need from their regular cat food, and their small bodies cannot safely process the extreme amount of salt found on pretzels. Eating too much salt pulls water out of their cells, causing a serious imbalance. This can lead to extreme thirst, increased urination, and in severe cases, salt toxicity that harms their nervous system and kidneys. Some pretzels also feature flavorings like onion or garlic powder, which are highly toxic to cats. A tiny lick of a plain pretzel might not cause harm, but because of the high salt risk, you should keep these snacks out of reach. If your cat eats heavily salted or flavored pretzels and shows signs of distress, contact a veterinarian.",
   "safetyNotes": [
     "Sodium hazard: traditional salted pretzels are heavily salted — even a few pieces significantly exceed a cat's safe daily sodium intake",
     "Symptoms of salt excess: excessive thirst and urination; large amounts cause vomiting, diarrhea, tremors, seizures, kidney damage",
@@ -17,36 +17,30 @@
     "A tiny accidental taste of salted pretzel is not an emergency; keep all salty snacks away from cats"
   ],
   "toxicParts": [
-    "Seed",
-    "Skin",
-    "Pit"
+    "Salt coating",
+    "Onion/garlic flavoring"
   ],
   "symptoms": [
-    {
-      "name": "Because pretzels are heavily salted human snacks",
-      "body_system": "Metabolic",
-      "severity": "moderate"
-    },
     {
       "name": "Gastrointestinal Distress (Vomiting and Diarrhea)",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Within minutes to several hours of ingestion",
-      "notes": "Vomiting is often one of the earliest clinical signs of excess salt intake2. The heavy sodium load severely irritates the gastrointestinal tract and contributes to rapid, severe systemic dehydration"
+      "notes": "Vomiting is often one of the earliest clinical signs of excess salt intake2. The heavy sodium load severely irritates the gastrointestinal tract and contributes to rapid, severe systemic dehydration."
     },
     {
       "name": "Polydipsia and Polyuria (Excessive Thirst and Urination)",
       "body_system": "Renal",
       "severity": "severe",
       "onset": "Within minutes of ingestion",
-      "notes": "The excess salt creates an osmotic gradient that draws fluid out of the body's cells, leading to profound water-seeking behavior and electrolyte derangements14. If left untreated, this severe dehydration can progress to kidney failure"
+      "notes": "The excess salt creates an osmotic gradient that draws fluid out of the body's cells, leading to profound water-seeking behavior and electrolyte derangements14. If left untreated, this severe dehydration can progress to kidney failure."
     },
     {
       "name": "Neuromuscular and Central Nervous Dysfunction",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Within minutes to several hours (often progressing after initial gastrointestinal signs)",
-      "notes": "The rapid shift of fluids out of the cells causes cerebral dehydration (fluid loss in the brain)46. This leads to progressive neurological deterioration, starting with depression and ataxia (weakness), and escalating to muscle tremors, severe seizures, coma, and potentially death"
+      "notes": "The rapid shift of fluids out of the cells causes cerebral dehydration (fluid loss in the brain)46. This leads to progressive neurological deterioration, starting with depression and ataxia (weakness), and escalating to muscle tremors, severe seizures, coma, and potentially death."
     },
     {
       "name": "Cardiopulmonary Distress",
@@ -56,6 +50,6 @@
       "notes": "The massive electrolyte imbalance and systemic stress caused by sodium ion poisoning force the heart and lungs to work harder1. Affected cats may also develop an elevated body temperature (hyperthermia)"
     }
   ],
-  "scientificName": "Pretzels",
-  "family": "Various"
+  "scientificName": "",
+  "family": ""
 }

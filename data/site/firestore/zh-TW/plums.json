@@ -1,13 +1,13 @@
 {
   "slug": "plums",
   "source_hash": "2aed3b60ab47a441f460b13d9715c1758e4ab248a92012ef0c6521edc25473fb",
-  "translated_at": "2026-05-21T10:15:14Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "food",
   "name": "李子",
   "aliases": [],
-  "description": "少量李子肉 (Prunus domestica) 對貓無毒，但果核、莖和葉含有苦杏仁苷 — 這是一種生氰醣苷，咀嚼時會釋放氰化氫 (HCN)。這與杏子和桃子果核中毒的機制相同。不含果核的純果肉可作為偶爾的極少量零食。",
+  "description": "李子（Prunus domestica）是一種香甜的水果，少量的果肉對貓咪來說通常是安全的。然而，它的果核、莖和葉子非常危險，因為裡面含有苦杏仁苷（amygdalin）。\n\n當貓咪咬碎或吞下李子的果核時，苦杏仁苷會和腸胃裡的酵素混合，釋放出氰化氫（HCN）。這是一種致命的毒素，會讓身體細胞無法使用氧氣。如果貓咪吃到果核，可能會出現喘氣、虛弱、嘔吐，甚至癲癇或昏迷的情況。\n\n雖然給貓咪吃一小口去核的熟透果肉不會有大礙，但李子糖分很高，對牠們也沒有太多營養價值。請務必讓貓咪遠離果核和葉子，如果懷疑貓咪咬到了果核，請立即聯絡獸醫或急診動物醫院。",
   "safetyNotes": [
     "果核、莖和葉：有毒 — 苦杏仁苷經由 β-葡萄糖苷酶裂解產生 HCN",
     "機制：HCN 會抑制細胞色素 c 氧化酶，阻斷細胞呼吸",

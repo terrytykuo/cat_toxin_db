@@ -1,13 +1,13 @@
 {
   "slug": "monstera_adansonii",
   "source_hash": "8e8a9b2a45bf8c4666f9134aaf247c294b1c6ed19819ba382006213dc67d6141",
-  "translated_at": "2026-05-21T10:40:10Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:51:54.584427Z",
+  "gemini_model": "gemini-2.5-pro",
+  "manual_override": true,
   "category": "plant",
   "name": "仙洞龜背芋",
   "aliases": [],
-  "description": "仙洞龜背芋 (Monstera adansonii) 因其葉片上獨特的孔洞而得名，對貓有毒。作為天南星科的一員（與黃金葛、蔓綠絨和黛粉葉相同），其葉片和莖部含有不溶性草酸鈣結晶（針晶）。咀嚼會導致立即且劇烈的口腔疼痛。",
+  "description": "瑞士起司藤（Monstera adansonii）是一種很受歡迎的室內植物，但對貓有毒。植物的所有部位都含有微觀的針狀晶體，稱為「不可溶草酸鈣結晶」，這是植物的一種自我防禦機制。\n\n當貓咪啃咬葉子或莖時，這些尖銳的晶體會刺入貓咪口腔、舌頭和喉嚨的敏感組織中，立即引起劇烈疼痛，類似咬到微小的玻璃碎片。這是一種物理性傷害，而非化學中毒，這種劇痛通常會阻止貓咪繼續大量吞食。\n\n接觸後的症狀包括大量流口水、用爪子抓嘴、痛苦地叫喊，以及口腔和嘴唇腫脹。這種腫脹有時會導致吞嚥困難。如果你的貓咬了這種植物，請輕輕用水清洗牠的口腔，並聯絡獸醫，特別是當你注意到牠有吞嚥或呼吸困難的跡象時。",
   "safetyNotes": [
     "有毒化合物：不溶性草酸鈣針晶；汁液亦含有蛋白分解酶",
     "機制：當植物細胞受損時，針晶會機械性地刺入口腔黏膜，引起灼熱感和腫脹",
@@ -22,27 +22,27 @@
   "symptoms": [
     {
       "name": "口腔灼熱、組織刺激及因疼痛尖叫",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "立即。"
     },
     {
       "name": "劇烈流口水（唾液分泌過多）及抓弄嘴巴",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "立即。"
     },
     {
       "name": "口腔、舌頭和喉嚨腫脹（水腫），導致吞嚥困難",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "立即至接觸後不久。"
     },
     {
       "name": "嘔吐",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "食入後不久。"
     },
     {
       "name": "食欲不振或不願進食",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "接觸後不久。"
     }
   ]

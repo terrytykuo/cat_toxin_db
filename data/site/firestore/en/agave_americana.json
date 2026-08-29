@@ -33,14 +33,14 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Rapid following contact or ingestion.",
-      "notes": "Swelling can occur in the mouth or on the skin where the plant sap has come into contact with the animal.Dermal Irritation"
+      "notes": "Swelling can occur in the mouth or on the skin where the plant sap has come into contact with the animal."
     },
     {
       "name": "Dermal Irritation (Skin irritation/Dermatitis)",
       "body_system": "Dermal",
       "severity": "moderate",
       "onset": "Upon contact with the sap.",
-      "notes": "The sap of the Century Plant is an irritant. Contact with the skin can cause redness, irritation, and swelling.Note on Gastrointestinal Upset: While the sources specifically highlight irritation and edema for Agave americana, they also note the presence of saponins in the leaves and seeds1,2. In oth"
+      "notes": "The sap of the Century Plant is an irritant. Contact with the skin can cause redness, irritation, and swelling.Note on Gastrointestinal Upset: While the sources specifically highlight irritation and edema for Agave americana, they also note the presence of saponins in the leaves and seeds1,2."
     }
   ],
   "scientificName": "Agave americana",

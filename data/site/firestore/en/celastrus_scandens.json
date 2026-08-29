@@ -9,44 +9,40 @@
   ],
   "name": "Bittersweet",
   "aliases": [],
-  "description": "American Bittersweet (Celastrus scandens) is a vigorous woody vine native to North America, easily recognised by its orange-yellow berries that split open to reveal bright red seeds. All parts of the plant are toxic to cats, including the leaves, bark, roots, and berries. The plant contains sesquiterpene alkaloids and compounds with cardiac-disrupting activity that irritate the gastrointestinal tract and, in larger amounts, affect the heart. The vivid berries are the most likely point of contact for cats, particularly when the vine is brought indoors as a decorative autumn cutting.",
+  "description": "American Bittersweet (Celastrus scandens) is a vigorous woody vine native to North America, easily recognised by its orange-yellow berries that split open to reveal bright red seeds. All parts of the plant are toxic to cats, including the leaves, bark, roots, berries, and seeds. ASPCA lists the toxic principles as cardenolides and alkaloids; the plant mainly irritates the gastrointestinal tract. Toxicity is generally low, with mild self-limiting signs such as vomiting and diarrhea, and rarely weakness or seizures after large ingestions. The vivid berries are the most likely point of contact for cats, particularly when the vine is brought indoors as a decorative autumn cutting.",
   "safetyNotes": [
-    "Symptoms: Vomiting, diarrhea, and abdominal pain from GI irritation; larger exposures may cause lethargy, muscle weakness, and in serious cases abnormal heart rhythm.",
+    "Symptoms: Vomiting, diarrhea, and abdominal pain from GI irritation; larger exposures may cause lethargy, muscle weakness, and rarely seizures.",
     "Berries are the primary hazard: Brightly coloured and accessible, the berries are appealing to curious cats — avoid using the plant as indoor decoration.",
     "Action: Seek veterinary care if more than a small berry has been ingested, particularly if lethargy or weakness develops."
   ],
   "toxicParts": [
-    "Bulb",
-    "Seed"
+    "Berries",
+    "Seed",
+    "Leaves",
+    "Bark",
+    "Roots"
   ],
   "symptoms": [
     {
-      "name": "Vomiting, Diarrhea, and Hypersalivation (Drooling)",
+      "name": "Vomiting and Diarrhea",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
-      "onset": "2–24 hours (general timeframe for Nightshade/solanine toxicity).",
-      "notes": "These are often the first signs of poisoning. The plant contains solanine, which is a severe irritant to the gastrointestinal tract and mucous membranes.Neurological Depression"
-    },
-    {
-      "name": "Drowsiness, Depression, Confusion, and Weakness",
-      "body_system": "Neurological",
-      "severity": "severe",
-      "onset": "2–24 hours (typically follows or accompanies GI signs).",
-      "notes": "The toxins affect the central nervous system, leading to significant lethargy and behavioral changes. In severe cases, this can progress to paralysis or coma.Ocular Abnormalities"
-    },
-    {
-      "name": "Dilated Pupils (Mydriasis)",
-      "body_system": "Neurological",
-      "severity": "severe",
+      "severity": "moderate",
       "onset": "2–24 hours.",
-      "notes": "Dilated pupils are a hallmark neurological sign of toxicity from plants in the Nightshade family.Bradycardia"
+      "notes": "These are often the first signs of ingestion. The plant irritates the gastrointestinal tract (ASPCA: vomiting, diarrhea)."
     },
     {
-      "name": "Slow Heart Rate (Bradycardia)",
-      "body_system": "Cardiac",
-      "severity": "fatal",
-      "onset": "12–24 hours (or as toxicity progresses).",
-      "notes": "The toxins can disrupt heart rhythm, leading to a dangerously slow heartbeat, which contributes to the classification of this plant as \"extremely toxic.\""
+      "name": "Weakness and Lethargy",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "2–24 hours (typically follows or accompanies GI signs).",
+      "notes": "Larger ingestions may cause weakness and lethargy (ASPCA; Pet Poison Helpline)."
+    },
+    {
+      "name": "Seizures (rare)",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Variable; with larger ingestions.",
+      "notes": "Seizures are reported only rarely and usually with large ingestions (ASPCA; Pet Poison Helpline)."
     }
   ],
   "scientificName": "Celastrus scandens",

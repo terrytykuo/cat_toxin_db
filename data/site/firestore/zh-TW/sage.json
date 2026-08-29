@@ -1,16 +1,16 @@
 {
   "slug": "sage",
   "source_hash": "487b5a179ffe9b364dd0fa9a24a572d22002f4f1143d3899639dca9e706d6961",
-  "translated_at": "2026-05-21T10:37:20Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:51:54.584427Z",
+  "gemini_model": "gemini-2.5-pro",
+  "manual_override": true,
   "category": "plant",
   "name": "鼠尾草",
   "aliases": [
     "普通鼠尾草",
     "花園鼠尾草"
   ],
-  "description": "鼠尾草是一種美麗的銀綠色香草，對貓安全。它天鵝絨般的葉子和強烈的香氣使其成為迷人的廚房植物。它在陽光充足和排水良好的土壤中茁壯成長。",
+  "description": "常用於烹飪的普通鼠尾草 (Salvia officinalis) 對貓來說是安全的。它以其宜人的泥土香氣和柔軟、有紋理的銀綠色葉子而聞名。大多數貓對其濃郁的氣味不感興趣，通常會避開它。\n\n雖然鼠尾草無毒，少量食用是安全的，但最好還是避免讓貓吃下任何大量的植物，包括香草。攝取過多的任何纖維性植物材料都可能引起輕微的腸胃不適，如嘔吐或腹瀉。總體而言，對於室內或室外香草園來說，鼠尾草是一個很棒且對貓友善的選擇。",
   "safetyNotes": [],
   "toxicParts": [],
   "symptoms": []

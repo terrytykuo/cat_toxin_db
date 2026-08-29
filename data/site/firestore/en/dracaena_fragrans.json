@@ -23,25 +23,25 @@
       "name": "Vomiting (Hematemesis)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "Vomiting is a primary symptom, and in cats specifically, it may occasionally contain blood. The plant also causes loss of appetite (anorexia).Dilated Pupils"
+      "notes": "Vomiting is a primary symptom, and in cats specifically, it may occasionally contain blood. The plant also causes loss of appetite (anorexia)."
     },
     {
       "name": "Dilated Pupils (Mydriasis)",
       "body_system": "Neurological",
       "severity": "moderate",
-      "notes": "This symptom is a specific reaction often seen in cats exposed to Dracaena species, distinguishing it from many other general plant toxicities.Excessive Drooling"
+      "notes": "This symptom is a specific reaction often seen in cats exposed to Dracaena species, distinguishing it from many other general plant toxicities."
     },
     {
       "name": "Drooling (Hypersalivation)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This occurs due to oral irritation and nausea caused by the saponins found in the plant.Depression and Lethargy"
+      "notes": "This occurs due to oral irritation and nausea caused by the saponins found in the plant."
     },
     {
       "name": "Depression and Depression-like behavior",
       "body_system": "Neurological",
       "severity": "moderate",
-      "notes": "Cats may appear withdrawn or less active than usual. This is often accompanied by a refusal to eat (anorexia).Incoordination and Weakness"
+      "notes": "Cats may appear withdrawn or less active than usual. This is often accompanied by a refusal to eat (anorexia)."
     },
     {
       "name": "Incoordination (Ataxia) and Weakness",

@@ -1,8 +1,8 @@
 {
   "aliases": [],
   "category": "plant",
-  "description": "黃金葛（Epipremnum aureum），也叫魔鬼藤，是最常見的垂吊型觀葉植物之一。它對貓並不安全，尤其是藤蔓常從層架或家具邊緣垂下，容易被好奇的貓碰到。\n\n主要風險來自不溶性草酸鈣晶體，也叫針晶體（raphides）。這些細小的針狀晶體存在於葉子和莖裡。貓咀嚼植物時，晶體會刮傷並刺激口腔、嘴唇、舌頭和喉嚨。這通常是快速且疼痛的局部刺激，而不是像某些毒物那樣深入全身的中毒。\n\n咬到黃金葛的貓可能會突然流口水、用爪子抓嘴、嘔吐，或嘴唇和舌頭周圍腫脹。較嚴重的腫脹可能影響吞嚥或呼吸。請把黃金葛藤蔓放在貓完全碰不到的地方；如果症狀明顯、沒有緩解，或出現吞嚥或呼吸困難，請聯絡獸醫。",
-  "gemini_model": "codex-manual",
+  "description": "黃金葛 (Pothos，學名 Epipremnum aureum，又稱 Devil's Ivy) 是非常常見的觀葉植物，有著長長的垂墜藤蔓。它對貓咪來說並不安全，特別是懸掛的葉片經常會吸引好奇的貓咪去玩耍和啃咬。\n\n主要的危險來自植物細胞內微小、尖銳的針狀物，稱為不溶性草酸鈣結晶 (insoluble calcium oxalate crystals)。當貓咪咬破葉子或莖時，這些微小的針會射出並刺入嘴巴、舌頭和喉嚨的組織。這會引起突然且強烈的疼痛，而不是全身性的疾病。因為疼痛是立刻發生的，大多數貓咪在吃下大量葉片前就會停止啃咬。\n\n如果貓咪咬了黃金葛，可能會開始大量流口水、痛苦地用爪子抓嘴巴或嘔吐。你可能還會看到牠們的嘴唇、口腔和舌頭周圍腫脹。在嚴重的情況下，腫脹可能會讓貓咪難以吞嚥。請把下垂的藤蔓移到貓咪完全碰不到的地方；如果腫脹很嚴重或貓咪吞嚥困難，請聯絡獸醫。",
+  "gemini_model": "gemini-cli-manual-review",
   "manual_override": true,
   "name": "黃金葛／魔鬼藤",
   "safetyNotes": [
@@ -12,7 +12,7 @@
     "處理方式：把植物移到貓碰不到的地方；若安全可行，提供清水或輕輕沖洗口腔。若出現腫脹或吞嚥困難，請聯絡獸醫。"
   ],
   "slug": "epipremnum_aureum_or_epipremnum_spp",
-  "source_hash": "3160de65048f41a94be609bf0db37d0287fa6319a9a6c45b523bf05aa578e2ac",
+  "source_hash": "70b2ffa6a49473f98beb65fd85b72b7b699c8ffd7927bf20da98ab1736710296",
   "symptoms": [
     {
       "body_system": "腸胃道",
@@ -38,6 +38,5 @@
   "toxicParts": [
     "全株有毒"
   ],
-  "translated_at": "2026-06-01T13:59:35.000Z",
-  "migrated_from": "data/site/zh-TW/epipremnum_aureum_or_epipremnum_spp.json"
+  "translated_at": "2026-06-03T22:27:19.400981Z"
 }

@@ -8,7 +8,7 @@
   ],
   "name": "Honeysuckle",
   "aliases": [],
-  "description": "Honeysuckle (Lonicera spp.) is a common garden vine or shrub whose berries and, to a lesser extent, leaves contain mildly toxic compounds including saponins and, in some species, cyanogenic glycosides. Cats are unlikely to consume large amounts, but berry ingestion can cause noticeable gastrointestinal upset.",
+  "description": "Honeysuckle (Lonicera spp.) is a common garden vine or shrub. Some parts, especially the berries, can be mildly toxic to cats if eaten. The plant may contain saponins and, in some species, compounds that can release small amounts of cyanide-like chemicals. Cats usually do not eat large amounts, but berries can be easier to swallow than leaves or stems. A cat that eats honeysuckle berries or leaves may vomit, have diarrhea, drool, or seem uncomfortable. Keep fallen berries cleaned up and do not let cats chew the plant. Contact a veterinarian if your cat eats a large amount, symptoms repeat, or your cat seems weak.",
   "safetyNotes": [
     "Toxic compounds: saponins and trace cyanogenic glycosides in berries; leaves carry lower concentrations",
     "Mechanism: saponins disrupt the GI lining; cyanogenic compounds may contribute mild systemic effects at higher doses",
@@ -27,7 +27,7 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Not specified in the provided text (typically acute).",
-      "notes": "The ASPCA Pet Health Insurance guide lists Honeysuckle as a common plant poisonous to cats and notes that general signs of plant poisoning include vomiting and diarrhea. The flowers are noted to have a \"sweet smell that can be tempting for cats.\"Oral and Skin Irritation"
+      "notes": "The ASPCA Pet Health Insurance guide lists Honeysuckle as a common plant poisonous to cats and notes that general signs of plant poisoning include vomiting and diarrhea. The flowers are noted to have a \"sweet smell that can be tempting for cats.\""
     },
     {
       "name": "Inflammation around the mouth, Drooling, or Itchiness",

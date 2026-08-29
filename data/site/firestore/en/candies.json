@@ -33,42 +33,42 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Usually within 2 to 12 hours of ingestion",
-      "notes": "This is typically one of the earliest signs of chocolate (methylxanthine) poisoning12. Very high levels of artificial sweeteners like xylitol, or general sugar overload, can also trigger general tummy upsets and loose stools"
+      "notes": "This is typically one of the earliest signs of chocolate (methylxanthine) poisoning12. Very high levels of artificial sweeteners like xylitol, or general sugar overload, can also trigger general tummy upsets and loose stools."
     },
     {
       "name": "Agitation, Hyperactivity, and Tremors",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "2 to 12 hours",
-      "notes": "Theobromine and caffeine in chocolate candies block adenosine receptors and inhibit the enzyme phosphodiesterase4. This leads to severe overstimulation of the central nervous system, causing the cat to enter a stage of extreme agitation, restlessness, and muscle tremors"
+      "notes": "Theobromine and caffeine in chocolate candies block adenosine receptors and inhibit the enzyme phosphodiesterase4. This leads to severe overstimulation of the central nervous system, causing the cat to enter a stage of extreme agitation, restlessness, and muscle tremors."
     },
     {
       "name": "Cardiac Arrhythmias and Tachycardia",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "2 to 12 hours (often progressing as toxin levels peak)",
-      "notes": "Methylxanthines from chocolate increase the entry of extracellular calcium into muscle cells, enhancing the strength and frequency of heart contractions4. This can cause life-threatening heart palpitations and cardiac arrhythmias, ultimately leading to cardiac arrest in terminal phases"
+      "notes": "Methylxanthines from chocolate increase the entry of extracellular calcium into muscle cells, enhancing the strength and frequency of heart contractions4. This can cause life-threatening heart palpitations and cardiac arrhythmias, ultimately leading to cardiac arrest in terminal phases."
     },
     {
       "name": "Excessive Thirst and Urination",
       "body_system": "Renal",
       "severity": "moderate",
       "onset": "2 to 12 hours",
-      "notes": "Theobromine acts as a mild diuretic, causing the cat to lose bodily fluids and triggering excessive thirst and urination as the chemical stays in the bloodstream"
+      "notes": "Theobromine acts as a mild diuretic, causing the cat to lose bodily fluids and triggering excessive thirst and urination as the chemical stays in the bloodstream."
     },
     {
       "name": "Severe CNS Depression (Seizures and Coma)",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Progressive (hours after ingestion)",
-      "notes": "In the later stages of methylxanthine toxicosis (from chocolate candies), the severe overstimulation of the nervous system can progress to grand mal seizures, coma, and respiratory failure"
+      "notes": "In the later stages of methylxanthine toxicosis (from chocolate candies), the severe overstimulation of the nervous system can progress to grand mal seizures, coma, and respiratory failure."
     },
     {
       "name": "Transient Salivation",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Shortly after ingestion",
-      "notes": "In experimental studies evaluating the effects of xylitol (found in sugar-free candies and mints) on cats, massive oral doses caused no significant changes in blood sugar or liver parameters, with transient salivation being the only reported clinical sign"
+      "notes": "In experimental studies evaluating the effects of xylitol (found in sugar-free candies and mints) on cats, massive oral doses caused no significant changes in blood sugar or liver parameters, with transient salivation being the only reported clinical sign."
     }
   ],
   "scientificName": "Candies",

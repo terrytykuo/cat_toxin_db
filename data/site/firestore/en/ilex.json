@@ -9,7 +9,7 @@
   ],
   "name": "Holly",
   "aliases": [],
-  "description": "Holly (Ilex spp.) encompasses many species — including American Holly (Ilex opaca), Japanese Holly (Ilex crenata), and others — all of which are toxic to cats. Like English Holly, these species contain saponins (including ilicin) concentrated in the berries and leaves. The bright berries are visually attractive to cats and represent the greatest exposure risk.",
+  "description": "Holly (Ilex spp.) includes many shrubs and trees with glossy leaves and bright berries. It is toxic to cats, and the berries are often the easiest part for a cat to find or swallow. Holly contains saponins and other irritating compounds. These can upset the stomach and intestines. The sharp leaves can also irritate the mouth, while fallen berries may attract curious cats during the holiday season. A cat that eats holly may drool, vomit, have diarrhea, smack the lips, or seem uncomfortable. Keep holly decorations and outdoor berries away from cats. Call a veterinarian if your cat eats several berries, vomits repeatedly, or seems weak.",
   "safetyNotes": [
     "Toxic compounds: saponins (ilicin and related compounds), methylxanthine-related compounds, trace cyanogens in berries",
     "Mechanism: saponins cause intense GI mucosal irritation; systemic absorption may cause CNS and cardiac effects at higher doses",
@@ -34,21 +34,21 @@
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Immediate (Upon chewing or ingestion).",
-      "notes": "This is caused by both the chemical irritation from the saponins and the mechanical injury from the sharp, spiny leaves puncturing or scratching the sensitive tissues of the mouth and throat.Abdominal Pain"
+      "notes": "This is caused by both the chemical irritation from the saponins and the mechanical injury from the sharp, spiny leaves puncturing or scratching the sensitive tissues of the mouth and throat."
     },
     {
       "name": "Abdominal Pain",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Acute.",
-      "notes": "The cat may hunch over or vocalize due to the cramping and irritation caused by the plant toxins moving through the digestive tract.Lethargy and Depression"
+      "notes": "The cat may hunch over or vocalize due to the cramping and irritation caused by the plant toxins moving through the digestive tract."
     },
     {
       "name": "Lethargy or Depression",
       "body_system": "Neurological",
       "severity": "mild",
       "onset": "Acute (Following GI symptoms).",
-      "notes": "The cat may appear tired or unresponsive, often as a secondary reaction to the pain and dehydration associated with vomiting and diarrhea.Mechanical Oral Injury"
+      "notes": "The cat may appear tired or unresponsive, often as a secondary reaction to the pain and dehydration associated with vomiting and diarrhea."
     },
     {
       "name": "Head Shaking or Pawing at Mouth",

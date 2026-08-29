@@ -8,7 +8,7 @@
   ],
   "name": "Leeks",
   "aliases": [],
-  "description": "Leeks (Allium ampeloprasum) are a member of the Allium family — the same group that includes garlic, onions, and chives — all of which are toxic to cats. Leeks contain N-propyl disulfide and related organosulfur compounds that oxidise feline haemoglobin, causing Heinz body haemolytic anaemia. All forms are dangerous: raw, cooked, and dried leeks.",
+  "description": "Leeks (Allium ampeloprasum) belong to the same vegetable family as onions, garlic, and chives. All of these are very toxic to cats, whether they are raw, cooked, or dried. This means you should never share soups, stews, or any human foods containing leeks with your cat. The danger comes from natural compounds that cause \"oxidative damage\" to a cat’s red blood cells. Essentially, these chemicals cause the hemoglobin (the part of the blood that carries oxygen) to clump up and break down. The cat's body then destroys these damaged cells faster than it can make new ones, leading to a serious condition called anemia. Symptoms often don't show up right away and may take 3 to 5 days to appear. Look for signs like extreme tiredness, pale or yellowish gums, fast breathing, and reddish-brown urine. If you suspect your cat has eaten leeks, please immediately contact a veterinarian or emergency animal hospital.",
   "safetyNotes": [
     "Toxic compounds: N-propyl disulfide and organosulfur compounds (alk(en)yl cysteine sulfoxides); all parts toxic including the bulb, stems, and leaves",
     "Mechanism: oxidative damage to haemoglobin creates Heinz bodies; the spleen destroys affected red blood cells faster than they can be replaced, causing haemolytic anaemia",
@@ -32,14 +32,14 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Usually within 1 day (24 hours) of ingestion.",
-      "notes": "These are typically the first clinical signs of toxicosis to appear12. They occur due to direct irritation of the gastrointestinal tract and frequently result in dehydration"
+      "notes": "These are typically the first clinical signs of toxicosis to appear12. They occur due to direct irritation of the gastrointestinal tract and frequently result in dehydration."
     },
     {
       "name": "Lethargy, Weakness, and Depression",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "After a lag of several days.",
-      "notes": "These symptoms emerge as a secondary response to systemic hypoxia caused by the profound loss of oxygen-carrying red blood cells"
+      "notes": "These symptoms emerge as a secondary response to systemic hypoxia caused by the profound loss of oxygen-carrying red blood cells."
     },
     {
       "name": "Pale Mucous Membranes and Jaundice (Icterus)",
@@ -53,35 +53,35 @@
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "After a lag of several days.",
-      "notes": "This is a compensatory response as the cat's body attempts to offset the decreased blood oxygen transportation capacity and resulting tissue hypoxia"
+      "notes": "This is a compensatory response as the cat's body attempts to offset the decreased blood oxygen transportation capacity and resulting tissue hypoxia."
     },
     {
       "name": "Tachycardia (Rapid Heart Rate)",
       "body_system": "Cardiac",
       "severity": "severe",
       "onset": "After a lag of several days.",
-      "notes": "Tachycardia develops as the heart pumps much faster to compensate for the impaired oxygen transportation caused by the ruptured and damaged red blood cells"
+      "notes": "Tachycardia develops as the heart pumps much faster to compensate for the impaired oxygen transportation caused by the ruptured and damaged red blood cells."
     },
     {
       "name": "Hemoglobinuria (Dark Urine)",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "After a lag of several days.",
-      "notes": "This is a hallmark sign of severe oxidative intravascular hemolysis34. Damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract47. This process can lead to secondary acute kidney damage"
+      "notes": "This is a hallmark sign of severe oxidative intravascular hemolysis34. Damaged red blood cells rupture and release hemoglobin, which is then excreted through the urinary tract47. This process can lead to secondary acute kidney damage."
     },
     {
       "name": "Cold Sensitivity",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Several days after ingestion.",
-      "notes": "Affected cats may have difficulty regulating their body temperature as a systemic effect of the progressive anemia and impaired oxygen delivery to tissues"
+      "notes": "Affected cats may have difficulty regulating their body temperature as a systemic effect of the progressive anemia and impaired oxygen delivery to tissues."
     },
     {
       "name": "Allium Breath Odor",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Shortly after ingestion.",
-      "notes": "While not harmful itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians evaluating the cat"
+      "notes": "While not harmful itself, this symptom is specifically associated with recent ingestion and serves as a highly valuable diagnostic clue for veterinarians evaluating the cat."
     }
   ],
   "scientificName": "Leeks",

@@ -26,28 +26,28 @@
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "Rapid (often within 10 to 60 minutes).",
-      "notes": "Because the toxin prevents cells from using oxygen, the cat may gasp for air or pant heavily. Respiratory paralysis is a specific risk associated with Cherry Laurel ingestion.Mucous Membrane Discoloration"
+      "notes": "Because the toxin prevents cells from using oxygen, the cat may gasp for air or pant heavily. Respiratory paralysis is a specific risk associated with Cherry Laurel ingestion."
     },
     {
       "name": "Brick red\" gums and cherry-red blood",
       "body_system": "Hematological",
       "severity": "severe",
       "onset": "Rapid (10–60 minutes).",
-      "notes": "Unlike other conditions that cause pale or blue gums, cyanide poisoning causes the blood to remain fully oxygenated (because tissues cannot extract the oxygen), leading to a characteristic bright red color in the mucous membranes.Neurological Abnormalities"
+      "notes": "Unlike other conditions that cause pale or blue gums, cyanide poisoning causes the blood to remain fully oxygenated (because tissues cannot extract the oxygen), leading to a characteristic bright red color in the mucous membranes."
     },
     {
       "name": "Tremors, seizures, dilated pupils, incoordination (ataxia), and sudden collapse",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Rapid (10–60 minutes).",
-      "notes": "As the brain is deprived of usable oxygen, the cat may exhibit severe neurological signs progressing to coma and death.Gastrointestinal Upset"
+      "notes": "As the brain is deprived of usable oxygen, the cat may exhibit severe neurological signs progressing to coma and death."
     },
     {
       "name": "Hypersalivation (drooling), vomiting, and diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Rapid (often the first sign).",
-      "notes": "You may detect a bitter \"almond-like\" odor on the cat's breath. The plant material also causes inflammation of the mucosa (lining of the mouth and stomach).Cardiac Failure"
+      "notes": "You may detect a bitter \"almond-like\" odor on the cat's breath. The plant material also causes inflammation of the mucosa (lining of the mouth and stomach)."
     },
     {
       "name": "Arrhythmias (irregular heart rate), hypotension (low blood pressure), and cardiac arrest",

@@ -28,28 +28,28 @@
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "Immediate (during or right after ingestion).",
-      "notes": "Bones, particularly cooked poultry or fish bones, can easily splinter or lodge in the cat's throat, presenting an immediate and life-threatening choking hazard"
+      "notes": "Bones, particularly cooked poultry or fish bones, can easily splinter or lodge in the cat's throat, presenting an immediate and life-threatening choking hazard."
     },
     {
       "name": "Gastrointestinal Obstruction, Laceration, or Perforation",
       "body_system": "Gastrointestinal",
       "severity": "fatal",
       "onset": "Immediate to acute (within hours of ingestion).",
-      "notes": "Cooked bones become extremely brittle and splinter into sharp shards when chewed2.... These shards can cause severe damage to the mouth and digestive system, leading to internal lacerations, perforations of the intestines, or complete blockages of the gastrointestinal tract2.... Raw bones can also c"
+      "notes": "Cooked bones become extremely brittle and splinter into sharp shards when chewed2. These shards can cause severe damage to the mouth and digestive system, leading to internal lacerations, perforations of the intestines, or complete blockages of the gastrointestinal tract."
     },
     {
       "name": "Dental Fractures",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Immediate (while chewing).",
-      "notes": "Gnawing on objects that are as hard as or harder than the cat's own teeth, such as dense bones, can cause painful dental fractures"
+      "notes": "Gnawing on objects that are as hard as or harder than the cat's own teeth, such as dense bones, can cause painful dental fractures."
     },
     {
       "name": "Vomiting and Diarrhea (Foodborne Pathogen Infection)",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Variable/Acute (typically within hours to a few days,",
-      "notes": "This symptom is specifically associated with the ingestion of raw bones, which frequently harbor dangerous foodborne bacteria such as Salmonella and E. coli16. Ingesting these pathogens leads to gastrointestinal infection and systemic illness"
+      "notes": "This symptom is specifically associated with the ingestion of raw bones, which frequently harbor dangerous foodborne bacteria such as Salmonella and E. coli16. Ingesting these pathogens leads to gastrointestinal infection and systemic illness."
     }
   ],
   "scientificName": "Bones",

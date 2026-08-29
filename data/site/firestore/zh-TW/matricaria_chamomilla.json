@@ -1,10 +1,7 @@
 {
-  "aliases": [
-    "羅馬洋甘菊",
-    "德國洋甘菊"
-  ],
+  "aliases": [],
   "category": "plant",
-  "description": "洋甘菊（羅馬洋甘菊 Chamaemelum nobile、德國洋甘菊 Matricaria chamomilla）常被人類作為草本保健品使用，但對貓有毒。植物含有揮發油，包括 bisabolol 和 chamazulene，也含有 anthecotulide 與其他萜類化合物。由於貓肝臟的葡萄醣醛酸轉移酶活性有限，無法安全代謝這些萜類。反覆皮膚接觸也可能造成接觸性皮膚炎，並有抗血小板作用，代表可能影響凝血。",
+  "description": "洋甘菊常被人類當作天然草藥使用，但對貓咪來說並不安全。無論是羅馬洋甘菊（Chamaemelum nobile）或德國洋甘菊（Matricaria chamomilla），都含有揮發油與萜類化合物（terpenoids）等植物成分。\n\n這些成分對人類通常不容易造成問題，但貓咪的肝臟代謝能力和人類不同，缺乏某些分解植物化學物質的酵素，因此比較難安全地處理這類成分。誤食後，貓咪可能出現嘔吐、腹瀉、流口水、食慾下降等症狀。\n\n除了誤食之外，反覆接觸洋甘菊也可能刺激貓咪皮膚，造成紅腫、搔癢或接觸性皮膚炎。含洋甘菊的茶包、乾燥花、精油、香氛或保養品，都應避免讓貓咪舔食或長時間接觸。",
   "gemini_model": "codex-manual",
   "manual_override": true,
   "name": "洋甘菊",
@@ -24,5 +21,5 @@
   "toxicParts": [
     "花"
   ],
-  "translated_at": "2026-05-29T12:06:50.698Z"
+  "translated_at": "2026-05-31T19:10:38.205Z"
 }

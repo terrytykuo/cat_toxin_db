@@ -8,7 +8,7 @@
   ],
   "name": "Gladioli / Sword Lily",
   "aliases": [],
-  "description": "Gladiolus (Gladiolus spp.), also called sword lily, is a tall garden flower often grown from underground corms. It can make cats sick if they chew or eat it, and the corms are the highest-risk part. The exact toxic compounds have not been fully identified, but the plant acts mainly as a digestive irritant. In simple terms, it can upset the stomach and intestines after ingestion. Sap or plant juices may also irritate the skin in some cases. Possible signs include drooling, vomiting, diarrhea, belly pain, low energy, and loss of appetite. The greatest risk is during planting or storage, when cats may access loose corms. Keep gladiolus plants and stored corms away from cats, and contact a veterinarian if your cat eats any part of the plant or has repeated vomiting or lethargy.",
+  "description": "Gladiolus (Gladiolus spp.), also called sword lily, is a tall garden flower often grown from underground corms. It can make cats sick if they chew or eat it, and the corms are the highest-risk part. The exact toxic compounds have not been fully identified, but the plant mainly acts as a digestive irritant. In simple terms, it can upset the stomach and intestines. Sap or plant juices may also irritate the skin in some cats. Possible signs include drooling, vomiting, diarrhea, belly pain, low energy, and loss of appetite. The greatest risk is during planting or storage, when cats may find loose corms. Keep gladiolus plants and stored corms away from cats, and call a veterinarian if your cat eats any part or has repeated vomiting or tiredness.",
   "safetyNotes": [
     "Main hazard: Unidentified irritant compounds are most concentrated in the underground corms.",
     "Symptoms: Drooling, vomiting, diarrhea, belly pain, lethargy, or loss of appetite.",
@@ -33,14 +33,14 @@
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Acute (Immediate to shortly after chewing/ingestion).",
-      "notes": "This occurs due to the plant's irritant properties on the mouth and digestive tract. Gladioli belong to the Iridaceae (Iris) family, which are known to cause oral and mucosal irritation when eaten.Lethargy"
+      "notes": "This occurs due to the plant's irritant properties on the mouth and digestive tract. Gladioli belong to the Iridaceae (Iris) family, which are known to cause oral and mucosal irritation when eaten."
     },
     {
       "name": "Lethargy",
       "body_system": "Neurological",
       "severity": "moderate",
       "onset": "Acute (Accompanying gastrointestinal symptoms).",
-      "notes": "The cat may appear tired or disinterested in food due to the abdominal discomfort and nausea associated with the poisoning.Abdominal Pain"
+      "notes": "The cat may appear tired or disinterested in food due to the abdominal discomfort and nausea associated with the poisoning."
     },
     {
       "name": "Abdominal Pain",

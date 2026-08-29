@@ -1,15 +1,15 @@
 {
   "slug": "phalaenopsis-orchid",
   "source_hash": "336850d6c88e1237612609071b2cd8f033fa221d758990d390382d4f78a1f947",
-  "translated_at": "2026-05-21T10:36:13Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
   "name": "蝴蝶蘭 (Phalaenopsis Orchid)",
   "aliases": [
     "蝴蝶蘭"
   ],
-  "description": "蝴蝶蘭 (Phalaenopsis) 是最受歡迎的蘭花之一，對貓完全安全。它們優雅且花期持久，是家中既美觀又無需擔心的裝飾。",
+  "description": "蝴蝶蘭（Phalaenopsis spp.）是非常受歡迎的室內植物，而且對貓咪來說完全安全。它們不含任何已知會對寵物造成傷害的毒素，所以就算貓咪好奇啃咬也不會有危險。\n\n因為它們沒有毒性，如果貓咪偶爾咬了幾口葉子或花朵，你也不用太過擔心。不過，吃下太多任何植物都還是可能讓貓咪腸胃稍微不舒服。整體來說，蝴蝶蘭絕對是適合有貓家庭的安心好選擇。",
   "safetyNotes": [],
   "toxicParts": [],
   "symptoms": []

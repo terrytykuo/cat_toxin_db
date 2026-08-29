@@ -1,13 +1,13 @@
 {
   "slug": "lavandula",
   "source_hash": "2092ce10c5394372cb8d6d326e34458c22175328f2087ba9ecb589cc0b0f5c6d",
-  "translated_at": "2026-05-21T10:32:34Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
   "name": "薰衣草 (Lavender)",
   "aliases": [],
-  "description": "薰衣草 (Lavandula spp.) 對貓有輕微毒性，這是因為其花朵和葉片中含有高濃度的精油 — 主要是芳樟醇 (linalool) 和乙酸芳樟酯 (linalyl acetate)。貓缺乏有效代謝這些萜類化合物所需的肝臟酵素「葡萄糖醛酸轉移酶 (glucuronyl transferase)」，因此即便只是咀嚼花朵或吸入擴香儀噴出的高濃度精油，都可能引起不適。",
+  "description": "薰衣草是受歡迎的芳香植物，但對貓來說具有輕微毒性。貓的肝臟中缺少一種特定的酵素，無法有效分解薰衣草中的成分（如 linalool 和 linalyl acetate）。雖然只是啃幾片葉子通常只會引起輕微的腸胃不適，但仍需留意。\n\n真正的危險來自於高濃度的薰衣草精油。這些精油如果被誤食、接觸到皮膚，甚至是從擴香儀中吸入，都可能導致嚴重的肝臟損傷、發抖或呼吸困難。\n\n如果貓咪吃到了薰衣草，可能會流口水、嘔吐或看起來很疲倦。請將所有薰衣草植物和精油產品放在貓咪碰不到的地方。如果貓咪接觸到高濃度精油，請聯絡獸醫。",
   "safetyNotes": [
     "毒性化合物：芳樟醇 (linalool) 和乙酸芳樟酯 (linalyl acetate) (單萜類化合物)；濃縮於花朵和精油中",
     "機制：貓無法進行充分的萜類葡萄糖醛酸結合作用 (glucuronidate)，導致毒素累積並刺激胃腸道，對肝臟造成輕微壓力",

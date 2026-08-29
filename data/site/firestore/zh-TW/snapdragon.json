@@ -1,15 +1,15 @@
 {
   "slug": "snapdragon",
   "source_hash": "cf43320bd0f7d1f4d111bf9fb152cc81f2f7d41013669b377bce4d3d6e5b2f09",
-  "translated_at": "2026-05-21T10:39:35Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:51:54.584427Z",
+  "gemini_model": "gemini-2.5-pro",
+  "manual_override": true,
   "category": "plant",
   "name": "金魚草",
   "aliases": [
     "龍口花"
   ],
-  "description": "金魚草是色彩繽紛且充滿奇趣的花卉，對貓咪安全。它們有各種如彩虹般的顏色，其獨特的「開合」花形能為任何花藝佈置增添活潑的個性。",
+  "description": "金魚草（Antirrhinum majus）是一種色彩鮮豔、無毒的花卉，對於有貓的家庭來說，不論是種在花園或作為插花，都是安全又受歡迎的選擇。它獨特的龍形花朵為任何環境增添了活潑感，如果好奇的貓咪啃食，目前已知並無風險。\n\n這些花不含任何對貓有害的成分。雖然我們通常不鼓勵寵物吃下大量植物，因為可能引起輕微的腸胃不適，但金魚草是寵物友善家庭和花園中相對安全的選擇之一。\n\n您可以安心享受金魚草鮮豔的色彩和奇特的外形，不必擔心貓咪的安全。它提供了一種輕鬆愉快的方式，將自然之美帶入室內或點綴您的戶外空間。",
   "safetyNotes": [],
   "toxicParts": [],
   "symptoms": []

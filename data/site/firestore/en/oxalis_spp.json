@@ -10,7 +10,7 @@
   ],
   "name": "Shamrock",
   "aliases": [],
-  "description": "Shamrock plants (Oxalis spp.), commonly sold as ornamental houseplants and associated with St. Patrick's Day, are toxic to cats due to soluble oxalate compounds. These differ from the insoluble calcium oxalate crystals in Araceae plants — soluble oxalates are absorbed into the bloodstream, where they bind calcium and may affect the kidneys with chronic high-dose exposure.",
+  "description": "Shamrock (Oxalis species), also known as wood sorrel, is a common houseplant often mistaken for clover. While festive, it is toxic to cats because it contains soluble oxalate salts. These are different from the irritating crystals found in many other toxic plants. Unlike insoluble oxalates that cause immediate mouth pain, soluble oxalates are absorbed from the stomach into the bloodstream. Once in the blood, they bind with calcium, causing a sudden and dangerous drop in the body's available calcium. This condition, called hypocalcemia, can affect muscle function and overall stability. In cases of very large ingestions, these compounds can also form crystals in the kidneys, potentially leading to kidney damage. A cat that nibbles a small amount may only experience mild stomach upset, like vomiting or a temporary loss of appetite. However, eating a large quantity can lead to more serious signs like weakness, lethargy, and tremors. Keep shamrock plants away from cats, especially those that like to graze on greens. If a large amount is eaten, contact a veterinarian.",
   "safetyNotes": [
     "Toxic compounds: soluble oxalate salts throughout the plant — leaves, stems, and bulbs",
     "Mechanism: soluble oxalates bind free calcium in the blood (hypocalcaemia); chronic exposure causes kidney calcium oxalate crystal deposition",
@@ -26,19 +26,19 @@
       "name": "Gastrointestinal distress (including drooling, vomiting, diarrhea, and inappetence/anorexia)",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "This is the most common presentation when a cat only takes a small taste or nibble of the plant. More serious signs are not expected unless larger quantities are consumed3. 2. Hypocalcemic Tetany (Neurological/Muscular Signs)"
+      "notes": "This is the most common presentation when a cat only takes a small taste or nibble of the plant. More serious signs are not expected unless larger quantities are consumed."
     },
     {
       "name": "Hypocalcemic tetany (manifesting as lethargy, extreme weakness, ataxia/incoordination, tremors, and seizures)",
       "body_system": "Neurological",
       "severity": "severe",
-      "notes": "This occurs following a large ingestion. The soluble oxalates absorb from the gastrointestinal tract into the bloodstream, where they bind to the body's calcium. This causes a sudden, dangerous drop in systemic blood calcium levels (hypocalcemia), triggering these severe neurological and muscular sy"
+      "notes": "This occurs following a large ingestion. The soluble oxalates absorb from the gastrointestinal tract into the bloodstream, where they bind to the body's calcium."
     },
     {
       "name": "Acute renal failure (manifesting as changes in thirst and urination, PU/PD [polyuria/polydipsia], bloody urine",
       "body_system": "Renal",
       "severity": "severe",
-      "notes": "While rarely seen, this occurs if the calcium oxalates precipitate (form crystals) within the kidneys, causing direct damage to the renal tubules"
+      "notes": "While rarely seen, this occurs if the calcium oxalates precipitate (form crystals) within the kidneys, causing direct damage to the renal tubules."
     }
   ],
   "scientificName": "Oxalis spp.",

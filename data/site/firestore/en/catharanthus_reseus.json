@@ -8,7 +8,7 @@
   ],
   "name": "Madagascar Periwinkle",
   "aliases": [],
-  "description": "Madagascar Periwinkle (Catharanthus roseus) is a common ornamental flowering plant that is severely toxic to cats. It contains vinca alkaloids — primarily vincristine and vinblastine — the same compounds used as chemotherapy drugs in cancer treatment. Even small amounts can cause serious, life-threatening toxicity in cats.",
+  "description": "Madagascar Periwinkle (Catharanthus roseus) is a common flowering plant that is extremely dangerous to cats. It contains vinca alkaloids, the exact same powerful chemicals used in chemotherapy to treat cancer in humans. Every part of this plant is toxic, and even small amounts can cause life-threatening illness. When swallowed, these chemicals stop cells from dividing normally. This damages tissues that rely on quick cell growth, such as the lining of the stomach and the bone marrow. The toxins also act as severe irritants to the digestive tract and can cause serious damage to the nervous system and heart. A poisoned cat may experience severe stomach pain, vomiting, diarrhea, and weakness. Over several days, they may develop nerve issues like tremors or dangerous drops in their blood cell counts. This plant is as dangerous as strong medical drugs. If you suspect your cat has eaten any part of it, this is a critical emergency—contact a veterinarian immediately.",
   "safetyNotes": [
     "Toxic compounds: vinca alkaloids — vincristine, vinblastine, vinorelbine; all parts of the plant are toxic",
     "Mechanism: vinca alkaloids inhibit cell division by binding to tubulin, disrupting the mitotic spindle; this damages rapidly dividing cells including bone marrow and GI epithelium",
@@ -24,25 +24,25 @@
       "name": "Pharyngeal (throat) pain, abdominal pain, severe diarrhea, and dehydration",
       "body_system": "Gastrointestinal",
       "severity": "severe",
-      "notes": "These symptoms occur because the Vinca alkaloids (vincristine and vinblastine) found throughout the plant act as severe irritants to the mouth, throat, and digestive tract12. 2. Peripheral Nerve Damage"
+      "notes": "These symptoms occur because the Vinca alkaloids (vincristine and vinblastine) found throughout the plant act as severe irritants to the mouth, throat, and digestive tract."
     },
     {
       "name": "Peripheral nerve damage",
       "body_system": "Gastrointestinal",
       "severity": "severe",
-      "notes": "This is a serious systemic reaction to the absorption of the plant's toxic alkaloids, requiring aggressive supportive veterinary care and extended monitoring2. 3. Bone Marrow Suppression"
+      "notes": "This is a serious systemic reaction to the absorption of the plant's toxic alkaloids, requiring aggressive supportive veterinary care and extended monitoring."
     },
     {
       "name": "Bone marrow suppression (depression)",
       "body_system": "Gastrointestinal",
       "severity": "severe",
-      "notes": "The plant's toxins severely depress the bone marrow's ability to function, making immediate and aggressive veterinary treatment essential2. 4. Cardiovascular Damage"
+      "notes": "The plant's toxins severely depress the bone marrow's ability to function, making immediate and aggressive veterinary treatment essential."
     },
     {
       "name": "Cardiovascular damage",
       "body_system": "Cardiac",
       "severity": "severe",
-      "notes": "The Vinca alkaloids in the plant are capable of causing profound, systemic damage to the cardiovascular system alongside the nerve and bone marrow effects"
+      "notes": "The Vinca alkaloids in the plant are capable of causing profound, systemic damage to the cardiovascular system alongside the nerve and bone marrow effects."
     }
   ],
   "scientificName": "Catharanthus reseus",

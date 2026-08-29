@@ -3,7 +3,7 @@
     "小麥草 (Wheatgrass)"
   ],
   "category": "plant",
-  "description": "貓草（小麥草）是專門種給貓啃食的安全植物。它能幫助消化、提供纖維，也滿足貓想咬綠色植物的自然需求。從種子開始種植很容易，通常 7–10 天就能長成。",
+  "description": "貓草（小麥草）是常見在家種植給貓啃食的安全植物。它能幫助消化、提供纖維，也滿足貓想咬綠色植物的自然需求。從種子開始種植很容易，通常 7–10 天就能長成。\n需留意，若貓咪大量啃食，還是有可能出現嘔吐情況。",
   "gemini_model": "codex-manual",
   "manual_override": true,
   "name": "貓草（小麥草）",
@@ -12,5 +12,5 @@
   "source_hash": "7efbb667a69cea9cdf406330b7b0e921fc1c5a668d68a73107c876cb38635bf0",
   "symptoms": [],
   "toxicParts": [],
-  "translated_at": "2026-05-29T11:45:09.343Z"
+  "translated_at": "2026-05-29T12:27:57.797Z"
 }

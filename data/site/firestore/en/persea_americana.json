@@ -24,28 +24,28 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Clinical signs may be evident within 24 hours (usually after 12 hours).",
-      "notes": "Persin acts as a gastrointestinal irritant. Even small amounts of the fruit flesh can cause stomach upset, but the leaves, bark, skin, and pit contain higher concentrations of the toxin.Pancreatitis"
+      "notes": "Persin acts as a gastrointestinal irritant. Even small amounts of the fruit flesh can cause stomach upset, but the leaves, bark, skin, and pit contain higher concentrations of the toxin."
     },
     {
       "name": "Pancreatitis (Inflammation of the Pancreas)",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Variable; symptoms like abdominal pain and vomiting often appear within 24–72 hours after ingesting",
-      "notes": "This is triggered by the high dietary fat content in the avocado flesh and oil rather than the persin toxin itself. It can lead to dehydration, abdominal swelling, and organ damage.Respiratory and Cardiac Distress"
+      "notes": "This is triggered by the high dietary fat content in the avocado flesh and oil rather than the persin toxin itself. It can lead to dehydration, abdominal swelling, and organ damage."
     },
     {
       "name": "Labored Breathing (Dyspnea), Coughing, and Fluid Accumulation (Edema/Congestion)",
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "12–24 hours after ingestion.",
-      "notes": "In severe cases, persin toxicity can cause damage to heart muscle fibers, leading to fluid accumulation around the heart (hydropericardium) and in the lungs (pulmonary congestion). While cats are less sensitive to this than birds, it is a documented risk for dogs and cats in high doses.Foreign Body"
+      "notes": "In severe cases, persin toxicity can cause damage to heart muscle fibers, leading to fluid accumulation around the heart (hydropericardium) and in the lungs (pulmonary congestion). While cats are less sensitive to this than birds, it is a documented risk for dogs and cats in high doses."
     },
     {
       "name": "Choking or Intestinal Blockage",
       "body_system": "Gastrointestinal",
       "severity": "fatal",
       "onset": "Immediate (if choking) to days (if intestinal blockage occurs).",
-      "notes": "The large pit (seed) and thick skin pose a physical danger. If swallowed, the pit can block the esophagus, stomach, or intestines, requiring surgical removal.Lethargy and Weakness"
+      "notes": "The large pit (seed) and thick skin pose a physical danger. If swallowed, the pit can block the esophagus, stomach, or intestines, requiring surgical removal."
     },
     {
       "name": "Lethargy and Depression",

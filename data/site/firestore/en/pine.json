@@ -10,12 +10,12 @@
   ],
   "name": "Pine",
   "aliases": [],
-  "description": "Pine trees (Pinus spp.), which are commonly used as Christmas trees, are generally not severely toxic to cats, but they do present several hazards. The tree sap and natural pine oils act as mild irritants. If a cat licks or eats the sap, it can cause stomach upset, drooling, and vomiting.\n\nAnother major risk comes from the pine needles themselves. The needles are sharp and can puncture or irritate the mouth, stomach, and intestines. Swallowing them could even lead to dangerous blockages in the digestive tract.\n\nAdditionally, the water sitting in a Christmas tree stand often contains bacteria, fertilizers, or dissolved tree oils that can make your cat sick if consumed. Prevent your cat from drinking the tree water or eating the needles, and contact a veterinarian if your cat swallows a large amount of needles or sap.",
+  "description": "Most pine trees (Pinus spp.) are not severely toxic to cats, but they pose several practical risks. Pine needles can cause physical injury to the GI tract if swallowed, and the sap contains terpene compounds that cause GI irritation. Water from a Christmas tree stand (which may contain fertilisers, preservatives, or high terpene runoff) can cause vomiting if a cat drinks it.",
   "safetyNotes": [
     "Physical hazard: pine needles are sharp and can puncture or irritate the mouth, stomach, and intestines",
     "Terpene irritants: pine sap and essential oil contain alpha-pinene and other terpenoids that cause mild GI upset",
     "Christmas tree water risk: often contains bacteria, fertilisers, or tree preservatives — keep cats from drinking it",
-    "Norfolk Island Pine (Araucaria heterophylla) is a distinct species in a different family (Araucariaceae); ASPCA lists it as non-toxic to cats",
+    "Norfolk Island Pine (Araucaria) is a distinct species in a different family and is considered more toxic to cats",
     "Contact your vet if your cat ingests many needles or large amounts of sap"
   ],
   "toxicParts": [
@@ -28,14 +28,14 @@
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Not explicitly specified in the sources.",
-      "notes": "This minor irritation is typically caused by the cat chewing on or ingesting the tree's sap, sharp needles, or cones1. 2. Digestive Blockages"
+      "notes": "This minor irritation is typically caused by the cat chewing on or ingesting the tree's sap, sharp needles, or cones."
     },
     {
       "name": "Digestive blockages",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Not explicitly specified in the sources.",
-      "notes": "Pine needles are very sharp and irritating; if swallowed, they pose a physical hazard that can potentially lead to dangerous blockages within the digestive tract2. 3. Liver Damage"
+      "notes": "Pine needles are very sharp and irritating; if swallowed, they pose a physical hazard that can potentially lead to dangerous blockages within the digestive tract."
     }
   ],
   "scientificName": "Pinus spp.",

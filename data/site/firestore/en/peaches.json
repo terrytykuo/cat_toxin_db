@@ -9,7 +9,7 @@
   ],
   "name": "Peaches",
   "aliases": [],
-  "description": "Peach flesh (Prunus persica) is not toxic to cats in small amounts, but the pit, seeds, stems, and leaves contain amygdalin — a cyanogenic glycoside that releases hydrogen cyanide (HCN) when chewed or metabolised. This is the same compound found in apricot, cherry, and plum pits. The flesh alone is safe as an occasional treat.",
+  "description": "Peach (Prunus persica) flesh is safe for cats in small amounts, but the rest of the fruit can be dangerous. The pit, seeds, stems, and leaves contain a compound called amygdalin. When a cat chews or digests these parts, the amygdalin breaks down and releases hydrogen cyanide, a deadly poison. Because of this risk, you should never let your cat play with or chew on peach pits. While a tiny piece of ripe peach flesh is okay as an occasional treat, it is high in sugar and does not give cats any nutritional benefits. Also, avoid giving your cat canned peaches, as they often contain extra sugar or unsafe artificial sweeteners. If your cat chews a peach pit, they might breathe heavily, drool, or vomit. In severe cases, it can cause seizures or breathing failure. Keep peach pits away from your cat, and contact a veterinarian immediately if you think your cat has chewed one.",
   "safetyNotes": [
     "Pit, seeds, leaves, stems: toxic — amygdalin (cyanogenic glycoside) releases HCN via beta-glucosidase",
     "Symptoms from pit ingestion: rapid breathing, weakness, drooling, vomiting; severe cases cause convulsions and respiratory failure",
@@ -18,67 +18,60 @@
     "Canned or sweetened peach products should be avoided due to added sugar or xylitol"
   ],
   "toxicParts": [
-    "Flesh",
-    "Fruit",
     "Pit",
     "Seed"
   ],
   "symptoms": [
     {
-      "name": "The symptoms a cat shows after ingesting peaches depend heavily on which part of the fruit was consumed. While the flesh of a peach is not toxic",
-      "body_system": "Metabolic",
-      "severity": "moderate"
-    },
-    {
       "name": "Diarrhea and Loose Stools",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Shortly after ingestion (within a few hours).",
-      "notes": "While the fleshy part of the peach is not chemically poisonous, it can still irritate a cat's digestive tract and lead to mild gastrointestinal upset"
+      "notes": "While the fleshy part of the peach is not chemically poisonous, it can still irritate a cat's digestive tract and lead to mild gastrointestinal upset."
     },
     {
       "name": "Hyperventilation and Difficulty Breathing",
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "Rapid onset (often within minutes to a few hours after chewing a pit).",
-      "notes": "If a cat chews or crushes the peach pit, the released cyanide binds to cellular enzymes and halts cellular oxygen metabolism12. This effectively suffocates the tissues, forcing the cat to hyperventilate as the body struggles to utilize oxygen"
+      "notes": "If a cat chews or crushes the peach pit, the released cyanide binds to cellular enzymes and halts cellular oxygen metabolism12. This effectively suffocates the tissues, forcing the cat to hyperventilate as the body struggles to utilize oxygen."
     },
     {
       "name": "Shock, Collapse, and Coma",
       "body_system": "Gastrointestinal",
       "severity": "fatal",
       "onset": "Rapidly following initial respiratory distress.",
-      "notes": "Cyanide is an extremely potent toxin that rapidly starves vital organs (like the brain and heart) of energy, resulting in abnormally low blood pressure, shock, loss of consciousness, coma, and ultimately death if untreated"
+      "notes": "Cyanide is an extremely potent toxin that rapidly starves vital organs (like the brain and heart) of energy, resulting in abnormally low blood pressure, shock, loss of consciousness, coma, and ultimately death if untreated."
     },
     {
       "name": "Neurological Dysfunction (Dizziness, Ataxia, and Confusion)",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Rapid onset.",
-      "notes": "The sudden lack of cellular energy production caused by cyanide poisoning quickly damages nerves and impairs central nervous system function, leading to dizziness, mental confusion, and an inability to walk properly"
+      "notes": "The sudden lack of cellular energy production caused by cyanide poisoning quickly damages nerves and impairs central nervous system function, leading to dizziness, mental confusion, and an inability to walk properly."
     },
     {
       "name": "Vomiting and Nausea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Shortly after ingestion (within 30 minutes to a few hours).",
-      "notes": "Vomiting can occur either as an initial reaction to the cyanide toxicity from the pit or simply as a response to gastrointestinal irritation"
+      "notes": "Vomiting can occur either as an initial reaction to the cyanide toxicity from the pit or simply as a response to gastrointestinal irritation."
     },
     {
       "name": "Cherry-Red Skin or Mucous Membranes",
       "body_system": "Hematological",
       "severity": "severe",
       "onset": "Rapid onset.",
-      "notes": "Because cyanide blocks the cells from extracting oxygen from the bloodstream, the venous blood remains fully oxygenated. This clinical hallmark causes the cat's skin, gums, and mucous membranes to turn an abnormally bright, cherry-red color"
+      "notes": "Because cyanide blocks the cells from extracting oxygen from the bloodstream, the venous blood remains fully oxygenated. This clinical hallmark causes the cat's skin, gums, and mucous membranes to turn an abnormally bright, cherry-red color."
     },
     {
       "name": "Gastrointestinal or Throat Obstruction (Physical Hazard)",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Immediate (if lodged in the throat) or variable (taking hours to days if lodged in the intestinal tr",
-      "notes": "Aside from the chemical dangers of a crushed seed, swallowing an intact, hard peach pit poses a major mechanical hazard2. The pit can easily become lodged in the cat's throat, causing immediate choking, or block the intestinal tract, requiring emergency surgical removal"
+      "notes": "Aside from the chemical dangers of a crushed seed, swallowing an intact, hard peach pit poses a major mechanical hazard2. The pit can easily become lodged in the cat's throat, causing immediate choking, or block the intestinal tract, requiring emergency surgical removal."
     }
   ],
-  "scientificName": "Peaches",
+  "scientificName": "Prunus persica",
   "family": "Rosaceae"
 }

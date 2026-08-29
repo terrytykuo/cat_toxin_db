@@ -1,23 +1,18 @@
 {
-  "slug": "gardenia_jasminoides",
-  "source_hash": "059989aed2a4f6f3cb4ac1e5a36eef35f9dbedee9c1ee32daab4e7f8a2c6a232",
-  "translated_at": "2026-06-01T14:09:01.000Z",
+  "aliases": [],
+  "category": "plant",
+  "description": "梔子花（Gardenia jasminoides）是香氣明顯的開花灌木，常見於盆栽或庭院。它不是對貓最危險的植物之一，但如果貓啃咬或吃下，仍可能造成輕微中毒。\n\n主要風險來自一群稱為環烯醚萜苷的植物成分，包括 genipin 和 gardenoside。這些成分可能刺激消化道。有些貓接觸植物後，也可能出現皮膚刺激或蕁麻疹。\n\n如果貓吃到梔子花的葉子、花或果實，可能出現嘔吐、腹瀉、輕微疲倦或皮膚疹。花香可能吸引好奇的貓靠近。請把梔子花放在貓不容易碰到的地方；如果嘔吐反覆、腹瀉明顯，或皮疹擴散，請聯絡獸醫。",
   "gemini_model": "codex-manual",
   "manual_override": true,
-  "category": "plant",
   "name": "梔子花",
-  "aliases": [],
-  "description": "梔子花（Gardenia jasminoides）是香氣明顯的開花灌木，常見於盆栽或庭院。它不算是對貓最危險的植物，但如果被啃咬或吃下，仍可能造成輕微中毒。\n\n主要風險來自一群叫做環烯醚萜苷的植物成分，包括 genipin 和 gardenoside。這些成分可能刺激消化道。有些貓接觸植物後，也可能出現皮膚刺激或蕁麻疹。\n\n如果貓吃到梔子花的葉子、花或果實，可能出現嘔吐、腹瀉、輕微精神不振或皮膚疹。花香可能吸引好奇的貓靠近。請把梔子花放在貓不容易碰到的地方；如果嘔吐反覆、腹瀉明顯，或皮疹擴散，請聯絡獸醫。",
   "safetyNotes": [
     "主要危害：葉子、花和果實中的環烯醚萜苷可能刺激消化道。",
     "症狀：嘔吐、腹瀉、輕微精神不振、蕁麻疹或接觸後皮膚疹。",
     "暴露風險：濃郁花香和明亮花朵可能吸引好奇的貓。",
     "處理方式：把梔子花放在貓碰不到的地方；若嘔吐反覆、腹瀉明顯或皮疹擴散，請聯絡獸醫。"
   ],
-  "toxicParts": [
-    "葉子",
-    "花"
-  ],
+  "slug": "gardenia_jasminoides",
+  "source_hash": "76a059c7a9b85eba9cb7ec3860c49d4b26fdf92d2504ced954fdd65dfbce39b2",
   "symptoms": [
     {
       "body_system": "腸胃道",
@@ -31,5 +26,10 @@
       "body_system": "皮膚",
       "name": "蕁麻疹或皮膚疹"
     }
-  ]
+  ],
+  "toxicParts": [
+    "葉子",
+    "花"
+  ],
+  "translated_at": "2026-06-03T21:31:11.093519Z"
 }

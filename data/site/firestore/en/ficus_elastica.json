@@ -24,19 +24,19 @@
       "name": "Irritation of the mouth and drooling (hypersalivation)",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "This is caused by the physical and chemical irritation from the proteolytic enzymes (ficin) and psoralen (ficusin) within the plant's sap12. 2. Gastrointestinal Upset (Vomiting and Diarrhea)"
+      "notes": "This is caused by the physical and chemical irritation from the proteolytic enzymes (ficin) and psoralen (ficusin) within the plant's sap."
     },
     {
       "name": "Vomiting and diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "If the cat swallows the irritating sap, it leads to mild stomach and intestinal upset1. 3. Contact Dermatitis (Skin Irritation)"
+      "notes": "If the cat swallows the irritating sap, it leads to mild stomach and intestinal upset."
     },
     {
       "name": "Skin redness and contact dermatitis",
       "body_system": "Dermal",
       "severity": "mild",
-      "notes": "Contact dermatitis occurs if the plant's milky sap gets on the cat's skin or fur1. The sap contains multiple irritants, including furocoumarins, psoralens, ficin, sesquiterpenoid glycosides, and triterpenes, which are directly implicated in causing this skin reaction"
+      "notes": "Contact dermatitis occurs if the plant's milky sap gets on the cat's skin or fur1. The sap contains multiple irritants, including furocoumarins, psoralens, ficin, sesquiterpenoid glycosides, and triterpenes, which are directly implicated in causing this skin reaction."
     }
   ],
   "scientificName": "Ficus elastica",

@@ -2,17 +2,17 @@
   "slug": "nymphaeaceae_spp",
   "category": "plant",
   "hidden": false,
-  "severity": "safe",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/nymphaeaceae_spp/images/1773008705020.jpg"
   ],
   "name": "Water Lily",
   "aliases": [],
-  "description": "Water Lily (Nymphaea spp. and Nuphar spp.) is an aquatic ornamental plant that is mildly to moderately toxic to cats. It contains alkaloids — primarily nuphamine and thiobinupharidine in Yellow Water Lily (Nuphar) — and tannins and glycosides in White Water Lily (Nymphaea). Cats may encounter these plants near garden ponds.",
+  "description": "Water Lilies (Nymphaeaceae family) are aquatic plants often found in ponds and are considered mildly toxic to cats. Chewing on the leaves, stems, or flowers can cause stomach irritation, leading to symptoms like vomiting, diarrhea, or drooling. This is due to alkaloids and other compounds in the plant. It is very important to know that these Water Lilies are not the same as the highly dangerous \"true lilies\" (from the Lilium or Hemerocallis species). True lilies, like Easter lilies or daylilies, cause severe, often fatal, kidney failure in cats from even minor exposure. While Water Lilies do not cause kidney failure, they can still make a cat feel unwell. If your cat has been near a pond and you suspect it has chewed on a water lily, monitor it for signs of digestive upset. If symptoms are severe or don't resolve, contact your veterinarian for advice.",
   "safetyNotes": [
-    "Toxic compounds: nuphamine and thiobinupharidine (Nuphar species); tannins and glycosides (Nymphaea species)",
-    "Mechanism: alkaloids cause GI and CNS irritation; tannins cause direct mucosal irritation",
-    "Symptoms: vomiting, diarrhea, drooling, lethargy; more severe ingestion may cause incoordination or CNS depression",
+    "Toxic compounds: nupharidine and thiobinupharidine (Nuphar species); tannins and glycosides (Nymphaea species)",
+    "Mechanism: alkaloids cause gastrointestinal irritation; tannins cause direct mucosal irritation",
+    "Symptoms: vomiting, diarrhea, drooling, lethargy",
     "Not related to nephrotoxic true lilies (Lilium or Hemerocallis) — Water Lilies do not cause kidney failure",
     "Contact your vet if your cat shows symptoms after contact with pond plants"
   ],

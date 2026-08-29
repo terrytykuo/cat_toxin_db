@@ -1,0 +1,50 @@
+{
+  "aliases": [],
+  "category": "plant",
+  "description": "楊桃（Averrhoa carambola）對貓有劇毒，必須隨時放在貓碰不到的地方。整顆果實，包括果肉和果汁，都含有危險的化合物，即使攝取極少量也可能引發嚴重且快速發作的疾病。\n\n楊桃含有高量的水溶性草酸鈣和一種叫做楊桃毒素 (caramboxin) 的神經毒素。貓吃下楊桃後，水溶性草酸鹽會被吸收進血液，並與體內的鈣結合，導致鈣水平突然急遽下降，同時形成結晶，引發嚴重的急性腎衰竭。楊桃毒素也可能造成嚴重的神經系統症狀。\n\n任何楊桃的攝取都是醫療緊急情況。症狀可能很快出現，包括嘔吐、流口水、虛弱、顫抖、口渴或排尿習慣改變，以及癲癇。如果您懷疑貓咪吃下了任何一點楊桃，請立即聯絡獸醫或急診動物醫院。",
+  "imageUrls": [],
+  "name": "楊桃",
+  "safetyNotes": [
+    "有毒化合物：楊桃毒素 (caramboxin，神經毒素) 與高量水溶性草酸鹽；整顆果實都有毒",
+    "機制：楊桃毒素會抑制 GABA 合成，造成神經興奮；草酸鹽則在腎小管內析出草酸鈣結晶",
+    "症狀：嘔吐、打嗝、躁動、意識混亂、癲癇、急性腎衰竭；多在 1–5 小時內發作",
+    "目前沒有貓可安全食用的楊桃份量——即使一小塊果肉或果汁都可能造成中毒",
+    "任何楊桃的攝取都屬於獸醫急症"
+  ],
+  "scientificName": "Averrhoa carambola",
+  "severity": "toxic",
+  "slug": "averrhoa_carambola",
+  "symptoms": [
+    {
+      "body_system": "腸胃道",
+      "name": "嘔吐、流口水與食慾不振",
+      "onset": "數小時內",
+      "severity": "severe"
+    },
+    {
+      "body_system": "腎臟",
+      "name": "喝水與排尿增加、脫水、血尿，最後尿量減少或完全無法排尿",
+      "onset": "數小時內",
+      "severity": "fatal"
+    },
+    {
+      "body_system": "腸胃道",
+      "name": "嗜睡與虛弱",
+      "onset": "數小時內",
+      "severity": "severe"
+    },
+    {
+      "body_system": "腸胃道",
+      "name": "癲癇",
+      "onset": "數小時內",
+      "severity": "severe"
+    }
+  ],
+  "toxicParts": [
+    "全株",
+    "果實"
+  ],
+  "manual_override": true,
+  "gemini_model": "manual-claude",
+  "translated_at": "2026-08-29T00:00:00Z"
+}

@@ -1,13 +1,13 @@
 {
   "slug": "salt",
   "source_hash": "6d34e73bb2a87bbea8411df4664f5a92afabcadb556fe6072387bdf2cd18eeac",
-  "translated_at": "2026-05-21T10:16:27Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:51:54.584427Z",
+  "gemini_model": "gemini-2.5-pro",
+  "manual_override": true,
   "category": "food",
   "name": "鹽",
   "aliases": [],
-  "description": "高劑量的鹽（氯化鈉）對貓有毒。與人類相比，貓對鈉的耐受性非常低，在正常的飲食條件下，牠們的腎臟調節鈉的效率極高。過量的鈉攝取會使該系統負荷過重，導致嚴重的神經和心血管影響。",
+  "description": "雖然貓的健康需要少量鈉，但過多的鹽分是有毒的。一次攝取大量鹽分可能導致稱為「鹽中毒」或「高血鈉症」(hypernatremia) 的危險狀況。血液中鈉含量過高時，就會發生這種情況。\n\n血液中過多的鈉，會為了自我平衡而將水分從身體細胞中抽離。這個過程會導致細胞萎縮，造成嚴重脫水，尤其會損害大腦和神經系統。如果貓吃了太多鹽，又沒有足夠的清水來稀釋和排出，風險就是最高的。\n\n鹽中毒的常見來源是人類食物，例如洋芋片、醃製肉品或自製的培樂多黏土。症狀包括極度口渴、嘔吐、腹瀉、虛弱、走路不穩和癲癇。鹽中毒是醫療緊急狀況，請立即聯絡獸醫或急診動物醫院。",
   "safetyNotes": [
     "中毒劑量：體重每公斤約 4 克即為致死量；較小劑量也會引起顯著症狀；即使是定期餵食鹹味零食也會造成累積性的傷害",
     "機制：高血鈉會導致細胞脫水和腦水腫；神經和心臟功能的嚴重破壞",
@@ -19,31 +19,31 @@
   "symptoms": [
     {
       "name": "如果貓攝入或接觸過量的鹽，且沒有充足的淡水供應",
-      "body_system": "Metabolic"
+      "body_system": "代謝"
     },
     {
       "name": "嚴重的胃腸不適",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "攝入後數分鐘至數小時內"
     },
     {
       "name": "過度口渴與排尿",
-      "body_system": "Renal",
+      "body_system": "腎臟",
       "onset": "數分鐘內"
     },
     {
       "name": "神經功能缺損與腦損傷",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "漸進式（隨著鈉改變細胞滲透壓，在數分鐘至數小時內發展）"
     },
     {
       "name": "心血管與呼吸窘迫",
-      "body_system": "Cardiac",
+      "body_system": "心血管",
       "onset": "數分鐘至數小時內"
     },
     {
       "name": "急性腎衰竭",
-      "body_system": "Renal",
+      "body_system": "腎臟",
       "onset": "漸進式（隨著毒性進展，需數小時至數天）"
     }
   ]

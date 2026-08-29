@@ -23,42 +23,42 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Within 30 to 60 minutes",
-      "notes": "Alcohol directly irritates the gastrointestinal tract34. If the source of the alcohol is raw yeast dough, the cat may also suffer from severe gastric distension (bloating) and abdominal pain as the fermenting yeast produces carbon dioxide gas in the warm environment of the stomach"
+      "notes": "Alcohol directly irritates the gastrointestinal tract34. If the source of the alcohol is raw yeast dough, the cat may also suffer from severe gastric distension (bloating) and abdominal pain as the fermenting yeast produces carbon dioxide gas in the warm environment of the stomach."
     },
     {
       "name": "Neurological Impairment",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Within 30 to 60 minutes",
-      "notes": "Ethanol is rapidly absorbed into the bloodstream and easily crosses the blood-brain barrier1. Because cats lack robust alcohol dehydrogenase enzyme activity to metabolize the chemical efficiently, this leads to profound CNS depression, resulting in \"drunk-like\" stumbling, extreme tiredness, tremors,"
+      "notes": "Ethanol is rapidly absorbed into the bloodstream and easily crosses the blood-brain barrier."
     },
     {
       "name": "Hypothermia",
       "body_system": "Cardiac",
       "severity": "severe",
       "onset": "Within 30 to 60 minutes",
-      "notes": "Alcohol induces peripheral vasodilation, which widens the blood vessels near the surface of the skin1. This causes the cat's body to rapidly lose heat, dropping its core temperature to dangerous levels"
+      "notes": "Alcohol induces peripheral vasodilation, which widens the blood vessels near the surface of the skin1. This causes the cat's body to rapidly lose heat, dropping its core temperature to dangerous levels."
     },
     {
       "name": "Metabolic Acidosis",
       "body_system": "Hematological",
       "severity": "severe",
       "onset": "Within 1 hour (progressing as the alcohol is metabolized)",
-      "notes": "The liver's attempt to process the ethanol produces acetic acid1. This, combined with an accumulation of lactic acid due to poor systemic perfusion, dangerously lowers the pH of the cat's blood"
+      "notes": "The liver's attempt to process the ethanol produces acetic acid1. This, combined with an accumulation of lactic acid due to poor systemic perfusion, dangerously lowers the pH of the cat's blood."
     },
     {
       "name": "Respiratory Depression",
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "Within 1 hour to progressive stages",
-      "notes": "As CNS depression worsens, the cat's normal respiratory drive is suppressed1. This leads to shallow, labored breathing that can culminate in complete respiratory failure and death"
+      "notes": "As CNS depression worsens, the cat's normal respiratory drive is suppressed1. This leads to shallow, labored breathing that can culminate in complete respiratory failure and death."
     },
     {
       "name": "Acute Organ Damage",
       "body_system": "Gastrointestinal",
       "severity": "fatal",
       "onset": "Progressive (can occur rapidly after absorption)",
-      "notes": "Because a cat's liver cannot efficiently clear alcohol, just a tiny amount—as little as a single teaspoon or tablespoon—can quickly overwhelm the liver and brain, leading to irreversible organ failure and death"
+      "notes": "Because a cat's liver cannot efficiently clear alcohol, just a tiny amount—as little as a single teaspoon or tablespoon—can quickly overwhelm the liver and brain, leading to irreversible organ failure and death."
     }
   ],
   "scientificName": "Alcohol",

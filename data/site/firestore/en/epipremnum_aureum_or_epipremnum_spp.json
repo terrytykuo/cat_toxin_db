@@ -9,7 +9,7 @@
   ],
   "name": "Pothos / Devil’s Ivy",
   "aliases": [],
-  "description": "Pothos (Epipremnum aureum), also called Devil's Ivy, is one of the most common trailing houseplants. It is not safe for cats, especially because its vines often hang from shelves or furniture where a curious cat can reach them. The main risk comes from insoluble calcium oxalate crystals, also called raphides. These tiny, needle-like crystals sit inside the leaves and stems. When a cat chews the plant, the crystals can scrape and irritate the mouth, lips, tongue, and throat. This usually causes fast, painful local irritation rather than a deep body-wide poisoning. A cat that bites pothos may suddenly drool, paw at the mouth, vomit, or have swelling around the lips or tongue. More serious swelling can make swallowing or breathing difficult. Keep pothos vines well away from cats, and contact a veterinarian if symptoms are intense, do not settle, or involve trouble swallowing or breathing.",
+  "description": "Pothos (Epipremnum aureum), also known as Devil's Ivy, is a very common houseplant with long, trailing vines. It is not safe for cats, especially since its hanging leaves are often tempting for curious pets to play with and chew. The main danger comes from tiny, sharp needles inside the plant's cells called insoluble calcium oxalate crystals. When a cat bites into the leaves or stems, these microscopic needles shoot out and stab the tissues of the mouth, tongue, and throat. This causes sudden and sharp pain rather than a body-wide illness. Because the pain happens right away, most cats stop chewing before they eat a large amount. If a cat bites a pothos plant, they may start drooling heavily, paw at their mouth in pain, or vomit. You might also see swelling around their lips, mouth, and tongue. In severe cases, the swelling can make it hard for the cat to swallow. Move trailing vines completely out of reach, and contact a veterinarian if the swelling is bad or if your cat has trouble swallowing.",
   "safetyNotes": [
     "Main hazard: Insoluble calcium oxalate raphides in the leaves and stems irritate the mouth and throat when chewed.",
     "Symptoms: Sudden mouth pain, heavy drooling, pawing at the mouth, swollen lips or tongue, vomiting, and difficulty swallowing.",
@@ -25,28 +25,28 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate",
-      "notes": "This immediate and intense pain occurs because Pothos contains microscopic, needle-like insoluble calcium oxalate crystals (raphides)12. When a cat bites or chews the leaves or stems, these crystals are forcefully ejected directly into the oral mucosa2. Because the pain is instantaneous, cats are us"
+      "notes": "This immediate and intense pain occurs because Pothos contains microscopic, needle-like insoluble calcium oxalate crystals (raphides)12. When a cat bites or chews the leaves or stems, these crystals are forcefully ejected directly into the oral mucosa."
     },
     {
       "name": "Excessive drooling or hypersalivation",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate",
-      "notes": "This is a direct physical and inflammatory response to the microscopic trauma and irritation caused by the oxalate crystals piercing the cat's mouth12. 3. Oral Swelling and Difficulty Swallowing"
+      "notes": "This is a direct physical and inflammatory response to the microscopic trauma and irritation caused by the oxalate crystals piercing the cat's mouth."
     },
     {
       "name": "Swelling of the mouth and tongue, accompanied by difficulty swallowing (dysphagia)",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Immediate to shortly after exposure",
-      "notes": "The localized inflammatory response can cause the cat's mouth and tongue to become significantly swollen23. In severe cases, this swelling can progress to the throat and potentially obstruct the cat's airway, which requires immediate veterinary attention12. 4. Vomiting"
+      "notes": "The localized inflammatory response can cause the cat's mouth and tongue to become significantly swollen23. In severe cases, this swelling can progress to the throat and potentially obstruct the cat's airway, which requires immediate veterinary attention."
     },
     {
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Shortly after ingestion",
-      "notes": "While the systemic toxicity of Pothos is relatively low and not typically life-threatening, the ingestion of the plant material and the resulting irritation cause extreme gastrointestinal discomfort and stomach upset"
+      "notes": "While the systemic toxicity of Pothos is relatively low and not typically life-threatening, the ingestion of the plant material and the resulting irritation cause extreme gastrointestinal discomfort and stomach upset."
     }
   ],
   "scientificName": "Epipremnum aureum or Epipremnum spp.",

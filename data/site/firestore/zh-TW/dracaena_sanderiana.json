@@ -3,8 +3,8 @@
     "Lucky Bamboo"
   ],
   "category": "plant",
-  "description": "開運竹／富貴竹 (Dracaena sanderiana) 是常見的裝飾植物，常以水培或土培方式販售。雖然名字有「竹」，但它不是真正的竹子，而是龍血樹屬植物，毒性特徵與其他 Dracaena 類似。它含有類固醇皂苷，會刺激腸胃道，也會產生貓特有的神經症狀。",
-  "gemini_model": "codex-manual",
+  "description": "開運竹 (Lucky Bamboo，學名 Dracaena sanderiana) 是常見的裝飾植物，經常種在小水瓶或土壤中。雖然名字裡有「竹」，但它其實不是真正的竹子，而是一種龍血樹屬 (Dracaena) 植物。它對貓咪來說並不安全，因為葉子和莖含有被稱為類固醇皂苷 (steroidal saponins) 的有毒成分。\n\n當貓咪啃咬這種植物時，這些成分會嚴重刺激腸胃。對貓咪來說，這種植物還可能引起神經系統的異常反應，讓牠們感到虛弱和四肢不協調。要注意的是，花瓶裡的水也可能含有這些毒素，所以絕對不能讓貓咪喝裡面的水。\n\n吃下開運竹的貓咪可能會流口水、嘔吐 (有時帶血)、腹瀉並失去食慾。你可能還會發現牠們的瞳孔異常放大，而且看起來非常沒精神或走路不穩。請將這種植物和它的水放在貓咪碰不到的地方；如果貓咪出現不適症狀或吃下大量植物，請聯絡獸醫。",
+  "gemini_model": "gemini-cli-manual-review",
   "manual_override": true,
   "name": "開運竹／富貴竹",
   "safetyNotes": [
@@ -51,5 +51,5 @@
   "toxicParts": [
     "葉子"
   ],
-  "translated_at": "2026-05-29T11:45:09.343Z"
+  "translated_at": "2026-06-03T22:27:19.400981Z"
 }

@@ -23,11 +23,11 @@
       "name": "瞳孔放大（散瞳）"
     },
     {
-      "body_system": "代謝系統",
+      "body_system": "代謝",
       "name": "體溫過高"
     },
     {
-      "body_system": "心血管系統",
+      "body_system": "心血管",
       "name": "心跳變化"
     },
     {
@@ -35,10 +35,8 @@
       "name": "呼吸頻率變化"
     },
     {
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "name": "食慾下降"
     }
-  ],
-  "source_hash": "d81f3361ff208158cf96b43ea9cdced3ce6ca1806343037f6a2e6935a749ee6b",
-  "migrated_from": "data/site/zh-TW/brugmansia_spp.json"
+  ]
 }

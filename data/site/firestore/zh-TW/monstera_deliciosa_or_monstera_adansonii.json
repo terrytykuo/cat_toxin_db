@@ -1,13 +1,13 @@
 {
   "slug": "monstera_deliciosa_or_monstera_adansonii",
   "source_hash": "e76b634a4ee7b1a603372815a54ed9e60d1dd3321537a013fa02d9d445a2281b",
-  "translated_at": "2026-05-21T10:34:02Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
   "name": "龜背芋 / 龜背竹",
   "aliases": [],
-  "description": "龜背芋 (Monstera deliciosa 及 M. adansonii)，通常被稱為瑞士起司草或龜背竹，是受歡迎的熱帶室內植物，對貓有毒。作為天南星科 (Araceae) 的成員，它的葉子和莖中充滿了不溶性草酸鈣結晶 (raphides)。咀嚼植物會將這些針狀結晶釋放到口腔黏膜中，引起劇烈的瞬間疼痛。",
+  "description": "龜背芋（Monstera deliciosa 或 M. adansonii）是常見的室內植物，但對貓具有毒性。它含有微小、針狀的「不溶性草酸鈣結晶」。這些結晶與其說是化學毒藥，不如說更像是微小的玻璃碎片。\n\n當貓咬下葉子或莖時，這些尖銳的結晶會刺入口腔和喉嚨的黏膜，立即引起強烈的灼熱感和疼痛。正因為咬下去會立刻感到劇痛，大多數貓在吞下危險分量前就會停止啃咬。然而，隨之而來的腫脹有時會讓貓難以吞嚥或呼吸。\n\n咬過龜背芋的貓通常會大量流口水、用爪子抓嘴巴，也可能出現嘴唇或舌頭腫脹。你可以嘗試用水沖洗牠的口腔，但如果貓出現呼吸困難或腫脹嚴重，請立即聯絡獸醫或急診動物醫院。",
   "safetyNotes": [
     "有毒化合物：不溶性草酸鈣結晶；汁液中的蛋白分解酶會加劇反應",
     "機制：當植物組織受損時，結晶會強力噴射到口腔和喉嚨黏膜中，造成機械性灼傷和腫脹",

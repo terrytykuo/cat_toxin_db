@@ -2,14 +2,14 @@
   "slug": "schefflera_spp_or_schefflera_actinphylla",
   "category": "plant",
   "hidden": false,
-  "severity": "safe",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/schefflera_spp_or_schefflera_actinphylla/images/1772924062850.jpg",
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/schefflera_spp_or_schefflera_actinphylla/images/1772924188774.avif"
   ],
   "name": "Schefflera / Umbrella Tree",
   "aliases": [],
-  "description": "Schefflera (Schefflera spp.), also called Umbrella Tree or Dwarf Umbrella Plant, is a popular indoor tree that is mildly toxic to cats. It contains insoluble calcium oxalate crystals (raphides) and irritant terpenoid compounds throughout its leaves and stems. Chewing the plant causes immediate oral and GI irritation.",
+  "description": "Schefflera (Schefflera spp.), also known as the Umbrella Tree, is a common houseplant that is not safe for cats to chew. Its leaves and stems contain microscopic, needle-like crystals that can cause pain and irritation if eaten. The main irritants are insoluble calcium oxalate crystals. When a cat bites or chews the plant, these sharp crystals are forcefully released into the soft tissues of the mouth, tongue, and throat. This causes a physical injury, like chewing on tiny needles, rather than a chemical poisoning. Because it causes immediate discomfort, cats usually stop chewing right away. Signs of ingestion include drooling, pawing at the mouth, vomiting, or a decreased appetite. While most cases are mild, you should keep the plant out of your cat's reach. If symptoms are severe or do not improve, contact your veterinarian.",
   "safetyNotes": [
     "Toxic compounds: insoluble calcium oxalate crystals and terpenoid compounds; all parts of the plant are hazardous",
     "Mechanism: raphides cause mechanical irritation to the mouth and GI mucosa; terpenoids add chemical irritation",
@@ -26,21 +26,21 @@
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Immediate (upon chewing the plant material).",
-      "notes": "This is caused by the mechanical rupture of plant cells that forcefully eject sharp, needle-like insoluble calcium oxalate crystals into the cat's oral tissues. The immediate physical trauma and intense pain usually deter the cat from eating more of the plant, which helps keep the overall toxicity m"
+      "notes": "This is caused by the mechanical rupture of plant cells that forcefully eject sharp, needle-like insoluble calcium oxalate crystals into the cat's oral tissues."
     },
     {
       "name": "Vomiting and diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Shortly after ingestion (within a few hours).",
-      "notes": "If the cat manages to swallow the chewed plant material, the insoluble oxalate crystals act as physical irritants as they pass through the digestive tract, triggering vomiting. Diarrhea may also develop if the exposure is severe enough1. 3. Anorexia (Loss of Appetite)"
+      "notes": "If the cat manages to swallow the chewed plant material, the insoluble oxalate crystals act as physical irritants as they pass through the digestive tract, triggering vomiting. Diarrhea may also develop if the exposure is severe enough."
     },
     {
       "name": "Anorexia",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Immediate to within a few hours following exposure.",
-      "notes": "The cat's refusal to eat is typically a direct consequence of the localized pain, swelling, and irritation in the mouth and throat caused by the oxalate crystals"
+      "notes": "The cat's refusal to eat is typically a direct consequence of the localized pain, swelling, and irritation in the mouth and throat caused by the oxalate crystals."
     }
   ],
   "scientificName": "Schefflera spp. or Schefflera actinphylla",

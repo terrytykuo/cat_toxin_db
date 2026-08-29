@@ -25,42 +25,42 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "2 to 12 hours (often the initial symptoms to manifest).",
-      "notes": "These are generally the first clinical signs of methylxanthine (theobromine and caffeine) poisoning after a cat consumes cocoa products"
+      "notes": "These are generally the first clinical signs of methylxanthine (theobromine and caffeine) poisoning after a cat consumes cocoa products."
     },
     {
       "name": "Increased Thirst and Urination (Polydipsia and Polyuria)",
       "body_system": "Renal",
       "severity": "moderate",
       "onset": "2 to 12 hours.",
-      "notes": "Theobromine acts as a diuretic, increasing the loss of bodily fluids and causing the cat to pass large amounts of urine, which can rapidly lead to systemic dehydration"
+      "notes": "Theobromine acts as a diuretic, increasing the loss of bodily fluids and causing the cat to pass large amounts of urine, which can rapidly lead to systemic dehydration."
     },
     {
       "name": "Severe Neurological Overstimulation",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "2 to 12 hours (progresses as the toxins are absorbed into the bloodstream).",
-      "notes": "Methylxanthines cause severe central nervous system overstimulation. The cat may initially show disorientation and extreme agitation, which can rapidly progress to severe muscle tremors, convulsions, and potentially a coma"
+      "notes": "Methylxanthines cause severe central nervous system overstimulation. The cat may initially show disorientation and extreme agitation, which can rapidly progress to severe muscle tremors, convulsions, and potentially a coma."
     },
     {
       "name": "Cardiovascular Dysfunction",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "2 to 12 hours.",
-      "notes": "Theobromine and caffeine abnormally enhance the strength and contractility of cardiac muscles. This results in very rapid, irregular heart rhythms, potential internal bleeding, and ultimately cardiac arrest or a heart attack in the terminal phase"
+      "notes": "Theobromine and caffeine abnormally enhance the strength and contractility of cardiac muscles. This results in very rapid, irregular heart rhythms, potential internal bleeding, and ultimately cardiac arrest or a heart attack in the terminal phase."
     },
     {
       "name": "Respiratory Distress",
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "Mid to late stages (progressing from 6 to 12 hours).",
-      "notes": "As cardiovascular and systemic distress worsens, cats will pant and breathe rapidly2.... They may develop a bluish tinge to their skin and mucous membranes (cyanosis) due to poor oxygenation, culminating in respiratory failure"
+      "notes": "As cardiovascular and systemic distress worsens, cats will pant and breathe rapidly2. They may develop a bluish tinge to their skin and mucous membranes (cyanosis) due to poor oxygenation, culminating in respiratory failure."
     },
     {
       "name": "Hyperthermia",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Mid to late stage (6 to 12 hours).",
-      "notes": "The extreme overstimulation of the nervous system and relentless muscle tremors generate excessive heat, causing the cat's core body temperature to spike to dangerous levels"
+      "notes": "The extreme overstimulation of the nervous system and relentless muscle tremors generate excessive heat, causing the cat's core body temperature to spike to dangerous levels."
     }
   ],
   "scientificName": "Cocoa",

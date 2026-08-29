@@ -1,13 +1,13 @@
 {
   "slug": "mentha_pulegium",
   "source_hash": "1029b9d2c77db50807d739a4da90b0e3e15af2a7138ba5787043795ae1083c5f",
-  "translated_at": "2026-05-21T10:35:10Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
   "name": "普列薄荷",
   "aliases": [],
-  "description": "普列薄荷（Mentha pulegium）是薄荷科草本植物，對貓具有嚴重的毒性——比普通薄荷或胡椒薄荷危險得多。其主要的有毒化合物是普列酮（pulegone），這是一種單萜酮，在肝臟中代謝為反應性化合物薄荷呋喃（menthofuran）。這種代謝物會導致嚴重的肝毒性並可能致死，特別是過去曾被用作驅蚤劑的濃縮精油形式。",
+  "description": "唇萼薄荷（Mentha pulegium）是薄荷家族的一員，但對貓具有高度毒性。它比一般的薄荷危險得多，含有名為 pulegone 的成分，貓的肝臟會將其轉化為毒性極強的物質，導致嚴重的肝功能受損，甚至致命。\n\n過去唇萼薄荷精油有時被用作天然除蚤劑，但這對貓來說極度不安全。即使只是皮膚吸收或誤食少量的濃縮精油，都可能引發肝衰竭。中毒症狀包括嘔吐、腹瀉、眼睛或皮膚發黃（黃疸）、發抖以及虛脫。\n\n誤食新鮮植株同樣非常危險。如果你懷疑貓咪吃了唇萼薄荷，或接觸到相關精油，這屬於緊急狀況。請立即聯絡獸醫或急診動物醫院。",
   "safetyNotes": [
     "有毒化合物：普列酮（主要）；在肝臟中代謝為薄荷呋喃 — 這才是真正的肝毒性物質",
     "作用機制：薄荷呋喃直接導致肝細胞壞死（肝細胞死亡）；穀胱甘肽耗盡會加劇損傷",

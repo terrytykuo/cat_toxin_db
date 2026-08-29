@@ -13,7 +13,7 @@
     "處理方式：用水沖洗貓的口腔。如果腫脹明顯，或症狀超過一小時仍未改善，請諮詢獸醫。"
   ],
   "slug": "anthurium_hookeri",
-  "source_hash": "53eb4b67d8592994a70a6e9a81e17e0e8cc0d4c1cc49120fd44ad14cf1162253",
+  "source_hash": "c919273861e230dbfa4e0b50d2af7fc91646c2fead22a9f6953fed4b8cf2905c",
   "symptoms": [
     {
       "body_system": "腸胃道",
@@ -51,6 +51,5 @@
     "葉子",
     "全株有毒"
   ],
-  "translated_at": "2026-05-29T11:31:26.731Z",
-  "migrated_from": "data/site/zh-TW/anthurium_hookeri.json"
+  "translated_at": "2026-05-29T11:31:26.731Z"
 }

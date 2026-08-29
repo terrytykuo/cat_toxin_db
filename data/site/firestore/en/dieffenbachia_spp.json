@@ -34,14 +34,14 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate to within minutes of ingestion.",
-      "notes": "The cat may also exhibit head shaking or paw at their mouth in an attempt to remove the irritant.Airway Obstruction and Dyspnea"
+      "notes": "The cat may also exhibit head shaking or paw at their mouth in an attempt to remove the irritant."
     },
     {
       "name": "Difficulty Breathing (Dyspnea) and Swelling of the Tongue/Throat (Edema)",
       "body_system": "Respiratory",
       "severity": "severe",
       "onset": "Rapidly following the onset of inflammation.",
-      "notes": "While death is infrequent, severe inflammation and swelling of the tongue and pharynx (glottal edema) can obstruct the airway, making it difficult for the cat to breathe. This requires urgent veterinary care.Gastrointestinal Distress and Dysphagia"
+      "notes": "While death is infrequent, severe inflammation and swelling of the tongue and pharynx (glottal edema) can obstruct the airway, making it difficult for the cat to breathe. This requires urgent veterinary care."
     },
     {
       "name": "Vomiting, Difficulty Swallowing (Dysphagia), and Anorexia (Loss of Appetite)",

@@ -2,13 +2,13 @@
   "slug": "milk_and_dairy_products",
   "category": "food",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/milk_and_dairy_products.jpg"
   ],
   "name": "Milk and dairy products",
   "aliases": [],
-  "description": "Milk and dairy products are not toxic to cats but are inappropriate for most adult cats. After weaning, the majority of cats lose the ability to digest lactose — the sugar in milk — because they stop producing the enzyme lactase. Consuming milk or dairy causes lactose fermentation in the gut, leading to GI upset.",
+  "description": "Milk and dairy products are not toxic to cats, but they are not a good choice for most adult cats. After kittens are weaned from their mother's milk, their bodies stop producing enough lactase, the enzyme needed to digest lactose (the sugar in milk). When a cat drinks milk or eats dairy, the undigested lactose ferments in their digestive tract. This process leads to uncomfortable stomach issues like bloating, gas, vomiting, and diarrhea. In addition to lactose, products like cream, cheese, and ice cream are incredibly high in fat and calories. Feeding these rich foods can easily trigger painful pancreas inflammation and contribute to obesity. A small, occasional lick of plain milk might not harm a cat that can tolerate it, but it is best avoided. If you want to offer dairy, specially formulated lactose-free cat milk is a safer alternative. Do not give your cat cheese or cream as regular treats.",
   "safetyNotes": [
     "Not toxic: dairy does not contain compounds that harm cats biochemically",
     "Lactose intolerance: most adult cats lack sufficient lactase to digest lactose, leading to vomiting and diarrhea",
@@ -17,10 +17,7 @@
     "Lactose-free cat milk is a safer alternative if you want to offer dairy; avoid cheese and cream as regular treats"
   ],
   "toxicParts": [
-    "Seed",
-    "Entire food",
-    "Pit",
-    "Skin"
+    "Entire food"
   ],
   "symptoms": [
     {
@@ -28,28 +25,28 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Within hours (typically 8 to 12 hours after ingestion)",
-      "notes": "Most adult cats lack the enzyme lactase, which is required to digest the lactose found in milk2.... When the undigested lactose reaches the colon, bacteria ferment it, drawing in water and causing loose stools3. If lactose-intolerant cats repeatedly consume dairy, the ongoing irritation can damage t"
+      "notes": "Most adult cats lack the enzyme lactase, which is required to digest the lactose found in milk2. When the undigested lactose reaches the colon, bacteria ferment it, drawing in water and causing loose stools."
     },
     {
       "name": "Flatulence, Bloating, and Abdominal Pain",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Within hours",
-      "notes": "This discomfort is a direct result of the gastrointestinal bacteria fermenting the undigested lactose sugars in the colon, which produces excess gas"
+      "notes": "This discomfort is a direct result of the gastrointestinal bacteria fermenting the undigested lactose sugars in the colon, which produces excess gas."
     },
     {
       "name": "Vomiting, Nausea, and Decreased Appetite",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Within hours",
-      "notes": "These symptoms often accompany the lower gastrointestinal distress, particularly with ongoing ingestion of dairy3. If vomiting persists, the cat's dairy intake must be stopped immediately, and veterinary consultation is advised to help rehydrate the pet safely"
+      "notes": "These symptoms often accompany the lower gastrointestinal distress, particularly with ongoing ingestion of dairy3. If vomiting persists, the cat's dairy intake must be stopped immediately, and veterinary consultation is advised to help rehydrate the pet safely."
     },
     {
       "name": "Pancreatitis",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "severity": "moderate",
       "onset": "Progressive (can develop after consuming high-fat meals)",
-      "notes": "While lactose causes the primary digestive upset in milk, the exceptionally high fat content found in certain dairy products—specifically cream and ice cream—can trigger pancreatitis in susceptible cats68. Frequent feeding of calorie-dense dairy can also unbalance a cat's diet and contribute to obes"
+      "notes": "While lactose causes the primary digestive upset in milk, the exceptionally high fat content found in certain dairy products—specifically cream and ice cream—can trigger pancreatitis in susceptible cats."
     }
   ],
   "scientificName": "Milk and dairy products",

@@ -25,20 +25,20 @@
       "name": "Vomiting and Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "Garden mint contains essential oils that can irritate the stomach lining. Additionally, these oils are known to relax the esophageal valve, which increases the likelihood of vomiting, particularly in cats that are already feeling unwell12.Nausea and Excessive Drooling"
+      "notes": "Garden mint contains essential oils that can irritate the stomach lining. Additionally, these oils are known to relax the esophageal valve, which increases the likelihood of vomiting, particularly in cats that are already feeling unwell."
     },
     {
       "name": "Nausea and Hypersalivation (Drooling)",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Rapid (often a response to taste or irritation).",
-      "notes": "The strong scent and taste of mint can be unappealing and irritating to cats, leading to drooling or foaming at the mouth24.Weakness and Lethargy"
+      "notes": "The strong scent and taste of mint can be unappealing and irritating to cats, leading to drooling or foaming at the mouth."
     },
     {
       "name": "Lethargy and General Weakness",
       "body_system": "Neurological",
       "severity": "moderate",
-      "notes": "While common with large ingestions, severe lethargy is more frequently associated with the consumption of concentrated mint oils or more toxic mint varieties like Pennyroyal1....Skin Irritation"
+      "notes": "While common with large ingestions, severe lethargy is more frequently associated with the consumption of concentrated mint oils or more toxic mint varieties like Pennyroyal."
     },
     {
       "name": "Contact Dermatitis (Skin irritation)",
@@ -53,13 +53,6 @@
       "severity": "severe",
       "onset": "Rapid (upon inhalation or aspiration).",
       "notes": "This is a primary risk if the cat is exposed to mint essential oils or strong aromas rather than just the leaf. The cool odor can irritate the respiratory tract, and aspiration of oils can cause severe pneumonia2.Liver Failure (Rare/Specific Contexts)"
-    },
-    {
-      "name": "Liver damage or failure",
-      "body_system": "Hepatic",
-      "severity": "fatal",
-      "onset": "Delayed.",
-      "notes": "Severe liver complications are primarily associated with the ingestion of concentrated mint oils or the highly toxic Pennyroyal (Mentha pulegium), rather than fresh garden mint leaves. However, large quantities of any mint containing essential oils can stress the liver"
     }
   ],
   "scientificName": "Mentha spp.",

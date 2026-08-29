@@ -25,7 +25,7 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Symptoms often appear immediately or within hours of ingestion,",
-      "notes": "Initial signs can be subtle, such as drooling or mild vomiting, but can rapidly progress to severe gastrointestinal bleeding (hemorrhagic gastroenteritis) and burning sensations in the mouth.Respiratory Failure"
+      "notes": "Initial signs can be subtle, such as drooling or mild vomiting, but can rapidly progress to severe gastrointestinal bleeding (hemorrhagic gastroenteritis) and burning sensations in the mouth."
     },
     {
       "name": "Respiratory Distress (Abnormal breathing patterns, difficulty breathing)",
@@ -39,21 +39,21 @@
       "body_system": "Renal",
       "severity": "fatal",
       "onset": "Often delayed by days after the initial ingestion.",
-      "notes": "The toxin colchicine interferes with cell division, causing catastrophic damage to these organs over time. Signs may include jaundice (yellowing), increased thirst, or changes in urination (including blood in urine).Bone Marrow Suppression"
+      "notes": "The toxin colchicine interferes with cell division, causing catastrophic damage to these organs over time. Signs may include jaundice (yellowing), increased thirst, or changes in urination (including blood in urine)."
     },
     {
       "name": "Bone Marrow Suppression",
       "body_system": "Hematological",
       "severity": "severe",
       "onset": "Delayed (as it affects cell division and blood cell production).",
-      "notes": "This effect compromises the cat's immune system and ability to clot blood, contributing to systemic shock and bleeding.Shock and Cardiovascular Collapse"
+      "notes": "This effect compromises the cat's immune system and ability to clot blood, contributing to systemic shock and bleeding."
     },
     {
       "name": "Shock (Pale gums, abnormal heart rate, lethargy, weak pulse)",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "Can occur within hours or as the condition deteriorates.",
-      "notes": "The animal may appear weak, cold, or unresponsive as systemic failure sets in.Seizures"
+      "notes": "The animal may appear weak, cold, or unresponsive as systemic failure sets in."
     },
     {
       "name": "Seizures",

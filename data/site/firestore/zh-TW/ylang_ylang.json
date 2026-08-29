@@ -1,13 +1,13 @@
 {
   "slug": "ylang_ylang",
   "source_hash": "bf666f932ed745de26a723778117bdc673ba5deb819aad149f8600e14c40cdd8",
-  "translated_at": "2026-05-21T10:41:59Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:51:54.584427Z",
+  "gemini_model": "gemini-2.5-pro",
+  "manual_override": true,
   "category": "plant",
   "name": "依蘭",
   "aliases": [],
-  "description": "依蘭 (Cananga odorata) 精油對貓有毒。這種芳香精油廣泛用於香水、擴香儀和芳香療法，含有貓無法安全代謝的牻牛兒烯 (germacrene) 及相關倍半萜化合物。吸入擴香精油或局部塗抹都會導致中毒。",
+  "description": "伊蘭（Cananga odorata）是一種常用來製作精油的植物。這種精油對貓有很強的毒性，絕對不應該在牠們身上或周圍環境使用。貓的肝臟缺乏特定的酵素，無法有效分解精油中的芳樟醇（linalool）和乙酸芐酯（benzyl acetate）等成分。\n\n貓咪可能因為吸入擴香儀的香氣、皮膚接觸或舔到精油而中毒。這些有毒成分會在貓體內累積，導致神經系統問題，例如走路不穩、癲癇，並可能引發嚴重的肝損傷。由於精油濃度非常高，即使少量也極其危險。\n\n中毒症狀包括流口水、嘔吐、看似醉酒或搖晃、顫抖及呼吸困難。如果您懷疑貓咪接觸到任何形式的伊蘭精油，這屬於緊急醫療情況。請立即聯絡獸醫或急診動物醫院。",
   "safetyNotes": [
     "有毒化合物：精油中的牻牛兒烯、乙酸苄酯、苯甲酸甲酯以及其他揮發性倍半萜和酯類化合物",
     "機制：貓缺乏有效代謝這些化合物所需的肝臟葡萄糖醛酸轉移酶 (hepatic glucuronidase)；蓄積會導致消化系統和神經系統影響",

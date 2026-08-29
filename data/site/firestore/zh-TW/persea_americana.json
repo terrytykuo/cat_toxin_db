@@ -42,7 +42,5 @@
       "body_system": "心血管",
       "onset": ""
     }
-  ],
-  "source_hash": "62bce1e6eac34c0a4fd214fee8be1abfa99e5e67dca89dd2a60ca25c9b572a68",
-  "migrated_from": "data/site/zh-TW/persea_americana.json"
+  ]
 }

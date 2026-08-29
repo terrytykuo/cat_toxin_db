@@ -2,16 +2,16 @@
   "slug": "tradescantia_zebrina",
   "category": "plant",
   "hidden": false,
-  "severity": "safe",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/tradescantia_zebrina/images/1772926956743.jpg",
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/tradescantia_zebrina/images/1772926961728.jpg"
   ],
   "name": "Wandering Jew",
   "aliases": [],
-  "description": "Wandering Jew (Tradescantia zebrina), a trailing houseplant with striking purple and silver striped leaves, is mildly toxic to cats. Like its relative Oyster Plant (Tradescantia spathacea), it contains irritant compounds in its sap that cause contact dermatitis on skin and GI upset when ingested.",
+  "description": "Wandering Jew (Tradescantia zebrina) is a common, colorful trailing houseplant. While not severely toxic, it can cause mild discomfort for cats. The primary issue is the plant's sap, found in its leaves and stems, which contains compounds that can irritate a cat's skin and digestive system. The most common reaction occurs when a cat's skin comes into contact with the sap from a broken stem or leaf. This can cause a skin reaction called dermatitis, which may appear as redness, itchiness, or a rash. This is usually mild and localized to the area of contact. If a cat chews on the plant, the sap can irritate the mouth and stomach, leading to symptoms like drooling, pawing at the mouth, mild vomiting, or diarrhea. These signs are typically not serious and resolve on their own. If skin irritation or stomach upset continues, it is best to consult a veterinarian.",
   "safetyNotes": [
-    "Toxic compounds: irritant sap compounds throughout the plant; contact with broken stems releases the most concentrated sap",
+    "Toxic compounds: irritant sap compounds throughout the plant; sap is released when leaves or stems are broken",
     "Mechanism: sap causes contact dermatitis; ingestion causes direct GI mucosal irritation",
     "Symptoms: skin redness or rash from contact; vomiting, diarrhea, drooling from ingestion",
     "The trailing purple-silver leaves are visually appealing and accessible when plants hang — relocate away from cats",
@@ -26,14 +26,14 @@
       "name": "Mild vomiting, drooling, and/or diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "This is generally a minor gastrointestinal upset that usually resolves on its own1. You can help by cleaning the cat's mouth with water, but you should consult a veterinarian if the vomiting becomes frequent1. 2. Skin Redness and Itching"
+      "notes": "This is generally a minor gastrointestinal upset that usually resolves on its own1. You can help by cleaning the cat's mouth with water, but you should consult a veterinarian if the vomiting becomes frequent."
     },
     {
       "name": "Skin redness or itch",
       "body_system": "Dermal",
       "severity": "mild",
       "onset": "Occurs after prolonged physical contact with the plant's sap",
-      "notes": "If the sap gets on your cat, you should clean it off their fur and skin with water1. While usually a minor irritation, you should consult a veterinarian if the skin reaction appears severe"
+      "notes": "If the sap gets on your cat, you should clean it off their fur and skin with water1. While usually a minor irritation, you should consult a veterinarian if the skin reaction appears severe."
     }
   ],
   "scientificName": "Tradescantia zebrina",

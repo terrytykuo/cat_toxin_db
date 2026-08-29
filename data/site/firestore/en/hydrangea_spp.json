@@ -8,7 +8,7 @@
   ],
   "name": "Hydrangea",
   "aliases": [],
-  "description": "Hydrangea (Hydrangea spp.) is a popular flowering shrub toxic to cats. It contains cyanogenic glycosides — including hydrangin — primarily in the flower buds and leaves. When metabolised, these compounds release hydrogen cyanide (HCN), although the concentration is typically low enough that serious toxicity requires ingestion of substantial amounts. The plant also contains saponins that contribute to gastrointestinal irritation.",
+  "description": "Hydrangea (Hydrangea spp.) is a popular flowering shrub that is toxic to cats. The leaves and flower buds are the main parts of concern, especially if a cat chews or eats them. Hydrangeas contain cyanogenic glycosides, including hydrangin. When these compounds are broken down, they can release small amounts of hydrogen cyanide. In most household cases, the bigger problem is stomach irritation, but large exposures can be more serious. A cat that eats hydrangea may vomit, have diarrhea, drool, or seem tired. Keep hydrangeas out of reach and clean up fallen leaves or flowers. Call a veterinarian if your cat eats the plant, symptoms repeat, or your cat seems weak or unusually sleepy.",
   "safetyNotes": [
     "Toxic compounds: cyanogenic glycosides (hydrangin) in flower buds and leaves; saponins throughout the plant",
     "Mechanism: hydrangin yields HCN upon digestion, inhibiting cellular respiration; saponins cause direct GI irritation",
@@ -27,21 +27,21 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Acute (Clinical signs typically appear quickly, potentially within hours).",
-      "notes": "This is one of the most frequently reported symptoms. It occurs as the body attempts to expel the irritating plant material and toxins.Diarrhea"
+      "notes": "This is one of the most frequently reported symptoms. It occurs as the body attempts to expel the irritating plant material and toxins."
     },
     {
       "name": "Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Acute.",
-      "notes": "Often accompanies vomiting. The toxins irritate the lining of the gastrointestinal tract.Lethargy and Depression"
+      "notes": "Often accompanies vomiting. The toxins irritate the lining of the gastrointestinal tract."
     },
     {
       "name": "Lethargy / Depression / Exhaustion",
       "body_system": "Neurological",
       "severity": "moderate",
       "onset": "Acute.",
-      "notes": "Cats may appear unusually tired, weak, or unresponsive. General \"depression\" is a common clinical sign noted by veterinary sources.Abdominal Pain"
+      "notes": "Cats may appear unusually tired, weak, or unresponsive. General \"depression\" is a common clinical sign noted by veterinary sources."
     },
     {
       "name": "Abdominal Pain",
@@ -55,7 +55,7 @@
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "Very Rapid (10–60 minutes after ingestion).",
-      "notes": "Because Hydrangeas contain cyanogenic glycosides, large ingestions can theoretically lead to cyanide poisoning. Symptoms of this include almond-flavored breath, brick-red mucous membranes (gums), tremors, and collapse. However, severe cyanide toxicity from Hydrangea is uncommon in small animals comp"
+      "notes": "Because Hydrangeas contain cyanogenic glycosides, large ingestions can theoretically lead to cyanide poisoning. Symptoms of this include almond-flavored breath, brick-red mucous membranes (gums), tremors, and collapse."
     }
   ],
   "scientificName": "Hydrangea spp.",

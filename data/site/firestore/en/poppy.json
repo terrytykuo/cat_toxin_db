@@ -8,11 +8,11 @@
   ],
   "name": "Poppy",
   "aliases": [],
-  "description": "Poppy (Papaver spp.) is a toxic plant for cats because it contains chemicals called alkaloids. In some poppies, these are powerful opioid compounds, while other types of poppies have different but still harmful alkaloids. All parts of the plant are dangerous, but the milky sap inside the seed pods is the most toxic part.\n\nThese plant chemicals slow down the central nervous system and breathing. Cats are especially sensitive to these types of compounds. Even decorative poppies that do not contain opioids can upset their stomach and make them sick.\n\nIf a cat eats parts of a poppy, they may become very sleepy, lose their coordination, vomit, or have dilated pupils. In serious cases, it can cause dangerous breathing problems or collapse. Any suspected poppy eating is a serious concern, so please contact a veterinarian immediately for an evaluation.",
+  "description": "Poppy (Papaver spp.) is toxic to cats due to the presence of isoquinoline alkaloids — including morphine, codeine, papaverine, and related opioid compounds in opium poppy (Papaver somniferum), and non-opioid isoquinolines in other species. All parts of the plant contain these alkaloids, with the highest concentration in the seed pod latex.",
   "safetyNotes": [
     "Toxic compounds: isoquinoline alkaloids (opioid and non-opioid types depending on species); seed pod latex most concentrated",
     "Mechanism: opioid alkaloids bind to mu-opioid receptors, causing CNS and respiratory depression; cats are particularly sensitive to opioids",
-    "Symptoms: sedation, lethargy, dilated pupils, slow or laboured breathing, loss of coordination, vomiting; severe cases cause respiratory failure",
+    "Symptoms: sedation, lethargy, pin-point pupils, slow or laboured breathing, loss of coordination, vomiting; severe cases cause respiratory failure",
     "Even ornamental (non-opium) poppy species contain irritant alkaloids that cause GI upset",
     "Any suspected poppy ingestion warrants prompt veterinary evaluation due to opioid sensitivity in cats"
   ],
@@ -25,28 +25,28 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Not specified in the sources.",
-      "notes": "This is a direct result of the plant's toxins affecting the central nervous system, assumed based on data from other mammals1. 2. Vomiting"
+      "notes": "This is a direct result of the plant's toxins affecting the central nervous system, assumed based on data from other mammals."
     },
     {
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Not specified in the sources.",
-      "notes": "Extrapolated from symptoms seen in dogs and other mammals1. 3. Lack of Coordination"
+      "notes": "Extrapolated from symptoms seen in dogs and other mammals."
     },
     {
       "name": "Lack of coordination",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Not specified in the sources.",
-      "notes": "Caused by the plant's impact on the nervous system; assumed to occur in cats based on mammalian data1. 4. Collapse"
+      "notes": "Caused by the plant's impact on the nervous system; assumed to occur in cats based on mammalian data."
     },
     {
       "name": "Collapse",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Not specified in the sources.",
-      "notes": "This represents a significant disruption of the nervous system and is extrapolated from reports in dogs and other mammals"
+      "notes": "This represents a significant disruption of the nervous system and is extrapolated from reports in dogs and other mammals."
     }
   ],
   "scientificName": "Papaver spp.",

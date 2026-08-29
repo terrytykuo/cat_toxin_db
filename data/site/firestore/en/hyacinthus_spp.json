@@ -8,7 +8,7 @@
   ],
   "name": "Hyacinth",
   "aliases": [],
-  "description": "Hyacinth (Hyacinthus orientalis) is a common spring bulb plant toxic to cats throughout all its parts, with the bulb carrying the highest toxin concentration. It contains alkaloids — including lycorine and related phenanthridine compounds — that trigger vomiting and, at higher doses, neurological effects. The sap also contains calcium oxalate crystals that cause additional oral irritation.",
+  "description": "Hyacinth (Hyacinthus spp.) is a spring bulb plant that is toxic to cats. The bulb is the most dangerous part, but the leaves and flowers can also cause problems if chewed or eaten. Hyacinths contain alkaloids, including lycorine-like compounds, that can irritate the stomach and trigger vomiting. The plant can also contain calcium oxalate crystals, which add mouth and throat irritation when a cat bites it. A cat may drool, vomit, have diarrhea, paw at the mouth, or seem tired after exposure. Eating bulb pieces is more concerning than nibbling a leaf. Keep bulbs, potted hyacinths, and cut flowers away from cats, and call a veterinarian if your cat eats any part or shows repeated vomiting.",
   "safetyNotes": [
     "Toxic compounds: lycorine and phenanthridine alkaloids (highest in bulb), calcium oxalate crystals in sap",
     "Mechanism: lycorine directly activates the brainstem emetic centre; at higher doses causes vasodilation and CNS depression",
@@ -30,28 +30,28 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Acute (Clinical signs typically appear quickly after ingestion).",
-      "notes": "Vomiting and diarrhea may sometimes contain blood. The bulbs contain the highest concentration of toxins, making them significantly more dangerous than the leaves or flowers.Oral Irritation"
+      "notes": "Vomiting and diarrhea may sometimes contain blood. The bulbs contain the highest concentration of toxins, making them significantly more dangerous than the leaves or flowers."
     },
     {
       "name": "Mouth and Throat Irritation (Burns)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate (upon chewing).",
-      "notes": "Hyacinths contain calcium oxalate crystals (raphides) in addition to alkaloids. Chewing on the plant, especially the bulb, can cause mechanical irritation and burns to the oral mucosa.Respiratory Distress"
+      "notes": "Hyacinths contain calcium oxalate crystals (raphides) in addition to alkaloids. Chewing on the plant, especially the bulb, can cause mechanical irritation and burns to the oral mucosa."
     },
     {
       "name": "Difficulty Breathing (Dyspnea) or Respiratory Depression",
       "body_system": "Respiratory",
       "severity": "severe",
       "onset": "Variable (Associated with large ingestions or heavy exposure).",
-      "notes": "Severe cases, particularly those involving bulb ingestion, can lead to changes in respiration. Some veterinary sources also note that inhalation of the plant's strong fragrance or pollen can potentially trigger breathing difficulties in cats.Cardiac Abnormalities"
+      "notes": "Severe cases, particularly those involving bulb ingestion, can lead to changes in respiration. Some veterinary sources also note that inhalation of the plant's strong fragrance or pollen can potentially trigger breathing difficulties in cats."
     },
     {
       "name": "Increased Heart Rate (Tachycardia) or Arrhythmias",
       "body_system": "Cardiac",
       "severity": "severe",
       "onset": "Delayed (Associated with systemic absorption after large ingestions).",
-      "notes": "These systemic signs are less common with minor leaf nibbling but are a significant risk if the cat digs up and chews on the bulbs.Neurological Signs"
+      "notes": "These systemic signs are less common with minor leaf nibbling but are a significant risk if the cat digs up and chews on the bulbs."
     },
     {
       "name": "Tremors or Depression",

@@ -1,8 +1,8 @@
 {
   "aliases": [],
-  "description": "相思豆 (Abrus precatorius)，又稱雞母珠，是地球上毒性最強的植物之一。其種子含有相思子毒素 (abrin) — 一種與蓖麻毒素密切相關的核糖體失活蛋白 (RIP) — 極少量即可致死。堅硬的種子外殼通常在種子被完整吞食時能防止中毒，但咬碎或破裂的種子會威脅生命。",
-  "gemini_model": "gemini-cli-default",
-  "manual_override": false,
+  "description": "相思子（Abrus precatorius，又稱雞母珠）對貓咪來說是非常危險的植物。它的種子含有相思子毒素 (abrin)，這種強烈的毒素會阻止細胞製造生存所需的蛋白質，導致細胞死亡和器官逐漸衰竭。\n\n主要的危險來自於被咬碎或破裂的種子。如果貓咪完整吞下帶有堅硬外殼的種子，它可能會直接通過消化道而不造成傷害。然而，只要種子外殼破裂，即使是極少量的毒素也可能致命。\n\n一旦毒素釋放，貓咪可能會在幾小時內出現嘔吐、腹瀉、虛弱和腹痛。在嚴重的情況下，甚至會導致癲癇和器官衰竭。如果你懷疑貓咪咬碎了相思子的種子，這絕對是緊急情況，請立即聯絡獸醫或急診動物醫院——千萬不要等症狀出現才求醫。",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "name": "相思豆",
   "safetyNotes": [
     "有毒成分：種子含相思子毒素 (abrin，核糖體失活蛋白)；葉子含相思子鹼",
@@ -12,16 +12,15 @@
     "任何疑似接觸相思子毒素的情況均屬於獸醫緊急事件 — 切勿等待症狀出現"
   ],
   "slug": "abrus_precatorius",
-  "source_hash": "3b54b128cee58e0f6455be0baaf9448135534682ba1917eff052d5a5a10369e1",
+  "source_hash": "4e176fe1858a4538a40060a39eef6afcd3c2e5919312b6fb557b430d7226aa7c",
   "symptoms": [
     {
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "name": "消化系統症狀（通常會導致嚴重的脫水和電解質失衡）"
     }
   ],
   "toxicParts": [
     "種子"
   ],
-  "translated_at": "2026-05-15T21:42:45Z",
-  "migrated_from": "data/site/zh-TW/abrus_precatorius.json"
+  "translated_at": "2026-06-03T22:27:19.400981Z"
 }

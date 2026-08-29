@@ -8,9 +8,9 @@
   ],
   "name": "Raw eggs",
   "aliases": [],
-  "description": "While cooked eggs are a healthy protein source, raw eggs and egg whites carry specific risks for cats. The first concern is biological contamination; raw eggs can harbor dangerous bacteria like Salmonella or E. coli. These pathogens can cause severe gastrointestinal distress, including vomiting, diarrhea, and lethargy, and in some cases, can lead to life-threatening infections.\n\nThe second risk involves a protein in raw egg whites called Avidin. This protein binds strongly to Biotin (Vitamin B7), preventing the cat's body from absorbing this essential nutrient. While a single accidental bite is unlikely to cause harm, regular consumption of raw eggs can lead to a biotin deficiency, resulting in skin lesions, a dull coat, and neurological issues. Cooking eggs neutralizes both the bacteria and the Avidin, making them safe to eat. If your cat shows signs of illness after eating raw eggs, please contact your veterinarian.",
+  "description": "Raw whole eggs and raw egg whites are not acutely toxic to cats, but they carry specific risks that make them inappropriate as regular food. Cooked eggs are a safe, nutritious treat; raw eggs are not recommended due to bacterial contamination and a vitamin-binding protein that interferes with nutrient absorption.",
   "safetyNotes": [
-    "Bacterial risk: raw eggs may contain Salmonella or E. coli — causes vomiting, diarrhea, lethargy, and in severe cases, life-threatening infection",
+    "Bacterial risk: raw eggs may contain Salmonella or Listeria — causes vomiting, diarrhea, lethargy, and in severe cases, life-threatening sepsis",
     "Avidin risk: raw egg whites contain avidin, a protein that binds biotin (vitamin B7) and prevents its absorption; regular feeding causes biotin deficiency — dry skin, hair loss, neurological issues",
     "Cooked eggs: safe, nutritious, and avidin is deactivated by cooking; plain scrambled or boiled egg is an acceptable occasional treat",
     "A single accidental bite of raw egg is unlikely to cause harm; regular feeding of raw eggs or egg whites is the concern",
@@ -25,21 +25,21 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Short-term (typically within hours to a few days,",
-      "notes": "These symptoms are primarily caused by foodborne bacteria, such as Salmonella and E. coli, which frequently contaminate raw eggs1...."
+      "notes": "These symptoms are primarily caused by foodborne bacteria, such as Salmonella and E. coli, which frequently contaminate raw eggs."
     },
     {
       "name": "Dermatological Lesions and Coat Degradation",
       "body_system": "Dermal",
       "severity": "severe",
       "onset": "Chronic / Delayed (develops over time with repeated, chronic consumption).",
-      "notes": "This is the direct result of the protein avidin, which is found in raw egg whites. Avidin binds tightly to biotin (Vitamin B7) in the cat's digestive tract, preventing absorption and causing a functional vitamin deficiency that severely impacts the skin, hair, and coat3.... It can also result in brittle, splitting nails"
+      "notes": "This is the direct result of the protein avidin, which is found in raw egg whites. Avidin binds tightly to biotin (Vitamin B7) in the cat's digestive tract, preventing absorption and causing a functional vitamin deficiency that severely impacts the skin, hair, and coat3. It can also result in brittle, splitting nails."
     },
     {
       "name": "Lethargy and Fatigue",
       "body_system": "Neurological",
       "severity": "moderate",
       "onset": "Variable (can present acutely alongside gastrointestinal symptoms, or chronically).",
-      "notes": "Lethargy and drowsiness are commonly observed as an acute systemic response to the foodborne pathogens (Salmonella or E. coli)34. Additionally, chronic biotin deficiency caused by avidin can manifest as prolonged low mood and fatigue over time, since biotin is critical for energy metabolism"
+      "notes": "Lethargy and drowsiness are commonly observed as an acute systemic response to the foodborne pathogens (Salmonella or E. coli)34. Additionally, chronic biotin deficiency caused by avidin can manifest as prolonged low mood and fatigue over time, since biotin is critical for energy metabolism."
     }
   ],
   "scientificName": "Raw eggs / Raw egg whites",

@@ -24,14 +24,14 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Rapid; typically within 15 minutes to 4 hours of ingestion.",
-      "notes": "Gastrointestinal signs are usually the first to appear. The vomiting can be persistent, and the resulting hemorrhagic gastritis can lead to severe dehydration.Hepatic (Liver) Failure"
+      "notes": "Gastrointestinal signs are usually the first to appear. The vomiting can be persistent, and the resulting hemorrhagic gastritis can lead to severe dehydration."
     },
     {
       "name": "Jaundice (icterus), abdominal swelling (ascites), and liver necrosis",
       "body_system": "Hepatic",
       "severity": "fatal",
       "onset": "Delayed; typically develops within 48–72 hours post-ingestion.",
-      "notes": "The toxin cycasin causes severe liver damage. Hypoglycemia (low blood sugar) may develop secondary to hepatic necrosis, requiring dextrose supplementation.Neurological Abnormalities"
+      "notes": "The toxin cycasin causes severe liver damage. Hypoglycemia (low blood sugar) may develop secondary to hepatic necrosis, requiring dextrose supplementation."
     },
     {
       "name": "Ataxia (wobbly gait), tremors, seizures, depression, and muscular paralysis",
@@ -45,7 +45,7 @@
       "body_system": "Hematological",
       "severity": "severe",
       "onset": "Delayed (associated with the progression of liver failure).",
-      "notes": "As the liver fails, it cannot produce necessary clotting factors, leading to internal and external bleeding issues.General Systemic Failure"
+      "notes": "As the liver fails, it cannot produce necessary clotting factors, leading to internal and external bleeding issues."
     },
     {
       "name": "Lethargy, weakness, and increased thirst (polydipsia)",

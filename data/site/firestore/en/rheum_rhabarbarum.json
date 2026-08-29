@@ -8,7 +8,7 @@
   ],
   "name": "Rhubarb",
   "aliases": [],
-  "description": "Rhubarb (Rheum rhabarbarum) is toxic to cats. While the cooked stalks are commonly used in human food, all parts of the plant — especially the leaves — contain high concentrations of soluble oxalic acid and oxalate compounds. Cats are particularly sensitive to oxalate toxicity because it leads to calcium oxalate crystal formation in the kidneys.",
+  "description": "Rhubarb (Rheum rhabarbarum) is dangerous for cats. While people often eat the stalks in pies or jams, the entire plant is toxic to cats. The leaves are the most poisonous part because they contain the highest level of harmful compounds called soluble oxalates. When a cat eats rhubarb, these oxalates are absorbed into the blood and quickly grab onto the body’s calcium. This causes a sudden drop in blood calcium, which can lead to tremors or seizures. These compounds also form tiny crystals that can get stuck in the kidneys and cause serious damage. Symptoms often start with drooling, vomiting, or diarrhea. As the poisoning gets worse, a cat might become very weak, lose coordination, or show signs of kidney trouble like drinking more water than usual. If you suspect your cat ate any part of a rhubarb plant, please contact a veterinarian immediately.",
   "safetyNotes": [
     "Toxic compounds: oxalic acid and soluble oxalate salts; leaves contain the highest concentration; stalks contain moderate amounts",
     "Mechanism: soluble oxalates bind calcium in the bloodstream, causing hypocalcaemia; calcium oxalate crystals precipitate in kidney tubules causing renal damage",
@@ -26,21 +26,21 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Initial signs typically appear shortly after ingestion",
-      "notes": "Small ingestions, such as a mere taste or nibble of the plant, often result only in mild gastrointestinal upset1. However, with larger ingestions, these initial GI symptoms act as a precursor to much more serious systemic poisoning1. 2. Hypocalcemic Tetany and Weakness"
+      "notes": "Small ingestions, such as a mere taste or nibble of the plant, often result only in mild gastrointestinal upset1. However, with larger ingestions, these initial GI symptoms act as a precursor to much more serious systemic poisoning."
     },
     {
       "name": "Lethargy, extreme weakness, ataxia (loss of coordination), tremors, and seizures",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Develops progressively as the toxins are absorbed from the gastrointestinal tract into the bloodstre",
-      "notes": "These severe neurological signs occur because the soluble oxalates in rhubarb absorb into the blood and aggressively bind to the cat's systemic calcium12. This results in a sudden and dangerous drop in blood calcium levels (hypocalcemia), which directly leads to hypocalcemic tetany, characterized by"
+      "notes": "These severe neurological signs occur because the soluble oxalates in rhubarb absorb into the blood and aggressively bind to the cat's systemic calcium."
     },
     {
       "name": "Bloody urine, changes in thirst and urination (polyuria/polydipsia), oliguria (abnormally low urine production), anuria",
       "body_system": "Renal",
       "severity": "fatal",
       "onset": "Delayed; develops secondary to the absorption of the toxin and subsequent crystal formation",
-      "notes": "As the soluble oxalates bind with the body's calcium, the resulting calcium oxalate crystals can precipitate and become lodged within the renal tubules1. This physically damages the kidneys and can rarely lead to life-threatening acute renal failure"
+      "notes": "As the soluble oxalates bind with the body's calcium, the resulting calcium oxalate crystals can precipitate and become lodged within the renal tubules1. This physically damages the kidneys and can rarely lead to life-threatening acute renal failure."
     }
   ],
   "scientificName": "Rheum rhabarbarum",

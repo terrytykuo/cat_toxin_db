@@ -8,7 +8,7 @@
   ],
   "name": "Jade Plant",
   "aliases": [],
-  "description": "Jade Plant (Crassula spp.), also known as Money Plant or Lucky Plant, is a popular succulent houseplant that is mildly toxic to cats. The exact toxic principle has not been fully identified, but ingestion consistently causes gastrointestinal upset and neurological symptoms in cats. All parts of the plant are considered hazardous.",
+  "description": "Jade Plant (Crassula spp.) is a popular succulent with thick, shiny leaves. It is toxic to cats, even though the exact toxic compound has not been clearly identified. The plant can irritate the stomach and may also affect the nervous system. Cats may chew jade plants because the leaves are firm and easy to reach on a windowsill or shelf. All parts of the plant should be treated as unsafe. After eating jade plant, a cat may vomit, have diarrhea, lose interest in food, seem tired, or become unsteady. Keep jade plants out of reach, and contact a veterinarian if your cat eats any amount, especially if symptoms are repeated or your cat seems weak or wobbly.",
   "safetyNotes": [
     "Toxic compounds: unidentified toxic principle; the plant's fleshy leaves and stems are the primary exposure source",
     "Mechanism: unknown; likely involves direct GI irritation combined with a mild neurological component",
@@ -49,7 +49,7 @@
       "body_system": "Cardiac",
       "severity": "severe",
       "onset": "Not explicitly specified.",
-      "notes": "While less common than vomiting or ataxia, a slowed heart rate has been noted as a potential rare side effect of ingestion.Diarrhea"
+      "notes": "While less common than vomiting or ataxia, a slowed heart rate has been noted as a potential rare side effect of ingestion."
     },
     {
       "name": "Diarrhea",

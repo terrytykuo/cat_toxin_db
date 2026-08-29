@@ -8,7 +8,7 @@
   ],
   "name": "Jerusalem Cherry",
   "aliases": [],
-  "description": "Jerusalem Cherry (Solanum pseudocapsicum), also called Winter Cherry, is a common ornamental houseplant and holiday decoration that is toxic to cats. It belongs to the nightshade family and contains glycoalkaloids — primarily solanine and solasonine — throughout all parts, with the highest concentration in the attractive red or yellow berries.",
+  "description": "Jerusalem Cherry (Solanum pseudocapsicum), also called winter cherry, is an ornamental nightshade plant with bright red or orange berries. It is toxic to cats, and the berries are the most tempting part. The plant contains glycoalkaloids such as solanine and solasonine. These chemicals can irritate the digestive tract and may also affect the nervous system. All parts are unsafe, but the colorful berries create the highest household risk. A cat that eats Jerusalem cherry may vomit, have diarrhea, drool, seem sleepy, act confused, or become weak. More serious cases can involve tremors or breathing problems. Keep the plant away from cats, and call a veterinarian if your cat eats any berries or plant material.",
   "safetyNotes": [
     "Toxic compounds: solanine and solasonine (steroidal glycoalkaloids); berries are most concentrated, but leaves and stems also contain toxins",
     "Mechanism: glycoalkaloids inhibit acetylcholinesterase and disrupt cell membranes, causing GI and neurological effects",
@@ -33,14 +33,14 @@
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Delayed (Neurological signs often follow gastrointestinal distress as the toxin is absorbed).",
-      "notes": "The clinical picture includes progressive weakness that can escalate to paralysis and convulsions. The alkaloids affect the central nervous system significantly.Cardiovascular Collapse"
+      "notes": "The clinical picture includes progressive weakness that can escalate to paralysis and convulsions. The alkaloids affect the central nervous system significantly."
     },
     {
       "name": "Bradycardia (Slow Heart Rate), Circulatory Collapse",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "Acute (Following absorption).",
-      "notes": "The alkaloids can cause a dangerous slowing of the heart rate (bradycardia) leading to total circulatory collapse (shock).Respiratory Distress"
+      "notes": "The alkaloids can cause a dangerous slowing of the heart rate (bradycardia) leading to total circulatory collapse (shock)."
     },
     {
       "name": "Dyspnea (Difficulty Breathing)",

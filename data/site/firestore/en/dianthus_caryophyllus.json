@@ -8,7 +8,7 @@
   ],
   "name": "Carnation",
   "aliases": [],
-  "description": "Carnations (Dianthus caryophyllus) are popular cut flowers and garden plants used in bouquets and floral arrangements worldwide. They are mildly toxic to cats. The plant contains saponins and other mildly irritating compounds whose exact mechanism is not fully characterised, but which cause predictable gastrointestinal symptoms. Because carnations appear so frequently in bouquets and as houseplants, they represent a common — if mild — exposure risk for curious cats.",
+  "description": "Carnations (Dianthus caryophyllus) are popular cut flowers and garden plants used in bouquets and floral arrangements worldwide. They are mildly toxic to cats. The specific toxic compound has not been identified; authorities classify the toxic principle as an unknown irritant whose exact mechanism is not fully characterised, but which causes predictable gastrointestinal symptoms. Because carnations appear so frequently in bouquets and as houseplants, they represent a common — if mild — exposure risk for curious cats.",
   "safetyNotes": [
     "Symptoms: Drooling, vomiting, diarrhea, and mild abdominal discomfort; dermatitis (skin irritation) can occur if a cat repeatedly rubs against the plant.",
     "Flowers and leaves: All parts of the plant are mildly toxic; symptoms are typically self-limiting and resolve without treatment.",
@@ -22,7 +22,7 @@
       "name": "Vomiting and Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "Carnations are often found in floral arrangements as filler flowers. Ingestion of the plant material triggers these digestive symptoms.Dermatological Irritation"
+      "notes": "Carnations are often found in floral arrangements as filler flowers. Ingestion of the plant material triggers these digestive symptoms."
     },
     {
       "name": "Dermatological symptoms (Skin irritation)",

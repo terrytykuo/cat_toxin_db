@@ -24,21 +24,21 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Rapid (symptoms often manifest quickly after ingestion).",
-      "notes": "The diarrhea may become bloody, indicating severe irritation and damage to the intestinal lining.Neurological Abnormalities"
+      "notes": "The diarrhea may become bloody, indicating severe irritation and damage to the intestinal lining."
     },
     {
       "name": "Tremors and seizures",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Rapid progression following gastrointestinal signs.",
-      "notes": "These symptoms indicate that the toxin has been absorbed and is affecting the central nervous system.Dehydration"
+      "notes": "These symptoms indicate that the toxin has been absorbed and is affecting the central nervous system."
     },
     {
       "name": "Dehydration",
       "body_system": "Metabolic",
       "severity": "severe",
       "onset": "Secondary to rapid fluid loss from vomiting and diarrhea.",
-      "notes": "Rapid fluid loss exacerbates the systemic shock and stress on the kidneys.Organ Failure"
+      "notes": "Rapid fluid loss exacerbates the systemic shock and stress on the kidneys."
     },
     {
       "name": "Organ failure",

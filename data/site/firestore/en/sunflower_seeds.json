@@ -2,13 +2,13 @@
   "slug": "sunflower_seeds",
   "category": "food",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "safe",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/sunflower_seeds.jpg"
   ],
   "name": "Sunflower seeds (salted)",
   "aliases": [],
-  "description": "Plain, unsalted, hulled sunflower seeds are not toxic to cats and are occasionally offered as a treat without harm. However, they provide no meaningful nutritional benefit to obligate carnivores, and commercial sunflower seeds are almost always salted, flavoured, or sold in the hull — all of which create specific risks.",
+  "description": "Plain, hulled, and unsalted sunflower seeds are not directly poisonous to cats, but they are not a recommended treat. The real danger comes from sunflower seeds prepared for humans, which are often heavily salted and may still have their hard, indigestible shells. A cat's body is not designed to handle high levels of salt; in large amounts it can cause salt toxicosis, which shows up mainly as vomiting, lethargy, and neurological signs. The high fat content in seeds can also lead to an upset stomach, including vomiting and diarrhea. Furthermore, the hard outer shells pose a risk of choking or causing an intestinal blockage if swallowed. Old or improperly stored seeds can also grow mold, which is toxic. While a couple of plain, unsalted kernels are unlikely to cause harm, it is safest to keep all sunflower seeds away from your cat. Never let them eat salted seeds or the shells. If your cat ingests a large amount of seeds or shells, monitor them closely and contact a veterinarian for advice.",
   "safetyNotes": [
     "Not toxic: plain, hulled, unsalted sunflower seeds do not contain cat-specific toxins",
     "Sodium risk: salted sunflower seeds exceed safe sodium levels for cats; even a small handful contains harmful amounts",
@@ -17,34 +17,24 @@
     "A few plain hulled seeds are not dangerous; keep salted or flavoured versions completely away from cats"
   ],
   "toxicParts": [
-    "Fruit",
-    "Entire food",
-    "Flower",
-    "Powder",
-    "Seed",
-    "Stem"
+    "Seed"
   ],
   "symptoms": [
-    {
-      "name": "While sunflower seeds",
-      "body_system": "Metabolic",
-      "severity": "moderate"
-    },
     {
       "name": "Indigestion and Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Within a few hours of ingestion.",
-      "notes": "Seeds are naturally rich in oils and fats and have a hard physical texture that makes them difficult for cats to properly digest1. Furthermore, seeds are highly susceptible to becoming damp and growing mold, all of which contribute to acute gastrointestinal distress"
+      "notes": "Seeds are naturally rich in oils and fats and have a hard physical texture that makes them difficult for cats to properly digest1. Furthermore, seeds are highly susceptible to becoming damp and growing mold, all of which contribute to acute gastrointestinal distress."
     },
     {
-      "name": "Increased Kidney Burden / Renal Stress",
-      "body_system": "Renal",
-      "severity": "severe",
-      "onset": "Variable / Chronic (effects can compound over time with repeated ingestions of seasoned snacks).",
-      "notes": "In a household setting, seeds are usually encountered as candied, roasted, or dried human snacks that are heavily seasoned with high amounts of salt and sugar1. Feeding these seasoned seeds to a cat provides no nutritional benefit and unnecessarily increases the metabolic burden on their kidneys"
+      "name": "Sodium-Related Signs from Salted Seeds",
+      "body_system": "Metabolic",
+      "severity": "moderate",
+      "onset": "Within hours if a large salted amount is eaten; dose-dependent.",
+      "notes": "Heavily salted human seed snacks deliver excess sodium. Per Pet Poison Helpline, salt toxicosis in cats presents primarily as gastrointestinal and neurological signs (vomiting, lethargy, tremors); kidney injury occurs only secondarily in severe acute dehydration, not as a routine renal burden from snack-sized amounts."
     }
   ],
-  "scientificName": "Sunflower seeds",
-  "family": "Various"
+  "scientificName": "Helianthus annuus",
+  "family": "Asteraceae"
 }

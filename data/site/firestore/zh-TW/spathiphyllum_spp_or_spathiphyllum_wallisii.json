@@ -1,13 +1,13 @@
 {
   "slug": "spathiphyllum_spp_or_spathiphyllum_wallisii",
   "source_hash": "f2a8d9ba4335a7fc9111cfc8acc7da1c4ef47e88f798af964d0fdbd056382072",
-  "translated_at": "2026-05-21T10:35:10Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
   "name": "白鶴芋",
   "aliases": [],
-  "description": "白鶴芋（Spathiphyllum spp.）是常見的室內植物，對貓有毒。儘管名稱中帶有「百合」二字，但它並非真正的百合，不會引起與百合屬（Lilium）相關的急性腎衰竭。作為天南星科的一員，它含有不溶性草酸鈣結晶（針晶體），當貓咪咀嚼植物時，會立即引起口腔和胃腸道刺激。",
+  "description": "白鶴芋（Spathiphyllum spp.，英文俗稱 Peace Lily）是很受歡迎的室內植物。雖然它的英文名字裡有百合（Lily），但它並非真正的百合花，不會引起百合特有且致命的急性腎衰竭。不過，白鶴芋對貓咪仍有中度毒性，咬食會造成強烈不適。\n\n它的葉子和莖部含有微小、針狀的草酸鈣結晶（calcium oxalate crystals）。當貓咪咬破植物時，這些尖銳的結晶會像小針一樣刺入貓咪的口腔、舌頭和喉嚨的嬌嫩組織。這會引起立即且強烈的灼熱感和疼痛，通常會痛得讓貓咪馬上停止繼續吃。\n\n咬到白鶴芋的貓咪通常會開始大量流口水、不斷用爪子抓嘴巴，而且吞嚥可能會變得困難。如果吞下了植物碎片，也可能會嘔吐。你可以嘗試用清水輕輕幫貓咪沖洗口腔來清除結晶。如果流口水的狀況持續，或是喉嚨腫脹影響到呼吸與吞嚥，請聯絡獸醫。",
   "safetyNotes": [
     "有毒化合物：遍布葉、莖和花的不溶性草酸鈣針晶體",
     "作用機制：晶體機械性地滲透口腔黏膜，引起灼熱、腫脹和發炎",

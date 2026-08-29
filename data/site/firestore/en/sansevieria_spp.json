@@ -8,7 +8,7 @@
   ],
   "name": "Snake Plant / Mother-in-Law’s Tongue",
   "aliases": [],
-  "description": "Snake Plant (Sansevieria spp., reclassified as Dracaena trifasciata), also known as Mother-in-Law’s Tongue, is a popular low-maintenance houseplant that is mildly toxic to cats. Like other Dracaena species, it contains steroidal saponins throughout its leaves that cause gastrointestinal upset when ingested.",
+  "description": "Snake Plant (Sansevieria spp.), also called Mother-in-Law's Tongue, is an extremely popular and hardy houseplant. Its tough, upright leaves make it a common decorative choice, but it is mildly toxic to cats if chewed or eaten. The plant contains chemical compounds called saponins, which act as natural detergents and have a foaming quality. These substances are irritating to the tissues of the mouth and digestive tract. When a cat bites into a leaf, the saponins can cause a localized reaction and stomach upset. Symptoms are generally mild and self-limiting. A cat might drool, vomit, have diarrhea, or lose its appetite for a short time. While the effects are not usually severe, it is best to keep snake plants out of reach to prevent your cat from feeling unwell. If symptoms persist or seem severe, it is always best to contact a veterinarian for advice.",
   "safetyNotes": [
     "Toxic compounds: steroidal saponins throughout the leaves",
     "Mechanism: saponins disrupt cell membrane integrity and irritate the GI mucosa; cats may show the characteristic dilated pupils (mydriasis) seen with Dracaena saponin exposure",
@@ -25,13 +25,13 @@
       "name": "Nausea, vomiting, diarrhea, and excessive salivation",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "These signs are the primary reaction to the irritating saponins and organic acids in the plant2. You can offer the cat water, monitor their condition, and ensure they cannot eat any more of the plant1. You should contact a veterinarian if the vomiting becomes severe or persistent1. 2. Hemolysis"
+      "notes": "These signs are the primary reaction to the irritating saponins and organic acids in the plant2. You can offer the cat water, monitor their condition, and ensure they cannot eat any more of the plant1. You should contact a veterinarian if the vomiting becomes severe or persistent."
     },
     {
       "name": "Hemolysis (the rupture or destruction of red blood cells)",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "This blood-related symptom is directly related to the gastrointestinal activity of the hemolytic saponins found in the leaves and flowers of the plant"
+      "notes": "This blood-related symptom is directly related to the gastrointestinal activity of the hemolytic saponins found in the leaves and flowers of the plant."
     }
   ],
   "scientificName": "Sansevieria spp.",

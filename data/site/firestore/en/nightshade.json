@@ -10,7 +10,7 @@
   ],
   "name": "Nightshade",
   "aliases": [],
-  "description": "Nightshade (Solanum species) is a wild plant and garden weed that is toxic to cats. It contains compounds called glycoalkaloids, mainly solanine, which are natural defenses that can severely upset a cat's stomach and nervous system. The highest danger comes from the unripe green berries, leaves, and stems.\n\nWhen a cat eats nightshade, the toxins damage the cells in the digestive tract and interfere with nerve signals. This can cause heavy drooling, severe vomiting, bloody diarrhea, and stomach pain. In more serious cases, it can lead to weakness, muscle tremors, seizures, or an abnormally slow heart rate.\n\nBecause the green berries can look like toys or small treats, curious cats might try to play with or eat them. If you suspect your cat has chewed on any part of a nightshade plant, especially the unripe berries, contact a veterinarian immediately.",
+  "description": "Nightshade (Solanum nigrum and related Solanum species), also called Black Nightshade or Common Nightshade, is a toxic plant for cats found in gardens, roadsides, and as a weed worldwide. Like all members of the nightshade family (Solanaceae), it contains steroidal glycoalkaloids — primarily solanine and solasonine — with the highest concentrations in unripe berries, leaves, and stems.",
   "safetyNotes": [
     "Toxic compounds: solanine and solasonine (steroidal glycoalkaloids); unripe green berries and green plant parts most concentrated; ripe black berries slightly less toxic",
     "Mechanism: glycoalkaloids inhibit acetylcholinesterase (disrupting nerve signalling) and disrupt cell membranes, causing GI and neurological effects",
@@ -28,21 +28,21 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "2–24 hours (typically the initial sign)",
-      "notes": "Solanine interacts directly with the cell membranes, specifically causing destruction, irritation, and inflammation to the intestinal epithelial cells7. This leads to violent lower gastrointestinal problems and tense abdominal walls46. 2. Hypersalivation and Mucous Membrane Irritation"
+      "notes": "Solanine interacts directly with the cell membranes, specifically causing destruction, irritation, and inflammation to the intestinal epithelial cells7. This leads to violent lower gastrointestinal problems and tense abdominal walls."
     },
     {
       "name": "Excessive drooling (hypersalivation), burning sensation, and coughing",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "2–24 hours",
-      "notes": "This is caused by the direct irritating effect of the plant material on the mucous membranes, as well as the overstimulation of the parasympathetic nervous system4.... 3. Neurological Abnormalities (Lethargy, Tremors, Seizures, and Ataxia)"
+      "notes": "This is caused by the direct irritating effect of the plant material on the mucous membranes, as well as the overstimulation of the parasympathetic nervous system."
     },
     {
       "name": "Lethargy, depression, confusion, dilated pupils, ataxia (loss of coordination), muscle tremors, stupor, and seizures",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "2–24 hours (typically follows gastrointestinal symptoms as the toxin is absorbed into the bloodstrea",
-      "notes": "Solanine inhibits the enzyme acetylcholinesterase in the brain and impairs mitochondrial function, severely disrupting the central nervous system3.... Cats are exceptionally sensitive to these toxins because their specific liver metabolism (lack of glucuronidation) slows detoxification, resulting in more severe and prolonged neurological effects than in dogs48. 4. Cardiac and Circulatory Disorders"
+      "notes": "Solanine inhibits the enzyme acetylcholinesterase in the brain and impairs mitochondrial function, severely disrupting the central nervous system3. Cats are exceptionally sensitive to these toxins because their specific liver metabolism (lack of glucuronidation) slows detoxification, resulting in more severe and prolonged neurological effects than in dogs."
     },
     {
       "name": "Abnormally slow heart rate (bradycardia)",

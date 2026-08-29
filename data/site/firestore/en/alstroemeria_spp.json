@@ -2,15 +2,15 @@
   "slug": "alstroemeria_spp",
   "category": "plant",
   "hidden": false,
-  "severity": "safe",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/alstroemeria_spp.jpg"
   ],
   "name": "Peruvian Lily",
   "aliases": [],
-  "description": "Peruvian Lily (Alstroemeria spp.), also called Lily of the Incas, is a popular cut flower that is mildly toxic to cats. Unlike true lilies (Lilium), Alstroemeria does not cause acute kidney failure. It contains irritant compounds in the sap that cause gastrointestinal upset when ingested and contact dermatitis when the sap touches skin.",
+  "description": "Peruvian Lily (Alstroemeria spp.) is a common flower in bouquets that is only mildly irritating to cats. Because it has \"lily\" in its name, it often causes panic, but it is not a true lily and does not cause dangerous kidney failure like Easter or Tiger lilies do. The plant contains a chemical irritant called tulipalin A (and its precursor tuliposide A) throughout its tissues. If a cat chews on the leaves or stems, this compound can irritate the mouth and upset the stomach. The sap can also cause some redness or itching if it gets directly on the skin (the same compound behind \"tulip fingers\" in florists). Most cats will only experience minor drooling, vomiting, or diarrhea that goes away on its own. While it is safer than many other plants, it is best to keep bouquets out of reach. Contact a veterinarian if your cat eats a large amount or if their stomach upset does not improve.",
   "safetyNotes": [
-    "Toxic compounds: unidentified irritant compounds in the sap; not related to the nephrotoxic compounds in true Lilium species",
+    "Toxic compounds: tulipalin A and its precursor tuliposide A (an irritant glycoside) throughout the plant; not related to the nephrotoxic compounds in true Lilium species",
     "Mechanism: GI irritant; sap contact causes dermatitis through direct tissue irritation",
     "Symptoms: vomiting, diarrhea, drooling; skin or eye contact with sap may cause redness and irritation",
     "No kidney failure risk — a critical difference from Easter and Tiger lilies",
@@ -24,14 +24,14 @@
       "name": "Stomach upset (vomiting and/or diarrhea)",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "The stomach upset caused by Peruvian lilies is considered minor and self-limiting13. Because Peruvian lilies are not \"true\" lilies, they do not cause acute kidney failure, and actual poisoning is rare despite the plant's frequent appearance in floral bouquets1. 2. Minor Oral Irritation"
+      "notes": "The stomach upset caused by Peruvian lilies is considered minor and self-limiting13. Because Peruvian lilies are not \"true\" lilies, they do not cause acute kidney failure, and actual poisoning is rare despite the plant's frequent appearance in floral bouquets."
     },
     {
       "name": "Minor signs of oral toxicity or irritation",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Immediate to shortly after chewing the plant.",
-      "notes": "This minor irritation is caused by the oxalate crystals present in the plant, which act as a physical irritant when the cat chews on the plant material"
+      "notes": "This minor irritation is caused by tulipalin A (and its precursor tuliposide A) present in the plant, a chemical irritant that affects the tissues when the cat chews on the plant material."
     }
   ],
   "scientificName": "Alstroemeria spp.",

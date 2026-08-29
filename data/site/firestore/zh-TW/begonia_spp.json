@@ -11,7 +11,7 @@
     "處理方式：如果貓咬過根部或塊莖，或出現超過輕微流涎與單次嘔吐的情況，請聯絡獸醫。"
   ],
   "slug": "begonia_spp",
-  "source_hash": "dcf22da099f5159bb087f6ae1f598203c2ca24bd2da9e75b2eb0f84b0a0b650e",
+  "source_hash": "399b72292d2cfc6b1734fdc29380d5fea968f3629cab678b40c1e529ff8f7983",
   "symptoms": [
     {
       "body_system": "腸胃道",
@@ -45,6 +45,5 @@
     "葉子",
     "花"
   ],
-  "translated_at": "2026-05-29T10:09:20.876Z",
-  "migrated_from": "data/site/zh-TW/begonia_spp.json"
+  "translated_at": "2026-05-29T10:09:20.876Z"
 }

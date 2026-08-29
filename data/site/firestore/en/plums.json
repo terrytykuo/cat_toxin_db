@@ -8,7 +8,7 @@
   ],
   "name": "Plums",
   "aliases": [],
-  "description": "Plum flesh (Prunus domestica) is not toxic to cats in small amounts, but the pit, stems, and leaves contain amygdalin — a cyanogenic glycoside that releases hydrogen cyanide (HCN) when chewed. This is the same mechanism as apricot and peach pit toxicity. The flesh alone, offered without the pit, is safe as an occasional tiny treat.",
+  "description": "Plums (Prunus domestica) are a sweet fruit, and the fleshy part is generally safe for cats in very small amounts. However, the pit, stems, and leaves are highly dangerous because they contain amygdalin. When a cat chews or crushes a plum pit, the amygdalin mixes with enzymes in their digestive system to release hydrogen cyanide (HCN). This is a deadly poison that stops the body's cells from using oxygen. If a cat eats a pit, they may show signs like heavy breathing, weakness, vomiting, and even seizures or a coma. While a tiny piece of ripe plum flesh without the pit won't hurt your cat, it has a lot of sugar and gives them no real nutrition. Never let your cat near the pits or leaves, and contact a veterinarian immediately if you think they have chewed on one.",
   "safetyNotes": [
     "Pit, stems, and leaves: toxic — amygdalin yields HCN via beta-glucosidase cleavage",
     "Mechanism: HCN inhibits cytochrome c oxidase, halting cellular respiration",
@@ -37,42 +37,42 @@
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "Rapid onset (often within minutes to a few hours).",
-      "notes": "If a cat chews or crushes a plum pit, it releases hydrogen cyanide, which inhibits the cells' ability to utilize oxygen12. This systemic suffocation forces the cat to hyperventilate as the body struggles to compensate"
+      "notes": "If a cat chews or crushes a plum pit, it releases hydrogen cyanide, which inhibits the cells' ability to utilize oxygen12. This systemic suffocation forces the cat to hyperventilate as the body struggles to compensate."
     },
     {
       "name": "Vomiting, Diarrhea, and Abdominal Pain",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Shortly after ingestion (often within a few hours).",
-      "notes": "These gastrointestinal signs can occur as an initial reaction to cyanide toxicity or from the physical irritation of the plant material and fruit passing through the digestive tract"
+      "notes": "These gastrointestinal signs can occur as an initial reaction to cyanide toxicity or from the physical irritation of the plant material and fruit passing through the digestive tract."
     },
     {
       "name": "Trouble Walking and Mental Confusion",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Rapid onset.",
-      "notes": "The sudden lack of cellular energy (ATP) production caused by cyanide quickly impairs the central nervous system, leading to profound dizziness, nerve damage, and an inability to walk properly"
+      "notes": "The sudden lack of cellular energy (ATP) production caused by cyanide quickly impairs the central nervous system, leading to profound dizziness, nerve damage, and an inability to walk properly."
     },
     {
       "name": "Systemic Shock and Coma",
       "body_system": "Gastrointestinal",
       "severity": "fatal",
       "onset": "Rapidly following initial respiratory distress.",
-      "notes": "Because the brain and heart have the highest oxygen demands in the body, the cyanide-induced halt in cellular respiration rapidly starves these vital organs of power, resulting in abnormally low blood pressure, shock, loss of consciousness, and death if left untreated"
+      "notes": "Because the brain and heart have the highest oxygen demands in the body, the cyanide-induced halt in cellular respiration rapidly starves these vital organs of power, resulting in abnormally low blood pressure, shock, loss of consciousness, and death if left untreated."
     },
     {
       "name": "Cherry-Red Skin or Mucous Membranes",
       "body_system": "Dermal",
       "severity": "severe",
       "onset": "Rapid onset.",
-      "notes": "Because cyanide blocks the cells from extracting oxygen from the bloodstream, the venous blood remains fully oxygenated4. This causes the cat's skin, gums, and mucous membranes to turn an abnormally bright, cherry-red color"
+      "notes": "Because cyanide blocks the cells from extracting oxygen from the bloodstream, the venous blood remains fully oxygenated4. This causes the cat's skin, gums, and mucous membranes to turn an abnormally bright, cherry-red color."
     },
     {
       "name": "Gastrointestinal or Throat Obstruction",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Immediate (if causing choking) or variable (can take hours to days if lodged further down in the int",
-      "notes": "Aside from the chemical dangers of a crushed seed, swallowing an intact, hard plum pit poses a major mechanical hazard26. The seed can easily become lodged in the cat's throat or block the intestinal tract, requiring emergency surgical removal"
+      "notes": "Aside from the chemical dangers of a crushed seed, swallowing an intact, hard plum pit poses a major mechanical hazard26. The seed can easily become lodged in the cat's throat or block the intestinal tract, requiring emergency surgical removal."
     }
   ],
   "scientificName": "Plums",

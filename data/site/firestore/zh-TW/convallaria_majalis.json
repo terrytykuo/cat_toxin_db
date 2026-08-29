@@ -3,8 +3,8 @@
     "山谷百合 (Lily of the Valley)"
   ],
   "category": "plant",
-  "description": "鈴蘭 (Convallaria majalis) 是對貓最危險的植物之一。雖然外表纖細，每個部位，包括花、葉、莖、漿果，甚至花瓶裡的水，都含有強效強心苷，包括 convallatoxin、convalloside 和 30 多種相關化合物。這些物質對心臟的影響類似毛地黃，即使極少量也可能致命。",
-  "gemini_model": "codex-manual",
+  "description": "鈴蘭 (Convallaria majalis) 是對貓咪最危險的植物之一。雖然它看起來嬌小柔美，但植物的每一個部分——包含花朵、葉片、根部和漿果——都具有高度毒性。甚至連插著花朵的花瓶水也會變得有毒。\n\n這種植物含有稱為強心苷 (cardiac glycosides) 的強烈毒素。這些毒素會直接攻擊心臟肌肉，改變心跳的方式，引發危險且不規律的心律不整。它也含有會嚴重刺激腸胃的成分。與真正的百合花不同，它不會引起腎衰竭，但同樣致命。\n\n即使只是咬一小口，也可能造成嚴重的問題。中毒的貓咪可能會突然嘔吐、肚子痛或出現血便，並大量流口水。隨著心臟受到影響，貓咪的心跳可能會變得危險地緩慢，並出現極度虛弱、發抖或癲癇。任何誤食都是危及生命的緊急狀況，請立即聯絡獸醫或急診動物醫院。",
+  "gemini_model": "gemini-cli-manual-review",
   "manual_override": true,
   "name": "鈴蘭",
   "safetyNotes": [
@@ -38,5 +38,5 @@
     "全株有毒",
     "花"
   ],
-  "translated_at": "2026-05-29T11:45:09.343Z"
+  "translated_at": "2026-06-03T22:27:19.400981Z"
 }

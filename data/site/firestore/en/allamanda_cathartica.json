@@ -26,27 +26,27 @@
       "name": "Abdominal discomfort (pain)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This is a direct result of the compound plumericin acting as an irritant to the lining of the digestive tract1. 2. Diarrhea"
+      "notes": "This is a direct result of the compound plumericin acting as an irritant to the lining of the digestive tract."
     },
     {
       "name": "Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This is the primary sign of the plant's purgative (cathartic) effects1. 3. Dehydration"
+      "notes": "This is the primary sign of the plant's purgative (cathartic) effects."
     },
     {
       "name": "Dehydration",
       "body_system": "Metabolic",
       "severity": "severe",
       "onset": "Secondary effect, developing after sustained fluid loss from diarrhea.",
-      "notes": "Veterinary treatment may involve fluid therapy to correct this1. 4. Electrolyte Imbalance"
+      "notes": "Veterinary treatment may involve fluid therapy to correct this."
     },
     {
       "name": "Electrolyte imbalance",
       "body_system": "Hematological",
       "severity": "moderate",
       "onset": "Secondary effect, following fluid loss.",
-      "notes": "This occurs as a consequence of losing essential minerals through diarrhea and dehydration"
+      "notes": "This occurs as a consequence of losing essential minerals through diarrhea and dehydration."
     }
   ],
   "scientificName": "Allamanda cathartica",

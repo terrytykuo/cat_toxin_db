@@ -24,13 +24,13 @@
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This is one of the primary symptoms explicitly linked to the ingestion of Corsican Mint plant material. The essential oils in the plant can relax the esophageal valve, which makes vomiting more likely.Lethargy and Weakness"
+      "notes": "This is one of the primary symptoms explicitly linked to the ingestion of Corsican Mint plant material. The essential oils in the plant can relax the esophageal valve, which makes vomiting more likely."
     },
     {
       "name": "Lethargy (General Weakness)",
       "body_system": "Neurological",
       "severity": "moderate",
-      "notes": "Lethargy is specifically highlighted as a symptom of Corsican Mint ingestion. It indicates a systemic reaction to the toxins, potentially affecting the central nervous system.Diarrhea"
+      "notes": "Lethargy is specifically highlighted as a symptom of Corsican Mint ingestion. It indicates a systemic reaction to the toxins, potentially affecting the central nervous system."
     },
     {
       "name": "Diarrhea",

@@ -32,26 +32,26 @@
       "name": "Tremors, shaking, and ataxia (walking as if drunk)",
       "body_system": "Neurological",
       "severity": "severe",
-      "notes": "Cats may also experience collapse or seizures, indicating severe central nervous system toxicity.Respiratory Distress"
+      "notes": "Cats may also experience collapse or seizures, indicating severe central nervous system toxicity."
     },
     {
       "name": "Difficulty breathing (Dyspnea) or breathing with the mouth open",
       "body_system": "Respiratory",
       "severity": "severe",
-      "notes": "This can occur from inhalation (diffusers) or aspiration if the cat vomits. Nebulized or ultrasonically diffused neat oils pose a greater risk.Chemical Burns"
+      "notes": "This can occur from inhalation (diffusers) or aspiration if the cat vomits. Nebulized or ultrasonically diffused neat oils pose a greater risk."
     },
     {
       "name": "Soreness, redness, or chemical burns",
       "body_system": "Dermal",
       "severity": "severe",
       "onset": "Rapid (upon contact).",
-      "notes": "Direct skin contact with the oil can cause burns. Even if there is no visible damage to the skin, the cat may still be poisoned by absorbing the toxins or licking them off their fur.Gastrointestinal Upset"
+      "notes": "Direct skin contact with the oil can cause burns. Even if there is no visible damage to the skin, the cat may still be poisoned by absorbing the toxins or licking them off their fur."
     },
     {
       "name": "Vomiting and excessive dribbling (hypersalivation)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "Vomiting is a common sign of essential oil poisoning. High fat levels in carrier oils can also contribute to tummy upsets.Lethargy"
+      "notes": "Vomiting is a common sign of essential oil poisoning. High fat levels in carrier oils can also contribute to tummy upsets."
     },
     {
       "name": "Lethargy, depression, or dullness",

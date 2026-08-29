@@ -8,7 +8,7 @@
   ],
   "name": "Poinsettia",
   "aliases": [],
-  "description": "Poinsettia (Euphorbia pulcherrima) is a common holiday plant with bright red, pink, or white bracts. It has a scary reputation, but for cats it is usually a mild irritant rather than a severe poison. The main issue is the milky latex sap inside the leaves and stems. This sap contains irritating compounds, including diterpenoid euphorbol esters, that can bother the mouth, stomach, skin, or eyes. Most cats do not eat much because the plant tastes unpleasant, so serious poisoning is uncommon. If a cat chews poinsettia, possible signs include drooling, mouth discomfort, vomiting, diarrhea, lower appetite, or low energy. Sap on the skin or in the eyes can cause redness or irritation. Keep poinsettias out of reach, wipe away fallen leaves, and contact a veterinarian if your cat eats a large amount, keeps vomiting, or has eye irritation.",
+  "description": "Poinsettia (Euphorbia pulcherrima) is a popular holiday plant known for its bright red, pink, or white leaves. While it has a reputation for being highly toxic, it is actually a mild irritant for cats rather than a deadly poison. The hazard comes from the thick, milky sap found inside the plant's leaves and stems. When a cat bites the plant, this sap can irritate the mouth, throat, and stomach. The sap can also bother the skin or eyes if a leaf breaks and touches the cat. Because the sap tastes very bad, cats rarely eat enough to cause a serious problem. A cat that chews on a poinsettia may drool, feel nauseous, vomit, or have diarrhea. They might also lose their appetite or seem a bit tired. If the sap gets into their eyes or on their skin, it can cause redness and irritation. Keep these plants away from pets, clean up any fallen leaves, and contact a veterinarian if your cat eats a large amount, cannot stop vomiting, or shows signs of eye pain.",
   "safetyNotes": [
     "Main hazard: The milky latex sap in leaves and stems can irritate the mouth, stomach, skin, and eyes.",
     "Symptoms: Drooling, mouth discomfort, vomiting, diarrhea, reduced appetite, or low energy; skin or eye contact may cause redness.",
@@ -25,31 +25,31 @@
       "name": "Oral irritation, excessive drooling (hypersalivation), and discomfort of the mouth and esophagus",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "This is caused by the thick, milky-white, latex sap found throughout the plant acting as a direct irritant to the mucous membranes1.... 2. Gastrointestinal Distress"
+      "notes": "This is caused by the thick, milky-white, latex sap found throughout the plant acting as a direct irritant to the mucous membranes."
     },
     {
       "name": "Vomiting, diarrhea, and nausea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "Actual poisoning from a Poinsettia is considered rare; a cat generally needs to ingest a large amount of the plant to exhibit clinical signs56. The gastrointestinal symptoms are typically self-limiting and rarely require veterinary treatment6. 3. Anorexia"
+      "notes": "Actual poisoning from a Poinsettia is considered rare; a cat generally needs to ingest a large amount of the plant to exhibit clinical signs56. The gastrointestinal symptoms are typically self-limiting and rarely require veterinary treatment."
     },
     {
       "name": "Anorexia (loss of appetite)",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "This is usually secondary to the gastrointestinal irritation and nausea caused by the plant's sap2.... 4. Depression"
+      "notes": "This is usually secondary to the gastrointestinal irritation and nausea caused by the plant's sap."
     },
     {
       "name": "Depression or lethargy",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "This can present alongside the vomiting and anorexia if a significant amount of the plant is ingested6. 5. Cardiovascular Issues"
+      "notes": "This can present alongside the vomiting and anorexia if a significant amount of the plant is ingested."
     },
     {
       "name": "Cardiovascular issues",
       "body_system": "Cardiac",
       "severity": "severe",
-      "notes": "While Poinsettia toxicity is generally mild and limited to stomach upset, if a cat consumes a significantly large amount of the plant, it may suffer from more serious symptoms, including potential cardiovascular issues"
+      "notes": "While Poinsettia toxicity is generally mild and limited to stomach upset, if a cat consumes a significantly large amount of the plant, it may suffer from more serious symptoms, including potential cardiovascular issues."
     }
   ],
   "scientificName": "Euphorbia pulcherrima",

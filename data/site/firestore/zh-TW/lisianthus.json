@@ -1,16 +1,16 @@
 {
   "slug": "lisianthus",
   "source_hash": "6631e99ca236d410af0dab0cd4857a90500152405751ff1c06e8a273088f3623",
-  "translated_at": "2026-05-21T10:33:09Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
   "name": "洋桔梗",
   "aliases": [
     "德州藍鈴花",
     "大草原龍膽"
   ],
-  "description": "洋桔梗的花朵外型像玫瑰，花瓣呈波浪狀且層次分明，對貓完全無毒。它們有紫色、粉紅色、白色和奶油色等多種美麗色調。",
+  "description": "洋桔梗（Eustoma grandiflorum）是很受歡迎的捧花花材，有著柔軟多層次的花瓣。它對貓咪來說是安全無毒的，不含有針對貓咪的特定毒素。\n\n不過，貓咪如果吃下太多任何植物，都還是可能引起腸胃不適。雖然花朵本身安全，但要注意花束中可能帶有鮮花保鮮劑、緞帶或農藥等不適合貓咪接觸的東西。\n\n如果貓咪咬了幾口，通常只要在家觀察是否出現輕微的嘔吐或腹瀉即可。請務必仔細檢查混合花束，因為安全的花朵有時會跟百合等有毒植物綁在一起。",
   "safetyNotes": [],
   "toxicParts": [],
   "symptoms": []

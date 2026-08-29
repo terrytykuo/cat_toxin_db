@@ -9,7 +9,7 @@
   ],
   "name": "Star of Bethlehem",
   "aliases": [],
-  "description": "Star of Bethlehem (Ornithogalum umbellatum) is a bulbous flowering plant toxic to cats throughout all its parts. It contains cardenolide cardiac glycosides — specifically convallatoxin-related compounds — concentrated in the bulbs and leaves. These affect the heart in a similar way to Foxglove and Lily of the Valley.",
+  "description": "Star of Bethlehem (Ornithogalum umbellatum) is a garden plant with white, star-shaped flowers. It is extremely dangerous to cats. All parts of the plant—the flowers, leaves, stem, and especially the bulb—contain potent toxins that affect the heart. The plant contains powerful compounds called cardiac glycosides. These toxins directly interfere with the heart's electrical system, disrupting its ability to pump blood normally. They can cause the heart to beat too slowly, too quickly, or irregularly. There is no safe amount of this plant for a cat to eat; any ingestion is a medical emergency. Signs of poisoning include severe vomiting, diarrhea, drooling, weakness, and collapse. Because the toxins target the heart, this situation is life-threatening and requires immediate veterinary intervention. If you suspect your cat has chewed or eaten any part of this plant, contact a veterinarian or an emergency animal hospital without delay.",
   "safetyNotes": [
     "Toxic compounds: cardenolide cardiac glycosides (convallotoxin, convalloside-related compounds); bulbs most concentrated",
     "Mechanism: cardenolides inhibit Na+/K+-ATPase in cardiac muscle, disrupting electrical conduction and causing arrhythmias",
@@ -30,28 +30,28 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Within the first 2 hours after exposure",
-      "notes": "These are typical early signs of toxicosis from cardiac glycosides, and the clinical symptoms can persist for up to 4 to 5 days4. 2. Abnormal Heart Rate and Arrhythmias"
+      "notes": "These are typical early signs of toxicosis from cardiac glycosides, and the clinical symptoms can persist for up to 4 to 5 days."
     },
     {
       "name": "Bradycardia (abnormally slow heart rate), tachycardia (abnormally fast heart rate), and cardiac arrhythmias",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "Within the first 2 hours after exposure",
-      "notes": "The plant's toxins inhibit the Na+/K+ ATPase pump, which leads to an accumulation of intracellular sodium and calcium. This disrupts the heart's electrical system, forcing the cardiac muscles to produce more powerful but slower contractions3. 3. Hyperkalemia"
+      "notes": "The plant's toxins inhibit the Na+/K+ ATPase pump, which leads to an accumulation of intracellular sodium and calcium. This disrupts the heart's electrical system, forcing the cardiac muscles to produce more powerful but slower contractions."
     },
     {
       "name": "Hyperkalemia (dangerously elevated potassium levels in the blood)",
       "body_system": "Gastrointestinal",
       "severity": "fatal",
       "onset": "Within the first 2 hours after exposure",
-      "notes": "This life-threatening electrolyte imbalance occurs because the toxin blocks the cellular pumps, leading to a build-up of extracellular potassium3. Severe hyperkalemia requires emergency intravenous treatments, such as a dextrose/insulin combination or sodium bicarbonate4. 4. Weakness"
+      "notes": "This life-threatening electrolyte imbalance occurs because the toxin blocks the cellular pumps, leading to a build-up of extracellular potassium3. Severe hyperkalemia requires emergency intravenous treatments, such as a dextrose/insulin combination or sodium bicarbonate."
     },
     {
       "name": "Weakness",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Within the first 2 hours after exposure",
-      "notes": "Generalized weakness is a clinical manifestation of the profound cardiovascular depression, heart rhythm abnormalities, and electrolyte imbalances caused by the poisoning"
+      "notes": "Generalized weakness is a clinical manifestation of the profound cardiovascular depression, heart rhythm abnormalities, and electrolyte imbalances caused by the poisoning."
     }
   ],
   "scientificName": "Ornithogalum umbellatum",

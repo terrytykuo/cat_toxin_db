@@ -8,7 +8,7 @@
   ],
   "name": "Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy",
   "aliases": [],
-  "description": "Kalanchoe (Kalanchoe spp.), sold under names including Flaming Katy, Mother of Millions, and Widow's Thrill, is a popular succulent houseplant toxic to cats. It contains bufadienolide cardiac glycosides — related to but distinct from digitalis — concentrated throughout the plant. These compounds disrupt cardiac electrical conduction in a manner similar to Foxglove poisoning.",
+  "description": "Kalanchoe (Kalanchoe spp.) is a popular succulent houseplant sold under names such as Flaming Katy, Mother of Millions, and Widow’s Thrill. It is toxic to cats. Kalanchoe contains bufadienolide cardiac glycosides. These chemicals can disturb the electrical signals that keep the heart beating normally. Smaller exposures often start with stomach upset, but larger exposures can affect heart rhythm. A cat that eats kalanchoe may vomit, have diarrhea, drool, seem weak, or lose interest in food. Serious cases can cause an abnormal heartbeat, collapse, or seizures. Keep kalanchoe plants away from cats, and call a veterinarian promptly if your cat eats any part of the plant.",
   "safetyNotes": [
     "Toxic compounds: bufadienolide cardiac glycosides throughout leaves, stems, and flowers",
     "Mechanism: bufadienolides inhibit the Na+/K+-ATPase pump in cardiac muscle cells, causing irregular heart rhythm",
@@ -26,28 +26,28 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Within the first 2 hours after exposure.",
-      "notes": "These are the most frequent symptoms. Persistent vomiting can lead to dehydration.Cardiac Abnormalities"
+      "notes": "These are the most frequent symptoms. Persistent vomiting can lead to dehydration."
     },
     {
       "name": "Abnormal Heart Rhythm (Arrhythmias), Bradycardia (Slow Heart Rate), or Tachycardia (Fast Heart Rate)",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "Within the first 2 hours; signs can persist for 4–5 days.",
-      "notes": "The cardiac glycosides inhibit the Na+/K+ ATPase pump, leading to electrolyte imbalances (hyperkalemia) and potentially fatal heart block or collapse. The flowers contain the highest concentration of toxins.Neurological Dysfunction"
+      "notes": "The cardiac glycosides inhibit the Na+/K+ ATPase pump, leading to electrolyte imbalances (hyperkalemia) and potentially fatal heart block or collapse. The flowers contain the highest concentration of toxins."
     },
     {
       "name": "Weakness, Depression, Tremors, Ataxia (Loss of Coordination), Seizures (Rare)",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Within the first 2 hours.",
-      "notes": "Neurological signs like paralysis and tremors indicate significant toxicity. Weakness is a common early sign alongside gastrointestinal upset.Respiratory Distress"
+      "notes": "Neurological signs like paralysis and tremors indicate significant toxicity. Weakness is a common early sign alongside gastrointestinal upset."
     },
     {
       "name": "Rapid Breathing (Tachypnea), Difficulty Breathing",
       "body_system": "Respiratory",
       "severity": "severe",
       "onset": "Within the first 2 hours.",
-      "notes": "Rapid breathing often accompanies cardiac and neurological distress.Electrolyte Imbalance"
+      "notes": "Rapid breathing often accompanies cardiac and neurological distress."
     },
     {
       "name": "Hyperkalemia (High Potassium levels)",

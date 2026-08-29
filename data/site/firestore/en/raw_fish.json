@@ -8,7 +8,7 @@
   ],
   "name": "Raw fish",
   "aliases": [],
-  "description": "Raw fish is not acutely toxic to cats, but it carries significant health risks that make it inappropriate as a regular food. Many raw fish species contain thiaminase — an enzyme that destroys thiamine (vitamin B1) — and all raw fish poses bacterial and parasitic contamination risks.",
+  "description": "Feeding raw fish to cats can be dangerous because many species contain thiaminase, an enzyme that destroys thiamine (Vitamin B1). Since cats have a very high requirement for this vitamin and cannot store much of it, a diet of raw fish can lead to a life-threatening deficiency within just a few weeks. This deficiency often causes severe neurological problems, including tremors, seizures, and a loss of coordination. Beyond vitamin issues, raw fish often carries harmful bacteria like Salmonella and parasites such as anisakis worms. Larger fish like tuna can also contain concentrated levels of Methylmercury, a neurotoxin that can cause progressive brain damage. To keep your cat safe, always cook fish thoroughly and remove all bones before offering it as an occasional treat.",
   "safetyNotes": [
     "Thiaminase risk: raw freshwater fish and many saltwater species (tuna, carp, herring) contain thiaminase, which destroys thiamine (B1); regular feeding causes neurological damage — weakness, seizures, head tilt, coma",
     "Bacterial risk: Salmonella, Listeria, and other pathogens in raw fish can cause vomiting, diarrhea, and sepsis",
@@ -32,35 +32,35 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Variable. Can be acute (within hours to a few days) if caused by foodborne pathogens,",
-      "notes": "Ingesting raw fish exposes cats to foodborne pathogens like Salmonella, E. coli, and parasites, which directly cause vomiting and diarrhea12. Additionally, the high fat content in some raw fish can trigger a painful bout of acute pancreatitis1. If the cat is suffering from thiaminase-induced Vitamin"
+      "notes": "Ingesting raw fish exposes cats to foodborne pathogens like Salmonella, E. coli, and parasites, which directly cause vomiting and diarrhea12. Additionally, the high fat content in some raw fish can trigger a painful bout of acute pancreatitis."
     },
     {
       "name": "Severe Neurological Dysfunction (Ataxia, Seizures, and Ventriflexion)",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Chronic/Delayed (typically develops within 2 to 4 weeks of a raw fish-heavy diet).",
-      "notes": "Raw fish (such as carp, herring, and smelt) contains thiaminase, an enzyme that destroys thiamine (Vitamin B1), halting cellular energy metabolism and causing a \"Wernicke-like\" encephalopathy3.... Cats will exhibit severe lack of coordination (ataxia), vestibular signs, and a characteristic abnormal"
+      "notes": "Raw fish (such as carp, herring, and smelt) contains thiaminase, an enzyme that destroys thiamine (Vitamin B1), halting cellular energy metabolism and causing a \"Wernicke-like\" encephalopathy."
     },
     {
       "name": "Ocular / Visual Impairment",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "2 to 4 weeks (manifests rapidly once the thiamine deficiency encephalopathy sets in).",
-      "notes": "Alongside motor dysfunction, thiamine deficiency from raw fish consumption causes a fairly rapid onset of visual disturbances, visibly dilated pupils (mydriasis), and clinical blindness"
+      "notes": "Alongside motor dysfunction, thiamine deficiency from raw fish consumption causes a fairly rapid onset of visual disturbances, visibly dilated pupils (mydriasis), and clinical blindness."
     },
     {
       "name": "Cardiac Arrhythmias",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "Late-stage / End-stage of thiamine deficiency.",
-      "notes": "If the thiamine deficiency caused by the raw fish is left untreated, it can severely impact the cardiovascular system. In the end stages of the disease, cats may develop a racing heart (tachycardia) and a cardiac arrhythmic syndrome with notable electrocardiographic changes"
+      "notes": "If the thiamine deficiency caused by the raw fish is left untreated, it can severely impact the cardiovascular system. In the end stages of the disease, cats may develop a racing heart (tachycardia) and a cardiac arrhythmic syndrome with notable electrocardiographic changes."
     },
     {
       "name": "Steatitis (Yellow Fat Disease)",
       "body_system": "Dermal",
       "severity": "severe",
       "onset": "Chronic (develops over time from an unbalanced diet).",
-      "notes": "This condition is a specific risk if a cat is fed a heavy or exclusive diet of raw or canned tuna. Tuna is extremely high in polyunsaturated fats and lacks adequate Vitamin E. This imbalance causes the cat's subcutaneous fat to become severely inflamed, leading to the development of firm, exquisitel"
+      "notes": "This condition is a specific risk if a cat is fed a heavy or exclusive diet of raw or canned tuna. Tuna is extremely high in polyunsaturated fats and lacks adequate Vitamin E."
     }
   ],
   "scientificName": "Raw fish",

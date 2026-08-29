@@ -8,7 +8,7 @@
   ],
   "name": "Tulip",
   "aliases": [],
-  "description": "Tulip (Tulipa spp.) is a popular spring bulb flower that is toxic to cats throughout all its parts, with the highest concentration of toxins in the bulbs. It contains tulipalin A and tulipalin B — allergenic lactone compounds — and other irritant glycosides. The bulb is particularly dangerous as it is accessible during planting and storage seasons.",
+  "description": "Tulips (Tulipa spp.) are beloved spring flowers, but they are toxic to cats. All parts of the plant contain poisonous compounds, but the bulb has the highest and most dangerous concentration of these toxins. For this reason, tulip bulbs pose the greatest risk, especially when they are stored indoors before planting. The toxic principles in tulips are allergenic lactones like tulipalin A and tulipalin B. These substances are very irritating to the body's tissues. When a cat chews on the leaves or flowers, these compounds cause irritation to the mouth and throat, leading to drooling, vomiting, or diarrhea. Ingesting the bulb is far more serious. The concentrated toxins can cause severe stomach upset, depression, and significant changes in heart rate and breathing. In some cases, tremors or seizures can occur. If you suspect your cat has chewed on any part of a tulip, and especially if they have eaten a bulb, please contact your veterinarian right away.",
   "safetyNotes": [
     "Toxic compounds: tulipalin A and tulipalin B (allergenic lactone compounds), along with irritant glycosides; bulbs most concentrated",
     "Mechanism: tulipalins cause direct mucosal irritation and allergic contact dermatitis; large bulb ingestion may cause CNS depression and cardiac effects",
@@ -26,37 +26,37 @@
       "name": "Irritation to the mouth, throat, and skin, leading to profuse drooling (ptyalism)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This is typically a primary reaction to the allergenic lactones found in the plant12. 2. Vomiting and Diarrhea"
+      "notes": "This is typically a primary reaction to the allergenic lactones found in the plant."
     },
     {
       "name": "Vomiting, diarrhea, and significant stomach upset",
       "body_system": "Gastrointestinal",
       "severity": "severe",
-      "notes": "These are the most common digestive symptoms3. Furthermore, if a cat ingests large, intact pieces of the tulip bulb, it can cause a physical intestinal obstruction8. 3. Depression"
+      "notes": "These are the most common digestive symptoms3. Furthermore, if a cat ingests large, intact pieces of the tulip bulb, it can cause a physical intestinal obstruction."
     },
     {
       "name": "Depression",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This generalized symptom of toxicosis is noted alongside severe stomach upset68. 4. Elevated Heart Rate and Arrhythmias"
+      "notes": "This generalized symptom of toxicosis is noted alongside severe stomach upset."
     },
     {
       "name": "Elevated heart rate (tachycardia) and cardiac arrhythmias",
       "body_system": "Cardiac",
       "severity": "severe",
-      "notes": "Cardiovascular abnormalities typically present only after a cat has ingested larger amounts of the plant, especially the highly toxic bulb where the dangerous compounds are concentrated1.... 5. Respiratory Distress"
+      "notes": "Cardiovascular abnormalities typically present only after a cat has ingested larger amounts of the plant, especially the highly toxic bulb where the dangerous compounds are concentrated."
     },
     {
       "name": "Changes to respiration and difficulty breathing",
       "body_system": "Respiratory",
       "severity": "severe",
-      "notes": "Similar to cardiac symptoms, respiratory distress is a severe systemic sign that occurs following a larger ingestion of the plant or its bulb1.... 6. Tremors and Convulsions"
+      "notes": "Similar to cardiac symptoms, respiratory distress is a severe systemic sign that occurs following a larger ingestion of the plant or its bulb."
     },
     {
       "name": "Tremors and convulsions (seizures)",
       "body_system": "Gastrointestinal",
       "severity": "severe",
-      "notes": "These severe neurological symptoms manifest when significant amounts of the plant, particularly the bulb containing the highest concentration of toxic alkaloids and lactones, are consumed"
+      "notes": "These severe neurological symptoms manifest when significant amounts of the plant, particularly the bulb containing the highest concentration of toxic alkaloids and lactones, are consumed."
     }
   ],
   "scientificName": "Tulipa spp.",

@@ -34,7 +34,7 @@
       "body_system": "Hematological",
       "severity": "fatal",
       "onset": "Delayed (Symptoms typically appear several days following ingestion).",
-      "notes": "Sulfur compounds in chives cause oxidative damage to red blood cells, leading to their destruction (hemolysis). The cat may seek out warm spaces due to poor circulation and weakness.Discolored Mucous Membranes"
+      "notes": "Sulfur compounds in chives cause oxidative damage to red blood cells, leading to their destruction (hemolysis). The cat may seek out warm spaces due to poor circulation and weakness."
     },
     {
       "name": "Pale, white, or yellow (jaundiced) gums",
@@ -48,14 +48,14 @@
       "body_system": "Renal",
       "severity": "severe",
       "onset": "Delayed (Several days).",
-      "notes": "The dark color is caused by hemoglobin being filtered into the urine from ruptured red blood cells.Respiratory Distress"
+      "notes": "The dark color is caused by hemoglobin being filtered into the urine from ruptured red blood cells."
     },
     {
       "name": "Tachypnea (rapid breathing), panting, or dyspnea (difficulty breathing)",
       "body_system": "Respiratory",
       "severity": "severe",
       "onset": "Delayed (Several days).",
-      "notes": "The cat breathes rapidly in an attempt to compensate for the decreased oxygen-carrying capacity of the blood caused by anemia.Cardiac Abnormalities"
+      "notes": "The cat breathes rapidly in an attempt to compensate for the decreased oxygen-carrying capacity of the blood caused by anemia."
     },
     {
       "name": "Tachycardia (rapid heartbeat)",

@@ -8,7 +8,7 @@
   ],
   "name": "Oleander",
   "aliases": [],
-  "description": "Oleander (Nerium oleander) is one of the most acutely toxic ornamental plants for cats. Every part — leaves, flowers, stems, roots, and even dried plant material — contains potent cardenolide cardiac glycosides, primarily oleandrin and neriine. These compounds are similar to digoxin in their mechanism and are toxic in extremely small quantities.",
+  "description": "Oleander (Nerium oleander) is an extremely dangerous and highly toxic plant for cats. Every single part of the plant is poisonous, including the leaves, flowers, stems, roots, and even dried pieces. The water in a vase holding oleander can also become toxic. The plant contains powerful chemicals called cardiac glycosides, such as oleandrin. These chemicals directly attack the heart's electrical system and muscle movements. Even a tiny amount, like a single leaf, can cause life-threatening heart problems for a cat. Symptoms can appear quickly and include drooling, vomiting, diarrhea, weakness, and severe breathing or heart issues. Because there is no safe amount of oleander, any exposure is highly dangerous. If you suspect your cat has chewed on or eaten any part of an oleander plant, please contact a veterinarian or an emergency animal hospital immediately—do not wait for symptoms to show.",
   "safetyNotes": [
     "Toxic compounds: oleandrin and neriine (cardenolide cardiac glycosides); all parts are toxic, including dried material and smoke from burning",
     "Mechanism: cardenolides inhibit Na+/K+-ATPase in cardiac muscle, disrupting electrical conduction and causing arrhythmias and heart block",
@@ -26,28 +26,28 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Rapidly, usually within the first 2 hours after exposure,",
-      "notes": "These stomach upsets and oral irritations are typically the first signs of poisoning to appear prior to the onset of severe heart abnormalities4. 2. Cardiac Abnormalities and Hypotension"
+      "notes": "These stomach upsets and oral irritations are typically the first signs of poisoning to appear prior to the onset of severe heart abnormalities."
     },
     {
       "name": "Irregular heart rhythms (arrhythmias), abnormally slow heart rate (bradycardia) or fast heart rate (tachycardia), and low blood pressure (hypotension)",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "Within the first 2 hours after exposure,",
-      "notes": "Cardiac glycosides (like oleandrin) inhibit the Na + /K + -ATPase pump, resulting in forceful yet slower cardiac contractions5. This disruption can also lead to hyperkalemia (high potassium) and can quickly progress to cardiovascular collapse and death if untreated3.... 3. Neurological Impairment (L"
+      "notes": "Cardiac glycosides (like oleandrin) inhibit the Na + /K + -ATPase pump, resulting in forceful yet slower cardiac contractions5. This disruption can also lead to hyperkalemia (high potassium) and can quickly progress to cardiovascular collapse and death if untreated."
     },
     {
       "name": "Lethargy, profound weakness, drowsiness, muscle tremors, seizures, and a lack of consciousness",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Manifests quickly, within the first 2 hours as the systemic toxicity progresses15. • Any additional",
-      "notes": "These severe neurological signs escalate as the toxins further depress and disrupt the cat's normal physiological functions and cardiovascular output16. 4. Respiratory Distress"
+      "notes": "These severe neurological signs escalate as the toxins further depress and disrupt the cat's normal physiological functions and cardiovascular output."
     },
     {
       "name": "Difficulty breathing and respiratory changes",
       "body_system": "Respiratory",
       "severity": "severe",
       "onset": "Manifests rapidly as the toxicity progresses1. • Any additional",
-      "notes": "Respiratory difficulty often occurs in tandem with severe cardiovascular and neurological decline"
+      "notes": "Respiratory difficulty often occurs in tandem with severe cardiovascular and neurological decline."
     }
   ],
   "scientificName": "Nerium oleander",

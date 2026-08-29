@@ -1,13 +1,13 @@
 {
   "slug": "leeks",
   "source_hash": "3db2b04eaa995903bc05d08632751082e8b39c28ed83781a476c8e4d0f3276ed",
-  "translated_at": "2026-05-21T10:13:23Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "food",
   "name": "韭蔥",
   "aliases": [],
-  "description": "韭蔥 (Allium ampeloprasum) 是蔥屬植物的一員——該家族還包括大蒜、洋蔥和蝦夷蔥——這些對貓都有毒。韭蔥含有 N-propyl disulfide 和相關的有機硫化合物，會氧化貓的血紅素，導致海因茨體溶血性貧血。所有形式的韭蔥都很危險：包括生食、煮熟和乾燥的韭蔥。",
+  "description": "韭蔥（Leeks）和洋蔥、大蒜、韭菜屬於同一個家族。對貓咪來說，這個家族的植物不論是生的、煮熟的或是乾燥粉末，都具有很高的毒性。因此，絕對不要給貓咪喝含有韭蔥的湯品、燉菜或任何人類的食物。\n\n韭蔥的危險在於它含有的天然化合物會對貓咪的紅血球造成「氧化損傷」。簡單來說，這些化學物質會導致紅血球中負責運送氧氣的血紅蛋白凝結並變質，貓咪的身體會加快破壞這些受損細胞的速度，導致嚴重的貧血。\n\n中毒症狀通常不會立刻出現，往往在吃下去後的 3 到 5 天才會顯現。請留意貓咪是否出現極度疲倦、牙齦發白或發黃、呼吸急促，或是尿液呈現紅褐色。若懷疑貓咪誤食了韭蔥，請立即聯絡獸醫或急診動物醫院。",
   "safetyNotes": [
     "有毒化合物：N-propyl disulfide 和有機硫化合物 (alk(en)yl cysteine sulfoxides)；所有部位皆有毒，包括球莖、莖和葉",
     "機制：對血紅素的氧化損傷會產生海因茨體；脾臟破壞受損紅血球的速度快於新生速度，進而導致溶血性貧血",

@@ -1,13 +1,13 @@
 {
   "slug": "thevetia_peruviana",
   "source_hash": "aa6233e7c5f19a5bdf28dc5545af051808b79647571bed2160abc445388dc4ac",
-  "translated_at": "2026-05-21T10:41:33Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:51:54.584427Z",
+  "gemini_model": "gemini-2.5-pro",
+  "manual_override": true,
   "category": "plant",
   "name": "黃花夾竹桃",
   "aliases": [],
-  "description": "黃花夾竹桃 (Cascabela thevetia，前稱 Thevetia peruviana) 與普通夾竹桃親緣關係相近且同樣危險。所有部位——種子、葉、樹皮、花和果實——都含有黃夾次苷 A (thevetin A) 和黃夾次苷 B (thevetin B)，是與毛地黃相關的強效強心苷。種子濃度最高，是大多數中毒報告的主因。",
+  "description": "黃花夾竹桃（Thevetia peruviana）對貓來說是極度危險且劇毒的植物。所有部位，包含葉子、花、莖，都含有致命毒素，其中種子的毒素濃度最高，也特別致命。\n\n黃花夾竹桃的毒素是心臟苷類，特別是 thevetin A 和 thevetin B。這些化學物質會直接攻擊心臟肌肉，擾亂心臟正常搏血的功能。它們會干擾心臟的電氣訊號，導致心率異常變慢或變快，或造成其他嚴重的心律不整。即使只是極少量，例如啃食一片葉子或一顆種子，也可能致命。\n\n任何貓咪只要疑似接觸或食入黃花夾竹桃的任何部位，都需要立即的緊急獸醫護理。中毒跡象包含嚴重嘔吐、腹瀉、流口水、虛弱、顫抖和癱軟倒下。它對心臟的影響會危及生命，必須馬上醫療介入。這是真正的急症，請立即聯絡獸醫或急診動物醫院。",
   "safetyNotes": [
     "有毒化合物：全株含有黃夾次苷 A 和黃夾次苷 B（強心苷）；種子濃度最高",
     "機制：黃夾次苷抑制心肌中的 Na+/K+-ATPase，擾亂電傳導，導致心律不整和心臟傳導阻滯",
@@ -29,12 +29,12 @@
   "symptoms": [
     {
       "name": "嘔吐、腹瀉、過度流涎及腹痛",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "暴露後 2 小時內"
     },
     {
       "name": "心搏過緩（心跳異常緩慢）或心搏過速（心跳過快），以及嚴重的心律不整",
-      "body_system": "心血管系統",
+      "body_system": "心血管",
       "onset": "預計在暴露後 2 小時內"
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "name": "震顫與癲癇",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "通常在最初幾小時內，隨著毒性惡化而進展"
     },
     {

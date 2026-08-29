@@ -4,7 +4,7 @@
   ],
   "category": "plant",
   "description": "秋水仙 (Colchicum autumnale) 是貓可能接觸到的最危險植物之一，不應與毒性低得多、春天開花的番紅花 (Crocus spp.) 混淆。秋水仙含有秋水仙鹼 (colchicine)，這是一種強效生物鹼，會阻止微管形成並停止細胞分裂，特別攻擊身體中分裂最快的細胞，包括腸道內壁、骨髓與腎臟。重要的是，症狀可能在攝入後延遲 2–12 小時才出現；即使貓看起來還正常，也需要及早就醫。",
-  "gemini_model": "codex-manual",
+  "gemini_model": "manual-claude",
   "manual_override": true,
   "name": "秋水仙",
   "safetyNotes": [
@@ -44,6 +44,10 @@
       "name": "癲癇",
       "body_system": "神經系統",
       "onset": "不一定；常與晚期毒性相關"
+    },
+    {
+      "name": "肝臟損傷（肝毒性）",
+      "body_system": "肝臟"
     }
   ],
   "toxicParts": [
@@ -52,5 +56,5 @@
     "花",
     "全株有毒"
   ],
-  "translated_at": "2026-05-29T11:45:09.343Z"
+  "translated_at": "2026-08-29T00:00:00Z"
 }

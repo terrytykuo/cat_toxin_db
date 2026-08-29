@@ -1,13 +1,13 @@
 {
   "slug": "phoradendron_spp_or_viscum",
   "source_hash": "67707d781e6bdd16705b07dd00941b3073815e72275c760f9b5a444441868c73",
-  "translated_at": "2026-05-21T10:34:02Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
   "name": "槲寄生",
   "aliases": [],
-  "description": "槲寄生 (Phoradendron spp. 及 Viscum album) 是常見的節日裝飾物，對貓具有中等毒性。美洲槲寄生 (Phoradendron) 含有槲寄生毒素 (phoratoxins) —— 這是一種會影響心血管和消化系統的有毒凝集素。白色漿果是濃度最高的部分，可能會吸引貓咪。歐洲槲寄生 (Viscum) 額外含有具更強心臟影響的槲寄生毒素 (viscotoxins)。",
+  "description": "槲寄生（Phoradendron spp. 或 Viscum spp.）是很受歡迎的節慶裝飾，但對貓咪具有高度毒性。它含有毒性蛋白質，例如凝集素（lectins）和 phoratoxins，會嚴重影響貓咪的腸胃和心臟系統。其中，漿果裡的毒素濃度通常最高。\n\n如果貓咪吃下槲寄生，可能會出現嚴重的嘔吐、腹瀉、流口水和腹痛。這些毒素也可能導致血壓危險下降和心跳變慢，讓貓咪變得非常虛弱或出現呼吸困難。\n\n即使是乾燥的裝飾品或掉落的漿果也一樣危險。在過節期間，請務必將槲寄生放在貓咪完全碰不到的地方。如果你懷疑貓咪吃下了槲寄生的任何部分，請立即聯絡獸醫或急診動物醫院。",
   "safetyNotes": [
     "有毒化合物：所有部位均含有槲寄生毒素 (phoratoxins，有毒凝集素)；歐洲槲寄生含有 viscotoxins；漿果濃度最高",
     "機制：凝集素會抑制細胞內的蛋白質合成；心血管影響包括心搏過緩及低血壓",

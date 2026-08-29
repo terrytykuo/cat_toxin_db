@@ -1,13 +1,13 @@
 {
   "slug": "nerium_oleander",
   "source_hash": "b2e18a143c9a3e28f2c1d4718e35ccc86d04a0ddaadd13b30726a797880cb64f",
-  "translated_at": "2026-05-21T10:34:36Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
   "name": "夾竹桃 (Oleander)",
   "aliases": [],
-  "description": "夾竹桃 (Nerium oleander) 是對貓毒性最強烈的觀賞植物之一。植物的每個部分——葉、花、莖、根，甚至乾燥的植物材料——都含有強力的強心苷 (cardenolide)，主要是夾竹桃苷 (oleandrin) 和夾竹桃素 (neriine)。這些化合物的機制與地高辛 (digoxin) 相似，且極少量即可致命。",
+  "description": "夾竹桃（Nerium oleander）對貓咪來說是極度危險且劇毒的植物。它全株都有毒，包含葉子、花朵、莖、根部，甚至是乾燥的植物碎片都不例外。就連插過夾竹桃的花瓶水也可能含有毒性。\n\n這種植物含有強效的強心苷（cardiac glycosides，例如 oleandrin）化學物質。這些物質會直接攻擊心臟的傳導系統和肌肉收縮。即使只是極微小的量，例如一片葉子，都可能對貓咪造成有生命危險的心臟問題。\n\n中毒症狀可能會很快出現，包括流口水、嘔吐、腹瀉、虛弱，以及嚴重的呼吸或心臟異常。因為夾竹桃沒有所謂的安全劑量，任何接觸都非常危險。如果你懷疑貓咪咬過或吃下任何夾竹桃的部位，請立即聯絡獸醫或急診動物醫院——千萬不要等症狀出現才求診。",
   "safetyNotes": [
     "有毒化合物：夾竹桃苷 (oleandrin) 和夾竹桃素 (neriine) (強心苷)；所有部位均有毒，包括乾燥材料和焚燒產生的煙霧",
     "機制：強心苷抑制心肌中的 Na+/K+-ATP 酶，干擾電傳導並引起心律不整和心臟傳導阻滯",

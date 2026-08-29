@@ -1,13 +1,10 @@
 {
   "slug": "ilex",
-  "source_hash": "d822eae16a8f4f99db663b59b71c514229ca41481fc92afea3eb4c35d8940ce4",
-  "translated_at": "2026-05-21T10:30:19Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
-  "category": "plant",
   "name": "冬青",
-  "aliases": [],
-  "description": "冬青 (Ilex spp.) 包含許多物種——包括美國冬青 (Ilex opaca)、日本冬青 (Ilex crenata) 等——這些對貓都有毒。與西洋冬青類似，這些物種在果實和葉子中含有濃縮的皂苷（包括冬青苷 ilicin）。鮮豔的果實對貓具有視覺吸引力，是最大的接觸風險。",
+  "description": "冬青包含許多具有光亮葉片和鮮豔果實的灌木與樹木。它對貓有毒，而果實通常是貓最容易找到或吞下的部位。\n\n冬青含有皂苷和其他刺激性成分，可能讓胃和腸道不舒服。尖硬的葉子也可能刺激口腔；在節慶季節，掉落的果實可能吸引好奇的貓。\n\n貓吃到冬青後，可能流口水、嘔吐、腹瀉、舔嘴或看起來不舒服。請把冬青裝飾和戶外掉落果實遠離貓。如果貓吃下多顆果實、反覆嘔吐，或看起來虛弱，請聯絡獸醫。",
+  "manual_override": true,
+  "gemini_model": "codex-manual",
+  "translated_at": "2026-06-04T06:39:58Z",
   "safetyNotes": [
     "毒性化合物：皂苷（冬青苷 ilicin 及相關化合物）、甲基黃嘌呤相關化合物，果實中含有微量氰原",
     "機制：皂苷會引起嚴重的胃腸道黏膜刺激；高劑量全身吸收可能引起中樞神經系統和心臟影響",
@@ -22,17 +19,17 @@
   "symptoms": [
     {
       "name": "嘔吐和腹瀉",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "急性（攝入少至兩顆果實後即可出現臨床徵兆）。"
     },
     {
       "name": "過度流口水（流涎）或舔嘴唇",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "立即（咀嚼或攝入時）。"
     },
     {
       "name": "腹痛",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "急性。"
     },
     {

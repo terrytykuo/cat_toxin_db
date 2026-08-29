@@ -8,7 +8,7 @@
   ],
   "name": "Mexican Mint",
   "aliases": [],
-  "description": "Mexican Mint (Plectranthus amboinicus), also called Indian Borage or Cuban Oregano, is an aromatic succulent herb that is mildly toxic to cats. It contains pungent essential oils — primarily carvacrol, thymol, and camphor-related compounds — that act as GI irritants in cats and cannot be efficiently metabolised by their livers.",
+  "description": "Mexican Mint (Plectranthus amboinicus), also known as Indian borage or Cuban oregano, is an aromatic herb with thick, fuzzy leaves. It is mildly toxic to cats because it contains strong essential oils. Cats do not have the right liver enzymes to break down these oils. When a cat eats the plant, compounds like carvacrol and thymol directly irritate their stomach and digestive tract. A cat that nibbles on Mexican mint may drool, vomit, have diarrhea, or lose its appetite. The strong smell usually keeps cats away, but if your cat eats a large amount or if the symptoms do not go away, contact a veterinarian.",
   "safetyNotes": [
     "Toxic compounds: carvacrol, thymol, and camphor-related volatile oils throughout the plant",
     "Mechanism: these terpenoid oils irritate the gastrointestinal mucosa directly and may cause mild liver stress with repeated exposure",
@@ -28,37 +28,37 @@
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "Because Mexican Mint acts directly as a gastro-irritant, vomiting is one of the primary and most common signs of stomach upset after a cat nibbles on the plant1.... 2. Diarrhea"
+      "notes": "Because Mexican Mint acts directly as a gastro-irritant, vomiting is one of the primary and most common signs of stomach upset after a cat nibbles on the plant."
     },
     {
       "name": "Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "This symptom is a direct result of the plant's essential oils irritating the feline digestive tract as the body attempts to process compounds it cannot properly break down2.... 3. Drooling or Foaming at the Mouth"
+      "notes": "This symptom is a direct result of the plant's essential oils irritating the feline digestive tract as the body attempts to process compounds it cannot properly break down."
     },
     {
       "name": "Drooling (excessive salivation) or foaming at the mouth",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "This is a localized reaction to the strong taste and irritating nature of the essential oils present in the mint plant34. 4. Loss of Appetite"
+      "notes": "This is a localized reaction to the strong taste and irritating nature of the essential oils present in the mint plant."
     },
     {
       "name": "Loss of appetite",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
-      "notes": "The gastrointestinal irritation, discomfort, and nausea caused by the plant will frequently lead the cat to refuse food45. 5. Lethargy or Weakness"
+      "notes": "The gastrointestinal irritation, discomfort, and nausea caused by the plant will frequently lead the cat to refuse food."
     },
     {
       "name": "Lethargy or weakness",
       "body_system": "Neurological",
       "severity": "severe",
-      "notes": "While a small nibble usually results in mild discomfort, ingesting larger quantities of the plant can cause systemic weakness and lethargy34. 6. Difficulty Breathing (Associated with Concentrated Exposure)"
+      "notes": "While a small nibble usually results in mild discomfort, ingesting larger quantities of the plant can cause systemic weakness and lethargy."
     },
     {
       "name": "Difficulty breathing",
       "body_system": "Respiratory",
       "severity": "severe",
-      "notes": "While fresh Mexican Mint leaves generally cause mild gastrointestinal signs, if a cat is exposed to or inhales highly concentrated forms of the plant (such as extracted mint essential oils), it can trigger severe respiratory distress, neurological symptoms, and even liver failure"
+      "notes": "While fresh Mexican Mint leaves generally cause mild gastrointestinal signs, if a cat is exposed to or inhales highly concentrated forms of the plant (such as extracted mint essential oils), it can trigger severe respiratory distress, neurological symptoms, and even liver failure."
     }
   ],
   "scientificName": "Indian borage",

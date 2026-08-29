@@ -1,16 +1,16 @@
 {
   "slug": "thyme",
   "source_hash": "04abd1c019ed2850643bb6d3aef9aadc50d82ef5bbf588a1f6e7afdabcd0dd59",
-  "translated_at": "2026-05-21T10:40:43Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:51:54.584427Z",
+  "gemini_model": "gemini-2.5-pro",
+  "manual_override": true,
   "category": "plant",
   "name": "百里香",
   "aliases": [
     "普通百里香",
     "花園百里香"
   ],
-  "description": "百里香是一種低矮且具有香氣的草本植物，對貓咪無毒。它耐寒、易於生長，並能為料理增添極佳風味，即使您的貓咪決定去探索它，也完全安全。",
+  "description": "百里香（Thymus vulgaris）是一種常用於烹飪的芬芳香草植物。它被廣泛認為對貓無毒且安全。百里香的葉、莖、花均不含任何已知對貓有毒的成分。\n\n如果貓咪決定啃咬百里香，飼主不必為毒性問題感到驚慌。對多數貓來說，淺嚐幾口葉子並不會造成任何問題。不過，就像任何植物一樣，如果貓吃下「非常大量」的百里香，可能會引起輕微、暫時的腸胃不適，例如嘔吐或腹瀉。但這通常是貓吃下過多植物的普遍反應，而不是中毒跡象。\n\n居家園丁可以放心地在有貓的空間種植百里香。無論是在室內還是室外香草園，它都是一個安全、對寵物友善的好選擇。",
   "safetyNotes": [],
   "toxicParts": [],
   "symptoms": []

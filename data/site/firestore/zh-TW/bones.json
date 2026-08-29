@@ -11,7 +11,7 @@
     "處理方式：如果貓吞下骨頭碎片，請密切觀察是否有不適徵象，例如流涎、作嘔、嘔吐、腹痛或血便，並立即尋求獸醫照護。"
   ],
   "slug": "bones",
-  "source_hash": "fa0ef88bd267d93d70bae95865c9eb039b4339655aea5ee4dfe5c5700ad8768f",
+  "source_hash": "ce968f12dd3c8e73de1297986aae877e9108c47c18193a904e0e2c76fa744ea8",
   "symptoms": [
     {
       "body_system": "腸胃道",
@@ -41,6 +41,5 @@
   "toxicParts": [
     "整個食物"
   ],
-  "translated_at": "2026-05-29T11:24:15.706Z",
-  "migrated_from": "data/site/zh-TW/bones.json"
+  "translated_at": "2026-05-29T11:24:15.706Z"
 }

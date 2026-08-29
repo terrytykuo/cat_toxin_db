@@ -9,7 +9,7 @@
   ],
   "name": "Homalomena Selby / Homalomena rubescens",
   "aliases": [],
-  "description": "Homalomena ‘Selby’ is a tropical ornamental houseplant in the Araceae family, making it toxic to cats for the same reason as Dieffenbachia, Philodendron, and Pothos: insoluble calcium oxalate crystals (raphides) throughout the leaves and stems. When chewed, these needle-like crystals are forcefully ejected into the oral mucosa, causing intense immediate irritation.",
+  "description": "Homalomena ‘Selby’ is a tropical houseplant in the Araceae family. Like pothos, philodendron, and dieffenbachia, it is unsafe for cats because the leaves and stems contain irritating calcium oxalate crystals. When a cat bites the plant, the crystals can press into the mouth and throat like tiny needles. This causes fast pain and burning. The plant’s sap may add more irritation, especially on the lips, tongue, or throat. A cat may drool, paw at the mouth, vomit, or have swelling of the lips or tongue. Most cats stop chewing quickly because it hurts, but swelling can still be serious. Keep Homalomena out of reach, rinse the mouth gently with water if safe, and call a veterinarian if swelling, vomiting, or breathing trouble appears.",
   "safetyNotes": [
     "Toxic compounds: insoluble calcium oxalate raphides; the plant’s cell sap also contains proteolytic enzymes",
     "Mechanism: crystal penetration of the mouth and throat lining causes mechanical burning and inflammation",
@@ -29,14 +29,14 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate (Upon chewing the plant material).",
-      "notes": "The needle-like crystals embed in the soft tissues of the mouth and tongue, causing immediate discomfort.Excessive Drooling"
+      "notes": "The needle-like crystals embed in the soft tissues of the mouth and tongue, causing immediate discomfort."
     },
     {
       "name": "Drooling (Hypersalivation)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate.",
-      "notes": "This is a direct reaction to the pain and irritation caused by the crystals in the mouth.Vomiting"
+      "notes": "This is a direct reaction to the pain and irritation caused by the crystals in the mouth."
     },
     {
       "name": "Vomiting",
@@ -50,14 +50,14 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Acute.",
-      "notes": "The cat may refuse food due to the pain and swelling in the mouth and throat.Diarrhea"
+      "notes": "The cat may refuse food due to the pain and swelling in the mouth and throat."
     },
     {
       "name": "Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Delayed (Following ingestion of larger quantities).",
-      "notes": "This symptom is noted specifically if the plant is \"ingested in quantity.\"Lethargy"
+      "notes": "This symptom is noted specifically if the plant is \"ingested in quantity.\""
     },
     {
       "name": "Lethargy",

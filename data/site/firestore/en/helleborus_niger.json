@@ -28,19 +28,19 @@
       "name": "Persistent vomiting and diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "severe",
-      "notes": "Unlike mild stomach upset, the vomiting and diarrhea associated with Christmas Rose are described as persistent and often contain blood, indicating severe irritation or damage to the gastrointestinal lining.Cardiac Abnormalities"
+      "notes": "Unlike mild stomach upset, the vomiting and diarrhea associated with Christmas Rose are described as persistent and often contain blood, indicating severe irritation or damage to the gastrointestinal lining."
     },
     {
       "name": "Changes in heart rate and rhythm (Arrhythmias)",
       "body_system": "Cardiac",
       "severity": "fatal",
-      "notes": "The plant contains cardiac glycosides, which disrupt the heart's electrical impulses. These toxins can be fatal if untreated.Hallucinations"
+      "notes": "The plant contains cardiac glycosides, which disrupt the heart's electrical impulses. These toxins can be fatal if untreated."
     },
     {
       "name": "Hallucinations",
       "body_system": "Neurological",
       "severity": "severe",
-      "notes": "This is a distinct neurological symptom associated with the specific toxins found in the Christmas Rose.Electrolyte Imbalances"
+      "notes": "This is a distinct neurological symptom associated with the specific toxins found in the Christmas Rose."
     },
     {
       "name": "Electrolyte imbalances",

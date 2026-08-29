@@ -2,7 +2,7 @@
   "slug": "unripened_pineapples",
   "category": "food",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/unripened_pineapples.jpg",
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/unripened_pineapples/images/1772923210789.avif",
@@ -10,7 +10,7 @@
   ],
   "name": "Unripened pineapples",
   "aliases": [],
-  "description": "Ripe pineapple flesh is not significantly toxic to cats in small amounts, but unripe pineapple and the pineapple plant itself (skin, core, leaves, and stem) are hazardous. Unripe pineapple has very high concentrations of bromelain and oxidative compounds that cause mouth irritation, GI upset, and potentially diarrhea.",
+  "description": "Ripe pineapple flesh is not toxic to cats in very small amounts, but it is high in sugar and not a recommended treat. The main danger comes from unripe pineapple and the pineapple plant itself, including the skin, core, and leaves. These parts are hazardous to cats. The primary concern with unripe pineapple is its high concentration of bromelain, an enzyme that breaks down protein. When a cat eats it, this enzyme can cause significant irritation and pain in the mouth, as well as stomach upset, vomiting, and diarrhea. The tough, fibrous parts of the plant can also be a choking hazard or cause digestive issues. To be safe, only offer your cat a tiny piece of ripe pineapple flesh on rare occasions, if at all. Never allow them to chew on unripe pineapple or any part of the plant. If your cat ingests these parts, monitor them for symptoms and contact your veterinarian for advice, especially if they show signs of oral pain or persistent vomiting.",
   "safetyNotes": [
     "Bromelain risk: unripe pineapple has high bromelain concentrations — a proteolytic enzyme that causes intense oral irritation and mucosal inflammation",
     "Leaves, skin, and core: contain high bromelain plus insoluble fibres that irritate the GI tract; not appropriate for cats",
@@ -26,30 +26,32 @@
   ],
   "symptoms": [
     {
-      "name": "The provided sources do not detail a specific, isolated symptom profile exclusively for unripened pineapples1. Instead",
-      "body_system": "Metabolic",
-      "severity": "moderate"
+      "name": "Oral pain and mouth irritation",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion.",
+      "notes": "Bromelain, a proteolytic enzyme, irritates the mucous membranes of the mouth; spiny rind and leaves can add mechanical irritation."
     },
     {
-      "name": "Difficulty Breathing and Hyperventilation",
-      "body_system": "Respiratory",
-      "severity": "fatal",
-      "onset": "Rapid onset (exact timeframe is not specified in the sources,",
-      "notes": "cyanide halts cellular oxygen metabolism rapidly). Any additional clinical notes: The cyanides present in these fruits disrupt normal oxygen utilization, leading to profound respiratory distress and hyperventilation as the body struggles to breathe"
+      "name": "Drooling (hypersalivation)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Shortly after ingestion.",
+      "notes": "Hypersalivation typically accompanies oral irritation from bromelain and fibrous plant parts."
     },
     {
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
-      "severity": "severe",
+      "severity": "moderate",
       "onset": "Shortly after ingestion.",
-      "notes": "Vomiting is triggered as a severe poisoning symptom and systemic reaction when the cat is unable to metabolize the toxic alkaloids and cyanides ingested from the fruit"
+      "notes": "Mild-to-moderate, self-limiting gastrointestinal upset from bromelain and high fibre/sugar content."
     },
     {
-      "name": "Coma",
-      "body_system": "Neurological",
-      "severity": "fatal",
-      "onset": "Follows initial respiratory distress and systemic poisoning.",
-      "notes": "If the cat ingests a highly toxic dose of cyanides and alkaloids from these fruits, it can catastrophically impact the central nervous system, leading to loss of consciousness and a potentially fatal coma"
+      "name": "Diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Shortly after ingestion.",
+      "notes": "Mild-to-moderate, self-limiting gastrointestinal upset from high insoluble fibre and sugar."
     }
   ],
   "scientificName": "Pineapple",

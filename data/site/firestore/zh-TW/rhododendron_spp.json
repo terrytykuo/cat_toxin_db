@@ -38,7 +38,5 @@
       "body_system": "呼吸系統",
       "onset": "立即"
     }
-  ],
-  "source_hash": "af1ab9b4fb1de702dcd30ab6f99c9524ad0ef0b34c96f19eff27da95ca2edadc",
-  "migrated_from": "data/site/zh-TW/rhododendron_spp.json"
+  ]
 }

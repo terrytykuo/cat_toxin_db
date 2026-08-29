@@ -1,13 +1,10 @@
 {
   "slug": "kalanchoe_spp",
-  "source_hash": "77909cb88d1720b55e941c34b4eb9290cc71a4d8d30c725acc75bcfa2509b136",
-  "translated_at": "2026-05-21T10:32:34Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
-  "category": "plant",
-  "name": "長壽花 / 落地生根 / 燈籠草 (Kalanchoe / Mother of Millions / Widow's Thrill / Flaming Katy)",
-  "aliases": [],
-  "description": "長壽花 (Kalanchoe spp.)，以 Flaming Katy、落地生根 (Mother of Millions) 和 Widow's Thrill 等名稱販售，是受歡迎但對貓有毒的景天科多肉植物。它含有蟾蜍二烯內酯類強心苷 (bufadienolide cardiac glycosides) — 與毛地黃素相關但有所不同 — 濃縮於整株植物中。這些化合物會干擾心臟電傳導，其方式與毛地黃中毒相似。",
+  "name": "長壽花／落地生根／燈籠草",
+  "description": "長壽花／落地生根／燈籠草（Kalanchoe spp.）是常見的多肉觀葉植物，也可能以 Flaming Katy、Mother of Millions 或 Widow’s Thrill 等名稱販售。它對貓有毒。\n\n長壽花含有 bufadienolide 類強心苷。這些化學物質可能干擾維持心臟正常跳動的電訊號。少量暴露常先出現腸胃不適，但較大量暴露可能影響心律。\n\n貓吃到長壽花後，可能嘔吐、腹瀉、流口水、虛弱或食慾下降。嚴重時可能出現心律異常、昏倒或抽搐。請把長壽花遠離貓；如果貓吃到任何部位，請盡快聯絡獸醫。",
+  "manual_override": true,
+  "gemini_model": "codex-manual",
+  "translated_at": "2026-06-04T06:39:58Z",
   "safetyNotes": [
     "毒性化合物：整株植物的葉、莖、花均含有蟾蜍二烯內酯類強心苷 (bufadienolide cardiac glycosides)",
     "機制：蟾蜍二烯內酯會抑制心肌細胞中的鈉鉀幫浦 (Na+/K+-ATPase pump)，導致心律不整",
@@ -22,12 +19,12 @@
   "symptoms": [
     {
       "name": "嘔吐、下痢、流涎（唾液分泌過多）、腹痛",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "暴露後 2 小時內。"
     },
     {
       "name": "異常心律（心律不整）、心動過緩（心跳過慢）或心動過速（心跳過快）",
-      "body_system": "心血管系統",
+      "body_system": "心血管",
       "onset": "2 小時內出現；症狀可能持續 4-5 天。"
     },
     {

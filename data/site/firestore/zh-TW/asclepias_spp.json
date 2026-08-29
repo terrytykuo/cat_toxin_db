@@ -1,13 +1,13 @@
 {
   "slug": "asclepias_spp",
   "source_hash": "b45c2309bf1bc80fbbb8680cd799df529238bfb97c148051ea7c636c6c4fbea6",
-  "translated_at": "2026-05-21T10:34:02Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
   "name": "馬利筋",
   "aliases": [],
-  "description": "馬利筋 (Asclepias spp.) 對貓來說是有毒植物，因為它含有卡烯內酯強心苷 (cardenolide cardiac glycosides) —— 這是一種遍布整株植物的強效化合物，其中以乳狀汁液中的濃度最高。這些化合物對心臟的作用方式與毛地黃 (Foxglove) 類似，會干擾調節心跳的電訊號。包括乾燥植物材料在內的所有部位皆具毒性。",
+  "description": "馬利筋（Asclepias spp.）對貓咪來說是具有高度毒性的植物。包含乾燥的葉片和莖部在內，整株植物都含有被稱為強心苷 (cardiac glycosides) 的強烈毒素。其中，乳白色汁液裡的毒素濃度是最高的。\n\n這些毒素會直接攻擊心臟，干擾控制心跳的正常電子訊號。這會迫使心肌用力收縮，但心律卻會變得異常，這是非常危險的情況。此外，汁液也會刺激貓咪的消化系統。\n\n如果貓咪吃到馬利筋或舔到汁液，可能會嘔吐、腹瀉，或是看起來虛弱、走路不穩。更嚴重的症狀包括呼吸困難、肌肉顫抖和心律不整。由於心臟相關的毒性惡化得非常快，如果你懷疑貓咪接觸到這種植物，請立即聯絡獸醫或急診動物醫院。",
   "safetyNotes": [
     "有毒化合物：乳汁、葉子和莖中的卡烯內酯強心苷 (cardenolide cardiac glycosides)",
     "機制：卡烯內酯會抑制心肌細胞中的 Na+/K+-ATPase 幫浦，導致心律不整",

@@ -8,7 +8,7 @@
   ],
   "name": "Gardenia",
   "aliases": [],
-  "description": "Gardenia (Gardenia jasminoides) is a fragrant flowering shrub often grown in pots or gardens. It is not considered one of the most dangerous plants for cats, but it can still cause mild poisoning if chewed or eaten. The main concern is a group of plant compounds called iridoid glycosides, including genipin and gardenoside. These compounds can irritate the digestive tract. In some cats, contact with the plant may also trigger skin irritation or hives. If a cat eats gardenia leaves, flowers, or fruit, possible signs include vomiting, diarrhea, mild lethargy, or a skin rash. The flowers may attract curious cats because of their scent. Keep gardenias out of easy reach, and contact a veterinarian if vomiting is repeated, diarrhea is strong, or a rash spreads.",
+  "description": "Gardenia (Gardenia jasminoides) is a fragrant flowering shrub often grown in pots or gardens. It is not one of the most dangerous plants for cats, but it can still cause mild poisoning if a cat chews or eats it. The main concern is a group of plant compounds called iridoid glycosides, including genipin and gardenoside. These compounds can irritate the digestive tract. In some cats, contact with the plant may also cause skin irritation or hives. If a cat eats gardenia leaves, flowers, or fruit, possible signs include vomiting, diarrhea, mild tiredness, or a skin rash. The flowers may attract curious cats because of their scent. Keep gardenias out of easy reach, and call a veterinarian if vomiting repeats, diarrhea is strong, or a rash spreads.",
   "safetyNotes": [
     "Main hazard: Iridoid glycosides in the leaves, flowers, and fruit can irritate the digestive tract.",
     "Symptoms: Vomiting, diarrhea, mild lethargy, hives, or a skin rash after contact.",
@@ -24,19 +24,19 @@
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "This is a common sign of gastrointestinal upset caused by the plant's toxic compounds (genioposide and gardenoside). The reaction is generally self-limiting.Diarrhea"
+      "notes": "This is a common sign of gastrointestinal upset caused by the plant's toxic compounds (genioposide and gardenoside). The reaction is generally self-limiting."
     },
     {
       "name": "Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "Like vomiting, diarrhea is a result of the iridoid glycosides irritating the digestive tract. It usually resolves on its own but should be monitored.Hives and Skin Rash"
+      "notes": "Like vomiting, diarrhea is a result of the iridoid glycosides irritating the digestive tract. It usually resolves on its own but should be monitored."
     },
     {
       "name": "Hives (Urticaria) or Skin Rash",
       "body_system": "Dermal",
       "severity": "mild",
-      "notes": "Some cats may develop a dermatological reaction such as a rash or hives upon contact with the plant or after ingestion.General Clinical Note: The toxicity of Gardenia is classified as mild. Most cases do not require aggressive veterinary intervention. Offering water and monitoring the cat is often s"
+      "notes": "Some cats may develop a dermatological reaction such as a rash or hives upon contact with the plant or after ingestion."
     }
   ],
   "scientificName": "Gardenia jasminoides",

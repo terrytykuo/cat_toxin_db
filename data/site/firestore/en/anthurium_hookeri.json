@@ -39,7 +39,7 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Rapid (shortly after contact).",
-      "notes": "While usually limited to the mouth, significant swelling in the back of the throat can potentially lead to difficulty breathing (dyspnea), though this is rare.Vomiting"
+      "notes": "While usually limited to the mouth, significant swelling in the back of the throat can potentially lead to difficulty breathing (dyspnea), though this is rare."
     },
     {
       "name": "Vomiting",
@@ -53,7 +53,7 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate to Rapid.",
-      "notes": "The cat may show an inability or reluctance to swallow due to pain and swelling.Pawing at the Mouth"
+      "notes": "The cat may show an inability or reluctance to swallow due to pain and swelling."
     },
     {
       "name": "Pawing at the mouth or face",

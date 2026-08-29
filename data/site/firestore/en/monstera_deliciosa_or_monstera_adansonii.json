@@ -8,7 +8,7 @@
   ],
   "name": "Monstera / Split-Leaf Philodendron",
   "aliases": [],
-  "description": "Monstera (Monstera deliciosa and M. adansonii), commonly called Swiss Cheese Plant or Split-Leaf Philodendron, is a popular tropical houseplant toxic to cats. As a member of the Araceae family, it contains insoluble calcium oxalate crystals (raphides) packed throughout its leaves and stems. Chewing the plant releases these needle-like crystals into the oral mucosa, causing immediate intense pain.",
+  "description": "Monstera (Monstera deliciosa and M. adansonii), often called the Swiss Cheese Plant, is a popular houseplant that is toxic to cats. It contains tiny, needle-shaped crystals called insoluble calcium oxalates. These crystals act like tiny shards of glass rather than a chemical poison. When a cat bites the leaves or stems, these sharp crystals are shot into the mouth and throat. This causes immediate, intense burning and pain. Because it hurts so much right away, most cats stop eating the plant before they swallow a dangerous amount. However, the swelling can sometimes make it difficult for the cat to swallow or breathe. A cat that has chewed on a Monstera will usually drool heavily, paw at its mouth, and may have swollen lips or a swollen tongue. You can try rinsing the mouth with water, but if your cat is having trouble breathing or the swelling is severe, please contact a veterinarian or an emergency animal hospital immediately.",
   "safetyNotes": [
     "Toxic compounds: insoluble calcium oxalate raphides; proteolytic enzymes in the sap intensify the reaction",
     "Mechanism: crystals are forcefully ejected into the mouth and throat lining when plant tissue is damaged, causing mechanical burns and swelling",
@@ -25,28 +25,28 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate (upon chewing or biting)",
-      "notes": "This immediate pain is caused mechanically rather than chemically. When the cat bites the plant, specialized cells forcefully eject needle-like, insoluble calcium oxalate crystals directly into the cat's oral mucosa3. 2. Drooling (Hypersalivation)"
+      "notes": "This immediate pain is caused mechanically rather than chemically. When the cat bites the plant, specialized cells forcefully eject needle-like, insoluble calcium oxalate crystals directly into the cat's oral mucosa."
     },
     {
       "name": "Excessive drooling or hypersalivation",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate (upon chewing or biting)",
-      "notes": "This is a localized reaction to the physical trauma and intense burning sensation occurring in the mouth3. 3. Swelling of the Mouth and Throat"
+      "notes": "This is a localized reaction to the physical trauma and intense burning sensation occurring in the mouth."
     },
     {
       "name": "Swelling of the mouth and tongue, leading to difficulty swallowing",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Immediate",
-      "notes": "The trauma from the calcium oxalate crystals causes an inflammatory response in the tissues3. While Monstera ingestion is rarely fatal, in severe cases, the swelling in the mouth and throat can become significant enough to obstruct the cat's airway3. 4. Vomiting"
+      "notes": "The trauma from the calcium oxalate crystals causes an inflammatory response in the tissues3. While Monstera ingestion is rarely fatal, in severe cases, the swelling in the mouth and throat can become significant enough to obstruct the cat's airway."
     },
     {
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Shortly after ingestion (typically follows the initial oral irritation if swallowed).",
-      "notes": "If the cat manages to swallow the plant material despite the immediate mouth pain, the sharp crystals will continue to severely irritate the rest of the gastrointestinal tract, triggering vomiting"
+      "notes": "If the cat manages to swallow the plant material despite the immediate mouth pain, the sharp crystals will continue to severely irritate the rest of the gastrointestinal tract, triggering vomiting."
     }
   ],
   "scientificName": "Monstera deliciosa or Monstera adansonii",

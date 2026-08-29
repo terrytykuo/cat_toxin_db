@@ -1,13 +1,13 @@
 {
   "slug": "pieris_japonica",
   "source_hash": "83843588a649eba3220493413905baa6cad8e24de3568cf07b220cca44511082",
-  "translated_at": "2026-05-21T10:31:41Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T21:31:11.093519Z",
+  "gemini_model": "codex-manual",
+  "manual_override": true,
   "category": "plant",
-  "name": "馬醉木",
+  "name": "日本馬醉木",
   "aliases": [],
-  "description": "馬醉木 (Pieris japonica)，也稱為鈴蘭花灌木或仙女座，是一種劇毒的觀賞灌木，與杜鵑花和杜鵑花屬植物密切相關。它在整株植物（包括葉、花和花蜜）中都含有木藜蘆毒素 (grayanotoxins) — 這是導致杜鵑花中毒的同一種二萜多元醇化合物。",
+  "description": "日本馬醉木（Pieris japonica），也稱 lily-of-the-valley shrub 或 andromeda，是高度有毒的觀賞灌木。它和杜鵑、石楠花類植物有親緣關係，而這些植物對貓也很危險。\n\n這種植物的葉子、花、莖和花蜜中都含有 grayanotoxins。這些毒素會干擾正常的神經與肌肉訊號，可能影響消化系統、心臟和大腦，即使貓只吃到少量也可能出事。\n\n症狀可能包括流口水、嘔吐、腹瀉、虛弱、心跳變慢或不規則、顫抖、抽搐或昏倒。這是緊急暴露。請把日本馬醉木遠離貓；如果貓吃到任何部位，請立即聯絡獸醫或急診動物醫院。",
   "safetyNotes": [
     "有毒化合物：木藜蘆毒素 I、II 和 III (二萜多元醇)；包括花蜜在內的所有部分皆有毒",
     "機制：木藜蘆毒素與電壓門控鈉離子通道結合，使其保持開放狀態；這會導致心肌和骨骼肌持續去極化，引起低血壓、心動過緩（心跳緩慢）和心律不整",
@@ -24,12 +24,12 @@
   "symptoms": [
     {
       "name": "嘔吐、腹瀉、唾液分泌過多 (流口水) 和厭食 (拒絕進食)",
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "onset": "1–4 小時 (偶爾長達 12 小時)。"
     },
     {
       "name": "心律不整、心動過緩 (心跳緩慢)、心動過速 (心跳過快) 和低血壓 (低血壓)",
-      "body_system": "心血管系統",
+      "body_system": "心血管",
       "onset": "1–4 小時。"
     },
     {

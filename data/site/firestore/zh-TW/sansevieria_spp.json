@@ -1,13 +1,13 @@
 {
   "slug": "sansevieria_spp",
   "source_hash": "2fcfbc138e79a4f0cbc0710985a6621aec61a087204aba06b541fb495af124ac",
-  "translated_at": "2026-05-21T10:38:32Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:51:54.584427Z",
+  "gemini_model": "gemini-2.5-pro",
+  "manual_override": true,
   "category": "plant",
   "name": "虎尾蘭",
   "aliases": [],
-  "description": "虎尾蘭 (Sansevieria spp.，已重新分類為 Dracaena trifasciata)，也稱為虎皮蘭，是一種受歡迎且易於維護的室內植物，對貓有輕微毒性。與其他龍血樹屬 (Dracaena) 品種一樣，它含有遍布葉片的甾體皂苷，攝入後會導致腸胃不適。",
+  "description": "虎尾蘭 (Sansevieria spp.)，也稱為岳母的舌頭，是一種非常受歡迎且耐寒的室內植物。它堅韌、直立的葉片使其成為常見的裝飾選擇，但如果貓啃咬或吃下，會對其產生輕微毒性。\n\n這種植物含有稱為「皂苷」(saponins) 的化學物質，其作用類似天然清潔劑並帶有泡沫特性。這些物質會刺激口腔和消化道的組織。當貓咬到葉子時，皂苷會引起局部反應和腸胃不適。\n\n症狀通常很輕微且會自行緩解。貓可能會流口水、嘔吐、腹瀉或短暫食慾不振。雖然後果通常不嚴重，但最好還是將虎尾蘭放在貓碰不到的地方，避免讓貓感到不適。如果症狀持續或看起來很嚴重，最好還是聯絡獸醫尋求建議。",
   "safetyNotes": [
     "有毒化合物：遍布葉片的甾體皂苷",
     "機制：皂苷會破壞細胞膜完整性並刺激腸胃黏膜；貓可能會表現出龍血樹屬皂苷暴露中常見的特徵性瞳孔放大（散瞳）",
@@ -22,11 +22,11 @@
   "symptoms": [
     {
       "name": "噁心、嘔吐、下痢和分泌過多唾液",
-      "body_system": "消化系統"
+      "body_system": "腸胃道"
     },
     {
       "name": "溶血（紅血球的破裂或破壞）",
-      "body_system": "消化系統"
+      "body_system": "腸胃道"
     }
   ]
 }

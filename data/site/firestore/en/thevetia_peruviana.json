@@ -8,7 +8,7 @@
   ],
   "name": "Yellow Oleander",
   "aliases": [],
-  "description": "Yellow Oleander (Cascabela thevetia, formerly Thevetia peruviana) is closely related to common Oleander and equally dangerous. All parts — seeds, leaves, bark, flowers, and fruit — contain thevetin A and thevetin B, potent cardiac glycosides related to digitalis. Seeds are most concentrated and are responsible for the majority of reported poisonings.",
+  "description": "Yellow Oleander (Thevetia peruviana) is an extremely dangerous and highly toxic plant for cats. All parts of the plant, including the leaves, flowers, and stems, contain deadly toxins. The seeds are especially potent and contain the highest concentration of these poisonous compounds. The toxins in Yellow Oleander are cardiac glycosides, specifically thevetin A and thevetin B. These chemicals directly attack the heart muscle, disrupting its ability to pump blood normally. They interfere with the heart's electrical signals, which can lead to a dangerously slow or fast heart rate, or other severe heartbeat irregularities known as arrhythmias. Even a very small amount, such as chewing on a leaf or seed, can be fatal. Any cat suspected of ingesting any part of a Yellow Oleander needs immediate, emergency veterinary care. Signs of poisoning include severe vomiting, diarrhea, drooling, weakness, tremors, and collapse. The effects on the heart are life-threatening and require urgent medical intervention. This is a true medical emergency.",
   "safetyNotes": [
     "Toxic compounds: thevetin A and thevetin B (cardiac glycosides) in all parts; seeds most concentrated",
     "Mechanism: thevetins inhibit Na+/K+-ATPase in cardiac muscle, disrupting electrical conduction causing arrhythmias and heart block",
@@ -33,42 +33,42 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Within the first 2 hours after exposure",
-      "notes": "Gastrointestinal distress usually acts as the initial sign of poisoning from the plant's cardiac glycosides, often appearing just prior to major heart function abnormalities34. Symptoms can persist for up to 4 to 5 days3. 2. Abnormal Heart Rate and Arrhythmias"
+      "notes": "Gastrointestinal distress usually acts as the initial sign of poisoning from the plant's cardiac glycosides, often appearing just prior to major heart function abnormalities34. Symptoms can persist for up to 4 to 5 days."
     },
     {
       "name": "Bradycardia (abnormally slow heart rate) or tachycardia (rapid heart rate), and severe arrhythmias",
       "body_system": "Cardiac",
       "severity": "fatal",
       "onset": "Expected within the first 2 hours after exposure",
-      "notes": "Cardiac glycosides directly interfere with the heart by inhibiting the Na + /K + -ATPase pump, altering intracellular calcium and sodium levels [645, Conversation History]. This causes the heart's contractions to become forceful but irregular, which can rapidly lead to life-threatening cardiovascula"
+      "notes": "Cardiac glycosides directly interfere with the heart by inhibiting the Na + /K + -ATPase pump, altering intracellular calcium and sodium levels."
     },
     {
       "name": "Hyperkalemia (elevated potassium levels in the blood)",
       "body_system": "Hematological",
       "severity": "fatal",
       "onset": "Within the first 2 hours after exposure",
-      "notes": "This dangerous accumulation of extracellular potassium is a direct result of the disrupted cellular pumps35. Severe hyperkalemia (> 7.5–9mEq/L) requires aggressive, emergency intravenous intervention (such as sodium bicarbonate or dextrose/insulin therapy) to stabilize the cat3. 4. Weakness and Leth"
+      "notes": "This dangerous accumulation of extracellular potassium is a direct result of the disrupted cellular pumps35. Severe hyperkalemia (> 7.5–9mEq/L) requires aggressive, emergency intravenous intervention (such as sodium bicarbonate or dextrose/insulin therapy) to stabilize the cat."
     },
     {
       "name": "Weakness and lethargy",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Within the first 2 hours after exposure",
-      "notes": "The profound weakness is a systemic reflection of the severe cardiovascular disruption and plummeting blood pressure34. 5. Tremors and Seizures"
+      "notes": "The profound weakness is a systemic reflection of the severe cardiovascular disruption and plummeting blood pressure."
     },
     {
       "name": "Tremors and seizures",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Often within the first few hours, progressing as the toxicosis worsens",
-      "notes": "These severe neurological manifestations occur in advanced stages of cardiac glycoside poisoning from oleander species26. 6. Difficulty Breathing"
+      "notes": "These severe neurological manifestations occur in advanced stages of cardiac glycoside poisoning from oleander species."
     },
     {
       "name": "Respiratory changes and difficulty breathing",
       "body_system": "Respiratory",
       "severity": "severe",
       "onset": "Usually presents as the toxicity progresses (within hours)",
-      "notes": "Respiratory distress typically accompanies the severe, systemic decline in cardiovascular output and neurological stability"
+      "notes": "Respiratory distress typically accompanies the severe, systemic decline in cardiovascular output and neurological stability."
     }
   ],
   "scientificName": "Thevetia peruviana",

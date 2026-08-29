@@ -26,21 +26,21 @@
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Immediate (Upon chewing or contact with sap).",
-      "notes": "The sap contains irritant enzymes that cause immediate discomfort to the mucous membranes of the mouth.Excessive Drooling"
+      "notes": "The sap contains irritant enzymes that cause immediate discomfort to the mucous membranes of the mouth."
     },
     {
       "name": "Drooling / Hypersalivation",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Acute (Shortly after exposure).",
-      "notes": "This is a secondary response to the oral irritation and burning sensation caused by the plant's sap.Vomiting"
+      "notes": "This is a secondary response to the oral irritation and burning sensation caused by the plant's sap."
     },
     {
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Acute.",
-      "notes": "Ingestion of the sap can upset the stomach. Symptoms are usually self-limiting, but persistent vomiting may require veterinary attention.Dermatitis"
+      "notes": "Ingestion of the sap can upset the stomach. Symptoms are usually self-limiting, but persistent vomiting may require veterinary attention."
     },
     {
       "name": "Contact Dermatitis (Skin redness or irritation)",

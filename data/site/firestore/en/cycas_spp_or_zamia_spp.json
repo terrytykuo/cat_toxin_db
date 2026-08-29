@@ -37,7 +37,7 @@
       "body_system": "Hepatic",
       "severity": "fatal",
       "onset": "Delayed; typically develops within 48 to 72 hours.",
-      "notes": "◦ Signs include yellowing of the skin and eyes (jaundice), increased thirst, and fluid accumulation in the abdomen (ascites). ◦ The toxin cycasin causes liver cells to die (hepatic necrosis), which is a primary cause of death in affected animals.Neurological Abnormalities"
+      "notes": "◦ Signs include yellowing of the skin and eyes (jaundice), increased thirst, and fluid accumulation in the abdomen (ascites). ◦ The toxin cycasin causes liver cells to die (hepatic necrosis), which is a primary cause of death in affected animals."
     },
     {
       "name": "Seizures, Tremors, and Ataxia (Wobbly Gait)",
@@ -51,7 +51,7 @@
       "body_system": "Hematological",
       "severity": "severe",
       "onset": "Delayed (secondary to liver failure).",
-      "notes": "◦ As the liver fails, it cannot produce necessary blood-clotting factors, leading to spontaneous bleeding and visible bruising on the skin or gums.Systemic Weakness"
+      "notes": "◦ As the liver fails, it cannot produce necessary blood-clotting factors, leading to spontaneous bleeding and visible bruising on the skin or gums."
     },
     {
       "name": "Lethargy and Depression",

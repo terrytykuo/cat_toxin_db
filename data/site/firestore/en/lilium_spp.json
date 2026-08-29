@@ -8,7 +8,7 @@
   ],
   "name": "Lilies",
   "aliases": [],
-  "description": "True lilies (Lilium spp.), including Easter Lily, Tiger Lily, Stargazer Lily, Asiatic Lily, and others in the Lilium genus, are among the most lethal plants for cats. Virtually every part — petals, leaves, stems, pollen, and even vase water — is highly nephrotoxic. The specific toxic compound has not been identified, but its effect is swift and devastating: acute kidney failure with high mortality if untreated.",
+  "description": "True lilies, like Easter, Tiger, and Stargazer lilies, are some of the most deadly plants for cats. Every single part of the plant is poisonous, including the petals, leaves, stems, and even the pollen. Even drinking the water from a vase that held lilies can be fatal. The toxin in lilies causes rapid and permanent damage to a cat’s kidneys. Early signs include vomiting and acting very tired. Within one to three days, the kidneys may stop working entirely, which can lead to death if the cat does not get help right away. Lily poisoning is a major medical emergency. If you think your cat has touched or eaten any part of a lily, or licked pollen off its fur, do not wait for symptoms to appear. Take your cat to a veterinarian or emergency animal hospital immediately.",
   "safetyNotes": [
     "Toxic compounds: unknown nephrotoxic substance specific to Lilium (and Hemerocallis/Daylily); toxic to cats but not dogs or humans",
     "Mechanism: acute tubular necrosis — rapid, irreversible destruction of kidney tissue within 24–72 hours",
@@ -28,28 +28,28 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Rapid; typically within 1 to 4 hours of ingestion",
-      "notes": "These are usually the first warning signs to appear3. The initial vomiting may temporarily cease after a few hours, but it will frequently return as the pet becomes dehydrated and renal failure begins to set in24. 2. Generalized Lethargy and Weakness"
+      "notes": "These are usually the first warning signs to appear3. The initial vomiting may temporarily cease after a few hours, but it will frequently return as the pet becomes dehydrated and renal failure begins to set in."
     },
     {
       "name": "Lethargy, Depression, Generalized Weakness, and Recumbency (inability to rise)",
       "body_system": "Neurological",
       "severity": "severe",
-      "onset": "Initial lethargy and depression appear within a few hours (1 to 12 hours)35.",
-      "notes": "A cat will quickly stop eating and appear noticeably sluggish5. As the condition worsens, the cat will become progressively weaker leading up to death2. 3. Acute Kidney Failure"
+      "onset": "Initial lethargy and depression appear within a few hours (1 to 12 hours).",
+      "notes": "A cat will quickly stop eating and appear noticeably sluggish5. As the condition worsens, the cat will become progressively weaker leading up to death."
     },
     {
       "name": "Acute Kidney Failure (characterized by Increased Thirst, Dehydration, Polyuria, and Anuria)",
       "body_system": "Renal",
       "severity": "fatal",
       "onset": "Delayed; kidney failure typically occurs within 36 to 72 hours (1 to 3 days)",
-      "notes": "The toxin causes acute tubular necrosis in the kidneys6. Between 12 and 30 hours, the cat may exhibit increased thirst and excessive urination (polyuria)12. As the kidneys fail, this progresses to a complete cessation of urine production (anuria)24. Bloodwork will show toxic indications through elev"
+      "notes": "The toxin causes acute tubular necrosis in the kidneys6. Between 12 and 30 hours, the cat may exhibit increased thirst and excessive urination (polyuria)12. As the kidneys fail, this progresses to a complete cessation of urine production (anuria)."
     },
     {
       "name": "Seizures / Tremors",
       "body_system": "Gastrointestinal",
       "severity": "fatal",
       "onset": "Delayed; typically occurs in the late stages of toxicity as kidney failure progresses",
-      "notes": "While generally considered an uncommon sign of lily toxicity, seizures can occur in very severe cases as a secondary complication2. They are triggered by substantial uremia, which is the dangerous buildup of waste products in the blood due to the kidneys shutting down"
+      "notes": "While generally considered an uncommon sign of lily toxicity, seizures can occur in very severe cases as a secondary complication2. They are triggered by substantial uremia, which is the dangerous buildup of waste products in the blood due to the kidneys shutting down."
     }
   ],
   "scientificName": "Lilium spp.",

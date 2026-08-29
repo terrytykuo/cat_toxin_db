@@ -1,13 +1,13 @@
 {
   "slug": "indian_borage",
   "source_hash": "7d33c7b5787a88ecf043d71c2bc0dcf4dabbd69269e5934fdb2f0b34865086e8",
-  "translated_at": "2026-05-21T10:33:09Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
   "name": "到手香",
   "aliases": [],
-  "description": "到手香 (Plectranthus amboinicus)，也稱為左手香或印度琉璃苣，是一種具有香氣的多肉草本植物，對貓有輕微毒性。它含有刺激性的精油——主要是香芹酚 (carvacrol)、百里酚 (thymol) 和樟腦相關化合物——這些物質在貓體內會作為腸胃刺激物，且無法被其肝臟有效代謝。",
+  "description": "到手香（Plectranthus amboinicus），又稱左手香或印度琉璃苣，是一種有著厚實絨毛葉片的芳香草本植物。它對貓咪具有輕微毒性，因為其中含有強烈的精油成分。\n\n貓咪的肝臟缺乏分解這些精油的酵素。當貓咪吃下這種植物時，其中的香芹酚（carvacrol）和百里酚（thymol）等成分會直接刺激牠們的胃和消化道。\n\n如果貓咪咬了到手香，可能會出現流口水、嘔吐、腹瀉或食慾不振的狀況。它強烈的氣味通常會讓貓咪敬而遠之，但如果您的貓咪吃下大量，或是症狀一直沒有改善，請聯絡獸醫。",
   "safetyNotes": [
     "有毒化合物：整株植物皆含有香芹酚、百里酚和樟腦相關揮發油",
     "機制：這些萜類油會直接刺激胃腸黏膜，且重複接觸可能引起輕微的肝臟壓力",

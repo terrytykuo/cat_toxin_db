@@ -8,18 +8,16 @@
   ],
   "name": "Raw dough",
   "aliases": [],
-  "description": "Raw yeast dough is toxic to cats in two distinct ways. The live yeast ferments sugars in the warm stomach environment, producing carbon dioxide gas and ethanol. The CO2 causes painful abdominal bloating and can distend the stomach to dangerous levels, while the absorbed ethanol causes rapid alcohol poisoning.",
+  "description": "Raw yeast dough is extremely dangerous for cats because their warm, moist stomach acts like an incubator. Once inside, the live yeast continues to ferment, producing large amounts of carbon dioxide gas and alcohol (Ethanol). The gas causes the dough mass to expand rapidly, leading to painful abdominal bloating that can press against the diaphragm and make it difficult for the cat to breathe. At the same time, the ethanol produced by the fermentation is quickly absorbed into the cat's bloodstream. Because cats have only a limited, reduced capacity to metabolize alcohol, even a small amount can cause severe poisoning, leading to weakness, seizures, or respiratory failure. While fully baked bread is safe, raw dough is a medical emergency. If your cat ingests raw dough, please contact your veterinarian or an emergency animal hospital immediately.",
   "safetyNotes": [
     "Toxic mechanism 1: yeast fermentation produces CO2 — abdominal bloating, distension, and risk of gastric dilation",
-    "Toxic mechanism 2: ethanol production from fermentation — rapidly absorbed; cats lack alcohol dehydrogenase, causing CNS and respiratory depression",
+    "Toxic mechanism 2: ethanol production from fermentation — rapidly absorbed; cats have limited, reduced alcohol dehydrogenase capacity, causing CNS and respiratory depression",
     "Symptoms: distended abdomen, vomiting, lethargy, disorientation, weakness; ethanol intoxication causes unsteady gait, low body temperature, slow breathing",
     "Baked bread is safe — the heat kills yeast and evaporates alcohol; only raw dough poses this risk",
     "Contact your vet immediately if your cat ingests raw yeast dough"
   ],
   "toxicParts": [
-    "Seed",
-    "Pit",
-    "Skin"
+    "Raw (uncooked) yeast dough"
   ],
   "symptoms": [
     {
@@ -27,44 +25,44 @@
       "body_system": "Gastrointestinal",
       "severity": "fatal",
       "onset": "Early (often within the first few hours).",
-      "notes": "When ingested, the warm, moist environment of the cat's stomach acts as an incubator for the yeast in the raw dough12. The yeast ferments dietary carbohydrates, producing large amounts of carbon dioxide gas that causes the dough mass to rapidly expand23. Because of its sticky, glutinous texture, it"
+      "notes": "When ingested, the warm, moist environment of the cat's stomach acts as an incubator for the yeast in the raw dough12. The yeast ferments dietary carbohydrates, producing large amounts of carbon dioxide gas that causes the dough mass to rapidly expand."
     },
     {
       "name": "Neurological Impairment (Ataxia and Disorientation)",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Within 30 to 60 minutes.",
-      "notes": "As a byproduct of fermentation, the yeast also produces ethanol (alcohol) directly inside the stomach12. This ethanol is rapidly absorbed into the bloodstream and easily crosses the blood-brain barrier67. Because cats lack robust enzymes to safely metabolize alcohol, this causes profound central ner"
+      "notes": "As a byproduct of fermentation, the yeast also produces ethanol (alcohol) directly inside the stomach12. This ethanol is rapidly absorbed into the bloodstream and easily crosses the blood-brain barrier."
     },
     {
       "name": "Respiratory Distress and Depression",
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "Progressive (within 1 hour to a few hours).",
-      "notes": "Respiratory issues in raw dough toxicosis arise from two concurrent dangers. First, the physically distended stomach presses heavily against the diaphragm, which impairs the cat's normal breathing ability25. Second, as ethanol intoxication worsens, it directly suppresses the central nervous system's"
+      "notes": "Respiratory issues in raw dough toxicosis arise from two concurrent dangers. First, the physically distended stomach presses heavily against the diaphragm, which impairs the cat's normal breathing ability."
     },
     {
       "name": "Hypothermia",
       "body_system": "Neurological",
       "severity": "severe",
       "onset": "Within 30 to 60 minutes.",
-      "notes": "The ethanol absorbed from the raw dough induces peripheral vasodilation (widening of the blood vessels near the skin's surface)6. This causes the cat's body to rapidly lose heat, dropping its core temperature to dangerous levels"
+      "notes": "The ethanol absorbed from the raw dough induces peripheral vasodilation (widening of the blood vessels near the skin's surface)6. This causes the cat's body to rapidly lose heat, dropping its core temperature to dangerous levels."
     },
     {
       "name": "Metabolic Acidosis and Hypoglycemia",
       "body_system": "Hematological",
       "severity": "fatal",
       "onset": "Progressive (usually within an hour and worsening over time).",
-      "notes": "The systemic absorption and partial metabolism of the ethanol produce acetic and lactic acids, which dangerously lower the pH of the cat's blood (metabolic acidosis)67. The intoxication can also trigger severe hypoglycemia8. Ultimately, death from raw dough toxicosis is usually due to these systemic"
+      "notes": "The systemic absorption and partial metabolism of the ethanol produce acetic and lactic acids, which dangerously lower the pH of the cat's blood (metabolic acidosis)67. The intoxication can also trigger severe hypoglycemia."
     },
     {
       "name": "Severe CNS Depression (Seizures and Coma)",
       "body_system": "Neurological",
       "severity": "fatal",
       "onset": "Progressive (as fermentation continues and ethanol levels peak).",
-      "notes": "Because the raw dough continues to actively ferment inside the stomach, it acts as an ongoing, continuous source of alcohol2. Without rapid veterinary intervention, the initial weakness and disorientation will progress to recumbency, seizures, a comatose state, and death"
+      "notes": "Because the raw dough continues to actively ferment inside the stomach, it acts as an ongoing, continuous source of alcohol2. Without rapid veterinary intervention, the initial weakness and disorientation will progress to recumbency, seizures, a comatose state, and death."
     }
   ],
-  "scientificName": "Raw dough",
-  "family": "Various"
+  "scientificName": "",
+  "family": ""
 }

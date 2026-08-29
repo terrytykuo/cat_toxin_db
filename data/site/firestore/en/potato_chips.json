@@ -2,55 +2,54 @@
   "slug": "potato_chips",
   "category": "food",
   "hidden": false,
-  "severity": "toxic",
+  "severity": "cautious",
   "imageUrls": [
     "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Potato-Chips.jpg/500px-Potato-Chips.jpg"
   ],
   "name": "Potato chips",
   "aliases": [],
-  "description": "Potato chips are not acutely toxic to cats, but they are a harmful snack due to their extremely high sodium content, artificial flavourings, and unhealthy fat profile. Regular feeding or large amounts can cause sodium toxicity, dehydration, and kidney damage. Some flavoured varieties contain onion or garlic powder, which are genuinely toxic to cats.",
+  "description": "Potato chips are a common human snack, but they are not a good treat for cats. While a plain potato chip won't immediately poison your cat, chips are loaded with salt and fat that a cat's body simply isn't built to handle. The biggest issue is the high salt content. If a cat eats too many chips, the extra sodium can draw water out of their body's cells, leading to severe dehydration and extreme thirst. In large amounts, this can cause salt toxicity, which may lead to vomiting, diarrhea, tremors, or kidney damage. Additionally, many flavored chips contain onion or garlic powder, both of which are highly toxic to cats and can damage their red blood cells. Because of the heavy salt, unhealthy fats, and risk of hidden toxins, it is best to keep all potato chips away from your cat. Contact a veterinarian if your cat eats chips flavored with onion or garlic.",
   "safetyNotes": [
     "Sodium hazard: potato chips contain 100–200mg of sodium per serving — far exceeding the safe daily sodium intake for cats",
     "Hidden toxins: onion-flavoured, BBQ, and sour cream chips often contain onion or garlic powder — both toxic to cats",
-    "Fat and calorie hazard: regular feeding contributes to obesity and can trigger pancreatitis",
+    "Fat and calorie hazard: regular feeding contributes to obesity and digestive upset",
     "A single chip licked by a cat is unlikely to cause harm; a significant amount or flavoured chips warrants attention",
     "Contact your vet if your cat eats onion- or garlic-flavoured chips in any quantity"
   ],
   "toxicParts": [
-    "Skin",
-    "Peel",
     "Entire food",
-    "Cooked form",
-    "Raw form"
+    "Flavored varieties (onion/garlic powder)"
   ],
   "symptoms": [
     {
-      "name": "While the base ingredient of potato chips",
-      "body_system": "Metabolic",
-      "severity": "moderate"
-    },
-    {
       "name": "Salt Toxicity (Hypernatremia)",
       "body_system": "Neurological",
-      "severity": "fatal",
+      "severity": "severe",
       "onset": "Within minutes to several hours of ingestion",
-      "notes": "Because potato chips are heavily salted, they expose cats to dangerous levels of sodium. An overdose of sodium draws fluid out of the body's cells, leading to severe systemic dehydration and electrolyte derangements34. In the brain, this rapid water loss causes cells to shrink and pull away from the"
+      "notes": "Because potato chips are heavily salted, they expose cats to dangerous levels of sodium. An overdose of sodium draws fluid out of the body's cells, leading to severe systemic dehydration and electrolyte derangements. In the brain, this rapid water loss causes cells to shrink and pull away from the skull."
     },
     {
-      "name": "Acute Pancreatitis and Gastrointestinal Upset",
+      "name": "Gastrointestinal Upset",
       "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within a few hours of ingestion",
+      "notes": "The heavy salt and oil load of potato chips can irritate a cat's digestive system, causing vomiting and diarrhea."
+    },
+    {
+      "name": "Hemolytic Anemia (From onion/garlic-flavored chips)",
+      "body_system": "Hematological",
       "severity": "severe",
-      "onset": "Gastrointestinal upset can occur within a few hours;",
-      "notes": "Potato chips are fried and incredibly high in fats and oils6. A cat's digestive system is not equipped to handle this sudden, heavy fat load7. Ingesting highly fatty human foods can trigger a painful inflammatory cascade in the pancreas known as pancreatitis, where the organ's digestive enzymes acti"
+      "onset": "Within 1 to several days",
+      "notes": "Onion and garlic powder in flavored chips cause oxidative damage to feline red blood cells (Heinz-body/hemolytic anemia); powdered forms are more concentrated and more dangerous."
     },
     {
       "name": "Solanine Toxicosis (If chips were made from green/unpeeled potatoes)",
       "body_system": "Gastrointestinal",
-      "severity": "fatal",
+      "severity": "moderate",
       "onset": "2 to 24 hours",
-      "notes": "The raw potato contains the neurotoxin solanine to deter predators13. While cooking and peeling potatoes to make chips removes the vast majority of this toxin, chips inadvertently made from green tubers or unpeeled potatoes may still contain residual glycoalkaloids12. These trace toxins disrupt cell"
+      "notes": "The raw potato contains the glycoalkaloid solanine to deter predators. While cooking and peeling potatoes to make chips removes the vast majority of this toxin, chips inadvertently made from green tubers or unpeeled potatoes may still contain residual glycoalkaloids. These trace toxins can disrupt cell membranes."
     }
   ],
-  "scientificName": "Potato chips",
-  "family": "Various"
+  "scientificName": "",
+  "family": ""
 }

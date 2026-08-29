@@ -1,23 +1,18 @@
 {
-  "slug": "ficus_elastica",
-  "source_hash": "7fb9133884daf0f6b867916012fb29781502fddeaa7ae09bd3bdaea659962512",
-  "translated_at": "2026-06-01T14:09:01.000Z",
-  "gemini_model": "codex-manual",
-  "manual_override": true,
-  "category": "plant",
-  "name": "橡膠樹／印度橡膠樹",
   "aliases": [],
+  "category": "plant",
   "description": "橡膠樹（Ficus elastica）是一種葉片厚實、有光澤的大葉觀葉植物。它不適合讓貓啃咬，因為葉子和莖受損時會流出刺激性的乳白色汁液。\n\n主要風險來自含有 ficin 和其他刺激性成分的乳膠汁液。Ficin 是一種可能刺激口腔和消化道的酵素。汁液如果碰到皮膚或眼睛，也可能造成刺激，尤其是葉子或莖折斷時。\n\n貓咬到橡膠樹後，可能會流口水、嘔吐、腹瀉、食慾下降，或出現口腔不適。汁液接觸可能造成發紅、搔癢；若靠近眼睛，可能出現瞇眼或不舒服。請把橡膠樹放在貓碰不到的地方，清掉受損葉片；如果症狀不只是輕微，或沒有改善，請聯絡獸醫。",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
+  "name": "橡膠樹／印度橡膠樹",
   "safetyNotes": [
     "主要危害：折斷的葉子和莖會流出乳白色汁液，可能刺激口腔、胃、皮膚和眼睛。",
     "症狀：流口水、嘔吐、腹瀉、食慾下降、口腔不適，或接觸汁液後皮膚和眼睛發紅。",
     "暴露風險：大葉片可能吸引貓啃咬，而受損葉片會釋放更多汁液。",
     "處理方式：把植物移到貓碰不到的地方，用水擦掉汁液；若症狀明顯或持續，請聯絡獸醫。"
   ],
-  "toxicParts": [
-    "汁液",
-    "葉子"
-  ],
+  "slug": "ficus_elastica",
+  "source_hash": "a0fd9fffda44f0b9b5da86e230fdcf4d4f8b0fdf56b4b6ccdc6353e244181a0a",
   "symptoms": [
     {
       "body_system": "腸胃道",
@@ -31,5 +26,10 @@
       "body_system": "皮膚",
       "name": "皮膚發紅與接觸性皮膚炎"
     }
-  ]
+  ],
+  "toxicParts": [
+    "汁液",
+    "葉子"
+  ],
+  "translated_at": "2026-06-03T22:27:19.400981Z"
 }

@@ -1,9 +1,5 @@
 {
-  "aliases": [
-    "祈禱植物 (Prayer Plant)",
-    "斑馬竹芋 (Zebra Plant)",
-    "響尾蛇竹芋 (Rattlesnake Plant)"
-  ],
+  "aliases": [],
   "category": "plant",
   "description": "竹芋是觀賞性很高的熱帶植物，以細緻圖案的葉片聞名；葉片夜晚會像祈禱的手一樣向上收合。竹芋對貓完全無毒，適合放在明亮散射光、規律澆水的環境。",
   "gemini_model": "codex-manual",
@@ -14,5 +10,5 @@
   "source_hash": "e5a2f8f0b760a785811eaeca08e1fd6eaa3c3be375d47bf22a6b20f55331f912",
   "symptoms": [],
   "toxicParts": [],
-  "translated_at": "2026-05-29T11:45:09.343Z"
+  "translated_at": "2026-05-29T11:58:02.009Z"
 }

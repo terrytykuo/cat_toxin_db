@@ -8,18 +8,17 @@
   ],
   "name": "Raw meat",
   "aliases": [],
-  "description": "Raw meat is not toxic to cats per se — cats are obligate carnivores and their digestive systems evolved to handle raw protein. However, commercially available raw meat carries risks from bacterial contamination and, depending on the source, potential parasites. The safety concern is primarily hygiene and contamination, not inherent chemical toxicity.",
+  "description": "While cats are natural carnivores, raw meat from grocery stores often carries dangerous bacteria like Salmonella, E. coli, and Listeria. These pathogens can cause severe stomach distress, vomiting, and diarrhea. In some cases, raw meat can also harbor parasites like Toxoplasma, which can cause systemic illness in your cat and potentially spread to humans in the household. Another hidden risk is the presence of antibiotic-resistant bacteria, often called \"superbugs.\" When a cat eats contaminated raw meat, these resistant bacteria can move into the cat's gut, making future infections much harder to treat with standard medicine. To ensure safety, it is best to provide thoroughly cooked meats and avoid any products seasoned with onions, garlic, or excessive salt.",
   "safetyNotes": [
     "Bacterial risk: raw meat (especially chicken, pork, and ground beef) frequently contains Salmonella, Campylobacter, E. coli, or Listeria — can cause vomiting, diarrhea, and systemic illness",
-    "Parasitic risk: raw pork and wild game may contain Toxoplasma or Trichinella; raw salmon may carry salmon poisoning disease (Neorickettsia)",
+    "Parasitic risk: raw pork and wild game may contain Toxoplasma or Trichinella",
     "Bone risk: cooked bones are dangerous (brittle, splintering); raw bones are generally safer but large fragments can still cause intestinal injury",
     "Seasoned raw meat: any marinade with garlic, onion, salt, or spices is toxic to cats",
     "If feeding raw meat, use commercial raw diets formulated for cats to minimise contamination risk"
   ],
   "toxicParts": [
     "Raw form",
-    "Flesh",
-    "Powder"
+    "Flesh"
   ],
   "symptoms": [
     {
@@ -27,28 +26,28 @@
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Variable/Acute (typically within hours to a few days depending on the pathogen's incubation period)",
-      "notes": "These symptoms are primarily caused by foodborne pathogens such as Salmonella, E. coli, and Campylobacter, which frequently contaminate raw meat1.... Additionally, if the raw meat includes heavy fat trimmings, the excessive fat can severely irritate the digestive tract and trigger acute pancreatitis"
+      "notes": "These symptoms are primarily caused by foodborne pathogens such as Salmonella, E. coli, and Campylobacter, which frequently contaminate raw meat1. Additionally, if the raw meat includes heavy fat trimmings, the excessive fat can severely irritate the digestive tract and trigger acute pancreatitis."
     },
     {
       "name": "Gastrointestinal Obstruction or Laceration",
       "body_system": "Gastrointestinal",
       "severity": "fatal",
       "onset": "Immediate to acute (within hours of ingestion).",
-      "notes": "Raw meat diets often include whole or chopped bones. Ingesting bones poses a significant choking hazard, and the bones can splinter to either block the intestinal tract or cause severe lacerations and perforations of the gastrointestinal tissues"
+      "notes": "Raw meat diets often include whole or chopped bones. Ingesting bones poses a significant choking hazard, and the bones can splinter to either block the intestinal tract or cause severe lacerations and perforations of the gastrointestinal tissues."
     },
     {
       "name": "Vitamin A Toxicity (Hypervitaminosis A)",
       "body_system": "Gastrointestinal",
       "severity": "severe",
       "onset": "Chronic (develops over several weeks to months of repeated consumption)",
-      "notes": "This specific toxicity occurs if a cat is fed a diet rich in raw liver. Chronic consumption of raw liver leads to an overdose of Vitamin A, resulting in a poor coat, constipation, weight loss, painful movements, and excessive/abnormal bone development. If fed to a pregnant cat, it can also harm the"
+      "notes": "This specific toxicity occurs if a cat is fed a diet rich in raw liver. Chronic consumption of raw liver leads to an overdose of Vitamin A, resulting in a poor coat, constipation, weight loss, painful movements, and excessive/abnormal bone development."
     },
     {
       "name": "Severe Systemic and Zoonotic Infections",
       "body_system": "Respiratory",
       "severity": "fatal",
       "onset": "Delayed (days to weeks as the infection incubates and spreads systemically).",
-      "notes": "Beyond standard food poisoning bacteria, raw meat can harbor dangerous parasites like Toxoplasma gondii and severe bacterial infections like Mycobacterium bovis (a member of the tuberculosis complex)89. A cluster of M. bovis cases in the UK was directly linked to indoor cats consuming commercial fro"
+      "notes": "Beyond standard food poisoning bacteria, raw meat can harbor dangerous parasites like Toxoplasma gondii and severe bacterial infections like Mycobacterium bovis (a member of the tuberculosis complex)."
     }
   ],
   "scientificName": "Raw meat",

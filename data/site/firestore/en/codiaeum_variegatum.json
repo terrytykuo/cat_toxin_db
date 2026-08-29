@@ -25,35 +25,35 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate (upon chewing or contact).",
-      "notes": "The sap causes direct irritation to the oral cavity, which can lead to behavioral signs of pain or distress.Excessive Drooling"
+      "notes": "The sap causes direct irritation to the oral cavity, which can lead to behavioral signs of pain or distress."
     },
     {
       "name": "Drooling (Hypersalivation)",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Rapid (following oral irritation).",
-      "notes": "This is a secondary response to the burning sensation and irritation caused by the plant's sap in the mouth.Vomiting"
+      "notes": "This is a secondary response to the burning sensation and irritation caused by the plant's sap in the mouth."
     },
     {
       "name": "Vomiting",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Shortly after ingestion.",
-      "notes": "Ingestion of the plant material irritates the stomach lining, triggering vomiting.Diarrhea"
+      "notes": "Ingestion of the plant material irritates the stomach lining, triggering vomiting."
     },
     {
       "name": "Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Delayed (as plant material moves through the GI tract).",
-      "notes": "The irritant oils affect the intestines, leading to loose stools.Skin Irritation"
+      "notes": "The irritant oils affect the intestines, leading to loose stools."
     },
     {
       "name": "Skin Irritation (Dermatitis/Rash)",
       "body_system": "Dermal",
       "severity": "mild",
       "onset": "Upon direct contact.",
-      "notes": "Contact with the sap (e.g., from a broken leaf) can cause redness or a rash on the cat's skin or fur.Loss of Appetite"
+      "notes": "Contact with the sap (e.g., from a broken leaf) can cause redness or a rash on the cat's skin or fur."
     },
     {
       "name": "Anorexia (Refusal to eat)",

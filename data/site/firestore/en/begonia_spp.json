@@ -26,14 +26,14 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate (upon biting or chewing).",
-      "notes": "The first taste often produces an unpleasant sensation and pain, which typically limits how much of the plant the cat ingests.Excessive Drooling"
+      "notes": "The first taste often produces an unpleasant sensation and pain, which typically limits how much of the plant the cat ingests."
     },
     {
       "name": "Hypersalivation (Excessive salivation)",
       "body_system": "Gastrointestinal",
       "severity": "mild",
       "onset": "Immediate to rapid.",
-      "notes": "Drooling is a physiological response to the burning sensation and irritation caused by the oxalates in the mouth and throat.Vomiting"
+      "notes": "Drooling is a physiological response to the burning sensation and irritation caused by the oxalates in the mouth and throat."
     },
     {
       "name": "Vomiting",

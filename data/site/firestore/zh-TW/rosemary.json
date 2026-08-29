@@ -1,13 +1,13 @@
 {
   "slug": "rosemary",
   "source_hash": "63c725ec54dd639d0ed81a10f22fb649978971673b8c2823d864f7c595044d6c",
-  "translated_at": "2026-05-21T10:37:20Z",
-  "gemini_model": "gemini-cli",
-  "manual_override": false,
+  "translated_at": "2026-06-03T22:27:19.400981Z",
+  "gemini_model": "gemini-cli-manual-review",
+  "manual_override": true,
   "category": "plant",
   "name": "迷迭香",
   "aliases": [],
-  "description": "迷迭香是一種對貓安全的木本香草植物。它強烈的氣味實際上可能會阻止貓咀嚼它。它耐旱且在陽光充足的室內易於生長。",
+  "description": "迷迭香（Salvia rosmarinus）是一種帶有香氣的草本植物，對貓咪完全安全。因為它容易照顧且香氣迷人，許多人都喜歡在室內或花園栽種。\n\n有趣的是，許多貓咪並不喜歡迷迭香那種強烈的木質香氣。正因如此，您的貓咪很可能會直接忽略它，或是不想去啃咬。\n\n就算您的貓咪真的咬了一兩口，也不必擔心。迷迭香不具毒性，不會對貓咪造成傷害。如果您想在室內增添綠意又不想危害貓咪健康，迷迭香是非常棒的選擇。",
   "safetyNotes": [],
   "toxicParts": [],
   "symptoms": []

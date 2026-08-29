@@ -23,7 +23,7 @@
       "name": "瞳孔放大（散瞳）"
     },
     {
-      "body_system": "心血管系統",
+      "body_system": "心血管",
       "name": "休克、倒下、虛弱"
     },
     {
@@ -31,10 +31,8 @@
       "name": "癲癇發作（抽搐）與肌肉顫抖"
     },
     {
-      "body_system": "消化系統",
+      "body_system": "腸胃道",
       "name": "嘔吐、過度流口水、腹瀉"
     }
-  ],
-  "source_hash": "94c96f977a3f35713154338edad3e4befce24d00bacf0433cb588ca4cd5ea7bb",
-  "migrated_from": "data/site/zh-TW/prunus_spp.json"
+  ]
 }

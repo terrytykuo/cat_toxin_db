@@ -23,7 +23,7 @@
       "body_system": "Gastrointestinal",
       "severity": "moderate",
       "onset": "Immediate upon chewing.",
-      "notes": "The cat may demonstrate this pain by pawing at the mouth or shaking its head. The crystals cause inflammation and redness (erythema) of the lips, tongue, and mouth.Hypersalivation"
+      "notes": "The cat may demonstrate this pain by pawing at the mouth or shaking its head. The crystals cause inflammation and redness (erythema) of the lips, tongue, and mouth."
     },
     {
       "name": "Excessive Drooling (Ptyalism)",
@@ -44,13 +44,13 @@
       "body_system": "Respiratory",
       "severity": "severe",
       "onset": "Rapid (following swelling).",
-      "notes": "This occurs if the swelling of the tongue and pharynx obstructs the airway. While the overall prognosis for this plant is generally good, airway obstruction requires immediate veterinary attention.Vomiting and Diarrhea"
+      "notes": "This occurs if the swelling of the tongue and pharynx obstructs the airway. While the overall prognosis for this plant is generally good, airway obstruction requires immediate veterinary attention."
     },
     {
       "name": "Vomiting and Diarrhea",
       "body_system": "Gastrointestinal",
       "severity": "mild",
-      "notes": "These are general signs of gastrointestinal upset associated with the ingestion of the plant material.Anorexia"
+      "notes": "These are general signs of gastrointestinal upset associated with the ingestion of the plant material."
     },
     {
       "name": "Loss of appetite",
