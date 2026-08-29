@@ -326,3 +326,11 @@ Progress: /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/sync
 - P2 15 筆事實修正完成（disk）；摘要 `data/audits/p2-factual-fix-2026-06-25.json`。重點：gum/jelly/hummingbird_mint/lemon_mint/capsicum 等 xylitol/cross-contamination 假警報已降級。
 - **資料缺口已補（任務 A2）**：原 42 個 `*_processed` 缺 `severity` 欄位 → backfill 31 筆 live（firestore→processed）+ hummingbird_mint/lemon_mint→safe + unripened_pineapples→cautious；255 檔驗證 0 違規。剩 9 筆 disk-only dup（無 firestore 對應、非 live）屬 K11/K16。
 - 對抗式覆蓋率 139/200；P2 refute 仍剩 54 待補（手冊任務 B）。
+
+## 2026-08-29 (b) — sweet_pea / lemon_mint 兩筆 EN FLAG 裁定與落地
+
+- 用戶提供交叉驗證依據後裁定：`sweet_pea` toxic→**cautious**（ASPCA 對貓無毒 vs PPH 有毒 + BAPN/lathyrism 真實存在但貓病例稀少，依「有安全疑慮改 cautious」原則）；`lemon_mint` 維持 **safe**（Monarda citriodora 非真薄荷，thymol/carvacrol 無 pulegone），description 移除 pennyroyal 交叉污染說法。
+- 本次獨立網路複驗：ASPCA sweet-pea 頁（L. latifolius，non-toxic to cats/dogs、horse 症狀）、Pet Poison Helpline sweet-pea 頁（毒素遍布全株含種子、neuromuscular signs）、Monarda citriodora 化學組成（thymol/p-cymene/carvacrol）——與 P1/P2 審計結論一致。
+- 落地：EN disk canonical（頂層補 name/scientific_name/family/description/safetyNotes/symptoms）+ zh-TW（data/site/zh-TW，症狀逐 index 對齊）→ `ONLY_SLUGS=sweet_pea,lemon_mint sync-disk-to-firestore`（2 UPDATE）＋ `sync-zhtw-l10n-to-firestore --plan …29b.json`（2 UPDATE，Verify OK 2 / mismatch 0）→ reconcile 快取 2 檔 → `build:toxins` 200 筆 + `npm run build` 427 頁通過。
+- 工具：sync-disk-to-firestore 加 `ONLY_SLUGS`；report/sync-zhtw 加 `--out`/`--backup` 參數（避免覆寫既有報告與備份）。
+- 資料檔（plants_processed×2、data/site/zh-TW×2、firestore 快取、toxins.generated.ts）依 reconciliation 慣例未 commit。

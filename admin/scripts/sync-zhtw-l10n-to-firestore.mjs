@@ -62,7 +62,10 @@ const db = admin.firestore()
 
 const LEGACY_DIR = resolve(__dirname, '../../data/site/zh-TW')
 const FSTORE_DIR = resolve(__dirname, '../../data/site/firestore/zh-TW')
-const BACKUP = resolve(__dirname, '../../data/audits/backups/l10n-zhtw-live-backup-2026-08-29.json')
+const backupIdx = process.argv.indexOf('--backup')
+const BACKUP = backupIdx !== -1 && process.argv[backupIdx + 1]
+  ? resolve(process.cwd(), process.argv[backupIdx + 1])
+  : resolve(__dirname, '../../data/audits/backups/l10n-zhtw-live-backup-2026-08-29.json')
 
 function readJson(p) { return existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : null }
 

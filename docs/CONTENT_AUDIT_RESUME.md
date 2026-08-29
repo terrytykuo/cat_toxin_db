@@ -47,9 +47,10 @@
 4. **K11/K16 收尾**：`malus_spp` 同名衝突檔本次 sync 排除，待處理；59 筆 disk-only 別名 slug 無 live 對應。
 5. **4 個 LEAVE**（下方清單，待人工 re-query 原始來源）。
 
-**⚠️ 2026-08-29 新增 FLAG（EN 側，非 zh 問題）：**
-- `sweet_pea` — P1 審計判定 ASPCA 將其列為對貓**無毒**（REFUTED 現有 toxic 判定），zh 已依判定改寫，但 live + disk 的 EN 仍是 `severity: toxic` 的舊版本。EN 側修正未落地，需人工決定。
-- `lemon_mint` — live EN `severity: safe`，但 EN description 仍寫 "mildly toxic to cats"、且保留 2 筆症狀，EN 自身不一致。zh 依「以 live EN 為準」忠實翻譯（輕微毒性方向）。
+**✅ 2026-08-29 兩筆 EN FLAG 已解決（用戶交叉驗證後裁定）：**
+- `sweet_pea` — 裁定 **cautious**（非 safe 亦非 toxic）：ASPCA（L. latifolius）列對貓無毒，但 Pet Poison Helpline 視 Lathyrus 為有毒植物、BAPN/lathyrism 神經毒素真實存在（種子/豆莢濃度最高），貓病例稀少 → 依「有安全疑慮改 cautious」原則定案。EN+zh description/safetyNotes/symptoms（4 筆，PPH 依據）全部重寫，disk+live+快取+網站已同步。
+- `lemon_mint` — 維持 **safe**：條目學名為 Monarda citriodora（檸檬美國薄荷，非真薄荷屬），ASPCA 未列毒、化學成分為 thymol/p-cymene/carvacrol（無 pulegone）。EN+zh description/safetyNotes 重寫移除 pennyroyal 交叉污染說法，並加入「勿與真薄荷屬混淆」警語；2 筆 mild 症狀保留。
+- 兩筆均經 sync-disk-to-firestore（ONLY_SLUGS 定點）+ sync-zhtw-l10n 推送 live（read-back 0 mismatch），報告/備份：`data/audits/zhtw-writeback-plan-2026-08-29b.json`、`backups/l10n-zhtw-live-backup-2026-08-29b.json`。
 
 **4 個 LEAVE（來源端真截斷，未捏造，留待人工 re-query 原始 NotebookLM 來源）：**
 - `plants_processed/cananga_odorata.json` symptoms[4].notes（`…pre-existing conditions l`）

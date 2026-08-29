@@ -53,7 +53,10 @@ const db = admin.firestore()
 
 const LEGACY_DIR = resolve(__dirname, '../../data/site/zh-TW')
 const FSTORE_DIR = resolve(__dirname, '../../data/site/firestore/zh-TW')
-const OUT = resolve(__dirname, '../../data/audits/zhtw-writeback-plan-2026-08-29.json')
+const outIdx = process.argv.indexOf('--out')
+const OUT = outIdx !== -1 && process.argv[outIdx + 1]
+  ? resolve(process.cwd(), process.argv[outIdx + 1])
+  : resolve(__dirname, '../../data/audits/zhtw-writeback-plan-2026-08-29.json')
 
 function readJson(p) { return existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')) : null }
 
