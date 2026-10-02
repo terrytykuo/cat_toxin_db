@@ -3,7 +3,10 @@
   "category": "plant",
   "hidden": false,
   "severity": "cautious",
-  "imageUrls": [],
+  "imageUrls": [
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/polyscias_balfouriana/images/1790975120533.jpg",
+    "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/polyscias_balfouriana/images/1790975123836.jpg"
+  ],
   "name": "Balfour Aralia",
   "aliases": [
     "Dinner Plate Aralia",

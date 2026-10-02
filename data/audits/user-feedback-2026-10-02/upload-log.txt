@@ -25,3 +25,9 @@ OK   butter cautious false 奶油 sym 2/2
 OK   matcha toxic false 抹茶 sym 3/3
 read-back OK 10/10
 ficus EN aliases: [ 'Burgundy Rubber Plant', "Ficus elastica 'Burgundy'" ] | zh aliases: [ '酒紅橡膠樹', '黑金剛橡膠樹' ]
+uploaded https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/polyscias_balfouriana/images/1790975120533.jpg 22501 bytes
+uploaded https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/polyscias_balfouriana/images/1790975123836.jpg 96567 bytes
+imageUrls now: [
+  'https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/polyscias_balfouriana/images/1790975120533.jpg',
+  'https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/polyscias_balfouriana/images/1790975123836.jpg'
+]
