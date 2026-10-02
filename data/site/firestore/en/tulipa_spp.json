@@ -7,7 +7,10 @@
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/tulipa_spp.jpg"
   ],
   "name": "Tulip",
-  "aliases": [],
+  "aliases": [
+    "Tulips",
+    "Tulip Bulb"
+  ],
   "description": "Tulips (Tulipa spp.) are beloved spring flowers, but they are toxic to cats. All parts of the plant contain poisonous compounds, but the bulb has the highest and most dangerous concentration of these toxins. For this reason, tulip bulbs pose the greatest risk, especially when they are stored indoors before planting. The toxic principles in tulips are allergenic lactones like tulipalin A and tulipalin B. These substances are very irritating to the body's tissues. When a cat chews on the leaves or flowers, these compounds cause irritation to the mouth and throat, leading to drooling, vomiting, or diarrhea. Ingesting the bulb is far more serious. The concentrated toxins can cause severe stomach upset, depression, and significant changes in heart rate and breathing. In some cases, tremors or seizures can occur. If you suspect your cat has chewed on any part of a tulip, and especially if they have eaten a bulb, please contact your veterinarian right away.",
   "safetyNotes": [
     "Toxic compounds: tulipalin A and tulipalin B (allergenic lactone compounds), along with irritant glycosides; bulbs most concentrated",
