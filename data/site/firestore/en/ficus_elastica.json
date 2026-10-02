@@ -7,7 +7,10 @@
     "https://storage.googleapis.com/catsafe-caa2f.firebasestorage.app/toxins/ficus_elastica.jpg"
   ],
   "name": "Rubber Plant",
-  "aliases": [],
+  "aliases": [
+    "Burgundy Rubber Plant",
+    "Ficus elastica 'Burgundy'"
+  ],
   "description": "Rubber Plant (Ficus elastica) is a large-leafed houseplant with thick, glossy leaves. It is not safe for cats to chew, because the leaves and stems release an irritating milky sap when damaged. The main concern is latex sap that contains ficin and other irritating compounds. Ficin is an enzyme that can bother the mouth and digestive tract. The sap can also irritate the skin or eyes if it touches them, especially when a leaf or stem breaks. A cat that chews rubber plant may drool, vomit, have diarrhea, lose interest in food, or show mouth discomfort. Sap contact can cause redness, itching, or squinting if it reaches the eye area. Keep rubber plants away from cats, clean up broken leaves, and contact a veterinarian if symptoms are more than mild or do not improve.",
   "safetyNotes": [
     "Main hazard: Milky latex sap in broken leaves and stems can irritate the mouth, stomach, skin, and eyes.",

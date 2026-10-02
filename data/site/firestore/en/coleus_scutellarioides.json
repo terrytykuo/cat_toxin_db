@@ -1,0 +1,54 @@
+{
+  "slug": "coleus_scutellarioides",
+  "category": "plant",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [],
+  "name": "Coleus",
+  "aliases": [
+    "Painted Nettle",
+    "Flame Nettle",
+    "Plectranthus",
+    "Coleus amboinicus",
+    "Indian Borage",
+    "Cuban Oregano"
+  ],
+  "description": "Coleus (Coleus scutellarioides) is a popular ornamental plant grown for its brightly coloured, patterned leaves. It is toxic to cats. The ASPCA lists Coleus as toxic to cats, dogs and horses; its entry uses the related Coleus amboinicus (Indian Borage), but the ornamental coleus belongs to the same genus and contains the same kind of irritant compounds. The toxic principles are essential oils and diterpenes (including forskolin) found in the sap of the leaves and stems. Cats lack the liver enzymes needed to break down these oils, so even grooming sap off their fur can expose them. Chewing or eating the plant causes vomiting, diarrhea, loss of appetite and lethargy, and occasionally the vomit or stool contains blood. Sap on the skin, lips or gums can cause redness, irritation and drooling. If your cat has chewed coleus, remove any plant material from the mouth, wipe sap off the fur and offer water. Contact your veterinarian if there is any blood in the vomit or stool, if vomiting or diarrhea continues for more than a few hours, or if your cat becomes weak or stops eating.",
+  "safetyNotes": [
+    "Main hazard: Essential oils and diterpenes in the sap of the leaves and stems; cats cannot metabolise these oils well.",
+    "Symptoms: Vomiting, diarrhea, loss of appetite and lethargy, occasionally with blood in the vomit or stool; sap causes skin, lip and gum irritation.",
+    "Why cats get exposed: The colourful, soft leaves are tempting to chew, and sap left on the fur is swallowed during grooming.",
+    "Action: Remove plant material from the mouth, wipe sap off the coat, offer water, and call a vet promptly if there is blood in the vomit or stool or signs persist."
+  ],
+  "toxicParts": [
+    "Entire Plant",
+    "Leaf",
+    "Stem",
+    "Sap"
+  ],
+  "symptoms": [
+    {
+      "name": "Vomiting and diarrhea, occasionally with blood",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within a few hours of ingestion",
+      "notes": "Essential oils irritate the stomach and intestinal lining. The ASPCA notes that bloody vomiting or diarrhea occurs occasionally; any blood warrants a vet visit."
+    },
+    {
+      "name": "Loss of appetite and lethargy (depression)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Within hours of ingestion",
+      "notes": "Secondary to the stomach upset; listed by the ASPCA as a clinical sign."
+    },
+    {
+      "name": "Skin, lip and gum irritation with drooling",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Shortly after contact with sap",
+      "notes": "Sap causes redness and irritation on the skin and in the mouth. Cats may also develop irritation after grooming sap off their fur."
+    }
+  ],
+  "scientificName": "Coleus scutellarioides (syn. Plectranthus scutellarioides)",
+  "family": "Lamiaceae"
+}

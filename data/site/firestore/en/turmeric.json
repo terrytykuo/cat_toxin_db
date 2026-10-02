@@ -1,0 +1,40 @@
+{
+  "slug": "turmeric",
+  "category": "food",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [],
+  "name": "Turmeric",
+  "aliases": [
+    "Curcumin",
+    "Turmeric Powder",
+    "Haldi",
+    "Golden Paste"
+  ],
+  "description": "Turmeric (Curcuma longa) is the yellow spice used in curry and increasingly sold as a supplement for its active compound, curcumin. It is not toxic to cats, and it does not appear on the ASPCA's toxic plant list. A lick of food seasoned with turmeric will not harm a healthy cat. The caution is about supplements and repeated use. Cats break down curcumin poorly because their liver lacks some of the enzymes humans use, so supplement-level doses can cause stomach upset, including vomiting, diarrhea and loss of appetite. Turmeric can also interfere with blood clotting and interact with medications such as blood thinners, and it should be avoided in cats with liver disease. Many turmeric supplements for people also contain black pepper extract (piperine), which is itself a stomach irritant for cats. Do not give turmeric or curcumin supplements to your cat without veterinary guidance. A taste of turmeric-seasoned food needs no treatment; contact your vet if vomiting or diarrhea persists or if your cat is on medication.",
+  "safetyNotes": [
+    "Not toxic in small amounts: a lick of turmeric-seasoned food is not harmful to a healthy cat.",
+    "Caution: Supplement-level doses can cause vomiting, diarrhea and loss of appetite because cats metabolise curcumin poorly.",
+    "Avoid in: Cats with liver disease, cats on blood thinners or other medication, and before surgery, because turmeric affects clotting and drug metabolism.",
+    "Watch for: Human turmeric supplements often contain black pepper extract (piperine) and other additives that add to the risk."
+  ],
+  "toxicParts": [],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea or loss of appetite after supplement-level doses",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Within hours of ingestion, or with repeated dosing",
+      "notes": "Caused by irritation of the digestive tract. Usually resolves once turmeric is stopped."
+    },
+    {
+      "name": "Increased bleeding tendency or drug interactions (with regular use)",
+      "body_system": "Hematological",
+      "severity": "mild",
+      "onset": "With repeated or supplement-level use",
+      "notes": "Curcumin has mild anticoagulant activity and can alter liver metabolism of some medications. Relevant for cats on blood thinners, with liver disease, or before surgery."
+    }
+  ],
+  "scientificName": "Curcuma longa",
+  "family": "Zingiberaceae"
+}

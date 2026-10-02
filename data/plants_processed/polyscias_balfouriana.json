@@ -1,0 +1,81 @@
+{
+  "aliases": [
+    "Dinner Plate Aralia",
+    "Plate Aralia",
+    "Balfour Polyscias",
+    "Polyscias scutellaria 'Balfourii'"
+  ],
+  "category": "plant",
+  "chemicals": [
+    {
+      "chemical_formula": null,
+      "concentration_notes": "Present throughout the plant (leaves, stems, sap, flowers, roots). Overall toxicity is low: small amounts cause little or no reaction, and the bitter, irritating sap tends to limit how much a cat eats. Significant signs are expected only after a large ingestion.",
+      "description": "Saponins are soap-like glycosides that irritate mucous membranes. When chewed or swallowed they irritate the mouth and the lining of the stomach and intestines, causing drooling, vomiting and diarrhea. Sap on the skin can cause local redness or itching.",
+      "name": "Saponins"
+    }
+  ],
+  "description": "Balfour Aralia (Polyscias balfouriana) is a popular houseplant with round, glossy leaves. It belongs to the same family as Schefflera and English Ivy, and like its relatives it is not a plant cats should chew on. All parts contain saponins, soap-like compounds that irritate the mouth and digestive tract.\n\nThe risk is low. A nibble or two usually causes nothing more than brief drooling or mild stomach upset. Problems arise only when a cat eats a large amount of leaves or stems, which can lead to repeated vomiting, diarrhea, loss of appetite and lethargy. The ASPCA lists the closely related Polyscias guilfoylei (Geranium-Leaf Aralia) as toxic to cats for the same reason. Sap on the skin can also cause a localised rash.\n\nMost cases resolve on their own once the plant is removed. Keep the plant out of reach and offer fresh water if your cat has chewed it. Contact your veterinarian if vomiting or diarrhea continues for more than a day, if your cat stops eating, or if you see signs of dehydration or unusual weakness.",
+  "emergencyNote": "Supportive care for vomiting and diarrhea",
+  "family": "Araliaceae",
+  "isToxic": false,
+  "name": "Balfour Aralia",
+  "safetyNotes": [
+    "Main hazard: Saponins in all parts of the plant irritate the mouth and digestive tract; a small nibble is rarely a problem, a large amount can cause stomach upset.",
+    "Symptoms: Drooling, vomiting, diarrhea, loss of appetite and lethargy; sap on the skin can cause local redness or itching.",
+    "Why cats get exposed: Its glossy, rounded leaves and low, bushy growth put it within easy reach of a curious cat.",
+    "Action: Move the plant out of reach and offer water; call a vet if vomiting or diarrhea lasts more than a day or your cat stops eating."
+  ],
+  "scientific_name": "Polyscias balfouriana",
+  "severity": "cautious",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Mouth irritation and drooling",
+      "notes": "Saponins in the sap irritate the lining of the mouth as soon as the leaf or stem is chewed.",
+      "onset": "Immediate to within an hour of chewing",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Vomiting and diarrhea",
+      "notes": "Saponins irritate the stomach and intestinal lining. Usually only seen after a larger ingestion and resolves within a day.",
+      "onset": "Within a few hours of ingestion",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Loss of appetite and lethargy (depression)",
+      "notes": "Secondary to the stomach upset; listed by the ASPCA for the related Polyscias guilfoylei. Persistent refusal to eat warrants a vet visit.",
+      "onset": "Within hours of ingestion",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Contact dermatitis (skin redness or itching)",
+      "notes": "Sap on the skin can cause localised irritation; the ASPCA lists contact dermatitis for Polyscias. Rinse the area with water.",
+      "onset": "Shortly after skin contact with sap",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [
+    "Entire Plant",
+    "Leaf",
+    "Stem",
+    "Sap"
+  ],
+  "toxicityLevel": "low",
+  "treatments": [
+    {
+      "description": "Remove any plant material from the mouth and rinse the mouth with water. Rinse sap off the skin or coat with mild soap and water.",
+      "name": "Decontamination",
+      "notes": "Inducing vomiting at home is not recommended for cats.",
+      "priority": 1
+    },
+    {
+      "description": "The veterinarian may give anti-nausea medication, gastro-protectants and fluids if vomiting or diarrhea is persistent or the cat becomes dehydrated.",
+      "name": "Supportive care for vomiting and diarrhea",
+      "notes": "Most cases are mild and self-limiting; treatment is based on the signs present.",
+      "priority": 2
+    }
+  ]
+}

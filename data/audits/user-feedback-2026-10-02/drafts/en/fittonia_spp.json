@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "Fittonia",
+    "Mosaic Plant",
+    "Silver Nerve",
+    "Jewel Plant",
+    "Silver Threads"
+  ],
+  "category": "plant",
+  "chemicals": [],
+  "description": "Nerve Plant (Fittonia albivenis, often sold as Fittonia verschaffeltii) is a small houseplant known for its leaves patterned with white, pink or red veins. It is safe for cats. The ASPCA lists Nerve Plant as non-toxic to cats, dogs and horses, and it contains no known poisonous compounds.\n\nAs with any plant, eating a large amount of leaves can cause mild, short-lived stomach upset such as vomiting or soft stool, simply because cats are not built to digest plant material. This is not poisoning and usually passes on its own.\n\nIf your cat likes to nibble on it, you can let it be. Keep an eye on the plant for pesticides or leaf-shine products, which can be harmful, and contact your veterinarian only if vomiting is repeated or your cat seems unwell.",
+  "emergencyNote": "No treatment needed",
+  "family": "Acanthaceae",
+  "isToxic": false,
+  "name": "Nerve Plant",
+  "safetyNotes": [
+    "Safe: Listed by the ASPCA as non-toxic to cats; contains no known poisonous compounds.",
+    "Possible reaction: Eating a large amount of leaves may cause mild, brief vomiting or soft stool, as with any plant material.",
+    "Watch for: Pesticides, fertiliser or leaf-shine sprays on the plant, which can be harmful even when the plant itself is safe.",
+    "Action: No treatment needed for a nibble; contact a vet only if vomiting repeats or your cat seems unwell."
+  ],
+  "scientific_name": "Fittonia albivenis (syn. Fittonia verschaffeltii)",
+  "severity": "safe",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Mild vomiting or soft stool after eating a large amount",
+      "notes": "Not a toxic reaction; cats cannot digest large amounts of plant fibre. Resolves on its own.",
+      "onset": "Within a few hours of eating a large amount",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [],
+  "toxicityLevel": "none",
+  "treatments": [
+    {
+      "description": "Remove the plant if your cat is eating large amounts. Offer water and monitor.",
+      "name": "No treatment needed",
+      "notes": "Contact a vet only if vomiting is repeated or other signs appear.",
+      "priority": 1
+    }
+  ]
+}

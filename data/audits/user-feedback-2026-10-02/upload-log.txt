@@ -1,0 +1,27 @@
+Firestore en cache: 200 entries
+Missing from Firestore: 10 entries
+
+  CREATE coleus_scutellarioides  (hidden:false, +zh-TW)
+  CREATE coriandrum_sativum  (hidden:false, +zh-TW)
+  CREATE fittonia_spp  (hidden:false, +zh-TW)
+  CREATE polyscias_balfouriana  (hidden:false, +zh-TW)
+  CREATE taraxacum_officinale  (hidden:false, +zh-TW)
+  CREATE black_pepper  (hidden:false, +zh-TW)
+  CREATE butter  (hidden:false, +zh-TW)
+  CREATE ginger  (hidden:false, +zh-TW)
+  CREATE matcha  (hidden:false, +zh-TW)
+  CREATE turmeric  (hidden:false, +zh-TW)
+
+Done. 10 entries  created.
+OK   polyscias_balfouriana cautious false 圓葉福祿桐 sym 4/4
+OK   coleus_scutellarioides toxic false 彩葉草 sym 3/3
+OK   fittonia_spp safe false 網紋草 sym 1/1
+OK   taraxacum_officinale safe false 蒲公英 sym 2/2
+OK   coriandrum_sativum safe false 香菜 / 芫荽 sym 1/1
+OK   ginger cautious false 薑 sym 2/2
+OK   turmeric cautious false 薑黃 sym 2/2
+OK   black_pepper cautious false 黑胡椒 sym 3/3
+OK   butter cautious false 奶油 sym 2/2
+OK   matcha toxic false 抹茶 sym 3/3
+read-back OK 10/10
+ficus EN aliases: [ 'Burgundy Rubber Plant', "Ficus elastica 'Burgundy'" ] | zh aliases: [ '酒紅橡膠樹', '黑金剛橡膠樹' ]

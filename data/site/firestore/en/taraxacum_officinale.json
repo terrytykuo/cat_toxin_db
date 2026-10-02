@@ -1,0 +1,39 @@
+{
+  "slug": "taraxacum_officinale",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [],
+  "name": "Dandelion",
+  "aliases": [
+    "Common Dandelion",
+    "Lion's Tooth",
+    "Dandelion Greens"
+  ],
+  "description": "Dandelion (Taraxacum officinale) is the familiar yellow-flowered weed found in lawns and fields. It is not toxic to cats. It does not appear on the ASPCA's list of plants toxic to cats, and veterinary sources agree that the leaves, flowers and roots contain no compounds that poison cats. The practical risk comes from where the plant grows rather than the plant itself. Dandelions on lawns, roadsides and parks are often treated with herbicides or pesticides, and those chemicals can make a cat sick. Eating a large amount of leaves can also cause mild, short-lived stomach upset because cats are not built to digest much plant material. A cat that nibbles an untreated dandelion needs no treatment. Contact your veterinarian if your cat ate dandelions from an area that may have been sprayed, or if vomiting or diarrhea is repeated.",
+  "safetyNotes": [
+    "Safe: Not on the ASPCA toxic plant list; no known poisonous compounds in leaves, flowers or roots.",
+    "Real risk: Herbicides or pesticides sprayed on lawns and roadsides, not the plant itself.",
+    "Possible reaction: A large amount of leaves may cause mild, brief vomiting or diarrhea, as with any plant material.",
+    "Action: No treatment needed for untreated plants; call a vet if the area may have been sprayed or if vomiting or diarrhea repeats."
+  ],
+  "toxicParts": [],
+  "symptoms": [
+    {
+      "name": "Mild vomiting or diarrhea after eating a large amount",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Within a few hours of eating a large amount",
+      "notes": "Not a toxic reaction; caused by plant fibre that cats cannot digest well. Resolves on its own."
+    },
+    {
+      "name": "Signs of herbicide or pesticide exposure (drooling, vomiting, tremors)",
+      "body_system": "Neurological",
+      "severity": "moderate",
+      "onset": "Minutes to hours after eating sprayed plants",
+      "notes": "Caused by lawn chemicals on the plant, not by the dandelion. Contact a vet if the plants may have been treated."
+    }
+  ],
+  "scientificName": "Taraxacum officinale",
+  "family": "Asteraceae"
+}

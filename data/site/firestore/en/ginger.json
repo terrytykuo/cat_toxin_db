@@ -1,0 +1,40 @@
+{
+  "slug": "ginger",
+  "category": "food",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [],
+  "name": "Ginger",
+  "aliases": [
+    "Ginger Root",
+    "Fresh Ginger",
+    "Ground Ginger",
+    "Ginger Powder"
+  ],
+  "description": "Ginger (Zingiber officinale) is a common cooking spice and the root is also used as a home remedy for nausea. It is not toxic to cats. It does not appear on the ASPCA's toxic plant list, and the related Peacock Ginger (Kaempferia) is listed as non-toxic. A small taste of fresh root or a light dusting of plain powder in food will not harm a healthy adult cat. The caution is about amount and context. Ginger's active compounds (gingerols and shogaols) are warming and can irritate the stomach, so more than a tiny amount may cause drooling, vomiting or diarrhea. Ginger can also slow blood clotting and may interact with medications such as blood thinners, so it is not appropriate for kittens, pregnant cats, cats with bleeding disorders or cats on medication. Products that contain ginger, such as gingerbread, ginger ale or ginger candy, are a bigger concern because of their sugar, xylitol or other ingredients. A lick of plain ginger needs no treatment. Do not give ginger as a supplement without asking your veterinarian first, and contact your vet if vomiting or diarrhea persists after a larger amount.",
+  "safetyNotes": [
+    "Not toxic in small amounts: a taste of fresh root or a pinch of plain powder is safe for a healthy adult cat.",
+    "Caution: More than a small amount can irritate the stomach and cause drooling, vomiting or diarrhea.",
+    "Avoid in: Kittens, pregnant cats, cats with bleeding disorders, and cats on blood thinners or other medication, because ginger can affect clotting and interact with drugs.",
+    "Watch for: Ginger products such as gingerbread, ginger ale or candy, whose sugar, xylitol or other ingredients are the real hazard."
+  ],
+  "toxicParts": [],
+  "symptoms": [
+    {
+      "name": "Drooling, vomiting or diarrhea after a larger amount",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Within a few hours of ingestion",
+      "notes": "Caused by stomach irritation from the pungent compounds. Resolves on its own in most cats."
+    },
+    {
+      "name": "Increased bleeding tendency (with regular or large doses)",
+      "body_system": "Hematological",
+      "severity": "mild",
+      "onset": "With repeated or supplement-level use",
+      "notes": "Ginger can slow clotting. Relevant mainly for cats with bleeding disorders, cats on blood thinners, or before surgery."
+    }
+  ],
+  "scientificName": "Zingiber officinale",
+  "family": "Zingiberaceae"
+}

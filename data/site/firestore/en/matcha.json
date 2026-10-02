@@ -1,0 +1,49 @@
+{
+  "slug": "matcha",
+  "category": "food",
+  "hidden": false,
+  "severity": "toxic",
+  "imageUrls": [],
+  "name": "Matcha",
+  "aliases": [
+    "Matcha Powder",
+    "Green Tea Powder",
+    "Matcha Latte",
+    "Matcha Dessert"
+  ],
+  "description": "Matcha is finely ground green tea leaf powder from the Camellia sinensis plant. It is toxic to cats. Unlike brewed tea, where most of the leaf is discarded, matcha is the whole leaf consumed as powder, so it delivers a much more concentrated dose of caffeine and theobromine. These stimulants affect a cat's heart and nervous system, and cats are far more sensitive to them than people are. A lick of a matcha latte or dessert may cause restlessness and a faster heart rate. Eating a teaspoon of matcha powder, or a matcha-heavy dessert, can cause vomiting, diarrhea, panting, excessive thirst and urination, muscle tremors, an abnormal heart rhythm and seizures. Signs usually appear within one to two hours. Matcha drinks and desserts often also contain milk, sugar or chocolate, which add to the problem. If your cat has eaten matcha powder or more than a lick of a matcha product, contact your veterinarian or a pet poison hotline right away. Do not wait for signs to appear; early treatment is much more effective.",
+  "safetyNotes": [
+    "Main hazard: Caffeine and theobromine; matcha is whole-leaf powder, so it is far more concentrated than brewed tea.",
+    "Symptoms: Restlessness, rapid heart rate, vomiting, diarrhea, panting, excessive thirst and urination, tremors, abnormal heart rhythm and seizures, usually within 1 to 2 hours.",
+    "Why cats get exposed: Licking matcha lattes, ice cream or desserts, or getting into open matcha powder.",
+    "Action: Call a vet or pet poison hotline immediately if your cat ate matcha powder or more than a lick of a matcha product; do not wait for signs."
+  ],
+  "toxicParts": [
+    "Powder"
+  ],
+  "symptoms": [
+    {
+      "name": "Restlessness, hyperactivity and rapid heart rate",
+      "body_system": "Cardiac",
+      "severity": "moderate",
+      "onset": "Within 1 to 2 hours of ingestion",
+      "notes": "Early signs of caffeine stimulation. Even a small lick of a matcha drink can cause these."
+    },
+    {
+      "name": "Vomiting, diarrhea, panting, excessive thirst and urination",
+      "body_system": "Gastrointestinal",
+      "severity": "moderate",
+      "onset": "Within 1 to 2 hours of ingestion",
+      "notes": "Common signs of methylxanthine toxicity."
+    },
+    {
+      "name": "Muscle tremors, abnormal heart rhythm and seizures",
+      "body_system": "Neurological",
+      "severity": "severe",
+      "onset": "Within a few hours of a larger ingestion",
+      "notes": "Life-threatening signs that need emergency veterinary care."
+    }
+  ],
+  "scientificName": "Camellia sinensis",
+  "family": "Theaceae"
+}

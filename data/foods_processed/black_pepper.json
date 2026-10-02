@@ -1,0 +1,69 @@
+{
+  "aliases": [
+    "Peppercorn",
+    "Ground Pepper",
+    "White Pepper",
+    "Piperine"
+  ],
+  "category": "food",
+  "chemicals": [
+    {
+      "chemical_formula": null,
+      "concentration_notes": "Concentrated in the peppercorn. A trace in seasoned food is harmless; spilled ground pepper or heavily peppered food is where problems arise.",
+      "description": "The alkaloid responsible for pepper's pungency. It irritates mucous membranes on contact, causing burning in the mouth, sneezing when inhaled, and stomach upset when swallowed. It also affects liver enzymes that process some medications.",
+      "name": "Piperine"
+    }
+  ],
+  "description": "Black pepper (Piper nigrum) is the most common table spice. It is not poisonous to cats, but it is a strong irritant and cats should not eat it. The compound that gives pepper its heat, piperine, irritates the lining of the mouth, nose, eyes and digestive tract. Cats are far more sensitive to it than people are.\n\nA trace of pepper in a bite of seasoned food is unlikely to cause more than a sneeze. Larger amounts, such as licking up spilled pepper or eating heavily peppered food, can cause drooling, vomiting, diarrhea and loss of appetite. Inhaling ground pepper causes sneezing, coughing, watery eyes and nasal irritation, and pepper in the eyes causes burning and redness. Black pepper is sometimes used as a cat repellent for exactly this reason, which is not recommended.\n\nIf your cat has eaten or inhaled pepper, offer water and wipe any powder from the face. Rinse the eyes gently with saline if pepper got into them. Contact your veterinarian if vomiting or diarrhea continues, if breathing seems laboured, or if eye irritation does not settle.",
+  "emergencyNote": "Decontamination",
+  "family": "Piperaceae",
+  "isToxic": false,
+  "name": "Black Pepper",
+  "safetyNotes": [
+    "Main hazard: Piperine, the compound that makes pepper hot, irritates the mouth, nose, eyes and digestive tract; cats are much more sensitive than people.",
+    "Symptoms: Drooling, vomiting, diarrhea and loss of appetite after eating; sneezing, coughing, watery eyes and nasal irritation after inhaling the powder.",
+    "Why cats get exposed: Licking seasoned food or spilled pepper, or sniffing ground pepper; it is sometimes misused as a cat repellent.",
+    "Action: Offer water, wipe powder from the face, rinse eyes with saline if needed, and call a vet if vomiting, diarrhea, breathing difficulty or eye irritation persists."
+  ],
+  "scientific_name": "Piper nigrum",
+  "severity": "cautious",
+  "symptoms": [
+    {
+      "body_system": "Gastrointestinal",
+      "name": "Drooling, vomiting, diarrhea and loss of appetite",
+      "notes": "Piperine irritates the mouth and the lining of the stomach and intestines. Usually resolves on its own.",
+      "onset": "Within a few hours of eating pepper",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Respiratory",
+      "name": "Sneezing, coughing, watery eyes and nasal irritation",
+      "notes": "Pepper dust irritates the nose and airways. Severe or prolonged coughing or laboured breathing warrants a vet visit.",
+      "onset": "Immediately after inhaling ground pepper",
+      "severity": "mild"
+    },
+    {
+      "body_system": "Dermal",
+      "name": "Eye burning and redness",
+      "notes": "Rinse gently with saline; contact a vet if redness or squinting persists.",
+      "onset": "Immediately after pepper contacts the eyes",
+      "severity": "mild"
+    }
+  ],
+  "toxicParts": [],
+  "toxicityLevel": "low",
+  "treatments": [
+    {
+      "description": "Offer water, wipe pepper from the face and coat, and rinse the eyes gently with saline if pepper got into them.",
+      "name": "Decontamination",
+      "notes": "Inducing vomiting at home is not recommended for cats.",
+      "priority": 1
+    },
+    {
+      "description": "The veterinarian may give anti-nausea medication, fluids or eye treatment if signs persist.",
+      "name": "Supportive care",
+      "notes": "Treatment is symptomatic; there is no specific antidote.",
+      "priority": 2
+    }
+  ]
+}

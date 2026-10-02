@@ -1,0 +1,34 @@
+{
+  "slug": "coriandrum_sativum",
+  "category": "plant",
+  "hidden": false,
+  "severity": "safe",
+  "imageUrls": [],
+  "name": "Cilantro / Coriander",
+  "aliases": [
+    "Cilantro",
+    "Coriander",
+    "Chinese Parsley",
+    "Dhania",
+    "Coriander Seed"
+  ],
+  "description": "Cilantro, also called coriander (Coriandrum sativum), is a common kitchen herb. In North America, cilantro usually refers to the fresh leaves and stems, while coriander refers to the dried seeds; both come from the same plant. It is safe for cats. The ASPCA lists cilantro as non-toxic to cats, dogs and horses. A cat that nibbles a few fresh leaves or tastes food seasoned with coriander does not need any treatment. Eating a large amount of the herb can cause mild, short-lived stomach upset such as vomiting or soft stool, simply because cats are not built to digest much plant material. Ground coriander seed is a mild spice and is not harmful in the small amounts found in cooked food. Cilantro should not become a regular part of your cat's diet, but there is no need to worry about an occasional taste. Contact your veterinarian only if vomiting is repeated or your cat seems unwell.",
+  "safetyNotes": [
+    "Safe: Listed by the ASPCA as non-toxic to cats; leaves, stems and seeds contain no known poisonous compounds.",
+    "Possible reaction: Eating a large amount of leaves may cause mild, brief vomiting or soft stool, as with any plant material.",
+    "Watch for: Seasoned dishes may also contain onion, garlic or chili, which are the real hazards.",
+    "Action: No treatment needed for a nibble; contact a vet only if vomiting repeats or your cat seems unwell."
+  ],
+  "toxicParts": [],
+  "symptoms": [
+    {
+      "name": "Mild vomiting or soft stool after eating a large amount",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Within a few hours of eating a large amount",
+      "notes": "Not a toxic reaction; cats cannot digest large amounts of plant fibre. Resolves on its own."
+    }
+  ],
+  "scientificName": "Coriandrum sativum",
+  "family": "Apiaceae"
+}

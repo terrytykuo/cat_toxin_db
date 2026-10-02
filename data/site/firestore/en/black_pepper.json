@@ -1,0 +1,47 @@
+{
+  "slug": "black_pepper",
+  "category": "food",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [],
+  "name": "Black Pepper",
+  "aliases": [
+    "Peppercorn",
+    "Ground Pepper",
+    "White Pepper",
+    "Piperine"
+  ],
+  "description": "Black pepper (Piper nigrum) is the most common table spice. It is not poisonous to cats, but it is a strong irritant and cats should not eat it. The compound that gives pepper its heat, piperine, irritates the lining of the mouth, nose, eyes and digestive tract. Cats are far more sensitive to it than people are. A trace of pepper in a bite of seasoned food is unlikely to cause more than a sneeze. Larger amounts, such as licking up spilled pepper or eating heavily peppered food, can cause drooling, vomiting, diarrhea and loss of appetite. Inhaling ground pepper causes sneezing, coughing, watery eyes and nasal irritation, and pepper in the eyes causes burning and redness. Black pepper is sometimes used as a cat repellent for exactly this reason, which is not recommended. If your cat has eaten or inhaled pepper, offer water and wipe any powder from the face. Rinse the eyes gently with saline if pepper got into them. Contact your veterinarian if vomiting or diarrhea continues, if breathing seems laboured, or if eye irritation does not settle.",
+  "safetyNotes": [
+    "Main hazard: Piperine, the compound that makes pepper hot, irritates the mouth, nose, eyes and digestive tract; cats are much more sensitive than people.",
+    "Symptoms: Drooling, vomiting, diarrhea and loss of appetite after eating; sneezing, coughing, watery eyes and nasal irritation after inhaling the powder.",
+    "Why cats get exposed: Licking seasoned food or spilled pepper, or sniffing ground pepper; it is sometimes misused as a cat repellent.",
+    "Action: Offer water, wipe powder from the face, rinse eyes with saline if needed, and call a vet if vomiting, diarrhea, breathing difficulty or eye irritation persists."
+  ],
+  "toxicParts": [],
+  "symptoms": [
+    {
+      "name": "Drooling, vomiting, diarrhea and loss of appetite",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Within a few hours of eating pepper",
+      "notes": "Piperine irritates the mouth and the lining of the stomach and intestines. Usually resolves on its own."
+    },
+    {
+      "name": "Sneezing, coughing, watery eyes and nasal irritation",
+      "body_system": "Respiratory",
+      "severity": "mild",
+      "onset": "Immediately after inhaling ground pepper",
+      "notes": "Pepper dust irritates the nose and airways. Severe or prolonged coughing or laboured breathing warrants a vet visit."
+    },
+    {
+      "name": "Eye burning and redness",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Immediately after pepper contacts the eyes",
+      "notes": "Rinse gently with saline; contact a vet if redness or squinting persists."
+    }
+  ],
+  "scientificName": "Piper nigrum",
+  "family": "Piperaceae"
+}

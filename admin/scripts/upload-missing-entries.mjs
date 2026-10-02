@@ -4,7 +4,15 @@
  *
  * Usage:
  *   cd cat_toxin_db/admin
- *   node scripts/upload-missing-entries.mjs [--dry-run]
+ *   node scripts/upload-missing-entries.mjs [--dry-run] [--visible]
+ *
+ * Env:
+ *   ONLY_SLUGS=a,b,c   restrict to these slugs (recommended: the disk has
+ *                      legacy/duplicate files that must NOT be uploaded).
+ *   --visible          create with hidden:false (default hidden:true).
+ *
+ * The "missing" gate checks the live Firestore doc, not just the local
+ * data/site/firestore/en cache, so a stale cache cannot cause a duplicate set().
  */
 
 import { createRequire } from 'node:module'
@@ -15,6 +23,8 @@ import { fileURLToPath } from 'node:url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(import.meta.url)
 const DRY_RUN = process.argv.includes('--dry-run')
+const VISIBLE = process.argv.includes('--visible')
+const ONLY_SLUGS = new Set((process.env.ONLY_SLUGS || '').split(',').map(s => s.trim()).filter(Boolean))
 
 function parseEnvFile(filePath) {
   if (!existsSync(filePath)) return {}
@@ -84,6 +94,7 @@ const candidates = []
 for (const dir of [PLANTS_DIR, FOODS_DIR]) {
   for (const file of readdirSync(dir).filter(f => f.endsWith('.json'))) {
     const slug = file.replace('.json', '')
+    if (ONLY_SLUGS.size > 0 && !ONLY_SLUGS.has(slug)) continue
     if (!firestoreSlugs.has(slug)) {
       candidates.push({ slug, dir })
     }
@@ -98,10 +109,16 @@ for (const { slug, dir } of candidates) {
   const data = readJson(resolve(dir, `${slug}.json`))
   if (!data) continue
 
+  const liveSnap = await db.collection('toxins').doc(slug).get()
+  if (liveSnap.exists) {
+    console.log(`  SKIP ${slug}  (already exists in live Firestore; cache is stale)`)
+    continue
+  }
+
   // Build Firestore document: canonical data + hidden:false (needs review before publish)
   const doc = {
     ...data,
-    hidden: true,   // hidden until reviewed in admin UI
+    hidden: !VISIBLE,   // hidden until reviewed in admin UI unless --visible
     imageUrls: [],
   }
   delete doc.id  // Firestore doc id is the slug, not a field
@@ -113,7 +130,7 @@ for (const { slug, dir } of candidates) {
   }
 
   const hasZh = !!doc['l10n']
-  console.log(`  ${DRY_RUN ? 'WOULD CREATE' : 'CREATE'} ${slug}  (hidden:true${hasZh ? ', +zh-TW' : ''})`)
+  console.log(`  ${DRY_RUN ? 'WOULD CREATE' : 'CREATE'} ${slug}  (hidden:${doc.hidden}${hasZh ? ', +zh-TW' : ''})`)
 
   if (!DRY_RUN) {
     await db.collection('toxins').doc(slug).set(doc)

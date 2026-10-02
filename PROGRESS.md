@@ -351,3 +351,13 @@ Progress: /Users/sweetp/Workspace/MewGuard/cat_toxin_db/data/site/firestore/sync
 - 落地：EN disk canonical（頂層補 name/scientific_name/family/description/safetyNotes/symptoms）+ zh-TW（data/site/zh-TW，症狀逐 index 對齊）→ `ONLY_SLUGS=sweet_pea,lemon_mint sync-disk-to-firestore`（2 UPDATE）＋ `sync-zhtw-l10n-to-firestore --plan …29b.json`（2 UPDATE，Verify OK 2 / mismatch 0）→ reconcile 快取 2 檔 → `build:toxins` 200 筆 + `npm run build` 427 頁通過。
 - 工具：sync-disk-to-firestore 加 `ONLY_SLUGS`；report/sync-zhtw 加 `--out`/`--backup` 參數（避免覆寫既有報告與備份）。
 - 資料檔（plants_processed×2、data/site/zh-TW×2、firestore 快取、toxins.generated.ts）依 reconciliation 慣例未 commit。
+
+## 2026-10-02 — 使用者回饋批次：新增 10 筆 + ficus_elastica alias
+
+- 來源：使用者在 app 內回饋想查的植物/食物（Balfour aralia、Coleus、Fittonia、Burgundy、butter、dandelion、tulips、turmeric、ginger、black pepper、matcha、coriander）。tulips 已有；Burgundy 裁定為 *Ficus elastica* 'Burgundy' → 既有 `ficus_elastica` 加 EN/zh alias。
+- 查證：ASPCA 一手依據 — Coleus（toxic，essential oils）、Nerve Plant（non-toxic）、Cilantro（non-toxic）、Kaempferia（non-toxic，薑同科）、Geranium-Leaf Aralia（*Polyscias guilfoylei* toxic，皂苷；Balfour 無專頁，NC State Extension 列 low severity 皂苷）。Dandelion / ginger / turmeric / black pepper / butter / matcha 無 ASPCA 或 PPH 專頁，依獸醫審閱資訊網站保守撰寫。
+- 使用者裁定：Balfour Aralia **cautious**（內容標註大量攝入才有疑慮）、學名採 *Polyscias balfouriana*、slug `polyscias_balfouriana`；ginger **cautious**；matcha 獨立條目（與 tea 分開）。
+- 新增 10 筆（EN disk canonical + zh-TW，全部通過 `ToxinDiskSchema`）：plants `polyscias_balfouriana`(cautious) `coleus_scutellarioides`(toxic) `fittonia_spp`(safe) `taraxacum_officinale`(safe) `coriandrum_sativum`(safe)；foods `ginger`(cautious) `turmeric`(cautious) `black_pepper`(cautious) `butter`(cautious) `matcha`(toxic)。草稿與執行紀錄：`data/audits/user-feedback-2026-10-02/`。
+- 工具：`admin/scripts/upload-missing-entries.mjs` 新增 `ONLY_SLUGS` 環境變數、`--visible` 旗標（hidden:false 直接上線）、live doc 存在性閘門（原只看 stale 本地快取，會誤把 ~70 筆 disk-only legacy 檔全部上傳）。
+- 落地：`ONLY_SLUGS=… upload-missing-entries --visible` CREATE 10（含 l10n.zh-TW）→ read-back **OK 10/10**（severity / hidden=false / zh 名稱 / 症狀數對齊）；`ONLY_SLUGS=ficus_elastica sync-disk-to-firestore` UPDATE 1 + 一次性腳本補 `l10n.zh-TW.aliases`。網站 `build:toxins` 210 筆（162 plants / 48 foods）、zh pending 0；`npm run build` **449 頁**（原 427）。`toxins.generated.ts` 已在 mewguard_site main commit。
+- 本次 cat_toxin_db commit 範圍：10+10 新資料檔、ficus_elastica 兩檔 alias、firestore 快取新檔、上傳腳本、audits、docs。其餘既有 dirty 資料檔沿 reconciliation 慣例未動。

@@ -1,0 +1,40 @@
+{
+  "slug": "butter",
+  "category": "food",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [],
+  "name": "Butter",
+  "aliases": [
+    "Salted Butter",
+    "Unsalted Butter",
+    "Margarine",
+    "Ghee"
+  ],
+  "description": "Butter is not toxic to cats, but it is not a food they should eat. It is almost pure fat, and a cat's digestive system is not built to handle a sudden load of fat. A lick of butter from a plate will not harm most cats, but eating a larger amount can cause vomiting, diarrhea, stomach pain and loss of appetite. The more serious risk is pancreatitis, a painful inflammation of the pancreas that can be triggered by a fatty meal and can be life-threatening. Cats that are overweight, diabetic, or have had pancreatitis before are at higher risk. Butter contains only a small amount of lactose, so lactose intolerance is a minor concern compared with the fat. Salted butter adds sodium, and flavoured or compound butters may contain garlic, onion or herbs, which are the real toxic hazards. A small lick needs no treatment. If your cat has eaten a large amount of butter, watch closely for vomiting, lethargy, loss of appetite or a hunched, painful posture over the next one to two days, and contact your veterinarian if any of these appear.",
+  "safetyNotes": [
+    "Not toxic: a lick of plain butter is not harmful to most cats.",
+    "Main hazard: Very high fat content; a larger amount can cause vomiting, diarrhea and stomach pain, and may trigger pancreatitis.",
+    "Higher risk: Overweight or diabetic cats and cats with a history of pancreatitis; flavoured butters may contain garlic or onion, which are toxic.",
+    "Action: No treatment for a lick; after a large amount, watch for vomiting, lethargy, loss of appetite or a painful belly over 1 to 2 days and call a vet if they appear."
+  ],
+  "toxicParts": [],
+  "symptoms": [
+    {
+      "name": "Vomiting, diarrhea and stomach pain",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Within a few hours of eating a larger amount",
+      "notes": "Caused by the sudden load of fat. Usually resolves within a day."
+    },
+    {
+      "name": "Pancreatitis (persistent vomiting, lethargy, loss of appetite, painful belly)",
+      "body_system": "Gastrointestinal",
+      "severity": "severe",
+      "onset": "12 to 48 hours after a fatty meal",
+      "notes": "A fatty meal can trigger inflammation of the pancreas, which can be life-threatening. Overweight or diabetic cats and cats with previous pancreatitis are most at risk. Needs veterinary treatment."
+    }
+  ],
+  "scientificName": "",
+  "family": ""
+}

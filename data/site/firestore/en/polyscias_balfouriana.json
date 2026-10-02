@@ -1,0 +1,59 @@
+{
+  "slug": "polyscias_balfouriana",
+  "category": "plant",
+  "hidden": false,
+  "severity": "cautious",
+  "imageUrls": [],
+  "name": "Balfour Aralia",
+  "aliases": [
+    "Dinner Plate Aralia",
+    "Plate Aralia",
+    "Balfour Polyscias",
+    "Polyscias scutellaria 'Balfourii'"
+  ],
+  "description": "Balfour Aralia (Polyscias balfouriana) is a popular houseplant with round, glossy leaves. It belongs to the same family as Schefflera and English Ivy, and like its relatives it is not a plant cats should chew on. All parts contain saponins, soap-like compounds that irritate the mouth and digestive tract. The risk is low. A nibble or two usually causes nothing more than brief drooling or mild stomach upset. Problems arise only when a cat eats a large amount of leaves or stems, which can lead to repeated vomiting, diarrhea, loss of appetite and lethargy. The ASPCA lists the closely related Polyscias guilfoylei (Geranium-Leaf Aralia) as toxic to cats for the same reason. Sap on the skin can also cause a localised rash. Most cases resolve on their own once the plant is removed. Keep the plant out of reach and offer fresh water if your cat has chewed it. Contact your veterinarian if vomiting or diarrhea continues for more than a day, if your cat stops eating, or if you see signs of dehydration or unusual weakness.",
+  "safetyNotes": [
+    "Main hazard: Saponins in all parts of the plant irritate the mouth and digestive tract; a small nibble is rarely a problem, a large amount can cause stomach upset.",
+    "Symptoms: Drooling, vomiting, diarrhea, loss of appetite and lethargy; sap on the skin can cause local redness or itching.",
+    "Why cats get exposed: Its glossy, rounded leaves and low, bushy growth put it within easy reach of a curious cat.",
+    "Action: Move the plant out of reach and offer water; call a vet if vomiting or diarrhea lasts more than a day or your cat stops eating."
+  ],
+  "toxicParts": [
+    "Entire Plant",
+    "Leaf",
+    "Stem",
+    "Sap"
+  ],
+  "symptoms": [
+    {
+      "name": "Mouth irritation and drooling",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Immediate to within an hour of chewing",
+      "notes": "Saponins in the sap irritate the lining of the mouth as soon as the leaf or stem is chewed."
+    },
+    {
+      "name": "Vomiting and diarrhea",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Within a few hours of ingestion",
+      "notes": "Saponins irritate the stomach and intestinal lining. Usually only seen after a larger ingestion and resolves within a day."
+    },
+    {
+      "name": "Loss of appetite and lethargy (depression)",
+      "body_system": "Gastrointestinal",
+      "severity": "mild",
+      "onset": "Within hours of ingestion",
+      "notes": "Secondary to the stomach upset; listed by the ASPCA for the related Polyscias guilfoylei. Persistent refusal to eat warrants a vet visit."
+    },
+    {
+      "name": "Contact dermatitis (skin redness or itching)",
+      "body_system": "Dermal",
+      "severity": "mild",
+      "onset": "Shortly after skin contact with sap",
+      "notes": "Sap on the skin can cause localised irritation; the ASPCA lists contact dermatitis for Polyscias. Rinse the area with water."
+    }
+  ],
+  "scientificName": "Polyscias balfouriana",
+  "family": "Araliaceae"
+}
